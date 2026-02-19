@@ -7,6 +7,8 @@ from typing import Dict, List, Sequence
 
 import pandas as pd
 
+from .utils import normalize_ws, parse_json_list
+
 
 def _safe_fraction(num: float, den: float) -> float:
     if den <= 0:
@@ -15,11 +17,23 @@ def _safe_fraction(num: float, den: float) -> float:
     return max(0.0, min(1.0, frac))
 
 
+def _trial_mentions_class(row: pd.Series, cls: str) -> bool:
+    target = normalize_ws(str(cls)).lower()
+    primary = normalize_ws(str(row.get("primary_intervention_class", ""))).lower()
+    if primary == target:
+        return True
+    for item in parse_json_list(row.get("intervention_classes")):
+        if normalize_ws(str(item)).lower() == target:
+            return True
+    return False
+
+
 def _completed_universe(universe_df: pd.DataFrame, cls: str) -> pd.DataFrame:
-    return universe_df[
-        (universe_df["primary_intervention_class"] == cls)
-        & (universe_df["overall_status"].str.upper() == "COMPLETED")
-    ]
+    if universe_df.empty:
+        return universe_df
+    status_mask = universe_df["overall_status"].fillna("").astype(str).str.upper() == "COMPLETED"
+    class_mask = universe_df.apply(_trial_mentions_class, axis=1, cls=cls)
+    return universe_df[status_mask & class_mask]
 
 
 def build_mnar_envelopes(

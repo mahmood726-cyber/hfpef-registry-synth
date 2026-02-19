@@ -64,6 +64,21 @@ def to_json_text(value: Any) -> str:
     return json.dumps(value, ensure_ascii=False)
 
 
+def parse_json_list(value: Any) -> List[Any]:
+    if value is None:
+        return []
+    if isinstance(value, list):
+        return value
+    text = str(value).strip()
+    if not text:
+        return []
+    try:
+        parsed = json.loads(text)
+    except (TypeError, ValueError, json.JSONDecodeError):
+        return []
+    return parsed if isinstance(parsed, list) else []
+
+
 def unique_preserve_order(items: Iterable[str]) -> List[str]:
     seen = set()
     out: List[str] = []

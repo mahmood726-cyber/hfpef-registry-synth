@@ -9,22 +9,60 @@ import numpy as np
 import pandas as pd
 from dateutil.relativedelta import relativedelta
 
-from .utils import parse_date
+from .utils import normalize_ws, parse_date, parse_json_list
+
+
+def _safe_fraction(num: float, den: float) -> float:
+    if den <= 0:
+        return 0.0
+    frac = float(num) / float(den)
+    return max(0.0, min(1.0, frac))
+
+
+def _trial_mentions_class(row: pd.Series, cls: str) -> bool:
+    target = normalize_ws(str(cls)).lower()
+    primary = normalize_ws(str(row.get("primary_intervention_class", ""))).lower()
+    if primary == target:
+        return True
+    for item in parse_json_list(row.get("intervention_classes")):
+        if normalize_ws(str(item)).lower() == target:
+            return True
+    return False
 
 
 def _class_completed_universe(universe_df: pd.DataFrame, cls: str) -> pd.DataFrame:
     df = universe_df.copy()
-    return df[
-        (df["primary_intervention_class"] == cls)
-        & (df["overall_status"].str.upper() == "COMPLETED")
-    ]
+    if df.empty:
+        return df
+    status_mask = df["overall_status"].fillna("").astype(str).str.upper() == "COMPLETED"
+    class_mask = df.apply(_trial_mentions_class, axis=1, cls=cls)
+    return df[status_mask & class_mask]
 
 
 def _participant_sum(df: pd.DataFrame) -> float:
     if df.empty:
         return 0.0
-    vals = pd.to_numeric(df["enrollment"], errors="coerce").fillna(0)
-    return float(vals.sum())
+    vals = pd.to_numeric(df["enrollment"], errors="coerce")
+    return float(vals[vals > 0].sum())
+
+
+def _enrollment_coverage(df: pd.DataFrame) -> float:
+    if df.empty:
+        return 0.0
+    vals = pd.to_numeric(df["enrollment"], errors="coerce")
+    has_enrollment = int((vals > 0).sum())
+    return _safe_fraction(float(has_enrollment), float(len(df)))
+
+
+def _contributing_participants(comp_cls: pd.DataFrame) -> float:
+    if comp_cls.empty:
+        return 0.0
+    n_t = pd.to_numeric(comp_cls["n_t"], errors="coerce").fillna(0.0)
+    n_c = pd.to_numeric(comp_cls["n_c"], errors="coerce").fillna(0.0)
+    per_row = n_t + n_c
+    # Guard against duplicated rows within a trial/class/outcome.
+    per_trial = per_row.groupby(comp_cls["nct_id"]).max()
+    return float(per_trial.sum())
 
 
 def _reporting_debt_rate(class_completed: pd.DataFrame, grace_months: int, now: Optional[datetime] = None) -> float:
@@ -144,6 +182,7 @@ def build_trust_capsules(
         class_completed = _class_completed_universe(universe_df, cls)
         eligible_trials = len(class_completed)
         eligible_participants = _participant_sum(class_completed)
+        enrollment_coverage = _enrollment_coverage(class_completed)
         debt_rate = _reporting_debt_rate(class_completed, grace_months)
 
         for outcome in ("HF_HOSPITALIZATION", "SAE"):
@@ -151,10 +190,20 @@ def build_trust_capsules(
             comp_cls = comp_df[comp_df["intervention_class"] == cls] if not comp_df.empty else pd.DataFrame()
 
             contributing_trials = int(comp_cls["nct_id"].nunique()) if not comp_cls.empty else 0
-            contributing_participants = float(comp_cls["n_t"].sum() + comp_cls["n_c"].sum()) if not comp_cls.empty else 0.0
+            contributing_participants = _contributing_participants(comp_cls)
 
-            ecr_trials = (contributing_trials / eligible_trials) if eligible_trials else 0.0
-            ecr_participants = (contributing_participants / eligible_participants) if eligible_participants else 0.0
+            ecr_trials = _safe_fraction(float(contributing_trials), float(eligible_trials))
+            ecr_participants_raw = (contributing_participants / eligible_participants) if eligible_participants > 0 else np.nan
+
+            if eligible_participants <= 0:
+                ecr_participants = ecr_trials
+                ecr_rule = "trial_fraction_no_enrollment"
+            elif enrollment_coverage < 0.70:
+                ecr_participants = max(ecr_trials, _safe_fraction(contributing_participants, eligible_participants))
+                ecr_rule = "max_participant_trial_fraction_low_enrollment_coverage"
+            else:
+                ecr_participants = _safe_fraction(contributing_participants, eligible_participants)
+                ecr_rule = "participant_fraction"
 
             alignment_rate = _endpoint_alignment_rate(comp_cls)
 
@@ -175,10 +224,13 @@ def build_trust_capsules(
                     "outcome": outcome,
                     "eligible_completed_trials": eligible_trials,
                     "eligible_completed_participants": eligible_participants,
+                    "eligible_enrollment_coverage": enrollment_coverage,
                     "contributing_trials": contributing_trials,
                     "contributing_participants": contributing_participants,
                     "ecr_trials": ecr_trials,
                     "ecr_participants": ecr_participants,
+                    "ecr_participants_raw": ecr_participants_raw,
+                    "ecr_participants_rule": ecr_rule,
                     "reporting_debt_rate": debt_rate,
                     "endpoint_alignment_rate": alignment_rate,
                     "heterogeneity_i2": i2,
