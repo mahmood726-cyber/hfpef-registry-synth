@@ -48,3 +48,13 @@ po/*~
 *.png
 pairwise_meta_meta_results.csv
 nul
+
+# Python build/runtime artifacts
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Runtime directories for this project
+outputs/
+cache/

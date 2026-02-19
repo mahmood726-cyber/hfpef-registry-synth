@@ -1,0 +1,86 @@
+"""Markdown reporting helpers."""
+
+from __future__ import annotations
+
+from datetime import datetime, timezone
+from pathlib import Path
+from typing import Iterable
+
+import pandas as pd
+
+from .config import PipelineConfig
+
+
+def _top_lines(df: pd.DataFrame, cols: Iterable[str], n: int = 8) -> str:
+    if df.empty:
+        return "- None\n"
+    lines = []
+    subset = df[list(cols)].head(n)
+    for _, row in subset.iterrows():
+        kv = ", ".join(f"{c}={row[c]}" for c in subset.columns)
+        lines.append(f"- {kv}")
+    return "\n".join(lines) + "\n"
+
+
+def write_summary_report(
+    path: Path,
+    config: PipelineConfig,
+    universe_df: pd.DataFrame,
+    hfhosp_summary: pd.DataFrame,
+    sae_summary: pd.DataFrame,
+    decision_df: pd.DataFrame,
+    trust_df: pd.DataFrame,
+    mnar_df: pd.DataFrame,
+) -> None:
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+
+    completed = int((universe_df["overall_status"].str.upper() == "COMPLETED").sum()) if not universe_df.empty else 0
+    posted = int(universe_df.get("results_posted", pd.Series(dtype=bool)).fillna(False).astype(bool).sum()) if not universe_df.empty else 0
+
+    text = f"""# HFpEF Registry-First Transparency-Adjusted Synthesis
+
+Generated: {now}
+
+## Registry-First Principle
+This report treats trial registrations/protocols as the denominator truth layer and explicitly accounts for missing results as measurable reporting debt.
+
+## Run Configuration
+- start_year: {config.start_year}
+- grace_months: {config.grace_months}
+- baseline_risks_per_1000: {','.join(map(str, config.baseline_risks))}
+- mnar_deltas: {','.join(map(str, config.mnar_deltas))}
+- use_pubmed: {config.use_pubmed}
+- use_openalex: {config.use_openalex}
+
+## Trial Universe Snapshot
+- Eligible HFpEF interventional trials: {len(universe_df)}
+- Completed trials: {completed}
+- Trials with posted CT.gov results module: {posted}
+
+## HF Hospitalization Synthesis (Class-level)
+{_top_lines(hfhosp_summary, ["intervention_class", "k_studies", "pooled_rr", "ci_low_rr", "ci_high_rr", "i2"]) }
+
+## SAE Synthesis (Class-level)
+{_top_lines(sae_summary, ["intervention_class", "k_studies", "pooled_rr", "ci_low_rr", "ci_high_rr", "i2"]) }
+
+## Decision-Grade Absolute Effects (per 1000)
+{_top_lines(decision_df, ["intervention_class", "baseline_risk_per_1000", "arr_hfhosp_per_1000", "ari_sae_per_1000", "net_benefit_per_1000"]) }
+
+## Trust Capsules
+{_top_lines(trust_df, ["intervention_class", "outcome", "ecr_trials", "ecr_participants", "reporting_debt_rate", "trust_score"]) }
+
+## MNAR Transparency-Adjusted Sensitivity
+{_top_lines(mnar_df, ["intervention_class", "outcome", "scenario", "observed_rr", "adjusted_rr", "conclusion_change", "robust_under_scenario"]) }
+
+## Interpretation Notes
+- No SUCRA or ordinal ranking is produced.
+- Decision support is expressed as absolute effects and net tradeoffs with uncertainty.
+- Trust score is explicit and editable, not a black-box model.
+
+## Known Limitations
+- Registry outcomes may not align exactly with publication endpoint definitions.
+- Missing PDFs and non-posted results remain partially unobserved by design.
+- SAE tables can differ in whether they report subjects vs events; this is flagged in extracts.
+"""
+
+    path.write_text(text, encoding="utf-8")

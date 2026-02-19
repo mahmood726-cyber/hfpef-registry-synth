@@ -1,0 +1,363 @@
+{
+  "studies": [
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT00000001",
+          "briefTitle": "Empagliflozin in HFpEF",
+          "officialTitle": "Randomized Trial of Empagliflozin in Heart Failure With Preserved Ejection Fraction"
+        },
+        "statusModule": {
+          "overallStatus": "COMPLETED",
+          "startDateStruct": {"date": "2019-01-01"},
+          "primaryCompletionDateStruct": {"date": "2021-06-01"},
+          "completionDateStruct": {"date": "2021-09-01"}
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "designInfo": {"allocation": "RANDOMIZED"},
+          "enrollmentInfo": {"count": "200", "type": "ACTUAL"}
+        },
+        "conditionsModule": {
+          "conditions": ["Heart Failure with Preserved Ejection Fraction"],
+          "keywords": ["HFpEF", "diastolic heart failure"]
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {"id": "G1", "label": "Empagliflozin"},
+            {"id": "G2", "label": "Placebo"}
+          ],
+          "interventions": [
+            {"name": "Empagliflozin", "type": "DRUG"},
+            {"name": "Placebo", "type": "PLACEBO_COMPARATOR"}
+          ]
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "measure": "Hospitalization for heart failure",
+              "description": "Participants with at least one HF hospitalization",
+              "timeFrame": "12 months"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "measure": "All-cause mortality",
+              "timeFrame": "12 months"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Adults with LVEF >= 50% and symptomatic HF"
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {"name": "Sponsor A"},
+          "collaborators": [{"name": "Collaborator A"}]
+        }
+      },
+      "resultsSection": {
+        "outcomeMeasuresModule": {
+          "outcomeMeasures": [
+            {
+              "title": "Hospitalization for heart failure",
+              "description": "Participants with >=1 HF hospitalization",
+              "timeFrame": "12 months",
+              "groups": [
+                {"id": "G1", "title": "Empagliflozin"},
+                {"id": "G2", "title": "Placebo"}
+              ],
+              "denoms": [
+                {
+                  "title": "Participants analyzed",
+                  "counts": [
+                    {"groupId": "G1", "value": "100"},
+                    {"groupId": "G2", "value": "100"}
+                  ]
+                }
+              ],
+              "classes": [
+                {
+                  "title": "Participants with at least one event",
+                  "categories": [
+                    {
+                      "title": "Total",
+                      "measurements": [
+                        {"groupId": "G1", "value": "20"},
+                        {"groupId": "G2", "value": "30"}
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "adverseEventsModule": {
+          "timeFrame": "12 months",
+          "eventGroups": [
+            {"id": "G1", "title": "Empagliflozin", "subjectsAtRisk": "100"},
+            {"id": "G2", "title": "Placebo", "subjectsAtRisk": "100"}
+          ],
+          "seriousEvents": [
+            {
+              "term": "Total SAE",
+              "stats": [
+                {"groupId": "G1", "subjectsAffected": "10"},
+                {"groupId": "G2", "subjectsAffected": "12"}
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT00000002",
+          "briefTitle": "Dapagliflozin registry trial in HFpEF"
+        },
+        "statusModule": {
+          "overallStatus": "COMPLETED",
+          "startDateStruct": {"date": "2018-01-01"},
+          "primaryCompletionDateStruct": {"date": "2020-01-01"},
+          "completionDateStruct": {"date": "2020-03-01"}
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "designInfo": {"allocation": "RANDOMIZED"},
+          "enrollmentInfo": {"count": "160", "type": "ACTUAL"}
+        },
+        "conditionsModule": {
+          "conditions": ["HFpEF"],
+          "keywords": ["preserved ejection fraction"]
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {"id": "H1", "label": "Dapagliflozin"},
+            {"id": "H2", "label": "Placebo"}
+          ],
+          "interventions": [
+            {"name": "Dapagliflozin", "type": "DRUG"},
+            {"name": "Placebo", "type": "PLACEBO_COMPARATOR"}
+          ]
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "measure": "Heart failure hospitalization",
+              "timeFrame": "18 months"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "LVEF >= 50%"
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {"name": "Sponsor B"},
+          "collaborators": []
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT00000003",
+          "briefTitle": "Sacubitril valsartan in HFpEF"
+        },
+        "statusModule": {
+          "overallStatus": "COMPLETED",
+          "startDateStruct": {"date": "2017-06-01"},
+          "primaryCompletionDateStruct": {"date": "2019-12-01"},
+          "completionDateStruct": {"date": "2020-02-01"}
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "designInfo": {"allocation": "RANDOMIZED"},
+          "enrollmentInfo": {"count": "220", "type": "ACTUAL"}
+        },
+        "conditionsModule": {
+          "conditions": ["Heart failure with preserved ejection fraction"],
+          "keywords": ["HFpEF"]
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {"id": "A1", "label": "Sacubitril/Valsartan"},
+            {"id": "A2", "label": "Placebo"}
+          ],
+          "interventions": [
+            {"name": "Sacubitril/Valsartan", "type": "DRUG"},
+            {"name": "Placebo", "type": "PLACEBO_COMPARATOR"}
+          ]
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "measure": "HF hospitalization",
+              "timeFrame": "24 months"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Ejection fraction >= 45%"
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {"name": "Sponsor C"},
+          "collaborators": []
+        }
+      },
+      "resultsSection": {
+        "outcomeMeasuresModule": {
+          "outcomeMeasures": [
+            {
+              "title": "HF hospitalization",
+              "description": "Participants with >=1 HF hospitalization",
+              "timeFrame": "24 months",
+              "groups": [
+                {"id": "A1", "title": "Sacubitril/Valsartan"},
+                {"id": "A2", "title": "Placebo"}
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {"groupId": "A1", "value": "110"},
+                    {"groupId": "A2", "value": "110"}
+                  ]
+                }
+              ],
+              "classes": [
+                {
+                  "title": "Participants with at least one event",
+                  "categories": [
+                    {
+                      "title": "Total",
+                      "measurements": [
+                        {"groupId": "A1", "value": "35"},
+                        {"groupId": "A2", "value": "40"}
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "adverseEventsModule": {
+          "timeFrame": "24 months",
+          "eventGroups": [
+            {"id": "A1", "title": "Sacubitril/Valsartan", "subjectsAtRisk": "110"},
+            {"id": "A2", "title": "Placebo", "subjectsAtRisk": "110"}
+          ],
+          "seriousEvents": [
+            {
+              "term": "Total SAE",
+              "stats": [
+                {"groupId": "A1", "subjectsAffected": "16"},
+                {"groupId": "A2", "subjectsAffected": "14"}
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT00000004",
+          "briefTitle": "Spironolactone in HFpEF"
+        },
+        "statusModule": {
+          "overallStatus": "COMPLETED",
+          "startDateStruct": {"date": "2016-03-01"},
+          "primaryCompletionDateStruct": {"date": "2018-11-01"},
+          "completionDateStruct": {"date": "2019-01-01"}
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "designInfo": {"allocation": "RANDOMIZED"},
+          "enrollmentInfo": {"count": "180", "type": "ACTUAL"}
+        },
+        "conditionsModule": {
+          "conditions": ["HFpEF"],
+          "keywords": ["diastolic heart failure"]
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {"id": "M1", "label": "Spironolactone"},
+            {"id": "M2", "label": "Standard of care"}
+          ],
+          "interventions": [
+            {"name": "Spironolactone", "type": "DRUG"},
+            {"name": "Standard of care", "type": "ACTIVE_COMPARATOR"}
+          ]
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "measure": "Hospitalization for heart failure",
+              "timeFrame": "12 months"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "LVEF >= 40%"
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {"name": "Sponsor D"},
+          "collaborators": []
+        }
+      },
+      "resultsSection": {
+        "outcomeMeasuresModule": {
+          "outcomeMeasures": [
+            {
+              "title": "Hospitalization for heart failure",
+              "timeFrame": "12 months",
+              "groups": [
+                {"id": "M1", "title": "Spironolactone"},
+                {"id": "M2", "title": "Standard of care"}
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {"groupId": "M1", "value": "90"},
+                    {"groupId": "M2", "value": "90"}
+                  ]
+                }
+              ],
+              "classes": [
+                {
+                  "title": "Participants with at least one event",
+                  "categories": [
+                    {
+                      "title": "Total",
+                      "measurements": [
+                        {"groupId": "M1", "value": "22"},
+                        {"groupId": "M2", "value": "25"}
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "adverseEventsModule": {
+          "timeFrame": "12 months",
+          "eventGroups": [
+            {"id": "M1", "title": "Spironolactone", "subjectsAtRisk": "90"},
+            {"id": "M2", "title": "Standard of care", "subjectsAtRisk": "90"}
+          ],
+          "seriousEvents": [
+            {
+              "term": "Total SAE",
+              "stats": [
+                {"groupId": "M1", "subjectsAffected": "18"},
+                {"groupId": "M2", "subjectsAffected": "15"}
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
