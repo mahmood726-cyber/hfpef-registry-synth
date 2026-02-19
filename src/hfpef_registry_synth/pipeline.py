@@ -90,11 +90,20 @@ def run_pipeline(config: PipelineConfig, preloaded_studies: Optional[Iterable[Di
         event_col="events",
         outcome_label="HF_HOSPITALIZATION",
     )
+    sae_subject_df = extracted.sae_df
+    if not sae_subject_df.empty and "count_type" in sae_subject_df.columns:
+        total_rows = len(sae_subject_df)
+        sae_subject_df = sae_subject_df[sae_subject_df["count_type"] == "subjects_with_>=1_sae"].copy()
+        logger.info(
+            "SAE synthesis uses participant-level totals only: retained %d/%d arm rows",
+            len(sae_subject_df),
+            total_rows,
+        )
+
     sae_comp_df = build_pairwise_comparisons(
-        extracted.sae_df,
+        sae_subject_df,
         universe_df,
         event_col="subjects_with_sae",
-        fallback_event_col="event_count",
         outcome_label="SAE",
     )
 

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from collections import defaultdict
 from dataclasses import dataclass
+import re
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 
 import pandas as pd
@@ -213,9 +214,10 @@ def _extract_hfhosp_rows(study: Dict[str, Any], trial_meta: Dict[str, Any]) -> L
     return _extract_hfhosp_rows_for_outcome(study, outcomes[idx], trial_meta, idx)
 
 
-def _extract_event_group_map(module: Dict[str, Any]) -> Tuple[Dict[str, str], Dict[str, int]]:
+def _extract_event_group_map(module: Dict[str, Any]) -> Tuple[Dict[str, str], Dict[str, int], Dict[str, int]]:
     group_map: Dict[str, str] = {}
     group_n: Dict[str, int] = {}
+    group_serious_totals: Dict[str, int] = {}
 
     for group in module.get("eventGroups", []) or module.get("groups", []) or []:
         gid = str(group.get("id") or group.get("groupId") or "").strip()
@@ -225,17 +227,49 @@ def _extract_event_group_map(module: Dict[str, Any]) -> Tuple[Dict[str, str], Di
             den = safe_int(
                 group.get("subjectsAtRisk")
                 or group.get("numAtRisk")
+                or group.get("seriousNumAtRisk")
                 or group.get("denominator")
                 or group.get("numParticipants")
             )
             if den is not None:
                 group_n[gid] = den
-    return group_map, group_n
+            serious_total = safe_int(
+                group.get("seriousNumAffected")
+                or group.get("seriousSubjectsAffected")
+                or group.get("numSeriousAffected")
+            )
+            if serious_total is not None:
+                group_serious_totals[gid] = serious_total
+    return group_map, group_n, group_serious_totals
 
 
-def _collect_serious_records(node: Any, path: str = "") -> List[Dict[str, Any]]:
+def _is_total_sae_term(term: str) -> bool:
+    raw = normalize_ws(term).lower()
+    if not raw:
+        return False
+    if raw in {"serious adverse events", "serious adverse event", "sae", "total sae", "total", "overall", "all"}:
+        return True
+    has_sae_signal = ("serious" in raw and ("adverse" in raw or "ae" in raw)) or ("sae" in raw)
+    if not has_sae_signal:
+        return False
+    if "participants with" in raw or "number of participants with" in raw:
+        return True
+    return bool(re.search(r"\b(total|overall|all)\b", raw))
+
+
+def _collect_serious_records(node: Any, path: str = "", inherited_term: str = "") -> List[Dict[str, Any]]:
     out: List[Dict[str, Any]] = []
     if isinstance(node, dict):
+        term = normalize_ws(
+            str(
+                node.get("term")
+                or node.get("event")
+                or node.get("title")
+                or node.get("adverseEventTerm")
+                or inherited_term
+                or ""
+            )
+        )
         gid = node.get("groupId") or node.get("id")
         affected = safe_int(
             node.get("subjectsAffected")
@@ -250,16 +284,6 @@ def _collect_serious_records(node: Any, path: str = "") -> List[Dict[str, Any]]:
             or node.get("denominator")
             or node.get("numParticipants")
         )
-        term = normalize_ws(
-            str(
-                node.get("term")
-                or node.get("event")
-                or node.get("title")
-                or node.get("adverseEventTerm")
-                or ""
-            )
-        )
-
         if gid and (affected is not None or events is not None):
             out.append(
                 {
@@ -273,11 +297,11 @@ def _collect_serious_records(node: Any, path: str = "") -> List[Dict[str, Any]]:
             )
 
         for k, v in node.items():
-            out.extend(_collect_serious_records(v, f"{path}.{k}" if path else k))
+            out.extend(_collect_serious_records(v, f"{path}.{k}" if path else k, term))
 
     elif isinstance(node, list):
         for idx, item in enumerate(node):
-            out.extend(_collect_serious_records(item, f"{path}[{idx}]"))
+            out.extend(_collect_serious_records(item, f"{path}[{idx}]", inherited_term))
 
     return out
 
@@ -288,7 +312,7 @@ def _extract_sae_rows(study: Dict[str, Any], trial_meta: Dict[str, Any]) -> List
     if not module:
         return []
 
-    group_map, group_n = _extract_event_group_map(module)
+    group_map, group_n, group_serious_totals = _extract_event_group_map(module)
     if not group_map:
         group_map = _fallback_group_map(study)
 
@@ -304,21 +328,35 @@ def _extract_sae_rows(study: Dict[str, Any], trial_meta: Dict[str, Any]) -> List
     rows: List[Dict[str, Any]] = []
     for gid, recs in grouped.items():
         gname = group_map.get(gid, gid)
-        totals = [r for r in recs if "total" in (r.get("term", "").lower())]
+        totals = [r for r in recs if _is_total_sae_term(str(r.get("term", "")))]
+        term_subjects = [r.get("subjects_affected") for r in recs if r.get("subjects_affected") is not None]
+        term_events = [r.get("events") for r in recs if r.get("events") is not None]
 
         subjects = None
+        subjects_source = ""
         count_type = "subjects_with_>=1_sae"
         if totals:
             subjects = max((r.get("subjects_affected") for r in totals if r.get("subjects_affected") is not None), default=None)
-        if subjects is None:
-            subjects = max((r.get("subjects_affected") for r in recs if r.get("subjects_affected") is not None), default=None)
             if subjects is not None:
-                count_type = "subjects_from_max_term"
+                subjects_source = "term_total"
+        if subjects is None:
+            subjects = group_serious_totals.get(gid)
+            if subjects is not None:
+                subjects_source = "event_group_total"
 
         events = None
         if subjects is None:
-            events = sum(r.get("events") or 0 for r in recs)
-            count_type = "event_counts_only"
+            if totals:
+                events = max((r.get("events") for r in totals if r.get("events") is not None), default=None)
+                count_type = "event_counts_total_only" if events is not None else "missing_total_subject_counts"
+            elif term_subjects:
+                # Avoid treating non-total term-specific subject counts as participants with >=1 SAE.
+                count_type = "subjects_non_total_not_used"
+            elif term_events:
+                events = float(sum(term_events))
+                count_type = "event_counts_only_non_total"
+            else:
+                count_type = "missing_total_subject_counts"
 
         denom = group_n.get(gid)
         if denom is None:
@@ -346,8 +384,10 @@ def _extract_sae_rows(study: Dict[str, Any], trial_meta: Dict[str, Any]) -> List
                 "event_count": events,
                 "denominator": denom,
                 "count_type": count_type,
+                "subjects_source": subjects_source,
+                "is_total_term_available": bool(totals),
                 "is_event_count": subjects is not None and denom is not None and subjects <= denom,
-                "is_incomplete": subjects is None and events is not None,
+                "is_incomplete": subjects is None,
                 "source_url": ctgov_record_url(nct_id),
             }
         )

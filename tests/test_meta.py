@@ -85,3 +85,51 @@ def test_build_pairwise_comparisons_splits_shared_control_for_multiarm_trial():
     assert set(out["n_c"]) == {50.0}
     assert math.isclose(float(out["e_c"].sum()), 30.0, rel_tol=1e-9)
     assert math.isclose(float(out["n_c"].sum()), 100.0, rel_tol=1e-9)
+
+
+def test_build_pairwise_comparisons_without_fallback_ignores_event_count_only_sae_rows():
+    arm_df = pd.DataFrame(
+        [
+            {
+                "nct_id": "NCT_SAE_EVENTS_ONLY",
+                "arm_role": "treatment",
+                "arm_class": "SGLT2 inhibitors",
+                "arm_group_name": "Empagliflozin",
+                "arm_label": "empagliflozin",
+                "subjects_with_sae": None,
+                "event_count": 20,
+                "denominator": 100,
+                "time_months": 12,
+            },
+            {
+                "nct_id": "NCT_SAE_EVENTS_ONLY",
+                "arm_role": "comparator",
+                "arm_class": "Placebo/SoC",
+                "arm_group_name": "Placebo",
+                "arm_label": "placebo",
+                "subjects_with_sae": None,
+                "event_count": 18,
+                "denominator": 100,
+                "time_months": 12,
+            },
+        ]
+    )
+    universe_df = pd.DataFrame(
+        [
+            {
+                "nct_id": "NCT_SAE_EVENTS_ONLY",
+                "ef_band": "strict_hfpef",
+                "primary_completion_year": 2021,
+                "enrollment": 200,
+            }
+        ]
+    )
+
+    out = build_pairwise_comparisons(
+        arm_df=arm_df,
+        universe_df=universe_df,
+        event_col="subjects_with_sae",
+        outcome_label="SAE",
+    )
+
+    assert out.empty

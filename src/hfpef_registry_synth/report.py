@@ -82,7 +82,7 @@ This report treats trial registrations/protocols as the denominator truth layer 
 ## Known Limitations
 - Registry outcomes may not align exactly with publication endpoint definitions.
 - Missing PDFs and non-posted results remain partially unobserved by design.
-- SAE tables can differ in whether they report subjects vs events; this is flagged in extracts.
+- SAE synthesis uses participant-level totals where available (total SAE rows or event-group serious totals); event-count-only SAE tables are flagged and excluded from pooled RR.
 """
 
     path.write_text(text, encoding="utf-8")

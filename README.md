@@ -115,10 +115,11 @@ EF parsing and outcome harmonization rules are in:
 - `trust_capsules.csv`: explicit penalties and trust score components.
 - `mnar_envelopes.csv`: shows whether conclusions remain stable when missing trials are assumed less favorable.
 - `summary_report.md`: compact narrative of findings and robustness.
+- SAE pooling uses participant-level totals (participants with >=1 SAE), drawn from total SAE term rows or `eventGroups.seriousNumAffected` when present; event-count-only SAE rows remain in extracts but are excluded from pooled RR synthesis.
 
 ## Limitations
 - Registration outcomes may not be perfectly aligned to publication outcomes/timepoints.
-- CT.gov result tables can vary (subjects vs events for SAE).
+- CT.gov result tables can vary (subjects vs events for SAE), and event-count-only SAE tables cannot be directly pooled as participant risk ratios.
 - HR-only outcomes are not fully used in this MVP (binary arm-level counts prioritized).
 - PubMed/OpenAlex linkage depends on public indexing; false negatives are possible for very recent or weakly indexed records.
 
