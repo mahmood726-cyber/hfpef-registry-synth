@@ -28,7 +28,7 @@ Additional helper outputs:
 - Primary outcome focus: HF hospitalization.
 - Safety focus: serious adverse events (SAE).
 - No paywall bypass, no scraping non-API registries.
-- Core data source: ClinicalTrials.gov v2 API (open). Optional PubMed/OpenAlex linkage is placeholder-only in MVP.
+- Core data source: ClinicalTrials.gov v2 API (open). Optional PubMed/OpenAlex linkage is available via open APIs.
 
 ## Installation
 ```bash
@@ -88,6 +88,7 @@ python3 -m scripts.run_hfpef --out_dir outputs --fixture_path tests/fixtures/moc
   - `synthesis.py` logRR, random effects, class partial pooling, meta-regression, decision table
   - `trust.py` denominator-aware trust capsules
   - `mnar.py` transparency-adjusted MNAR sensitivity envelopes
+  - `linkage.py` optional PubMed/OpenAlex publication linkage
   - `graph_export.py` field evidence graph exporter
   - `pipeline.py` full orchestration
 - `scripts/`
@@ -119,7 +120,7 @@ EF parsing and outcome harmonization rules are in:
 - Registration outcomes may not be perfectly aligned to publication outcomes/timepoints.
 - CT.gov result tables can vary (subjects vs events for SAE).
 - HR-only outcomes are not fully used in this MVP (binary arm-level counts prioritized).
-- Optional publication linkage is currently a link-out placeholder.
+- PubMed/OpenAlex linkage depends on public indexing; false negatives are possible for very recent or weakly indexed records.
 
 ## Legal / Ethical
 - Uses only open APIs and open metadata.

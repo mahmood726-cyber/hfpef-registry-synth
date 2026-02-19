@@ -30,6 +30,22 @@ def _trial_mentions_class(row: pd.Series, cls: str) -> bool:
     return False
 
 
+def _all_universe_classes(universe_df: pd.DataFrame) -> List[str]:
+    classes: List[str] = []
+    if universe_df.empty:
+        return classes
+    for value in universe_df.get("primary_intervention_class", pd.Series(dtype=str)).tolist():
+        item = normalize_ws(str(value))
+        if item:
+            classes.append(item)
+    for raw in universe_df.get("intervention_classes", pd.Series(dtype=str)).tolist():
+        for item in parse_json_list(raw):
+            label = normalize_ws(str(item))
+            if label:
+                classes.append(label)
+    return sorted(set(classes))
+
+
 def _class_completed_universe(universe_df: pd.DataFrame, cls: str) -> pd.DataFrame:
     df = universe_df.copy()
     if df.empty:
@@ -152,7 +168,7 @@ def build_trust_capsules(
     grace_months: int,
 ) -> pd.DataFrame:
     classes = sorted(
-        set(universe_df["primary_intervention_class"].dropna().unique())
+        set(_all_universe_classes(universe_df))
         | set(hfhosp_summary.get("intervention_class", []))
         | set(sae_summary.get("intervention_class", []))
     )

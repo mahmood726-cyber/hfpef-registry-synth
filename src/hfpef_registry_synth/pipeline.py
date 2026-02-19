@@ -11,6 +11,7 @@ import pandas as pd
 from .config import PipelineConfig
 from .ctgov_client import CTGovClient
 from .graph_export import build_evidence_graph
+from .linkage import enrich_publication_flags
 from .logging_utils import setup_logging
 from .mnar import build_mnar_envelopes
 from .report import write_summary_report
@@ -43,16 +44,6 @@ def _save(df: pd.DataFrame, path: Path) -> None:
     df.to_csv(path, index=False)
 
 
-def _stub_publication_flags(universe_df: pd.DataFrame, use_pubmed: bool, use_openalex: bool) -> pd.DataFrame:
-    out = universe_df.copy()
-    out["has_publication_link"] = False
-    out["publication_link_source"] = ""
-    if use_pubmed or use_openalex:
-        # Placeholder by design: optional linkage is not required for MVP.
-        out["publication_link_source"] = "link-out-placeholder"
-    return out
-
-
 def run_pipeline(config: PipelineConfig, preloaded_studies: Optional[Iterable[Dict]] = None) -> PipelineArtifacts:
     _ensure_output_dirs(config)
     logger = setup_logging(name="hfpef_registry_synth.pipeline")
@@ -70,7 +61,15 @@ def run_pipeline(config: PipelineConfig, preloaded_studies: Optional[Iterable[Di
 
     logger.info("Building trial universe from %d fetched studies", len(studies))
     universe_res: TrialUniverseResult = build_trial_universe(studies, start_year=config.start_year)
-    universe_df = _stub_publication_flags(universe_res.df, config.use_pubmed, config.use_openalex)
+    universe_df = enrich_publication_flags(
+        universe_df=universe_res.df,
+        cache_dir=config.cache_dir,
+        use_pubmed=config.use_pubmed,
+        use_openalex=config.use_openalex,
+        timeout=config.request_timeout,
+        max_retries=config.max_retries,
+        sleep_seconds=config.sleep_seconds,
+    )
 
     universe_path = config.out_dir / "trial_universe.csv"
     _save(universe_df, universe_path)

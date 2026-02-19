@@ -62,3 +62,31 @@ def test_trust_denominator_uses_intervention_classes_membership():
     assert int(row["eligible_completed_trials"]) == 2
     assert int(row["contributing_trials"]) == 1
     assert math.isclose(float(row["ecr_trials"]), 0.5, rel_tol=1e-9)
+
+
+def test_trust_includes_classes_seen_only_in_intervention_class_list():
+    universe_df = pd.DataFrame(
+        [
+            {
+                "nct_id": "NCT_X",
+                "primary_intervention_class": "Other",
+                "intervention_classes": '["Novel Class"]',
+                "overall_status": "COMPLETED",
+                "enrollment": 100,
+                "primary_completion_date": "2020-01-01",
+                "results_posted": False,
+                "has_publication_link": False,
+            }
+        ]
+    )
+
+    out = build_trust_capsules(
+        universe_df=universe_df,
+        hfhosp_comp_df=pd.DataFrame(),
+        sae_comp_df=pd.DataFrame(),
+        hfhosp_summary=pd.DataFrame(),
+        sae_summary=pd.DataFrame(),
+        grace_months=24,
+    )
+
+    assert "Novel Class" in set(out["intervention_class"])

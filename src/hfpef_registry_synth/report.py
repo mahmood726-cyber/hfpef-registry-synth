@@ -36,6 +36,7 @@ def write_summary_report(
 
     completed = int((universe_df["overall_status"].str.upper() == "COMPLETED").sum()) if not universe_df.empty else 0
     posted = int(universe_df.get("results_posted", pd.Series(dtype=bool)).fillna(False).astype(bool).sum()) if not universe_df.empty else 0
+    linked = int(universe_df.get("has_publication_link", pd.Series(dtype=bool)).fillna(False).astype(bool).sum()) if not universe_df.empty else 0
 
     text = f"""# HFpEF Registry-First Transparency-Adjusted Synthesis
 
@@ -56,6 +57,7 @@ This report treats trial registrations/protocols as the denominator truth layer 
 - Eligible HFpEF interventional trials: {len(universe_df)}
 - Completed trials: {completed}
 - Trials with posted CT.gov results module: {posted}
+- Trials with publication linkage (PubMed/OpenAlex): {linked}
 
 ## HF Hospitalization Synthesis (Class-level)
 {_top_lines(hfhosp_summary, ["intervention_class", "k_studies", "pooled_rr", "ci_low_rr", "ci_high_rr", "i2"]) }
