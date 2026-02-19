@@ -23,6 +23,16 @@ def test_outcome_matchers():
     assert is_sae_outcome("Participants with serious adverse events")
 
 
+def test_hf_hosp_matcher_excludes_composite_and_hierarchical_outcomes():
+    assert not is_hf_hosp_outcome("Occurrence of the composite endpoint of cardiovascular death and heart failure hospitalization")
+    assert not is_hf_hosp_outcome("Hierarchical composite endpoint: percentage of wins of participant pairs")
+    assert not is_hf_hosp_outcome("Participants with treatment emergent adverse events")
+    assert not is_hf_hosp_outcome("Time to first event of adjudicated cardiovascular (CV) death or adjudicated hospitalisation for heart failure")
+    assert not is_hf_hosp_outcome("(Single Arm) HFHs [Subject Based COVID-19 Sensitivity Analysis]")
+    assert not is_hf_hosp_outcome("Number of subjects with first clinical worsening event from baseline to week 24")
+    assert not is_hf_hosp_outcome("(Randomized Arm) All-cause Hospitalizations")
+
+
 def test_choose_preferred_outcome_longest_followup():
     outcomes = [
         {"title": "HF hospitalization", "description": "", "timeFrame": "6 months"},

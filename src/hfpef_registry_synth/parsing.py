@@ -20,7 +20,11 @@ HF_HOSP_TERMS = [
     "heart failure hospitalization",
     "hospitalization for heart failure",
     "hf hospitalization",
+    "hospitalisation for heart failure",
+    "heart failure hospitalisation",
     "heart failure admission",
+    "hospital admission for acute decompensated heart failure",
+    "admission for heart failure",
 ]
 
 SAE_TERMS = [
@@ -28,6 +32,31 @@ SAE_TERMS = [
     "serious adverse events",
     "sae",
     "serious ae",
+]
+
+HF_HOSP_EXCLUSION_PATTERNS = [
+    r"\bcomposite\b",
+    r"\bhierarchical\b",
+    r"\bpairwise\b",
+    r"\bwin ratio\b",
+    r"\bwins?\b",
+    r"\bties?\b",
+    r"\bglobal rank\b",
+    r"\bmajor adverse\b",
+    r"\bmace\b",
+    r"\badverse event",
+    r"\bteae\b",
+    r"\bserious adverse\b",
+    r"\bcv\W*death\b",
+    r"\bcardiovascular\W*death\b",
+    r"\ball[- ]cause\W*death\b",
+    r"\ball[- ]cause\W*hospital",
+    r"\bmortality\b",
+    r"\burgent visit\b",
+    r"\bed/op\b",
+    r"\bclinical worsening\b",
+    r"\bwhf\b",
+    r"\bsingle arm\b",
 ]
 
 EF_REGEX = re.compile(
@@ -87,8 +116,25 @@ def _fuzzy_contains(text: str, phrase: str, cutoff: int = 88) -> bool:
 
 def is_hf_hosp_outcome(text: str) -> bool:
     raw = _norm(text)
-    if "heart failure" in raw and "hospital" in raw:
+    if not raw:
+        return False
+
+    if any(re.search(pattern, raw) for pattern in HF_HOSP_EXCLUSION_PATTERNS):
+        return False
+
+    has_hf_signal = ("heart failure" in raw) or bool(re.search(r"\bhf\b", raw))
+    has_hosp_signal = any(
+        token in raw
+        for token in [
+            "hospitalization",
+            "hospitalisation",
+            "hospital admission",
+            "admission for heart failure",
+        ]
+    )
+    if has_hf_signal and has_hosp_signal:
         return True
+
     for term in HF_HOSP_TERMS:
         if term in raw:
             return True
