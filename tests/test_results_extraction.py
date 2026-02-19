@@ -155,3 +155,19 @@ def test_extract_sae_rows_uses_event_group_serious_totals_when_term_totals_absen
     assert by_group["C1"]["is_total_term_available"] is False
     assert by_group["T1"]["is_incomplete"] is False
     assert by_group["C1"]["is_incomplete"] is False
+
+
+def test_extract_sae_rows_uses_event_group_totals_even_without_serious_event_rows():
+    study = _study_with_sae_module(
+        serious_events=[],
+        serious_totals_by_group={"T1": "9", "C1": "11"},
+    )
+    rows = _extract_sae_rows(study, _trial_meta())
+    assert len(rows) == 2
+    by_group = {row["group_id"]: row for row in rows}
+    assert by_group["T1"]["subjects_with_sae"] == 9
+    assert by_group["C1"]["subjects_with_sae"] == 11
+    assert by_group["T1"]["subjects_source"] == "event_group_total"
+    assert by_group["C1"]["subjects_source"] == "event_group_total"
+    assert by_group["T1"]["count_type"] == "subjects_with_>=1_sae"
+    assert by_group["C1"]["count_type"] == "subjects_with_>=1_sae"

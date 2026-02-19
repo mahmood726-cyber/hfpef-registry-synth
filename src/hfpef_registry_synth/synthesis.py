@@ -24,6 +24,25 @@ class MetaResult:
     k: int
 
 
+def _is_noncontrast_arm_group(name: str) -> bool:
+    raw = normalize_ws(str(name)).lower()
+    if not raw:
+        return False
+    patterns = [
+        "single arm",
+        "all patients",
+        "all participants",
+        "all subjects",
+        "overall",
+        "pooled",
+    ]
+    if any(p in raw for p in patterns):
+        return True
+    if raw in {"total", "all"}:
+        return True
+    return False
+
+
 def compute_log_rr(
     e_t: float,
     n_t: float,
@@ -131,6 +150,10 @@ def build_pairwise_comparisons(
         g = g.copy()
 
         if event_col not in g.columns:
+            continue
+        if "arm_group_name" in g.columns:
+            g = g[~g["arm_group_name"].apply(_is_noncontrast_arm_group)]
+        if g.empty:
             continue
         g["event"] = g[event_col]
         if fallback_event_col and fallback_event_col in g.columns:

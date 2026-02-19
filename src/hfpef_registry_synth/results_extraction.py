@@ -318,12 +318,14 @@ def _extract_sae_rows(study: Dict[str, Any], trial_meta: Dict[str, Any]) -> List
 
     serious_nodes = module.get("seriousEvents") if isinstance(module, dict) else None
     records = _collect_serious_records(serious_nodes if serious_nodes is not None else module, "resultsSection.adverseEventsModule")
-    if not records:
+    if not records and not group_serious_totals:
         return []
 
     grouped: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
     for rec in records:
         grouped[rec["group_id"]].append(rec)
+    for gid in group_serious_totals:
+        grouped.setdefault(gid, [])
 
     rows: List[Dict[str, Any]] = []
     for gid, recs in grouped.items():

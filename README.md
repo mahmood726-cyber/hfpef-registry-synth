@@ -116,6 +116,7 @@ EF parsing and outcome harmonization rules are in:
 - `mnar_envelopes.csv`: shows whether conclusions remain stable when missing trials are assumed less favorable.
 - `summary_report.md`: compact narrative of findings and robustness.
 - SAE pooling uses participant-level totals (participants with >=1 SAE), drawn from total SAE term rows or `eventGroups.seriousNumAffected` when present; event-count-only SAE rows remain in extracts but are excluded from pooled RR synthesis.
+- Pairwise synthesis excludes aggregate/non-contrast result groups (for example: `All Patients`, `Single Arm`, or pooled rows) to avoid unit-of-analysis contamination.
 
 ## Limitations
 - Registration outcomes may not be perfectly aligned to publication outcomes/timepoints.
