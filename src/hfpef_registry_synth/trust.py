@@ -89,8 +89,10 @@ def _reporting_debt_rate(class_completed: pd.DataFrame, grace_months: int, now: 
     if now.tzinfo is not None:
         now = now.astimezone(timezone.utc).replace(tzinfo=None)
     older_mask = []
-    for dt in class_completed["primary_completion_date"].tolist():
-        parsed = parse_date(dt)
+    primary_dates = class_completed.get("primary_completion_date", pd.Series([None] * len(class_completed), index=class_completed.index))
+    completion_dates = class_completed.get("completion_date", pd.Series([None] * len(class_completed), index=class_completed.index))
+    for primary_dt, completion_dt in zip(primary_dates.tolist(), completion_dates.tolist()):
+        parsed = parse_date(primary_dt) or parse_date(completion_dt)
         older_mask.append(bool(parsed and parsed + relativedelta(months=grace_months) <= now))
 
     if not any(older_mask):

@@ -206,3 +206,49 @@ def test_build_pairwise_comparisons_excludes_noncontrast_group_rows():
     assert row["intervention_class"] == "SGLT2 inhibitors"
     assert math.isclose(float(row["e_t"]), 20.0, rel_tol=1e-9)
     assert math.isclose(float(row["n_t"]), 100.0, rel_tol=1e-9)
+
+
+def test_comparator_fallback_does_not_match_standardized_label_as_standard_of_care():
+    arm_df = pd.DataFrame(
+        [
+            {
+                "nct_id": "NCT_STD_LABEL",
+                "arm_role": "treatment",
+                "arm_class": "Other",
+                "arm_group_name": "Standardized Exercise Program",
+                "arm_label": "standardized exercise",
+                "events": 12,
+                "denominator": 100,
+                "time_months": 12,
+            },
+            {
+                "nct_id": "NCT_STD_LABEL",
+                "arm_role": "treatment",
+                "arm_class": "Other",
+                "arm_group_name": "Personalized Exercise Program",
+                "arm_label": "personalized exercise",
+                "events": 10,
+                "denominator": 100,
+                "time_months": 12,
+            },
+        ]
+    )
+    universe_df = pd.DataFrame(
+        [
+            {
+                "nct_id": "NCT_STD_LABEL",
+                "ef_band": "strict_hfpef",
+                "primary_completion_year": 2021,
+                "enrollment": 200,
+            }
+        ]
+    )
+
+    out = build_pairwise_comparisons(
+        arm_df=arm_df,
+        universe_df=universe_df,
+        event_col="events",
+        outcome_label="HF_HOSPITALIZATION",
+    )
+
+    assert out.empty

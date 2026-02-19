@@ -31,6 +31,8 @@ def test_hf_hosp_matcher_excludes_composite_and_hierarchical_outcomes():
     assert not is_hf_hosp_outcome("(Single Arm) HFHs [Subject Based COVID-19 Sensitivity Analysis]")
     assert not is_hf_hosp_outcome("Number of subjects with first clinical worsening event from baseline to week 24")
     assert not is_hf_hosp_outcome("(Randomized Arm) All-cause Hospitalizations")
+    assert not is_hf_hosp_outcome("Occurrence of adjudicated hospitalisation for heart failure (HHF) (First and Recurrent)")
+    assert not is_hf_hosp_outcome("Time to first death or heart failure hospitalization")
 
 
 def test_choose_preferred_outcome_longest_followup():

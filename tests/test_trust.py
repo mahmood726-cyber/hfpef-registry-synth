@@ -90,3 +90,39 @@ def test_trust_includes_classes_seen_only_in_intervention_class_list():
     )
 
     assert "Novel Class" in set(out["intervention_class"])
+
+
+def test_reporting_debt_uses_completion_date_when_primary_completion_missing():
+    universe_df = pd.DataFrame(
+        [
+            {
+                "nct_id": "NCT_DEBT_A",
+                "primary_intervention_class": "SGLT2 inhibitors",
+                "intervention_classes": '["SGLT2 inhibitors"]',
+                "overall_status": "COMPLETED",
+                "enrollment": 100,
+                "primary_completion_date": "",
+                "completion_date": "2019-01-01",
+                "results_posted": False,
+                "has_publication_link": False,
+            }
+        ]
+    )
+    hfhosp_summary = pd.DataFrame(
+        [{"intervention_class": "SGLT2 inhibitors", "i2": 0.0, "k_studies": 0}]
+    )
+    sae_summary = pd.DataFrame(
+        [{"intervention_class": "SGLT2 inhibitors", "i2": 0.0, "k_studies": 0}]
+    )
+
+    out = build_trust_capsules(
+        universe_df=universe_df,
+        hfhosp_comp_df=pd.DataFrame(),
+        sae_comp_df=pd.DataFrame(),
+        hfhosp_summary=hfhosp_summary,
+        sae_summary=sae_summary,
+        grace_months=24,
+    )
+
+    row = out[(out["intervention_class"] == "SGLT2 inhibitors") & (out["outcome"] == "HF_HOSPITALIZATION")].iloc[0]
+    assert float(row["reporting_debt_rate"]) == 1.0

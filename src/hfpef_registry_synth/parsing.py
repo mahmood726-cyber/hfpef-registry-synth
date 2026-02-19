@@ -51,11 +51,16 @@ HF_HOSP_EXCLUSION_PATTERNS = [
     r"\bcardiovascular\W*death\b",
     r"\ball[- ]cause\W*death\b",
     r"\ball[- ]cause\W*hospital",
+    r"\bdeath\b",
     r"\bmortality\b",
     r"\burgent visit\b",
     r"\bed/op\b",
     r"\bclinical worsening\b",
     r"\bwhf\b",
+    r"\brecurrent\b",
+    r"\bfirst and recurrent\b",
+    r"\btotal events?\b",
+    r"\bcumulative number\b",
     r"\bsingle arm\b",
 ]
 

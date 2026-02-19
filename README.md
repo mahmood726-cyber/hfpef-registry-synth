@@ -117,7 +117,7 @@ EF parsing and outcome harmonization rules are in:
 - `summary_report.md`: compact narrative of findings and robustness.
 - SAE pooling uses participant-level totals (participants with >=1 SAE), drawn from total SAE term rows or `eventGroups.seriousNumAffected` when present; event-count-only SAE rows remain in extracts but are excluded from pooled RR synthesis.
 - Pairwise synthesis excludes aggregate/non-contrast result groups (for example: `All Patients`, `Single Arm`, or pooled rows) to avoid unit-of-analysis contamination.
-- HF hospitalization synthesis uses a strict direct endpoint rule and excludes composite/hierarchical, death-composite, clinical-worsening, and win-ratio outcomes to avoid mixing estimands.
+- HF hospitalization synthesis uses a strict direct endpoint rule and excludes composite/hierarchical, death-mixed, recurrent-event, clinical-worsening, and win-ratio outcomes to avoid mixing estimands.
 
 ## Limitations
 - Registration outcomes may not be perfectly aligned to publication outcomes/timepoints.

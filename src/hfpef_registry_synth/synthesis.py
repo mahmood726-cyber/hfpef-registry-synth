@@ -169,7 +169,14 @@ def build_pairwise_comparisons(
 
         comp = g[(g["arm_role"] == "comparator") | (g["arm_class"] == "Placebo/SoC")]
         if comp.empty:
-            comp = g[g["arm_group_name"].str.contains("placebo|control|usual care|standard", case=False, na=False)]
+            comp = g[
+                g["arm_group_name"].str.contains(
+                    r"\b(?:placebo|control|usual care|standard of care|soc)\b",
+                    case=False,
+                    na=False,
+                    regex=True,
+                )
+            ]
         if comp.empty:
             continue
 
