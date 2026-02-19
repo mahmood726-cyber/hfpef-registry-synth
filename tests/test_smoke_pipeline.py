@@ -31,6 +31,14 @@ def test_smoke_pipeline_with_fixture(tmp_path):
     assert (config.out_dir / "mnar_envelopes.csv").exists()
     assert (config.out_dir / "evidence_graph_edges.csv").exists()
     assert (config.out_dir / "summary_report.md").exists()
+    assert (config.out_dir / "robustness_model_sensitivity.csv").exists()
+    assert (config.out_dir / "robustness_loo_sensitivity.csv").exists()
+    assert (config.out_dir / "validation_outcome_candidates.csv").exists()
+    assert (config.out_dir / "validation_adjudication_sample.csv").exists()
+    assert (config.out_dir / "validation_metrics.csv").exists()
+    assert (config.out_dir / "external_credibility_checks.csv").exists()
+    assert (config.out_dir / "reporting_bias_framework_mapping.csv").exists()
+    assert (config.out_dir / "runtime" / "reproducibility_manifest_latest.json").exists()
 
     trust_df = pd.read_csv(config.out_dir / "trust_capsules.csv")
     assert "trust_score" in trust_df.columns

@@ -23,6 +23,12 @@ class PipelineConfig:
     max_retries: int = 4
     sleep_seconds: float = 0.2
     clinically_meaningful_arr: float = 10.0
+    validation_sample_size: int = 40
+    validation_seed: int = 20260219
+    adjudication_path: str = ""
+    fixture_path: str = ""
+    build_repro_package: bool = True
+    run_command: str = ""
 
     def ensure_dirs(self) -> None:
         self.out_dir.mkdir(parents=True, exist_ok=True)

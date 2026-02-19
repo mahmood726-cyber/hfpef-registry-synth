@@ -9,16 +9,21 @@ from typing import Dict, Iterable, List, Optional
 import pandas as pd
 
 from .config import PipelineConfig
+from .credibility import run_external_credibility_checks
 from .ctgov_client import CTGovClient
+from .framework_alignment import build_framework_alignment_table
 from .graph_export import build_evidence_graph
 from .linkage import enrich_publication_flags
 from .logging_utils import setup_logging
 from .mnar import build_mnar_envelopes
+from .reproducibility import create_reproducibility_package
 from .report import write_summary_report
 from .results_extraction import extract_results
+from .robustness import run_model_robustness
 from .synthesis import build_decision_table, build_pairwise_comparisons, run_class_synthesis
 from .trust import build_trust_capsules
 from .universe import TrialUniverseResult, build_trial_universe
+from .validation import build_validation_outputs
 
 
 @dataclass
@@ -30,6 +35,11 @@ class PipelineArtifacts:
     trust_df: pd.DataFrame
     mnar_df: pd.DataFrame
     graph_edges_df: pd.DataFrame
+    robustness_models_df: pd.DataFrame
+    robustness_loo_df: pd.DataFrame
+    validation_metrics_df: pd.DataFrame
+    credibility_df: pd.DataFrame
+    framework_alignment_df: pd.DataFrame
 
 
 def _ensure_output_dirs(config: PipelineConfig) -> None:
@@ -83,6 +93,25 @@ def run_pipeline(config: PipelineConfig, preloaded_studies: Optional[Iterable[Di
     _save(extracted.hfhosp_df, hfhosp_extract_path)
     _save(extracted.sae_df, sae_extract_path)
 
+    adjudication_df = None
+    if config.adjudication_path:
+        adjudication_path = Path(config.adjudication_path)
+        if not adjudication_path.exists():
+            raise FileNotFoundError(f"Adjudication file not found: {adjudication_path}")
+        adjudication_df = pd.read_csv(adjudication_path)
+
+    logger.info("Building manual-adjudication validation package")
+    validation = build_validation_outputs(
+        studies=universe_res.study_index,
+        sample_size_per_domain=config.validation_sample_size,
+        seed=config.validation_seed,
+        adjudication_df=adjudication_df,
+    )
+    _save(validation.candidates_df, config.out_dir / "validation_outcome_candidates.csv")
+    _save(validation.sample_df, config.out_dir / "validation_adjudication_sample.csv")
+    _save(validation.metrics_df, config.out_dir / "validation_metrics.csv")
+    _save(validation.misclassified_df, config.out_dir / "validation_misclassified.csv")
+
     logger.info("Building study-level comparisons")
     hfhosp_comp_df = build_pairwise_comparisons(
         extracted.hfhosp_df,
@@ -123,6 +152,11 @@ def run_pipeline(config: PipelineConfig, preloaded_studies: Optional[Iterable[Di
     _save(hfhosp_shrink, config.out_dir / "partial_pooling_hfhosp.csv")
     _save(sae_shrink, config.out_dir / "partial_pooling_sae.csv")
 
+    logger.info("Running robustness checks across meta-analytic specifications")
+    robustness_models_df, robustness_loo_df = run_model_robustness(all_comp_df)
+    _save(robustness_models_df, config.out_dir / "robustness_model_sensitivity.csv")
+    _save(robustness_loo_df, config.out_dir / "robustness_loo_sensitivity.csv")
+
     decision_df = build_decision_table(hfhosp_summary, sae_summary, baseline_risks=config.baseline_risks)
     _save(decision_df, config.out_dir / "synthesis_decision_table.csv")
 
@@ -160,6 +194,14 @@ def run_pipeline(config: PipelineConfig, preloaded_studies: Optional[Iterable[Di
     mnar_df = pd.concat([mnar_hf, mnar_sae], ignore_index=True) if not (mnar_hf.empty and mnar_sae.empty) else pd.DataFrame()
     _save(mnar_df, config.out_dir / "mnar_envelopes.csv")
 
+    logger.info("Running external face-validity checks")
+    credibility_df = run_external_credibility_checks(hfhosp_summary, sae_summary)
+    _save(credibility_df, config.out_dir / "external_credibility_checks.csv")
+
+    logger.info("Building PRISMA/SW-iM/ROB-ME framework mapping")
+    framework_df = build_framework_alignment_table(trust_df, mnar_df)
+    _save(framework_df, config.out_dir / "reporting_bias_framework_mapping.csv")
+
     logger.info("Exporting evidence graph")
     graph = build_evidence_graph(universe_df, extracted.hfhosp_df, extracted.sae_df)
     _save(graph.edges, config.out_dir / "evidence_graph_edges.csv")
@@ -176,7 +218,48 @@ def run_pipeline(config: PipelineConfig, preloaded_studies: Optional[Iterable[Di
         decision_df=decision_df,
         trust_df=trust_df,
         mnar_df=mnar_df,
+        robustness_models_df=robustness_models_df,
+        robustness_loo_df=robustness_loo_df,
+        validation_metrics_df=validation.metrics_df,
+        credibility_df=credibility_df,
+        framework_df=framework_df,
     )
+
+    if config.build_repro_package:
+        logger.info("Creating reproducibility snapshot package")
+        package_outputs = [
+            config.out_dir / "trial_universe.csv",
+            config.out_dir / "results_extract_hfhosp.csv",
+            config.out_dir / "results_extract_sae.csv",
+            config.out_dir / "study_effects_hfhosp.csv",
+            config.out_dir / "study_effects_sae.csv",
+            config.out_dir / "synthesis_hfhosp_class_summary.csv",
+            config.out_dir / "synthesis_sae_class_summary.csv",
+            config.out_dir / "meta_regression_hfhosp.csv",
+            config.out_dir / "meta_regression_sae.csv",
+            config.out_dir / "partial_pooling_hfhosp.csv",
+            config.out_dir / "partial_pooling_sae.csv",
+            config.out_dir / "robustness_model_sensitivity.csv",
+            config.out_dir / "robustness_loo_sensitivity.csv",
+            config.out_dir / "synthesis_decision_table.csv",
+            config.out_dir / "trust_capsules.csv",
+            config.out_dir / "mnar_envelopes.csv",
+            config.out_dir / "external_credibility_checks.csv",
+            config.out_dir / "reporting_bias_framework_mapping.csv",
+            config.out_dir / "validation_outcome_candidates.csv",
+            config.out_dir / "validation_adjudication_sample.csv",
+            config.out_dir / "validation_metrics.csv",
+            config.out_dir / "validation_misclassified.csv",
+            config.out_dir / "evidence_graph_edges.csv",
+            config.out_dir / "evidence_graph_nodes_trials.csv",
+            config.out_dir / "evidence_graph_nodes_intervention_classes.csv",
+            config.out_dir / "summary_report.md",
+        ]
+        create_reproducibility_package(
+            config=config,
+            output_files=package_outputs,
+            command=config.run_command or "python3 -m scripts.run_hfpef",
+        )
 
     return PipelineArtifacts(
         universe_df=universe_df,
@@ -186,4 +269,9 @@ def run_pipeline(config: PipelineConfig, preloaded_studies: Optional[Iterable[Di
         trust_df=trust_df,
         mnar_df=mnar_df,
         graph_edges_df=graph.edges,
+        robustness_models_df=robustness_models_df,
+        robustness_loo_df=robustness_loo_df,
+        validation_metrics_df=validation.metrics_df,
+        credibility_df=credibility_df,
+        framework_alignment_df=framework_df,
     )

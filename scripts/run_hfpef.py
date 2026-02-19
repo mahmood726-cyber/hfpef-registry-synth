@@ -47,6 +47,10 @@ def main() -> None:
     parser.add_argument("--use_openalex", default="false")
     parser.add_argument("--clinically_meaningful_arr", type=float, default=10.0)
     parser.add_argument("--fixture_path", default="", help="Optional local JSON fixture (offline mode)")
+    parser.add_argument("--adjudication_path", default="", help="Optional manual-adjudication consensus CSV")
+    parser.add_argument("--validation_sample_size", type=int, default=40)
+    parser.add_argument("--validation_seed", type=int, default=20260219)
+    parser.add_argument("--build_repro_package", default="true")
 
     args = parser.parse_args()
     logger = setup_logging(name="hfpef_registry_synth.cli")
@@ -64,6 +68,12 @@ def main() -> None:
         use_pubmed=parse_bool(args.use_pubmed, False),
         use_openalex=parse_bool(args.use_openalex, False),
         clinically_meaningful_arr=args.clinically_meaningful_arr,
+        validation_sample_size=max(1, int(args.validation_sample_size)),
+        validation_seed=int(args.validation_seed),
+        adjudication_path=args.adjudication_path or "",
+        fixture_path=args.fixture_path or "",
+        build_repro_package=parse_bool(args.build_repro_package, True),
+        run_command=f"python3 -m scripts.run_hfpef {' '.join(sys.argv[1:])}",
     )
 
     fixture = _load_fixture(args.fixture_path) if args.fixture_path else None
