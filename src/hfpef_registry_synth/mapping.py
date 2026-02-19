@@ -41,13 +41,14 @@ CLASS_PATTERNS: Dict[str, List[str]] = {
     "Other": [],
 }
 
-COMPARATOR_PATTERNS = [
-    "placebo",
-    "standard of care",
-    "usual care",
-    "control",
-    "sham",
-    "no treatment",
+COMPARATOR_REGEX_PATTERNS = [
+    r"\bplacebo\b",
+    r"\bstandard of care\b",
+    r"\busual care\b",
+    r"\bcontrol(?: arm| group)?\b",
+    r"\bsham\b",
+    r"\bno treatment\b",
+    r"\bsoc\b",
 ]
 
 HFPEF_TERMS = [
@@ -77,6 +78,10 @@ def _fuzzy_score(a: str, b: str) -> float:
     return 100.0 * SequenceMatcher(None, a, b).ratio()
 
 
+def _is_placebo_or_soc(raw: str) -> bool:
+    return any(re.search(pattern, raw) for pattern in COMPARATOR_REGEX_PATTERNS)
+
+
 def classify_intervention(name: str, intervention_type: Optional[str] = None) -> ClassMatch:
     """Map intervention name to pre-specified class with fuzzy fallback."""
     raw = _norm(name)
@@ -86,9 +91,8 @@ def classify_intervention(name: str, intervention_type: Optional[str] = None) ->
     if intervention_type and _norm(intervention_type) in {"placebo", "control", "sham comparator"}:
         return ClassMatch("Placebo/SoC", "placebo", 100.0)
 
-    for pattern in COMPARATOR_PATTERNS:
-        if pattern in raw:
-            return ClassMatch("Placebo/SoC", pattern, 100.0)
+    if _is_placebo_or_soc(raw):
+        return ClassMatch("Placebo/SoC", "comparator_pattern", 100.0)
 
     best: Optional[ClassMatch] = None
     for class_name, terms in CLASS_PATTERNS.items():
@@ -111,7 +115,7 @@ def classify_comparator(name: str, intervention_type: Optional[str] = None) -> s
     raw = _norm(name)
     if intervention_type and _norm(intervention_type) in {"placebo", "control", "sham comparator"}:
         return "Placebo/SoC"
-    if any(term in raw for term in COMPARATOR_PATTERNS):
+    if _is_placebo_or_soc(raw):
         return "Placebo/SoC"
     match = classify_intervention(name, intervention_type)
     return match.class_name

@@ -1,4 +1,4 @@
-from hfpef_registry_synth.results_extraction import _extract_sae_rows
+from hfpef_registry_synth.results_extraction import _extract_hfhosp_rows, _extract_sae_rows
 
 
 def _study_with_sae_module(serious_events, serious_totals_by_group=None):
@@ -40,6 +40,44 @@ def _trial_meta():
     return {
         "primary_intervention_class": "SGLT2 inhibitors",
         "primary_comparator_class": "Placebo/SoC",
+    }
+
+
+def _study_with_hfhosp_outcome(classes):
+    return {
+        "protocolSection": {
+            "identificationModule": {"nctId": "NCT_HFHOSP_TEST"},
+            "armsInterventionsModule": {
+                "armGroups": [
+                    {"id": "T1", "label": "Empagliflozin"},
+                    {"id": "C1", "label": "Placebo"},
+                ]
+            },
+        },
+        "resultsSection": {
+            "outcomeMeasuresModule": {
+                "outcomeMeasures": [
+                    {
+                        "title": "Hospitalization for heart failure",
+                        "description": "Participants with at least one HF hospitalization",
+                        "timeFrame": "12 months",
+                        "groups": [
+                            {"id": "T1", "title": "Empagliflozin"},
+                            {"id": "C1", "title": "Placebo"},
+                        ],
+                        "denoms": [
+                            {
+                                "counts": [
+                                    {"groupId": "T1", "value": "100"},
+                                    {"groupId": "C1", "value": "100"},
+                                ]
+                            }
+                        ],
+                        "classes": classes,
+                    }
+                ]
+            }
+        },
     }
 
 
@@ -171,3 +209,68 @@ def test_extract_sae_rows_uses_event_group_totals_even_without_serious_event_row
     assert by_group["C1"]["subjects_source"] == "event_group_total"
     assert by_group["T1"]["count_type"] == "subjects_with_>=1_sae"
     assert by_group["C1"]["count_type"] == "subjects_with_>=1_sae"
+
+
+def test_extract_hfhosp_rows_does_not_round_fractional_values_into_counts():
+    study = _study_with_hfhosp_outcome(
+        classes=[
+            {
+                "title": "Participants with at least one event",
+                "categories": [
+                    {
+                        "title": "Total",
+                        "measurements": [
+                            {"groupId": "T1", "value": "12.4"},
+                            {"groupId": "C1", "value": "15.6"},
+                        ],
+                    }
+                ],
+            }
+        ]
+    )
+
+    rows = _extract_hfhosp_rows(study, _trial_meta())
+    assert len(rows) == 2
+    for row in rows:
+        assert row["events"] is None
+        assert row["is_event_count"] is False
+        assert row["is_rate_only"] is True
+
+
+def test_extract_hfhosp_rows_prefers_count_measurements_over_percent_measurements():
+    study = _study_with_hfhosp_outcome(
+        classes=[
+            {
+                "title": "Percentage of participants with at least one event",
+                "categories": [
+                    {
+                        "title": "Total",
+                        "measurements": [
+                            {"groupId": "T1", "value": "12"},
+                            {"groupId": "C1", "value": "16"},
+                        ],
+                    }
+                ],
+            },
+            {
+                "title": "Participants with at least one event",
+                "categories": [
+                    {
+                        "title": "Total",
+                        "measurements": [
+                            {"groupId": "T1", "value": "24"},
+                            {"groupId": "C1", "value": "30"},
+                        ],
+                    }
+                ],
+            },
+        ]
+    )
+
+    rows = _extract_hfhosp_rows(study, _trial_meta())
+    assert len(rows) == 2
+    by_group = {row["group_id"]: row for row in rows}
+    assert by_group["T1"]["events"] == 24
+    assert by_group["C1"]["events"] == 30
+    assert by_group["T1"]["is_event_count"] is True
+    assert by_group["C1"]["is_event_count"] is True

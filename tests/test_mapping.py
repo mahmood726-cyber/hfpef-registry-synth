@@ -14,3 +14,8 @@ def test_intervention_class_mapping_arni():
 def test_comparator_mapping():
     assert classify_comparator("Placebo") == "Placebo/SoC"
     assert classify_comparator("Standard of care") == "Placebo/SoC"
+
+
+def test_comparator_mapping_avoids_false_control_substrings():
+    # "controlled" should not be interpreted as a control arm.
+    assert classify_comparator("Metoprolol controlled-release") != "Placebo/SoC"

@@ -126,3 +126,91 @@ def test_reporting_debt_uses_completion_date_when_primary_completion_missing():
 
     row = out[(out["intervention_class"] == "SGLT2 inhibitors") & (out["outcome"] == "HF_HOSPITALIZATION")].iloc[0]
     assert float(row["reporting_debt_rate"]) == 1.0
+
+
+def test_endpoint_mismatch_penalty_not_applied_when_alignment_not_estimable():
+    universe_df = pd.DataFrame(
+        [
+            {
+                "nct_id": "NCT_ALIGN_A",
+                "primary_intervention_class": "SGLT2 inhibitors",
+                "intervention_classes": '["SGLT2 inhibitors"]',
+                "overall_status": "COMPLETED",
+                "enrollment": 100,
+                "primary_completion_date": "2021-01-01",
+                "results_posted": True,
+                "has_publication_link": False,
+            }
+        ]
+    )
+    hfhosp_comp_df = pd.DataFrame(
+        [
+            {
+                "nct_id": "NCT_ALIGN_A",
+                "intervention_class": "SGLT2 inhibitors",
+                "n_t": 50,
+                "n_c": 50,
+                # Intentionally omitting time_months; alignment is not estimable.
+            }
+        ]
+    )
+    hfhosp_summary = pd.DataFrame(
+        [{"intervention_class": "SGLT2 inhibitors", "i2": 0.0, "k_studies": 1}]
+    )
+
+    out = build_trust_capsules(
+        universe_df=universe_df,
+        hfhosp_comp_df=hfhosp_comp_df,
+        sae_comp_df=pd.DataFrame(),
+        hfhosp_summary=hfhosp_summary,
+        sae_summary=pd.DataFrame(),
+        grace_months=24,
+    )
+
+    row = out[
+        (out["intervention_class"] == "SGLT2 inhibitors")
+        & (out["outcome"] == "HF_HOSPITALIZATION")
+    ].iloc[0]
+    assert math.isnan(float(row["endpoint_alignment_rate"]))
+    assert int(row["penalty_endpoint_mismatch"]) == 0
+
+
+def test_heterogeneity_penalty_not_applied_when_k_zero():
+    universe_df = pd.DataFrame(
+        [
+            {
+                "nct_id": "NCT_I2_A",
+                "primary_intervention_class": "SGLT2 inhibitors",
+                "intervention_classes": '["SGLT2 inhibitors"]',
+                "overall_status": "COMPLETED",
+                "enrollment": 100,
+                "primary_completion_date": "2021-01-01",
+                "results_posted": True,
+                "has_publication_link": False,
+            }
+        ]
+    )
+    hfhosp_summary = pd.DataFrame(
+        [
+            {
+                "intervention_class": "SGLT2 inhibitors",
+                "i2": 85.0,
+                "k_studies": 0,
+            }
+        ]
+    )
+
+    out = build_trust_capsules(
+        universe_df=universe_df,
+        hfhosp_comp_df=pd.DataFrame(),
+        sae_comp_df=pd.DataFrame(),
+        hfhosp_summary=hfhosp_summary,
+        sae_summary=pd.DataFrame(),
+        grace_months=24,
+    )
+
+    row = out[
+        (out["intervention_class"] == "SGLT2 inhibitors")
+        & (out["outcome"] == "HF_HOSPITALIZATION")
+    ].iloc[0]
+    assert int(row["penalty_heterogeneity"]) == 0

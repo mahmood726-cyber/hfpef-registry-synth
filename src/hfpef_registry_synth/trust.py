@@ -110,11 +110,11 @@ def _reporting_debt_rate(class_completed: pd.DataFrame, grace_months: int, now: 
 
 def _endpoint_alignment_rate(contrib_df: pd.DataFrame) -> float:
     if contrib_df.empty or "time_months" not in contrib_df.columns:
-        return 0.0
+        return np.nan
 
     values = pd.to_numeric(contrib_df["time_months"], errors="coerce").dropna()
     if values.empty:
-        return 0.0
+        return np.nan
 
     med = float(values.median())
     if med == 0:
@@ -231,8 +231,8 @@ def build_trust_capsules(
 
             p_ecr = _penalty_ecr_participants(ecr_participants) if eligible_trials else 30
             p_debt = _penalty_reporting_debt(debt_rate)
-            p_i2 = _penalty_i2(i2) if not np.isnan(i2) else 15
-            p_mismatch = _penalty_endpoint_mismatch(alignment_rate)
+            p_i2 = _penalty_i2(i2) if (k > 0 and not np.isnan(i2)) else 0
+            p_mismatch = _penalty_endpoint_mismatch(alignment_rate) if (contributing_trials > 0 and not np.isnan(alignment_rate)) else 0
             p_sparse = _penalty_sparse(k)
             trust_score = max(0, 100 - (p_ecr + p_debt + p_i2 + p_mismatch + p_sparse))
 

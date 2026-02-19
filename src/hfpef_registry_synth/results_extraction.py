@@ -2,9 +2,9 @@
 
 from __future__ import annotations
 
+import re
 from collections import defaultdict
 from dataclasses import dataclass
-import re
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 
 import pandas as pd
@@ -13,6 +13,8 @@ from .ctgov_client import ctgov_record_url
 from .mapping import classify_comparator, classify_intervention
 from .parsing import choose_preferred_outcome, is_hf_hosp_outcome, is_sae_outcome, parse_timeframe_months
 from .utils import normalize_ws, safe_float, safe_int
+
+RATE_OR_PERCENT_HINT_RE = re.compile(r"(?:%|\bpercent(?:age)?\b|\bproportion\b|\brate\b)", flags=re.IGNORECASE)
 
 
 @dataclass
@@ -96,6 +98,15 @@ def _extract_measurements(outcome: Dict[str, Any]) -> Dict[str, Dict[str, Any]]:
                         "class_title": class_title,
                         "category_title": category_title,
                         "spread": normalize_ws(str(meas.get("spread", ""))),
+                        "unit": normalize_ws(
+                            str(
+                                meas.get("unit")
+                                or meas.get("unitOfMeasure")
+                                or meas.get("paramType")
+                                or meas.get("measureType")
+                                or ""
+                            )
+                        ),
                     }
                 )
 
@@ -105,14 +116,33 @@ def _extract_measurements(outcome: Dict[str, Any]) -> Dict[str, Dict[str, Any]]:
         rows_sorted = sorted(
             rows,
             key=lambda r: (
+                0
+                if not RATE_OR_PERCENT_HINT_RE.search(
+                    f"{r['category_title']} {r['class_title']} {r['spread']} {r.get('unit', '')}"
+                )
+                else 1,
                 0 if "total" in (r["category_title"] + " " + r["class_title"]).lower() else 1,
                 0 if abs(r["value"] - round(r["value"])) < 1e-6 else 1,
                 -r["value"],
             ),
         )
         best = rows_sorted[0]
+        best["is_rate_or_percent"] = bool(
+            RATE_OR_PERCENT_HINT_RE.search(
+                f"{best['category_title']} {best['class_title']} {best['spread']} {best.get('unit', '')}"
+            )
+        )
         out[gid] = best
     return out
+
+
+def _integer_event_count(value: Optional[float], is_rate_or_percent: bool) -> Optional[int]:
+    """Conservative event-count coercion: reject fractional and rate/percent values."""
+    if value is None or is_rate_or_percent:
+        return None
+    if abs(value - round(value)) > 1e-6:
+        return None
+    return int(round(value))
 
 
 def _classify_arm(
@@ -157,7 +187,7 @@ def _extract_hfhosp_rows_for_outcome(
         meas = measures.get(gid, {})
         value = safe_float(meas.get("value"))
         denom = denoms.get(gid)
-        events = safe_int(value) if value is not None else None
+        events = _integer_event_count(value, bool(meas.get("is_rate_or_percent", False)))
         is_event_count = bool(
             events is not None and denom is not None and 0 <= events <= denom
         )
