@@ -297,7 +297,7 @@ def build_trial_universe(studies: Iterable[Dict[str, Any]], start_year: int = 20
             "primary_intervention_class": primary_intervention_class,
             "primary_comparator_class": primary_comparator_class,
             "rct_likely": rct_like,
-            "results_posted": bool(_results(study)),
+            "results_posted": bool(_results(study)) or bool(study.get("hasResults")),
             "ctgov_url": f"https://clinicaltrials.gov/study/{nct_id}",
         }
         rows.append(row)

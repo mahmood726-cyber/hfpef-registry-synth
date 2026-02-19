@@ -123,6 +123,9 @@ python3 -m scripts.run_hfpef \
   - `linkage.py` optional PubMed/OpenAlex publication linkage
   - `graph_export.py` field evidence graph exporter
   - `pipeline.py` full orchestration
+
+Live-run efficiency note:
+- The pipeline performs a shallow CT.gov query first, pre-filters eligibility, then hydrates only eligible records with posted results modules. This makes full live runs reproducible without hydrating the entire query universe.
 - `scripts/`
   - `run_hfpef.py`
   - `export_graph.py`

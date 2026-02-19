@@ -65,7 +65,34 @@ def run_pipeline(config: PipelineConfig, preloaded_studies: Optional[Iterable[Di
             max_retries=config.max_retries,
             sleep_seconds=config.sleep_seconds,
         )
-        studies = client.search_hfpef_trials(fetch_detail=True)
+        logger.info("Querying CT.gov shallow records for eligibility pre-filter")
+        shallow_studies = client.search_hfpef_trials(fetch_detail=False)
+        provisional = build_trial_universe(shallow_studies, start_year=config.start_year)
+        eligible_ids = set(provisional.df["nct_id"].astype(str).tolist()) if not provisional.df.empty else set()
+        shallow_map = {
+            (s.get("protocolSection", {}).get("identificationModule", {}).get("nctId", "") or "").upper(): s
+            for s in shallow_studies
+        }
+        studies = []
+        hydrated_count = 0
+        for nct_id in sorted(eligible_ids):
+            shallow = shallow_map.get(nct_id)
+            if not shallow:
+                continue
+            if bool(shallow.get("hasResults")):
+                try:
+                    studies.append(client.fetch_study(nct_id))
+                    hydrated_count += 1
+                except Exception as exc:  # pragma: no cover - network behavior
+                    logger.warning("Falling back to shallow eligible record for %s: %s", nct_id, exc)
+                    studies.append(shallow)
+            else:
+                studies.append(shallow)
+        logger.info(
+            "Eligible pre-filtered trials: %d (hydrated for results modules: %d)",
+            len(studies),
+            hydrated_count,
+        )
     else:
         studies = list(preloaded_studies)
 

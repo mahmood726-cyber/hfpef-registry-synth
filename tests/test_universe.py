@@ -52,3 +52,18 @@ def test_hfpef_candidate_requires_heart_failure_context_or_explicit_hfpef():
     out = build_trial_universe([explicit_hfpef, preserved_ef_non_hf], start_year=2015).df
 
     assert set(out["nct_id"]) == {"NCT_HFPEF_1"}
+
+
+def test_results_posted_uses_has_results_flag_when_results_section_absent():
+    study = _base_study(
+        nct_id="NCT_HAS_RESULTS",
+        brief_title="HFpEF trial with hasResults flag",
+        conditions=["Heart Failure with Preserved Ejection Fraction"],
+        keywords=["HFpEF"],
+        eligibility="LVEF >= 50%",
+    )
+    study["hasResults"] = True
+
+    out = build_trial_universe([study], start_year=2015).df
+    assert len(out) == 1
+    assert bool(out.iloc[0]["results_posted"]) is True
