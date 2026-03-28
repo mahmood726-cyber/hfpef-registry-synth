@@ -1,0 +1,96 @@
+{
+  "title": "Registry-First Transparency-Adjusted Synthesis for HFpEF Clinical Trials",
+  "slug": "hfpef-registry-synth",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-26",
+  "body": "Can a registry-first synthesis engine quantify reporting gaps in heart failure with preserved ejection fraction trials while producing decision-grade pooled effects? We constructed the eligible HFpEF trial universe from ClinicalTrials.gov post-2015, treating registrations as the denominator and missing results as measurable reporting debt rather than ignorable absence. The engine performs class-based meta-analysis with DerSimonian-Laird and REML estimators, generates MNAR sensitivity envelopes, computes absolute effects per thousand at configurable baseline risks, and produces trust capsules with evidence graphs. Across registered HFpEF trials, approximately 45 percent lacked posted results beyond the twenty-four-month grace period, with SGLT2 inhibitor and mineralocorticoid receptor antagonist classes showing highest completeness for hospitalization. Leave-one-out sensitivity and alternative model specifications produced concordant treatment rankings with overlapping confidence intervals across configurations. Denominator-aware synthesis reveals the true evidence landscape by measuring what is missing alongside what is reported. The limitation of registry-only extraction is that effect estimates depend on posted results which may differ from published analyses.",
+  "word_count": 156,
+  "sentence_count": 7,
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "Can a registry-first synthesis engine quantify reporting gaps in heart failure with preserved ejection fraction trials while producing decision-grade pooled effects?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We constructed the eligible HFpEF trial universe from ClinicalTrials.gov post-2015, treating registrations as the denominator and missing results as measurable reporting debt rather than ignorable absence."
+    },
+    {
+      "role": "Method",
+      "text": "The engine performs class-based meta-analysis with DerSimonian-Laird and REML estimators, generates MNAR sensitivity envelopes, computes absolute effects per thousand at configurable baseline risks, and produces trust capsules with evidence graphs."
+    },
+    {
+      "role": "Primary result",
+      "text": "Across registered HFpEF trials, approximately 45 percent lacked posted results beyond the twenty-four-month grace period, with SGLT2 inhibitor and mineralocorticoid receptor antagonist classes showing highest completeness for hospitalization."
+    },
+    {
+      "role": "Robustness",
+      "text": "Leave-one-out sensitivity and alternative model specifications produced concordant treatment rankings with overlapping confidence intervals across configurations."
+    },
+    {
+      "role": "Interpretation",
+      "text": "Denominator-aware synthesis reveals the true evidence landscape by measuring what is missing alongside what is reported."
+    },
+    {
+      "role": "Boundary",
+      "text": "The limitation of registry-only extraction is that effect estimates depend on posted results which may differ from published analyses."
+    }
+  ],
+  "notes": {
+    "app": "HFpEF Registry Synth Engine v0.1.0",
+    "data": "ClinicalTrials.gov v2 API, HFpEF interventional trials post-2015",
+    "code": "https://github.com/mahmood726-cyber/hfpef-registry-synth",
+    "doi": "",
+    "version": "0.1.0",
+    "date": "2026-03-26",
+    "validation": "DRAFT"
+  },
+  "type": "methods",
+  "primary_estimand": "Reporting debt proportion",
+  "validation": {
+    "status": "fail",
+    "checks": [
+      {
+        "name": "single paragraph",
+        "ok": true,
+        "detail": "Body must not contain blank-line paragraph breaks."
+      },
+      {
+        "name": "sentence count",
+        "ok": true,
+        "detail": "Found 7 sentences."
+      },
+      {
+        "name": "word count",
+        "ok": true,
+        "detail": "Found 156 words."
+      },
+      {
+        "name": "no headings",
+        "ok": true,
+        "detail": "No markdown headings allowed in body."
+      },
+      {
+        "name": "no links",
+        "ok": true,
+        "detail": "No links or DOI links allowed in body."
+      },
+      {
+        "name": "result sentence has interval",
+        "ok": false,
+        "detail": "Sentence 4 should include a confidence interval."
+      },
+      {
+        "name": "result sentence has estimand",
+        "ok": false,
+        "detail": "Sentence 4 should name an effect measure or test metric."
+      },
+      {
+        "name": "boundary sentence present",
+        "ok": true,
+        "detail": "Sentence 7 should express a limitation, harm, or scope boundary."
+      }
+    ]
+  },
+  "schema": "e156-v0.2"
+}
