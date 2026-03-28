@@ -1,0 +1,591 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02767401",
+      "orgStudyIdInfo": {
+        "id": "LCKY2015-22"
+      },
+      "organization": {
+        "fullName": "The First Affiliated Hospital of Dalian Medical University",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Success of Opening Single CTO Lesions to Improve Myocardial Viability Study (SOS-comedy)",
+      "officialTitle": "The Success of Opening Single CTO Lesions to Improve Myocardial Viability Study (SOS-comedy)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2018-03",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-09-15",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-08-15",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2018-12-15",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2015-10-18",
+      "studyFirstSubmitQcDate": "2016-05-09",
+      "studyFirstPostDateStruct": {
+        "date": "2016-05-10",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2019-03-17",
+      "lastUpdatePostDateStruct": {
+        "date": "2019-03-19",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "The First Affiliated Hospital of Dalian Medical University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Beijing Anzhen Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "First Hospital of China Medical University",
+          "class": "OTHER"
+        },
+        {
+          "name": "Nanfang Hospital, Southern Medical University",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to investigate the effect of percutaneous coronary intervention (PCI) on myocardial viability in coronary artery disease patients with single coronary total occlusion (CTO) lesions.",
+      "detailedDescription": "Patients with coronary artery disease might benefit from successful percutaneous coronary intervention (PCI). However, there is currently no consensus on an optimal treatment modality for single lesions resulting in coronary total occlusion (CTO). Since the other coronary arteries are often lesion-free, or with stenosis of less than 50%, patients often present with no symptoms. Although the expert consensus on CTO lesion suggests reducing the incidence of long-term adverse events via successful revascularization, there are few retrospective studies on single CTO lesions. To date, it is unclear whether successful PCI based on optimal medication treatment (OMT) can increase myocardial viability and the extent of myocardial viability related to prognosis of those CTO patients. Therefore, the aim of this multi-center, prospective, open labeled, non-randomized controlled study was to determine if the improvement to myocardial viability in single CTO patients with successful PCI plus OMT was superior to that of patients with only OMT."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hibernation, Myocardial",
+        "Complete Occlusion of Coronary Artery"
+      ],
+      "keywords": [
+        "PET-CT",
+        "Cardiac magnetic resonance (CMR) imaging",
+        "Major adverse cardiac events (MACEs)",
+        "coronary artery disease"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 200,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "PCI using stenting or balloon expansion",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Opening single CTO lesions using drug-eluting stents (such as Xience V and Prime, Endeavor Resolute, Taxus express and Libete, Excel, Partner, BUMA, YINYI, TIVOLI,Firebird2,FireHawk, and Coroflex) or balloon expansion plus optimal medical therapy. Intravascular ultrasound (IVUS),optimal coherence tomgraphy (OCT) or fractional flow reserve (FFR) is used if they are needed. Optimal medical therapy includes dual antiplatelet therapy and statins. And optimal medical therapy should include adequate ventricular rate-limiting medication (i.e. Beta-blocker or rate-limiting calcium antagonist) where appropriate. Anti-angina therapy should be used if the patients have symptoms.",
+          "interventionNames": [
+            "Device: stenting or balloon expansion",
+            "Drug: aspirin, clopidogrel, ticagrelor, atorvastatin, rosuvastatin, betaloc"
+          ]
+        },
+        {
+          "label": "Optimal medical therapy",
+          "type": "NO_INTERVENTION",
+          "description": "Optimal medical therapy. It includes dual antiplatelet therapy and statins. And optimal medical therapy should include adequate ventricular rate-limiting medication (i.e. Beta-blocker or rate-limiting calcium antagonist) where appropriate. Anti-anginal therapy should be used if the patients have symptom."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "stenting or balloon expansion",
+          "description": "all species of drug-eluting stent ((such as Xience, Endeavor, Taxus, Excel, Firebird) implantation or balloon expansion (POBA)",
+          "armGroupLabels": [
+            "PCI using stenting or balloon expansion"
+          ],
+          "otherNames": [
+            "percutaneous coronary intervention"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "aspirin, clopidogrel, ticagrelor, atorvastatin, rosuvastatin, betaloc",
+          "description": "Optimal medical therapy includes dual antiplatelet therapy and statins (aspirin, clopidogrel, ticagrelor, atorvastatin, rosuvastatin, betaloc). And optimal medical therapy should include adequate ventricular rate-limiting medication (i.e. Beta-blocker or rate-limiting calcium antagonist) where appropriate. Anti-anginal therapy should be used if the patients have symptom.",
+          "armGroupLabels": [
+            "PCI using stenting or balloon expansion"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Changes to myocardial viability",
+          "description": "Changes to myocardial viability from baseline assessed with the use of combined positron emission tomography and computerized tomography (PET-CT) system",
+          "timeFrame": "12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Major adverse cardiac events",
+          "description": "including all-cause mortality, cardiac death, first or recurrent acute myocardial infarction, recurrent angina, target lesion revascularization (TLR), heart failure, and re-hospitalization",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "The rates of target vascular revascularization (TVR), TLR, and stent thrombosis",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Changes to left ventricular ejection fraction (LVEF)",
+          "description": "Changes to LVEF in % assessed with the use of cardiac MRI and transthoracic echocardiography (TTE).",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Changes to myocardial infarct size",
+          "description": "Changes to myocardial infarct size in percentage of total myocardial size assessed with the use of cardiac MRI.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Changes to left ventricular mass (LVM)",
+          "description": "Changes to LVM in g assessed with the use of cardiac MRI.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Changes to cardiac output (CO)",
+          "description": "Changes to cardiac CO in in L/min/m2 assessed with the use of cardiac MRI.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Changes to stroke volume (SV)",
+          "description": "Changes to SV in ml assessed with the use of cardiac MRI.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Changes to maximum left ventricular ejection rate",
+          "description": "Changes to maximum left ventricular ejection rate in % assessed with the use of cardiac MRI.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Changes to maximum left ventricular filling rate",
+          "description": "Changes to maximum left ventricular filling rate in % assessed with the use of cardiac MRI.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Changes to maximum slope",
+          "description": "Changes to maximum slope assessed with the use of cardiac MRI.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Changes to left ventricular end-diastolic diameter (LVEDd)",
+          "description": "Changes to LVEDd in mm assessed with the use of TTE.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Changes to left ventricular end-systolic diameter (LVESd)",
+          "description": "Changes to LVESd in mm assessed with the use of TTE.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Changes to cardiac systolic function",
+          "description": "Changes to cardiac systolic function in E/A, E'/A', Ea/Aa, EDT in ms assessed with the use of TTE.",
+          "timeFrame": "12 months"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Stroke incidence",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "The number of compliant patients",
+          "description": "Compliant patients are usually defined as those who take predefined percentage (100%) of the treatment",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "The total cost of medical care",
+          "description": "The total cost of medical care include equipment and medication in dollars.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Number of guidewires",
+          "description": "Number of guidewires used in the procedure",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Number of balloons",
+          "description": "Number of balloons used in the procedure",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Number of stents",
+          "description": "Number of stents used in the procedure",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "the volume of contrast",
+          "description": "the volume of contrast in ml during the procedure",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "type of device",
+          "description": "type of the first guidewire and the final guidewire to cross the proximal lesion such as shaping ribbon or core-to-tip, coil or polymer Cover, hydrophilic coating or hydrophobic coating, and the new devices including Guidezilla™， CrossBoss™ , Tornus, Transporter and Stingray™, any other newest device which will be used before this study is completed.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "the composite number of special techniques used in the procedure",
+          "description": "the special techniques including parallel wire, see-saw technique, side branch technique, STAR (subintimal tracking and reentry), intravascular ultrasound guiding wire, reverse-controlled antegrade and retrograde subintimal tracking (CART) technique and reverse CART technique.",
+          "timeFrame": "12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* History of stable or unstable angina\n* LVEF \\> 35% on transthoracic echocardiography measurement\n* Single lesion occluding the coronary artery detected by angiography or MSCTA, with or without stenosis of other coronary arteries (≤ 50% stenotic lesion)\n* Availability for follow-up for up to 12 months\n* No major barriers to provide written consent\n\nExclusion Criteria:\n\n* Acute Q-wave myocardial infarction during the latest 3 months\n* Revascularization in the non-culprit artery during the latest one month\n* Unsuitable for PCI\n* Unable to tolerate dual antiplatelet treatment (DAPT)\n* Severe abnormal hematopoietic system, such as platelet count of \\< 100×109/L or \\> 700×109/L and white blood cell count of \\< 3×109/L\n* Active bleeding or bleeding tendency\n* Severe coexisting conditions, such as severe renal insufficiency (GFR \\< 60 ml/min•1.73m2), severe hepatic dysfunction \\[elevated ALT (glutamic-pyruvic transaminase) or AST (glutamic-oxal acetic transaminase) level by more than three-fold of the normal limitation\\], acute or chronic heart failure (NYHA III-IV), acute infectious diseases, immune disorders, malignancy, etc.\n* Life expectancy \\< 12 months\n* Pregnancy or planning pregnancy\n* Drug allergies or contraindications to aspirin, clopidogrel, ticagrelor, statins, contract, anticoagulant, stent, etc.\n* Participation or planning to participate in another clinical trial during the same period\n* Refusal to comply with the study protocol",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Rongchong Huang, M.D.",
+          "affiliation": "The First Affiliated Hospital of Dalian Medical University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "25796024",
+          "type": "BACKGROUND",
+          "citation": "Namazi M, Safi M, Vakili H, Saadat H, Alipour S, Mahjoob P, Taherkhani M, Pedari S, Taherion M, Rajabi Moghaddam H, Alhazifi A, Vatanparast M, Khaligh S. Evaluation of effective factors in success rate of intervention on CTO. Acta Med Iran. 2015;53(3):173-6."
+        },
+        {
+          "pmid": "26029338",
+          "type": "BACKGROUND",
+          "citation": "Stuijfzand WJ, Raijmakers PG, Driessen RS, van Royen N, Nap A, van Rossum AC, Knaapen P. Value of Hybrid Imaging with PET/CT to Guide Percutaneous Revascularization of Chronic Total Coronary Occlusion. Curr Cardiovasc Imaging Rep. 2015;8(7):26. doi: 10.1007/s12410-015-9340-2."
+        },
+        {
+          "pmid": "26017064",
+          "type": "BACKGROUND",
+          "citation": "Lee SH, Yang JH, Choi SH, Song YB, Hahn JY, Choi JH, Kim WS, Lee YT, Gwon HC. Long-Term Clinical Outcomes of Medical Therapy for Coronary Chronic Total Occlusions in Elderly Patients (>/=75 Years). Circ J. 2015;79(8):1780-6. doi: 10.1253/circj.CJ-15-0041. Epub 2015 May 28."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D017682",
+          "term": "Myocardial Stunning"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D003324",
+          "term": "Coronary Artery Disease"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D003327",
+          "term": "Coronary Disease"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D015607",
+          "term": "Stents"
+        },
+        {
+          "id": "D062645",
+          "term": "Percutaneous Coronary Intervention"
+        },
+        {
+          "id": "D001241",
+          "term": "Aspirin"
+        },
+        {
+          "id": "D000077144",
+          "term": "Clopidogrel"
+        },
+        {
+          "id": "D000077486",
+          "term": "Ticagrelor"
+        },
+        {
+          "id": "D000069059",
+          "term": "Atorvastatin"
+        },
+        {
+          "id": "D000068718",
+          "term": "Rosuvastatin Calcium"
+        },
+        {
+          "id": "D008790",
+          "term": "Metoprolol"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D019736",
+          "term": "Prostheses and Implants"
+        },
+        {
+          "id": "D004864",
+          "term": "Equipment and Supplies"
+        },
+        {
+          "id": "D057510",
+          "term": "Endovascular Procedures"
+        },
+        {
+          "id": "D014656",
+          "term": "Vascular Surgical Procedures"
+        },
+        {
+          "id": "D013504",
+          "term": "Cardiovascular Surgical Procedures"
+        },
+        {
+          "id": "D013514",
+          "term": "Surgical Procedures, Operative"
+        },
+        {
+          "id": "D019060",
+          "term": "Minimally Invasive Surgical Procedures"
+        },
+        {
+          "id": "D012459",
+          "term": "Salicylates"
+        },
+        {
+          "id": "D062385",
+          "term": "Hydroxybenzoates"
+        },
+        {
+          "id": "D010636",
+          "term": "Phenols"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D013988",
+          "term": "Ticlopidine"
+        },
+        {
+          "id": "D058924",
+          "term": "Thienopyridines"
+        },
+        {
+          "id": "D013876",
+          "term": "Thiophenes"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D000241",
+          "term": "Adenosine"
+        },
+        {
+          "id": "D011684",
+          "term": "Purine Nucleosides"
+        },
+        {
+          "id": "D011687",
+          "term": "Purines"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        },
+        {
+          "id": "D012263",
+          "term": "Ribonucleosides"
+        },
+        {
+          "id": "D011758",
+          "term": "Pyrroles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006538",
+          "term": "Heptanoic Acids"
+        },
+        {
+          "id": "D005227",
+          "term": "Fatty Acids"
+        },
+        {
+          "id": "D008055",
+          "term": "Lipids"
+        },
+        {
+          "id": "D013449",
+          "term": "Sulfonamides"
+        },
+        {
+          "id": "D000577",
+          "term": "Amides"
+        },
+        {
+          "id": "D005464",
+          "term": "Fluorobenzenes"
+        },
+        {
+          "id": "D006845",
+          "term": "Hydrocarbons, Fluorinated"
+        },
+        {
+          "id": "D006846",
+          "term": "Hydrocarbons, Halogenated"
+        },
+        {
+          "id": "D013450",
+          "term": "Sulfones"
+        },
+        {
+          "id": "D011743",
+          "term": "Pyrimidines"
+        },
+        {
+          "id": "D050198",
+          "term": "Phenoxypropanolamines"
+        },
+        {
+          "id": "D011412",
+          "term": "Propanolamines"
+        },
+        {
+          "id": "D000605",
+          "term": "Amino Alcohols"
+        },
+        {
+          "id": "D000438",
+          "term": "Alcohols"
+        },
+        {
+          "id": "D020005",
+          "term": "Propanols"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

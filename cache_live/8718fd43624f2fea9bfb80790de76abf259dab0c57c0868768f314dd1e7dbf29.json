@@ -1,0 +1,307 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01874795",
+      "orgStudyIdInfo": {
+        "id": "071/2011"
+      },
+      "organization": {
+        "fullName": "University of Brasilia",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effect of Ganglionar Electrical Stimulation on Central Arterial Pressure",
+      "officialTitle": "Effect of Ganglionar Transcutaneous Electrical Nerve Stimulation on Central Arterial Pressure in Healthy Young Population"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2013-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2012-03"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2012-05",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2012-06",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2012-07-11",
+      "studyFirstSubmitQcDate": "2013-06-06",
+      "studyFirstPostDateStruct": {
+        "date": "2013-06-11",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2013-06-06",
+      "lastUpdatePostDateStruct": {
+        "date": "2013-06-11",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Gerson Cipriano Jr",
+        "investigatorTitle": "PhD",
+        "investigatorAffiliation": "University of Brasilia"
+      },
+      "leadSponsor": {
+        "name": "University of Brasilia",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This study will evaluate the applications of ganglionar electrical stimulation in patients with Chagas Disease and Ischemic Heart Failure patients.",
+      "detailedDescription": "A Crossover Randomized Controlled Study will be developed with 3 groups: Healthy Older, Ischemic Heart Failure and Chagas Disease. This individuals will be randomized in two groups: TENS and placebo (same stimulus without electrical output) with 48 hrs between the interventions."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure",
+        "Chagas Disease"
+      ],
+      "keywords": [
+        "Autonomic Nervous System",
+        "Neuromodulation",
+        "Exercise",
+        "Pulmonary oxygen kinetics",
+        "Oxygen uptake"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 30,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Ganglionar Electrical Stimulation",
+          "type": "EXPERIMENTAL",
+          "description": "TENS intervention consisted of continuous flow, symmetrical and rectangular TENS biphasic pulses. The frequency ofstimulation was 80 Hz and the pulse duration was 150 μs, with the intensity in adjusted to the point of muscle contraction.",
+          "interventionNames": [
+            "Device: TENS"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "SHAM_COMPARATOR",
+          "description": "The frequency of stimulation was 80 Hz and the pulse duration was 150 μs, equipment did not provide stimulation current.",
+          "interventionNames": [
+            "Device: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "TENS",
+          "description": "Adhesive electrodes (MultiStick®, USA) were placed on each side, about 3 cm to the right and left of midline vertebral process, at C7 (Channel 1) and T4 (Channel 2).",
+          "armGroupLabels": [
+            "Ganglionar Electrical Stimulation"
+          ],
+          "otherNames": [
+            "Ganglionar electrical stimulation"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Placebo",
+          "description": "The frequency of stimulation was 80 Hz and the pulse duration was 150 μs, equipment did not provide stimulation current.",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "tonometry",
+          "description": "Applanation tonometry (AT) accurately reflects arterial stiffness method and has demonstrated a strong correlation with ventricular-vascular coupling. Increased arterial stiffness and wave reflection have also been reported in patients with systolic and diastolic HF.",
+          "timeFrame": "participants will be followed for the duration of myostimulation protocol, an expected average of 5 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Cardiorespiratory Evaluation",
+          "description": "Cardiopulmonary exercise testing (CPX) is a highly reliable and valid approach to assessing aerobic performance. It is a well-accepted assessment technique in the HF population with American and European associations endorsing its use. CPX is most often performed on a treadmill or cycle ergometer using ramping protocols and the addition of ventilatory expired gas analysis to the standard exercise test enables measurement of oxygen consumption (VO2), carbon dioxide production (VCO2) and minute ventilation (VE) over time. Moreover, CPX provides a host of variables that are predictive of adverse events in HF patients, including peak VO2, the VE/VCO2 slope and the oxygen uptake efficiency slope (OUES).",
+          "timeFrame": "participants will be followed for the duration of myostimulation protocol, an expected average of 5 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Ischemic and Chagas disease previously diagnosticated\n* Age above 40 years old\n\nExclusion Criteria:\n\n* No vascular disease\n* No recent surgery\n* No recent infections",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "40 Years",
+      "maximumAge": "70 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Gerson C junior, PhD",
+          "affiliation": "University of Brasilia",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Gaspar R Chiappa, ScD",
+          "affiliation": "University Federal of Rio Grande do Sul",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Brasilia",
+          "city": "Brasília",
+          "state": "Federal District",
+          "zip": "700000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -15.77972,
+            "lon": -47.92972
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "18417519",
+          "type": "BACKGROUND",
+          "citation": "Cipriano G Jr, de Camargo Carvalho AC, Bernardelli GF, Tayar Peres PA. Short-term transcutaneous electrical nerve stimulation after cardiac surgery: effect on pain, pulmonary function and electrical muscle activity. Interact Cardiovasc Thorac Surg. 2008 Aug;7(4):539-43. doi: 10.1510/icvts.2007.168542. Epub 2008 Apr 16."
+        },
+        {
+          "pmid": "18356477",
+          "type": "BACKGROUND",
+          "citation": "Chiappa GR, Borghi-Silva A, Ferreira LF, Carrascosa C, Oliveira CC, Maia J, Gimenes AC, Queiroga F Jr, Berton D, Ferreira EM, Nery LE, Neder JA. Kinetics of muscle deoxygenation are accelerated at the onset of heavy-intensity exercise in patients with COPD: relationship to central cardiovascular dynamics. J Appl Physiol (1985). 2008 May;104(5):1341-50. doi: 10.1152/japplphysiol.01364.2007. Epub 2008 Mar 20."
+        },
+        {
+          "pmid": "21796410",
+          "type": "BACKGROUND",
+          "citation": "Vieira PJ, Ribeiro JP, Cipriano G Jr, Umpierre D, Cahalin LP, Moraes RS, Chiappa GR. Effect of transcutaneous electrical nerve stimulation on muscle metaboreflex in healthy young and older subjects. Eur J Appl Physiol. 2012 Apr;112(4):1327-34. doi: 10.1007/s00421-011-2084-z. Epub 2011 Jul 28."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D014355",
+          "term": "Chagas Disease"
+        },
+        {
+          "id": "D009043",
+          "term": "Motor Activity"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014352",
+          "term": "Trypanosomiasis"
+        },
+        {
+          "id": "D056986",
+          "term": "Euglenozoa Infections"
+        },
+        {
+          "id": "D011528",
+          "term": "Protozoan Infections"
+        },
+        {
+          "id": "D010272",
+          "term": "Parasitic Diseases"
+        },
+        {
+          "id": "D007239",
+          "term": "Infections"
+        },
+        {
+          "id": "D000079426",
+          "term": "Vector Borne Diseases"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004561",
+          "term": "Transcutaneous Electric Nerve Stimulation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004599",
+          "term": "Electric Stimulation Therapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D026741",
+          "term": "Physical Therapy Modalities"
+        },
+        {
+          "id": "D012046",
+          "term": "Rehabilitation"
+        },
+        {
+          "id": "D000698",
+          "term": "Analgesia"
+        },
+        {
+          "id": "D000760",
+          "term": "Anesthesia and Analgesia"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

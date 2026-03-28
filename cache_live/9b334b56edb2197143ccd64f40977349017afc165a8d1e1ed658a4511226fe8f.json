@@ -1,0 +1,424 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06794710",
+      "orgStudyIdInfo": {
+        "id": "RARE2024"
+      },
+      "organization": {
+        "fullName": "RenJi Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Early Identification and Treatment of Rare Cardiomyopathy Cohorts",
+      "officialTitle": "Early Identification and Treatment of Rare Myocardium by Multimodal Imaging (EARLY-MYO-RARE)",
+      "acronym": "EARLY-MYO-RARE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-01",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-02-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-05-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-09-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-12-30",
+      "studyFirstSubmitQcDate": "2025-01-21",
+      "studyFirstPostDateStruct": {
+        "date": "2025-01-27",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-01-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-01-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "RenJi Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study aims to further develop an imaging-guided cohort of rare cardiomyopathies based on the existing database. The investigators will standardize the construction of a cohort that integrates a clinical data repository, serum biobank, myocardial tissue bank, and imaging database. In the current cohort, the investigators will systematically screen for biomarkers indicative of pathological changes in challenging cardiomyopathies. Multidimensional data will be integrated to establish and optimize a heart failure risk assessment model, which will then be validated in a prospective cohort. The effectiveness of the model in assessing different risk groups will be evaluated, with the goal of achieving precise prevention of heart failure from the source.",
+      "detailedDescription": "To answer what are the key clinical questions of patients with rare cardiomyopathies resulted in high risk of adverse outcomes and requiring intensified treatment, this study will systematically refine and expand the cohort. This study will combine multimodal imaging with clinical data, blood samples, myocardial tissue samples to retrospectively identify biomarkers associated with pathological changes in rare cardiomyopathies; thereby to integrate multi-dimensional data to develop and validate a prognostic risk assessment model and evaluate the effectiveness of treatments guided through prospective randomized controlled trials by this model. Ultimately, this study aims to offer an integrated solution for the diagnosis and treatment of rare cardiomyopathies."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hypertrophic Cardiomyopathy (HCM)",
+        "Dilated Cardiomyopathy (DCM)",
+        "Metabolic Cardiomyopathy",
+        "Restrictive Cardiomyopathy"
+      ],
+      "keywords": [
+        "rare cardiomyopathy, cardiac multimodal imaging, myocardial impairment"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 300,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Non-model-based prediction group",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Heart Faliure Patient Group without diagnosed by multimodal imaging, and they will receive a traditional pharmacological treatment for heart failure.Traditional anti heart failure drug therapy included diuretics, angiotensin-converting enzyme inhibitors (ACEIs)/angiotensin receptor antagonists (ARBs), beta blockers, positive inotropic drugs, aldosterone receptor blockers (MRA), sodium glucose cotransporter 2 inhibitors (SGLT2i), and retinoids.",
+          "interventionNames": [
+            "Drug: diuretics, ACEIs/ARBs, beta blockers, positive inotropic drugs, MRAs, SGLT2i, retinoids"
+          ]
+        },
+        {
+          "label": "Model-guided optimized treatment",
+          "type": "EXPERIMENTAL",
+          "description": "Patients with heart failure who were diagnosed in Rare Cardiomypathy by multimodal imaging. And They will receive Close follow-up, intensified pharmacological treatment for heart failure, and early rehabilitation guidance. Traditional anti heart failure drug therapy: diuretics, angiotensin-converting enzyme inhibitors (ACEIs)/angiotensin receptor antagonists (ARBs), beta blockers, positive inotropic drugs, aldosterone receptor blockers (MRA), sodium glucose cotransporter 2 inhibitors (SGLT2i), and retinoids.",
+          "interventionNames": [
+            "Drug: diuretics, ACEIs/ARBs, beta blockers, positive inotropic drugs, MRAs, SGLT2i, retinoids",
+            "Behavioral: Close follow-up",
+            "Behavioral: early rehabilitation guidance"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "diuretics, ACEIs/ARBs, beta blockers, positive inotropic drugs, MRAs, SGLT2i, retinoids",
+          "description": "Patients in this group will receive pharmacological treatment for heart failure.",
+          "armGroupLabels": [
+            "Model-guided optimized treatment",
+            "Non-model-based prediction group"
+          ],
+          "otherNames": [
+            "pharmacological treatment for heart failure"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Close follow-up",
+          "description": "High risk patients receive close follow-up",
+          "armGroupLabels": [
+            "Model-guided optimized treatment"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "early rehabilitation guidance",
+          "description": "Early rehabilitation guidance such as cardiopulmonary exercise tests and cardiac rehabilitation therapy",
+          "armGroupLabels": [
+            "Model-guided optimized treatment"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The Heart Failure Incidence of Rare cardiomyopathy",
+          "description": "The heart failure incidence will be diagnosed by identify biomarkers combined multimodal imaging with clinical data, blood samples, myocardial tissue samples.",
+          "timeFrame": "From the date of recruitment, heart failure will be assessed within 24 hours, followed by assessments every six months during the follow-up period, up to 24 months."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Assessment of Changes in Cardiac Morphological Characteristics",
+          "description": "Changes in cardiac morphological characteristics will be assessed using multimodal imaging technologies, including:\n\nOutcome Measure 1: Echocardiography (Echo), assessing parameters such as: Left ventricular ejection fraction (LVEF) (measured as a percentage), Wall thickness (measured in millimeters), Left ventricular end-diastolic and end-systolic dimensions (measured in millimeters), Right ventricular size and function (measured in millimeters and percentage).\n\nOutcome Measure 2: Cardiac Magnetic Resonance Imaging (CMR), assessing parameters such as: Myocardial mass (measured in grams), Left ventricular volumes (end-diastolic and end-systolic, measured in milliliters), Left and right ventricular stroke volumes (measured in milliliters), Myocardial strain (measured as a percentage), Left ventricular myocardial fibrosis (measured as a percentage of the myocardium).",
+          "timeFrame": "From the date of recruitment, heart failure will be assessed within 24 hours, followed by assessments every six months during the follow-up period, up to 24 months."
+        },
+        {
+          "measure": "Quantitative Assessment of Changes in Cardiac Tissue Characteristics",
+          "description": "CMR T1 mapping-derived extracellular volumes (ECV) will be used to detect changes in the myocardium interstitial matrix. ECV will be calculated according to the ECV formula consist of T1 mapping value. CMR T2 mapping value will be used to depict changes in the myocardial edema.",
+          "timeFrame": "From the date of recruitment, heart failure will be assessed within 24 hours, followed by assessments every six months during the follow-up period, up to 24 months."
+        },
+        {
+          "measure": "NT-proBNP",
+          "description": "Blood test",
+          "timeFrame": "From the date of recruitment, heart failure will be assessed within 24 hours, followed by assessments every six months during the follow-up period, up to 24 months."
+        },
+        {
+          "measure": "VO2max",
+          "description": "Cardiopulmonary exercise test (CPET)",
+          "timeFrame": "From the date of recruitment, heart failure will be assessed within 24 hours, followed by assessments every six months during the follow-up period, up to 24 months."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 18-75 years old.\n* Patients preliminarily diagnosed with heart failure and scheduled to receive drug therapy after being evaluated by cardiology departments.\n* No history of structural heart disease, and the Framingham score \\&amp;lt;5 (for patients with the Framingham score ≥5, coronary artery disease will be excluded by coronary angiography/coronary CT/exercise platelet).\n* Creatinine clearance ≥50ml/min (Cockcroft-Gault formula).\n* LVEF ≥50% assessed by Echocardiography.\n* QT interval \\&amp;lt; 470 ms.\n* Providing written informed consent.\n\nExclusion Criteria:\n\n* Presence of acute/chronic renal impairment (GFR \\&amp;lt;50/ml/min/1.73m2).\n* History of cardiovascular disease such as confirmed coronary artery disease, valvular disease, cardiomyopathy, congenital heart disease, and heart failure.\n* Presence of contraindications to CMR.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Meng Jiang, MD, PhD",
+          "role": "CONTACT",
+          "phone": "13788912766",
+          "phoneExt": "13788912766",
+          "email": "jiangmeng0919@163.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Meng Jiang, MD, PhD",
+          "affiliation": "RenJi Hospital, School of Medicine, Shanghai Jiantong University",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Renji Hospital",
+          "city": "Shanghai",
+          "state": "Shanghai Municipality",
+          "zip": "200030",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Zi Wang, MD,PHD",
+              "role": "CONTACT",
+              "phone": "15000765160",
+              "phoneExt": "15000765160",
+              "email": "wangziz10@126.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D002312",
+          "term": "Cardiomyopathy, Hypertrophic"
+        },
+        {
+          "id": "D002311",
+          "term": "Cardiomyopathy, Dilated"
+        },
+        {
+          "id": "D002313",
+          "term": "Cardiomyopathy, Restrictive"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009202",
+          "term": "Cardiomyopathies"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D001020",
+          "term": "Aortic Stenosis, Subvalvular"
+        },
+        {
+          "id": "D001024",
+          "term": "Aortic Valve Stenosis"
+        },
+        {
+          "id": "D000082862",
+          "term": "Aortic Valve Disease"
+        },
+        {
+          "id": "D006349",
+          "term": "Heart Valve Diseases"
+        },
+        {
+          "id": "D006332",
+          "term": "Cardiomegaly"
+        },
+        {
+          "id": "D000083083",
+          "term": "Laminopathies"
+        },
+        {
+          "id": "D030342",
+          "term": "Genetic Diseases, Inborn"
+        },
+        {
+          "id": "D009358",
+          "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004232",
+          "term": "Diuretics"
+        },
+        {
+          "id": "D000319",
+          "term": "Adrenergic beta-Antagonists"
+        },
+        {
+          "id": "C109523",
+          "term": "MRAS protein, human"
+        },
+        {
+          "id": "D012176",
+          "term": "Retinoids"
+        },
+        {
+          "id": "D004358",
+          "term": "Drug Therapy"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D045283",
+          "term": "Natriuretic Agents"
+        },
+        {
+          "id": "D045505",
+          "term": "Physiological Effects of Drugs"
+        },
+        {
+          "id": "D020228",
+          "term": "Pharmacologic Actions"
+        },
+        {
+          "id": "D020164",
+          "term": "Chemical Actions and Uses"
+        },
+        {
+          "id": "D018674",
+          "term": "Adrenergic Antagonists"
+        },
+        {
+          "id": "D018663",
+          "term": "Adrenergic Agents"
+        },
+        {
+          "id": "D018377",
+          "term": "Neurotransmitter Agents"
+        },
+        {
+          "id": "D045504",
+          "term": "Molecular Mechanisms of Pharmacological Action"
+        },
+        {
+          "id": "D002338",
+          "term": "Carotenoids"
+        },
+        {
+          "id": "D011090",
+          "term": "Polyenes"
+        },
+        {
+          "id": "D000475",
+          "term": "Alkenes"
+        },
+        {
+          "id": "D006839",
+          "term": "Hydrocarbons, Acyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D053138",
+          "term": "Cyclohexenes"
+        },
+        {
+          "id": "D003510",
+          "term": "Cyclohexanes"
+        },
+        {
+          "id": "D003516",
+          "term": "Cycloparaffins"
+        },
+        {
+          "id": "D006840",
+          "term": "Hydrocarbons, Alicyclic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D013729",
+          "term": "Terpenes"
+        },
+        {
+          "id": "D010860",
+          "term": "Pigments, Biological"
+        },
+        {
+          "id": "D001685",
+          "term": "Biological Factors"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,233 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05600725",
+      "orgStudyIdInfo": {
+        "id": "202202351"
+      },
+      "organization": {
+        "fullName": "University of Iowa",
+        "class": "OTHER"
+      },
+      "briefTitle": "Novel Cardiac Pacing to Initiate Cardiac Remodeling in Heart Failure",
+      "officialTitle": "Novel Pacing Modality to Initiate Favorable Cardiac Remodeling in Heart Disease"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-05",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-11-02",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-02-28",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-02-28",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-06-27",
+      "studyFirstSubmitQcDate": "2022-10-27",
+      "studyFirstPostDateStruct": {
+        "date": "2022-10-31",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-05-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-05-16",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Denise Hodgson-Zingman",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "University of Iowa"
+      },
+      "leadSponsor": {
+        "name": "Denise Hodgson-Zingman",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This project utilizes a novel cardiac pacing approach hypothesized to initiate beneficial cardiac conditioning and remodeling over a period of time.",
+      "detailedDescription": "The project studies subjects with non-ischemic cardiomyopathy who have a pacing device already implanted. Subjects randomized to the pacing intervention versus a sham intervention will be compared for various symptomatic, functional and other outcomes. Each subject will undergo baseline quality of life/symptom questionnaires and clinical testing for cardiac functional/structural effects and exercise tolerance, then the intervention vs. sham (subjects blinded to their category), followed by repeat questionnaires and clinical testing. Medical record review will be undertaken to establish demographic variables, baseline and follow up testing results."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiomyopathies",
+        "Heart Rate",
+        "Conditioning"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Subjects will be randomized in a single-blinded fashion to intervention vs. sham treatment",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "Subjects will be unaware of their group assignment. Investigators delivering the intervention vs. sham will be aware. Analysts processing primary data (serum testing, echocardiographic dimensions, 6-min walk distance, CPEX) will not be aware of group assignments.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 5,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Pacing intervention",
+          "type": "EXPERIMENTAL",
+          "description": "A novel atrial pacing approach will be delivered using the subject's already implanted pacemaker, ICD or BiV/ICD while the subject is in a semi-recumbent position and while hemodynamic and symptom data is collected. This will be repeated once daily, 3d/wk over 4 weeks.",
+          "interventionNames": [
+            "Other: novel atrial pacing approach"
+          ]
+        },
+        {
+          "label": "Sham pacing",
+          "type": "SHAM_COMPARATOR",
+          "description": "Subjects in this arm will be treated identically to the subjects in the pacing intervention arm but their already implanted pacemaker, ICD or BiV/ICD will have programming changes simulated but not actually implemented.",
+          "interventionNames": [
+            "Other: sham pacing approach"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "novel atrial pacing approach",
+          "description": "See US Patent #10987516. An atrial pacing method that preserves atrioventricular and interventricular synchrony to reproduce an exercise-typical envelope of heart rate.",
+          "armGroupLabels": [
+            "Pacing intervention"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "sham pacing approach",
+          "description": "A pacemaker/ICD interrogator/programmer will be used to simulate changes in pacing rate over the same time period as the intervention group but the programming changes will not actually be implemented and not change in paced heart rate will occur.",
+          "armGroupLabels": [
+            "Sham pacing"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Quality of life/symptom score",
+          "description": "Minnesota Living with Heart Failure Score (range 0-105, higher scores indicate worse quality of life)",
+          "timeFrame": "4 weeks after start of the protocol"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "systolic blood pressure",
+          "description": "systolic blood pressure (mmHg) as a continuous variable",
+          "timeFrame": "every 5 minutes during intervention/sham in weeks 1-4 of the protocol"
+        },
+        {
+          "measure": "diastolic blood pressure",
+          "description": "systolic blood pressure (mmHg) as a continuous variable",
+          "timeFrame": "every 5 minutes during intervention/sham in weeks 1-4 of the protocol"
+        },
+        {
+          "measure": "Oxygen saturation",
+          "description": "oxygen saturation by pulse oximeter (%) as a continuous variable",
+          "timeFrame": "every 5 minutes during intervention/sham in weeks 1-4 of the protocol"
+        },
+        {
+          "measure": "cardiac output",
+          "description": "cardiac output (liters/minute) as measured by thoracic impedance and reported as a continuous variable",
+          "timeFrame": "every 5 minutes during intervention/sham in weeks 1-4 of the protocol"
+        },
+        {
+          "measure": "MACE",
+          "description": "Major adverse cardiac events: composite of total death, MI, stroke, hospitalization due to heart failure, revascularization",
+          "timeFrame": "4 weeks and 4 months after start of the protocol"
+        },
+        {
+          "measure": "six minute walk",
+          "description": "distance ambulated in 6 minutes (meters)",
+          "timeFrame": "at the time of enrollment, and at 4 weeks after start of the protocol"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Non-Ischemic Cardiomyopathy\n* Ejection Fraction \\</= 35% despite at least 3 months stable standard medical management\n* New York Heart Association Class II-III symptoms\n* Dual chamber implantable cardioverter defibrillator in place or Biventricular ICD in place (over 3 months old)\n* Normal Atrioventricular conduction or Biventricular ICD\n* QRS \\< 120 msec (inherent conduction or paced with BiV ICD)\n\nExclusion criteria:\n\n* Age \\< 18 years\n* Inability to ambulate safely\n* Congenital or primary valve disease\n* Left Ventricular thrombus\n* Severe peripheral arterial disease\n* Admission for life-threatening condition (eg heart failure, stroke) in the past 3 months\n* Major surgery in the past 3 months or anticipated during the period of the trial\n* Paced or intrinsic QRS \\>120 msec\n* Life expectancy \\< 1 year\n* Hemodialysis\n* Hematocrit \\< 30%\n* Severe Chronic lung disease\n* Pregnancy\n* ICD battery longevity \\< 1 year\n* Unsuppressed atrial arrhythmias\n* Already participating in an exercise programusion Criteria",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Denice Hodgson-Zingman, MD",
+          "affiliation": "University of Iowa",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Iowa",
+          "city": "Iowa City",
+          "state": "Iowa",
+          "zip": "52240",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.66113,
+            "lon": -91.53017
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009202",
+          "term": "Cardiomyopathies"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

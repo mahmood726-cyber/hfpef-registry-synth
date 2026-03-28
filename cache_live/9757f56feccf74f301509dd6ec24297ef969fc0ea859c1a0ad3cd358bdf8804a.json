@@ -1,0 +1,249 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04905160",
+      "orgStudyIdInfo": {
+        "id": "AVDH 001"
+      },
+      "organization": {
+        "fullName": "Aventyn, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Care Coordination to Assess Improvement in Outcomes in Hospital Readmissions",
+      "officialTitle": "Care cOordination Using Mobile Technology to Enhance Patient Empowerment in Acute Comorbidities to aSSess Improvement in Outcomes in Hospital readmissioNs",
+      "acronym": "COMPASSION"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-03",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-02-18",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-02-22",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-12-22",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-05-24",
+      "studyFirstSubmitQcDate": "2021-05-24",
+      "studyFirstPostDateStruct": {
+        "date": "2021-05-27",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-03-19",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-03-20",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Aventyn, Inc.",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "TwinEpidemic",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "Arizona State University",
+          "class": "OTHER"
+        },
+        {
+          "name": "Intel Corporation",
+          "class": "INDUSTRY"
+        },
+        {
+          "name": "Heart Health Organization East Valley",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Heart failure is a syndrome that is defined by distinctive clinical, hemodynamic, and neurohormonal findings. HF represents a final common pathway for many different cardiovascular diseases, including coronary disease, hypertension, Valvular disease, and many primary heart muscle diseases. Clinically, HF patients experience dyspnea, fatigue and diminished exercise tolerance, reflecting elevated left and/or right ventricular filling pressures and decreased cardiac output.",
+      "detailedDescription": "Heart failure patients are frequently hospitalized and have a high mortality rate and accounts for over 1 million hospital admissions yearly in the U.S. It is associated with a 2-year mortality rate of up to 40% to 50. The annual mortality rate for Acute Decompensated Heart Failure (ADHF) is 21%. ADHF initial hospitalization mortality rates range from 4% to 7%, with mortality as high as 22% in high risk patients. About 30% to 60% of ADHF patients are readmitted within 3-6 months after discharge from the first hospitalization. Inpatient treatment for ADHF consists of diuretics, vasodilators and inotropes. Hospital admissions for ADHF have increased precipitously during the past few decades and are projected to continue to increase in the future. To optimize patient outcomes and reduce the costs associated with this disorder, evidenced-based device and pharmacotherapy is essential. Diuretics, Beta blockers, RAAS blockers and cardiac resynchronization therapy are all useful to some extent in improving outcomes of quality of life and survival. In spite of optimized therapy, there is still relentless progression of disease and clinical exacerbations of fluid retention that precipitates hospital admissions and readmissions increasing poor quality outcomes as well as the cost burden for individual, hospitals, ACOs, payers and society as a whole. There is an urgent need to decrease hospital readmissions in Post Myocardial Infarction patients and subjects with recurrent CHF. This project will use patient empowerment and new technologies to increase QOL of patients as well as to reduce readmissions"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure",
+        "ADHF",
+        "Acute MI"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "Evaluate the efficacy of treatment strategy in reducing readmissions based on an algorithm obtained from biomarkers and diagnostics utilizing remote sensor driven technology tools, care coordination and patient empowerment. Improvement of patient outcomes will be measured by reduction of composite of HF re-hospitalization and all-cause mortality through 30 days,90 days and 180 days in patients with recent acute Myocardial Infarction and recent admission for decompensated heart failure",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1000,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Subjects Hospitalized with a Primary Diagnosis of ADHF or Acute MI",
+          "type": "EXPERIMENTAL",
+          "description": "Phase 1 subjects 18 years or above hospitalized with a primary diagnosis of ADHF or acute MI. Patients will measure their vitals Weight, Sitting BP, Fluid Status, Heart Rate, Respiration Rate each morning for 30 days after discharge. The monitoring of this data of each patient daily will be done by dedicated H2O care team and hospitalist. The hospitalist will coordinate with the patient, the home health team, SNFs and the cardiologists as needed to correct/treat any major abnormalities picked up by the remote monitoring system in order to prevent readmissions. Vitals data collected by the Vitalbeat workbench for biomarker based algorithm variables will be used to drive intervention based on PAP systolic and diastolic pressures.",
+          "interventionNames": [
+            "Other: COMPASSION Digital Biomarker"
+          ]
+        },
+        {
+          "label": "Subjects Testing Positive Covid-19 Antigen Test",
+          "type": "EXPERIMENTAL",
+          "description": "Phase 2 subjects 50 years or older with positive Covid-19 antigen test and one other risk factor as mentioned in the comorbid section of workflow will be enrolled in this arm of the study. Subjects will be randomized within 48 hours of Covid-19 antigen positive status. Patients will measure their vitals Weight, Sitting BP, Fluid Status, Heart Rate, Respiration Rate each morning for 30 days after discharge. The monitoring of this data of each patient daily will be done by dedicated H2O care team and hospitalist. The hospitalist will coordinate with the patient, the home health team, SNFs and the cardiologists as needed to correct/treat any major abnormalities picked up by the remote monitoring system in order to prevent readmissions. Vitals data collected by the Vitalbeat workbench for biomarker based algorithm variables will be used to drive intervention based on PAP systolic and diastolic pressures.",
+          "interventionNames": [
+            "Other: COMPASSION Digital Biomarker"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "COMPASSION Digital Biomarker",
+          "description": "Vitals data collected by the Vitalbeat workbench for biomarker based algorithm variables will be used to drive intervention based on PAP systolic and diastolic pressures.",
+          "armGroupLabels": [
+            "Subjects Hospitalized with a Primary Diagnosis of ADHF or Acute MI",
+            "Subjects Testing Positive Covid-19 Antigen Test"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Reducing readmissions",
+          "description": "The primary objective of this study is to evaluate the efficacy of treatment strategy in reducing readmissions based on the COMPASSION algorithm obtained from biomarkers and diagnostics utilizing remote sensor driven technology tools, care coordination and patient empowerment. Improvement of patient outcomes will be measured by reduction of composite of HF re-hospitalization and all-cause mortality through 30 days in patients with recent acute Myocardial Infarction and recent admission for decompensated heart failure.",
+          "timeFrame": "30 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Well-being Self-assessed Likert scale at 30 days from hospitalization",
+          "description": "The secondary objectives of this study are to evaluate the effect of treatment in:\n\nImproving subject self-assessed overall well-being as measured by self-assessed Likert scale at 30 days from hospitalization Increasing the number of days alive and outside the hospital from hospitalization through day 30. Reducing the composite of cardiovascular re-hospitalization and Cardiovascular mortality from hospitalization through 30 days",
+          "timeFrame": "30 Days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nMen and women over 18 years of age are included. Eligible subjects must be hospitalized with a primary diagnosis of ADHF or acute MI. The diagnosis of HF is established by the presence of typical symptoms, signs, and objective evidence of pulmonary congestion, elevated BNP or N-terminal pro B-type natriuretic peptide (NT-pro BNP) or impaired cardiac function. Acute MI is diagnosed by presence of chest pain, arm pain, or dyspnea with elevated Troponin and/or EKG changes suggestive of Acute coronary syndrome requiring intervention or optimal medical therapy.\n\nExclusion Criteria:\n\n1. Study informed consent will be obtained before enrollment in the study for Phase 1 and Phase 2\n2. All subjects 18 years or above will be a criteria for inclusion for Phase 1\n3. For Phase 2, men and women 50 years or older with positive Covid19 antigen test and one other risk factor as mentioned in the comorbid section of workflow will be enrolled in the intervention arm of the study;\n4. For phase 2, subjects should be able to be randomized within 48 hours of Covid19 antigen positive status\n5. Patients considered unreliable by the investigator concerning the requirements for follow-up visits",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Navin Govind",
+          "role": "CONTACT",
+          "phone": "2317942328",
+          "email": "vitalbeat@aventyn.com"
+        },
+        {
+          "name": "Sharolynn Mclurg",
+          "role": "CONTACT"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Kris Vijay, MD",
+          "affiliation": "Abrazo Arizona Heart",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Raj Bhat, MD",
+          "affiliation": "Pioneer Hospitalists",
+          "role": "STUDY_DIRECTOR"
+        },
+        {
+          "name": "Zaki Lababidi, MD",
+          "affiliation": "Gilbert Cardiology",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Ashok Solsi, MD",
+          "affiliation": "Premier Cardiovascular Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Multiple Locations",
+          "status": "RECRUITING",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85016",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Puja Chandler",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

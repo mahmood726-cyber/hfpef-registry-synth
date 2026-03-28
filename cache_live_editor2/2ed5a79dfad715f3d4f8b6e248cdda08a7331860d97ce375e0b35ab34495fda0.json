@@ -1,0 +1,307 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05353166",
+      "orgStudyIdInfo": {
+        "id": "R5381-HF-2159"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2021-006337-19",
+          "type": "EUDRACT_NUMBER"
+        },
+        {
+          "id": "2023-506674-13-00",
+          "type": "CTIS"
+        }
+      ],
+      "organization": {
+        "fullName": "Regeneron Pharmaceuticals",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "REGN5381 in Heart Failure Adult Participants With Elevated Pulmonary Capillary Wedge Pressure",
+      "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled, Multi-Center Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of Single Ascending Doses of REGN5381, an NPR1 Agonist, in Heart Failure Patients With Elevated Pulmonary Capillary Wedge Pressure"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-06-30",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-06-02",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-06-02",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-04-25",
+      "studyFirstSubmitQcDate": "2022-04-25",
+      "studyFirstPostDateStruct": {
+        "date": "2022-04-29",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-06-10",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-06-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Regeneron Pharmaceuticals",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is researching an experimental drug called REGN5381, further referred to as study drug. The study is focused on adult participants with heart failure that, in the opinion of the study doctor, have a clinical indication for right heart catheterization (RHC). The aim of the study is to evaluate the safety and tolerability of the study drug.\n\nThe study is looking at several other research questions, including:\n\n* What side effects may happen from taking the study drug\n* How much study drug is in the blood at different times\n* Whether the body makes antibodies against the study drug (which could make the drug less effective or could lead to side effects)",
+      "detailedDescription": "Note: Group A has stopped enrolling and Group B will not enroll participants"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ],
+      "keywords": [
+        "New York Heart Association (NYHA) class II/III with symptoms of congestion",
+        "Elevated Pulmonary Capillary Wedge Pressure",
+        "Reduced Left Ventricular Ejection Fraction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 59,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Group A",
+          "type": "EXPERIMENTAL",
+          "description": "Randomized 1:1; limited to participants with heart failure with reduced ejection fraction (HFrEF) not taking sacubitril/valsartan",
+          "interventionNames": [
+            "Drug: REGN5381",
+            "Drug: Matching Placebo"
+          ]
+        },
+        {
+          "label": "Group B",
+          "type": "EXPERIMENTAL",
+          "description": "Randomized 1:1; limited to participants with HFrEF taking sacubitril/valsartan",
+          "interventionNames": [
+            "Drug: REGN5381",
+            "Drug: Matching Placebo"
+          ]
+        },
+        {
+          "label": "Group C",
+          "type": "EXPERIMENTAL",
+          "description": "Randomized 1:1; limited to participants with heart failure with preserved ejection fraction (HFpEF) not taking sacubitril/valsartan",
+          "interventionNames": [
+            "Drug: REGN5381",
+            "Drug: Matching Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "REGN5381",
+          "description": "Single dose administered via IV infusion",
+          "armGroupLabels": [
+            "Group A",
+            "Group B",
+            "Group C"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Matching Placebo",
+          "description": "Single dose administered via IV infusion",
+          "armGroupLabels": [
+            "Group A",
+            "Group B",
+            "Group C"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Incidence and severity of treatment-emergent adverse events (TEAEs)",
+          "timeFrame": "Through the end-of-study (EOS) visit up to 126 days post-dose"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change from baseline in pulmonary capillary wedge pressure (PCWP)",
+          "description": "In cohorts undergoing right heart catheterization",
+          "timeFrame": "Over 6 hours post-dose administration"
+        },
+        {
+          "measure": "Change from baseline right atrial pressure (RAP)",
+          "description": "In cohorts undergoing right heart catheterization",
+          "timeFrame": "Over 6 hours post-dose administration"
+        },
+        {
+          "measure": "Change from baseline cardiac output (CO)",
+          "description": "In cohorts undergoing right heart catheterization",
+          "timeFrame": "Over 6 hours post-dose administration"
+        },
+        {
+          "measure": "Change from baseline systemic vascular resistance (SVR)",
+          "description": "In cohorts undergoing right heart catheterization",
+          "timeFrame": "Over 6 hours post-dose administration"
+        },
+        {
+          "measure": "Change from baseline mean pulmonary artery pressure (mPAP)",
+          "description": "In cohorts undergoing right heart catheterization",
+          "timeFrame": "Over 6 hours post-dose administration"
+        },
+        {
+          "measure": "Change from baseline pulmonary vascular resistance (PVR)",
+          "description": "In cohorts undergoing right heart catheterization",
+          "timeFrame": "Over 6 hours post-dose administration"
+        },
+        {
+          "measure": "Change from baseline in systolic blood pressure (SBP)",
+          "timeFrame": "Over the first 6 hours, 24 hours post-dose administration (day 1), through the EOS visit up to 126 days post-dose"
+        },
+        {
+          "measure": "Change from baseline in diastolic blood pressure (DBP)",
+          "timeFrame": "Over the first 6 hours, 24 hours post-dose administration (day 1), through the EOS visit up to 126 days post-dose"
+        },
+        {
+          "measure": "Change from baseline in mean arterial pressure (MAP)",
+          "timeFrame": "Over the first 6 hours, 24 hours post-dose administration (day 1), through the EOS visit up to 126 days post-dose"
+        },
+        {
+          "measure": "Change from baseline in pulse rate (PR)",
+          "timeFrame": "Over the first 6 hours, 24 hours post-dose administration (day 1), through the EOS visit up to 126 days post-dose"
+        },
+        {
+          "measure": "Change from baseline in N-terminal pro-brain natriuretic peptide (NT-proBNP)",
+          "timeFrame": "To 6 hours, 24 hours post-dose administration (day 1), through the EOS visit up to 126 days post-dose"
+        },
+        {
+          "measure": "Concentrations of REGN5381 in serum",
+          "timeFrame": "Through the EOS visit, up to 126 days post-dose"
+        },
+        {
+          "measure": "Immunogenicity, as measured by anti-drug antibodies (ADA) to REGN5381",
+          "timeFrame": "Through the EOS visit, up to 126 days post-dose"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Key Inclusion Criteria:\n\n1. Body mass index (BMI) between 18 and 35 kg/m\\^2, inclusive, rounded to the nearest whole number\n2. Ambulatory participants with New York Heart Association (NYHA) class II/III heart failure and at least 1 sign and/or symptom of congestion (eg, dyspnea on exertion, worsening edema, orthopnea, etc.)\n3. Left ventricular ejection fraction (LVEF) ≥20 % and \\<50% on echocardiogram (ie, HFrEF participants) within 90 days prior to randomization (only for HFrEF participants in Group A and Group B).\n4. Participants who, in the opinion of the investigator, require a right heart catheterization (not applicable for HFrEF patients not taking sacubitril/valsartan \\[Group A\\]).\n5. Left ventricular ejection fraction (LVEF) ≥50% on echocardiogram (ie, HFpEF participants) within 90 days prior to randomization (only for HFpEF participants in Group C)\n6. NT-proBNP \\>1000 pg/mL or Brain Natriuretic Peptide (active form) (BNP) \\>300 pg/mL as described in the protocol within 30 days prior to randomization measured by the local laboratory (only for HFrEF participants \\[Group A and Group B\\]).\n7. Pulmonary capillary wedge pressure (PCWP) ≥15 mmHg and right artrial pressure (RAP) \\>5 mmHg on right heart catheterization (RHC) the morning of anticipated study drug dose administration (not applicable for HFrEF participants not taking sacubitril/valsartan \\[Group A\\] as described in the protocol).\n8. Systolic blood pressure (SBP) ≥110 mmHg at the screening visit and on day -1\n9. Hematocrit \\>30% at the screening visit and day -1\n\nKey Exclusion Criteria:\n\n1. Currently taking IV vasodilators and/or inotropes\n2. Taking sacubitril/valsartan (only for HFrEF and HFpEF participants not taking sacubitril/valsartan \\[Group A and Group C, respectively\\])\n3. Taking a phosphodiesterase (PDE) inhibitor (eg, sildenafil), or a soluble guanylate cyclase stimulator (SGCS; ie, vericiguat) within 2 weeks of the screening visit or planning on taking valsartan/sacubitril, a PDE inhibitor, or a SGCS at any point during the study\n4. More than moderate valvular regurgitation/stenosis (ie, moderate-to-severe or severe) on echocardiogram within 90 days prior to randomization\n5. Known infiltrative or hypertrophic cardiomyopathy\n6. Acute coronary syndrome within prior 6 months of randomization\n7. History of cardiac arrest\n8. Cardiac surgery within 3 months of randomization\n9. Pacemaker or defibrillator placement within prior 30 days of randomization\n10. Severe chronic obstructive pulmonary disease (COPD) (defined as Forced Expiratory Volume in 1st second \\[FEV1\\] \\<50% of predicted or Global Initiative for Chronic Obstructive Lung Disease \\[GOLD\\] 3 or 4)\n11. Pulmonary arterial hypertension (World Health Organization \\[WHO\\] Group 1) and any medical history at any time of more than moderate pulmonary hypertension (ie, moderate-to-severe, or severe pulmonary hypertension, as described in the protocol\n12. Congenital heart disease (repaired or unrepaired)\n13. Inability to lie flat for cardiac catheterization\n\nNote: Other protocol-defined Inclusion/ Exclusion Criteria apply",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Clinical Trial Management",
+          "affiliation": "Regeneron Pharmaceuticals",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "ARENSIA Exploratory Medicine at the Republican Clinical Hospital",
+          "city": "Chisinau",
+          "zip": "2025",
+          "country": "Moldova",
+          "geoPoint": {
+            "lat": 47.00902,
+            "lon": 28.85938
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "All Individual Patient Data (IPD) that underlie publicly available results will be considered for sharing",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF",
+        "CSR",
+        "ANALYTIC_CODE"
+      ],
+      "timeFrame": "When Regeneron has:\n\n* received marketing authorization from major health authorities (e.g., FDA, European Medicines Agency (EMA), Pharmaceuticals and Medical Devices Agency (PMDA), etc.) for the product and indication or has globally discontinued development of the product for all indications on or after April 2020 and has no plans for future development\n* made the study results publicly available (e.g., scientific publication, scientific conference, clinical trial registry)\n* the legal authority to share the data, and\n* ensured the ability to protect participant privacy",
+      "accessCriteria": "Qualified researchers can submit a proposal for access to individual patient or aggregate level data from a Regeneron-sponsored clinical trial through Vivli. Regeneron's Independent Research Request Evaluation Criteria can be found at: https://www.regeneron.com/sites/default/files/Regeneron-External-Data-Sharing-Policy-and-Independent-Research-Request-Evaluation-Criteria.pdf",
+      "url": "https://vivli.org/"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19",
+      "removedCountries": [
+        "Belgium",
+        "Hungary",
+        "Poland",
+        "Romania",
+        "Turkey (Türkiye)"
+      ]
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

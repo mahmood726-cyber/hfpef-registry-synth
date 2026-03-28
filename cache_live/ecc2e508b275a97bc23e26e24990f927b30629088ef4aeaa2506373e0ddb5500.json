@@ -1,0 +1,618 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02697058",
+      "orgStudyIdInfo": {
+        "id": "331501"
+      },
+      "organization": {
+        "fullName": "Servier",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Phase II of BAX2398/5-FU/Calcium Levofolinate in Pancreatic Cancer",
+      "officialTitle": "Phase II Randomized Study of BAX2398 in Combination With 5-Fluorouracil and Calcium Levofolinate in Japanese Patients With Metastatic Pancreatic Cancer, Which Progressed or Recurred After Prior Gemcitabine-Based Therapy"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-07",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-03-30",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2017-05-04",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2018-08-28",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-02-20",
+      "studyFirstSubmitQcDate": "2016-02-26",
+      "studyFirstPostDateStruct": {
+        "date": "2016-03-03",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2024-07-24",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-07-25",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Institut de Recherches Internationales Servier",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "ADIR, a Servier Group company",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Study Part 1: To assess the safety and tolerability, and to characterize the pharmacokinetics (PK) of BAX2398 in combination with 5-FU/calcium levofolinate in Japanese patients.\n\nStudy Part 2: To compare the efficacy of BAX2398 in combination with 5-FU/calcium levofolinate versus 5-FU/calcium levofolinate as assessed by Progression Free Survival (PFS) using Response Evaluation Criteria in Solid Tumors, version 1.1 (RECIST 1.1)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Metastatic Pancreatic Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "FACTORIAL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 84,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Part 1: Safety and PK",
+          "type": "EXPERIMENTAL",
+          "description": "BAX2398 in combination with 5-FU/calcium levofolinate",
+          "interventionNames": [
+            "Biological: BAX2398 + 5-FU/calcium levofolinate"
+          ]
+        },
+        {
+          "label": "Part 2: Safety, PK, Efficacy",
+          "type": "EXPERIMENTAL",
+          "description": "BAX2398 in combination with 5-FU/calcium levofolinate",
+          "interventionNames": [
+            "Biological: BAX2398 + 5-FU/calcium levofolinate"
+          ]
+        },
+        {
+          "label": "Part 2: 5-FU/calcium levofolinate alone",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "5-FU/calcium levofolinate",
+          "interventionNames": [
+            "Drug: 5-FU/calcium levofolinate"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "BAX2398 + 5-FU/calcium levofolinate",
+          "description": "BAX2398 (a liposomal formulation of irinotecan) in combination with 5-FU/calcium levofolinate",
+          "armGroupLabels": [
+            "Part 1: Safety and PK",
+            "Part 2: Safety, PK, Efficacy"
+          ],
+          "otherNames": [
+            "nal-IRI",
+            "MM-398"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "5-FU/calcium levofolinate",
+          "description": "5-FU/calcium levofolinate alone",
+          "armGroupLabels": [
+            "Part 2: 5-FU/calcium levofolinate alone"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Progression Free Survival (PFS) in Part 2 of Study",
+          "description": "Progression Free Survival (PFS) was defined as the time from randomization to the first documented disease progression based on the independent central review board's assessment using RECIST 1.1 or death due to any cause, whichever occurred first.",
+          "timeFrame": "Part 2 Baseline to the end of the study (up to 22 months)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Progression Free Survival (PFS) in Part 1 of Study",
+          "description": "Progression Free Survival (PFS) was defined as the time from randomization to the first documented disease progression based on the independent central review board's assessment using RECIST 1.1 or death due to any cause, whichever occurred first.",
+          "timeFrame": "Part 1 Baseline to the end of the study (up to 22 months)"
+        },
+        {
+          "measure": "Overall Survival (OS)",
+          "description": "OS was defined as the time from the date of informed consent (Part 1) or date of randomization (Part 2) to death due to any cause or the date of last known alive.",
+          "timeFrame": "Baseline to the end of the study (up to 22 months)"
+        },
+        {
+          "measure": "Time to Treatment Failure (TTF)",
+          "description": "TTF was defined as the time from randomization to disease progression according to RECIST 1.1, death due to any cause, discontinuation of treatment due to toxicity, or for symptomatic deterioration, or start of another anticancer therapy",
+          "timeFrame": "Baseline to the end of the study (up to 22 months)"
+        },
+        {
+          "measure": "Objective Response Rate (ORR)",
+          "description": "ORR was defined as the proportion of participants with a best overall response of complete response (CR) or partial response (PR)",
+          "timeFrame": "Baseline to the end of the study (up to 22 months)"
+        },
+        {
+          "measure": "Disease Control Rate (DCR)",
+          "description": "DCR was defined as the proportion of participants with a best overall response of complete response (CR); partial response (PR); or stable disease (SD) lasting \\>=24 weeks",
+          "timeFrame": "Baseline to the end of the study (up to 22 months)"
+        },
+        {
+          "measure": "Tumor Marker Response",
+          "description": "Tumor marker response was defined as decrease of 50% of cancer antigen (CA)-19-9 in relation to the baseline level at least once during the treatment period. Tumor marker response evaluable population consist of participants who have elevated CA-19-9 level (greater than \\[\\<\\] 30 international unit \\[IU\\] / millilitre \\[ml\\]) at baseline and at least one post baseline CA-19-9 assessment.",
+          "timeFrame": "Baseline, every 6 weeks and 37 days post last visit (up to 22 months)"
+        },
+        {
+          "measure": "Change From Baseline in European Organization for Research and Treatment of Cancer Quality of Life Questionnaire (EORTC QLQ-C30) Scores",
+          "description": "The EORTC-QLQC30 is a reliable and valid measure of the quality of life of cancer participants in multicultural clinical research settings. It incorporates nine multi-item scales: five functional scales (physical \\[PFS\\], role \\[RFS\\], cognitive \\[CFS\\], emotional \\[EFS\\], and social \\[SFS\\]); three symptom scales (fatigue \\[FSS\\], pain \\[PSS\\], and nausea and vomiting \\[NVSS\\]); and a global health status (GHS) and quality-of-life scale. Several single-item symptom measures are also included. All scales and single-item measures range=0 to 100. High score for a functional scale=high/healthy level of functioning. High score for global health status/QoL=high QoL. High score for symptom scale/single item=high level of symptomatology/problems.",
+          "timeFrame": "Baseline, Day 1 of Cycle 4, 7, 10, 13, and 16; and 37 days post last visit (up to 22 months)"
+        },
+        {
+          "measure": "Change From Baseline in Pain",
+          "description": "Participants assessed pain on the VAS. VAS range: 0 (no pain) to 100 worst pain.",
+          "timeFrame": "Baseline, Days 1 and 8 of Cycles 1, 2, 4, 5, 7, 8, 10, 11, 13, 14, 16, 17, Day 1 of Cycles 3, 6, 9, 12, 15, 18 and 37 days post last visit (up to 22 months)"
+        },
+        {
+          "measure": "Change from Baseline in Analgesic use",
+          "description": "Participants recorded their analgesic usage in diaries.",
+          "timeFrame": "Baseline, Days 1 and 8 of Cycles 1, 2, 4, 5, 7, 8, 10, 11, 13, 14, 16, 17, Day 1 of Cycles 3, 6, 9, 12, 15, 18 and 37 days post last visit (up to 22 months)"
+        },
+        {
+          "measure": "Number of Participants With Karnofsky Performance Score (KPS)",
+          "description": "The Karnofsky score runs from 100 to 0, where 100 is \"perfect\" health and 0 is death.",
+          "timeFrame": "Baseline, Day 1 of Cycles 1 - 18 and 37 days post last visit (up to 22 months)"
+        },
+        {
+          "measure": "Change From Baseline in Weight",
+          "description": "The participant defined to be a clinical benefit responder if the weight change is classified as Positive. (1) Positive: an increase of at least 7% over baseline, maintained for at least 2 cycles (2) Non-positive: any other change in weight.",
+          "timeFrame": "Baseline, Days 1 and 8 of Cycles 1, 2, 4, 5, 7, 8, 10, 11, 13, 14, 16, 17, Day 1 of Cycles 3, 6, 9, 12, 15, 18 and 37 days post last visit (up to 22 months)"
+        },
+        {
+          "measure": "Number of Participants With Serious Adverse Events",
+          "description": "A Serious adverse event (AE) was an AE resulting in any of the following outcomes or deemed significant for any other reason: death; initial or prolonged inpatient hospitalization; life-threatening experience (immediate risk of dying); persistent or significant disability/incapacity; congenital anomaly.",
+          "timeFrame": "From start of study treatment up to 22 months"
+        },
+        {
+          "measure": "Number of Participants With Non-Serious Adverse Events",
+          "description": "An adverse event (AE) is any untoward medical occurrence in a clinical investigation subject administered a pharmaceutical product and that does not necessarily have a causal relationship with this treatment.",
+          "timeFrame": "From start of study treatment up to 22 months"
+        },
+        {
+          "measure": "Number of Participants With Clinically Significant Findings From the Physical Examination",
+          "description": "Physical examination done on the following body systems: general appearance, head and neck, eyes and ears, nose and throat, chest, lungs, heart, abdomen, extremities and joints, lymph nodes, skin, and neurological.",
+          "timeFrame": "From start of study treatment up to 22 months"
+        },
+        {
+          "measure": "Number of Participants With Clinically Significant Changes in Vital Signs",
+          "description": "Number of participants with clinically significant changes in vital signs assessed by measuring height, weight, temperature, respiration rate, pulse rate, systolic and diastolic blood pressure, and body surface area at all the listed time points was reported.",
+          "timeFrame": "From start of study treatment up to 22 months"
+        },
+        {
+          "measure": "Number of Participants With Clinically Significant Changes in Laboratory Results",
+          "description": "Number of participants with clinically significant changes in laboratory results was reported.",
+          "timeFrame": "From start of study treatment up to 22 months"
+        },
+        {
+          "measure": "Number of Participants With Clinically Significant Changes in Twelve-lead Electrocardiogram (ECG)",
+          "description": "Number of participants with clinically significant changes in ECG results was reported.",
+          "timeFrame": "From start of study treatment up to 22 months"
+        },
+        {
+          "measure": "Maximum Plasma Concentration (Cmax) of Total Irinotecan in Study Part 1",
+          "description": "The Cmax of total irinotecan (encapsulated + unencapsulated) in study part 1 was reported.",
+          "timeFrame": "Cycle 1: pre dose, 30, 60, 90 minutes after start of infusion and 1, 3, 9, 24, 36, 48, 72, 120 and 168 hours after the end of the infusion; Cycle 2: pre dose"
+        },
+        {
+          "measure": "Maximum Plasma Concentration (Cmax) of Total Primary Metabolite of Irinotecan (SN-38) in Study Part 1",
+          "description": "The Cmax of total SN-38 (encapsulated + unencapsulated) in study part 1 was reported.",
+          "timeFrame": "Cycle 1: pre dose, 30, 60, 90 minutes after start of infusion and 1, 3, 9, 24, 36, 48, 72, 120 and 168 hours after the end of the infusion; Cycle 2: pre dose"
+        },
+        {
+          "measure": "Maximum Plasma Concentration (Cmax) of SN-38-Glucuronide (SN-38G) in Study Part 1",
+          "description": "The Cmax of SN-38G in study part 1 was reported.",
+          "timeFrame": "Cycle 1: pre dose, 30, 60, 90 minutes after start of infusion and 1, 3, 9, 24, 36, 48, 72, 120 and 168 hours after the end of the infusion; Cycle 2: pre dose"
+        },
+        {
+          "measure": "Time of Maximum Concentration (tmax) of Total Irinotecan, Total SN-38, and SN-38-Glucuronide (SN-38G) in Study Part 1",
+          "description": "The Tmax of total irinotecan (encapsulated + unencapsulated), total SN-38 (encapsulated + unencapsulated), and SN-38G was reported.",
+          "timeFrame": "Cycle 1: pre dose, 30, 60, 90 minutes after start of infusion and 1, 3, 9, 24, 36, 48, 72, 120 and 168 hours after the end of the infusion; Cycle 2: pre dose"
+        },
+        {
+          "measure": "Terminal Half-Life (t1/2) of Total Irinotecan, Total SN-38, and SN-38-Glucuronide (SN-38G) in Study Part 1",
+          "description": "The t1/2 of Total irinotecan (encapsulated + unencapsulated), total SN-38 (encapsulated + unencapsulated), and SN-38-glucuronide (SN-38G) in study part 1 was reported.",
+          "timeFrame": "Cycle 1: pre dose, 30, 60, 90 minutes after start of infusion and 1, 3, 9, 24, 36, 48, 72, 120 and 168 hours after the end of the infusion; Cycle 2: pre dose"
+        },
+        {
+          "measure": "Area Under the Concentration-time Curve in Plasma Over the Time Interval From 0 Extrapolated to Infinity (AUC0-infinity) of Total Irinotecan in Study Part 1",
+          "description": "The AUC0-infinity of Total irinotecan (encapsulated + unencapsulated) in study part 1 was reported.",
+          "timeFrame": "Cycle 1: pre dose, 30, 60, 90 minutes after start of infusion and 1, 3, 9, 24, 36, 48, 72, 120 and 168 hours after the end of the infusion; Cycle 2: pre dose"
+        },
+        {
+          "measure": "Area Under the Concentration-time Curve in Plasma Over the Time Interval From 0 Extrapolated to Infinity (AUC0-infinity) of Total SN-38 in Study Part 1.",
+          "description": "The AUC0-infinity of total SN-38 (encapsulated + unencapsulated)in study part 1 was reported.",
+          "timeFrame": "Cycle 1: pre dose, 30, 60, 90 minutes after start of infusion and 1, 3, 9, 24, 36, 48, 72, 120 and 168 hours after the end of the infusion; Cycle 2: pre dose"
+        },
+        {
+          "measure": "Area Under the Concentration-time Curve in Plasma Over the Time Interval From 0 Extrapolated to Infinity (AUC0-infinity) of SN-38-Glucuronide (SN-38G) IN Study Part 1.",
+          "description": "The AUC0-infinity of SN-38-glucuronide (SN-38G) in study part 1 was reported.",
+          "timeFrame": "Cycle 1: pre dose, 30, 60, 90 minutes after start of infusion and 1, 3, 9, 24, 36, 48, 72, 120 and 168 hours after the end of the infusion; Cycle 2: pre dose"
+        },
+        {
+          "measure": "Systemic Clearance (CL) of Total Irinotecan in Study Part 1",
+          "description": "The CL of total irinotecan (encapsulated + unencapsulated) in study part 1 was reported.",
+          "timeFrame": "Cycle 1: pre dose, 30, 60, 90 minutes after start of infusion and 1, 3, 9, 24, 36, 48, 72, 120 and 168 hours after the end of the infusion; Cycle 2: pre dose"
+        },
+        {
+          "measure": "Systemic Clearance (CL) of Total SN-38 in Study Part 1",
+          "description": "The CL of SN-38 (encapsulated + unencapsulated), in study part 1 was reported.",
+          "timeFrame": "Cycle 1: pre dose, 30, 60, 90 minutes after start of infusion and 1, 3, 9, 24, 36, 48, 72, 120 and 168 hours after the end of the infusion; Cycle 2: pre dose"
+        },
+        {
+          "measure": "Systemic Clearance (CL) of SN-38-Glucuronide (SN-38G) in Study Part 1",
+          "description": "The CL of SN-38-glucuronide (SN-38G) in study part 1 was reported.",
+          "timeFrame": "Cycle 1: pre dose, 30, 60, 90 minutes after start of infusion and 1, 3, 9, 24, 36, 48, 72, 120 and 168 hours after the end of the infusion; Cycle 2: pre dose"
+        },
+        {
+          "measure": "Volume of Distribution (V) of Total Irinotecan in Study Part 1",
+          "description": "The V of total irinotecan (encapsulated + unencapsulated) in study part 1 was reported.",
+          "timeFrame": "Cycle 1: pre dose, 30, 60, 90 minutes after start of infusion and 1, 3, 9, 24, 36, 48, 72, 120 and 168 hours after the end of the infusion; Cycle 2: pre dose"
+        },
+        {
+          "measure": "Volume of Distribution (V) of Total SN-38 in Study Part 1.",
+          "description": "The V of total SN-38 (encapsulated + unencapsulated), in study part 1 was reported.",
+          "timeFrame": "Cycle 1: pre dose, 30, 60, 90 minutes after start of infusion and 1, 3, 9, 24, 36, 48, 72, 120 and 168 hours after the end of the infusion; Cycle 2: pre dose"
+        },
+        {
+          "measure": "Volume of Distribution (V) of SN-38-Glucuronide (SN-38G) in Study Part 1.",
+          "description": "The V of SN-38-glucuronide (SN-38G) in study part 1 was reported.",
+          "timeFrame": "Cycle 1: pre dose, 30, 60, 90 minutes after start of infusion and 1, 3, 9, 24, 36, 48, 72, 120 and 168 hours after the end of the infusion; Cycle 2: pre dose"
+        },
+        {
+          "measure": "Volume of Distribution at Steady-State (Vss) of Total Irinotecan in Study Part 1",
+          "description": "The Vss of total irinotecan (encapsulated + unencapsulated) in study part 1 was reported.",
+          "timeFrame": "Cycle 1: pre dose, 30, 60, 90 minutes after start of infusion and 1, 3, 9, 24, 36, 48, 72, 120 and 168 hours after the end of the infusion; Cycle 2: pre dose"
+        },
+        {
+          "measure": "Volume of Distribution at Steady-state (Vss) of Total SN-38 in Study Part 1",
+          "description": "The Vss of total irinotecan (encapsulated + unencapsulated), SN-38 (encapsulated + unencapsulated), and SN-38-glucuronide (SN-38G) was reported.",
+          "timeFrame": "Cycle 1: pre dose, 30, 60, 90 minutes after start of infusion and 1, 3, 9, 24, 36, 48, 72, 120 and 168 hours after the end of the infusion; Cycle 2: pre dose"
+        },
+        {
+          "measure": "Volume of Distribution at Steady-state (Vss) of SN-38-Glucuronide (SN-38G) in Study Part 1",
+          "description": "The Vss of SN-38-glucuronide (SN-38G) in study part 1 was reported.",
+          "timeFrame": "Cycle 1: pre dose, 30, 60, 90 minutes after start of infusion and 1, 3, 9, 24, 36, 48, 72, 120 and 168 hours after the end of the infusion; Cycle 2: pre dose"
+        },
+        {
+          "measure": "Terminal Half-life (t1/2) - Total Irinotecan, SN-38, and SN-38-Glucuronide (SN-38G)",
+          "description": "The t1/2 of total irinotecan (encapsulated + unencapsulated), SN-38 (encapsulated + unencapsulated), and SN-38-glucuronide (SN-38G) was reported.",
+          "timeFrame": "Cycle 1: pre dose, 15-90 minutes after start of infusion; and 0-6, 6-24, 24-48, 72-168, and 216-264 hours after the end of the infusion; Cycle 2: pre dose"
+        },
+        {
+          "measure": "Area Under the Curve (AUC) - Total Irinotecan, SN-38, and SN-38-Glucuronide (SN-38G)",
+          "description": "The AUC of total irinotecan (encapsulated + unencapsulated), SN-38 (encapsulated + unencapsulated), and SN-38-glucuronide (SN-38G) was reported.",
+          "timeFrame": "Cycle 1: pre dose, 15-90 minutes after start of infusion; and 0-6, 6-24, 24-48, 72-168, and 216-264 hours after the end of the infusion; Cycle 2: pre dose"
+        },
+        {
+          "measure": "Systemic Clearance (CL) -Total Irinotecan, SN-38, and SN-38-Glucuronide (SN-38G)",
+          "description": "The CL of total irinotecan (encapsulated + unencapsulated), SN-38 (encapsulated + unencapsulated), and SN-38-glucuronide (SN-38G) was reported.",
+          "timeFrame": "Cycle 1: pre dose, 15-90 minutes after start of infusion; and 0-6, 6-24, 24-48, 72-168, and 216-264 hours after the end of the infusion; Cycle 2: pre dose"
+        },
+        {
+          "measure": "Volume of Distribution (V)-Total Irinotecan, SN-38, and SN-38-Glucuronide (SN-38G)",
+          "description": "The V of total irinotecan (encapsulated + unencapsulated), SN-38 (encapsulated + unencapsulated), and SN-38-glucuronide (SN-38G) was reported.",
+          "timeFrame": "Cycle 1: pre dose, 15-90 minutes after start of infusion; and 0-6, 6-24, 24-48, 72-168, and 216-264 hours after the end of the infusion; Cycle 2: pre dose"
+        },
+        {
+          "measure": "Volume of Distribution at Steady-State (Vss)-Total Irinotecan, SN-38, and SN-38-Glucuronide (SN-38G)",
+          "description": "The Vss of total irinotecan (encapsulated + unencapsulated), SN-38 (encapsulated + unencapsulated), and SN-38-glucuronide (SN-38G) was reported.",
+          "timeFrame": "Cycle 1: pre dose, 15-90 minutes after start of infusion; and 0-6, 6-24, 24-48, 72-168, and 216-264 hours after the end of the infusion; Cycle 2: pre dose"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Participant is ≥20 years of age at the time of screening.\n2. Histologically or cytologically confirmed adenocarcinoma of exocrine pancreas\n3. Documented metastatic disease\n4. Metastatic disease with at least one measurable lesion as defined by RECIST 1.1 guidelines\n5. Documented disease progression after prior gemcitabine or any gemcitabine containing therapy but excluding irinotecan, for locally advanced or metastatic setting. Prior chemotherapy must be stopped for at least 21 days before the first dose.\n6. Karnofsky Performance Status (KPS) ≥70\n7. Adequate bone marrow reserves\n8. Adequate hepatic function\n9. Adequate renal function\n10. Normal ECG including Fridericia corrected QT interval (QTcF) \\<440 ms within 7 days prior to first dose of study drug\n11. Recovered from the effects of any prior surgery, radiotherapy or other anti-neoplastic therapy with no residual adverse events (AEs) of Grade ≥2.\n12. Able to understand and sign an informed consent (or have a legal representative who is able to do so)\n13. If female of childbearing potential, participant presents with a negative pregnancy, and agrees to employ adequate birth control measures during the study dosing period and for 3 months following the last dose of study drug.\n14. Participant is willing and able to comply with the requirements of the protocol.\n\nExclusion Criteria:\n\n1. Active and uncontrolled central nervous system (CNS) metastases; for controlled CNS metastases, patient should have been off steroids for at least 28 days prior to starting study therapy.\n2. History of any second malignancy in the last 5 years; participants with prior history of in-situ cancer or basal or squamous cell skin cancers are eligible. Participants with other malignancies are eligible if they have been continuously disease free for at least 5 years.\n3. Severe arterial thromboembolic events (myocardial infarction, unstable angina pectoris, stroke) less than 6 months before inclusion.\n4. Cannot stop medications that are potent CYP3A4 inducers within 2 weeks and inhibitors within 1 week before start of treatment.\n5. Significant cardiac conduction abnormalities, including a history of long QTcF syndrome and/or pacemaker.\n6. New York Heart Association (NYHA) Class III or IV congestive heart failure, ventricular arrhythmias or uncontrolled blood pressure.\n7. Active infection, including active hepatitis B virus (HBV), hepatitis C virus (HCV), and HIV, or an unexplained fever \\>38.5°C during screening visits or on the first scheduled day of dosing (at the discretion of the investigator, patients with tumor fever may be enrolled), which in the investigator's opinion might compromise the patient's participation in the trial or affect the study outcome.\n8. Known hypersensitivity to any of the components of BAX2398, other liposomal products, fluoropyrimidines, or calcium levofolinate.\n9. Any other medical or social condition deemed by the investigator to be likely to interfere with a patient's ability to sign informed consent, cooperate and participate in the study, or interfere with the interpretation of the results.\n10. Participant has been exposed to an investigational product (IP) within 30 days prior to the first dose of the study drug or is scheduled to participate in another clinical study involving an IP or investigational device during the course of this study.\n11. Participant is a family member or employee of the investigator.\n12. Participant is pregnant or lactating at the time of enrollment. Lactating mothers can resume breast feeding 30 days following the last dose of the study treatment.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "20 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Hirosaki University School of Medicine & Hospital",
+          "city": "Hirosaki-shi",
+          "state": "Aomori",
+          "zip": "036-8563",
+          "country": "Japan"
+        },
+        {
+          "facility": "Chiba Cancer Center",
+          "city": "Chiba",
+          "state": "Chiba",
+          "zip": "260-8717",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.6,
+            "lon": 140.11667
+          }
+        },
+        {
+          "facility": "National Cancer Center Hospital East",
+          "city": "Kashiwa-shi",
+          "state": "Chiba",
+          "zip": "277-8577",
+          "country": "Japan"
+        },
+        {
+          "facility": "NHO Shikoku Cancer Center",
+          "city": "Matsuyama",
+          "state": "Ehime",
+          "zip": "791-0280",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 33.83916,
+            "lon": 132.76574
+          }
+        },
+        {
+          "facility": "NHO Kyushu Cancer Center",
+          "city": "Fukuoka",
+          "state": "Fukuoka",
+          "zip": "811-1395",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 33.6,
+            "lon": 130.41667
+          }
+        },
+        {
+          "facility": "Kyushu University Hospital",
+          "city": "Fukuoka",
+          "state": "Fukuoka",
+          "zip": "812-8582",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 33.6,
+            "lon": 130.41667
+          }
+        },
+        {
+          "facility": "Hokkaido University Hospital",
+          "city": "Sapporo",
+          "state": "Hokkaido",
+          "zip": "060-8648",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 43.06667,
+            "lon": 141.35
+          }
+        },
+        {
+          "facility": "Yokohama City University Medical Center",
+          "city": "Yokohama",
+          "state": "Kanagawa",
+          "zip": "232-0024",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.43333,
+            "lon": 139.65
+          }
+        },
+        {
+          "facility": "Kanagawa Cancer Center",
+          "city": "Yokohama",
+          "state": "Kanagawa -ku",
+          "zip": "241-8515",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.43333,
+            "lon": 139.65
+          }
+        },
+        {
+          "facility": "Kyoto University Hospital",
+          "city": "Kyoto",
+          "state": "Kyoto",
+          "zip": "606-8507",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.02107,
+            "lon": 135.75385
+          }
+        },
+        {
+          "facility": "NHO Osaka National Hospital",
+          "city": "Osaka",
+          "state": "Osaka",
+          "zip": "540-0006",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 34.69379,
+            "lon": 135.50107
+          }
+        },
+        {
+          "facility": "Osaka International Cancer Institute",
+          "city": "Osaka",
+          "state": "Osaka",
+          "zip": "541-8567",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 34.69379,
+            "lon": 135.50107
+          }
+        },
+        {
+          "facility": "Saitama Cancer Center",
+          "city": "Kitaadachi-gun",
+          "state": "Saitama",
+          "zip": "362-0806",
+          "country": "Japan"
+        },
+        {
+          "facility": "National Cancer Center Hospital",
+          "city": "Chuo Ku",
+          "state": "Tokyo",
+          "zip": "104-0045",
+          "country": "Japan"
+        },
+        {
+          "facility": "Cancer Institute Hospital of JFCR",
+          "city": "Kōtoku",
+          "state": "Tokyo-To",
+          "zip": "135-8550",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 42.50417,
+            "lon": 143.14297
+          }
+        },
+        {
+          "facility": "Kyorin University Hospital",
+          "city": "Mitaka-shi",
+          "state": "Tokyo-To",
+          "zip": "181-8611",
+          "country": "Japan"
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "33099898",
+          "type": "BACKGROUND",
+          "citation": "Ueno M, Nakamori S, Sugimori K, Kanai M, Ikeda M, Ozaka M, Furukawa M, Okusaka T, Kawabe K, Furuse J, Komatsu Y, Ishii H, Sato A, Shimizu S, Chugh P, Tang R, Ioka T. nal-IRI+5-FU/LV versus 5-FU/LV in post-gemcitabine metastatic pancreatic cancer: Randomized phase 2 trial in Japanese patients. Cancer Med. 2020 Dec;9(24):9396-9408. doi: 10.1002/cam4.3558. Epub 2020 Oct 25."
+        }
+      ],
+      "availIpds": [
+        {
+          "type": "Individual Participant Data Set",
+          "url": "https://clinicaltrials.servier.com/"
+        },
+        {
+          "type": "Study Protocol",
+          "url": "https://clinicaltrials.servier.com/"
+        },
+        {
+          "type": "Statistical Analysis Plan",
+          "url": "https://clinicaltrials.servier.com/"
+        },
+        {
+          "type": "Informed Consent Form",
+          "url": "https://clinicaltrials.servier.com/"
+        },
+        {
+          "type": "Clinical Study Report",
+          "url": "https://clinicaltrials.servier.com/"
+        },
+        {
+          "type": "study-level clinical trial data",
+          "url": "https://clinicaltrials.servier.com/"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Qualified scientific and medical researchers can request access to anonymized patient-level and study-level clinical trial data.\n\nThey can ask for all interventional clinical studies:\n\n* submitted for new medicines and new indications approved after 1 January 2014 in the European Economic Area (EEA) or the United States (US).\n* Where Servier or an affiliate are the Marketing Authorization Holders (MAH). The date of the first Marketing Authorization of the new medicine (or the new indication) in one of the EEA Member States will be considered within this scope.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF",
+        "CSR"
+      ],
+      "timeFrame": "After Marketing Authorisation in EEA or US if the study is used for the approval.",
+      "accessCriteria": "Researchers should register on Servier Data Portal and fill in the research proposal form. This form in four parts should be fully documented. The Research Proposal Form will not be reviewed until all mandatory fields are completed.",
+      "url": "https://clinicaltrials.servier.com/"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D010190",
+          "term": "Pancreatic Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004067",
+          "term": "Digestive System Neoplasms"
+        },
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D004701",
+          "term": "Endocrine Gland Neoplasms"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        },
+        {
+          "id": "D010182",
+          "term": "Pancreatic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C584112",
+          "term": "irinotecan sucrosofate"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

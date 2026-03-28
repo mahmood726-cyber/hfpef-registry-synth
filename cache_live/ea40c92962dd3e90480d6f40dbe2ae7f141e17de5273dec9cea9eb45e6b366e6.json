@@ -1,0 +1,392 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03982381",
+      "orgStudyIdInfo": {
+        "id": "SMART-2019"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2019-001046-17",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Uppsala University",
+        "class": "OTHER"
+      },
+      "briefTitle": "SGLT2 Inhibitor or Metformin As Standard Treatment of Early Stage Type 2 Diabetes",
+      "officialTitle": "A Multicenter, Register-based, Randomized, Controlled Trial Comparing Dapagliflozin with Metformin Treatment in Early Stage Type 2 Diabetes Patients by Assessing Mortality and Macro- and Microvascular Complications",
+      "acronym": "SMARTEST"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-12",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-09-05",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-10-15",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-10-15",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2019-05-27",
+      "studyFirstSubmitQcDate": "2019-06-10",
+      "studyFirstPostDateStruct": {
+        "date": "2019-06-11",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-12-04",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-12-09",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Uppsala University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Uppsala University Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Swedish Healthcare Regions",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "National Board of Health and Welfare, Sweden",
+          "class": "OTHER_GOV"
+        },
+        {
+          "name": "The Swedish National Diabetes Register",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "A real-world, nationwide, register-based, randomised trial (RRCT) comparing SGLT2 inhibitors with metformin as standard treatment in early typ 2 diabetes. An open-label trial addressing efficacy with respect to clinically important macro- and microvascular events.",
+      "detailedDescription": "2067 type 2 diabetes (T2D) patients on monotherapy or drug naive. Randomization 1:1, metformin, dosing according to treatment guidelines or SGLT2 inhibitor, dapagliflozin 10 mg od.\n\n844 events estimated for study completion (90% power to detect hazard ratio (HR) \\<0.8 for dapagliflozin vs metformin ) Endpoint collection during study duration (about 4 years) from national health care registers: Patient, Prescribed drugs, Cause of death and Population registers; National diabetes register (NDR) Primary analysis according to insulin tolerance test (ITT)"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type 2 Diabetes"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Prospective randomized, open label, blinded endpoint design (PROBE). Multicenter study.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Treatment is blinded to outcome analysis team, until after database lock",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 2067,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Metformin",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Metformin 1000-3000 mg per day according to clinical guidelines. Split into 2-3 doses per day.",
+          "interventionNames": [
+            "Drug: Metformin"
+          ]
+        },
+        {
+          "label": "Dapagliflozin",
+          "type": "EXPERIMENTAL",
+          "description": "Dapagliflozin 10 mg once daily",
+          "interventionNames": [
+            "Drug: Dapagliflozin 10 MG"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Metformin",
+          "description": "Active comparator",
+          "armGroupLabels": [
+            "Metformin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Dapagliflozin 10 MG",
+          "description": "Experimental treatment",
+          "armGroupLabels": [
+            "Dapagliflozin"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Time to first occurence of a confirmed composite endpoint of death, myocardial infarction, stroke, heart failure, diabetic nephropathy, retinopathy or foot ulcer.",
+          "description": "A confirmed composite endpoint includes death, myocardial infarction, stroke, heart failure, diabetic nephropathy, retinopathy or foot ulcer (ICD10 diagnosis codes)",
+          "timeFrame": "Time to first event during study period (for each patient 24-48 months, mean 36 months )"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Ordinal analysis of components of primary endpoint (see above)",
+          "description": "Death, major adverse cardiovascular event or microvascular event at 2 years follow-up (ICD10 diagnosis codes), scored according to severity as specified in statistical analysis plan.",
+          "timeFrame": "Events of any of above having occurred during 48 months following randomization."
+        },
+        {
+          "measure": "Time to first occurence of a confirmed composite endpoint of death, myocardial infarction, stroke, heart failure, diabetic nephropathy, retinopathy or foot ulcer (ICD10 diagnosis codes) or initiation of insulin treatment.",
+          "description": "A confirmed composite endpoint includes death, myocardial infarction, stroke, heart failure, diabetic nephropathy, retinopathy or foot ulcer (ICD10 diagnosis codes) or initiation of insulin treatment (filled prescription according to Swedish Prescribed Drug Register)",
+          "timeFrame": "Time to first event during study period (for each patient 24-48 months, mean 36 months )"
+        },
+        {
+          "measure": "Time to first occurence of a confirmed composite endpoint of non-fatal myocardial infarction, stroke, heart failure, unstable angina or cardiovascular death.",
+          "description": "A confirmed composite endpoint includes non-fatal myocardial infarction, stroke, heart failure, unstable angina or cardiovascular death (ICD10 diagnosis codes).",
+          "timeFrame": "Time to first event during study period (for each patient 24-48 months, mean 36 months )"
+        },
+        {
+          "measure": "Time to first occurence of a confirmed composite endpoint of heart failure or cardiovascular death.",
+          "description": "A confirmed composite endpoint includes heart failure or cardiovascular death (ICD10 diagnosis codes)",
+          "timeFrame": "Time to first event during study period (for each patient 24-48 months, mean 36 months )"
+        },
+        {
+          "measure": "Death",
+          "description": "Time to death (Population Register data)",
+          "timeFrame": "Time to event during study period (for each patient 24-48 months, mean 36 months)"
+        },
+        {
+          "measure": "Microvascular events, first of; occurrence or progression of retinopathy, nephropathy, diabetic foot lesions",
+          "description": "Time to first event of: occurrence or progression of retinopathy, nephropathy, diabetic foot ulcers (ICD10 diagnosis codes)",
+          "timeFrame": "Time to first event during study period (for each patient 24-48 months, mean 36 months )"
+        },
+        {
+          "measure": "Need for insulin treatment",
+          "description": "Time to initiation of insulin treatment (filled prescription according to Swedish Prescribed Drug Register)",
+          "timeFrame": "Time to first event during study period (for each patient 24-48 months, mean 36 months )"
+        },
+        {
+          "measure": "Treatment failure, defined as add-on or switch to another glucose-lowering drug",
+          "description": "Time to event of: add-on or switch to another glucose-lowering drug (filled prescription according to Swedish Prescribed Drug Register)",
+          "timeFrame": "Time to first event during study period (for each patient 24-48 months, mean 36 months )"
+        },
+        {
+          "measure": "Change in glycemic control",
+          "description": "HbA1c level (mmol/mol)",
+          "timeFrame": "Change during study period, at 12, 24, 36 and 48 months"
+        },
+        {
+          "measure": "Change in LDL-cholesterol",
+          "description": "Change in LDL cholesterol from baseline (mmol/L)",
+          "timeFrame": "Change during study period; assessment at baseline, 12, 24, 36 and 48 months"
+        },
+        {
+          "measure": "Change in HDL-cholesterol",
+          "description": "Change in HDL cholesterol from baseline (mmol/L)",
+          "timeFrame": "Change during study period; assessment at baseline, 12, 24, 36 and 48 months"
+        },
+        {
+          "measure": "Change in total cholesterol",
+          "description": "Change in total cholesterol from baseline (mmol/L)",
+          "timeFrame": "Change during study period; assessment at baseline, 12, 24, 36 and 48 months"
+        },
+        {
+          "measure": "Change in triglycerides",
+          "description": "Change in triglycerides from baseline (mmol/L)",
+          "timeFrame": "Change during study period; assessment at baseline, 12, 24, 36 and 48 months"
+        },
+        {
+          "measure": "Change in albuminuria",
+          "description": "Change in urinary albumin/creatinine ratio (mg/mol)",
+          "timeFrame": "Change during study period; assessment at baseline, 12, 24, 36 and 48 months"
+        },
+        {
+          "measure": "Change in blood pressure",
+          "description": "Change in systolic and diastolic blood pressure (mm Hg)",
+          "timeFrame": "Change during study period; assessment at baseline, 12, 24, 36 and 48 months"
+        },
+        {
+          "measure": "Change in body weight",
+          "description": "Change in body weight (kg)",
+          "timeFrame": "Change during study period; assessment at baseline, 12, 24, 36 and 48 months"
+        },
+        {
+          "measure": "Change in BMI",
+          "description": "Change in BMI (kg/m2)",
+          "timeFrame": "Change during study period; assessment at baseline, 12, 24, 36 and 48 months"
+        },
+        {
+          "measure": "Health care costs",
+          "description": "Diagnosis-based (IDG) costs for all health care during study period plus medication cost",
+          "timeFrame": "Accumulated health care costs during study period (for each patient 24-48 months, mean 36 months )"
+        },
+        {
+          "measure": "Health-related quality of life",
+          "description": "The Short Form 36-Item Survey version 1.0 (SF-36) is used for patient-reported health and consists of 36 questions. The weighted sums of scores in each of eight defined domains (relating to experience of different aspects of general health, symptoms and functions) are compiled into different scales according to a standardized algorithm. Each scale is directly transformed into a 0-100 scale on the assumption that each question carries equal weight. The lower the score the more disability. The higher the score the less disability, i.e. a score of zero is equivalent to maximum disability and a score of 100 is equivalent to no disability. We use the public domain version, called the the RAND-36 Item Health Survey.",
+          "timeFrame": "Assessment at baseline, 12, 24 months"
+        },
+        {
+          "measure": "Health-related quality of life with respect to diabetes treatment satisfaction.",
+          "description": "The Diabetes Treatment Satisfaction Questionnaire (DTSQ) is used. It has been developed to assess patient satisfaction with diabetes treatment. The questionnaire is composed of two different factors. The ﬁrst factor assesses treatment satisfaction and consists of six questions and the second factor consists of two questions, which assess the burden from hyper- and hypoglycemia. Treatment satisfaction is assessed as the sum of the scores of the six questions on the ﬁrst factor (total score 36), with a higher score indicating higher treatment satisfaction.",
+          "timeFrame": "Assessment at baseline, 12, 24 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Men and women ≥18 years old\n* T2D (according to World Health Organization (WHO) criteria) of less than 4 years duration\n* BMI 18.5-45 kg/m2\n* Drug naïve or oral monotherapy with glucose-lowering drug.\n* Accepting NDR participation and other register data collection.\n\nExclusion Criteria:\n\n* Known or suspected other form of diabetes than type 2\n* Ongoing or more than \\>4 weeks in total of any previous treatment with: insulin, GLP-1 receptor agonists, SGLT2 inhibitors or combination of any diabetes medications\n* Medical need to start or intensify any specific GLD treatment, e.g. insulin due to marked hyperglycemia\n* HbA1c \\>70 mmol/mol for patients on monotherapy, \\>80 in drug naïve\n* Contraindication to either metformin or dapagliflozin, or any unacceptable risk with either treatment as assessed by the investigator\n* History or signs of established cardiovascular disease: diagnosis of myocardial infarction, angina pectoris, heart failure, stroke, lower extremity arterial disease, any limb amputation (except due to trauma or malignancy)\n* Any serious illness or other condition with short life expectancy (\\<4 yr)\n* Renal impairment (eGFR \\<60 ml/min/1,73m2)\n* Any condition, as judged by the investigator, that suggests that the patient will be non-compliant or otherwise unsuitable to study medication or study participation\n* Pregnancy or breastfeeding, women of childbearing potential (WOCBP; including perimenopausal women who have had a menstrual period within 1 year) without adequate anticonception during any part of the study period\n* Involvement in the planning and/or conduct of the study\n* Ongoing participation in another clinical trial.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Jan Eriksson, MD",
+          "affiliation": "Uppsala University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Uppsala University Hospital",
+          "city": "Uppsala",
+          "zip": "75185",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 59.85882,
+            "lon": 17.63889
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "41311237",
+          "type": "DERIVED",
+          "citation": "Eriksson JW, Fanni G, Lundqvist MH, Jansson S, Radholm K, Sofizadeh S, Patsoukaki V, Nilsson A, Lindholm D, Rolandsson O, Norhammar A, Granstam E, Eliasson B, Bennet L, Sundstrom J. SGLT2 inhibitor or metformin as standard treatment in early-stage type 2 diabetes? Baseline data in SMARTEST, a novel, decentralised, register-based randomised trial on prevention of diabetic complications. Diabetes Obes Metab. 2026 Feb;28(2):1327-1338. doi: 10.1111/dom.70320. Epub 2025 Nov 28."
+        },
+        {
+          "pmid": "38837240",
+          "type": "DERIVED",
+          "citation": "El-Damanawi R, Stanley IK, Staatz C, Pascoe EM, Craig JC, Johnson DW, Mallett AJ, Hawley CM, Milanzi E, Hiemstra TF, Viecelli AK. Metformin for preventing the progression of chronic kidney disease. Cochrane Database Syst Rev. 2024 Jun 4;6(6):CD013414. doi: 10.1002/14651858.CD013414.pub2."
+        },
+        {
+          "pmid": "34389234",
+          "type": "DERIVED",
+          "citation": "Sundstrom J, Kristofi R, Ostlund O, Bennet L, Eliasson B, Jansson S, Leksell J, Almby K, Lundqvist M, Eriksson JW; SMARTEST study group (see list in Appendix). A registry-based randomised trial comparing an SGLT2 inhibitor and metformin as standard treatment of early stage type 2 diabetes (SMARTEST): Rationale, design and protocol. J Diabetes Complications. 2021 Oct;35(10):107996. doi: 10.1016/j.jdiacomp.2021.107996. Epub 2021 Jul 21."
+        },
+        {
+          "pmid": "32501595",
+          "type": "DERIVED",
+          "citation": "Gnesin F, Thuesen ACB, Kahler LKA, Madsbad S, Hemmingsen B. Metformin monotherapy for adults with type 2 diabetes mellitus. Cochrane Database Syst Rev. 2020 Jun 5;6(6):CD012906. doi: 10.1002/14651858.CD012906.pub2."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "IPD will be available to all scientific collaborators"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D008687",
+          "term": "Metformin"
+        },
+        {
+          "id": "C529054",
+          "term": "dapagliflozin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001645",
+          "term": "Biguanides"
+        },
+        {
+          "id": "D006146",
+          "term": "Guanidines"
+        },
+        {
+          "id": "D000578",
+          "term": "Amidines"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

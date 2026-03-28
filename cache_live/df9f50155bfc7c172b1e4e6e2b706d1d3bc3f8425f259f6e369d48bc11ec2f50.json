@@ -1,0 +1,342 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06616233",
+      "orgStudyIdInfo": {
+        "id": "0912"
+      },
+      "organization": {
+        "fullName": "University of Leicester",
+        "class": "OTHER"
+      },
+      "briefTitle": "Remote Ischaemic Conditioning (RIC) in Heart Failure",
+      "officialTitle": "Effects of Chronic Remote Ischaemic Conditioning on Coronary and Peripheral Vascular Function in Patients With Heart Failure",
+      "acronym": "ENRICH"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-11",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-04-08",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-10",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-10",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-11-30",
+      "studyFirstSubmitQcDate": "2024-09-23",
+      "studyFirstPostDateStruct": {
+        "date": "2024-09-27",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-09-23",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-09-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Leicester",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Loughborough University",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study will test the impact of remote ischaemic conditioning combined with exercise on myocardial perfusion in patients with or at risk of heart failure",
+      "detailedDescription": "Heart failure (HF) is a disease which affects the heart's ability to pump or fill with blood. It can affect a person's quality of life and their ability to exercise. Recent work has shown that a reduction in the blood supply to the heart may contribute to the problem. It is therefore possible that improving the blood supply to the heart may help patients with HF. One possible way that this might be achieved is with a method called remote ischaemic conditioning (RIC). This involves placing a cuff on a person's arm (identical to a blood pressure cuff) and inflating it for a few minutes to reduce the blood flow in a person's arm. This is thought to release chemicals into the bloodstream which can have positive effects on the heart. This has been studied in patients with other forms of heart disease, but is yet to be tested properly in patients with heart failure. It is hypothesized that combining the RIC procedure with a low level of arm exercise may result in further improvements in the person's blood vessels and heart. This will be tested in a single-centre prospective study."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Preserved Ejection Fraction",
+        "Type 2 Diabetes",
+        "Dilated Cardiomyopathy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Randomised trial of the effect of remote ischemic conditioning with or without lower intensity exercise on hyperaemic myocardial blood flow in patients with or at risk of heart failure.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "Blinded analysis of data"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Remote Ischaemic Conditioning with Exercise",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will be randomised to receive remote ischaemic conditioning (RIC) with exercise involving a 4-week home-based programme of RIC with exercise . The exercise will involve handgrip exercise during the cuff deflation phase of RIC.",
+          "interventionNames": [
+            "Device: Remote Ischaemic Conditioning with exercise"
+          ]
+        },
+        {
+          "label": "Remote Ischaemic Conditioning",
+          "type": "OTHER",
+          "description": "Participants will receive remote ischaemic conditioning (RIC) without exercise involving a 4-week home-based programme of RIC.",
+          "interventionNames": [
+            "Device: Other: Remote Ischaemic Conditioning"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Remote Ischaemic Conditioning with exercise",
+          "description": "Participants will receive RIC through an automated device that will provide cycles on ischaemia/reperfusion to the target organ (arm). During the cuff deflation phase, participants will undergo handgrip exercise at 20-30% of their maximal voluntary contraction for 3 minutes. There will be a total of 4 cycles of exercise.",
+          "armGroupLabels": [
+            "Remote Ischaemic Conditioning with Exercise"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Other: Remote Ischaemic Conditioning",
+          "description": "Participants will receive RIC through an automated device that will provide cycles on ischaemia/reperfusion to the target organ (arm).. There will be a total of 4 cycles.",
+          "armGroupLabels": [
+            "Remote Ischaemic Conditioning"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Myocardial perfusion reserve",
+          "description": "myocardial perfusion reserve under adenosine stress as assessed by quantitative cardiovascular magnetic resonance (CMR)",
+          "timeFrame": "4 weeks"
+        },
+        {
+          "measure": "Contraction strength in the cuff deflation phase of RIC",
+          "description": "contraction force achieved during cuff deflation phase, measured in Newtons",
+          "timeFrame": "1 day"
+        },
+        {
+          "measure": "Hyperaemic myocardial blood flow",
+          "description": "myocardial blood flow under adenosine stress as assessed by quantitative cardiovascular magnetic resonance (CMR)",
+          "timeFrame": "4 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Brachial artery flow mediated dilation",
+          "description": "endothelial function as assessed by vascular ultrasound",
+          "timeFrame": "4 weeks"
+        },
+        {
+          "measure": "Skeletal muscle strength",
+          "description": "maximal handgrip strength (newtons)",
+          "timeFrame": "4 weeks"
+        },
+        {
+          "measure": "Skeletal muscle endurance",
+          "description": "Isometric skeletal muscle endurance test assessed using handgrip dynamometer (sec)",
+          "timeFrame": "4 weeks"
+        },
+        {
+          "measure": "Cardiopulmonary exercise test",
+          "description": "VO2 max for maximal aerobic capacity",
+          "timeFrame": "4 weeks"
+        },
+        {
+          "measure": "Brachial artery maximal dilatory capacity",
+          "description": "endothelial function in response to Glyceryl trinitrate (GTN) as assessed by vascular ultrasound",
+          "timeFrame": "4 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \\&gt;18 years\n* Ability to provide written consent\n* clinical diagnosis of HFpEF (LVEF ≥50%; symptoms and signs of heart failure \\[HF\\] caused by a structural and/or functional abnormality, and at least one: elevated natriuretic peptides; ambulatory; BNP ≥35 pg/mL or NT-proBNP ≥125 pg/mL or hospitalised; BNP ≥100 pg/mL or NT-proBNP ≥300 pg/mL, and objective evidence of cardiogenic pulmonary or systemic congestion) OR stable type 2 diabetes (determined by formal diagnosis in hospital or GP case records with diagnostic oral glucose tolerance test or glycated haemoglobin level ≥6.5%) and with ACC/AHA stage B HF (structural disorder of the heart but no current or previous symptoms of HF) OR confirmed diagnosis of dilated cardiomyopathy\n\nExclusion Criteria:\n\n* Absolute contraindications to MRI or contrast (e.g. severe claustrophobia, pregnancy, ferromagnetic implants, inability to lie flat, severe renal impairment eGFR\\&lt;30ml/min/m2)\n* Moderate to severe valvular heart disease\n* Confirmed coronary artery disease (\\&gt;50% narrowing in any major epicardial coronary artery on invasive or computed tomography coronary angiography, previous myocardial infarction, previous percutaneous intervention or coronary bypass surgery)\n* Known arterial stenosis of the upper extremity",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Jayanth Arnold, BMBCh DPhil",
+          "role": "CONTACT",
+          "phone": "+44 1162583038",
+          "email": "jra14@leicester.ac.uk"
+        },
+        {
+          "name": "Aaron Wiseman",
+          "role": "CONTACT",
+          "email": "aw520@leicester.ac.uk"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Jayanth R Arnold, BMBCh DPhil",
+          "affiliation": "University of Leicester",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Glenfield Hospital",
+          "status": "RECRUITING",
+          "city": "Leicester",
+          "state": "Leics",
+          "zip": "LE3 9QP",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Jayanth Arnold",
+              "role": "CONTACT",
+              "phone": "01162583038",
+              "email": "jra14@le.ac.uk"
+            }
+          ],
+          "geoPoint": {
+            "lat": 52.6386,
+            "lon": -1.13169
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "no plan to share IPD"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        },
+        {
+          "id": "D002311",
+          "term": "Cardiomyopathy, Dilated"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D006332",
+          "term": "Cardiomegaly"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D009202",
+          "term": "Cardiomyopathies"
+        },
+        {
+          "id": "D000083083",
+          "term": "Laminopathies"
+        },
+        {
+          "id": "D030342",
+          "term": "Genetic Diseases, Inborn"
+        },
+        {
+          "id": "D009358",
+          "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D005081",
+          "term": "Exercise Therapy"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012046",
+          "term": "Rehabilitation"
+        },
+        {
+          "id": "D000359",
+          "term": "Aftercare"
+        },
+        {
+          "id": "D003266",
+          "term": "Continuity of Patient Care"
+        },
+        {
+          "id": "D005791",
+          "term": "Patient Care"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D026741",
+          "term": "Physical Therapy Modalities"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

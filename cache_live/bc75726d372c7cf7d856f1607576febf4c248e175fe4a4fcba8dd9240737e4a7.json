@@ -1,0 +1,160 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01347411",
+      "orgStudyIdInfo": {
+        "id": "DIDAS"
+      },
+      "organization": {
+        "fullName": "Basque Health Service",
+        "class": "OTHER_GOV"
+      },
+      "briefTitle": "Effectiveness of the Treatment With Continuous Positive Airway Pressure(CPAP)in Stable Heart Failure With Ejection Fraction More Than 45% and Sleep Disordered Breathing",
+      "officialTitle": "Effectiveness of the Treatment With CONTINUOUS POSITIVE AIRWAY PRESSURE (CPAP) in Stable Heart Failure With Ejection Fraction More Than 45% and Sleep Disordered Breathing"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2011-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2007-09"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2011-04",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2011-04",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2011-04-13",
+      "studyFirstSubmitQcDate": "2011-05-03",
+      "studyFirstPostDateStruct": {
+        "date": "2011-05-04",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2011-05-03",
+      "lastUpdatePostDateStruct": {
+        "date": "2011-05-04",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "oldNameTitle": "Carlos Javier Egea Santaolalla",
+        "oldOrganization": "Hospital Txagorritxu"
+      },
+      "leadSponsor": {
+        "name": "Basque Health Service",
+        "class": "OTHER_GOV"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The respiratory sleep disorders are a major cardiovascular risk factor. In fact there is enough scientific evidence that supports the association between apnea-hypopnea syndrome (SASH) and cardiovascular disease (hypertension, stroke, heart failure ....The objective of this study is to estimate the effectiveness of the continuous positive pressure airway (CPAP) in patient with chronic heart failure with normal ejection fraction but dyastolic dysfunction and sleep disordered breathing during the sleep."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure",
+        "Sleep Respiratory Disorders"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 420,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Control",
+          "type": "NO_INTERVENTION",
+          "description": "Usual treatment"
+        },
+        {
+          "label": "CPAP",
+          "type": "EXPERIMENTAL",
+          "description": "Treatment with CPAP",
+          "interventionNames": [
+            "Procedure: CPAP"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "CPAP",
+          "description": "Treatment with CPAP",
+          "armGroupLabels": [
+            "CPAP"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "number of patients without diastolic dysfunction",
+          "description": "number of patient without diastolic dysfunction defined by any of this parametres: TRI (isovolumetric relaxation time):\\> 105 ms (\\> 50 years),\\> 100 ms (30-50 years). 2. Wave ratio E / A wave \\<1 and deceleration time\\> 220 ms (under 50) and E / A \\<0.5 and deceleration time\\> 280 ms (50 +). 3. Relationship between systolic and diastolic wave flow following pulmonary vein (S / D): S / D\\> 1.5 (under 50) and S / D\\> 2.5 (over 50). A wave velocity of pulmonary venous flow\\> 35 cm / s. Flow propagation velocity by color M-mode \\<45 cm / s. E wave peak velocity by DTI of the ring: Em \\<5 cm / s",
+          "timeFrame": "One year"
+        },
+        {
+          "measure": "number of hospital admissions for any cause",
+          "timeFrame": "One year"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Ejection fraction\\> 45%, which also ruled out significant left ventricular dilation\n2. At least two abnormal indices of diastolic function.\n\nExclusion Criteria:\n\n1. Not sinus rhytm\n2. Severe lung disease (FEV1 or FVC less than 50%)\n3. Significant valvular or congenital heart disease, primary\n4. Unstable angina, myocardial infarction or cardiac surgery within three months prior to inclusion\n5. Hypertrophic Cardiomyopathy\n6. Presence of significant psychiatric disorders.\n7. Severe Hypersomnia . (Epworth\\> 20)\n8. Severe pulmonary hypertension measured by Doppler,\n9. Facial deformity and / or defect of nasal patency.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

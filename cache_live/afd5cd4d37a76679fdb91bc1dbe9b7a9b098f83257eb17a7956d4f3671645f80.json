@@ -1,0 +1,327 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03833336",
+      "orgStudyIdInfo": {
+        "id": "PREFER-HF"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2016-003604-31",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Institut de Recerca Biomèdica de Lleida",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effects of Iron Therapy in Heart Failure With Preserved Ejection Fraction and Iron Deficiency (PREFER-HF)",
+      "officialTitle": "Effects of Intravenous Iron Therapy With Ferric Carboxymaltose Compared With Oral Iron Therapy in Heart Failure With Preserved Ejection Fraction and Iron Deficiency (PREFER-HF)",
+      "acronym": "PREFER-HF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-05",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-08-23",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-09-15",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-12-20",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-02-05",
+      "studyFirstSubmitQcDate": "2019-02-06",
+      "studyFirstPostDateStruct": {
+        "date": "2019-02-07",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-05-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-05-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "José Luis Morales Rull, MD, PhD",
+        "investigatorTitle": "José Luis Morales Rull, MD, PhD, Principal Investigator NUTRIMMIC group ( Nutrition Metabolism and Microbiota in Heart Failure)",
+        "investigatorAffiliation": "Institut de Recerca Biomèdica de Lleida"
+      },
+      "leadSponsor": {
+        "name": "Institut de Recerca Biomèdica de Lleida",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Fundació La Marató de TV3",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of the study is to evaluate whether the administration of iron to patients with heart failure and preserved ejection fraction results in an improvement of symptoms and functional class, in addition to evaluating whether oral iron is equivalent to intravenous iron to achieve this improvement.",
+      "detailedDescription": "Iron deficiency is one of the most prevalent co-morbid conditions in chronic heart failure. In the absence of any iron treatment, it is estimated that up to 50% of patients with heart failure have low levels of available iron. Treatment with intravenous iron improves exercise tolerance , quality of life , and reduces hospitalization in patients with chronic heart failure and reduced ejection fraction. However data on the effect of iron therapy in patients with heart failure with preserved ejection fraction are still lacking. The evidence related to oral iron therapy in HF is limited and no randomized trials compared oral iron vs no iron therapy in the absence of erythropoiesis-stimulating agents."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Normal Ejection Fraction",
+        "Ferropenic Anemia"
+      ],
+      "keywords": [
+        "heart failure",
+        "preserved ejection fraction",
+        "ferropenic anemia"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 72,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "normal saline solution plus oral lactose capsules",
+          "interventionNames": [
+            "Other: Placebo"
+          ]
+        },
+        {
+          "label": "Intravenous ferric carboxymaltose",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Ferric carboxymaltose 500-1000 mg at 0,6,12,24 weeks ( adjusted by protocol)",
+          "interventionNames": [
+            "Drug: Ferric carboxymaltose"
+          ]
+        },
+        {
+          "label": "Oral iron A: ferroglycine sulfate",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "oral capsules of ferroglycine sulfate iron until week 24",
+          "interventionNames": [
+            "Drug: Ferroglycine Sulfate"
+          ]
+        },
+        {
+          "label": "Oral iron B: sucrosomial iron",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "oral capsules of sucrosomial iron until week 24",
+          "interventionNames": [
+            "Drug: Sucrosomial Iron"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Placebo",
+          "description": "The group assigned to placebo will receive an infusion of normal saline solution plus oral lactose capsules identical to oral medication.",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Ferric carboxymaltose",
+          "description": "The group assigned to receive intravenous iron will receive intravenous ferric carboxymaltose ajusted by weight and Hb levels according to study protocol plus oral placebo",
+          "armGroupLabels": [
+            "Intravenous ferric carboxymaltose"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Ferroglycine Sulfate",
+          "description": "One group assigned to receive oral iron will receive two 100 mg oral capsule of ferroglycine sulfate plus intravenous placebo (normal saline solution)",
+          "armGroupLabels": [
+            "Oral iron A: ferroglycine sulfate"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Sucrosomial Iron",
+          "description": "One group assigned to receive oral iron will receive or two oral capsule containing 30 mg of pyrophosphate sucrosomial iron plus intravenous placebo (normal saline solution)",
+          "armGroupLabels": [
+            "Oral iron B: sucrosomial iron"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Six minute walking test distance",
+          "description": "Change in meters traveled in six minute walking test from baseline to week 24. An increase in distance is related to an improvement in functional capacity.",
+          "timeFrame": "24 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in New York Heart Association (NYHA) functional classification",
+          "description": "Change in New York Heart Association functional classification (I-IV) from baseline to week 24. A decrease is related to an improvement in functional capacity.",
+          "timeFrame": "24 weeks"
+        },
+        {
+          "measure": "Quality of Life assesed by Kansas City Cardiomyopathy Questionnaire",
+          "description": "Change in Minnesota Living with Heart Failure questionnaire (0-100) from baseline to week 24. Questionnaire is s a 23-item, self-administered instrument that quantifies physical function, symptoms (frequency, severity and recent change), social function, self-efficacy and knowledge, and quality of life.",
+          "timeFrame": "24 weeks"
+        },
+        {
+          "measure": "Hospitalizations",
+          "description": "Rate of any, HF-related or other cardiovascular hospitalizations.",
+          "timeFrame": "24 weeks"
+        },
+        {
+          "measure": "Mortality",
+          "description": "All causes and cardiovascular mortality",
+          "timeFrame": "24 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Subjects with stable chronic HF (NYHA II/IV functional class) on optimal background therapy (as determined by the investigator) for at least 4 weeks with no dose changes of heart failure drugs during the last 2 weeks (with the exception of diuretics). In general, optimal pharmacological treatment should include an angiotensin-converting enzyme inhibitor or angiotensin II receptor blocker and a beta blocker unless contraindicated or not tolerated and diuretic if indicated.\n* Left ventricular ejection fraction \\>45% (value within 3 months of planned date of randomization).\n* BNP \\>100 pg/mL and/or N-terminal-pro-BNP \\>400 pg/mL at the screening visit.\n* Subject must be capable of completing the 6 minute walking test\n* Screening serum ferritin \\<100 ng/mL or 100-300 ng/mL with transferrin saturation \\<20%.\n* At least 18 years of age.\n* Before any study-specific procedure, the appropriate written informed consent must be obtained.\n\nExclusion Criteria:\n\n* Subject has known sensitivity to any of the products to be administered during dosing.\n* History of acquired iron overload.\n* History of erythropoietin-stimulating agent, i.v. iron therapy, and/or blood transfusion in previous 6 weeks prior torandomization.\n* Oral iron therapy at doses \\>100 mg/day in previous 1 week prior to randomization. Note: ongoing use of multivitamins containing iron \\<75 mg/day is permitted.\n* Exercise training programme(s) in the 3 months prior to screening or planned in the next 6 months.\n* Known active bacterial infection.\n* Chronic liver disease (including active hepatitis) and/or screening alanine transaminase or aspartate transaminase above three times the upper limit of the normal range.\n* Subjects with known hepatitis B surface antigen positivity and/or hepatitis C virus ribonucleic acid positivity.\n* Vitamin B12 and/or serum folate deficiency. If deficiency-corrected subject may be rescreened for inclusion.\n* Subjects with known seropositivity to human immunodeficiency virus.\n* Clinical evidence of current malignancy with exception of basal cell or squamous cell carcinoma of the skin, and cervical intraepithelial neoplasia.\n* Currently receiving systemic chemotherapy and/or radiotherapy.\n* Renal dialysis (previous, current, or planned within the next 6 months).\n* Unstable angina pectoris as judged by the investigator; severe valvular or left ventricular outflow obstruction disease needing intervention; atrial fibrillation/flutter with a mean ventricular response rate at rest \\>100 beats per minute.\n* Acute myocardial infarction or acute coronary syndrome, transient ischemic attack, or stroke within the last 3 months prior to randomization.\n* Coronary artery bypass graft, percutaneous intervention (e.g. cardiac, cerebrovascular, and aortic; diagnostic catheters are allowed), or major surgery, including thoracic and cardiac surgery, within the last 3 months prior to randomization.\n* Subject currently is enrolled in or has not yet completed at least 30 days since ending other investigational device or drug study(ies), or subject is receiving other investigational agent(s).\n* Subject of childbearing potential who is pregnant (e.g. positive human chorionic gonadotropin test) or is breastfeeding.\n* Subject will not be available for all protocol-specified assessments.\n* Subject has any kind of disorder that compromises the ability of the subject to give written informed consent and/or to comply with study procedures.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Hospital Universitari Arnau de Vilanova",
+          "city": "Lleida",
+          "state": "Lleida",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.61674,
+            "lon": 0.62218
+          }
+        },
+        {
+          "facility": "Hospital de Manises",
+          "city": "Manises",
+          "state": "Valencia",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.49139,
+            "lon": -0.46349
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D018798",
+          "term": "Anemia, Iron-Deficiency"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000747",
+          "term": "Anemia, Hypochromic"
+        },
+        {
+          "id": "D000740",
+          "term": "Anemia"
+        },
+        {
+          "id": "D006402",
+          "term": "Hematologic Diseases"
+        },
+        {
+          "id": "D006425",
+          "term": "Hemic and Lymphatic Diseases"
+        },
+        {
+          "id": "D000090463",
+          "term": "Iron Deficiencies"
+        },
+        {
+          "id": "D019189",
+          "term": "Iron Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C522335",
+          "term": "ferric carboxymaltose"
+        },
+        {
+          "id": "C030676",
+          "term": "ferroglycine sulfate"
+        },
+        {
+          "id": "C000718012",
+          "term": "sucrosomial iron"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

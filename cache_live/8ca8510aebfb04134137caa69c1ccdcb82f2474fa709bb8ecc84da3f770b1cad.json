@@ -1,0 +1,526 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05092984",
+      "orgStudyIdInfo": {
+        "id": "8154"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2021-003958-23",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "University Hospital, Strasbourg, France",
+        "class": "OTHER"
+      },
+      "briefTitle": "Evaluation of Spironolactone Efficacy in Patient with Rheumatoid Arthritis (RA)",
+      "officialTitle": "Evaluation of Spironolactone Efficacy in Patient with Rheumatoid Arthritis (RA)",
+      "acronym": "ALDORA"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-03",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-06-22",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-03",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-03",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-09-28",
+      "studyFirstSubmitQcDate": "2021-10-12",
+      "studyFirstPostDateStruct": {
+        "date": "2021-10-26",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-03-10",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-03-12",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University Hospital, Strasbourg, France",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Evaluation of spironolactone, a well-known cardiological treatment, in patients with rheumatoid arthritis (RA).\n\nThe hypothesis is that spironolactone, through its anti-inflammatory and anti-fibrosis actions, decreases RA's activity. The primary objective is to assess the efficacy of spironolactone on RA activity by evaluating the proportion of patients achieving DAS28-CRP \\< 3.2 at 3 months (comparison between spironolactone and placebo arms). CRP (C reactive protein)",
+      "detailedDescription": "RA is associated with increased cardiovascular (CV) morbidity and death compared to the general population due to chronic systemic inflammation. However, some cardiological drugs are effective in reducing CV mortality for high-risk patients in the general population, without inflammatory rheumatism. Open-label trials suggested that spironolactone could be an effective RA treatment due to its anti-inflammatory and anti-fibrotic properties."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Rheumatoid Arthritis"
+      ],
+      "keywords": [
+        "rheumatoid arthritis",
+        "cardiovascular event",
+        "spironolactone",
+        "randomized controlled trial"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 154,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Spironolactone",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: Spironolactone"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Spironolactone",
+          "description": "77 patients will be treated with spironolactone Mylan 25mg/day for the first 3 months of the study. Dosage adjustment can be performed according to the eGFR (estimated Glomerular Filtration Rate) concentration at baseline and the serum potassium variation.\n\nDuring the last 3 months of the study, all the patients will be treated with spironolactone Mylan 25mg. Dosage adjustment can be performed according to the serum potassium variation.",
+          "armGroupLabels": [
+            "Spironolactone"
+          ],
+          "otherNames": [
+            "Spironolactone Mylan 25mg"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "77 patients will be treated with placebo 25mg/day for the first 3 months. At inclusion, a second randomization is automatically performed in the placebo arm to determine patients receiving a dose adjustment during the study to keep the double-blind.\n\nDuring the last 3 months of the study, all the patients will be treated with spironolactone Mylan 25mg. Dosage adjustment can be performed according to the serum potassium variation.",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Proportion of patients achieving DAS28-CRP < 3.2, comparison between spironolactone and placebo arms.",
+          "description": "DMARDs intensification due to worsening signs and symptoms of RA at any time of the trial will be considered as treatment failure. Discontinuation of spironolactone or placebo for at least 1 month will be considered as treatment failure.",
+          "timeFrame": "at 3 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Adverse events / Serious adverse events rate in each arm",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "NT-proBNP level",
+          "description": "Test for B-type natriuretic peptide (BNP), used for heart failure evaluation.",
+          "timeFrame": "Day 0"
+        },
+        {
+          "measure": "NT-proBNP level",
+          "description": "Test for B-type natriuretic peptide (BNP), used for heart failure evaluation.",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "NT-proBNP level",
+          "description": "Test for B-type natriuretic peptide (BNP), used for heart failure evaluation.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Cardiac parameters: QRS duration (ms)",
+          "description": "QRS duration (ms);",
+          "timeFrame": "Day 0"
+        },
+        {
+          "measure": "Cardiac parameters: left ventricular end-diastolic volume index (mL/m2)",
+          "description": "left ventricular end-diastolic volume index (mL/m2),",
+          "timeFrame": "Day 0"
+        },
+        {
+          "measure": "Cardiac parameters: left ventricular ejection fraction (%)",
+          "description": "left ventricular ejection fraction (%);",
+          "timeFrame": "Day 0"
+        },
+        {
+          "measure": "Cardiac parameters: left ventricular mass index (g/m2)",
+          "description": "left ventricular mass index (g/m2);",
+          "timeFrame": "Day 0"
+        },
+        {
+          "measure": "Cardiac parameters: left atrial volume index (mL/m2)",
+          "description": "left atrial volume index (mL/m2);",
+          "timeFrame": "Day 0"
+        },
+        {
+          "measure": "Cardiac parameters: early mitral flow",
+          "description": "early mitral flow;",
+          "timeFrame": "Day 0"
+        },
+        {
+          "measure": "Cardiac parameters: velocity (E) (m/s)",
+          "description": "velocity (E) (m/s);",
+          "timeFrame": "Day 0"
+        },
+        {
+          "measure": "Cardiac parameters: late (atrial) mitral flow velocity (A) (m/s)",
+          "description": "late (atrial) mitral flow velocity (A) (m/s);",
+          "timeFrame": "Day 0"
+        },
+        {
+          "measure": "Cardiac parameters: E/A ratio",
+          "description": "E/A ratio;",
+          "timeFrame": "Day 0"
+        },
+        {
+          "measure": "Cardiac parameters: E/ early diastolic tissue velocity (e')",
+          "description": "E/ early diastolic tissue velocity (e');",
+          "timeFrame": "Day 0"
+        },
+        {
+          "measure": "Cardiac parameters: tricuspid annular plane systolic excursion",
+          "description": "tricuspid annular plane systolic excursion",
+          "timeFrame": "Day 0"
+        },
+        {
+          "measure": "Cardiac parameters: QRS duration (ms)",
+          "description": "QRS duration (ms);",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Cardiac parameters: left ventricular end-diastolic volume index (mL/m2)",
+          "description": "left ventricular end-diastolic volume index (mL/m2),",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Cardiac parameters: left ventricular ejection fraction (%)",
+          "description": "left ventricular ejection fraction (%);",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Cardiac parameters: left ventricular mass index (g/m2)",
+          "description": "left ventricular mass index (g/m2)",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Cardiac parameters: left atrial volume index (mL/m2)",
+          "description": "left atrial volume index (mL/m2);",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Cardiac parameters: early mitral flow",
+          "description": "early mitral flow;",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Cardiac parameters: velocity (E) (m/s)",
+          "description": "velocity (E) (m/s);",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Cardiac parameters: late (atrial) mitral flow velocity (A) (m/s)",
+          "description": "late (atrial) mitral flow velocity (A) (m/s);",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Cardiac parameters: E/A ratio",
+          "description": "E/A ratio;",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Cardiac parameters: E/ early diastolic tissue velocity (e')",
+          "description": "E/ early diastolic tissue velocity (e')",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Cardiac parameters: tricuspid annular plane systolic excursion",
+          "description": "tricuspid annular plane systolic excursion",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "CDAI score",
+          "description": "Clinical Disease Activity Index for Rheumatoid Arthritis; 0-76; From 0.0 to 2.8: remission From 2.9 to 10.0: low activity From 10.1 to 22.0: moderate activity From 22.1 to 76.0: high activity",
+          "timeFrame": "Day 0"
+        },
+        {
+          "measure": "CDAI score",
+          "description": "Clinical Disease Activity Index for Rheumatoid Arthritis; 0-76; From 0.0 to 2.8: remission From 2.9 to 10.0: low activity From 10.1 to 22.0: moderate activity From 22.1 to 76.0: high activity",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "CDAI score",
+          "description": "Clinical Disease Activity Index for Rheumatoid Arthritis; 0-76; From 0.0 to 2.8: remission From 2.9 to 10.0: low activity From 10.1 to 22.0: moderate activity From 22.1 to 76.0: high activity",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Proportion of patients achieving DAS28-CRP < 3.2",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "EULAR/ACR 20 2010 classification score",
+          "description": "American College of Rheumatology 20/50/70 criteria",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "EULAR/ACR 50 2010 classification score",
+          "description": "American College of Rheumatology 20/50/70 criteria",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "EULAR/ACR 70 2010 classification score",
+          "description": "American College of Rheumatology 20/50/70 criteria",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Boolean remission score",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "EULAR/ACR 20 2010 classification score",
+          "description": "American College of Rheumatology 20/50/70 criteria",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "EULAR/ACR 50 2010 classification score",
+          "description": "American College of Rheumatology 20/50/70 criteria",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "EULAR/ACR 70 2010 classification score",
+          "description": "American College of Rheumatology 20/50/70 criteria",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Boolean remission score",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Concomitant treatment modification",
+          "description": "Assess the change of concomitant treatments. In case of lack efficacy with clinical symptoms requiring the dosage modification of the current DMARD or the introduction of a new DMARD, the investigator is free to choose the best treatment for the patient. Nevertheless, DMARDs intensification due to worsening signs and symptoms of at any time of the trial will be considered as treatment failure.",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Concomitant treatment modification",
+          "description": "Assess the change of concomitant treatments. In case of lack efficacy with clinical symptoms requiring the dosage modification of the current DMARD or the introduction of a new DMARD, the investigator is free to choose the best treatment for the patient. Nevertheless, DMARDs intensification due to worsening signs and symptoms of at any time of the trial will be considered as treatment failure.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Treatment account (treatment boxes and patient diary)",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Treatment account (treatment boxes and patient diary)",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "RAPID 3 (routine assessment of patient index data 3)",
+          "description": "RAPID3 : Index to asses and monitor patients with RA",
+          "timeFrame": "Day 0"
+        },
+        {
+          "measure": "RAPID 3 (routine assessment of patient index data 3)",
+          "description": "RAPID3 : Index to asses and monitor patients with RA",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "RAPID 3 (routine assessment of patient index data 3)",
+          "description": "RAPID3 : Index to asses and monitor patients with RA",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "HAQ scores",
+          "description": "HAQ : Health Assessment Questionnaire",
+          "timeFrame": "Day 0"
+        },
+        {
+          "measure": "HAQ scores",
+          "description": "HAQ : Health Assessment Questionnaire",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "HAQ scores",
+          "description": "HAQ : Health Assessment Questionnaire",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* patients 18 years of age and over\n* diagnosis of RA according to EULAR/ACR 2010 classification criteria\n* active RA: DAS28-CRP ≥ 3.2\n* insufficient response despite a stable DMARD treatment (cDMARD/tsDMARD(targeted synthetic DMARD)/bDMARD) ≥ 12 weeks\n* stable dose of corticosteroids for at least 4 weeks prior to inclusion\n* patient able to understand the objectives and risks of the study and to provide a written informed consent to participate in the study, dated and signed before initiating any trial-related procedure\n* patient having been informed about the results of the preliminary medical visit\n* if woman of childbearing, they should have no desire to procreate for the duration of their participation in the study, agreeing to use an effective contraception method\\* during the study and until 5 days following the last visit or last dose of treatment in case of early stop; acceptable birth control methods:\n\n  * progestogen-only oral hormonal contraception, where inhibition of ovulation is not the primary mode of action\n  * male or female condom with or without spermicide\\*\n  * cap, diaphragm or sponge with spermicide\\*\n\n    * a combination of male condom with either cap, diaphragm or sponge with spermicide (double barrier methods) are also considered acceptable, but not highly effective, birth control methods\n* affiliation to a social security regime\n\nExclusion Criteria:\n\n* severe or acute renal insufficiency, defined by eGFR \\< 30 mL/min\n* hyperkalemia, with K+ \\> 5,1 mmol/L\n* end-stage liver failure, cirrhosis\n* hypersensitivity to the active ingredients or intolerance to any of the excipients including lactose\n* Addison's disease\n* patient currently being treated with spironolactone, or previous spironolactone treatment in the last 3 months\n* concomitant treatment with:\n\n  * mitotane,\n  * other potassium-sparing diuretics (alone or in combination) such as amiloride, potassium canrenoate, eplerenone, triamterene\n* other inflammatory arthritis except associated Sjögren's syndrome\n* pregnancy (women of childbearing potential : positive blood pregnancy test at the inclusion visit (V0))\n* breastfeeding\n* participation in a clinical study with an investigational product within 4 weeks prior to the start of the study treatment or still under the exclusion period\n* unwillingness or incapacity to adhere to study protocol (language barriers, cognitive disorders, etc.).\n* subjects who are compulsorily detained for treatment of either a psychiatric or physical (e.g., infectious disease) illness.\n* patient who cannot be followed for 6 months\n* patient over the age of legal majority who are protected, or deprived of liberty by judicial or administrative decision (vulnerable subjects)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Jacques-Eric GOTTENBERG, Professor",
+          "role": "CONTACT",
+          "phone": "3 88 12 79 53",
+          "phoneExt": "+33",
+          "email": "jacques-eric.gottenberg@chru-strasbourg.fr"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Jacques-Eric GOTTENBERG, MD, PhD",
+          "affiliation": "University Hospital, Strasbourg, France",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University Hospital, Strasbourg, France",
+          "status": "RECRUITING",
+          "city": "Strasbourg",
+          "state": "Alsace",
+          "zip": "67000",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Jacques-Eric GOTTENBERG, MD, PhD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.58392,
+            "lon": 7.74553
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001172",
+          "term": "Arthritis, Rheumatoid"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001168",
+          "term": "Arthritis"
+        },
+        {
+          "id": "D007592",
+          "term": "Joint Diseases"
+        },
+        {
+          "id": "D009140",
+          "term": "Musculoskeletal Diseases"
+        },
+        {
+          "id": "D012216",
+          "term": "Rheumatic Diseases"
+        },
+        {
+          "id": "D003240",
+          "term": "Connective Tissue Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        },
+        {
+          "id": "D001327",
+          "term": "Autoimmune Diseases"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D013148",
+          "term": "Spironolactone"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007783",
+          "term": "Lactones"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011283",
+          "term": "Pregnenes"
+        },
+        {
+          "id": "D011278",
+          "term": "Pregnanes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

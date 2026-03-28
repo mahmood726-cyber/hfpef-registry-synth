@@ -1,0 +1,1465 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06036914",
+      "orgStudyIdInfo": {
+        "id": "23-005262"
+      },
+      "organization": {
+        "fullName": "Mayo Clinic",
+        "class": "OTHER"
+      },
+      "briefTitle": "A Study of Ultra High Dose Diuretics to Treat Heart Failure",
+      "officialTitle": "Ultra High Dose Diuretic Strategy for Management of Acute Decompensated Heart Failure - A Randomized, Double-Blind Pilot Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-11-27",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-10-08",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-10-08",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-09-07",
+      "studyFirstSubmitQcDate": "2023-09-07",
+      "studyFirstPostDateStruct": {
+        "date": "2023-09-14",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2025-10-07",
+      "resultsFirstSubmitQcDate": "2025-12-19",
+      "resultsFirstPostDateStruct": {
+        "date": "2026-01-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-19",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-14",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Yogesh Reddy",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "Mayo Clinic"
+      },
+      "leadSponsor": {
+        "name": "Mayo Clinic",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to determine the safety and effectiveness of ultrahigh dose diuretics compared to standard dose diuretics over 24 hours in patients with decompensated heart failure."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure; With Decompensation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 20,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Ultra-high dose diuretic group",
+          "type": "EXPERIMENTAL",
+          "description": "Subjects with decompensated heart failure requiring hospitalization will receive IV bumetanide.",
+          "interventionNames": [
+            "Drug: Bumetanide"
+          ]
+        },
+        {
+          "label": "Standard dose diuretic group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Subjects with decompensated heart failure requiring hospitalization will receive IV furosemide.",
+          "interventionNames": [
+            "Drug: Furosemide"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Bumetanide",
+          "description": "Bumetanide will be administered via intravenous (IV) infusion at a dose of 12.5 mg two times a day (BID) for 2 doses total within 24 hours.",
+          "armGroupLabels": [
+            "Ultra-high dose diuretic group"
+          ],
+          "otherNames": [
+            "Ultra-high dose diuretic"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Furosemide",
+          "description": "Furosemide will be administered via intravenous (IV) infusion at usual doses (twice the home dose of oral daily diuretic in furosemide equivalents) administered as 2 doses total within 24 hours.\n\nFurosemide equivalents will be considered as follows (40 mg of intravenous furosemide = 1 mg oral bumetanide or 40 mg of torsemide or 80 mg of oral furosemide consistent with prior literature). The lowest dose of furosemide administered during the study will be 40 mg IV two times a day (BID) and the maximum dose will be 100 mg IV BID.",
+          "armGroupLabels": [
+            "Standard dose diuretic group"
+          ],
+          "otherNames": [
+            "Standard dose diuretic"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Urine Output",
+          "description": "The total volume of urine produced in milliliters (mL) over 24 hours after initiation of intravenous diuretic.",
+          "timeFrame": "24 hours"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in Body Weight",
+          "description": "Change in Body Weight (kg) from Baseline to 24 hours after initiation of intravenous diuretic.",
+          "timeFrame": "Baseline, 24 hours"
+        },
+        {
+          "measure": "Change in NT-proBNP",
+          "description": "Change in NT-proBNP levels (pg/ml) from Baseline to 24 hours after initiation of intravenous diuretic.",
+          "timeFrame": "Baseline, 24 hours"
+        },
+        {
+          "measure": "Change in Urine Sodium Excretion",
+          "description": "Change in amount of sodium (mmol) excreted in the urine from Baseline to 24 hours after initiation of intravenous diuretic.",
+          "timeFrame": "Baseline, 24 hours"
+        },
+        {
+          "measure": "Change in Apnea-hypopnea Index",
+          "description": "The apnea-hypopnea index (AHI) is the number of apneas and hypopneas per hour of sleep which is an indicator of severity of sleep apnea\n\nAHI will be measured using a Watch Pat or Nox device at Baseline and 24 hours after initiation of intravenous diuretic.",
+          "timeFrame": "Baseline, 24 hours"
+        },
+        {
+          "measure": "Change in Iohexol Glomerular Filtration Rate (GFR)",
+          "description": "Renal or kidney function was measured by GFR determined by Iohexol clearance. Iohexol GFR will be measured at Baseline and 24 hours after initiation of intravenous diuretic.",
+          "timeFrame": "Baseline, 24 hours"
+        },
+        {
+          "measure": "Change in Peripheral Vein Pressure",
+          "description": "Peripheral vein pressure (mm Hg) will be recorded from existing IV lines through pressure transducer monitoring at Baseline and 24 hours after initiation of intravenous diuretic.",
+          "timeFrame": "Baseline, 24 hours"
+        },
+        {
+          "measure": "Change in Cardiac Output",
+          "description": "Cardiac output (L/min) is the total volume of blood moved by the heart per minute and will be measured by echocardiography conducted at Baseline and 24 hours after initiation of intravenous diuretic.",
+          "timeFrame": "Baseline, 24 hours"
+        },
+        {
+          "measure": "Change in Estimated Right Ventricular (RV) Systolic Pressure",
+          "description": "Estimated RV systolic pressure (mm Hg) will be measured by echocardiography conducted at Baseline and 24 hours after initiation of intravenous diuretic.",
+          "timeFrame": "Baseline, 24 hours"
+        },
+        {
+          "measure": "Change in Right Atrial (RA) Pressure",
+          "description": "RA pressure (mm Hg) will be measured by echocardiography conducted at Baseline and 24 hours after initiation of intravenous diuretic.",
+          "timeFrame": "Baseline, 24 hours"
+        },
+        {
+          "measure": "Change in Left Atrial (LA) Strain",
+          "description": "LA strain will be assessed by echocardiography conducted at Baseline and 24 hours after initiation of intravenous diuretic.",
+          "timeFrame": "Baseline, 24 hours"
+        },
+        {
+          "measure": "Change in Left Ventricular (LV) Global Longitudinal Strain",
+          "description": "LV global longitudinal strain will be assessed by echocardiography conducted at Baseline and 24 hours after initiation of intravenous diuretic.",
+          "timeFrame": "Baseline, 24 hours"
+        },
+        {
+          "measure": "Change in Right Ventricular (RV) Global Longitudinal Strain",
+          "description": "RV global longitudinal strain will be assessed by echocardiography conducted at Baseline and 24 hours after initiation of intravenous diuretic.",
+          "timeFrame": "Baseline, 24 hours"
+        },
+        {
+          "measure": "Change in E/e'",
+          "description": "E/e' will be assessed using echocardiography conducted at Baseline and 24 hours after initiation of intravenous diuretic. It is defined as the ratio of peak early diastolic mitral inflow velocity (E) and peak early diastolic mitral annular velocity (e').",
+          "timeFrame": "Baseline, 24 hours"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosis of decompensated heart failure receiving intravenous diuretics\n* Ability to provide informed consent\n\nExclusion Criteria:\n\n* Patients on home inotrope medications\n* Patients with Chronic Kidney disease stage V and end stage renal failure on dialysis\n* Patients lacking the capacity to consent for themselves\n* Known pregnancy or breastfeeding mothers\n* Complex congenital heart disease\n* Allergy to furosemide or bumetanide\n* Respiratory failure requiring non-invasive ventilation (CPAP/BiPAP) or invasive mechanical ventilatory support at the time of randomization\n* Hypotension with systolic blood pressure \\<80 mm Hg at the time of randomization\n* Acute coronary syndrome\n* Sustained Ventricular tachycardia requiring treatment in the last 48 hours\n* Patients weighing ≤ 40 kg",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Yogesh Reddy, M.B.B.S",
+          "affiliation": "Mayo Clinic",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Mayo Clinic in Rochester",
+          "city": "Rochester",
+          "state": "Minnesota",
+          "zip": "55905",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Ultra-high Dose Diuretic Group",
+          "description": "Subjects with decompensated heart failure requiring hospitalization received IV bumetanide.\n\nBumetanide: Bumetanide was administered via intravenous (IV) infusion at a dose of 12.5 mg two times a day (BID) for 2 doses total within 24 hours."
+        },
+        {
+          "id": "FG001",
+          "title": "Standard Dose Diuretic Group",
+          "description": "Subjects with decompensated heart failure requiring hospitalization received IV furosemide.\n\nFurosemide: Furosemide was administered via intravenous (IV) infusion at usual doses (twice the home dose of oral daily diuretic in furosemide equivalents) administered as 2 doses total within 24 hours.\n\nFurosemide equivalents were considered as follows (40 mg of intravenous furosemide = 1 mg oral bumetanide or 40 mg of torsemide or 80 mg of oral furosemide consistent with prior literature). The lowest dose of furosemide administered during the study was 40 mg IV two times a day (BID) and the maximum dose was 100 mg IV BID."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "10"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "10"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "9"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "10"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Ultra-high Dose Diuretic Group",
+          "description": "Subjects with decompensated heart failure requiring hospitalization received IV bumetanide.\n\nBumetanide: Bumetanide was administered via intravenous (IV) infusion at a dose of 12.5 mg two times a day (BID) for 2 doses total within 24 hours."
+        },
+        {
+          "id": "BG001",
+          "title": "Standard Dose Diuretic Group",
+          "description": "Subjects with decompensated heart failure requiring hospitalization received IV furosemide.\n\nFurosemide: Furosemide was administered via intravenous (IV) infusion at usual doses (twice the home dose of oral daily diuretic in furosemide equivalents) administered as 2 doses total within 24 hours.\n\nFurosemide equivalents were considered as follows (40 mg of intravenous furosemide = 1 mg oral bumetanide or 40 mg of torsemide or 80 mg of oral furosemide consistent with prior literature). The lowest dose of furosemide administered during the study was 40 mg IV two times a day (BID) and the maximum dose was 100 mg IV BID."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "10"
+            },
+            {
+              "groupId": "BG001",
+              "value": "10"
+            },
+            {
+              "groupId": "BG002",
+              "value": "20"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "68.8",
+                      "spread": "12.4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "70.9",
+                      "spread": "14.3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "69",
+                      "spread": "13"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "7"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "13"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "20"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "17"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "20"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Urine Output",
+          "description": "The total volume of urine produced in milliliters (mL) over 24 hours after initiation of intravenous diuretic.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "mL",
+          "timeFrame": "24 hours",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Ultra-high Dose Diuretic Group",
+              "description": "Subjects with decompensated heart failure requiring hospitalization received IV bumetanide.\n\nBumetanide: Bumetanide was administered via intravenous (IV) infusion at a dose of 12.5 mg two times a day (BID) for 2 doses total within 24 hours."
+            },
+            {
+              "id": "OG001",
+              "title": "Standard Dose Diuretic Group",
+              "description": "Subjects with decompensated heart failure requiring hospitalization received IV furosemide.\n\nFurosemide: Furosemide was administered via intravenous (IV) infusion at usual doses (twice the home dose of oral daily diuretic in furosemide equivalents) administered as 2 doses total within 24 hours.\n\nFurosemide equivalents were considered as follows (40 mg of intravenous furosemide = 1 mg oral bumetanide or 40 mg of torsemide or 80 mg of oral furosemide consistent with prior literature). The lowest dose of furosemide administered during the study was 40 mg IV two times a day (BID) and the maximum dose was 100 mg IV BID."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "9"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5283",
+                      "spread": "2976"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2819",
+                      "spread": "1060"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Body Weight",
+          "description": "Change in Body Weight (kg) from Baseline to 24 hours after initiation of intravenous diuretic.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "kg",
+          "timeFrame": "Baseline, 24 hours",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Ultra-high Dose Diuretic Group",
+              "description": "Subjects with decompensated heart failure requiring hospitalization received IV bumetanide.\n\nBumetanide: Bumetanide was administered via intravenous (IV) infusion at a dose of 12.5 mg two times a day (BID) for 2 doses total within 24 hours."
+            },
+            {
+              "id": "OG001",
+              "title": "Standard Dose Diuretic Group",
+              "description": "Subjects with decompensated heart failure requiring hospitalization received IV furosemide.\n\nFurosemide: Furosemide was administered via intravenous (IV) infusion at usual doses (twice the home dose of oral daily diuretic in furosemide equivalents) administered as 2 doses total within 24 hours.\n\nFurosemide equivalents were considered as follows (40 mg of intravenous furosemide = 1 mg oral bumetanide or 40 mg of torsemide or 80 mg of oral furosemide consistent with prior literature). The lowest dose of furosemide administered during the study was 40 mg IV two times a day (BID) and the maximum dose was 100 mg IV BID."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "9"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-2.6",
+                      "spread": "3.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-3.8",
+                      "spread": "3.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in NT-proBNP",
+          "description": "Change in NT-proBNP levels (pg/ml) from Baseline to 24 hours after initiation of intravenous diuretic.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "pg/ml",
+          "timeFrame": "Baseline, 24 hours",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Ultra-high Dose Diuretic Group",
+              "description": "Subjects with decompensated heart failure requiring hospitalization received IV bumetanide.\n\nBumetanide: Bumetanide was administered via intravenous (IV) infusion at a dose of 12.5 mg two times a day (BID) for 2 doses total within 24 hours."
+            },
+            {
+              "id": "OG001",
+              "title": "Standard Dose Diuretic Group",
+              "description": "Subjects with decompensated heart failure requiring hospitalization received IV furosemide.\n\nFurosemide: Furosemide was administered via intravenous (IV) infusion at usual doses (twice the home dose of oral daily diuretic in furosemide equivalents) administered as 2 doses total within 24 hours.\n\nFurosemide equivalents were considered as follows (40 mg of intravenous furosemide = 1 mg oral bumetanide or 40 mg of torsemide or 80 mg of oral furosemide consistent with prior literature). The lowest dose of furosemide administered during the study was 40 mg IV two times a day (BID) and the maximum dose was 100 mg IV BID."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "9"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2898",
+                      "spread": "7278"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-1705",
+                      "spread": "1712"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Urine Sodium Excretion",
+          "description": "Change in amount of sodium (mmol) excreted in the urine from Baseline to 24 hours after initiation of intravenous diuretic.",
+          "populationDescription": "Data for this outcome measure was not collected for any participants. Upon study initiation, this outcome measure was not technically feasible to obtain with existing staffing and was therefore not performed. As a results, no data was collected for this outcome measure.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Baseline, 24 hours",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Ultra-high Dose Diuretic Group",
+              "description": "Subjects with decompensated heart failure requiring hospitalization received IV bumetanide.\n\nBumetanide: Bumetanide was administered via intravenous (IV) infusion at a dose of 12.5 mg two times a day (BID) for 2 doses total within 24 hours."
+            },
+            {
+              "id": "OG001",
+              "title": "Standard Dose Diuretic Group",
+              "description": "Subjects with decompensated heart failure requiring hospitalization received IV furosemide.\n\nFurosemide: Furosemide was administered via intravenous (IV) infusion at usual doses (twice the home dose of oral daily diuretic in furosemide equivalents) administered as 2 doses total within 24 hours.\n\nFurosemide equivalents were considered as follows (40 mg of intravenous furosemide = 1 mg oral bumetanide or 40 mg of torsemide or 80 mg of oral furosemide consistent with prior literature). The lowest dose of furosemide administered during the study was 40 mg IV two times a day (BID) and the maximum dose was 100 mg IV BID."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Apnea-hypopnea Index",
+          "description": "The apnea-hypopnea index (AHI) is the number of apneas and hypopneas per hour of sleep which is an indicator of severity of sleep apnea\n\nAHI will be measured using a Watch Pat or Nox device at Baseline and 24 hours after initiation of intravenous diuretic.",
+          "populationDescription": "Data for this outcome measure was not collected for any participants. Upon study initiation, this outcome measure was not technically feasible to obtain with existing staffing and was therefore not performed. As a result, no data was collected for this outcome measure.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Baseline, 24 hours",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Ultra-high Dose Diuretic Group",
+              "description": "Subjects with decompensated heart failure requiring hospitalization received IV bumetanide.\n\nBumetanide: Bumetanide was administered via intravenous (IV) infusion at a dose of 12.5 mg two times a day (BID) for 2 doses total within 24 hours."
+            },
+            {
+              "id": "OG001",
+              "title": "Standard Dose Diuretic Group",
+              "description": "Subjects with decompensated heart failure requiring hospitalization received IV furosemide.\n\nFurosemide: Furosemide was administered via intravenous (IV) infusion at usual doses (twice the home dose of oral daily diuretic in furosemide equivalents) administered as 2 doses total within 24 hours.\n\nFurosemide equivalents were considered as follows (40 mg of intravenous furosemide = 1 mg oral bumetanide or 40 mg of torsemide or 80 mg of oral furosemide consistent with prior literature). The lowest dose of furosemide administered during the study was 40 mg IV two times a day (BID) and the maximum dose was 100 mg IV BID."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Iohexol Glomerular Filtration Rate (GFR)",
+          "description": "Renal or kidney function was measured by GFR determined by Iohexol clearance. Iohexol GFR will be measured at Baseline and 24 hours after initiation of intravenous diuretic.",
+          "populationDescription": "Data for this outcome measure was not collected for any participants. Upon study initiation, this outcome measure was not technically feasible to obtain with existing staffing and was therefore not performed. As a result, no data was collected for this outcome measure.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Baseline, 24 hours",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Ultra-high Dose Diuretic Group",
+              "description": "Subjects with decompensated heart failure requiring hospitalization received IV bumetanide.\n\nBumetanide: Bumetanide was administered via intravenous (IV) infusion at a dose of 12.5 mg two times a day (BID) for 2 doses total within 24 hours."
+            },
+            {
+              "id": "OG001",
+              "title": "Standard Dose Diuretic Group",
+              "description": "Subjects with decompensated heart failure requiring hospitalization received IV furosemide.\n\nFurosemide: Furosemide was administered via intravenous (IV) infusion at usual doses (twice the home dose of oral daily diuretic in furosemide equivalents) administered as 2 doses total within 24 hours.\n\nFurosemide equivalents were considered as follows (40 mg of intravenous furosemide = 1 mg oral bumetanide or 40 mg of torsemide or 80 mg of oral furosemide consistent with prior literature). The lowest dose of furosemide administered during the study was 40 mg IV two times a day (BID) and the maximum dose was 100 mg IV BID."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Peripheral Vein Pressure",
+          "description": "Peripheral vein pressure (mm Hg) will be recorded from existing IV lines through pressure transducer monitoring at Baseline and 24 hours after initiation of intravenous diuretic.",
+          "populationDescription": "Data was not collected for 1 subject in the Ultra-High dose diuretic group as the subject requested that peripheral vein pressure data not be collected on them.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "mmHg",
+          "timeFrame": "Baseline, 24 hours",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Ultra-high Dose Diuretic Group",
+              "description": "Subjects with decompensated heart failure requiring hospitalization received IV bumetanide.\n\nBumetanide: Bumetanide was administered via intravenous (IV) infusion at a dose of 12.5 mg two times a day (BID) for 2 doses total within 24 hours."
+            },
+            {
+              "id": "OG001",
+              "title": "Standard Dose Diuretic Group",
+              "description": "Subjects with decompensated heart failure requiring hospitalization received IV furosemide.\n\nFurosemide: Furosemide was administered via intravenous (IV) infusion at usual doses (twice the home dose of oral daily diuretic in furosemide equivalents) administered as 2 doses total within 24 hours.\n\nFurosemide equivalents were considered as follows (40 mg of intravenous furosemide = 1 mg oral bumetanide or 40 mg of torsemide or 80 mg of oral furosemide consistent with prior literature). The lowest dose of furosemide administered during the study was 40 mg IV two times a day (BID) and the maximum dose was 100 mg IV BID."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "8"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-10.9",
+                      "spread": "7.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-4",
+                      "spread": "3.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Cardiac Output",
+          "description": "Cardiac output (L/min) is the total volume of blood moved by the heart per minute and will be measured by echocardiography conducted at Baseline and 24 hours after initiation of intravenous diuretic.",
+          "populationDescription": "Data was not technically feasible to obtain for 3 subjects in the Ultra-High Dose diuretic group for this outcome measure.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "L/min",
+          "timeFrame": "Baseline, 24 hours",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Ultra-high Dose Diuretic Group",
+              "description": "Subjects with decompensated heart failure requiring hospitalization received IV bumetanide.\n\nBumetanide: Bumetanide was administered via intravenous (IV) infusion at a dose of 12.5 mg two times a day (BID) for 2 doses total within 24 hours."
+            },
+            {
+              "id": "OG001",
+              "title": "Standard Dose Diuretic Group",
+              "description": "Subjects with decompensated heart failure requiring hospitalization received IV furosemide.\n\nFurosemide: Furosemide was administered via intravenous (IV) infusion at usual doses (twice the home dose of oral daily diuretic in furosemide equivalents) administered as 2 doses total within 24 hours.\n\nFurosemide equivalents were considered as follows (40 mg of intravenous furosemide = 1 mg oral bumetanide or 40 mg of torsemide or 80 mg of oral furosemide consistent with prior literature). The lowest dose of furosemide administered during the study was 40 mg IV two times a day (BID) and the maximum dose was 100 mg IV BID."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "6"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.53",
+                      "spread": "0.83"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.29",
+                      "spread": "1.50"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Estimated Right Ventricular (RV) Systolic Pressure",
+          "description": "Estimated RV systolic pressure (mm Hg) will be measured by echocardiography conducted at Baseline and 24 hours after initiation of intravenous diuretic.",
+          "populationDescription": "Data for this outcome measure was not collected for any participants. Upon study initiation, this outcome measure was not technically feasible to obtain with existing staffing and was therefore not performed. As a result, no data was collected for this outcome measure.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Baseline, 24 hours",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Ultra-high Dose Diuretic Group",
+              "description": "Subjects with decompensated heart failure requiring hospitalization received IV bumetanide.\n\nBumetanide: Bumetanide was administered via intravenous (IV) infusion at a dose of 12.5 mg two times a day (BID) for 2 doses total within 24 hours."
+            },
+            {
+              "id": "OG001",
+              "title": "Standard Dose Diuretic Group",
+              "description": "Subjects with decompensated heart failure requiring hospitalization received IV furosemide.\n\nFurosemide: Furosemide was administered via intravenous (IV) infusion at usual doses (twice the home dose of oral daily diuretic in furosemide equivalents) administered as 2 doses total within 24 hours.\n\nFurosemide equivalents were considered as follows (40 mg of intravenous furosemide = 1 mg oral bumetanide or 40 mg of torsemide or 80 mg of oral furosemide consistent with prior literature). The lowest dose of furosemide administered during the study was 40 mg IV two times a day (BID) and the maximum dose was 100 mg IV BID."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Right Atrial (RA) Pressure",
+          "description": "RA pressure (mm Hg) will be measured by echocardiography conducted at Baseline and 24 hours after initiation of intravenous diuretic.",
+          "populationDescription": "Data for this outcome measure was not collected for any participants. Upon study initiation, this outcome measure was not technically feasible to obtain with existing staffing and was therefore not performed. As a result, no data was collected for this outcome measure.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Baseline, 24 hours",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Ultra-high Dose Diuretic Group",
+              "description": "Subjects with decompensated heart failure requiring hospitalization received IV bumetanide.\n\nBumetanide: Bumetanide was administered via intravenous (IV) infusion at a dose of 12.5 mg two times a day (BID) for 2 doses total within 24 hours."
+            },
+            {
+              "id": "OG001",
+              "title": "Standard Dose Diuretic Group",
+              "description": "Subjects with decompensated heart failure requiring hospitalization received IV furosemide.\n\nFurosemide: Furosemide was administered via intravenous (IV) infusion at usual doses (twice the home dose of oral daily diuretic in furosemide equivalents) administered as 2 doses total within 24 hours.\n\nFurosemide equivalents were considered as follows (40 mg of intravenous furosemide = 1 mg oral bumetanide or 40 mg of torsemide or 80 mg of oral furosemide consistent with prior literature). The lowest dose of furosemide administered during the study was 40 mg IV two times a day (BID) and the maximum dose was 100 mg IV BID."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Left Atrial (LA) Strain",
+          "description": "LA strain will be assessed by echocardiography conducted at Baseline and 24 hours after initiation of intravenous diuretic.",
+          "populationDescription": "Data for this outcome measure was not collected for any participants. Upon study initiation, this outcome measure was not technically feasible to obtain with existing staffing and was therefore not performed. As a result, no data was collected for this outcome measure.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Baseline, 24 hours",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Ultra-high Dose Diuretic Group",
+              "description": "Subjects with decompensated heart failure requiring hospitalization received IV bumetanide.\n\nBumetanide: Bumetanide was administered via intravenous (IV) infusion at a dose of 12.5 mg two times a day (BID) for 2 doses total within 24 hours."
+            },
+            {
+              "id": "OG001",
+              "title": "Standard Dose Diuretic Group",
+              "description": "Subjects with decompensated heart failure requiring hospitalization received IV furosemide.\n\nFurosemide: Furosemide was administered via intravenous (IV) infusion at usual doses (twice the home dose of oral daily diuretic in furosemide equivalents) administered as 2 doses total within 24 hours.\n\nFurosemide equivalents were considered as follows (40 mg of intravenous furosemide = 1 mg oral bumetanide or 40 mg of torsemide or 80 mg of oral furosemide consistent with prior literature). The lowest dose of furosemide administered during the study was 40 mg IV two times a day (BID) and the maximum dose was 100 mg IV BID."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Left Ventricular (LV) Global Longitudinal Strain",
+          "description": "LV global longitudinal strain will be assessed by echocardiography conducted at Baseline and 24 hours after initiation of intravenous diuretic.",
+          "populationDescription": "Data for this outcome measure was not collected for any participants. Upon study initiation, this outcome measure was not technically feasible to obtain with existing staffing and was therefore not performed. As a result, no data was collected for this outcome measure.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Baseline, 24 hours",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Ultra-high Dose Diuretic Group",
+              "description": "Subjects with decompensated heart failure requiring hospitalization received IV bumetanide.\n\nBumetanide: Bumetanide was administered via intravenous (IV) infusion at a dose of 12.5 mg two times a day (BID) for 2 doses total within 24 hours."
+            },
+            {
+              "id": "OG001",
+              "title": "Standard Dose Diuretic Group",
+              "description": "Subjects with decompensated heart failure requiring hospitalization received IV furosemide.\n\nFurosemide: Furosemide was administered via intravenous (IV) infusion at usual doses (twice the home dose of oral daily diuretic in furosemide equivalents) administered as 2 doses total within 24 hours.\n\nFurosemide equivalents were considered as follows (40 mg of intravenous furosemide = 1 mg oral bumetanide or 40 mg of torsemide or 80 mg of oral furosemide consistent with prior literature). The lowest dose of furosemide administered during the study was 40 mg IV two times a day (BID) and the maximum dose was 100 mg IV BID."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Right Ventricular (RV) Global Longitudinal Strain",
+          "description": "RV global longitudinal strain will be assessed by echocardiography conducted at Baseline and 24 hours after initiation of intravenous diuretic.",
+          "populationDescription": "Data for this outcome measure was not collected for any participants. Upon study initiation, this outcome measure was not technically feasible to obtain with existing staffing and was therefore not performed. As a result, no data was collected for this outcome measure.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Baseline, 24 hours",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Ultra-high Dose Diuretic Group",
+              "description": "Subjects with decompensated heart failure requiring hospitalization received IV bumetanide.\n\nBumetanide: Bumetanide was administered via intravenous (IV) infusion at a dose of 12.5 mg two times a day (BID) for 2 doses total within 24 hours."
+            },
+            {
+              "id": "OG001",
+              "title": "Standard Dose Diuretic Group",
+              "description": "Subjects with decompensated heart failure requiring hospitalization received IV furosemide.\n\nFurosemide: Furosemide was administered via intravenous (IV) infusion at usual doses (twice the home dose of oral daily diuretic in furosemide equivalents) administered as 2 doses total within 24 hours.\n\nFurosemide equivalents were considered as follows (40 mg of intravenous furosemide = 1 mg oral bumetanide or 40 mg of torsemide or 80 mg of oral furosemide consistent with prior literature). The lowest dose of furosemide administered during the study was 40 mg IV two times a day (BID) and the maximum dose was 100 mg IV BID."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in E/e'",
+          "description": "E/e' will be assessed using echocardiography conducted at Baseline and 24 hours after initiation of intravenous diuretic. It is defined as the ratio of peak early diastolic mitral inflow velocity (E) and peak early diastolic mitral annular velocity (e').",
+          "populationDescription": "Data for this outcome measure was not collected for any participants. Upon study initiation, this outcome measure was not technically feasible to obtain with existing staffing and was therefore not performed. As a result, no data was collected for this outcome measure.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Baseline, 24 hours",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Ultra-high Dose Diuretic Group",
+              "description": "Subjects with decompensated heart failure requiring hospitalization received IV bumetanide.\n\nBumetanide: Bumetanide was administered via intravenous (IV) infusion at a dose of 12.5 mg two times a day (BID) for 2 doses total within 24 hours."
+            },
+            {
+              "id": "OG001",
+              "title": "Standard Dose Diuretic Group",
+              "description": "Subjects with decompensated heart failure requiring hospitalization received IV furosemide.\n\nFurosemide: Furosemide was administered via intravenous (IV) infusion at usual doses (twice the home dose of oral daily diuretic in furosemide equivalents) administered as 2 doses total within 24 hours.\n\nFurosemide equivalents were considered as follows (40 mg of intravenous furosemide = 1 mg oral bumetanide or 40 mg of torsemide or 80 mg of oral furosemide consistent with prior literature). The lowest dose of furosemide administered during the study was 40 mg IV two times a day (BID) and the maximum dose was 100 mg IV BID."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "Adverse events were collected from the time of informed consent through study completion, approximately 90 days.",
+      "description": "Adverse events were collected through specific questioning and telephone follow ups.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Ultra-high Dose Diuretic Group",
+          "description": "Subjects with decompensated heart failure requiring hospitalization received IV bumetanide.\n\nBumetanide: Bumetanide was administered via intravenous (IV) infusion at a dose of 12.5 mg two times a day (BID) for 2 doses total within 24 hours.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 10,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 10,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 10
+        },
+        {
+          "id": "EG001",
+          "title": "Standard Dose Diuretic Group",
+          "description": "Subjects with decompensated heart failure requiring hospitalization received IV furosemide.\n\nFurosemide: Furosemide was administered via intravenous (IV) infusion at usual doses (twice the home dose of oral daily diuretic in furosemide equivalents) administered as 2 doses total within 24 hours.\n\nFurosemide equivalents were considered as follows (40 mg of intravenous furosemide = 1 mg oral bumetanide or 40 mg of torsemide or 80 mg of oral furosemide consistent with prior literature). The lowest dose of furosemide administered during the study was 40 mg IV two times a day (BID) and the maximum dose was 100 mg IV BID.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 10,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 10,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 10
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Yogesh Reddy, M.B.B.S.",
+        "organization": "Mayo Clinic",
+        "email": "Reddy.Yogesh@mayo.edu",
+        "phone": "507-284-2904"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2024-02-08",
+          "uploadDate": "2025-10-07T16:09",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 897817
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19",
+      "submissionTracking": {
+        "firstMcpInfo": {
+          "postDateStruct": {
+            "date": "2025-11-03",
+            "type": "ACTUAL"
+          }
+        }
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D002034",
+          "term": "Bumetanide"
+        },
+        {
+          "id": "D005665",
+          "term": "Furosemide"
+        },
+        {
+          "id": "D004232",
+          "term": "Diuretics"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013449",
+          "term": "Sulfonamides"
+        },
+        {
+          "id": "D000577",
+          "term": "Amides"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D062368",
+          "term": "meta-Aminobenzoates"
+        },
+        {
+          "id": "D062365",
+          "term": "Aminobenzoates"
+        },
+        {
+          "id": "D001565",
+          "term": "Benzoates"
+        },
+        {
+          "id": "D000146",
+          "term": "Acids, Carbocyclic"
+        },
+        {
+          "id": "D002264",
+          "term": "Carboxylic Acids"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D013450",
+          "term": "Sulfones"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D013424",
+          "term": "Sulfanilamides"
+        },
+        {
+          "id": "D000814",
+          "term": "Aniline Compounds"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        },
+        {
+          "id": "D045283",
+          "term": "Natriuretic Agents"
+        },
+        {
+          "id": "D045505",
+          "term": "Physiological Effects of Drugs"
+        },
+        {
+          "id": "D020228",
+          "term": "Pharmacologic Actions"
+        },
+        {
+          "id": "D020164",
+          "term": "Chemical Actions and Uses"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

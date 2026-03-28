@@ -1,0 +1,237 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03803111",
+      "orgStudyIdInfo": {
+        "id": "BIHKF-7162"
+      },
+      "organization": {
+        "fullName": "Herzzentrum Bremen",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effects of Iron Therapy and Exercise Training in Patients With Heart Failure and Iron Deficiency",
+      "officialTitle": "A Randomized Trial on Sequential Effects of Iron Therapy and Exercise Training in Patients With Heart Failure and Iron Deficiency",
+      "acronym": "IronEx"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-03",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "Sponsoring and Screening of first patients was not sufficient",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-01-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-03-15",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-03-15",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-01-08",
+      "studyFirstSubmitQcDate": "2019-01-10",
+      "studyFirstPostDateStruct": {
+        "date": "2019-01-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-03-15",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-03-16",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Dr. Harm Wienbergen",
+        "investigatorTitle": "Head of the Bremen Institute for Heart and Circulation Research (BIHKF)",
+        "investigatorAffiliation": "Herzzentrum Bremen"
+      },
+      "leadSponsor": {
+        "name": "Herzzentrum Bremen",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "It is the aim of the study to prove, if intravenous supplementation with ferric carboxymaltose in iron-deficient patients with heart failure with reduced ejection fraction (HFrEF) leads to better exercise training effects compared to exercise training without previous iron supplementation.",
+      "detailedDescription": "In patients with heart failure with reduced ejection fraction (HFrEF) exercise training (ET) is recommended. In iron-deficient HFrEF patients iron supplementation by ferric carboxymaltose (FCM) is recommended. Both treatment options (ET and iron supplementation) affect oxidative metabolism.\n\nIn this study iron-deficient HFrEF patients are included and randomly assigned to two study arms:\n\nStudy arm A: Intravenous iron supplementation with FCM, subsequent (after 2 months) ET program.\n\nStudy arm B: ET program, subsequent (after 2 months) intravenous iron supplementation with FCM.\n\nPrimary study endpoint is exercise capacity (Peak VO2). Secondary endpoints are 6-minute walking distance, NYHA class, echocardiographic parameters and the combined endpoint cardiovascular hospitalizations and death."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Reduced Ejection Fraction",
+        "Exercise Training",
+        "Ferric Carboxymaltose"
+      ],
+      "keywords": [
+        "Heart Failure with Reduced Ejection Fraction",
+        "Exercise Training Program",
+        "Iron Deficiency"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Initial FCM",
+          "type": "EXPERIMENTAL",
+          "description": "Intravenous iron supplementation with FCM, subsequent (after 2 months) exercise training program",
+          "interventionNames": [
+            "Drug: Initial FCM",
+            "Behavioral: Subsequent exercise training"
+          ]
+        },
+        {
+          "label": "Initial exercise",
+          "type": "EXPERIMENTAL",
+          "description": "Exercise training program, subsequent (after 2 months) intravenous iron supplementation with FCM",
+          "interventionNames": [
+            "Behavioral: Initial exercise training",
+            "Drug: Subsequent FCM"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Initial exercise training",
+          "description": "Initial exercise training program",
+          "armGroupLabels": [
+            "Initial exercise"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Initial FCM",
+          "description": "Initial intravenous iron supplementation (FCM)",
+          "armGroupLabels": [
+            "Initial FCM"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Subsequent FCM",
+          "description": "Subsequent intravenous iron Supplementation (FCM) after 2 months",
+          "armGroupLabels": [
+            "Initial exercise"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Subsequent exercise training",
+          "description": "Subsequent exercise training program after 2 months",
+          "armGroupLabels": [
+            "Initial FCM"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Exercise capacity (Peak VO2)",
+          "description": "Peak VO2 is measured by spiroergometry",
+          "timeFrame": "Change from baseline to 4 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "6 Minute walking distance",
+          "description": "To further assess exercise capacity",
+          "timeFrame": "Change from baseline to 4 months"
+        },
+        {
+          "measure": "New York Heart Association class (class I, II, III, IV with class I = best status, and class IV = worst status)",
+          "description": "To assess symptoms",
+          "timeFrame": "Improvement or deterioration of NYHA class from baseline to 4 months"
+        },
+        {
+          "measure": "Echocardiographic ejection fraction of left ventricular function (measured in %, the lower the worse)",
+          "description": "Systolic and diastolic function, chamber diameters, strain analyses",
+          "timeFrame": "Improvement or deterioration of ejection fraction from baseline to 4 months"
+        },
+        {
+          "measure": "Combined endpoint cardiovascular hospitalizations and death",
+          "description": "To assess major events",
+          "timeFrame": "After 2 and 4 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Heart failure with reduced ejection fraction ≤ 40%\n* New York Heart Failure Asssociation class II-III\n* Iron deficiency (ferritin \\< 100 ng/ml or 100-299 ng/ml, if transferrin saturation \\< 20%)\n\nExclusion Criteria:\n\n* Planned cardiovascular interventions (such as bypass surgery or valve interventions)\n* Acute coronary Syndrome\n* Malignant rhythm disturbances\n* Acute or chronic infection\n* Reduced prognosis or exercise capacity by non-cardiac comorbidities\n* Missing informed consent",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Bremer Institut für Herz- und Kreislaufforschung",
+          "city": "Bremen",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.07582,
+            "lon": 8.80717
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000090463",
+          "term": "Iron Deficiencies"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D019189",
+          "term": "Iron Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

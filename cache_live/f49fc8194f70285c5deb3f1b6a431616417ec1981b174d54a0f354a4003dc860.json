@@ -1,0 +1,2526 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05782881",
+      "orgStudyIdInfo": {
+        "id": "CCDInT"
+      },
+      "organization": {
+        "fullName": "Union Hospital, Tongji Medical College, Huazhong University of Science and Technology",
+        "class": "OTHER"
+      },
+      "briefTitle": "High Risk Population of Cardiovascular Disease in Hubei Province Screening and Intervention Program",
+      "officialTitle": "High Risk Population of Cardiovascular Disease in Hubei Province (Coronary Heart Disease With Diabetes) Screening and Intervention Program"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-12",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-01-15",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2024-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-02-18",
+      "studyFirstSubmitQcDate": "2023-03-12",
+      "studyFirstPostDateStruct": {
+        "date": "2023-03-24",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-12-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-12-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Union Hospital, Tongji Medical College, Huazhong University of Science and Technology",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Peking University First Hospital",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "High Risk Population of Cardiovascular Disease in Hubei Province (Coronary Heart Disease With Diabetes) Screening and Intervention Program（CCDInT）is a randomized controlled study to verify that protocol treatment group is more effective than the conventional treatment group in reducing the incidence of composite cardiovascular disease (cardiovascular death, non fatal myocardial infarction, non fatal stroke, hospitalization for heart failure, and readmission for acute coronary syndrome) in patients with coronary heart disease and type 2 diabetes.",
+      "detailedDescription": "The overall objective of the High Risk Population of Cardiovascular Disease in Hubei Province (Coronary Heart Disease With Diabetes) Screening and Intervention Program（CCDInT） will be carried out in medical institutions in 14 prefecture level cities (prefectures) in Hubei province that could meet the test requirements. A total of 16,000 individuals aged ≥40 years with coronary heart disease with diabetes will be recruited into the study. Study participants will be followed in 1 year for some study outcomes. The main purpose of this study is to verify that the protocol treatment group is more effective than the conventional treatment group in reducing the incidence of composite cardiovascular disease (cardiovascular death, non fatal myocardial infarction, non fatal stroke, hospitalization for heart failure, and readmission for acute coronary syndrome) in patients with coronary heart disease and type 2 diabetes. In addition, the investigators will further study the genetic mechanism of compound cardiovascular events from the molecular genetic level, and explore the contribution and impact of genetic diversity on the treatment effect. At the same time, explore and establish a cardiovascular disease prevention and control system and effective mechanism under the leadership of provincial and municipal health administrative departments, organized by provincial prevention and control centers, and guided by municipal and state prevention and control centers, which provide theoretical and experimental basis for formulating strategies for large-scale intervention of related diseases, so as to improve the prevention and control status and effect, and strive to reduce the disease and social burden."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiovascular Diseases",
+        "Diabetes Mellitus, Type 2",
+        "Coronary Disease"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 16000,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Protocol treatment group",
+          "type": "EXPERIMENTAL",
+          "description": "Strictly intervene blood glucose, blood pressure and blood lipids",
+          "interventionNames": [
+            "Behavioral: phone calls and encouraging patients' lifestyle change and medication adherence",
+            "Drug: Statin"
+          ]
+        },
+        {
+          "label": "Conventional treatment group",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Treatment and management according to the guidelines",
+          "interventionNames": [
+            "Drug: Statin"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "phone calls and encouraging patients' lifestyle change and medication adherence",
+          "description": "Use some methods to strictly intervene blood glucose , blood pressure and blood lipids for protocol treatment group people.",
+          "armGroupLabels": [
+            "Protocol treatment group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Statin",
+          "description": "Treatment and management according to the guidelines",
+          "armGroupLabels": [
+            "Conventional treatment group",
+            "Protocol treatment group"
+          ],
+          "otherNames": [
+            "Angiotensin-converting enzyme inhibitor",
+            "Angiotensin receptor neprilysin inhibitor",
+            "Glucagon-like peptide-1",
+            "Sodium-dependent glucose transporters 2"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Composite cardiovascular disease (cardiovascular death, non fatal myocardial infarction, non fatal stroke, hospitalization for heart failure, and readmission for acute coronary syndrome)",
+          "description": "Record the composite cardiovascular disease(cardiovascular death, non fatal myocardial infarction, non fatal stroke, hospitalization for heart failure, and readmission for acute coronary syndrome)",
+          "timeFrame": "1 year after baseline"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "All-cause death",
+          "description": "Number of all-cause death",
+          "timeFrame": "1 year after baseline"
+        },
+        {
+          "measure": "All-cause mortality",
+          "description": "Record all-cause mortality",
+          "timeFrame": "1 year after baseline"
+        },
+        {
+          "measure": "Cardiovascular death",
+          "description": "Record cardiovascular death",
+          "timeFrame": "1 year after baseline"
+        },
+        {
+          "measure": "non-fatal myocardial infarction",
+          "description": "Record non-fatal myocardial infarction",
+          "timeFrame": "1 year after baseline"
+        },
+        {
+          "measure": "non-fatal stroke",
+          "description": "Record non-fatal stroke",
+          "timeFrame": "1 year after baseline"
+        },
+        {
+          "measure": "readmission for heart failure",
+          "description": "Record readmission for heart failure",
+          "timeFrame": "1 year after baseline"
+        },
+        {
+          "measure": "readmission for acute coronary syndrome",
+          "description": "Number of patients with readmission for acute coronary syndrome",
+          "timeFrame": "1 year after baseline"
+        },
+        {
+          "measure": "Diabetic nephropathy",
+          "description": "Number of patients with Diabetic nephropathy",
+          "timeFrame": "1 year after baseline"
+        },
+        {
+          "measure": "Proportion of hypertension control (BP<140/90 mm Hg)",
+          "description": "Record proportion of hypertension control (BP\\<140/90 mm Hg)",
+          "timeFrame": "1 year after baseline"
+        },
+        {
+          "measure": "Proportion of low density lipoprotein-cholesterol(LDL-C<1.4mmol/L)",
+          "description": "Record proportion of low density lipoprotein-cholesterol(LDL-C\\<1.4mmol/L)",
+          "timeFrame": "1 year after baseline"
+        },
+        {
+          "measure": "Proportion of glycosylated hemoglobin(GHb<7.0%)",
+          "description": "Record proportion of glycosylated hemoglobin(GHb\\<7.0%)",
+          "timeFrame": "1 year after baseline"
+        },
+        {
+          "measure": "Blood pressure( both diastolic and systolic will be measured)",
+          "description": "Record blood pressure( both diastolic and systolic will be measured)",
+          "timeFrame": "baseline, 3 months after baseline, 6 months after baseline, 12 months after baseline"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. 40-75 years old, male or female\n2. Patients with coronary heart disease complicated with type 2 diabetes (confirmed by angiography)\n3. Low density lipoprotein cholesterol \\>1.8mmol/l\n4. Willing to participate and sign informed consent\n\nExclusion Criteria:\n\n1. Received coronary stent treatment in recent one year\n2. Pregnant or lactating women\n3. Decompensated stage of chronic systolic heart failure (NYHA cardiac function rating ≥ 3), cardiac function; Patients with severe cardiovascular complications such as septic shock\n4. Stroke patients in recent 1 year\n5. Patients with severe gastrointestinal diseases, liver failure or kidney failure\n6. Cancer patients or patients who have received radiotherapy or chemotherapy within five years\n7. Suffering from infectious diseases such as AIDS and tuberculosis\n8. Hospitalized or suffering from other serious diseases requiring immediate hospitalization\n9. Bad addicts: drug users or alcoholics (men \\>80 g / day, women \\>40 g / day)\n10. Disturbance of consciousness, inability to communicate normally or any mental illness; Those who are inconvenient to take care of themselves or move\n11. Life expectancy \\<12 months\n12. Individuals with abnormal laboratory tests and clinical manifestations who are judged by the researcher to be unsuitable for participation\n13. Unwilling to participate in the trial, unwilling to change the current drug treatment plan",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "40 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Shan Deng, doctor",
+          "role": "CONTACT",
+          "phone": "18120556507",
+          "email": "dengshan1020@hust.edu.cn"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Kai Huang, doctor",
+          "affiliation": "Union Hospital, Tongji Medical College of Huazhong University of science and technology",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Yong Huo, doctor",
+          "affiliation": "Peking University First Hospital",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Affiliated Minzu University Hospital of Hubei Minzu University",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Enshi",
+          "state": "Hubei",
+          "zip": "445000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Changjiang Zhang",
+              "role": "CONTACT",
+              "phone": "15586681001",
+              "email": "39006100@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.3,
+            "lon": 109.48333
+          }
+        },
+        {
+          "facility": "Badong Peolple's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Enshi",
+          "state": "Hubei",
+          "zip": "445000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Kaiyong Chen",
+              "role": "CONTACT",
+              "phone": "13597775408",
+              "email": "3301188278@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.3,
+            "lon": 109.48333
+          }
+        },
+        {
+          "facility": "Enshi Central Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Enshi",
+          "state": "Hubei",
+          "zip": "445000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Miao Yu",
+              "role": "CONTACT",
+              "phone": "18695059008",
+              "email": "1328128062@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.3,
+            "lon": 109.48333
+          }
+        },
+        {
+          "facility": "Laifeng People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Enshi",
+          "state": "Hubei",
+          "zip": "445000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Chengzhong Zhang",
+              "role": "CONTACT",
+              "phone": "18986844683",
+              "email": "875566847@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.3,
+            "lon": 109.48333
+          }
+        },
+        {
+          "facility": "Lichuan People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Enshi",
+          "state": "Hubei",
+          "zip": "445000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Liang Xiong",
+              "role": "CONTACT",
+              "phone": "13907263406",
+              "email": "409757683@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.3,
+            "lon": 109.48333
+          }
+        },
+        {
+          "facility": "The Central Hospital of Enshi Tujia and Miao Autonomous Prefecture",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Enshi",
+          "state": "Hubei",
+          "zip": "445000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yuhua Lei",
+              "role": "CONTACT",
+              "phone": "13986843858",
+              "email": "2339572778@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.3,
+            "lon": 109.48333
+          }
+        },
+        {
+          "facility": "The People's Hospital of Jianshi",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Enshi",
+          "state": "Hubei",
+          "zip": "445000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Mingfu Ma",
+              "role": "CONTACT",
+              "phone": "13997795565",
+              "email": "307899075@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.3,
+            "lon": 109.48333
+          }
+        },
+        {
+          "facility": "Xianfeng County People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Enshi",
+          "state": "Hubei",
+          "zip": "445000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Bo Yang",
+              "role": "CONTACT",
+              "phone": "18007266823",
+              "email": "290469524@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.3,
+            "lon": 109.48333
+          }
+        },
+        {
+          "facility": "Xuanen People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Enshi",
+          "state": "Hubei",
+          "zip": "445000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yizheng He",
+              "role": "CONTACT",
+              "phone": "18671833311",
+              "email": "1957999408@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.3,
+            "lon": 109.48333
+          }
+        },
+        {
+          "facility": "Ezhou Central Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Ezhou",
+          "state": "Hubei",
+          "zip": "436000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Guang Xu",
+              "role": "CONTACT",
+              "phone": "13607236327",
+              "email": "1341189733@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.39607,
+            "lon": 114.88655
+          }
+        },
+        {
+          "facility": "Ezhou Hospital of Chinese Medicine",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Ezhou",
+          "state": "Hubei",
+          "zip": "436000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yuan Ke",
+              "role": "CONTACT",
+              "phone": "18071178686",
+              "email": "1575523398@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.39607,
+            "lon": 114.88655
+          }
+        },
+        {
+          "facility": "Hongan People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Huanggang",
+          "state": "Hubei",
+          "zip": "438000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Jianhua Li",
+              "role": "CONTACT",
+              "phone": "13886407005",
+              "email": "lijianhua2004@126.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.45143,
+            "lon": 114.87035
+          }
+        },
+        {
+          "facility": "Huangmei Peolple's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Huanggang",
+          "state": "Hubei",
+          "zip": "438000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Ziwei Mei",
+              "role": "CONTACT",
+              "phone": "13098360265",
+              "email": "2207990688@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.45143,
+            "lon": 114.87035
+          }
+        },
+        {
+          "facility": "Luotian People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Huanggang",
+          "state": "Hubei",
+          "zip": "438000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Xiaoqin Zhang",
+              "role": "CONTACT",
+              "phone": "13476762168",
+              "email": "zhxiaoq@163.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.45143,
+            "lon": 114.87035
+          }
+        },
+        {
+          "facility": "People's Hostpital of Macheng City",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Huanggang",
+          "state": "Hubei",
+          "zip": "438000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Liangchen Zheng",
+              "role": "CONTACT",
+              "phone": "15997391119",
+              "email": "717029682@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.45143,
+            "lon": 114.87035
+          }
+        },
+        {
+          "facility": "Qichun People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Huanggang",
+          "state": "Hubei",
+          "zip": "438000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Ying Zhang",
+              "role": "CONTACT",
+              "phone": "13636032023",
+              "email": "3636032023@163.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.45143,
+            "lon": 114.87035
+          }
+        },
+        {
+          "facility": "The People's Hospital of Tuanfeng",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Huanggang",
+          "state": "Hubei",
+          "zip": "438000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Zhixiang Lin",
+              "role": "CONTACT",
+              "phone": "15549659486",
+              "email": "2491302322@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.45143,
+            "lon": 114.87035
+          }
+        },
+        {
+          "facility": "Wuxue People's Hopital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Huanggang",
+          "state": "Hubei",
+          "zip": "438000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Min Wang",
+              "role": "CONTACT",
+              "phone": "15171676751",
+              "email": "291311088@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.45143,
+            "lon": 114.87035
+          }
+        },
+        {
+          "facility": "Xishui People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Huanggang",
+          "state": "Hubei",
+          "zip": "438000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Wenming Zhan",
+              "role": "CONTACT",
+              "phone": "15897927322",
+              "email": "283075493@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.45143,
+            "lon": 114.87035
+          }
+        },
+        {
+          "facility": "Yingshan People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Huanggang",
+          "state": "Hubei",
+          "zip": "438000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Rong Zeng",
+              "role": "CONTACT",
+              "phone": "18071815368",
+              "email": "1515899635@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.45143,
+            "lon": 114.87035
+          }
+        },
+        {
+          "facility": "Daye People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Huangshi",
+          "state": "Hubei",
+          "zip": "435000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Zhichao Yin",
+              "role": "CONTACT",
+              "phone": "13972783068",
+              "email": "yinzhichao2000@Sina.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.24706,
+            "lon": 115.04814
+          }
+        },
+        {
+          "facility": "Huangshi Central Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Huangshi",
+          "state": "Hubei",
+          "zip": "435000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Daoqun Jin",
+              "role": "CONTACT",
+              "phone": "13597680361",
+              "email": "Jindaoqun226@163.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.24706,
+            "lon": 115.04814
+          }
+        },
+        {
+          "facility": "Huangshi Love&Health Hospital Affiliated of Hubei Polytechnic University",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Huangshi",
+          "state": "Hubei",
+          "zip": "435000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Jing Zhang",
+              "role": "CONTACT",
+              "phone": "18971785886",
+              "email": "7752360@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.24706,
+            "lon": 115.04814
+          }
+        },
+        {
+          "facility": "Yangxin People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Huangshi",
+          "state": "Hubei",
+          "zip": "435000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Shijian Chen",
+              "role": "CONTACT",
+              "phone": "13972417968",
+              "email": "17253669@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.24706,
+            "lon": 115.04814
+          }
+        },
+        {
+          "facility": "Jingmen NO.1 People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Jingmen",
+          "state": "Hubei",
+          "zip": "448000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Huijuan Lai",
+              "role": "CONTACT",
+              "phone": "13997946256",
+              "email": "995004757@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.03361,
+            "lon": 112.20472
+          }
+        },
+        {
+          "facility": "Jingmen NO.2 People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Jingmen",
+          "state": "Hubei",
+          "zip": "448000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Shuju Shi",
+              "role": "CONTACT",
+              "phone": "13477541757",
+              "email": "2280267706@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.03361,
+            "lon": 112.20472
+          }
+        },
+        {
+          "facility": "Jingshan Union Hospital of Huazhong University of Science and Technology",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Jingmen",
+          "state": "Hubei",
+          "zip": "448000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Jun Shao",
+              "role": "CONTACT",
+              "phone": "13409604460",
+              "email": "478651621@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.03361,
+            "lon": 112.20472
+          }
+        },
+        {
+          "facility": "Zhongxiang Hospital of Traditional Chinese Medicine",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Jingmen",
+          "state": "Hubei",
+          "zip": "448000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Mingqin Li",
+              "role": "CONTACT",
+              "phone": "13597947023",
+              "email": "547810505@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.03361,
+            "lon": 112.20472
+          }
+        },
+        {
+          "facility": "Zhongxiang People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Jingmen",
+          "state": "Hubei",
+          "zip": "448000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Jiaqi Tian",
+              "role": "CONTACT",
+              "phone": "13277645012",
+              "email": "82684496@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.03361,
+            "lon": 112.20472
+          }
+        },
+        {
+          "facility": "Chinese Medicine Hospital of Gongan",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Jingzhou",
+          "state": "Hubei",
+          "zip": "434000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yu Wang",
+              "role": "CONTACT",
+              "phone": "13545689661",
+              "email": "wy1981315@163.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.35028,
+            "lon": 112.19028
+          }
+        },
+        {
+          "facility": "Chinese Medicine Hospital of Honghu",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Jingzhou",
+          "state": "Hubei",
+          "zip": "434000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Qin Cao",
+              "role": "CONTACT",
+              "phone": "13872213030",
+              "email": "caoqin7036@163.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.35028,
+            "lon": 112.19028
+          }
+        },
+        {
+          "facility": "Jiangling People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Jingzhou",
+          "state": "Hubei",
+          "zip": "434000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Hong Bao",
+              "role": "CONTACT",
+              "phone": "13797283699",
+              "email": "836014@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.35028,
+            "lon": 112.19028
+          }
+        },
+        {
+          "facility": "Jianli Hospital of Chinese Medicine",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Jingzhou",
+          "state": "Hubei",
+          "zip": "434000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Haie Song",
+              "role": "CONTACT",
+              "phone": "15826588607",
+              "email": "188087687@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.35028,
+            "lon": 112.19028
+          }
+        },
+        {
+          "facility": "Jianli People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Jingzhou",
+          "state": "Hubei",
+          "zip": "434000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Jibo Wang",
+              "role": "CONTACT",
+              "phone": "15872138637",
+              "email": "56228052@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.35028,
+            "lon": 112.19028
+          }
+        },
+        {
+          "facility": "Jingzhou Central Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Jingzhou",
+          "state": "Hubei",
+          "zip": "434000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Keping Yang",
+              "role": "CONTACT",
+              "phone": "18107168679",
+              "email": "30461400@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.35028,
+            "lon": 112.19028
+          }
+        },
+        {
+          "facility": "Jingzhou Hospital of Traditional Chinese Medicine",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Jingzhou",
+          "state": "Hubei",
+          "zip": "434000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Songbai Qin",
+              "role": "CONTACT",
+              "phone": "18972168822",
+              "email": "qsb511@163.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.35028,
+            "lon": 112.19028
+          }
+        },
+        {
+          "facility": "Jingzhou No.1 People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Jingzhou",
+          "state": "Hubei",
+          "zip": "434000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Shaning Yang",
+              "role": "CONTACT",
+              "phone": "18972161898",
+              "email": "1966157381@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.35028,
+            "lon": 112.19028
+          }
+        },
+        {
+          "facility": "People's Hospital of Gongan",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Jingzhou",
+          "state": "Hubei",
+          "zip": "434000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Xiangyang Xia",
+              "role": "CONTACT",
+              "phone": "19186001128",
+              "email": "67729152@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.35028,
+            "lon": 112.19028
+          }
+        },
+        {
+          "facility": "People's Hospital of Honghu",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Jingzhou",
+          "state": "Hubei",
+          "zip": "434000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Hong Liu",
+              "role": "CONTACT",
+              "phone": "13797431083",
+              "email": "453192480@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.35028,
+            "lon": 112.19028
+          }
+        },
+        {
+          "facility": "Shishou People's Hostpital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Jingzhou",
+          "state": "Hubei",
+          "zip": "434000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Jian Zhang",
+              "role": "CONTACT",
+              "phone": "19986783555",
+              "email": "2971473540@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.35028,
+            "lon": 112.19028
+          }
+        },
+        {
+          "facility": "Songzi of Traditional Chinese Medicine",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Jingzhou",
+          "state": "Hubei",
+          "zip": "434000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Jie Zhang",
+              "role": "CONTACT",
+              "phone": "13217264663",
+              "email": "943524261@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.35028,
+            "lon": 112.19028
+          }
+        },
+        {
+          "facility": "Songzi People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Jingzhou",
+          "state": "Hubei",
+          "zip": "434000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Bin Li",
+              "role": "CONTACT",
+              "phone": "19972675950",
+              "email": "983022169@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.35028,
+            "lon": 112.19028
+          }
+        },
+        {
+          "facility": "The Second Hospital of Jingzhou",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Jingzhou",
+          "state": "Hubei",
+          "zip": "434000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Bing Yuan",
+              "role": "CONTACT",
+              "phone": "15926588092",
+              "email": "5926588092@163.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.35028,
+            "lon": 112.19028
+          }
+        },
+        {
+          "facility": "The Second People's Hospital of Jianli",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Jingzhou",
+          "state": "Hubei",
+          "zip": "434000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Jun Du",
+              "role": "CONTACT",
+              "phone": "13986666305",
+              "email": "abs81@126.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.35028,
+            "lon": 112.19028
+          }
+        },
+        {
+          "facility": "Danjiangkou First Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Shiyan",
+          "state": "Hubei",
+          "zip": "442000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yanpeng Duan",
+              "role": "CONTACT",
+              "phone": "15335962032",
+              "email": "29410085@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.6475,
+            "lon": 110.77806
+          }
+        },
+        {
+          "facility": "Fang County People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Shiyan",
+          "state": "Hubei",
+          "zip": "442000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Dongfang Chen",
+              "role": "CONTACT",
+              "phone": "15272298338",
+              "email": "5272298338@139.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.6475,
+            "lon": 110.77806
+          }
+        },
+        {
+          "facility": "Shiyan Renmin Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Shiyan",
+          "state": "Hubei",
+          "zip": "442000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Youen Zhang",
+              "role": "CONTACT",
+              "phone": "13636151885",
+              "email": "77309406@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.6475,
+            "lon": 110.77806
+          }
+        },
+        {
+          "facility": "Sinopharm Dongfeng General Hospital, Hubei University of Medicine",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Shiyan",
+          "state": "Hubei",
+          "zip": "442000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Xinwen Min",
+              "role": "CONTACT",
+              "phone": "13986892161",
+              "email": "minxinwen@163.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.6475,
+            "lon": 110.77806
+          }
+        },
+        {
+          "facility": "Taihe Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Shiyan",
+          "state": "Hubei",
+          "zip": "442000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Zheng Cao",
+              "role": "CONTACT",
+              "phone": "13972458886",
+              "email": "caozheng908@163.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.6475,
+            "lon": 110.77806
+          }
+        },
+        {
+          "facility": "Xunyang People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Shiyan",
+          "state": "Hubei",
+          "zip": "442000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Lin Wang",
+              "role": "CONTACT",
+              "phone": "15997808104",
+              "email": "824639808@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.6475,
+            "lon": 110.77806
+          }
+        },
+        {
+          "facility": "Yunxi People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Shiyan",
+          "state": "Hubei",
+          "zip": "442000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Mingxia Ren",
+              "role": "CONTACT",
+              "phone": "13508688301",
+              "email": "10989777182@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.6475,
+            "lon": 110.77806
+          }
+        },
+        {
+          "facility": "Zhushan People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Shiyan",
+          "state": "Hubei",
+          "zip": "442000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yiming Shi",
+              "role": "CONTACT",
+              "phone": "15071581178",
+              "email": "1074539858@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.6475,
+            "lon": 110.77806
+          }
+        },
+        {
+          "facility": "Zhuxi Hospital of Traditional Chinese Medicine",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Shiyan",
+          "state": "Hubei",
+          "zip": "442000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Sanjun Zhou",
+              "role": "CONTACT",
+              "phone": "15971905288",
+              "email": "47929925@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.6475,
+            "lon": 110.77806
+          }
+        },
+        {
+          "facility": "NO.1 Peoples Hospital of Guangshui",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Suizhou",
+          "state": "Hubei",
+          "zip": "441300",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Quansheng Feng",
+              "role": "CONTACT",
+              "phone": "13886851677",
+              "email": "2652061940@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.71111,
+            "lon": 113.36306
+          }
+        },
+        {
+          "facility": "People's Hospital of Suixian",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Suizhou",
+          "state": "Hubei",
+          "zip": "441300",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Jiaqing Hu",
+              "role": "CONTACT",
+              "phone": "18316980717",
+              "email": "513373710@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.71111,
+            "lon": 113.36306
+          }
+        },
+        {
+          "facility": "Suizhou Central Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Suizhou",
+          "state": "Hubei",
+          "zip": "441300",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Neng Wang",
+              "role": "CONTACT",
+              "phone": "15897650556",
+              "email": "907544242@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.71111,
+            "lon": 113.36306
+          }
+        },
+        {
+          "facility": "Suizhou Hospital of Traditional Chinese Medicine",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Suizhou",
+          "state": "Hubei",
+          "zip": "441300",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Hong Ding",
+              "role": "CONTACT",
+              "phone": "15191564705",
+              "email": "dinghongyisheng@163.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.71111,
+            "lon": 113.36306
+          }
+        },
+        {
+          "facility": "Suizhou Zengdu Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Suizhou",
+          "state": "Hubei",
+          "zip": "441300",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Xiaosong Qian",
+              "role": "CONTACT",
+              "phone": "15997909680",
+              "email": "123201835@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.71111,
+            "lon": 113.36306
+          }
+        },
+        {
+          "facility": "The First People's Hospital of Tianmen in Hubei Province",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Tianmen",
+          "state": "Hubei",
+          "zip": "431700",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Hui Wei",
+              "role": "CONTACT",
+              "phone": "18972189083",
+              "email": "18972189083@126.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.65888,
+            "lon": 113.15369
+          }
+        },
+        {
+          "facility": "CR & WISCO General Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Wuhan",
+          "state": "Hubei",
+          "zip": "430000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Juan Zhao",
+              "role": "CONTACT",
+              "phone": "13871560814",
+              "email": "283736034@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.58333,
+            "lon": 114.26667
+          }
+        },
+        {
+          "facility": "Fifth Hospital in Wuhan",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Wuhan",
+          "state": "Hubei",
+          "zip": "430000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Beijia Chen",
+              "role": "CONTACT",
+              "phone": "15907144030",
+              "email": "461520651@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.58333,
+            "lon": 114.26667
+          }
+        },
+        {
+          "facility": "Hospital of Universal Love",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Wuhan",
+          "state": "Hubei",
+          "zip": "430000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Xinying Wu",
+              "role": "CONTACT",
+              "phone": "15972977195",
+              "email": "wuxinying_620@163.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.58333,
+            "lon": 114.26667
+          }
+        },
+        {
+          "facility": "People's Hospital of Dongxihu District",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Wuhan",
+          "state": "Hubei",
+          "zip": "430000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Qin Jin",
+              "role": "CONTACT",
+              "phone": "18986060206",
+              "email": "692816509@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.58333,
+            "lon": 114.26667
+          }
+        },
+        {
+          "facility": "The Central Hospital of Wuhan",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Wuhan",
+          "state": "Hubei",
+          "zip": "430000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yayun Wang",
+              "role": "CONTACT",
+              "phone": "15971496405",
+              "email": "281076598@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.58333,
+            "lon": 114.26667
+          }
+        },
+        {
+          "facility": "Union Hospital, Tongji Medical College of Huazhong University of science and technology",
+          "status": "RECRUITING",
+          "city": "Wuhan",
+          "state": "Hubei",
+          "zip": "430000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Shan Deng, post-doctor",
+              "role": "CONTACT",
+              "phone": "18120556507",
+              "email": "dengshan1020@hust.edu.cn"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.58333,
+            "lon": 114.26667
+          }
+        },
+        {
+          "facility": "Wuhan NO.1 Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Wuhan",
+          "state": "Hubei",
+          "zip": "430000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Ying Feng",
+              "role": "CONTACT",
+              "phone": "13986111159",
+              "email": "xoxoclair@126.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.58333,
+            "lon": 114.26667
+          }
+        },
+        {
+          "facility": "Wuhan Third Hospital-Tongren Hospital of Wuhan University",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Wuhan",
+          "state": "Hubei",
+          "zip": "430000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Qing Li",
+              "role": "CONTACT",
+              "phone": "13638690613",
+              "email": "944719579@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.58333,
+            "lon": 114.26667
+          }
+        },
+        {
+          "facility": "Huanggang Central Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Wuhan",
+          "state": "Hubei",
+          "zip": "438000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Hongli Zhao",
+              "role": "CONTACT",
+              "phone": "13277203657",
+              "email": "1349565097@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.58333,
+            "lon": 114.26667
+          }
+        },
+        {
+          "facility": "Baokang People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Xiangyang",
+          "state": "Hubei",
+          "zip": "441000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Shiquan Zhu",
+              "role": "CONTACT",
+              "phone": "15172652103",
+              "email": "15172652103@163.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.0422,
+            "lon": 112.14479
+          }
+        },
+        {
+          "facility": "Gucheng People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Xiangyang",
+          "state": "Hubei",
+          "zip": "441000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yanpin Zhang",
+              "role": "CONTACT",
+              "phone": "15172572229",
+              "email": "ttxsping@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.0422,
+            "lon": 112.14479
+          }
+        },
+        {
+          "facility": "Laohekou NO.1 Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Xiangyang",
+          "state": "Hubei",
+          "zip": "441000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Li Chang",
+              "role": "CONTACT",
+              "phone": "18372273066",
+              "email": "303537582@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.0422,
+            "lon": 112.14479
+          }
+        },
+        {
+          "facility": "Nanzhang People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Xiangyang",
+          "state": "Hubei",
+          "zip": "441000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Hongyan Li",
+              "role": "CONTACT",
+              "phone": "13774154357",
+              "email": "3120695672@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.0422,
+            "lon": 112.14479
+          }
+        },
+        {
+          "facility": "Xiangyang Central Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Xiangyang",
+          "state": "Hubei",
+          "zip": "441000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yanzhao Wei",
+              "role": "CONTACT",
+              "phone": "17343315303",
+              "email": "yankeeway3@gmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.0422,
+            "lon": 112.14479
+          }
+        },
+        {
+          "facility": "Xiangyang Hospital of Traditional Chinese Medicine",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Xiangyang",
+          "state": "Hubei",
+          "zip": "441000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Jia Liu",
+              "role": "CONTACT",
+              "phone": "18845058025",
+              "email": "1303779021@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.0422,
+            "lon": 112.14479
+          }
+        },
+        {
+          "facility": "Xiangyang NO.1 People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Xiangyang",
+          "state": "Hubei",
+          "zip": "441000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Lu Li",
+              "role": "CONTACT",
+              "phone": "13277117628",
+              "email": "351908331@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.0422,
+            "lon": 112.14479
+          }
+        },
+        {
+          "facility": "Xiangzhou People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Xiangyang",
+          "state": "Hubei",
+          "zip": "441000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Feng Yang",
+              "role": "CONTACT",
+              "phone": "13085281533",
+              "email": "chuanfengyang@163.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.0422,
+            "lon": 112.14479
+          }
+        },
+        {
+          "facility": "Yicheng People's Hosptital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Xiangyang",
+          "state": "Hubei",
+          "zip": "441000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yuzhi Gong",
+              "role": "CONTACT",
+              "phone": "13886242550",
+              "email": "gyz_4255153@163.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.0422,
+            "lon": 112.14479
+          }
+        },
+        {
+          "facility": "Zaoyang NO.1 People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Xiangyang",
+          "state": "Hubei",
+          "zip": "441000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Zhen Yang",
+              "role": "CONTACT",
+              "phone": "15172615100",
+              "email": "1174244875@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.0422,
+            "lon": 112.14479
+          }
+        },
+        {
+          "facility": "Chibi General Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Xianning",
+          "state": "Hubei",
+          "zip": "437000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Xiuzhen Shen",
+              "role": "CONTACT",
+              "phone": "13797796821",
+              "email": "980673518@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.84347,
+            "lon": 114.32201
+          }
+        },
+        {
+          "facility": "Chongyang People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Xianning",
+          "state": "Hubei",
+          "zip": "437000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Zongqiang Wang",
+              "role": "CONTACT",
+              "phone": "13986629258",
+              "email": "1556969242@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.84347,
+            "lon": 114.32201
+          }
+        },
+        {
+          "facility": "Jiayu People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Xianning",
+          "state": "Hubei",
+          "zip": "437000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Zaishu Chen",
+              "role": "CONTACT",
+              "phone": "13972837573",
+              "email": "jyczs02@163.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.84347,
+            "lon": 114.32201
+          }
+        },
+        {
+          "facility": "The First People's Hospital of Xianning",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Xianning",
+          "state": "Hubei",
+          "zip": "437000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Qibing Zheng",
+              "role": "CONTACT",
+              "phone": "18986631048",
+              "email": "1554284581@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.84347,
+            "lon": 114.32201
+          }
+        },
+        {
+          "facility": "TongchengPeople's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Xianning",
+          "state": "Hubei",
+          "zip": "437000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Longcai Hu",
+              "role": "CONTACT",
+              "phone": "13997530854",
+              "email": "492429963@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.84347,
+            "lon": 114.32201
+          }
+        },
+        {
+          "facility": "Tongshan People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Xianning",
+          "state": "Hubei",
+          "zip": "437000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Fuzhong Wang",
+              "role": "CONTACT",
+              "phone": "13807242362",
+              "email": "419415005@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.84347,
+            "lon": 114.32201
+          }
+        },
+        {
+          "facility": "Xianning Central Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Xianning",
+          "state": "Hubei",
+          "zip": "437000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Shouyi Gan",
+              "role": "CONTACT",
+              "phone": "18671529858",
+              "email": "24649899@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.84347,
+            "lon": 114.32201
+          }
+        },
+        {
+          "facility": "AMHT Hubei Aerospace Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Xiaogan",
+          "state": "Hubei",
+          "zip": "432000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Dachun He",
+              "role": "CONTACT",
+              "phone": "13886368252",
+              "email": "hdc.998@163.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.92689,
+            "lon": 113.92221
+          }
+        },
+        {
+          "facility": "Anlu Puai Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Xiaogan",
+          "state": "Hubei",
+          "zip": "432000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yousheng Yang",
+              "role": "CONTACT",
+              "phone": "15207296549",
+              "email": "42759600@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.92689,
+            "lon": 113.92221
+          }
+        },
+        {
+          "facility": "Dawu County Hosptal of Traditional Chinese Medicine",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Xiaogan",
+          "state": "Hubei",
+          "zip": "432000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Xiaohong Yao",
+              "role": "CONTACT",
+              "phone": "13886381640",
+              "email": "761158195@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.92689,
+            "lon": 113.92221
+          }
+        },
+        {
+          "facility": "Dawu People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Xiaogan",
+          "state": "Hubei",
+          "zip": "432000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yinbo Li",
+              "role": "CONTACT",
+              "phone": "13797188333",
+              "email": "1004017703@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.92689,
+            "lon": 113.92221
+          }
+        },
+        {
+          "facility": "Hanchuan People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Xiaogan",
+          "state": "Hubei",
+          "zip": "432000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Shaobo Wang",
+              "role": "CONTACT",
+              "phone": "13797180359",
+              "email": "1589885345@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.92689,
+            "lon": 113.92221
+          }
+        },
+        {
+          "facility": "The Central Hospital of Xiaogan",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Xiaogan",
+          "state": "Hubei",
+          "zip": "432000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Ronghua He",
+              "role": "CONTACT",
+              "phone": "13871883008",
+              "email": "781008@163.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.92689,
+            "lon": 113.92221
+          }
+        },
+        {
+          "facility": "Xiaochang First People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Xiaogan",
+          "state": "Hubei",
+          "zip": "432000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Zhihua Zhang",
+              "role": "CONTACT",
+              "phone": "13972679321",
+              "email": "260592745@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.92689,
+            "lon": 113.92221
+          }
+        },
+        {
+          "facility": "Xiaogan First People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Xiaogan",
+          "state": "Hubei",
+          "zip": "432000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yazhou Li",
+              "role": "CONTACT",
+              "phone": "15971205579",
+              "email": "284380951@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.92689,
+            "lon": 113.92221
+          }
+        },
+        {
+          "facility": "Xiaogan Hoospital of Chinese Medicine",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Xiaogan",
+          "state": "Hubei",
+          "zip": "432000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Zenan Zou",
+              "role": "CONTACT",
+              "phone": "18327681930",
+              "email": "1127448890@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.92689,
+            "lon": 113.92221
+          }
+        },
+        {
+          "facility": "Yingcheng People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Xiaogan",
+          "state": "Hubei",
+          "zip": "432000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Libing Zhang",
+              "role": "CONTACT",
+              "phone": "13617235542",
+              "email": "3617235542@163.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.92689,
+            "lon": 113.92221
+          }
+        },
+        {
+          "facility": "Yunmeng People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Xiaogan",
+          "state": "Hubei",
+          "zip": "432000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Hanzhu An",
+              "role": "CONTACT",
+              "phone": "18607295123",
+              "email": "457077743@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.92689,
+            "lon": 113.92221
+          }
+        },
+        {
+          "facility": "Affiliated Renhe Hospital of China Three GORGES University",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Yichang",
+          "state": "Hubei",
+          "zip": "443000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Weihua Yang",
+              "role": "CONTACT",
+              "phone": "15997680976",
+              "email": "664540165@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.71444,
+            "lon": 111.28472
+          }
+        },
+        {
+          "facility": "People's Hospital of Dangyang",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Yichang",
+          "state": "Hubei",
+          "zip": "443000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Fan Li",
+              "role": "CONTACT",
+              "phone": "15997569640",
+              "email": "150457421@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.71444,
+            "lon": 111.28472
+          }
+        },
+        {
+          "facility": "People's Hospital of Zhijiang",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Yichang",
+          "state": "Hubei",
+          "zip": "443000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Bing Zhang",
+              "role": "CONTACT",
+              "phone": "15972701678",
+              "email": "1400526650@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.71444,
+            "lon": 111.28472
+          }
+        },
+        {
+          "facility": "People's Hospital of Zigui",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Yichang",
+          "state": "Hubei",
+          "zip": "443000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Dejian Fu",
+              "role": "CONTACT",
+              "phone": "13032742977",
+              "email": "404594917@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.71444,
+            "lon": 111.28472
+          }
+        },
+        {
+          "facility": "Sinopharm Gezhouba Central Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Yichang",
+          "state": "Hubei",
+          "zip": "443000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Zhixian Lu",
+              "role": "CONTACT",
+              "phone": "13986811865",
+              "email": "luzhixian69@126.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.71444,
+            "lon": 111.28472
+          }
+        },
+        {
+          "facility": "The First Hospital of YC",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Yichang",
+          "state": "Hubei",
+          "zip": "443000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yunbo Lv",
+              "role": "CONTACT",
+              "phone": "13339787878",
+              "email": "362435582@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.71444,
+            "lon": 111.28472
+          }
+        },
+        {
+          "facility": "Yichang Central People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Yichang",
+          "state": "Hubei",
+          "zip": "443000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Hui Wu",
+              "role": "CONTACT",
+              "phone": "15171833889",
+              "email": "545500870@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.71444,
+            "lon": 111.28472
+          }
+        },
+        {
+          "facility": "Yichang Hospital of Traditional Chinese Medicine",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Yichang",
+          "state": "Hubei",
+          "zip": "443000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Qiang Xu",
+              "role": "CONTACT",
+              "phone": "13886741181",
+              "email": "9463488@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.71444,
+            "lon": 111.28472
+          }
+        },
+        {
+          "facility": "Yichang Second People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Yichang",
+          "state": "Hubei",
+          "zip": "443000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Shijin Chen",
+              "role": "CONTACT",
+              "phone": "18908601871",
+              "email": "253089640@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.71444,
+            "lon": 111.28472
+          }
+        },
+        {
+          "facility": "Yidu People's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Yichang",
+          "state": "Hubei",
+          "zip": "443000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Zhibin Peng",
+              "role": "CONTACT",
+              "phone": "18972036700",
+              "email": "395661632@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.71444,
+            "lon": 111.28472
+          }
+        },
+        {
+          "facility": "Yiling Hospital of Yichang",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Yichang",
+          "state": "Hubei",
+          "zip": "443000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Weiping Li",
+              "role": "CONTACT",
+              "phone": "13996967818",
+              "email": "2684784069@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.71444,
+            "lon": 111.28472
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "The overall objective of the High Risk Population of Cardiovascular Disease in Hubei Province (Coronary Heart Disease With Diabetes) Screening and Intervention Program will use Case Report Form scale, and data input and management were carried out by Electronic Data Capture System ."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        },
+        {
+          "id": "D003327",
+          "term": "Coronary Disease"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D019161",
+          "term": "Hydroxymethylglutaryl-CoA Reductase Inhibitors"
+        },
+        {
+          "id": "D000806",
+          "term": "Angiotensin-Converting Enzyme Inhibitors"
+        },
+        {
+          "id": "D052216",
+          "term": "Glucagon-Like Peptide 1"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000924",
+          "term": "Anticholesteremic Agents"
+        },
+        {
+          "id": "D000960",
+          "term": "Hypolipidemic Agents"
+        },
+        {
+          "id": "D000963",
+          "term": "Antimetabolites"
+        },
+        {
+          "id": "D045504",
+          "term": "Molecular Mechanisms of Pharmacological Action"
+        },
+        {
+          "id": "D020228",
+          "term": "Pharmacologic Actions"
+        },
+        {
+          "id": "D020164",
+          "term": "Chemical Actions and Uses"
+        },
+        {
+          "id": "D004791",
+          "term": "Enzyme Inhibitors"
+        },
+        {
+          "id": "D057847",
+          "term": "Lipid Regulating Agents"
+        },
+        {
+          "id": "D045506",
+          "term": "Therapeutic Uses"
+        },
+        {
+          "id": "D011480",
+          "term": "Protease Inhibitors"
+        },
+        {
+          "id": "D004763",
+          "term": "Glucagon-Like Peptides"
+        },
+        {
+          "id": "D052336",
+          "term": "Proglucagon"
+        },
+        {
+          "id": "D005768",
+          "term": "Gastrointestinal Hormones"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

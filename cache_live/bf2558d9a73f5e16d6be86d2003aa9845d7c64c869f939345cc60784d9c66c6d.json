@@ -1,0 +1,393 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03772990",
+      "orgStudyIdInfo": {
+        "id": "21/2019"
+      },
+      "organization": {
+        "fullName": "Meshalkin Research Institute of Pathology of Circulation",
+        "class": "NETWORK"
+      },
+      "briefTitle": "Calcium Administration in Cardiac Surgery",
+      "officialTitle": "Calcium Administration in Patients Undergoing Cardiac Surgery Under Cardiopulmonary Bypass (ICARUS Trial): Prospective Randomized, Double-blind Placebo-controlled Superiority Trial",
+      "acronym": "ICARUS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-11",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-01-14",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-07-13",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-08-13",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2018-12-07",
+      "studyFirstSubmitQcDate": "2018-12-09",
+      "studyFirstPostDateStruct": {
+        "date": "2018-12-12",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-08-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-08-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Meshalkin Research Institute of Pathology of Circulation",
+        "class": "NETWORK"
+      },
+      "collaborators": [
+        {
+          "name": "Università Vita-Salute San Raffaele",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Termination of cardiopulmonary bypass is a critical step in any cardiac surgical procedure and requires a thorough planning. Debate about rationale of calcium administration during weaning of cardiopulmonary bypass has been conducted for several decades; however, a consensus has not been yet reached.\n\nPerioperative hypocalcemia can develop because of haemodilution or calcium binding from heparin, albumin and citrate. Perioperative hypocalcemia is often complicated by development of arrhythmias, especially QT interval prolongation. Furthermore, low content of calcium can lead to vascular tone disorders, violation of neuromuscular transmission, altered hemostasis and heart failure, resistant to inotropic agents, especially in patients with concomitant cardiomyopathy.\n\nOn the other hand, hypercalcaemia is a dangerous complication in cardiac surgery. Among the fatal, but rather rare complications, there are acute pancreatitis and the phenomenon of the \"stone heart\", which is essentially a reperfusion injury of the myocardium caused by rapid calcium overload. Hypercalcaemia can also trigger rhythm disturbances, hypertension, increase systemic vascular resistance, reduce diastolic compliance and impair relaxation of the myocardium due to excessive calcium intake into the cardiomyocytes, cause coronary vasospasm and aggravate ischaemic myocardial damage, impair arterial graft blood flow during aortocoronary and mammary coronary bypass surgery.\n\nTo date, there is a lack of data indicating clinical efficacy of calcium administration before separation from CPB. Therefore, we designed this randomized controlled trial to test the hypothesis whether calcium administration at termination of CPB will reduce the need for inotropic support at the end of surgery."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiac Surgery",
+        "Cardiopulmonary Bypass"
+      ],
+      "keywords": [
+        "inotropic support",
+        "calcium chloride",
+        "cardiopulmonary bypass",
+        "cardiac surgery"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 818,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Calcium chloride",
+          "type": "EXPERIMENTAL",
+          "description": "Participants randomly assigned to the experimental group will receive 15 mg/kg of calcium chloride (bolus) intravenously during separation from cardiopulmonary bypass",
+          "interventionNames": [
+            "Drug: Calcium Chloride"
+          ]
+        },
+        {
+          "label": "0,9% Sodium Chloride",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants randomly assigned to the placebo group will receive equivalent amount of placebo intravenously during separation from cardiopulmonary bypass",
+          "interventionNames": [
+            "Drug: 0.9% Sodium Chloride"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Calcium Chloride",
+          "description": "Calcium Chloride",
+          "armGroupLabels": [
+            "Calcium chloride"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "0.9% Sodium Chloride",
+          "description": "0.9% Sodium Chloride",
+          "armGroupLabels": [
+            "0,9% Sodium Chloride"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Inotropic support",
+          "description": "Number of patients requiring inotropic support before transfer to intensive care unit",
+          "timeFrame": "Intraoperatively"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Duration of inotropic support after surgery",
+          "description": "Duration of infusion of any vasoinotropic agent at any dose",
+          "timeFrame": "30 days after surgery"
+        },
+        {
+          "measure": "Vasoactive-inotropic score",
+          "description": "Vasoactive-inotropic score will be measured on the morning of postoperative day 1. The inotropic score will be calculated using the following formula: Dobutamine dose (in mcg/kg/min) + Dopamine dose (in mcg/kg/min) + Enoximone dose (in mcg/kg/min) + \\[Epinephrine dose (in mcg/kg/min) x 100\\] + \\[Norepinephrine dose (in mcg/kg/min) x 100\\].",
+          "timeFrame": "Postoperative day 1"
+        },
+        {
+          "measure": "Plasma Ca2+ concentration before and after drug administration",
+          "timeFrame": "Intraoperatively"
+        },
+        {
+          "measure": "Time spent in theatre after cardiopulmonary bypass",
+          "timeFrame": "Intraoperatively"
+        },
+        {
+          "measure": "Duration of ventilation",
+          "timeFrame": "Up to 30 day after randomization"
+        },
+        {
+          "measure": "Duration of intensive care unit stay",
+          "timeFrame": "Up to 30 day after randomization"
+        },
+        {
+          "measure": "Myocardial infarction",
+          "description": "Number of patients who develop myocardial infarction",
+          "timeFrame": "Up to 30 day after randomization"
+        },
+        {
+          "measure": "Atrial fibrillation",
+          "description": "Number of patients who develop postoperative atrial fibrillation",
+          "timeFrame": "Up to 30 day after randomization"
+        },
+        {
+          "measure": "Type 1 and type 2 neurological complications",
+          "description": "Number of patients who develop type 1 and type 2 develop myocardial infarction",
+          "timeFrame": "Up to 30 day after randomization"
+        },
+        {
+          "measure": "Postoperative blood loss",
+          "description": "Postoperative blood (ml/kg) loss will be measured on the morning of postoperative day 1",
+          "timeFrame": "Postoperative day 1"
+        },
+        {
+          "measure": "Need for blood transfusion after surgery",
+          "description": "Number of patients who will need transfuion of any blood products (red cells, fresh frozen plasma, cryoprecipitate)",
+          "timeFrame": "Up to 30 day after randomization"
+        },
+        {
+          "measure": "Intraoperative myocardial ischemia",
+          "description": "The presence of intraoperative myocardial ischemia will be defined during continuous intraoperative ECG monitoring after calcium chloride or placebo administration",
+          "timeFrame": "Intraoperatively"
+        },
+        {
+          "measure": "Myocardial ischaemia on ECG after arrival to ICU",
+          "description": "Number of patients who develop myocardial ischemia",
+          "timeFrame": "Postoperative day 1"
+        },
+        {
+          "measure": "Concentration of alpha-amylase after surgery",
+          "timeFrame": "Postoperative day 1"
+        },
+        {
+          "measure": "Internal mammary artery vascular resistance (if available)",
+          "description": "Will be defined by intraoperative graft flow measurements",
+          "timeFrame": "Intraoperatively"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* surgery under cardiopulmonary bypass\n* valve or valve surgery + CABG\n* age \\> 18 years\n* signed informed consent\n\nExclusion Criteria:\n\n* emergency surgery\n* isolated aortic valve repair/replacement\n* planned (before surgery) blood transfusion\n* redo surgery\n* known allergy to the study drug\n* pregnancy\n* current enrollment into another RCT (in the last 30 days)\n* previous enrollment and randomization to ICARUS trial\n* liver cirrhosis (Child B or C)\n* transfusion during CPB\n* hypo- or hyperparathyreosis",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Vladimir Lomivorotov",
+          "affiliation": "Meshalkin Research Institute of Pathology of Circulation",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Sh. Mohammed Bin Khalifa Bin Salman Al-Khalifa Cardiac Center",
+          "city": "Manama",
+          "country": "Bahrain",
+          "geoPoint": {
+            "lat": 26.22787,
+            "lon": 50.58565
+          }
+        },
+        {
+          "facility": "Federal Center for Cardiovascular Surgery",
+          "city": "Astrakhan",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 46.34968,
+            "lon": 48.04076
+          }
+        },
+        {
+          "facility": "Federal Center for Cardiovascular Surgery",
+          "city": "Chelyabinsk",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.1611,
+            "lon": 61.42877
+          }
+        },
+        {
+          "facility": "District clinical hospital",
+          "city": "Khanty-Mansiysk",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 61.00187,
+            "lon": 69.02728
+          }
+        },
+        {
+          "facility": "B.V. Petrovsky Russian Scientific Surgery Center",
+          "city": "Moscow",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "facility": "M. Vladimirsky Moscow Regional Research Cinical Institute (MONIKI)",
+          "city": "Moscow",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "facility": "Meshalkin Research Institute of Pathology of Circulation",
+          "city": "Novosibirsk",
+          "zip": "630055",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.02259,
+            "lon": 82.93175
+          }
+        },
+        {
+          "facility": "Federal Center for Cardiovascular Surgery",
+          "city": "Penza",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 53.19568,
+            "lon": 45.01075
+          }
+        },
+        {
+          "facility": "St Petersburg University Multifunctional Clinical Centre",
+          "city": "Saint Petersburg",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 59.93863,
+            "lon": 30.31413
+          }
+        },
+        {
+          "facility": "Tomsk National Research Medical Center",
+          "city": "Tomsk",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 56.50049,
+            "lon": 84.98216
+          }
+        },
+        {
+          "facility": "King Abdullah Medical City",
+          "city": "Mecca",
+          "country": "Saudi Arabia",
+          "geoPoint": {
+            "lat": 21.42664,
+            "lon": 39.82563
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D002122",
+          "term": "Calcium Chloride"
+        },
+        {
+          "id": "D012965",
+          "term": "Sodium Chloride"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017610",
+          "term": "Calcium Compounds"
+        },
+        {
+          "id": "D007287",
+          "term": "Inorganic Chemicals"
+        },
+        {
+          "id": "D002712",
+          "term": "Chlorides"
+        },
+        {
+          "id": "D006851",
+          "term": "Hydrochloric Acid"
+        },
+        {
+          "id": "D017606",
+          "term": "Chlorine Compounds"
+        },
+        {
+          "id": "D017670",
+          "term": "Sodium Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

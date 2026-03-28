@@ -1,0 +1,261 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07173777",
+      "orgStudyIdInfo": {
+        "id": "H-46078"
+      },
+      "organization": {
+        "fullName": "Boston Medical Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "Cardiac Anodal Biphasic Pacing",
+      "officialTitle": "Cardiac Anodal Biphasic Pacing",
+      "acronym": "ABP"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-02",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-07",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-07",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-09-08",
+      "studyFirstSubmitQcDate": "2025-09-08",
+      "studyFirstPostDateStruct": {
+        "date": "2025-09-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-25",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-29",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Boston Medical Center",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Rocky Mountain Biphasic",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this study is to test a new pacing method called anodal biphasic pacing (ABP) to determine if this pacing works as well-or better-than current pacing methods. This new method may improve how the heart works and reduce some of the problems caused by regular pacing.\n\nCurrent implantable pacemakers use a monophasic cathodal waveform to stimulate the heart. Monophasic cathodal pacing (MCP) waveforms slow conduction, impair contractility, cause inflammation, increase risk of atrial fibrillation, heart failure, and mortality. Anodal biphasic pacing (ABP) is an alternative waveform that can stimulate the heart. ABP preconditions the heart and then initiates cardiac contraction. ABP may address the limitations of MCP.",
+      "detailedDescription": "This study is a single-center, prospective, investigator-initiated, non-randomized, study that will investigate ABP in patients with structurally normal hearts and those with non-ischemic cardiomyopathy who are undergoing interventional cardiac procedure, generator exchange of dual chamber Cardiac implantable electronic device (CIED), or de novo implant or generator exchange of CIED with cardiac resynchronization therapy.\n\nEligible participants, without heart disease and those with nonischemic cardiomyopathy, undergoing CIED implant or generator exchange or interventional cardiac procedure at Boston Medical Center will be screened and prospectively enrolled. Participants will be stratified by left ventricular ejection fraction (EF): those with severely reduced EF (≤35%), mid-range EF (\\> 35%-49%) and normal EF (EF≥ 50%).\n\nPrimary efficacy objectives:\n\n1. To identify which patient populations have the greatest and most consistent hemodynamic benefit from ABP as compared with cathodal pacing.\n2. To confirm that ABP does not negatively impact non-responders.\n3. To define the ideal anodal biphasic waveform characteristics (amplitude and pulse width) that maximizes the positive effect in subjects who demonstrate hemodynamic improvement ABP\n4. To assess differences in capture thresholds between anodal biphasic and cathodal pacing.\n\nSecondary safety objectives:\n\n1. To assess and characterize any ventricular arrhythmias associated with anodal biphasic in comparison to cathodal pacing.\n2. To assess device safety\n3. To assess procedure safety"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiac Pacing"
+      ],
+      "keywords": [
+        "Anodal biphasic pacing (ABP)",
+        "Monophasic cathodal pacing (MCP)",
+        "Ejection fraction",
+        "Cardiac implantable electronic device",
+        "Cardiac contractility modulation",
+        "Implantable cardiac defibrillator"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "DIAGNOSTIC",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 108,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Cohort A",
+          "type": "EXPERIMENTAL",
+          "description": "Cardiac patients who are undergoing interventional cardiac procedure including electrophysiology (EP) with planned retrograde left ventricular access or diagnostic coronary catheterization.",
+          "interventionNames": [
+            "Device: Cardiac Waveform Generator"
+          ]
+        },
+        {
+          "label": "Cohort B",
+          "type": "EXPERIMENTAL",
+          "description": "Patients who have pacing indication and are undergoing routine generator exchange of dual chamber cardiac implantable electronic device (CIED).",
+          "interventionNames": [
+            "Device: Cardiac Waveform Generator"
+          ]
+        },
+        {
+          "label": "Cohort C",
+          "type": "EXPERIMENTAL",
+          "description": "Patients who are undergoing new implant or generator exchange of CIED with cardiac resynchronization therapy.",
+          "interventionNames": [
+            "Device: Cardiac Waveform Generator"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Cardiac Waveform Generator",
+          "description": "A pacing device that allows for programmable pulse waveforms to generate a predefined set of anodal biphasic waveforms. It possesses a battery-powered floating point gate array (FPGA) using software that allows flexibility in waveform configuration.",
+          "armGroupLabels": [
+            "Cohort A",
+            "Cohort B",
+            "Cohort C"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Clinically significant maximum rate of pressure change maximum rate of pressure change within the left ventricle during its contraction phase- dP/dtmax.",
+          "description": "Response will be expressed as a percent change in these measures with anodal biphasic pacing (ABP) as compared with cathodal pacing. A clinically significant hemodynamic response to pacing will be defined as a \\>10% increase in dP/dtmax.",
+          "timeFrame": "about 30 minutes"
+        },
+        {
+          "measure": "Clinically significant stroke work",
+          "description": "Response will be expressed as a percent change in these measures with anodal biphasic pacing (ABP) as compared with cathodal pacing. A clinically significant hemodynamic response to pacing will be defined as a \\>10% increase in stroke work.",
+          "timeFrame": "about 30 minutes"
+        },
+        {
+          "measure": "Clinically significant left ventricular end-diastolic pressure (LVEDP)",
+          "description": "Response will be expressed as a percent change in these measures with anodal biphasic pacing (ABP) as compared with cathodal pacing. A clinically significant hemodynamic response to pacing will be defined as a \\>10% increase in LVEDP.",
+          "timeFrame": "about 30 minutes"
+        },
+        {
+          "measure": "Clinically significant diastolic relaxation (tau)",
+          "description": "Response will be expressed as a percent change in these measures with anodal biphasic pacing (ABP) as compared with cathodal pacing. A clinically significant hemodynamic response to pacing will be defined as a \\>10% increase in tau.",
+          "timeFrame": "about 30 minutes"
+        },
+        {
+          "measure": "Clinically significant volume measurements",
+          "description": "Response will be expressed as a percent change in these measures with anodal biphasic pacing (ABP) as compared with cathodal pacing. A clinically significant hemodynamic response to pacing will be defined as a \\>10% increase in volume measurements.",
+          "timeFrame": "about 30 minutes"
+        },
+        {
+          "measure": "Capture threshold",
+          "description": "This outcome will be measured with decremental pacing threshold testing where pacing output (voltage or pulse width) is decremented until there is a loss of ventricular capture. The minimum output prior to loss of capture is defined as the capture threshold.",
+          "timeFrame": "about 30 minutes"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Waveform safety concerns",
+          "description": "Defined as the development of any of the following with ABP: ventricular tachycardia \\> 3 beats, premature ventricular contractions at frequency greater than baseline, ventricular couplet, significant drop (\\>5%) in invasive hemodynamic measures or blood pressure; or any cardioversion for atrial or ventricular arrhythmia.",
+          "timeFrame": "about 30 minutes"
+        },
+        {
+          "measure": "Device safety issues",
+          "description": "Defined as the occurrence of device related adverse event including: device malfunction, failure to output programmed pulse waveform, or failure to output set voltage",
+          "timeFrame": "about 30 minutes"
+        },
+        {
+          "measure": "Procedural safety issues",
+          "description": "Defined as the occurrence of procedure related adverse event including: vascular complication, cardiac complication including cardiac perforation, valvular injury, atrioventricular (AV) or bundle branch block, or thromboembolism.",
+          "timeFrame": "about 30 minutes"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nCohort A\n\n• Planned interventional cardiac procedure\n\nCohort B\n\n* Planned generator exchange of dual chamber cardiac implantable electronic device (CIED)\n* Functioning atrial lead\n\nCohort C\n\n* Planned de novo implant or generator exchange of CIED with cardiac resynchronization therapy\n* Functioning atrial lead\n\nExclusion Criteria:\n\n* Permanent atrial fibrillation\n* Third degree AV block without stable escape rhythm\n* Ischemic heart disease or coronary disease \\> 40%\n* Unable to receive heparin\n* Are not fluent in English\n* Unable to read in English\n* Not able to provide informed consent\n* Women who are pregnant",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Robert Helm, MD",
+          "role": "CONTACT",
+          "phone": "617-638-8985",
+          "email": "robert.helm@bmc.org"
+        },
+        {
+          "name": "Denise Fine, BS",
+          "role": "CONTACT",
+          "phone": "617-638-8716",
+          "email": "denise.fine@bmc.org"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Robert Helm, MD",
+          "affiliation": "Boston Medical Center, Cardiology",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Boston Medical Center",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02118",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Robert Helm, MD",
+              "role": "CONTACT",
+              "email": "robert.helm@bmc.org"
+            },
+            {
+              "name": "Denise Fine, BS",
+              "role": "CONTACT",
+              "email": "denise.fine@bmc.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    }
+  },
+  "hasResults": false
+}

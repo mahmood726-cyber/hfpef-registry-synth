@@ -1,0 +1,1121 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05685303",
+      "orgStudyIdInfo": {
+        "id": "CIP-0003"
+      },
+      "organization": {
+        "fullName": "Alleviant Medical, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Alleviant ALLAY-HF Study",
+      "officialTitle": "Safety and Efficacy of the Alleviant System for No-Implant Interatrial Shunt Creation in Patients With Chronic Heart Failure"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-10",
+      "overallStatus": "ENROLLING_BY_INVITATION",
+      "startDateStruct": {
+        "date": "2023-01-10",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-04-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2032-07-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-12-14",
+      "studyFirstSubmitQcDate": "2023-01-05",
+      "studyFirstPostDateStruct": {
+        "date": "2023-01-17",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-10-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-10-23",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Alleviant Medical, Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUnapprovedDevice": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Prospective, multicenter, randomized, sham-controlled, double blinded, adaptive study designed to evaluate the safety and efficacy of a percutaneously created interatrial shunt using the Alleviant ALV1 System in patients with HFpEF/HFmrEF."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 500,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Treatment",
+          "type": "EXPERIMENTAL",
+          "description": "Subjects randomized to the treatment arm will undergo cardiac imaging, femoral vein access and receive the Alleviant ALV1 System device procedure.",
+          "interventionNames": [
+            "Device: Alleviant ALV1 System"
+          ]
+        },
+        {
+          "label": "Control",
+          "type": "SHAM_COMPARATOR",
+          "description": "Subjects randomized to the control arm will undergo cardiac imaging and sheath placement in femoral vein.",
+          "interventionNames": [
+            "Other: Sham-Control"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Alleviant ALV1 System",
+          "description": "Creation of interatrial shunt",
+          "armGroupLabels": [
+            "Treatment"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Sham-Control",
+          "description": "Cardiac imaging",
+          "armGroupLabels": [
+            "Control"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Composite Primary Endpoint",
+          "description": "The primary endpoint is a composite of mortality, heart failure events and quality of life based on Kansas City Cardiomyopathy Questionnaire (KCCQ) calculated at 12 months. KCCQ responses are provided along a rating scale from 0-100 with a higher score indicating better health.",
+          "timeFrame": "12-month"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Symptomatic HFpEF/HFmrEF with LVEF greater than or equal to 40%\n2. NYHA Class II, III or ambulatory IV\n3. Exercise right heart catheterization\\*\n\n   1. Elevated left atrial pressure during exercise right heart catheterization (greater than or equal to 25 mmHg)\n   2. Exercise PVR \\< 1.8 WU\n4. Ongoing stable GDMT\n\nExclusion Criteria:\n\n1. Advanced heart failure\n2. Presence of a pacemaker\n3. Evidence of right heart dysfunction",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "40 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "James Udelson, MD",
+          "affiliation": "Tufts Medical Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Alabama",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35249",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "Arizona Cardiovascular Research Center",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85016",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        },
+        {
+          "facility": "Pima Heart and Vascular",
+          "city": "Tucson",
+          "state": "Arizona",
+          "zip": "85718",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.22174,
+            "lon": -110.92648
+          }
+        },
+        {
+          "facility": "Memorial Care Long Beach Medical Center",
+          "city": "Long Beach",
+          "state": "California",
+          "zip": "90806",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.76696,
+            "lon": -118.18923
+          }
+        },
+        {
+          "facility": "UC Davis Medical Center",
+          "city": "Sacramento",
+          "state": "California",
+          "zip": "95817",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.58157,
+            "lon": -121.4944
+          }
+        },
+        {
+          "facility": "Scripps Clinical Research Services",
+          "city": "San Diego",
+          "state": "California",
+          "zip": "92121",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.71571,
+            "lon": -117.16472
+          }
+        },
+        {
+          "facility": "San Francisco VA",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94121",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "University of California San Francisco",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94143",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "Santa Barbara Cottage Hospital",
+          "city": "Santa Barbara",
+          "state": "California",
+          "zip": "93105",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.42083,
+            "lon": -119.69819
+          }
+        },
+        {
+          "facility": "Hartford Hospital",
+          "city": "Hartford",
+          "state": "Connecticut",
+          "zip": "06106",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.76371,
+            "lon": -72.68509
+          }
+        },
+        {
+          "facility": "The Cardiac and Vascular Institute (TCAVI)",
+          "city": "Gainesville",
+          "state": "Florida",
+          "zip": "32504",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.65163,
+            "lon": -82.32483
+          }
+        },
+        {
+          "facility": "HCA Florida Memorial Hospital",
+          "city": "Jacksonville",
+          "state": "Florida",
+          "zip": "32216",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          }
+        },
+        {
+          "facility": "NCH Research Institute",
+          "city": "Naples",
+          "state": "Florida",
+          "zip": "34102",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.14234,
+            "lon": -81.79596
+          }
+        },
+        {
+          "facility": "Advent Health Orlando",
+          "city": "Orlando",
+          "state": "Florida",
+          "zip": "32803",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.53834,
+            "lon": -81.37924
+          }
+        },
+        {
+          "facility": "Ascension Sacred Heart",
+          "city": "Pensacola",
+          "state": "Florida",
+          "zip": "32504",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.42131,
+            "lon": -87.21691
+          }
+        },
+        {
+          "facility": "Atlanta VA Health Care System",
+          "city": "Decatur",
+          "state": "Georgia",
+          "zip": "30032",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.77483,
+            "lon": -84.29631
+          }
+        },
+        {
+          "facility": "Advocate Illinois Masonic Medical Center",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60657",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Midwest Cardiovascular Institute",
+          "city": "Naperville",
+          "state": "Illinois",
+          "zip": "60540",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.78586,
+            "lon": -88.14729
+          }
+        },
+        {
+          "facility": "Prairie Education and Research Cooperative",
+          "city": "Springfield",
+          "state": "Illinois",
+          "zip": "62769",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.80172,
+            "lon": -89.64371
+          }
+        },
+        {
+          "facility": "Indiana University",
+          "city": "Indianapolis",
+          "state": "Indiana",
+          "zip": "46202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.76838,
+            "lon": -86.15804
+          }
+        },
+        {
+          "facility": "St. Elizabeth Healthcare",
+          "city": "Edgewood",
+          "state": "Kentucky",
+          "zip": "41017",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.01867,
+            "lon": -84.58189
+          }
+        },
+        {
+          "facility": "Cardiovascular Institute of the South",
+          "city": "Houma",
+          "state": "Louisiana",
+          "zip": "70360",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.59577,
+            "lon": -90.71953
+          }
+        },
+        {
+          "facility": "University Medical Center New Orleans",
+          "city": "New Orleans",
+          "state": "Louisiana",
+          "zip": "70112",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.95465,
+            "lon": -90.07507
+          }
+        },
+        {
+          "facility": "Johns Hopkins Medical Institution",
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21287",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "Brigham and Women's Hospital",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02115",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Boston Medical Center",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02118",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "VA Ann Arbor",
+          "city": "Ann Arbor",
+          "state": "Michigan",
+          "zip": "48105",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.27756,
+            "lon": -83.74088
+          }
+        },
+        {
+          "facility": "Minneapolis Heart Institute Foundation",
+          "city": "Minneapolis",
+          "state": "Minnesota",
+          "zip": "55407",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.97997,
+            "lon": -93.26384
+          }
+        },
+        {
+          "facility": "Washington University - St Louis",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63110",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "VA NY Harbor Healthcare System",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10010",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "New York University",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10016",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Lenox Hill Hospital",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10075",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "St. Francis Hospital",
+          "city": "Roslyn",
+          "state": "New York",
+          "zip": "11576",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.79982,
+            "lon": -73.65096
+          }
+        },
+        {
+          "facility": "Stony Brook Medicine",
+          "city": "Stony Brook",
+          "state": "New York",
+          "zip": "11794-8167",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.92565,
+            "lon": -73.14094
+          }
+        },
+        {
+          "facility": "Mission Hospital",
+          "city": "Asheville",
+          "state": "North Carolina",
+          "zip": "28801",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.60095,
+            "lon": -82.55402
+          }
+        },
+        {
+          "facility": "Duke University Hospital",
+          "city": "Durham",
+          "state": "North Carolina",
+          "zip": "27705",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.99403,
+            "lon": -78.89862
+          }
+        },
+        {
+          "facility": "NC Heart and Vascular Research",
+          "city": "Raleigh",
+          "state": "North Carolina",
+          "zip": "27607",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.7721,
+            "lon": -78.63861
+          }
+        },
+        {
+          "facility": "Cleveland Clinic",
+          "city": "Cleveland",
+          "state": "Ohio",
+          "zip": "44195",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.4995,
+            "lon": -81.69541
+          }
+        },
+        {
+          "facility": "ProMedica Toledo Hospital",
+          "city": "Toledo",
+          "state": "Ohio",
+          "zip": "43606",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.66394,
+            "lon": -83.55521
+          }
+        },
+        {
+          "facility": "South Oklahoma Heart Research, LLC.",
+          "city": "Oklahoma City",
+          "state": "Oklahoma",
+          "zip": "73135",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.46756,
+            "lon": -97.51643
+          }
+        },
+        {
+          "facility": "Providence St. Vincent's Medical Center",
+          "city": "Portland",
+          "state": "Oregon",
+          "zip": "97225",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.52345,
+            "lon": -122.67621
+          }
+        },
+        {
+          "facility": "Pinnacle Health Cardiovascular Institute",
+          "city": "Harrisburg",
+          "state": "Pennsylvania",
+          "zip": "17101",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.2737,
+            "lon": -76.88442
+          }
+        },
+        {
+          "facility": "Prisma Health - Midlands",
+          "city": "Columbia",
+          "state": "South Carolina",
+          "zip": "29203",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.00071,
+            "lon": -81.03481
+          }
+        },
+        {
+          "facility": "Monument Health",
+          "city": "Rapid City",
+          "state": "South Dakota",
+          "zip": "57701",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.08054,
+            "lon": -103.23101
+          }
+        },
+        {
+          "facility": "Stern Cardiovascular Foundation",
+          "city": "Germantown",
+          "state": "Tennessee",
+          "zip": "38138",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.08676,
+            "lon": -89.81009
+          }
+        },
+        {
+          "facility": "Tennova Healthcare - Turkey Creek Medical Center",
+          "city": "Knoxville",
+          "state": "Tennessee",
+          "zip": "37934",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.96064,
+            "lon": -83.92074
+          }
+        },
+        {
+          "facility": "Hendrick Health",
+          "city": "Abilene",
+          "state": "Texas",
+          "zip": "79601",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.44874,
+            "lon": -99.73314
+          }
+        },
+        {
+          "facility": "Austin Heart",
+          "city": "Austin",
+          "state": "Texas",
+          "zip": "78756",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.26715,
+            "lon": -97.74306
+          }
+        },
+        {
+          "facility": "UT Southwestern",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75930",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "Baylor Scott & White Research Institute",
+          "city": "Plano",
+          "state": "Texas",
+          "zip": "75093",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.01984,
+            "lon": -96.69889
+          }
+        },
+        {
+          "facility": "NextStage Clinical Research",
+          "city": "Waco",
+          "state": "Texas",
+          "zip": "76712",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 31.54933,
+            "lon": -97.14667
+          }
+        },
+        {
+          "facility": "University of Washington",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98195",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        },
+        {
+          "facility": "Advocate Aurora Health/Aurora Research Institute",
+          "city": "Milwaukee",
+          "state": "Wisconsin",
+          "zip": "53215",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.0389,
+            "lon": -87.90647
+          }
+        },
+        {
+          "facility": "Monash Health Victorian Heart Hospital",
+          "city": "Clayton",
+          "state": "Victoria",
+          "zip": "3068",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.91667,
+            "lon": 145.11667
+          }
+        },
+        {
+          "facility": "Royal Adelaide Hospital",
+          "city": "Adelaide",
+          "zip": "5000",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -34.92866,
+            "lon": 138.59863
+          }
+        },
+        {
+          "facility": "Medizinische Universität Graz",
+          "city": "Graz",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 47.06733,
+            "lon": 15.44197
+          }
+        },
+        {
+          "facility": "OLV Hospital",
+          "city": "Aalst",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.93604,
+            "lon": 4.0355
+          }
+        },
+        {
+          "facility": "ZNA Middelheim",
+          "city": "Antwerp",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.22047,
+            "lon": 4.40026
+          }
+        },
+        {
+          "facility": "AZ Sint Jan Brugge",
+          "city": "Bruges",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.20892,
+            "lon": 3.22424
+          }
+        },
+        {
+          "facility": "Southlake Regional Hospital Centre",
+          "city": "Newmarket",
+          "state": "Ontario",
+          "zip": "L3Y 2P6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 44.05011,
+            "lon": -79.46631
+          }
+        },
+        {
+          "facility": "Centre hospitalier de l'Universite de Montreal (CHUM)",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H2X 0C1",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "Centre Integre Universitaire de Sainte et de Services Scoiiaux de l'Estrie - Centre Hospitalier Universitaire de Sherbrooke (CIUSSS de l'Estrie - CHUS)",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H2X 0C1",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "Tbilisi Heart and Vascular",
+          "city": "Tbilisi",
+          "country": "Georgia",
+          "geoPoint": {
+            "lat": 41.69143,
+            "lon": 44.83412
+          }
+        },
+        {
+          "facility": "Heart and Vascular Center-Bad Bevensen",
+          "city": "Bad Bevensen",
+          "zip": "29549",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.07923,
+            "lon": 10.58129
+          }
+        },
+        {
+          "facility": "Herz- und Gefasszentrum Bad Bevensen",
+          "city": "Bad Bevensen",
+          "zip": "29549",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.07923,
+            "lon": 10.58129
+          }
+        },
+        {
+          "facility": "University of Gießen",
+          "city": "Giessen",
+          "zip": "35392",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.58727,
+            "lon": 8.67554
+          }
+        },
+        {
+          "facility": "Marienkrankenhaus",
+          "city": "Hamburg",
+          "zip": "22087",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.55073,
+            "lon": 9.99302
+          }
+        },
+        {
+          "facility": "Askelepios Klinik Altona",
+          "city": "Hamburg",
+          "zip": "22763",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.55073,
+            "lon": 9.99302
+          }
+        },
+        {
+          "facility": "St. Vincentius Kliniken",
+          "city": "Karlsruhe",
+          "zip": "76137",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.00937,
+            "lon": 8.40444
+          }
+        },
+        {
+          "facility": "Universitatsklinikum Schleswig-Holstein (UKSH)",
+          "city": "Lübeck",
+          "zip": "23538",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.86893,
+            "lon": 10.68729
+          }
+        },
+        {
+          "facility": "Universitätsklinikum Kardiologie",
+          "city": "Magdeburg",
+          "zip": "39120",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.13129,
+            "lon": 11.63189
+          }
+        },
+        {
+          "facility": "Universitatsmedizin Rostock",
+          "city": "Rostock",
+          "zip": "18057",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 54.0887,
+            "lon": 12.14049
+          }
+        },
+        {
+          "facility": "European Interbalken Medical Center",
+          "city": "Thessaloniki",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 40.64072,
+            "lon": 22.93493
+          }
+        },
+        {
+          "facility": "Shaare Zedek Medical Center",
+          "city": "Jerusalem",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 31.76904,
+            "lon": 35.21633
+          }
+        },
+        {
+          "facility": "Tel Aviv Sourasky Medical Center",
+          "city": "Tel Aviv",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.08088,
+            "lon": 34.78057
+          }
+        },
+        {
+          "facility": "Shamir Medical Center",
+          "city": "Zrifin",
+          "country": "Israel"
+        },
+        {
+          "facility": "Humanitas Research Milan",
+          "city": "Rozzano",
+          "state": "MI",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.38193,
+            "lon": 9.1559
+          }
+        },
+        {
+          "facility": "Instituto Auxologico Italiano",
+          "city": "Milan",
+          "zip": "20149",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.46427,
+            "lon": 9.18951
+          }
+        },
+        {
+          "facility": "ChristChurch Hospital",
+          "city": "Christchurch",
+          "zip": "8011",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -43.53333,
+            "lon": 172.63333
+          }
+        },
+        {
+          "facility": "Dunedin Hospital",
+          "city": "Dunedin",
+          "zip": "9016",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -45.87416,
+            "lon": 170.50361
+          }
+        },
+        {
+          "facility": "Poznan University of Medical Sciences",
+          "city": "Poznan",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.40692,
+            "lon": 16.92993
+          }
+        },
+        {
+          "facility": "4th Military Hospital",
+          "city": "Wroclaw",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.10286,
+            "lon": 17.03006
+          }
+        },
+        {
+          "facility": "Uniwesytecki Szpital Kliniczny",
+          "city": "Wroclaw",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.10286,
+            "lon": 17.03006
+          }
+        },
+        {
+          "facility": "Silesian Center for Heart Disease",
+          "city": "Zabrze",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.32492,
+            "lon": 18.78576
+          }
+        },
+        {
+          "facility": "Hospital de la Santa Creu i Sant Pau",
+          "city": "Barcelona",
+          "zip": "08025",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Barcelona Hospital del Mar",
+          "city": "Barcelona",
+          "zip": "08033",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Clinic de Barcelona",
+          "city": "Barcelona",
+          "zip": "08036",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Universitario Puerta de Hierro",
+          "city": "Madrid",
+          "zip": "28222",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Clínico Universitario de Salamanca",
+          "city": "Salamanca",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.42972,
+            "lon": -3.67975
+          }
+        },
+        {
+          "facility": "Valencia Hospital Clinico",
+          "city": "Valencia",
+          "zip": "46010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

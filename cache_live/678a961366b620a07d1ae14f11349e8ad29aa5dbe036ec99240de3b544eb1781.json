@@ -1,0 +1,232 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04151537",
+      "orgStudyIdInfo": {
+        "id": "2019/1084"
+      },
+      "organization": {
+        "fullName": "Norwegian University of Science and Technology",
+        "class": "OTHER"
+      },
+      "briefTitle": "Personal Activity Intelligence in the Treatment of High Blood Pressure",
+      "officialTitle": "Personal Activity Intelligence (PAI) in the Treatment of High Blood Pressure: A Pilot Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-10",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-10-21",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-05-19",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-05-19",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-10-24",
+      "studyFirstSubmitQcDate": "2019-11-02",
+      "studyFirstPostDateStruct": {
+        "date": "2019-11-05",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2020-10-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-10-19",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Norwegian University of Science and Technology",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Personal Activity Intelligence (PAI) is a novel metric developed to quantify the amount of routine physical activity (PA) needed to improve health and reduce cardiovascular (CV) mortality. The PAI metric can be integrated in PA monitors to promote and track PA. The present pilot study is a 12-week randomized controlled trial designed to test the efficacy of PAI in the treatment of high blood pressure. The primary aim is to investigate how routine PA (expressed as PAI level) affect ambulatory blood pressure by comparing the effect of the intervention (≥100 PAI per week) with a control recommended to follow national PA guidelines. The secondary aims are to investigate the effect on a comprehensive CV risk profile, and to model the effect of PAI level on multiple CV parameters. The CV risk profile includes office BP, arterial stiffness, stroke volume, heart rate, cardiac output, systemic vascular resistance, cardiorespiratory fitness, body composition, blood lipid profile and serum markers of glucose metabolism, kidney failure and systemic inflammation."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Essential Hypertension"
+      ],
+      "keywords": [
+        "Hypertension",
+        "Exercise Therapy",
+        "Blood Pressure Monitoring, Ambulatory",
+        "Physical activity monitoring"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 26,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intervention",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "The intervention group is provided with a PA tracker that enables self-monitoring of PA and are instructed to obtain a personalized PA goal on a weekly basis.",
+          "interventionNames": [
+            "Behavioral: Personal Activity Intelligence"
+          ]
+        },
+        {
+          "label": "Control",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "The control group is recommended to follow national PA guidelines, which can be considered as the 'intervention' offered to the public.",
+          "interventionNames": [
+            "Behavioral: Physical Activity Guidelines"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Personal Activity Intelligence",
+          "description": "The intervention group is provided with a PAI monitor (wristband) with a user interface (app) to track their own PAI level and are instructed to obtain at least 100 PAI on a weekly basis.",
+          "armGroupLabels": [
+            "Intervention"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Physical Activity Guidelines",
+          "description": "The control group is recommended to follow national PA guidelines, meaning 150 minutes of moderate-intensity PA or 75 minutes of vigorous-intensity PA, or a combination there of. The control group is provided with a PAI monitor (wristband) without any user interface and are thus blinded to track their own PAI level.",
+          "armGroupLabels": [
+            "Control"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "24 hour blood pressure",
+          "description": "Change in average systolic and diastolic blood pressure over 24 hours (mmHg). 24h blood pressure is measured automatically 2-3 times per hour with an oscillometric ambulatory blood pressure monitor.",
+          "timeFrame": "Pre- to postintervention (12 weeks)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Office blood pressure",
+          "description": "Change in average systolic and diastolic blood pressure at clinical visits (mmHg).\n\nOffice blood pressure is measured automatically 2-3 times after 5 minutes of rest with an oscillometric blood pressure monitor at an unattended clinical office.",
+          "timeFrame": "Pre- to postintervention (12 weeks)"
+        },
+        {
+          "measure": "Arterial stiffness",
+          "description": "Change in carotid to femoral pulse wave velocity (m/s). Arterial stiffness is measured non-invasive with a validated Pulse Wave Velocity System.",
+          "timeFrame": "Pre- to postintervention (12 weeks)"
+        },
+        {
+          "measure": "Cardiac function",
+          "description": "Change in stroke volume (L/beat). Cardiac function is measured with echocardiography by qualified physician or ultrasound technician .",
+          "timeFrame": "Pre- to postintervention (12 weeks)"
+        },
+        {
+          "measure": "Cardiorespiratory fitness",
+          "description": "Change in maximal oxygen uptake per kg body mass (ml/min/kg). Cardiorespiratory fitness measured directly with cardiopulmonary exercise testing on a treadmill until maximal effort.",
+          "timeFrame": "Pre- to postintervention (12 weeks)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Systolic blood pressure (SBP) 130-179 mmHg and/or diastolic blood pressure (DBP) 80-109 mmHg at first clinical visit (screening). Note, this criteria was updated after the inclusion of three participants. The initial inclusion criteria were SBP 140-179 mmHg and/or DBP 90-109 mmHg.\n* Not currently engaged in regular physical activity (\\< 50 PAI per week based on self-reported PA)\n\nExclusion Criteria:\n\n* Usage of blood pressure medication\n* Usage of lipid modifying agents\n* Diabetes\n* Cardiovascular disease\n* Diagnosed secondary hypertension\n* Disease or disability that prevent exercise or participation in testing",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "45 Years",
+      "maximumAge": "64 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Ulrik Wisløff, PhD",
+          "affiliation": "NTNU, Department of Circulation and Medical Imaging",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Øystein Risa",
+          "affiliation": "NTNU, Department of Circulation and Medical Imaging",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "NTNU Department of Circulation and Medical Imaging",
+          "city": "Trondheim",
+          "country": "Norway",
+          "geoPoint": {
+            "lat": 63.43049,
+            "lon": 10.39506
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "27984009",
+          "type": "BACKGROUND",
+          "citation": "Nes BM, Gutvik CR, Lavie CJ, Nauman J, Wisloff U. Personalized Activity Intelligence (PAI) for Prevention of Cardiovascular Disease and Promotion of Physical Activity. Am J Med. 2017 Mar;130(3):328-336. doi: 10.1016/j.amjmed.2016.09.031. Epub 2016 Oct 29."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000075222",
+          "term": "Essential Hypertension"
+        },
+        {
+          "id": "D006973",
+          "term": "Hypertension"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

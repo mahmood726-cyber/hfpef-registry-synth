@@ -1,0 +1,176 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04509089",
+      "orgStudyIdInfo": {
+        "id": "CIP-001"
+      },
+      "organization": {
+        "fullName": "Suremedix Ltd",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Establishing Correlation Between Non-invasive Pulmonary Blood Pressure Readings and Swan-Ganz Results",
+      "officialTitle": "Establishing Correlation Between Non-invasive Pulmonary Blood Pressure Readings and Swan-Ganz Results"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-07",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-12-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-01-29",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-03-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2020-08-08",
+      "studyFirstSubmitQcDate": "2020-08-10",
+      "studyFirstPostDateStruct": {
+        "date": "2020-08-11",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-07-28",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-08-04",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Suremedix Ltd",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Pulmonary hypertension (PH) is prognostic indicator in heart failure patients for poor outcome, however, it is challenging for monitoring. The current study is designed to explore whether data generated using Suremedix Device including a pump and non-invasive sensors including, chest motion sensor, photoplethysmography (PPG), and Electrocardiography (ECG), can be used to identify detectable oscillations that are correlated with the mean, the diastolic and the systolic pressure values of the pulmonary artery, as measured using the gold-standard Swan-Ganz method."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Congestive Heart Failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "OTHER",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 15,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Experimental",
+          "type": "EXPERIMENTAL",
+          "description": "Congestive heart failure patients scheduled for pulmonary artery catheterization (Swan-Ganz)",
+          "interventionNames": [
+            "Device: Suremedix Device"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Suremedix Device",
+          "description": "Performing measurements using the Suremedix Device by applying gradually ascending air pressure to the subject lungs through a mouse piece while measuring respiratory chest motion, PPG and ECG.",
+          "armGroupLabels": [
+            "Experimental"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Pressure waveform",
+          "description": "Correlation between specific changes observed in the pressure waveform recorded by the SureMedix Device and the mean, diastolic and systolic pressure values of the pulmonary artery as measured using the gold-standard Swan-Ganz method.",
+          "timeFrame": "15 minutes"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Heart Failure patient scheduled for right heart catheterization (Swan-Ganz)\n* Age range: 18 - 80 years\n* Pulmonary artery systolic pressure values ≤50 mmHg according to Swan - Ganz measurement\n* Able and willing to sign informed consent\n\nExclusion Criteria:\n\n* History or current diagnosis of asthma or any other significant pulmonary disease\n* Jugular access site\n* Atrial fibrillation\n* Prior lung volume reduction surgery, lobectomy or pneumonectomy, or lung transplantation\n* Requirement for any ventilator support (including CPAP or BPAP)\n* Use of long-term oxygen therapy\n* Known upper airway obstruction\n* Known susceptibility to pneumothorax or pneumothorax in the medical history\n* Chest surgery or pacemaker implantation in the prior 6 months\n* Significant primary valvular disease\n* Major cardiovascular event within the prior 3 months\n* Current heavy smoker (more than one pack per day)\n* Any diagnosed respiratory tract infection (including upper respiratory tract), airway or lung disease or COPD exacerbation in the prior 3 months\n* Female patient pregnant or breast-feeding or planning to be pregnant in the next year\n* Diagnosis of Obstructive Sleep Apnea\n* Unexplained muscle weakness. Unable to comfortably lie down for 30 minutes\n* Current hospitalization due to CHF deterioration\n* Patients with a Body Mass Index (BMI) ≥ 40kg/m2\n* Any condition that the PI believes could interfere with the intent of the study or would make participation not in the best interest of the patient",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Ben Ben Avraham, MD",
+          "affiliation": "Rabin Medical Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Rabin Medical Center",
+          "city": "Petah Tikva",
+          "zip": "49100",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.08707,
+            "lon": 34.88747
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

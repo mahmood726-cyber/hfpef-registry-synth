@@ -1,0 +1,748 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04986332",
+      "orgStudyIdInfo": {
+        "id": "MACH Study"
+      },
+      "organization": {
+        "fullName": "Azienda Ospedaliera Universitaria Policlinico Paolo Giaccone Palermo",
+        "class": "OTHER"
+      },
+      "briefTitle": "Multidimensional Approach for COPD and High Complexity",
+      "officialTitle": "Clinical and Prognostic Evaluation of COPD Patients: Managing Multimorbidity Using a Multidimensional Approach",
+      "acronym": "MACH"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-02",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-09-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-09-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-09-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-07-09",
+      "studyFirstSubmitQcDate": "2021-07-30",
+      "studyFirstPostDateStruct": {
+        "date": "2021-08-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-02-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-02-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Prof Domenico Di Raimondo",
+        "investigatorTitle": "Associate Professor",
+        "investigatorAffiliation": "Azienda Ospedaliera Universitaria Policlinico Paolo Giaccone Palermo"
+      },
+      "leadSponsor": {
+        "name": "Azienda Ospedaliera Universitaria Policlinico Paolo Giaccone Palermo",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The MACH Study trial will examine the impact on high complexity COPD patients of a multidimensional approach (moderate-intensity physical activity program and clinic-therapeutic re-evaluation of the participants)",
+      "detailedDescription": "MACH Study investigators designed a trial to evaluate in high complexity subjects (at least 2 chronic diseases):\n\n* in the COPD cohort, the impact of a multidimensional approach involving global therapeutic remodeling (re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions) plus a 24-weeks moderate intensity physical activity program on: number of total and severe exacerbations; number of total and COPD/related hospitalizations; quality of life; survival over a 36 months follow-up period;\n* to establish whether a higher index of comorbidity and polypharmacy is independently associated with a worst clinical severity of COPD, an increased risk of exacerbations and a reduced survival;\n* the role played by specific clinical-laboratory markers of comorbidity (blood iron profile, hemochromocytometric parameters, renal function, blood pressure profile, glycemic compensation, Body Mass Index, lipid profile) and specific multidimensional tests in identifying COPD patients with higher clinical risk of rapid disease decline and/or higher risk of exacerbations and COPD-related hospitalizations;\n* to establish the role of Heart Failure as the most impactful comorbidity of COPD: assess the incidence rate and the relative risk of total/severe exacerbation and the incidence rate and the relative risk of total/COPD-related hospitalizations in Heart Failure/COPD patients over a 36-months follow-up period;\n* at the enrollment time (zero time) and after 12, 24 and 36 months, circulating levels of several systemic inflammation biomarkers. Correlate their variation over time with the comorbidity indexes, global pharmacological therapeutic redefinition and lifestyle intervention centered on 24-weeks physical activity program;\n* at the enrollment time (zero time) and after 12, 24 and 36 months, plasma levels of the main miRNAs involved in the COPD pathogenesis. Correlate their variation over time with the comorbidity indexes, global pharmacological therapeutic redefinition and lifestyle intervention centered on 24-weeks physical activity program;\n* at the enrollment time (zero time) and after 12, 24 and 36 months, plasma levels of the main myokines currently associated with the systemic effects of physical activity, correlating their baseline concentration to clinical-anthropometric parameters and type and number of chronic diseases and their variation over time in relation to the global pharmacological therapeutic redefinition and the 24-weeks physical activity program;"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Chronic Obstructive Pulmonary Disease",
+        "Heart Failure",
+        "Chronic Disease"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Three parallel non-randomized groups",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 300,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "GROUP \"COPD\"",
+          "type": "EXPERIMENTAL",
+          "description": "100 participants, 50 males and 50 females with COPD and multiple chronic conditions",
+          "interventionNames": [
+            "Behavioral: Physical activity program",
+            "Other: Global therapeutic remodeling"
+          ]
+        },
+        {
+          "label": "GROUP \"HF\"",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "100 participants, 50 males and 50 females with HF and multiple chronic conditions",
+          "interventionNames": [
+            "Behavioral: Physical activity program",
+            "Other: Global therapeutic remodeling"
+          ]
+        },
+        {
+          "label": "GROUP \"HEALTHY PARTICIPANTS\"",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "100 healthy participants or \"control group\" which will be compared to Group A and Group B by age and sex",
+          "interventionNames": [
+            "Behavioral: Physical activity program",
+            "Other: Global therapeutic remodeling"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Physical activity program",
+          "description": "24-weeks moderate-intensity physical activity program",
+          "armGroupLabels": [
+            "GROUP \"COPD\"",
+            "GROUP \"HEALTHY PARTICIPANTS\"",
+            "GROUP \"HF\""
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Global therapeutic remodeling",
+          "description": "Re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions",
+          "armGroupLabels": [
+            "GROUP \"COPD\"",
+            "GROUP \"HEALTHY PARTICIPANTS\"",
+            "GROUP \"HF\""
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Cumulative incidence of COPD exacerbation of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the number of COPD exacerbation per year.\n\nThe severity of COPD exacerbation will be assessed as follow:\n\nMild: treated with short acting bronchodilators only; Moderate: treated with bronchodilators and/or oral corticosteroids; Severe: patient requires hospitalization or visits the emergency room;",
+          "timeFrame": "Baseline to 12 months"
+        },
+        {
+          "measure": "Cumulative incidence of COPD exacerbation of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the number of COPD exacerbation per year.\n\nThe severity of COPD exacerbation will be assessed as follow:\n\nMild: treated with short acting bronchodilators only; Moderate: treated with bronchodilators and/or oral corticosteroids; Severe: patient requires hospitalization or visits the emergency room;",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Cumulative incidence of COPD exacerbation of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the number of COPD exacerbation per year.\n\nThe severity of COPD exacerbation will be assessed as follow:\n\nMild: treated with short acting bronchodilators only; Moderate: treated with bronchodilators and/or oral corticosteroids; Severe: patient requires hospitalization or visits the emergency room;",
+          "timeFrame": "Baseline to 36 months"
+        },
+        {
+          "measure": "Cumulative incidence of hospitalization for pneumonia of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the number of hospitalization per year for pneumonia.\n\nPneumonia will be ascertain clinically and/or radiologically.",
+          "timeFrame": "Baseline to 12 months"
+        },
+        {
+          "measure": "Cumulative incidence of hospitalization for pneumonia of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the number of hospitalization per year for pneumonia.\n\nPneumonia will be ascertain clinically and/or radiologically.",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Cumulative incidence of hospitalization for pneumonia of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the number of hospitalization per year for severe COPD exacerbation and pneumonia.\n\nPneumonia will be ascertain clinically and/or radiologically.",
+          "timeFrame": "Baseline to 36 months"
+        },
+        {
+          "measure": "Cumulative incidence of hospitalizations for any cause of Group A",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the number of hospitalization for any cause per year.",
+          "timeFrame": "Baseline to 12 months"
+        },
+        {
+          "measure": "Cumulative incidence of hospitalizations for any cause of Group A",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the number of hospitalization for any cause per year.",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Cumulative incidence of hospitalizations for any cause of Group A",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the number of hospitalization for any cause per year.",
+          "timeFrame": "Baseline to 36 months"
+        },
+        {
+          "measure": "Mortality rate of Group \"COPD\"",
+          "description": "The number of total deaths in the time frame of 12 months in Group \"COPD\"",
+          "timeFrame": "Baseline to 12 months"
+        },
+        {
+          "measure": "Mortality rate of Group \"COPD\"",
+          "description": "The number of total deaths in the time frame of 24 months in Group \"COPD\"",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Mortality rate of Group \"COPD\"",
+          "description": "The number of total deaths in the time frame of 36 months in Group \"COPD\"",
+          "timeFrame": "Baseline to 36 months"
+        },
+        {
+          "measure": "Change over time from baseline in Mini Nutritional Assessment-Short Form total score of Group \"COPD\"",
+          "description": "Mini Nutritional Assessment is a simple tool that helps physicians to have knowledge of nutritional status in elderly persons. It was well validated in the hospital, community and long-term care settings.",
+          "timeFrame": "Baseline to post-interventions at 12 months"
+        },
+        {
+          "measure": "Change over time from baseline in Mini Nutritional Assessment-Short Form total score of Group \"COPD\"",
+          "description": "Mini Nutritional Assessment is a simple tool that helps physicians to have knowledge of nutritional status in elderly persons. It was well validated in the hospital, community and long-term care settings.",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Change over time from baseline in Mini Nutritional Assessment-Short Form total score of Group \"COPD\"",
+          "description": "Mini Nutritional Assessment is a simple tool that helps physicians to have knowledge of nutritional status in elderly persons. It was well validated in the hospital, community and long-term care settings.",
+          "timeFrame": "Baseline to 36 months"
+        },
+        {
+          "measure": "Change over time from baseline in EQ-5D-3L of Group \"COPD\"",
+          "description": "The EQ-5D-3L is a generic, multidimensional, health-related, quality-of-life instrument using a three-level scale 1-3 (no problem, some problems and extreme problems)",
+          "timeFrame": "Baseline to post-interventions at 12 months"
+        },
+        {
+          "measure": "Change over time from baseline in EQ-5D-3L of Group \"COPD\"",
+          "description": "The EQ-5D-3L is a generic, multidimensional, health-related, quality-of-life instrument using a three-level scale 1-3 (no problem, some problems and extreme problems)",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Change over time from baseline in EQ-5D-3L of Group \"COPD\"",
+          "description": "The EQ-5D-3L is a generic, multidimensional, health-related, quality-of-life instrument using a three-level scale 1-3 (no problem, some problems and extreme problems)",
+          "timeFrame": "Baseline to 36 months"
+        },
+        {
+          "measure": "Change over time from baseline in mMRC of Group \"COPD\"",
+          "description": "mMRC is a simple tool that investigates the measure of breathlessness of COPD subjects.\n\nGrade 0: \"I only get breathless with strenuous exercise \" Grade 1: I get short of breath when hurrying on the level or walking up a slight hill\" Grade 2: \"I walk slower than people of same age on the level because of breathlessness or I have to stop to catch breath when walking at their own pace on the level\" Grade 3: \"I stop for breath after walking ∼100 m or after few minutes on the level\" Grade 4: \"I am too breathless to leave the house, or breathless when dressing or undressing\"",
+          "timeFrame": "Baseline to post-interventions at 12 months"
+        },
+        {
+          "measure": "Change over time from baseline in mMRC of Group \"COPD\"",
+          "description": "mMRC is a simple tool that investigates the measure of breathlessness of COPD subjects.\n\nGrade 0: \"I only get breathless with strenuous exercise \" Grade 1: I get short of breath when hurrying on the level or walking up a slight hill\" Grade 2: \"I walk slower than people of same age on the level because of breathlessness or I have to stop to catch breath when walking at their own pace on the level\" Grade 3: \"I stop for breath after walking ∼100 m or after few minutes on the level\" Grade 4: \"I am too breathless to leave the house, or breathless when dressing or undressing\"",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Change over time from baseline in mMRC of Group \"COPD\"",
+          "description": "mMRC is a simple tool that investigates the measure of breathlessness of COPD subjects.\n\nGrade 0: \"I only get breathless with strenuous exercise \" Grade 1: I get short of breath when hurrying on the level or walking up a slight hill\" Grade 2: \"I walk slower than people of same age on the level because of breathlessness or I have to stop to catch breath when walking at their own pace on the level\" Grade 3: \"I stop for breath after walking ∼100 m or after few minutes on the level\" Grade 4: \"I am too breathless to leave the house, or breathless when dressing or undressing\"",
+          "timeFrame": "Baseline to 36 months"
+        },
+        {
+          "measure": "Change over time from baseline in CAT of Group \"COPD\"",
+          "description": "The COPD Assessment Test (CAT) is a questionnaire for people with COPD. It is designed to measure the impact of COPD on a person's life, and how this changes over time. The CAT is simple to administer, and aims to help clinicians, with their patients, better manage COPD.",
+          "timeFrame": "Baseline to post-interventions at 12 months"
+        },
+        {
+          "measure": "Change over time from baseline in CAT of Group \"COPD\"",
+          "description": "The COPD Assessment Test (CAT) is a questionnaire for people with COPD. It is designed to measure the impact of COPD on a person's life, and how this changes over time. The CAT is simple to administer, and aims to help clinicians, with their patients, better manage COPD.",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Change over time from baseline in CAT of Group \"COPD\"",
+          "description": "The COPD Assessment Test (CAT) is a questionnaire for people with COPD. It is designed to measure the impact of COPD on a person's life, and how this changes over time. The CAT is simple to administer, and aims to help clinicians, with their patients, better manage COPD.",
+          "timeFrame": "Baseline to 36 months"
+        },
+        {
+          "measure": "Change over time from baseline in Barthel Index of Group \"COPD\"",
+          "description": "The Maryland Disability Index (formally Barthel Index) was codified in the late 1950s by the english nurse Barthel. It allows to have knowledge of the degree of subject's independence. It consists of 10 items that explore common \"Activities of Daily Living (ADL)\", from nutrition to the ability to climb or descend stairs. Each item is assigned an arbitrary score of 5, 10 or 15 points (maximum 100). The sum indicates the degree of autonomy of the patient in carrying out daily activities.",
+          "timeFrame": "Baseline to post interventions at 12 months"
+        },
+        {
+          "measure": "Change over time from baseline in Barthel Index of Group \"COPD\"",
+          "description": "The Maryland Disability Index (formally Barthel Index) was codified in the late 1950s by the english nurse Barthel. It allows to have knowledge of the degree of subject's independence. It consists of 10 items that explore common \"Activities of Daily Living (ADL)\", from nutrition to the ability to climb or descend stairs. Each item is assigned an arbitrary score of 5, 10 or 15 points (maximum 100). The sum indicates the degree of autonomy of the patient in carrying out daily activities.",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Change over time from baseline in Barthel Index of Group \"COPD\"",
+          "description": "The Maryland Disability Index (formally Barthel Index) was codified in the late 1950s by the english nurse Barthel. It allows to have knowledge of the degree of subject's independence. It consists of 10 items that explore common \"Activities of Daily Living (ADL)\", from nutrition to the ability to climb or descend stairs. Each item is assigned an arbitrary score of 5, 10 or 15 points (maximum 100). The sum indicates the degree of autonomy of the patient in carrying out daily activities.",
+          "timeFrame": "Baseline to 36 months"
+        },
+        {
+          "measure": "Change over time from baseline in 6-minutes Walking Test (6-mWT) of Group \"COPD\"",
+          "description": "The 6-mWT measures the distance a subject walks while walking fast. The protocol used is standardized (a protocol with written instructions identical for all is used) and performed by specially trained personnel",
+          "timeFrame": "Baseline to post interventions at 12 months"
+        },
+        {
+          "measure": "Change over time from baseline in 6-minutes Walking Test (6-mWT) of Group \"COPD\"",
+          "description": "The 6-mWT measures the distance a subject walks while walking fast. The protocol used is standardized (a protocol with written instructions identical for all is used) and performed by specially trained personnel",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Change over time from baseline in 6-minutes Walking Test (6-mWT) of Group \"COPD\"",
+          "description": "The 6-mWT measures the distance a subject walks while walking fast. The protocol used is standardized (a protocol with written instructions identical for all is used) and performed by specially trained personnel",
+          "timeFrame": "Baseline to 36 months"
+        },
+        {
+          "measure": "Change over time from baseline in BODE Index of Group \"COPD\"",
+          "description": "The BODE index, for Body-mass index, airflow Obstruction, Dyspnea, and Exercise, is a multidimensional scoring system and capacity index originally designed to predict mortality in patients with COPD.",
+          "timeFrame": "Baseline to post-interventions at 12 months"
+        },
+        {
+          "measure": "Change over time from baseline in BODE Index of Group \"COPD\"",
+          "description": "The BODE index, for Body-mass index, airflow Obstruction, Dyspnea, and Exercise, is a multidimensional scoring system and capacity index originally designed to predict mortality in patients with COPD.",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Change over time from baseline in BODE Index of Group \"COPD\"",
+          "description": "The BODE index, for Body-mass index, airflow Obstruction, Dyspnea, and Exercise, is a multidimensional scoring system and capacity index originally designed to predict mortality in patients with COPD.",
+          "timeFrame": "Baseline to 36 months"
+        },
+        {
+          "measure": "Change over time from baseline in 24-hour average systolic and diastolic pressures of Group \"COPD\"",
+          "description": "24-hour average systolic and diastolic pressures will be assessed performing a 24-hour Ambulatory Blood Pressure Monitoring.",
+          "timeFrame": "Baseline to post-interventions at 12 months"
+        },
+        {
+          "measure": "Change over time from baseline in 24-hour average systolic and diastolic pressures of Group \"COPD\"",
+          "description": "24-hour average systolic and diastolic pressures will be assessed performing a 24-hour Ambulatory Blood Pressure Monitoring.",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Change over time from baseline in 24-hour average systolic and diastolic pressures of Group \"COPD\"",
+          "description": "24-hour average systolic and diastolic pressures will be assessed performing a 24-hour Ambulatory Blood Pressure Monitoring.",
+          "timeFrame": "Baseline to 36 months"
+        },
+        {
+          "measure": "Change over time from baseline in heart rate variability of Group \"COPD\"",
+          "description": "Heart rate variability will be assessed performing a 24-ECG Holter",
+          "timeFrame": "Baseline to post-interventions at 12 months"
+        },
+        {
+          "measure": "Change over time from baseline in heart rate variability of Group \"COPD\"",
+          "description": "Heart rate variability will be assessed performing a 24-ECG Holter",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Change over time from baseline in heart rate variability of Group \"COPD\"",
+          "description": "Heart rate variability will be assessed performing a 24-ECG Holter",
+          "timeFrame": "Baseline to 36 months"
+        },
+        {
+          "measure": "Change over time from baseline in fasting blood sugar of Group \"COPD\"",
+          "description": "Fasting blood sugar will be performed using the the dextrostix",
+          "timeFrame": "Baseline to post-interventions at 12 months"
+        },
+        {
+          "measure": "Change over time from baseline in fasting blood sugar of Group \"COPD\"",
+          "description": "Fasting blood sugar will be performed using the the dextrostix",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Change over time from baseline in fasting blood sugar of Group \"COPD\"",
+          "description": "Fasting blood sugar will be performed using the the dextrostix",
+          "timeFrame": "Baseline to 36 months"
+        },
+        {
+          "measure": "Variation over time (percentage/year) of Forced Expiratory Volume in the 1st second (FEV1) of Group \"COPD\"",
+          "description": "Forced Expiratory Volume in the 1st second (FEV1) will be assessed performing the spirometric test",
+          "timeFrame": "Baseline to post-interventions at 12 months"
+        },
+        {
+          "measure": "Variation over time (percentage/year) of Forced Expiratory Volume in the 1st second (FEV1) of Group \"COPD\"",
+          "description": "Forced Expiratory Volume in the 1st second (FEV1) will be assessed performing the spirometric test",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Variation over time (percentage/year) of Forced Expiratory Volume in the 1st second (FEV1) of Group \"COPD\"",
+          "description": "Forced Expiratory Volume in the 1st second (FEV1) will be assessed performing the spirometric test",
+          "timeFrame": "Baseline to 36 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change over time from baseline on the circulating levels of Interleukin-6 (IL-6) (pg/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of IL-6 (pg/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to post-interventions at 12 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of Interleukin-6 (IL-6) (pg/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of IL-6 (pg/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of Interleukin-6 (IL-6) (pg/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of IL-6 (pg/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 36 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of IL-8 (pg/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of IL-8 (pg/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to post-interventions at 12 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of IL-8 (pg/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of IL-8 (pg/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of IL-8 (pg/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of IL-8 (pg/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 36 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of IL-10 (pg/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of IL-10 (pg/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to post-interventions at 12 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of IL-10 (pg/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of IL-10 (pg/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of IL-10 (pg/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of IL-10 (pg/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 36 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of IL-15 (pg/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of IL-15 (pg/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to post-interventions at 12 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of IL-15 (pg/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of IL-15 (pg/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of IL-15 (pg/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of IL-15 (pg/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 36 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of Tumor Necrosis Factor- α (TNF-α) (pg/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of Tumor Necrosis Factor- α (TNF-α) (pg/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to post-interventions at 12 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of Tumor Necrosis Factor- α (TNF-α) (pg/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of Tumor Necrosis Factor- α (TNF-α) (pg/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of Tumor Necrosis Factor- α (TNF-α) (pg/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of Tumor Necrosis Factor- α (TNF-α) (pg/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 36 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of IL-1β (pg/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of IL-1β (pg/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to post-interventions at 12 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of IL-1β (pg/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of IL-1β (pg/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of IL-1β (pg/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of IL-1β (pg/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 36 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of IL-1ra (pg/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of IL-1ra (pg/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to post-interventions at 12 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of IL-1ra (pg/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of IL-1ra (pg/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of IL-1ra (pg/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of IL-1ra (pg/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 36 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of soluble Tumor Necrosis Factor receptors (sTNFr) (ng/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of soluble Tumor Necrosis Factor receptors (sTNFr) (ng/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to post-interventions at 12 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of soluble Tumor Necrosis Factor receptors (sTNFr) (ng/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of soluble Tumor Necrosis Factor receptors (sTNFr) (ng/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of soluble Tumor Necrosis Factor receptors (sTNFr) (ng/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of soluble Tumor Necrosis Factor receptors (sTNFr) (ng/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 36 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of Vascular Endothelial Growth Factor (VEGF) (pg/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of Vascular Endothelial Growth Factor (VEGF) (pg/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to post-interventions at 12 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of Vascular Endothelial Growth Factor (VEGF) (pg/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of Vascular Endothelial Growth Factor (VEGF) (pg/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of Vascular Endothelial Growth Factor (VEGF) (pg/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of Vascular Endothelial Growth Factor (VEGF) (pg/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 36 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of Brain Derived Neurotrophic Factor (BDNF) (ng/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of Brain Derived Neurotrophic Factor (BDNF) (ng/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to post-interventions at 12 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of Brain Derived Neurotrophic Factor (BDNF) (ng/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of Brain Derived Neurotrophic Factor (BDNF) (ng/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of Brain Derived Neurotrophic Factor (BDNF) (ng/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of Brain Derived Neurotrophic Factor (BDNF) (ng/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 36 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of Insulin-like growth factor 1 (IGF-1) (ng/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of Insulin-like growth factor 1 (IGF-1) (ng/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to post-interventions at 12 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of Insulin-like growth factor 1 (IGF-1) (ng/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of Insulin-like growth factor 1 (IGF-1) (ng/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of Insulin-like growth factor 1 (IGF-1) (ng/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of Insulin-like growth factor 1 (IGF-1) (ng/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 36 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of Transforming Growth Factor-β (TGF-β) (ng/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of Transforming Growth Factor-β (TGF-β) (ng/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to post-interventions at 12 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of Transforming Growth Factor-β (TGF-β) (ng/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of Transforming Growth Factor-β (TGF-β) (ng/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of Transforming Growth Factor-β (TGF-β) (ng/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of Transforming Growth Factor-β (TGF-β) (ng/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 36 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of Irisin (ng/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of Irisin (ng/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to post-interventions at 12 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of Irisin (ng/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of Irisin (ng/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of Irisin (ng/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of Irisin (ng/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 36 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of Myostatin (pg/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of Myostatin (pg/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to post-interventions at 12 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of Myostatin (pg/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of Myostatin (pg/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of Myostatin (pg/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of Myostatin (pg/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 36 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of Follistatin (pg/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of Follistatin (pg/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to post-interventions at 12 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of Follistatin (pg/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of Follistatin (pg/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of Follistatin (pg/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of Follistatin (pg/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 36 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of β-aminoisobutyric acid (BAIBA) (ng/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of β-aminoisobutyric acid (BAIBA) (ng/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to post-interventions at 12 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of β-aminoisobutyric acid (BAIBA) (ng/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of β-aminoisobutyric acid (BAIBA) (ng/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Change over time from baseline on the circulating levels of β-aminoisobutyric acid (BAIBA) (ng/mL) of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions on the circulating levels of β-aminoisobutyric acid (BAIBA) (ng/mL) of Group \"COPD\"",
+          "timeFrame": "Baseline to 36 months"
+        },
+        {
+          "measure": "Change over time from baseline in miRNAs serum expression of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions in miRNAs serum expression of Group \"COPD\"\n\n* miRNA-1,\n* miRNA-21,\n* miRNA-210,\n* miRNA-221,\n* miRNA-223,\n* miRNA-1274a,\n* miRNA-101,\n* miRNA-144,\n* miRNA-133a,\n* miRNA-133b,\n* miRNA-206,\n* miRNA-208a,\n* miRNA-208b,\n* miRNA-499,\n* miRNA-532\n* miRNA-181a",
+          "timeFrame": "Baseline to post-interventions at 12 months"
+        },
+        {
+          "measure": "Change over time from baseline in miRNAs serum expression of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions in miRNAs serum expression of Group \"COPD\"\n\n* miRNA-1,\n* miRNA-21,\n* miRNA-210,\n* miRNA-221,\n* miRNA-223,\n* miRNA-1274a,\n* miRNA-101,\n* miRNA-144,\n* miRNA-133a,\n* miRNA-133b,\n* miRNA-206,\n* miRNA-208a,\n* miRNA-208b,\n* miRNA-499,\n* miRNA-532\n* miRNA-181a",
+          "timeFrame": "Baseline to 24 months"
+        },
+        {
+          "measure": "Change over time from baseline in miRNAs serum expression of Group \"COPD\"",
+          "description": "The effect of a 24-weeks moderate-intensity physical activity program and re-assessing and therapeutic optimization of the whole burden of chronic pathologic conditions in miRNAs serum expression of Group \"COPD\"\n\n* miRNA-1,\n* miRNA-21,\n* miRNA-210,\n* miRNA-221,\n* miRNA-223,\n* miRNA-1274a,\n* miRNA-101,\n* miRNA-144,\n* miRNA-133a,\n* miRNA-133b,\n* miRNA-206,\n* miRNA-208a,\n* miRNA-208b,\n* miRNA-499,\n* miRNA-532\n* miRNA-181a",
+          "timeFrame": "Baseline to 36 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Provide signed and dated informed consent form;\n* Willing to comply with all study procedures and be available for the duration of the study;\n* COPD diagnosis (according to \"Global Initiative for Chronic Obstructive Lung Disease\" (GOLD) 2020 Guidelines) or HF diagnosis (according to European Society of Cardiology (ESC) 2016 Guidelines for the diagnosis and treatment of acute and chronic heart failure);\n* Diagnosis at least two other chronic diseases, in addition to COPD (Group A) or HF (Group B). If COPD and HF diagnoses are both present in the same subject, COPD or HF will be considered as the index pathology in view of the clinical relevance and ergo, the participant will be included in the group A or in the group B;\n* Healthy subjects exclusively for Group C;\n\nChronic diseases are considered the following:\n\n* Type 1 or Type 2 Diabetes mellitus\n* Essential hypertension\n* Chronic Kidney Disease Stage 3b or worst (Glomerular Filtration Rate \\< 44 mL/min/1.73 m\\^2 estimated through the Cockcroft-Gault formule)\n* Chronic Anemia of moderate level of lower (Haemoglobin levels ≤10.9 g/dl) according to World Health Organization (WHO) classification\n* Chronic liver disease (every etiology)\n* Obesity (Body Mass Index ≥ 30)\n\nExclusion Criteria:\n\n* Active cigarette smoking;\n* Need for continuous supportive oxygen therapy, regardless of the flow required;\n* Distance covered during the 6 minutes walking test (6MWT) \\< 300 meters;\n* Unstable angina pectoris or angina pectoris at rest, a history of cardiac arrest, \"New York Heart Association\" (NYHA) Class III or IV congestive heart failure or severe left ventricular systolic dysfunction (EF \\<30%), acute myocarditis, pericarditis or hypertrophic myocardiopathy, clinically significant aortic stenosis, cardiac defibrillator, heart transplant, history of aortic aneurysm of at least 7 cm in diameter or aortic aneurysm repair;\n* Uncontrolled or partially controlled asthma despite optimal treatment; Sleep apnea syndrome; history of pulmonary fibrosis;\n* Recent acute cardiac or cerebral event in the last six months;\n* Child-Pugh B/C cirrhosis;\n* Body Mass Index ≥ 35;\n* Evidence of any arrhythmia (uncontrolled atrial fibrillation (heart rate of 100 beats per minute or more), left bundle branch block or cardiac pacemaker, etc.) that contraindicates or makes unsafe the fulfilment of the regular physical activity program, assessed on the basis of the clinical history, documentation presented and clinical and instrumental evaluation carried out at the time of enrollment;\n* Resting heart rate less than 45 beats per minute or greater than 100 beats per minute;\n* History of uncontrolled or partially controlled high blood pressure despite optimal treatment;\n* Regular physical activity practice (the level of habitual physical activity practiced will be ascertained by administering specific questionnaires. Only sedentary participants will be eligible);\n* Inability to perform the 24-weeks physical activity program for any cause (muscle, joint, respiratory, neurological, vascular, diabetes complications);\n* Any acute or chronic disease, already known at the time of enrollment, capable of altering systemic inflammation biomarkers and cytokine profile (e.g. sepsis, infections, immune-rheumatological diseases, hematological diseases, etc.).\n* Any muscle condition, inflammatory or not, capable of altering muscular myokines' release (polymyositis, rheumatic polymyalgia, fibromyalgia);\n* Acute bleeding at the time of enrollment or any anemia that would have been required urgent transfusion within the past three months;\n* Solid or hematological neoplasia under active (at the time of enrollment) or recent (ended less than 6 months earlier) chemo-radiotherapy treatment at the time of enrollment;\n* Current diagnosis of schizophrenia, other psychotic disorders or bipolar disorder uncontrolled or partially controlled despite optimal treatment;\n* Self-report of alcohol or substance abuse within the past twelve months, current consumption of more than 14 alcoholic drinks per week, and/or current acute treatment or rehabilitation program for these problems;\n* Severe cognitive impairment or anything that would place the individual at increased risk or preclude the individual's full compliance with or completion of the study;\n* Conditions not specifically mentioned above that may serve as criteria for exclusion at the discretion of the PI and study staff;",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "45 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Domenico Di Raimondo",
+          "role": "CONTACT",
+          "phone": "+390916552180",
+          "email": "domenico.diraimondo@unipa.it"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Domenico Di Raimondo",
+          "affiliation": "University of Palermo",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Domenico Di Raimondo",
+          "status": "RECRUITING",
+          "city": "Palermo",
+          "zip": "90127",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Domenico Di Raimondo",
+              "role": "CONTACT",
+              "phone": "+390916552180",
+              "email": "domenico.diraimondo@unipa.it"
+            },
+            {
+              "name": "Domenico Di Raimondo, MD PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Edoardo Pirera, MD",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.1166,
+            "lon": 13.3636
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D029424",
+          "term": "Pulmonary Disease, Chronic Obstructive"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D002908",
+          "term": "Chronic Disease"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D008173",
+          "term": "Lung Diseases, Obstructive"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D020969",
+          "term": "Disease Attributes"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

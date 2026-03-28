@@ -1,0 +1,444 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01447368",
+      "orgStudyIdInfo": {
+        "id": "CP-2015"
+      },
+      "organization": {
+        "fullName": "The University of Hong Kong",
+        "class": "OTHER"
+      },
+      "briefTitle": "Cinacalcet Versus Parathyroidectomy in Peritoneal Dialysis Patients",
+      "officialTitle": "Comparison of Medical Therapy (Oral Cinacalcet) Versus Surgical Therapy (Total Parathyroidectomy) on Vascular/Valvular Calcification in Chronic Peritoneal Dialysis Patients With Secondary Hyperparathyroidism - A Pilot Randomized Study",
+      "acronym": "PROCEED"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-10",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2010-05-10",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2017-05-22",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2017-05-22",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2011-10-04",
+      "studyFirstSubmitQcDate": "2011-10-04",
+      "studyFirstPostDateStruct": {
+        "date": "2011-10-06",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2021-10-04",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-10-12",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Dr. Angela Yee-Moon Wang",
+        "investigatorTitle": "Honorary Associate Professor",
+        "investigatorAffiliation": "The University of Hong Kong"
+      },
+      "leadSponsor": {
+        "name": "The University of Hong Kong",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a pilot, prospective randomized controlled study with the primary objective to evaluate and compare medical treatment of severe SHPT, namely oral cinacalcet versus surgical treatment, that is, parathyroidectomy with forearm autografting, on the progression of coronary artery and valvular calcification and left ventricular mass index in endstage renal disease patients receiving peritoneal dialysis over 12 months. The change in arterial stiffening, left ventricular volume, aortic valve calcium score and bone mineral density, nutritional status and biochemical parameters, quality of life measures will be evaluated as secondary objectives of this study.",
+      "detailedDescription": "Patients with severe secondary hyperparathyroidism (SHPT) are frequently complicated with vascular calcification. There is some suggestion that subtotal parathyroidectomy may reduce or stabilize vascular calcium scores in dialysis patients. Experimental data suggests that SHPT plays an important role in mediating uraemic arterial disease and that parathyroidectomy largely prevented the development of calcification. Cinacalcet has emerged as a novel therapy for the treatment of SHPT and has been shown to reduce the need for surgical parathyroidectomy. However, their effects on vascular, cardiac, bone and nutrition status have not been evaluated and compared with parathyroidectomy."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Kidney Failure",
+        "Secondary Hyperparathyroidism",
+        "Vascular Diseases"
+      ],
+      "keywords": [
+        "chronic kidney disease",
+        "peritoneal dialysis",
+        "secondary hyperparathyroidism",
+        "parathyroidectomy",
+        "vascular calcification",
+        "cinacalcet"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Cinacalcet medical treatment versus total parathyroidectomy with forearm autografting surgical treatment",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 67,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Cinacalcet treatment",
+          "type": "EXPERIMENTAL",
+          "description": "Oral Cinacalcet treatment arm, 25mg daily to be administered and gradually step up as required to control iPTH between 2 - 9 times lab reference range, Maximum dose to be given is 100mg daily",
+          "interventionNames": [
+            "Drug: Cinacalcet"
+          ]
+        },
+        {
+          "label": "Surgical total parathyroidectomy",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Surgical total parathyroidectomy with forearm autografting will be performed for patients randomized to this arm.",
+          "interventionNames": [
+            "Procedure: Surgical total parathyroidectomy with forearm autografting"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Cinacalcet",
+          "description": "oral cinacalcet 25mg once daily as a start and up titrated by 25mg daily according to response in lowering PTH and maximum oral dose allowed is 100mg daily",
+          "armGroupLabels": [
+            "Cinacalcet treatment"
+          ],
+          "otherNames": [
+            "Regpara"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Surgical total parathyroidectomy with forearm autografting",
+          "description": "Surgical total parathyroidectomy with forearm autografting will be performed",
+          "armGroupLabels": [
+            "Surgical total parathyroidectomy"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in coronary artery calcium score",
+          "description": "Change in coronary artery calcium score",
+          "timeFrame": "52 weeks"
+        },
+        {
+          "measure": "change in left ventricular mass index",
+          "description": "change in left ventricular mass index",
+          "timeFrame": "52 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "change in left ventricular volume and ejection fraction",
+          "description": "change in left ventricular volume and ejection fraction",
+          "timeFrame": "52 weeks"
+        },
+        {
+          "measure": "Change in aortic pulse wave velocity",
+          "description": "Change in aortic pulse wave velocity",
+          "timeFrame": "24 and 52 weeks"
+        },
+        {
+          "measure": "Change in aortic valve and mitral valve calcium score",
+          "description": "Change in aortic valve and mitral valve calcium score",
+          "timeFrame": "52 weeks"
+        },
+        {
+          "measure": "change in augmentation index and heart rate adjusted augmentation index",
+          "description": "change in augmentation index and heart rate adjusted augmentation index",
+          "timeFrame": "over 52 weeks"
+        },
+        {
+          "measure": "change in bone mineral density at forearm, spine and femur",
+          "description": "change in bone mineral density at forearm, spine and femur",
+          "timeFrame": "52 weeks"
+        },
+        {
+          "measure": "Quality of Life (QOL) scores",
+          "description": "Kidney Disease Outcome Quality Initiatives (KDOQI QOL domain scores)",
+          "timeFrame": "52 weeks"
+        },
+        {
+          "measure": "change in resting energy expenditure",
+          "description": "Change in resting energy expenditure",
+          "timeFrame": "24 and 52 weeks"
+        },
+        {
+          "measure": "change in lean muscle mass",
+          "description": "Change in lean muscle mass",
+          "timeFrame": "52 weeks"
+        },
+        {
+          "measure": "change in handgrip strength",
+          "description": "Change in handgrip strength",
+          "timeFrame": "24 and 52 weeks"
+        },
+        {
+          "measure": "Change in subjective global assessment",
+          "description": "Change in subjective global assessment",
+          "timeFrame": "24 and 52 weeks"
+        },
+        {
+          "measure": "Change in serum calcium and phosphorus",
+          "description": "Change in biochemical parameter Serum calcium and phosphorus",
+          "timeFrame": "over 52 weeks"
+        },
+        {
+          "measure": "change in intact parathyroid hormone (iPTH) level",
+          "description": "Change in biochemical parameter Parathyroid hormone",
+          "timeFrame": "52 weeks"
+        },
+        {
+          "measure": "Change in alkaline phosphatase",
+          "description": "Change in biochemical parameter alkaline phosphatase",
+          "timeFrame": "over 52 weeks"
+        },
+        {
+          "measure": "change in serum albumin",
+          "description": "CHange in biochemical parameter serum albumin",
+          "timeFrame": "over 52 weeks"
+        },
+        {
+          "measure": "change in lymphocyte count",
+          "description": "change in lymphocyte count",
+          "timeFrame": "over 52 weeks"
+        },
+        {
+          "measure": "change in lipid profile",
+          "description": "change in lipid profile",
+          "timeFrame": "over 52 weeks"
+        },
+        {
+          "measure": "change in systolic and diastolic blood pressure",
+          "description": "change in systolic and diastolic blood pressure",
+          "timeFrame": "over 52 weeks"
+        },
+        {
+          "measure": "change in subendocardial viability ratio",
+          "description": "change in subendocardial viability ratio",
+          "timeFrame": "over 52 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. ESRD patients on long-term peritoneal dialysis treatment, with elevated intact parathyroid hormone (iPTH) levels \\> 800pg/mL.\n2. Patients with parathyroid nodular or diffuse hyperplasia demonstrated on ultrasound imaging or radioisotope scan.\n3. Patients with age between 18 - 75 years.\n\nExclusion Criteria:\n\n1. Patients with background valvular heart disease\n2. Patients who are unfit for general anaesthesia\n3. Patients with acute myocardial infarction within recent two months\n4. Patients with poor general condition\n5. Patients with plans for living related kidney transplant within 1 year\n6. Patients with previous history of parathyroidectomy\n7. Patients with underlying malignancy\n8. Patients with hepatic dysfunction",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Angela YM Wang, MD, PhD",
+          "affiliation": "University of Hong Kong, Queen Mary Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Queen Mary Hospital and Tung Wah Hospital",
+          "city": "Hong Kong",
+          "zip": "0000",
+          "country": "Hong Kong",
+          "geoPoint": {
+            "lat": 22.27832,
+            "lon": 114.17469
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "38040277",
+          "type": "DERIVED",
+          "citation": "Wang AY, Tang TK, Yau YY, Lo WK. Impact of Parathyroidectomy Versus Oral Cinacalcet on Bone Mineral Density in Patients on Peritoneal Dialysis With Advanced Secondary Hyperparathyroidism: The PROCEED Pilot Randomized Trial. Am J Kidney Dis. 2024 Apr;83(4):456-466.e1. doi: 10.1053/j.ajkd.2023.10.007. Epub 2023 Nov 30."
+        },
+        {
+          "pmid": "36869794",
+          "type": "DERIVED",
+          "citation": "Wang AY, Lo WK, Cheung SC, Tang TK, Yau YY, Lang BH. Parathyroidectomy versus oral cinacalcet on cardiovascular parameters in peritoneal dialysis patients with advanced secondary hyperparathyroidism (PROCEED): a randomized trial. Nephrol Dial Transplant. 2023 Jul 31;38(8):1823-1835. doi: 10.1093/ndt/gfad043."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D051437",
+          "term": "Renal Insufficiency"
+        },
+        {
+          "id": "D006962",
+          "term": "Hyperparathyroidism, Secondary"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D051436",
+          "term": "Renal Insufficiency, Chronic"
+        },
+        {
+          "id": "D061205",
+          "term": "Vascular Calcification"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007674",
+          "term": "Kidney Diseases"
+        },
+        {
+          "id": "D014570",
+          "term": "Urologic Diseases"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D052801",
+          "term": "Male Urogenital Diseases"
+        },
+        {
+          "id": "D006961",
+          "term": "Hyperparathyroidism"
+        },
+        {
+          "id": "D010279",
+          "term": "Parathyroid Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D002908",
+          "term": "Chronic Disease"
+        },
+        {
+          "id": "D020969",
+          "term": "Disease Attributes"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D002114",
+          "term": "Calcinosis"
+        },
+        {
+          "id": "D002128",
+          "term": "Calcium Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000069449",
+          "term": "Cinacalcet"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009281",
+          "term": "Naphthalenes"
+        },
+        {
+          "id": "D011084",
+          "term": "Polycyclic Aromatic Hydrocarbons"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

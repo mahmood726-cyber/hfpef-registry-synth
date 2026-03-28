@@ -1,0 +1,230 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03845127",
+      "orgStudyIdInfo": {
+        "id": "CIP-0080"
+      },
+      "organization": {
+        "fullName": "BioVentrix",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Randomized Evaluation and Verification of Ventricular Enhancement",
+      "officialTitle": "Randomized Evaluation and Verification of Ventricular Enhancement: The REVIVE-HF Study",
+      "acronym": "REVIVE-HF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-04",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "Lack of enrollment",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-01-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-12-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-12-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-02-15",
+      "studyFirstSubmitQcDate": "2019-02-15",
+      "studyFirstPostDateStruct": {
+        "date": "2019-02-19",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-04-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-04-10",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "BioVentrix",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUnapprovedDevice": true,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "A prospective, multi-center, dual-arm randomized controlled study comparing treatment of ischemic cardiomyopathy induced heart failure with the Revivent TC System plus Guideline Directed Medical Therapy (GDMT) compared to GDMT alone.",
+      "detailedDescription": "The purpose of the study is to demonstrate that treatment with the BioVentrix Revivent TC System is more effective than guideline directed medical therapy for the treatment of ischemic heart failure. This is a prospective, multi-center, dual-arm randomized controlled study comparing treatment of ischemic cardiomyopathy induced heart failure with the Revivent TC System plus Guideline Directed Medical Therapy (GDMT) compared to GDMT alone. This study will include 180 patients of which 120 patients will be treated with the investigational device and 60 patients will be maintained on GDMT."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Ischemic Cardiomyopathy",
+        "Heart Failure"
+      ],
+      "keywords": [
+        "Ischemic Cardiomyopathy, Heart Failure, Revivent TC System"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "2:1 Randomized Study Design. Crossover permitted after 6 months.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Revivent TC Ventricular Enhancement System plus GDMT",
+          "type": "EXPERIMENTAL",
+          "description": "Patients will receive treatment with the Revivent TC Ventricular Enhancement System while being maintained on Guideline Directed Medical Therapy for treatment of Heart Failure.",
+          "interventionNames": [
+            "Device: Revivent TC Ventricular Enhancement System",
+            "Drug: GDMT"
+          ]
+        },
+        {
+          "label": "GDMT Only",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients will be maintained on Guideline Directed Medical Therapy for treatment of Heart Failure.",
+          "interventionNames": [
+            "Drug: GDMT"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Revivent TC Ventricular Enhancement System",
+          "description": "Anchors that are implanted into the left ventricle to reshape and reduce the size and increase the efficiency of the pumping chamber.",
+          "armGroupLabels": [
+            "Revivent TC Ventricular Enhancement System plus GDMT"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "GDMT",
+          "description": "Guideline Directed Medical Therapy",
+          "armGroupLabels": [
+            "GDMT Only",
+            "Revivent TC Ventricular Enhancement System plus GDMT"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "6 Minute Walking Distance",
+          "description": "Improvement of heart failure symptoms compared to baseline as measured by changes in 6 Minute Walking Distance.",
+          "timeFrame": "3 and 6 months after enrollment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Quality of Life Index",
+          "description": "Changes in Quality of Life Index measured compared to baseline using the MLHFQ Quality of Life Questionnaire.",
+          "timeFrame": "3 and 6 months after enrollment"
+        },
+        {
+          "measure": "NYHA Classification",
+          "description": "Changes in NYHA Heart Classification compared to baseline",
+          "timeFrame": "3 and 6 months after enrollment"
+        },
+        {
+          "measure": "LVESVI and LVEDVI",
+          "description": "Changes in left ventricular end systolic volume index (LVESVI) end diastolic volume index (LVEDVI) measured by echocardiogram compared to baseline",
+          "timeFrame": "3 and 6 months after enrollment"
+        },
+        {
+          "measure": "LVEF",
+          "description": "Changes in left ventricular ejection fraction (LVEF) measured by echocardiogram compared to baseline",
+          "timeFrame": "3 and 6 months after enrollment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients suffering from heart failure symptoms with cardiac dysfunction caused by a previous myocardial infarction resulting in increased LV systolic volume and in a discrete, contiguous, acontractile, (akinetic and/or dyskinetic) scar located in the antero-septal, apical (may extend laterally) region of the left ventricle.\n\nExclusion Criteria:\n\n* Calcified ventricular wall in the area of intended scar exclusion as verified by one or more appropriate imaging modalities;\n* Inadequate myocardial viability in regions remote from the scar.\n* Thrombus or intra-ventricular mass in the left atrium or ventricle as verified by echocardiography or equivalent that has not been adequately treated with weeks of anticoagulant at therapeutic levels;\n* Cardiac Resynchronization Therapy (CRT) consisting of Bi-ventricular pacemaker device (i.e., not ICD only) placement ≤ 60 days prior to treatment;\n* Patient intolerance or unwillingness to take anti-coagulation medication;\n* Functioning pacemaker leads in antero-apical RV, which, in the opinion of the investigator, would interfere with anchor placement;\n* Pulmonary Arterial Pressure \\> 60 mm Hg shown by right heart catheterization to be precapillary or unresponsive to vasodilator therapy;\n* Myocardial Infarction within 90 days prior to the procedure;\n* Previous right neck surgery, previous pericardiotomy, previous left chest surgery that precludes device placement;\n* Chronic renal failure with a serum creatinine \\>2 mg/dL;\n* Inoperable coronary disease with significant ischemia or pulmonary disease that would preclude transient single lung ventilation.\n* Baseline 6-minute walk distance of \\>450m",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Stefan Anker, MD",
+          "affiliation": "Berlin-Brandenburger Centrum für Regenerative Therapien (BCRT) und Medizinische Klinik m. S. Kardiologie",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Volkmar Falk, MD",
+          "affiliation": "Ärztlicher Direktor, Direktor der Klinik für Herz-Thorax-Gefässchirurgie, Deutsches Herzzentrum Berlin",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "German Heart Institute Berlin and Charité University Medicine Berlin",
+          "city": "Berlin",
+          "zip": "13353",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

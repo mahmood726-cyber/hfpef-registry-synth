@@ -1,0 +1,983 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06742281",
+      "orgStudyIdInfo": {
+        "id": "CVXGA-003"
+      },
+      "organization": {
+        "fullName": "CyanVac LLC",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Phase 2b, Randomized, Double-blind, Active-controlled Study of Single Dose CVXGA Intranasal COVID-19 Vaccine in Adults",
+      "officialTitle": "A Phase 2b, Randomized, Double-blind, Active-controlled Study of Single Dose CVXGA (CVXGA50) Intranasal COVID-19 Vaccine in Adults"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-11",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-12-05",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-06",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-06",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-12-17",
+      "studyFirstSubmitQcDate": "2024-12-17",
+      "studyFirstPostDateStruct": {
+        "date": "2024-12-19",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-11-04",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-11-05",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "CyanVac LLC",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Biomedical Advanced Research and Development Authority",
+          "class": "FED"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this trial is to assess the safety and relative efficacy of CVXGA (CVXGA50), a KP.2 containing vaccine, compared to COMIRNATY® (COVID-19 Vaccine, mRNA; 2024-2025 Formula), a currently approved COVID-19 vaccine in the prevention of symptomatic, RT-PCR-confirmed SARS-CoV-2 infection. The trial will enroll up to 434 healthy participants.",
+      "detailedDescription": "This is a double-blind, active comparator-controlled Phase 2b study to evaluate the efficacy, immunogenicity, and safety study in which eligible adult participants will be randomized 1:1 to receive CVXGA (CVXGA50) or COMIRNATY.\n\nNumber of Participants:\n\nThe proposed enrollment for this study is approximately 434 participants, that includes 16 participants enrolled in Sentinel Cohort 1 and Sentinel Cohort 2 (8 participants in each cohort).\n\nTreatment Assignment:\n\nParticipants in Sentinel Cohort 1 and Sentinel Cohort 2 will be assigned to receive a single dose of CVXGA (CVXGA50) intranasally and will not receive an IM placebo.\n\nAll other participants in the study will be randomized 1:1 to receive a single dose of CVXGA (CVXGA50) intranasally (plus a single dose of IM placebo), or a single dose of IM COMIRNATY (plus a single dose of intranasal placebo).\n\nStudy visits: Participants will be asked to complete approximately 6-7 clinic visits, over a period of approximately 12 months duration per participant."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "COVID-19"
+      ],
+      "keywords": [
+        "COVID-19 intranasal vaccine"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 432,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "CVXGA (CVXGA50)",
+          "type": "EXPERIMENTAL",
+          "description": "CVXGA is a recombinant parainfluenza virus type 5 (PIV5) engineered to express SARS-CoV-2 S gene from the KP.2 strain.",
+          "interventionNames": [
+            "Biological: CVXGA (CVXGA50)"
+          ]
+        },
+        {
+          "label": "COMIRNATY®",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "COMIRNATY® (COVID-19 vaccine, mRNA) suspension for injection, for intramuscular use, 2024-2025 Formula (BioNTech Manufacturing GmbH \\[Mainz, Germany\\] and Pfizer Inc. \\[New York, NY\\]) will be used as the comparator vaccine for this study.",
+          "interventionNames": [
+            "Biological: COMIRNATY®"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "CVXGA (CVXGA50)",
+          "description": "CVXGA is a recombinant parainfluenza virus type 5 (PIV5) engineered to express SARS-CoV-2 S gene from the KP.2 strain.",
+          "armGroupLabels": [
+            "CVXGA (CVXGA50)"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "COMIRNATY®",
+          "description": "COMIRNATY® (COVID-19 vaccine, mRNA) suspension for injection, for intramuscular use, 2024-2025 Formula (BioNTech Manufacturing GmbH \\[Mainz, Germany\\] and Pfizer Inc. \\[New York, NY\\]) will be used as the comparator vaccine for this study.",
+          "armGroupLabels": [
+            "COMIRNATY®"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of participants with symptomatic COVID-19 after boost with CVXGA (CVXGA50) compared to COMIRNATY® (COVID-19 Vaccine, mRNA; 2024-2025 Formula) to compare differences in relative vaccine efficacy.",
+          "description": "First occurrence of molecularly confirmed (RT-PCR-positive) symptomatic COVID-19 according to the case definition with onset at least 14 days post-vaccination through 12 months post-vaccination.\n\nCase definition: Virologically confirmed SARS-CoV-2 infection (by RT-PCR) with 1 or more of the following symptoms within ±7 days:\n\n* Fever or chills\n* Cough\n* Shortness of breath or difficulty breathing\n* Fatigue\n* Muscle or body aches\n* Headache\n* New loss of taste or smell\n* Sore throat\n* Congestion or runny nose\n* Nausea or vomiting\n* Diarrhea",
+          "timeFrame": "Day 14 to Day 366 post-vaccination."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Time until first occurrence of molecularly confirmed (RT-PCR-positive) symptomatic COVID-19 for CVXGA (CVXGA50) compared to COMIRNATY to determine durability",
+          "description": "First occurrence of molecularly confirmed (RT-PCR-positive) symptomatic COVID-19 according to the case definition with onset at least 14 days post-vaccination through 12 months post-vaccination evaluated separately in 0-6- and 6-12- month time periods.",
+          "timeFrame": "Day 1 to Day 366 post-vaccination."
+        },
+        {
+          "measure": "Percentage of participants with asymptomatic COVID-19 after boost with CVXGA (CVXGA50) compared to COMIRNATY to determine relative efficacy.",
+          "description": "First occurrence of molecularly confirmed (RT-PCR -positive) asymptomatic COVID-19 from 14 days post-vaccination through 12 months post-vaccination.",
+          "timeFrame": "Day 14 to Day 366 post-vaccination."
+        },
+        {
+          "measure": "Percentage of participants with severe COVID-19 after boost with CVXGA (CVXGA50) compared to COMIRNATY to determine relative efficacy.",
+          "description": "First occurrence of molecularly confirmed (RT-PCR-positive) severe COVID-19 according to the case definition from 14 days post-vaccination through 12 months post-vaccination.\n\nCase definition: Virologically confirmed SARS-CoV-2 infection (by RT-PCR) with any of the following:\n\n* Clinical signs at rest indicative of severe systemic illness (respiratory rate ≥30 breaths per minute, heart rate ≥125 beats per minute, SpO2 ≤93% on room air or PaO2/FiO2 \\<300 mm Hg)\n* Respiratory failure (defined as needing high-flow oxygen, noninvasive ventilation, mechanical ventilation, or extracorporeal membrane oxygenation \\[ECMO\\])\n* Evidence of shock (systolic blood pressure \\[SBP\\] \\<90 mm Hg, diastolic blood pressure \\[DBP\\] \\<60 mm Hg, or requiring vasopressors)\n* Significant acute renal, hepatic, or neurologic dysfunction\n* Admission to an intensive care unit (ICU)\n* Death",
+          "timeFrame": "Day 14 to Day 366 post-vaccination."
+        },
+        {
+          "measure": "The percentage of participants who experience any solicited local reactogenicity symptom pertaining to intranasal administration through 7 days post-vaccination.",
+          "description": "The percentage of participants who experience any solicited local reactogenicity symptom pertaining to intranasal administration through 7 days post-vaccination.",
+          "timeFrame": "Time Frame: Day 1 to Day 7 post-vaccination."
+        },
+        {
+          "measure": "The percentage of participants who experience any solicited local reactogenicity symptom pertaining to intramuscular (IM) administration through 7 days post-vaccination.",
+          "description": "The percentage of participants who experience any solicited local reactogenicity symptom pertaining to intramuscular (IM) administration through 7 days post-vaccination.",
+          "timeFrame": "Day 1 to Day 7 post-vaccination."
+        },
+        {
+          "measure": "The percentage of participants who experience any solicited systemic reactogenicity symptom through 7 days post-vaccination.",
+          "description": "The percentage of participants who experience any solicited systemic reactogenicity symptom through 7 days post-vaccination.",
+          "timeFrame": "Day 1 to Day 7 post-vaccination."
+        },
+        {
+          "measure": "The percentage of participants who experience any unsolicited adverse event (AE) through 30 days post-vaccination.",
+          "description": "The percentage of participants who experience any unsolicited adverse event (AE) through 30 days post-vaccination.",
+          "timeFrame": "Day 1 to Day 30 post-vaccination."
+        },
+        {
+          "measure": "The percentage of participants who experience the following events through 12 months post-vaccination: o serious adverse events (SAEs) o medically attended adverse events (MAAEs) o adverse events of special interest (AESIs)",
+          "description": "The percentage of participants who experience the following events through 12 months post-vaccination:\n\n* serious adverse events (SAEs)\n* medically attended adverse events (MAAEs)\n* adverse events of special interest (AESIs)",
+          "timeFrame": "Day 1 to Day 366 post-vaccination."
+        },
+        {
+          "measure": "The percentage of participants with any new or worsening clinically significant abnormal safety laboratory result (serum chemistries and hematology) through 7 days post-vaccination.",
+          "description": "The percentage of participants with any new or worsening clinically significant abnormal safety laboratory result (serum chemistries and hematology) through 7 days post-vaccination.",
+          "timeFrame": "Day 1 to Day 7 post-vaccination."
+        },
+        {
+          "measure": "Geometric mean titer (GMT) of SARS-CoV-2 specific neutralizing antibody (nAb) at Day 1 and Days 31, 91, 181, and 366 post-vaccination.",
+          "description": "Geometric mean titer (GMT) of SARS-CoV-2 specific neutralizing antibody (nAb) at Day 1 and Days 31, 91, 181, and 366 post-vaccination.",
+          "timeFrame": "Day 1 to Day 366 post-vaccination."
+        },
+        {
+          "measure": "Geometric mean fold rise (GMFR) of SARS-CoV-2 specific nAb relative to Day 1 at Days 31, 91, 181, and 366 post-vaccination.",
+          "description": "Geometric mean fold rise (GMFR) of SARS-CoV-2 specific nAb relative to Day 1 at Days 31, 91, 181, and 366 post-vaccination.",
+          "timeFrame": "Day 1 to Day 366 post-vaccination."
+        },
+        {
+          "measure": "GMT of anti-spike (S) protein-specific binding antibody (bAb) at Day 1 and Days 31, 91, 181, and 366 post-vaccination.",
+          "description": "GMT of anti-spike (S) protein-specific binding antibody (bAb) at Day 1 and Days 31, 91, 181, and 366 post-vaccination.",
+          "timeFrame": "Day 1 to Day 366 post-vaccination."
+        },
+        {
+          "measure": "GMFR of S protein-specific bAb relative to Day 1 at Days 31, 91, 181, and 366 post-vaccination.",
+          "description": "GMFR of S protein-specific bAb relative to Day 1 at Days 31, 91, 181, and 366 post-vaccination.",
+          "timeFrame": "Day 1 to Day 366 post-vaccination."
+        },
+        {
+          "measure": "GMT of S protein-specific IgA (nasal lining/saliva samples) at Day 1 and Days 31, 91, 181, and 366 post-vaccination.",
+          "description": "GMT of S protein-specific IgA (nasal lining/saliva samples) at Day 1 and Days 31, 91, 181, and 366 post-vaccination.",
+          "timeFrame": "Day 1 to Day 366 post-vaccination."
+        },
+        {
+          "measure": "GMFR of S protein-specific IgA (nasal lining/saliva samples) relative to Day 1 at Days 31, 91, 181, and 366 post-vaccination.",
+          "description": "GMFR of S protein-specific IgA (nasal lining/saliva samples) relative to Day 1 at Days 31, 91, 181, and 366 post-vaccination.",
+          "timeFrame": "Day 1 to Day 366 post-vaccination."
+        },
+        {
+          "measure": "The percentage of subjects with increases in S-specific cytokine increases by cell type.",
+          "description": "Intracellular cytokine and cell surface marker staining at Day 1 and Days 31, 91, 181, and 366 post-vaccination.",
+          "timeFrame": "Day 1 to Day 366 post-vaccination."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Is an adult ≥18 years of age at time of screening.\n* Has completed any WHO/FDA-authorized or approved primary COVID-19 vaccination series.\n* Has received last COVID-19 vaccine no less than 6 months prior to study enrollment (study vaccination).\n* If a female of childbearing potential who is sexually active, agrees to use an adequate method of birth control from Screening through 90 days after last study vaccination, and has used an adequate birth control method for at least 30 days prior to Screening.\n\nA. Female of childbearing potential is defined as post onset menarche and pre-menopausal person capable of becoming pregnant. This does not include females who meet any of the following conditions: a) menopausal \\>2 years; b) tubal ligation \\>1 year; c) bilateral salpingo-oophorectomy; or d) hysterectomy.\n\nB. Adequate contraception is defined as a contraceptive method with a failure rate of less than 1% per year when used consistently and correctly and when applicable, in accordance with the product label. Examples include: oral contraceptives, either combined or progestogen alone; injectable progestogen; implants of etonogestrel or levonorgestrel; estrogenic vaginal ring; percutaneous contraceptive patches; intrauterine device or intrauterine system; the female participant has exclusively female sexual partners; partner is sterile or otherwise unable to produce sperm (information on the person's sterility can come from the site personnel's review of the participant's medical records or interview with the participant regarding her medical history); male condom combined with a vaginal spermicide (foam, gel, film, cream, or suppository); or male condom combined with a female diaphragm, either with or without a vaginal spermicide (foam, gel, film, cream, or suppository).\n\n* Is medically stable, as determined by the site investigator (based on review of health status, vital signs, medical history, and physical examination).\n* Agrees to not participate in any other SARS-CoV-2 infection prevention trial (vaccine, drug, biologic, or pre-exposure prophylaxis \\[PrEP\\]) during participation in the study.\n* Willing and able to provide informed consent prior to initiation of study procedures.\n* Is available for all study visits, willing to participate in all study procedures, and not planning to relocate from the area for the duration of the study.\n\nExclusion Criteria:\n\n* Has an acute illness, as determined by the site investigator, within 72 hours prior to Screening or study vaccination.\n\n  (a. An acute illness that is nearly resolved, with only minor residual symptoms remaining, is allowable if, in the opinion of the site investigator, the residual symptoms will not interfere with the ability of study staff to assess safety parameters as required by the protocol.)\n* Has had a positive COVID-19 test within the 90 days prior to Screening or study vaccination.\n* Current or planned participation in any other interventional clinical trial.\n* Prior receipt of a PIV5-based vaccine (e.g., CVXGA1, CVXGA35, or BLB201 \\[an RSV vaccine being developed by CyanVac/Blue Lake Biotechnology\\]).\n* Participation in research involving any investigational product within 45 days prior to Screening or study vaccination.\n* Receipt of any approved or authorized products intended to prevent SARS-CoV-2 infection within 6 months prior to Screening (complete list provided in the pharmacy manual).\n* Receipt or anticipated receipt of, within 7 days prior through 31 days after study vaccination, any intranasal medication including FDA approved prescription or over-the-counter products or non-FDA approved alternative medicine products (e.g., intranasal Fluticasone {commonly used intranasal products that would be used, which is not herbal/naturopathic}, Ayurvedic oil or other naturopathic substances).\n* Anticipated use of nasal irrigation (e.g., Neti PotTM) from Screening through 31 days after study vaccination.\n* Receipt of blood products or immunoglobulins within 60 days prior to Screening or study vaccination.\n* Received influenza vaccination within 14 days prior to Screening or study vaccination, or any other vaccine within 30 days prior to Screening or study vaccination.\n* Any significant or uncontrolled autoimmune, immunodeficiency disease/condition, or autoinflammatory disorder (e.g. untreated or advanced human immunodeficiency virus \\[HIV\\] infection with CD4 counts \\<200 cells/mm3, history of acquired immunodeficiency syndrome \\[AIDS\\] defining illness without immune reconstitution, or clinical manifestations of symptomatic HIV).\n* Unstable illness (acute or chronic illness) requiring significant medical monitoring and intervention during the 90 days prior to Screening or study vaccination.\n* History of myocarditis, pericarditis, or idiopathic cardiomyopathy, or presence of any medical condition that, in the opinion of the investigator, increases risk of myocarditis or pericarditis.\n* Administration of immunosuppressants, systemic glucocorticoids, or other immune-modifying drugs within the following timeframes:\n\n  1. B-cell therapies within the 6 months prior to Screening or study vaccination.\n  2. Prednisone, ≥20 mg for more than 2 weeks, within the 30 days prior to Screening or study vaccination.\n  3. Monoclonal antibodies that may suppress aspects of immune response (e.g., Dupixent) within the 6 months prior to Screening or study vaccination.\n  4. Other medications in this category, including but not limited to high-dose inhaled corticosteroids (\\>800 mcg/day of beclomethasone dipropionate or equivalent); antimetabolites; transplant immunosuppressive agents; alkylating agents; cell-depleting agents; or cancer chemotherapeutics, within the 90 days prior to Screening or study vaccination.\n  5. Any medication for any period of time that, in the opinion of the site investigator, could impede immune response to vaccination.\n* Individuals who have close contact or high-risk contact with persons who may be severely immunocompromised, within 14 days following the study vaccination. High-risk contacts include but are not limited to:\n\n  1. Residents of nursing homes or rehabilitation facilities\n  2. Persons of any age with any significant immunodeficiency disease (e.g., untreated or advanced HIV, history of AIDS, or clinical manifestations of HIV)\n  3. Persons of any age being administered immunosuppressants, systemic glucocorticoids, or other immune-modifying drugs\n  4. Persons of any age with a known history of significant airway reactivity to viruses (e.g., severe asthma, advanced chronic obstructive disease, or cystic fibrosis)\n  5. Persons of any age immunosuppressed due to cancer or undergoing active treatment for cancer\n  6. Women who are pregnant, breastfeeding, or who plan to become pregnant during the study; and\n  7. Infants age ≤6 months.\n* Known contraindication to IM injection (e.g., bleeding diathesis, acquired coagulopathy) or to intranasal administration (e.g., severe nasal obstruction, significant chronic rhinitis, nasal septal defect causing significant breathing problems, unrepaired cleft palate, nasal polyps, or other nasal abnormality that, in the opinion of the investigator, may affect vaccine administration).\n* History of significant/severe wheezing or respiratory symptoms resulting in hospitalization or known bronchial hyperreactivity to viruses.\n* History of severe adverse reaction to vaccination in the past, including to COVID-19 vaccination.\n* Any known allergies to components contained in CVXGA or COMIRNATY (including polyethylene glycol \\[PEG\\] allergies), or latex.\n* Women who are pregnant, breastfeeding, or who plan to become pregnant during the study.\n* Any other condition that, in the opinion of the site investigator, would pose a health risk to the participant if enrolled or could interfere with evaluation of the investigational product or interpretation of study results.\n* Study team member or first-degree relative of any study team member (inclusive of CyanVac and site personnel involved in the study).",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "100 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Hong Jin",
+          "affiliation": "CyanVac LLC",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Pinnacle Research Group, LLC",
+          "city": "Anniston",
+          "state": "Alabama",
+          "zip": "36207",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.65983,
+            "lon": -85.83163
+          }
+        },
+        {
+          "facility": "Velocity Clinical Research, Phoenix",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85006",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        },
+        {
+          "facility": "Velocity Clinical Research, Chula Vista",
+          "city": "Chula Vista",
+          "state": "California",
+          "zip": "91911",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.64005,
+            "lon": -117.0842
+          }
+        },
+        {
+          "facility": "Velocity Clinical Research, San Diego",
+          "city": "La Mesa",
+          "state": "California",
+          "zip": "91942",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.76783,
+            "lon": -117.02308
+          }
+        },
+        {
+          "facility": "Imax Clinical Trials",
+          "city": "La Palma",
+          "state": "California",
+          "zip": "90623",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.8464,
+            "lon": -118.04673
+          }
+        },
+        {
+          "facility": "Artemis Institute for Clinical Research",
+          "city": "Riverside",
+          "state": "California",
+          "zip": "92503",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.95335,
+            "lon": -117.39616
+          }
+        },
+        {
+          "facility": "Clinical Innovations Inc. dba CITrials",
+          "city": "Riverside",
+          "state": "California",
+          "zip": "92506",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.95335,
+            "lon": -117.39616
+          }
+        },
+        {
+          "facility": "Avacare",
+          "city": "Sacramento",
+          "state": "California",
+          "zip": "95864",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.58157,
+            "lon": -121.4944
+          }
+        },
+        {
+          "facility": "Collaborative Neuroscience Research, LLC",
+          "city": "Torrance",
+          "state": "California",
+          "zip": "90504",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.83585,
+            "lon": -118.34063
+          }
+        },
+        {
+          "facility": "Velocity Clinical Research, Washington DC",
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20016",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        },
+        {
+          "facility": "Velocity Clinical Research, Hallandale Beach",
+          "city": "Hallandale",
+          "state": "Florida",
+          "zip": "33009",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.9812,
+            "lon": -80.14838
+          }
+        },
+        {
+          "facility": "Homestead Associates in Research, Inc",
+          "city": "Homestead",
+          "state": "Florida",
+          "zip": "33033",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.46872,
+            "lon": -80.47756
+          }
+        },
+        {
+          "facility": "Biscayne Clinical Research",
+          "city": "North Miami Beach",
+          "state": "Florida",
+          "zip": "33169",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.93315,
+            "lon": -80.16255
+          }
+        },
+        {
+          "facility": "Headlands Research Orlando",
+          "city": "Orlando",
+          "state": "Florida",
+          "zip": "32819",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.53834,
+            "lon": -81.37924
+          }
+        },
+        {
+          "facility": "Best Choice Medical and Research Service",
+          "city": "Pembroke Pines",
+          "state": "Florida",
+          "zip": "33024",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.00315,
+            "lon": -80.22394
+          }
+        },
+        {
+          "facility": "Forcare Clinical Research",
+          "city": "Tampa",
+          "state": "Florida",
+          "zip": "33613",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.94752,
+            "lon": -82.45843
+          }
+        },
+        {
+          "facility": "Guardian Angel Research Center",
+          "city": "Tampa",
+          "state": "Florida",
+          "zip": "33614",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.94752,
+            "lon": -82.45843
+          }
+        },
+        {
+          "facility": "Lifeline Primary Care/Avacare",
+          "city": "Lilburn",
+          "state": "Georgia",
+          "zip": "30047",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.8901,
+            "lon": -84.14297
+          }
+        },
+        {
+          "facility": "Velocity Clinical Research, Savannah",
+          "city": "Savannah",
+          "state": "Georgia",
+          "zip": "31406",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.08354,
+            "lon": -81.09983
+          }
+        },
+        {
+          "facility": "Clinical Research Atlanta",
+          "city": "Stockbridge",
+          "state": "Georgia",
+          "zip": "30281",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.54428,
+            "lon": -84.23381
+          }
+        },
+        {
+          "facility": "Velocity Clinical Research, Boise",
+          "city": "Meridian",
+          "state": "Idaho",
+          "zip": "83642",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.61211,
+            "lon": -116.39151
+          }
+        },
+        {
+          "facility": "Velocity Clinical Research, Sioux City",
+          "city": "Sioux City",
+          "state": "Iowa",
+          "zip": "51106",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.49999,
+            "lon": -96.40031
+          }
+        },
+        {
+          "facility": "Velocity Clinical Research, Covington",
+          "city": "Covington",
+          "state": "Louisiana",
+          "zip": "70433",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.47549,
+            "lon": -90.10042
+          }
+        },
+        {
+          "facility": "Velocity Clinical Research, Lafayette",
+          "city": "Lafayette",
+          "state": "Louisiana",
+          "zip": "70508",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.22409,
+            "lon": -92.01984
+          }
+        },
+        {
+          "facility": "Velocity Clinical Research, New Orleans",
+          "city": "New Orleans",
+          "state": "Louisiana",
+          "zip": "70119",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.95465,
+            "lon": -90.07507
+          }
+        },
+        {
+          "facility": "CBH Health",
+          "city": "Gaithersburg",
+          "state": "Maryland",
+          "zip": "20877",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.14344,
+            "lon": -77.20137
+          }
+        },
+        {
+          "facility": "Advanced Primary and Geriatric Care/Avacare",
+          "city": "Rockville",
+          "state": "Maryland",
+          "zip": "20850",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.084,
+            "lon": -77.15276
+          }
+        },
+        {
+          "facility": "Velocity Clinical Research, Rockville",
+          "city": "Rockville",
+          "state": "Maryland",
+          "zip": "20854",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.084,
+            "lon": -77.15276
+          }
+        },
+        {
+          "facility": "DM Clinical Research",
+          "city": "Southfield",
+          "state": "Michigan",
+          "zip": "48076",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.47337,
+            "lon": -83.22187
+          }
+        },
+        {
+          "facility": "Velocity Clinical Research - Norfolk",
+          "city": "Norfolk",
+          "state": "Nebraska",
+          "zip": "68701",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.02834,
+            "lon": -97.417
+          }
+        },
+        {
+          "facility": "Quality Clinical Research, Inc",
+          "city": "Omaha",
+          "state": "Nebraska",
+          "zip": "68114",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.25626,
+            "lon": -95.94043
+          }
+        },
+        {
+          "facility": "Velocity Clinical Research, Omaha",
+          "city": "Omaha",
+          "state": "Nebraska",
+          "zip": "68134",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.25626,
+            "lon": -95.94043
+          }
+        },
+        {
+          "facility": "DM Clinical Research",
+          "city": "Jersey City",
+          "state": "New Jersey",
+          "zip": "07306",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.72816,
+            "lon": -74.07764
+          }
+        },
+        {
+          "facility": "Velocity Clinical Research, Binghamton",
+          "city": "Binghamton",
+          "state": "New York",
+          "zip": "13905",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.09869,
+            "lon": -75.91797
+          }
+        },
+        {
+          "facility": "Rochester Clinical Research",
+          "city": "Rochester",
+          "state": "New York",
+          "zip": "14609",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.15478,
+            "lon": -77.61556
+          }
+        },
+        {
+          "facility": "Trial Management Associates, LLC",
+          "city": "Wilmington",
+          "state": "North Carolina",
+          "zip": "28403",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.23556,
+            "lon": -77.94604
+          }
+        },
+        {
+          "facility": "Velocity Clinical Research, Cleveland",
+          "city": "Beachwood",
+          "state": "Ohio",
+          "zip": "44122",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.4645,
+            "lon": -81.50873
+          }
+        },
+        {
+          "facility": "Velocity Clinical Research, Mt. Auburn",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45219",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "Velocity Clinical Research, Springdale",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45246",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "Tekton Research, LLC",
+          "city": "Yukon",
+          "state": "Oklahoma",
+          "zip": "73099",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.50672,
+            "lon": -97.76254
+          }
+        },
+        {
+          "facility": "DM Clinical Research",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19107",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Velocity Clinical Research, Anderson",
+          "city": "Anderson",
+          "state": "South Carolina",
+          "zip": "29621",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.50344,
+            "lon": -82.65013
+          }
+        },
+        {
+          "facility": "Velocity Clinical Research Gaffney",
+          "city": "Gaffney",
+          "state": "South Carolina",
+          "zip": "29340",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.07179,
+            "lon": -81.64982
+          }
+        },
+        {
+          "facility": "Avacare",
+          "city": "Austin",
+          "state": "Texas",
+          "zip": "78705",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.26715,
+            "lon": -97.74306
+          }
+        },
+        {
+          "facility": "Tekton Research, LLC",
+          "city": "Austin",
+          "state": "Texas",
+          "zip": "78745",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.26715,
+            "lon": -97.74306
+          }
+        },
+        {
+          "facility": "Velocity Clinical Research, Austin",
+          "city": "Austin",
+          "state": "Texas",
+          "zip": "78759",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.26715,
+            "lon": -97.74306
+          }
+        },
+        {
+          "facility": "Pan American Clinical Research, LLC",
+          "city": "Brownsville",
+          "state": "Texas",
+          "zip": "78520",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.90175,
+            "lon": -97.49748
+          }
+        },
+        {
+          "facility": "Avacare",
+          "city": "Fort Worth",
+          "state": "Texas",
+          "zip": "76135",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.72541,
+            "lon": -97.32085
+          }
+        },
+        {
+          "facility": "DM Clinical Research",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77065",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "DM Clinical Research",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77081",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Avacare",
+          "city": "San Angelo",
+          "state": "Texas",
+          "zip": "76904",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 31.46377,
+            "lon": -100.43704
+          }
+        },
+        {
+          "facility": "Tekton Research, LLC",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78229",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        },
+        {
+          "facility": "Velocity Clinical Research, Salt Lake City",
+          "city": "West Jordan",
+          "state": "Utah",
+          "zip": "84088",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.60967,
+            "lon": -111.9391
+          }
+        },
+        {
+          "facility": "Clinical Research Partners LLC",
+          "city": "Richmond",
+          "state": "Virginia",
+          "zip": "23226",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          }
+        },
+        {
+          "facility": "Velocity Clinical Research, Suffolk",
+          "city": "Suffolk",
+          "state": "Virginia",
+          "zip": "23435",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.72836,
+            "lon": -76.58496
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000086382",
+          "term": "COVID-19"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011024",
+          "term": "Pneumonia, Viral"
+        },
+        {
+          "id": "D011014",
+          "term": "Pneumonia"
+        },
+        {
+          "id": "D012141",
+          "term": "Respiratory Tract Infections"
+        },
+        {
+          "id": "D007239",
+          "term": "Infections"
+        },
+        {
+          "id": "D014777",
+          "term": "Virus Diseases"
+        },
+        {
+          "id": "D018352",
+          "term": "Coronavirus Infections"
+        },
+        {
+          "id": "D003333",
+          "term": "Coronaviridae Infections"
+        },
+        {
+          "id": "D030341",
+          "term": "Nidovirales Infections"
+        },
+        {
+          "id": "D012327",
+          "term": "RNA Virus Infections"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000090982",
+          "term": "BNT162 Vaccine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000087503",
+          "term": "mRNA Vaccines"
+        },
+        {
+          "id": "D000087504",
+          "term": "Nucleic Acid-Based Vaccines"
+        },
+        {
+          "id": "D014614",
+          "term": "Vaccines, Synthetic"
+        },
+        {
+          "id": "D011994",
+          "term": "Recombinant Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D014612",
+          "term": "Vaccines"
+        },
+        {
+          "id": "D001688",
+          "term": "Biological Products"
+        },
+        {
+          "id": "D045424",
+          "term": "Complex Mixtures"
+        },
+        {
+          "id": "D000086663",
+          "term": "COVID-19 Vaccines"
+        },
+        {
+          "id": "D014765",
+          "term": "Viral Vaccines"
+        },
+        {
+          "id": "D000941",
+          "term": "Antigens"
+        },
+        {
+          "id": "D001685",
+          "term": "Biological Factors"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

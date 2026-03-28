@@ -1,0 +1,326 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06447740",
+      "orgStudyIdInfo": {
+        "id": "2024研210-002"
+      },
+      "organization": {
+        "fullName": "Peking University First Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Fractional Flow Reserve-guided Stenting Versus Medical Therapy in Atherosclerosis Renal Artery Stenosis",
+      "officialTitle": "Fractional Flow Reserve-guided Percutaneous Renal Artery Stenting Plus Optimal Medical Therapy Versus Optimal Medical Therapy Alone In Atherosclerosis Renal-vascular Hypertension Patients: a Multicenter Randomized Trial",
+      "acronym": "FAIR"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-08",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-06-03",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-06-03",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-04-03",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-06-02",
+      "studyFirstSubmitQcDate": "2024-06-02",
+      "studyFirstPostDateStruct": {
+        "date": "2024-06-07",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-08-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-08-16",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Peking University First Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Although randomized trials have demonstrated there is no benefit of renal-artery stenting in addition to medical therapy for patients with atherosclerosis renal artery stenosis, many patients indeed gained benefit in daily practices after stenting, such as reduction in blood pressure and recovery in renal functions. One important gap is that there is no universal standard to determine whether to stent in these patients. Fraction Flow Reserve (FFR) has been studied for many year in chronic coronary heart disease and FFR-guided revascularization strategy is known to be better than both angiography-guided revascularization and medication alone. Based on the primary finding of FAIR-pilot study (NCT05732077), FFR-guided renal artery stenting is practical.\n\nThe overall purpose of the FAIR trial is to compare the clinical outcomes and safety of FFR-guided stenting plus optimal medical treatment (OMT) versus OMT alone in patients with renal-vascular hypertensive patients.\n\nWith the 'all comers' design, participants met the inclusive/exclusive criteria will be enrolled, and hyperemic FFR induced by dopamine will be measured in all participants. If FFR is ≥0.80, patients will be treated with OMT alone and follow up. If FFR is \\<0.80, participants will be randomized to stenting in the renal artery plus OMT or OMT alone on a 1:1 ratio. The blood pressure and anti-hypertensive medications will be compared before and 3 months after the procedure based on ambulatory blood pressure monitoring, all participants will be followed up for 1 year."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Renal Artery Stenosis Atherosclerotic",
+        "Secondary Hypertension Renal Arterial"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 200,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Stenting plus OMT with FFR <0.80",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: Dopamine",
+            "Diagnostic Test: Fractional Flow Reserve, Renal",
+            "Device: Renal artery stenting"
+          ]
+        },
+        {
+          "label": "OMT alone with FFR < 0.80",
+          "type": "PLACEBO_COMPARATOR",
+          "interventionNames": [
+            "Drug: Dopamine",
+            "Diagnostic Test: Fractional Flow Reserve, Renal"
+          ]
+        },
+        {
+          "label": "OMT alone with FFR ≥0.80",
+          "type": "OTHER",
+          "interventionNames": [
+            "Drug: Dopamine",
+            "Diagnostic Test: Fractional Flow Reserve, Renal"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Dopamine",
+          "description": "A bolus dose of 50μg/kg dopamine via renal artery to induce hyperemic status",
+          "armGroupLabels": [
+            "OMT alone with FFR < 0.80",
+            "OMT alone with FFR ≥0.80",
+            "Stenting plus OMT with FFR <0.80"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Fractional Flow Reserve, Renal",
+          "description": "Renal FFR will be measured based on SOP",
+          "armGroupLabels": [
+            "OMT alone with FFR < 0.80",
+            "OMT alone with FFR ≥0.80",
+            "Stenting plus OMT with FFR <0.80"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Renal artery stenting",
+          "description": "Renal artery stenting will be implanted based on the protocol",
+          "armGroupLabels": [
+            "Stenting plus OMT with FFR <0.80"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in daytime mean systolic blood pressure as measured by 24-hour Ambulatory Blood Pressure Monitoring (ABPM)",
+          "timeFrame": "From baseline to 3 months post-procedure"
+        },
+        {
+          "measure": "Change in the composite index of antihypertensive drugs",
+          "description": "Change in the composite index of antihypertensive drugs. Drug Composite Index = Weight (number of classes of antihypertensive drugs) × (sum of doses)",
+          "timeFrame": "From baseline to 3 months post-procedure"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in systolic blood pressure as measured by 24-hour ABPM",
+          "timeFrame": "From baseline to 3 months post-procedure"
+        },
+        {
+          "measure": "Change in diastolic blood pressure as measured by 24-hour ABPM",
+          "timeFrame": "From baseline to 3 months post-procedure"
+        },
+        {
+          "measure": "Change in home blood pressure",
+          "timeFrame": "From baseline to 3 months post-procedure"
+        },
+        {
+          "measure": "Change in office blood pressure",
+          "timeFrame": "From baseline to 3 months post-procedure"
+        },
+        {
+          "measure": "Change in the composite index of antihypertensive drugs to reach target blood pressure",
+          "description": "Change in the composite index of antihypertensive drugs to reach target blood pressure. Drug Composite Index = Weight (number of classes of antihypertensive drugs) × (sum of doses)",
+          "timeFrame": "From baseline to 1 year post-procedure"
+        },
+        {
+          "measure": "Change in ABPM",
+          "timeFrame": "From baseline to 6 months, 1 year post-procedure"
+        },
+        {
+          "measure": "All-cause death",
+          "timeFrame": "From baseline to 1 year post-procedure"
+        },
+        {
+          "measure": "Cardiac death",
+          "timeFrame": "From baseline to 1 year post-procedure"
+        },
+        {
+          "measure": "Acute myocardial infarction incidence",
+          "description": "Based on universal definition of acute myocardial infarction",
+          "timeFrame": "From baseline to 1 year post-procedure"
+        },
+        {
+          "measure": "Non-fatal stroke incidence",
+          "description": "Based on medical records under outcome committee's judge",
+          "timeFrame": "From baseline to 1 year post-procedure"
+        },
+        {
+          "measure": "Rehospitalization due to heart failure incidence",
+          "description": "Based on medical records under outcome committee's judge",
+          "timeFrame": "From baseline to 1 year post-procedure"
+        },
+        {
+          "measure": "Change in serum creatinine or dialysis",
+          "timeFrame": "From baseline to 1 year post-procedure"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* With recorded hypertension, AND the blood pressure is not controlled (daytime mean SBP ≥135 mmHg and/or DBP ≥85 mmHg based on ABPM) on 2 or more classes of anti-hypertensive drugs;\n* Evidence of renal artery stenosis and undergoing renal artery angiography;\n* Able to follow the study protocol and provide informed consent;\n* Renal artery angiography shows at least 1 main artery with stenosis of 50%-90%, AND the diameter is ≥ 4.0mm.\n\nExclusion Criteria:\n\n* SBP ≥200mmHg and/or DBP ≥120mmHg at the day or randomization;\n* Fibromuscular dysplasia or other non-atherosclerotic renal artery stenosis;\n* Pregnancy or unknown pregnancy status in female of childbearing potential;\n* Participation in any drug or device trial during the study period;\n* Any stroke/TIA, OR with ≥70% stenosis of carotid artery;\n* Any major surgery, myocardial infarction or interventional therapy 30 days prior to study entry;\n* LVEF \\<30%;\n* Comorbidity condition causing life expectancy ≤1 year;\n* Allergy to contrast or any of the following: aspirin, clopidogrel;\n* Previous kidney transplant;\n* Previous renal artery bypass surgery or stent intervention;\n* Kidney size less than 8 cm measured by ultrasound;\n* Local lab serum Cr \\>3.0 mg/dl (265.2μmol/l) on the day of randomization;\n* Reference vessel size \\<4 mm or \\>8 mm.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Yuxi Li, MD",
+          "role": "CONTACT",
+          "phone": "00861083572283",
+          "email": "liyuxi@pku.edu.cn"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Peking University First Hospital",
+          "status": "RECRUITING",
+          "city": "Beijing",
+          "state": "Beijing Municipality",
+          "zip": "100034",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yuxi Li, MD",
+              "role": "CONTACT",
+              "phone": "00861083572283",
+              "email": "liyuxi@pku.edu.cn"
+            },
+            {
+              "name": "Jianping Li, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Yuxi Li, MD",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004298",
+          "term": "Dopamine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D015306",
+          "term": "Biogenic Monoamines"
+        },
+        {
+          "id": "D001679",
+          "term": "Biogenic Amines"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D002395",
+          "term": "Catecholamines"
+        },
+        {
+          "id": "D002396",
+          "term": "Catechols"
+        },
+        {
+          "id": "D010636",
+          "term": "Phenols"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

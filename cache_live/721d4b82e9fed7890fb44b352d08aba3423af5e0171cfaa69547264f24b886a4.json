@@ -1,0 +1,873 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05975905",
+      "orgStudyIdInfo": {
+        "id": "KER-012-A201"
+      },
+      "organization": {
+        "fullName": "Keros Therapeutics, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Study to Investigate the Safety and Efficacy of KER-012 in Combination With Background Therapy in Adult Participants With Pulmonary Arterial Hypertension (PAH) (TROPOS Study).",
+      "officialTitle": "A Randomized, Phase 2, Double-blind, Placebo-controlled Study to Investigate the Safety and Efficacy of KER-012 in Combination With Background Therapy in Adult Participants With Pulmonary Arterial Hypertension (TROPOS Study)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-09",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-10-17",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-03-05",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-03-11",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-07-13",
+      "studyFirstSubmitQcDate": "2023-07-27",
+      "studyFirstPostDateStruct": {
+        "date": "2023-08-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-09-29",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-09-30",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Keros Therapeutics, Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Study KER-012-A201 is Phase 2, double-blind, randomized, placebo-controlled study to determine the efficacy and safety of KER-012 compared to Placebo in adults with PAH (WHO Group 1 PH) on stable background PAH therapy. The study is divided into the Screening Period, Treatment Period, Extension Period, and Follow-Up Period.",
+      "detailedDescription": "This is a randomized, phase 2, double-blind, placebo-controlled study of KER-012 in combination with background therapy in participants with PAH of World Health Organization (WHO) Group 1, functional class II-III. Participants will be randomly assigned in a 2:2:2:3 ratio to receive KER-012 (Dose A), KER-012 (Dose B), KER-012 (Dose C), or placebo by subcutaneous injection (SC) every 4 weeks for a period of 24 weeks in the placebo-controlled treatment period of the study while on background therapy. Evaluations will include changes in pulmonary vascular resistance (PVR), 6-minute walk distance (6MWD), and safety parameters. Participants who have not discontinued early from the placebo-controlled treatment period and have had their post-treatment period PVR assessment will be able to continue into the 72-week extension period in which KER-012 treated participants will continue to receive their same assigned dose level from the treatment period every 4 weeks and placebo treated participants will receive KER-012 (Dose B) every 4 weeks while on background therapy."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Pulmonary Arterial Hypertension"
+      ],
+      "keywords": [
+        "Pulmonary arterial hypertension [PAH]"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Participants will be randomly assigned in a 2:2:2:3 ratio to 1 of 4 treatment arms.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "This is a double-blind study in which treatment assignment will be blinded for the Investigators and any personnel (other than the unblinded pharmacist or designee) involved with the study conduct or evaluation at the investigational sites, the CRO, and the Sponsor.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 113,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Arm 1",
+          "type": "EXPERIMENTAL",
+          "description": "KER-012 (Dose A) subcutaneously (SC) (every 4 weeks \\[Q4W\\]) Treatment Period: Dose A for 24 weeks; Extension Period: Dose A for another 72 weeks",
+          "interventionNames": [
+            "Biological: Dose A KER-012"
+          ]
+        },
+        {
+          "label": "Arm 2",
+          "type": "EXPERIMENTAL",
+          "description": "KER-012 (Dose B) SC (Q4W) Treatment Period: Dose B for 24 weeks; Extension Period: Dose B for another 72 weeks",
+          "interventionNames": [
+            "Biological: Dose B KER-012"
+          ]
+        },
+        {
+          "label": "Arm 3",
+          "type": "EXPERIMENTAL",
+          "description": "KER-012 (Dose C) SC (Q4W) Treatment Period: Dose C for 24 weeks; Extension Period: Dose C for another 72 weeks",
+          "interventionNames": [
+            "Biological: Dose C KER-012"
+          ]
+        },
+        {
+          "label": "Arm 4",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Treatment Period: Placebo for 24 weeks; Extension Period: Dose B for another 72 weeks",
+          "interventionNames": [
+            "Biological: Dose B KER-012",
+            "Biological: Placebo for 24 Weeks followed by Dose B KER-012 for 72 weeks"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Dose A KER-012",
+          "description": "Dose A KER-012 (Q4W);",
+          "armGroupLabels": [
+            "Arm 1"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Dose B KER-012",
+          "description": "Dose B KER-012 (Q4W);",
+          "armGroupLabels": [
+            "Arm 2",
+            "Arm 4"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Dose C KER-012",
+          "description": "Dose C KER-012 (Q4W);",
+          "armGroupLabels": [
+            "Arm 3"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Placebo for 24 Weeks followed by Dose B KER-012 for 72 weeks",
+          "description": "Treatment Period (24 weeks): Placebo SC (Q4W) Extension Period (72 weeks after Placebo treatment): KER-012 (Dose B) SC (Q4W)",
+          "armGroupLabels": [
+            "Arm 4"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change from Baseline in PVR (Pulmonary Vascular Resistance)",
+          "description": "Evaluate the effect of KER-012 on pulmonary hemodynamics compared to Placebo in participants on background pulmonary arterial hypertension (PAH) therapy",
+          "timeFrame": "Baseline and Week 24"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change from Baseline in the 6MWD",
+          "description": "Evaluate the effect of KER-012 on exercise capacity compared to Placebo in participants on background PAH therapy",
+          "timeFrame": "Through week 24 (primary treatment period) and Through week 96 (extension period)"
+        },
+        {
+          "measure": "Incidence of treatment-emergent adverse events (TEAEs)",
+          "description": "A TEAE is any untoward medical occurrence in a study participant occurring after the initiation of a study treatment that does not necessarily have to have a causal relationship with this treatment. A TEAE can therefore be any unfavorable and unintended sign, symptom, or disease temporally associated with the use of a medicinal product, whether or not related to the medicinal product.",
+          "timeFrame": "Through week 24 (primary treatment period) and Through week 96 (extension period)"
+        },
+        {
+          "measure": "Number of treatment-related TEAEs",
+          "description": "A treatment-related TEAE is any untoward medical occurrence in a study participant occurring after the initiation of a study treatment that has a causal relationship with this treatment.",
+          "timeFrame": "Through week 24 (primary treatment period) and Through week 96 (extension period)"
+        },
+        {
+          "measure": "Number of discontinuations due to TEAEs",
+          "description": "A treatment-related TEAE is any untoward medical occurrence in a study participant occurring after the initiation of a study treatment that has a causal relationship with this treatment. A TEAE can therefore be any unfavorable and unintended sign, symptom, or disease temporally associated with the use of a medicinal product, whether or not related to the medicinal product.",
+          "timeFrame": "Through week 24 (primary treatment period) and Through week 96 (extension period)"
+        },
+        {
+          "measure": "Change from baseline in Systolic and Diastolic Blood Pressure",
+          "description": "Systolic and Diastolic blood pressure measured in mmHg",
+          "timeFrame": "Through week 24 (primary treatment period) and Through week 96 (extension period)"
+        },
+        {
+          "measure": "Change from baseline in QTcF intervals",
+          "description": "QTcF intervals measured in msec via ECGs",
+          "timeFrame": "Through week 24 (primary treatment period) and Through week 96 (extension period)"
+        },
+        {
+          "measure": "Incidence of Antidrug Antibodies (ADA)",
+          "description": "The amount of ADA measured in serum",
+          "timeFrame": "Through week 24 (primary treatment period) and Through week 96 (extension period)"
+        },
+        {
+          "measure": "Evaluate the changes from baseline in the concentration of the PAH biomarker, NT-proBNP in blood samples",
+          "description": "Change from Baseline in NT-proBNP by visit",
+          "timeFrame": "Up to week 24 (primary treatment period) and up to Week 96 (extension period)"
+        },
+        {
+          "measure": "Evaluate the effect of KER-012 on pulmonary hemodynamics compared to Placebo in participants on background PAH therapy- mPAP",
+          "description": "Change from Baseline in mean pulmonary artery pressure (mPAP)",
+          "timeFrame": "Up to week 24 (primary treatment period) and up to Week 96 (extension period)"
+        },
+        {
+          "measure": "Evaluate the effect of KER-012 on pulmonary hemodynamics compared to Placebo in participants on background PAH therapy- CO",
+          "description": "Change from Baseline in cardiac output (CO)",
+          "timeFrame": "Up to week 24 (primary treatment period) and up to Week 96 (extension period)"
+        },
+        {
+          "measure": "Evaluate the effect of KER-012 on pulmonary hemodynamics compared to Placebo in participants on background PAH therapy- PAWP",
+          "description": "Change from Baseline in pulmonary artery wedge pressure (PAWP)",
+          "timeFrame": "Up to week 24 (primary treatment period) and up to Week 96 (extension period)"
+        },
+        {
+          "measure": "Evaluate improvement in functional assessment of KER-012 compared to Placebo in participants on background PAH therapy",
+          "description": "Proportion of participants who achieved improvement from Baseline in NYHA FC/WHO by visit",
+          "timeFrame": "Up to week 24 (primary treatment period) and up to Week 96 (extension period)"
+        },
+        {
+          "measure": "Number of participants who experienced events indicative of clinical worsening of pulmonary arterial hypertension (PAH)",
+          "description": "Events that indicate clinical worsening of PAH include death, non-elective PAH-related hospitalization and/or right heart failure inclusive of lung or heart/lung transplant, or atrial septostomy, need to initiate an approved PAH SOC rescue therapy, or functional deterioration (worsened WHO Functional Class AND 15% decrease in 6MWD).",
+          "timeFrame": "Up to week 24 (primary treatment period) and up to Week 96 (extension period)"
+        },
+        {
+          "measure": "Population PK predicted maximum concentration (Cmax) of KER-012",
+          "description": "Cmax is a measure of the maximum concentration of a drug in the serum after the dose is given.",
+          "timeFrame": "Through week 24 (primary treatment period) and Through week 96 (extension period)"
+        },
+        {
+          "measure": "Population PK predicted Area under concentration curve (AUC) of KER-012",
+          "description": "AUC is a measure of the area under the serum concentration curve after dose is given.",
+          "timeFrame": "Through week 24 (primary treatment period) and Through week 96 (extension period)"
+        },
+        {
+          "measure": "Evaluate improvement in risk stratifications of KER-012 in participants on background PAH therapy",
+          "description": "Proportion of participants who achieve improvement/or maintain low risk in ESC/ ERC 4-strata risk category assessment",
+          "timeFrame": "Up to week 24 (primary treatment period) and up to Week 96 (extension period)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Adult participants ≥ 18 years of age\n* Symptomatic World Health Organization (WHO) Group 1 Pulmonary Hypertension (PH)(PAH) classified by one of the following subgroups:\n\n  * Idiopathic pulmonary arterial hypertension (IPAH);\n  * Heritable pulmonary arterial hypertension (HPAH);\n  * Associated with drugs and toxins;\n  * PAH associated with:\n\n    * Connective tissue disease\n    * Congenital systemic-pulmonary intracardiac shunt\n* Has the following hemodynamic parameters that are consistent with the diagnosis of PAH:\n\n  * Mean pulmonary arterial pressure (mPAP) \\> 20 mmHg at rest, AND\n  * Pulmonary artery wedge pressure (PAWP) ≤ 15 mmHg, AND\n  * PVR ≥ 5 Wood Units (400 dyn·sec·cm-5)\n* Has WHO/New York Heart Association (NYHA) Functional Class (FC) II or III symptoms as assessed by the Investigator\n* Must be on a stable PAH background therapy with either an endothelin-receptor antagonist (ERA) and/or a phosphodiesterase-5 inhibitor (PDE5-I) or soluble guanylate cyclase (sGC) stimulator and/or prostacyclin analogue or receptor agonist (oral/inhaled/SC/intravenous)\n* 6MWD ≥ 150 and ≤ 500 meters at screening\n* Provide written (signed and dated) informed consent form before the initiation of any Screening tests or procedures\n\nExclusion Criteria:\n\n* Evidence or history of left ventricular dysfunction and/or clinically significant cardiac disease\n* Has pulmonary function tests (PFTs) with evidence of significant obstructive or parenchymal lung disease\n* Evidence of thromboembolic disease assessed by ventilation perfusion (V/Q) lung scan or other local standard of care diagnostic evaluation at the time of PAH diagnosis or after\n* Has uncontrolled systemic hypertension\n* Hemoglobin \\< 9 g/dL at Screening\n* Prior heart or heart-lung transplants, active on the lung transplant list, or life expectancy of \\< 12 months per Investigator assessment\n* Diagnosis of pulmonary veno-occlusive disease or pulmonary capillary hemangiomatosis\n* Initiation or discontinuation of an exercise program for cardiopulmonary rehabilitation within 90 days prior to Baseline or planned initiation during the study\n* Prior participation in a KER-012 study or prior treatment with a therapy targeting TGF-β superfamily (e.g. sotatercept)\n* Prior participation in another interventional clinical study with medicinal products within 30 days or 5 half-lives prior to Screening, whichever is longer",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "TROPOS Study Site 111",
+          "city": "Scottsdale",
+          "state": "Arizona",
+          "zip": "85258",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.50921,
+            "lon": -111.89903
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 107",
+          "city": "Tucson",
+          "state": "Arizona",
+          "zip": "85719",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.22174,
+            "lon": -110.92648
+          }
+        },
+        {
+          "facility": "Site PI TROPOS Study Site 104",
+          "city": "Stanford",
+          "state": "California",
+          "zip": "94305",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.42411,
+            "lon": -122.16608
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 105",
+          "city": "Torrance",
+          "state": "California",
+          "zip": "90502",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.83585,
+            "lon": -118.34063
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 108",
+          "city": "Jacksonville",
+          "state": "Florida",
+          "zip": "32224",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 100",
+          "city": "Kansas City",
+          "state": "Kansas",
+          "zip": "66160",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.11417,
+            "lon": -94.62746
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 110",
+          "city": "Louisville",
+          "state": "Kentucky",
+          "zip": "40202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.25424,
+            "lon": -85.75941
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 103",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02111",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 109",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02115",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 101",
+          "city": "Ann Arbor",
+          "state": "Michigan",
+          "zip": "481091",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.27756,
+            "lon": -83.74088
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 115",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63110",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 114",
+          "city": "Albuquerque",
+          "state": "New Mexico",
+          "zip": "87106",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.08449,
+            "lon": -106.65114
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 113",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45221",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 106",
+          "city": "Charleston",
+          "state": "South Carolina",
+          "zip": "29425",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.77632,
+            "lon": -79.93275
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 112",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75390",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 102",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 805",
+          "city": "Melbourne",
+          "state": "Victoria",
+          "zip": "3004",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.814,
+            "lon": 144.96332
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 807",
+          "city": "Auchenflower",
+          "zip": "4066",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -27.47443,
+            "lon": 152.99213
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 804",
+          "city": "Camperdown",
+          "zip": "2050",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.88965,
+            "lon": 151.17642
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 800",
+          "city": "Darlinghurst",
+          "zip": "2010",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.87939,
+            "lon": 151.21925
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 803",
+          "city": "New Lambton Heights",
+          "zip": "2305",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -32.92466,
+            "lon": 151.69364
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 801",
+          "city": "Sydney",
+          "zip": "2095",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.86785,
+            "lon": 151.20732
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 200",
+          "city": "Blumenau",
+          "zip": "89030",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -26.91944,
+            "lon": -49.06611
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 202",
+          "city": "Porto Alegre",
+          "zip": "90020",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 201",
+          "city": "São Paulo",
+          "zip": "05403",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 320",
+          "city": "Le Kremlin-Bicêtre",
+          "zip": "94270",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.81471,
+            "lon": 2.36073
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 341",
+          "city": "Giesen",
+          "zip": "35392",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.19716,
+            "lon": 9.8989
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 340",
+          "city": "Hanover",
+          "zip": "30625",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.37052,
+            "lon": 9.73322
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 343",
+          "city": "Heidelberg",
+          "zip": "69120",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.40768,
+            "lon": 8.69079
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 344",
+          "city": "Homburg",
+          "zip": "66424",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.32637,
+            "lon": 7.33867
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 342",
+          "city": "Leipzig",
+          "zip": "04103",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.33962,
+            "lon": 12.37129
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 345",
+          "city": "Regensburg",
+          "zip": "93053",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.01513,
+            "lon": 12.10161
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 704",
+          "city": "Gdansk",
+          "zip": "80-214",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 54.35227,
+            "lon": 18.64912
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 701",
+          "city": "Krakow",
+          "zip": "31-202",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.06143,
+            "lon": 19.93658
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 705",
+          "city": "Lodz",
+          "zip": "91-347",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.77058,
+            "lon": 19.47395
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 702",
+          "city": "Otwock",
+          "zip": "05-400",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.10577,
+            "lon": 21.26129
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 703",
+          "city": "Poznan",
+          "zip": "60-355",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.40692,
+            "lon": 16.92993
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 706",
+          "city": "Poznan",
+          "zip": "61-848",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.40692,
+            "lon": 16.92993
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 403",
+          "city": "Almada",
+          "zip": "2805-267",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 38.67902,
+            "lon": -9.1569
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 402",
+          "city": "Coimbra",
+          "zip": "3000-075",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 40.20686,
+            "lon": -8.41996
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 400",
+          "city": "Lisbon",
+          "zip": "1769-001",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 38.72509,
+            "lon": -9.1498
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 401",
+          "city": "Porto",
+          "zip": "4099-001",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 41.1485,
+            "lon": -8.61097
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 881",
+          "city": "Incheon",
+          "zip": "21565",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.45646,
+            "lon": 126.70515
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 883",
+          "city": "Seoul",
+          "zip": "03080",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 882",
+          "city": "Seoul",
+          "zip": "03722",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 880",
+          "city": "Seoul",
+          "zip": "06351",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 412",
+          "city": "Barcelona",
+          "zip": "39008",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 413",
+          "city": "Barcelona",
+          "zip": "8035",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 410",
+          "city": "Madrid",
+          "zip": "28041",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 411",
+          "city": "Santander",
+          "zip": "39008",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.46589,
+            "lon": -3.80493
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 891",
+          "city": "Kaohsiung City",
+          "zip": "81362",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 22.61626,
+            "lon": 120.31333
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 890",
+          "city": "Taipei",
+          "zip": "11217",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 25.05306,
+            "lon": 121.52639
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 441",
+          "city": "Glasgow",
+          "zip": "G81 4DY",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 55.86515,
+            "lon": -4.25763
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 442",
+          "city": "London",
+          "zip": "SW3 6NP",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "TROPOS Study Site 440",
+          "city": "London",
+          "zip": "W12 0HS",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000081029",
+          "term": "Pulmonary Arterial Hypertension"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006976",
+          "term": "Hypertension, Pulmonary"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

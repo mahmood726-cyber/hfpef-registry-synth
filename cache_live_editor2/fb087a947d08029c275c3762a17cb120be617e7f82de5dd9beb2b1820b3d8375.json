@@ -1,0 +1,262 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06593314",
+      "orgStudyIdInfo": {
+        "id": "STU-2024-0209"
+      },
+      "organization": {
+        "fullName": "University of Texas Southwestern Medical Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "Using Ultromics EchoGo HFpEF Algorithm to Identify and Treat High Heart Failure Risk in Patients With Type 2 Diabetes",
+      "officialTitle": "Identifying Undiagnosed HFpEF Among Patients With Type 2 Diabetes Using Ultromics AI HFpEF Algorithm"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-08",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-08-06",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-03-15",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-06-15",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-09-09",
+      "studyFirstSubmitQcDate": "2024-09-09",
+      "studyFirstPostDateStruct": {
+        "date": "2024-09-19",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-08-06",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-08-12",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Ambarish Pandey",
+        "investigatorTitle": "Associate Professor",
+        "investigatorAffiliation": "University of Texas Southwestern Medical Center"
+      },
+      "leadSponsor": {
+        "name": "University of Texas Southwestern Medical Center",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "A pragmatic electronic health record (EHR) based randomized controlled trial to evaluate the utility of providing Ultromics EchoGo analysis results and recommendations for HF risk prevention therapies using an EHR embedded clinical decision support tool.",
+      "detailedDescription": "Historic echocardiograms will be analyzed using the Ultromics EchoGo algorithm. For patients that have a positive EchoGO result i.e. HFpEF detected, the provider will get an clinical decision support alert flagging high risk of HFpEF based on randomized assignment.\n\nExperimental: Alert Group Provider will receive a computer-based provider-to-provider message notifying the provider that the patient has subclinical HFpEF as determined by the Ultromics EchoGo algorithm and associated guideline recommendations for the management of these patients. The alert will include guideline-based and standard-of-care recommendations for the use of SGLT-2 inhibitors, non-steroidal MRA, or GLP-1 RA (if obesity is present). The purpose of the alert is to inform the providers about the risk of heart failure and provide them guidance regarding the guideline-recommended standard of care. The providers can choose to provide care as deemed fit based on the information provided. The investigators will assess the practice patterns of providers in response to the EHR-based alert over the study period (3, and 6-month follow-up). The investigators will also assess the downstream hospitalization events for HF within 12 months of the initial alert.\n\nControl arm: Standard Message Providers in the control group will receive a standard message that will recommend either SGLT2i, GLP-1RA, and/or ns-MRA for treatment of diabetes and for prevention of heart failure. This group will not receive any information about the presence of subclinical heart failure detected by the EchoGo algorithm. The investigators will monitor the practice pattern in this group as well over the study period.\n\nFollow Up. Adherence to SGLT-2i and GLP-1 RA medications will be assessed by evaluating the electronic health record and documenting if the patient had a follow-up with a healthcare provider at 3 and 6 months and medication listed in the active prescription medication list.\n\nSample Size: The investigators plan to enroll 800 anticipated patients using a parallel design with 1:1 allocation and a binary primary endpoint (SGLT2i use). Using a two-sample test for difference in proportions with the normal (Fleiss) approximation, pooled variance without continuity correction, and assuming a control proportion of 30%, α=0.05 (two-sided), and 80% power, an N=800 (400/arm) provides a minimum detectable absolute increase of \\~9.4 percentage points (30.0% to 39.4% in the intervention arm). This corresponds to RR = 1.31(95% CI 1.08, 1.59) and Cohen's h = 0.20."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure",
+        "Diabetes"
+      ],
+      "keywords": [
+        "Subclinical Heart Failure; Electronic Alerts; Diabetes"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Patients with high risk of heart failure (see inclusion/exclusion) as detected by the Ultromics EchoGo algorithm will be included. Each patient will be randomized for their provider to get either a standard message or an Echo-Go message.",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 800,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "EHR Alert Group",
+          "type": "EXPERIMENTAL",
+          "description": "Provider will receive a computer-based alert notifying them that the patient has subclinical HFpEF as determined by the Ultromics EchoGo algorithm and associated guideline recommendations for the management of these patients. The alert will include guideline-based and standard-of-care recommendations for the use of SGLT-2 inhibitors and/or GLP-1 RA (if obesity is present). The purpose of the alert is to inform the providers about the risk of heart failure and provide them guidance regarding the guideline-recommended standard of care. The providers can choose to provide care as deemed fit based on the information provided",
+          "interventionNames": [
+            "Behavioral: Message with EchoGo"
+          ]
+        },
+        {
+          "label": "Standard Message Group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "We will provide a standard message to the provider detailing guideline-recommended medications for type 2 diabetes. This will not contain information about the Ultromics EchoGo algorithm. The providers can choose to provide care as deemed fit based on the information provided",
+          "interventionNames": [
+            "Behavioral: Standard Message"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Message with EchoGo",
+          "description": "This alert will inform the provider that the patient has subclinical HFpEF",
+          "armGroupLabels": [
+            "EHR Alert Group"
+          ],
+          "otherNames": [
+            "EchoGo Message"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Standard Message",
+          "description": "This alert will inform the provider of guideline directed treatment options for patients with diabetes to prevent heart failure.",
+          "armGroupLabels": [
+            "Standard Message Group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Frequency of prescription of SGLT-2i medication at outpatient clinic visits over 3 months follow-up",
+          "description": "Frequency of prescription of SGLT-2i medication at outpatient clinic visits will be measured as the proportion of new prescription for SGLT2inhibitor divided by the number of alerts triggered.",
+          "timeFrame": "3-month follow-up"
+        },
+        {
+          "measure": "Frequency of prescription of SGLT-2i medication at outpatient clinic visits over 6 months follow-up",
+          "description": "Frequency of prescription of SGLT-2i medication at outpatient clinic visits will be measured as the proportion of new prescription for GLP1 divided by the number of alerts triggered.",
+          "timeFrame": "3-month follow-up"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Frequency of prescription of ns-MRA at outpatient clinic visits",
+          "description": "Frequency of prescription of ns-MRA at outpatient clinic visits will be measured as the proportion of new prescription for ns-MRA divided by the number of alerts triggered.",
+          "timeFrame": "6-months"
+        },
+        {
+          "measure": "Frequency of prescription of GLP-1 RA medication at outpatient clinic visits over",
+          "description": "Frequency of prescription of GLP-1 RA medication at outpatient clinic visits over will be measured as the proportion of new prescription for GLP1 divided by the number of alerts triggered.",
+          "timeFrame": "6 months follow-up"
+        },
+        {
+          "measure": "Heart Failure hospitalization",
+          "description": "Counts of heart failure hospitalization will be recorded form the electronic health record",
+          "timeFrame": "12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Clinical cohort inclusion exclusion criteria:\n\nInclusion Criteria:\n\n* Patients with diagnosis of Type 2 diabetes and High WATCH DM score.\n* Echocardiogram available in last 6-months.\n\nExclusion Criteria:\n\n* History of HF\n* Not eligible for prescription of new GLP-1RA or SGLT2i or ns-MRA\n\nCorresponding providers to patients identified by the above inclusion exclusion criteria will be included in the clinical trial of the decision support tool.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Ambarish Pandey, MD",
+          "role": "CONTACT",
+          "phone": "617-869-8957",
+          "email": "Ambarish.Pandey@UTSouthwestern.edu"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Ambarish Pandey, MD",
+          "affiliation": "University of Texas Southwestern Medical Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "UT Southwestern Medical Center",
+          "status": "RECRUITING",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75235",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Ambarish Pandey, MD,MSCS",
+              "role": "CONTACT",
+              "phone": "214-645-9762"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

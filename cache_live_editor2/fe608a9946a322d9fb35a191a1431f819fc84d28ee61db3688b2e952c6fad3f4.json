@@ -1,0 +1,499 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03875183",
+      "orgStudyIdInfo": {
+        "id": "INL1-001"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2019-000511-89",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Innolife Co., Ltd.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Study to Evaluate Effects of INL1 in Patients With Heart Failure and Reduced Ejection Fraction",
+      "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Effects of INL1 in Patients With Heart Failure and Reduced Ejection Fraction",
+      "acronym": "TRACER-HF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-03",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-01-20",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2023-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2019-03-12",
+      "studyFirstSubmitQcDate": "2019-03-13",
+      "studyFirstPostDateStruct": {
+        "date": "2019-03-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-03-28",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-03-31",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Innolife Co., Ltd.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a multicenter, randomized, double-blind, placebo-controlled, dose-response trial in patients with chronic stable Heart Failure (HF) and reduced Left Ventricular Ejection Fraction (LVEF) to evaluate the efficacy and safety of three INL1 doses compared with placebo. Patients will be treated for approximately 12 weeks with one of three INL1 doses: 50 mg, 150 mg, 300 mg, or, placebo capsules, taken twice daily (BID)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure",
+        "Reduced Ejection Fraction"
+      ],
+      "keywords": [
+        "Heart failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 200,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "INL1 50mg BID",
+          "type": "EXPERIMENTAL",
+          "description": "INL1 50mg dose to be given twice daily using one 50mg capsule and two matching placebo capsules at each dose",
+          "interventionNames": [
+            "Drug: INL1"
+          ]
+        },
+        {
+          "label": "INL1 150 mg BID",
+          "type": "EXPERIMENTAL",
+          "description": "INL1 150mg dose to be given twice daily using three 50mg capsules at each dose",
+          "interventionNames": [
+            "Drug: INL1"
+          ]
+        },
+        {
+          "label": "INL1 300 mg BID",
+          "type": "EXPERIMENTAL",
+          "description": "INL1 300mg dose to be given twice daily using three 100mg capsules at each dose",
+          "interventionNames": [
+            "Drug: INL1"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo dose to be given twice daily using 3 placebo capsules at each dose",
+          "interventionNames": [
+            "Other: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "INL1",
+          "description": "Capsules",
+          "armGroupLabels": [
+            "INL1 150 mg BID",
+            "INL1 300 mg BID",
+            "INL1 50mg BID"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Placebo",
+          "description": "Capsules",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Proportional change in N-terminal prohormone of brain natriuretic peptide (NT-proBNP)",
+          "description": "Proportional change in N-terminal prohormone of brain natriuretic peptide (NT-proBNP) from Baseline to 12 weeks",
+          "timeFrame": "Baseline - 12 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Composite Heart Failure (HF) Improvement Score",
+          "description": "Composite HF Improvement Score, summarizing changes in 4 HF outcomes (NT-proBNP, left ventricular end-systolic volume \\[LVESV\\], NYHA class, and 6 Minute Walk Test) from Baseline to 12 weeks",
+          "timeFrame": "Baseline - 12 weeks"
+        },
+        {
+          "measure": "Change in Left Ventricular End Diastolic (LVED)",
+          "description": "Echocardiogram finding: change in LVED from Baseline to 12 weeks",
+          "timeFrame": "Baseline - 12 weeks"
+        },
+        {
+          "measure": "Change in Left Ventricular End Systolic (LVES)",
+          "description": "Echocardiogram finding: change in LVES from Baseline to 12 weeks",
+          "timeFrame": "Baseline - 12 weeks"
+        },
+        {
+          "measure": "Change in Left Ventricular End Diastolic Volume (LVEDV)",
+          "description": "Echocardiogram finding: change in LVEDV from Baseline to 12 weeks",
+          "timeFrame": "Baseline - 12 weeks"
+        },
+        {
+          "measure": "Change in Left Ventricular End Systolic Volume (LVESV)",
+          "description": "Echocardiogram finding: change in LVESV from Baseline to 12 weeks",
+          "timeFrame": "Baseline - 12 weeks"
+        },
+        {
+          "measure": "Change in Left Ventricular Systolic Volume (LVSV)",
+          "description": "Echocardiogram finding: change in LVSV from Baseline to 12 weeks",
+          "timeFrame": "Baseline - 12 weeks"
+        },
+        {
+          "measure": "Change in Left Ventricular Ejection Fraction (LVEF)",
+          "description": "Echocardiogram finding: change in LVEF from Baseline to 12 weeks",
+          "timeFrame": "Baseline - 12 weeks"
+        },
+        {
+          "measure": "Change in Left Ventricular Mass (LVM)",
+          "description": "Echocardiogram finding: change in LVM from Baseline to 12 weeks",
+          "timeFrame": "Baseline - 12 weeks"
+        },
+        {
+          "measure": "Change in Left Ventricular End Diastolic Diameter (LVEDD)",
+          "description": "Echocardiogram finding: change in LVEDD from Baseline to 12 weeks",
+          "timeFrame": "Baseline - 12 weeks"
+        },
+        {
+          "measure": "Change in Left Ventricular End Systolic Diameter (LVESD)",
+          "description": "Echocardiogram finding: change in LVESD from Baseline to 12 weeks",
+          "timeFrame": "Baseline - 12 weeks"
+        },
+        {
+          "measure": "Change in Left Ventricular Fractional Shortening (LVFS)",
+          "description": "Echocardiogram finding: change in LVFS from Baseline to 12 weeks",
+          "timeFrame": "Baseline - 12 weeks"
+        },
+        {
+          "measure": "Change in ratio of mitral peak velocity of early filling (E) to early diastolic mitral annular velocity (E')",
+          "description": "Echocardiogram finding: change in E/E' ratio from Baseline to 12 weeks",
+          "timeFrame": "Baseline - 12 weeks"
+        },
+        {
+          "measure": "Change in Left Atrial Volume (LAV)",
+          "description": "Echocardiogram finding: change in LAV from Baseline to 12 weeks",
+          "timeFrame": "Baseline - 12 weeks"
+        },
+        {
+          "measure": "Change in Tricuspid Annular Plane Systolic Excursion (TAPSE)",
+          "description": "Echocardiogram finding: change in TAPSE from Baseline to 12 weeks",
+          "timeFrame": "Baseline - 12 weeks"
+        },
+        {
+          "measure": "Change in Tricuspid Regurgitation (TR) peak velocity",
+          "description": "Echocardiogram finding: change in TR peak velocity from Baseline to 12 weeks",
+          "timeFrame": "Baseline - 12 weeks"
+        },
+        {
+          "measure": "Change in Tricuspid Regurgitation (TR) gradient",
+          "description": "Echocardiogram finding: change in TR gradient from Baseline to 12 weeks",
+          "timeFrame": "Baseline - 12 weeks"
+        },
+        {
+          "measure": "Change in Tricuspid Regurgitation (TR) severity",
+          "description": "Echocardiogram finding: change in TR severity from Baseline to 12 weeks",
+          "timeFrame": "Baseline - 12 weeks"
+        },
+        {
+          "measure": "Change in Inferior Vena Cava (IVC) Diameter",
+          "description": "Echocardiogram finding: change IVC Diameter from Baseline to 12 weeks",
+          "timeFrame": "Baseline - 12 weeks"
+        },
+        {
+          "measure": "Change in New York Heart Association (NYHA) class",
+          "description": "Change in NYHA class from Baseline to 12 weeks",
+          "timeFrame": "Baseline to 12 weeks"
+        },
+        {
+          "measure": "Change in 6 minute walk distance",
+          "description": "Change in 6 minute walk distance from Baseline to 12 weeks",
+          "timeFrame": "Baseline to 12 weeks"
+        },
+        {
+          "measure": "Quality of Life (QoL) based on Kansas City Cardiomyopathy Questionnaire (KCCQ) change",
+          "description": "QoL based on change in KCCQ from Baseline to 12 weeks. Quality of Life scale can range from 0 to 100, with higher values indicating a better outcome. Change will be calculated by subtraction.",
+          "timeFrame": "Baseline to 12 weeks"
+        },
+        {
+          "measure": "Time to earliest event among the composite of cardiovascular (CV) death, hospitalization for HF, and unplanned use of intravenous diuretics or intensification of oral diuretic dose",
+          "description": "Time to earliest event among the composite of CV death, hospitalization for HF, and unplanned use of intravenous diuretics or intensification of oral diuretic dose from Baseline to 12 weeks",
+          "timeFrame": "Baseline to 12 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Clinical diagnosis of HF requiring chronic treatment of loop diuretics\n* Left Ventricular Ejection Fraction (LVEF) ≤ 40% at screening by echocardiography\n* N-Terminal-prohormone of Brain Natriuretic Peptide (NT-proBNP) ≥400 pg/mL at screening for patients without atrial fibrillation or atrial flutter, or, NT-proBNP ≥ 1,200 pg/mL at screening for patients with atrial fibrillation or atrial flutter\n* Treated for Heart Failure with stable, optimal pharmacological therapy\n* Acceptable screening echocardiographic image quality\n\nExclusion Criteria:\n\n* Female patients of childbearing potential\n* Patients with a New York Heart Association (NYHA) Class I or IV\n* Heart failure that is clearly caused by toxin / drug such as Adriamycin\n* Significant medical conditions or recent history suggesting the patient's study participation will potentially pose a major risk to patient's safety and well-being\n* Need for routine scheduled outpatient IV infusions for Heart Failure or scheduled ultrafiltration\n* History of rhabdomyolysis or history of autoimmune diseases\n* Severe renal disease\n* Hepatic disease\n* Pulmonary disease limiting exercise capacity\n* Atrial fibrillation with rapid ventricular response\n* Life expectancy of less than 6 months\n* Type 1 diabetes mellitus or Type 2 diabetes mellitus with very poor glycemic control\n* Patients with anemia",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Study Director",
+          "role": "CONTACT",
+          "phone": "862-259-4382",
+          "email": "daniel.qi@vita-spes.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Michael Chen, MD",
+          "affiliation": "Innolife Co., Ltd.",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "UCLA School of Medicine",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Torrance",
+          "state": "California",
+          "zip": "90502",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.83585,
+            "lon": -118.34063
+          }
+        },
+        {
+          "facility": "Innovative Research of West Florida, Inc.",
+          "status": "COMPLETED",
+          "city": "Clearwater",
+          "state": "Florida",
+          "zip": "33756",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.96585,
+            "lon": -82.8001
+          }
+        },
+        {
+          "facility": "Universal Axon Clinical Research",
+          "status": "WITHDRAWN",
+          "city": "Doral",
+          "state": "Florida",
+          "zip": "33166",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.81954,
+            "lon": -80.35533
+          }
+        },
+        {
+          "facility": "Grady Clinical Research Center",
+          "status": "COMPLETED",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30303",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Via Christi Research, a division of Via Christi Hospitals Wichita, Inc.",
+          "status": "WITHDRAWN",
+          "city": "Wichita",
+          "state": "Kansas",
+          "zip": "67214",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.69224,
+            "lon": -97.33754
+          }
+        },
+        {
+          "facility": "Clinical Trials of America LA, LLC",
+          "status": "WITHDRAWN",
+          "city": "Monroe",
+          "state": "Louisiana",
+          "zip": "71203",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.50931,
+            "lon": -92.1193
+          }
+        },
+        {
+          "facility": "St Louis Heart and Vascular",
+          "status": "COMPLETED",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63136",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Clinical Research of Gastonia",
+          "status": "COMPLETED",
+          "city": "Gastonia",
+          "state": "North Carolina",
+          "zip": "28054",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.26208,
+            "lon": -81.1873
+          }
+        },
+        {
+          "facility": "Medication Management, LLC",
+          "status": "WITHDRAWN",
+          "city": "Greensboro",
+          "state": "North Carolina",
+          "zip": "27401",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.07264,
+            "lon": -79.79198
+          }
+        },
+        {
+          "facility": "Stern Cardiovascular",
+          "status": "WITHDRAWN",
+          "city": "Germantown",
+          "state": "Tennessee",
+          "zip": "38138",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.08676,
+            "lon": -89.81009
+          }
+        },
+        {
+          "facility": "East Texas Cardiology",
+          "status": "COMPLETED",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77002",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Angiocardiac Care of Texas",
+          "status": "COMPLETED",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77025",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Chongqing University 3 Gorges Hospital",
+          "status": "RECRUITING",
+          "city": "Chongqing",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Lirong Qui",
+              "role": "CONTACT",
+              "phone": "15523798618"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.56026,
+            "lon": 106.55771
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

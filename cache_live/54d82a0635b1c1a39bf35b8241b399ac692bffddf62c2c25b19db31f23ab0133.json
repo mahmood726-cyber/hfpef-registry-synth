@@ -1,0 +1,272 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02088450",
+      "orgStudyIdInfo": {
+        "id": "Syst-Eur"
+      },
+      "organization": {
+        "fullName": "KU Leuven",
+        "class": "OTHER"
+      },
+      "briefTitle": "Systolic Hypertension in Europe Placebo-Controlled Trial",
+      "officialTitle": "Systolic Hypertension in Europe Trial",
+      "acronym": "Syst-Eur"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2017-05",
+      "overallStatus": "TERMINATED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "1990-02"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "1997-02",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "1997-02",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2014-03-10",
+      "studyFirstSubmitQcDate": "2014-03-13",
+      "studyFirstPostDateStruct": {
+        "date": "2014-03-17",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2017-05-10",
+      "lastUpdatePostDateStruct": {
+        "date": "2017-05-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Jan A. Staessen",
+        "investigatorTitle": "Professor of Medicine",
+        "investigatorAffiliation": "KU Leuven"
+      },
+      "leadSponsor": {
+        "name": "KU Leuven",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The Syst-Eur Trial is a concerted action of the European Community's Medical and Health Research Programme. The trial is carried out in consultation with the World Health Organization, the International Society of Hypertension, the European Society of Hypertension and the World Hypertension League. Syst-Eur is a multicentre trial designed by the European Working Party on High Blood Pressure in the Elderly (EWPHE), to test the hypothesis that antihypertensive treatment of elderly patients with isolated systolic hypertension results in a significant change in stroke morbidity and mortality. Secondary endpoints include cardiovascular events, such as myocardial infarction and congestive heart failure. To be eligible patients must be at least 60 years old and have a systolic blood pressure averaging 160-219 mmHg with a diastolic pressure less than 95 mmHg. Patients must give their informed consent and be free of major cardiovascular and non-cardiovascular diseases at entry. The patients are randomized to active treatment or placebo. Active treatment consists of nitrendipine (10-40 mg/day), combined with enalapril (5-20 mg/day) and hydrochlorothiazide (12.5-25 mg/day), as necessary. The patients of the control group receive matching placebos. The drugs (or matching placebos) are stepwise titrated and combined in order to reduce systolic blood pressure by 20 mmHg at least to a level below 150 mmHg. Morbidity and mortality are monitored to enable an intention-to-treat and per-protocol comparison of the outcome in the 2 treatment groups."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Isolated Systolic Hypertension"
+      ],
+      "keywords": [
+        "Cardiovascular complications",
+        "Clinical trial",
+        "Elderly",
+        "Isolated systolic hypertension",
+        "Stroke"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 4695,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Active treatment",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Active treatment with nitrendipine (10-40 mg/day). If necessary, the dihydropyridine calcium-channel blocker was combined with or replaced by enalapril maleate (5-20 mg/day), hydrochlorothiazide (12.5-25 mg/day), or both drugs.",
+          "interventionNames": [
+            "Drug: Active treatment with nitrendipine (10-40 mg/day)."
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo tablets were identical to the study drugs with a similar schedule.",
+          "interventionNames": [
+            "Drug: Active treatment with nitrendipine (10-40 mg/day)."
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Active treatment with nitrendipine (10-40 mg/day).",
+          "description": "If necessary, the dihydropyridine calcium-channel blocker was combined with or replaced by enalapril maleate (5-20 mg/day), hydrochlorothiazide (12.5-25 mg/day), or both drugs.",
+          "armGroupLabels": [
+            "Active treatment",
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Incidence of stroke",
+          "description": "Available in Lancet 1997; 350:757-764",
+          "timeFrame": "3-monthly visits up to 5 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Death",
+          "description": "Available in Lancet 1997; 350:757-764",
+          "timeFrame": "3-monthly visits up to 5 years"
+        },
+        {
+          "measure": "Myocardial infarction",
+          "description": "Available in Lancet 1997; 350:757-764",
+          "timeFrame": "3-monthly visits up to 5 years"
+        },
+        {
+          "measure": "Congestive heart failure",
+          "description": "Available in Lancet 1997; 350:757-764",
+          "timeFrame": "3-monthly visits up to 5 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* At least 60 years old.\n* Sitting systolic blood pressure on masked placebo, during run-in phase of 160 to 219 mmHg, with a sitting diastolic blood pressure below 95 mmHg and a standing systolic blood pressure of at least 140 mmHg\n* Informed consent must be obtained\n\nExclusion Criteria:\n\n* Systolic hypertension is secondary to a disorder that needed specific medical or surgical treatment.\n* Retinal haemorrhage or papilloedema;\n* Congestive heart failure\n* Dissecting aortic aneurysm\n* Serum creatinine concentration at presentation of 180µmol/L or more.\n* History of severe nose bleeds.\n* Stroke or myocardial infarction in the year before the study.\n* Dementia.\n* Substance abuse.\n* Any disorder prohibiting a sitting or standing position.\n* Any severe concomitant cardiovascular or non-cardiovascular disease.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "60 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Jan A Staessen, MD, PhD",
+          "affiliation": "University of Leuven",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "36744469",
+          "type": "DERIVED",
+          "citation": "Grobman B, Turkson-Ocran RN, Staessen JA, Yu YL, Lipsitz LA, Mukamal KJ, Juraschek SP. Body Position and Orthostatic Hypotension in Hypertensive Adults: Results from the Syst-Eur Trial. Hypertension. 2023 Apr;80(4):820-827. doi: 10.1161/HYPERTENSIONAHA.122.20602. Epub 2023 Feb 6."
+        },
+        {
+          "pmid": "25090617",
+          "type": "DERIVED",
+          "citation": "Hara A, Thijs L, Asayama K, Jacobs L, Wang JG, Staessen JA. Randomised double-blind comparison of placebo and active drugs for effects on risks associated with blood pressure variability in the Systolic Hypertension in Europe trial. PLoS One. 2014 Aug 4;9(8):e103169. doi: 10.1371/journal.pone.0103169. eCollection 2014."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Syst-Eur data are available on request by other investigators, whose research is ethically approved."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000092244",
+          "term": "Isolated Systolic Hypertension"
+        },
+        {
+          "id": "D020521",
+          "term": "Stroke"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000075222",
+          "term": "Essential Hypertension"
+        },
+        {
+          "id": "D006973",
+          "term": "Hypertension"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D002561",
+          "term": "Cerebrovascular Disorders"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009568",
+          "term": "Nitrendipine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004095",
+          "term": "Dihydropyridines"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

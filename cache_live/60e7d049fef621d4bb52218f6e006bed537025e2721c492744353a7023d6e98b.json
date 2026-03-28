@@ -1,0 +1,799 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01502774",
+      "orgStudyIdInfo": {
+        "id": "2009.559"
+      },
+      "organization": {
+        "fullName": "Hospices Civils de Lyon",
+        "class": "OTHER"
+      },
+      "briefTitle": "Cyclosporine and Prognosis in Acute Myocardial Infarction (MI) Patients",
+      "officialTitle": "Does Cyclosporine ImpRove Clinical oUtcome in ST Elevation Myocardial Infarction Patients",
+      "acronym": "CIRCUS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-08",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2011-04"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2015-02",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2015-02",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2011-12-28",
+      "studyFirstSubmitQcDate": "2011-12-29",
+      "studyFirstPostDateStruct": {
+        "date": "2012-01-02",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2025-08-27",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-09-04",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Hospices Civils de Lyon",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Infarct size is a major determinant of prognosis after Acute Myocardial Infarction (AMI). The investigators recently reported that cyclosporine A, when administered immediately prior to percutaneous coronary intervention (PCI), can significantly reduce infarct size in STEMI (ST Elevation acute Myocardial Infarction) patients. The objective of the present study is to determine whether cyclosporine can improve STEMI patient clinical outcome. Nine-hundred and seventy two patients with ST elevation MI will be entered into a multicentre, randomized, placebo-controlled, double-blinded study. They will receive one single injection of cyclosporine A (CicloMulsion, verum) or an equivalent volume of placebo prior to reperfusion therapy by PCI. The incidence of the combined endpoint (mortality, hospitalization for heart failure, left ventricular (LV) remodeling) will be assessed at one year and three years after treatment."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ST Elevation Acute Myocardial Infarction"
+      ],
+      "keywords": [
+        "STEMI",
+        "cyclosporine",
+        "reperfusion injury"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 970,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Cyclosporin",
+          "type": "EXPERIMENTAL",
+          "description": "Injection of Cyclosporin A : one single intravenous bolus injection of 2.5 mg/Kg Echocardiography",
+          "interventionNames": [
+            "Drug: Injection of Cyclosporin",
+            "Procedure: Echocardiography"
+          ]
+        },
+        {
+          "label": "Control",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "one single intravenous bolus injection of Placebo Echocardiography",
+          "interventionNames": [
+            "Drug: Placebo",
+            "Procedure: Echocardiography"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Injection of Cyclosporin",
+          "description": "one single intravenous bolus injection of 2.5 mg/Kg",
+          "armGroupLabels": [
+            "Cyclosporin"
+          ],
+          "otherNames": [
+            "Cyclosporin A (CicloMulsion, verum)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "One single intravenous bolus injection of Placebo",
+          "armGroupLabels": [
+            "Control"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Echocardiography",
+          "description": "1 year after AMI",
+          "armGroupLabels": [
+            "Control",
+            "Cyclosporin"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Combined incidence of [total mortality; hospitalization for heart failure; LV remodeling (increase of LV end-diastolic volume > 15%)]",
+          "timeFrame": "at 1 year post-AMI"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Ejection fraction",
+          "description": "Functional outcome",
+          "timeFrame": "at 1 year"
+        },
+        {
+          "measure": "Left-Ventricular End-Diastolic Volume (LVEDV)",
+          "description": "Functional outcome",
+          "timeFrame": "at 1 year"
+        },
+        {
+          "measure": "Left-Ventricular End-Systolic Volume (LVESV)",
+          "description": "Functional outcome",
+          "timeFrame": "at 1 year"
+        },
+        {
+          "measure": "Total mortality",
+          "timeFrame": "at 1 year"
+        },
+        {
+          "measure": "Cardiovascular death",
+          "timeFrame": "at 1 year"
+        },
+        {
+          "measure": "Heart failure",
+          "description": "In-hospital worsening of heart failure after reperfusion, or rehospitalization for: a)worsening of a heart failure existing at admission, b)appearance of \"new\" heart failure",
+          "timeFrame": "at 1 year"
+        },
+        {
+          "measure": "Myocardial infarction",
+          "timeFrame": "at 1 year"
+        },
+        {
+          "measure": "Unstable angina",
+          "timeFrame": "at 1 year"
+        },
+        {
+          "measure": "Stroke",
+          "timeFrame": "at 1 year"
+        },
+        {
+          "measure": "Infarct size",
+          "description": "Measured by cardiac MRI, only for patients included in participating centers where cardiac MRI is part of the usual post-infarct care",
+          "timeFrame": "at 1 year"
+        },
+        {
+          "measure": "Infarct size: peak Troponin (T or I)",
+          "description": "Explorative outcome. Cardiac prognostic factors.",
+          "timeFrame": "At admission and at 4 hours (+/- 30 minutes) after study treatment administration"
+        },
+        {
+          "measure": "Microvascular obstruction (no reflow)",
+          "description": "Explorative outcome. Cardiac prognostic factors.",
+          "timeFrame": "During hospitalization at admission"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nEligibility criteria (for screening before hospital admission):\n\n1. All (male and female) patients, aged over 18, without any legal protection measure,\n2. Having a health coverage,\n3. Presenting within 12 hours of the onset of chest pain,\n4. Who have ST segment elevation ≥0.2 mV in two contiguous leads,\n5. For whom the clinical decision was made to treat with percutaneous coronary intervention (PCI).\n\n   And (further inclusion criteria to be confirmed by the admission coronary-angiography):\n6. The culprit coronary artery has to be the LAD\n7. The LAD artery has to be occluded (TIMI flow grade 0-1) at the time of admission coronary angiography.\n8. Preliminary oral informed consent followed by signed informed consent as soon as possible.\n\nPatients undergoing either primary PCI or rescue PCI are eligible for the study. Patients with previous AMI, PCI or coronary artery bypass surgery (CABG) are eligible for the study.\n\nExclusion Criteria:\n\n1. Patients with loss of consciousness or confused\n2. Patients with cardiogenic shock\n3. Patients with the left circumflex or the right coronary artery (RCA) as the culprit artery, or with evidence of coronary collaterals to the risk region\n4. Patients with an opened (TIMI \\> 1) LAD coronary artery at admission on initial (admission) coronary angiography\n5. Patients with 5.2. known hypersensitivity to cyclosporine 5.3. known hypersensitivity to egg, peanut or Soya-bean proteins 5.4. known renal insufficiency (either known creatinin clearance \\< 30 ml/min/1.73m² or current medical care for severe renal insufficiency) 5.5. known liver insufficiency 5.6. uncontrolled (treated or untreated) hypertension (\\> 180/110 mmHg)\n6. Patients treated with any compound containing Hypericum perforatum (St.-John's-worth) or Stiripentol or Aliskiren or Bosentan or Rosuvastatine\n7. Female patients currently pregnant or women of childbearing age who were not using contraception (oral diagnosis).\n8. Patients with any disorder associated with immunological dysfunction more recently than 6 months prior to presentation 8.2. cancer, lymphoma 8.3. known positive serology for HIV, or hepatitis",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Michel OVIZE, MD, Prof",
+          "affiliation": "Hospices Civils de Lyon",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Algemeen Ziekenhuis Sint-Jan Brugge",
+          "city": "Bruges",
+          "zip": "8000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.20892,
+            "lon": 3.22424
+          }
+        },
+        {
+          "facility": "Chu Charleroi",
+          "city": "Charleroi",
+          "zip": "6000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.41136,
+            "lon": 4.44448
+          }
+        },
+        {
+          "facility": "Hôpital universitaire d'Anvers (UZA)",
+          "city": "Edegem",
+          "zip": "2650",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.15662,
+            "lon": 4.44504
+          }
+        },
+        {
+          "facility": "CHU Mont-Godinne",
+          "city": "Yvoir",
+          "zip": "5530",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.3279,
+            "lon": 4.88059
+          }
+        },
+        {
+          "facility": "Clinique ESQUIROL - SAINT-HILAIRE",
+          "city": "Agen",
+          "zip": "47000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 44.20199,
+            "lon": 0.62055
+          }
+        },
+        {
+          "facility": "Centre Hospitalier du Pays D'Aix",
+          "city": "Aix-en-Provence",
+          "zip": "13616",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.5283,
+            "lon": 5.44973
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Universitaire d'Angers",
+          "city": "Angers",
+          "zip": "49033",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.47156,
+            "lon": -0.55202
+          }
+        },
+        {
+          "facility": "Centre Hospitalier d'Annecy",
+          "city": "Annecy",
+          "zip": "74011",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.90878,
+            "lon": 6.12565
+          }
+        },
+        {
+          "facility": "Hôpital Henri Duffaut",
+          "city": "Avignon",
+          "zip": "84000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.94834,
+            "lon": 4.80892
+          }
+        },
+        {
+          "facility": "Clinique Lafourcade",
+          "city": "Bayonne",
+          "zip": "64100",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.49316,
+            "lon": -1.473
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Universitaire",
+          "city": "Brest",
+          "zip": "29609",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.39029,
+            "lon": -4.48628
+          }
+        },
+        {
+          "facility": "Hopital Louis Pradel, Hospices Civils de Lyon",
+          "city": "Bron",
+          "zip": "69677",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.73865,
+            "lon": 4.91303
+          }
+        },
+        {
+          "facility": "CHRU- Hôpital de la Côte de Nacre",
+          "city": "Caen",
+          "zip": "14033",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.18585,
+            "lon": -0.35912
+          }
+        },
+        {
+          "facility": "Centre Hospitalier General",
+          "city": "Chartres",
+          "zip": "28018",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.44685,
+            "lon": 1.48925
+          }
+        },
+        {
+          "facility": "CHU - Hôpital Gabriel Montpied",
+          "city": "Clermont-Ferrand",
+          "zip": "63003",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.77969,
+            "lon": 3.08682
+          }
+        },
+        {
+          "facility": "CH de Compiègne",
+          "city": "Compiègne",
+          "zip": "60321",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.41794,
+            "lon": 2.82606
+          }
+        },
+        {
+          "facility": "CH Henri MONDOR",
+          "city": "Créteil",
+          "zip": "94010",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.79266,
+            "lon": 2.46569
+          }
+        },
+        {
+          "facility": "Hôpital du Bocage",
+          "city": "Dijon",
+          "zip": "21034",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.31344,
+            "lon": 5.01391
+          }
+        },
+        {
+          "facility": "Hôpital A. MICHALLON - CHU",
+          "city": "Grenoble",
+          "zip": "38043",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.17869,
+            "lon": 5.71479
+          }
+        },
+        {
+          "facility": "Centre Hospitalier General",
+          "city": "Haguenau",
+          "zip": "67504",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.81557,
+            "lon": 7.79051
+          }
+        },
+        {
+          "facility": "CHRU - Hôpital Cardiologique Calmette",
+          "city": "Lille",
+          "country": "France",
+          "geoPoint": {
+            "lat": 50.63391,
+            "lon": 3.05512
+          }
+        },
+        {
+          "facility": "Clinique de la Sauvegarde",
+          "city": "Lyon",
+          "zip": "69009",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.74906,
+            "lon": 4.84789
+          }
+        },
+        {
+          "facility": "Centre Hospitalier St Luc St Joseph",
+          "city": "Lyon",
+          "zip": "69365",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.74906,
+            "lon": 4.84789
+          }
+        },
+        {
+          "facility": "Institut Jacques Cartier",
+          "city": "Massy",
+          "zip": "91300",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.72692,
+            "lon": 2.28301
+          }
+        },
+        {
+          "facility": "CHU Arnaud de Villeneuve",
+          "city": "Montpellier",
+          "zip": "34295",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.61093,
+            "lon": 3.87635
+          }
+        },
+        {
+          "facility": "Clinique du Millénaire",
+          "city": "Montpellier",
+          "zip": "34960",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.61093,
+            "lon": 3.87635
+          }
+        },
+        {
+          "facility": "CHU de Mulhouse",
+          "city": "Mulhouse",
+          "zip": "68100",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.75205,
+            "lon": 7.32866
+          }
+        },
+        {
+          "facility": "Clinique du Diaconat",
+          "city": "Mulhouse",
+          "zip": "69607",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.75205,
+            "lon": 7.32866
+          }
+        },
+        {
+          "facility": "Hôpital Guillaume et René Laennec",
+          "city": "Nantes",
+          "zip": "44093",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.21725,
+            "lon": -1.55336
+          }
+        },
+        {
+          "facility": "CHU de Nîmes",
+          "city": "Nîmes",
+          "zip": "30029",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.83665,
+            "lon": 4.35788
+          }
+        },
+        {
+          "facility": "Polyclinique des Fleurs",
+          "city": "Ollioules",
+          "zip": "83192",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.1399,
+            "lon": 5.84766
+          }
+        },
+        {
+          "facility": "APHP Hôpital Bichat",
+          "city": "Paris",
+          "zip": "75018",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "CH de Pau",
+          "city": "Pau",
+          "zip": "64011",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.31117,
+            "lon": -0.35583
+          }
+        },
+        {
+          "facility": "Hôpital Haut Lévêque",
+          "city": "Pessac",
+          "zip": "33604",
+          "country": "France",
+          "geoPoint": {
+            "lat": 44.80565,
+            "lon": -0.6324
+          }
+        },
+        {
+          "facility": "Hôpital Claude Galien",
+          "city": "Quincy-sous-Sénart",
+          "zip": "91480",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.67294,
+            "lon": 2.53419
+          }
+        },
+        {
+          "facility": "Hôpital Pontchaillou",
+          "city": "Rennes",
+          "zip": "35003",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.11109,
+            "lon": -1.67431
+          }
+        },
+        {
+          "facility": "Hôpital Charles NICOLLE",
+          "city": "Rouen",
+          "zip": "76031",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.44313,
+            "lon": 1.09932
+          }
+        },
+        {
+          "facility": "Hôpitaux Universitaires, Nouvel Hôpital Civil",
+          "city": "Strasbourg",
+          "zip": "67091",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.58392,
+            "lon": 7.74553
+          }
+        },
+        {
+          "facility": "Clinique de l'Ormeau - CCV des Pyrénées",
+          "city": "Tarbes",
+          "zip": "65000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.23407,
+            "lon": 0.07139
+          }
+        },
+        {
+          "facility": "CHU de Rangueil",
+          "city": "Toulouse",
+          "zip": "31043",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.60426,
+            "lon": 1.44367
+          }
+        },
+        {
+          "facility": "Clinique Saint Gatien",
+          "city": "Tours",
+          "zip": "37042",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.39484,
+            "lon": 0.70398
+          }
+        },
+        {
+          "facility": "CHRU de Tours",
+          "city": "Tours",
+          "zip": "37044",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.39484,
+            "lon": 0.70398
+          }
+        },
+        {
+          "facility": "Hôpital Brabois - CHU Nancy",
+          "city": "Vandœuvre-lès-Nancy",
+          "zip": "54511",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.66115,
+            "lon": 6.17114
+          }
+        },
+        {
+          "facility": "Clinique du Tonkin",
+          "city": "Villeurbanne",
+          "zip": "69100",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.76601,
+            "lon": 4.8795
+          }
+        },
+        {
+          "facility": "Hospital Universitari Vall d'Hebron",
+          "city": "Barcelona",
+          "zip": "08035",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "26321103",
+          "type": "RESULT",
+          "citation": "Cung TT, Morel O, Cayla G, Rioufol G, Garcia-Dorado D, Angoulvant D, Bonnefoy-Cudraz E, Guerin P, Elbaz M, Delarche N, Coste P, Vanzetto G, Metge M, Aupetit JF, Jouve B, Motreff P, Tron C, Labeque JN, Steg PG, Cottin Y, Range G, Clerc J, Claeys MJ, Coussement P, Prunier F, Moulin F, Roth O, Belle L, Dubois P, Barragan P, Gilard M, Piot C, Colin P, De Poli F, Morice MC, Ider O, Dubois-Rande JL, Unterseeh T, Le Breton H, Beard T, Blanchard D, Grollier G, Malquarti V, Staat P, Sudre A, Elmer E, Hansson MJ, Bergerot C, Boussaha I, Jossan C, Derumeaux G, Mewton N, Ovize M. Cyclosporine before PCI in Patients with Acute Myocardial Infarction. N Engl J Med. 2015 Sep 10;373(11):1021-31. doi: 10.1056/NEJMoa1505489. Epub 2015 Aug 30."
+        },
+        {
+          "pmid": "31832789",
+          "type": "DERIVED",
+          "citation": "Bochaton T, Claeys MJ, Garcia-Dorado D, Mewton N, Bergerot C, Jossan C, Amaz C, Boussaha I, Thibault H, Ovize M. Importance of infarct size versus other variables for clinical outcomes after PPCI in STEMI patients. Basic Res Cardiol. 2019 Dec 12;115(1):4. doi: 10.1007/s00395-019-0764-8."
+        },
+        {
+          "pmid": "26027612",
+          "type": "DERIVED",
+          "citation": "Mewton N, Cung TT, Morel O, Cayla G, Bonnefoy-Cudraz E, Rioufol G, Angoulvant D, Guerin P, Elbaz M, Delarche N, Coste P, Vanzetto G, Metge M, Aupetit JF, Jouve B, Motreff P, Tron C, Labeque JN, Steg PG, Cottin Y, Range G, Clerc J, Coussement P, Prunier F, Moulin F, Roth O, Belle L, Dubois P, Barragan P, Gilard M, Piot C, Colin P, Morice MC, Monassier JP, Ider O, Dubois-Rande JL, Unterseeh T, Lebreton H, Beard T, Blanchard D, Grollier G, Malquarti V, Staat P, Sudre A, Hansson MJ, Elmer E, Boussaha I, Jossan C, Torner A, Claeys M, Garcia-Dorado D, Ovize M; CIRCUS Study Investigators. Rationale and design of the Cyclosporine to ImpRove Clinical oUtcome in ST-elevation myocardial infarction patients (the CIRCUS trial). Am Heart J. 2015 Jun;169(6):758-766.e6. doi: 10.1016/j.ahj.2015.02.020. Epub 2015 Mar 13."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        },
+        {
+          "id": "D015427",
+          "term": "Reperfusion Injury"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D011183",
+          "term": "Postoperative Complications"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D016572",
+          "term": "Cyclosporine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003524",
+          "term": "Cyclosporins"
+        },
+        {
+          "id": "D010456",
+          "term": "Peptides, Cyclic"
+        },
+        {
+          "id": "D047028",
+          "term": "Macrocyclic Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D010455",
+          "term": "Peptides"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

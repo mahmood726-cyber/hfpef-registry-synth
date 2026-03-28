@@ -1,0 +1,338 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05049278",
+      "orgStudyIdInfo": {
+        "id": "TRAM_Vasopressor"
+      },
+      "organization": {
+        "fullName": "Seoul National University Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effects of Vasopressor on the Graft Blood Flow in TRAM",
+      "officialTitle": "Effects of Norepinephrine vs. Phenylephrine on the Graft Blood Flow Measured by Transit Time Flowmetry in Breast Reconstruction With Free Flap Transfer Surgery: a Pilot Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-09-24",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-02-23",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-02-23",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-09-04",
+      "studyFirstSubmitQcDate": "2021-09-09",
+      "studyFirstPostDateStruct": {
+        "date": "2021-09-20",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-04-30",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-05-03",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Youn Joung Cho, MD, PhD",
+        "investigatorTitle": "Seoul National University Hospital",
+        "investigatorAffiliation": "Seoul National University Hospital"
+      },
+      "leadSponsor": {
+        "name": "Seoul National University Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this pilot study is to investigate whether two major vasopressors (norepinephrine vs. phenylephrine) used for treatment of hypotension during breast reconstruction with free flap transfer surgery have different effects on blood flow of the flap vessel measured by transit time flowmetry. Since there are few prior studies that compared the effects of these two vasopressors on the blood flow of the flap, this study will be conducted in the form of a pilot study in order to establish the evidence for the future randomized controlled trial."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Blood Flow",
+        "Anastomotic Failure of Flap",
+        "Flap Necrosis",
+        "Flap Ischemia"
+      ],
+      "keywords": [
+        "Blood flow",
+        "Failure of Flap",
+        "Vasopressor",
+        "Phenylephrine",
+        "Norepinephrine"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 20,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Norepinephrine",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Norepinephrine Bitartrate Hydrate : 4 mg/4 mL",
+          "interventionNames": [
+            "Drug: Norepinephrine"
+          ]
+        },
+        {
+          "label": "Phenylephrine",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Phenylephrine hydrochloride : 10 mg/1 mL",
+          "interventionNames": [
+            "Drug: Phenylephrine"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Norepinephrine",
+          "description": "* Continuous drug: norepinephrine 4mg \\* 1@ + D5W 200 mL (20 μg/mL)\n* Range: 0.03 \\~ 0.09 μg/kg/min (= 0.1 \\~ 0.3 mL/kg/h)",
+          "armGroupLabels": [
+            "Norepinephrine"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Phenylephrine",
+          "description": "* Continuous drug: phenylephrine 10mg \\* 5@ + D5W 200 mL (250 μg/mL)\n* Range: 0.42 \\~ 1.26 μg/kg/min (= 0.1 \\~ 0.3 mL/kg/h)",
+          "armGroupLabels": [
+            "Phenylephrine"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Graft mean blood flow measured using transit time flowmetry",
+          "description": "Mean blood flow (in mL/min) of the graft vessel that was measured using transit time flowmetry",
+          "timeFrame": "Intraoperative period"
+        },
+        {
+          "measure": "Pulsatility of graft vessel measured using transit time flowmetry",
+          "description": "Pulsatility of graft vessel, which is presented as pulsatility index in unitless, that was measured using transit time flowmetry",
+          "timeFrame": "Intraoperative period"
+        },
+        {
+          "measure": "Diastolic filling of the graft vessel measured using transit time flowmetry",
+          "description": "Diastolic filling (in percentage) of the graft vessel that was measured using transit time flowmetry",
+          "timeFrame": "Intraoperative period"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Graft failure rate in patients received each vasopressor during surgery",
+          "description": "The rate of graft failure in patients received each vasopressor during surgery",
+          "timeFrame": "Within seven days after surgery"
+        },
+        {
+          "measure": "Capillary filling time in patients received each vasopressor during surgery",
+          "description": "Capillary filling time, which was measured by time to refill the capillary after compression, to evaluate the viability of the flap in patients received each vasopressor during surgery",
+          "timeFrame": "Within seven days after surgery"
+        },
+        {
+          "measure": "Skin necrosis rate in patients received each vasopressor during surgery",
+          "description": "The rate of skin necrosis, which is evaluated by any changes in skin color by description of the color of the skin by clinicians, to evaluate the viability of the graft in patients received each vasopressor during surgery",
+          "timeFrame": "Within seven days after surgery"
+        },
+        {
+          "measure": "Rate of vascular thrombosis in patients received each vasopressor during surgery",
+          "description": "The rate of arterial or venous complication by measure of skin color change or decrease in doppler flow or capillary refill to evaluate the viability of the graft in patients received each vasopressor during surgery",
+          "timeFrame": "Within seven days after surgery"
+        },
+        {
+          "measure": "Rate of wound infection or any wound problem in patients received each vasopressor during surgery",
+          "description": "The rate of any wound complication including infection to evaluate wound complication after surgery in patients each vasopressor during surgery",
+          "timeFrame": "Within seven days after surgery"
+        },
+        {
+          "measure": "Amount of transfusion in patients received each vasopressor during surgery",
+          "description": "Amount of transfusion to evaluate clinical outcomes in patients received each vasopressor during surgery",
+          "timeFrame": "Within seven days after surgery"
+        },
+        {
+          "measure": "Total amount of remifentanil infused during surgery in patients received each vasopressor",
+          "description": "The total amount of remifentanil infused during surgery to evaluate clinical outcomes and perioperative variables in patients received each vasopressor during surgery",
+          "timeFrame": "intraoperative period"
+        },
+        {
+          "measure": "Total amount of inotropic agents or vasopressor during surgery in patients received each vasopressor",
+          "description": "The total amount of inotropic agents or vasopressor during surgery to evaluate clinical outcomes and perioperative variables in patients received each vasopressor during surgery",
+          "timeFrame": "intraoperative period"
+        },
+        {
+          "measure": "Stroke volume during surgery in patients received each vasopressor",
+          "description": "Stroke volume (in mL) measured by FlowTrac parameters to evaluate the intraoperative hemodynamics in patients received each vasopressor",
+          "timeFrame": "intraoperative period"
+        },
+        {
+          "measure": "Cardiac index during surgery in patients received each vasopressor",
+          "description": "Cardiac index (in L/min/m\\^2) measured by FlowTrac parameters to evaluate the intraoperative hemodynamics in patients received each vasopressor",
+          "timeFrame": "intraoperative period"
+        },
+        {
+          "measure": "Stroke volume variation during surgery in patients received each vasopressor",
+          "description": "Stroke volume variation (in percentage) measured by FlowTrac parameters to evaluate the intraoperative hemodynamics in patients received each vasopressor",
+          "timeFrame": "intraoperative period"
+        },
+        {
+          "measure": "Serum lactate levels in patients received each vasopressor",
+          "description": "Serum lactate levels (in mmol/L) to evaluate the postoperative variables and clinical outcomes in patients received each vasopressor during surgery",
+          "timeFrame": "Within seven days after surgery"
+        },
+        {
+          "measure": "Wound exploration rate in patients received each vasopressor during surgery",
+          "description": "The rate of wound exploration as a measure of postoperative complication and graft failure to evaluate the flap outcome in patients received each vasopressor during surgery",
+          "timeFrame": "Until discharge"
+        },
+        {
+          "measure": "Reoperation rate in patients received each vasopressor during surgery",
+          "description": "The rate of reoperation as a measure of postoperative complication and graft failure to evaluate the flap outcome in patients received each vasopressor during surgery",
+          "timeFrame": "Until discharge"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* ASA Physical Status Classification Grade 1-3\n* Patients with an ECOG score of 0 or 1 when selecting a subject for the study\n* Patients who can provide written consent to participate in clinical trials\n* Patients requiring the use of vasopressor because the mean arterial pressure is not maintained more than 65 mmHg during surgery\n\nExclusion Criteria:\n\n* Patients with peripheral arterial diseases\n* Patients with allergic history to study drugs\n* If surgery on other areas is scheduled at the same time or is an emergency operation\n* Patients with history of previous abdominal surgery involving the flap donor site\n* Pregnant\n* If there are other major medical or psychiatric disorders that may affect treatment response\n* Left ventricular ejection fraction \\< 30% or with a history of arrhythmia that is not controlled by medication\n* Refuse to participate",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "20 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Seoul National University Hospital",
+          "city": "Seoul",
+          "zip": "03080",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009638",
+          "term": "Norepinephrine"
+        },
+        {
+          "id": "D010656",
+          "term": "Phenylephrine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004983",
+          "term": "Ethanolamines"
+        },
+        {
+          "id": "D000605",
+          "term": "Amino Alcohols"
+        },
+        {
+          "id": "D000438",
+          "term": "Alcohols"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        },
+        {
+          "id": "D015306",
+          "term": "Biogenic Monoamines"
+        },
+        {
+          "id": "D001679",
+          "term": "Biogenic Amines"
+        },
+        {
+          "id": "D002395",
+          "term": "Catecholamines"
+        },
+        {
+          "id": "D002396",
+          "term": "Catechols"
+        },
+        {
+          "id": "D010636",
+          "term": "Phenols"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,343 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04803864",
+      "orgStudyIdInfo": {
+        "id": "SHDC2020CR2023B"
+      },
+      "organization": {
+        "fullName": "Ruijin Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Study of Roxadustat in the Treatment of Acute Myocardial Infarction",
+      "officialTitle": "A Randomized Controlled Trial to Evaluate the Safety and Efficacy of Roxadustat in Patients With Acute ST Elevation Myocardial Infarction",
+      "acronym": "ROXAMI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-08",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-06-10",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-09-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2023-08-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-02-02",
+      "studyFirstSubmitQcDate": "2021-03-16",
+      "studyFirstPostDateStruct": {
+        "date": "2021-03-18",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-08-31",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-09-01",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "RUIYAN ZHANG",
+        "investigatorTitle": "Director of Cardiology Department, Chief Physician",
+        "investigatorAffiliation": "Ruijin Hospital"
+      },
+      "leadSponsor": {
+        "name": "Ruijin Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Depite successful primary percutaneous coronary intervention (PCI) and standardized medical treatment, prognosis of acute ST-elevation myocardial infarction patents are still a poor, with high morality and various complications such as heart failure. Roxadustat is a new drug targeting hypoxia-inducible factor prolyl hydroxylase (HIF-PH) inhibition and has shown promising effect in reducing infarct size in pre-clinical studies.\n\nThis study aims to evaluate the efficacy and safety of early and short-term administration of roxadustat in the treatment of acute ST-elevation myocardial infarction.",
+      "detailedDescription": "This study is an open-label, paralleled, randomized controlled trial. It aims to evaluate the efficacy and safety of early and short-term administration of roxadustat in the treatment of acute ST-elevation myocardial infarction."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ST Elevation Myocardial Infarction"
+      ],
+      "keywords": [
+        "ST Elevation Myocardial Infarction",
+        "Roxadustat",
+        "Infarct Size",
+        "Cardiac MRI"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 158,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Roxadustat",
+          "type": "EXPERIMENTAL",
+          "description": "Early and short-term Roxadustat treatment",
+          "interventionNames": [
+            "Drug: Roxadustat"
+          ]
+        },
+        {
+          "label": "Control",
+          "type": "NO_INTERVENTION",
+          "description": "Patients only receive conventional therapies as recommended by guidelines."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Roxadustat",
+          "description": "Orally 100mg, 3 times per week for 2 weeks First dose administered immediately after successful PCI.",
+          "armGroupLabels": [
+            "Roxadustat"
+          ],
+          "otherNames": [
+            "Evrenzo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Infarct Size",
+          "description": "Infarct size as a percentage of LV mass measured on delayed-enhanced CMR imaging 30 days post-MI compared to control",
+          "timeFrame": "30 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "MACE",
+          "description": "Major adverse cardiovascular events (MACE) within 1 year follow-up.",
+          "timeFrame": "0 - 1 year"
+        },
+        {
+          "measure": "Left Ventricular Function",
+          "description": "Left ventricular end diastolic volume (LVEDV), Left ventricular end systolic volume (LVESV), Left ventricular ejection fraction (LVEF) changes during 1 year follow-up",
+          "timeFrame": "1 month, 6 months, 1 year"
+        },
+        {
+          "measure": "Cardiac enzymes - peak concentration",
+          "description": "Peak Plasma Concentration (Cmax) of CK-MB, TnI and CK",
+          "timeFrame": "0 - 3 days"
+        },
+        {
+          "measure": "Cardiac enzymes - Area under curve",
+          "description": "Area under the plasma concentration versus time curve (AUC) of CK-MB, TnI and CK",
+          "timeFrame": "0 - 3 days"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Myocardial fibrosis",
+          "description": "Fibroblast activation protein inhibitor (FAPI) tracer uptake in myocardium if selected patient underwent spontaneous PET/MR scan",
+          "timeFrame": "30 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Acute STEMI (ST segment elevation myocardial infarction) diagnosed by ST elevation\n* Coronary angiography within 12 hours of symptom onset, with TIMI flow grade 0 - 1 of culprit vessel\n* Primary PCI with TIMI flow grade 2 - 3 after successful intervention\n* Capable and willing to provide informed consent and capable of completing study visits\n\nExclusion Criteria:\n\n* Previous acute myocardial infarction history\n* Cardiogenic Shock at admission\n* Previously treated by roxadustat\n* Contraindications of roxadustat treatment\n* Contraindication of Cardiac MRI (e.g. eGFR \\< 30 ml/min, pacemaker, metal prosthesis, etc.)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Shuo Feng, M.D.",
+          "role": "CONTACT",
+          "phone": "+86 15921388296",
+          "email": "fengshuorv@hotmail.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Ruiyan Zhang, M.D., Ph.D.",
+          "affiliation": "Ruijin Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Ruijin Hospital",
+          "status": "RECRUITING",
+          "city": "Shanghai",
+          "state": "Shanghai Municipality",
+          "zip": "200025",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Shuo Feng, M.D.",
+              "role": "CONTACT",
+              "phone": "+86 15921388296",
+              "email": "fengshuorv@hotmail.com"
+            },
+            {
+              "name": "Xiaoxiang Yan, M.D., Ph.D.",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Tianqi Zhu, M.D.",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Run Du, M.D.",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Shuo Feng, M.D.",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "27774470",
+          "type": "BACKGROUND",
+          "citation": "Howell NJ, Tennant DA. The role of HIFs in ischemia-reperfusion injury. Hypoxia (Auckl). 2014 Jul 30;2:107-115. doi: 10.2147/HP.S49720. eCollection 2014."
+        },
+        {
+          "pmid": "30266651",
+          "type": "BACKGROUND",
+          "citation": "Sousa Fialho MDL, Abd Jamil AH, Stannard GA, Heather LC. Hypoxia-inducible factor 1 signalling, metabolism and its therapeutic potential in cardiovascular disease. Biochim Biophys Acta Mol Basis Dis. 2019 Apr 1;1865(4):831-843. doi: 10.1016/j.bbadis.2018.09.024. Epub 2018 Sep 25."
+        },
+        {
+          "pmid": "30859331",
+          "type": "BACKGROUND",
+          "citation": "Schreiber T, Salhofer L, Quinting T, Fandrey J. Things get broken: the hypoxia-inducible factor prolyl hydroxylases in ischemic heart disease. Basic Res Cardiol. 2019 Mar 11;114(3):16. doi: 10.1007/s00395-019-0725-2."
+        },
+        {
+          "pmid": "31340089",
+          "type": "BACKGROUND",
+          "citation": "Chen N, Hao C, Peng X, Lin H, Yin A, Hao L, Tao Y, Liang X, Liu Z, Xing C, Chen J, Luo L, Zuo L, Liao Y, Liu BC, Leong R, Wang C, Liu C, Neff T, Szczech L, Yu KP. Roxadustat for Anemia in Patients with Kidney Disease Not Receiving Dialysis. N Engl J Med. 2019 Sep 12;381(11):1001-1010. doi: 10.1056/NEJMoa1813599. Epub 2019 Jul 24."
+        },
+        {
+          "pmid": "32213720",
+          "type": "BACKGROUND",
+          "citation": "Deguchi H, Ikeda M, Ide T, Tadokoro T, Ikeda S, Okabe K, Ishikita A, Saku K, Matsushima S, Tsutsui H. Roxadustat Markedly Reduces Myocardial Ischemia Reperfusion Injury in Mice. Circ J. 2020 May 25;84(6):1028-1033. doi: 10.1253/circj.CJ-19-1039. Epub 2020 Mar 24."
+        },
+        {
+          "pmid": "26947173",
+          "type": "BACKGROUND",
+          "citation": "Groenendaal-van de Meent D, den Adel M, Rijnders S, Krebs-Brown A, Kerbusch V, Golor G, Schaddelee M. The Hypoxia-inducible Factor Prolyl-Hydroxylase Inhibitor Roxadustat (FG-4592) and Warfarin in Healthy Volunteers: A Pharmacokinetic and Pharmacodynamic Drug-Drug Interaction Study. Clin Ther. 2016 Apr;38(4):918-28. doi: 10.1016/j.clinthera.2016.02.010. Epub 2016 Mar 4."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Qualified researchers can request access to anonymized individual patient-level data by contacting principle investigator of this study. Requests for IPD will be recieved, but this does not mean all requests will be shared by the investigators.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP"
+      ],
+      "timeFrame": "1 year after the end of this study",
+      "accessCriteria": "Please contact the investigators through email in the time frame."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C584543",
+          "term": "roxadustat"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

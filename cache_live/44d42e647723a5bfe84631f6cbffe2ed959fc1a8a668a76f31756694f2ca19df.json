@@ -1,0 +1,265 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06536309",
+      "orgStudyIdInfo": {
+        "id": "2024P001894"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "1K23HL168163-01A1",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/1K23HL168163-01A1"
+        }
+      ],
+      "organization": {
+        "fullName": "Brigham and Women's Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Neprilysin Inhibition to Reduce Myocardial Fibrosis in Heart Failure With Preserved Ejection Fraction",
+      "officialTitle": "Neprilysin Inhibition to Reduce Myocardial Fibrosis in Heart Failure With Preserved Ejection Fraction"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-09",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-07-26",
+      "studyFirstSubmitQcDate": "2024-07-30",
+      "studyFirstPostDateStruct": {
+        "date": "2024-08-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-06",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-07",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Jonathan Cunningham MD MPH",
+        "investigatorTitle": "Assistant Professor of Medicine, Cardiovascular Division",
+        "investigatorAffiliation": "Brigham and Women's Hospital"
+      },
+      "leadSponsor": {
+        "name": "Brigham and Women's Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Cardiac magnetic resonance imaging (MRI) measures of myocardial interstitial fibrosis (MIF) are elevated in heart failure with preserved ejection fraction (HFpEF) patients and associated with poor prognosis. Extracellular volume (ECV) is the most reproducible and best validated cardiac MRI measure of MIF. Sacubitril/valsartan reduces histological MIF in mice and levels of some extracellular matrix regulatory proteins in humans with HFpEF. However, the effect of sacubitril/valsartan on robust measures of MIF in humans is unknown. Demonstrating reductions in ECV with sacubitril/valsartan would clarify the mechanism of this approved medication. Given the borderline reduction in heart failure hospitalizations with sacubitril/valsartan and the heterogeneity of HFpEF pathophysiology, this result would suggest that neprilysin inhibition may particularly benefit HFpEF patients with greater MIF. The investigators propose a proof-of-concept clinical trial to evaluate the effect of neprilysin inhibition (sacubitril/valsartan vs valsartan alone) on cardiac MRI measures of fibrosis (principally ECV) and circulating protein levels."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Preserved Ejection Fraction",
+        "Myocardial Fibrosis"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 36,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Sacubitril/valsartan",
+          "type": "EXPERIMENTAL",
+          "description": "Patient randomized to the interventional arm will be treated with sacubitril/valsartan",
+          "interventionNames": [
+            "Drug: Sacubitril-valsartan"
+          ]
+        },
+        {
+          "label": "Valsartan",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patient randomized to the active comparator arm will be treated with valsartan",
+          "interventionNames": [
+            "Drug: Valsartan"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Sacubitril-valsartan",
+          "description": "Sacubitril-valsartan titrated to maximally targeted dose",
+          "armGroupLabels": [
+            "Sacubitril/valsartan"
+          ],
+          "otherNames": [
+            "Entresto"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Valsartan",
+          "description": "Valsartan titrated to maximally targeted dose",
+          "armGroupLabels": [
+            "Valsartan"
+          ],
+          "otherNames": [
+            "Diovan"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in extracellular volume by cardiac MRI",
+          "description": "The primary outcome is to evaluate the change in extracellular volume (ECV), measured by cardiac MRI, from baseline to one year, in the sacubitril/valsartan arm compared to the valsartan arm",
+          "timeFrame": "1 year"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in left ventricular native T1 time",
+          "description": "Measured by cardiac MRI",
+          "timeFrame": "1 year"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Change in left ventricular mass",
+          "description": "Measured by cardiac MRI",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Change in left atrial size",
+          "timeFrame": "1 year"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Adults aged 50 years or older\n* Able to provide informed consent, as assessed by a physician investigator, and willing to comply with the study\n* Clinically confirmed diagnosis of heart failure\n* Left ventricular ejection fraction greater than or equal to 45% within 1 year by echocardiogram, cardiac MRI, or nuclear scan\n\nExclusion Criteria:\n\n* Contraindication to MRI (metal prosthesis, implantable cardiac device, or severe claustrophobia)\n* Systolic blood pressure \\< 100mm Hg, or \\<110 mm Hg for patients not taking an ACE inhibitor or angiotensin receptor blocker\n* symptomatic hypotension\n* eGFR \\< 30 mL/min/1.73m2 within 60 days of enrollment\n* Serum potassium \\>5.2mmol/L within 60 days of enrollment, or \\>5.0 mmol/L for patients not taking an ACE inhibitor or angiotensin receptor blocker\n* Myocardial infarction within 6 months of enrollment\n* Infiltrative or hypertrophic cardiomyopathy\n* History of cirrhosis, biliary cirrhosis, or cholestasis\n* History of angioedema\n* Pregnancy, planning pregnancy, or breastfeeding\n* Active treatment with lithium or a direct renin inhibitor",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "50 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Jonathan Cunningham, MD",
+          "role": "CONTACT",
+          "phone": "671-732-5524",
+          "email": "jcunningham3@bwh.harvard.edu"
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "31475794",
+          "type": "BACKGROUND",
+          "citation": "Solomon SD, McMurray JJV, Anand IS, Ge J, Lam CSP, Maggioni AP, Martinez F, Packer M, Pfeffer MA, Pieske B, Redfield MM, Rouleau JL, van Veldhuisen DJ, Zannad F, Zile MR, Desai AS, Claggett B, Jhund PS, Boytsov SA, Comin-Colet J, Cleland J, Dungen HD, Goncalvesova E, Katova T, Kerr Saraiva JF, Lelonek M, Merkely B, Senni M, Shah SJ, Zhou J, Rizkala AR, Gong J, Shi VC, Lefkowitz MP; PARAGON-HF Investigators and Committees. Angiotensin-Neprilysin Inhibition in Heart Failure with Preserved Ejection Fraction. N Engl J Med. 2019 Oct 24;381(17):1609-1620. doi: 10.1056/NEJMoa1908655. Epub 2019 Sep 1."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "Deidentified participant data will be made available according to NHLBI and institutional regulations"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C549068",
+          "term": "sacubitril and valsartan sodium hydrate drug combination"
+        },
+        {
+          "id": "D000068756",
+          "term": "Valsartan"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013777",
+          "term": "Tetrazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D014633",
+          "term": "Valine"
+        },
+        {
+          "id": "D000597",
+          "term": "Amino Acids, Branched-Chain"
+        },
+        {
+          "id": "D000596",
+          "term": "Amino Acids"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D000601",
+          "term": "Amino Acids, Essential"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,1288 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02784535",
+      "nctIdAliases": [
+        "NCT02796209"
+      ],
+      "orgStudyIdInfo": {
+        "id": "160415"
+      },
+      "organization": {
+        "fullName": "Vanderbilt University Medical Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "Norepinephrine Transporter Blockade, Autonomic Failure (NETAF)",
+      "officialTitle": "Phase 2 Norepinephrine Transporter Blockade, Autonomic Failure IND117394 12/28/12",
+      "acronym": "NETAF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-08",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-08-29",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-05-12",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-06",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-05-24",
+      "studyFirstSubmitQcDate": "2016-05-26",
+      "studyFirstPostDateStruct": {
+        "date": "2016-05-27",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2022-05-05",
+      "resultsFirstSubmitQcDate": "2022-08-22",
+      "resultsFirstPostDateStruct": {
+        "date": "2022-09-16",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-08-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-09-13",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Cyndya Shibao, MD",
+        "investigatorTitle": "Associate Professor of Medicine",
+        "investigatorAffiliation": "Vanderbilt University Medical Center"
+      },
+      "leadSponsor": {
+        "name": "Vanderbilt University Medical Center",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "NYU Langone Health",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Drug therapy for patients suffering from autonomic failure and neurogenic orthostatic hypotension are scarce and not effective. If left untreated, these patients have the highest risk of syncope, falls and fall-related injuries. The proposed study will determine the clinical benefit of a commercially available drug, atomoxetine, to reduce symptoms associated with neurogenic orthostatic hypotension in patients with autonomic failure.",
+      "detailedDescription": "Autonomic failure is a group of rare neurodegenerative disorders that primarily affect the autonomic nervous system. These patients develop neurogenic orthostatic hypotension (OH) because of impaired autonomic reflexes that control cardiovascular and neuro-humoral adaptation to upright posture. The treatment of neurogenic OH is challenging; the therapeutic options are scarce, and some patients are refractory to treatment.\n\nAtomoxetine is a selective norepinephrine transporter inhibitor that increases the availability of norepinephrine in the synapse by blocking its reuptake. Our preliminary data in sixty-five patients with primary autonomic failure and neurogenic OH showed that atomoxetine was more effective than midodrine, standard of care, in improving standing SBP (+7.5 mm Hg). Notably, only atomoxetine and not midodrine induced a significant reduction in OH-related symptoms (lightheadedness and dizziness) compared with placebo. In this proposal, we will test the hypothesis that prolonged administration of the norepinephrine transporter blocker, atomoxetine, improves OH-related symptoms and OH-impact on daily activities compared with placebo in autonomic failure patients. We propose a randomized, double-blind, placebo-controlled, 2x2 crossover study."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Neurogenic Orthostatic Hypotension"
+      ],
+      "keywords": [
+        "norepinephrine transporter inhibitors"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 48,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "placebo capsules",
+          "interventionNames": [
+            "Drug: Atomoxetine"
+          ]
+        },
+        {
+          "label": "atomoxetine",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "atomoxetine capsules 10 mg or 18 mg",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Atomoxetine",
+          "description": "norepinephrine transporter inhibitor",
+          "armGroupLabels": [
+            "placebo"
+          ],
+          "otherNames": [
+            "strattera"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "placebo",
+          "armGroupLabels": [
+            "atomoxetine"
+          ],
+          "otherNames": [
+            "non active medication"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in the OHQ (Orthostatic Hypotension Questionnaire) Composite Score",
+          "description": "The Orthostatic Hypotension Questionnaire (OHQ) , patient-reported assessment tool consisting of the OH Symptom Assessment (OHSA), OH Daily Activity Scale (OHDAS).\n\nThe composite score is composed of 10 individual items: 6 items measure specific symptoms , the Orthostatic Hypotension Symptom Assessment (OHSA), and 4 items measure the impact of those symptoms on a patient daily activities, the Orthostatic Hypotension Daily Activity Scale (OHDAS). This scales helps to measure the impact of orthostatic symptoms on daily.\n\nScale is between 0-10: where \"0\" is minimum Orthostatic symptoms and \"10\" is the maximum / worse possible severity of the symptoms.\n\nAll items are scored 0 through 10 (higher scores = more impact) and summed into the respective total scores.\n\nThe OHSA and OHDAS subscales averaged to compute the OHQ composite score.",
+          "timeFrame": "week 0 to week 4"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in Blood Pressure",
+          "description": "Systolic Blood Pressure (SBP) and Diastolic Blood Pressure (DBP) (measured in mm of Hg) , is recorded after 10 mins of standing. The changes SBP and DBP are compared from baseline, post drug (4 weeks)",
+          "timeFrame": "Baseline to 4 weeks"
+        },
+        {
+          "measure": "Change in Heart Rate (HR)",
+          "description": "HR is compared to baseline after 10 mins of standing. The difference increase in Heart rate from baseline, post drug at 4 weeks",
+          "timeFrame": "Baseline and at 4 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* 40 years old or older\n* Neurogenic Orthostatic Hypotension (defined by a reduction of ≥20 mmHg drop in SBP within 3 minutes of standing, associated with impaired autonomic reflexes as assessed by autonomic function tests.\n\nExclusion Criteria:\n\n* Pregnancy or breastfeeding\n* Hypersensitivity to atomoxetine (severe allergic reaction, rash, urticaria, anaphylaxis)\n* Use of other norepinephrine transporter inhibitors such as Wellbutrin (Bupropion), Cymbalta (Duloxetine), Effexor (venlafaxine), Pristiq (desvenlafaxine), Savella (milnacipran)\n* Previous history (within 14 days prior to enrollment) and current use of monoamine oxidase inhibitors\n* Concomitant use of strong CYP2D6 inhibitors such as delavirdine, paroxetine, fluoxetine, quinidine\n* Pre-existing sustained severe hypertension (BP ≥ 140/80 mmhg in the sitting position)\n* Impaired hepatic function (aspartate amino transaminase \\[AST\\] and/or alanine amino transaminase \\[ALT\\] \\>2 x upper limit of normal range)\n* Impaired renal function (serum creatinine equal or more than 1.6 mg/dl)\n* Myocardial infarction within 6 months prior to enrollment\n* Congestive heart failure (LV hypertrophy acceptable)\n* History of serious neurologic disease such as cerebral hemorrhage, or stroke\n* Inability to comply with the protocol, e.g., uncooperative attitude, inability to return for follow-up visits, unlikelihood of completing the study, and mental conditions rendering the subject unable to understand the nature, scope, and possible consequences of the study\n* Narrow-angle glaucoma",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "40 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Cyndya A Shibao, MD",
+          "affiliation": "Vanderbilt University Medical Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Horacio Kaufmann, MD",
+          "affiliation": "NYU Langone Medical Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Dysautonomic Center at NYU Langone Medical Center",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10016",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Vanderbilt University Medical Center",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37232",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "25185131",
+          "type": "BACKGROUND",
+          "citation": "Ramirez CE, Okamoto LE, Arnold AC, Gamboa A, Diedrich A, Choi L, Raj SR, Robertson D, Biaggioni I, Shibao CA. Efficacy of atomoxetine versus midodrine for the treatment of orthostatic hypotension in autonomic failure. Hypertension. 2014 Dec;64(6):1235-40. doi: 10.1161/HYPERTENSIONAHA.114.04225. Epub 2014 Sep 2."
+        },
+        {
+          "pmid": "17515448",
+          "type": "BACKGROUND",
+          "citation": "Shibao C, Raj SR, Gamboa A, Diedrich A, Choi L, Black BK, Robertson D, Biaggioni I. Norepinephrine transporter blockade with atomoxetine induces hypertension in patients with impaired autonomic function. Hypertension. 2007 Jul;50(1):47-53. doi: 10.1161/HYPERTENSIONAHA.107.089961. Epub 2007 May 21."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "68 patients were screened, 20 subjects met exclusion criteria. 48 enrolled in the open-label, dose-optimization phase to identify \"Atomoxetine responders\" for eligibility to be randomized.\n\n8 participants did not meet the response eligibility criteria, (Blood pressure too high (4), no response to drug (4) 40 patients randomized in the double-blind, placebo-controlled.",
+      "recruitmentDetails": "25 subjects completed study at Vanderbilt University Medical Center, Nashville 15 subjects were enrolled at NYU School of Medicine,Langone Medical Center.NY",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Atomoxetine Then Placebo",
+          "description": "Atomoxetine: norepinephrine transporter inhibitor Atomoxetine capsules 10 mg or 18 mg Three times a day Placebo: Placebo, three times a day"
+        },
+        {
+          "id": "FG001",
+          "title": "Placebo Then Atomoxetine",
+          "description": "Placebo: Placebo, Three times a day Atomoxetine: norepinephrine transporter inhibitor Atomoxetine capsules 10 mg or 18 mg Three times a day"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "20"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "20"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "comment": "Randomized ,placebo controlled, crossover phase (days 0-64)",
+                  "numSubjects": "19"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "18"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Adverse Event",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Physician Decision",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "In phase 1 baseline 50% of participants got Atomoxetine and 50% of participants got Placebo The subjects who got Atomoxetine in first phase, got placebo in second phase The subjects who got placebo in first phase, got Atomoxetine in second phase",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "All Participants",
+          "description": "All participants were randomized to receive all interventions. All participants received Atomoxetine and All participants received Placebo. Participants were randomized, double blinded, In Phase I (0-4 weeks), Day 0-Day 28, Day 0 is baseline: 50 % of participants got Atomoxetine (active drug) 50 % of participants got Placebo In Phase II Day 36 to Day 64. Participants were washed out of Phase I Participants who received Atomoxetine at phase 1, got Placebo in Phase II Participants who received Placebo at Phase 1, got Atomoxetine in Phase II"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "40"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "67.9",
+                      "spread": "8.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "24"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "16"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "40"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "40"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Weight",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "Kg",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "80",
+                      "spread": "18"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Height",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "cm",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "174.7",
+                      "spread": "9.9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BMI (Body Mass Index)",
+          "description": "Body Mass Index (BMI) is a person's weight in kilograms divided by the square of height in meters . A high BMI can indicate high body fatness",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "kg/m^2",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "26.2",
+                      "spread": "4.8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Diagnosis 2",
+          "description": "MSA ( Multiple System Atrophy) group: MSA includes autonomic impairment combined with an extrapyramidal or cerebellar movement disorder or both.\n\nNon MSA group : \"Pure Autonomic Failure\" subjects and \"Parkinson Disease\" subjects are combined as \"non-MSA\" group",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Multiple System Atrophy (MSA)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "18"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Non MSA (Parkinson disease or Pure autonomic failure",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "To identify Atomoxetine Responders",
+          "description": "Open-Label Dose-Optimization Phase(days -10 to -7):\n\nBaseline BP and HR measured while supine for 10 min. \\& after 10 min. standing. Subject to rate symptoms using OHSA, question 1. Atomoxetine 10 mg is given, after 60 min., repeat BP and HR measurements are taken as above \\& symptom assessment using OHSA, question 1.\n\nAtomoxetine responders will be defined as those who: 1) had a decrease in self-rating scale of ≥1 point in the OHSA, question 1; \\& 2) had an increase in standing SBP ≥ 10 mm Hg from baseline, post-drug. Non responders are tried Atomoxetine 18 mg, another day.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "High Concentration responders -Atomoxetine 18mg",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "10"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Low Concentration responders with Atomoxetine 10mg",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "30"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Change in the OHQ (Orthostatic Hypotension Questionnaire) Composite Score",
+          "description": "The Orthostatic Hypotension Questionnaire (OHQ) , patient-reported assessment tool consisting of the OH Symptom Assessment (OHSA), OH Daily Activity Scale (OHDAS).\n\nThe composite score is composed of 10 individual items: 6 items measure specific symptoms , the Orthostatic Hypotension Symptom Assessment (OHSA), and 4 items measure the impact of those symptoms on a patient daily activities, the Orthostatic Hypotension Daily Activity Scale (OHDAS). This scales helps to measure the impact of orthostatic symptoms on daily.\n\nScale is between 0-10: where \"0\" is minimum Orthostatic symptoms and \"10\" is the maximum / worse possible severity of the symptoms.\n\nAll items are scored 0 through 10 (higher scores = more impact) and summed into the respective total scores.\n\nThe OHSA and OHDAS subscales averaged to compute the OHQ composite score.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Score on a scale",
+          "timeFrame": "week 0 to week 4",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Placebo",
+              "description": "Placebo"
+            },
+            {
+              "id": "OG001",
+              "title": "Atomoxetin",
+              "description": "Atomoxetine: norepinephrine transporter inhibitor Atomoxetine capsules 10 mg or 18 mg"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "38"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "36"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "OHQ composite score at Baseline",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.61",
+                      "spread": "2.16"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4.17",
+                      "spread": "2.29"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "OHQ composite score at 4weeks",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.35",
+                      "spread": "1.98"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.5",
+                      "spread": "2.25"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Difference in OHQ composite score at 4 weeks",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.58",
+                      "spread": "2.39"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.5",
+                      "spread": "1.58"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Blood Pressure",
+          "description": "Systolic Blood Pressure (SBP) and Diastolic Blood Pressure (DBP) (measured in mm of Hg) , is recorded after 10 mins of standing. The changes SBP and DBP are compared from baseline, post drug (4 weeks)",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "mm of Hg",
+          "timeFrame": "Baseline to 4 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Placebo",
+              "description": "Placebo: placebo"
+            },
+            {
+              "id": "OG001",
+              "title": "Atomoxetine",
+              "description": "Atomoxetine: norepinephrine transporter inhibitor Atomoxetine capsules 10 mg or 18 mg"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "38"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "36"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "difference increase in SBP; post drug 4 weeks; standing for 10 mins",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.88",
+                      "spread": "19.83"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-2.44",
+                      "spread": "23.54"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "DBP;post drug; standing 10 mins at 4 weeks",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-3.06",
+                      "spread": "15.85"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.94",
+                      "spread": "15.6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Heart Rate (HR)",
+          "description": "HR is compared to baseline after 10 mins of standing. The difference increase in Heart rate from baseline, post drug at 4 weeks",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Beats per minute",
+          "timeFrame": "Baseline and at 4 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Placebo",
+              "description": "Placebo: placebo"
+            },
+            {
+              "id": "OG001",
+              "title": "Atomoxetine",
+              "description": "Atomoxetine: norepinephrine transporter inhibitor Atomoxetine capsules 10 mg or 18 mg"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "38"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "36"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "79.12",
+                      "spread": "11.83"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "82.68",
+                      "spread": "14.58"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "Day -10 to Day 64 of the study",
+      "description": "The adverse events (AEs) were noted after the subjects signed the Consent. Among all AEs :\n\n2 happened in dose optimization period, 23 were recorded in phase of Atomoxetine treatment and 20 were in phase of Placebo treatment.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Dose Optimization Phase",
+          "description": "-1 to -10 days Open-label, dose-optimization phase: To test two doses of Atomoxetine (10,18 mg), until they met criteria for Atomoxetine Responders.\n\ntotal of 48 participated in this phase. 40 participants were qualified as Atomoxetine responders.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 48,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 48,
+          "otherNumAffected": 1,
+          "otherNumAtRisk": 48
+        },
+        {
+          "id": "EG001",
+          "title": "Placebo",
+          "description": "Double blind Placebo group\n\nOverall subjects who received placebo capsules",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 40,
+          "seriousNumAffected": 1,
+          "seriousNumAtRisk": 40,
+          "otherNumAffected": 13,
+          "otherNumAtRisk": 40
+        },
+        {
+          "id": "EG002",
+          "title": "Atomoxetine",
+          "description": "Double blind Atomoxetine 18 mg or Atomoxetine 10 mg.\n\nDepending upon the dose the participant qualified as Atomoxetine Responders. Subjects received atomoxetine capsules 18 mg or 10 mg three times a day.\n\nThe dose stratification was not done\n\nMajority of the subjects received 18 mg of Atomoxetine three times a day .",
+          "deathsNumAffected": 1,
+          "deathsNumAtRisk": 40,
+          "seriousNumAffected": 2,
+          "seriousNumAtRisk": 40,
+          "otherNumAffected": 13,
+          "otherNumAtRisk": 40
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Patient hospitalized after found in bed disoriented and confused with fever of unknown origin",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Patient hospitalized after found in bed disoriented and confused with fever of unknown origin.\n\nRequires in-patient hospitalization or prolongation of existing hospitalization",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAtRisk": 48
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 40
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Trouble swallowing",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Results in persistent or significant disability or incapacity",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAtRisk": 48
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 40
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Bowel Obstruction",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Requires in-patient hospitalization or prolongation of existing hospitalization",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAtRisk": 48
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 40
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 40
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 48
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 40
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Insomnia",
+          "organSystem": "Psychiatric disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 48
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 40
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Reflux esophagitis",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 48
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 40
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Urinary tract infection",
+          "organSystem": "Renal and urinary disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 48
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 40
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "upper respiratory infections",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 48
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 40
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 5,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "altered sensation, tingling, numbness , cold",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 48
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 40
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 5,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Altered bowel movements",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 48
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 40
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Prostatitis",
+          "organSystem": "Renal and urinary disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 48
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 40
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Rash",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 48
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 40
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Injury related to fall",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 48
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 40
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 40
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": true
+      },
+      "pointOfContact": {
+        "title": "Dr Cyndya Shibao",
+        "organization": "Vanderbilt University Medical center",
+        "email": "cyndya.shibao@vumc.org",
+        "phone": "615-322-2318"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2019-04-22",
+          "uploadDate": "2022-05-04T16:18",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 887338
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000069445",
+          "term": "Atomoxetine Hydrochloride"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011437",
+          "term": "Propylamines"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

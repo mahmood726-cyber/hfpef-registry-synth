@@ -1,0 +1,386 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06126991",
+      "orgStudyIdInfo": {
+        "id": "RuijinH_20230318"
+      },
+      "organization": {
+        "fullName": "Ruijin Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Organ Protective Effect of Cetirizine In Patients With Severe Burns",
+      "officialTitle": "Organ Protective Effect of Histamine H1 Receptor Antagonist In Patients With Severe Burns: A Clinical Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-10",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-01-23",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-10-30",
+      "studyFirstSubmitQcDate": "2023-11-06",
+      "studyFirstPostDateStruct": {
+        "date": "2023-11-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-01-30",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-02-01",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Ruijin Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This prospective clinical trial aims to investigate the organ protective effects of cetirizine in patients with severe burns.",
+      "detailedDescription": "This is a prospective, randomized, single-blind, parallel-controlled clinical trial. The global objective is to compare the organ protective effects of the sedation and analgesia regimen (midazolam, fentanyl) with the modified sedation and analgesia regimen (midazolam, fentanyl, cetirizine) in patients with severe burns (≥30% TBSA). Participants will receive the intervention from admission to 72 hours post-burn. Researchers will take the APACHE II scores on days 7 after admission as the main outcomes. Researchers will also take other supplementary examination results into account, including liver enzyme, myocardial enzyme, renal function, haemodynamic index, coagulation function, and pulmonary interstitial edema."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Burns"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 32,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "The Modified Sedation and Analgesia Regimen Group",
+          "type": "EXPERIMENTAL",
+          "description": "midazolam, fentanyl, cetirizine",
+          "interventionNames": [
+            "Drug: Cetirizine",
+            "Drug: Midazolam and Fentanyl"
+          ]
+        },
+        {
+          "label": "The Sedation and Analgesia Regimen Group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "midazolam, fentanyl",
+          "interventionNames": [
+            "Drug: Midazolam and Fentanyl"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Cetirizine",
+          "description": "Oral administration of cetirizine at 10mg once daily will be used.",
+          "armGroupLabels": [
+            "The Modified Sedation and Analgesia Regimen Group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Midazolam and Fentanyl",
+          "description": "Midazolam 50mg + fentanyl 300ug micro pump push will be used with a starting dose of 5ml/hour, adjusted according to the patient's level of sedation. The patient's RASS score will be maintained between -1-0 and the drug will be suspended with a blood pressure below 90/60mmHg.",
+          "armGroupLabels": [
+            "The Modified Sedation and Analgesia Regimen Group",
+            "The Sedation and Analgesia Regimen Group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "APACHE II on Day 7",
+          "description": "Observation of APACHE II scores of patients in each group 7 days after admission.\n\nThe APACHE II (Acute Physiology And Chronic Health Evaluation II) is a severity-of-disease classification system. An integer score from 0 to 71 is computed based on several measurements. Higher scores correspond to more severe disease and a higher risk of death.",
+          "timeFrame": "Day 7"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Urinary Output",
+          "description": "Observation of 24-hour urinary output (ml) 7 days after admission.",
+          "timeFrame": "Day 7"
+        },
+        {
+          "measure": "Blood L-lactate",
+          "description": "Observation of Blood L-lactate level 7 days after admission.",
+          "timeFrame": "Day 7"
+        },
+        {
+          "measure": "Base Excess (BE)",
+          "description": "Observation of base excess in blood 7 days after admission.",
+          "timeFrame": "Day 7"
+        },
+        {
+          "measure": "Oxygen Saturation",
+          "description": "Observation of oxygen saturation in blood 7 days after admission.",
+          "timeFrame": "Day 7"
+        },
+        {
+          "measure": "Stroke Volume Variation",
+          "description": "Observation of stroke volume variation (SVV) in PICCO or Uscom 7 days after admission.",
+          "timeFrame": "Day 7"
+        },
+        {
+          "measure": "Global End-Diastolic Volume",
+          "description": "Observation of global end-diastolic volume (GEDV) in PICCO or Uscom 7 days after admission.",
+          "timeFrame": "Day 7"
+        },
+        {
+          "measure": "Central Venous Pressure",
+          "description": "Observation of central venous pressure (CVP) in PICCO or Uscom 7 days after admission.",
+          "timeFrame": "Day 7"
+        },
+        {
+          "measure": "Stroke Volume",
+          "description": "Observation of stroke volume 7 days after admission.",
+          "timeFrame": "Day 7"
+        },
+        {
+          "measure": "Cardiac Function Index",
+          "description": "Observation of Cardiac Function Index (CFI) 7 days after admission.",
+          "timeFrame": "Day 7"
+        },
+        {
+          "measure": "Pulmonary interstitial edema",
+          "description": "Observation of extravascular lung water index (ELWI) or chest x-ray 7 days after admission.",
+          "timeFrame": "Day 7"
+        },
+        {
+          "measure": "SOFA Score",
+          "description": "Observation of SOFA score 7 days after admission.\n\nThe SOFA score (Sequential Organ Failure Assessment Score) is a scoring system associated with the organ function or rate of function of patients. An integer score from 0 to 24 is computed based on 6 different scores, one each for the respiratory, cardiovascular, hepatic, coagulation, renal, and neurological systems. Each organ system is assigned a point value from 0 (normal) to 4 (high degree of dysfunction/failure). Higher scores correspond to more severe organ function disorders or failures.",
+          "timeFrame": "Day 7"
+        },
+        {
+          "measure": "Body Temperature",
+          "description": "Observation of body temperature 7 days after admission.",
+          "timeFrame": "Day 7"
+        },
+        {
+          "measure": "Heart Rate",
+          "description": "Observation of heart rate 7 days after admission.",
+          "timeFrame": "Day 7"
+        },
+        {
+          "measure": "Respiratory Rate",
+          "description": "Observation of respiratory rate 7 days after admission.",
+          "timeFrame": "Day 7"
+        },
+        {
+          "measure": "Leukocyte Count",
+          "description": "Observation of leukocyte count in blood 7 days after admission.",
+          "timeFrame": "Day 7"
+        },
+        {
+          "measure": "Blood CRP",
+          "description": "Observation of blood CRP (C-reactive protein) 7 days after admission.",
+          "timeFrame": "Day 7"
+        },
+        {
+          "measure": "Blood Calcitoninogen",
+          "description": "Observation of blood calcitoninogen 7 days after admission.",
+          "timeFrame": "Day 7"
+        },
+        {
+          "measure": "Mechanical Ventilation Duration",
+          "description": "Observation of mechanical ventilation duration during 28 days after admission.",
+          "timeFrame": "Day 28"
+        },
+        {
+          "measure": "Mortality",
+          "description": "Observation of mortality during 28 days after admission.",
+          "timeFrame": "Day 28"
+        },
+        {
+          "measure": "Sepsis Rate",
+          "description": "Observation of sepsis rate during 28 days after admission.",
+          "timeFrame": "Day 28"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Signed and dated informed consent form\n* Commitment to comply with the procedures and cooperation during the course\n* TBSA \\>30% and admitted within the first day after burns\n* No severe compound injuries\n\nExclusion Criteria:\n\n* History of allergy to drugs in the trial\n* Postoperative complications that would interfere with the observation\n* Mental illness and severe heart disease, hypertension\n* Serious genetic diseases\n* Incomplete clinical information (unclear diagnosis, incomplete medical history, incomplete medication records, etc.)\n* Pregnancy/lactation\n* Malignant tumors\n* Organ insufficiency due to previous chronic diseases such as hypertension, diabetes mellitus or non-burning factors\n* Serious adverse reactions\n* Self-requested withdrawal",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "12 Years",
+      "maximumAge": "90 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Yan Liu",
+          "role": "CONTACT",
+          "phone": "021-64370045",
+          "email": "rjliuyan@126.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Yan Liu",
+          "affiliation": "Ruijin Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Department of Burn, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine",
+          "status": "RECRUITING",
+          "city": "Shanghai",
+          "state": "Shanghai Municipality",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yan Liu",
+              "role": "CONTACT",
+              "phone": "021-64370045",
+              "email": "rjliuyan@126.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "35846468",
+          "type": "BACKGROUND",
+          "citation": "Zhang M, Yang P, Yu T, Harmsen MC, Gao M, Liu D, Shi Y, Liu Y, Zhang X. Lytic cocktail: An effective method to alleviate severe burn induced hyper-metabolism through regulating white adipose tissue browning. Heliyon. 2022 Mar 17;8(3):e09128. doi: 10.1016/j.heliyon.2022.e09128. eCollection 2022 Mar."
+        },
+        {
+          "pmid": "35953455",
+          "type": "RESULT",
+          "citation": "Wang J, Lu C, Zhang J, Gao M, Liu D, Yang P, Yu T, Wang X, Zhang X, Liu Y. LYTIC COCKTAIL ATTENUATES CATECHOLAMINE SURGE AFTER SEVERE BURNS BY BLOCKING HISTAMINE H1 RECEPTOR/PKA/CREB/TYROSINE HYDROXYLASE SIGNALING IN CHROMAFFIN CELLS. Shock. 2022 Aug 1;58(2):158-168. doi: 10.1097/SHK.0000000000001963. Epub 2022 Jul 24."
+        },
+        {
+          "pmid": "36843581",
+          "type": "RESULT",
+          "citation": "Wang J, Lu C, Liu X, Zhang G, Zhang J, Gao M, Liu D, Zhang X, Liu Y. Histamine H1 receptor antagonist attenuates catecholamine surge and organ injury after severe burns. Front Endocrinol (Lausanne). 2023 Feb 9;14:1068925. doi: 10.3389/fendo.2023.1068925. eCollection 2023."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D002056",
+          "term": "Burns"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D014947",
+          "term": "Wounds and Injuries"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D017332",
+          "term": "Cetirizine"
+        },
+        {
+          "id": "D008874",
+          "term": "Midazolam"
+        },
+        {
+          "id": "D005283",
+          "term": "Fentanyl"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006919",
+          "term": "Hydroxyzine"
+        },
+        {
+          "id": "D010879",
+          "term": "Piperazines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D001569",
+          "term": "Benzodiazepines"
+        },
+        {
+          "id": "D001552",
+          "term": "Benzazepines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D010880",
+          "term": "Piperidines"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

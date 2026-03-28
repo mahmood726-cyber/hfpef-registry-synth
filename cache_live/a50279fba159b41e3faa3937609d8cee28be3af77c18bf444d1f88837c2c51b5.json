@@ -1,0 +1,641 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03243760",
+      "orgStudyIdInfo": {
+        "id": "202031"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2015-003960-35",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "GlaxoSmithKline",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Dose Escalating Study of CCI15106 Inhalation Capsules in Healthy Subjects and Moderate Chronic Obstructive Pulmonary Disease (COPD) Patients",
+      "officialTitle": "A Double-blind (Sponsor Unblind), Randomized, Placebo-controlled, Single and Repeat Escalating Dose Study to Investigate the Safety, Tolerability, and Pharmacokinetics of CCI15106 Capsules for Inhalation in Healthy Subjects and Patients With Moderate Chronic Obstructive Pulmonary Disease (COPD)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-06",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "The trial is terminated before investigation of repeat escalating doses as these will be conducted with the new formulation instead.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-02-10",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2016-07-20",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2016-08-20",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-07-31",
+      "studyFirstSubmitQcDate": "2017-08-04",
+      "studyFirstPostDateStruct": {
+        "date": "2017-08-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2020-06-26",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-06-30",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "GlaxoSmithKline",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study will be the first administration of CCI15106 capsules for inhalation to humans. The primary objective of the study is to investigate the safety and tolerability of single and repeat escalating doses of CCI15106 in healthy subjects and patients with moderate chronic obstructive pulmonary disease (COPD). The intention of this study is to provide sufficient confidence in the safety of the molecule delivered by inhalation to inform progression to further repeat dose and proof of concept studies.\n\nThis will be a three-part study. Part 1 will investigate single ascending doses and Part 2 repeat ascending doses in healthy subjects. In Part 3, a single dose will be administered to patients with moderate COPD.\n\nThere will be screening period of up to 30 days. The treatment period will be 3 days for Parts 1 and 3 and 16 days for Part 2. Follow-up will be performed within 30 days after the last dose."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Pulmonary Disease, Chronic Obstructive"
+      ],
+      "keywords": [
+        "CCI15106",
+        "pharmacokinetics",
+        "BAL",
+        "COPD"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Cohort A: Single dose CCI15106 7.5 mg /Placebo",
+          "type": "EXPERIMENTAL",
+          "description": "Healthy subjects will receive single dose of either 1 capsule CCI15106 7.5 milligram (mg) or matching placebo by inhalation via Modified Air Inlet Rotahaler™ device according to randomization.",
+          "interventionNames": [
+            "Drug: CCI15106 7.5 mg capsule",
+            "Drug: Placebo",
+            "Drug: Placebo-2"
+          ]
+        },
+        {
+          "label": "Cohort B: Single dose CCI15106 15 mg /Placebo",
+          "type": "EXPERIMENTAL",
+          "description": "Healthy subjects will receive single dose of either 15 mg CCI15106 (2 capsules of 7.5 mg) or matching placebo by inhalation via Modified Air Inlet Rotahaler™ device according to randomization.",
+          "interventionNames": [
+            "Drug: CCI15106 7.5 mg capsule",
+            "Drug: Placebo",
+            "Drug: Placebo-2"
+          ]
+        },
+        {
+          "label": "Cohort C: Single dose CCI15106 30 mg /Placebo",
+          "type": "EXPERIMENTAL",
+          "description": "Healthy subjects will receive single dose of either 30 mg CCI15106 (4 capsules of 7.5 mg) or matching placebo by inhalation via Modified Air Inlet Rotahaler™ device according to randomization.",
+          "interventionNames": [
+            "Drug: CCI15106 7.5 mg capsule",
+            "Drug: Placebo",
+            "Drug: Placebo-2"
+          ]
+        },
+        {
+          "label": "Cohort D: Single dose CCI15106 30 mg /Placebo-BAL",
+          "type": "EXPERIMENTAL",
+          "description": "Healthy subjects will receive single dose of either 30 mg CCI15106 (4 capsules of 7.5 mg) or matching placebo by inhalation via Modified Air Inlet Rotahaler™ device according to randomization. BAL procedures will be performed in this cohort additionally.",
+          "interventionNames": [
+            "Drug: CCI15106 7.5 mg capsule",
+            "Drug: Placebo",
+            "Drug: Placebo-2"
+          ]
+        },
+        {
+          "label": "Cohort E: Single dose CCI15106 45 mg /Placebo",
+          "type": "EXPERIMENTAL",
+          "description": "Healthy subjects will receive single dose of either 45 mg CCI15106 (6 capsules of 7.5 mg) or matching placebo by inhalation via Modified Air Inlet Rotahaler™ device according to randomization.",
+          "interventionNames": [
+            "Drug: CCI15106 7.5 mg capsule",
+            "Drug: Placebo",
+            "Drug: Placebo-2"
+          ]
+        },
+        {
+          "label": "Cohort F: Single dose CCI15106 60 mg /Placebo",
+          "type": "EXPERIMENTAL",
+          "description": "Healthy subjects will receive single dose of either 60 mg CCI15106 (8 capsules of 7.5 mg) or matching placebo by inhalation via Modified Air Inlet Rotahaler™ device according to randomization.",
+          "interventionNames": [
+            "Drug: CCI15106 7.5 mg capsule",
+            "Drug: Placebo",
+            "Drug: Placebo-2"
+          ]
+        },
+        {
+          "label": "Cohort G: CCI15106 7.5 mg /Placebo BID 14 Days",
+          "type": "EXPERIMENTAL",
+          "description": "Healthy subjects will receive repeat dose of either 7.5 mg CCI15106 (1 capsule) or matching placebo twice daily (BID) for 14 days by inhalation via Modified Air Inlet Rotahaler™ device according to randomization.",
+          "interventionNames": [
+            "Drug: CCI15106 7.5 mg capsule",
+            "Drug: Placebo",
+            "Drug: Placebo-2"
+          ]
+        },
+        {
+          "label": "Cohort H: CCI15106 15 mg /Placebo BID 14 Days",
+          "type": "EXPERIMENTAL",
+          "description": "Healthy subjects will receive repeat dose of either 15 mg CCI15106 (2 capsules of 7.5 mg) or matching placebo BID for 14 days by inhalation via Modified Air Inlet Rotahaler™ device according to randomization.",
+          "interventionNames": [
+            "Drug: CCI15106 7.5 mg capsule",
+            "Drug: Placebo",
+            "Drug: Placebo-2"
+          ]
+        },
+        {
+          "label": "Cohort I: CCI15106 30 mg /Placebo BID 14 Days-BAL",
+          "type": "EXPERIMENTAL",
+          "description": "Healthy subjects will receive repeat dose of either 30 mg CCI15106 (4 capsules of 7.5 mg) or matching placebo BID for 14 days by inhalation via Modified Air Inlet Rotahaler™ device according to randomization. BAL procedures will be performed in this cohort additionally.",
+          "interventionNames": [
+            "Drug: CCI15106 7.5 mg capsule",
+            "Drug: Placebo",
+            "Drug: Placebo-2"
+          ]
+        },
+        {
+          "label": "Cohort J: CCI15106 =<30 mg /Placebo BID 14 Days",
+          "type": "EXPERIMENTAL",
+          "description": "Healthy subjects will receive repeat dose of either =\\< 30 mg CCI15106 (less than or equal to 4 capsules of 7.5 mg) or matching placebo BID for 14 days by inhalation via Modified Air Inlet Rotahaler™ device according to randomization. The dose for cohort J is unknown at this time and will depend on results seen in the previous cohorts.",
+          "interventionNames": [
+            "Drug: CCI15106 7.5 mg capsule",
+            "Drug: Placebo",
+            "Drug: Placebo-2"
+          ]
+        },
+        {
+          "label": "Cohort K: Single dose CCI15106 30 mg /Placebo-COPD",
+          "type": "EXPERIMENTAL",
+          "description": "COPD patients will receive single dose of either 30 mg CCI15106 (4 capsules of 7.5 mg) or matching placebo by inhalation via Modified Air Inlet Rotahaler™ device according to randomization.",
+          "interventionNames": [
+            "Drug: CCI15106 7.5 mg capsule",
+            "Drug: Placebo",
+            "Drug: Placebo-2"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "CCI15106 7.5 mg capsule",
+          "description": "Orange capsule containing a white to off-white powder, 21.4 mg of CCI15106: Trehalose:Trileucine 35/55/10 weight by weight (w/w)",
+          "armGroupLabels": [
+            "Cohort A: Single dose CCI15106 7.5 mg /Placebo",
+            "Cohort B: Single dose CCI15106 15 mg /Placebo",
+            "Cohort C: Single dose CCI15106 30 mg /Placebo",
+            "Cohort D: Single dose CCI15106 30 mg /Placebo-BAL",
+            "Cohort E: Single dose CCI15106 45 mg /Placebo",
+            "Cohort F: Single dose CCI15106 60 mg /Placebo",
+            "Cohort G: CCI15106 7.5 mg /Placebo BID 14 Days",
+            "Cohort H: CCI15106 15 mg /Placebo BID 14 Days",
+            "Cohort I: CCI15106 30 mg /Placebo BID 14 Days-BAL",
+            "Cohort J: CCI15106 =<30 mg /Placebo BID 14 Days",
+            "Cohort K: Single dose CCI15106 30 mg /Placebo-COPD"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Orange capsule containing a white to off-white powder, 21.4 mg of Trehalose:Trileucine 85/15 w/w",
+          "armGroupLabels": [
+            "Cohort A: Single dose CCI15106 7.5 mg /Placebo",
+            "Cohort B: Single dose CCI15106 15 mg /Placebo",
+            "Cohort C: Single dose CCI15106 30 mg /Placebo",
+            "Cohort D: Single dose CCI15106 30 mg /Placebo-BAL",
+            "Cohort E: Single dose CCI15106 45 mg /Placebo",
+            "Cohort F: Single dose CCI15106 60 mg /Placebo",
+            "Cohort G: CCI15106 7.5 mg /Placebo BID 14 Days",
+            "Cohort H: CCI15106 15 mg /Placebo BID 14 Days",
+            "Cohort I: CCI15106 30 mg /Placebo BID 14 Days-BAL",
+            "Cohort J: CCI15106 =<30 mg /Placebo BID 14 Days",
+            "Cohort K: Single dose CCI15106 30 mg /Placebo-COPD"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo-2",
+          "description": "Orange capsule containing a white to off-white powder, 21.4 mg of lactose. Placebo-2 to be used if unexpected safety signals are observed with the use of matching placebo.",
+          "armGroupLabels": [
+            "Cohort A: Single dose CCI15106 7.5 mg /Placebo",
+            "Cohort B: Single dose CCI15106 15 mg /Placebo",
+            "Cohort C: Single dose CCI15106 30 mg /Placebo",
+            "Cohort D: Single dose CCI15106 30 mg /Placebo-BAL",
+            "Cohort E: Single dose CCI15106 45 mg /Placebo",
+            "Cohort F: Single dose CCI15106 60 mg /Placebo",
+            "Cohort G: CCI15106 7.5 mg /Placebo BID 14 Days",
+            "Cohort H: CCI15106 15 mg /Placebo BID 14 Days",
+            "Cohort I: CCI15106 30 mg /Placebo BID 14 Days-BAL",
+            "Cohort J: CCI15106 =<30 mg /Placebo BID 14 Days",
+            "Cohort K: Single dose CCI15106 30 mg /Placebo-COPD"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Part 1: Number of participants with adverse events (AE)",
+          "description": "An AE is any untoward medical occurrence in a patient or clinical investigation subject, temporally associated with the use of a medicinal product, whether or not considered related to the medicinal product. AE will be collected from the start of study treatment until the final follow-up visit.",
+          "timeFrame": "Up to 33 days"
+        },
+        {
+          "measure": "Part 2: Number of participants with AE",
+          "description": "An AE is any untoward medical occurrence in a patient or clinical investigation subject, temporally associated with the use of a medicinal product, whether or not considered related to the medicinal product. AE will be collected from the start of study treatment until the final follow-up visit.",
+          "timeFrame": "Up to 46 days"
+        },
+        {
+          "measure": "Part 3: Number of participants with AE",
+          "description": "An AE is any untoward medical occurrence in a patient or clinical investigation subject, temporally associated with the use of a medicinal product, whether or not considered related to the medicinal product. AE will be collected from the start of study treatment until the final follow-up visit.",
+          "timeFrame": "Up to 33 days"
+        },
+        {
+          "measure": "Part 1: Number of subjects with abnormal clinical hematology test findings",
+          "description": "Hematology tests will be performed as a measure of safety",
+          "timeFrame": "Up to 33 days"
+        },
+        {
+          "measure": "Part 2: Number of subjects with abnormal clinical hematology test findings",
+          "description": "Hematology tests will be performed as a measure of safety",
+          "timeFrame": "Up to 46 days"
+        },
+        {
+          "measure": "Part 3: Number of subjects with abnormal clinical hematology test findings",
+          "description": "Hematology tests will be performed as a measure of safety",
+          "timeFrame": "Up to 33 days"
+        },
+        {
+          "measure": "Part 1: Number of subjects with abnormal clinical chemistry test findings",
+          "description": "Clinical chemistry laboratory tests will be performed as a measure of safety",
+          "timeFrame": "Up to 33 days"
+        },
+        {
+          "measure": "Part 2: Number of subjects with abnormal clinical chemistry test findings",
+          "description": "Clinical chemistry laboratory tests will be performed as a measure of safety",
+          "timeFrame": "Up to 46 days"
+        },
+        {
+          "measure": "Part 3: Number of subjects with abnormal clinical chemistry test findings",
+          "description": "Clinical chemistry laboratory tests will be performed as a measure of safety",
+          "timeFrame": "Up to 33 days"
+        },
+        {
+          "measure": "Part 1: Number of subjects with abnormal urine analysis test findings",
+          "description": "Urine analysis tests will be performed as a measure of safety",
+          "timeFrame": "Up to 33 days"
+        },
+        {
+          "measure": "Part 2: Number of subjects with abnormal urine analysis test findings",
+          "description": "Urine analysis tests will be performed as a measure of safety",
+          "timeFrame": "Up to 46 days"
+        },
+        {
+          "measure": "Part 3: Number of subjects with abnormal urine analysis test findings",
+          "description": "Urine analysis tests will be performed as a measure of safety",
+          "timeFrame": "Up to 33 days"
+        },
+        {
+          "measure": "Part 1: Number of subjects with abnormal findings of body temperature",
+          "description": "Body temperature will be measured in a semi-supine position after 5 minutes of rest",
+          "timeFrame": "Up to 33 days"
+        },
+        {
+          "measure": "Part 2: Number of subjects with abnormal findings of body temperature",
+          "description": "Body temperature will be measured in a semi-supine position after 5 minutes of rest",
+          "timeFrame": "Up to 46 days"
+        },
+        {
+          "measure": "Part 3: Number of subjects with abnormal findings of body temperature",
+          "description": "Body temperature will be measured in a semi-supine position after 5 minutes of rest",
+          "timeFrame": "Up to 33 days"
+        },
+        {
+          "measure": "Part 1: Number of subjects with abnormal blood pressure values",
+          "description": "Systolic and diastolic blood pressure values will be measured in a semi-supine position after 5 minutes of rest",
+          "timeFrame": "Up to 33 days"
+        },
+        {
+          "measure": "Part 2: Number of subjects with abnormal blood pressure values",
+          "description": "Systolic and diastolic blood pressure values will be measured in a semi-supine position after 5 minutes of rest",
+          "timeFrame": "Up to 46 days"
+        },
+        {
+          "measure": "Part 3: Number of subjects with abnormal blood pressure values",
+          "description": "Systolic and diastolic blood pressure values will be measured in a semi-supine position after 5 minutes of rest",
+          "timeFrame": "Up to 33 days"
+        },
+        {
+          "measure": "Part 1: Number of subjects with abnormal pulse rate values",
+          "description": "Pulse rate will be measured in a semi-supine position after 5 minutes of rest",
+          "timeFrame": "Up to 33 days"
+        },
+        {
+          "measure": "Part 2: Number of subjects with abnormal pulse rate values",
+          "description": "Pulse rate will be measured in a semi-supine position after 5 minutes of rest",
+          "timeFrame": "Up to 46 days"
+        },
+        {
+          "measure": "Part 3: Number of subjects with abnormal pulse rate values",
+          "description": "Pulse rate will be measured in a semi-supine position after 5 minutes of rest",
+          "timeFrame": "Up to 33 days"
+        },
+        {
+          "measure": "Part 1: Number of subjects with abnormal respiratory rate values",
+          "description": "Respiratory rate will be measured in a semi-supine position after 5 minutes of rest",
+          "timeFrame": "Up to 33 days"
+        },
+        {
+          "measure": "Part 2: Number of subjects with abnormal respiratory rate values",
+          "description": "Respiratory rate will be measured in a semi-supine position after 5 minutes of rest",
+          "timeFrame": "Up to 46 days"
+        },
+        {
+          "measure": "Part 3: Number of subjects with abnormal respiratory rate values",
+          "description": "Respiratory rate will be measured in a semi-supine position after 5 minutes of rest",
+          "timeFrame": "Up to 33 days"
+        },
+        {
+          "measure": "Part 1: Number of subjects with abnormal electrocardiogram (ECG) findings",
+          "description": "12-lead ECG will be obtained during the study in semi-supine position after 5 minutes rest.",
+          "timeFrame": "Up to 33 days"
+        },
+        {
+          "measure": "Part 2: Number of subjects with abnormal ECG findings",
+          "description": "12-lead ECG will be obtained during the study in semi-supine position after 5 minutes rest.",
+          "timeFrame": "Up to 46 days"
+        },
+        {
+          "measure": "Part 3: Number of subjects with abnormal ECG findings",
+          "description": "12-lead ECG will be obtained during the study in semi-supine position after 5 minutes rest.",
+          "timeFrame": "Up to 33 days"
+        },
+        {
+          "measure": "Part 1: Number of subjects with abnormal Telemetry findings",
+          "description": "Cardiac telemetry will be performed continuously till 4hour post morning dose.",
+          "timeFrame": "Up to 33 days"
+        },
+        {
+          "measure": "Part 2: Number of subjects with abnormal telemetry findings",
+          "description": "Cardiac telemetry will be performed continuously till 4hour post morning dose.",
+          "timeFrame": "Up to 46 days"
+        },
+        {
+          "measure": "Part 3: Number of subjects with abnormal telemetry findings",
+          "description": "Cardiac telemetry will be performed continuously till 4hour post morning dose.",
+          "timeFrame": "Up to 33 days"
+        },
+        {
+          "measure": "Part 1: Number of subjects with abnormal spirometry findings",
+          "description": "Spirometry is a test to diagnose lung conditions. Spirometry will be performed at selected time points during the study.",
+          "timeFrame": "Up to 4 hour post-dose"
+        },
+        {
+          "measure": "Part 2: Number of subjects with abnormal spirometry findings",
+          "description": "Spirometry is a test to diagnose lung conditions. Spirometry will be performed at selected time points during the study.",
+          "timeFrame": "Up to 14 days"
+        },
+        {
+          "measure": "Part 3: Number of subjects with abnormal spirometry findings",
+          "description": "Spirometry is a test to diagnose lung conditions. Spirometry will be performed at selected time points during the study.",
+          "timeFrame": "Up to 4 hour post dose"
+        },
+        {
+          "measure": "Part 1: Area under the curve (AUC) from time zero to infinity (AUC[0-inf] following single dose administration of CCI15106",
+          "description": "Blood samples will be collected at specific time points to evaluate AUC(0-inf) of drug",
+          "timeFrame": "Pre dose, 0.25, 0.5, 0.75, 1, 2, 4, 6, 8, 10, 12, 24 hour post-dose and on follow-up"
+        },
+        {
+          "measure": "Part 3: AUC[0-inf] following single dose administration of CCI15106",
+          "description": "Blood samples will be collected at specific time points to evaluate AUC(0-inf) of drug",
+          "timeFrame": "Pre dose, 0.25, 0.5, 0.75, 1, 2, 4, 6, 8, 10, 12, 24 hour post-dose and on follow-up"
+        },
+        {
+          "measure": "Part 1: AUC from time zero to the time of last quantifiable concentration (AUC[0-last]) following single dose administration of CCI15106",
+          "description": "Blood samples will be collected at specific time points to evaluate AUC(0-last) of drug",
+          "timeFrame": "Pre dose, 0.25, 0.5, 0.75, 1, 2, 4, 6, 8, 10, 12, 24 hour post-dose and on follow-up"
+        },
+        {
+          "measure": "Part 3: AUC[0-last] following single dose administration of CCI15106",
+          "description": "Blood samples will be collected at specific time points to evaluate AUC(0-last) of drug",
+          "timeFrame": "Pre dose, 0.25, 0.5, 0.75, 1, 2, 4, 6, 8, 10, 12, 24 hour post-dose and on follow-up"
+        },
+        {
+          "measure": "Part 1: Maximum plasma concentration (Cmax) following single dose administration of CCI15106",
+          "description": "Blood samples will be collected at specific time points to evaluate Cmax of drug",
+          "timeFrame": "Pre dose, 0.25, 0.5, 0.75, 1, 2, 4, 6, 8, 10, 12, 24 hour post-dose and on follow-up"
+        },
+        {
+          "measure": "Part 2: Cmax following repeat dose administration of CCI15106",
+          "description": "Blood samples will be collected at specific time points to evaluate Cmax of drug",
+          "timeFrame": "Pre-dose, 0.25, 0.5, 0.75, 1, 2, 4, 6, 8, 10, 12 hours post dose on Day 1 and 14; Pre-dose on Day 2-12 and on follow-up"
+        },
+        {
+          "measure": "Part 3: Cmax following single dose administration of CCI15106",
+          "description": "Blood samples will be collected at specific time points to evaluate Cmax of drug",
+          "timeFrame": "Pre dose, 0.25, 0.5, 0.75, 1, 2, 4, 6, 8, 10, 12, 24 hour post-dose and on follow-up"
+        },
+        {
+          "measure": "Part 1: time of maximum concentration (Tmax) following single dose administration of CCI15106",
+          "description": "Blood samples will be collected at specific time points to evaluate Tmax of drug",
+          "timeFrame": "Pre dose, 0.25, 0.5, 0.75, 1, 2, 4, 6, 8, 10, 12, 24 hour post-dose and on follow-up"
+        },
+        {
+          "measure": "Part 2: Tmax following repeat dose administration of CCI15106",
+          "description": "Blood samples will be collected at specific time points to evaluate Tmax of drug",
+          "timeFrame": "Pre-dose, 0.25, 0.5, 0.75, 1, 2, 4, 6, 8, 10, 12 hours post dose on Day 1 and 14; Pre-dose on Day 2-12 and on follow-up"
+        },
+        {
+          "measure": "Part 3: Tmax following single dose administration of CCI15106",
+          "description": "Blood samples will be collected at specific time points to evaluate Tmax of drug",
+          "timeFrame": "Pre dose, 0.25, 0.5, 0.75, 1, 2, 4, 6, 8, 10, 12, 24 hour post-dose and on follow-up"
+        },
+        {
+          "measure": "Part 1: Elimination half life (T1/2) following single dose administration of CCI15106",
+          "description": "Blood samples will be collected at specific time points to evaluate T1/2 of drug",
+          "timeFrame": "Pre dose, 0.25, 0.5, 0.75, 1, 2, 4, 6, 8, 10, 12, 24 hour post-dose and on follow-up"
+        },
+        {
+          "measure": "Part 3: T1/2 following single dose administration of CCI15106",
+          "description": "Blood samples will be collected at specific time points to evaluate T1/2 of drug",
+          "timeFrame": "Pre dose, 0.25, 0.5, 0.75, 1, 2, 4, 6, 8, 10, 12, 24 hour post-dose and on follow-up"
+        },
+        {
+          "measure": "Part 1: Clearance (CL/F) following single dose administration of CCI15106",
+          "description": "Clearance will be calculated from concentration-time curve based on each individual subject's profile.",
+          "timeFrame": "Pre dose, 0.25, 0.5, 0.75, 1, 2, 4, 6, 8, 10, 12, 24 hour post-dose and on follow-up"
+        },
+        {
+          "measure": "part 3: CL/F following single dose administration of CCI15106",
+          "description": "Clearance will be calculated from concentration-time curve based on each individual subject's profile.",
+          "timeFrame": "Pre dose, 0.25, 0.5, 0.75, 1, 2, 4, 6, 8, 10, 12, 24 hour post-dose and on follow-up"
+        },
+        {
+          "measure": "Part 2: AUC from time zero to end of dosing interval (AUC[0-tau]) following repeat dose administration of CCI15106",
+          "description": "Blood samples will be collected at specific time points to evaluate AUC(0-tau) of drug",
+          "timeFrame": "Pre-dose, 0.25, 0.5, 0.75, 1, 2, 4, 6, 8, 10, 12 hours post dose on Day 1 and 14; Pre-dose on Day 2-12 and on follow-up"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Part 1 Concentrations of CCI15106 in ELF and BAL cell pellet",
+          "description": "BAL samples will be collected for assessing concentrations of CCI15106 in lung epithelial lining fluid (ELF) and bronchoalveolar lavage (BAL) cell pellet in cohort D.",
+          "timeFrame": "Up to 2 hour post-dose"
+        },
+        {
+          "measure": "Part 2: Concentrations of CCI15106 in ELF and BAL cell pellet",
+          "description": "BAL samples will be collected for assessing concentrations of CCI15106 in lung ELF and BAL cell pellet in cohort I.",
+          "timeFrame": "Up to 13 days"
+        },
+        {
+          "measure": "Part 1: Number of medical device incidents",
+          "description": "Device incident is malfunction or deterioration in performance of a device, as well as any inadequacy in the labeling or the instructions for use which, directly or indirectly, might lead to or might have led to the death of a patient/user/other person or to a serious deterioration in their state of health. Device incident assessment will be done at the time of each dosing to investigate the performance of the Modified Air Inlet Rotahaler™ device.",
+          "timeFrame": "Day 1"
+        },
+        {
+          "measure": "Part 2: Number of medical device incidents",
+          "description": "Device incident is malfunction or deterioration in performance of a device, as well as any inadequacy in the labeling or the instructions for use which, directly or indirectly, might lead to or might have led to the death of a patient/user/other person or to a serious deterioration in their state of health. Device incident assessment will be done at the time of each dosing to investigate the performance of the Modified Air Inlet Rotahaler™ device.",
+          "timeFrame": "Up to 14 days"
+        },
+        {
+          "measure": "Part 3: Number of medical device incidents",
+          "description": "Device incident is malfunction or deterioration in performance of a device, as well as any inadequacy in the labeling or the instructions for use which, directly or indirectly, might lead to or might have led to the death of a patient/user/other person or to a serious deterioration in their state of health. Device incident assessment will be done at the time of each dosing to investigate the performance of the Modified Air Inlet Rotahaler™ device.",
+          "timeFrame": "Day 1"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nFor Healthy Subjects\n\n* Between 18 and 65 years of age inclusive, at the time of signing the informed consent.\n* Healthy as determined by the investigator.\n* Body weight \\>= 50 kilogram (kg) for males and 45 kg for females and body mass index (BMI) within the range 19 - 31 kg/meter square (m\\^2) (inclusive)\n* Male or Female: Male subjects with female partners of child bearing potential must comply with the contraception requirements as specified in protocol. A female subject is eligible to participate if she is of non-reproductive potential.\n* Capable of giving signed informed consent.\n\nFor COPD Patients\n\n* Between 40 and 75 years of age inclusive, at the time of signing the informed consent.\n* Diagnosed with moderate COPD (GOLD class II) by a qualified physician as defined by the GOLD guidelines (http://www.goldcopd.org/).\n* The subject has spirometry at screening, showing: a) post-bronchodilator forced expiratory volume in 1 second (FEV1)\\>=50% and \\<80% predicted normal; b) post-bronchodilator FEV1/ forced vital capacity (FVC)\\<0.7.\n* Subject is a smoker or an ex-smoker.\n* Body weight \\>= 45 kg and BMI within the range 17 - 32 kg/m\\^2 (inclusive).\n* Male or Female: Male subjects with female partners of child bearing potential must comply with the contraception requirements as specified in protocol. A female subject is eligible to participate if she is of non-reproductive potential.\n* Capable of giving signed informed consent.\n\nExclusion Criteria:\n\nFor Healthy Subjects\n\n* Male partners of women who are pregnant or lactating\n* Alanine transaminase (ALT) and/or bilirubin \\>1.5xupper limit of normal (ULN) (isolated bilirubin \\>1.5xULN is acceptable if bilirubin is fractionated and direct bilirubin \\<35%).\n* Current or chronic history of liver disease, or known hepatic or biliary abnormalities (with the exception of Gilbert's syndrome or asymptomatic gallstones).\n* QT interval corrected for heart rate (QTc )\\> 450 millisecond (msec).\n* Heart rate: \\<40 and \\>100 beats per minute (bpm) for males and \\<50 and \\>100 bpm for females, PR Interval: \\<120 and \\>220 msec, QRS duration: \\<70 and \\>120 msec, QTcF interval: \\>450 msec\n* Any clinically significant central nervous system (e.g., seizures), cardiac, pulmonary, metabolic, renal, hepatic or gastrointestinal conditions or history of such conditions.\n* Unable to refrain from prescription or non-prescription drugs\n* History of regular alcohol consumption within 3 months of the study\n* Breath test indicative of smoking at day -1\n* History of sensitivity to any of the study medications\n* For cohorts that will undergo BAL, contraindications to bronchoalveolar lavage\n* Documented lactose allergy/intolerance for cohorts with lactose placebo if they are used in the study.\n* Hemoglobin (Hgb) below the lower level of the normal range with one repeat testing allowed, or known hemoglobinopathies.\n* Known severe hypersensitivity reactions such as Stevens-Johnson Syndrome, toxic epidermal necrolysis, and erythema multiforme.\n* Presence of hepatitis B surface antigen (HBsAg), positive hepatitis C antibody test result at screening or within 3 months prior to first dose of study treatment.\n* A positive pre-study drug/alcohol screen.\n* A positive test for human immunodeficiency virus (HIV) antibody.\n* Where participation in the study would result in donation of blood or blood products in excess of 500 mL within 3 month period.\n* The subject has participated in a clinical trial and has received an investigational product within the following time period prior to the first dosing day in the current study: 3 months, 5 half-lives or twice the duration of the biological effect of the investigational product (whichever is longer).\n* Exposure to more than four new chemical entities within 12 months prior to the first dosing day.\n\nFor COPD Patients\n\n* Male partners of women who are pregnant or lactating.\n* ALT and/or bilirubin \\>1.5xULN (isolated bilirubin \\>1.5xULN is acceptable if bilirubin is fractionated and direct bilirubin \\<35%).\n* Current or chronic history of liver disease, or known hepatic or biliary abnormalities (with the exception of Gilbert's syndrome or asymptomatic gallstones).\n* QTc \\> 450 msec or QTc \\> 480 msec in subjects with Bundle Branch Block.\n* Heart rate: \\<40 and \\>100 bpm for males and \\<50 and \\>100 bpm for females, PR Interval: \\<120 and \\>220 msec, QRS duration: \\<70 and \\>120 msec, QTcF interval: \\>450 msec\n* Subject has poorly controlled COPD as defined in protocol\n* History of an upper or lower respiratory tract infection requiring antibiotics in the 4 weeks prior to screening.\n* Subject has a diagnosis of active tuberculosis, lung cancer, clinically overt bronchiectasis, pulmonary fibrosis, asthma or any other respiratory condition that might, in the opinion of the Investigator, compromise the safety of the subject or affect the interpretation of the results.\n* Subjects who have past or current medical conditions or diseases that are not well controlled.\n* Subjects are not allowed to take oral corticosteroids from 4 weeks prior to screening and for the duration of the study.\n* Patients taking medications for any chronic conditions have to be on stable doses for 4 weeks prior to screening and until after completion of the treatment period. This includes COPD maintenance therapies (e.g. inhaled corticosteroids, long-acting beta-agonists, long-acting muscarinic agonists).\n* Didanosine and azathioprine are not allowed.\n* Use of short-acting inhaled bronchodilators is allowed, but patients must be able to discontinue their medications twice during the study.\n* Use of long-acting bronchodilators is allowed, but patients must be able to modify the schedule of their medications twice during the study.\n* Unable to refrain from smoking for 2 hour (h) prior to dosing and until all assessments are complete for 4 h after dosing and also for 1 h prior to any vital signs and ECG assessments.\n* History of regular alcohol consumption within 3 months of the study\n* History of sensitivity to any of the study medications.\n* Documented lactose allergy/intolerance\n* Impaired renal function (creatinine clearance \\< 50 mL/ minute).\n* Known severe hypersensitivity reactions such as Stevens-Johnson Syndrome, toxic epidermal necrolysis, and erythema multiforme.\n* Hgb below the lower level of the normal range with one repeat testing allowed or known hemoglobinopathies.\n* Presence of hepatitis B surface antigen (HBsAg), positive hepatitis C antibody test result at screening or within 3 months prior to first dose of study treatment.\n* A positive pre-study drug/alcohol screen.\n* A positive test for HIV antibody.\n* Where participation in the study would result in donation of blood or blood products in excess of 500 mL within 3 months.\n* The subject has participated in a clinical trial and has received an investigational product within the following time period prior to the first dosing day in the current study: 3 months, 5 half-lives or twice the duration of the biological effect of the investigational product (whichever is longer).\n* Exposure to more than four new chemical entities within 12 months prior to the first dosing day.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "GSK Clinical Trials",
+          "affiliation": "GlaxoSmithKline",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "GSK Investigational Site",
+          "city": "London",
+          "zip": "NW10 7EW",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "32071044",
+          "type": "DERIVED",
+          "citation": "Dumont EF, Oliver AJ, Ioannou C, Billiard J, Dennison J, van den Berg F, Yang S, Chandrasekaran V, Young GC, Lahiry A, Starbuck DC, Harrell AW, Georgiou A, Hopchet N, Gillies A, Baker SJ. A Novel Inhaled Dry-Powder Formulation of Ribavirin Allows for Efficient Lung Delivery in Healthy Participants and Those with Chronic Obstructive Pulmonary Disease in a Phase 1 Study. Antimicrob Agents Chemother. 2020 Apr 21;64(5):e02267-19. doi: 10.1128/AAC.02267-19. Print 2020 Apr 21."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "IPD for this study will be made available via the Clinical Study Data Request site.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF",
+        "CSR"
+      ],
+      "timeFrame": "IPD is available via the Clinical Study Data Request site (click on the link provided below)",
+      "accessCriteria": "Access is provided after a research proposal is submitted and has received approval from the Independent Review Panel and after a Data Sharing Agreement is in place. Access is provided for an initial period of 12 months but an extension can be granted, when justified, for up to another 12 months.",
+      "url": "https://clinicalstudydatarequest.com/Posting.aspx?ID=20371"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D029424",
+          "term": "Pulmonary Disease, Chronic Obstructive"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D008173",
+          "term": "Lung Diseases, Obstructive"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D002908",
+          "term": "Chronic Disease"
+        },
+        {
+          "id": "D020969",
+          "term": "Disease Attributes"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,261 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02772068",
+      "orgStudyIdInfo": {
+        "id": "STU 042013-039"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "R01AG017479",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/R01AG017479"
+        }
+      ],
+      "organization": {
+        "fullName": "University of Texas Southwestern Medical Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "Hemodynamic Response to Exercise in HFpEF Patients After Upregulation of SERCA2a",
+      "officialTitle": "Hemodynamic Response to Exercise in Heart Failure With Preserved Ejection Fraction (HFpEF) Patients After Upregulation of SERCA2a"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-09-15",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-12-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2018-12-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-05-11",
+      "studyFirstSubmitQcDate": "2016-05-12",
+      "studyFirstPostDateStruct": {
+        "date": "2016-05-13",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2022-06-22",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-06-29",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Benjamin Levine",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "University of Texas Southwestern Medical Center"
+      },
+      "leadSponsor": {
+        "name": "Benjamin Levine",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Institute on Aging (NIA)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Heart failure with preserved ejection fraction or HFpEF, represents nearly 50% of all heart failure cases and is particularly common in the elderly. The disease has no current treatment options. Symptoms typically occur during exertion or exercise and is likely the result of increased cardiac and pulmonary congestion as a result of impaired diastolic function. Istaroxime is a novel activator of SERCA2a, an important regulator of calcium uptake within the myocyte. We will test the hypothesis that Istaroxime will improve diastolic function during exercise in HFpEF patients which in turn will reduce cardiac and pulmonary congestion.",
+      "detailedDescription": "About half of all elderly patients with a diagnosis of congestive heart failure have apparently normal systolic function, so called \"heart failure with a preserved ejection fraction\" or HFpEF. To date, no effective therapy for HFpEF has been found, in part because of failure to discern key pathophysiologic pathways.\n\nAn extensive amount of pre-clinical work has identified that altered sarcoplasmic reticulum (SR) Ca2+ uptake, storage, and release play a major role in the changes in cardiac relaxation associated with aging, especially regarding sequestration of Ca++ by the sarcoplasmic reticular Ca++-ATPase (SERCA2a), which causes cardiac muscle relaxation by reducing cytosolic Ca++. Istaroxime is a relatively new drug that augments lusitropic function by upregulating SERCA2a activity in the heart.\n\nBecause of the clear importance of slowed relaxation in HFpEF, and the evidence that depressed SERCA2a activity contributes to the slowed relaxation with aging, the proposed study may be establish the \"impairment of SERCA2a\" hypothesis as a mechanism of impaired relaxation in HFpEF subjects."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure, Congestive"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Two separate groups of subjects (senior controls and patients with HFpEF) receiving istaroxime",
+        "primaryPurpose": "BASIC_SCIENCE",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 26,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Healthy Senior Control",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Fifteen healthy senior subjects will perform light exercise at a fixed heart rate of 100 beats per minute. Subjects will then be given either placebo infusion (normal saline) or Istaroxime infusion for one hour. Subjects will be blinded to which infusion they are receiving. Subjects will then repeat light exercise at a fixed heart rate of 100 beats per minute. Primary outcome is changes in cardiac filling pressures during exercise.",
+          "interventionNames": [
+            "Drug: Istaroxime",
+            "Other: Exercise"
+          ]
+        },
+        {
+          "label": "Heart failure patients",
+          "type": "EXPERIMENTAL",
+          "description": "Fifteen HFpEF subjects will perform light exercise at a fixed heart rate of 100 beats per minute. Subjects will then be given either placebo infusion (normal saline) or Istaroxime infusion for one hour. Subjects will be blinded to which infusion they are receiving. Subjects will then repeat light exercise at a fixed heart rate of 100 beats per minute. Primary outcome is changes in cardiac filling pressures during exercise.",
+          "interventionNames": [
+            "Drug: Istaroxime",
+            "Other: Exercise"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Istaroxime",
+          "description": "Subjects will be given Istaroxime, a novel SERCA2a activator one hour prior and during exercise.",
+          "armGroupLabels": [
+            "Healthy Senior Control",
+            "Heart failure patients"
+          ],
+          "otherNames": [
+            "exercise"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Exercise",
+          "armGroupLabels": [
+            "Healthy Senior Control",
+            "Heart failure patients"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in cardiac filling pressures (pulmonary capillary wedge pressure) during exercise with Istaroxime",
+          "description": "Change in cardiac filling pressures (pulmonary capillary wedge pressure) during exercise with Istaroxime",
+          "timeFrame": "Immediate; 90 minutes after infusion"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in cardiac relaxation time (isovolumic relaxation time) during exercise with Istaroxime",
+          "description": "Change in cardiac relaxation time (isovolumic relaxation time) during exercise",
+          "timeFrame": "90 minutes"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Healthy Senior Controls\n\nInclusion Criteria:\n\n* age \\> 60 years\n\nExclusion Criteria:\n\n* Coronary Ischemia\n* No chronic medical problems\n* BMI \\> 30 kg/m2\n\nHFpEF Subjects\n\nInclusion Criteria:\n\n* age \\> 60 years\n* signs and symptoms of heart failure\n* ejection fraction \\> 50%\n* objective evidence of diastolic dysfunction\n\nExclusion Criteria:\n\n* Coronary Ischemia\n* Chronic Kidney Disease, stage 4 or greater\n* Persistent atrial fibrillation\n* Severe valvular disease\n* BMI \\> 45 kg/m2",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "60 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Benjamin D Levine, MD",
+          "affiliation": "UT Southwestern",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "The Institute for Exercise and Environmental Medicine",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75231",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "37086245",
+          "type": "DERIVED",
+          "citation": "Sarma S, MacNamara JP, Hieda M, Howden EJ, Lawley JS, Livingston S, Samels M, Levine BD. SERCA2a Agonist Effects on Cardiac Performance During Exercise in Heart Failure With Preserved Ejection Fraction. JACC Heart Fail. 2023 Jul;11(7):760-771. doi: 10.1016/j.jchf.2023.02.006. Epub 2023 Apr 19."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C468128",
+          "term": "Istaroxime"
+        },
+        {
+          "id": "D015444",
+          "term": "Exercise"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009043",
+          "term": "Motor Activity"
+        },
+        {
+          "id": "D009068",
+          "term": "Movement"
+        },
+        {
+          "id": "D009142",
+          "term": "Musculoskeletal Physiological Phenomena"
+        },
+        {
+          "id": "D055687",
+          "term": "Musculoskeletal and Neural Physiological Phenomena"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

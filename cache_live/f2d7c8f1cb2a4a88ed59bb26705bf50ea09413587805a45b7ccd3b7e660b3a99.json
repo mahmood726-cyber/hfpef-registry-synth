@@ -1,0 +1,281 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02934217",
+      "orgStudyIdInfo": {
+        "id": "2013-830"
+      },
+      "organization": {
+        "fullName": "Hospices Civils de Lyon",
+        "class": "OTHER"
+      },
+      "briefTitle": "Does Cyclosporine ImpRove Clinical oUtcome in ST Elevation Myocardial Infarction Patients at 3 Years of Follow-up. CIRCUS II Study",
+      "officialTitle": "Does Cyclosporine ImpRove Clinical oUtcome in ST Elevation Myocardial Infarction Patients at 3 Years of Follow-up. CIRCUS II Study",
+      "acronym": "CIRCUS II"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2018-05",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2014-03",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2017-06-28",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2017-06-28",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-10-13",
+      "studyFirstSubmitQcDate": "2016-10-13",
+      "studyFirstPostDateStruct": {
+        "date": "2016-10-14",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2018-05-17",
+      "lastUpdatePostDateStruct": {
+        "date": "2018-05-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Hospices Civils de Lyon",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Infarct size is a major determinant of vital prognosis after AMI. We recently reported that cyclosporine A, when administered immediately prior to PCI reperfusion, can significantly reduce infarct size in STEMI patients. The CIRCUS study aimed at determining the impact of cyclosporine on the combined incidence of (death, hospitalization for heart failure, LV remodelling) at one year after AMI. However, many patients may display increased adverse LV remodelling beyond year 1 and develop heart failure thereafter. The present CIRCUS II trial aims at examining the 3-year clinical outcome of all patients recruited in the CIRCUS study."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ST Elevation Acute Myocardial Infarction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 868,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Cyclosporin",
+          "type": "EXPERIMENTAL",
+          "description": "one single intravenous bolus injection of 2.5 mg/Kg Echocardiography",
+          "interventionNames": [
+            "Drug: Injection of Cyclosporin",
+            "Procedure: Echocardiography"
+          ]
+        },
+        {
+          "label": "Control",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "one single intravenous bolus injection of Placebo Echocardiography",
+          "interventionNames": [
+            "Drug: Placebo",
+            "Procedure: Echocardiography"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Injection of Cyclosporin",
+          "description": "one single intravenous bolus injection of 2.5 mg/Kg",
+          "armGroupLabels": [
+            "Cyclosporin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "One single intravenous bolus injection of Placebo",
+          "armGroupLabels": [
+            "Control"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Echocardiography",
+          "description": "3 years after AMI",
+          "armGroupLabels": [
+            "Control",
+            "Cyclosporin"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Combined incidence of [total mortality; hospitalization for heart failure; LV remodeling (increase of LV end-diastolic volume > 15%)]",
+          "timeFrame": "at 12 months post-AMI."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Time to first event [total mortality, hospitalization for heart failure]",
+          "description": "Functional outcome",
+          "timeFrame": "until 3 years post-AMI"
+        },
+        {
+          "measure": "Total mortality",
+          "timeFrame": "at 12 months post-AMI."
+        },
+        {
+          "measure": "Total mortality",
+          "timeFrame": "at 3 years post-AMI."
+        },
+        {
+          "measure": "Cardiovascular death",
+          "timeFrame": "at 3 years post-AMI."
+        },
+        {
+          "measure": "Cardiovascular death",
+          "timeFrame": "at 12 months post-AMI."
+        },
+        {
+          "measure": "Heart failure",
+          "timeFrame": "at 12 months post-AMI."
+        },
+        {
+          "measure": "Heart failure",
+          "timeFrame": "at 3 years post-AMI."
+        },
+        {
+          "measure": "Myocardial infarction",
+          "timeFrame": "at 12 months post-AMI."
+        },
+        {
+          "measure": "Myocardial infarction",
+          "timeFrame": "at 3 years post-AMI."
+        },
+        {
+          "measure": "Unstable angina",
+          "timeFrame": "at 12 months post-AMI."
+        },
+        {
+          "measure": "Unstable angina",
+          "timeFrame": "at 3 years post-AMI."
+        },
+        {
+          "measure": "Stroke",
+          "timeFrame": "at 12 months post-AMI."
+        },
+        {
+          "measure": "Stroke",
+          "timeFrame": "at 3 years post-AMI."
+        },
+        {
+          "measure": "Infarct size",
+          "description": "Measured by cardiac MRI, only for patients included in participating centers where cardiac MRI is part of the usual post-infarct care",
+          "timeFrame": "at 12 months post-AMI."
+        },
+        {
+          "measure": "Infarct size",
+          "description": "Measured by cardiac MRI, only for patients included in participating centers where cardiac MRI is part of the usual post-infarct care",
+          "timeFrame": "at 3 years post-AMI."
+        },
+        {
+          "measure": "Quality of life",
+          "description": "Assessed by the EQ-5D-3L",
+          "timeFrame": "at 3 years post-AMI."
+        },
+        {
+          "measure": "Adverse events",
+          "timeFrame": "at 3 years post-AMI."
+        },
+        {
+          "measure": "Ejection fraction",
+          "timeFrame": "at 12 months post-AMI"
+        },
+        {
+          "measure": "Left-ventricular End-Diastolic Volume (LVEDV)",
+          "timeFrame": "at 12 months post-AMI"
+        },
+        {
+          "measure": "Left-ventricular End-Systolic Volume (LVESV)",
+          "timeFrame": "at 12 months post-AMI"
+        },
+        {
+          "measure": "Infarct size: peak Troponin (T or I)",
+          "timeFrame": "at 4 hours (+/- 30 minutes) after study treatment administration"
+        },
+        {
+          "measure": "Microvascular obstruction",
+          "description": "assessed by Magnetic resonance imaging",
+          "timeFrame": "at 48 hours post-AMI"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* All (male and female) patients, aged over 18, without any legal protection measure,\n* Having a health coverage,\n* Presenting within 12 hours of the onset of chest pain,\n* Who have ST segment elevation ≥0.2 mV in two contiguous leads,\n* For whom the clinical decision was made to treat with percutaneous coronary intervention (PCI).\n\nAnd (further inclusion criteria to be confirmed by the admission coronary-angiography):\n\n* The culprit coronary artery has to be the LAD\n* The LAD artery has to be occluded (TIMI flow grade 0-1) at the time of admission coronary angiography.\n* Preliminary oral informed consent followed by signed informed consent as soon as possible.\n\nPatients undergoing either primary PCI or rescue PCI are eligible for the study. Patients with previous AMI, PCI or coronary artery bypass surgery (CABG) are eligible for the study.\n\nExclusion Criteria:\n\n* Patients with loss of consciousness or confused\n* Patients with cardiogenic shock\n* Patients with the left circumflex or the right coronary artery (RCA) as the culprit artery, or with evidence of coronary collaterals to the risk region\n* Patients with an opened (TIMI \\> 1) LAD coronary artery at admission on initial (admission) coronary angiography\n* Patients with 1. known hypersensitivity to cyclosporine 2. known hypersensitivity to egg, peanut or Soya-bean proteins 3. known renal insufficiency (either known creatinin clearance \\< 30 ml/min/1.73m² or current medical care for severe renal insufficiency) 4. known liver insufficiency 5. uncontrolled (treated or untreated) hypertension (\\> 180/110 mmHg)\n* Patients treated with any compound containing Hypericum perforatum (St.-John's-worth) or Stiripentol or Aliskiren or Bosentan or Rosuvastatine\n* Female patients currently pregnant or women of childbearing age who were not using contraception (oral diagnosis).\n* Patients with any disorder associated with immunological dysfunction more recently than 6 months prior to presentation 1. cancer, lymphoma 2. known positive serology for HIV, or hepatitis",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Michel OVIZE, Prof",
+          "affiliation": "Hospices Civils de Lyon",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hôpital Louis Pradel",
+          "city": "Bron",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.73865,
+            "lon": 4.91303
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    }
+  },
+  "hasResults": false
+}

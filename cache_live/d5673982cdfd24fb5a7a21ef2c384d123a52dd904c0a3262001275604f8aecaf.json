@@ -1,0 +1,189 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06024369",
+      "orgStudyIdInfo": {
+        "id": "TUFTS-PILOT-1.0"
+      },
+      "organization": {
+        "fullName": "Analog Device, Inc.",
+        "class": "OTHER"
+      },
+      "briefTitle": "Study of ADI CardioPulmonary Management (CPM) System",
+      "officialTitle": "Study of ADI CardioPulmonary Management (CPM) System"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-05",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "Change in staff / resources, sponsor decided not to pursue study.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-03-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-03-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-03-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-08-28",
+      "studyFirstSubmitQcDate": "2023-09-01",
+      "studyFirstPostDateStruct": {
+        "date": "2023-09-06",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-05-14",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-05-16",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Analog Device, Inc.",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is meant primarily collect CardioPulmonary Management (CPM) data from daily usage and compare it to the clinical course of a patient. For this study, the only aspect of the CPM solution that will be used will be the device itself and the mobile application to assign devices to patients. The patients will be assigned a device at visit one and take the device home. They will use the device once daily (when they first wake up) for 6 months. The patient will come in for visit 2 to return the device.",
+      "detailedDescription": "Patients that participate in this study will be using a wearable device for 6 months. At their initial visit (visit 1), patients will undergo a brief physical exam, have their medical history and medications recorded, and be fit to a device. With their clinical (or clinician delegate), the patient will have their baseline reading with the device. The patient will then be taught how to use the device at home and go through 2 practice patient-initiated measurements. The patient will also complete two surveys as a part of visit 1. These surveys can be done at the visit or at home within 7 days of the visit.\n\nDetails of all available history of Chronic Heart Failure (CHF) disease including surgical interventions related to CHF, CHF risk factors, or CHF comorbidities will be recorded (via a chart pull after the visit). The number of previous CHF-related hospitalizations, the patient's latest CHF diagnosis classification, and date of last hospitalization (number of days since) will be specifically noted. This includes notes about the current condition of the patient and their congestion and fluid status. Current New York Heart Association (NYHA) classification will be pulled as well (or assigned during the physical exam portion). Recent BNP (brain natriuretic peptide), creatinine, Left Ventricular Ejection Fraction (LVEF), chest Xray and other relevant labs will also be pulled from the chart and with vaccination status and dates for the following vaccines: COVID 19, flu and pneumonia. This is the first chart review (of two) that is required for the study).\n\nAfter visit 1, the patient will use the device once daily for 6 months. After 6 months, the patient will return for visit 2. At visit two, the patient will have a brief physical exam and return the device. The patient will complete the same two surveys and an additional survey about their perception of the device.\n\n30 days after visit 2 a second, targeted chart review will occur. Details of the patient's clinical course while they were using the device and for an additional 30 days after will be recorded. While the chart review will be targeted to the CHF clinical course (such as Emergency room visits, hospitalizations, skilled nursing facility visits, outpatient checkups and other CHF related notes), other relevant information will be collected as well. The most recent NYHA classification will be pulled (or assigned at visit 2). The most recent BNP, creatinine, LVEF, chest Xray and other relevant labs will be pulled."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Using wearable CPM Device daily",
+          "type": "EXPERIMENTAL",
+          "description": "The patients will be using the wearable device once daily at home for 6 months.",
+          "interventionNames": [
+            "Device: CPM Device"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "CPM Device",
+          "description": "Wearable monitor used for 5 minutes per day.",
+          "armGroupLabels": [
+            "Using wearable CPM Device daily"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Patient Satisfaction with Device",
+          "description": "Patient satisfaction with system obtained through survey questions; ease of use, impact and satisfaction; scale of 1-7 used with 1 being negative and 7 being positive. Higher scores indicate more satisfaction with device.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Correlation of device data and clinical outcomes",
+          "description": "Retrospective review of data to determine correlation of patient specific device measurements (such as increase/decrease in specific device parameters) with heart failure events. Measurements include thoracic impedance, respiration rate (RR), heart rate (HR), relative tidal volume (rTV), RR variability, HR variability, RR/rTV, QRS width, QTc width, presence of atrial fibrillation, and diastolic heart sound strength",
+          "timeFrame": "7 months"
+        },
+        {
+          "measure": "Patient Quality of Life",
+          "description": "Patient quality of live measured through the Minnesota Living with Heart Failure questionnaire. The questionnaire measures how heart failure impacts the patient's life scale is 0-5. 0 is does not apply, 1 is very little and 5 is very much. Higher scores indicate a worse quality of life.",
+          "timeFrame": "6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Compliance rates",
+          "description": "Percent of days with at least one measurement",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria: Heart failure (HF) patients regardless of ejection fraction, HFpEF (heart failure preserved ejection fraction) or HFrEF (heart failure reserved ejection fraction) with one or more of the following:\n\n* New York Heart Association (NYHA) Class III HF\n* NYHA Class IV HF OR\n* NYHA Class II HF with one/. or more of the following:\n* Chronic Kidney Disease (eGFR\\<60 within the past 6 months)\n* HF hospitalization (defined as HF listed as the major reason for hospitalization) within 9 months prior to screening visit and NT-proBNP \\> 200 pg/ml\\* (N-terminal pro b-type natriuretic peptide) for patients not in atrial fibrillation (AF) or \\> 600 pg/ml\\* for patients in AF on screening ECG+\n* NT-proBNP \\> 300 pg/ml\\* for patients not in AF or \\> 900 pg/ml\\* for patients in AF on the screening visit ECG+\n* Chronic obstructive pulmonary disease (COPD)\n\nExclusion Criteria:\n\n* Under 18 years of age\n* Patients with severe COPD (GOLD stage III or IV)\n* Limited mobility preventing application of device or no caregiver to assist\n* Cognitive impairments that would limit the application and proper use of the device\n* Skin allergies or skin sensitivities to silicone-based adhesives\n* Pregnancy (method of assessment at the discretion of the PI)\n* Not willing to shave chest hair if needed to apply device\n* Patients on chronic IV (intravenous) ionotropic therapy - (Milrinone, Dobutamine, and Dopamine)\n* Patients with any condition that might limit the survival to less than 1 year as assessed by the investigator\n* No cellular coverage (Patient's Home)\\*\\*\n* Skin breakdown on the left chest or breast area",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Tufts Medical Center",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02111",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,699 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04696185",
+      "orgStudyIdInfo": {
+        "id": "SEC-DAPATAVI-2020"
+      },
+      "organization": {
+        "fullName": "Spanish Society of Cardiology",
+        "class": "OTHER"
+      },
+      "briefTitle": "Dapagliflozin After Transcatheter Aortic Valve Implantation",
+      "officialTitle": "Dapagliflozin After Transcatheter Aortic Valve Implantation",
+      "acronym": "DapaTAVI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-01",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-01-27",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-12-29",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-12-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2020-12-30",
+      "studyFirstSubmitQcDate": "2021-01-03",
+      "studyFirstPostDateStruct": {
+        "date": "2021-01-06",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-01-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-01-10",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "SERGIO RAPOSEIRAS ROUBIN",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "Spanish Society of Cardiology"
+      },
+      "leadSponsor": {
+        "name": "Spanish Society of Cardiology",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Fundación Centro Nacional de Investigaciones Cardiovasculares Carlos III",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Pragmatic, controlled, prospective, randomized, open-label (open-label), evaluator-blind clinical trial (PROBE design) that will analyze the benefits of dapagliflozin treatment in patients with severe aortic stenosis discharged after implantation of an aortic valve prosthesis transcatheter (TAVI).",
+      "detailedDescription": "Patients discharged after TAVI, with a history of heart failure (HF) plus depressed left ventricular ejection fraction (LVEF ≤ 40%) or diabetes mellitus (DM) or glomerular filtration rate (GFR) between 25 and 75 ml/min/1.73 m2, will be randomized (1:1) before hospital discharge to receive treatment with dapagliflozin 10 mg/day or no dapagliflozin (no placebo).\n\nOnly variables available during routine clinical practice will be collected and there will be no additional tests.\n\nThe incidence of clinical events and adherence to the dapagliflozin arm will be documented at 2 time-points (3 ± 1 months and 12 months) by phone calls and review of medical records."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Aortic Stenosis",
+        "Transcatether Aortic Valve Implantation"
+      ],
+      "keywords": [
+        "Aortic Stenosis",
+        "TAVI",
+        "Dapagliflozin"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Dapa-TAVI is a pragmatic, controlled, prospective, randomized, open-label blinded endpoint (PROBE design) clinical trial. Patients being discharged after TAVI who meet all inclusion criteria, and none of the exclusion criteria, will be eligible for the enrollment. Patients will be 1:1 randomized to 1 of these 2 arms:\n\n* Intervention group: Sodium-glucose cotransporter-2 (SGLT-2) inhibitor therapy with daily oral dose of dapagliflozin 10 mg.\n* Control group: no SGLT-2 inhibitor therapy with dapagliflozin.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "All events will be adjudicated by the Clinical Events Adjudication Committee (CEAC), without information about the therapy (intervention or control) (blinded endpoint)",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1257,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Dapagliflozin",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Sodium-glucose cotransporter-2 (SGLT-2) inhibitor therapy with daily oral dose of dapagliflozin 10 mg",
+          "interventionNames": [
+            "Drug: Dapagliflozin 10 MG"
+          ]
+        },
+        {
+          "label": "Standard care",
+          "type": "NO_INTERVENTION",
+          "description": "No SGLT-2 inhibitor therapy with dapagliflozin"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Dapagliflozin 10 MG",
+          "description": "Dapagliflozin 10 mg (daily oral dose)",
+          "armGroupLabels": [
+            "Dapagliflozin"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Incidence rate of the composite of all-cause mortality or worsening heart failure (HF)",
+          "description": "All-cause mortality and worsening HF (including hospitalization for HF or an urgent visit resulting in intravenous therapy for HF).",
+          "timeFrame": "1 year"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Incidence rate all-cause mortality",
+          "description": "All cause mortality",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Incidence rate of Cardiovascular death",
+          "description": "Mortality secondary to cardiovascular cause",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Incidence rate of Hospitalization for Heart Failure",
+          "description": "Heart Failure requiring hospital admission",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Incidence rate of Urgent Heart Failure visits",
+          "description": "Urgent Heart Failure visit requiring intravenous therapy",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Incidence rate of the composite of Heart Failure hospitalization or Cardiovascular death",
+          "description": "Composite of Heart Failure hospitalization or Cardiovascular death",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Total number of Heart Failure hospitalizations and Cardiovascular deaths",
+          "description": "Total number of (first and recurrent) Heart Failure hospitalizations and Cardiovascular deaths",
+          "timeFrame": "1 year"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Improvement in NYHA class.",
+          "description": "Functional class according to New York Heart Association classification",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Incidence of new Atrial Fibrillation",
+          "description": "Diagnosis of new Atrial Fibrillation in patients without history of atrial fibrillation at baseline",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Safety endpoints",
+          "description": "1. Symptomatic hypotension. Symptomatic hypotension includes postural dizziness with systolic blood pressure \\< 100 mmHg, and orthostatic hypotension (defined as a decrease of \\>20 mmHg in systolic blood pressure or \\>10 mmHg in diastolic blood pressure from a supine to a standing position).\n2. Major hypoglycemia. Major hypoglucemia is defined as an event where all the following criteria were confirmed by the investigator: (1) the patient experienced symptoms of severe impairment in consciousness or behaviour; (2) the patient needed external assistance; (3) intervention was needed to treat the hypoglycaemia; and (4) there was prompt recovery of acute symptoms following the intervention.\n3. Ketoacidosis.\n4. Genital or Urinary Infections\n5. Amputation\n6. Necrotizing Fasciitis of the Perineum (Fournier's Gangrene)",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Rate of treatment switch (crossovers)",
+          "description": "Percentage of patients in the \"dapagliflozin arm\" who stop this treatment and percentage of patients in \"standard care\" arm who start dapagliflozin therapy",
+          "timeFrame": "1 year"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* SEVERE AORTIC STENOSIS UNDERWENT TAVI\n* PRIOR HEART FAILURE ADMISSION AND ONE OF THE FOLLOWING CRITERIA:\n\n  1. Left ventricular ejection fraction ≤ 40% or\n  2. Diabetes mellitus or\n  3. Estimated glomerular filtrate rate 25-75 ml/min/1.73 m2\n\nExclusion Criteria:\n\n* Known allergy or intolerance to SGLT2 inhibitors.\n* Concomitant therapy with sulfonylurea or SGLT2 inhibitors..\n* Systolic blood pressure \\< 100 mmHg or diastolic blood pressure \\< 50 mmHg.\n* An estimated glomerular filtration rate (GFR) below 25 ml per minute per 1.73 m2.\n* Chronic cystitis and/or recurrent urinary tract infections (2 or more in the last year)\n* Poor control of diabetes mellitus that requires SGLT-2 inhibitor prescription on discharge according to treating physician judge.\n* Any medical condition that, in the investigator´s judgment, would seriously limit life expectancy (less than one year).\n* Pregnant or breast-feeding patients\n* Patients participating in other clinical trials.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "EMAD ABU ASSI, PhD, MD",
+          "affiliation": "University Hospital Alvaro Cunqueiro, Vigo, Spain",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "BORJA IBAÑEZ, PhD, MD",
+          "affiliation": "Centro Nacional de Investigaciones Cardiovasculares (CNIC, Madrid, Spain)",
+          "role": "STUDY_DIRECTOR"
+        },
+        {
+          "name": "SERGIO RAPOSEIRAS ROUBIN, PhD, MD",
+          "affiliation": "University Hospital Alvaro Cunqueiro, Vigo, Spain",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "IGANCIO AMAT SANTOS, PhD, MD",
+          "affiliation": "Hospital Clínico Universitario de Valladolid",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hospital Juan Canalejo",
+          "city": "A Coruña",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.37135,
+            "lon": -8.396
+          }
+        },
+        {
+          "facility": "Hospital Universitario de Albacete",
+          "city": "Albacete",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 38.99424,
+            "lon": -1.85643
+          }
+        },
+        {
+          "facility": "Hospital General Universitario de Alicante",
+          "city": "Alicante",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 38.34517,
+            "lon": -0.48149
+          }
+        },
+        {
+          "facility": "Hospital Universitario de Cruces",
+          "city": "Barakaldo",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.29639,
+            "lon": -2.98813
+          }
+        },
+        {
+          "facility": "Centro Médico TEKNON",
+          "city": "Barcelona",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Clinic",
+          "city": "Barcelona",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital de Bellvitge",
+          "city": "Barcelona",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital German I Trias",
+          "city": "Barcelona",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Universitario Sant Pau",
+          "city": "Barcelona",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Universitario Vall D´Hebron",
+          "city": "Barcelona",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Puerta Del Mar",
+          "city": "Cadiz",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 36.52672,
+            "lon": -6.2891
+          }
+        },
+        {
+          "facility": "Hospital Reina Sofia",
+          "city": "Córdoba",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.89155,
+            "lon": -4.77275
+          }
+        },
+        {
+          "facility": "Hospital San Cecilio",
+          "city": "Granada",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.18817,
+            "lon": -3.60667
+          }
+        },
+        {
+          "facility": "Hospital Virgen de Las Nieves",
+          "city": "Granada",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.18817,
+            "lon": -3.60667
+          }
+        },
+        {
+          "facility": "Hospital Juan Ramón Jiménez",
+          "city": "Huelva",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.26638,
+            "lon": -6.94004
+          }
+        },
+        {
+          "facility": "Hospital Universitario de Jaen",
+          "city": "Jaén",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.76922,
+            "lon": -3.79028
+          }
+        },
+        {
+          "facility": "Hospital Universitario de León",
+          "city": "León",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.60003,
+            "lon": -5.57032
+          }
+        },
+        {
+          "facility": "Clinica La Luz",
+          "city": "Madrid",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Clinica Nuestra Señora de América de Madrid",
+          "city": "Madrid",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Fundación Jimenez Diaz",
+          "city": "Madrid",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital 12 de Octubre",
+          "city": "Madrid",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Clínico San Carlos",
+          "city": "Madrid",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital La Princesa",
+          "city": "Madrid",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Puerta de Hierro",
+          "city": "Madrid",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Ramón Y Cajal",
+          "city": "Madrid",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Universitario de Torrejón",
+          "city": "Madrid",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Virgen de La Victoria",
+          "city": "Málaga",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 36.72016,
+            "lon": -4.42034
+          }
+        },
+        {
+          "facility": "Hospital Universitario Central de Asturias",
+          "city": "Oviedo",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.36029,
+            "lon": -5.84476
+          }
+        },
+        {
+          "facility": "Hospital Son Espases",
+          "city": "Palma de Mallorca",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.56939,
+            "lon": 2.65024
+          }
+        },
+        {
+          "facility": "Hospital Universitario de Navarra",
+          "city": "Pamplona",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.81687,
+            "lon": -1.64323
+          }
+        },
+        {
+          "facility": "Hospital Universitario de Salamanca",
+          "city": "Salamanca",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.42972,
+            "lon": -3.67975
+          }
+        },
+        {
+          "facility": "Hospital Universitario de Canarias",
+          "city": "Santa Cruz de Tenerife",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 28.46824,
+            "lon": -16.25462
+          }
+        },
+        {
+          "facility": "Hospital Marqués de Valdecilla",
+          "city": "Santander",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.46589,
+            "lon": -3.80493
+          }
+        },
+        {
+          "facility": "Hospital Clínico de Santiago",
+          "city": "Santiago de Compostela",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.88052,
+            "lon": -8.54569
+          }
+        },
+        {
+          "facility": "Hospital Virgen Del Rocio",
+          "city": "Seville",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.38283,
+            "lon": -5.97317
+          }
+        },
+        {
+          "facility": "Hospital Clínico de Valencia",
+          "city": "Valencia",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Hospital La Fe",
+          "city": "Valencia",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Hospital Clinico Universitario de Valladolid",
+          "city": "Valladolid",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.65541,
+            "lon": -4.72353
+          }
+        },
+        {
+          "facility": "Hospital Álvaro Cunqueiro",
+          "city": "Vigo",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.23282,
+            "lon": -8.72264
+          }
+        },
+        {
+          "facility": "Hospital Miguel Servet",
+          "city": "Zaragoza",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.65606,
+            "lon": -0.87734
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "34693613",
+          "type": "RESULT",
+          "citation": "Amat-Santos IJ, Sanchez-Luna JP, Abu-Assi E, Melendo-Viu M, Cruz-Gonzalez I, Nombela-Franco L, Munoz-Garci AJ, Blas SG, de la Torre Hernandez JM, Romaguera R, Sanchez-Recalde A, Diez-Gil JL, Lopez-Otero D, Gheorge L, Ibanez B, Iniguez-Romo A, Raposeiras-Roubin S; Dapagliflozin after Transcatheter Aortic Valve Implantation (DapaTAVI) Investigators. Rationale and design of the Dapagliflozin after Transcatheter Aortic Valve Implantation (DapaTAVI) randomized trial. Eur J Heart Fail. 2022 Mar;24(3):581-588. doi: 10.1002/ejhf.2370. Epub 2021 Nov 9."
+        },
+        {
+          "pmid": "41062227",
+          "type": "DERIVED",
+          "citation": "Bonanad-Lozano C, Garcia Blas S, Amat-Santos I, Gonzalez-Manzanares R, Sanchis J, Lopez Otero D, Nombela Franco L, Gheorge L, Sanz-Sanchez J, Baladron Zorita C, Iniguez Romo A, Munoz Garcia AJ, Vilalta V, Ojeda S, Veiga Fernandez G, Cordoba Soriano JG, Cepas P, Sandin Rollan M, Rios XF, Palma-Carbajal R, Martin Reyes R, Romaguera R, Avanzas P, Franco-Pelaez JA, Martin Moreiras J, Gonzalez Juanatey JR, Tirado G, Calle G, Diez JL, Santos-Martinez S, Dominguez Erquicia P, Garcia EM, Fernandez-Nofrerias E, Lopez Pais J, Gonzalo N, Barri AG, Asmarats L, Lopez Perez M, Dominguez Rodriguez LM, Cobo M, Gonzalez Bermudez I, Garcia Alvarez A, Garcia Pavia P, Fuster V, Ibanez B, Raposeiras-Roubin S. Effect of Dapagliflozin on Quality of Life of Patients With Aortic Stenosis Undergoing Transcatheter Aortic Valve Implantation. J Am Coll Cardiol. 2025 Oct 14;86(15):1128-1138. doi: 10.1016/j.jacc.2025.07.051."
+        },
+        {
+          "pmid": "40162639",
+          "type": "DERIVED",
+          "citation": "Raposeiras-Roubin S, Amat-Santos IJ, Rossello X, Gonzalez Ferreiro R, Gonzalez Bermudez I, Lopez Otero D, Nombela-Franco L, Gheorghe L, Diez JL, Baladron Zorita C, Baz JA, Munoz Garcia AJ, Vilalta V, Ojeda-Pineda S, de la Torre Hernandez JM, Cordoba Soriano JG, Regueiro A, Bordes Siscar P, Salgado Fernandez J, Garcia Del Blanco B, Martin-Reyes R, Romaguera R, Moris C, Garcia Blas S, Franco-Pelaez JA, Cruz-Gonzalez I, Arzamendi D, Romero Rodriguez N, Diez-Del Hoyo F, Camacho Freire S, Bosa Ojeda F, Astorga Burgo JC, Molina Navarro E, Caballero Borrego J, Ruiz Quevedo V, Sanchez-Recalde A, Peral Disdier V, Alegria-Barrero E, Torres-Llergo J, Feltes G, Fernandez Diaz JA, Cuellas C, Jimenez Britez G, Sanchez-Rubio Lezcano J, Barreiro-Pardal C, Nunez-Gil I, Abu-Assi E, Iniguez-Romo A, Fuster V, Ibanez B; DapaTAVI Investigators. Dapagliflozin in Patients Undergoing Transcatheter Aortic-Valve Implantation. N Engl J Med. 2025 Apr 10;392(14):1396-1405. doi: 10.1056/NEJMoa2500366. Epub 2025 Mar 29."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "All data will be available to other researchers after ending the trial, prior to a formal request to the Executive Committee",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF",
+        "CSR"
+      ],
+      "timeFrame": "5 years",
+      "accessCriteria": "Email (dapatavi@gmail.com)",
+      "url": "https://www.dapatavi.com/"
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2020-10-14",
+          "uploadDate": "2021-01-03T05:38",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 1038872
+        },
+        {
+          "typeAbbrev": "ICF",
+          "hasProtocol": false,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Informed Consent Form",
+          "date": "2020-10-14",
+          "uploadDate": "2021-01-03T05:39",
+          "filename": "ICF_001.pdf",
+          "size": 281422
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001024",
+          "term": "Aortic Valve Stenosis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000082862",
+          "term": "Aortic Valve Disease"
+        },
+        {
+          "id": "D006349",
+          "term": "Heart Valve Diseases"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014694",
+          "term": "Ventricular Outflow Obstruction"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C529054",
+          "term": "dapagliflozin"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

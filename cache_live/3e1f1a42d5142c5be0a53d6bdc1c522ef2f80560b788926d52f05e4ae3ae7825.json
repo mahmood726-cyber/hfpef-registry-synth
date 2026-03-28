@@ -1,0 +1,1608 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01188369",
+      "orgStudyIdInfo": {
+        "id": "1616"
+      },
+      "organization": {
+        "fullName": "University of Aarhus",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effects of Levosimendan in Patients Eligible for Aortic Valve Replacement With Left Ventricular Hypertrophy",
+      "officialTitle": "Effects of Levosimendan on Systolic Deformation and Diastolic Function in Patients Eligible for Aortic Valve Replacement With Left Ventricular Hypertrophy"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2012-08",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Terminated prematurely due to high incidence of postoperative atrial fibrillation.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2010-09"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2013-03",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2013-03",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2010-08-10",
+      "studyFirstSubmitQcDate": "2010-08-24",
+      "studyFirstPostDateStruct": {
+        "date": "2010-08-25",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2018-05-11",
+      "resultsFirstSubmitQcDate": "2018-05-11",
+      "resultsFirstPostDateStruct": {
+        "date": "2018-12-03",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2018-05-11",
+      "lastUpdatePostDateStruct": {
+        "date": "2018-12-03",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Aarhus",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a clinical, randomised, double-blinded study in which patients eligible for aortic valve replacement are enrolled. Patients receive infusion of either levosimendan or placebo 4 hours prior to surgery and until the end of surgery.",
+      "detailedDescription": "Levosimendan or placebo will be infusion for approximately 4 hours prior to aortic valve replacement in patients with severe hypertrophy of the left ventricle and echocardiographic signs of diastolic dysfunction. Outcome measures will be obtained at some of the following:\n\n* Approximately 4 hours prior to surgery. Baseline. Start of levosimendan/placebo infusion\n* Immediately before surgery\n* After induction of anaesthesia and before \"knife time\" = start of surgery.\n* At the end of surgery: Levosimendan infusion will stop.\n* Approximately 4 hours after surgery immediately before extubation.\n* Approximately 21 hours after surgery\n* Approximately 96 hours after surgery (day 4)\n* 6 months after surgery\n\nOutcome measures are comprised of invasive measurements, blood samples, transthoracic echocardiography and transoesophageal echocardiography focusing on measures of systolic and diastolic function of the heart.\n\nInterim analysis will be conducted after 30 included patients."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Diastolic Dysfunction",
+        "Left Ventricular Hypertrophy"
+      ],
+      "keywords": [
+        "levosimendan",
+        "heart failure",
+        "inotropics",
+        "diastolic dysfunction",
+        "left ventricular hypertrophy",
+        "aortic valve stenosis"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 20,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "levosimendan",
+          "type": "EXPERIMENTAL",
+          "description": "infusion 0,1ug/kg/min for duration of ca. 4 hours prior to operation and until the end of operation",
+          "interventionNames": [
+            "Drug: levosimendan"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Identical placebo",
+          "interventionNames": [
+            "Drug: placebo drug"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "levosimendan",
+          "description": "Intravenous infusion, 0,1ug/kg/min, duration 4 hours prior to operation and until the end of operation.",
+          "armGroupLabels": [
+            "levosimendan"
+          ],
+          "otherNames": [
+            "Simdax"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "placebo drug",
+          "description": "Intravenous infusion, colour identical to levosimendan",
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "otherNames": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "E/E'(Unitless)",
+          "description": "Ration between early transmitral flow (E) and mitral annular tissue velocity(E'). This ratio is an echocardiographic index of diastolic function",
+          "timeFrame": "4 hours before operation until 21 hour after operation"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Isovolumetric Relaxation Time (IVRT) (s)",
+          "description": "Transthoracic measure of the time from aortic valve closure until mitral valve opening. A measure of diastolic function",
+          "timeFrame": "4 hours before surgery until 1 hour before operation"
+        },
+        {
+          "measure": "Ejection Fraction (Per Cent)",
+          "description": "Transeosophageal echocardiography: Measure of systolic function",
+          "timeFrame": "At start of operation until end of operation, approximately 3 hours"
+        },
+        {
+          "measure": "Cardiac Index (l/Min/m2)",
+          "description": "Invasive measurement measuring the cardiac output divided by calculated body surface area (DuBois formula)",
+          "timeFrame": "4 hours before operation until 1 hour before operation"
+        },
+        {
+          "measure": "Central Venous Pressure (mmHg)",
+          "description": "Invasive measurement of pressure in the vena cava",
+          "timeFrame": "4 hours before operation until 1 hours before operation"
+        },
+        {
+          "measure": "Pulmonary Artery Pressures (mmHg)",
+          "description": "Invasive measurement of mean pressure in the pulmonary artery",
+          "timeFrame": "4 hours before operation until 1 hour before operation"
+        },
+        {
+          "measure": "Systemic Arterial Pressure (mmHg)",
+          "description": "Invasive measurements of arterial mean pressure",
+          "timeFrame": "4 hours before operation until 1 hour before operation"
+        },
+        {
+          "measure": "N-terminal Pro Brain Natriuretic Peptide (NT proBNP)(pg/ml)",
+          "description": "blood sample reflecting stretch of the atrium/ventricle",
+          "timeFrame": "4 hours before operation until 4 hours after operation"
+        },
+        {
+          "measure": "Troponin T (ug/l)",
+          "description": "Blood sample expressing damage to the myocytes",
+          "timeFrame": "4 hours before operation until 4 hours after operation"
+        },
+        {
+          "measure": "Lactate (mmol/l)",
+          "description": "Arterial sampling of blood lactate",
+          "timeFrame": "4 hours before operation until 4 hour after operation"
+        },
+        {
+          "measure": "Mixed Venous Oxygenation (Per Cent)",
+          "description": "Oxygen content (per cent of hemoglobin saturated) of venous blood in pulmonary artery",
+          "timeFrame": "4 hours before operation until 4 hour after operation"
+        },
+        {
+          "measure": "E/A Ratio (Unitless)",
+          "description": "TEE ratio between early (E) transmitral flow and late (A) transmitral flow. An index of diastolic function althought not validated properly yet when measured from the oesophagus",
+          "timeFrame": "At the start of operation until the end of operationon, approximately 3 hours"
+        },
+        {
+          "measure": "Regional Longitudinal Strain (Unitless)",
+          "description": "Transoesophageal echocardiographic (TEE) measure of systolic function. At this time not validated properly against acknowledged indices of systolic function.",
+          "timeFrame": "At the start of operation until the end of operation, approximately 3 hours"
+        },
+        {
+          "measure": "Need for Conventional Inotropical Agents",
+          "description": "Conventional inotropics are comprised of all inotropics acting primarily through alfa- or beta- stimulation.",
+          "timeFrame": "From start of operation until 5 days after operation"
+        },
+        {
+          "measure": "Intravenous Fluid Requirement (l)",
+          "description": "Total volume of intravenous fluid required including blood products.",
+          "timeFrame": "Within 24 hours from start of operation"
+        },
+        {
+          "measure": "Operation Time (Minutes)",
+          "timeFrame": "From \"knife start\" until \"knife end\", approximately 3 hours"
+        },
+        {
+          "measure": "Time on Heart-lung Machine (Minutes)",
+          "timeFrame": "From time of cardioplegia until selfsufficient cardiac action, approximately 1 hour"
+        },
+        {
+          "measure": "Intubation Time (Minutes)",
+          "description": "Total time intubated including time of operation and in the intensive care ward",
+          "timeFrame": "From intubation until extubation, approximately 6 hours"
+        },
+        {
+          "measure": "Postoperative Admission Time at Intensive Care Unit (Hours)",
+          "description": "Total admission time in the intensive care after operation",
+          "timeFrame": "From admission to the intensive care unit until discharge from intensive care unit, approximately 24 hours"
+        },
+        {
+          "measure": "No. of Patients With Adverse Events",
+          "description": "Development of Ventricular tachycardia",
+          "timeFrame": "-4 hours until + 96 hours with respect to start of operation"
+        },
+        {
+          "measure": "No. of Patients With Adverse Event",
+          "description": "Development of atrial flutter/fibrillation",
+          "timeFrame": "-4 hours until + 96 hours with respect to start of operation"
+        },
+        {
+          "measure": "No. of Patients With Adverse Event",
+          "description": "Need for norepinephrine as an antagonist to the vasodilatatory effect of levosimendan",
+          "timeFrame": "4 hours before operaton until 1 hour before operaton"
+        },
+        {
+          "measure": "No. of Patients With Adverse Event.",
+          "description": "Occurence of nausea",
+          "timeFrame": "4 hours before operation until 1 hour before operation"
+        },
+        {
+          "measure": "No. of Patients With Adverse Event",
+          "description": "Occurence of headache",
+          "timeFrame": "4 hours before operation until approximately 1 hour before operation"
+        },
+        {
+          "measure": "Regional Longitudinal Strain (Unitless)",
+          "description": "Index of systolic function derived from single transthoracic echocardiographic (TTE) projection",
+          "timeFrame": "4 hours before until 1 hour before start of operation"
+        },
+        {
+          "measure": "Ejection Fraction (Per Cent)",
+          "description": "TTE: Index of systolic function",
+          "timeFrame": "1 hour before until 21 hour after start of operation"
+        },
+        {
+          "measure": "Ejection Fraction (Per Cent)",
+          "description": "TTE: Index of systolic function",
+          "timeFrame": "21 hours after operation until 96 hours after start of operation"
+        },
+        {
+          "measure": "Ejection Fraction (Per Cent)",
+          "description": "TTE: Index of systolic function",
+          "timeFrame": "96 hours after operation until 6 months after operation"
+        },
+        {
+          "measure": "Regional Longitudinal Strain (Unitless)",
+          "description": "Transoesophageal echocardiographic (TEE) measure of systolic function. At this time not validated properly against acknowledged indices of systolic function.",
+          "timeFrame": "Froml the end of operation until approx 4 hours after operation"
+        },
+        {
+          "measure": "E/A Ratio (Unitless)",
+          "description": "TEE ratio between early (E) transmitral flow and late (A) transmitral flow. An index of diastolic function althought not validated properly yet when measured from the oesophagus",
+          "timeFrame": "At the end of operationon until approx 4 hours after operation"
+        },
+        {
+          "measure": "Left Ventricular Rotation (Degrees)",
+          "description": "TTE: Index of both systolic and diastolic function",
+          "timeFrame": "96 hour after operation until 6 months after operation"
+        },
+        {
+          "measure": "Mixed Venous Oxygenation (Per Cent)",
+          "description": "Oxygen content (per cent of hemoglobin saturated) of venous blood in pulmonary artery",
+          "timeFrame": "4 hours after operation until 21 hours after operation"
+        },
+        {
+          "measure": "Lactate (mmol/l)",
+          "description": "Arterial sampling of blood lactate",
+          "timeFrame": "4 hours after operation until 21 hours after operation"
+        },
+        {
+          "measure": "Troponin T (ug/l)",
+          "description": "Blood sample expressing damage to the myocytes",
+          "timeFrame": "4 hours after operation until 21 hours after operation"
+        },
+        {
+          "measure": "Troponin T (ug/l)",
+          "description": "Blood sample expressing damage to the myocytes",
+          "timeFrame": "21 hours after operation until 96 hours after operation"
+        },
+        {
+          "measure": "N-terminal Pro Brain Natriuretic Peptide (NT proBNP)(pg/ml)",
+          "description": "blood sample reflecting stretch of the atrium/ventricle",
+          "timeFrame": "4 hours after operation until 21 hours after operation"
+        },
+        {
+          "measure": "N-terminal Pro Brain Natriuretic Peptide (NT proBNP)(pg/ml)",
+          "description": "blood sample reflecting stretch of the atrium/ventricle",
+          "timeFrame": "21 hours after operation until 96 hours after operation"
+        },
+        {
+          "measure": "Systemic Arterial Pressure (mmHg)",
+          "description": "Invasive measurements of arterial mean pressure",
+          "timeFrame": "1 hour before operation until start of operation"
+        },
+        {
+          "measure": "Systemic Arterial Pressure (mmHg)",
+          "description": "Invasive measurements of arterial mean pressure",
+          "timeFrame": "Start of operation until the end of operation, approximately 3 hours"
+        },
+        {
+          "measure": "Systemic Arterial Pressure (mmHg)",
+          "description": "Invasive measurements of arterial mean pressure",
+          "timeFrame": "End of operation until approx 4 hours after operation"
+        },
+        {
+          "measure": "Systemic Arterial Pressure (mmHg)",
+          "description": "Invasive measurements of arterial mean pressure",
+          "timeFrame": "4 hours after operation until 21 hours after operation"
+        },
+        {
+          "measure": "Pulmonary Artery Pressures (mmHg)",
+          "description": "Invasive measurement of mean pressure in the pulmonary artery",
+          "timeFrame": "1 hour before operation until start of operation"
+        },
+        {
+          "measure": "Pulmonary Artery Pressures (mmHg)",
+          "description": "Invasive measurement of mean pressure in the pulmonary artery",
+          "timeFrame": "Start of operation until end of operation, approximately 3 hours"
+        },
+        {
+          "measure": "Pulmonary Artery Pressures (mmHg)",
+          "description": "Invasive measurement of mean pressure in the pulmonary artery",
+          "timeFrame": "End of operation until approx 4 hours after operation"
+        },
+        {
+          "measure": "Pulmonary Artery Pressures (mmHg)",
+          "description": "Invasive measurement of mean pressure in the pulmonary artery",
+          "timeFrame": "4 hours after operation until 21 hours after operation"
+        },
+        {
+          "measure": "Regional Longitudinal Strain (Unitless)",
+          "description": "Index of systolic function derived from single transthoracic echocardiographic (TTE) projection",
+          "timeFrame": "1 hour before start of operation until 21 hours after operation"
+        },
+        {
+          "measure": "Regional Longitudinal Strain (Unitless)",
+          "description": "Index of systolic function derived from single transthoracic echocardiographic (TTE) projection",
+          "timeFrame": "21 hours after operation until 96 hours after operation"
+        },
+        {
+          "measure": "Regional Longitudinal Strain (Unitless)",
+          "description": "Index of systolic function derived from single transthoracic echocardiographic (TTE) projection",
+          "timeFrame": "96 hours after operation until 6 months after operation"
+        },
+        {
+          "measure": "Central Venous Pressure (mmHg)",
+          "description": "Invasive measurement of pressure in the vena cava",
+          "timeFrame": "1 hour before operation until start of operation"
+        },
+        {
+          "measure": "Central Venous Pressure (mmHg)",
+          "description": "Invasive measurement of pressure in the vena cava",
+          "timeFrame": "Start of operation until end of operation, approximately 3 hours"
+        },
+        {
+          "measure": "Central Venous Pressure (mmHg)",
+          "description": "Invasive measurement of pressure in the vena cava",
+          "timeFrame": "End of operation until approx 4 hours after operation"
+        },
+        {
+          "measure": "Central Venous Pressure (mmHg)",
+          "description": "Invasive measurement of pressure in the vena cava",
+          "timeFrame": "4 hours after operation until 21 hours after operation"
+        },
+        {
+          "measure": "Peak Systolic Velocity (m/s)",
+          "description": "Tissue Doppler measure of systolic function",
+          "timeFrame": "1 hour before operation until 21 hours after operation"
+        },
+        {
+          "measure": "Peak Systolic Velocity (m/s)",
+          "description": "Tissue Doppler measure of systolic function",
+          "timeFrame": "21 hours after operation until 96 hours after operation"
+        },
+        {
+          "measure": "Peak Systolic Velocity (m/s)",
+          "description": "Tissue Doppler measure of systolic function",
+          "timeFrame": "96 hours after operation until 6 months after operation"
+        },
+        {
+          "measure": "Tricuspid Annular Plane Systolic Excursion (TAPSE) (mm)",
+          "description": "Transthoracic echocardiographic measure of systolic function",
+          "timeFrame": "1 hour before operation until 21 hours after operation"
+        },
+        {
+          "measure": "Tricuspid Annular Plane Systolic Excursion (TAPSE) (mm)",
+          "description": "Transthoracic echocardiographic measure of systolic function",
+          "timeFrame": "21 hours after operation until 96 hours after operation"
+        },
+        {
+          "measure": "Tricuspid Annular Plane Systolic Excursion (TAPSE) (mm)",
+          "description": "Transthoracic echocardiographic measure of systolic function",
+          "timeFrame": "96 hours after operation until 6 months after operation"
+        },
+        {
+          "measure": "E/A-ratio (Unitless)",
+          "description": "Transthoracic echocardiographic ratio between early (E) and late (A) transmitral blood velocities. Index of diastolic function.",
+          "timeFrame": "1 hour before operation until 21 hours after operation"
+        },
+        {
+          "measure": "E/A-ratio (Unitless)",
+          "description": "Transthoracic echocardiographic ratio between early (E) and late (A) transmitral blood velocities. Index of diastolic function.",
+          "timeFrame": "21 hours after operation until 96 hours after operation"
+        },
+        {
+          "measure": "E/A-ratio (Unitless)",
+          "description": "Transthoracic echocardiographic ratio between early (E) and late (A) transmitral blood velocities. Index of diastolic function.",
+          "timeFrame": "96 hours after operation until 6 months after operation"
+        },
+        {
+          "measure": "E'/A'-Ratio (Unitless)",
+          "description": "Tissue Doppler transthoracic echocardiography: Ratio between tissue velocities at the mitral plan during early (E) diastole and late (A) diastole. Index of diastolic function.",
+          "timeFrame": "1 hour before operation until 21 hours after roperation"
+        },
+        {
+          "measure": "E'/A'-Ratio (Unitless)",
+          "description": "Tissue Doppler transthoracic echocardiography: Ratio between tissue velocities at the mitral plan during early (E) diastole and late (A) diastole. Index of diastolic function.",
+          "timeFrame": "21 hours after operation until 96 hours after operation"
+        },
+        {
+          "measure": "E'/A'-Ratio (Unitless)",
+          "description": "Tissue Doppler transthoracic echocardiography: Ratio between tissue velocities at the mitral plan during early (E) diastole and late (A) diastole. Index of diastolic function.",
+          "timeFrame": "96 hours after operation until 6 months after operation"
+        },
+        {
+          "measure": "Isovolumetric Relaxation Time (IVRT) (s)",
+          "description": "Transthoracic measure of the time from aortic valve closure until mitral valve opening. A measure of diastolic function",
+          "timeFrame": "1 hour before operation until 21 hours after operation"
+        },
+        {
+          "measure": "Isovolumetric Relaxation Time (IVRT) (s)",
+          "description": "Transthoracic measure of the time from aortic valve closure until mitral valve opening. A measure of diastolic function",
+          "timeFrame": "21 hours after operation until 96 hours after operation"
+        },
+        {
+          "measure": "Isovolumetric Relaxation Time (IVRT) (s)",
+          "description": "Transthoracic measure of the time from aortic valve closure until mitral valve opening. A measure of diastolic function",
+          "timeFrame": "96 hours after operation until 6 months after operation"
+        },
+        {
+          "measure": "Ejection Fraction (Per Cent)",
+          "description": "Transeosophageal echocardiography: Measure of systolic function",
+          "timeFrame": "End of operation until approx. 4 hours after operation"
+        },
+        {
+          "measure": "Isovolumetric Relaxation Time (IVRT) (s)",
+          "description": "Transeosophageal echocardiography: Time from closure of aortic valve to opening of mitral valve. Measure of diastolic function.",
+          "timeFrame": "End of operation until approx. 4 hours after operation"
+        },
+        {
+          "measure": "Cardiac Index (l/Min/m2)",
+          "description": "Invasive measurement measuring the cardiac output divided by calculated body surface area (DuBois formula)",
+          "timeFrame": "1 hour before operation until start of operation"
+        },
+        {
+          "measure": "Cardiac Index (l/Min/m2)",
+          "description": "Invasive measurement measuring the cardiac output divided by calculated body surface area (DuBois formula)",
+          "timeFrame": "Start of operation until end of operation, approximately 3 hours"
+        },
+        {
+          "measure": "Cardiac Index (l/Min/m2)",
+          "description": "Invasive measurement measuring the cardiac output divided by calculated body surface area (DuBois formula)",
+          "timeFrame": "End of operation operation until approx. 4 hours after operation"
+        },
+        {
+          "measure": "Cardiac Index (l/Min/m2)",
+          "description": "Invasive measurement measuring the cardiac output divided by calculated body surface area (DuBois formula)",
+          "timeFrame": "4 hours after operation until 21 hours after operation"
+        },
+        {
+          "measure": "Inflammatory Parameters",
+          "description": "Blood sample values of pro- and antiinflammatory mediators",
+          "timeFrame": "4 hours before operation until 21 hours after operation"
+        },
+        {
+          "measure": "Inflammatory Parameters",
+          "description": "Blood sample values of pro- and antiinflammatory mediators",
+          "timeFrame": "21 hours after operation until 96 hours after operation"
+        },
+        {
+          "measure": "E/A-ratio (Transoesophageal)",
+          "description": "Transoesophageal echocardiographic measure of diastolic heart function",
+          "timeFrame": "from start of operation until end of operation, approximately 3 hours"
+        },
+        {
+          "measure": "E/A-ratio (Transoesophageal)",
+          "description": "Transoesophageal echocardiographic measure of diastolic heart function",
+          "timeFrame": "from end of operation until approximately 4 hours after operation"
+        },
+        {
+          "measure": "Urine Clearance",
+          "description": "Urine analysis. Measure of kidney function.",
+          "timeFrame": "from start of operation until 24 hours after operation"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Eligible for aortic valve replacement\n* EF \\> 45%\n* Left ventricular posterior wall \\> 12mm\n* Sinus rhythm\n\nExclusion Criteria:\n\n* Concomitant bypass operation\n* Severe mitral insufficiency\n* Active endocarditis\n* Insufficient ultrasound opportunity\n* Systolic blood pressure \\< 100 mmHg\n* moderate-severe renal failure\n* allergy to levosimendan\n* lack of patient consent Pregnancy or status of lactating\n* Fertile women who do not use relevant anticonception",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "30 Years",
+      "maximumAge": "90 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Peter Juhl-Olsen, M.D.",
+          "affiliation": "Department of Anaesthesiology",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Department of Anaesthesiology",
+          "city": "Århus N",
+          "state": "Central Jutland",
+          "zip": "8200",
+          "country": "Denmark"
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Levosimendan",
+          "description": "infusion 0,1ug/kg/min for duration of ca. 4 hours prior to operation and until the end of operation\n\nlevosimendan: Intravenous infusion, 0,1ug/kg/min, duration 4 hours prior to operation and until the end of operation."
+        },
+        {
+          "id": "FG001",
+          "title": "Placebo",
+          "description": "Identical placebo\n\nplacebo drug: Intravenous infusion, colour identical to levosimendan"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "10"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "10"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "10"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "10"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Levosimendan",
+          "description": "infusion 0,1ug/kg/min for duration of ca. 4 hours prior to operation and until the end of operation\n\nlevosimendan: Intravenous infusion, 0,1ug/kg/min, duration 4 hours prior to operation and until the end of operation."
+        },
+        {
+          "id": "BG001",
+          "title": "Placebo",
+          "description": "Identical placebo\n\nplacebo drug: Intravenous infusion, colour identical to levosimendan"
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "10"
+            },
+            {
+              "groupId": "BG001",
+              "value": "10"
+            },
+            {
+              "groupId": "BG002",
+              "value": "20"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEDIAN",
+          "dispersionType": "FULL_RANGE",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "76",
+                      "lowerLimit": "69",
+                      "upperLimit": "87"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "73",
+                      "lowerLimit": "73",
+                      "upperLimit": "85"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "74",
+                      "lowerLimit": "69",
+                      "upperLimit": "87"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "7"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "13"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "Denmark",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "10"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "E/E'(Unitless)",
+          "description": "Ration between early transmitral flow (E) and mitral annular tissue velocity(E'). This ratio is an echocardiographic index of diastolic function",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Full Range",
+          "unitOfMeasure": "Unitless",
+          "timeFrame": "4 hours before operation until 21 hour after operation",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Levosimendan",
+              "description": "infusion 0,1ug/kg/min for duration of ca. 4 hours prior to operation and until the end of operation\n\nlevosimendan: Intravenous infusion, 0,1ug/kg/min, duration 4 hours prior to operation and until the end of operation."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Identical placebo\n\nplacebo drug: Intravenous infusion, colour identical to levosimendan"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "10"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12.6",
+                      "lowerLimit": "8.9",
+                      "upperLimit": "24.6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "13.7",
+                      "lowerLimit": "8.4",
+                      "upperLimit": "28.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Isovolumetric Relaxation Time (IVRT) (s)",
+          "description": "Transthoracic measure of the time from aortic valve closure until mitral valve opening. A measure of diastolic function",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 hours before surgery until 1 hour before operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Ejection Fraction (Per Cent)",
+          "description": "Transeosophageal echocardiography: Measure of systolic function",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "At start of operation until end of operation, approximately 3 hours",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Cardiac Index (l/Min/m2)",
+          "description": "Invasive measurement measuring the cardiac output divided by calculated body surface area (DuBois formula)",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 hours before operation until 1 hour before operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Central Venous Pressure (mmHg)",
+          "description": "Invasive measurement of pressure in the vena cava",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 hours before operation until 1 hours before operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Pulmonary Artery Pressures (mmHg)",
+          "description": "Invasive measurement of mean pressure in the pulmonary artery",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 hours before operation until 1 hour before operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Systemic Arterial Pressure (mmHg)",
+          "description": "Invasive measurements of arterial mean pressure",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 hours before operation until 1 hour before operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "N-terminal Pro Brain Natriuretic Peptide (NT proBNP)(pg/ml)",
+          "description": "blood sample reflecting stretch of the atrium/ventricle",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 hours before operation until 4 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Troponin T (ug/l)",
+          "description": "Blood sample expressing damage to the myocytes",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 hours before operation until 4 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Lactate (mmol/l)",
+          "description": "Arterial sampling of blood lactate",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 hours before operation until 4 hour after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Mixed Venous Oxygenation (Per Cent)",
+          "description": "Oxygen content (per cent of hemoglobin saturated) of venous blood in pulmonary artery",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 hours before operation until 4 hour after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "E/A Ratio (Unitless)",
+          "description": "TEE ratio between early (E) transmitral flow and late (A) transmitral flow. An index of diastolic function althought not validated properly yet when measured from the oesophagus",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "At the start of operation until the end of operationon, approximately 3 hours",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Regional Longitudinal Strain (Unitless)",
+          "description": "Transoesophageal echocardiographic (TEE) measure of systolic function. At this time not validated properly against acknowledged indices of systolic function.",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "At the start of operation until the end of operation, approximately 3 hours",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Need for Conventional Inotropical Agents",
+          "description": "Conventional inotropics are comprised of all inotropics acting primarily through alfa- or beta- stimulation.",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "From start of operation until 5 days after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Intravenous Fluid Requirement (l)",
+          "description": "Total volume of intravenous fluid required including blood products.",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "Within 24 hours from start of operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Operation Time (Minutes)",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "From \"knife start\" until \"knife end\", approximately 3 hours",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Time on Heart-lung Machine (Minutes)",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "From time of cardioplegia until selfsufficient cardiac action, approximately 1 hour",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Intubation Time (Minutes)",
+          "description": "Total time intubated including time of operation and in the intensive care ward",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "From intubation until extubation, approximately 6 hours",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Postoperative Admission Time at Intensive Care Unit (Hours)",
+          "description": "Total admission time in the intensive care after operation",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "From admission to the intensive care unit until discharge from intensive care unit, approximately 24 hours",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "No. of Patients With Adverse Events",
+          "description": "Development of Ventricular tachycardia",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "-4 hours until + 96 hours with respect to start of operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "No. of Patients With Adverse Event",
+          "description": "Development of atrial flutter/fibrillation",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "-4 hours until + 96 hours with respect to start of operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "No. of Patients With Adverse Event",
+          "description": "Need for norepinephrine as an antagonist to the vasodilatatory effect of levosimendan",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 hours before operaton until 1 hour before operaton",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "No. of Patients With Adverse Event.",
+          "description": "Occurence of nausea",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 hours before operation until 1 hour before operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "No. of Patients With Adverse Event",
+          "description": "Occurence of headache",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 hours before operation until approximately 1 hour before operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Regional Longitudinal Strain (Unitless)",
+          "description": "Index of systolic function derived from single transthoracic echocardiographic (TTE) projection",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 hours before until 1 hour before start of operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Ejection Fraction (Per Cent)",
+          "description": "TTE: Index of systolic function",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "1 hour before until 21 hour after start of operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Ejection Fraction (Per Cent)",
+          "description": "TTE: Index of systolic function",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "21 hours after operation until 96 hours after start of operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Ejection Fraction (Per Cent)",
+          "description": "TTE: Index of systolic function",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "96 hours after operation until 6 months after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Regional Longitudinal Strain (Unitless)",
+          "description": "Transoesophageal echocardiographic (TEE) measure of systolic function. At this time not validated properly against acknowledged indices of systolic function.",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "Froml the end of operation until approx 4 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "E/A Ratio (Unitless)",
+          "description": "TEE ratio between early (E) transmitral flow and late (A) transmitral flow. An index of diastolic function althought not validated properly yet when measured from the oesophagus",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "At the end of operationon until approx 4 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Left Ventricular Rotation (Degrees)",
+          "description": "TTE: Index of both systolic and diastolic function",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "96 hour after operation until 6 months after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Mixed Venous Oxygenation (Per Cent)",
+          "description": "Oxygen content (per cent of hemoglobin saturated) of venous blood in pulmonary artery",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 hours after operation until 21 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Lactate (mmol/l)",
+          "description": "Arterial sampling of blood lactate",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 hours after operation until 21 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Troponin T (ug/l)",
+          "description": "Blood sample expressing damage to the myocytes",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 hours after operation until 21 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Troponin T (ug/l)",
+          "description": "Blood sample expressing damage to the myocytes",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "21 hours after operation until 96 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "N-terminal Pro Brain Natriuretic Peptide (NT proBNP)(pg/ml)",
+          "description": "blood sample reflecting stretch of the atrium/ventricle",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 hours after operation until 21 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "N-terminal Pro Brain Natriuretic Peptide (NT proBNP)(pg/ml)",
+          "description": "blood sample reflecting stretch of the atrium/ventricle",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "21 hours after operation until 96 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Systemic Arterial Pressure (mmHg)",
+          "description": "Invasive measurements of arterial mean pressure",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "1 hour before operation until start of operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Systemic Arterial Pressure (mmHg)",
+          "description": "Invasive measurements of arterial mean pressure",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "Start of operation until the end of operation, approximately 3 hours",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Systemic Arterial Pressure (mmHg)",
+          "description": "Invasive measurements of arterial mean pressure",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "End of operation until approx 4 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Systemic Arterial Pressure (mmHg)",
+          "description": "Invasive measurements of arterial mean pressure",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 hours after operation until 21 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Pulmonary Artery Pressures (mmHg)",
+          "description": "Invasive measurement of mean pressure in the pulmonary artery",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "1 hour before operation until start of operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Pulmonary Artery Pressures (mmHg)",
+          "description": "Invasive measurement of mean pressure in the pulmonary artery",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "Start of operation until end of operation, approximately 3 hours",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Pulmonary Artery Pressures (mmHg)",
+          "description": "Invasive measurement of mean pressure in the pulmonary artery",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "End of operation until approx 4 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Pulmonary Artery Pressures (mmHg)",
+          "description": "Invasive measurement of mean pressure in the pulmonary artery",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 hours after operation until 21 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Regional Longitudinal Strain (Unitless)",
+          "description": "Index of systolic function derived from single transthoracic echocardiographic (TTE) projection",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "1 hour before start of operation until 21 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Regional Longitudinal Strain (Unitless)",
+          "description": "Index of systolic function derived from single transthoracic echocardiographic (TTE) projection",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "21 hours after operation until 96 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Regional Longitudinal Strain (Unitless)",
+          "description": "Index of systolic function derived from single transthoracic echocardiographic (TTE) projection",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "96 hours after operation until 6 months after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Central Venous Pressure (mmHg)",
+          "description": "Invasive measurement of pressure in the vena cava",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "1 hour before operation until start of operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Central Venous Pressure (mmHg)",
+          "description": "Invasive measurement of pressure in the vena cava",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "Start of operation until end of operation, approximately 3 hours",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Central Venous Pressure (mmHg)",
+          "description": "Invasive measurement of pressure in the vena cava",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "End of operation until approx 4 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Central Venous Pressure (mmHg)",
+          "description": "Invasive measurement of pressure in the vena cava",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 hours after operation until 21 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Peak Systolic Velocity (m/s)",
+          "description": "Tissue Doppler measure of systolic function",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "1 hour before operation until 21 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Peak Systolic Velocity (m/s)",
+          "description": "Tissue Doppler measure of systolic function",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "21 hours after operation until 96 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Peak Systolic Velocity (m/s)",
+          "description": "Tissue Doppler measure of systolic function",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "96 hours after operation until 6 months after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Tricuspid Annular Plane Systolic Excursion (TAPSE) (mm)",
+          "description": "Transthoracic echocardiographic measure of systolic function",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "1 hour before operation until 21 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Tricuspid Annular Plane Systolic Excursion (TAPSE) (mm)",
+          "description": "Transthoracic echocardiographic measure of systolic function",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "21 hours after operation until 96 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Tricuspid Annular Plane Systolic Excursion (TAPSE) (mm)",
+          "description": "Transthoracic echocardiographic measure of systolic function",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "96 hours after operation until 6 months after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "E/A-ratio (Unitless)",
+          "description": "Transthoracic echocardiographic ratio between early (E) and late (A) transmitral blood velocities. Index of diastolic function.",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "1 hour before operation until 21 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "E/A-ratio (Unitless)",
+          "description": "Transthoracic echocardiographic ratio between early (E) and late (A) transmitral blood velocities. Index of diastolic function.",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "21 hours after operation until 96 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "E/A-ratio (Unitless)",
+          "description": "Transthoracic echocardiographic ratio between early (E) and late (A) transmitral blood velocities. Index of diastolic function.",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "96 hours after operation until 6 months after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "E'/A'-Ratio (Unitless)",
+          "description": "Tissue Doppler transthoracic echocardiography: Ratio between tissue velocities at the mitral plan during early (E) diastole and late (A) diastole. Index of diastolic function.",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "1 hour before operation until 21 hours after roperation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "E'/A'-Ratio (Unitless)",
+          "description": "Tissue Doppler transthoracic echocardiography: Ratio between tissue velocities at the mitral plan during early (E) diastole and late (A) diastole. Index of diastolic function.",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "21 hours after operation until 96 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "E'/A'-Ratio (Unitless)",
+          "description": "Tissue Doppler transthoracic echocardiography: Ratio between tissue velocities at the mitral plan during early (E) diastole and late (A) diastole. Index of diastolic function.",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "96 hours after operation until 6 months after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Isovolumetric Relaxation Time (IVRT) (s)",
+          "description": "Transthoracic measure of the time from aortic valve closure until mitral valve opening. A measure of diastolic function",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "1 hour before operation until 21 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Isovolumetric Relaxation Time (IVRT) (s)",
+          "description": "Transthoracic measure of the time from aortic valve closure until mitral valve opening. A measure of diastolic function",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "21 hours after operation until 96 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Isovolumetric Relaxation Time (IVRT) (s)",
+          "description": "Transthoracic measure of the time from aortic valve closure until mitral valve opening. A measure of diastolic function",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "96 hours after operation until 6 months after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Ejection Fraction (Per Cent)",
+          "description": "Transeosophageal echocardiography: Measure of systolic function",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "End of operation until approx. 4 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Isovolumetric Relaxation Time (IVRT) (s)",
+          "description": "Transeosophageal echocardiography: Time from closure of aortic valve to opening of mitral valve. Measure of diastolic function.",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "End of operation until approx. 4 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Cardiac Index (l/Min/m2)",
+          "description": "Invasive measurement measuring the cardiac output divided by calculated body surface area (DuBois formula)",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "1 hour before operation until start of operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Cardiac Index (l/Min/m2)",
+          "description": "Invasive measurement measuring the cardiac output divided by calculated body surface area (DuBois formula)",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "Start of operation until end of operation, approximately 3 hours",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Cardiac Index (l/Min/m2)",
+          "description": "Invasive measurement measuring the cardiac output divided by calculated body surface area (DuBois formula)",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "End of operation operation until approx. 4 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Cardiac Index (l/Min/m2)",
+          "description": "Invasive measurement measuring the cardiac output divided by calculated body surface area (DuBois formula)",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 hours after operation until 21 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Inflammatory Parameters",
+          "description": "Blood sample values of pro- and antiinflammatory mediators",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 hours before operation until 21 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Inflammatory Parameters",
+          "description": "Blood sample values of pro- and antiinflammatory mediators",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "21 hours after operation until 96 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "E/A-ratio (Transoesophageal)",
+          "description": "Transoesophageal echocardiographic measure of diastolic heart function",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "from start of operation until end of operation, approximately 3 hours",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "E/A-ratio (Transoesophageal)",
+          "description": "Transoesophageal echocardiographic measure of diastolic heart function",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "from end of operation until approximately 4 hours after operation",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Urine Clearance",
+          "description": "Urine analysis. Measure of kidney function.",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "from start of operation until 24 hours after operation",
+          "denomUnitsSelected": "Participants"
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Levosimendan",
+          "description": "infusion 0,1ug/kg/min for duration of ca. 4 hours prior to operation and until the end of operation\n\nlevosimendan: Intravenous infusion, 0,1ug/kg/min, duration 4 hours prior to operation and until the end of operation.",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 10,
+          "otherNumAffected": 9,
+          "otherNumAtRisk": 10
+        },
+        {
+          "id": "EG001",
+          "title": "Placebo",
+          "description": "Identical placebo\n\nplacebo drug: Intravenous infusion, colour identical to levosimendan",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 10,
+          "otherNumAffected": 6,
+          "otherNumAtRisk": 10
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Postoperative atrial fibrillation",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 10,
+              "numAffected": 9,
+              "numAtRisk": 10
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 10,
+              "numAffected": 6,
+              "numAtRisk": 10
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Dr. Peter Juhl-Olsen",
+        "organization": "Aarhus University Hospital",
+        "email": "peter.juhl-olsen@ki.au.dk",
+        "phone": "+4578451199"
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D017379",
+          "term": "Hypertrophy, Left Ventricular"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D001024",
+          "term": "Aortic Valve Stenosis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006332",
+          "term": "Cardiomegaly"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D006984",
+          "term": "Hypertrophy"
+        },
+        {
+          "id": "D020763",
+          "term": "Pathological Conditions, Anatomical"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D000082862",
+          "term": "Aortic Valve Disease"
+        },
+        {
+          "id": "D006349",
+          "term": "Heart Valve Diseases"
+        },
+        {
+          "id": "D014694",
+          "term": "Ventricular Outflow Obstruction"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077464",
+          "term": "Simendan"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006835",
+          "term": "Hydrazones"
+        },
+        {
+          "id": "D006834",
+          "term": "Hydrazines"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011724",
+          "term": "Pyridazines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

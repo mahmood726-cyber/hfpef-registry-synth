@@ -1,0 +1,1180 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01325870",
+      "orgStudyIdInfo": {
+        "id": "43-0566-000"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2R44HL082088",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/2R44HL082088"
+        }
+      ],
+      "organization": {
+        "fullName": "Advanced Circulatory Systems",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Hemodynamic Effects of Standard Cardiopulmonary Resuscitation (CPR), Active Compression Decompression CPR With an Inspiratory Impedance Device, and Standard CPR With an Intrathoracic Pressure Regulator During Out-of-hospital Cardiac Arrest",
+      "officialTitle": "Comparison of Standard Cardiopulmonary Resuscitation Alone Versus Active Compression Decompression Cardiopulmonary Resuscitation Plus an Impedance Threshold Device Versus Standard Cardiopulmonary Resuscitation Plus an Intrathoracic Pressure Regulator on Arterial Blood Pressures During Out-of-Hospital Cardiac Arrest"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2016-07",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2011-03"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2012-12",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2012-12",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2011-03-28",
+      "studyFirstSubmitQcDate": "2011-03-29",
+      "studyFirstPostDateStruct": {
+        "date": "2011-03-30",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2014-06-18",
+      "resultsFirstSubmitQcDate": "2014-07-16",
+      "resultsFirstPostDateStruct": {
+        "date": "2014-07-17",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2016-07-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2016-08-12",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Advanced Circulatory Systems",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "National Heart, Lung, and Blood Institute (NHLBI)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "More than 300,000 Americans experience out-of-hospital cardiac arrest annually, with overall survival rates averaging less than 5%. Low survival rates persist, in part, because manual chest compressions and ventilation, termed standard cardiopulmonary resuscitation (S-CPR), is an inherently inefficient process, providing less than 25% of normal blood flow to the heart and the brain. Hemodynamics are often compromised further by poor S-CPR techniques, especially inadequate chest compression and incomplete chest recoil. Active Compression Decompression CPR (ACD-CPR) is performed with a hand-held device that is attached to the patient's chest, and also includes a handle containing a metronome and force gauge to guide proper compression rate, depth and complete chest wall recoil. The impedance threshold device (ITD) is designed for rapid connection to an airway adjunct (e.g. facemask or endotracheal tube) and allows for positive pressure ventilation, while also impeding passive inspiratory gas exchange during chest wall decompression. Prior studies have shown that the combination of ACD-CPR + ITD enhances refilling of the heart after each compression by augmenting negative intrathoracic pressure during the decompression phase of CPR, resulting in improved cardiac and cerebral perfusion. The intrathoracic pressure regulator (ITPR) is a next generation inspiratory impedance therapy. The ITPR uses a regulated external vacuum source to lower the negative intrathoracic pressure and is therefore less dependent on the quality of CPR (e.g., completeness of chest wall recoil). The ITPR generates a pre-set continuous and controlled expiratory phase negative intrathoracic pressure that is interrupted only when positive pressure ventilation is needed to maintain oxygenation and provide gas exchange.\n\nThe purpose of the study is to compare the early safety and hemodynamic effects of S-CPR, ACD- CPR + ITD, and S-CPR + ITPR in patients with out-of-hospital cardiac arrest."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiac Arrest",
+        "Sudden Cardiac Death"
+      ],
+      "keywords": [
+        "cardiopulmonary resuscitation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 48,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "ACD-CPR +ITD",
+          "type": "EXPERIMENTAL",
+          "description": "Active Compression Decompression CPR with the ResQPRO device and ResQPOD ITD device.",
+          "interventionNames": [
+            "Device: ACD-CPR",
+            "Device: Impedance Threshold Device (ITD)"
+          ]
+        },
+        {
+          "label": "S-CPR + ITPR",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Device: ITPR"
+          ]
+        },
+        {
+          "label": "S-CPR",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Procedure: S-CPR"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "ACD-CPR",
+          "armGroupLabels": [
+            "ACD-CPR +ITD"
+          ],
+          "otherNames": [
+            "ResQPRO Active Compression Decompression CPR Device (Advanced Circulatory Systems, Inc., Roseville, MN)"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "ITPR",
+          "description": "standard CPR with use of the CirQlator intrathoracic pressure regulator (ITPR)",
+          "armGroupLabels": [
+            "S-CPR + ITPR"
+          ],
+          "otherNames": [
+            "CirQlator Intrathoracic Pressure Regulator (Advanced Circulatory Systems, Inc., Roseville, MN)"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "S-CPR",
+          "description": "standard manual CPR",
+          "armGroupLabels": [
+            "S-CPR"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Impedance Threshold Device (ITD)",
+          "armGroupLabels": [
+            "ACD-CPR +ITD"
+          ],
+          "otherNames": [
+            "ResQPOD 16 (Advanced Circulatory Systems, Inc)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Mean Systolic and Diastolic Blood Pressures",
+          "timeFrame": "during CPR (day 1)"
+        },
+        {
+          "measure": "Serious Adverse Events",
+          "description": "Serious adverse events include: death, internal thoracic and abdominal injuries, device malfunction preventing use during CPR",
+          "timeFrame": "during the index CPR procedure (day 1), at hospital discharge, at 30 days, at three months, and at six months of follow-up"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Mean Intrathoracic Pressure (Airway Pressure)",
+          "description": "Intrathoracic pressures are reported relative to atmospheric pressure",
+          "timeFrame": "during CPR (day 1)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Initial Inclusion Criteria:\n\n* Subject is initially presumed or known to be 18 years of age or older;\n* Subject presents with presumed non-traumatic, out-of-hospital cardiac arrest AND is a candidate for resuscitation attempt. \\[NOTE: the cardiac arrest may be witnessed OR unwitnessed\\];\n* Subject has a secured cuffed advanced airway \\[e.g., endotracheal tube, Combitube, King airway\\].\n\nFinal Inclusion Criteria:\n\n* Subject in whom femoral arterial access was successfully established;\n* Subject remained in cardiac arrest (undergoing CPR) at the time of hemodynamic data acquisition;\n* Subject in whom at least 5 minutes of continuous hemodynamic data were able to be collected, OR if ROSC occurs before 5 minutes, at least 2 minutes of hemodynamic data were able to be collected.\n\nInitial Exclusion Criteria:\n\n* Subject has known pre-existing DNR orders in place prior to this cardiac arrest;\n* Subject has signs of obvious clinical death or conditions that preclude the use of CPR;\n* Subject's family or legal guardians request that the subject not be entered in the study at the time of arrest;\n* Subject has recent sternotomy, with wound not appearing completely healed (if date of sternotomy is unknown) or less than six months (if date of sternotomy is known);\n* Subject has a stoma, tracheotomy, or tracheostomy prior to arrest;\n* Subject is known or suspected to be pregnant;\n* Subject is known/suspected to be a prisoner.\n\nFinal Exclusion Criteria:\n\n* Subject in whom \\< 2 minutes of hemodynamic data were acquired while receiving CPR;\n* Subject in whom an arterial pressure catheter was not placed or arterial pressure was not able to be successfully monitored;\n* Subject is subsequently found to have had a traumatic arrest;\n* Subject was in asystole at time of initial arrest AND remained in asystole during resuscitation effort AND arrest was unwitnessed or unknown if witnessed.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Keith Lurie, MD",
+          "affiliation": "Advanced Circulatory Systems",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Michigan State University- Kalamazoo Center for Medical Studies",
+          "city": "Kalamazoo",
+          "state": "Michigan",
+          "zip": "49008",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.29171,
+            "lon": -85.58723
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "1522844",
+          "type": "BACKGROUND",
+          "citation": "Niemann JT. Cardiopulmonary resuscitation. N Engl J Med. 1992 Oct 8;327(15):1075-80. doi: 10.1056/NEJM199210083271507. No abstract available."
+        },
+        {
+          "pmid": "8444685",
+          "type": "BACKGROUND",
+          "citation": "Duggal C, Weil MH, Gazmuri RJ, Tang W, Sun S, O'Connell F, Ali M. Regional blood flow during closed-chest cardiac resuscitation in rats. J Appl Physiol (1985). 1993 Jan;74(1):147-52. doi: 10.1152/jappl.1993.74.1.147."
+        },
+        {
+          "pmid": "11524335",
+          "type": "BACKGROUND",
+          "citation": "Lurie KG, Voelckel WG, Zielinski T, McKnite S, Lindstrom P, Peterson C, Wenzel V, Lindner KH, Samniah N, Benditt D. Improving standard cardiopulmonary resuscitation with an inspiratory impedance threshold valve in a porcine model of cardiac arrest. Anesth Analg. 2001 Sep;93(3):649-55. doi: 10.1097/00000539-200109000-00024."
+        },
+        {
+          "pmid": "11801347",
+          "type": "BACKGROUND",
+          "citation": "Langhelle A, Stromme T, Sunde K, Wik L, Nicolaysen G, Steen PA. Inspiratory impedance threshold valve during CPR. Resuscitation. 2002 Jan;52(1):39-48. doi: 10.1016/s0300-9572(01)00442-7."
+        },
+        {
+          "pmid": "7882467",
+          "type": "BACKGROUND",
+          "citation": "Lurie KG, Coffeen P, Shultz J, McKnite S, Detloff B, Mulligan K. Improving active compression-decompression cardiopulmonary resuscitation with an inspiratory impedance valve. Circulation. 1995 Mar 15;91(6):1629-32. doi: 10.1161/01.cir.91.6.1629."
+        },
+        {
+          "pmid": "10704165",
+          "type": "BACKGROUND",
+          "citation": "Plaisance P, Lurie KG, Payen D. Inspiratory impedance during active compression-decompression cardiopulmonary resuscitation: a randomized evaluation in patients in cardiac arrest. Circulation. 2000 Mar 7;101(9):989-94. doi: 10.1161/01.cir.101.9.989."
+        },
+        {
+          "pmid": "10451462",
+          "type": "BACKGROUND",
+          "citation": "Plaisance P, Lurie KG, Vicaut E, Adnet F, Petit JL, Epain D, Ecollan P, Gruat R, Cavagna P, Biens J, Payen D. A comparison of standard cardiopulmonary resuscitation and active compression-decompression resuscitation for out-of-hospital cardiac arrest. French Active Compression-Decompression Cardiopulmonary Resuscitation Study Group. N Engl J Med. 1999 Aug 19;341(8):569-75. doi: 10.1056/NEJM199908193410804."
+        },
+        {
+          "pmid": "11919340",
+          "type": "BACKGROUND",
+          "citation": "Voelckel WG, Lurie KG, Sweeney M, McKnite S, Zielinski T, Lindstrom P, Peterson C, Wenzel V, Lindner KH. Effects of active compression-decompression cardiopulmonary resuscitation with the inspiratory threshold valve in a young porcine model of cardiac arrest. Pediatr Res. 2002 Apr;51(4):523-7. doi: 10.1203/00006450-200204000-00020."
+        },
+        {
+          "pmid": "14568898",
+          "type": "BACKGROUND",
+          "citation": "Wolcke BB, Mauer DK, Schoefmann MF, Teichmann H, Provo TA, Lindner KH, Dick WF, Aeppli D, Lurie KG. Comparison of standard cardiopulmonary resuscitation versus the combination of active compression-decompression cardiopulmonary resuscitation and an inspiratory impedance threshold device for out-of-hospital cardiac arrest. Circulation. 2003 Nov 4;108(18):2201-5. doi: 10.1161/01.CIR.0000095787.99180.B5. Epub 2003 Oct 20."
+        },
+        {
+          "pmid": "8313556",
+          "type": "BACKGROUND",
+          "citation": "Shultz JJ, Coffeen P, Sweeney M, Detloff B, Kehler C, Pineda E, Yakshe P, Adler SW, Chang M, Lurie KG. Evaluation of standard and active compression-decompression CPR in an acute human model of ventricular fibrillation. Circulation. 1994 Feb;89(2):684-93. doi: 10.1161/01.cir.89.2.684."
+        },
+        {
+          "pmid": "10966661",
+          "type": "BACKGROUND",
+          "citation": "Guidelines 2000 for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care. Part 2: ethical aspects of CPR and ECC. Circulation. 2000 Aug 22;102(8 Suppl):I12-21. No abstract available."
+        },
+        {
+          "pmid": "15733766",
+          "type": "BACKGROUND",
+          "citation": "Aufderheide TP, Pirrallo RG, Yannopoulos D, Klein JP, von Briesen C, Sparks CW, Deja KA, Conrad CJ, Kitscha DJ, Provo TA, Lurie KG. Incomplete chest wall decompression: a clinical evaluation of CPR performance by EMS personnel and assessment of alternative manual chest compression-decompression techniques. Resuscitation. 2005 Mar;64(3):353-62. doi: 10.1016/j.resuscitation.2004.10.007."
+        },
+        {
+          "pmid": "16557155",
+          "type": "BACKGROUND",
+          "citation": "Yannopoulos D, Aufderheide TP, Gabrielli A, Beiser DG, McKnite SH, Pirrallo RG, Wigginton J, Becker L, Vanden Hoek T, Tang W, Nadkarni VM, Klein JP, Idris AH, Lurie KG. Clinical and hemodynamic comparison of 15:2 and 30:2 compression-to-ventilation ratios for cardiopulmonary resuscitation. Crit Care Med. 2006 May;34(5):1444-9. doi: 10.1097/01.CCM.0000216705.83305.99."
+        },
+        {
+          "pmid": "15818098",
+          "type": "BACKGROUND",
+          "citation": "Aufderheide TP, Pirrallo RG, Provo TA, Lurie KG. Clinical evaluation of an inspiratory impedance threshold device during standard cardiopulmonary resuscitation in patients with out-of-hospital cardiac arrest. Crit Care Med. 2005 Apr;33(4):734-40. doi: 10.1097/01.ccm.0000155909.09061.12."
+        },
+        {
+          "pmid": "10825624",
+          "type": "BACKGROUND",
+          "citation": "Lurie K, Voelckel W, Plaisance P, Zielinski T, McKnite S, Kor D, Sugiyama A, Sukhum P. Use of an inspiratory impedance threshold valve during cardiopulmonary resuscitation: a progress report. Resuscitation. 2000 May;44(3):219-30. doi: 10.1016/s0300-9572(00)00160-x."
+        },
+        {
+          "pmid": "9554651",
+          "type": "BACKGROUND",
+          "citation": "Lurie KG, Mulligan KA, McKnite S, Detloff B, Lindstrom P, Lindner KH. Optimizing standard cardiopulmonary resuscitation with an inspiratory impedance threshold valve. Chest. 1998 Apr;113(4):1084-90. doi: 10.1378/chest.113.4.1084."
+        },
+        {
+          "pmid": "11772887",
+          "type": "BACKGROUND",
+          "citation": "Lurie KG, Zielinski T, McKnite S, Aufderheide T, Voelckel W. Use of an inspiratory impedance valve improves neurologically intact survival in a porcine model of ventricular fibrillation. Circulation. 2002 Jan 1;105(1):124-9. doi: 10.1161/hc0102.101391."
+        },
+        {
+          "pmid": "15993724",
+          "type": "BACKGROUND",
+          "citation": "Pirrallo RG, Aufderheide TP, Provo TA, Lurie KG. Effect of an inspiratory impedance threshold device on hemodynamics during conventional manual cardiopulmonary resuscitation. Resuscitation. 2005 Jul;66(1):13-20. doi: 10.1016/j.resuscitation.2004.12.027."
+        },
+        {
+          "pmid": "16150530",
+          "type": "BACKGROUND",
+          "citation": "Thayne RC, Thomas DC, Neville JD, Van Dellen A. Use of an impedance threshold device improves short-term outcomes following out-of-hospital cardiac arrest. Resuscitation. 2005 Oct;67(1):103-8. doi: 10.1016/j.resuscitation.2005.05.009."
+        },
+        {
+          "pmid": "15172704",
+          "type": "BACKGROUND",
+          "citation": "Plaisance P, Lurie KG, Vicaut E, Martin D, Gueugniaud PY, Petit JL, Payen D. Evaluation of an impedance threshold device in patients receiving active compression-decompression cardiopulmonary resuscitation for out of hospital cardiac arrest. Resuscitation. 2004 Jun;61(3):265-71. doi: 10.1016/j.resuscitation.2004.01.032."
+        },
+        {
+          "pmid": "15891326",
+          "type": "BACKGROUND",
+          "citation": "Plaisance P, Soleil C, Lurie KG, Vicaut E, Ducros L, Payen D. Use of an inspiratory impedance threshold device on a facemask and endotracheal tube to reduce intrathoracic pressures during the decompression phase of active compression-decompression cardiopulmonary resuscitation. Crit Care Med. 2005 May;33(5):990-4. doi: 10.1097/01.ccm.0000163235.18990.f6."
+        },
+        {
+          "pmid": "16061732",
+          "type": "BACKGROUND",
+          "citation": "Yannopoulos D, Nadkarni VM, McKnite SH, Rao A, Kruger K, Metzger A, Benditt DG, Lurie KG. Intrathoracic pressure regulator during continuous-chest-compression advanced cardiac resuscitation improves vital organ perfusion pressures in a porcine model of cardiac arrest. Circulation. 2005 Aug 9;112(6):803-11. doi: 10.1161/CIRCULATIONAHA.105.541508. Epub 2005 Aug 1."
+        },
+        {
+          "pmid": "1583761",
+          "type": "BACKGROUND",
+          "citation": "Cohen TJ, Tucker KJ, Lurie KG, Redberg RF, Dutton JP, Dwyer KA, Schwab TM, Chin MC, Gelb AM, Scheinman MM, et al. Active compression-decompression. A new method of cardiopulmonary resuscitation. Cardiopulmonary Resuscitation Working Group. JAMA. 1992 Jun 3;267(21):2916-23. doi: 10.1001/jama.267.21.2916."
+        },
+        {
+          "pmid": "8176802",
+          "type": "BACKGROUND",
+          "citation": "Lurie KG, Shultz JJ, Callaham ML, Schwab TM, Gisch T, Rector T, Frascone RJ, Long L. Evaluation of active compression-decompression CPR in victims of out-of-hospital cardiac arrest. JAMA. 1994 May 11;271(18):1405-11."
+        },
+        {
+          "pmid": "16314375",
+          "type": "BACKGROUND",
+          "citation": "ECC Committee, Subcommittees and Task Forces of the American Heart Association. 2005 American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care. Circulation. 2005 Dec 13;112(24 Suppl):IV1-203. doi: 10.1161/CIRCULATIONAHA.105.166550. Epub 2005 Nov 28. No abstract available."
+        },
+        {
+          "pmid": "16678959",
+          "type": "BACKGROUND",
+          "citation": "Yannopoulos D, Aufderheide TP, McKnite S, Kotsifas K, Charris R, Nadkarni V, Lurie KG. Hemodynamic and respiratory effects of negative tracheal pressure during CPR in pigs. Resuscitation. 2006 Jun;69(3):487-94. doi: 10.1016/j.resuscitation.2005.11.005. Epub 2006 May 5."
+        },
+        {
+          "pmid": "15733767",
+          "type": "BACKGROUND",
+          "citation": "Yannopoulos D, McKnite S, Aufderheide TP, Sigurdsson G, Pirrallo RG, Benditt D, Lurie KG. Effects of incomplete chest wall decompression during cardiopulmonary resuscitation on coronary and cerebral perfusion pressures in a porcine model of cardiac arrest. Resuscitation. 2005 Mar;64(3):363-72. doi: 10.1016/j.resuscitation.2004.10.009."
+        },
+        {
+          "pmid": "17179262",
+          "type": "BACKGROUND",
+          "citation": "Yannopoulos D, McKnite S, Metzger A, Lurie KG. Intrathoracic pressure regulation improves 24-hour survival in a porcine model of hypovolemic shock. Anesth Analg. 2007 Jan;104(1):157-62. doi: 10.1213/01.ane.0000249047.80184.5a."
+        },
+        {
+          "pmid": "17114984",
+          "type": "BACKGROUND",
+          "citation": "Yannopoulos D, McKnite SH, Metzger A, Lurie KG. Intrathoracic pressure regulation for intracranial pressure management in normovolemic and hypovolemic pigs. Crit Care Med. 2006 Dec;34(12 Suppl):S495-500. doi: 10.1097/01.CCM.0000246082.10422.7E."
+        },
+        {
+          "pmid": "16901611",
+          "type": "BACKGROUND",
+          "citation": "Yannopoulos D, Metzger A, McKnite S, Nadkarni V, Aufderheide TP, Idris A, Dries D, Benditt DG, Lurie KG. Intrathoracic pressure regulation improves vital organ perfusion pressures in normovolemic and hypovolemic pigs. Resuscitation. 2006 Sep;70(3):445-53. doi: 10.1016/j.resuscitation.2006.02.005. Epub 2006 Aug 9."
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "ACD-CPR +ITD",
+          "description": "ACD-CPR+ITD: includes combined treatment with the ResQPRO active compression decompression device and the ResQPOD ITD 16.0 impedance threshold device"
+        },
+        {
+          "id": "FG001",
+          "title": "S-CPR + ITPR",
+          "description": "S-CPR + ITPR: standard CPR with use of the CirQlator intrathoracic pressure regulator (ITPR)"
+        },
+        {
+          "id": "FG002",
+          "title": "S-CPR",
+          "description": "S-CPR: standard manual CPR"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "18"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "16"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "14"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "7"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "6"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "11"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "13"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "ACD-CPR +ITD",
+          "description": "ACD-CPR+ITD: includes combined treatment with the ResQPRO active compression decompression device and the ResQPOD ITD 16.0 impedance threshold device"
+        },
+        {
+          "id": "BG001",
+          "title": "S-CPR + ITPR",
+          "description": "S-CPR + ITPR: standard CPR with use of the CirQlator intrathoracic pressure regulator (ITPR)"
+        },
+        {
+          "id": "BG002",
+          "title": "S-CPR",
+          "description": "S-CPR: standard manual CPR"
+        },
+        {
+          "id": "BG003",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "18"
+            },
+            {
+              "groupId": "BG001",
+              "value": "16"
+            },
+            {
+              "groupId": "BG002",
+              "value": "14"
+            },
+            {
+              "groupId": "BG003",
+              "value": "48"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "63.1",
+                      "spread": "14.6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "66.8",
+                      "spread": "18.9"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "64.7",
+                      "spread": "14.0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "64.8",
+                      "spread": "15.8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "22"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "26"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "22"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "26"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "48"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Mean Systolic and Diastolic Blood Pressures",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "mmHg",
+          "timeFrame": "during CPR (day 1)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "ACD-CPR +ITD",
+              "description": "ACD-CPR+ITD: includes combined treatment with the ResQPRO active compression decompression device and the ResQPOD ITD 16.0 impedance threshold device"
+            },
+            {
+              "id": "OG001",
+              "title": "S-CPR + ITPR",
+              "description": "S-CPR + ITPR: standard CPR with use of the CirQlator intrathoracic pressure regulator (ITPR)"
+            },
+            {
+              "id": "OG002",
+              "title": "S-CPR",
+              "description": "S-CPR: standard manual CPR"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "7"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "3"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "6"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Systolic",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "80.38",
+                      "spread": "20.71"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "121.21",
+                      "spread": "22.13"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "61.37",
+                      "spread": "26.23"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Diastolic",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "15.52",
+                      "spread": "14.10"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "33.04",
+                      "spread": "24.69"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "19.29",
+                      "spread": "17.31"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Serious Adverse Events",
+          "description": "Serious adverse events include: death, internal thoracic and abdominal injuries, device malfunction preventing use during CPR",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "events",
+          "timeFrame": "during the index CPR procedure (day 1), at hospital discharge, at 30 days, at three months, and at six months of follow-up",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "ACD-CPR +ITD",
+              "description": "ACD-CPR+ITD: includes combined treatment with the ResQPRO active compression decompression device and the ResQPOD ITD 16.0 impedance threshold device"
+            },
+            {
+              "id": "OG001",
+              "title": "S-CPR + ITPR",
+              "description": "S-CPR + ITPR: standard CPR with use of the CirQlator intrathoracic pressure regulator (ITPR)"
+            },
+            {
+              "id": "OG002",
+              "title": "S-CPR",
+              "description": "S-CPR: standard manual CPR"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "14"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Mean Intrathoracic Pressure (Airway Pressure)",
+          "description": "Intrathoracic pressures are reported relative to atmospheric pressure",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "mmHg",
+          "timeFrame": "during CPR (day 1)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "ACD-CPR +ITD",
+              "description": "ACD-CPR+ITD: includes combined treatment with the ResQPRO active compression decompression device and the ResQPOD ITD 16.0 impedance threshold device"
+            },
+            {
+              "id": "OG001",
+              "title": "S-CPR + ITPR",
+              "description": "S-CPR + ITPR: standard CPR with use of the CirQlator intrathoracic pressure regulator (ITPR)"
+            },
+            {
+              "id": "OG002",
+              "title": "S-CPR",
+              "description": "S-CPR: standard manual CPR"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "7"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "3"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "6"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-1.05",
+                      "spread": "2.40"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-4.40",
+                      "spread": "3.25"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1.21",
+                      "spread": "2.57"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "ACD-CPR +ITD",
+          "description": "ACD-CPR+ITD: includes combined treatment with the ResQPRO active compression decompression device and the ResQPOD ITD 16.0 impedance threshold device",
+          "seriousNumAffected": 10,
+          "seriousNumAtRisk": 18,
+          "otherNumAffected": 1,
+          "otherNumAtRisk": 18
+        },
+        {
+          "id": "EG001",
+          "title": "S-CPR + ITPR",
+          "description": "S-CPR + ITPR: standard CPR with use of the CirQlator intrathoracic pressure regulator (ITPR)",
+          "seriousNumAffected": 8,
+          "seriousNumAtRisk": 16,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 16
+        },
+        {
+          "id": "EG002",
+          "title": "S-CPR",
+          "description": "S-CPR: standard manual CPR",
+          "seriousNumAffected": 6,
+          "seriousNumAtRisk": 14,
+          "otherNumAffected": 1,
+          "otherNumAtRisk": 14
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Death",
+          "organSystem": "Nervous system disorders",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 10,
+              "numAtRisk": 18
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 8,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 6,
+              "numAtRisk": 14
+            }
+          ]
+        },
+        {
+          "term": "Pulmonary edema",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 14
+            }
+          ]
+        },
+        {
+          "term": "Device failure",
+          "organSystem": "Investigations",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 14
+            }
+          ]
+        },
+        {
+          "term": "Blood in advanced airway",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 14
+            }
+          ]
+        },
+        {
+          "term": "Re-arrest",
+          "organSystem": "Cardiac disorders",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 18
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 14
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 18
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 14
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Blood in advanced airway",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 14
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "LTE60",
+        "restrictiveAgreement": true
+      },
+      "pointOfContact": {
+        "title": "Clinical Research Associate",
+        "organization": "Advanced Circulatory",
+        "email": "nburkhart@advancedcirculatory.com",
+        "phone": "651-403-5606"
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006323",
+          "term": "Heart Arrest"
+        },
+        {
+          "id": "D016757",
+          "term": "Death, Sudden, Cardiac"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D003645",
+          "term": "Death, Sudden"
+        },
+        {
+          "id": "D003643",
+          "term": "Death"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

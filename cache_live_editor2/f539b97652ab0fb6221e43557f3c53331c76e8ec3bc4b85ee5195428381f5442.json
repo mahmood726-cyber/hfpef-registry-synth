@@ -1,0 +1,314 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05136820",
+      "orgStudyIdInfo": {
+        "id": "G210281"
+      },
+      "organization": {
+        "fullName": "Occlutech International AB",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Flow Regulation by Opening the SepTum in Patients With Heart Failure; a Prospective, Randomized, Sham-controlled, Double-blind, Global Multicenter Study",
+      "officialTitle": "Flow Regulation by Opening the SepTum in Patients With Heart Failure; a Prospective, Randomized, Sham-controlled, Double-blind, Global Multicenter Study",
+      "acronym": "FROST-HF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-08",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-03-09",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-02",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-02",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-11-11",
+      "studyFirstSubmitQcDate": "2021-11-23",
+      "studyFirstPostDateStruct": {
+        "date": "2021-11-29",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-08-05",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-08-08",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Occlutech International AB",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUnapprovedDevice": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this clinical study is to assess the safety and effectiveness of the Atrial Flow Regulator in the treatment of subjects, 18 years of age or older, who have symptomatic heart failure with preserved ejection fraction (HFpEF) or heart failure with reduced ejection fraction (HFrEF) while on stable guideline directed medical therapy (GDMT) as outlined in the Guidelines for the Management of Heart Failure."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Preserved Ejection Fraction (HFpEF)",
+        "Heart Failure With Reduced Ejection Fraction (HFrEF)"
+      ],
+      "keywords": [
+        "Heart Failure",
+        "Preserved Ejection Fraction",
+        "Reduced Ejection Fraction",
+        "HFpEF",
+        "HFrEF"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "interventionModelDescription": "Patients will be identified from the investigator's pool of heart failure patients who are symptomatic on stable guideline directed medical therapy. An electronic randomization scheme in the EDC system will be used to minimize risk of bias in the investigation",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "The Interventional cardiologist will be unblinded and the Heart failure cardiologist and participants will be blinded. There will also be an unblinded study coordinator and a blinded study coordinator.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 15,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Randomization to 6mm AFR device",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "AFR Device 6mm vs Sham procedure",
+          "interventionNames": [
+            "Device: Atrial Flow Regulator"
+          ]
+        },
+        {
+          "label": "Randomization to 8mm AFR device",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "AFR device 8mm vs Sham procedure",
+          "interventionNames": [
+            "Device: Atrial Flow Regulator"
+          ]
+        },
+        {
+          "label": "Randomization to sham procedure",
+          "type": "SHAM_COMPARATOR",
+          "description": "Sham procedure to AFR device (6mm or 8mm)",
+          "interventionNames": [
+            "Device: Sham Comparator"
+          ]
+        },
+        {
+          "label": "Roll-in Arm",
+          "type": "OTHER",
+          "description": "Patients in the Roll-in Arm will receive the AFR device",
+          "interventionNames": [
+            "Device: Atrial Flow Regulator"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Atrial Flow Regulator",
+          "description": "Subjects will be randomized 1:1:1 where subjects will either receive the 6mm AFR device, 8mm AFR device or Sham procedure.",
+          "armGroupLabels": [
+            "Randomization to 6mm AFR device",
+            "Randomization to 8mm AFR device",
+            "Roll-in Arm"
+          ],
+          "otherNames": [
+            "AFR"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Sham Comparator",
+          "description": "Subjects will be randomized 1:1:1 where subjects will either receive the 6mm AFR device, 8mm AFR device or Sham procedure.",
+          "armGroupLabels": [
+            "Randomization to sham procedure"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Primary Safety Endpoint for Major Adverse Cardiovascular and Neurologic Events (MACNE) within 12 months",
+          "description": "The Primary Safety Endpoint is defined as Major Adverse Cardiovascular and Neurologic Events (MACNE) within 12 months of randomization. MACNE includes all-cause mortality, stroke, systemic thromboembolism, open cardiac surgery or major endovascular repair, and major bleeding (BARC 3-5).",
+          "timeFrame": "Baseline through 12 months"
+        },
+        {
+          "measure": "Composite Primary Efficacy Endpoint - Frequency of Cardiovascular Mortality",
+          "description": "Incidence of and time to cardiovascular mortality through 12-24 months",
+          "timeFrame": "Baseline through 12 - 24 months depending on rate of enrollment. The final primary endpoint analysis will occur when the last subject enrolled reaches their 12-month follow-up."
+        },
+        {
+          "measure": "Composite Primary Efficacy Endpoint - Frequency of heart transplant or Left Ventricular Assist Device (LVAD)",
+          "description": "Incidence of and time to heart transplant or LVAD",
+          "timeFrame": "Baseline through 12 - 24 months depending on rate of enrollment. The final primary endpoint analysis will occur when the last subject enrolled reaches their 12-month follow-up."
+        },
+        {
+          "measure": "Composite Primary Efficacy Endpoint - Total rate of Heart Failure Hospitalizations",
+          "description": "Total rate (first plus recurrent) per patient year of heart failure hospitalization admissions and time to first heart failure hospitalizations through 12-24 months",
+          "timeFrame": "Baseline through 12 - 24 months depending on rate of enrollment. The final primary endpoint analysis will occur when the last subject enrolled reaches their 12-month follow-up."
+        },
+        {
+          "measure": "Composite Primary Efficacy Endpoint - Total rate of Heart Failure Treatment Intensification",
+          "description": "Total rate (first plus recurrent) per patient year of heart failure treatment intensification event and time-to-first heart failure treatment intensification event through 12-24 months",
+          "timeFrame": "Baseline through 12 - 24 months depending on rate of enrollment. The final primary endpoint analysis will occur when the last subject enrolled reaches their 12-month follow-up."
+        },
+        {
+          "measure": "Composite Primary Efficacy Endpoint - KCCQ Score",
+          "description": "Change in baseline KCCQ total summary score at 6-months",
+          "timeFrame": "Baseline through 6 months. The final primary endpoint analysis will occur when the last subject enrolled reaches their 12-month follow-up."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Clinical performance - change from baseline in NYHA Classification",
+          "description": "Clinical performance assessed by the change from baseline in NYHA Classification",
+          "timeFrame": "Baseline through end of study, approximately 5 years"
+        },
+        {
+          "measure": "Clinical performance - change from baseline using KCCQ",
+          "description": "Clinical performance assessed by the change from baseline using KCCQ",
+          "timeFrame": "Baseline through end of study, approximately 5 years"
+        },
+        {
+          "measure": "Clinical performance - change from baseline using EQ-5D",
+          "description": "Clinical performance assessed by the change from baseline using EQ-5D",
+          "timeFrame": "Baseline through end of study, approximately 5 years"
+        },
+        {
+          "measure": "Clinical performance - change from baseline using the 6 Minute Walk Test (MWT)",
+          "description": "Clinical performance assessed by the change from baseline using the 6 Minute Walk Test (MWT)",
+          "timeFrame": "Baseline through end of study, approximately 5 years"
+        },
+        {
+          "measure": "Components of the primary efficacy endpoint (cardiovascular mortality, heart failure hospitalization rate, heart transplant or LVAD placement).",
+          "description": "Analysis on components of the primary efficacy endpoint (cardiovascular mortality, heart failure hospitalization rate, heart transplant or LVAD placement).",
+          "timeFrame": "Baseline through 24 Months"
+        },
+        {
+          "measure": "Components of Device Performance- Device placed in-situ as assessed by Investigator",
+          "description": "Analysis on components of device performance (Device placed in-situ as assessed by Investigator)",
+          "timeFrame": "Implant through end of study, approximately 5 years"
+        },
+        {
+          "measure": "Components of Device Performance - Patency: Evidence of left to right shunt through AFR device",
+          "description": "Analysis on components of device performance- Patency: Evidence of left to right shunt through AFR device as assessed by core lab",
+          "timeFrame": "Implant through end of study, approximately 5 years"
+        },
+        {
+          "measure": "Components of Device Performance- Implant embolization and clinically significant device migration",
+          "description": "Analysis on components of device performance- Implant embolization and clinically significant device migration (i.e. SAEs probably related to device).",
+          "timeFrame": "Implant through end of study, approximately 5 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "General Inclusion Criteria:\n\n* Aged ≥18 years\n* Presence of chronic symptomatic HF (NYHA ≥class 2) and at least one of the following:\n\n  1. Previous heart failure hospitalization within 6 months of informed consent or\n  2. Elevated NT-proBNP (or BNP):\n\n     1. If in Sinus Rhythm, must have a corrected elevated Brain Natriuretic Peptide (BNP) level of at least 300 pg/mL or an N-terminal pro-BNP (NT-proBNP) level of at least 900 pg/mL, according to local measurement, within 2 months of the Screening Visit during a clinically stable period\\*.\n     2. If in Atrial Fibrillation or Atrial Flutter, must have a corrected elevated BNP level of at least 400 pg/mL or an NT-proBNP level of at least 1200 pg/mL within 2 months of the Screening Visit during a clinically stable period\\*.\n* If LVEF documented at screening is \\>55%, then must have one of either:\n\n  1. Left atrial enlargement (LA diameter \\>2.3 cm/m2 or LA volume index \\>28 mL/m2), or\n  2. PCWP ≥ 15 mmHg at rest within previous 12 months, or\n  3. LVEDP ≥15 mmHg at rest within previous 12 months\n* 6 MWT distance 100-450 meters\n* Treated with maximally tolerated doses of class I GDMT and class electrical therapies (CRT and ICD) according to latest applicable guidelines (e.g., AHA or ESC) for at least 2 months prior to informed consent, and a stable dose diuretic for at least 1 month prior to informed consent.\n\nGeneral Exclusion Criteria:\n\n* Myocardial infarction and/or revascularization with percutaneous intervention (PCI) or coronary artery bypass grafting (CABG) within 3 months prior to informed consent\n* Surgical or transcatheter valve (aortic, mitral, or tricuspid) repair or replacement within 2 months prior to informed consent\n* Automated implantable cardioverter defibrillator (AICD) placement within 2 months prior to informed consent\n* Resynchronization therapy started within 3 months prior to informed consent\n* Major surgery within 3 months prior to informed consent\n* History of stroke, transient ischemic attack (TIA), deep vein thrombosis (DVT), or pulmonary emboli within 6 months prior to informed consent, or any prior stroke with persistent neurologic deficit, or any prior intracranial bleed, or known intracerebral aneurysm, AV malformation or other intracranial pathology increasing the risk of bleeding\n* Uncontrolled atrial fibrillation with resting heart rate \\>110 beats per minute despite medical therapy\n* Documented history of non-dilated cardiomyopathy (obstructive hypertrophic, restrictive, infiltrative) or pericardial disease\n* Clinically significant valvular heart disease:\n\n  1. regurgitation grade ≥3+ or\n  2. severe stenosis of mitral or tricuspid valves, or\n  3. moderate or greater stenosis of aortic valves\n* Prior diagnosis of pulmonary hypertension with current treatment with one or more pulmonary hypertension specific drugs (e.g. endothelin receptor antagonists (ERAs), phosphodiesterase inhibitors (PDE 5 Inhibitors) or prostacyclin analogues)\n* Uncontrolled hypertension, Systolic Blood Pressure (SBP) ≥160 or Diastolic Blood Pressure (DBP) ≥100 mmHg despite medical therapy at the time of screening visit\n* Previous interventional or surgical atrial septal defect (ASD) or patent foramen ovale (PFO) closure\n* Inadequate vascular access for implantation of shunt, e.g., suboptimal femoral venous access for transseptal catheterization or inferior vena cava (IVC) is not patent\n* Chronic kidney disease currently requiring dialysis\n* Allergy or contraindication to aspirin, or clopidogrel and prasugrel and ticagrelor, or heparin and bivalirudin\n* Bleeding disorders (international normalized ratio \\[INR\\] \\>2.0, platelet count \\<100,000 x 109/L, hemoglobin \\<10.0 g/dL)\n* Known clinically significant untreated carotid artery stenosis likely to require intervention, at discretion of investigator\n* Current untreated coronary artery disease with indication for revascularization\n* Significant Right Ventricular dysfunction demonstrated by:\n\n  1. Tricuspid Annular Plane Systolic Excursion (TAPSE) \\<16mm or\n  2. Right Ventricular Fractional Area Change (RVFAC) ≤30%\n* Right Atrial Volume Index (RAVI) \\> 31ml/m2\n* Left Ventricular End-Diastolic Diameter (LVEDD) \\> 8.0 cm as assessed by echocardiography\n* Severe COPD requiring oral steroid therapy or daytime oxygen\n* Echocardiographic evidence of intra-cardiac mass, thrombus, or vegetation\n* On current immunosuppression or systemic oral steroid treatment\n* Any condition that limits exercise tolerance other than heart failure (e.g., peripheral vascular disease, orthopedic issues, angina, other), at the discretion of the Investigator",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Megan Coylewright, MD, MPH, FSCAI, FACC",
+          "affiliation": "Erlanger Health System",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Muthiah Vaduganathan, MD, MPH",
+          "affiliation": "Brigham and Women's Hospital Heart and Vascular Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Arizona Heart Rhythm Center",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85016",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        },
+        {
+          "facility": "North Shore Northwell University Hospital Lenox Hill",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10075",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

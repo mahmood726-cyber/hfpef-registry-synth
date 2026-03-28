@@ -1,0 +1,631 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05895136",
+      "orgStudyIdInfo": {
+        "id": "COMBAT"
+      },
+      "organization": {
+        "fullName": "European Foundation for Study of Chronic Liver Failure",
+        "class": "OTHER"
+      },
+      "briefTitle": "A Novel COMBinATorial Therapy With Albumin and Enoxaparin in Patients With Decompensated Cirrhosis at High-risk of Poor Outcome (COMBAT Trial).",
+      "officialTitle": "A Novel COMBinATorial Therapy With Albumin and Enoxaparin in Patients With Decompensated Cirrhosis at High-risk of Poor Outcome (COMBAT Trial).",
+      "acronym": "COMBAT"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-08",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-07-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-09",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-09",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-05-11",
+      "studyFirstSubmitQcDate": "2023-06-06",
+      "studyFirstPostDateStruct": {
+        "date": "2023-06-08",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-03-14",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-03-19",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "European Foundation for Study of Chronic Liver Failure",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Horizon 2020 - European Commission",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this clinical trial is to determine primarily whether a combinatorial therapy based on the administration of human albumin and enoxaparin is safe and effective in patients with decompensated cirrhosis discharged from the hospital. The main questions it aims to answer are:\n\n* Is this combinatorial therapy safe and tolerable?\n* Is this combinatorial therapy effective?\n* does this combinatorial therapy cost more or less than standard medical therapy? Participants will attend to study visits in which several test will be performed to asses disease evolution while they are taking study medication.\n\nResearchers will compare experimental group treated with combinatorial therapy plus standard treatment with control group treated with standard treatment to see if there are differences in the responses to the questions raised above."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Liver Cirrhosis",
+        "Decompensated Cirrhosis of Liver",
+        "Acute on Chronic Liver Failure (ACLF)"
+      ],
+      "keywords": [
+        "decompensated cirrhosis",
+        "Acute on Chronic Liver Failure (ACLF)",
+        "Liver diseases",
+        "liver cirrhosis",
+        "Human Albumin",
+        "Enoxaparin"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "The patients enrolled in the study will be divided in two cohorts:\n\nCohort 1 will receive standard medical treatment plus a combinatorial therapy of enoxaparin and human Albumin.\n\nCohort 2 (control) will receive only standard medical treatment.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 90,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Enoxaparin plus human albumin",
+          "type": "EXPERIMENTAL",
+          "description": "Cohort 1 will receive standard medical treatment plus a combinatorial therapy of enoxaparin and human Albumin.",
+          "interventionNames": [
+            "Drug: Human albumin",
+            "Drug: Enoxaparin",
+            "Drug: Standard medical treatment"
+          ]
+        },
+        {
+          "label": "Standard medical treatment",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Cohort 2 (control) will receive only standard medical treatment.",
+          "interventionNames": [
+            "Drug: Standard medical treatment"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Human albumin",
+          "description": "Human albumin solution is made from pooled human plasma. It is widely used as a plasma-expander in several disease conditions, such as liver cirrhosis and critically ill patients.\n\nATC-Code: B05AA01",
+          "armGroupLabels": [
+            "Enoxaparin plus human albumin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Enoxaparin",
+          "description": "Enoxaparin is a drug that belongs to the group of anticoagulants. It exerts its antithrombotic activity by binding to antithrombin III (AT III). ATC-Code: B01AB05",
+          "armGroupLabels": [
+            "Enoxaparin plus human albumin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Standard medical treatment",
+          "description": "SMT will be considered non-study medication and is not specified in the protocol.",
+          "armGroupLabels": [
+            "Enoxaparin plus human albumin",
+            "Standard medical treatment"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "To assess the safety and tolerability of the combinatorial therapy in terms of TEAE (pulmonary edema, major bleeding and/or thrombocytopenia",
+          "description": "The safety and tolerability of the combinatorial therapy of human albumin and enoxaparin on top of SMT compared to SMT alone, from baseline to Day 90, will be evaluated as the percentage of subjects who discontinued the study drug due to at least 1 of the following treatment-emergent adverse events (TEAE): pulmonary edema, severe thrombocytopenia and/or major bleeding. These variables will be described (counts and percentage).",
+          "timeFrame": "from baseline to Day 90"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "90 and 180-days changes in prognostic scores of CLIF-Consortium Acute Decompensation score (CLIF-C AD) from baseline.",
+          "description": "Lower scores of CLIF-C AD (\\<45) indicate a better prognostic than greater values (\\>50). In the statistical analysis Chi-Square test or Fisher exact test will be performed. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "90 and 180-days from baseline"
+        },
+        {
+          "measure": "90 and 180-days changes in prognostic scores of Mayo End stage Liver Disease (MELD) from baseline.",
+          "description": "The MELD score ranges from six to 40 and is based on results from several lab tests. The higher the number, the more likely you are to receive a liver from a deceased donor when an organ becomes available.\n\nChi-Square test or Fisher exact test will be performed. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "90 and 180-days from baseline"
+        },
+        {
+          "measure": "90 and 180-days changes in prognostic scores of Mayo End stage Liver Disease - sodio (MELDNa) from baseline",
+          "description": "The MELDNa score ranges from six to 40 and is based on results from several lab tests. The higher the number, the more likely you are to receive a liver from a deceased donor when an organ becomes available.\n\nChi-Square test or Fisher exact test will be performed. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "90 and 180-days from baseline"
+        },
+        {
+          "measure": "30 days, 90 and 180-days incidence of hospital readmission and ICU admission (causes and length of stay)",
+          "description": "Chi-Square test or Fisher exact test will be performed. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "30, 90 and 180-days"
+        },
+        {
+          "measure": "90 and 180-days incidence of ACLF according to the EASL-CLIF criteria",
+          "description": "Chi-Square test or Fisher exact test will be performed. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "90 and 180-days from baseline"
+        },
+        {
+          "measure": "90 and 180-days overall and transplant-free survival",
+          "description": "Overall and transplant-free survival will be analyzed by estimating Kaplan-Meier survival curves for each treatment arm. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "90 and 180-days from baseline"
+        },
+        {
+          "measure": "90 and 180-days incidence and cumulative number of therapeutic paracenteses",
+          "description": "Chi-Square test or Fisher exact test will be performed. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "90 and 180-days from baseline"
+        },
+        {
+          "measure": "90 and 180-days incidence of major complication of cirrhosis (grade 2-4 HE, portalhypertensive gastrointestinal bleedings, AKI, HRS-AKI, new-onset portal vein thrombosis)",
+          "description": "Chi-Square test or Fisher exact test will be performed. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "90 and 180-days from baseline"
+        },
+        {
+          "measure": "90 and 180-days incidence of proven bacterial infection",
+          "description": "Chi-Square test or Fisher exact test will be performed. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "90 and 180-days from baseline"
+        },
+        {
+          "measure": "90 and 180-days changes in organ function from baseline: liver function variables: grade of ascites",
+          "description": "Grade of ascites according to the criteria of the International Club of Ascites.\n\nStudent t-test or analysis of variance will be used to compare normally distributed variable or non-parametric methods if the assumptions of normality are not met. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "90 and 180-days from baseline"
+        },
+        {
+          "measure": "90 and 180-days changes in organ function from baseline: liver function variables: grade of hepatic encephalopathy (West Haven)",
+          "description": "Grade of hepatic encephalopathy using the West Haven (score range 0, normal to 4, coma).\n\nStudent t-test or analysis of variance will be used to compare normally distributed variable or non-parametric methods if the assumptions of normality are not met. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "90 and 180-days from baseline"
+        },
+        {
+          "measure": "90 and 180-days changes in organ function from baseline: liver function variables: grade of hepatic encephalopathy (ANT)",
+          "description": "Animal Naming Test (ANT): range from \\>15, normal to \\<10\n\nStudent t-test or analysis of variance will be used to compare normally distributed variable or non-parametric methods if the assumptions of normality are not met. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "90 and 180-days from baseline"
+        },
+        {
+          "measure": "90 and 180-days changes in organ function from baseline: liver function variables: bilirrubin",
+          "description": "Bilirubin in mg/dL. Ranges according reference ranges of each study site.\n\nStudent t-test or analysis of variance will be used to compare normally distributed variable or non-parametric methods if the assumptions of normality are not met. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "90 and 180-days from baseline"
+        },
+        {
+          "measure": "90 and 180-days changes in organ function from baseline: liver function variables: albumin serum levels",
+          "description": "Albumin serum levels in g/dL. Ranges according reference ranges of each study site.\n\nStudent t-test or analysis of variance will be used to compare normally distributed variable or non-parametric methods if the assumptions of normality are not met. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "90 and 180-days from baseline"
+        },
+        {
+          "measure": "90 and 180-days changes in organ function from baseline: renal function variables: BUN",
+          "description": "BUN in mg/dL. Ranges according reference ranges of each study site.\n\nStudent t-test or analysis of variance will be used to compare normally distributed variable or non-parametric methods if the assumptions of normality are not met. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "90 and 180-days from baseline"
+        },
+        {
+          "measure": "90 and 180-days changes in organ function from baseline: renal function variables: serum creatinine",
+          "description": "Serum creatinine in mg/dL. Ranges according reference ranges of each study site.\n\nStudent t-test or analysis of variance will be used to compare normally distributed variable or non-parametric methods if the assumptions of normality are not met. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "90 and 180-days from baseline"
+        },
+        {
+          "measure": "90 and 180-days changes in organ function from baseline: renal function variables: electrolites",
+          "description": "Electrolytes: Na, K, Ca (mmol/L). Ranges according reference ranges of each study site.\n\nStudent t-test or analysis of variance will be used to compare normally distributed variable or non-parametric methods if the assumptions of normality are not met. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "90 and 180-days from baseline"
+        },
+        {
+          "measure": "90 and 180-days changes in organ function from baseline: renal function variables: GFR",
+          "description": "Glomerula Filtration Ratio (GFR) will be estimated by the Modification of Diet in Renal Disease (MDRD) equations.\n\nStudent t-test or analysis of variance will be used to compare normally distributed variable or non-parametric methods if the assumptions of normality are not met. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "90 and 180-days from baseline"
+        },
+        {
+          "measure": "90 and 180-days changes in organ function from baseline: lung function variables: respiratory rate",
+          "description": "Respiratory rate in breaths per minute. Ranges according reference ranges of each study site.\n\nStudent t-test or analysis of variance will be used to compare normally distributed variable or non-parametric methods if the assumptions of normality are not met. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "90 and 180-days from baseline"
+        },
+        {
+          "measure": "90 and 180-days changes in organ function from baseline: lung function variables: FIO2",
+          "description": "Fraction of inspired oxygen (FIO2) in percentage (%). Ranges according reference ranges of each study site.\n\nStudent t-test or analysis of variance will be used to compare normally distributed variable or non-parametric methods if the assumptions of normality are not met. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "90 and 180-days from baseline"
+        },
+        {
+          "measure": "90 and 180-days changes in organ function from baseline: lung function variables: pulse oxymetric saturation",
+          "description": "Pulse oxymetric saturation in percentage (%). Ranges according reference ranges of each study site.\n\nStudent t-test or analysis of variance will be used to compare normally distributed variable or non-parametric methods if the assumptions of normality are not met. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "90 and 180-days from baseline"
+        },
+        {
+          "measure": "90 and 180-days changes in organ function from baseline: coagulative variables: INR",
+          "description": "International Normalized Ratio (INR). Ranges according reference ranges of each study site.\n\nStudent t-test or analysis of variance will be used to compare normally distributed variable or non-parametric methods if the assumptions of normality are not met. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "90 and 180-days from baseline"
+        },
+        {
+          "measure": "90 and 180-days changes in organ function from baseline: coagulative variables: aPTT",
+          "description": "Activated partial thromboplastin time (aPTT) in seconds. Ranges according reference ranges of each study site.\n\nStudent t-test or analysis of variance will be used to compare normally distributed variable or non-parametric methods if the assumptions of normality are not met. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "90 and 180-days from baseline"
+        },
+        {
+          "measure": "90 and 180-days changes in organ function from baseline: coagulative variables: fibrinogen",
+          "description": "Fibrinogen in mg/dL. Ranges according reference ranges of each study site.\n\nStudent t-test or analysis of variance will be used to compare normally distributed variable or non-parametric methods if the assumptions of normality are not met. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "90 and 180-days from baseline"
+        },
+        {
+          "measure": "90 and 180-days changes in organ function from baseline: coagulative variables: Platelet count",
+          "description": "Platelet count in platelets per microliter. Ranges according reference ranges of each study site.\n\nStudent t-test or analysis of variance will be used to compare normally distributed variable or non-parametric methods if the assumptions of normality are not met. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "90 and 180-days from baseline"
+        },
+        {
+          "measure": "90 and 180-days changes in organ function from baseline: hemodynamic variables: arterial pressure",
+          "description": "Systolic, diastolic and mean arterial pressure in mmHg. Ranges according reference ranges of each study site.\n\nStudent t-test or analysis of variance will be used to compare normally distributed variable or non-parametric methods if the assumptions of normality are not met. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "90 and 180-days from baseline"
+        },
+        {
+          "measure": "90 and 180-days changes in organ function from baseline: hemodynamic variables: heart rate.",
+          "description": "Heart rate in beats per minute. Ranges according reference ranges of each study site.\n\nStudent t-test or analysis of variance will be used to compare normally distributed variable or non-parametric methods if the assumptions of normality are not met. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "90 and 180-days from baseline"
+        },
+        {
+          "measure": "90 and 180-days changes in frailty (Liver Frailty Index, LFI)",
+          "description": "LFI score of ≤ 3.2 indicates a patient is robust, 3.3-4.4 pre frail and ≥ 4.5 frail.\n\nStudent t-test or analysis of variance will be used to compare normally distributed variable or non-parametric methods if the assumptions of normality are not met. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "90 and 180-days from baseline"
+        },
+        {
+          "measure": "90 and 180-days changes in quality of life measure through European Quality of Life Five Dimension Five Levels (EQ-5D-5L)",
+          "description": "EQ-5D-5L has a score from 5 (no problems) to 25 (extreme problems on all dimensions evaluated).\n\nStudent t-test or analysis of variance will be used to compare normally distributed variable or non-parametric methods if the assumptions of normality are not met. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "90 and 180-days from baseline"
+        },
+        {
+          "measure": "90 and 180-days changes in quality of life measure through Visual Analog Scale (VAS)",
+          "description": "VAS has a score from 0 (worst health patient can imagine) to 100 (best health patient can imagine)\n\nStudent t-test or analysis of variance will be used to compare normally distributed variable or non-parametric methods if the assumptions of normality are not met. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "90 and 180-days from baseline"
+        },
+        {
+          "measure": "Total hospital costs during the 6-month period",
+          "description": "To estimate the 90-days costs of an acute decompensation of cirrhosis for both arms in the trial\n\nIn-hospital resource utilization will be described based on diagnosis and procedural codes and length of stay. Hospital costs will be assigned based on the primary indication for hospitalization and procedures performed during the hospitalization and the Severity-Diagnosis Related Groups. Costs will be then assigned based on the latest mean cost available.\n\nCosts will be calculated in euros by treatment arm.\n\nStudent t-test or analysis of variance will be used to compare normally distributed variable or non-parametric methods if the assumptions of normality are not met. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "180-days from baseline"
+        },
+        {
+          "measure": "Total hospital costs predictors during the 6-month period",
+          "description": "To identify cost predictors (patients characteristics that are present before the treatment is initiated) and\n\nIn-hospital resource utilization will be described based on diagnosis and procedural codes and length of stay. Hospital costs will be assigned based on the primary indication for hospitalization and procedures performed during the hospitalization and the Severity-Diagnosis Related Groups. Costs will be then assigned based on the latest mean cost available.\n\nCosts will be calculated in euros by treatment arm.\n\nStudent t-test or analysis of variance will be used to compare normally distributed variable or non-parametric methods if the assumptions of normality are not met. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "180-days from baseline"
+        },
+        {
+          "measure": "Total hospital costs drivers during the 6-month period cost drivers",
+          "description": "Cost drivers (response to treatment, randomization arm, other treatments).\n\nIn-hospital resource utilization will be described based on diagnosis and procedural codes and length of stay. Hospital costs will be assigned based on the primary indication for hospitalization and procedures performed during the hospitalization and the Severity-Diagnosis Related Groups. Costs will be then assigned based on the latest mean cost available.\n\nCosts will be calculated in euros by treatment arm.\n\nStudent t-test or analysis of variance will be used to compare normally distributed variable or non-parametric methods if the assumptions of normality are not met. Pairwise Log-rank tests will be used for statistical comparisons.",
+          "timeFrame": "180-days from baseline"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age between 18 and 80 years.\n2. Patients with decompensated cirrhosis admitted to hospital due to AD according to the EASL-CLIF criteria (rapid onset of ascites, hepatic encephalopathy, portal hypertensive-related gastrointestinal bleeding, bacterial infection, or any combination of these).\n3. CLIF-C AD score ≥ 45 at admission or at any time during hospital stay.\n4. Recovery from AD and expected to be discharged within the next 72 hours.\n\nExclusion Criteria:\n\n1. Diagnosis of acute-on-chronic liver failure (ACLF) grade 3 or higher according to the EASL-CLIF criteria at admission or at any time during the index hospitalization\n2. Admission for planned diagnostic or therapeutic procedures\n3. Recent acute bleeding (unless the cause has been effectively treated and there is no evidence of ongoing bleeding for at least 5 days)\n4. Chronic bleeding requiring periodic blood transfusions\n5. Presence of an ongoing acute complication of the disease (i.e. hepatic encephalopathy \\[grade III or IV\\])\n6. Conditions with a high risk of haemorrhage, including haemorrhagic diathesis not related to liver disease\n7. Patients with INR \\> 3.0\n8. Severe thrombocytopenia (\\<30x10 9 /L)\n9. Ongoing chronic anticoagulation therapy or indication for starting anticoagulation due to hepatic and non-hepatic conditions\n10. Ongoing anti-platelets therapy.\n11. Active malignancy (except for hepatocellular carcinoma within the Milan criteria or non-melanocytic skin cancer)\n12. Antiviral treatment for hepatitis C, B and delta initiated in the last 6 months or planned to be initiated in the following 6 months\n13. Ongoing alcohol use disorder with an expected low adherence to protocol as judged by physician\n14. Previous liver transplantation\n15. Patients with TIPS or other surgical porto-caval shunts\n16. Chronic organic renal failure stage IV and V or estimated Glomerular Filtration Rate \\<30 ml/min according to the MDRD equations\n17. Chronic heart failure NYHA class III or IV\n18. Pulmonary disease GOLD III or IV\n19. Patients with extrahepatic diseases with life expectancy \\<6 months\n20. Severe psychiatric disorders\n21. Hypersensitivity to albumin preparations or to any of the excipients.\n22. Hypersensitivity to enoxaparin sodium, heparin or its derivatives, including other low molecular weight heparins (LMWH) or to any of the excipients\n23. History of immune mediated heparin-induced thrombocytopenia (HIT) within the past 100 days or in the presence of circulating antibodies\n24. Pregnancy and breast-feeding\n25. Expected low adherence to study protocol as judged by physician\n26. Patients who can't provide written informed consent or refusal to participate\n27. Participation in other concurrent clinical trials and within the prior 3 months from informed consent signature.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Anna Bosch",
+          "role": "CONTACT",
+          "phone": "+34 93 227 14 03",
+          "email": "anna.bosch@efclif.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hôpital Beaujon",
+          "status": "RECRUITING",
+          "city": "Clichy",
+          "zip": "92110",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Pierre Emmanuel Rautou, PI",
+              "role": "CONTACT",
+              "email": "perautou@yahoo.fr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.90018,
+            "lon": 2.30952
+          }
+        },
+        {
+          "facility": "Universitätsklinikum Aachen AöR",
+          "status": "RECRUITING",
+          "city": "Aachen",
+          "zip": "52074",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Tony Bruns, PI",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.77664,
+            "lon": 6.08342
+          }
+        },
+        {
+          "facility": "Universität Münster",
+          "status": "RECRUITING",
+          "city": "Münster",
+          "zip": "48149",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Jonel Trebicka, PI",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.96236,
+            "lon": 7.62571
+          }
+        },
+        {
+          "facility": "IRCSS Azienda Ospedaliero Universitaria di Bologna Policlinico di Sant'Orsola",
+          "status": "RECRUITING",
+          "city": "Bologna",
+          "state": "Emilia-Romagna",
+          "zip": "40138",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Paolo Caraceni, PI",
+              "role": "CONTACT",
+              "email": "paolo.caraceni@unibo.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.49381,
+            "lon": 11.33875
+          }
+        },
+        {
+          "facility": "Azienda Ospedaliero-Universitaria \"Città della Salute e della Scienza di Torino\"",
+          "status": "RECRUITING",
+          "city": "Turin",
+          "state": "Piedmont",
+          "zip": "10126",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Carlo Alessandria, PI",
+              "role": "CONTACT",
+              "email": "carloalessandria@libero.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.07049,
+            "lon": 7.68682
+          }
+        },
+        {
+          "facility": "Hospital Universitari Vall d'Hebron-VHIR",
+          "status": "RECRUITING",
+          "city": "Barcelona",
+          "state": "Barcelona",
+          "zip": "08035",
+          "country": "Spain",
+          "contacts": [
+            {
+              "name": "Joan Genescà, PI",
+              "role": "CONTACT",
+              "email": "jgenesca@vhebron.net"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Universitario Ramón y Cajal",
+          "status": "RECRUITING",
+          "city": "Madrid",
+          "state": "Madrid",
+          "zip": "28034",
+          "country": "Spain",
+          "contacts": [
+            {
+              "name": "Agustín Albillos, PI",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Clínic de Barcelona-FCRB",
+          "status": "RECRUITING",
+          "city": "Barcelona",
+          "zip": "08036",
+          "country": "Spain",
+          "contacts": [
+            {
+              "name": "Javier Fernández, PI",
+              "role": "CONTACT",
+              "email": "Jfdez@clinic.cat"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Royal Free Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "London",
+          "zip": "NW3 2QG",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Rajeshwar Mookerjee",
+              "role": "CONTACT",
+              "phone": "07887752300",
+              "email": "r.mookerjee@ucl.ac.uk"
+            },
+            {
+              "name": "Rajeshwar Mookerjee",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "Only aggregated data will be shared among sites."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D008103",
+          "term": "Liver Cirrhosis"
+        },
+        {
+          "id": "D065290",
+          "term": "Acute-On-Chronic Liver Failure"
+        },
+        {
+          "id": "D008107",
+          "term": "Liver Diseases"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        },
+        {
+          "id": "D005355",
+          "term": "Fibrosis"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D017114",
+          "term": "Liver Failure, Acute"
+        },
+        {
+          "id": "D017093",
+          "term": "Liver Failure"
+        },
+        {
+          "id": "D048550",
+          "term": "Hepatic Insufficiency"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000075462",
+          "term": "Serum Albumin, Human"
+        },
+        {
+          "id": "D017984",
+          "term": "Enoxaparin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012709",
+          "term": "Serum Albumin"
+        },
+        {
+          "id": "D000418",
+          "term": "Albumins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D001798",
+          "term": "Blood Proteins"
+        },
+        {
+          "id": "D006495",
+          "term": "Heparin, Low-Molecular-Weight"
+        },
+        {
+          "id": "D006493",
+          "term": "Heparin"
+        },
+        {
+          "id": "D006025",
+          "term": "Glycosaminoglycans"
+        },
+        {
+          "id": "D011134",
+          "term": "Polysaccharides"
+        },
+        {
+          "id": "D002241",
+          "term": "Carbohydrates"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

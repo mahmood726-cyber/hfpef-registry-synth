@@ -1,0 +1,235 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01869062",
+      "orgStudyIdInfo": {
+        "id": "ICSY01"
+      },
+      "organization": {
+        "fullName": "MicroPort CRM",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Clinical Assessment of the SonR Algorithm in the PARADYM RF SonR CRT-D by Echocardiography",
+      "officialTitle": "Clinical Assessment of the SonR Algorithm in the PARADYM RF SonR CRT-D by Echocardiography",
+      "acronym": "SonR-ECHO"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2019-03",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2013-06",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2016-05-19",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2016-05-19",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2013-05-27",
+      "studyFirstSubmitQcDate": "2013-06-04",
+      "studyFirstPostDateStruct": {
+        "date": "2013-06-05",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2019-03-20",
+      "lastUpdatePostDateStruct": {
+        "date": "2019-03-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "MicroPort CRM",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The main objective of the SONR-ECHO trial is to demonstrate that optimization of CRT parameters by SonR technology is able to increase the rate of CRT-D responders, based on significant LV reverse remodeling, as compared to Standard of Care settings.\n\nThis study will also evaluate the effectiveness of CRT-D SonR system as compared to Standard of care (SoC) programming methods in providing appropriate LV filling, as expected from the Ritter method.",
+      "detailedDescription": "This study will evaluate the effectiveness of CRT-D SonR system as compared to SoC programming methods to:\n\n* Increase the rate of patients responding to CRT\n* Provide appropriate hemodynamic cardiac effect, as expected from the Ritter method.\n\nThe identification of CRT responders, as defined by echocardiography, generally refers to a significant reduction of the LV End-Systolic Diameter (LVESD) and/or LVESV during Follow-Up (FUp).\n\nPatients will be considered as responders to CRT if their LVESV decreased by \\> 15% after 6 months of CRT therapy as compared to baseline. The percentage of CRT responders will be compared between the two study arms.\n\nSoC is defined as the standard CRT system programming/optimization method currently used by physicians in study centers and any method may be used in the study if considered as routine practice in the study center."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ],
+      "keywords": [
+        "CRT"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "CRT-D device",
+        "primaryPurpose": "OTHER",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 348,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "SonR CRT Optimization 'On'",
+          "type": "OTHER",
+          "description": "CRT-D device with the SonR optimization algorithm programmed being 'on'.",
+          "interventionNames": [
+            "Device: SonR CRT Optimization 'On'"
+          ]
+        },
+        {
+          "label": "SonR CRT Optimization 'Off'",
+          "type": "OTHER",
+          "description": "CRT-D device with the SonR optimization algorithm programmed being 'off' (Standard of Care).",
+          "interventionNames": [
+            "Device: SonR CRT Optimization 'Off'"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "SonR CRT Optimization 'On'",
+          "description": "Intervention: Implanted CRT-D device with the SonR optimization algorithm programmed being 'on'.",
+          "armGroupLabels": [
+            "SonR CRT Optimization 'On'"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "SonR CRT Optimization 'Off'",
+          "description": "Intervention: Implanted CRT-D device with the SonR optimization algorithm programmed being 'off' (Standard of Care).",
+          "armGroupLabels": [
+            "SonR CRT Optimization 'Off'"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "CRT-responders rate increase based on LVESV decrease at M6 / baseline",
+          "description": "For the purpose of this study, CRT-responders are defined as patients experiencing a decrease in LVESV of 15% or more at M6 Fup as most clinical trials used.\n\nThe main objective of the SONR-ECHO trial is to show a minimum increase of CRT-responders rate of 15% (up to 72% or more) in the SonR study group as compared to SoC arm.",
+          "timeFrame": "6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "A-wave truncation assessment at M6",
+          "description": "The Ritter's method attempts to optimize AV and VV timings in dual-chamber PM patients. According to this method, AV delay is optimal when LVFT is maximal and mitral valve closure only occurs after atrial systole (A-wave) is complete.",
+          "timeFrame": "6 months"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Report LV remodeling from LVEDV decrease at M6 / baseline",
+          "description": "LVEDV is a standard marker of CRT effectiveness. Echocardiographic data collected at M6 FUp will document the evolution of LVEDV as compared to baseline in order to assess CRT effectiveness.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "LVEF increase at M6",
+          "description": "LVEF, as a surrogate of LVESV and LVEDV, is a standard marker of CRT effectiveness. Echocardiographic data collected at M6 FUp will document the evolution of LVEF as compared to baseline in order to assess CRT effectiveness.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "AF analysis during FUp",
+          "description": "Sorin commercialized CRT-D device offering both SonR optimization algorithm and atrio biventricular provides a performing Mode Switch (MS) function able to store and document sustained AF episodes during FUp.\n\nThe MS data stored inSorin commercialized CRT-D device offering both SonR optimization algorithm and atrio biventricular memories will be collected at each FUp in order to report total AF burden, permanent AF and AF event free-rate in both arms up to M6 FUp.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "AF-related events",
+          "description": "Number of AF-events per patients, the event type, time to the first occurrence, the survival (event-free) curves will be reported per study group.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "LA and RV functions",
+          "description": "Echocardiographic data from each exam will be analyzed in order to report the evolution of the diastolic and systolic functions of the LA and of the RV per study group.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Adverse events",
+          "description": "All AEs observed during FUp in all study patients will be classified by origin, symptoms, severity, treatment and outcome per study arm.",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Eligible for implantation of a CRT-D device according to published relevant ESC and CCS guidelines ;\n* In Sinus Rhythm;\n* Have reviewed, signed and dated an informed consent\n\nExclusion Criteria:\n\n* Previous implant with a pacemaker, an Implantable Cardioverter-Defibrillator or a CRT device (except upgrade from single chamber ICD with a fully functional defibrillation lead not under recall or surveillance);\n* Persistent atrial arrhythmias (or cardioversion for Atrial Fibrillation) within the past month;\n* Ventricular tachyarrhythmia secondary to reversible causes such as acute myocardial infarction (MI), digitalis intoxication, drowning, electrocution, electrolyte imbalance, hypoxia or sepsis, uncorrected at the time of the enrolment;\n* Incessant ventricular tachyarrhythmia;\n* Unstable angina, or acute MI, Coronary Artery Bypass-Grafting (CABG), or Percutaneous Transluminal Coronary Angioplasty (PTCA) within the past 4 weeks;\n* Correctable valvular disease that is the primary cause of heart failure;\n* Mechanical heart valve or indication for valve repair or replacement;\n* Recent Cerebro-Vascular Accident (CVA) or Transient Ischemic Attack (TIA) (within the previous 3 months);\n* Post heart transplant (patients who are waiting for a heart transplant are allowed in the study);\n* Already included in another clinical study that could confound the results of this study;\n* Life expectancy less than 1 year;\n* Inability to understand the purpose of the study;\n* Unavailability for scheduled follow-up or refusal to cooperate;\n* Sensitivity to 1 mg Dexamethasone Sodium Phosphate (DSP);\n* Age of less than 18 years;\n* Pregnancy;\n* Drug addiction or abuse;\n* Under guardianship",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "François Philippon",
+          "affiliation": "Institut Universitaire de Cardiologie et de Pneumologie de Québec (IUCPQ)",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Institut universitaire de Cardiologie et Pneumologie de Québec",
+          "city": "Québec",
+          "zip": "G1V 4G5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.81228,
+            "lon": -71.21454
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

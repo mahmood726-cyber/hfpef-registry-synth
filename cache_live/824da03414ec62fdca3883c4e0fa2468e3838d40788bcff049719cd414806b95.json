@@ -1,0 +1,1448 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02145351",
+      "orgStudyIdInfo": {
+        "id": "13-008306"
+      },
+      "organization": {
+        "fullName": "Mayo Clinic",
+        "class": "OTHER"
+      },
+      "briefTitle": "Efficacy Study of Pacemakers to Treat Slow Heart Rate in Patients With Heart Failure",
+      "officialTitle": "Rate-Adaptive Atrial Pacing In Diastolic Heart Failure (RAPID-HF)",
+      "acronym": "RAPID-HF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-03",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2014-04-07",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-05-09",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-05-09",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2014-05-20",
+      "studyFirstSubmitQcDate": "2014-05-20",
+      "studyFirstPostDateStruct": {
+        "date": "2014-05-22",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2023-03-03",
+      "resultsFirstSubmitQcDate": "2023-03-31",
+      "resultsFirstPostDateStruct": {
+        "date": "2023-04-05",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-03-31",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-04-05",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Barry Borlaug",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "Mayo Clinic"
+      },
+      "leadSponsor": {
+        "name": "Mayo Clinic",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Medtronic",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Determine the impact of restoring normal heart rate response during exercise and daily activity in patients with heart failure and a preserved ejection fraction (HFpEF) and chronotropic incompetence (CI)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With a Preserved Ejection Fraction",
+        "Heart Failure, Diastolic",
+        "Chronotropic Incompetence"
+      ],
+      "keywords": [
+        "HFpEF",
+        "Heart failure",
+        "Heart failure with preserved ejection fraction",
+        "Chronotropic incompetence"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 32,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Pacing off first, then pacing on",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "No-pacing on for the first for 4 weeks, followed by 4 week washout period, and then cross-over to pacing on for an additional 4 weeks.",
+          "interventionNames": [
+            "Device: Rate adaptive atrial pacing using a dual-chamber pacemaker",
+            "Device: Pacemaker system will be implanted but set to Pacing Off."
+          ]
+        },
+        {
+          "label": "Pacing on first, then pacing off",
+          "type": "EXPERIMENTAL",
+          "description": "Pacing on for the first for 4 weeks, followed by 4 week washout period, and then cross-over to pacing off for an additional 4 weeks",
+          "interventionNames": [
+            "Device: Rate adaptive atrial pacing using a dual-chamber pacemaker",
+            "Device: Pacemaker system will be implanted but set to Pacing Off."
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Rate adaptive atrial pacing using a dual-chamber pacemaker",
+          "description": "The Azure XT DR is a permanent, dual-chamber cardiac pacemaker with the ability to continuously monitor and record patient activity, and respond to activity by pacing faster and increasing the heart rate (rate adaptive atrial pacing). It will be programmed in AAIR mode to pace the right atrium. The leads will be placed in the right atrium and right ventricle using CapSureFix model 5086.",
+          "armGroupLabels": [
+            "Pacing off first, then pacing on",
+            "Pacing on first, then pacing off"
+          ],
+          "otherNames": [
+            "Medtronic Azure XT DR MRI pacemaker model W1DR01",
+            "Medtronic CapSureFix MRI model 5086"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Pacemaker system will be implanted but set to Pacing Off.",
+          "description": "The identical pacing system will be implanted, but will be set to Pacing Off.",
+          "armGroupLabels": [
+            "Pacing off first, then pacing on",
+            "Pacing on first, then pacing off"
+          ],
+          "otherNames": [
+            "Medtronic Azure XT DR MRI model W1DR01",
+            "Medtronic CapSureFix MRI model 5086"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Oxygen Consumption (VO2) at Ventilatory Anaerobic Threshold (VAT)",
+          "description": "Maximal effort cardiopulmonary exercise testing was performed on a treadmill after 4 weeks of pacing-on and after 4 weeks of pacing-off to measure volumes of oxygen consumed (VO2). Change in VO2 at anaerobic threshold (VO2,AT) determined by the V-Slope method as the point of disproportionate rise in VCO2 relative to VO2 as measured in ml/kg/min.",
+          "timeFrame": "baseline, after 4 weeks of treatment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Peak Aerobic Capacity (Peak VO2)",
+          "description": "Determined as the mean of values obtained over the final 30 seconds of exercise. Maximal effort cardiopulmonary exercise testing was performed on a treadmill after 4 weeks of pacing-on and after 4 weeks of pacing-off to measure volumes of oxygen consumed (VO2). As measured in ml/kg/min.",
+          "timeFrame": "4 weeks after pacemaker activation"
+        },
+        {
+          "measure": "Ventilatory Efficiency (VE/VCO2)",
+          "description": "Determined as the nadir of VE/VCO2 ratio during exercise. Maximal effort cardiopulmonary exercise testing was performed on a treadmill after 4 weeks of pacing-on and after 4 weeks of pacing-off to measure volumes of oxygen consumed (VO2).",
+          "timeFrame": "4 weeks"
+        },
+        {
+          "measure": "Change in Plasma N-terminal Pro B-type Natriuretic Peptide (NT-proBNP)",
+          "description": "Change in plasma NT-proBNP as measured in pg/mL. Natriuretic peptides are substances made by the heart. A main type of these substances is NT-proBNP. Elevated levels can mean the heart isn't pumping as much blood the body needs.",
+          "timeFrame": "baseline, after 4 weeks of treatment"
+        },
+        {
+          "measure": "Change in Kansas City Cardiomyopathy Questionnaire (KCCQ) Overall Summary Score",
+          "description": "Change from baseline in KCCQ-overall summary score was reported. KCCQ was a 23-item, self-administered questionnaire that measure the participant's perception of their health status, including their heart failure (HF) symptoms, impact on physical and social function and how their HF impacts the quality of life. KCCQ quantifies 7 domains: physical limitations (6 items), symptom stability (1 item), symptom frequency (4 items), symptom burden (3 items), self-efficacy (2 items), quality of life (3 items) and social limitations (4 items). Scores were generated for each domain and scaled from 0 to 100, with 0 denoting the worst and 100 the best possible status. KCCQ- overall summary score was average of domains- physical limitation, total symptoms (average of symptom frequency and symptom burden), quality of life, and social limitation, and transformed to a single score which ranged from 0 (worst) -100 (the best possible status), where the higher score reflected better health status.",
+          "timeFrame": "baseline, after 4 weeks of treatment"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Mean Peak Heart Rate (HR)",
+          "description": "Determined as the maximum heart rate . Heart rate (or pulse rate) is the frequency of the heartbeat measured by the number of contractions of the heart per minute (beats per minute, or bpm).",
+          "timeFrame": "4 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria\n\n1. Age \\>18 years and able to provide informed consent to enroll in the trial, or consent through a legal guardian or power of attorney.\n2. Previous clinical diagnosis of HF with current NYHA Class II-III symptoms\n3. At least one of the following: Hospitalization for decompensated HF, Acute treatment for HF with intravenous loop diuretic or hemofiltration, Chronic treatment with a loop diuretic for control of HF symptoms + left atrial enlargement on echocardiography or E/e' ratio (≥14 average, ≥15 septal ) on echocardiography, Resting PCWP \\>15 mm Hg or LV end-diastolic pressure \\>18 mmHg at catheterization for dyspnea and/or exercise PCWP/LV end-diastolic pressure \\>25 mmHg, or Elevated NT-proBNP level (≥300 pg/ml )\n4. Left ventricular EF ≥40% within 12 months with clinical stability\n5. Stable cardiac medical therapy for ≥30 days\n6. Sinus rhythm\n7. Chronotropic incompetence on recent (within 6 months) clinical or screening exercise test, defined as heart rate reserve (HRR) \\<0.80 or \\<0.62 if on beta blockers\n8. Meet both screening criteria on clinically-performed cardiopulmonary exercise testing within 12 months.\n\nExclusion Criteria\n\n1. Inability to exercise, or non-cardiac condition that precludes exercise testing\n2. Any contraindication to a pacemaker system\n3. Non-cardiac condition limiting life expectancy to less than one year\n4. Significant left sided structural valve disease (\\>mild stenosis, \\>moderate regurgitation)\n5. Hypertrophic cardiomyopathy\n6. Infiltrative or inflammatory myocardial disease (amyloid, sarcoid)\n7. Pericardial disease\n8. Non-group 2 pulmonary arterial hypertension\n9. Chronic stable exertional angina\n10. Acute coronary syndrome or revascularization within 60 days\n11. Other clinically important causes of dyspnea\n12. Atrial fibrillation\n13. PR interval \\>210 msec\n14. Resting heart rate (HR) \\> 100 bpm\n15. A history of reduced ejection fraction (EF\\<40%)\n16. Advanced chronic kidney disease (GFR \\< 20 ml/min/1.73m2 by modified MDRD equation)\n17. Women of child bearing potential without negative pregnancy test and effective contraception\n18. Severe anemia (Hemoglobin \\<10 g/dL)\n19. Severe hepatic disease\n20. Complex congenital heart disease\n21. Listed for cardiac transplantation\n22. Other class I indications for pacing",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Barry Borlaug, MD",
+          "affiliation": "Mayo Clinic",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Mayo Clinic in Rochester",
+          "city": "Rochester",
+          "state": "Minnesota",
+          "zip": "55905",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "36871285",
+          "type": "DERIVED",
+          "citation": "Reddy YNV, Koepp KE, Carter R, Win S, Jain CC, Olson TP, Johnson BD, Rea R, Redfield MM, Borlaug BA. Rate-Adaptive Atrial Pacing for Heart Failure With Preserved Ejection Fraction: The RAPID-HF Randomized Clinical Trial. JAMA. 2023 Mar 14;329(10):801-809. doi: 10.1001/jama.2023.0675."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Mayo Clinic Clinical Trials",
+          "url": "https://www.mayo.edu/research/clinical-trials"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "Three subjects did not return for baseline testing following pacemaker implantation, leaving a total of 29 patients who were randomized into the study.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Pacing Off First, Then Pacing on",
+          "description": "Subjects who received pacing off in either the first or last 4 weeks of the study\n\nPacing off for the first for 4 weeks, followed by 4 week washout period, and then cross-over to pacing on for an additional 4 weeks.\n\nRate adaptive atrial pacing using a dual-chamber pacemaker: The Azure XT DR is a permanent, dual-chamber cardiac pacemaker with the ability to continuously monitor and record patient activity, and respond to activity by pacing faster and increasing the heart rate (rate adaptive atrial pacing). It will be programmed in AAIR mode to pace the right atrium. The leads will be placed in the right atrium and right ventricle using CapSureFix model 5086.\n\nPacemaker system implanted but set to Pacing Off.: The identical pacing system will be implanted, but will be set to Pacing Off."
+        },
+        {
+          "id": "FG001",
+          "title": "Pacing on First, Then Pacing Off",
+          "description": "Subjects who received pacing on either the first or last 4 weeks of the study\n\nPacing on for the first for 4 weeks, followed by 4 week washout period, and then cross-over to pacing off for an additional 4 weeks\n\nRate adaptive atrial pacing using a dual-chamber pacemaker: The Azure XT DR is a permanent, dual-chamber cardiac pacemaker with the ability to continuously monitor and record patient activity, and respond to activity by pacing faster and increasing the heart rate (rate adaptive atrial pacing). It will be programmed in AAIR mode to pace the right atrium. The leads will be placed in the right atrium and right ventricle using CapSureFix model 5086.\n\nPacemaker system implanted but set to Pacing Off.: The identical pacing system will be implanted, but will be set to Pacing Off."
+        },
+        {
+          "id": "FG002",
+          "title": "Pacemaker Implantation",
+          "description": "All subjects who had a pacemaker implanted 4 weeks prior to randomization"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Pacemaker Implantation (4 Weeks)",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "32"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "32"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "First Intervention (4 Weeks)",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "15"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "14"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "15"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "14"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Washout (4 Weeks)",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "15"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "14"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "15"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "14"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Second Intervention (4 Weeks)",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "15"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "14"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "15"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "14"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Pacing Off First, Then Pacing on",
+          "description": "Subjects who received pacing off in either the first or last 4 weeks of the study\n\nPacing off for the first for 4 weeks, followed by 4 week washout period, and then cross-over to pacing on for an additional 4 weeks.\n\nRate adaptive atrial pacing using a dual-chamber pacemaker: The Azure XT DR is a permanent, dual-chamber cardiac pacemaker with the ability to continuously monitor and record patient activity, and respond to activity by pacing faster and increasing the heart rate (rate adaptive atrial pacing). It will be programmed in AAIR mode to pace the right atrium. The leads will be placed in the right atrium and right ventricle using CapSureFix model 5086.\n\nPacemaker system implanted but set to Pacing Off.: The identical pacing system will be implanted, but will be set to Pacing Off."
+        },
+        {
+          "id": "BG001",
+          "title": "Pacing on First, Then Pacing Off",
+          "description": "Subjects who received pacing on either the first or last 4 weeks of the study\n\nPacing on for the first for 4 weeks, followed by 4 week washout period, and then cross-over to pacing off for an additional 4 weeks\n\nRate adaptive atrial pacing using a dual-chamber pacemaker: The Azure XT DR is a permanent, dual-chamber cardiac pacemaker with the ability to continuously monitor and record patient activity, and respond to activity by pacing faster and increasing the heart rate (rate adaptive atrial pacing). It will be programmed in AAIR mode to pace the right atrium. The leads will be placed in the right atrium and right ventricle using CapSureFix model 5086.\n\nPacemaker system implanted but set to Pacing Off.: The identical pacing system will be implanted, but will be set to Pacing Off."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "15"
+            },
+            {
+              "groupId": "BG001",
+              "value": "14"
+            },
+            {
+              "groupId": "BG002",
+              "value": "29"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "66.5",
+                      "spread": "12.2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "65.4",
+                      "spread": "6.4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "66.0",
+                      "spread": "9.7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "13"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "16"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "29"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "29"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Change in Oxygen Consumption (VO2) at Ventilatory Anaerobic Threshold (VAT)",
+          "description": "Maximal effort cardiopulmonary exercise testing was performed on a treadmill after 4 weeks of pacing-on and after 4 weeks of pacing-off to measure volumes of oxygen consumed (VO2). Change in VO2 at anaerobic threshold (VO2,AT) determined by the V-Slope method as the point of disproportionate rise in VCO2 relative to VO2 as measured in ml/kg/min.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "ml/kg/min",
+          "timeFrame": "baseline, after 4 weeks of treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Pacing Off",
+              "description": "Subjects who received pacing off in either the first or last 4 weeks of the study"
+            },
+            {
+              "id": "OG001",
+              "title": "Pacing on",
+              "description": "Subjects who received pacing on either the first or last 4 weeks of the study"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "29"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "29"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "10.4",
+                      "spread": "2.9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "10.7",
+                      "spread": "2.6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Peak Aerobic Capacity (Peak VO2)",
+          "description": "Determined as the mean of values obtained over the final 30 seconds of exercise. Maximal effort cardiopulmonary exercise testing was performed on a treadmill after 4 weeks of pacing-on and after 4 weeks of pacing-off to measure volumes of oxygen consumed (VO2). As measured in ml/kg/min.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "ml/kg/min",
+          "timeFrame": "4 weeks after pacemaker activation",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Pacing Off",
+              "description": "Subjects who received pacing off in either the first or last 4 weeks of the study"
+            },
+            {
+              "id": "OG001",
+              "title": "Pacing on",
+              "description": "Subjects who received pacing on either the first or last 4 weeks of the study"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "29"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "29"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "16.5",
+                      "spread": "4.3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16.8",
+                      "spread": "4.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Ventilatory Efficiency (VE/VCO2)",
+          "description": "Determined as the nadir of VE/VCO2 ratio during exercise. Maximal effort cardiopulmonary exercise testing was performed on a treadmill after 4 weeks of pacing-on and after 4 weeks of pacing-off to measure volumes of oxygen consumed (VO2).",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "ratio",
+          "timeFrame": "4 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Pacing Off",
+              "description": "Subjects who received pacing off in either the first or last 4 weeks of the study"
+            },
+            {
+              "id": "OG001",
+              "title": "Pacing on",
+              "description": "Subjects who received pacing on either the first or last 4 weeks of the study"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "29"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "29"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "34.2",
+                      "spread": "6.6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "34.9",
+                      "spread": "6.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Plasma N-terminal Pro B-type Natriuretic Peptide (NT-proBNP)",
+          "description": "Change in plasma NT-proBNP as measured in pg/mL. Natriuretic peptides are substances made by the heart. A main type of these substances is NT-proBNP. Elevated levels can mean the heart isn't pumping as much blood the body needs.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "pg/mL",
+          "timeFrame": "baseline, after 4 weeks of treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Pacing Off",
+              "description": "Subjects who received pacing off in either the first or last 4 weeks of the study"
+            },
+            {
+              "id": "OG001",
+              "title": "Pacing on",
+              "description": "Subjects who received pacing on either the first or last 4 weeks of the study"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "29"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "29"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-88.0",
+                      "spread": "390"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-36.0",
+                      "spread": "255"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Kansas City Cardiomyopathy Questionnaire (KCCQ) Overall Summary Score",
+          "description": "Change from baseline in KCCQ-overall summary score was reported. KCCQ was a 23-item, self-administered questionnaire that measure the participant's perception of their health status, including their heart failure (HF) symptoms, impact on physical and social function and how their HF impacts the quality of life. KCCQ quantifies 7 domains: physical limitations (6 items), symptom stability (1 item), symptom frequency (4 items), symptom burden (3 items), self-efficacy (2 items), quality of life (3 items) and social limitations (4 items). Scores were generated for each domain and scaled from 0 to 100, with 0 denoting the worst and 100 the best possible status. KCCQ- overall summary score was average of domains- physical limitation, total symptoms (average of symptom frequency and symptom burden), quality of life, and social limitation, and transformed to a single score which ranged from 0 (worst) -100 (the best possible status), where the higher score reflected better health status.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "baseline, after 4 weeks of treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Pacing Off",
+              "description": "Subjects who received pacing off in either the first or last 4 weeks of the study"
+            },
+            {
+              "id": "OG001",
+              "title": "Pacing on",
+              "description": "Subjects who received pacing on either the first or last 4 weeks of the study"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "29"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "29"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.7",
+                      "spread": "16.4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.8",
+                      "spread": "20.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Mean Peak Heart Rate (HR)",
+          "description": "Determined as the maximum heart rate . Heart rate (or pulse rate) is the frequency of the heartbeat measured by the number of contractions of the heart per minute (beats per minute, or bpm).",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "bpm",
+          "timeFrame": "4 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Pacing Off",
+              "description": "Subjects who received pacing off in either the first or last 4 weeks of the study"
+            },
+            {
+              "id": "OG001",
+              "title": "Pacing on",
+              "description": "Subjects who received pacing on either the first or last 4 weeks of the study"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "29"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "29"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "109",
+                      "spread": "21"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "123",
+                      "spread": "15"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "Adverse Events were assessed for all subjects during Pacemaker implantation (4 weeks), first treatment period (4 weeks), washout period (4 weeks), and second treatment period (4 weeks) for a total of approximately 16 weeks.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Pacing Off",
+          "description": "Subjects who received pacing off in either the first or last 4 weeks of the study\n\nPacemaker system implanted but set to Pacing Off.: The identical pacing system will be implanted, but will be set to Pacing Off.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 29,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 29,
+          "otherNumAffected": 8,
+          "otherNumAtRisk": 29
+        },
+        {
+          "id": "EG001",
+          "title": "Pacing on",
+          "description": "Subjects who received pacing on either the first or last 4 weeks of the study\n\nRate adaptive atrial pacing using a dual-chamber pacemaker: The Azure XT DR is a permanent, dual-chamber cardiac pacemaker with the ability to continuously monitor and record patient activity, and respond to activity by pacing faster and increasing the heart rate (rate adaptive atrial pacing). It will be programmed in AAIR mode to pace the right atrium. The leads will be placed in the right atrium and right ventricle using CapSureFix model 5086.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 29,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 29,
+          "otherNumAffected": 7,
+          "otherNumAtRisk": 29
+        },
+        {
+          "id": "EG002",
+          "title": "Pacemaker Implantation",
+          "description": "Subjects who experience adverse events during pacemaker implantation procedure only. This would be the timeframe after consent and prior to randomization to either pacing off or pacing on.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 32,
+          "seriousNumAffected": 1,
+          "seriousNumAtRisk": 32,
+          "otherNumAffected": 5,
+          "otherNumAtRisk": 32
+        },
+        {
+          "id": "EG003",
+          "title": "Washout Period",
+          "description": "After first intervention, both pacing off and pacing on groups will have a 4 week washout period when the pacemaker is turned off.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 29,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 29,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 29
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Pericardial effusion",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 32
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 29
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Chest discomfort/palpitations",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 32
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 29
+            }
+          ]
+        },
+        {
+          "term": "Pacing lead induced tricuspid regurgitation",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 32
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 29
+            }
+          ]
+        },
+        {
+          "term": "Upper extremity deep venous thrombosis",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 32
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 29
+            }
+          ]
+        },
+        {
+          "term": "Incision site reaction",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 32
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 29
+            }
+          ]
+        },
+        {
+          "term": "Dizziness",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 32
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 29
+            }
+          ]
+        },
+        {
+          "term": "Worsening fatigue",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 32
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 29
+            }
+          ]
+        },
+        {
+          "term": "Non pacemaker infection",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 32
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 29
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Barry A. Borlaug, M.D.",
+        "organization": "Mayo Clinic",
+        "email": "Borlaug.Barry@mayo.edu",
+        "phone": "507-255-4152"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2021-09-30",
+          "uploadDate": "2023-02-27T14:33",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 724341
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054144",
+          "term": "Heart Failure, Diastolic"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

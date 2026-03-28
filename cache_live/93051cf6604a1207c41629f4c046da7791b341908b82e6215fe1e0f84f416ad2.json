@@ -1,0 +1,314 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04857931",
+      "orgStudyIdInfo": {
+        "id": "MP-33-2021-2929"
+      },
+      "organization": {
+        "fullName": "Montreal Heart Institute",
+        "class": "OTHER"
+      },
+      "briefTitle": "Colchicine in HFpEF",
+      "officialTitle": "A Biomarker Study Assessing the Effects of Colchicine on Inflammation and Extra-Cellular Matrix Turnover in Patients With Heart Failure and Preserved Ejection Fraction.",
+      "acronym": "COLpEF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-04",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Lack of funds to support opening of new sites to help patient recruitment, which was found to be more challenging than initially expected.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-06-17",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-03-07",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-03-07",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-03-29",
+      "studyFirstSubmitQcDate": "2021-04-20",
+      "studyFirstPostDateStruct": {
+        "date": "2021-04-23",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-04-24",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-04-26",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Montreal Heart Institute",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Heart failure is a growing epidemic that affects up to 500,000 individuals in Canada, with 50,000 new cases being diagnosed each year. Half of these will have HF with preserved ejection fraction (HFpEF).\n\nHFpEF has been associated with high rates of morbidity, mortality, and health care expenditures. Its pathophysiology remains poorly understood, and positive medication trial results to date have been rare.\n\nInflammation is strongly associated with a profibrotic activation in HFpEF, which is in turn associated with the severity and prognosis of the disease.\n\nColchicine is a potent anti-inflammatory drug which properties relate to the suppression of tubulin polymerization and inflammasome inhibition, thus reducing the production of IL-1β and IL-18.\n\nThe investigators thus propose a pilot study of 6 months follow-up duration that will test the efficacy and safety of 2 dosing regimens of colchicine (vs. placebo) in patients with HFpEF."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure",
+        "Inflammation",
+        "Colchicine"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 14,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Colchicine 0.5 mg die",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Colchicine 0.5 mg die",
+          "interventionNames": [
+            "Drug: Colchicine"
+          ]
+        },
+        {
+          "label": "Colchicine 0.5 mg bid",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Colchicine 0.5 mg bid",
+          "interventionNames": [
+            "Drug: Colchicine"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Colchicine",
+          "description": "Patients meeting all inclusion criteria and no exclusion criteria will be randomly assigned to receive either colchicine (0.5mg once daily), colchicine (0.5mg twice daily) or matched placebo (1:1:1 allocation ratio), in addition to standard of care.",
+          "armGroupLabels": [
+            "Colchicine 0.5 mg bid",
+            "Colchicine 0.5 mg die"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Patients meeting all inclusion criteria and no exclusion criteria will be randomly assigned to receive either colchicine (0.5mg once daily), colchicine (0.5mg twice daily) or matched placebo (1:1:1 allocation ratio), in addition to standard of care.",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in hs-CRP (C reactive protein)",
+          "description": "The primary endpoint will be the change from baseline to 6 months in hs-CRP (mg/L), a circulating biomarker of inflammation.",
+          "timeFrame": "Change from baseline to 6 months in hs-CRP"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in circulating biomarkers of hemodynamic stress",
+          "description": "Change in circulating biomarkers of hemodynamic stress (N-terminal pro-brain natriuretic peptide (NT-proBNP, in pg/mL))",
+          "timeFrame": "Change from baseline to 6 months in other biomarkers"
+        },
+        {
+          "measure": "Change in circulating biomarkers of myocardial injury",
+          "description": "Change in circulating biomarkers of myocardial injury (hs-TnT, Troponin, in ng/L)",
+          "timeFrame": "Change from baseline to 6 months in other biomarkers"
+        },
+        {
+          "measure": "Change in left ventricular (LV) diastolic function",
+          "description": "Change in a combination of echocardiography-based measures assessing left ventricular (LV) diastolic function",
+          "timeFrame": "Change from baseline to 6 months in LV diastolic function"
+        },
+        {
+          "measure": "Change in functional status and symptoms",
+          "description": "Change in functional status and New York Heart Association (NYHA) class",
+          "timeFrame": "Change from baseline to 6 months in functional status and symptoms"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Safety endpoints",
+          "description": "Monitoring of adverse events will include gastrointestinal manifestations, hepatotoxicity, myelotoxicity, myotoxicity, and risk of infections.",
+          "timeFrame": "Monitoring of adverse events will throughout the study, from baseline to 6 months in exploratory endpoints"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients ≥ 40 years of age;\n* Chronic symptomatic HFpEF defined as follows: left ventricular ejection fraction (LVEF) \\> or = 45% within 6 months prior to screening visit (regardless of the imaging modality);\n* No recent change in RAAS inhibitors regimen for at least 1 month before enrolment (excluding changes in oral diuretics);\n* NYHA functional class II to IV;\n* Evidence of structural heart disease defined by at least 1 of the following echocardiography findings: LV hypertrophy (i.e. septal or posterior wall thickness ≥1.1 cm) or left atrial enlargement (i.e., width ≥3.8 cm, length ≥5.0 cm, area ≥20 cm2, volume ≥55 ml, or volume index ≥29 ml/m2);\n* Patients with a diagnosis of acute heart failure (treated with intravenous diuretics) within 12 months before screening; or an NT-proBNP of ≥300 pg/ml if in sinus rhythm, and ≥900 pg/ml if in atrial fibrillation within 30 days before screening (if multiple measurements, consider the highest);\n* At least one of the following criteria defining chronic enhanced inflammatory milieu:\n\n  1. Obesity, defined as body mass index (BMI) \\> 30kg/m2,\n  2. Type 2 diabetes according to Diabetes Canada definition (http://guidelines.diabetes.ca/cpg/chapter3), and regardless of therapy,\n  3. Evidence of pathological systemic inflammation including: high hs-CRP levels (hs-CRP\\>2mg/L), or the combination of high neutrophil count and low lymphocyte count (Neutrophil to Lymphocyte Ratio \\>3) within 30 days before screening (if multiple measurements, consider the higher),\n* Subjects with the capacity to provide informed consent.\n\nExclusion Criteria:\n\n* Any prior measurement of LVEF \\<40%;\n* Patients with a diagnosis of hypertrophic or infiltrative cardiomyopathy;\n* Presence of hemodynamically significant valvular heart disease in the opinion of the investigator;\n* Presence of active infection within the 3 months prior to visit 1 needing antibiotics (excluding COVID-19);\n* Acute decompensated HF, acute coronary syndrome (including myocardial infarction), cardiac surgery, other major cardiovascular surgery, or urgent percutaneous coronary intervention (PCI) within the 3 months prior to visit 1;\n* Elective PCI within 30 days prior to visit 1;\n* Known or clinically judged significant (i.e., angina with CCS class \\>2/4) epicardial coronary artery disease (CAD) that has not been revascularized (revascularized CAD is defined by a history of myocardial infraction, percutaneous intervention, or coronary artery bypass grafting);\n* Changes renin-angiotensin-aldosterone system (RAAS) inhibitors regimen within 30 days prior to screening visit;\n* History of hypersensitivity to colchicine;\n* Life-threatening or uncontrolled dysrhythmia, including symptomatic or sustained ventricular tachycardia and atrial fibrillation or atrial flutter with a resting ventricular rate \\>120 beats per minute;\n* Any surgical or medical condition that in the opinion of the investigator may place the patient at higher risk from his/her participation in the study or is likely to prevent the patient from complying with the requirements of the study or completing the study;\n* Evidence of hepatic disease as determined by any 1 of the following: serum glutamate oxaloacetate transaminase (SGOT) or serum glutamate pyruvate transaminase (SGPT) values exceeding 3× the upper limit of normal, bilirubin\\>1.5 mg/dL (\\>25.65 μmol/L) at baseline visit; or patient with a history of cirrhosis, chronic active hepatitis or severe hepatic disease;\n* Patients with estimated glomerular filtration rate (eGFR) \\<30 ml/min/1.73 m2 as calculated by the Modification in Diet in Renal Disease (MDRD) formula at baseline visit;\n* History or presence of any other disease with a life expectancy of \\<1 year;\n* Patient with inflammatory bowel disease (Crohn's disease or ulcerative colitis) or patient with chronic diarrhea;\n* Patient with pre-existent progressive neuromuscular disease;\n* Patient currently taking colchicine for other indications (mainly chronic indications represented by Familial Mediterranean Fever or gout). There is no wash-out period required for patients who have been treated with colchicine and stopped treatment prior to enrolment;\n* Patients currently under long-term steroid medication for a chronic condition, or steroid medication within 30 days before screening;\n* Patient is considered by the investigator, for any reason, to be an unsuitable candidate for the study.\n* Positive pregnancy test result at the screening visit, and females of childbearing potential who do not agree to use adequate method of contraception for the duration of the study; acceptable means of birth control include: implantable contraceptives, injectable contraceptives, oral contraceptives, transdermal contraceptives, intrauterine devices, male or female condoms with spermicide, abstinence, or a sterile sexual partner.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "40 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Nadia Bouabdallaoui, MD",
+          "affiliation": "Montreal Heart Institute",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Montreal Heart Institute",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H1T 1C8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "29386200",
+          "type": "BACKGROUND",
+          "citation": "Benjamin EJ, Virani SS, Callaway CW, Chamberlain AM, Chang AR, Cheng S, Chiuve SE, Cushman M, Delling FN, Deo R, de Ferranti SD, Ferguson JF, Fornage M, Gillespie C, Isasi CR, Jimenez MC, Jordan LC, Judd SE, Lackland D, Lichtman JH, Lisabeth L, Liu S, Longenecker CT, Lutsey PL, Mackey JS, Matchar DB, Matsushita K, Mussolino ME, Nasir K, O'Flaherty M, Palaniappan LP, Pandey A, Pandey DK, Reeves MJ, Ritchey MD, Rodriguez CJ, Roth GA, Rosamond WD, Sampson UKA, Satou GM, Shah SH, Spartano NL, Tirschwell DL, Tsao CW, Voeks JH, Willey JZ, Wilkins JT, Wu JH, Alger HM, Wong SS, Muntner P; American Heart Association Council on Epidemiology and Prevention Statistics Committee and Stroke Statistics Subcommittee. Heart Disease and Stroke Statistics-2018 Update: A Report From the American Heart Association. Circulation. 2018 Mar 20;137(12):e67-e492. doi: 10.1161/CIR.0000000000000558. Epub 2018 Jan 31. No abstract available."
+        },
+        {
+          "pmid": "16855265",
+          "type": "BACKGROUND",
+          "citation": "Owan TE, Hodge DO, Herges RM, Jacobsen SJ, Roger VL, Redfield MM. Trends in prevalence and outcome of heart failure with preserved ejection fraction. N Engl J Med. 2006 Jul 20;355(3):251-9. doi: 10.1056/NEJMoa052256."
+        },
+        {
+          "pmid": "16855266",
+          "type": "BACKGROUND",
+          "citation": "Bhatia RS, Tu JV, Lee DS, Austin PC, Fang J, Haouzi A, Gong Y, Liu PP. Outcome of heart failure with preserved ejection fraction in a population-based study. N Engl J Med. 2006 Jul 20;355(3):260-9. doi: 10.1056/NEJMoa051530."
+        },
+        {
+          "pmid": "23684677",
+          "type": "BACKGROUND",
+          "citation": "Paulus WJ, Tschope C. A novel paradigm for heart failure with preserved ejection fraction: comorbidities drive myocardial dysfunction and remodeling through coronary microvascular endothelial inflammation. J Am Coll Cardiol. 2013 Jul 23;62(4):263-71. doi: 10.1016/j.jacc.2013.02.092. Epub 2013 May 15."
+        },
+        {
+          "pmid": "32192660",
+          "type": "BACKGROUND",
+          "citation": "Murphy SP, Kakkar R, McCarthy CP, Januzzi JL Jr. Inflammation in Heart Failure: JACC State-of-the-Art Review. J Am Coll Cardiol. 2020 Mar 24;75(11):1324-1340. doi: 10.1016/j.jacc.2020.01.014."
+        },
+        {
+          "pmid": "26754625",
+          "type": "BACKGROUND",
+          "citation": "Zile MR, Jhund PS, Baicu CF, Claggett BL, Pieske B, Voors AA, Prescott MF, Shi V, Lefkowitz M, McMurray JJ, Solomon SD; Prospective Comparison of ARNI With ARB on Management of Heart Failure With Preserved Ejection Fraction (PARAMOUNT) Investigators. Plasma Biomarkers Reflecting Profibrotic Processes in Heart Failure With a Preserved Ejection Fraction: Data From the Prospective Comparison of ARNI With ARB on Management of Heart Failure With Preserved Ejection Fraction Study. Circ Heart Fail. 2016 Jan;9(1):e002551. doi: 10.1161/CIRCHEARTFAILURE.115.002551."
+        },
+        {
+          "pmid": "30165978",
+          "type": "BACKGROUND",
+          "citation": "Tromp J, Westenbrink BD, Ouwerkerk W, van Veldhuisen DJ, Samani NJ, Ponikowski P, Metra M, Anker SD, Cleland JG, Dickstein K, Filippatos G, van der Harst P, Lang CC, Ng LL, Zannad F, Zwinderman AH, Hillege HL, van der Meer P, Voors AA. Identifying Pathophysiological Mechanisms in Heart Failure With Reduced Versus Preserved Ejection Fraction. J Am Coll Cardiol. 2018 Sep 4;72(10):1081-1090. doi: 10.1016/j.jacc.2018.06.050."
+        },
+        {
+          "pmid": "26228647",
+          "type": "BACKGROUND",
+          "citation": "Leung YY, Yao Hui LL, Kraus VB. Colchicine--Update on mechanisms of action and therapeutic uses. Semin Arthritis Rheum. 2015 Dec;45(3):341-50. doi: 10.1016/j.semarthrit.2015.06.013. Epub 2015 Jun 26."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D007249",
+          "term": "Inflammation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003078",
+          "term": "Colchicine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000470",
+          "term": "Alkaloids"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

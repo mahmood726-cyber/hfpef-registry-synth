@@ -1,0 +1,270 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06131008",
+      "orgStudyIdInfo": {
+        "id": "15276"
+      },
+      "organization": {
+        "fullName": "McMaster University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Diastology-Guided Management of Decompensated Heart Failure",
+      "officialTitle": "DiastologY-Guided MaNAgement of DecoMpensated Heart Failure: A Pilot RandomIzed, Controlled Trial",
+      "acronym": "DYNAMIC"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-11",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-11-06",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-04-08",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2024-07-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-11-03",
+      "studyFirstSubmitQcDate": "2023-11-13",
+      "studyFirstPostDateStruct": {
+        "date": "2023-11-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-11-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-11-14",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Emilie Belley-Cote",
+        "investigatorTitle": "Associate Professor",
+        "investigatorAffiliation": "McMaster University"
+      },
+      "leadSponsor": {
+        "name": "McMaster University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "More than 30% of people hospitalized with decompensated heart failure return to the hospital within 90 days. Emerging evidence suggests that hemodynamic monitoring with guided management may enhance prognosis and management. Hemodynamic monitoring with echocardiography using diastology and an evidence-informed therapeutic protocol have the potential to achieve this aim in a minimally invasive manner."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure",
+        "Diastolic Dysfunction"
+      ],
+      "keywords": [
+        "diastology",
+        "echocardiography",
+        "heart failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 30,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Diastology-Guided Management",
+          "type": "EXPERIMENTAL",
+          "description": "Participants in this arm will undergo a focused echocardiogram every 24 hours. The degree of diastolic dysfunction will be reported to the healthcare team. If the degree of diastolic dysfunction is greater than or equal to grade 2, the research team will recommend escalating the diuretic regimen if either (1) urine output is less than 4,000 mL over 24 hours or (2) weight loss is less than 2 kg over 24 hours. If the degree of diastolic dysfunction is grade 1, the research team will recommend transitioning to or discontinuing oral diuresis.",
+          "interventionNames": [
+            "Diagnostic Test: Diastology",
+            "Behavioral: Diastology-Guided Diuresis"
+          ]
+        },
+        {
+          "label": "Usual Care",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants in this arm will also undergo a focused echocardiogram every 24 hours. However, the results of these echocardiograms will not be available for clinical decision-making. Instead, participants will receive usual care by the healthcare team without daily hemodynamic parameters from a study echocardiogram.",
+          "interventionNames": [
+            "Diagnostic Test: Diastology",
+            "Behavioral: Usual Care"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Diastology",
+          "description": "We will follow American Society of Echocardiography criteria to determine the degree of diastolic dysfunction after performing each focused echocardiogram.",
+          "armGroupLabels": [
+            "Diastology-Guided Management",
+            "Usual Care"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Diastology-Guided Diuresis",
+          "description": "If the daily urine output or weight loss are less than study-specified targets, then the research team will recommend changes to the diuretic regimen based on the degree of diastolic dysfunction.",
+          "armGroupLabels": [
+            "Diastology-Guided Management"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Usual Care",
+          "description": "Clinicians will rely on usual care metrics and parameters to guide diuresis.",
+          "armGroupLabels": [
+            "Usual Care"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Recruitment Rate",
+          "description": "This is calculated as the number of participants enrolled in the study per month.",
+          "timeFrame": "12 months (anticipated study duration)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Compliance with Echocardiograms",
+          "description": "This is calculated as the number of echocardiograms completed divided by the number scheduled as per the study protocol.",
+          "timeFrame": "12 months (anticipated study duration)"
+        },
+        {
+          "measure": "Interpretability of Echocardiograms",
+          "description": "This is calculated as the number of studies without indeterminate diastolic dysfunction divided by the total number of studies performed.",
+          "timeFrame": "12 months (anticipated study duration)"
+        },
+        {
+          "measure": "Adherence to Protocol Recommendations",
+          "description": "This is calculated as the number of treatment decisions in the intervention arm that is aligned (increase, maintain, or decrease) with the therapeutic recommendations of the trial based on the severity of diastolic dysfunction divided by the number of studies completed.",
+          "timeFrame": "12 months (anticipated study duration)"
+        },
+        {
+          "measure": "Follow-Up at 30 and 90 Days",
+          "description": "This is calculated as the number of participants that complete a follow-up visit with a study team member at 30 and 90 days, respectively.",
+          "timeFrame": "12 months (anticipated study duration)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age ≥18 years at the time of enrolment\n2. Decompensated heart failure with reduced ejection fraction (≤40%)\n3. Sinus rhythm without conduction abnormalities (second-degree Mobitz II, third-degree, permanent pacemaker)\n4. Written informed consent from either the patient or a substitute decision maker\n\nExclusion Criteria:\n\n1. Mitral annular calcification (at least moderate or severe)\n2. Moderate or severe aortic or mitral valvular heart disease, or history of prosthetic mitral valve\n3. Atrial fibrillation or flutter\n4. History of non-diagnostic echocardiogram\n5. Hemodialysis",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Kevin J Um, MD",
+          "role": "CONTACT",
+          "phone": "905-521-2100",
+          "phoneExt": "40741",
+          "email": "kevin.um@dataparty.ca"
+        },
+        {
+          "name": "Emilie P Belley-Cote, MD PhD",
+          "role": "CONTACT",
+          "phone": "905-521-2100",
+          "phoneExt": "40741",
+          "email": "emilie.belley-cote@phri.ca"
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "33866827",
+          "type": "BACKGROUND",
+          "citation": "Khan MS, Sreenivasan J, Lateef N, Abougergi MS, Greene SJ, Ahmad T, Anker SD, Fonarow GC, Butler J. Trends in 30- and 90-Day Readmission Rates for Heart Failure. Circ Heart Fail. 2021 Apr;14(4):e008335. doi: 10.1161/CIRCHEARTFAILURE.121.008335. Epub 2021 Apr 19."
+        },
+        {
+          "pmid": "30806695",
+          "type": "BACKGROUND",
+          "citation": "Van Spall HGC, Lee SF, Xie F, Oz UE, Perez R, Mitoff PR, Maingi M, Tjandrawidjaja MC, Heffernan M, Zia MI, Porepa L, Panju M, Thabane L, Graham ID, Haynes RB, Haughton D, Simek KD, Ko DT, Connolly SJ. Effect of Patient-Centered Transitional Care Services on Clinical Outcomes in Patients Hospitalized for Heart Failure: The PACT-HF Randomized Clinical Trial. JAMA. 2019 Feb 26;321(8):753-761. doi: 10.1001/jama.2019.0710."
+        },
+        {
+          "pmid": "28829876",
+          "type": "BACKGROUND",
+          "citation": "Felker GM, Anstrom KJ, Adams KF, Ezekowitz JA, Fiuzat M, Houston-Miller N, Januzzi JL Jr, Mark DB, Pina IL, Passmore G, Whellan DJ, Yang H, Cooper LS, Leifer ES, Desvigne-Nickens P, O'Connor CM. Effect of Natriuretic Peptide-Guided Therapy on Hospitalization or Cardiovascular Mortality in High-Risk Patients With Heart Failure and Reduced Ejection Fraction: A Randomized Clinical Trial. JAMA. 2017 Aug 22;318(8):713-720. doi: 10.1001/jama.2017.10565."
+        },
+        {
+          "pmid": "21315441",
+          "type": "BACKGROUND",
+          "citation": "Abraham WT, Adamson PB, Bourge RC, Aaron MF, Costanzo MR, Stevenson LW, Strickland W, Neelagaru S, Raval N, Krueger S, Weiner S, Shavelle D, Jeffries B, Yadav JS; CHAMPION Trial Study Group. Wireless pulmonary artery haemodynamic monitoring in chronic heart failure: a randomised controlled trial. Lancet. 2011 Feb 19;377(9766):658-66. doi: 10.1016/S0140-6736(11)60101-3."
+        },
+        {
+          "pmid": "27037982",
+          "type": "BACKGROUND",
+          "citation": "Nagueh SF, Smiseth OA, Appleton CP, Byrd BF 3rd, Dokainish H, Edvardsen T, Flachskampf FA, Gillebert TC, Klein AL, Lancellotti P, Marino P, Oh JK, Popescu BA, Waggoner AD. Recommendations for the Evaluation of Left Ventricular Diastolic Function by Echocardiography: An Update from the American Society of Echocardiography and the European Association of Cardiovascular Imaging. J Am Soc Echocardiogr. 2016 Apr;29(4):277-314. doi: 10.1016/j.echo.2016.01.011. No abstract available."
+        },
+        {
+          "pmid": "26560249",
+          "type": "BACKGROUND",
+          "citation": "Abraham WT, Stevenson LW, Bourge RC, Lindenfeld JA, Bauman JG, Adamson PB; CHAMPION Trial Study Group. Sustained efficacy of pulmonary artery pressure to guide adjustment of chronic heart failure therapy: complete follow-up results from the CHAMPION randomised trial. Lancet. 2016 Jan 30;387(10017):453-61. doi: 10.1016/S0140-6736(15)00723-0. Epub 2015 Nov 9."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

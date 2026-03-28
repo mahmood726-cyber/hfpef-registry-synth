@@ -1,0 +1,325 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05650541",
+      "nctIdAliases": [
+        "NCT05978518",
+        "NCT06007131",
+        "NCT06045117",
+        "NCT06078267",
+        "NCT06078280"
+      ],
+      "orgStudyIdInfo": {
+        "id": "BETA-3.0"
+      },
+      "organization": {
+        "fullName": "Analog Device, Inc.",
+        "class": "OTHER"
+      },
+      "briefTitle": "Feasibility and Efficacy Study of the CardioPulmonary Management (CPM) System in Patients With Chronic Heart Failure",
+      "officialTitle": "Feasibility and Efficacy Study of the CardioPulmonary Management (CPM) System in Patients With Chronic Heart Failure",
+      "acronym": "BETA"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-09-22",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-06-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-06-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-11-18",
+      "studyFirstSubmitQcDate": "2022-12-06",
+      "studyFirstPostDateStruct": {
+        "date": "2022-12-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-28",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-30",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Analog Device, Inc.",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The primary purpose for this study is to support the hypothesis (pilot data) that the use of the Sensinel CPM system reduces the rate of HF-related events and the related healthcare cost. The study will also measure the impact on quality of care and patient satisfaction. In order to support the primary objective, the study will compare the outcomes and costs for patients using the Sensinel CPM system against those who are not. This can either be done using institutions' averages, if available, or through a control group.",
+      "detailedDescription": "This study is meant primarily to determine the clinical and financial efficacy of the CPM system in reducing HF events and their associated cost. Although patients will use an investigational device as part of this pilot, the device is passive and of minimal risk to the patient. No treatment changes will be decided on the CPM data solely. All CPM data will be confirmed with a symptomology assessment and the patient's care provider will make the final determination whether a change of treatment is appropriate or not.\n\nThere will be two groups, the study cohort and the control cohort. After informed consent is obtained, the patient will be randomized. The randomization will occur in the EDC and will be 2:1.\n\nThe study group will receive all aspects of the CPM monitoring system as a supplement to their normal care routine. They will have one visit at the beginning of the study and one visit 6 months later. Patients in the study group will receive the CPM device at visit 1 and use the CPM device once a day during the monitoring period of the study (6 months) and the data will be monitored by the ADI Care Team. During this period, the research team will monitor the patient's chart, recommended once every 2 weeks, looking for CHF outcomes (i.e. medicine changes, hospitalizations, ER visits, clinic visits). After the 6-month monitoring period, visit 2 will occur. The site research team will continue to monitor the patient's chart for an additional 4 weeks after visit 2 to capture clinical outcomes. Patients using the device will also have the phone number for ADI Tech Support. Patients will be instructed to call this number if they believe their device is malfunctioning or if they have questions on how to use it. Device malfunctions that can be fixed remotely are not classified as adverse events (unless they result in harm). Device malfunctions that require subject to return for an office visit are considered adverse events.\n\nThe control group will not receive the CPM monitoring system and will not participates in the visit activities. They will sign the consent form and go through the screening process as usual. Their chart will be monitored for 7 months, recommended once every 2 weeks, to have their outcomes captured. At the beginning of the study, they will receive a phone call to confirm their medications and past medical history (as detailed in the medical history section below). They will receive a call after 6 months to terminate the study, followed by an additional one month of monitoring."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "There is a study group that uses the device \\& the data is monitored and sent to the physician. The second group is a control group that will not use the device and will continue with normal standard of care.",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1200,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Study Group",
+          "type": "EXPERIMENTAL",
+          "description": "The study group will use the CPM device daily for 6 months (beginning at visit 1 and ending at visit 2). The ADI triaging team will monitor the CPM device data and call the patient as indicated by the data. The ADI care team will then forward the device data and patient symptomology collected to the patient's care team where that team will device if intervention is necessary. The patient's care team will also have access to view device data at any time using the CPM website.",
+          "interventionNames": [
+            "Device: CardioPumlonary Management System"
+          ]
+        },
+        {
+          "label": "Control Group",
+          "type": "NO_INTERVENTION",
+          "description": "The control group will not receive a device and will continue their normal standard of care."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "CardioPumlonary Management System",
+          "description": "The CPM Device measures and trends a variety of physiologic parameters including thoracic impedance, respiration rate, tidal volume, ECG, heart rate, and diastolic heart sounds, all in an unobtrusive patch form factor.",
+          "armGroupLabels": [
+            "Study Group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Admission Rate",
+          "description": "Admission rate for HF and HF related events in the study group vs. the institution's averages (and/or control group)",
+          "timeFrame": "7 months"
+        },
+        {
+          "measure": "Readmission Rate",
+          "description": "Readmission rate for HF and HF related events in study group vs. the institution's average (and/or control group)",
+          "timeFrame": "7 months"
+        },
+        {
+          "measure": "Healthcare Utilization",
+          "description": "Healthcare utilization for HF related events, including number of practice visits, ER visits, outpatient visits, skilled nursing facility (SNF) days and Hospital Admissions",
+          "timeFrame": "7 months"
+        },
+        {
+          "measure": "Patient satisfaction",
+          "description": "Patient satisfaction obtained through surveys",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Cost of care",
+          "description": "Total cost per capita for HF related care",
+          "timeFrame": "7 months (during study) and 12 months prior to the study"
+        },
+        {
+          "measure": "Quality of care",
+          "description": "Impact on quality of care",
+          "timeFrame": "6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Usability",
+          "description": "Usability data obtained through questionnaires given to the healthcare providers assessing the usability of the CPM system",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nHeart failure patients regardless of ejection fraction (HFpEF or HFrEF) with one or more of the following:\n\n* NYHA Class III HF\n* NYHA Class IV HF\n\nOR\n\n* NYHA Class II HF with one or more of the following:\n* Chronic Kidney Disease (eGFR\\<60 within the past 6 months)\n* HF hospitalization (defined as HF listed as the major reason for hospitalization) within 9 months prior to screening visit and NT-proBNP \\> 200 pg/ml\\* for patients not in AF or \\> 600 pg/ml\\* for patients in AF on screening ECG+\n* NT-proBNP \\> 300 pg/ml\\* for patients not in AF or \\> 900 pg/ml\\* for patients in AF on the screening visit ECG+\n* Chronic obstructive pulmonary disease (COPD)\n\nExclusion Criteria:\n\n* Under 18 years of age\n\n  * Patients with severe COPD (GOLD stage III or IV)\n  * Limited mobility preventing application of device or no caregiver to assist\n  * Cognitive impairments that would limit the application and proper use of the device\n  * Skin allergies or skin sensitivities to silicone-based adhesives\n  * Pregnancy (method of assessment at the discretion of the PI)\n  * Not willing to shave chest hair if needed to apply device\n  * Patients on chronic IV ionotropic therapy - (Milrinone, Dobutamine, and Dopamine)\n  * Patients with any condition that might limit the survival to less than 1 year as assessed by the investigator\n  * No cellular coverage (Patient's Home)\\*\\*\n  * Skin breakdown on the left chest or breast area",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Emily Wycallis",
+          "role": "CONTACT",
+          "phone": "978-435-1644",
+          "email": "emily.wycallis@analog.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Desert Oasis Healthcare",
+          "status": "COMPLETED",
+          "city": "Palm Springs",
+          "state": "California",
+          "zip": "92262",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.8303,
+            "lon": -116.54529
+          }
+        },
+        {
+          "facility": "Baptist Health South Florida",
+          "status": "RECRUITING",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33173",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Anabel Elizechea Gispert, RN, BSN, MSN",
+              "role": "CONTACT",
+              "phone": "786-595-8073",
+              "email": "anabel.elizacheagispert@baptisthealth.net"
+            },
+            {
+              "name": "Jonathan Fialkow, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        },
+        {
+          "facility": "Orlando Health",
+          "status": "RECRUITING",
+          "city": "Orlando",
+          "state": "Florida",
+          "zip": "32806",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Caitlin Cox, RN, BSN",
+              "role": "CONTACT",
+              "phone": "321-841-1505",
+              "email": "caitlin.cox@orlandohealth.com"
+            },
+            {
+              "name": "Shahid Qamar, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 28.53834,
+            "lon": -81.37924
+          }
+        },
+        {
+          "facility": "Baystate Medical Center",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Springfield",
+          "state": "Massachusetts",
+          "zip": "01199",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.10148,
+            "lon": -72.58981
+          }
+        },
+        {
+          "facility": "University of Nebraska Medical Center",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Omaha",
+          "state": "Nebraska",
+          "zip": "68189",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.25626,
+            "lon": -95.94043
+          }
+        },
+        {
+          "facility": "Cone Health",
+          "status": "COMPLETED",
+          "city": "Greensboro",
+          "state": "North Carolina",
+          "zip": "27401",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.07264,
+            "lon": -79.79198
+          }
+        },
+        {
+          "facility": "Prisma Health",
+          "status": "COMPLETED",
+          "city": "Greenville",
+          "state": "South Carolina",
+          "zip": "29601",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.85262,
+            "lon": -82.39401
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

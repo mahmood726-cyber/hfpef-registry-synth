@@ -1,0 +1,1005 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06369298",
+      "orgStudyIdInfo": {
+        "id": "JK07.2.01"
+      },
+      "organization": {
+        "fullName": "Salubris Biotherapeutics Inc",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Study of JK07 in Patients With Chronic Heart Failure",
+      "officialTitle": "A Phase 2 Randomized, Double-blind, Placebo-controlled Study to Assess the Safety and Efficacy of JK07 in Adults With Chronic Heart Failure (RENEU-HF)",
+      "acronym": "RENEU-HF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-08",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-03-28",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-06-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-04-12",
+      "studyFirstSubmitQcDate": "2024-04-12",
+      "studyFirstPostDateStruct": {
+        "date": "2024-04-16",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-08-20",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-08-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Salubris Biotherapeutics Inc",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a Phase 2, randomized, double-blind, placebo-controlled, multiple dose study to assess the safety, tolerability, and efficacy of JK07 in participants aged 18-85 with heart failure.\n\nThere will be 2 cohorts in this study:\n\nCohort 1: Heart failure (HF) participants with left ventricular ejection fraction (LVEF) of ≤ 40%.\n\nCohort 2: Heart failure (HF) participants with left ventricular ejection fraction (LVEF) \\> 40% and ≤ 65%."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Reduced Ejection Fraction",
+        "Heart Failure With Preserved Ejection Fraction"
+      ],
+      "keywords": [
+        "Heart Failure",
+        "Heart Failure with Reduced Ejection Fraction",
+        "Heart Failure with Preserved Ejection Fraction",
+        "Heart Failure NYHA Class III",
+        "Heart Failure NYHA Class II",
+        "Heart Failure with Atrial Fibrillation/Flutter",
+        "HFrEF",
+        "HFpEF",
+        "Neuregulin 1",
+        "NRG-1",
+        "HER3",
+        "HER4",
+        "ErbB3",
+        "ErbB4",
+        "Systolic Heart Failure",
+        "Diastolic Heart Failure",
+        "Atrial Fibrillation",
+        "Atrial Flutter"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 282,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "JK07 low dose",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "JK07 administered by intravenous (IV) infusion",
+          "interventionNames": [
+            "Drug: JK07"
+          ]
+        },
+        {
+          "label": "JK07 high dose",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "JK07 administered by intravenous (IV) infusion",
+          "interventionNames": [
+            "Drug: JK07"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo administered by intravenous (IV) infusion",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "JK07",
+          "description": "JK07 is a fully human anti-human epidermal growth factor receptor 3 (also known as ErbB3 or HER3) antibody fused with the epidermal growth factor (EGF)-domain of Neuregulin (NRG)-1b protein.",
+          "armGroupLabels": [
+            "JK07 high dose",
+            "JK07 low dose"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "0.9% sodium chloride",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Safety - Cohort 1",
+          "description": "Incidence and severity of treatment emergent adverse events",
+          "timeFrame": "Study entry through week 52"
+        },
+        {
+          "measure": "Efficacy - Cohort 1",
+          "description": "Change in LVEF measured by 2D-TTE",
+          "timeFrame": "Baseline through week 26"
+        },
+        {
+          "measure": "Safety - Cohort 2",
+          "description": "Incidence and severity of treatment emergent adverse events",
+          "timeFrame": "Study entry through week 52"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Participants with New York Heart Association (NYHA) Class II-III.\n* Cohort 1 - Left Ventricular Ejection Fraction (LVEF) ≤ 40%.\n* Cohort 2 - Left Ventricular Ejection Fraction (LVEF) \\>40% and ≤ 65%, elevated N-terminal pro B-type natriuretic peptide (NT-proBNP) ≥ 600pg/mL and atrial fibrillation/flutter.\n* Stable heart failure and on optimal medical therapy.\n* Screening hemoglobin ≥ 9.0 g/dL.\n\nExclusion Criteria:\n\n* Uncontrolled hypertension.\n* Sustained systolic Blood Pressure (BP) \\< 90 mmHg and/or diastolic BP \\< 50 mmHg on 2 consecutive (duplicate seated) readings at screening.\n* Heart failure due to hypertrophic cardiomyopathy, restrictive and/or infiltrative cardiomyopathy, arrhythmogenic right ventricular dysplasia, Fabry disease, or Noonan syndrome with LV hypertrophy or a positive serum immunofixation result.\n* Diagnosis of stress-induced (Takotsubo) cardiomyopathy, myocarditis, or peripartum cardiomyopathy.\n* Diagnosis of chemotherapy- or radiation-induced cardiomyopathy.\n* Diagnosed with stroke or Transient Ischemic Attack (TIA) within 12 weeks of screening.\n* History of syncope within the last 12 weeks prior to screening or sustained ventricular tachycardia without an implantable cardioverter-defibrillator.\n* Moderate or severe aortic and/or mitral valve stenosis.\n* Medically documented unstable angina, acute coronary syndrome (e.g., myocardial infarction, troponin-positive with symptoms of angina or unstable angina) within the last 8 weeks prior to start of screening.\n* Medically documented ST-elevation myocardial infarction within 12 weeks of screening.\n* Any tachycardia (inclusive of Atrial Fibrillation (AF) or atrial flutter) with a resting ventricular rate \\> 110 beats per minute at screening.\n* For participants with a history of AF or atrial flutter, not on adequate anticoagulant therapy via non-vitamin K oral anticoagulants or warfarin if the CHA2DS2-VASc score is ≥ 2 in men or ≥ 3 in women or per local guidelines. Percutaneous occlusion of the left atrial appendage alone is not adequate.\n* AF ablation within the last 12 weeks prior to screening or planned during the study duration.\n* Symptomatic bradycardia or second (Mobitz Type II)- or third-degree heart block without a pacemaker.\n* Cardiac surgery, coronary artery revascularization or indication for coronary artery revascularization, percutaneous coronary intervention, valve repair/replacement or valvuloplasty within 12 weeks prior to screening.\n* Implantation of a Cardiac Resynchronization Therapy (CRT) device within 12 weeks prior to screening, or intent to implant a CRT device during the course of the study.\n* Previous cardiac transplantation, or any use of mechanical circulatory support or similar device, or implantation expected after randomization.\n* Receiving mechanical hemodynamic support or invasive mechanical ventilation within the last 8 weeks prior to screening.\n* Receiving Intravenous (IV) inotropes or IV vasopressors within the last 8 weeks prior to screening.\n* Receiving IV vasodilators within the last 4 weeks prior to screening.\n* Receiving noninvasive mechanical ventilation within the last 4 weeks prior to screening. The use of noninvasive ventilation for sleep disordered breathing is permitted.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Amanda McEwen",
+          "role": "CONTACT",
+          "phone": "888-521-8961",
+          "email": "Info@SalubrisBio.com"
+        },
+        {
+          "name": "Ashleigh Chasteen",
+          "role": "CONTACT",
+          "phone": "888-521-8961",
+          "email": "Info@Salubrisbio.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Site 121",
+          "status": "RECRUITING",
+          "city": "Alexander City",
+          "state": "Alabama",
+          "zip": "35010",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.94401,
+            "lon": -85.95385
+          }
+        },
+        {
+          "facility": "Site 130",
+          "status": "RECRUITING",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35211",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "Site 139",
+          "status": "RECRUITING",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35294",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "Site 138",
+          "status": "RECRUITING",
+          "city": "Huntsville",
+          "state": "Alabama",
+          "zip": "35801",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.7304,
+            "lon": -86.58594
+          }
+        },
+        {
+          "facility": "Site 111",
+          "status": "RECRUITING",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85016",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        },
+        {
+          "facility": "Site 127",
+          "status": "RECRUITING",
+          "city": "Little Rock",
+          "state": "Arkansas",
+          "zip": "72205",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.74648,
+            "lon": -92.28959
+          }
+        },
+        {
+          "facility": "Site 128",
+          "status": "RECRUITING",
+          "city": "Huntington Beach",
+          "state": "California",
+          "zip": "92648",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.6603,
+            "lon": -117.99923
+          }
+        },
+        {
+          "facility": "Site 157",
+          "status": "RECRUITING",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90033",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Site 158",
+          "status": "RECRUITING",
+          "city": "Orange",
+          "state": "California",
+          "zip": "92868",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.78779,
+            "lon": -117.85311
+          }
+        },
+        {
+          "facility": "Site 116",
+          "status": "RECRUITING",
+          "city": "Pasadena",
+          "state": "California",
+          "zip": "91105",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.14778,
+            "lon": -118.14452
+          }
+        },
+        {
+          "facility": "Site 129",
+          "status": "RECRUITING",
+          "city": "Santa Maria",
+          "state": "California",
+          "zip": "93454",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.95303,
+            "lon": -120.43572
+          }
+        },
+        {
+          "facility": "Site 102",
+          "status": "RECRUITING",
+          "city": "Stanford",
+          "state": "California",
+          "zip": "94305",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.42411,
+            "lon": -122.16608
+          }
+        },
+        {
+          "facility": "Site 113",
+          "status": "RECRUITING",
+          "city": "Torrance",
+          "state": "California",
+          "zip": "90502",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.83585,
+            "lon": -118.34063
+          }
+        },
+        {
+          "facility": "Site 133",
+          "status": "RECRUITING",
+          "city": "Vista",
+          "state": "California",
+          "zip": "92081",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.20004,
+            "lon": -117.24254
+          }
+        },
+        {
+          "facility": "Site 161",
+          "status": "RECRUITING",
+          "city": "Coral Gables",
+          "state": "Florida",
+          "zip": "33134",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.72149,
+            "lon": -80.26838
+          }
+        },
+        {
+          "facility": "Site 114",
+          "status": "RECRUITING",
+          "city": "Hialeah",
+          "state": "Florida",
+          "zip": "33016",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.8576,
+            "lon": -80.27811
+          }
+        },
+        {
+          "facility": "Site 162",
+          "status": "RECRUITING",
+          "city": "Miami Lakes",
+          "state": "Florida",
+          "zip": "33014",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.90871,
+            "lon": -80.30866
+          }
+        },
+        {
+          "facility": "Site 159",
+          "status": "RECRUITING",
+          "city": "Naples",
+          "state": "Florida",
+          "zip": "34104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.14234,
+            "lon": -81.79596
+          }
+        },
+        {
+          "facility": "Site 136",
+          "status": "RECRUITING",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30343",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Site 143",
+          "status": "RECRUITING",
+          "city": "Boise",
+          "state": "Idaho",
+          "zip": "83712",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.6135,
+            "lon": -116.20345
+          }
+        },
+        {
+          "facility": "Site 160",
+          "status": "RECRUITING",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60611",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Site 154",
+          "status": "RECRUITING",
+          "city": "Park Ridge",
+          "state": "Illinois",
+          "zip": "60068",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.01114,
+            "lon": -87.84062
+          }
+        },
+        {
+          "facility": "Site 137",
+          "status": "RECRUITING",
+          "city": "Fort Wayne",
+          "state": "Indiana",
+          "zip": "46804",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.1306,
+            "lon": -85.12886
+          }
+        },
+        {
+          "facility": "Site 112",
+          "status": "RECRUITING",
+          "city": "Indianapolis",
+          "state": "Indiana",
+          "zip": "46250",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.76838,
+            "lon": -86.15804
+          }
+        },
+        {
+          "facility": "Site 104",
+          "status": "RECRUITING",
+          "city": "Covington",
+          "state": "Louisiana",
+          "zip": "70433",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.47549,
+            "lon": -90.10042
+          }
+        },
+        {
+          "facility": "Site 118",
+          "status": "RECRUITING",
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21201",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "Site 119",
+          "status": "RECRUITING",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02114",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Site 122",
+          "status": "RECRUITING",
+          "city": "Bloomfield Hills",
+          "state": "Michigan",
+          "zip": "48304",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.58364,
+            "lon": -83.24549
+          }
+        },
+        {
+          "facility": "Site 150",
+          "status": "RECRUITING",
+          "city": "Farmington Hills",
+          "state": "Michigan",
+          "zip": "48334",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.48531,
+            "lon": -83.37716
+          }
+        },
+        {
+          "facility": "Site 107",
+          "status": "RECRUITING",
+          "city": "Rochester",
+          "state": "Minnesota",
+          "zip": "55905",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          }
+        },
+        {
+          "facility": "Site 106",
+          "status": "RECRUITING",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63110",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Site 105",
+          "status": "RECRUITING",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63136",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Site 144",
+          "status": "RECRUITING",
+          "city": "Brick",
+          "state": "New Jersey",
+          "zip": "08724",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.05928,
+            "lon": -74.13708
+          }
+        },
+        {
+          "facility": "Site 153",
+          "status": "RECRUITING",
+          "city": "Valhalla",
+          "state": "New York",
+          "zip": "10595",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.07482,
+            "lon": -73.77513
+          }
+        },
+        {
+          "facility": "Site 152",
+          "status": "RECRUITING",
+          "city": "Asheville",
+          "state": "North Carolina",
+          "zip": "28803",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.60095,
+            "lon": -82.55402
+          }
+        },
+        {
+          "facility": "Site 109",
+          "status": "RECRUITING",
+          "city": "Cary",
+          "state": "North Carolina",
+          "zip": "27518",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.79154,
+            "lon": -78.78112
+          }
+        },
+        {
+          "facility": "Site 140",
+          "status": "RECRUITING",
+          "city": "Charlotte",
+          "state": "North Carolina",
+          "zip": "28204",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.22709,
+            "lon": -80.84313
+          }
+        },
+        {
+          "facility": "Site 145",
+          "status": "RECRUITING",
+          "city": "Durham",
+          "state": "North Carolina",
+          "zip": "27710",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.99403,
+            "lon": -78.89862
+          }
+        },
+        {
+          "facility": "Site 117",
+          "status": "RECRUITING",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45219",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "Site 100",
+          "status": "RECRUITING",
+          "city": "Cleveland",
+          "state": "Ohio",
+          "zip": "44195",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.4995,
+            "lon": -81.69541
+          }
+        },
+        {
+          "facility": "Site 135",
+          "status": "RECRUITING",
+          "city": "Oklahoma City",
+          "state": "Oklahoma",
+          "zip": "73135",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.46756,
+            "lon": -97.51643
+          }
+        },
+        {
+          "facility": "Site 101",
+          "status": "RECRUITING",
+          "city": "Portland",
+          "state": "Oregon",
+          "zip": "97239",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.52345,
+            "lon": -122.67621
+          }
+        },
+        {
+          "facility": "Site 155",
+          "status": "RECRUITING",
+          "city": "York",
+          "state": "Pennsylvania",
+          "zip": "17403",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.9626,
+            "lon": -76.72774
+          }
+        },
+        {
+          "facility": "Site 110",
+          "status": "RECRUITING",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75235",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "Site 115",
+          "status": "RECRUITING",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75246",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "Site 103",
+          "status": "RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Site 149",
+          "status": "RECRUITING",
+          "city": "Tomball",
+          "state": "Texas",
+          "zip": "77375",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.09716,
+            "lon": -95.61605
+          }
+        },
+        {
+          "facility": "Site 148",
+          "status": "RECRUITING",
+          "city": "Arlington",
+          "state": "Virginia",
+          "zip": "22205",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.88101,
+            "lon": -77.10428
+          }
+        },
+        {
+          "facility": "Site 123",
+          "status": "RECRUITING",
+          "city": "Falls Church",
+          "state": "Virginia",
+          "zip": "22042",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.88233,
+            "lon": -77.17109
+          }
+        },
+        {
+          "facility": "Site 126",
+          "status": "RECRUITING",
+          "city": "Norfolk",
+          "state": "Virginia",
+          "zip": "23507",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.84681,
+            "lon": -76.28522
+          }
+        },
+        {
+          "facility": "Site 163",
+          "status": "RECRUITING",
+          "city": "Vienna",
+          "state": "Virginia",
+          "zip": "22182",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.90122,
+            "lon": -77.26526
+          }
+        },
+        {
+          "facility": "Site 202",
+          "status": "RECRUITING",
+          "city": "Winnepeg",
+          "state": "Manitoba",
+          "zip": "R2H2A6",
+          "country": "Canada"
+        },
+        {
+          "facility": "Site 203",
+          "status": "RECRUITING",
+          "city": "Brampton",
+          "state": "Ontario",
+          "zip": "L6Z 4N5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.68341,
+            "lon": -79.76633
+          }
+        },
+        {
+          "facility": "Site 200",
+          "status": "RECRUITING",
+          "city": "Chicoutimi",
+          "state": "Quebec",
+          "zip": "G7H 7K9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 48.41963,
+            "lon": -71.06369
+          }
+        },
+        {
+          "facility": "Site 201",
+          "status": "RECRUITING",
+          "city": "Trois-Rivières",
+          "state": "Quebec",
+          "zip": "G9A 4P3",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.34515,
+            "lon": -72.5477
+          }
+        },
+        {
+          "facility": "Site 305",
+          "status": "RECRUITING",
+          "city": "Changsha",
+          "state": "Hunan",
+          "zip": "410005",
+          "country": "China",
+          "geoPoint": {
+            "lat": 28.19874,
+            "lon": 112.97087
+          }
+        },
+        {
+          "facility": "Site 303",
+          "status": "RECRUITING",
+          "city": "Nanjing",
+          "state": "Jiangsu",
+          "zip": "210009",
+          "country": "China",
+          "geoPoint": {
+            "lat": 32.06167,
+            "lon": 118.77778
+          }
+        },
+        {
+          "facility": "Site 306",
+          "status": "RECRUITING",
+          "city": "Jining",
+          "state": "Shandong",
+          "zip": "272100",
+          "country": "China",
+          "geoPoint": {
+            "lat": 35.405,
+            "lon": 116.58139
+          }
+        },
+        {
+          "facility": "Site 301",
+          "status": "RECRUITING",
+          "city": "Chengdu",
+          "state": "Sichuan",
+          "zip": "610041",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.66667,
+            "lon": 104.06667
+          }
+        },
+        {
+          "facility": "Site 300",
+          "status": "RECRUITING",
+          "city": "Beijing",
+          "zip": "100037",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        },
+        {
+          "facility": "Site 304",
+          "status": "RECRUITING",
+          "city": "Chongqing",
+          "zip": "404000",
+          "country": "China",
+          "geoPoint": {
+            "lat": 29.56026,
+            "lon": 106.55771
+          }
+        },
+        {
+          "facility": "Site 156",
+          "status": "RECRUITING",
+          "city": "Ponce",
+          "zip": "00717",
+          "country": "Puerto Rico",
+          "geoPoint": {
+            "lat": 18.01031,
+            "lon": -66.62398
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "C565323",
+          "term": "Fibromatosis, Gingival, 2"
+        },
+        {
+          "id": "D054143",
+          "term": "Heart Failure, Systolic"
+        },
+        {
+          "id": "D054144",
+          "term": "Heart Failure, Diastolic"
+        },
+        {
+          "id": "D001281",
+          "term": "Atrial Fibrillation"
+        },
+        {
+          "id": "D001282",
+          "term": "Atrial Flutter"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D001145",
+          "term": "Arrhythmias, Cardiac"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

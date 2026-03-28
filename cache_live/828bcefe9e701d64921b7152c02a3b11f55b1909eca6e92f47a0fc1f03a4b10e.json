@@ -1,0 +1,310 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03274752",
+      "orgStudyIdInfo": {
+        "id": "2016-00349"
+      },
+      "organization": {
+        "fullName": "Insel Gruppe AG, University Hospital Bern",
+        "class": "OTHER"
+      },
+      "briefTitle": "Paroxetine-mediated GRK2 Inhibition to Reduce Cardiac Remodeling After Acute Myocardial Infarction",
+      "officialTitle": "Paroxetine-mediated GRK2 Inhibition to Reduce Cardiac Remodeling After Acute Myocardial Infarction (CARE-AMI): a Randomized Controlled Pilot Study",
+      "acronym": "CARE-AMI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-05",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-10-26",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-01-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-03-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-08-29",
+      "studyFirstSubmitQcDate": "2017-09-04",
+      "studyFirstPostDateStruct": {
+        "date": "2017-09-07",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-05-29",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-06-01",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Insel Gruppe AG, University Hospital Bern",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study evaluates the off-target effect of paroxetine to reverse cardiac remodeling and improve left ventricular ejection fraction in patients after acute myocardial infarction. Half of the participants will receive paroxetine, while the other half will receive placebo treatment.",
+      "detailedDescription": "Cardiac remodeling is characterized by a composite of structural, geometric, molecular, and functional changes of the myocardium, and is an important determinant of heart failure and cardiovascular outcome in survivors of acute myocardial infarction. Progression of heart failure secondary to the remodeling process results from dysregulation of the G protein-coupled receptor (GPCR). Excessive adrenergic drive in patients with heart failure results in an enhanced activation of GPCR kinases (GRKs) that is considered to have a central role in adverse cardiac remodeling after ischemic injury. The selective Serotonin reuptake inhibitor paroxetine specifically binds to the catalytic domain of GRK2 as an off-target effect, and has been shown to reverse cardiac remodeling and increase left ventricular ejection fraction in a mouse model. The effect was observed at serum levels achieved with standard dosages of paroxetine, and was robust in mice with and without concomitant heart failure treatment, respectively."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiac Remodeling",
+        "Myocardial Infarction"
+      ],
+      "keywords": [
+        "Paroxetine"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 50,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Paroxetine",
+          "type": "EXPERIMENTAL",
+          "description": "Paroxetine 20mg QD per os for 12 weeks followed by 10mg for one additional week",
+          "interventionNames": [
+            "Drug: Paroxetine"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo oral capsule QD per os for 13 weeks",
+          "interventionNames": [
+            "Drug: Placebo oral capsule"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Paroxetine",
+          "description": "Paroxetine (Deroxat) will be administered in a dosage of 20mg q.d. per os continuously for 12 weeks after primary PCI. In week 13, Paroxetine (Deroxat) will be administered in a dosage of 10mg q.d. per os.",
+          "armGroupLabels": [
+            "Paroxetine"
+          ],
+          "otherNames": [
+            "Deroxat"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo oral capsule",
+          "description": "Placebo will be given q.d. per os continuously for 12 weeks after primary PCI. In addition, a placebo will be given q.d. per os in week 13 as well.",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Difference in the change of left ventricular ejection fraction (LVEF)",
+          "description": "Assessment by cardiac magnetic resonance imaging",
+          "timeFrame": "12 weeks after randomization"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Difference in change in left left-ventricular end-diastolic volume (LVEDV)",
+          "description": "Assessment by cardiac magnetic resonance imaging",
+          "timeFrame": "12 weeks after randomization"
+        },
+        {
+          "measure": "Difference in change in left left-ventricular end-systolic volume (LVESV)",
+          "description": "Assessment by cardiac magnetic resonance imaging",
+          "timeFrame": "12 weeks after randomization"
+        },
+        {
+          "measure": "Difference in late-enhancement",
+          "description": "Assessment by cardiac magnetic resonance imaging",
+          "timeFrame": "12 weeks after randomization"
+        },
+        {
+          "measure": "Difference in LVEF between baseline and 12 weeks, and 12 months, respectively",
+          "description": "Assessment by transthoracic echocardiography",
+          "timeFrame": "12 months after randomization"
+        },
+        {
+          "measure": "Major adverse cardiac events",
+          "description": "Cardiac death, myocardial infarction, repeat hospitalization for heart failure",
+          "timeFrame": "12 weeks and 12 months after randomization"
+        },
+        {
+          "measure": "Clinical symptoms of heart failure",
+          "description": "Assessed by New York Heart Association (NYHA) categorization",
+          "timeFrame": "12 weeks and 12 months after randomization"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Anterior wall ST-segment elevation myocardial infarction\n* Primary percutaneous coronary intervention (PCI) within 24 hours of symptom onset\n* Left ventricular ejection fraction ≤ 45% within 48-96 hours after primary PCI (transthoracic echocardiography)\n\nExclusion Criteria:\n\n* Female patients at reproductive age (\\<50 years)\n* Known intolerance to paroxetine\n* Inability to provide informed consent\n* Currently participating in another trial before reaching first endpoint\n* Current medical therapy with MAO-blocker (during, 14 days before, and 14 days after treatment with MAO-blocker), lithium, thioridazide, or pimozide\n* Concomitant tamoxifen intake\n* Previous myocardial infarction\n* Previous revascularization procedure (percutaneous coronary intervention or coronary artery bypass grafting).\n* Contraindication to cardiac magnetic resonance imaging\n* Obvious or questionable inability to appropriately cooperate (alcohol, drugs etc.)\n* Relevant nephropathy or hepatopathy",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Thomas Pilgrim, MD",
+          "affiliation": "Bern University Hospital, Department of Cardiology, Freiburgstrasse 10, CH-3010 Bern, Switzerland",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Bern University Hospital, Department of Cardiology",
+          "city": "Bern",
+          "zip": "3010",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.94809,
+            "lon": 7.44744
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "25739765",
+          "type": "BACKGROUND",
+          "citation": "Schumacher SM, Gao E, Zhu W, Chen X, Chuprun JK, Feldman AM, Tesmer JJ, Koch WJ. Paroxetine-mediated GRK2 inhibition reverses cardiac dysfunction and remodeling after myocardial infarction. Sci Transl Med. 2015 Mar 4;7(277):277ra31. doi: 10.1126/scitranslmed.aaa0154."
+        },
+        {
+          "pmid": "10869273",
+          "type": "BACKGROUND",
+          "citation": "Sutton MG, Sharpe N. Left ventricular remodeling after myocardial infarction: pathophysiology and therapy. Circulation. 2000 Jun 27;101(25):2981-8. doi: 10.1161/01.cir.101.25.2981. No abstract available."
+        },
+        {
+          "pmid": "36000427",
+          "type": "DERIVED",
+          "citation": "Pilgrim T, Bernhard B, Furholz M, Vollenbroich R, Babongo Bosombo F, Losdat S, Reusser N, Windecker S, Stortecky S, Siontis GCM, Hunziker L, Lanz J, Dobner S. Paroxetine-Mediated G-Protein Receptor Kinase 2 Inhibition in Patients With Acute Anterior Myocardial Infarction: Final 1-Year Outcomes of the Randomized CARE-AMI Trial. J Am Heart Assoc. 2022 Sep 6;11(17):e026362. doi: 10.1161/JAHA.122.026362. Epub 2022 Aug 24. No abstract available."
+        },
+        {
+          "pmid": "34259826",
+          "type": "DERIVED",
+          "citation": "Pilgrim T, Vollenbroich R, Deckarm S, Grani C, Dobner S, Stark AW, Erne SA, Babongo Bosombo F, Fischer K, Stortecky S, Reusser N, Furholz M, Siontis GCM, Heg D, Hunziker L, Windecker S, Lanz J. Effect of Paroxetine-Mediated G-Protein Receptor Kinase 2 Inhibition vs Placebo in Patients With Anterior Myocardial Infarction: A Randomized Clinical Trial. JAMA Cardiol. 2021 Oct 1;6(10):1171-1176. doi: 10.1001/jamacardio.2021.2247."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D017374",
+          "term": "Paroxetine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010880",
+          "term": "Piperidines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

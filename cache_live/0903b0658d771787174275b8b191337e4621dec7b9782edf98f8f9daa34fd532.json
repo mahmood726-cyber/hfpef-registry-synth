@@ -1,0 +1,358 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05642507",
+      "orgStudyIdInfo": {
+        "id": "AC01-01"
+      },
+      "organization": {
+        "fullName": "AnaCardio AB",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Phase Ib/IIa Trial With AC01 in Patients With HFrEF",
+      "officialTitle": "Randomized, Double-blind, Multiple Ascending Dose, Placebo-controlled, Safety, Tolerability, Efficacy, Pharmacokinetic (PK) and Pharmacodynamic (PD) Phase Ib/IIa Clinical Trial With AC01 in Patients With HFrEF",
+      "acronym": "GOAL-HF1"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-11",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-02-23",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-10-27",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-10-27",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-11-18",
+      "studyFirstSubmitQcDate": "2022-11-29",
+      "studyFirstPostDateStruct": {
+        "date": "2022-12-08",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-11-14",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-11-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "AnaCardio AB",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a randomized, double-blind, placebo-controlled two-part study with a multiple escalating dose phase followed by a cohort expansion phase to assess safety, tolerability, pharmacokinetics and pharmacodynamics of AC01 in patients with heart failure with reduced ejection fraction (HFrEF).",
+      "detailedDescription": "During the dose escalation phase, patients will be given AC01 orally twice daily for seven days. In the cohort expansion phase, patients will be given AC01 orally twice daily for 28 days at dose levels selected on the basis of results of the dose escalation phase."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Reduced Ejection Fraction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "SEQUENTIAL",
+        "interventionModelDescription": "Sequential, escalating, multiple doses",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 58,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Active (AC01) Microtablets",
+          "type": "EXPERIMENTAL",
+          "description": "Escalating doses of AC01",
+          "interventionNames": [
+            "Drug: AC01"
+          ]
+        },
+        {
+          "label": "Placebo Microtablets",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Matching placebo tablets",
+          "interventionNames": [
+            "Drug: AC01"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "AC01",
+          "description": "AC01 microtablets",
+          "armGroupLabels": [
+            "Active (AC01) Microtablets",
+            "Placebo Microtablets"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Safety and tolerability: Adverse Events (AEs)",
+          "description": "Type and frequency of AEs.",
+          "timeFrame": "Up to 12 days during dose escalation phase and up to 35 days during cohort expansion phase."
+        },
+        {
+          "measure": "Safety and tolerability: Vital signs.",
+          "description": "Pulse rate.",
+          "timeFrame": "Up to 12 days during dose escalation phase and up to 35 days during cohort expansion phase."
+        },
+        {
+          "measure": "Safety and tolerability: Vital signs.",
+          "description": "Systolic and diastolic blood pressure.",
+          "timeFrame": "Up to 12 days during dose escalation phase and up to 35 days during cohort expansion phase."
+        },
+        {
+          "measure": "Safety and tolerability: Electrocardiogram (ECG).",
+          "description": "Number of clinically significant abnormal findings values of RR-, PR-, QRS- QTc intervals.",
+          "timeFrame": "Up to 12 days during dose escalation phase and up to 35 days during cohort expansion phase."
+        },
+        {
+          "measure": "Safety and tolerability: Clinical laboratory evaluations.",
+          "description": "Number of clinically significant laboratory abnormalities",
+          "timeFrame": "Up to 12 days during dose escalation phase and up to 35 days during cohort expansion phase."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Pharmacokinetics of AC01 and its major metabolite: Cmax.",
+          "description": "Maximal observed concentration (Cmax).",
+          "timeFrame": "Up to Day 8 during dose escalation phase and up to Day 32 during cohort expansion phase."
+        },
+        {
+          "measure": "Pharmacokinetics of AC01 and its major metabolite: AUC",
+          "description": "Area under the concentration-time curve.",
+          "timeFrame": "Up to Day 8 during dose escalation phase and up to Day 32 during cohort expansion phase."
+        },
+        {
+          "measure": "Pharmacodynamics: Cardiac Function.",
+          "description": "Cardiac output.",
+          "timeFrame": "Up to 12 days during dose escalation phase and up to 35 days during cohort expansion phase."
+        },
+        {
+          "measure": "Pharmacodynamics: Cardiac Function.",
+          "description": "Stroke volume.",
+          "timeFrame": "Up to 12 days during dose escalation phase and up to 35 days during cohort expansion phase."
+        },
+        {
+          "measure": "Pharmacodynamics: Cardiac Function.",
+          "description": "Ejection fraction.",
+          "timeFrame": "Up to 12 days during dose escalation phase and up to 35 days during cohort expansion phase."
+        },
+        {
+          "measure": "Pharmacodynamics: Mechanistic markers.",
+          "description": "Growth hormone (GH), insulin-like growth factor 1 (IGF1), aldosterone, ACTH.",
+          "timeFrame": "Up to 12 days during dose escalation phase and up to 35 days during cohort expansion phase."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Key Inclusion Criteria:\n\n* Male and female out-patients of any ethnicity, between 18-80 years (inclusive), with stable HFrEF.\n* Chronic HF for at least 6 months duration defined by history with current NYHA class II-III severity.\n* LVEF ≤40% by TTE more than 6 months before screening and again at screening (screening measurement confirmed by echocardiography core lab).\n* Sinus rhythm with mean resting heart rate 55-90 bpm.\n* Cardiac Index 0.5-2.4 measured by Innocor at screening and Day -1. Screening measurement confirmed by core lab.\n* Transvenous ICD for primary prevention in place and active (as long as it is not subcutaneous).\n* Optimal guideline-based medical therapy for HFrEF as judged by the Investigator, at stable doses for ≥2 weeks with no intention to change dosing during trial duration.\n\nKey Exclusion Criteria:\n\n* Any cardiac rhythm that does or could interfere with ECG or TTE interpretation, including but not limited to permanent or persistent atrial fibrillation or flutter or paroxysmal atrial fibrillation or flutter with an episode in the last 3 months, frequent premature ventricular contractions, or atrial or ventricular pacing\n* Ongoing or planned mechanical circulatory support, treatment with any IV vasoactive drugs (vasodilators, inotropes, or vasopressors) or diuretics, and/or dialysis or hemofiltration or ultrafiltration.\n* Probable alternative explanations for symptoms or signs (e.g., but not limited to, known primary cardiomyopathy \\[hypertrophic, constrictive, restrictive, infiltrative, congenital\\]). Primary uncorrected hemodynamically significant valve disease, right-sided HF not due to left-sided HF.\n* History of aborted cardiac arrest and/or ICD for secondary prevention.\n* Hospitalized for HF or received IV diuretics, vasodilators, or inotropes for HF ≤30 days.\n* Clinical diagnosis of acute coronary syndrome or stroke ≤30 days.\n* PCI or percutaneous valve intervention ≤30 days or planned.\n* Angina pectoris ≤30 days.\n* Any cardiovascular procedure planned during study duration.\n* Hospitalized or unplanned visit to the emergency department for any reason in last 30 days; patient is eligible 30 days from discharge from hospital.\n* Use of any drugs or substances known to be strong inducers of CYP3A4 enzyme within 28 days prior to the dosing day and/or planned to be used during the overall study period.\n* eGFR by CKD-EPI \\<30 mL/min/1.73 m2 at screening or at Day -1.\n* Serum or plasma potassium \\<3.5 or \\>5.2 mEq/L at screening or at Day -1. Alanine aminotransferase (ALT) or aspartate aminotransferase (AST) \\>3 times upper limit of normal (ULN) or total bilirubin \\>2 times ULN at screening or at Day -1. Or known cirrhosis or severe liver or pancreatic disease, or Gilbert's syndrome.\n* Any condition that in the opinion of the Investigator may interfere with adherence to the protocol.\n* Systolic blood pressure \\<90 mmHg or \\>140 mmHg at screening or at Day-1.\n* Any of the following ECG findings: atrial or ventricular pacing, QTcF \\>450 ms, AV block I with PQ \\> 240 ms, AV block II or III at screening and at Day -1. In the case of non-paced QRS prolongation \\>120 ms, or if CRT is determined to be required and is actively pacing the ventricles, the QTcF is allowed to be up to but not greater than 470 ms.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Lars Lund, MD PhD",
+          "affiliation": "AnaCardio AB",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Spedali Civilia di Brescia",
+          "city": "Brescia",
+          "zip": "25123",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.53558,
+            "lon": 10.21472
+          }
+        },
+        {
+          "facility": "Azienda Sanitaria Universitaria Integrata",
+          "city": "Trieste",
+          "zip": "34149",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.64953,
+            "lon": 13.77678
+          }
+        },
+        {
+          "facility": "Amsterdam University Medical Centre",
+          "city": "Amsterdam",
+          "zip": "1081 HV",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.37403,
+            "lon": 4.88969
+          }
+        },
+        {
+          "facility": "University Medical Centre Groningen/ICON",
+          "city": "Groningen",
+          "zip": "9718 GZ",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 53.21917,
+            "lon": 6.56667
+          }
+        },
+        {
+          "facility": "Maastricht Heart and Vascular Center",
+          "city": "Maastricht",
+          "zip": "6229 HX",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 50.84833,
+            "lon": 5.68889
+          }
+        },
+        {
+          "facility": "Erasmus Medical Centre",
+          "city": "Rotterdam",
+          "zip": "3015 GD",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.9225,
+            "lon": 4.47917
+          }
+        },
+        {
+          "facility": "Sahlgrenska University Hospital",
+          "city": "Gothenburg",
+          "zip": "413045",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 57.70716,
+            "lon": 11.96679
+          }
+        },
+        {
+          "facility": "Skånes Universitetssjukhus Lund",
+          "city": "Lund",
+          "zip": "222 42",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 55.70584,
+            "lon": 13.19321
+          }
+        },
+        {
+          "facility": "Karolinska University Hospital",
+          "city": "Stockholm",
+          "zip": "171 76",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 59.32938,
+            "lon": 18.06871
+          }
+        },
+        {
+          "facility": "Ninewells Hospital and Medical School",
+          "city": "Dundee",
+          "zip": "DD1 9SY",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 56.46913,
+            "lon": -2.97489
+          }
+        },
+        {
+          "facility": "University of Glasgow, Institute of Cardiovascular & Medical Sciences",
+          "city": "Glasgow",
+          "zip": "G12 8QQ",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 55.86515,
+            "lon": -4.25763
+          }
+        },
+        {
+          "facility": "Golden Jubilee National Hospital",
+          "city": "Glasgow",
+          "zip": "G81 4DY",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 55.86515,
+            "lon": -4.25763
+          }
+        },
+        {
+          "facility": "King's College Hospital",
+          "city": "London",
+          "zip": "SE5 9RS",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Disclosure of study data as per EU Clinical Trial Regulation principles. Publication of study data in peer-reviewed scientific journals",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF",
+        "CSR"
+      ],
+      "timeFrame": "As per Clinical Trial Regulation principles.",
+      "accessCriteria": "Public disclosure."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    }
+  },
+  "hasResults": false
+}

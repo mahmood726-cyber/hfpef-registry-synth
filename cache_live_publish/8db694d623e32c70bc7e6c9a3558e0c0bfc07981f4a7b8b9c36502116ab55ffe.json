@@ -1,0 +1,1363 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04111536",
+      "orgStudyIdInfo": {
+        "id": "833681p"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "1R61HL146390-01",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/1R61HL146390-01"
+        }
+      ],
+      "organization": {
+        "fullName": "University of Pennsylvania",
+        "class": "OTHER"
+      },
+      "briefTitle": "Developing Oral LT3 Therapy for Heart Failure - HFpEF",
+      "officialTitle": "Developing Oral LT3 Therapy For Heart Failure With Preserved Ejection Fraction",
+      "acronym": "DOT3HF-HFpEF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-12",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-03-08",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-10-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-10-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-09-30",
+      "studyFirstSubmitQcDate": "2019-09-30",
+      "studyFirstPostDateStruct": {
+        "date": "2019-10-01",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2024-08-27",
+      "resultsFirstSubmitQcDate": "2024-12-17",
+      "resultsFirstPostDateStruct": {
+        "date": "2025-01-08",
+        "type": "ACTUAL"
+      },
+      "dispFirstSubmitDate": "2024-07-24",
+      "dispFirstPostDateStruct": {
+        "date": "2025-01-08",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-12-17",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-01-08",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Anne Cappola, MD",
+        "investigatorTitle": "Professor of Medicine",
+        "investigatorAffiliation": "University of Pennsylvania"
+      },
+      "leadSponsor": {
+        "name": "University of Pennsylvania",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Heart, Lung, and Blood Institute (NHLBI)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Investigation of the safety, feasibility, and preliminary efficacy of thyroid hormone therapy with Liothyronine (LT3) in individuals with heart failure with preserved ejection fraction (HFpEF) and low triiodothyronine (T3) syndrome by conducting a randomized, double-blind, placebo-controlled cross-over study with a two-week washout period between treatments.",
+      "detailedDescription": "The overall goal is to determine the safety, feasibility, and preliminary efficacy of administering oral LT3 therapy in the study population of participants with Heart Failure with preserved ejection fraction (HFpEF). The study will consist of two treatment periods - each treatment period will be approximately 8 weeks in duration, with weekly titration of study drug for 4 weeks, followed by a maintenance dose for 4 weeks, then 2-week washout before crossing over to the other arm (placebo or drug). LT3 will be titrated to T3 levels."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Preserved Ejection Fraction",
+        "Low Triiodothyronine Syndrome"
+      ],
+      "keywords": [
+        "Heart Failure, HFpEF, Low T3 Syndrome"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "maskingDescription": "Participant, Investigators and Care Providers are blinded to LT3 vs. Placebo and T3 results. There will be 1 unblinded physician in the study.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 28,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Liothyronine (LT3), then placebo",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Liothyronine (L-triiodothyronine or LT3) in the 5 mcg tablet dose formulation. Minimum LT3 dose will be 2.5 mcg three times daily and the maximum LT3 dose will be 12.5 mcg three times daily.",
+          "interventionNames": [
+            "Drug: liothyronine",
+            "Other: Placebo"
+          ]
+        },
+        {
+          "label": "Placebo, then Liothyronine",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "A placebo tablet matching in appearance to LT3 tablets, dosed equivalently. Minimum placebo tablet dose will be 1/2 tablet (2.5 mcg equivalent) three times daily and the maximum placebo dose will be 2 1/2 tablets (12.5 mcg equivalent) three times daily.",
+          "interventionNames": [
+            "Drug: liothyronine",
+            "Other: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "liothyronine",
+          "description": "Each treatment period of liothyronine was approximately 8 weeks in duration, with weekly titration of study drug for four weeks, followed by a maintenance dose for 4 weeks, then 2-week washout before crossing over to receive the alternate therapy - placebo.",
+          "armGroupLabels": [
+            "Liothyronine (LT3), then placebo",
+            "Placebo, then Liothyronine"
+          ],
+          "otherNames": [
+            "LT3"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Placebo",
+          "description": "Each treatment period of placebo was approximately 8 weeks in duration, with weekly titration of study drug for four weeks, followed by a maintenance dose for 4 weeks, then 2-week washout before crossing over to receive the alternate therapy - LT3.",
+          "armGroupLabels": [
+            "Liothyronine (LT3), then placebo",
+            "Placebo, then Liothyronine"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Participants With Atrial Fibrillation or Ventricular Tachycardia >=4 Beats",
+          "description": "Number with atrial fibrillation or ventricular tachycardia \\>=4 beats",
+          "timeFrame": "continuous during intervention (14 days)"
+        },
+        {
+          "measure": "T3 Level",
+          "description": "Number of participant T3 levels above upper limit of reference range",
+          "timeFrame": "8 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Peak Maximal Rate of Oxygen Consumption During Exercise (VO2 Max)",
+          "description": "Peak rate of oxygen consumption at 8 weeks",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Measure of Quality of Life",
+          "description": "Change in Kansas City Cardiomyopathy Questionnaire, KCCQ scale of 0 to 100, higher score is better outcome, from baseline to 8 weeks",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Actigraphy",
+          "description": "Remotely sensed minutes/day of cumulative light, moderate or vigorous activity after 8 weeks of LT3 or placebo",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "NT-proBNP Levels",
+          "description": "Change in B-type natriuretic peptide, Pg/mL, from baseline to 8 weeks",
+          "timeFrame": "8 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nMen and women aged ≥18 years; NYHA Class I, II or III heart failure or dyspnea on exertion without a clinically identifiable alternative cause; left ventricular ejection fraction greater than or equal to 40 percent; if taking antihypertensive medications, beta-blockers, SGLT2inhibitors, sacubitril/valsartan, or aldosterone antagonists, doses must be stable for at least 30 days. Elevated filling pressures as evidenced by at least 1 of the following:\n\n1. Mitral E/e' ratio \\> 14 (either lateral or septal)\n2. Mitral E/e' ratio \\> 8 (either lateral or septal), with low e' velocity (septal e'\\<7 cm/sec or lateral e'\\< 10 cm/sec), in addition to one of the following:\n\n   1. Enlarged left atrium (LA volume index \\>34 ml/m2)\n   2. Chronic loop diuretic use for control of symptoms\n   3. Elevated natriuretic peptides (BNP levels \\>100 ng/L or NT-proBNP levels \\>300 ng/L)\n   4. Tricuspid regurgitation velocity \\>2.8 m/s\n3. Elevated invasively-determined filling pressures previously (resting LVEDP \\>16 mmHg or mean pulmonary capillary wedge pressure \\[PCWP\\] \\>12 mmHg; or PCWP/LVEDP ≥25 mmHg with exercise)\n4. Acute heart failure decompensation with radiographic evidence of pulmonary venous congestion or alveolar edema, requiring IV diuretics within the past year\n5. Probability of HFpEF\\>90%according to the HFpEF score,without a more likely apparent cause for symptoms as per Investigator assessment. TSH and free T4 level within the protocol specified reference range and total T3 level less than or equal to 0.94 ng/dL; if taking oral estrogen, dose must remain stable for duration of study participation.\n\nExclusion Criteria:\n\nHypertrophic or restrictive cardiomyopathy or uncorrected severe primary valvular disease; inability to perform VO2max exercise testing; severe lung disease; treatment with oral steroids within past 6 months for an exacerbation of obstructive lung disease, or the use of daytime oxygen; serum creatinine \\> 3.0 mg/dL; history of cirrhosis; acute coronary syndrome or coronary artery intervention or ablation therapy within past 2 months; cardiac surgery or percutaneous valve or septal defect repair within the past 6 months; heart failure hospitalization within past month; taking thyroid extract, LT4, LT3, amiodarone, or medication that affects the absorption or metabolism of thyroid hormone; gastrointestinal conditions that affect the absorption of thyroid hormone; current or planned pregnancy within the timeframe of study participation; any medical condition that, in the opinion of the investigator, will interfere with safe completion of the study.\n\n\\-",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Anne R Cappola, MD,ScM",
+          "affiliation": "University of Pennsylvania",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Penn Medicine",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Liothyronine (LT3), Then Placebo",
+          "description": "Liothyronine (L-triiodothyronine or LT3) in the 5 mcg tablet dose formulation. Minimum LT3 dose will be 2.5 mcg three times daily and the maximum LT3 dose will be 12.5 mcg three times daily.\n\nliothyronine: Each treatment period of liothyronine was approximately 8 weeks in duration, with weekly titration of study drug for four weeks, followed by a maintenance dose for 4 weeks, then 2-week washout before crossing over to receive the alternate therapy - placebo.\n\nPlacebo: Each treatment period of placebo was approximately 8 weeks in duration, with weekly titration of study drug for four weeks, followed by a maintenance dose for 4 weeks, then 2-week washout before crossing over to receive the alternate therapy - LT3."
+        },
+        {
+          "id": "FG001",
+          "title": "Placebo, Then Liothyronine",
+          "description": "A placebo tablet matching in appearance to LT3 tablets, dosed equivalently. Minimum placebo tablet dose will be 1/2 tablet (2.5 mcg equivalent) three times daily and the maximum placebo dose will be 2 1/2 tablets (12.5 mcg equivalent) three times daily.\n\nliothyronine: Each treatment period of liothyronine was approximately 8 weeks in duration, with weekly titration of study drug for four weeks, followed by a maintenance dose for 4 weeks, then 2-week washout before crossing over to receive the alternate therapy - placebo.\n\nPlacebo: Each treatment period of placebo was approximately 8 weeks in duration, with weekly titration of study drug for four weeks, followed by a maintenance dose for 4 weeks, then 2-week washout before crossing over to receive the alternate therapy - LT3."
+        }
+      ],
+      "periods": [
+        {
+          "title": "First Intervention (8 Weeks)",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "14"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "14"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "14"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "12"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Adverse Event",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Washout (2 Weeks)",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "14"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "12"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "14"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "12"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Second Intervention (8 Weeks)",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "14"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "12"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "13"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "11"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Lost to Follow-up",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "Adverse Event",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Liothyronine (LT3), Then Placebo",
+          "description": "Liothyronine (L-triiodothyronine or LT3) in the 5 mcg tablet dose formulation. Minimum LT3 dose will be 2.5 mcg three times daily and the maximum LT3 dose will be 12.5 mcg three times daily.\n\nliothyronine: Each treatment period of liothyronine was approximately 8 weeks in duration, with weekly titration of study drug for four weeks, followed by a maintenance dose for 4 weeks, then 2-week washout before crossing over to receive the alternate therapy - placebo.\n\nPlacebo: Each treatment period of placebo was approximately 8 weeks in duration, with weekly titration of study drug for four weeks, followed by a maintenance dose for 4 weeks, then 2-week washout before crossing over to receive the alternate therapy - LT3."
+        },
+        {
+          "id": "BG001",
+          "title": "Placebo, Then Liothyronine",
+          "description": "A placebo tablet matching in appearance to LT3 tablets, dosed equivalently. Minimum placebo tablet dose will be 1/2 tablet (2.5 mcg equivalent) three times daily and the maximum placebo dose will be 2 1/2 tablets (12.5 mcg equivalent) three times daily.\n\nliothyronine: Each treatment period of liothyronine was approximately 8 weeks in duration, with weekly titration of study drug for four weeks, followed by a maintenance dose for 4 weeks, then 2-week washout before crossing over to receive the alternate therapy - placebo.\n\nPlacebo: Each treatment period of placebo was approximately 8 weeks in duration, with weekly titration of study drug for four weeks, followed by a maintenance dose for 4 weeks, then 2-week washout before crossing over to receive the alternate therapy - LT3."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "14"
+            },
+            {
+              "groupId": "BG001",
+              "value": "14"
+            },
+            {
+              "groupId": "BG002",
+              "value": "28"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "5"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "12"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "16"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "28"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "7"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "21"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "28"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Number of Participants With Atrial Fibrillation or Ventricular Tachycardia >=4 Beats",
+          "description": "Number with atrial fibrillation or ventricular tachycardia \\>=4 beats",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "Number of participants with events",
+          "timeFrame": "continuous during intervention (14 days)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Liothyronine (LT3)",
+              "description": "Participants who received liothyronine for the first 8 weeks or the last 8 weeks of the study."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Participants who received placebo for the first 8 weeks or the last 8 weeks of the study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "25"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "27"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "12"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "T3 Level",
+          "description": "Number of participant T3 levels above upper limit of reference range",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "8 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Liothyronine (LT3)",
+              "description": "Participants who received liothyronine for the first 8 weeks or the last 8 weeks of the study."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Participants who received placebo for the first 8 weeks or the last 8 weeks of the study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "25"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "25"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Peak Maximal Rate of Oxygen Consumption During Exercise (VO2 Max)",
+          "description": "Peak rate of oxygen consumption at 8 weeks",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "ml/kg/min",
+          "timeFrame": "8 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Liothyronine (LT3)",
+              "description": "Participants who received liothyronine for the first 8 weeks or the last 8 weeks of the study."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Participants who received placebo for the first 8 weeks or the last 8 weeks of the study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "20"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "20"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9.53",
+                      "spread": "3.42"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "10.07",
+                      "spread": "3.40"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Measure of Quality of Life",
+          "description": "Change in Kansas City Cardiomyopathy Questionnaire, KCCQ scale of 0 to 100, higher score is better outcome, from baseline to 8 weeks",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "8 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Liothyronine (LT3)",
+              "description": "Participants who received liothyronine for the first 8 weeks or the last 8 weeks of the study."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Participants who received placebo for the first 8 weeks or the last 8 weeks of the study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "25"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "25"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.1",
+                      "spread": "11.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.5",
+                      "spread": "11.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Actigraphy",
+          "description": "Remotely sensed minutes/day of cumulative light, moderate or vigorous activity after 8 weeks of LT3 or placebo",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "minutes/day",
+          "timeFrame": "8 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Liothyronine (LT3)",
+              "description": "Participants who received liothyronine for the first 8 weeks or the last 8 weeks of the study."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Participants who received placebo for the first 8 weeks or the last 8 weeks of the study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "24"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "25"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "224",
+                      "spread": "70"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "230",
+                      "spread": "78"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "NT-proBNP Levels",
+          "description": "Change in B-type natriuretic peptide, Pg/mL, from baseline to 8 weeks",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "pg/mL",
+          "timeFrame": "8 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Liothyronine (LT3)",
+              "description": "Participants who received liothyronine for the first 8 weeks or the last 8 weeks of the study."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Participants who received placebo for the first 8 weeks or the last 8 weeks of the study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "25"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "25"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "51.4",
+                      "spread": "187.6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "8.5",
+                      "spread": "150.0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "17 weeks",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Liothyronine (LT3)",
+          "description": "Participants who received liothyronine for the first 8 weeks or the last 8 weeks of the study.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 28,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 28,
+          "otherNumAffected": 10,
+          "otherNumAtRisk": 28
+        },
+        {
+          "id": "EG001",
+          "title": "Placebo",
+          "description": "Participants who received placebo for the first 8 weeks or the last 8 weeks of the study.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 28,
+          "seriousNumAffected": 2,
+          "seriousNumAtRisk": 28,
+          "otherNumAffected": 15,
+          "otherNumAtRisk": 28
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "stroke",
+          "organSystem": "Vascular disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 28
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 28
+            }
+          ]
+        },
+        {
+          "term": "heart failure",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 28
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 28
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "General",
+          "organSystem": "General disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 18,
+              "numAffected": 10,
+              "numAtRisk": 28
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 24,
+              "numAffected": 15,
+              "numAtRisk": 28
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Theresa M Scattergood, MSN",
+        "organization": "University of Pennsylvania",
+        "email": "theresa.scattergood@pennmedicine.upenn.edu",
+        "phone": "215-898-5664"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2022-05-11",
+          "uploadDate": "2024-08-27T13:14",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 1048215
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19",
+      "submissionTracking": {
+        "firstMcpInfo": {
+          "postDateStruct": {
+            "date": "2024-09-20",
+            "type": "ACTUAL"
+          }
+        }
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D005067",
+          "term": "Euthyroid Sick Syndromes"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013959",
+          "term": "Thyroid Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D014284",
+          "term": "Triiodothyronine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013970",
+          "term": "Thyronines"
+        },
+        {
+          "id": "D013963",
+          "term": "Thyroid Hormones"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        },
+        {
+          "id": "D013974",
+          "term": "Thyroxine"
+        },
+        {
+          "id": "D024322",
+          "term": "Amino Acids, Aromatic"
+        },
+        {
+          "id": "D000598",
+          "term": "Amino Acids, Cyclic"
+        },
+        {
+          "id": "D000596",
+          "term": "Amino Acids"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

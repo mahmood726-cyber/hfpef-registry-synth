@@ -1,0 +1,930 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00559650",
+      "orgStudyIdInfo": {
+        "id": "12480"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2007-003059-36",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Bayer",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Placebo Controlled, Randomized, Double-blind, Multi-center Study to Investigate the Efficacy and Tolerability of BAY58-2667",
+      "officialTitle": "Placebo Controlled, Randomized, Double-blind, Multi-center, Multinational Phase IIb Study to Investigate the Efficacy and Tolerability of BAY58-2667 Given Intravenously in Patients With Decompensated Chronic Congestive Heart Failure"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2017-04",
+      "overallStatus": "TERMINATED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2007-12"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2009-02",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2009-03",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2007-11-15",
+      "studyFirstSubmitQcDate": "2007-11-15",
+      "studyFirstPostDateStruct": {
+        "date": "2007-11-16",
+        "type": "ESTIMATED"
+      },
+      "dispFirstSubmitDate": "2015-09-22",
+      "dispFirstSubmitQcDate": "2015-09-22",
+      "dispFirstPostDateStruct": {
+        "date": "2015-10-07",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2017-04-14",
+      "lastUpdatePostDateStruct": {
+        "date": "2017-04-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Bayer",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to assess a dose titration scheme, of a new drug (BAY58-2667) given intravenously, to evaluate if this is safe and can help to improve the well-being, symptoms (e.g. breathing) and outcome of decompensated heart failure. Patients living with chronic heart failure have a risk of increased number of hospitalisations because of worsening of their condition (decompensated heart failure). The current treatment of acute heart failure consists of oxygen and medical treatment with vasodilators and positive inotropic agents (drugs, which should strengthen the pump function of the heart) which have their limitations. Therefore there is a need for new drugs in treatment of acute heat failure."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Congestive Heart Failure"
+      ],
+      "keywords": [
+        "Acute decompensated heart failure",
+        "Double blind study,",
+        "BAY58-2667",
+        "Soluble guanylate cyclase activator"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 150,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Arm 1",
+          "type": "PLACEBO_COMPARATOR",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "Arm 2",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: Cinaciguat (BAY58-2667)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Will be standard therapy and placebo versus, Uptitration from 100-600µg/g, intravenous, over maximum 48 hours",
+          "armGroupLabels": [
+            "Arm 1"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Cinaciguat (BAY58-2667)",
+          "description": "Will be standard therapy and BAY 58-2667, Uptitration from 100-600µg/g, intravenous, over maximum 48 hours",
+          "armGroupLabels": [
+            "Arm 2"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The primary efficacy outcome measure will be the change of pulmonary capillary wedge pressure (PCWP) from baseline to 8 hours versus placebo.",
+          "timeFrame": "8 hours"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Quality of Life",
+          "timeFrame": "Up to 30 days Follow-up"
+        },
+        {
+          "measure": "Rehospitalization",
+          "timeFrame": "Up to 30 days Follow-up"
+        },
+        {
+          "measure": "Other hemodynamic measurements",
+          "description": "Right atrial pressure (RAP); mean pulmonary artery pressure (PAP mean); pulmonary artery systolic pressure (PASP); pulmonary artery diastolic pressure (PADP); cardiac output (CO); cardiac index (CI); mean arterial pressure (MAP); pulmonary vascular resistance (PVR); pulmonary vascular resistance index (PVRI); systemic vascular resistance (SVR); and systemic vascular resistance index (SVRI）",
+          "timeFrame": "Up to 48 hours"
+        },
+        {
+          "measure": "Safety variables",
+          "description": "Treatment-emergent adverse events, laboratory parameters, renal function, in-hospital mortality, length of stay at intensive care unit, and 30-day mortality / morbidity.",
+          "timeFrame": "Up to 30 days follow up"
+        },
+        {
+          "measure": "Plasma concentrations",
+          "timeFrame": "During both the titration and maintenance phases were evaluated."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with decompensated chronic congestive heart failure, NYHA functional class III-IV, either ischemic or non-ischemic, requiring hospitalization, and with clinical indication for parenteral pharmacotherapy and invasive hemodynamic monitoring (i.e indwelling Swan-Ganz pulmonary artery catheter) and PCWP \\>/= 18 mmHg.\n* Patients must have the clinical diagnosis of CHF made at least 3 month prior to enrollment.\n* Male or female patients, age 18 years or more.\n\nExclusion Criteria:\n\n* Females of child-bearing potential.\n* Acute de-novo heart failure.\n* Acute myocardial infarction and/or myocardial infarction within 30 days.\n* Valvular heart disease requiring surgical intervention during the course of the study.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Bayer Study Director",
+          "affiliation": "Bayer",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "city": "San Diego",
+          "state": "California",
+          "zip": "92103-8765",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.71571,
+            "lon": -117.16472
+          }
+        },
+        {
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20010",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        },
+        {
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02114",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45219-2316",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "city": "Fairfield",
+          "state": "Ohio",
+          "zip": "45014",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.34589,
+            "lon": -84.5605
+          }
+        },
+        {
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75216-7167",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "city": "Halifax",
+          "state": "Nova Scotia",
+          "zip": "B3H 3A7",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 44.64269,
+            "lon": -63.57688
+          }
+        },
+        {
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M5B 1W8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "city": "Ste-Foy",
+          "state": "Quebec",
+          "zip": "G1V 4G5",
+          "country": "Canada"
+        },
+        {
+          "city": "Split",
+          "zip": "21000",
+          "country": "Croatia",
+          "geoPoint": {
+            "lat": 43.50891,
+            "lon": 16.43915
+          }
+        },
+        {
+          "city": "Zagreb",
+          "zip": "10000",
+          "country": "Croatia",
+          "geoPoint": {
+            "lat": 45.81444,
+            "lon": 15.97798
+          }
+        },
+        {
+          "city": "Brno",
+          "zip": "625 00",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 49.19522,
+            "lon": 16.60796
+          }
+        },
+        {
+          "city": "Brno",
+          "zip": "656 91",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 49.19522,
+            "lon": 16.60796
+          }
+        },
+        {
+          "city": "Hradec Králové",
+          "zip": "500 05",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.20923,
+            "lon": 15.83277
+          }
+        },
+        {
+          "city": "Pilsen",
+          "zip": "301 00",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 49.74747,
+            "lon": 13.37759
+          }
+        },
+        {
+          "city": "Prague",
+          "zip": "128 08",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.08804,
+            "lon": 14.42076
+          }
+        },
+        {
+          "city": "Prague",
+          "zip": "12808",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.08804,
+            "lon": 14.42076
+          }
+        },
+        {
+          "city": "Tallinn",
+          "zip": "13419",
+          "country": "Estonia",
+          "geoPoint": {
+            "lat": 59.43696,
+            "lon": 24.75353
+          }
+        },
+        {
+          "city": "Tartu",
+          "zip": "51014",
+          "country": "Estonia",
+          "geoPoint": {
+            "lat": 58.38062,
+            "lon": 26.72509
+          }
+        },
+        {
+          "city": "Heidelberg",
+          "state": "Baden-Wurttemberg",
+          "zip": "69120",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.40768,
+            "lon": 8.69079
+          }
+        },
+        {
+          "city": "Würzburg",
+          "state": "Bavaria",
+          "zip": "97080",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.79391,
+            "lon": 9.95121
+          }
+        },
+        {
+          "city": "Bad Nauheim",
+          "state": "Hesse",
+          "zip": "61231",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.36463,
+            "lon": 8.73859
+          }
+        },
+        {
+          "city": "Greifswald",
+          "state": "Mecklenburg-Vorpommern",
+          "zip": "17475",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 54.08905,
+            "lon": 13.40244
+          }
+        },
+        {
+          "city": "Bad Oeynhausen",
+          "state": "North Rhine-Westphalia",
+          "zip": "32545",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.20699,
+            "lon": 8.80365
+          }
+        },
+        {
+          "city": "Bonn",
+          "state": "North Rhine-Westphalia",
+          "zip": "53105",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.73438,
+            "lon": 7.09549
+          }
+        },
+        {
+          "city": "Cologne",
+          "state": "North Rhine-Westphalia",
+          "zip": "50924",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.93333,
+            "lon": 6.95
+          }
+        },
+        {
+          "city": "Homburg",
+          "state": "Saarland",
+          "zip": "66424",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.32637,
+            "lon": 7.33867
+          }
+        },
+        {
+          "city": "Halle",
+          "state": "Saxony-Anhalt",
+          "zip": "06120",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.48158,
+            "lon": 11.97947
+          }
+        },
+        {
+          "city": "Berlin",
+          "state": "State of Berlin",
+          "zip": "12200",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "city": "Erfurt",
+          "state": "Thuringia",
+          "zip": "99089",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.97734,
+            "lon": 11.03536
+          }
+        },
+        {
+          "city": "Jena",
+          "state": "Thuringia",
+          "zip": "07740",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.92878,
+            "lon": 11.5899
+          }
+        },
+        {
+          "city": "Budapest",
+          "zip": "H-1096",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "city": "Debrecen",
+          "zip": "4032",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.53167,
+            "lon": 21.62444
+          }
+        },
+        {
+          "city": "Vác",
+          "zip": "2600",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.77591,
+            "lon": 19.13612
+          }
+        },
+        {
+          "city": "Zalaegerszeg",
+          "zip": "8900",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.83695,
+            "lon": 16.84401
+          }
+        },
+        {
+          "city": "Haifa",
+          "state": "Israel",
+          "zip": "34362",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.81303,
+            "lon": 34.99928
+          }
+        },
+        {
+          "city": "Jerusalem",
+          "zip": "9112001",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 31.76904,
+            "lon": 35.21633
+          }
+        },
+        {
+          "city": "Ramat Gan",
+          "zip": "5262000",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.08227,
+            "lon": 34.81065
+          }
+        },
+        {
+          "city": "Safed",
+          "zip": "1311001",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.96465,
+            "lon": 35.496
+          }
+        },
+        {
+          "city": "Bologna",
+          "state": "Emilia-Romagna",
+          "zip": "40138",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.49381,
+            "lon": 11.33875
+          }
+        },
+        {
+          "city": "Ferrara",
+          "state": "Emilia-Romagna",
+          "zip": "44100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.83804,
+            "lon": 11.62057
+          }
+        },
+        {
+          "city": "Milan",
+          "state": "Lombardy",
+          "zip": "20162",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.46427,
+            "lon": 9.18951
+          }
+        },
+        {
+          "city": "Pavia",
+          "state": "Lombardy",
+          "zip": "27100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.19205,
+            "lon": 9.15917
+          }
+        },
+        {
+          "city": "Perugia",
+          "state": "Umbria",
+          "zip": "06156",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.1122,
+            "lon": 12.38878
+          }
+        },
+        {
+          "city": "Bergamo",
+          "zip": "24128",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.69601,
+            "lon": 9.66721
+          }
+        },
+        {
+          "city": "Kaunas",
+          "zip": "50009",
+          "country": "Lithuania",
+          "geoPoint": {
+            "lat": 54.90156,
+            "lon": 23.90909
+          }
+        },
+        {
+          "city": "Vilnius",
+          "zip": "08661",
+          "country": "Lithuania",
+          "geoPoint": {
+            "lat": 54.68916,
+            "lon": 25.2798
+          }
+        },
+        {
+          "city": "Gdansk",
+          "zip": "80-211",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 54.35227,
+            "lon": 18.64912
+          }
+        },
+        {
+          "city": "Krakow",
+          "zip": "31-202",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.06143,
+            "lon": 19.93658
+          }
+        },
+        {
+          "city": "Szczecin",
+          "zip": "70-111",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.42894,
+            "lon": 14.55302
+          }
+        },
+        {
+          "city": "Wroclaw",
+          "zip": "50-981",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.10286,
+            "lon": 17.03006
+          }
+        },
+        {
+          "city": "Zabrze",
+          "zip": "41-800",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.32492,
+            "lon": 18.78576
+          }
+        },
+        {
+          "city": "Moscow",
+          "zip": "109263",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "city": "Moscow",
+          "zip": "115093",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "city": "Moscow",
+          "zip": "119435",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "city": "Moscow",
+          "zip": "129010",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "city": "Belgrade",
+          "zip": "11000",
+          "country": "Serbia",
+          "geoPoint": {
+            "lat": 44.80401,
+            "lon": 20.46513
+          }
+        },
+        {
+          "city": "Kamenitz",
+          "zip": "21204",
+          "country": "Serbia",
+          "geoPoint": {
+            "lat": 45.22334,
+            "lon": 19.84263
+          }
+        },
+        {
+          "city": "Celje",
+          "zip": "3000",
+          "country": "Slovenia",
+          "geoPoint": {
+            "lat": 46.23092,
+            "lon": 15.26044
+          }
+        },
+        {
+          "city": "Golnik",
+          "zip": "4204",
+          "country": "Slovenia",
+          "geoPoint": {
+            "lat": 46.33333,
+            "lon": 14.33333
+          }
+        },
+        {
+          "city": "Ljubljana",
+          "zip": "1000",
+          "country": "Slovenia",
+          "geoPoint": {
+            "lat": 46.05108,
+            "lon": 14.50513
+          }
+        },
+        {
+          "city": "Murska Sobota",
+          "zip": "9000",
+          "country": "Slovenia",
+          "geoPoint": {
+            "lat": 46.66264,
+            "lon": 16.16643
+          }
+        },
+        {
+          "city": "Santiago de Compostela",
+          "state": "A Coruña",
+          "zip": "15706",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.88052,
+            "lon": -8.54569
+          }
+        },
+        {
+          "city": "Barcelona",
+          "state": "Barcelona",
+          "zip": "08036",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "city": "Sabadell",
+          "state": "Barcelona",
+          "zip": "08208",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.54329,
+            "lon": 2.10942
+          }
+        },
+        {
+          "city": "Girona",
+          "state": "Girona",
+          "zip": "17007",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.98311,
+            "lon": 2.82493
+          }
+        },
+        {
+          "city": "Majadahonda",
+          "state": "Madrid",
+          "zip": "28222",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.47353,
+            "lon": -3.87182
+          }
+        },
+        {
+          "city": "Gothenburg",
+          "zip": "413 45",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 57.70716,
+            "lon": 11.96679
+          }
+        },
+        {
+          "city": "Uppsala",
+          "zip": "751 85",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 59.85882,
+            "lon": 17.63889
+          }
+        },
+        {
+          "city": "Chesterfield",
+          "state": "Derbyshire",
+          "zip": "S44 5BL",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 53.25,
+            "lon": -1.41667
+          }
+        },
+        {
+          "city": "Barnet",
+          "state": "Hertfordshire",
+          "zip": "EN5 3DJ",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.65,
+            "lon": -0.2
+          }
+        },
+        {
+          "city": "Harrow",
+          "state": "Middlesex",
+          "zip": "HA1 3UJ",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.57835,
+            "lon": -0.33208
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "22778174",
+          "type": "RESULT",
+          "citation": "Erdmann E, Semigran MJ, Nieminen MS, Gheorghiade M, Agrawal R, Mitrovic V, Mebazaa A. Cinaciguat, a soluble guanylate cyclase activator, unloads the heart but also causes hypotension in acute decompensated heart failure. Eur Heart J. 2013 Jan;34(1):57-67. doi: 10.1093/eurheartj/ehs196. Epub 2012 Jul 9."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Click here and search for Bayer product information provided by EMA",
+          "url": "http://www.clinicaltrialsregister.eu"
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18",
+      "removedCountries": [
+        "Finland",
+        "France",
+        "Greece",
+        "Serbia and Montenegro",
+        "Switzerland",
+        "Turkey (Türkiye)"
+      ]
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C480588",
+          "term": "BAY 58-2667"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

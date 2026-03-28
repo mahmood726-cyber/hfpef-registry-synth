@@ -1,0 +1,222 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03945058",
+      "orgStudyIdInfo": {
+        "id": "10410"
+      },
+      "organization": {
+        "fullName": "University of Oklahoma",
+        "class": "OTHER"
+      },
+      "briefTitle": "Neuromodulation of Inflammation and Vascular Function in Systolic Heart Failure",
+      "officialTitle": "Effect of Neuromodulation on Inflammation, Endothelial Function and Cognitive Dysfunction in Patients With Heart Failure With Reduced Ejection Fraction",
+      "acronym": "TECO-HF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Study was unable to meet target enrollment; no results generated.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-02-04",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-03-16",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-12-16",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-03-15",
+      "studyFirstSubmitQcDate": "2019-05-07",
+      "studyFirstPostDateStruct": {
+        "date": "2019-05-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-22",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-23",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Oklahoma",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Heart failure (HF) is the leading cause of death in US. It is associated with abnormal vascular function termed endothelial dysfunction. It is also associated with increased stress on the blood vessels and high levels of inflammation. Vagus nerve stimulation can help improve inflammation, vascular function and vascular stress. The investigator has recently completed a study showing that 1 hour of noninvasive vagus stimulation can improve vascular health. However, it is unknown if 4 weeks of stimulation will be beneficial in systolic heart failure.\n\nThe purpose of this study is to determine if transcutaneous vagal stimulation (TVS) will lead to improvement in the function of the inner lining of participants' arteries, memory, and in the levels of certain chemical markers of arterial function in the blood.\n\nParticipants will be randomized to receive either TVS or a sham stimulation and undergo 4 weeks of stimulation. Vascular function will be assessed by several non-invasive measurements, including Flow Mediate Dilation (FMD), Pulse Wave Analysis (PWA), EndoPAT, and Laser Speckle Contrast Imaging (LSCI). Participants' memory will also be measured through electronic assessments and blood will be collected and analyzed for arterial function chemical markers.",
+      "detailedDescription": "Visit 1: Following tests(to assess vascular function) will be done: 1. FMD 2) LSCI 3) EndoPAT and 4) Pulse wave analysis (PWA). Patients will rest for 10 minutes between each test. They will be trained to use PARASYMTM unit for TVS. Blood collected, serum/plasma will be stored at -80F. Whole blood will be collected in PAXgene tubes. Patients will be instructed to apply TVS to either ear lobule (SHAM) or Tragus(experimental arm). Baseline characteristics will be collected including data on ventricular function(LVEF and left ventricular volumes).\n\nVisit 2 (4 weeks): Follow up tests(FMD,LSCI,EndoPAT,PWA) and repeat blood collection.\n\nInflammatory cytokines and vascular function assays will be performed."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Reduced Ejection Fraction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "This was a pilot study that was terminated. The COVID pandemic prevented the enrollment of more participants.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 7,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Experimental",
+          "type": "EXPERIMENTAL",
+          "description": "Active TVS will be performed by use of a Tragus stimulator device with electrodes attached to the tragus of the ear. Stimulator will be applied continuously for 1 hour daily for 4 weeks.",
+          "interventionNames": [
+            "Device: TVS",
+            "Device: SHAM"
+          ]
+        },
+        {
+          "label": "CONTROL",
+          "type": "SHAM_COMPARATOR",
+          "description": "Sham TVS will be performed by use of a Tragus stimulator device with electrodes attached to the ear lobule. Stimulator will be applied continuously for 1 hour daily for 4weeks.",
+          "interventionNames": [
+            "Device: TVS",
+            "Device: SHAM"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "TVS",
+          "description": "Active TVS will be performed by use of a Tragus stimulator device with electrodes attached to the tragus of the ear. Stimulator will be applied continuously for 1 hour daily for 4 weeks",
+          "armGroupLabels": [
+            "CONTROL",
+            "Experimental"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "SHAM",
+          "description": "Active TVS will be performed by use of a Tragus stimulator device with electrodes attached to the earl lobule. Stimulator will be applied continuously for 1 hour daily for 4 weeks.",
+          "armGroupLabels": [
+            "CONTROL",
+            "Experimental"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Flow Mediated Dilation (FMD)",
+          "description": "FMD is a change in the maximal diameter of the brachial artery. Brachial artery diameter (in millimeters) will be assessed before and after 4 weeks of stimulation using standard ultrasound.",
+          "timeFrame": "Change in the brachial artery diameter will be compared to baseline change after 4 weeks of TVS or sham."
+        },
+        {
+          "measure": "Laser Speckle Contrast Imaging (LSCI)",
+          "description": "LSCI based perfusion index and perfusion units will be calculated before and after 4 weeks of TVS or sham stimulation.",
+          "timeFrame": "Change in the perfusion units will be determined at baseline and after 4 weeks of TVS or sham stimulation."
+        },
+        {
+          "measure": "EndoPAT",
+          "description": "Hyperemia index measured with ENDOPAT will be calculated before and after 4 weeks of TVS. Hyperemia index will be calculated using the standard ENDOPAT technique using probes placed on bilateral finger.",
+          "timeFrame": "Change in the reactive hyperemia index from baseline and after 4 weeks of TVS or SHAM stimulation"
+        },
+        {
+          "measure": "Pulse Wave Analysis (PWA)",
+          "description": "Arterial elasticity. Augmentation pressure (AP) will be calculated which is expressed as a percentage of the aortic pulse pressure (PP) which is the difference of systolic and diastolic BP(mm Hg).",
+          "timeFrame": "Change in the augmentation index will be calculated at baseline and after 4 weeks of TVS or sham stimulation."
+        },
+        {
+          "measure": "Biomarkers of inflammation",
+          "description": "Inflammatory cytokines will assayed at baseline and after 4 weeks of stimulation. Cytokines assayed : Il1B,IL-6,IL-17,TNF-a,TGF-b,CRP etc- expressed in pg/ml units).",
+          "timeFrame": "Change in these biomarkers(% change) over 4 weeks will be calculated."
+        },
+        {
+          "measure": "Biomarkers of endothelial function and oxidative stress",
+          "description": "Biomarkers of endothelial function and oxidative stress include: ORAC, HORAC scores expressed as %.",
+          "timeFrame": "Change in these biomarkers(%) over 4 weeks will be calculated."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Cognition",
+          "description": "Cognition score(%) calculated from Cambridge Neuropsychological Test Automated Battery -CANTAB method . This will be done using a hand held ipad.",
+          "timeFrame": "Change in the cognition score , as assessed by the CANTAB method will be compared at baseline and after 4 weeks of TVS or sham stimulation."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1\\. Patients (18 years or older) with Heart failure with reduced ejection fraction (HFrEF), which is a history of symptomatic heart failure with left ventricular ejection fraction (LVEF) of \\< 40%.\n\nExclusion Criteria:\n\n1. Patients in overt congestive heart failure / recent acute myocardial infarction (\\< 3 months) or Unstable angina\n2. Active malignancy\n3. Pre-menopausal women and post-menopausal women on hormone supplements.\n4. Unilateral or bilateral vagotomy\n5. Patients with bilateral upper extremity amputation\n6. Pregnant patients\n7. End-stage renal disease\n8. End-stage liver disease\n9. History of recurrent vasovagal syncope, Sick sinus syndrome, 2nd- or 3rd-degree atrioventricular (AV) block.\n10. Patients with clinically documented upper extremity arterial disease\n11. Patients with a body mass index (BMI) \\>35\n12. Significant hypotension (blood pressure \\<90mmHg) secondary to autonomic dysfunction",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Taun Dasari, MD",
+          "affiliation": "OUHSC",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Oklahoma Health Sciences Center",
+          "city": "Oklahoma City",
+          "state": "Oklahoma",
+          "zip": "73104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.46756,
+            "lon": -97.51643
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    }
+  },
+  "hasResults": false
+}

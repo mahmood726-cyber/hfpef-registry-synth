@@ -1,0 +1,430 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01901471",
+      "orgStudyIdInfo": {
+        "id": "2012.754"
+      },
+      "organization": {
+        "fullName": "Hospices Civils de Lyon",
+        "class": "OTHER"
+      },
+      "briefTitle": "Cyclosporine in Acute Myocardial Infarction Complicated by Cardiogenic Shock",
+      "officialTitle": "Cyclosporine in Acute Myocardial Infarction Complicated by Cardiogenic Shock",
+      "acronym": "CLOTILDE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2016-03",
+      "overallStatus": "WITHDRAWN",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-09"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2015-10",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2015-10",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2013-07-11",
+      "studyFirstSubmitQcDate": "2013-07-15",
+      "studyFirstPostDateStruct": {
+        "date": "2013-07-17",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2016-03-15",
+      "lastUpdatePostDateStruct": {
+        "date": "2016-03-16",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Hospices Civils de Lyon",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The size of the acute myocardial infarction (AMI) is related to ischemia and injury induced by tissue reperfusion. These reperfusion's injuries can be reduced by injection of cyclosporin A (CsA) at the time of reperfusion. This post-conditioning reduces the final infarct size 20 to 40%. This has been demonstrated in STEMI patients non-complicated by cardiogenic shock. Early revascularization in the AMI complicated by cardiogenic shock improves short-term and long term survival by reducing the size of the myocardial infarction. The hypothesis of this study is that the administration of Cyclosporin A to these patients, in addition to mechanical reperfusion, is likely to reduce the severity of the multi-organ failure associated with the cardiogenic shock and improve clinical outcome."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Myocardial Infarction"
+      ],
+      "keywords": [
+        "Cyclosporine, cardiogenic shock, SOFA score,"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "CsA Group",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: Single bolus of cyclosporine A (CicloMulsion®, Neurovive)"
+          ]
+        },
+        {
+          "label": "Placebo group",
+          "type": "PLACEBO_COMPARATOR",
+          "interventionNames": [
+            "Drug: Single bolus of Placebo of CicloMulsion® (Neurovive)."
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Single bolus of Placebo of CicloMulsion® (Neurovive).",
+          "description": "The matching placebo of CicloMulsion® (Neurovive) is composed with refined Soya-bean oil, medium-chain triglycerides, egg lecithin, water-free glycerol, sodium oleate, sodium hydroxide, water injection. The qualitative composition of CicloMulsion® and its placebo only differ in the presence or absence of Cyclosporine A, so the final emulsions will be visually indistinguishable.\n\nThe placebo use here is ready-to-use lipid emulsions, i.e. do not need any step of preparation or dilution.\n\nThe placebo is provided in colourless glass bottles sealed with a rubber stopper, containing a nominal fill volume of 50 ml.\n\nThe study treatment will be directly taken into the vial and injected via a catheter positioned within an antecubital vein. The injection will be performed slowly over 2 to 3 minutes.",
+          "armGroupLabels": [
+            "Placebo group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Single bolus of cyclosporine A (CicloMulsion®, Neurovive)",
+          "description": "The investigational medicinal product is cyclosporine A (CicloMulsion®, Neurovive).\n\nCyclosporine A is an immunosuppressive treatment usually used in the prevention of acute rejection after organ transplant, including cardiac transplantation. Usual dosages in organ transplantation are about 2.5 mg / kg per day in 2 doses.\n\nCicloMulsion® is ready-to-use lipid emulsions, i.e. do not need any step of preparation or dilution.\n\nProduction blinded labelling, packaging and delivering the study drugs in every participating centre of the trial will be performed by a company following European Union's Good Manufacturing Practice.\n\nCicloMulsion® 5mg/ml is provided in colourless glass bottles sealed with a rubber stopper, containing a nominal fill volume of 50 ml.\n\nThe study treatment will be directly taken into the vial and injected via a catheter positioned within an antecubital vein. The injection will be performed slowly over 2 to 3 minutes.",
+          "armGroupLabels": [
+            "CsA Group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "multiorgan failure evaluated by the SOFA score",
+          "description": "The SOFA clinico-biological score takes into account the respiratory status, cardiac, hepatic, renal, neurological and the biological parameters of coagulation of the patient. This score is spread from 0 to 24 points.",
+          "timeFrame": "At 24 hours after admission"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "multiorgan failure by SOFA score",
+          "description": "The SOFA clinico-biological score takes into account the respiratory status, cardiac, hepatic, renal,neurological and the biological parameters of coagulation of the patient. This score is spread from 0 to 24 points.",
+          "timeFrame": "At 48 hours after admission"
+        },
+        {
+          "measure": "multiorgan failure by SAPSII scores",
+          "description": "The SAPSII score takes into account the hemodynamic, clinical, biological status of the patient. The parameters are : history of patient (type of admission, chronic disease, age), clinical parameters as systolic pressure measurement, heart rate, temperature, urine output of 24 hours and biological parameters as measurement of blood count white, serum total bilirubin, serum urea, serum sodium, serum potassium and bicarbonate level serum. pressure measurement arterial oxygen in arterial blood gases. This score is spread from 0 to 163 points.",
+          "timeFrame": "At 24 hours and at 48 hours"
+        },
+        {
+          "measure": "Cardiac output (CO)",
+          "description": "The hemodynamic changes will be estimated by measuring the cardiac output (CO) obtained by echocardiography.",
+          "timeFrame": "At 24 hours after inclusion"
+        },
+        {
+          "measure": "Reduction of infarct size",
+          "description": "evaluation of the under curve area of serum creatinin kinase (CK) measured during the 72 first hours after admission (12 blood sampling).",
+          "timeFrame": "during the first 72 hours after admission"
+        },
+        {
+          "measure": "Reduction of cardiovascular morbidity and mortality",
+          "description": "The incidence that occurred in one month (D30) of the following clinical criteria will be collected: death, ventricular fibrillation or ventricular tachycardia requiring electrical cardioversion, placed under mechanical cardiac support (other than against drive-by intra-aortic balloon) , reinfarction, hospitalization for heart failure.",
+          "timeFrame": "at 1 month"
+        },
+        {
+          "measure": "Reduction of Left ventricular remodeling",
+          "description": "Left ventricular remodeling will be assessed at 1 month among surviving patients by measurement of left ventricular end-diastolic volume by transthoracic echocardiography",
+          "timeFrame": "at 1 month"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients ( male or female), aged over 18, without any legal protection measure\n* Having a health coverage\n* Presenting within 12 hours of the onset of chest pain, with a ST segment elevation or non ST elevation and for whom the clinical decision was made to treat with percutaneous coronary intervention (PCI) primary or rescue\n* Occlusion of culprit coronary artery (TIMI flow grade = 0 or 1) at the time of admission in the catheterism laboratory\n* Patient presenting a cardiogenic shock defined by a SBP\\<90mmhg for a period over 30 minutes and do not answering to a test of vascular charge associated with signs peripheral hypoperfusion (cold extremities, cyanosis, oliguria with urine output \\<50 ml/h or alteration of higher mental functions).\n* Clear information is delivered to the patient or a legal representative if present and preliminary oral consent obtained, followed by obtaining written consent signed as soon as possible, in accordance with ICH.\n\nNB: Patients undergoing either primary PCI or rescue PCI are eligible for the study.\n\nPatients with previous AMI, PCI or coronary artery bypass surgery (CABG) are eligible for the study.\n\nExclusion Criteria:\n\n* TIMI flow grade \\>1\n* Patients in cardiac arrest\n* Patients with mechanical complication of myocardial infarction at admission (septal, broken pillar cracking or myocardial rupture, tamponade).\n* Patients with other causes of hemodynamic shock: hemorrhagic, septic or anaphylactic.\n* Patients with known hypersensitivity to cyclosporine, hypersensitivity to egg, peanut or Soya-bean proteins\n* Renal insufficiency (either known creatinine clearance \\< 30 ml/min/1.73m² or current medical care for severe renal insufficiency)\n* Patients treated with any compound containing Hypericum perforatum (St. John's Wort) or Stiripentol or Aliskiren or Bosentan or Rosuvastatine\n* Female patients currently pregnant or women of childbearing age who were not using contraception (oral diagnosis).\n* Patients with any disorder associated with immunological dysfunction more recently than 6 months prior to presentation, cancer, lymphoma, known positive serology for HIV, or hepatitis\n* Participation to another clinical trial",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Eric Bonnefoy-Cudraz, MD, PhD",
+          "affiliation": "CHU-Hôpital Cardiologique Louis Pradel BRON",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "CH Pays d'Aix",
+          "city": "Aix-en-Provence",
+          "zip": "13616",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.5283,
+            "lon": 5.44973
+          }
+        },
+        {
+          "facility": "Clinique de La Fourcade",
+          "city": "Bayonne",
+          "zip": "64100",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.49316,
+            "lon": -1.473
+          }
+        },
+        {
+          "facility": "CHU Hopital Cardiologique Louis Pradel",
+          "city": "Bron",
+          "zip": "69677",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.73865,
+            "lon": 4.91303
+          }
+        },
+        {
+          "facility": "Hôpital Gabriel Montpied",
+          "city": "Clermont-Ferrand",
+          "zip": "63003",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.77969,
+            "lon": 3.08682
+          }
+        },
+        {
+          "facility": "Chu Hopital Du Bocage",
+          "city": "Dijon",
+          "zip": "21034",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.31344,
+            "lon": 5.01391
+          }
+        },
+        {
+          "facility": "Chu Hopital A Michallon",
+          "city": "Grenoble",
+          "zip": "38043",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.17869,
+            "lon": 5.71479
+          }
+        },
+        {
+          "facility": "Hopital St Luc St Joseph",
+          "city": "Lyon",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.74906,
+            "lon": 4.84789
+          }
+        },
+        {
+          "facility": "Chu Arnaud de Villeneuve",
+          "city": "Montpellier",
+          "zip": "34295",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.61093,
+            "lon": 3.87635
+          }
+        },
+        {
+          "facility": "Hopital Guillaume Et Rene Laennec",
+          "city": "Nantes",
+          "zip": "44093",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.21725,
+            "lon": -1.55336
+          }
+        },
+        {
+          "facility": "Chu de Nimes",
+          "city": "Nîmes",
+          "zip": "30029",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.83665,
+            "lon": 4.35788
+          }
+        },
+        {
+          "facility": "Aphp Hopital Bichat",
+          "city": "Paris",
+          "zip": "75018",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Centre Hospitalier de Pau",
+          "city": "Pau",
+          "zip": "64011",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.31117,
+            "lon": -0.35583
+          }
+        },
+        {
+          "facility": "Chu de Bordeaux",
+          "city": "Pessac",
+          "zip": "33604",
+          "country": "France",
+          "geoPoint": {
+            "lat": 44.80565,
+            "lon": -0.6324
+          }
+        },
+        {
+          "facility": "Hopital Charles Nicolle",
+          "city": "Rouen",
+          "zip": "76031",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.44313,
+            "lon": 1.09932
+          }
+        },
+        {
+          "facility": "Nouvel Hôpital Civil",
+          "city": "Strasbourg",
+          "zip": "67091",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.58392,
+            "lon": 7.74553
+          }
+        },
+        {
+          "facility": "Chu de Rangueil",
+          "city": "Toulouse",
+          "zip": "31403",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.60426,
+            "lon": 1.44367
+          }
+        },
+        {
+          "facility": "Chru de Tours",
+          "city": "Tours",
+          "zip": "37044",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.39484,
+            "lon": 0.70398
+          }
+        },
+        {
+          "facility": "Chu de Nancy Brabois",
+          "city": "Vandœuvre-lès-Nancy",
+          "zip": "54511",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.66115,
+            "lon": 6.17114
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D012770",
+          "term": "Shock, Cardiogenic"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D012769",
+          "term": "Shock"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

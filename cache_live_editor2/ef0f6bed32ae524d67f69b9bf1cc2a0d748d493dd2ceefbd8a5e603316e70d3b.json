@@ -1,0 +1,399 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07298993",
+      "orgStudyIdInfo": {
+        "id": "24-08027899"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "R01AG091005",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/R01AG091005"
+        }
+      ],
+      "organization": {
+        "fullName": "Weill Medical College of Cornell University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Deprescribing Beta-Blockers in Elders With Heart Failure With Preserved Ejection Fraction (DEPRESCRIBE-HFpEF)",
+      "officialTitle": "Determining Evidence in a Placebo-Controlled, Randomized Experiment Studying Continuation vs. Removal of Inessential Beta-Blockers in Elders With Heart Failure With Preserved Ejection Fraction (DEPRESCRIBE-HFpEF)",
+      "acronym": "DEPRESCRIBE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2029-04",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-04",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-12-19",
+      "studyFirstSubmitQcDate": "2025-12-19",
+      "studyFirstPostDateStruct": {
+        "date": "2025-12-23",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-19",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-23",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Weill Medical College of Cornell University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Institute on Aging (NIA)",
+          "class": "NIH"
+        },
+        {
+          "name": "Kaiser Foundation Research Institute",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this study is to learn whether stopping beta-blockers can help older adults with heart failure with preserved ejection fraction (HFpEF) feel better and function better. This study will test whether \"deprescribing\" or stopping these medications in a careful, guided way can improve symptoms and quality of life.\n\nParticipants will be randomly assigned to one of two groups:\n\nDeprescribing group: Beta-blockers are gradually reduced using capsules that contain decreasing doses.\n\nUsual care group: Beta-blockers are continued at the usual dose in look-alike capsules.\n\nAll participants will:\n\n* Take study medicine for about 4 months\n* Have their blood pressure and heart rate monitored\n* Complete regular phone calls and questionnaires about how they are feeling\n\nThis study does not involve any experimental medication. Participants active involvement in the study will last approximately 4 months. During these 4 months they will have 8 scheduled telephone visits."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure",
+        "HFpEF",
+        "HFpEF - Heart Failure With Preserved Ejection Fraction"
+      ],
+      "keywords": [
+        "Heart Failure",
+        "Heart Failure with Preserved Ejection Fraction",
+        "HFPEF",
+        "Deprescribing"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 240,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Deprescribe",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants will have their beta-blocker replaced with pills that have decreasing amounts of beta-blocker until they are completely off their medicine and taking placebo pills.",
+          "interventionNames": [
+            "Drug: Placebo (matching)"
+          ]
+        },
+        {
+          "label": "Continuation",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants will continue their beta-blocker at their usual dose in capsules that look identical to those used for the deprescribe arm.",
+          "interventionNames": [
+            "Drug: Beta-blockers"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Placebo (matching)",
+          "description": "Beta-blocker dosage will be reduced over the course of 4 weeks until the participant is completely off of beta-blocker and transitioned to matching placebo capsules.",
+          "armGroupLabels": [
+            "Deprescribe"
+          ],
+          "otherNames": [
+            "Deprescribing"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Beta-blockers",
+          "description": "Participants will continue their pre-enrollment beta-blocker at the same dose. The beta-blocker agent may include atenolol, bisoprolol, carvedilol, metoprolol succinate, or metoprolol tartrate. Medication will be provided in matching capsules to maintain blinding.",
+          "armGroupLabels": [
+            "Continuation"
+          ],
+          "otherNames": [
+            "Atenolol",
+            "Bisoprolol",
+            "Carvedilol",
+            "Metoprolol succinate",
+            "Metoprolol tartrate"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The Hierarchical Composite Endpoint",
+          "description": "The primary outcome is net benefit, assessed using a hierarchical composite of four patient-centered outcomes: (1) time to death from any cause, (2) time to all-cause hospitalization, (3) ≥ 5-point difference of KCCQ-12 OSS change from baseline, and (4) ≥ 3-point difference in PROMIS Depression T-score change from baseline",
+          "timeFrame": "From baseline (day 0) to end of the follow-up phase (day 120)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "The change from baseline in patient-reported physical health, as measured by the KCCQ-12",
+          "description": "The Kansas City Cardiomyopathy Questionnaire (KCCQ-12) is a heart failure-specific health status survey. The 12-item questionnaire asks participants to rate their agreement with a series of statements using a six-point Likert scale, ranging from \"completely disagree\" (0) to \"completely agree\" (5). Item responses are summed to generate a total score ranging from 0 to 100, with higher scores indicating better health status.",
+          "timeFrame": "Baseline, Day 120"
+        },
+        {
+          "measure": "The change in patient-reported mental health, as measured by the PROMIS Depression scale",
+          "description": "The PROMIS Depression scale is a validated 4-item patient-reported measure developed by the NIH, with high reliability and responsiveness in older adults. The 4-item questionnaire asks participants to rate their agreement with a series of statements using a six-point Likert scale, ranging from \"never\" (0) to \"always\" (5). Item responses are summed to generate a raw score ranging from 4 to 20, which is then converted to a standardized T-score using PROMIS scoring guidelines. Higher scores indicate greater depressive symptom severity.",
+          "timeFrame": "Baseline, Day 120"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Ambulatory adults age ≥60 years with HFpEF (EF ≥50% based on most recent transthoracic echocardiogram)\n2. Hospitalized with HF in the past 24 months (defined by diagnostic codes in any position)\n3. Taking any of the following ß-blockers: atenolol, bisoprolol, carvedilol, metoprolol succinate, or metoprolol tartrate (i.e., pharmacy prescription data)\n4. Kaiser Permanence Northern California Membership\n\nExclusion Criteria:\n\n1. Alternative etiologies of HFpEF syndrome\n2. Compelling guideline indication for ß-blocker:\n\n   * Prior EF \\<50% (i.e., based on the structured data field on transthoracic echocardiogram)\n   * Current anginal symptoms (i.e., based on the Rose Angina single-question screener for angina)\n   * MI (i.e., diagnostic codes) and/or coronary revascularization (i.e., procedure codes) within 3 years\n   * Hospitalization for a primary discharge diagnosis of atrial fibrillation or atrial flutter in the prior 12 months\n   * Other documented reason in the opinion of the treating provider and/or enrolling clinician-investigator\n3. Evidence of recent decompensated HF\n\n   * Hospitalization for a primary discharge diagnosis of HF within the past 30 days\n   * Change in loop diuretic pharmacy prescription in the past 30 days (i.e. pharmacy prescription data) (Note: This definition is based on documented prescription changes and does not include short-term dose adjustments that were verbally communicated to the patient by their provider.)\n4. Estimated life expectancy \\<6 months (i.e., diagnostic codes)\n5. Diagnosed dementia (i.e.., diagnostic codes)\n6. Unable to provide informed consent\n7. Loss of Kaiser Permanence Northern California Membership",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "60 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Zara Fatima",
+          "role": "CONTACT",
+          "phone": "833-354-8683",
+          "email": "deprescribestudy@kp.org"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Parag Goyal, MD, MSc",
+          "affiliation": "Weill Medical College of Cornell University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Andrew Ambrosy, MD, MPH",
+          "affiliation": "Kaiser Permanente",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Kaiser Permanente Northern California (KPNC)",
+          "city": "Pleasanton",
+          "state": "California",
+          "zip": "94588",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Zara Fatima",
+              "role": "CONTACT",
+              "phone": "937-267-1737",
+              "email": "deprescribestudy@kp.org"
+            },
+            {
+              "name": "Andrew P Ambrosy, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.66243,
+            "lon": -121.87468
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Data collected for this study will be shared only after the publication of findings addressing the study's specific aims. Data generated under this project will be managed in accordance with the policies of Weill Cornell Medicine (WCM) and the NIH, including the NIH Data Sharing Policy and Implementation Guidance. After publication of our main findings, data will be made available for secondary analyses. External researchers may request access to the data by submitting a written proposal outlining the hypotheses to be tested. All data will be de-identified to protect participant confidentiality.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF",
+        "ANALYTIC_CODE"
+      ],
+      "timeFrame": "The data will be shared after we have published the primary results of this study. There is no end date to access the data from the research project.",
+      "accessCriteria": "Researchers granted access to the data will be required to use it solely for research purposes, ensuring that no individual participants are identifiable. They must also implement appropriate security measures, such as using password-protected servers and files, to safeguard the data. Upon completion of the analyses, the data must be returned or destroyed. Released datasets will be subject to stringent safeguards to ensure compliance with the Health Insurance Portability and Accountability Act (HIPAA). Additionally, a data-sharing agreement will be required, specifying that the data is used exclusively for research purposes and that no participants are identifiable. Any additional approvals required by participating institutions, including KPNC, will be obtained. A data management plan will also be necessary to ensure the continued security and confidentiality of the data, as well as to outline the process for returning or destroying the data once the analysis is complete."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000069340",
+          "term": "Deprescriptions"
+        },
+        {
+          "id": "D000319",
+          "term": "Adrenergic beta-Antagonists"
+        },
+        {
+          "id": "D001262",
+          "term": "Atenolol"
+        },
+        {
+          "id": "D017298",
+          "term": "Bisoprolol"
+        },
+        {
+          "id": "D000077261",
+          "term": "Carvedilol"
+        },
+        {
+          "id": "D008790",
+          "term": "Metoprolol"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004358",
+          "term": "Drug Therapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D018674",
+          "term": "Adrenergic Antagonists"
+        },
+        {
+          "id": "D018663",
+          "term": "Adrenergic Agents"
+        },
+        {
+          "id": "D018377",
+          "term": "Neurotransmitter Agents"
+        },
+        {
+          "id": "D045504",
+          "term": "Molecular Mechanisms of Pharmacological Action"
+        },
+        {
+          "id": "D020228",
+          "term": "Pharmacologic Actions"
+        },
+        {
+          "id": "D020164",
+          "term": "Chemical Actions and Uses"
+        },
+        {
+          "id": "D045505",
+          "term": "Physiological Effects of Drugs"
+        },
+        {
+          "id": "D050198",
+          "term": "Phenoxypropanolamines"
+        },
+        {
+          "id": "D011412",
+          "term": "Propanolamines"
+        },
+        {
+          "id": "D000605",
+          "term": "Amino Alcohols"
+        },
+        {
+          "id": "D000438",
+          "term": "Alcohols"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D020005",
+          "term": "Propanols"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        },
+        {
+          "id": "D002227",
+          "term": "Carbazoles"
+        },
+        {
+          "id": "D007211",
+          "term": "Indoles"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D006575",
+          "term": "Heterocyclic Compounds, 3-Ring"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

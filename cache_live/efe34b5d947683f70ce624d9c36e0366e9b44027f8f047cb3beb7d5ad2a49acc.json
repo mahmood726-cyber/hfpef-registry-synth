@@ -1,0 +1,526 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04592445",
+      "orgStudyIdInfo": {
+        "id": "09868"
+      },
+      "organization": {
+        "fullName": "Axon Therapies, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Endovascular Ablation of the Right Greater Splanchnic Nerve in Subjects Having HFpEF",
+      "officialTitle": "ENDOVASCULAR ABLATION OF THE RIGHT GREATER SPLANCHNIC NERVE IN Endovascular Ablation of the Right Greater Splanchnic Nerve in Subjects Having HFpEF: Feasibility Study: Randomized Controlled Feasibility Trial- Rebalance HF Study",
+      "acronym": "Rebalance-HF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-12",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-12-18",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-04",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2023-03",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2020-10-07",
+      "studyFirstSubmitQcDate": "2020-10-13",
+      "studyFirstPostDateStruct": {
+        "date": "2020-10-19",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-12-14",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-01-04",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Axon Therapies, Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUnapprovedDevice": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The objective of this clinical evaluation is to assess the safety and initial effectiveness of catheter-based unilateral ablation of the right greater splanchnic nerve (GSN) in subjects having heart failure with preserved ejection fraction (HFpEF).",
+      "detailedDescription": "This clinical investigation is a prospective, multi-center randomized, sham control, double blinded feasibility clinical study. Both the subject and the noninvasive cardiologist that is caring for the subject will be blinded to the assigned cohort (treatment or sham). The interventional cardiologist who performs the index procedure will not be blinded.\n\nSubjects who meet the eligibility criteria and are enrolled will be randomized 1:1 to either ablation of the right GSN using the Axon System (treatment cohort) or sham (control cohort) at the time of the procedure.\n\nThis study will enroll up to 100 subjects at an anticipated 20 US sites. Subject follow up is at 1, 3, 6, and 12 months"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Preserved Ejection Fraction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Subjects randomized 1:1 (treatment to sham control); cross-over offered",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "Subject and HF Cardiologist providing care are blinded. Interventionalist who performs the Index procedure is not",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 80,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Axon Treatment Arm",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Subjects will receive treatment with the Satera Ablation System following administration of anesthesia access to the R GSN and ablation of the GSN at 1-2 levels will occur.",
+          "interventionNames": [
+            "Device: Satera GSN Ablation"
+          ]
+        },
+        {
+          "label": "Sham Control Arm",
+          "type": "SHAM_COMPARATOR",
+          "description": "Following administration of anesthesia subjects will have femoral vein access only. Procedure choreography to mimic procedure steps and length.",
+          "interventionNames": [
+            "Device: Sham Control"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Satera GSN Ablation",
+          "description": "The Axon procedure consists of a small needle puncture made in the groin to pass standard sheaths, wires, and access devices into the femoral vein, using standard access methods. The right GSN will be ablated transvenously from the right intercostal veins where it crosses at the 10th and 11th thoracic vertebrae from the intercostal vein intersection with the azygos vein. Placement of the access devices and Axon catheter is confirmed using standard fluoroscopic imaging. Once positioning is confirmed, GSN ablation can commence accordingly .",
+          "armGroupLabels": [
+            "Axon Treatment Arm"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Sham Control",
+          "description": "The sham procedure consists of a small needle puncture made in the groin to pass a standard femoral introducer sheath approximately 10 cm into the femoral vein, using standard access methods. The Axon Catheter and associated access accessories will not be inserted into the patient. The sham procedure duration will be similar to the treatment time for subject receiving the Axon therapy (\\~30 minutes).",
+          "armGroupLabels": [
+            "Sham Control Arm"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Primary Outcome Endpoint",
+          "description": "Change in mean PCWP at 1 month follow up evaluated as a repeated measure at rest, legs up and exercise (20W) as compared to the baseline PCWP evaluation. This reduction will be assessed in all subjects (both treated and control) to explore mechanism of action",
+          "timeFrame": "1 Month"
+        },
+        {
+          "measure": "Primary Safety Outcome",
+          "description": "Evaluation of device or procedure-related serious adverse events at 1-month follow up based on Clinical Events Committee (CEC) assessment.",
+          "timeFrame": "1 month"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Secondary Outcome Endpoints",
+          "description": "\\* Quality of Life: Change in KCCQ score evaluated over time from baseline and 1, 3, 6, and 12-months follow up.",
+          "timeFrame": "1, 3, 6, and 12 months"
+        },
+        {
+          "measure": "Secondary Outcome Endpoints",
+          "description": "\\*Change in 6MWT distance evaluated over time from baseline and 1, 3, 6, and 12 months follow up.",
+          "timeFrame": "1, 3, 6, and 12 months"
+        },
+        {
+          "measure": "Secondary Outcome Endpoints",
+          "description": "\\*Incidence of heart failure hospitalization through 12 months",
+          "timeFrame": "1, 3, 6, and 12 months"
+        },
+        {
+          "measure": "Secondary Outcome Endpoints",
+          "description": "\\*Reduction in PCWP at 1 month follow up at rest, legs up, exercise at 20W and peak exercise as compared to the baseline PCWP evaluation.",
+          "timeFrame": "1 month"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Subjects ≥ 40 years of age\n2. Chronic heart failure defined as at least one of the following:\n\n   1. Symptoms of HF requiring current treatment with diuretics (intermittent or continuous) for \\> 30 days, AND\n   2. NYHA class II with a history of \\> NYHA class II in the past year, NYHA class III, or ambulatory NYHA class IV symptoms (paroxysmal nocturnal dyspnea, orthopnea, dyspnea on mild or moderate exertion) at screening; or signs of HF (any rales post cough, chest x-ray demonstrating pulmonary congestion), AND\n   3. \\> 1 HF hospital admission (with HF as the primary, or secondary diagnosis);\n\n      * OR - treatment with intravenous (IV) diuretics, or intensification of oral diuresis for HF in a healthcare facility within the 12 months prior to study entry;\n      * OR - NT-pro BNP value \\> 150 pg/ml in normal sinus rhythm, \\> 450 pg/ml in atrial fibrillation within the past 6 months;\n      * OR - BNP value \\> 50 pg/ml in normal sinus rhythm, \\> 150 pg/ml in atrial fibrillation within the past 6 months.\n3. Ongoing stable GDMT HF management (unless unable to tolerate GDMT) and management of potential comorbidities according to the 2017 ACCF/AHA Guideline for the Management of Heart Failure, with no significant changes \\[\\>100% increase or 50% decrease\\] for a minimum of 1 month prior to screening, that is expected to be maintained without change for at least 3 months.\n4. LVEF ≥ 50 % (site determined by TTE) in the past 3 months.\n5. Site determined elevated PCWP documented by right heart catheterization by PCWP ≥ 25 mmHg during supine ergometer exercise\n\n   a. PCWP to be evaluated by a Swan Ganz procedure performed either prior to the day of the index procedure or on the day of the index procedure\n6. Subject is willing and able to provide appropriate study-specific informed consent, follow protocol procedures, and comply with follow-up visit requirements.\n\nExclusion Criteria:\n\n1. MI (type I) and/or percutaneous cardiac intervention within past 3 months; CABG in past 3 months, or current indication for coronary revascularization.\n2. Cardiac Resynchronization Therapy initiated within the past 3 months prior to screening.\n3. Advanced heart failure defined as one or more of the below:\n\n   1. ACC/AHA/ESC Stage D heart failure, non-ambulatory NYHA Class IV HF\n   2. Cardiac index \\< 2.0 L/min/m2\n   3. Inotropic infusion (continuous or intermittent) for LV EF\\< 30% within the past 6 months prior to screening\n   4. Subject is on the cardiac transplant waiting list\n4. BMI \\> 45 kg/m2\n5. Inability to perform 6-minute walk test (distance \\< 100 meters), OR ability to perform 6-minute walk test distance \\> 450 meters.\n6. Admission for HF within the 30 days prior to planned index procedure.\n7. In the last 3 years an ejection fraction (EF) below 40\n8. Systolic BP \\< 100 mmHg or \\> 170 mmHg despite appropriate medical management.\n9. Symptomatic orthostatic hypotension or orthostatic hypotension requiring treatment (orthostatic hypotension is defined as systolic blood pressure decrease of \\>20mmHg and/or increase in heart rate \\>20 bpm upon going from supine to standing position).\n10. Arterial oxygen saturation \\< 90 % on room air.\n11. Presence of significant valve disease defined by the site cardiologist as:\n\n    1. Mitral valve stenosis defined as \\<1.5 cm2 (or greater than mild)\n    2. Mitral valve regurgitation defined as grade \\> 3+ MR\n    3. Tricuspid valve regurgitation defined as grade \\> 3+ TR\n    4. Aortic valve disease defined as \\> 3+ AR or \\> severe AS\n12. Hypertrophic cardiomyopathy, restrictive cardiomyopathy, constrictive pericarditis, cardiac amyloidosis, or other infiltrative cardiomyopathy (e.g., hemochromatosis, sarcoidosis)\n13. Vessel tortuosity or variant vascular anatomy that could preclude the access or maneuvering of the interventional device from the access site to target vessel. This includes previous spine surgery that may impact the ability to access and treat the target sites of T11 and T10.\n14. Mean resting right atrial pressure (RAP) \\> 20 mmHg based upon screening right heart catheterization.\n15. History of severe liver cirrhosis\n16. Dialysis dependent; or estimated-GFR \\<25 ml/min/1.73 m2 by MDRD equation.\n17. Baseline status of persistent atrial fibrillation with resting HR \\>100 beats per minute that could obfuscate RHC interpretation.\n18. Chronic pulmonary disease requiring continuous home oxygen OR hospitalization for exacerbation (including intubations) in the 12 months before study entry OR known history of GOLD Class II or higher COPD.\n19. Currently participating in conflicting investigational drug or device study.\n20. Life expectancy \\<12 months for non-cardiovascular reasons.\n21. Any condition, or history of illness or surgery that, in the opinion of the Investigator, might confound the results of the study or pose additional risks to the patient.\n22. Females who are not pregnant or lactating and not or planning to become pregnant for the duration of the study during the next year.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "genderBased": true,
+      "minimumAge": "40 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Sierra Yearsley",
+          "role": "CONTACT",
+          "phone": "16508670927",
+          "email": "s.yearsley@axontherapies.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Cardiology PC",
+          "status": "RECRUITING",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35211",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Farrell Mendelsohn, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "Arizona Cardiovascular Research Center",
+          "status": "RECRUITING",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85016",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Vijendra Swarup, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        },
+        {
+          "facility": "Scripps Health",
+          "status": "RECRUITING",
+          "city": "La Jolla",
+          "state": "California",
+          "zip": "92037",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Rajeev Mohan, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Matthew Price, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.84727,
+            "lon": -117.2742
+          }
+        },
+        {
+          "facility": "University of California, San Francisco",
+          "status": "RECRUITING",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94143",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Liviu Klein, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "Bluhm Cardiovascular Institute of Northwestern University",
+          "status": "RECRUITING",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60611",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Ravi Patel, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "University of Chicago Medical Center",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60637",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Sean Pinney, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Prairie Education and Research Cooperative",
+          "status": "RECRUITING",
+          "city": "Springfield",
+          "state": "Illinois",
+          "zip": "62701",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Krishna Rocha-Singh, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.80172,
+            "lon": -89.64371
+          }
+        },
+        {
+          "facility": "Cardiovascular Institute of the South",
+          "status": "RECRUITING",
+          "city": "Houma",
+          "state": "Louisiana",
+          "zip": "70360",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Peter Fail, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.59577,
+            "lon": -90.71953
+          }
+        },
+        {
+          "facility": "Michigan Medicine, University of Michigan",
+          "status": "RECRUITING",
+          "city": "Ann Arbor",
+          "state": "Michigan",
+          "zip": "48109",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Scott Hummel, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.27756,
+            "lon": -83.74088
+          }
+        },
+        {
+          "facility": "Mayo Clinic",
+          "status": "RECRUITING",
+          "city": "Rochester",
+          "state": "Minnesota",
+          "zip": "55905",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Barry Borlaug, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          }
+        },
+        {
+          "facility": "Weill Cornell Medicine",
+          "status": "RECRUITING",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10021",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Parag Goyal, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Icahn School of Medicine at Mount Sinai",
+          "status": "RECRUITING",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10029",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Sumeet Mitter, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Center for Advanced Cardiac Care, Columbia University Medical Center",
+          "status": "RECRUITING",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10032",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Nir Uriel, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Duke University Medical Center",
+          "status": "RECRUITING",
+          "city": "Durham",
+          "state": "North Carolina",
+          "zip": "27710",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Marat Fudim, MD, MHS",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.99403,
+            "lon": -78.89862
+          }
+        },
+        {
+          "facility": "Ohio State University Wexner Medical Center",
+          "status": "RECRUITING",
+          "city": "Columbus",
+          "state": "Ohio",
+          "zip": "43210",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Ralph Augostini, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.96118,
+            "lon": -82.99879
+          }
+        },
+        {
+          "facility": "Medical University of South Carolina, Gazes Cardiac Research Institute",
+          "status": "RECRUITING",
+          "city": "Charleston",
+          "state": "South Carolina",
+          "zip": "29425",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Sheldon Litwin, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.77632,
+            "lon": -79.93275
+          }
+        },
+        {
+          "facility": "Virginia Commonwealth University Medical Center",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Richmond",
+          "state": "Virginia",
+          "zip": "23298",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Keyur Shah, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "39356530",
+          "type": "DERIVED",
+          "citation": "Fudim M, Borlaug BA, Mohan RC, Price MJ, Fail P, Goyal P, Hummel SL, Zirakashvili T, Shaburishvili T, Patel RB, Reddy VY, Nielsen CD, Chetcuti SJ, Sukul D, Gulati R, Kim L, Benzuly K, Mitter SS, Klein L, Uriel N, Augostini RS, Blair JE, Rocha-Singh K, Burkhoff D, Patel MR, Somo SI, Litwin SE, Shah SJ. Endovascular Ablation of the Greater Splanchnic Nerve in Heart Failure With Preserved Ejection Fraction: The REBALANCE-HF Randomized Clinical Trial. JAMA Cardiol. 2024 Dec 1;9(12):1143-1153. doi: 10.1001/jamacardio.2024.2612."
+        },
+        {
+          "pmid": "38211934",
+          "type": "DERIVED",
+          "citation": "Fudim M, Litwin SE, Borlaug BA, Mohan RC, Price MJ, Fail P, Zirakashvili T, Shaburishvili T, Goyal P, Hummel SL, Patel RB, Reddy VY, Burkhoff D, Patel MR, Somo SI, Shah SJ. Endovascular Ablation of the Right Greater Splanchnic Nerve in Heart Failure With Preserved Ejection Fraction: Rationale, Design and Lead-in Phase Results of the REBALANCE-HF Trial. J Card Fail. 2024 Jul;30(7):877-889. doi: 10.1016/j.cardfail.2023.12.010. Epub 2024 Jan 9."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    }
+  },
+  "hasResults": false
+}

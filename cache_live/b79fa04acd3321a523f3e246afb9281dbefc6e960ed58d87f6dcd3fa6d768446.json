@@ -1,0 +1,367 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05057806",
+      "orgStudyIdInfo": {
+        "id": "HSC20210528H"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2021176",
+          "type": "OTHER_GRANT",
+          "domain": "Doris Duke Charitable Foundation"
+        }
+      ],
+      "organization": {
+        "fullName": "The University of Texas Health Science Center at San Antonio",
+        "class": "OTHER"
+      },
+      "briefTitle": "SGLT2 Inhibitors, Ketones, and Cardiovascular Benefit Research Plan",
+      "officialTitle": "Sodium-glucose Cotransporter-2 (SGLT2) Inhibitors, Ketones, and Cardiovascular Benefit Research Plan"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-03",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-01-13",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-11-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-03-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-09-15",
+      "studyFirstSubmitQcDate": "2021-09-15",
+      "studyFirstPostDateStruct": {
+        "date": "2021-09-27",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-03-25",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-03-30",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "The University of Texas Health Science Center at San Antonio",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Doris Duke Charitable Foundation",
+          "class": "OTHER"
+        },
+        {
+          "name": "Max and Minnie Tomerlin Voelcker Fund",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The study team will examine the effects of SGLT2i (and SGLT2i-induced increases in plasma ketone concentrations) on skeletal muscle and cardiac ketone uptake, skeletal muscle bioenergetics, cardiopulmonary exercise capacity, and patient-reported functional outcomes.",
+      "detailedDescription": "The study team will examine effects of elevated plasma ketones caused by 12-week treatment with an SGLT2i (empagliflozin) treatment in participants with T2DM and HF. The study team will focus on three possible mechanisms of action for these effects and test the following:\n\n(i) Skeletal muscle bioenergetics. Using 31P-MRS, the team will quantitate phosphocreatine \\[PCr\\], ATP, inorganic phosphate, phosphodiester, and intracellular pH. With 1H-MRS, and will measure intramyocellular lipid content at rest and ATPmax production after exercise. The team will examine the relationships between phosphorous metabolite concentrations, intramyocellular lipid content, and ATP generation before and after 12 weeks of SGLT2 inhibition.\n\n(ii) Cardiopulmonary functional capacity.\n\n(iii) Improvements in Patient-Reported Outcomes (PRO). The Patient-Reported Outcomes Measure Information System (PROMIS) Item Bank v2.0 - Physical Function - Short Form 20a will be used to evaluate self-reported physical function and well-being. This tool is a well-developed and validated method to obtain patient self-reported parameters of health in adults."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type2 Diabetes",
+        "Heart Failure With Preserved Ejection Fraction"
+      ],
+      "keywords": [
+        "Ketones",
+        "Cardiovascular benefit"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "A randomized (2:1) placebo controlled double blind study",
+        "primaryPurpose": "BASIC_SCIENCE",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "Participants and investigators will be blinded to the randomization.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 30,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Empagliflozin Group",
+          "type": "EXPERIMENTAL",
+          "description": "Subjects will be randomized 2:1 to receive empagliflozin, 25mg/day for 3 months",
+          "interventionNames": [
+            "Drug: Empagliflozin 25 MG"
+          ]
+        },
+        {
+          "label": "Placebo group",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Subjects will be randomized to receive the empagliflozin placebo for 3 months",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Empagliflozin 25 MG",
+          "description": "Empagliflozin 25MG will be administered orally once per day for 3 months",
+          "armGroupLabels": [
+            "Empagliflozin Group"
+          ],
+          "otherNames": [
+            "Jardiance"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "The placebo will be administered orally once per day for 3 months",
+          "armGroupLabels": [
+            "Placebo group"
+          ],
+          "otherNames": [
+            "Placebo for Empagliflozin"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Phosphocreatine",
+          "description": "A measure of phosphocreatine change from baseline to study end",
+          "timeFrame": "Baseline to 3 months"
+        },
+        {
+          "measure": "Change in Adenosine Triphosphate (ATP)",
+          "description": "A measure of ATP change from baseline to study end",
+          "timeFrame": "Baseline to 3 months"
+        },
+        {
+          "measure": "Change in Inorganic Phosphate",
+          "description": "A measure of inorganic phosphate change from baseline to study end",
+          "timeFrame": "Baseline to 3 months"
+        },
+        {
+          "measure": "Change in Phosphodiester",
+          "description": "A measure of phosphodiester change from baseline to study end",
+          "timeFrame": "Baseline to 3 months"
+        },
+        {
+          "measure": "ATPmax production",
+          "description": "Exercise induced ATPmax production change",
+          "timeFrame": "Baseline to 3 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Plasma Beta-hydroxybutyrate (β-OH-B)",
+          "description": "Change in β-OH-B",
+          "timeFrame": "Baseline to 3 months"
+        },
+        {
+          "measure": "Acetoacetate concentrations",
+          "description": "Change in acetoacetate concentrations",
+          "timeFrame": "Baseline to 3 months"
+        },
+        {
+          "measure": "Cardiopulmonary Function",
+          "description": "Change in cardiopulmonary functional capacity using oxygen uptake (VO2)",
+          "timeFrame": "Baseline to 3 months"
+        },
+        {
+          "measure": "6 minute walk test",
+          "description": "Change in the distance that can be covered in a 6 minute walk test",
+          "timeFrame": "Baseline to 3 months"
+        },
+        {
+          "measure": "Patient-Reported Outcomes Measure Information System (PROMIS)",
+          "description": "Change in Physical function will be assessed by the PROMIS Item band v2.0 -Physical Function -Short Form 20a to evaluate patient-reported outcomes of physical function and well being.",
+          "timeFrame": "Baseline to 3 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Type 2 Diabetes Mellitus\n* Class II-III New York Heart Association (NYHA) heart failure and reduced ejection fraction (EF) \\<50%\n* Age 18-80 years\n* BMI 23-38 kg/m2\n* Glycated hemoglobin (HbA1c) 5.5-10%\n* Blood Pressure (BP) ≤ 145/85 mmHg\n* Estimated glomerular filtration rate (eGFR) ≥30 ml/min•1.73 m2\n* Stable dose of guideline-directed medications for heart failure and Diabetes\n* Stable body weight (±4 pounds) over the last 3 months\n* Does not suffer from severe claustrophobia\n* No contraindication for MRI (metal plates, screws, shrapnel, pins, or cardiac pacemaker)\n\nExclusion Criteria:\n\n* Subjects treated with an SGLT2 inhibitor, a glucagon-like peptide-1 receptor agonist (GLP-1 RA) or pioglitazone\n* Pregnancy, lactation or plans to become pregnant\n* Allergy/sensitivity to study drugs or their ingredients\n* Cancer\n* Current drug or alcohol use or dependence\n* Inability or unwillingness of individual or legal guardian/representative to give written informed consent",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Carolina Solis-Herrera, MD",
+          "role": "CONTACT",
+          "phone": "210-567-4900",
+          "email": "solisherrera@uthscsa.edu"
+        },
+        {
+          "name": "Yuejuan Qin, PhD",
+          "role": "CONTACT",
+          "phone": "210-358-7200",
+          "email": "qiny@uthscsa.edu"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Carolina Solis-Herrera, MD",
+          "affiliation": "University of Texas Health Science Center San Antonio",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Texas Diabetes Institute - University Health System",
+          "status": "RECRUITING",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78207",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Yuejuan Qin, PhD",
+              "role": "CONTACT",
+              "phone": "210-358-7200",
+              "email": "Qiny@uthscsa.edu"
+            },
+            {
+              "name": "Sivaram Neppala, MD",
+              "role": "CONTACT",
+              "phone": "210-358-7200",
+              "email": "neppalas@uthscsa.edu"
+            },
+            {
+              "name": "Ralph DeFronzo, MD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Carolina Solis-Herrera, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        },
+        {
+          "facility": "University of Texas Health Science Center at San Antonio",
+          "status": "RECRUITING",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78229",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Carolina Solis-Herrera, MD",
+              "role": "CONTACT",
+              "phone": "210-567-4800",
+              "email": "solisherrera@uthscsa.edu"
+            },
+            {
+              "name": "Yuejuan Qin, PhD",
+              "role": "CONTACT",
+              "phone": "210-358-7200",
+              "email": "qiny@uthscsa.edu"
+            },
+            {
+              "name": "Ralph DeFronzo, MD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Carolina Solis-Herrera, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "The PI will actively participate in journal clubs and symposia and present abstracts at national meetings, as well as submitting manuscripts to top peer-reviewed journals.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP"
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D007662",
+          "term": "Ketosis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000138",
+          "term": "Acidosis"
+        },
+        {
+          "id": "D000137",
+          "term": "Acid-Base Imbalance"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C570240",
+          "term": "empagliflozin"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

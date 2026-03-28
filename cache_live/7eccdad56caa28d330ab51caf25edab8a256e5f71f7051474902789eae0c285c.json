@@ -1,0 +1,338 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00170313",
+      "orgStudyIdInfo": {
+        "id": "CEN_G_CA_6"
+      },
+      "organization": {
+        "fullName": "Medtronic Cardiac Rhythm and Heart Failure",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "CORE: Study to Evaluate the Conducted AF-Response-Algorithm in Patients Suffering From Heart Failure and Atrial Fibrillation",
+      "officialTitle": "Conducted AF-Response Study (Study to Evaluate the Conducted AF-Response-Algorithm in Patients Suffering From Heart Failure and Atrial Fibrillation Treated With InSync III Marquis)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2017-01",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Ventricular rate during AF in CRT-patients much lower than expected",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2003-12"
+      },
+      "completionDateStruct": {
+        "date": "2007-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2005-09-13",
+      "studyFirstSubmitQcDate": "2005-09-13",
+      "studyFirstPostDateStruct": {
+        "date": "2005-09-15",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2025-06-30",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-07-03",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Medtronic Cardiac Rhythm and Heart Failure",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Medtronic",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The Medtronic InSync III Marquis Cardiac Resynchronization Therapy Defibrillator (CRT-D)-System (implantable cardioverter-defibrillator with biventricular stimulation for cardiac resynchronization) is equipped with the \"Conducted-Atrial Fibrillation (AF)-Response-Algorithm (CAFR)\". This algorithm is designed to maximize biventricular stimulation and thus the amount of cardiac resynchronization when atrial fibrillation occurs. The goal of the study is the evaluation of the effect of the CAFR in CRT-patients suffering from atrial fibrillation by quantification of the increase of biventricular pacing during atrial fibrillation caused by CAFR as well as the influence of the CAFR on the ventricular heart rate."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure",
+        "Sudden Cardiac Death",
+        "Atrial Fibrillation"
+      ],
+      "keywords": [
+        "Heart Failure",
+        "Primary Prevention of Sudden Cardiac Death",
+        "Secondary Prevention of Sudden Cardiac Death",
+        "Cardiac Desynchronization",
+        "CRT-D",
+        "Cardiac Dyssynchrony"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Conducted AF-Response Algorithm (CAFR) On",
+          "type": "EXPERIMENTAL",
+          "description": "CAFR: On\n\n* Level medium\n* Max. Rate: 110ppm VSR: Off",
+          "interventionNames": [
+            "Device: Conducted AF-Response Algorithm (CAFR) On"
+          ]
+        },
+        {
+          "label": "Conducted AF-Response Algorithm (CAFR) Off",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "CAFR: Off VSR: Off",
+          "interventionNames": [
+            "Device: Conducted AF-Response Algorithm (CAFR) Off"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Conducted AF-Response Algorithm (CAFR) On",
+          "description": "Algorithm will be enabled.",
+          "armGroupLabels": [
+            "Conducted AF-Response Algorithm (CAFR) On"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Conducted AF-Response Algorithm (CAFR) Off",
+          "description": "Algorithm will be disabled.",
+          "armGroupLabels": [
+            "Conducted AF-Response Algorithm (CAFR) Off"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Amount of biventricular pacing in ON-group compared to OFF-group",
+          "timeFrame": "1 month post-implant to 12 months post-implant"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Influence of the conducted AF response algorithm on the ventricular heart rate during atrial fibrillation",
+          "timeFrame": "1 month post-implant to 12 months post-implant"
+        },
+        {
+          "measure": "Amount of patients who will be free from AF during the study",
+          "timeFrame": "Implant to 12 months post-implant"
+        },
+        {
+          "measure": "Amount of hospitalizations due to heart failure (amount and duration in days)",
+          "timeFrame": "Implant to 12 months post-implant"
+        },
+        {
+          "measure": "Occurrence and evaluation of rhythm disturbances: atrial arrhythmias (atrial tachyarrhythmia [AT]/AF episodes [h/day])",
+          "timeFrame": "Implant to 12 months post-implant"
+        },
+        {
+          "measure": "Occurrence and evaluation of rhythm disturbances: ventricular arrhythmias",
+          "timeFrame": "Implant to 12 months post-implant"
+        },
+        {
+          "measure": "Characterization of the heart failure (HF)-patient population by means of: echocardiography [left ventricular ejection fraction (LVEF [%])",
+          "timeFrame": "Implant to 12 months post-implant"
+        },
+        {
+          "measure": "Characterization of the heart failure (HF)-patient population by means of: left ventricular end diastolic diameter (LVEDD [mm])",
+          "timeFrame": "Implant to 12 months post-implant"
+        },
+        {
+          "measure": "Characterization of the heart failure (HF)-patient population by means of: left ventricular end systolic diameter (LVESD [mm])",
+          "timeFrame": "Implant to 12 months post-implant"
+        },
+        {
+          "measure": "Characterization of the heart failure (HF)-patient population by means of: left atrial end diastolic diameter (LAEDD [mm])]",
+          "timeFrame": "Implant to 12 months post-implant"
+        },
+        {
+          "measure": "Characterization of the heart failure (HF)-patient population by means of: New York Heart Association (NYHA) classification",
+          "timeFrame": "Implant to 12 months post-implant"
+        },
+        {
+          "measure": "Characterization of the heart failure (HF)-patient population by means of: 6-minute walk test",
+          "timeFrame": "Implant to 12 months post-implant"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Implant of a Medtronic InSync III Marquis (7279) or later system with Conducted AF-Response\n\nExclusion Criteria:\n\n* Medical reasons that are adverse to participation in the study and compliance by the patient\n* Patients who are enrolled in another study or plan to be enrolled into another study\n* Pregnant patients or patients who are possibly pregnant due to an unreliable form of contraception",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Christian Perings, MD",
+          "affiliation": "Marien-Hospital Herne",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Universitätsklinikum Aachen",
+          "city": "Aachen",
+          "zip": "52066",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.77664,
+            "lon": 6.08342
+          }
+        },
+        {
+          "facility": "Berufsgenossenschaftliche Kliniken Bergmannsheil",
+          "city": "Bochum",
+          "zip": "44789",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.48165,
+            "lon": 7.21648
+          }
+        },
+        {
+          "facility": "Evangelisches und Johanniter Klinikum Duisburg / Dinslaken / Oberhausen GmbH",
+          "city": "Duisburg",
+          "zip": "47137",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.43247,
+            "lon": 6.76516
+          }
+        },
+        {
+          "facility": "Klinikum der Justus-Liebig-Universität",
+          "city": "Giessen",
+          "zip": "35385",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.58727,
+            "lon": 8.67554
+          }
+        },
+        {
+          "facility": "Medizinische Hochschule Hannover",
+          "city": "Hanover",
+          "zip": "30625",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.37052,
+            "lon": 9.73322
+          }
+        },
+        {
+          "facility": "Marien-Hospital Herne",
+          "city": "Herne",
+          "zip": "44625",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.5388,
+            "lon": 7.22572
+          }
+        },
+        {
+          "facility": "Klinikum Siegburg Rhein-Sieg GmbH Krankenhaus und Herzzentrum Siegburg",
+          "city": "Siegburg",
+          "zip": "53721",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.80019,
+            "lon": 7.20769
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D016757",
+          "term": "Death, Sudden, Cardiac"
+        },
+        {
+          "id": "D001281",
+          "term": "Atrial Fibrillation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D006323",
+          "term": "Heart Arrest"
+        },
+        {
+          "id": "D003645",
+          "term": "Death, Sudden"
+        },
+        {
+          "id": "D003643",
+          "term": "Death"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D001145",
+          "term": "Arrhythmias, Cardiac"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

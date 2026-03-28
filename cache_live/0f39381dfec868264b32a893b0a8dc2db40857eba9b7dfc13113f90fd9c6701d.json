@@ -1,0 +1,268 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04157660",
+      "orgStudyIdInfo": {
+        "id": "KEK-ZH-NR. 2012-0251_3"
+      },
+      "organization": {
+        "fullName": "University of Zurich",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effect of Short-term Oxygen During CPET in HFpEF",
+      "officialTitle": "Effect of Short-term Ambulatory Oxygen Therapy on Cardiopulmonary Exercise Capacity (CPET) in Patients With Heart Failure With Preserved Ejection Fraction (HFpEF)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-03",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-09-12",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-12-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-12-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-08-30",
+      "studyFirstSubmitQcDate": "2019-11-07",
+      "studyFirstPostDateStruct": {
+        "date": "2019-11-08",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-03-11",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-03-12",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Zurich",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "In a randomized, sham-controlled crossover trial the investigators will test whether supplemental oxygen given during cardiopulmonary exercise testing will improve exercise performance and physiological parameters in patients with heart failure with preserved ejection fraction."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure, Diastolic (HFpEF)"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 10,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Supplemental oxygen",
+          "type": "EXPERIMENTAL",
+          "description": "Supplemental oxygen will be applied via a mask during CPET",
+          "interventionNames": [
+            "Procedure: Oxygen application"
+          ]
+        },
+        {
+          "label": "Sham room air",
+          "type": "SHAM_COMPARATOR",
+          "description": "Room air will be applied similarly to oxygen",
+          "interventionNames": [
+            "Procedure: Sham room air"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "Oxygen application",
+          "description": "Oxygen application Supplemental oxygen via mask",
+          "armGroupLabels": [
+            "Supplemental oxygen"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Sham room air",
+          "description": "Room air will be applied via mask",
+          "armGroupLabels": [
+            "Sham room air"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Work Rate (Watt)",
+          "description": "Maximal Work Rate (Watt max) measured during cardiopulmonary exercise test oxygen vs. room air",
+          "timeFrame": "1 day"
+        },
+        {
+          "measure": "Endurance Time (s)",
+          "description": "Endurance (s) with 75% Wmax measured during cardiopulmonary exercise test oxygen vs. room air",
+          "timeFrame": "1 day"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Peak Oxygen uptake (VO2 max)",
+          "description": "measured during cardiopulmonary exercise test oxygen vs. room air",
+          "timeFrame": "1 day"
+        },
+        {
+          "measure": "Respiratory Exchange Ratio (RER)",
+          "description": "measured during cardiopulmonary exercise test oxygen vs. room air",
+          "timeFrame": "1 day"
+        },
+        {
+          "measure": "Changes in arterial blood parameters (pH)",
+          "description": "measured during cardiopulmonary exercise test oxygen vs. room air",
+          "timeFrame": "1 day"
+        },
+        {
+          "measure": "Changes in arterial blood parameters (PaO2)",
+          "description": "measured during cardiopulmonary exercise test oxygen vs. room air",
+          "timeFrame": "1 day"
+        },
+        {
+          "measure": "Changes in arterial blood parameters (PaCO2)",
+          "description": "measured during cardiopulmonary exercise test oxygen vs. room air",
+          "timeFrame": "1 day"
+        },
+        {
+          "measure": "Changes in arterial blood parameters (Lactat)",
+          "description": "measured during cardiopulmonary exercise test oxygen vs. room air",
+          "timeFrame": "1 day"
+        },
+        {
+          "measure": "Changes in arterial blood parameters (Bicarbonate)",
+          "description": "measured during cardiopulmonary exercise test oxygen vs. room air",
+          "timeFrame": "1 day"
+        },
+        {
+          "measure": "muscle tissue oxygen",
+          "description": "Oxygen Saturation in the muscle measured with near-infrared spectroscopy oxygen vs. room air",
+          "timeFrame": "1 day"
+        },
+        {
+          "measure": "cerebral tissue oxygen",
+          "description": "Oxygen Saturation in the brain measured with near-infrared spectroscopy oxygen vs. room air",
+          "timeFrame": "1 day"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* HFpEF, stable medication for at least 4 weeks.\n\nExclusion Criteria:\n\n* instable status, pregnancy, clinically relevant concomitant diseases, inability to follow the study procedures",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Silvia Ulrich Somaini, Prof. Dr.",
+          "affiliation": "University Hospital Zurich, Division of Pneumology",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University Hospital Zurich, Division of Pneumology",
+          "city": "Zurich",
+          "zip": "8091",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.36667,
+            "lon": 8.55
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "34395475",
+          "type": "DERIVED",
+          "citation": "Muller J, Lichtblau M, Saxer S, Calendo LR, Carta AF, Schneider SR, Berlier C, Furian M, Bloch KE, Schwarz EI, Ulrich S. Effect of Breathing Oxygen-Enriched Air on Exercise Performance in Patients With Pulmonary Hypertension Due to Heart Failure With Preserved Ejection Fraction: A Randomized, Placebo-Controlled, Crossover Trial. Front Med (Lausanne). 2021 Jul 28;8:692029. doi: 10.3389/fmed.2021.692029. eCollection 2021."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D006337",
+          "term": "Heart Murmurs"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

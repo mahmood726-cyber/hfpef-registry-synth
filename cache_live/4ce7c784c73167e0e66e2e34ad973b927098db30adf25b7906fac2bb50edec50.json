@@ -1,0 +1,301 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03294811",
+      "orgStudyIdInfo": {
+        "id": "Cardiocoach"
+      },
+      "organization": {
+        "fullName": "Hasselt University",
+        "class": "OTHER"
+      },
+      "briefTitle": "A Two-way Communication System to Coach Elderly Patients With Heart Failure",
+      "officialTitle": "CARDIOCOACH: Development of an Intelligent Two-way Communication System to Coach Elderly Patients With Heart Failure in Their Home Situation",
+      "acronym": "CardioCoach"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2019-05",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2014-05-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2016-12-15",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2018-04-04",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2014-05-20",
+      "studyFirstSubmitQcDate": "2017-09-26",
+      "studyFirstPostDateStruct": {
+        "date": "2017-09-27",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2019-05-10",
+      "lastUpdatePostDateStruct": {
+        "date": "2019-05-13",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Pieter Vandervoort",
+        "investigatorTitle": "prof. dr.",
+        "investigatorAffiliation": "Hasselt University"
+      },
+      "leadSponsor": {
+        "name": "Hasselt University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Ziekenhuis Oost-Limburg",
+          "class": "OTHER"
+        },
+        {
+          "name": "Jessa Hospital",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is an open randomized clinical trial with two study arms. One group, receiving usual care for heart failure, will be compared to another group, receiving usual care plus active telemonitoring interference.\n\nWhen leaving the hospital, the usual care arm receives a document with a predefined medication scheme and advice for the general practitioner (like it is currently done in usual care).\n\nThe telemonitoring interference in the other study arm consists of a smartphone application to register medication intake and to transmit the data of an automatic blood pressure device and a balance to a central platform. The goal is to improve medication uptitration (angiotensin-converting-enzyme inhibitor (ACE-I) and bètablockers (BB)) in heart failure patients and to improve medication compliance."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 25,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Telemonitoring group",
+          "type": "EXPERIMENTAL",
+          "description": "Recieve a smartphone with an application to coach them, a blood pressure monitor and scale.",
+          "interventionNames": [
+            "Device: Telemonitoring"
+          ]
+        },
+        {
+          "label": "Control group",
+          "type": "NO_INTERVENTION",
+          "description": "Control group (usual care, without telemonitoring)"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Telemonitoring",
+          "description": "The telemonitoring interference in the telemonitoring arm consists of a smartphone application that helps the patient to take their medication in time and to take their blood pressure and weight on a daily basis in order to improve the medication uptitration and medication compliance.",
+          "armGroupLabels": [
+            "Telemonitoring group"
+          ],
+          "otherNames": [
+            "Telemedicine",
+            "remote monitoring",
+            "remote follow-up"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Mean medication doses",
+          "description": "Mean daily doses of ACE-inhibitors/ARB's, β blokkers and Aldosteron antagonists after 3 months. This is estimated by registration of the types of medication, the corresponding doses and the frequency of intake.",
+          "timeFrame": "3 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Medication titration",
+          "description": "Mean daily doses of ACE-inhibitors/ARB's, β blokkers and Aldosteron antagonists after 6 months. This is estimated by registration of the types of medication, the corresponding doses and the frequency of intake.",
+          "timeFrame": "after month 6"
+        },
+        {
+          "measure": "All-cause mortality",
+          "description": "All-cause mortality",
+          "timeFrame": "up to month 6"
+        },
+        {
+          "measure": "All cardio related hospitalizations (number and time)",
+          "description": "* Arrythmogenic nature\n* Ischemic nature\n* Heart failure nature\n* Valvular/surgical nature\n* Elektrofysiological nature (implantation ICD, CRT,…)",
+          "timeFrame": "up to month 6"
+        },
+        {
+          "measure": "All heart failure hospitalizations",
+          "description": "* Treatment with (whether or not intravenous) diuretic therapy\n* Treatment with hemodynamic guided therapy (vasodilators)\n* Treatment with intravenous inotropics",
+          "timeFrame": "up to month 6"
+        },
+        {
+          "measure": "Number of medical practitioner-patient contacts",
+          "description": "* In hospital (medical record)\n* General practitioner\n* At patient home (Remedus)",
+          "timeFrame": "up to month 6"
+        },
+        {
+          "measure": "Number of (telephone) contacts, registered by the heart failure nurse",
+          "description": "Number of (telephone) contacts, registered by the heart failure nurse",
+          "timeFrame": "up to month 6"
+        },
+        {
+          "measure": "Number of (telephone) contacts for the encouragement of medication compliance and parameter (Remedus)",
+          "description": "Number of (telephone) contacts for the encouragement of medication compliance (Remedus)",
+          "timeFrame": "up to month 6"
+        },
+        {
+          "measure": "Evolution of heart failure and comorbidities",
+          "description": "* Blood collection with: kidney function determinations, electrolytes\n* Echo parameters (cardiac output, LVEF, diameters end systolic and diastolic)\n* Weight, length, blood pressure, ECG",
+          "timeFrame": "up to month 6"
+        },
+        {
+          "measure": "Quality of life according to the HeartQoL questionnaire",
+          "description": "Quality of life according to the HeartQoL questionnaire",
+          "timeFrame": "day 1, month 6"
+        },
+        {
+          "measure": "Satisfaction survey",
+          "description": "Satisfaction survey about the received care (anonymous) for the cardiocoach group.",
+          "timeFrame": "month 6"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age ≥ 60\n* Patient has to be followed in Ziekenhuis Oost-Limburg or Jessa Ziekenhuis Hasselt and has to live in the region Genk - Hasselt\n* The patient has to be cognitive strong enough and speak enough Dutch to communicate about their health situation and to understand the smartphone application\n* The diagnosis of systolic heart failure or severe myocardial infarction has to be done during consultation or hospitalization\n* Left ventricular ejection fraction (LVEF) \\<45%\n* Treatment minimally with ACE-I and BB On the basis of an interview between the heart failure nurse and patient, one will decide if the patient is eligible to join the study. The patient also needs to speak sufficient Dutch to be communicative about his/her medical condition.\n\nExclusion Criteria:\n\n* Reversible form of heart failure\n* Heart failure due to severe aortic stenosis\n* At the time of inclusion a eGFR less than 30ml/min/kg\n* Presence of a cardiac resynchronization therapy (CRT) device\n* Active treatment with either ACE-I/ARB or BB\n* Patient that are subscribed in a cardiac revalidation program when leaving the hospital\n* Patients with severe form of COPD (GOLD III)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "60 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Vandervoort Pieter, MD, PhD",
+          "affiliation": "Ziekenhuis Oost-Limburg",
+          "role": "STUDY_DIRECTOR"
+        },
+        {
+          "name": "Paul Dendale, MD, PhD",
+          "affiliation": "Jessa Ziekenhuis, Hasselt, Belgium",
+          "role": "STUDY_DIRECTOR"
+        },
+        {
+          "name": "Jo Ravelingen",
+          "affiliation": "Remedus, Aartselaar, Belgium",
+          "role": "STUDY_DIRECTOR"
+        },
+        {
+          "name": "Peter Van Vooren",
+          "affiliation": "Fifthplay, Antwerpen, Belgium",
+          "role": "STUDY_DIRECTOR"
+        },
+        {
+          "name": "Valerie Storms, PhD",
+          "affiliation": "Mobile Health Unit, Hasselt University, Hasselt, Belgium",
+          "role": "STUDY_DIRECTOR"
+        },
+        {
+          "name": "Lars Grieten, PhD",
+          "affiliation": "Mobile Health Unit, Hasselt University, Hasselt, Belgium",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Christophe Smeets, PhD student",
+          "affiliation": "Mobile Health Unit, Hasselt University, Hasselt, Belgium",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Ziekenhuis Oost-Limburg",
+          "city": "Genk",
+          "zip": "3600",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.965,
+            "lon": 5.50082
+          }
+        },
+        {
+          "facility": "Jessa Ziekenhuis",
+          "city": "Hasselt",
+          "zip": "3500",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.93106,
+            "lon": 5.33781
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "31758773",
+          "type": "DERIVED",
+          "citation": "Smeets CJ, Storms V, Vandervoort PM, Dreesen P, Vranken J, Houbrechts M, Goris H, Grieten L, Dendale P. A Novel Intelligent Two-Way Communication System for Remote Heart Failure Medication Uptitration (the CardioCoach Study): Randomized Controlled Feasibility Trial. JMIR Cardio. 2018 Apr 4;2(1):e8. doi: 10.2196/cardio.9153."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,256 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07324421",
+      "orgStudyIdInfo": {
+        "id": "2025-A00023-46"
+      },
+      "organization": {
+        "fullName": "Resolve Stroke",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Comparison of Ultrasound Cerebral Perfusion Imaging With Routine Perfusion CT",
+      "officialTitle": "Prospective Monocentric Study Comparing Cerebral Perfusion Parameters From an ULtrasonic Imaging System With Measures Provided by Clinical Routine Perfusion CT",
+      "acronym": "SCULPT"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-10-25",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-06-04",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-08-15",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-10-01",
+      "studyFirstSubmitQcDate": "2025-12-23",
+      "studyFirstPostDateStruct": {
+        "date": "2026-01-07",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-23",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-07",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Resolve Stroke",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The primary goal of neurocritical care is to prevent secondary brain injury, which worsens neurological outcomes. Because clinical monitoring is often insufficient due to the patient's condition and medical treatments, multimodal monitoring using biophysical, electrophysiological, and imaging data is essential. In patients with subarachnoid hemorrhage (SAH), the most frequent and severe complication is delayed cerebral ischemia, often linked to arterial vasospasm and potentially leading to infarction. Early diagnosis combines transcranial Doppler (TCD), sensitive to vasospasm, with perfusion CT (CTP), which measures cerebral perfusion; this approach guides therapy and improves prognosis. Ultrasound, especially when enhanced with contrast agents (CEUS), allows non-invasive, bedside, repeated visualization of cerebral blood flow and perfusion-even through the skull. Agents like SonoVue® help quantify perfusion using time-intensity curves. The study aims to assess whether cerebral perfusion measurements from the SYLVER device are equivalent to those from CTP in ICU or CCU patients."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Neuro ICU",
+        "Sub Arachnoid Hemorrhage",
+        "Neurological Complication",
+        "Cerebral Ischemia",
+        "Brain Injuries, Vascular"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "DIAGNOSTIC",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 50,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Patients admitted to the ICU or CCU",
+          "type": "EXPERIMENTAL",
+          "description": "Indication for at least one CTP to assess the risk of cerebral hypoperfusion.",
+          "interventionNames": [
+            "Device: Ultrasound contrast agent (Contrast-enhanced ultrasound)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Ultrasound contrast agent (Contrast-enhanced ultrasound)",
+          "description": "The V0 (screening) visit occurs during ICU/CCU hospitalization, with routine clinical exam, eligibility check, and informed consent from the patient or a relative. Assessments include demographics, medical history, clinical exam, treatments, cerebral perfusion by CTP, anatomy by CTA, SYLVER perfusion/anatomy, TCD velocities, and AE/device deficiency recording. V0 lasts \\~30 min. V1 (Day 1 or possibly Day 0 in urgent cases) includes clinical exam, TCD, CTP/CTA, and SYLVER use (\\~30 min extra; total \\~1h30). Imaging order is flexible but times are logged. V2-V5 occur if, by Day 21, ICU/CCU stay continues and care requires further CTP for suspected hypoperfusion (max once/day).",
+          "armGroupLabels": [
+            "Patients admitted to the ICU or CCU"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Performance of SYLVER system by determining the concordance with CT for principal vascular network localization and perfusion parameters.",
+          "description": "On all the patients recruited during the study, assess the performance of the SYLVER system by determining the concordance between the cerebral perfusion parameters from the evaluated medical device and those provided by CTP.",
+          "timeFrame": "The primary outcome will be measured by gathering Perfusion CT and study device's information (anatomical and perfusion mapping) at each visit in which the patient can be enrolled, from V0 to V5 (maximum) and for 21 days inclusion maximum."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Calibration Function Between SYLVER Perfusion Metrics and CTP Measurements",
+          "description": "Mathematical calibration function describing the relationship between perfusion parameters measured by the SYLVER device and corresponding perfusion parameters measured by CT perfusion (CTP).\n\nFor each paired assessment (SYLVER + CTP), the following will be derived and reported at the subject level and/or aggregated level (as applicable):\n\ni) Estimated functional form of the calibration model (e.g., linear or non-linear relationship between SYLVER and CTP perfusion parameters).\n\nii) Estimated calibration parameters of the model (e.g., slope, intercept, and other model coefficients linking SYLVER values to CTP values).\n\niii) Goodness-of-fit metrics for the calibration model (e.g., correlation coefficients, error metrics) if pre-specified in the analysis plan.\n\niv) Calibration parameters and model characteristics will be obtained from all available paired SYLVER and CTP measurements collected between V0 and V5.",
+          "timeFrame": "From Visit V0 to Visit V5 (maximum 5 visits with SYLVER scan) within 21 days after inclusion."
+        },
+        {
+          "measure": "Correlation Between SYLVER-Reference Parameters Mismatch and Clinical and Technical Variables",
+          "description": "Mismatch between parameters measured by SYLVER and reference modalities, and its correlation with routine clinical variables. Parameters mismatch includes: (1) Time to Peak (TTP, seconds) SYLVER vs CT perfusion; (2) systolic and diastolic cerebral blood flow (cm/s) SYLVER vs transcranial Doppler; (3) anatomical visualization of brain vessels (vessel visualization score / agreement) SYLVER vs CT angiography; (4) hypoperfusion zone identification (presence, number, and/or volume of hypoperfused areas) SYLVER vs CT perfusion. Correlated variables include heart rate (bpm), blood pressure (mmHg), medication use, Glasgow Coma Scale score, neurological deficits. Correlation coefficients (dimensionless) will be reported.",
+          "timeFrame": "From Visit V0 to Visit V5 (maximum 5 visits including SYLVER scan) within 21 days after inclusion."
+        },
+        {
+          "measure": "Sensitivity and Specificity of SYLVER for Detecting Hypoperfusion Compared With CT Perfusion",
+          "description": "Concordance of areas reported hypoperfused or healthy, with the volume analyzed by SYLVER superimposed on the equivalent volume sample given by CTP",
+          "timeFrame": "The outcome will be measured by gathering Perfusion CT and study device's information (anatomical and perfusion mapping) at each visit in which the patient can be enrolled, from V0 to V5 (maximum) and for 21 days inclusion maximum."
+        },
+        {
+          "measure": "Agreement of Brain Vessel Morphological Reconstruction Between SYLVER and CT Angiography",
+          "description": "Concordance of major cerebral morphological structures visualization assessed by an investigator, or by a qualitative assessment according to the morphological atlas for optimized parameter analysis",
+          "timeFrame": "The outcome will be measured by gathering Perfusion CT and study device's information (anatomical and perfusion mapping) at each visit in which the patient can be enrolled, from V0 to V5 (maximum) and for 21 days inclusion maximum."
+        },
+        {
+          "measure": "Difference in Cerebral Blood Flow Velocities Between SYLVER and Transcranial Doppler",
+          "description": "Concordance of Doppler velocities in the Middle Cerebral Artery (MCA) provided by TCD acquisitions and the ones calculated from SYLVER parameters",
+          "timeFrame": "The outcome will be measured by gathering Perfusion CT and study device's information (anatomical and perfusion mapping) at each visit in which the patient can be enrolled, from V0 to V5 (maximum) and for 21 days inclusion maximum."
+        },
+        {
+          "measure": "Total Diagnostic Care Cost per Patient With and Without Use of SYLVER",
+          "description": "Total diagnostic care cost per patient with and without use of SYLVER as a diagnostic tool. The measure aggregates: (1) physician time, (2) nursing-assistant time, (3) radiology technician (\"radio manipulator\") time, and (4) radiological inteprentation time, each recorded in minutes and multiplied by the corresponding unit cost (cost per minute) to obtain a total personnel cost. Additional diagnostic resource costs directly related to the diagnostic strategy (e.g., imaging procedures) may be included according to a predefined cost schedule. The primary reported value will be the mean total diagnostic cost per patient (in local currency) in the SYLVER vs non-SYLVER pathways, and the difference between groups.",
+          "timeFrame": "The outcome will be measured by gathering Perfusion CT and study device's information (anatomical and perfusion mapping) at each visit in which the patient can be enrolled, from V0 to V5 (maximum) and for 21 days inclusion maximum."
+        },
+        {
+          "measure": "Incidence of Adverse Events, Serious Adverse Events, and Device Deficiencies Related to SYLVER Use",
+          "description": "Number and proportion of participants with at least one adverse event (AE), serious adverse event (SAE), or device deficiency occurring during use of the SYLVER device. AEs and SAEs will be collected from inclusion to the end of follow-up and classified by seriousness, severity, and relationship to the device or procedures, according to applicable regulatory definitions. Device deficiencies (e.g., malfunction, use error, or failure of the device to perform as intended) will be collected and summarized. Results will be reported as counts and percentages of participants with AEs, SAEs, and device deficiencies.",
+          "timeFrame": "The outcome will be measured by gathering study device's information at each visit in which the patient can be enrolled, from V0 to V5 (maximum) and for 21 days inclusion maximum."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patient ≥ 18 years old\n* Patient Informed Consent, or from his/her relative if the patient is not conscious and able to consent\n* Admission to ICU or CCU with indication to perform at least one CTP\n* Affiliated with or benefiting from a social security scheme\n* The subject's current clinical status, as assessed by medical history, physical examination, and/or relevant tests, indicates that they do not require immediate medical treatment or emergency care at the time of enrolment.\n\nExclusion Criteria:\n\n* Guardianship, curatorship or any deprivation of liberty by judicial or administrative decision\n* Pregnant or breast-feeding women\n* Known contra-indication or hypersensitivity to SonoVue® (to sulfur hexafluoride microbubbles or to one of its excipients such as polyethylene glycol (PEG))\n* Right-to-left shunts\n* Patients who have undergone craniectomy in the temporal region\n* Patients with open wounds or recent scars in the temporal region\n* Unstable hemodynamic or respiratory state contraindicating transportation to CTP scanner",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Vivien Szabo, MD, PHD",
+          "role": "CONTACT",
+          "phone": "+33467336733",
+          "email": "v-szabo@chu-montpellier.fr"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Centre Hospitalo-Universitaire Gui de Chauliac",
+          "status": "RECRUITING",
+          "city": "Montpellier",
+          "state": "Herault",
+          "zip": "34000",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Chiara Martinez",
+              "role": "CONTACT",
+              "phone": "+33467335224",
+              "email": "chiara.martinez@chu-montpellier.fr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.61093,
+            "lon": 3.87635
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D002545",
+          "term": "Brain Ischemia"
+        },
+        {
+          "id": "D020214",
+          "term": "Cerebrovascular Trauma"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D002561",
+          "term": "Cerebrovascular Disorders"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D020196",
+          "term": "Trauma, Nervous System"
+        },
+        {
+          "id": "D014947",
+          "term": "Wounds and Injuries"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

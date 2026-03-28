@@ -1,0 +1,1623 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04097145",
+      "orgStudyIdInfo": {
+        "id": "2019-07"
+      },
+      "organization": {
+        "fullName": "Edwards Lifesciences",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Edwards PASCAL Transcatheter Valve Repair System Pivotal Clinical Trial",
+      "officialTitle": "A Prospective, Multicenter, Randomized, Controlled Pivotal Trial to Evaluate the Safety and Effectiveness of Transcatheter Tricuspid Valve Repair With the Edwards PASCAL Transcatheter Valve Repair System and Optimal Medical Therapy (OMT) Compared to OMT Alone in Patients With Tricuspid Regurgitation",
+      "acronym": "CLASP II TR"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-12-11",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2031-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2019-09-18",
+      "studyFirstSubmitQcDate": "2019-09-18",
+      "studyFirstPostDateStruct": {
+        "date": "2019-09-20",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-20",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Edwards Lifesciences",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUnapprovedDevice": true
+    },
+    "descriptionModule": {
+      "briefSummary": "To establish the safety and effectiveness of the Edwards PASCAL Transcatheter Repair System in patients with symptomatic severe tricuspid regurgitation who have been determined to be at an intermediate or greater estimated risk of mortality with tricuspid valve surgery by the cardiac surgeon with concurrence by the local Heart Team",
+      "detailedDescription": "A Prospective, multicenter, randomized, controlled pivotal trial to evaluate the safety and effectiveness of transcatheter tricuspid valve repair with the Edwards PASCAL Transcatheter Valve Repair System and optimal medical therapy (OMT) compared to OMT alone in patients with tricuspid regurgitation. Patients will be seen for follow-up visits at discharge, 30 days, 3 months, 6 months, and annually through 5 years."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Tricuspid Regurgitation",
+        "Tricuspid Valve Insufficiency",
+        "Tricuspid Valve Disease"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 870,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Edwards PASCAL System & OMT",
+          "type": "EXPERIMENTAL",
+          "description": "Transcatheter tricuspid valve repair with the Edwards PASCAL system in patients on optimal medical therapy (OMT) with tricuspid regurgitation",
+          "interventionNames": [
+            "Device: Edwards PASCAL System"
+          ]
+        },
+        {
+          "label": "Optimal Medical Therapy (OMT)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Optimal medical therapy (OMT) alone in patients with tricuspid regurgitation",
+          "interventionNames": [
+            "Drug: Optimal Medical Therapy"
+          ]
+        },
+        {
+          "label": "Single-Arm Registry",
+          "type": "EXPERIMENTAL",
+          "description": "Transcatheter tricuspid valve repair with the Edwards PASCAL System in conjunction with optimal medical therapy (OMT) in patients with tricuspid regurgitation who are not eligible for randomization",
+          "interventionNames": [
+            "Device: Edwards PASCAL System"
+          ]
+        },
+        {
+          "label": "Continued Access Study",
+          "type": "EXPERIMENTAL",
+          "description": "Transcatheter tricuspid valve repair with the Edwards PASCAL system in patients on optimal medical therapy (OMT) with tricuspid regurgitation",
+          "interventionNames": [
+            "Device: Edwards PASCAL System"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Edwards PASCAL System",
+          "description": "Transcatheter tricuspid valve repair with the Edwards PASCAL System in patients on optimal medical therapy",
+          "armGroupLabels": [
+            "Edwards PASCAL System & OMT"
+          ],
+          "otherNames": [
+            "Transcatheter tricuspid valve repair (TTVr)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Optimal Medical Therapy",
+          "description": "Optimal Medical Therapy alone in patients with tricuspid regurgitation",
+          "armGroupLabels": [
+            "Optimal Medical Therapy (OMT)"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Edwards PASCAL System",
+          "description": "Transcatheter tricuspid valve repair with the Edwards PASCAL System in conjunction with OMT",
+          "armGroupLabels": [
+            "Single-Arm Registry"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Edwards PASCAL System",
+          "description": "Transcatheter tricuspid valve repair with the Edwards PASCAL system in patients on optimal medical therapy (OMT) with tricuspid regurgitation",
+          "armGroupLabels": [
+            "Continued Access Study"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Composite endpoint including all-cause mortality, RVAD implantation or heart transplant, tricuspid valve intervention, heart failure hospitalizations, and Quality of Life improvement (measured by KCCQ score)",
+          "description": "Comparison of number of participants with composite endpoint events between experimental and active comparator arms",
+          "timeFrame": "12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "1 Grade Reduction in TR Severity",
+          "description": "Total number of participants with at least 1 grade reduction in TR severity",
+          "timeFrame": "6, 12 months"
+        },
+        {
+          "measure": "Quality of Life (QOL) as Measured by the Kansas City Cardiomyopathy Questionnaire (KCCQ)",
+          "description": "Change in KCCQ score from baseline",
+          "timeFrame": "3, 6, and 12 months"
+        },
+        {
+          "measure": "All Cause Mortality",
+          "description": "Total number of deaths from any cause",
+          "timeFrame": "12 months, 24 months"
+        },
+        {
+          "measure": "Death and Heart Failure Hospitalizations",
+          "description": "Total number of deaths and hospital admissions due to heart failure",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "All-cause Hospitalization",
+          "description": "Total number of hospitalizations due to any cause",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Right ventricular end-diastolic diameter (RVEDD mid)",
+          "description": "Change in right ventricular end-diastolic diameter (RVEDD mid)",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Major Adverse Events (MAEs)",
+          "description": "Overall rate of Major Adverse Events (MAEs)",
+          "timeFrame": "30 days"
+        },
+        {
+          "measure": "Reduction in TR grade",
+          "description": "Reduction in TR severity as assessed by TEE pre- and post-implantation",
+          "timeFrame": "Intraprocedural post-implantation"
+        },
+        {
+          "measure": "All-Cause Mortality",
+          "description": "Total number of deaths from any cause",
+          "timeFrame": "12 months, annually through 5 years"
+        },
+        {
+          "measure": "Heart failure hospitalizations",
+          "description": "Total number of hospital admissions due to heart failure",
+          "timeFrame": "12 months, annually through 5 years"
+        },
+        {
+          "measure": "Non-elective tricuspid valve re-intervenitions (percutaneous or surgical)",
+          "description": "Total number of non-elective tricuspid valve re-interventions",
+          "timeFrame": "12 months, annually through 5 years"
+        },
+        {
+          "measure": "Durable RVAD implantation or heart transplant",
+          "description": "Total number of patients requiring RVAD impantantion or heart transplant",
+          "timeFrame": "12 months, annually through 5 years"
+        },
+        {
+          "measure": "Need for paracentesis",
+          "description": "Total nunber of patients who required paracentesis",
+          "timeFrame": "12 months, annually through 5 years"
+        },
+        {
+          "measure": "All cause mortality or the first heart failure hospitalization for patients with massive or torrential TR at baseline",
+          "description": "Time to death or first heart failure hospitalization",
+          "timeFrame": "12, 24 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Eighteen (18) years of age or older\n* Despite medical therapy, per the local Heart Team, patient has signs of TR, symptoms from TR, or prior heart failure hospitalization from TR.\n* Severe or greater tricuspid regurgitation\n* New York Heart Association (NYHA) Class II-IVa or heart failure hospitalization in the prior 12 months\n* Patient is at an intermediate or greater estimated risk of mortality with tricuspid valve surgery as determined by the cardiac surgeon with concurrence by the local Heart Team\n* Patient is able and willing to give informed consent, follow protocol procedures, and comply with follow-up visit requirements\n\nExclusion Criteria:\n\n* Tricuspid valve anatomy not evaluable by TTE or TEE\n* Tricuspid valve anatomy precludes proper device deployment and function\n* Patient with refractory heart failure requiring, advanced intervention (i.e. patient has or will need left ventricular assist device, or transplantation) (ACC/AHA Stage D heart failure)\n* Presence of trans-tricuspid pacemaker or defibrillator leads which meet one of the following:\n\n  1. Would prevent proper TR reduction due to interaction of the lead with the leaflets\n  2. Were implanted in the RV within the last 90 days prior to the point of enrollment\n* Primary non-degenerative tricuspid disease\n* Previous tricuspid valve repair or replacement that would interfere with placement of PASCAL\n* Clinically significant, untreated coronary artery disease requiring revascularization, unstable angina, evidence of acute coronary syndrome, recent myocardial infarction\n* Significant intra-cardiac mass, thrombus, or vegetation per echo core lab assessment\n* Deep vein thrombosis (DVT) or pulmonary embolism (PE) in the last 90 days\n* Recent Stroke\n* Active gastrointestinal (GI) bleeding\n* Presence of infiltrative cardiomyopathy or valvulopathy (including carcinoid, amyloidosis, sarcoidosis, hemochromatosis) or significant congenital heart disease, including but not limited to atrial septal defect, RV dysplasia, and arrhythmogenic RV\n* Need for emergent or urgent surgery for any reason, any planned cardiac surgery within the next 12 months (365 days), or any planned percutaneous cardiac procedure within the next 90 days\n* Any of the following cardiovascular procedures:\n\n  1. Percutaneous coronary, intracardiac, or endovascular intervention within the last 30 days prior to the point of enrollment\n  2. Carotid surgery within 30 days prior to the point of enrollment\n  3. Direct current cardioversion within the last 30 days prior to the point of enrollment\n  4. Leadless RV pacemaker implant within the last 30 days prior to the point of enrollment\n  5. Cardiac surgery within 90 days prior to the point of enrollment\n* Severe aortic, mitral and/or pulmonic valve stenosis and/or regurgitation\n* Known history of untreated severe symptomatic carotid stenosis or asymptomatic carotid stenosis\n* Active endocarditis within the last 90 days or infection requiring antibiotic therapy within the last 14 days\n* Patient is oxygen-dependent or requires continuous home oxygen\n* Pregnant, breastfeeding, or planning pregnancy within the next 12 months (365 days)\n* Concurrent medical condition with a life expectancy of less than 12 months in the judgment of the Investigator\n* Patient is currently participating in another investigational biologic, drug, or device clinical study\n* Patient has other medical, social, or psychological conditions that preclude appropriate consent and follow-up, or the patient is under guardianship\n* Any patient considered to be vulnerable",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Edwards TMTT Clinical Affairs",
+          "role": "CONTACT",
+          "phone": "(949) 250-2500",
+          "email": "TMTT_Clinical@edwards.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Martin B. Leon, MD",
+          "affiliation": "Columbia University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Michael J. Mack, MD",
+          "affiliation": "Baylor Scott and White Health",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Charles Davidson, MD",
+          "affiliation": "Northwestern University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Allen Anderson, MD",
+          "affiliation": "UT Health San Antonio",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Gorav Ailawadi, MD",
+          "affiliation": "University of Michigan",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Banner University Medical Center Phoenix",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85006",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        },
+        {
+          "facility": "Tucson Medical Center Healthcare",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Tucson",
+          "state": "Arizona",
+          "zip": "85712",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.22174,
+            "lon": -110.92648
+          }
+        },
+        {
+          "facility": "University of California, Irvine",
+          "status": "RECRUITING",
+          "city": "Irvine",
+          "state": "California",
+          "zip": "92868",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Antonio Frangieh, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.66946,
+            "lon": -117.82311
+          }
+        },
+        {
+          "facility": "SCPMG - Kaiser San Diego",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "La Jolla",
+          "state": "California",
+          "zip": "92037",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.84727,
+            "lon": -117.2742
+          }
+        },
+        {
+          "facility": "Cedars Sinai Medical Center",
+          "status": "RECRUITING",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90048",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Raj Makkar, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "UCLA Medical Center",
+          "status": "RECRUITING",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90095",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Marcella Press, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Kaiser Permanente San Francisco",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94118",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "University of California, San Francisco",
+          "status": "RECRUITING",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94143",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Sammy Elmariah, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "Stanford University",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Stanford",
+          "state": "California",
+          "zip": "94305",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.42411,
+            "lon": -122.16608
+          }
+        },
+        {
+          "facility": "St. Joseph Hospital",
+          "status": "RECRUITING",
+          "city": "Denver",
+          "state": "Colorado",
+          "zip": "80218",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jake Chanin, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.73915,
+            "lon": -104.9847
+          }
+        },
+        {
+          "facility": "Medical Center of the Rockies",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Loveland",
+          "state": "Colorado",
+          "zip": "80538",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.39776,
+            "lon": -105.07498
+          }
+        },
+        {
+          "facility": "The Cardiac and Vascular Institute Research Foundation",
+          "status": "RECRUITING",
+          "city": "Gainesville",
+          "state": "Florida",
+          "zip": "32605",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Charles Klodell, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Ilie Barb, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.65163,
+            "lon": -82.32483
+          }
+        },
+        {
+          "facility": "Mount Sinai Medical Center",
+          "status": "RECRUITING",
+          "city": "Miami Beach",
+          "state": "Florida",
+          "zip": "33140",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Nirat Beohar, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Steve Xydas, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 25.79065,
+            "lon": -80.13005
+          }
+        },
+        {
+          "facility": "NCH Healthcare System",
+          "status": "RECRUITING",
+          "city": "Naples",
+          "state": "Florida",
+          "zip": "34102",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Robert Cubeddu, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 26.14234,
+            "lon": -81.79596
+          }
+        },
+        {
+          "facility": "Sarasota Memorial Health Care System",
+          "status": "RECRUITING",
+          "city": "Sarasota",
+          "state": "Florida",
+          "zip": "34239",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Ricardo A. Yaryura, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 27.33643,
+            "lon": -82.53065
+          }
+        },
+        {
+          "facility": "Tallahassee Research Institute",
+          "status": "RECRUITING",
+          "city": "Tallahassee",
+          "state": "Florida",
+          "zip": "32308",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Thomas Noel",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.43826,
+            "lon": -84.28073
+          }
+        },
+        {
+          "facility": "Emory University Hospital Midtown / Emory University - St. Joseph's Hospital",
+          "status": "RECRUITING",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30308",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Adam Greenbaum, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Piedmont Healthcare, Inc.",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30309",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Northwestern University",
+          "status": "RECRUITING",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60611",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Charles Davidson, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Ascension St. Vincent Heart Center Cardiovascular Research Institute",
+          "status": "RECRUITING",
+          "city": "Indianapolis",
+          "state": "Indiana",
+          "zip": "46290",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "James Hermiller, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.76838,
+            "lon": -86.15804
+          }
+        },
+        {
+          "facility": "University of Iowa Hospitals & Clinics",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Iowa City",
+          "state": "Iowa",
+          "zip": "52242",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.66113,
+            "lon": -91.53017
+          }
+        },
+        {
+          "facility": "Ochsner Medical Center",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "New Orleans",
+          "state": "Louisiana",
+          "zip": "70121",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.95465,
+            "lon": -90.07507
+          }
+        },
+        {
+          "facility": "Johns Hopkins",
+          "status": "RECRUITING",
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21287",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Rani Hasan, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "Massachusetts General Hospital",
+          "status": "RECRUITING",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02114",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Nilay Patel, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Ignacio Inglessis, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "University of Michigan",
+          "status": "RECRUITING",
+          "city": "Ann Arbor",
+          "state": "Michigan",
+          "zip": "48109",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Stanley Chetcuti, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.27756,
+            "lon": -83.74088
+          }
+        },
+        {
+          "facility": "Henry Ford Hospital",
+          "status": "RECRUITING",
+          "city": "Detroit",
+          "state": "Michigan",
+          "zip": "48202",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Brian O' Neill, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.33143,
+            "lon": -83.04575
+          }
+        },
+        {
+          "facility": "William Beaumont Hospital - Royal Oak",
+          "status": "RECRUITING",
+          "city": "Royal Oak",
+          "state": "Michigan",
+          "zip": "48073",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Ivan Hanson, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.48948,
+            "lon": -83.14465
+          }
+        },
+        {
+          "facility": "St. Mary's of Ascension Research",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Saginaw",
+          "state": "Michigan",
+          "zip": "48601",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.41947,
+            "lon": -83.95081
+          }
+        },
+        {
+          "facility": "Fairview Health Services",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Maplewood",
+          "state": "Minnesota",
+          "zip": "55109",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.95302,
+            "lon": -92.99522
+          }
+        },
+        {
+          "facility": "Mayo Clinic",
+          "status": "RECRUITING",
+          "city": "Rochester",
+          "state": "Minnesota",
+          "zip": "55905",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Mackram Eleid, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          }
+        },
+        {
+          "facility": "Saint Luke's Hospital of Kansas City",
+          "status": "RECRUITING",
+          "city": "Kansas City",
+          "state": "Missouri",
+          "zip": "64111",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Adnan Chhatriwalla, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.09973,
+            "lon": -94.57857
+          }
+        },
+        {
+          "facility": "Washington University School of Medicine",
+          "status": "RECRUITING",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63110",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Alan Zajarias, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Puja Kachroo, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Providence St. Patrick Hospital",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Missoula",
+          "state": "Montana",
+          "zip": "59802",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 46.87215,
+            "lon": -113.994
+          }
+        },
+        {
+          "facility": "Dartmouth-Hitchcock Medical Center",
+          "status": "RECRUITING",
+          "city": "Lebanon",
+          "state": "New Hampshire",
+          "zip": "03756",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Michael Young, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.64229,
+            "lon": -72.25176
+          }
+        },
+        {
+          "facility": "Cooper Health Systems",
+          "status": "RECRUITING",
+          "city": "Camden",
+          "state": "New Jersey",
+          "zip": "09103",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Sajjad Sabir, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.92595,
+            "lon": -75.11962
+          }
+        },
+        {
+          "facility": "Morristown Medical Center",
+          "status": "RECRUITING",
+          "city": "Morristown",
+          "state": "New Jersey",
+          "zip": "07962",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Robert Kipperman, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.79677,
+            "lon": -74.48154
+          }
+        },
+        {
+          "facility": "Rutgers Robert Wood Johnson Medical School",
+          "status": "RECRUITING",
+          "city": "New Brunswick",
+          "state": "New Jersey",
+          "zip": "08901",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Mark Russo, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.48622,
+            "lon": -74.45182
+          }
+        },
+        {
+          "facility": "State University of New York at Buffalo",
+          "status": "RECRUITING",
+          "city": "Buffalo",
+          "state": "New York",
+          "zip": "14203",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Vijay Iyer, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.88645,
+            "lon": -78.87837
+          }
+        },
+        {
+          "facility": "Columbia University Irving Medical Center/NYPH",
+          "status": "RECRUITING",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10032",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Susheel Kodali, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Weill Cornell Medicine",
+          "status": "RECRUITING",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10065",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Shmuel Chen, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Lenox Hill Hospital, Northwell Health /Northshore University Hospital Manhasset",
+          "status": "RECRUITING",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10075",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Mei Chau, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Bruce Rutkin, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Rochester General Hospital",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Rochester",
+          "state": "New York",
+          "zip": "14621",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.15478,
+            "lon": -77.61556
+          }
+        },
+        {
+          "facility": "St. Francis Hospital",
+          "status": "RECRUITING",
+          "city": "Roslyn",
+          "state": "New York",
+          "zip": "11576",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "George A. Petrossian, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Newell B. Robinson, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.79982,
+            "lon": -73.65096
+          }
+        },
+        {
+          "facility": "Montefiore Medical Center / Arts Pavilion / Hutchinson Metro Center Clinic / Weiler Hospital / Moses Hospital",
+          "status": "RECRUITING",
+          "city": "The Bronx",
+          "state": "New York",
+          "zip": "10467",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Mohamed A. Latib, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.84985,
+            "lon": -73.86641
+          }
+        },
+        {
+          "facility": "University of North Carolina",
+          "status": "RECRUITING",
+          "city": "Chapel Hill",
+          "state": "North Carolina",
+          "zip": "27517",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "John Vavalle, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.9132,
+            "lon": -79.05584
+          }
+        },
+        {
+          "facility": "Sanford Medical Center Fargo",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Fargo",
+          "state": "North Dakota",
+          "zip": "58104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 46.87719,
+            "lon": -96.7898
+          }
+        },
+        {
+          "facility": "The Christ Hospital",
+          "status": "RECRUITING",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45219",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Santiago Garcia, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "TriHealth-Bethesda North Hospital",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45242",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "The Ohio State University",
+          "status": "RECRUITING",
+          "city": "Columbus",
+          "state": "Ohio",
+          "zip": "43210",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Konstantinos Boudoulas, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Scott Lilly, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.96118,
+            "lon": -82.99879
+          }
+        },
+        {
+          "facility": "Integris Baptist Medical Center",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Oklahoma City",
+          "state": "Oklahoma",
+          "zip": "73112",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.46756,
+            "lon": -97.51643
+          }
+        },
+        {
+          "facility": "Oklahoma Cardiovascular Research Group",
+          "status": "RECRUITING",
+          "city": "Oklahoma City",
+          "state": "Oklahoma",
+          "zip": "73120",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Mohammad Ghani, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.46756,
+            "lon": -97.51643
+          }
+        },
+        {
+          "facility": "Oklahoma Heart Institute at Hillcrest Medical Center",
+          "status": "RECRUITING",
+          "city": "Tulsa",
+          "state": "Oklahoma",
+          "zip": "74104",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Kamran Muhammad, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 36.15398,
+            "lon": -95.99277
+          }
+        },
+        {
+          "facility": "Oregon Health & Science University",
+          "status": "RECRUITING",
+          "city": "Portland",
+          "state": "Oregon",
+          "zip": "97239",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Firas Zahr, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Scott Chadderdon, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.52345,
+            "lon": -122.67621
+          }
+        },
+        {
+          "facility": "Penn State Hershey",
+          "status": "RECRUITING",
+          "city": "Hershey",
+          "state": "Pennsylvania",
+          "zip": "17033",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Mark Kozak, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.28592,
+            "lon": -76.65025
+          }
+        },
+        {
+          "facility": "Pennsylvania Presbyterian Medical Center / Hospital of the University of Pennsylvania",
+          "status": "RECRUITING",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19104",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Gene Chang, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Wilson Szeto, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Pinnacle Health Cardiovascular Institute/UPMC Pinnacle",
+          "status": "RECRUITING",
+          "city": "Wormleysburg",
+          "state": "Pennsylvania",
+          "zip": "17043",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Mubashir Mumtaz, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Hemal Gada, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.26287,
+            "lon": -76.91386
+          }
+        },
+        {
+          "facility": "Lankenau Heart Institute",
+          "status": "RECRUITING",
+          "city": "Wynnewood",
+          "state": "Pennsylvania",
+          "zip": "19096",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "William Gray, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.00289,
+            "lon": -75.27074
+          }
+        },
+        {
+          "facility": "Medical University of South Carolina",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Charleston",
+          "state": "South Carolina",
+          "zip": "29245",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.77632,
+            "lon": -79.93275
+          }
+        },
+        {
+          "facility": "Erlanger Health System",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Chattanooga",
+          "state": "Tennessee",
+          "zip": "37403",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.04563,
+            "lon": -85.30968
+          }
+        },
+        {
+          "facility": "Vanderbilt University Medical Center",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37212",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        },
+        {
+          "facility": "HCA Houston Healthcare Medical Center",
+          "status": "RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77004",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Pranav Loyalka, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Baylor College of Medicine St. Luke's Medical Center",
+          "status": "RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Guilherme Silva, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "The University of Texas Health Science Center at Houston",
+          "status": "RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Abhijeet Dhoble, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Richard Smalling, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "UTHealth/Memorial Hermann Hospital",
+          "status": "RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Biswajit Kar, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Baylor Scott & White - The Heart Hospital - Plano",
+          "status": "RECRUITING",
+          "city": "Plano",
+          "state": "Texas",
+          "zip": "75093",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Molly Szerlip, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.01984,
+            "lon": -96.69889
+          }
+        },
+        {
+          "facility": "Intermountain Medical Center",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Murray",
+          "state": "Utah",
+          "zip": "84107",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.66689,
+            "lon": -111.88799
+          }
+        },
+        {
+          "facility": "St. George Regional Hospital",
+          "status": "RECRUITING",
+          "city": "St. George",
+          "state": "Utah",
+          "zip": "84790",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Blake Gardner, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.10415,
+            "lon": -113.58412
+          }
+        },
+        {
+          "facility": "University of Virginia Health System",
+          "status": "RECRUITING",
+          "city": "Charlottesville",
+          "state": "Virginia",
+          "zip": "22908",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "John Saxon, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.02931,
+            "lon": -78.47668
+          }
+        },
+        {
+          "facility": "Virginia Commonwealth University",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Richmond",
+          "state": "Virginia",
+          "zip": "23298",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          }
+        },
+        {
+          "facility": "Carilion Medical Center",
+          "status": "RECRUITING",
+          "city": "Roanoke",
+          "state": "Virginia",
+          "zip": "24014",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jason Foerst, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.27097,
+            "lon": -79.94143
+          }
+        },
+        {
+          "facility": "Virginia Mason Medical Center",
+          "status": "RECRUITING",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98101",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Ming Zhang, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        },
+        {
+          "facility": "Swedish Medical Center",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98122",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        },
+        {
+          "facility": "Medical College of Wisconsin",
+          "status": "RECRUITING",
+          "city": "Milwaukee",
+          "state": "Wisconsin",
+          "zip": "53226",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jeremiah Depta, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.0389,
+            "lon": -87.90647
+          }
+        },
+        {
+          "facility": "St. Paul's Hospital",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Vancouver",
+          "state": "British Columbia",
+          "zip": "V6Z 1Y6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.24966,
+            "lon": -123.11934
+          }
+        },
+        {
+          "facility": "Hamilton Health Services",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Hamilton",
+          "state": "Ontario",
+          "zip": "L8L 2X2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.25011,
+            "lon": -79.84963
+          }
+        },
+        {
+          "facility": "University of Ottawa Heart Institute",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Ottawa",
+          "state": "Ontario",
+          "zip": "K1Y 4Q7",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.41117,
+            "lon": -75.69812
+          }
+        },
+        {
+          "facility": "Sunnybrook Health Sciences Centre",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M4N 3M5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "facility": "St. Michael's Hospital",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M5B 1W8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "facility": "Institut universitaire de cardiologie et de pneumologie de Québec - Université Laval",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Québec",
+          "state": "Quebec",
+          "zip": "G1V 4G5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.81228,
+            "lon": -71.21454
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D014262",
+          "term": "Tricuspid Valve Insufficiency"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006349",
+          "term": "Heart Valve Diseases"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,485 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07413081",
+      "orgStudyIdInfo": {
+        "id": "2025-07764-01"
+      },
+      "organization": {
+        "fullName": "Region Skane",
+        "class": "OTHER"
+      },
+      "briefTitle": "Increased Pacemaker Lower Rate in ATTR Cardiac Amyloidosis",
+      "officialTitle": "Increased Pacemaker Lower Rate in ATTR Cardiac Amyloidosis: a Randomized, Crossover Clinical Trial (PACE-ATTR)",
+      "acronym": "PACE-ATTR"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-02-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-01-20",
+      "studyFirstSubmitQcDate": "2026-02-09",
+      "studyFirstPostDateStruct": {
+        "date": "2026-02-17",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-09",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Region Skane",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "In cardiac amyloidosis, the heart muscle becomes thick and stiff, making it difficult to pump enough blood with each beat. The heart also often cannot increase its stroke volume, making patients with cardiac amyloidosis more dependent on having an adequate heart rate. Many develop conduction problems and need a pacemaker. In a related condition, heart failure with preserved ejection fraction, setting a higher pacemaker rate improved patients' quality of life. It is not known if the same benefits apply to amyloidosis. This study will test whether raising the pacemaker rate improves well-being and daily function in affected patients.",
+      "detailedDescription": "Transthyretin amyloid cardiomyopathy (ATTR-CM) is an increasingly recognized cause of restrictive cardiomyopathy, characterized by reduced ventricular compliance, low stroke volume, and marked dependence on heart rate for maintenance of cardiac output. Conduction disease is common in ATTR-CM, and a substantial proportion of patients require permanent pacemaker implantation.\n\nAlthough disease-modifying therapy can slow disease progression, evidence guiding optimization of pacemaker therapy in ATTR-CM is lacking. In heart failure with preserved ejection fraction, a condition also characterized by reduced ventricular compliance, increased pacemaker lower rate settings have been shown to improve functional capacity and quality of life. However, patients with cardiac amyloidosis were excluded from these studies. Consequently, current practice in ATTR-CM relies largely on extrapolation and expert opinion.\n\nIn this randomized multicenter 2×2 crossover trial, we aim to determine whether a higher pacemaker lower rate (80 bpm) improves health-related quality of life (QoL) and functional capacity in patients with ATTR-CM compared with the standard setting of 60 bpm."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiac Amyloidosis",
+        "Pacemaker"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 34,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "80 bpm",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Device: Increasing the pacemaker lower rate"
+          ]
+        },
+        {
+          "label": "60 bpm",
+          "type": "OTHER",
+          "interventionNames": [
+            "Device: Standard setting"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Increasing the pacemaker lower rate",
+          "description": "Increasing the pacemaker lower rate from 60 to 80 bpm",
+          "armGroupLabels": [
+            "80 bpm"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Standard setting",
+          "description": "Lower rate setting of 60 bpm",
+          "armGroupLabels": [
+            "60 bpm"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Minnesota Living with Heart Failure Questionnaire (MLHFQ)",
+          "description": "The MLHFQ is a validated patient-reported outcome assessing heart failure-related quality of life. It consists of 21 items scored 0-5, yielding a total score range of 0-105. Higher scores indicate worse quality of life. MLHFQ is collected at Visits 1-4.",
+          "timeFrame": "End of each treatment period (Visit 2 at approximately 3 months and Visit 4 at approximately 7 months)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Distance walked during the 6-Minute Walk Test (6MWT)",
+          "description": "The 6-Minute Walk Test measures the distance walked in meters during six minutes on a flat, hard surface. The distance walked ranges from 0 meters upward, with higher distances indicating better functional capacity. The 6MWT is performed at Visits 1-4.",
+          "timeFrame": "End of each treatment period (Visit 2 at approximately 3 months and Visit 4 at approximately 7 months)"
+        },
+        {
+          "measure": "Levels of N-terminal pro-B-type Natriuretic Peptide (NT-proBNP)",
+          "description": "NT-proBNP is a circulating biomarker of myocardial wall stress and heart failure severity. It is measured in pg/mL. Higher concentrations indicate worse cardiac function. NT-proBNP is assessed at Visits 1-4.",
+          "timeFrame": "End of each treatment period (Visit 2 at approximately 3 months and Visit 4 at approximately 7 months)"
+        },
+        {
+          "measure": "New York Heart Association (NYHA) Functional Class",
+          "description": "NYHA functional class is a measure of heart failure severity ranging from Class I to Class IV, with higher class indicating worse functional status. NYHA class is assessed at Visits 1-4.",
+          "timeFrame": "End of each treatment period (Visit 2 at approximately 3 months and Visit 4 at approximately 7 months)"
+        },
+        {
+          "measure": "National Amyloidosis Centre (NAC) Stage",
+          "description": "National Amyloidosis Centre (NAC) stage is a prognostic staging system for transthyretin cardiac amyloidosis based on cardiac biomarkers. It is categorized as Stage I, II, or III, with higher stage indicating more advanced disease. NAC stage is assessed at Visits 1-4.",
+          "timeFrame": "End of each treatment period (Visit 2 at approximately 3 months and Visit 4 at approximately 7 months)"
+        },
+        {
+          "measure": "Number of participants with hospitalization or urgent outpatient visit for atrial fibrillation",
+          "description": "This outcome captures atrial fibrillation-related hospitalizations or urgent outpatient visits occurring during each treatment period.",
+          "timeFrame": "During each treatment period (approximately 3 months per period)"
+        },
+        {
+          "measure": "Atrial fibrillation burden assessed by implanted pacemaker",
+          "description": "Atrial fibrillation (AF) burden is defined as the percentage of time spent in atrial fibrillation, as recorded by the implanted pacemaker's arrhythmia detection algorithms. Higher values indicate greater arrhythmia burden.",
+          "timeFrame": "During each treatment period (approximately 3 months per period)"
+        },
+        {
+          "measure": "Physical activity level assessed by implanted pacemaker",
+          "description": "Physical activity is assessed using the implanted pacemaker's built-in activity sensor. Higher values indicate greater physical activity.",
+          "timeFrame": "During each treatment period (approximately 3 months per period)"
+        },
+        {
+          "measure": "Levels of High-Sensitivity Cardiac Troponin (hs-cTn)",
+          "description": "High-sensitivity cardiac troponin (hs-cTn) is a biomarker of myocardial injury. It is measured in ng/L in plasma. Higher concentrations indicate greater myocardial injury. hs-cTn is assessed at Visits 1-4.",
+          "timeFrame": "End of each treatment period (Visit 2 at approximately 3 months and Visit 4 at approximately 7 months)"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Number of participants with hospitalization or urgent outpatient visit for heart failure",
+          "description": "This outcome captures heart failure-related hospitalizations or urgent outpatient visits occurring during each treatment period.",
+          "timeFrame": "During each treatment period (approximately 3 months per period)"
+        },
+        {
+          "measure": "Daily loop diuretic dose",
+          "description": "Daily loop diuretic dose is recorded as milligrams per day. Higher doses indicate greater diuretic requirement. Loop diuretic dosing is assessed at Visits 1-4.",
+          "timeFrame": "End of each treatment period (Visit 2 at approximately 3 months and Visit 4 at approximately 7 months)"
+        },
+        {
+          "measure": "Number of participants with cardiac death",
+          "description": "Cardiac death is defined as death resulting from cardiovascular causes, including heart failure, arrhythmia, or sudden cardiac death, as assessed by the site investigator.",
+          "timeFrame": "Through study completion (up to approximately 7 months)"
+        },
+        {
+          "measure": "Left Ventricular Ejection Fraction (LVEF)",
+          "description": "Left ventricular ejection fraction (LVEF) is expressed as a percentage (%). Higher values indicate better systolic function. LVEF is assessed by echocardiography at Visits 1-4.",
+          "timeFrame": "End of each treatment period (Visit 2 at approximately 3 months and Visit 4 at approximately 7 months)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* ATTR-CM defined as one of the following:\n* a.Positive cardiac biopsy for ATTR amyloidosis\n* b.Positive extra-cardiac biopsy for ATTR amyloidosis AND cardiac involvement demonstrated by CMR or echocardiography\n* c.Grade 2-3 uptake on DPD-scintigraphy AND negative serum free light chain and negative urine and serum immunofixation AND cardiac involvement demonstrated by CMR or echocardiography\n* Ongoing treatment with a transthyretin stabilizer or silencer OR considered not to be a candidate for these therapies with no planned initiation during the study period.\n* NYHA functional class II-III\n* Pre-existing pacemaker and either:\n* a.Atrial pacing with minimal RV pacing (\\<2%), or\n* b.His bundle or left bundle branch area pacing, or\n* c.Biventricular pacing, or\n* d.Ongoing RV pacing with a high degree of RV pace (\\>80%)\n* NT-proBNP \\>600 ng/L\n* Age ≥18 years\n* Ability and willingness to provide written informed consent\n* Pacing \\>80% with a programmed lower rate of 60 (AAI/CSP/CRT/RV-pace)\n\nExclusion Criteria:\n\n* Inability to perform the 6-minute walk test.\n* Planned coronary revascularization, ablation of atrial flutter/fibrillation, or any severe (obstructive or regurgitant) valvular heart disease expected to require intervention during the trial in the investigator's opinion.\n* MI, unstable angina, coronary revascularization (percutaneous coronary intervention (PCI) or coronary artery bypass grafting (CABG)), ablation of atrial flutter/fibrillation, cardioversion, valve repair/replacement, hospitalization for decompensated heart failure or cardiac resynchronisation therapy within 12 weeks prior to enrollment.\n* Planned upgrade to CRT or conduction system pacing in patients with RV pacing.\n* More than moderate valvular stenosis or regurgitation\n* Inability of the patient, in the opinion of the investigator, to understand and/or comply with procedures and/or follow-up OR any conditions that, in the opinion of the investigator, may render the patient unable to complete the study\n* Presence of any other disease than heart failure with a life expectancy of \\< 1year in the investigators opinion\n* Enrollment in other interventional device or drug trials during the study period, with the exception of open label extension studies\n* Listed for cardiac transplantation\n* Initiation of SGLT2-inhibitor or mineralocorticoid receptor antagonist within 4 weeks prior to enrollment\n* Initiation or change in loop diuretic therapy within 4 weeks prior to enrollment",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Arash Mokhtari, MD, PhD",
+          "role": "CONTACT",
+          "phone": "+4646171000",
+          "email": "arash.mokhtari.0561@med.lu.se"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Aarhus University Hospital",
+          "city": "Aarhus",
+          "country": "Denmark",
+          "contacts": [
+            {
+              "name": "Steen Hvitfeldt Poulsen, MD, PhD",
+              "role": "CONTACT",
+              "phone": "+45 7846 1698",
+              "email": "steen.hvitfeldt@rm.dk"
+            },
+            {
+              "name": "Steen Hvitfeldt Poulsen",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 56.15674,
+            "lon": 10.21076
+          }
+        },
+        {
+          "facility": "Rigshospitalet",
+          "city": "Copenhagen",
+          "country": "Denmark",
+          "contacts": [
+            {
+              "name": "Mads Ersbøll, MD, PhD",
+              "role": "CONTACT",
+              "phone": "+4535 45 35 45",
+              "email": "mads.kristian.ersboell.02@regionh.dk"
+            },
+            {
+              "name": "Mads Ersbøll",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 55.67594,
+            "lon": 12.56553
+          }
+        },
+        {
+          "facility": "Sahlgrenska University Hospital",
+          "city": "Gothenburg",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Entela Bollano, MD, PhD",
+              "role": "CONTACT",
+              "phone": "+46313421000",
+              "email": "entela.bollano@vgregion.se"
+            },
+            {
+              "name": "Entela Bollano",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 57.70716,
+            "lon": 11.96679
+          }
+        },
+        {
+          "facility": "Linköping University Hospital",
+          "city": "Linköping",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Henriette Henriette van der Wal, MD, PhD",
+              "role": "CONTACT",
+              "phone": "+4610-103 00 00",
+              "email": "Henriette.van.der.Wal@regionostergotland.se"
+            }
+          ],
+          "geoPoint": {
+            "lat": 58.41086,
+            "lon": 15.62157
+          }
+        },
+        {
+          "facility": "Skane University Hospital",
+          "city": "Lund",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Arash Mokhtari, MD, PhD",
+              "role": "CONTACT",
+              "phone": "+4646171000",
+              "email": "arash.mokhtari.0561@med.lu.se"
+            },
+            {
+              "role": "CONTACT",
+              "email": "arash.mokhtari.0561@med.lu.se"
+            },
+            {
+              "name": "Arash Mokhtari",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 55.70584,
+            "lon": 13.19321
+          }
+        },
+        {
+          "facility": "Skellefteå Hospital",
+          "city": "Skellefteå",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Kurt Boman, MD, PhD",
+              "role": "CONTACT",
+              "phone": "+4690-785 00 00",
+              "email": "kurt.boman@regionvasterbotten.se"
+            },
+            {
+              "name": "Kurt Boman",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 64.75067,
+            "lon": 20.95279
+          }
+        },
+        {
+          "facility": "Karolinska University Hospital",
+          "city": "Stockholm",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Per Eldhagen, MD, PhD",
+              "role": "CONTACT",
+              "phone": "+468-123 700 00",
+              "email": "per.eldhagen@regionstockholm.se"
+            },
+            {
+              "name": "Per Eldhagen",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 59.32938,
+            "lon": 18.06871
+          }
+        },
+        {
+          "facility": "Norrland University Hospital",
+          "city": "Umeå",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Björn Pilebro, MD, PhD",
+              "role": "CONTACT",
+              "phone": "+4690-785 00 00",
+              "email": "Bjorn.Pilebro@regionvasterbotten.se"
+            },
+            {
+              "name": "Björn Pilebro",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 63.82842,
+            "lon": 20.25972
+          }
+        },
+        {
+          "facility": "Academic University Hospital",
+          "city": "Uppsala",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Tymon Pol, MD, PhD",
+              "role": "CONTACT",
+              "phone": "+4618-611 00 00",
+              "email": "tymon.pol@medsci.uu.se"
+            },
+            {
+              "name": "Tymon Pol",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 59.85882,
+            "lon": 17.63889
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D028227",
+          "term": "Amyloid Neuropathies, Familial"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D020271",
+          "term": "Heredodegenerative Disorders, Nervous System"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D017772",
+          "term": "Amyloid Neuropathies"
+        },
+        {
+          "id": "D010523",
+          "term": "Peripheral Nervous System Diseases"
+        },
+        {
+          "id": "D009468",
+          "term": "Neuromuscular Diseases"
+        },
+        {
+          "id": "D030342",
+          "term": "Genetic Diseases, Inborn"
+        },
+        {
+          "id": "D009358",
+          "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+        },
+        {
+          "id": "D028226",
+          "term": "Amyloidosis, Familial"
+        },
+        {
+          "id": "D008661",
+          "term": "Metabolism, Inborn Errors"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D000686",
+          "term": "Amyloidosis"
+        },
+        {
+          "id": "D057165",
+          "term": "Proteostasis Deficiencies"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

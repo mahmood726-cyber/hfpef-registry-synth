@@ -1,0 +1,453 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05672134",
+      "orgStudyIdInfo": {
+        "id": "NL 80684"
+      },
+      "organization": {
+        "fullName": "Amsterdam UMC, location VUmc",
+        "class": "OTHER"
+      },
+      "briefTitle": "Evaluation of GeranylGeranylAcetone in Heart Failure With Preserved Ejection Fraction",
+      "officialTitle": "Evaluation of GeranylGeranylAcetone in Heart Failure With Preserved Ejection Fraction",
+      "acronym": "GLADIATOR"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-04-26",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-08-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-08-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-06-08",
+      "studyFirstSubmitQcDate": "2023-01-02",
+      "studyFirstPostDateStruct": {
+        "date": "2023-01-05",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-03-26",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-04-01",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "M. Louis Handoko",
+        "investigatorTitle": "MD, PhD, Principal investigator",
+        "investigatorAffiliation": "VU University of Amsterdam"
+      },
+      "leadSponsor": {
+        "name": "Amsterdam UMC, location VUmc",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this double-blind randomized, placebo-controlled cross-over trial is to evaluate the effectiveness of GerenylGeranylAcetone (GGA) in patients with Heart Failure with a preserved ejection fraction.\n\nThe main questions it aims to answer are:\n\n* What is the effect of GGA on diastolic function?\n* What is the effect of GGA on endothelial function?\n\nMain study tasks:\n\n* Participants will be treated with either GGA or placebo for 13 weeks. After this they will have a break (wash-out) period for 6 weeks and then cross over to the other study arm.\n* Cardiac function will be measured using echocardiogram in all participants\n* Renal measurements and endothelial measurements will be performed on the participants.\n* Participants will perform a 5 minute walking distance test for functional capacity.\n* Participants will fill out questionnaires to score signs \\& symptoms.\n\nResearchers will compare the patients to themselves to see if the drug improves diastolic- and endothelial function."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Preserved Ejection Fraction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "interventionModelDescription": "crossover multi-centre, double-blind, randomized control trial.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 43,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Experimental arm",
+          "type": "EXPERIMENTAL",
+          "description": "Patients will receive 13 weeks of experimental treatment, followed by a 7 week wash-out period, continuing with 13 weeks of placebo as per crossover design.",
+          "interventionNames": [
+            "Diagnostic Test: Iohexol measurement",
+            "Drug: Geranylgeranylacetone (GGA)",
+            "Diagnostic Test: Echocardiography",
+            "Diagnostic Test: 6-minute walking distance test",
+            "Diagnostic Test: EndoPAT",
+            "Diagnostic Test: Para-amino Hippuric Acid test",
+            "Diagnostic Test: Electrocardiogram"
+          ]
+        },
+        {
+          "label": "Placebo arm",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Patients will receive 13 weeks of placebo treatment, followed by a 7 week wash-out period, continuing with 13 weeks of experimental treatment as per crossover design.",
+          "interventionNames": [
+            "Diagnostic Test: Iohexol measurement",
+            "Drug: Geranylgeranylacetone (GGA)",
+            "Diagnostic Test: Echocardiography",
+            "Diagnostic Test: 6-minute walking distance test",
+            "Diagnostic Test: EndoPAT",
+            "Diagnostic Test: Para-amino Hippuric Acid test",
+            "Diagnostic Test: Electrocardiogram"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Iohexol measurement",
+          "description": "Invasive renal hemodynamic measurement of mGFR through the administration of Iohexol.",
+          "armGroupLabels": [
+            "Experimental arm",
+            "Placebo arm"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Geranylgeranylacetone (GGA)",
+          "description": "13 weeks of treatment with GGA/placebo orally, followed by a wash-out period of 6 weeks, then reversal of the treatment arms.",
+          "armGroupLabels": [
+            "Experimental arm",
+            "Placebo arm"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Echocardiography",
+          "description": "The investigators will perform echocardiography to find changes in cardiac function.",
+          "armGroupLabels": [
+            "Experimental arm",
+            "Placebo arm"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "6-minute walking distance test",
+          "description": "6 minute walking distance test to compare exercise tolerance in participants.",
+          "armGroupLabels": [
+            "Experimental arm",
+            "Placebo arm"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "EndoPAT",
+          "description": "Use of EndoPAT to measure endothelial function.",
+          "armGroupLabels": [
+            "Experimental arm",
+            "Placebo arm"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Para-amino Hippuric Acid test",
+          "description": "PAH-measurement to measure ERPF.",
+          "armGroupLabels": [
+            "Experimental arm",
+            "Placebo arm"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Electrocardiogram",
+          "description": "12-lead Electrocardiogram",
+          "armGroupLabels": [
+            "Experimental arm",
+            "Placebo arm"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Filling pressures",
+          "description": "Changes in echocardiography determined filling pressures (E/e')?",
+          "timeFrame": "after 13 weeks of treatment"
+        },
+        {
+          "measure": "Endothelial function",
+          "description": "Changes in EndoPAT®-derived reactive hyperemia index (RHI)",
+          "timeFrame": "after 13 weeks of treatment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Left atrial volumes",
+          "description": "Changes in echogardiographic measured left atrial volume index (LAVI)",
+          "timeFrame": "After 13 weeks of treatment"
+        },
+        {
+          "measure": "Left atrial global strain",
+          "description": "Changes in echogardiographic measured LA global strain (LAGS)",
+          "timeFrame": "After 13 weeks of treatment"
+        },
+        {
+          "measure": "Left atrial emptying fractions",
+          "description": "Changes in echogardiographic LA emptying fractions. Formula: (LA maximum volume-LA minimum volume)/LA maximum volume × 100%",
+          "timeFrame": "After 13 weeks of treatment."
+        },
+        {
+          "measure": "Left Ventricular global longitudinal strain",
+          "description": "Changes in echocardiographically determinded LV global longitudinal strain (LGS)",
+          "timeFrame": "Ater 13 weeks of treatment"
+        },
+        {
+          "measure": "Left Ventricular Myocardial relaxation",
+          "description": "Change in echocardiographically determined myocardial relaxation (e')",
+          "timeFrame": "Ater 13 weeks of treatment"
+        },
+        {
+          "measure": "Left Ventricular distensibility",
+          "description": "Change in echocardiographically determined LV distensibility, measured by E.",
+          "timeFrame": "After 13 weeks of treatment"
+        },
+        {
+          "measure": "Right Ventricular systolic function",
+          "description": "Change in echocardiographically determined RV TAPSE",
+          "timeFrame": "After 13 weeks of treatment"
+        },
+        {
+          "measure": "Pulmonary Artery Pressure",
+          "description": "Change in echocardiographically determined PAP",
+          "timeFrame": "After 13 weeks of treatment"
+        },
+        {
+          "measure": "Patient reported symptoms",
+          "description": "Evaluation of symptoms using New York Heart Association class (NYHA)",
+          "timeFrame": "After 13 weeks of treatment"
+        },
+        {
+          "measure": "Quality of life assessment",
+          "description": "Evaluation of quality of life using the Kansas City Cariomyopathy Questionnaire",
+          "timeFrame": "After 13 weeks of treatment."
+        },
+        {
+          "measure": "Functional capacity",
+          "description": "Evaluation of Functional Capacity using 6-minute walking distance test (6MWD)",
+          "timeFrame": "After 13 weeks of treatment."
+        },
+        {
+          "measure": "CRP (inflammatory biomarker)",
+          "description": "Changes in CRP concentration in serum",
+          "timeFrame": "After 13 weeks of treatment"
+        },
+        {
+          "measure": "Nitrosated hemoglobin (microvascular marker)",
+          "description": "Changes in Nitrosated hemoglobin (Hb(NO)4) concentration in serum",
+          "timeFrame": "After 13 weeks of treatment"
+        },
+        {
+          "measure": "Nitrate (microvascular marker)",
+          "description": "Changes in nitrate concentration in serum",
+          "timeFrame": "After 13 weeks of treatment"
+        },
+        {
+          "measure": "Endothelin-1 (microvascular marker)",
+          "description": "Changes in Endothelin-1 concentration in serum",
+          "timeFrame": "After 13 weeks of treatment"
+        },
+        {
+          "measure": "H2S (microvascular marker)",
+          "description": "Changes in H2S concentration in serum",
+          "timeFrame": "After 13 weeks of treatment"
+        },
+        {
+          "measure": "Measured Glomerular Filtration Rate (mGFR)",
+          "description": "Changes in mGFR using Iohexol measurements in urine",
+          "timeFrame": "After 13 weeks of treatment"
+        },
+        {
+          "measure": "Effective Renal Plasma Flow (ERPF)",
+          "description": "Changes in ERPF using PAH-measurements in urine",
+          "timeFrame": "After 13 weeks of treatment"
+        },
+        {
+          "measure": "Renal vascular resistance (RVR)",
+          "description": "Changes in intrakidney hemodynamic function (Systemic Blood pressure / Renal Blood Flow)",
+          "timeFrame": "After 13 weeks of treatment"
+        },
+        {
+          "measure": "Urine Albumine Creatinin Ratio",
+          "description": "Changes in UACR concentration measured in urine.",
+          "timeFrame": "After 13 weeks of treatment"
+        },
+        {
+          "measure": "Neutrophil gelatinase associated lipocalin (NGAL)",
+          "description": "Changes in NGAL concentration measured in urine and serum",
+          "timeFrame": "After 13 weeks of treatment"
+        },
+        {
+          "measure": "Kidney Injury marker 1 (KIM-1)",
+          "description": "Changes in KIM-1 concentration measured in urine and serum",
+          "timeFrame": "After 13 weeks of treatment"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "N-terminal pro Brain Natriuretic Peptide (NT-proBNP)",
+          "description": "Changes in NT-proBNP measured in serum",
+          "timeFrame": "After 13 weeks of treatment"
+        },
+        {
+          "measure": "Troponin T",
+          "description": "Changes in Troponin T measured in serum",
+          "timeFrame": "After 13 weeks of treatment"
+        },
+        {
+          "measure": "Clinical events",
+          "description": "Comparison of the frequency of a combined safety endpoint of death, myocardial infarction and heart failure hospitalization",
+          "timeFrame": "After 13 weeks of treatment"
+        },
+        {
+          "measure": "Serious Adverse Events (SAE's)",
+          "description": "Comparison of the frequency of Serious Adverse Events between both groups.",
+          "timeFrame": "After 13 weeks of treatment."
+        },
+        {
+          "measure": "Treatment Emergent Adverse Events (TEAE's)",
+          "description": "Comparison of the frequency of Treatment Emergent Adverse Events between both groups.",
+          "timeFrame": "After 13 weeks of treatment."
+        },
+        {
+          "measure": "Adverse events of specific interest (AESI's)",
+          "description": "Comparison of the frequency of Adverse events of specific interest between both groups.",
+          "timeFrame": "After 13 weeks of treatment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age≥ 50 years\n2. Patients with a diagnosis of symptomatic chronic heart failure (New York Heart Association class II or III) AND preserved systolic LV function (LV ejection fraction or LVEF ≥ 50%) documented within the last 6 months AND evidence of diastolic LV dysfunction with at least 1 out of the following 4 criteria:\n\n   * HFA-PEFF score ≥5\n   * H2FPEF score ≥6\n   * HFpEF according to the 2021 ESC HF Guidelines (NT-proBNP\\>125 pg/ml AND either LV mass indexed or LVMI \\>95 g/m2 for women and \\>115 g/m2 for men OR left atrial volume indexed or LAVI \\>34 ml/m2 OR mean e; septal/lateral \\< 9 cm/s) OR E/e' \\>13 OR TR velocity at rest \\>2,8m/s.\n   * Pulmonary capillary wedge pressure (PCWP) \\>15 mmHg and/or \\>25 mmHg during exercise.\n\nExclusion Criteria:\n\n1. Current acute decompensated heart failure, requiring hospitalization or augmented therapy with intravenous diuretics, vasodilators, and/or inotropic drugs\n2. Acute coronary syndrome, transient ischemic attack/cerebrovascular accident, major surgery within the previous 3 months\n3. Hemoglobin \\<9 g/dl at screening\n4. LVEF \\<40% measured at any time point in the history of the patient\n5. History of mitral valve repair or replacement\n6. Presence of significant valvular disease defined as mitral valve regurgitation defined as grade ≥ 3+ MR; tricuspid valve regurgitation defined as grade ≥ 2+ TR; aortic valve disease defined as ≥ 2+ AR or \\> moderate AS\n7. Acute myocarditis within 3 months prior to randomization\n8. Infiltrative cardiomyopathy\n9. Genetic cardiomyopathy\n10. Severe pulmonary disease requiring home oxygen or chronic oral steroid therapy\n11. Precapillary pulmonary hypertension\n12. BMI \\>40 kg/m2\n13. Estimated glomerular filtration rate (GFR) \\<20 ml/min or \\>90 ml/min\n14. History of solid organ transplantation including kidney transplantation\n15. Atrial fibrillation or atrial flutter with resting ventricular rate \\>110 bpm\n16. Not able to undergo the complete study protocol\n17. Doubt about compliance\n18. Pre-menopausal women who are nursing, pregnant, or of child-bearing potential and not practicing an acceptable method of birth control\n19. Chronic absorption problems\n20. Proven allergy for lactose products or cow-milk.\n21. Proven allergy for Iodide-containing contrast, Iohexol or PAH.\n22. Any documented or suspected malignancy or history of malignancy within 1 year prior to screening, except appropriately treated basal cell carcinoma of the skin or in situ carcinoma of the cervix\n23. Currently enrolled in another investigational device or drug trial\n24. Estimated life expectancy \\<1 year",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "50 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Louis Handoko, MD, PhD",
+          "affiliation": "Amsterdam University Medical Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Adriaan Voors, MD, PhD",
+          "affiliation": "University Medical Center Groningen",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Loek van Heerebeek, MD, PhD",
+          "affiliation": "Onze Lieve Vrouwe Gasthuis, Amsterdam",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Amsterdam UMC, loc VUmc",
+          "city": "Amsterdam",
+          "state": "North Holland",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.37403,
+            "lon": 4.88969
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C031049",
+          "term": "geranylgeranylacetone"
+        },
+        {
+          "id": "D004452",
+          "term": "Echocardiography"
+        },
+        {
+          "id": "D004562",
+          "term": "Electrocardiography"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D057791",
+          "term": "Cardiac Imaging Techniques"
+        },
+        {
+          "id": "D003952",
+          "term": "Diagnostic Imaging"
+        },
+        {
+          "id": "D019937",
+          "term": "Diagnostic Techniques and Procedures"
+        },
+        {
+          "id": "D003933",
+          "term": "Diagnosis"
+        },
+        {
+          "id": "D014463",
+          "term": "Ultrasonography"
+        },
+        {
+          "id": "D006334",
+          "term": "Heart Function Tests"
+        },
+        {
+          "id": "D003935",
+          "term": "Diagnostic Techniques, Cardiovascular"
+        },
+        {
+          "id": "D004568",
+          "term": "Electrodiagnosis"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

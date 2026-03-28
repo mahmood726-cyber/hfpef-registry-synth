@@ -1,0 +1,391 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00134160",
+      "orgStudyIdInfo": {
+        "id": "15-April-2005"
+      },
+      "organization": {
+        "fullName": "OSCAR Study",
+        "class": "OTHER"
+      },
+      "briefTitle": "OlmeSartan and Calcium Antagonists Randomized (OSCAR) Study",
+      "officialTitle": "The Study Comparing the Incidence of Cardiovascular Events Between High-dose ARB Monotherapy and Combination Therapy With ARB and Calcium Channel Blocker in Japanese Elderly Hypertensive Patients at High Cardiovascular Risk"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2010-10",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2005-08"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2010-05",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2010-05",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2005-08-22",
+      "studyFirstSubmitQcDate": "2005-08-22",
+      "studyFirstPostDateStruct": {
+        "date": "2005-08-24",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2010-10-03",
+      "lastUpdatePostDateStruct": {
+        "date": "2010-10-05",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "oldNameTitle": "Ogawa Hisao",
+        "oldOrganization": "Kumamoto University Graduate School of Medical Science"
+      },
+      "leadSponsor": {
+        "name": "OSCAR Study",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Japan Heart Foundation",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to investigate whether high-dose angiotensin II receptor blocker (ARB) monotherapy or combination therapy with ARB and calcium channel blockers is more effective in reducing the incidence of cardiovascular events in Japanese elderly high-risk hypertensive patients not adequately controlled by standard dose ARB alone.",
+      "detailedDescription": "Hypertension is one of the major risk factors of cardiovascular diseases. It is also important for elderly hypertensive patients to strictly reduce their blood pressures to prevent cardiovascular events. Although angiotensin II receptor blockers (ARBs) are increasingly used in antihypertensive treatment recently, few studies have been performed in Japan to assess the difference between high-dose ARB monotherapy and combination therapy of ARB with calcium channel blocker (CCB) in prevention of cardiovascular diseases for patients whose blood pressure is not well controlled by ARB monotherapy. OSCAR-study is a multicenter, active-controlled, 2-arm parallel group comparison, prospective randomized open blinded end-point (PROBE) design study. The dose administered is olmesartan medoxomil 20mg/day as ARB monotherapy in the 'Step 1' period. If the blood pressure is not adequately controlled and treatment is well tolerated then the dose is changed to olmesartan medoxomil 40mg/day in the high-dose ARB monotherapy group, or olmesartan medoxomil 20mg/day and a CCB in the combination therapy group in the 'Step 2' period. At least 500 patients will be enrolled in each group, and the follow-up duration will be 3 years. The primary objective is to compare the incidence of a composite of fatal and non-fatal cardiovascular events, and all cause mortality between the two treatment groups."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hypertension",
+        "Cardiovascular Diseases"
+      ],
+      "keywords": [
+        "Aged",
+        "Hypertension",
+        "Cardiovascular Diseases",
+        "Angiotensin II Type 1 Receptor Blockers",
+        "Calcium Channel Blockers",
+        "Combination Drug Therapy",
+        "Diabetes Mellitus Type 2"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1000,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "1",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "High-dose ARB monotherapy",
+          "interventionNames": [
+            "Drug: Olmesartan medoxomil"
+          ]
+        },
+        {
+          "label": "2",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Combination therapy of ARB with Calcium Channel Blocker",
+          "interventionNames": [
+            "Drug: Calcium channel blockers (amlodipine, azelnidipine)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Olmesartan medoxomil",
+          "description": "Olmesartan medoxomil 40mg/Day",
+          "armGroupLabels": [
+            "1"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Calcium channel blockers (amlodipine, azelnidipine)",
+          "description": "Olmesartan medoxomil 20mg/Day with Calcium channel blockers (amlodipine or azelnidipine)",
+          "armGroupLabels": [
+            "2"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "A composite of fatal and non-fatal cardiovascular events: Cerebrovascular events (cerebral infarction, cerebral hemorrhage, subarachnoid hemorrhage, stroke of undetermined etiology and transient ischemic attack)",
+          "timeFrame": "36 Months"
+        },
+        {
+          "measure": "Coronary events (sudden death, myocardial infarction, angina pectoris, asymptomatic myocardial ischemia)",
+          "timeFrame": "36 Months"
+        },
+        {
+          "measure": "Heart failure",
+          "timeFrame": "36 Months"
+        },
+        {
+          "measure": "Vascular events (aortic aneurysm, aortic dissection, and arteriosclerotic diseases)",
+          "timeFrame": "36 Months"
+        },
+        {
+          "measure": "Diabetic complications (nephropathy, retinopathy and neuropathy)",
+          "timeFrame": "36 Months"
+        },
+        {
+          "measure": "Renal dysfunction (doubling of serum creatinine, end stage renal diseases)",
+          "timeFrame": "36 Months"
+        },
+        {
+          "measure": "All cause mortality",
+          "timeFrame": "36 Months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Development of each cardiovascular event",
+          "timeFrame": "36 Months"
+        },
+        {
+          "measure": "Blood pressure change (systolic blood pressure [SBP], diastolic blood pressure [DBP], mean blood pressure [MBP]) at every observation point in the follow-up period",
+          "timeFrame": "36 Months"
+        },
+        {
+          "measure": "Serious adverse events other than primary outcome events",
+          "timeFrame": "36 Months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Outpatients aged 65 years or older, and less than 85 years (at the time of informed consent), regardless of sex\n* Current antihypertensive treatment with monotherapy\n* SBP ≥ 140mmHg or DBP ≥ 90mmHg in a sitting position on two measurements on two clinic visits\n* At least one of the following risk factors:\n\n  * Diabetes mellitus Type 2;\n  * History of cerebral infarction, cerebral hemorrhage, subarachnoid hemorrhage, or transient ischemic attack (more than 6 months before giving informed consent);\n  * Diagnosis of asymptomatic cerebrovascular disease;\n  * History of myocardial infarction (more than 6 months before giving informed consent);\n  * Diagnosis of angina pectoris or heart failure (New York Heart Association \\[NYHA\\] functional classification I or II);\n  * Diagnosis of left ventricular hypertrophy (thickness of the wall of interventricular septum ≥ 12mm on echocardiography or Sv1+Rv5 ≥ 35mm on electrocardiography before informed consent);\n  * Diagnosis of aortic aneurysm;\n  * History of aortic dissection (more than 6 months before giving informed consent);\n  * Diagnosis of arteriosclerotic peripheral arterial obstruction (Fontaine classification from 2 to 4);\n  * Serum creatinine: 1.2-2.5mg/dL (male); 1.0-2.5mg/dL (female);\n  * Proteinuria: ≥ +1 (or ≥ 0.3g/g･Cr. estimated from 24-hour urine collection or random urinary protein corrected by urine creatinine).\n\nExclusion Criteria:\n\n* Secondary hypertension or malignant hypertension\n* Heart failure (NYHA functional classification III or IV)\n* Required treatment for malignant tumor\n* Serious liver or renal dysfunction (serum creatinine \\> 2.5mg/dL or with dialysis treatment)\n* Not appropriate for change to the test drugs from current therapy for hypertension or coronary diseases (i.e. calcium channel blockers, β-blockers, thiazide diuretics, etc.)\n* History of serious adverse drug reactions to angiotensin II receptor blockers or calcium channel blockers\n* Patients with other serious reasons (i.e. illness, significant abnormalities, etc.) that investigators judge inappropriate for the study",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "65 Years",
+      "maximumAge": "84 Years",
+      "stdAges": [
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Kikuo Arakawa, MD",
+          "affiliation": "Emeritus Professor Fukuoka University, Fukuoka, Japan",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Department of Cardiovascular Medicine Graduate School of Medical Science Kumamoto University",
+          "city": "1-1-1 Honjyo, Kumamoto-City",
+          "state": "Kumamoto",
+          "zip": "860-8556",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 32.80589,
+            "lon": 130.69181
+          }
+        },
+        {
+          "facility": "OSCAR-Study Data Center",
+          "city": "ShinjukuParkTower30FN, 3-7-1 Nishi-Shinjuku, Shinjuku-ku",
+          "state": "Tokyo",
+          "zip": "163-1030",
+          "country": "Japan"
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "36975019",
+          "type": "DERIVED",
+          "citation": "Do DV, Han G, Abariga SA, Sleilati G, Vedula SS, Hawkins BS. Blood pressure control for diabetic retinopathy. Cochrane Database Syst Rev. 2023 Mar 28;3(3):CD006127. doi: 10.1002/14651858.CD006127.pub3."
+        },
+        {
+          "pmid": "25471234",
+          "type": "DERIVED",
+          "citation": "Kim-Mitsuyama S, Ogawa H, Matsui K, Jinnouchi T, Jinnouchi H, Arakawa K; OSCAR Study Group. Differential effectiveness of ARB plus CCB therapy and high-dose ARB therapy in high-risk elderly hypertensive patients: subanalysis of the OSCAR study. Hypertens Res. 2015 Mar;38(3):199-207. doi: 10.1038/hr.2014.164. Epub 2014 Dec 4."
+        },
+        {
+          "pmid": "24599010",
+          "type": "DERIVED",
+          "citation": "Matsui K, Kim-Mitsuyama S, Ogawa H, Jinnouchi T, Jinnouchi H, Arakawa K; OlmeSartan Calcium Antagonists Randomized (OSCAR) Study Group. Sex differences in response to angiotensin II receptor blocker-based therapy in elderly, high-risk, hypertensive Japanese patients: a subanalysis of the OSCAR study. Hypertens Res. 2014 Jun;37(6):526-32. doi: 10.1038/hr.2014.23. Epub 2014 Mar 6."
+        },
+        {
+          "pmid": "23051740",
+          "type": "DERIVED",
+          "citation": "Kim-Mitsuyama S, Ogawa H, Matsui K, Jinnouchi T, Jinnouchi H, Arakawa K. An angiotensin II receptor blocker-calcium channel blocker combination prevents cardiovascular events in elderly high-risk hypertensive patients with chronic kidney disease better than high-dose angiotensin II receptor blockade alone. Kidney Int. 2013 Jan;83(1):167-76. doi: 10.1038/ki.2012.326. Epub 2012 Oct 10."
+        },
+        {
+          "pmid": "22503610",
+          "type": "DERIVED",
+          "citation": "Ogawa H, Kim-Mitsuyama S, Matsui K, Jinnouchi T, Jinnouchi H, Arakawa K; OlmeSartan and Calcium Antagonists Randomized (OSCAR) Study Group. Angiotensin II receptor blocker-based therapy in Japanese elderly, high-risk, hypertensive patients. Am J Med. 2012 Oct;125(10):981-90. doi: 10.1016/j.amjmed.2011.12.010. Epub 2012 Apr 14."
+        },
+        {
+          "pmid": "19444280",
+          "type": "DERIVED",
+          "citation": "Ogawa H, Kim-Mitsuyama S, Jinnouchi T, Matsui K, Arakawa K. Rationale, design and patient baseline characteristics of OlmeSartan and calcium antagonists randomized (OSCAR) study: a study comparing the incidence of cardiovascular events between high-dose angiotensin II receptor blocker (ARB) monotherapy and combination therapy of ARB with calcium channel blocker in Japanese elderly high-risk hypertensive patients (ClinicalTrials. gov no. NCT00134160). Hypertens Res. 2009 Jul;32(7):575-80. doi: 10.1038/hr.2009.60. Epub 2009 May 15."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006973",
+          "term": "Hypertension"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000068557",
+          "term": "Olmesartan Medoxomil"
+        },
+        {
+          "id": "D002121",
+          "term": "Calcium Channel Blockers"
+        },
+        {
+          "id": "D017311",
+          "term": "Amlodipine"
+        },
+        {
+          "id": "C061679",
+          "term": "azelnidipine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007093",
+          "term": "Imidazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D013777",
+          "term": "Tetrazoles"
+        },
+        {
+          "id": "D049990",
+          "term": "Membrane Transport Modulators"
+        },
+        {
+          "id": "D045504",
+          "term": "Molecular Mechanisms of Pharmacological Action"
+        },
+        {
+          "id": "D020228",
+          "term": "Pharmacologic Actions"
+        },
+        {
+          "id": "D020164",
+          "term": "Chemical Actions and Uses"
+        },
+        {
+          "id": "D000077264",
+          "term": "Calcium-Regulating Hormones and Agents"
+        },
+        {
+          "id": "D045505",
+          "term": "Physiological Effects of Drugs"
+        },
+        {
+          "id": "D002317",
+          "term": "Cardiovascular Agents"
+        },
+        {
+          "id": "D045506",
+          "term": "Therapeutic Uses"
+        },
+        {
+          "id": "D004095",
+          "term": "Dihydropyridines"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,280 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04721314",
+      "orgStudyIdInfo": {
+        "id": "00000090"
+      },
+      "organization": {
+        "fullName": "University of Vermont",
+        "class": "OTHER"
+      },
+      "briefTitle": "Personalized Pacing: A New Paradigm for Patients With Diastolic Dysfunction or Heart Failure With Preserved Ejection Fraction",
+      "officialTitle": "Personalized Pacing: A New Paradigm for Patients With Diastolic Dysfunction or Heart Failure With Preserved Ejection Fraction",
+      "acronym": "myPACE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-02",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-07-17",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-10-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-12-05",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-01-16",
+      "studyFirstSubmitQcDate": "2021-01-20",
+      "studyFirstPostDateStruct": {
+        "date": "2021-01-22",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-02-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-02-09",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Margaret Infeld",
+        "investigatorTitle": "Physician",
+        "investigatorAffiliation": "University of Vermont"
+      },
+      "leadSponsor": {
+        "name": "University of Vermont",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Recent exploratory studies suggest that pacemaker patients with diastolic dysfunction (DD) or heart failure with preserved ejection fraction (HFpEF) may benefit from a higher backup heart rate (HR) setting than the factory setting of 60 beats per minute (bpm). In this prospective double-blinded randomized controlled study, pacemaker patients with DD or overt HFpEF and either 1) intrinsic ventricular conduction or 2) conduction system or biventricular pacing will be enrolled and randomized to either a personalized lower HR setting (myPACE group, based on a height-based HR algorithm) or to the standard 60bpm backup setting (control group) for 1 year."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Pacemaker",
+        "Diastolic Dysfunction",
+        "Diastolic Heart Failure"
+      ],
+      "keywords": [
+        "Heart failure with preserved ejection fraction",
+        "Diastolic dysfunction",
+        "Resting heart rate",
+        "Personalized",
+        "Lower rate setting"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Patients are randomized to either a personalized pacemaker lower heart rate setting based on a resting heart rate algorithm or to the conventional pacemaker lower rate setting of 60bpm.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "All investigators are blinded to patient randomization. To assess subject blinding, participants are asked at 1 month and 12 month follow up if they believed that their pacemaker lower rate was changed.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 123,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Lower rate set to a higher, personalized backup heart rate (myPACE)",
+          "type": "EXPERIMENTAL",
+          "description": "Patients randomized to this group will have their pacemaker lower heart rate setting programmed to a personalized lower rate based on a resting heart rate algorithm.",
+          "interventionNames": [
+            "Device: Adjustment of lower rate limit"
+          ]
+        },
+        {
+          "label": "Lower rate left at 60 beats-per-minute",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients randomized to this group will have their pacemaker lower heart rate setting left at or programmed to the conventional pacemaker lower rate setting of 60bpm.",
+          "interventionNames": [
+            "Device: Maintenance of lower rate limit"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Adjustment of lower rate limit",
+          "description": "Patients with preserved ejection fraction (EF \\>50%) and implanted pacemakers will have the lower rate limit adjusted to a personalized heart rate based on a heart rate algorithm.",
+          "armGroupLabels": [
+            "Lower rate set to a higher, personalized backup heart rate (myPACE)"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Maintenance of lower rate limit",
+          "description": "Lower rate limit will be maintained at 60 beats-per-minute",
+          "armGroupLabels": [
+            "Lower rate left at 60 beats-per-minute"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Minnesota Living with Heart Failure Questionnaire Score",
+          "description": "Change in score from baseline (at enrollment) to 1 month and 12 months after enrollment.",
+          "timeFrame": "Baseline, 1 month, and 12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "NTproBNP",
+          "description": "Change in NTproBNP level from baseline to 1 month",
+          "timeFrame": "Baseline, 1 month"
+        },
+        {
+          "measure": "Hospitalization or invasive outpatient intervention for heart failure",
+          "timeFrame": "At 12 months"
+        },
+        {
+          "measure": "Atrial Arrhythmia Burden",
+          "description": "On pacemaker reports",
+          "timeFrame": "At 12 months"
+        },
+        {
+          "measure": "Loop diuretic initiation or up-titration",
+          "timeFrame": "At 12 months"
+        },
+        {
+          "measure": "Anti-arrhythmic initiation or up-titration",
+          "timeFrame": "At 12 months"
+        },
+        {
+          "measure": "Pacemaker-detected activity levels",
+          "timeFrame": "At 12 months"
+        },
+        {
+          "measure": "hospitalizations or invasive outpatient intervention for heart failure exacerbation, atrial tachyarrhythmias, cerebrovascular accident, or myocardial infarction",
+          "timeFrame": "At 12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Implanted pacemaker with either 1) intrinsic ventricular conduction or 2) conduction system or biventricular pacing or 3) RV pacing \\<2% and paced QRS duration \\<150ms\n* Clinical evidence of heart failure with preserved ejection fraction or diastolic dysfunction, based on:\n\n  * dyspnea with exertion\n  * or NYHA Class ≥ II heart failure\n  * or pulmonary edema on prior chest imaging or documented on exam\n  * or is taking loop diuretics for heart failure\n  * or had NTproBNP \\>400 ng/ml in the last 24 months\n  * or a heart failure hospitalization in the last 2 years\n  * or has diastolic dysfunction on echo\n  * or has left ventricular hypertrophy on echo\n  * or has left atrial (LA) dilation (LA volume/BSA index \\>28ml/m2)\n\nExclusion Criteria:\n\n* Left ventricular ejection fraction \\< 50%\n* Life expectancy \\< 12 months\n* Symptomatic pulmonary disease on home oxygen\n* Uncontrolled hypertension as defined by blood pressure \\>160/100 mmHg on two checks ≥15 minutes apart\n* Hypertrophic cardiomyopathy\n* More than moderate valvular disease\n* Aortic valve replacement \\< 1 year\n* Angina pectoris\n* Creatinine \\> 2\n* Hemoglobin \\< 8 g/dL\n* Participation in another clinical trial or registry study\n* Inability to follow up for regularly scheduled pacemaker appointments or to follow up for this study\n* Pregnant patients or patients of childbearing age without reliable contraceptive agent (intra-uterine device, birth control implant, compliance with contraception injections or contraception pills) for the duration of study participation",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Markus Meyer, MD, PhD",
+          "affiliation": "University of Minnesota",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Vermont Medical Center",
+          "city": "Burlington",
+          "state": "Vermont",
+          "zip": "05401",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.47588,
+            "lon": -73.21207
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "40864451",
+          "type": "DERIVED",
+          "citation": "Infeld M, Cyr J, Novelli AE, Rawlings R, Wahlberg K, Plante TB, de Lavallaz JDF, Habel N, Lustgarten DL, Meyer M. Clinical Outcomes With Personalized Accelerated Physiologic Pacing in Heart Failure With Preserved Ejection Fraction: Follow-up of the myPACE Trial. JAMA Cardiol. 2025 Oct 1;10(10):1010-1015. doi: 10.1001/jamacardio.2025.2827."
+        },
+        {
+          "pmid": "36723919",
+          "type": "DERIVED",
+          "citation": "Infeld M, Wahlberg K, Cicero J, Plante TB, Meagher S, Novelli A, Habel N, Krishnan AM, Silverman DN, LeWinter MM, Lustgarten DL, Meyer M. Effect of Personalized Accelerated Pacing on Quality of Life, Physical Activity, and Atrial Fibrillation in Patients With Preclinical and Overt Heart Failure With Preserved Ejection Fraction: The myPACE Randomized Clinical Trial. JAMA Cardiol. 2023 Mar 1;8(3):213-221. doi: 10.1001/jamacardio.2022.5320."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18",
+      "submissionTracking": {
+        "estimatedResultsFirstSubmitDate": "2023-02-05",
+        "submissionInfos": [
+          {
+            "releaseDate": "2023-02-05",
+            "resetDate": "2023-02-28",
+            "mcpReleaseN": 3
+          },
+          {
+            "releaseDate": "2023-04-23",
+            "unreleaseDate": "2023-05-08"
+          },
+          {
+            "releaseDate": "2023-05-08",
+            "resetDate": "2023-06-07",
+            "mcpReleaseN": 4
+          }
+        ]
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054144",
+          "term": "Heart Failure, Diastolic"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

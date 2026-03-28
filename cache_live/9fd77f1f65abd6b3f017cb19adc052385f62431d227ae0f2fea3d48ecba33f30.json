@@ -1,0 +1,803 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07012629",
+      "orgStudyIdInfo": {
+        "id": "2025-521452-30-01"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2025-521452-30-01",
+          "type": "CTIS"
+        }
+      ],
+      "organization": {
+        "fullName": "Aarhus University Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "A EUROpean Randomized Study on Blood-thinners and Cholesterol-lowering Treatments to Prevent Future Vascular Events in People With Covert Brain Infarcts (CBI)",
+      "officialTitle": "A EUROpean Pragmatic Multicenter Randomized Trial on Platelet Inhibition and/or Lipid Lowering Treatment in Covert Brain Infarction (CBI)",
+      "acronym": "EURO-CBI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-11",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-11-26",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2031-09-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2040-01-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-06-01",
+      "studyFirstSubmitQcDate": "2025-06-01",
+      "studyFirstPostDateStruct": {
+        "date": "2025-06-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-11-27",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-04",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Rolf Blauenfeldt",
+        "investigatorTitle": "MD, PhD, Associate professor of Neurology.",
+        "investigatorAffiliation": "Aarhus University Hospital"
+      },
+      "leadSponsor": {
+        "name": "Aarhus University Hospital",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Rigshospitalet, Denmark",
+          "class": "OTHER"
+        },
+        {
+          "name": "Bispebjerg Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Herlev Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Zealand University Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Odense University Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Aalborg University Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Gødstrup Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Oslo University Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "University Medical Center Hamburg-Eppendorf (UKE)",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "Insel Gruppe AG, University Hospital Bern",
+          "class": "OTHER"
+        },
+        {
+          "name": "Lund University Hospital",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Magnetic resonance imaging (MRI) is commonly used in healthcare, and sometimes it shows small areas of brain damage called Covert Brain Infarcts (CBIs). These are usually found by chance when people have scans for things like headaches or dizziness. Although CBIs don't cause symptoms at the time, they are linked to a higher risk of future stroke and death.\n\nThere is currently no standard treatment for CBIs, and doctors have different approaches-some give stroke-preventing medication (like antiplatelets or statins), while others don't treat at all. This is mostly because there isn't enough research yet.\n\nThis study will test whether stroke-preventing treatments help people with CBIs. It will also look at whether having a CBI increases the risk of dementia, and whether treatment might lower that risk."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Covert Brain Infarction"
+      ],
+      "keywords": [
+        "CBI",
+        "Prevention",
+        "Asymptomatic brain infarction",
+        "Dementia"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "FACTORIAL",
+        "interventionModelDescription": "2x2 factorial",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1652,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Group A: Platelet inhibitor - no Statin (\"APT alone\")",
+          "type": "EXPERIMENTAL",
+          "description": "All patients will initiate treatment with Aspirin or Clopidogrel. The decision on which of the two drugs to initiate is at the discretion of the treating physician/center.",
+          "interventionNames": [
+            "Drug: acetylsalicyclic acid (ASA)",
+            "Drug: Clopidogrel"
+          ]
+        },
+        {
+          "label": "Group B: Statins - no Platelet inhibitor (\"Statin alone\").",
+          "type": "EXPERIMENTAL",
+          "description": "Patients will be treated with high-intensity statin therapy (Atorvastatin 40 mg once daily or Rosuvastatin 20 mg once daily)",
+          "interventionNames": [
+            "Drug: Rosuvastatin",
+            "Drug: Atorvastatin"
+          ]
+        },
+        {
+          "label": "Group C: Statins - Platelet inhibitor (\"APT AND statin\")",
+          "type": "EXPERIMENTAL",
+          "description": "Both types of medication are initiated as described in group A and B",
+          "interventionNames": [
+            "Drug: acetylsalicyclic acid (ASA)",
+            "Drug: Clopidogrel",
+            "Drug: Rosuvastatin",
+            "Drug: Atorvastatin"
+          ]
+        },
+        {
+          "label": "Group D: No Statins - no Platelet inhibitor (current standard treatment)",
+          "type": "NO_INTERVENTION",
+          "description": "This group follows the current European recommendations of primary prevention which do not include statins and APT agents. If statins and/or platelet inhibitors are started during the study-period it should adhere to primary prevention guidelines.\n\nAll four groups receive advice on lifestyle optimization and blood pressure management."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "acetylsalicyclic acid (ASA)",
+          "description": "Daily dose 75 mg to 100 mg p.o.",
+          "armGroupLabels": [
+            "Group A: Platelet inhibitor - no Statin (\"APT alone\")",
+            "Group C: Statins - Platelet inhibitor (\"APT AND statin\")"
+          ],
+          "otherNames": [
+            "Aspirin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Clopidogrel",
+          "description": "Daily dose 75 mg p.o.",
+          "armGroupLabels": [
+            "Group A: Platelet inhibitor - no Statin (\"APT alone\")",
+            "Group C: Statins - Platelet inhibitor (\"APT AND statin\")"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Rosuvastatin",
+          "description": "Daily dose 20 mg p.o. (10 mg once daily for the first 4 weeks, then 20 mg once daily for the remainder of the study period if tolerated).\n\nIf Rosuvastatin 20 mg is not tolerated, a dose reduction to 10 mg is allowed.",
+          "armGroupLabels": [
+            "Group B: Statins - no Platelet inhibitor (\"Statin alone\").",
+            "Group C: Statins - Platelet inhibitor (\"APT AND statin\")"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Atorvastatin",
+          "description": "Daily dose 40 mg p.o. If Atorvastatin 40 mg is not tolerated, a dose reduction to 20 mg is allowed.",
+          "armGroupLabels": [
+            "Group B: Statins - no Platelet inhibitor (\"Statin alone\").",
+            "Group C: Statins - Platelet inhibitor (\"APT AND statin\")"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Major Adverse Cardiac and Cerebral Events (MACCE) at 12 and 36 months",
+          "description": "MACCE are defined as the occurrence of any of the following events\n\n* All cause death: Death from any cause\n* Acute myocardial infarction: Admission with a discharge diagnosis of ST-elevation myocardial infarction (STEMI) and non-ST elevation myocardial infarction (NSTEMI) and\n* Stroke: AIS\\* or Intracerebral hemorrhage (non-traumatic) \\*Including Transient Ischemic Attack (TIA) with evidence of brain tissue infarction i.e. remission of symptoms within 24 hours but who have an acute ischemic lesion on diffusion weighted imaging MRI.\n\nAll events qualifying for a MACCE event will be adjudicated by the Clinical event committee.\n\nAccepted timeframe for evaluation is +/- 30 days",
+          "timeFrame": "12 months and 36 months post-randomization."
+        },
+        {
+          "measure": "Major and fatal bleeding at 12 and 36 months",
+          "description": "Major and fatal bleeding events are defined according to criteria established by the International Society on Thrombosis and Haemostasis (ISTH):\n\n* Fatal bleeding, and/or\n* Symptomatic bleeding in a critical area or organ, such as intracranial, intraspinal, intraocular, retroperitoneal, intra-articular, pericardial, or intramuscular with compartment syndrome, and/or\n* Bleeding leading to a drop in hemoglobin of ≥20 g/L (1.24 mmol/L), or requiring transfusion of two or more units of whole blood or red cells.\n\nAll qualifying events will be adjudicated by an independent Clinical Event Committee (CEC).\n\nThe accepted time window for assessment is ±30 days.",
+          "timeFrame": "12 months and 36 months post-randomization."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "All-cause dementia",
+          "description": "Dementia is identified through phone contact and review of the patient's electronic health record, based on national diagnostic standards. Accepted diagnoses align with ICD-10 and ICD-11. ICD-10 codes include: dementia in Alzheimer's disease (F00.0-F00.9, DG30.0-DG30.9), vascular dementia (F01.0-F01.9, F00.2), dementia in other diseases classified elsewhere (F02.0-F02.8), unspecified dementia (F03.9), Lewy body dementia (DG31.8E), progressive isolated aphasia (DG31.0A), Pick disease (DG31.0B), and unspecified degenerative disease of the nervous system (DG31.9). ICD-11 codes include: dementia due to Alzheimer's disease (6D80), cerebrovascular disease (6D81), Lewy body disease (6D82), frontotemporal dementia (6D83), other specified diseases (6D85.Y), and dementia of unknown or unspecified cause (6D8Z). The accepted time window for evaluation is ±30 days.",
+          "timeFrame": "12 months and 36 months post-randomization."
+        },
+        {
+          "measure": "Cardiovascular-related mortality",
+          "description": "Information about cardiovascular mortality is collected from telephone contacts and from the patient's electronic health record. See the table below for the definition of cardiovascular mortality.\n\nCardiovascular Mortality are defined as:\n\n* Acute MI\n* Sudden cardiac death\n* Heart failure\n* Stroke: death as a direct consequence or complication of stroke\n* Cardiovascular procedure\n* Cardiovascular-related haemorrhage: non-stroke intracranial haemorrhage (subdural hematoma), non-procedural or non-traumatic vascular rupture (e.g. aortic aneurysm), or haemorrhage causing cardiac tamponade\n* Death due to other cardiovascular causes: a cardiovascular death not included in the above categories but with a specific, known cause (e.g., pulmonary embolism or peripheral arterial disease)\n\nAccepted time for evaluation is +/- 30 days",
+          "timeFrame": "12 months and 36 months post-randomization."
+        },
+        {
+          "measure": "Cognitive decline",
+          "description": "A significant cognitive decline, defined as a ≥2-point reduction in Montreal Cognitive Assessment (MoCA) scores at 36 months.\n\nThe participant's score on the full 12 item in-person MoCA (30 points) at the initial visit is compared to the scores on the telephone administrated Tele-MoCA (items from MoCA not requiring the use of a pencil and paper or visual stimulus, maximum of 22 points) after 12 and 36 months.\n\nAccepted time for evaluation is +/- 30 days",
+          "timeFrame": "After 12 months and a end of treatment at 36 months"
+        },
+        {
+          "measure": "Serious adverse event (SAE)",
+          "description": "Information on SAEs will be reported by the investigators and recorded in the eCRF.",
+          "timeFrame": "From enrollment to the end of treatment at 36 months"
+        },
+        {
+          "measure": "Baseline MRI risk markers, quantified using the ordinal simplified SVD-score (small vessel disease) score",
+          "description": "Simple SVD defined as score: Microbleeds: 0 microbleeds = 0 point; ≥ 1 microbleed = 1 point White matter hyperintensities (Fazekas): Fazekas 0-1 = 0 point; Fazekas 2-3 = 1 point. Lacunes: 0-2 lacunes = 0 point; \\>2 lacunes = 1 point. Total SVD score (range): 0-3.",
+          "timeFrame": "After 12 months and at the end of treatment at 36 months"
+        },
+        {
+          "measure": "Physical activity levels",
+          "description": "Baseline physical activity levels are measured by the International Physical Activity Questionnaire (IPAQ).It yields a categorical score: low, moderate, or high level of physical activity. The follow-up assessment will be performed by staff from the enrolling site.\n\nAccepted time for evaluation is +/- 30 days",
+          "timeFrame": "At baseline"
+        },
+        {
+          "measure": "Modified Rankin Scale (mRS) score",
+          "description": "The change in mRS score will be assessed to evaluate shifts in functional independence and disability over time. The mRS ranges from 0 to 6, with higher scores indicating worse outcomes. The follow-up assessment at 12 and 36 months will be performed by staff from the enrolling site.\n\nAccepted time for evaluation is +/- 30 days",
+          "timeFrame": "From baseline to 12 months and to the end of treatment at 36 months"
+        },
+        {
+          "measure": "Clinical Frailty Scale (CFS) score",
+          "description": "The change in CFS score will be assessed from baseline to 12 and 36 months to evaluate the progression of frailty and its impact on functional status and overall health over time. It ranges from 1 to 9, with 1 indicating \"very fit\" and 9 indicating \"terminally ill.\" The follow-up assessments at 12 and 36 months will be performed by staff from the enrolling site Accepted time for evaluation is +/- 30 days",
+          "timeFrame": "From baseline to 12 months and to the end of treatment at 36 months"
+        },
+        {
+          "measure": "Barthel Index (BI) for Activities of Daily Living (ADL)",
+          "description": "The Barthel Index is a score that describes the degree of independence in relation to assistance from another person. It ranges from 0 to 100, with higher scores indicating greater independence. A score close to 100 reflects that the individual is self-sufficient, whereas lower scores indicate increasing dependence on others in daily activities. A score near 0 typically suggests that the individual is bedridden and requires help with all tasks.\n\nThe follow-up assessments at 12 and 36 months will be performed by staff from the enrolling site.\n\nAccepted time for evaluation is +/- 30 days",
+          "timeFrame": "From enrollment to 12 months and to the end of treatment at 36 months"
+        },
+        {
+          "measure": "Quality of life (EQ-5D)",
+          "description": "The descriptive system comprises five dimensions: mobility, self-care, usual activities, pain/discomfort and anxiety/depression. Each dimension has 5 levels: no problems, slight problems, moderate problems, severe problems and extreme problems. The patient is asked to indicate his/her health state by ticking the box next to the most appropriate statement in each of the five dimensions. This decision results in a 1-digit number that expresses the level selected for that dimension. The digits for the five dimensions can be combined into a 5-digit number that describes the patient's health state.\n\nThe follow-up assessments at 12 and 36 months will be performed by staff from the enrolling site.\n\nAccepted time for evaluation is +/- 30 days",
+          "timeFrame": "From enrollment to 12 months and to the end of treatment at 36 months"
+        },
+        {
+          "measure": "CBI subtype",
+          "description": "The CBI subtype and infarct appearance will be described by the enrolling physician, who has been trained to identify these findings on MRI.\n\nThe baseline MRI will be visually graded by the investigators and the total SVD score calculated.\n\nThe DICOM (Digital Imaging and Communications in Medicine) file containing the MRI will be downloaded and uploaded to the electronic case report form (eCRF) at redcap.au.dk, for later assessment by an imaging core lab.",
+          "timeFrame": "At baseline"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "MRI-based assessment of small vessel disease progression (sub-study)",
+          "description": "At centers participating in the extended imaging sub-study, patients will be invited to a follow-up MRI after 3 years (+/- 1 months). The baseline MRI should be of sufficient quality and with a field strength of 3 Tesla. The follow-up MRI will contain diffusion-weighted imaging, apparent diffusion coefficient, Susceptibility Weighted Imaging (preferred) or T2\\* gradient-recalled echo, and T2 fluid-attenuated inverse recovery. Newly developed lacunar and/or cortical infarctions will be recorded and a SVD score will be calculated. If possible T1 weighted sequences will be performed. The MRI will be uploaded to eCRF.\n\nThe number of CBIs, number of cerebral microbleeds, deep white matter lesions (Fazekas grade), MRI SVD score, and Global Cortical Atrophy (GCA) Scale will be assessed by two blinded assessors. If there is disagreement, a third and final blinded assessor will perform the assessment.",
+          "timeFrame": "After 36 months (+/- 1 months)"
+        },
+        {
+          "measure": "MRI-based assessment of white matter lesion (WML) volume growth",
+          "description": "WML volume will be estimated using semiautomatic software, such as 3D Slicer (an open-source medical image analysis tool) or a similar alternative. WML will be segmented together with volume quantification. It will be performed by two blinded assessors, and the final volume will represent a consensus volume between the assessors.",
+          "timeFrame": "36 months (+/- 1 month)"
+        },
+        {
+          "measure": "Carotid plaque quantification on ultrasound",
+          "description": "At centers participating in the extended imaging sub-study, patients will be invited to an ultrasound examination at the baseline visit. The common- and internal carotid artery will be assessed for signs of atherosclerotic disease and presence, size and morphology of plaques, classifying them based on echogenicity (homogeneous or heterogeneous), surface characteristics (smooth or irregular), and calcification (presence or absence) ipsilateral to the CBI. If bilateral CBIs are present, the left side will be scanned.\n\nA plaque score will be calculated based on sum scores for each plaque identified in the carotid and intracranial arteries based on size and morphology. Plaque Grading Consensus will be used and range from no plaque (IMT \\< 1.5mm), protuberant/diffuse \\< 1.5mm IMT, protuberant/ diffuse with IMT 1.5-2.4mm or protuberant/ diffuse with IMT \\>2.5mm.",
+          "timeFrame": "At baseline"
+        },
+        {
+          "measure": "Pulsatility index on ultrasound",
+          "description": "Pulsatility Index (PI) of the mid- and distal middle cerebral artery (MCA) will be measured using transcranial Doppler ultrasound to assess blood flow resistance within cerebral vessels. It will be calculated based on the difference between peak systolic and end-diastolic blood flow velocities relative to the mean flow velocity:\n\nPI=(Peak Systolic Velocity-End-Diastolic Velocity)/Mean Velocity. PI has been associated with increased microvascular resistance, white matter disintegration, plaque burden.",
+          "timeFrame": "At baseline"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* MRI demonstrating a lacunar infarct (acute/subacute/chronic) without prior stroke/TIA symptoms. (A round or ovoid, subcortical, fluid-filled cavity (signal similar to cerebrospinal fluid (CSF)) between 3 and 15 mm in diameter and demonstrating a peripheral T2/FLAIR hyperintense rim of marginal gliosis. For infratentorial lesions the hyperintense rim may be less marked and a complete ring is not required) OR\n* MRI demonstrating a cortical infarct (acute/subacute/chronic) without prior stroke/TIA symptoms (A cortical infarct is defined as a fluid-filled cavity (signal similar to CSF) in the cortex, juxtacortical region or cerebellar cortex and with a ring of T2/FLAIR hyperintense lesions or as cortical T2/FLAIR lesions without a fluid-filled cavity with presumed vascular origin. Both supra- and infratentorial lesion will be included) AND Life expectancy \\> 12 months AND Predominantly independent in actives of daily living (mRS score ≤ 3) AND Age ≥ 50 years\n\nExclusion Criteria:\n\n* History of stroke/TIA\n* High risk of bleeding (e.g., recent or recurrent gastrointestinal or genitourinary bleeding associated with a decrease in hemoglobin levels of at least 1 mmol/L, active peptic ulcer disease, MRI with cortical siderosis and/or prior lobar hemorrhage)\n* Indication for long-term use of anticoagulants (e.g. deep vein thrombosis, pulmonary embolism, atrial fibrillation, and rarer indications; such as mechanical heart valve, antiphospholipid antibody syndrome etc.)\n* Concurrent indication for lipid-lowering treatment and/or platelet-inhibitors for secondary cardiovascular prevention (ischemic heart disease, recent stenting, ischemic stroke, revascularization surgeries, lower-extremity atherosclerotic arterial disease etc.)\n* Co-existing progressive neurodegenerative disease including dementia or Parkinson's disease.\n* Neoplastic condition that is uncontrolled or associated with an increased risk of bleeding\n* Patient already on antiplatelet or anticoagulation agent, regardless of indication\n* Women with a history of menopause below 12 months are only included after negative pregnancy test",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "50 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Rolf Blauenfeldt",
+          "role": "CONTACT",
+          "phone": "+4529318244",
+          "email": "rolfblau@rm.dk"
+        },
+        {
+          "name": "Ida Thingholm Norup",
+          "role": "CONTACT",
+          "phone": "+4520848978",
+          "email": "idnoru@rm.dk"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Aalborg Universitetshospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Aalborg",
+          "zip": "9000",
+          "country": "Denmark",
+          "contacts": [
+            {
+              "name": "Boris Modrau",
+              "role": "CONTACT",
+              "phone": "+4597662239",
+              "email": "boris.modrau@rn.dk"
+            }
+          ],
+          "geoPoint": {
+            "lat": 57.048,
+            "lon": 9.9187
+          }
+        },
+        {
+          "facility": "Aarhus Universitetshospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Aarhus",
+          "zip": "8200",
+          "country": "Denmark",
+          "contacts": [
+            {
+              "name": "Claus Simonsen",
+              "role": "CONTACT",
+              "phone": "+45 50240543",
+              "email": "clausimo@rm.dk"
+            }
+          ],
+          "geoPoint": {
+            "lat": 56.15674,
+            "lon": 10.21076
+          }
+        },
+        {
+          "facility": "Aarhus University Hospital",
+          "status": "RECRUITING",
+          "city": "Aarhus",
+          "zip": "8200",
+          "country": "Denmark",
+          "contacts": [
+            {
+              "name": "Rolf Blauenfeldt",
+              "role": "CONTACT",
+              "phone": "+4529318244",
+              "email": "rolfblau@rm.dk"
+            }
+          ],
+          "geoPoint": {
+            "lat": 56.15674,
+            "lon": 10.21076
+          }
+        },
+        {
+          "facility": "Rigshospitalet",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Copenhagen",
+          "zip": "2100",
+          "country": "Denmark",
+          "contacts": [
+            {
+              "name": "Anders Sode West",
+              "role": "CONTACT",
+              "phone": "+4538630220",
+              "email": "anders.sode.west@regionh.dk"
+            }
+          ],
+          "geoPoint": {
+            "lat": 55.67594,
+            "lon": 12.56553
+          }
+        },
+        {
+          "facility": "Bispebjerg og Frederiksberg Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Copenhagen",
+          "zip": "2400",
+          "country": "Denmark",
+          "contacts": [
+            {
+              "name": "Hanne Christensen",
+              "role": "CONTACT",
+              "phone": "+4538635000",
+              "email": "Hanne.Krarup.Christensen@regionh.dk"
+            }
+          ],
+          "geoPoint": {
+            "lat": 55.67594,
+            "lon": 12.56553
+          }
+        },
+        {
+          "facility": "Herlev Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Herlev",
+          "zip": "2730",
+          "country": "Denmark",
+          "contacts": [
+            {
+              "name": "Anders Hougaard",
+              "role": "CONTACT",
+              "phone": "+4538682790",
+              "email": "anders.hougaard@regionh.dk"
+            }
+          ],
+          "geoPoint": {
+            "lat": 55.72366,
+            "lon": 12.43998
+          }
+        },
+        {
+          "facility": "Regionshospitalet Gødstrup",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Herning",
+          "zip": "7400",
+          "country": "Denmark",
+          "contacts": [
+            {
+              "name": "Mohammed Ahmad Al-Jazi",
+              "role": "CONTACT",
+              "phone": "+4578430000",
+              "email": "moalja@rm.dk"
+            }
+          ],
+          "geoPoint": {
+            "lat": 56.13615,
+            "lon": 8.97662
+          }
+        },
+        {
+          "facility": "Kolding Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Kolding",
+          "zip": "6000",
+          "country": "Denmark",
+          "contacts": [
+            {
+              "name": "Henrik Leth de Fønss",
+              "role": "CONTACT",
+              "phone": "+4576302600",
+              "email": "Henrik.Leth@rsyd.dk"
+            }
+          ],
+          "geoPoint": {
+            "lat": 55.4904,
+            "lon": 9.47216
+          }
+        },
+        {
+          "facility": "Odense Universitetshospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Odense",
+          "zip": "5000",
+          "country": "Denmark",
+          "contacts": [
+            {
+              "name": "David Gaist",
+              "role": "CONTACT",
+              "phone": "+4565504185",
+              "email": "dgaist@health.sdu.dk"
+            }
+          ],
+          "geoPoint": {
+            "lat": 55.39594,
+            "lon": 10.38831
+          }
+        },
+        {
+          "facility": "Roskilde Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Roskilde",
+          "zip": "4000",
+          "country": "Denmark",
+          "contacts": [
+            {
+              "name": "Troels Wienecke",
+              "role": "CONTACT",
+              "phone": "+4547322808",
+              "email": "trw@regionsjaelland.dk"
+            }
+          ],
+          "geoPoint": {
+            "lat": 55.64152,
+            "lon": 12.08035
+          }
+        },
+        {
+          "facility": "University Medical Center Hamburg-Eppendorf",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Hamburg",
+          "zip": "20246",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Götz Thomalla",
+              "role": "CONTACT",
+              "phone": "+4940741050137",
+              "email": "thomalla@uke.de"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.55073,
+            "lon": 9.99302
+          }
+        },
+        {
+          "facility": "Oslo University Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Oslo",
+          "zip": "0450",
+          "country": "Norway",
+          "contacts": [
+            {
+              "name": "Anne Hege Aamodt",
+              "role": "CONTACT",
+              "phone": "+4795867270",
+              "email": "a.h.aamodt@medisin.uio.no"
+            }
+          ],
+          "geoPoint": {
+            "lat": 59.91273,
+            "lon": 10.74609
+          }
+        },
+        {
+          "facility": "Skånes Universitetssjukhus",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Lund",
+          "zip": "22242",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Jesper Petersson",
+              "role": "CONTACT",
+              "phone": "0046406733000",
+              "email": "Jesper.Petersson@skane.se"
+            }
+          ],
+          "geoPoint": {
+            "lat": 55.70584,
+            "lon": 13.19321
+          }
+        },
+        {
+          "facility": "Universitätsspital - Inselspital - University of Bern",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Bern",
+          "zip": "3010",
+          "country": "Switzerland",
+          "contacts": [
+            {
+              "name": "Thomas Meinel",
+              "role": "CONTACT",
+              "phone": "+41 76 4928 545",
+              "email": "thomas.meinel@insel.ch"
+            }
+          ],
+          "geoPoint": {
+            "lat": 46.94809,
+            "lon": 7.44744
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Individual participant data underlying the baseline screening visit and 3 years outcome can be shared after de-identification, upon reasonable request and proposals should be directed at the principal study investigator. To gain access to these data, data requestors will need to sign a data processing agreement.\n\nFurther, anonymized data will be available through public databases such as the Zenodo open data repository (CERN) or other equivalent databases after trial completion.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP"
+      ],
+      "timeFrame": "After publication of the primary endpoint (estimated Sept 30, 2032)",
+      "accessCriteria": "To gain access to these data, data requestors will need to sign a data processing agreement."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003704",
+          "term": "Dementia"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D019965",
+          "term": "Neurocognitive Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001241",
+          "term": "Aspirin"
+        },
+        {
+          "id": "D000077144",
+          "term": "Clopidogrel"
+        },
+        {
+          "id": "D000068718",
+          "term": "Rosuvastatin Calcium"
+        },
+        {
+          "id": "D000069059",
+          "term": "Atorvastatin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012459",
+          "term": "Salicylates"
+        },
+        {
+          "id": "D062385",
+          "term": "Hydroxybenzoates"
+        },
+        {
+          "id": "D010636",
+          "term": "Phenols"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D013988",
+          "term": "Ticlopidine"
+        },
+        {
+          "id": "D058924",
+          "term": "Thienopyridines"
+        },
+        {
+          "id": "D013876",
+          "term": "Thiophenes"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D013449",
+          "term": "Sulfonamides"
+        },
+        {
+          "id": "D000577",
+          "term": "Amides"
+        },
+        {
+          "id": "D005464",
+          "term": "Fluorobenzenes"
+        },
+        {
+          "id": "D006845",
+          "term": "Hydrocarbons, Fluorinated"
+        },
+        {
+          "id": "D006846",
+          "term": "Hydrocarbons, Halogenated"
+        },
+        {
+          "id": "D013450",
+          "term": "Sulfones"
+        },
+        {
+          "id": "D011743",
+          "term": "Pyrimidines"
+        },
+        {
+          "id": "D011758",
+          "term": "Pyrroles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006538",
+          "term": "Heptanoic Acids"
+        },
+        {
+          "id": "D005227",
+          "term": "Fatty Acids"
+        },
+        {
+          "id": "D008055",
+          "term": "Lipids"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

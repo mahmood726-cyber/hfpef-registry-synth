@@ -1,0 +1,220 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03305692",
+      "orgStudyIdInfo": {
+        "id": "ERP 3890"
+      },
+      "organization": {
+        "fullName": "Allina Health System",
+        "class": "OTHER"
+      },
+      "briefTitle": "ECG Belt vs. Echocardiographic Optimization of CRT",
+      "officialTitle": "Optimization of New CRT Recipients: Subjects Randomized to ECG Belt or Echocardiographic Optimization"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-09",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-10-31",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-08-17",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-08-17",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-09-26",
+      "studyFirstSubmitQcDate": "2017-10-06",
+      "studyFirstPostDateStruct": {
+        "date": "2017-10-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-09-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-09-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Alan J. Bank, MD",
+        "investigatorTitle": "Medical Director of Research - United Heart & Vascular Clinic",
+        "investigatorAffiliation": "Allina Health System"
+      },
+      "leadSponsor": {
+        "name": "Alan J. Bank, MD",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Medtronic",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUnapprovedDevice": true,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Cardiac resynchronization therapy (CRT) has been a valuable intervention for patients with systolic heart failure for over 15 years. Despite years of research, there is a still a 25-40% non-responder rate depending on the outcomes measured. CRT optimization is a term used to describe the act of individualizing the therapy (CRT programming) for an individual patient. This is not often performed, but when it is, echocardiography is utilized. Recent work of body surface mapping using a novel system called the ECG Belt has shown a relationship between measures of electrical dyssynchrony and acute and chronic heart pumping function. This study will compare outcomes of patients randomized to either echocardiographic or ECG Belt optimization of CRT devices.",
+      "detailedDescription": "This is a prospective randomized study designed to determine whether cardiac resynchronization therapy (CRT) device programming guided by the ECG Belt (Medtronic, PLC) improves echocardiographic and functional outcomes in heart failure (HF) patients. The population will include patients treated with CRT for standard indications (not implanted for the sole purposes of this study). The study will focus enrollment on patients who do not have baseline characteristics predicting the best CRT response. Therefore the study will not enroll patients having non-ischemic HF etiology, left bundle branch (LBBB) morphology, and QRSd \\> 150 ms or those previously RV paced."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure, Systolic"
+      ],
+      "keywords": [
+        "cardiac resynchronization therapy",
+        "pacing",
+        "echocardiography",
+        "optimization",
+        "heart failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "1:1 randomization",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Individual analyzing echocardiograms (primary outcome) will not know randomization of the subject.",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 3,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "ECG Belt",
+          "type": "EXPERIMENTAL",
+          "description": "Use ECG Belt body surface mapping system to optimize CRT programming.",
+          "interventionNames": [
+            "Diagnostic Test: Optimization of CRT Device"
+          ]
+        },
+        {
+          "label": "Echocardiography",
+          "type": "EXPERIMENTAL",
+          "description": "Use mitral inflow echocardiography to optimize CRT programming.",
+          "interventionNames": [
+            "Diagnostic Test: Optimization of CRT Device"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Optimization of CRT Device",
+          "description": "Use a body surface mapping system to quantify electrical dyssynchrony or echocardiography to quantify diastolic blood flow characteristics. Program the pacemaker to maximize the benefit of the modality the subject is randomized to.",
+          "armGroupLabels": [
+            "ECG Belt",
+            "Echocardiography"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Echocardiographic assessment of LV function",
+          "description": "Change in ejection fraction",
+          "timeFrame": "6 months post optimization"
+        },
+        {
+          "measure": "Echocardiographic assessment of LV size",
+          "description": "Change in left ventricular end-systolic volume",
+          "timeFrame": "6 months post optimization"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Willing and able to provide informed consent for participation in the study\n* Age ≥18 years\n* Received a first-time CRT device for standard clinical indication (can be upgraded from non-CRT pacemaker or defibrillator if ventricular pacing \\< 10%)\n* Adequate echocardiographic images for EF \\& LVESV determination\n\nExclusion Criteria:\n\n* Unhealed open wounds on the torso and/or a history of documented severe allergic reactions from ECG electrode gel\n* Enrollment in a concurrent study that could confound the results of this study\n* Pregnant or could become pregnant within the 6 month follow-up period\n* Non-ischemic cardiomyopathy, LBBB morphology, and QRSd \\> 150 ms\n* Dysrhythmia (AF or PVCs) that will likely result in aggregate ventricular pacing \\< 90% over the 6 month follow-up period",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "110 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Alan Bank, MD",
+          "affiliation": "United Heart & Vascular Clinic - Allina Health System",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "United Heart & Vascular Clinic",
+          "city": "Saint Paul",
+          "state": "Minnesota",
+          "zip": "55102",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.94441,
+            "lon": -93.09327
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "We do not plan to share IPD with other researchers."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054143",
+          "term": "Heart Failure, Systolic"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

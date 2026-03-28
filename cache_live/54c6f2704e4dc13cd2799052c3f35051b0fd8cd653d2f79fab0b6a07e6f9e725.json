@@ -1,0 +1,338 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03255044",
+      "orgStudyIdInfo": {
+        "id": "48"
+      },
+      "organization": {
+        "fullName": "Ain Shams University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Comparison of Lipophilic Versus Hydrophilic Statins on Patients With Heart Failure",
+      "officialTitle": "Impact of Lipophilic Versus Hydrophilic Statin Administration on The Clinical Outcome and Cardiac Markers of Patients With Heart Failure"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-01",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-06-15",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2019-03-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2019-04-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-08-10",
+      "studyFirstSubmitQcDate": "2017-08-18",
+      "studyFirstPostDateStruct": {
+        "date": "2017-08-21",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2020-01-06",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-01-09",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Nouran Omar",
+        "investigatorTitle": "Assistant Lecturer",
+        "investigatorAffiliation": "Ain Shams University"
+      },
+      "leadSponsor": {
+        "name": "Ain Shams University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "There is a controversy whether statins are beneficial in patients with heart failure or not. Trials in which lipophilic statins have been used revealed positive results, unlike major studies where hydrophilic statins were administered. This trial is designed to compare the effects of lipophilic versus hydrophilic statin use in patients with heart failure."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ],
+      "keywords": [
+        "statin",
+        "hydrophilic",
+        "lipophilic"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 85,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Lipophilic statin",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Atorvastatin 40 mg administered daily in addition to guideline directed therapy for heart failure.",
+          "interventionNames": [
+            "Drug: Atorvastatin",
+            "Other: guideline directed therapy"
+          ]
+        },
+        {
+          "label": "Hydrophilic statin",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Rosuvastatin 20 mg administered daily in addition to guideline directed therapy for heart failure.",
+          "interventionNames": [
+            "Drug: Rosuvastatin",
+            "Other: guideline directed therapy"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Atorvastatin",
+          "description": "Atorvastatin administered as well as standard heart failure therapy",
+          "armGroupLabels": [
+            "Lipophilic statin"
+          ],
+          "otherNames": [
+            "standard heart failure therapy"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Rosuvastatin",
+          "description": "Rosuvastatin administered as well as standard heart failure therapy",
+          "armGroupLabels": [
+            "Hydrophilic statin"
+          ],
+          "otherNames": [
+            "standard heart failure therapy"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "guideline directed therapy",
+          "description": "standard heart failure therapy",
+          "armGroupLabels": [
+            "Hydrophilic statin",
+            "Lipophilic statin"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Left Ventricular Ejection Fraction (LVEF)",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Left Ventricular End-diastolic volume (LVEDV)",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Left Ventricular End-systolic volume (LVESV)",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "cardiac markers",
+          "description": "NT pro BNP (N-terminal prohormone of brain natriuretic peptide) sST2 (soluble suppression of tumorigenicity 2)",
+          "timeFrame": "6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Minnesota Living with Heart Failure Questionnaire( MLHFQ)",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Packer composite outcome",
+          "description": "* Patients are considered improved if at the final visit they experienced a favorable change in NYHA functional class or in the patient global assessment: markedly/moderately improved (or both) but did not experience any major adverse clinical events during the course of the trial (death or hospitalization).\n* Patients are considered worse if they experienced a major clinical event during the duration of treatment or reported worsening of their NYHA class or global assessment at the final visit.\n* Patients are considered unchanged if they are neither improved nor worse.",
+          "timeFrame": "6 months"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Incidence of major adverse cardiac events",
+          "description": "* Cardiovascular death\n* All cause death\n* Non- fatal myocardial infarction\n* Stroke",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Incidence of Hospitalization",
+          "description": "Defined as hospitalization for worsening of heart failure for more than 24 hours and demanding aggressive intervention (IV inotropics, diuretics etc..)",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* older than 18 years (of both sexes)\n* diagnosed with stable chronic heart failure NYHA class II-III\n* ejection fraction \\< 40 % as assessed by 2D echocardiography\n* who have been optimized on Guideline Directed treatment for heart failure for at least a month prior to enrolling.\n\nExclusion Criteria:\n\n* Known hypersensitivity to statin\n* Treatment with statins during the past month prior to study.\n* Serum creatinine \\> 3 mg/dl\n* Significant liver disease: liver enzymes 2.5 folds the upper normal limit\n* Malignancy\n* Pregnancy or lactation",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Ain Shams University Hospital Cardiology Rehab Unit",
+          "city": "Cairo",
+          "country": "Egypt",
+          "geoPoint": {
+            "lat": 30.06263,
+            "lon": 31.24967
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "33294980",
+          "type": "DERIVED",
+          "citation": "El Said NO, El Wakeel LM, Khorshid H, Darweesh EAG, Ahmed MA. Impact of lipophilic vs hydrophilic statins on the clinical outcome and biomarkers of remodelling in heart failure patients: A prospective comparative randomized study. Br J Clin Pharmacol. 2021 Jul;87(7):2855-2866. doi: 10.1111/bcp.14695. Epub 2021 Jan 3."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000069059",
+          "term": "Atorvastatin"
+        },
+        {
+          "id": "D000068718",
+          "term": "Rosuvastatin Calcium"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011758",
+          "term": "Pyrroles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D006538",
+          "term": "Heptanoic Acids"
+        },
+        {
+          "id": "D005227",
+          "term": "Fatty Acids"
+        },
+        {
+          "id": "D008055",
+          "term": "Lipids"
+        },
+        {
+          "id": "D013449",
+          "term": "Sulfonamides"
+        },
+        {
+          "id": "D000577",
+          "term": "Amides"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D005464",
+          "term": "Fluorobenzenes"
+        },
+        {
+          "id": "D006845",
+          "term": "Hydrocarbons, Fluorinated"
+        },
+        {
+          "id": "D006846",
+          "term": "Hydrocarbons, Halogenated"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D013450",
+          "term": "Sulfones"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D011743",
+          "term": "Pyrimidines"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

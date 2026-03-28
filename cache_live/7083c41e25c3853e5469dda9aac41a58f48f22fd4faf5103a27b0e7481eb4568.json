@@ -1,0 +1,266 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04268264",
+      "orgStudyIdInfo": {
+        "id": "R2338"
+      },
+      "organization": {
+        "fullName": "Hull University Teaching Hospitals NHS Trust",
+        "class": "OTHER_GOV"
+      },
+      "briefTitle": "A Feasibility Study to Test the Acceptability, Tolerance and Safety of Incremental Haemodialysis",
+      "officialTitle": "Effect of Incremental Introduction of Dialysis Versus Standard Care in Patients With End-stage Renal Disease: a Feasibility Study",
+      "acronym": "ENDURE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-05-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-02-28",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-02-28",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-11-14",
+      "studyFirstSubmitQcDate": "2020-02-11",
+      "studyFirstPostDateStruct": {
+        "date": "2020-02-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-04-11",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-04-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Hull University Teaching Hospitals NHS Trust",
+        "class": "OTHER_GOV"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This feasibility study tests if patients find incremental HD acceptable, whether they tolerate the treatment as planned and to evaluate its safety. Over a period of 18-months, 20 participants will be recruited in to the study who are about to start HD therapy for ESRD. The participants will start HD incrementally (incremental HD group) reaching full dose HD over a period of approximately 15 weeks. The outcomes will be compared to a cohort of 40 matched patients who previously started HD in the conventional manner (historical controls, conventional HD group).\n\nAll patients will be followed-up for 6 months after first dialysis. Participants will be reviewed regularly during this time, and will undergo laboratory and bed-site monitoring tests. Acceptability and tolerance will be tested by documenting the numbers and percentages of patients who agree to participate and continue in the study. Patients who decline the invitation to join the study will be given the opportunity to express their reasons for declining to go on incremental HD (they will not play further part in the study). The safety of incremental HD will be tested by comparing the rates of pre-defined safety events in the incremental HD vs. conventional HD groups.\n\nThe impact of incremental HD on patients' residual renal function will be monitored using serial 24-hour urine collections, bio-impedance testing will be conducted to estimate changes in fluid load, measurements of quality-of-life will be undertaken by using patient KDQOL-SF v1.3 questionnaires. These tests will be repeated at regular intervals. Blood tests for estimation of residual renal function and markers of renal anemia, bone disease and cardiac load will be performed at regular intervals and will be compared between the two groups (incremental HD vs. conventional HD groups). These measurements will help in the evaluation of impact of incremental HD on patients' health and well-being. The completion rates of these tests will provide important information about whether they should be included in a future larger trial of incremental HD. Participants undergoing incremental HD will be invited to take part in semi-structured interviews aimed at exploring patients' experiences of receiving incremental HD and their participation in the study.\n\nData from this study will be used to test if it is feasible to use deaths (or a combination of deaths and cardiovascular events) as the main outcome measure in a future definitive trial on incremental HD. The data should enable a sample-size calculation for a future full-scale trial."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Renal Failure",
+        "Hemodialysis Complication",
+        "Morality"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 54,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Treatment arm",
+          "type": "EXPERIMENTAL",
+          "description": "Will receive trial intervention, Incremental haemodialysis (n=20)",
+          "interventionNames": [
+            "Procedure: Incremental haemodialysis"
+          ]
+        },
+        {
+          "label": "Control arm",
+          "type": "OTHER",
+          "description": "Historical controls. Matched controls from database of historical patients receiving conventional, three times weekly haemodialysis treatment (n=40)",
+          "interventionNames": [
+            "Procedure: Conventional haemodialysis"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "Incremental haemodialysis",
+          "description": "twice weekly haemodilysis at the start, gradually building up to full dose dialysis over a period of 15 weeks",
+          "armGroupLabels": [
+            "Treatment arm"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Conventional haemodialysis",
+          "description": "three times weekly 4-hour long haemodialysis sessions from the start",
+          "armGroupLabels": [
+            "Control arm"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Acceptability: Recruitment rate",
+          "description": "What proportion of eligible patients were recruited in to the trial?",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Tolerance: Retention rate",
+          "description": "What proportion of participants completed treatment as planned",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Completion rates of non-routine tests",
+          "description": "Completion rates of the non-routine tests a) the 24-hour urine collections, b) six-minute walk test, c) bio-impedance testing and d) quality of life questionnaires",
+          "timeFrame": "6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Mortality and cardiovascular event rates",
+          "description": "Differences in mortality, and the composite of mortality and major cardiovascular events, between the interventional and control groups.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Mechanistic 1: Rate of loss of residual renal function in the interventional group",
+          "description": "Differences in renal urea clearance (in millilitres/min) from baseline",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Mechanistic 2:Changes in fluid load",
+          "description": "Differences in overhydration volume (as measured through bio-impedance testing)",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Mechanistic 3:Quality of life",
+          "description": "Changes in quality of life scores (using KDQOL-SF v 1.3) from baseline",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Mechanistic 4: Anaemia control",
+          "description": "Changes in haemoglobin levels from baseline",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Mechanistic 5: Parathyroid hormone control",
+          "description": "Changes in serum Parathyroid hormone, calcium and phosphate levels from baseline",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Mechanistic 6: Cardiac load",
+          "description": "Changes in serum NT-proBNP measurements from baseline",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Safety 1: pre dialysis hyperkalaemia",
+          "description": "Number of events: pre-dialysis hyperkalaemia (6.5 mmol/l or above)",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Safety 2: severe hypertension",
+          "description": "Number of events: severe pre-dialysis hypertension (systolic BP \\> 180 and/or diastolic BP \\> 110 mmHg)",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Safety 3: Inter-dialytic weight gain",
+          "description": "Number of events: interdialytic weight gain of greater than 4 kg",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \\> 18\n* patients with CKD-5 who are about to start planned HD\n* At least 3 months of prior specialist renal follow-up at the time of starting HD\n* Able to meet all the study requirements\n* Written signed informed consent.\n\nExclusion Criteria:\n\n* Age \\< 18\n* No prior contact with nephrologists for \\> 3 months\n* Cross-over in to HD from peritoneal dialysis\n* Currently undergoing HD therapy\n* Any condition which in the opinion of the investigator makes the participant unsuitable for entry in to the study\n* Participation in an interventional study in the preceding 6 weeks\n* History of myocardial infarction in the preceding 3 months\n* Inability to provide informed consent\n* Inability to comply with the study schedule and follow-up.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Hull University Teaching Hospitals NHS Trust",
+          "city": "Hull",
+          "state": "East Yorkshire",
+          "zip": "HU3 2JZ",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 53.7446,
+            "lon": -0.33525
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D051437",
+          "term": "Renal Insufficiency"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007674",
+          "term": "Kidney Diseases"
+        },
+        {
+          "id": "D014570",
+          "term": "Urologic Diseases"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D052801",
+          "term": "Male Urogenital Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

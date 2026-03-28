@@ -1,0 +1,270 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06733012",
+      "orgStudyIdInfo": {
+        "id": "PRO00114523"
+      },
+      "organization": {
+        "fullName": "Duke University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Splanchnic X: Splanchnic Nerve Block in Heart Failure With Reduced Ejection Fraction",
+      "officialTitle": "Splanchnic Nerve Modulation In Heart Failure (Splanchnic X)",
+      "acronym": "Splanchnic X"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-04",
+      "overallStatus": "RECRUITING",
+      "startDateStruct": {
+        "date": "2025-04-05",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2029-01-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-05-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-12-04",
+      "studyFirstSubmitQcDate": "2024-12-12",
+      "studyFirstPostDateStruct": {
+        "date": "2024-12-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-04-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-04-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Duke University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUnapprovedDevice": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Heart failure (HF) affects more than 6 million adults in the U.S. alone, with increasing prevalence. Cardiovascular congestion with resultant limitation in physical activity is the hallmark of chronic and decompensated HF. The current HF physiologic model suggests that congestion is the result of volume retention and, therefore, therapies (such as diuretics) have generally been targeted at volume overload. Yet therapeutic approaches to reduce congestion have failed to show significant benefit on clinical outcomes, potentially due to an untargeted approach of decongestive therapies. The investigators' preliminary work suggested a complimentary contribution of volume redistribution to the mechanism of cardiac decompensation. The investigators identified the splanchnic nerves as a potential therapeutic target and showed that short-term interruption of the splanchnic nerve signaling could have favorable effects on cardiovascular hemodynamics and symptoms.\n\nAs part of the investigators' proposal, the investigators will test the safety and efficacy of prolonged splanchnic nerve block in a randomized, controlled, blinded study in patients with HF and reduced ejection fraction (HFrEF). The results will help test the hypothesis of volume redistribution as a driver of cardiovascular congestion and functional limitations and pave the way for splanchnic nerve blockade as a novel therapeutic approach to HF."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 54,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Splanchnic nerve ablation",
+          "type": "EXPERIMENTAL",
+          "description": "Catheter based ablation on the right greater splanchnic nerve",
+          "interventionNames": [
+            "Device: Splanchnic nerve block"
+          ]
+        },
+        {
+          "label": "Sham control",
+          "type": "SHAM_COMPARATOR",
+          "description": "Sham-control procedure",
+          "interventionNames": [
+            "Other: Sham-control procedure"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Splanchnic nerve block",
+          "description": "Catheter based ablation on the right greater splanchnic nerve",
+          "armGroupLabels": [
+            "Splanchnic nerve ablation"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Sham-control procedure",
+          "description": "Sham-control ablation procedure",
+          "armGroupLabels": [
+            "Sham control"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of participants with cardiovascular death",
+          "timeFrame": "1 month post intervention"
+        },
+        {
+          "measure": "Number of participants with acute myocardial infarction",
+          "timeFrame": "1 month post intervention"
+        },
+        {
+          "measure": "Number of participants with major vascular complications resulting prolonged hospitalization or surgical intervention",
+          "timeFrame": "1 month post intervention"
+        },
+        {
+          "measure": "Number of participants with stroke",
+          "timeFrame": "1 month post intervention"
+        },
+        {
+          "measure": "Change in exercise pulmonary capillary wedge pressure (PCWP) post splanchnic nerve block (SNB)",
+          "description": "Pulmonary capillary wedge pressure (PCWP) is measured by inserting a catheter with a balloon tip into a central vein and advancing it into a branch of the pulmonary artery. The catheter measures changing pressures in the pulmonary vessels. The upper limit of normal for PCWP is 12 mm Hg.",
+          "timeFrame": "Baseline to 3 months post splanchnic nerve block (SNB)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in pulmonary arterial mean pressure",
+          "timeFrame": "Baseline to 3 months"
+        },
+        {
+          "measure": "Change in peak VO2 (oxygen uptake)",
+          "description": "A higher peak VO2 indicates better fitness.",
+          "timeFrame": "Baseline, 1, 3, 6, and 12 months"
+        },
+        {
+          "measure": "Change in 6-minute walk test (6MWT)",
+          "description": "The distance a patient walks in 6 minutes is used to assess aerobic capacity and endurance.",
+          "timeFrame": "Baseline, 1, 3, 6, and 12 months"
+        },
+        {
+          "measure": "Change in N terminal pro brain natriuretic protein (NT-proBNP) level",
+          "description": "N-terminal pro-B-type natriuretic peptide (NT-proBNP) is a protein produced by the heart that can help diagnose and monitor heart failure.",
+          "timeFrame": "Baseline, 1, 3, 6, and 12 months"
+        },
+        {
+          "measure": "Change in echocardiographic parameters - ejection fraction (EF)",
+          "description": "EF equals the amount of blood pumped out of the ventricle with each contraction (stroke volume or SV) divided by the end-diastolic volume (EDV), the total amount of blood in the ventricle.",
+          "timeFrame": "Baseline, 1, 3, and 6 months"
+        },
+        {
+          "measure": "Change in echocardiographic parameters - right ventricular end diastolic diameter",
+          "description": "Right ventricular end diastolic diameter indicates the size of the right ventricle when it is at its most expanded state. larger measurements potentially signifying right ventricular dilation.",
+          "timeFrame": "Baseline, 1, 3, and 6 months"
+        },
+        {
+          "measure": "Change in left ventricle to left atrial volume ratio (LVLAVR)",
+          "description": "LVLAVR is the calculated ratio between the volume of the left ventricle (LV) and the volume of the left atrium (LA) in the heart and indicates how much larger the left ventricle is compared to the left atrium. This ratio is often used to assess left ventricular filling pressures and can be a marker for potential heart conditions, particularly related to diastolic dysfunction.",
+          "timeFrame": "Baseline, 1, 3, and 6 months"
+        },
+        {
+          "measure": "Change in diastolic function as measured with lateral wall e' and E/e'",
+          "description": "An E/e' ratio of less than 8 is considered normal, while a ratio greater than 15 indicates increased left ventricle filling pressures.",
+          "timeFrame": "Baseline, 1, 3, and 6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \\> 18 years\n* Established diagnosis of HFrEF with left ventricular ejection fraction \\<50%\n* NYHA II-III symptoms\n* Stable HF drug regimen for the preceding 1 month\n* Wedge pressure \\>/=15 mmHg at rest or \\>/=20 mmHg with peak stress on the initial invasive exercise testing\n* Glomerular filtration rate ≥ 15 mL/min per 1.73 m2\n* Heart rate with activity such as the 6 min walk increases by at least 10 beats\n\nExclusion Criteria:\n\n* Type I myocardial infarction within 3 months\n* Infiltrative (i.e., amyloid) or hypertrophic cardiomyopathy\n* Uncontrolled atrial (heart rate \\>100bpm) or ventricular arrhythmia\n* Chronic oxygen use \\>2L\n* Hypersensitivity to albumin and pregnancy\n* History or scoliosis\n* Orthostatic hypotension (including a drop of pulse pressure with standing of more than 10)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Marat Fudim",
+          "role": "CONTACT",
+          "phone": "919-681-5816",
+          "email": "marat.fudim@duke.edu"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Manesh Patel, MD",
+          "affiliation": "Duke University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Duke",
+          "status": "RECRUITING",
+          "city": "Durham",
+          "state": "North Carolina",
+          "zip": "27278",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Marat Fudim Asosciate Professor",
+              "role": "CONTACT",
+              "phone": "919-681-5816",
+              "email": "marat.fudim@duke.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.99403,
+            "lon": -78.89862
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

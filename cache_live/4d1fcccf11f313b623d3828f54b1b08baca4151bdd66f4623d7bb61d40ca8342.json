@@ -1,0 +1,258 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04682704",
+      "orgStudyIdInfo": {
+        "id": "12708"
+      },
+      "organization": {
+        "fullName": "University of Oklahoma",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Effect of Different Low-Level Tragus Stimulation Parameters On Autonomic Nervous System Function",
+      "officialTitle": "The Effect of Different Low-Level Tragus Stimulation Parameters On Autonomic Nervous System Function",
+      "acronym": "LLT-SPANS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-02",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-11-30",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-10",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-02",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2020-12-08",
+      "studyFirstSubmitQcDate": "2020-12-18",
+      "studyFirstPostDateStruct": {
+        "date": "2020-12-24",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-02-19",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-02-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Oklahoma",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUnapprovedDevice": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Low level transcutaneous vagus nerve stimulation (LLTS) involves delivery of electrical impulses transcutaneously at the auricular branch of vagus nerve and it has been shown to have anti-inflammatory and anti-arrhythmic effects. In previous studies from our laboratory, we found that LLTS significantly suppressed atrial fibrillation (AF) inducibility and decreased AF duration. The anti-arrhythmic effects of LLTS were similar to those delivered to the cervical VN trunk. LLTS for just one hour significantly shortened the AF duration and decreased inflammatory cytokines. We have also shown that LLTS leads to favorable heart rate variability (HRV) changes and cardiac mechanics in patients with diastolic dysfunction. These results support the use of LLTS as a novel non-pharmacological, non-ablative treatment modality for AF and possibly other inflammatory conditions. However, the optimal stimulation parameters of LLTS remain to be determined.\n\nIn this study, we aim to examine the effect of 2 different frequencies (5Hz and 20Hz) and 2 different amplitudes (50% below the pain threshold and 1mA below the pain threshold) of LLTS on heart rate variability with deep breathing (HRVdb), mental arithmetic stress test (MAST), frequency domain measures of heart rate variability (HRV) and brain stem evoked potentials (BSEVP) in healthy volunteers and patients with AF or heart failure with preserved ejection fraction (HFpEF). HRV is a marker of vagus nerve activity and can be easily measured by software calculating the distance between consecutive R waves on the ECG. BSEVP are a surrogate for the central projections of the vagus nerve. Patients will be randomized into 4 groups in a 2x2 factorial design. LLTS will be delivered through a transcutaneous electrical nerve stimulation (TENS) device for 15 minutes. HRVdb, HRV and BSEVP will be measured before and after LLTS and compared."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Atrial Fibrillation",
+        "Heart Failure, Diastolic"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 90,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Frequency 20Hz; amplitude 1mA below discomfort threshold",
+          "type": "EXPERIMENTAL",
+          "description": "Patients will receive tragus stimulation for 15 minutes using the following settings: Frequency 20Hz; amplitude 1mA below discomfort threshold. Continuous ECG will be recorded to assess heart rate variability.",
+          "interventionNames": [
+            "Device: Parasym"
+          ]
+        },
+        {
+          "label": "Frequency 5Hz; amplitude 1mA below discomfort threshold",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients will receive tragus stimulation for 15 minutes using the following settings: Frequency 5Hz; amplitude 1mA below discomfort threshold. Continuous ECG will be recorded to assess heart rate variability.",
+          "interventionNames": [
+            "Device: Parasym"
+          ]
+        },
+        {
+          "label": "Frequency 20Hz; amplitude 50% below discomfort threshold",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients will receive tragus stimulation for 15 minutes using the following settings: Frequency 20Hz; amplitude 50% below discomfort threshold. Continuous ECG will be recorded to assess heart rate variability.",
+          "interventionNames": [
+            "Device: Parasym"
+          ]
+        },
+        {
+          "label": "Frequency 5Hz; amplitude 50% below discomfort threshold",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients will receive tragus stimulation for 15 minutes using the following settings: Frequency 5Hz; amplitude 50% below discomfort threshold. Continuous ECG will be recorded to assess heart rate variability.",
+          "interventionNames": [
+            "Device: Parasym"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Parasym",
+          "description": "Tragus stimulation",
+          "armGroupLabels": [
+            "Frequency 20Hz; amplitude 1mA below discomfort threshold",
+            "Frequency 20Hz; amplitude 50% below discomfort threshold",
+            "Frequency 5Hz; amplitude 1mA below discomfort threshold",
+            "Frequency 5Hz; amplitude 50% below discomfort threshold"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Heart rate variability",
+          "description": "Heart rate variability is a marker of vagus nerve activity and can be easily measured by PC-based ECG software calculating the distance between consecutive R waves on the ECG. Both time domain \\[standard deviation of normal-to-normal intervals (SDNN), root mean square of successive differences of the normal-to-normal intervals (RMSSD)\\] and frequency domain \\[low frequency (LF; 0.04-0.15 Hz), high frequency (HF; 0.15-0.4 Hz), and LF/HF ratio\\] measures will be analyzed.",
+          "timeFrame": "15 minutes"
+        },
+        {
+          "measure": "Mental arithmetic stress test",
+          "description": "Mental arithmetic stress test is a measure of sympathetic activity and will be performed by asking the patient to consistently subtract 7 from 500 for a period of 2 minutes. Blood pressure will be measured before and after the test, before and during stimulation and the maximum blood pressure during the test will be the outcome of interest.",
+          "timeFrame": "15 minutes"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Male and female patients older than 21 year old\n2. Healthy volunteers free from diagnosis of AF, heart failure, coronary artery disease or diseases that affect the autonomic nervous system.\n3. Patients with Paroxysmal Atrial Fibrillation\n4. Patients with Heart Failure with Preserved Ejection Fraction (HFpEF)\n\nExclusion Criteria:\n\n1. Recent (\\<6 months) stroke\n2. Recent (\\<6 months) myocardial infarction\n3. Heart failure (NYHA class III or IV)\n4. Left ventricular ejection fraction \\<50%\n5. Recurrent vaso-vagal syncopal episodes\n6. Unilateral or bilateral vagotomy\n7. Pregnancy or breast feeding\n8. Uncontrolled diabetes or hypertension\n9. Inability or unwillingness to understand and/or sign informed consent\n10. Any serious disease that affects autonomic nervous system function\n11. Any medications that affect autonomic nervous system function",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "21 Years",
+      "maximumAge": "90 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Karrie Meeks",
+          "role": "CONTACT",
+          "phone": "4052714742",
+          "email": "karrie-meeks@ouhsc.edu"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Stavros Stavrakis, MD, PhD",
+          "affiliation": "University of Oklahoma",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Oklahoma Health Sciences Center",
+          "status": "RECRUITING",
+          "city": "Oklahoma City",
+          "state": "Oklahoma",
+          "zip": "73104",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Brittany Karfonta, RN",
+              "role": "CONTACT",
+              "phone": "405-271-2229",
+              "email": "brittany-karfonta@ouhsc.edu"
+            },
+            {
+              "name": "Stavros Stavrakis, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.46756,
+            "lon": -97.51643
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001281",
+          "term": "Atrial Fibrillation"
+        },
+        {
+          "id": "D054144",
+          "term": "Heart Failure, Diastolic"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001145",
+          "term": "Arrhythmias, Cardiac"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

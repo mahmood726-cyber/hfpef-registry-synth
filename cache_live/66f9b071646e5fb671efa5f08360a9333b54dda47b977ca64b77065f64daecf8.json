@@ -1,0 +1,398 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07009665",
+      "orgStudyIdInfo": {
+        "id": "NL84833.099.24"
+      },
+      "organization": {
+        "fullName": "University Medical Center Groningen",
+        "class": "OTHER"
+      },
+      "briefTitle": "Fluid Management and Individualized Resuscitation in Sepsis",
+      "officialTitle": "Fluid Management and Individualized Resuscitation in Sepsis",
+      "acronym": "FLUIDS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-09-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-09-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-12-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-05-20",
+      "studyFirstSubmitQcDate": "2025-05-29",
+      "studyFirstPostDateStruct": {
+        "date": "2025-06-06",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-14",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-19",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Hjalmar Bouma",
+        "investigatorTitle": "MD, PhD, EuCP (PI)",
+        "investigatorAffiliation": "University Medical Center Groningen"
+      },
+      "leadSponsor": {
+        "name": "University Medical Center Groningen",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this clinical trial is to find out if a personalized treatment approach can improve care for people with sepsis in the emergency department (ED).\n\nSepsis is a life-threatening condition that happens when the body has an uncontrolled response to an infection. This can lead to low blood pressure, organ failure, and death if not treated quickly. Right now, most people with sepsis receive a standard amount of fluids to raise their blood pressure. But this one-size-fits-all approach can lead to fluid overload and other complications. Because each person responds differently, this study will test whether a more personalized treatment-based on how the heart responds to fluids-can lead to safer and more effective care.\n\nThe study will include 188 adults who come to the ED at the University Medical Centre Groningen (UMCG) with suspected sepsis in need of hemodynamic resuscitation. Everyone in the study will receive fluids to support their blood pressure.\n\nParticipants will be randomly assigned to one of two groups:\n\n* Personalized treatment group: Fluids and vasopressors (medications that raise blood pressure) will be given based on how the heart responds to each fluid dose. This response is measured using a non-invasive monitor that tracks stroke volume index (ΔSVI)-a measure of how much blood the heart pumps.\n* Standard care group: Fluids will be given based on current guidelines (30 milliliters per kilogram of body weight), as decided by the treating doctor.\n\nResearchers will compare how much fluid is given during the first 3 hours of care. They will also look at:\n\n* When and how much vasopressor medicine is used\n* How well blood pressure and circulation respond\n* Signs of organ recovery or damage\n* How long participants stay in the hospital\n* Any problems or side effects during treatment\n\nThe researchers hope that this personalized approach will lead to using less fluid, starting vasopressors earlier, and helping people with sepsis recover more safely and quickly."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Sepsis",
+        "Shock",
+        "Personalized Medicine",
+        "Emergency Medicine",
+        "Critical Care, Fluid Resuscitation",
+        "Fluid Responsiveness"
+      ],
+      "keywords": [
+        "Sepsis",
+        "Shock",
+        "Personalized medicine",
+        "emergency medicine",
+        "critical care",
+        "fluid resuscitation",
+        "fluid responsiveness"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 188,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Personalized SV-Guided Resuscitation",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Other: Personalized SV-guided resuscitation"
+          ]
+        },
+        {
+          "label": "Standard Care Resuscitation",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Other: Standard Care Resuscitation"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Personalized SV-guided resuscitation",
+          "description": "Participants will receive an IV fluid bolus directly after inclusion. Next, measurement of the cardiac output change in response to the fluid bolus by the Starling SV will be used to determine fluid responsiveness. Vital parameters and fluid responsiveness will be used to guide hemodynamic resuscitation, consisting of IV fluids and/or vasopressors, during the first 3 hours.",
+          "armGroupLabels": [
+            "Personalized SV-Guided Resuscitation"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Standard Care Resuscitation",
+          "description": "In the control group, IV fluid and vasopressor administration will be determined at the discretion of the physician and in accordance with currently available guidelines (e.g. Sepsis Surviving Campaign).",
+          "armGroupLabels": [
+            "Standard Care Resuscitation"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The volume of IV fluids in ml administered within the first three hours after study enrolment.",
+          "description": "The primary endpoint is the volume of IV fluids in ml administered within the first three hours after study enrolment.",
+          "timeFrame": "Up to three hours, after study enrolment."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Length-of-stay in hospital/intensive care unit (ICU)",
+          "description": "Length-of-stay in hospital and on intensive care unit (ICU) in days",
+          "timeFrame": "Until hospital discharge, an average of 2 weeks"
+        },
+        {
+          "measure": "New onset organ failure",
+          "description": "Any of the following within 48 hours:\n\n* Rise in Sequential Organ Failure Assessment (SOFA) score of at least 2\n* Organ support (i.e. vasopressor use \\[non-\\]invasive mechanical ventilation, acute dialysis, ECMO)",
+          "timeFrame": "Up to 48 hours after hospitalization"
+        },
+        {
+          "measure": "Fluid balance",
+          "description": "Net fluid balance calculated as the total volume of fluids administered (intravenous and oral, including prehospital) minus the total volume of fluid output (urine and other measurable losses) within the first three hours after ED presentation",
+          "timeFrame": "Up to three hours after hospitalization"
+        },
+        {
+          "measure": "Fluid resuscitation",
+          "description": "Volume of IV fluid resusciation within 7 days",
+          "timeFrame": "Up to 7 days after hospitalization"
+        },
+        {
+          "measure": "Time to recovery of hemodynamic stability",
+          "description": "Hemodynamic stability (HDS) is defined as MAP ≥ 70 mmHg, SBP ≥ 90 mmHg, lactate ≤ 4 mmol/L and SI ≤ 0.9.",
+          "timeFrame": "The time interval from hospital admission until hemodynamic stability, measured in hours."
+        },
+        {
+          "measure": "Pre-tibial edema development",
+          "description": "Pre-tibial edema rise of ≥ 2 (grade 1-4), measured at triage, after 3h, 24h and 48h",
+          "timeFrame": "Up to 48h after hospitalization"
+        },
+        {
+          "measure": "Fluid overload at three hours (assessed by Point-of-Care Ultrasound)",
+          "description": "Venous congestion is assessed using Point-of-Care Ultrasound (PoCUS) at three hours after hospital admission. The PoCUS evaluation includes measurements of the Inferior Vena Cava (IVC), the Venous Excess Ultrasound (VExUS) score, and assessment following the Bedside Lung Ultrasound in Emergency (BLUE) protocol.",
+          "timeFrame": "Up to three hours after hospitalization"
+        },
+        {
+          "measure": "Fluid overload at 24h (assessed by Point-of-Care Ultrasound)",
+          "description": "Venous congestion is assessed using Point-of-Care Ultrasound (PoCUS) at 24 hours after hospital admission. The PoCUS evaluation includes measurements of the Inferior Vena Cava (IVC), the Venous Excess Ultrasound (VExUS) score, and assessment following the BLUE protocol.",
+          "timeFrame": "Up to 24h after hospitalization"
+        },
+        {
+          "measure": "Loop diuretic use",
+          "description": "Loop diuretic use will be determined daily and retrieved from the electronic health records (EHR) of the hospital, general practitioner, and pharmacy.",
+          "timeFrame": "Up to 7 days after hospitalization"
+        },
+        {
+          "measure": "Decompensated heart failure",
+          "description": "Occurrence of decompensated heart failure within 7 days after admission, as determined by the clinical judgment of the treating physician.",
+          "timeFrame": "Up to 7 days after hospitalization"
+        },
+        {
+          "measure": "Respiratory insufficiency and acute respiratory distress syndrome (ARDS)",
+          "description": "ARDS is defined as the presence of any of the following within 7 days after admission:\n\n* PaO₂/FiO₂ ratio \\< 53 kPa\n* Requirement for (non-)invasive mechanical ventilation or extracorporeal membrane oxygenation (ECMO)",
+          "timeFrame": "Up to 7 days after hospitalization"
+        },
+        {
+          "measure": "Acute Kidney Injury (AKI within 48 hours)",
+          "description": "AKI is defined according to the KDIGO criteria and assessed within the first 48 hours after admission.",
+          "timeFrame": "Up to 48 hours after hospitalization"
+        },
+        {
+          "measure": "Acute Kidney Injury (AKI within seven days)",
+          "description": "AKI is defined according to the KDIGO criteria and assessed within the first seven days after admission.",
+          "timeFrame": "Up to 7 days after hospitalization"
+        },
+        {
+          "measure": "Change in Serum Creatinine Levels (from Baseline to 48 Hours)",
+          "description": "The difference in serum creatinine concentration measured at baseline and at 48 hours after admission.",
+          "timeFrame": "From baseline to 48 hours"
+        },
+        {
+          "measure": "Change in Serum Creatinine Levels (from baseline to 7 days)",
+          "description": "The difference in serum creatinine concentration measured at baseline and at 7 days after admission.",
+          "timeFrame": "From baseline to 7 days"
+        },
+        {
+          "measure": "Requirement for renal replacement therapy (RRT) within 7 days",
+          "description": "Initiation of renal replacement therapy (e.g., hemodialysis, continuous renal replacement therapy) within 7 days after hospital admission, as determined from electronic health care records.",
+          "timeFrame": "Up to 7 days after hospitalization"
+        },
+        {
+          "measure": "Requirement for renal replacement therapy (RRT) within 30 days",
+          "description": "Initiation of renal replacement therapy (e.g., hemodialysis, continuous renal replacement therapy) within 30 days after hospital admission, as determined from electronic health care records.",
+          "timeFrame": "Up to 30 days after hospitalization"
+        },
+        {
+          "measure": "Major Adverse Cardiac Event (MACE)",
+          "description": "Occurrence of any of the following events within 30 days after admission:\n\n* Cardiovascular death\n* Nonfatal myocardial infarction\n* Nonfatal stroke",
+          "timeFrame": "Up to 30 days"
+        },
+        {
+          "measure": "Vasopressor initiation within three hours",
+          "description": "Start of vasopressor therapy within the first three hours after hospital admission.",
+          "timeFrame": "Up to three hours"
+        },
+        {
+          "measure": "Vasopressor initiation within 7 days",
+          "description": "Start of vasopressor therapy within the first 7 days after hospital admission.",
+          "timeFrame": "Up to 7 days"
+        },
+        {
+          "measure": "Time to vasopressor initiation",
+          "description": "The duration between hospital admission and the initiation of vasopressor treatment.",
+          "timeFrame": "The time interval from hospital admission until the initiation of vasopressor therapy, measured in hours."
+        },
+        {
+          "measure": "All-cause mortality (up to 30 days):",
+          "description": "Mortality will be retrieved from the electronic health records (EHR) from the hospital and municipal registration. The cause of death will be retrieved from the EHR from the hospital.",
+          "timeFrame": "Time from hospital admission until death from any cause, up to 30 days"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Cost-effectiveness",
+          "description": "Evaluation of cost-effectiveness based on hospital length of stay, requirement for advanced care, and costs associated with diagnostic and monitoring measurements.",
+          "timeFrame": "Up to 30 days after hospitalization"
+        },
+        {
+          "measure": "Starling SV monitor trends",
+          "description": "Continuous monitoring and recording of stroke volume index (SVI), cardiac index (CI), and total peripheral resistance index (TPRI) trends using the Starling SV device throughout the fluid resuscitation period in the intervention group.",
+          "timeFrame": "Up to three hours after hospitalization"
+        },
+        {
+          "measure": "Hemodynamic parameter trends",
+          "description": "Measurement of hemodynamic parameters, including systolic blood pressure, diastolic blood pressure, mean arterial pressure, heart rate, lactate levels, and capillary refill time, during resuscitation period, recorded up to three hours after arrival at the emergency department.",
+          "timeFrame": "Up to three hours after hospitalization"
+        },
+        {
+          "measure": "Photoplethysmographic (PPG) waveform trends",
+          "description": "Measurement of photoplethysmography (PPG) waveform features, including systolic and diastolic peak amplitudes, pulse interval and perfusion index, recorded continuously during the emergency department stay, up to three hours after arrival.",
+          "timeFrame": "Up to three hours after hospitalization"
+        },
+        {
+          "measure": "Electrocardiography (ECG) waveform trends",
+          "description": "Measurement of Electrocardiography (ECG) waveform features, including pulse transit time (PTT) and heart rate variability (HRV), recorded continuously during the emergency department stay, up to three hours after arrival.",
+          "timeFrame": "Up to three hours after hospitalization"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Adult patients (≥ 18 years of age);\n* Referred to internal medicine, nephrology, geriatric medicine, oncology, hematology, lung medicine, rheumatology, gastrointestinal / liver medicine, urology, or emergency medicine (non-trauma);\n* Confirmed or suspected infection according to the physician's judgement upon arrival to the ED, based the presence of an acute phase response not due to an alternative non-infectious cause (i.e., body temperature \\< 36°C or \\>38°C, leukocyte count \\> 12 x109/L or C-reactive protein \\> 50 mg/L), and/or on symptoms suggestive for an infection (e.g. productive cough, dyspnea, dysuria, pollakisuria, abdominal pain, erythema)\n* Need for hemodynamic resuscitation, based on any of the following (first measurement at ED arrival \\[triage\\]):\n* Mean arterial pressure (MAP) \\< 70 mmHg\n* Systolic blood pressure (SBP) \\< 90 mmHg or a SBP decrease \\>40 mmHg\n* Lactate \\> 4.0 mmol/L\n* Shock index\\* \\> 0.9\n* Enrolled in study within one hour after ED arrival\n\nExclusion Criteria:\n\n* Primary diagnosis of: acute cerebral vascular event, acute coronary syndrome, acute pulmonary edema, status asthmaticus, major cardiac arrhythmia, drug overdose, or injury from burn or trauma, diabetic ketoacidosis, hyper-osmolarity syndrome, pancreatitis\n* Known aortic insufficiency, aortic abnormalities, or intraventricular heart defect, such as ventral septal defect or atrial septal defect\n* Known advanced heart failure - meaning NYHA IV functional class HF, on waiting list for heart transplant, LVAD recipient or chronic inotrope use.\n* Known end-stage kidney disease (dialysis-dependent CKD stage 5 or eGFR \\<15 mL/min/1.73 m²)\n* Decompensated liver cirrhosis at ED admission (e.g., ascites, hepatic encephalopathy, or variceal bleeding)\n* Hemodynamic instability due to active bleeding\n* Patient has received \\>1 liter of IV fluid prior to study randomization\n* Requires immediate surgery\n* Transfer from another hospital after initiation of therapy (a.o. referred by another hospital ICU) or another in-hospital setting\n* Pregnant women\n* Trauma patients\n* Suspected intra-abdominal hypertension, based on the presence of portal hypertension (i.e. presence of ascites due to liver cirrhosis, esophageal varices or as measured by Doppler ultrasound)\n* Inability to obtain IV access\n* Patient uncouples from treatment algorithm\n* Patient should be excluded based on the opinion of the Clinician/Investigator\n* Not able to commence treatment protocol within 1 hour after randomization\n* Potential ICU-admission unwanted by advanced care directive (e.g., limited life expectancy)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Sanne Ter Horst, MD",
+          "role": "CONTACT",
+          "phone": "+31 6 25650284 (FLUIDS phone)",
+          "email": "s.ter.horst@umcg.nl"
+        },
+        {
+          "name": "Sanne Ter Horst, MD",
+          "role": "CONTACT",
+          "email": "s.ter.horst@umcg.nl"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University Medical Centre Groningen",
+          "status": "RECRUITING",
+          "city": "Groningen",
+          "state": "Provincie Groningen",
+          "zip": "9713GZ",
+          "country": "Netherlands",
+          "contacts": [
+            {
+              "name": "Sanne Ter Horst, MD",
+              "role": "CONTACT",
+              "phone": "+31 (0)50 361 6161",
+              "email": "s.ter.horst@umcg.nl"
+            },
+            {
+              "name": "Hjalmar R Bouma, MD, PhD, EuCP (PI)",
+              "role": "CONTACT",
+              "phone": "+ 31 (0)50 361 6161",
+              "phoneExt": "HR Bouma",
+              "email": "h.r.bouma@umcg.nl"
+            },
+            {
+              "name": "Hjalmar R Bouma, MD, PhD, EuCP (PI)",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.21917,
+            "lon": 6.56667
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "41417807",
+          "type": "DERIVED",
+          "citation": "Ter Horst S, Ter Avest E, van Everdink J, van Meurs M, Olgers TJ, Vos JJ, Damman K, Ter Maaten JC, Bouma HR. FLUid management and InDividualized resuscitation in Sepsis (FLUIDS)-A Study protocol for a single-centre, open-label, randomized clinical trial. PLoS One. 2025 Dec 19;20(12):e0338504. doi: 10.1371/journal.pone.0338504. eCollection 2025."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D018805",
+          "term": "Sepsis"
+        },
+        {
+          "id": "D012769",
+          "term": "Shock"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007239",
+          "term": "Infections"
+        },
+        {
+          "id": "D018746",
+          "term": "Systemic Inflammatory Response Syndrome"
+        },
+        {
+          "id": "D007249",
+          "term": "Inflammation"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

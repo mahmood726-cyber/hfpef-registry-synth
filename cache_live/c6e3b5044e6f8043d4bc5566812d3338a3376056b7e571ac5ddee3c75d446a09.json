@@ -1,0 +1,278 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01966887",
+      "orgStudyIdInfo": {
+        "id": "P081252"
+      },
+      "organization": {
+        "fullName": "Assistance Publique - Hôpitaux de Paris",
+        "class": "OTHER"
+      },
+      "briefTitle": "AAV1-CMV-Serca2a GENe Therapy Trial in Heart Failure",
+      "officialTitle": "Phase 2 Study of SERCA2a Gene Transfer in Patients With Severe Heart Failure",
+      "acronym": "AGENT-HF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2017-08",
+      "overallStatus": "TERMINATED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2013-12"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2015-09",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2016-02",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2013-09-26",
+      "studyFirstSubmitQcDate": "2013-10-17",
+      "studyFirstPostDateStruct": {
+        "date": "2013-10-22",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2017-08-28",
+      "lastUpdatePostDateStruct": {
+        "date": "2017-08-29",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Assistance Publique - Hôpitaux de Paris",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Celladon Corporation",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to determine the effect of intracoronary SERCA2a Gene transfer on cardiac volumes and function using multimodality cardiac imaging.",
+      "detailedDescription": "The purpose of gene transfer of SERCA2a is to improve systolic and diastolic function of the failing ventricle. Studies show that reduction of SERCA2a in failing ventricle is a key factor in depression of contraction, and that restoration of SERCA2a levels can improve left ventricular function and remodeling. The aim of the study is to investigate the effect of an adeno-associated viral vector expressing the sarcoplasmic reticulum calcium ATPase (SERCA2a), driven by the CMV promoter (AAV1-CMV-SERCA2a), on the ventricular remodeling of patients with severe heart failure using multimodality cardiac imaging. This is a Phase 2 monocenter double blind randomized placebo-controled, parallel study. The study will enroll 44 symptomatic heart failure patients with NYHA IIIb/IV, with left-ventricular ejection fraction of 35% or less receiving an optimal standard medical therapy. The absence of neutralizing antibodies against AAV1 will be primarily checked. Seronegative patients will be randomized to receive either 1x10e13 AAV1-CMV-Serca2a or a placebo as a single intracoronary infusion. Evolution during the next 6 months of the left ventricular end-systolic volume (measured with a 256-slices CT-scan before injection and 6 months later) will be the primary endpoint. Secondary endpoints will include changes in the LVEF, diastolic volumes, VO2max, Echocardiographic remodeling, BNP, cardiac hemodynamics and biological safety profile."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure Congestive",
+        "Ischemic Cardiomyopathy",
+        "Non-ischemic Cardiomyopathy"
+      ],
+      "keywords": [
+        "Heart failure",
+        "Gene therapy",
+        "Serca2a",
+        "Cardiomyopathy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 10,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "MYDICAR-single intracoronary infusion",
+          "type": "EXPERIMENTAL",
+          "description": "Genetic / AAV1 Serca2a (MYDICAR)",
+          "interventionNames": [
+            "Genetic: MYDICAR-single intracoronary infusion"
+          ]
+        },
+        {
+          "label": "Placebo; single intracoronary infusion",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo comparator",
+          "interventionNames": [
+            "Genetic: Placebo; single intracoronary infusion"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "GENETIC",
+          "name": "MYDICAR-single intracoronary infusion",
+          "description": "AAV1/Serca2a",
+          "armGroupLabels": [
+            "MYDICAR-single intracoronary infusion"
+          ],
+          "otherNames": [
+            "1x10e13 DRP; single intracoronary infusion"
+          ]
+        },
+        {
+          "type": "GENETIC",
+          "name": "Placebo; single intracoronary infusion",
+          "description": "single intracoronary infusion",
+          "armGroupLabels": [
+            "Placebo; single intracoronary infusion"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "left ventricular end-systolic volume measured by CT-Scan",
+          "description": "left ventricular end-systolic volume measured by CT-Scan / changes from baseline to 6 months",
+          "timeFrame": "at 6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "CT-scan other measurments: left ventricular end-diastolic volume",
+          "description": "CT-scan other measurments: left ventricular end-diastolic volume / changes from baseline to 6 and 12 months",
+          "timeFrame": "at 6 and 12 months"
+        },
+        {
+          "measure": "Cardiac volumes and function",
+          "description": "Cardiac volumes and function / changes from baseline to 6 months \\& 12 months",
+          "timeFrame": "at 6 and 12 months"
+        },
+        {
+          "measure": "Cardiac hemodynamic parameters",
+          "description": "Cardiac hemodynamic parameters; changes from baseline to 6 months",
+          "timeFrame": "at 6 months"
+        },
+        {
+          "measure": "VO2 max",
+          "description": "VO2 max; changes from baseline to 6 months and 12 months",
+          "timeFrame": "at 6 and 12 months"
+        },
+        {
+          "measure": "Cardiac function assessed by echocardiography",
+          "description": "Changes from baseline to 6 and12 months in:Echocardiographic assessments",
+          "timeFrame": "at 6 and12 months"
+        },
+        {
+          "measure": "Quality of Life (Kansas city score)",
+          "description": "Changes from baseline to 3,6,9,12 months in:Quality of Life",
+          "timeFrame": "at 3,6,9,12 months"
+        },
+        {
+          "measure": "NT-ProBNP",
+          "description": "Changes from baseline to 6 and12 months in:NT-ProBNP",
+          "timeFrame": "at 6 and12 months"
+        },
+        {
+          "measure": "Time to cardiovascular event",
+          "description": "Time to cardiovascular event (all-cause death, heart transplant, LVAD implantation) - administration to 12 months",
+          "timeFrame": "at 6 and 12 months"
+        },
+        {
+          "measure": "Number of hospitalized patients for worsening heart failure",
+          "timeFrame": "at 6 and 12 months"
+        },
+        {
+          "measure": "Cardiac volumes assessed by echocardiography",
+          "description": "Changes from baseline to 6 and12 months in:Echocardiographic assessments",
+          "timeFrame": "at 6 and12 months"
+        },
+        {
+          "measure": "CT-scan other measurments: left ventricular end-systolic volume",
+          "description": "CT-scan other measurments: left ventricular end-systolic volume / changes from baseline to 12 months",
+          "timeFrame": "12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with NYHA class III / IV severe heart failure ≥ 3 months\n* Ischemic or non-ischemic origin\n* Left ventricular ejection fraction ≤35%\n* Patients must be receiving optimal (maximum tolerated doses) medical treatment (diuretics, renin-angiotensin-aldosterone system blockers, beta blockers, ±Ivabradine) for at least 1 month (with the exception of diuretic dose titration) and must be stable.\n* No decompensated congestive heart failure within the past month\n* With or without an ICD if the ICD was implanted over 3 months ago, with or without biventricular pacing if the RCT was implanted over 6 months ago\n* All women of childbearing potential must have a negative urine pregnancy test prior to administration of investigational medicinal product\n* Patient must have given written informed consent to participate in this study\n\nExclusion Criteria:\n\n* \\<18 or \\>80 years old\n* AAV1 seropositivity (titer \\<1:2) in the last 3 months\n* Atrial fibrillation in the absence of permanent ventricular pacing\n* Coronary revascularization or heart surgery or pacemaker implantation \\< 3 months\n* Ischemic heart disease without at least one coronary artery with a TIMI-3 flow\n* Restrictive cardiomyopathy, hypertrophic obstructive cardiomyopathy, pericardial disease, cardiac amyloidosis\n* Heart transplant, an already implanted or needing to urgently implant external ventricular assist device\n* Myocardial infarction (STEMI or NSTEMI) \\< 3 months\n* Treatment with intravenous positive inotropic agents or diuretics in the past 28 days\n* Pregnant or nursing patient\n* Female patient of childbearing age with no effective means of contraception\n* Severe renal failure defined by a creatinine clearance of \\< 30 mL/min (last bloodwork done less than 6 months)\n* Liver failure, chronic liver disease or laboratory tests \\> 3 x N (AST, ALT, ALP))(last bloodwork done less than 6 months)\n* Thrombocytopenia (\\<50,000/mm3\n* Patient treated with immunosuppressants, has an immunodeficiency or whose neutrophil count \\< 1000 mm3\n* Recent sepsis (\\< 3 months)\n* Active neoplasia or treated \\< 5 years\n* No medical insurance\n* Patient is enrolled in another randomized study\n* Patient does not understand the protocol procedures sponsor suspects poor compliance with the protocol",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Jean-Sébastien HULOT, MDPhD",
+          "affiliation": "Assistance Publique Hopitaux de Paris",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "CHU Pitié-Salpêtrière",
+          "city": "Paris",
+          "zip": "75013",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "28393439",
+          "type": "RESULT",
+          "citation": "Hulot JS, Salem JE, Redheuil A, Collet JP, Varnous S, Jourdain P, Logeart D, Gandjbakhch E, Bernard C, Hatem SN, Isnard R, Cluzel P, Le Feuvre C, Leprince P, Hammoudi N, Lemoine FM, Klatzmann D, Vicaut E, Komajda M, Montalescot G, Lompre AM, Hajjar RJ; AGENT-HF Investigators. Effect of intracoronary administration of AAV1/SERCA2a on ventricular remodelling in patients with advanced systolic heart failure: results from the AGENT-HF randomized phase 2 trial. Eur J Heart Fail. 2017 Nov;19(11):1534-1541. doi: 10.1002/ejhf.826. Epub 2017 Apr 10."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D009202",
+          "term": "Cardiomyopathies"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

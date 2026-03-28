@@ -1,0 +1,255 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07171372",
+      "orgStudyIdInfo": {
+        "id": "AIBU-HSF-SDEMIR-07"
+      },
+      "organization": {
+        "fullName": "Abant Izzet Baysal University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Personalized IoT-based Physical Activity Monitoring System for Heart Failure Patients",
+      "officialTitle": "Personalized IoT-based Physical Activity Monitoring System for Heart Failure Patients (IoT-HFActive): Rationale and Methodological Protocol for a Randomized Clinical Trial",
+      "acronym": "IoT-HFActive"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-09",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-12-13",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-12-13",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-03-13",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-09-06",
+      "studyFirstSubmitQcDate": "2025-09-06",
+      "studyFirstPostDateStruct": {
+        "date": "2025-09-12",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-09-06",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-09-12",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Seyma Demir",
+        "investigatorTitle": "Assistant Professor",
+        "investigatorAffiliation": "Abant Izzet Baysal University"
+      },
+      "leadSponsor": {
+        "name": "Abant Izzet Baysal University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Current literature emphasizes the importance of increasing physical activity, ensuring its continuity, and reducing sedentary behaviors in patients with heart failure (HF). Many patients are referred to exercise-based rehabilitation programs following hospital discharge or an acute cardiac event. Although the benefits of these programs on cardiovascular health have been consistently demonstrated, adherence to recommended exercise regimens remains a major challenge. Previous studies indicate that through repeated and effective national health policies, large segments of society have adopted strategies to promote physical activity. However, despite the availability of various exercise and physical activity protocols, patients with HF remain prone to sedentary behaviors due to physical limitations, psychosocial factors, and lack of motivation.\n\nHealthcare professionals play a critical role in promoting physical activity among HF patients, as encouraging participation in structured programs may improve health outcomes and reduce sedentary behaviors. Therefore, developing new and effective strategies to increase physical activity levels in this population is essential. Such strategies should focus on tailoring interventions to individual needs and health conditions, implementing long-term monitoring and support mechanisms to ensure continuity, and integrating technological innovations (e.g., smart wristbands, mobile applications) through user-friendly interfaces.\n\nThis study aims to improve physical activity levels and reduce sedentary behaviors among HF patients by designing a personalized, Internet of Things (IoT)-based physical activity monitoring system (IoT-HFActive). The central innovation of this system lies in its ability to generate personalized physical activity goals for the first time through automated mathematical algorithms that process real-time data collected from wearable devices.\n\nDuring supervised exercise sessions, heart rate measurements obtained via smart wristbands will be used to calculate individual heart rate reserves (HRR). Based on these data, personalized activity goals will be established, including target heart rate zones, exercise intensity, and weekly activity duration. Subsequently, the server system will continuously monitor participants' daily physical activity levels and, through a specifically developed mobile application, provide real-time visualization of the results on participants' smartphones.\n\nThe system is designed with multiple functional components. Beyond setting personalized, patient-centered physical activity goals, it will also monitor adherence, deliver behavioral support techniques, and adapt targets over time. Participants will receive periodic individualized feedback, rewards such as virtual badges, progress visualizations, and video-supported motivational messages to reinforce engagement. Repeated time-series measurements of physical activity will allow dynamic recalibration of goals based on participants' performance.\n\nIn addition, participants will be able to track their personal progress, receive visual and video-based feedback, and observe how their activity behavior improves over time. These features are expected to strengthen motivation and adherence to exercise programs. Throughout the study, all procedures will be designed to align with participants' abilities and will be supported by user-friendly, intuitive interfaces to ensure accessibility and usability.\n\nBy combining personalized physical activity goals, real-time monitoring, and behaviorally informed feedback strategies, this study introduces an innovative, patient-centered IoT-based approach. The IoT-HFActive system is expected to address the long-standing challenge of exercise adherence in HF patients and to provide valuable evidence for the integration of technological innovations into cardiac rehabilitation services.",
+      "detailedDescription": "Globally, the prevalence of HF increases with age, affecting 1-2% of adults in developed countries. In Türkiye, more than one million HF cases were recorded in 2016, with a hospital admission rate of 2.5%, resulting in an estimated cost of 36.5 million TL to the healthcare system. By 2022, the prevalence of HF in Türkiye was reported to be 2.114%, representing approximately three million patients. Among younger individuals aged 18-50 years, the prevalence is 12% and the incidence is 0.3%, making Türkiye one of the countries with the highest burden of HF in younger populations. These statistics highlight the importance of risk management through lifestyle modifications and the promotion of physical activity, even among younger patients. Given the frequency of hospitalizations and the economic impact, HF represents a major public health concern in Türkiye, underscoring the need for greater involvement of healthcare professionals in providing support and self-management education for these patients.\n\nIn recent years, advances in pharmacological and device-based therapies for HF have improved survival and reduced hospitalization rates; however, overall health outcomes remain unsatisfactory. Both the progression of the disease and acute exacerbations negatively affect functional capacity and delay recovery. Reduced functional capacity is a typical finding in HF and is recognized as an indicator of poor prognosis and diminished quality of life. Following hospital discharge, symptoms such as fatigue, dyspnea, and edema contribute to exercise intolerance and limit daily activities. For this reason, improving functional capacity through regular physical activity, strengthening adherence to exercise, and reducing sedentary behaviors are considered essential goals in the management of HF. Regular physical activity enhances functional capacity, improves quality of life, and contributes positively to the pathophysiology of the disease. Nevertheless, the majority of patients remain prone to sedentary behavior, with fewer than half engaging in regular physical activity.\n\nRecent studies have examined the factors that hinder physical activity and contribute to sedentary behavior in patients with HF. Physiological and psychosocial factors such as fatigue, shortness of breath, and lack of motivation make participation in and sustainability of exercise difficult. Although current HF guidelines strongly recommend exercise-based rehabilitation, barriers such as occupational responsibilities, transportation difficulties, costs, and geographic limitations restrict participation. In Türkiye, there has not yet been a comprehensive study addressing the reasons for insufficient physical activity in this patient group. Existing research has mainly focused on exercise intolerance and limitations in daily activities. On the other hand, home-based or community-based exercise and physical activity programs are being proposed as strong alternatives to center-based rehabilitation. These programs, through regular monitoring and personalized motivational support, can improve adherence and promote both physical and psychosocial recovery. Technologically supported approaches, in particular, provide effective outcomes through personalized interventions tailored to individual needs. Systematic reviews indicate that home-based rehabilitation supported by wearable sensors may be as effective as center-based approaches while also improving adherence. Moreover, interventions such as tele-rehabilitation and exergaming, when combined with behavioral strategies, have further contributed to improvements in adherence. Nevertheless, the lack of personalized technology-based solutions tailored to individual needs remains a limitation to success. Our proposed project aims to fill this gap by offering a personalized, technology-assisted physical activity intervention that supports both physical and psychosocial recovery in patients with HF.\n\nTraditional exercise protocols have shown beneficial effects on functional capacity and health parameters in HF patients, but these protocols are generally not adapted to individual health conditions. Exercise adherence, defined as the extent to which individuals follow the recommended frequency, duration, and intensity of exercise, is a key factor in HF management. When standardized protocols fail to meet individual needs, adherence may be moderate in the early months but tends to decline over time. Adherence becomes even more challenging when physical activity goals are not individualized according to heart rate reserve. From a patient-centered perspective, tailoring exercise in terms of type, intensity, duration, frequency, and personal needs is considered essential for effectively promoting adherence. However, studies have consistently shown that adherence to exercise programs among HF patients is lower than expected. For example, adherence rates in large-scale trials have ranged between one-third and one-half of participants, with completion rates often falling below 50%. These findings confirm that fewer than half of HF patients engage in regular physical activity. Therefore, individualized and technology-assisted interventions are urgently needed to improve adherence and support sustained participation in physical activity.\n\nTechnological opportunities hold great potential for improving physical activity in patients with HF. Wearable smart devices and mobile applications enable real-time monitoring of health data, offering more dynamic and personalized solutions compared with traditional exercise methods. These technologies allow patients to monitor their health status at home, optimize their physical activity, and provide real-time feedback to healthcare professionals. Mobile applications have been developed to track step counts and sedentary behaviors in order to enhance activity levels in HF patients, while others have focused on supporting self-care behaviors without directly monitoring exercise parameters. Some digital health tools have integrated monitoring of metrics such as step count and heart rate to better tailor activity goals. However, most studies to date have been short-term, highlighting the need for further research on sustaining long-term motivation and effectiveness. Earlier applications were often limited to pedometer-based activity tracking or focused primarily on the acceptability of mobile technology after cardiac rehabilitation. While many studies have emphasized step counts and walking distance as the main indicators of activity, recent evidence suggests that combining these with more in-depth biological data, such as heart rate and energy expenditure, may provide a more comprehensive and physiologically grounded assessment in HF patients.\n\nUnlike traditional approaches supported by wearable devices and mobile applications, this project proposal focuses on defining personalized physical activity goals shaped by real-time data according to the individual characteristics of patients. Through technological integration, patients will be able to increase their physical activity, reduce sedentary behaviors, maintain motivation, and receive continuous real-time feedback. By providing individualized targets based on personal heart rate reserve, the project aims to deliver a more patient-centered and tailored approach. In this way, patients will remain motivated throughout the physical activity process and achieve greater success in reaching their goals. The system will dynamically update personalized targets according to each patient's current health status, allowing participation in activities at an appropriate intensity without excessive strain. The mobile application developed within the project will serve not only as a monitoring tool but also as a real-time feedback mechanism. These feedback features will evaluate patients' activity performance, deliver instant motivational messages and alerts, and provide guiding notifications for those who do not reach their goals, helping them overcome challenges. For example, when a patient reaches the targeted duration within their optimal heart rate zone, the system will send congratulatory messages to reinforce progress. Conversely, patients who fail to achieve their goals will receive supportive and motivational notifications to encourage persistence. Through this approach, individuals will continuously receive tailored support while working toward their personalized targets, enabling them to sustain motivation and adherence over time. The project aims to ensure long-term engagement in physical activity based on individualized progress. With dynamic monitoring and real-time feedback, patients will be able to continuously track their activities and observe tangible improvements in their health outcomes. Through this innovative approach, we aim to enhance physical activity in HF patients, strengthen adherence to treatment, and reduce sedentary time. Therefore, this technology-based intervention is expected to increase patient motivation, improve physical activity levels, and ultimately lead to better health outcomes.\n\nIn the literature, studies examining exercise adherence or physical activity compliance have generally based their interventions on structured and standardized exercise protocols. These protocols typically prescribe similar durations and intensities of exercise for all patients, while individual differences are often overlooked. For example, in previous trials, participants were commonly expected to achieve 150 minutes of moderate-intensity exercise per week, and reaching this target was considered a measure of adherence. However, given the physical, cognitive, motivational, and health-related differences among patients, it cannot be assumed that a standardized approach will be equally effective for all. In particular, the functional capacities of HF patients can significantly influence their adherence levels and overall activity performance. Recent guidelines emphasize that exercise prescriptions should be tailored to patients' individual characteristics, such as age, cognitive capacity, and functional status. In line with this, the present project aims to offer an alternative solution to the commonly reported low adherence and insufficient physical activity behaviors in HF patients. The proposed system will design an IoT-based personalized physical activity monitoring intervention that tracks activity behavior, increases the duration of physical activity, strengthens adherence, and reduces sedentary time. Personalized goals will be defined for each individual based on heart rate measurements and calculated heart rate reserve, and these targets will be continuously monitored through an IoT-based server system. This approach aims to address and overcome the barriers to sustained physical activity by providing individualized solutions. Furthermore, as highlighted in current recommendations, achieving both short- and long-term physical activity targets is essential. However, these goals must take into account each patient's starting point as well as their physical, cognitive, and motivational differences. Given the variation in functional capacity among HF patients, it is expected that levels of participation in prescribed activities will differ. Therefore, unlike previous studies, this project will establish individualized physical activity goals for each patient and monitor the processes by which these goals are achieved.\n\nThe project proposal aims to establish personalized physical activity goals using IoT technology and to monitor participants in real time during their daily lives. Drawing on the findings of a prior trial, who identified factors that hinder exercise adherence in HF patients, this system has been developed to address such barriers. According to their study, factors such as fear of symptoms, environmental constraints, lack of social support, and the absence of individualized exercise prescriptions limit participation, whereas the presence of social support and exercise equipment facilitates adherence. This project seeks to improve physical activity behaviors and strengthen adherence by offering an IoT-based system that provides individualized targets and real-time feedback tailored to patients' needs. Through wearable devices (smart wristbands), real-time monitoring will be conducted, personal goals will be determined based on heart rate reserve, and achievement of these targets will be tracked. The system will guide patients in selecting safe activities and help them reach their goals. Moreover, patients will be able to achieve their targets either through self-chosen safe activities or by following exercise recommendations provided by the project team. Current literature emphasizes the importance of considering individuals' specific goals (e.g., returning to work, performing independent activities, or engaging in physical activities with friends), as these can reflect the functional outcomes of an exercise program and serve as valuable motivators for sustaining regular exercise and physical activity.\n\nIn conclusion, this project proposal has been developed with a novel perspective, adopting a two-phase approach. In the first phase, personalized activity goals will be set for each individual based on their physical capacity and calculated according to heart rate reserve. These goals will include: (a) the exercise intensity derived from the Karvonen formula, which is used in the calculation of heart rate reserve, (b) the individualized target heart rate expected to be reached during physical activity, and (c) the personalized weekly activity duration required to be achieved. Achievement of these goals will be monitored in real time. The personalized activity targets will be automatically processed and updated by a continuously operating central server system, which is fueled by real-time data obtained from the Internet of Things (IoT), particularly biological data (heart rate) transmitted via smart wristbands. These updates will be made according to patients' physical activity performance throughout the month, and the system will automatically recalculate the targets using heart rate data obtained from the smart wristbands. Participants will be granted the freedom to achieve these goals by engaging in safe physical activities of their choice at home or in daily life. In the second phase, the central server system will observe participants' physical activity behaviors in real time during daily life. Using data collected through IoT systems, a mobile application developed as part of the project will deliver visual and auditory feedback to individuals via their smartphones. Activity levels will be periodically optimized according to each participant's individual performance. In this respect, the project represents a unique application of IoT systems in healthcare, moving beyond the approaches frequently described in the literature. Through this framework, the following main objectives are planned to be achieved:\n\nMain Objectives\n\n1. Defining personalized patient-centered activity goals: Establishing individualized physical activity targets based on heart rate measurements and calculated according to heart rate reserve.\n2. Monitoring physical activity levels: Tracking participants' activity levels in line with their personalized targets.\n3. Tracking personal progress: Enabling participants to observe their own progress relative to the defined goals.\n4. Feedback and visualization: Providing participants with feedback on their performance toward personal targets through daily, weekly, and monthly measurements, and presenting this information using various visualizations.\n5. Re-planning of goals: Reassessing physical activity behaviors and adherence on a monthly basis and adjusting personalized goals accordingly.\n6. User-friendly interfaces and support: Ensuring that all processes are conducted through interfaces designed to be simple and easy to use, supported with visual and video-based feedback appropriate to participants' competencies.\n\nResearch Question What are the effects of an IoT-based personalized physical activity monitoring system on goal achievement and physical activity behaviors in patients with HF? Hypotheses H1: The IoT-based personalized physical activity monitoring system increases physical activity adherence levels in patients with HF.\n\nH2: Patients with HF using the IoT-based personalized physical activity monitoring system achieve their activity goals at a higher rate.\n\nH3: The IoT-based personalized physical activity monitoring system reduces sedentary behavior in patients with HF.\n\nH4: Defining individualized physical activity goals based on patient characteristics (e.g., age, functional capacity, cognitive capacity) strengthens adherence and increases motivation to reach the target level of physical activity.\n\nH5: Patients with HF who participate in the IoT-HFActive program will demonstrate improvements in physiological parameters, including left ventricular function and submaximal exercise capacity.\n\nH6: Patients with HF who participate in the IoT-HFActive program will experience a significant improvement in quality of life and a reduction in hospital admissions."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure",
+        "Reduced Ejection Fraction Heart Failure"
+      ],
+      "keywords": [
+        "heart failure",
+        "internet of things",
+        "physical activity",
+        "rehabilitation",
+        "sedentary behavior",
+        "telemedicine",
+        "wearable electronic devices"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 82,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intervention group",
+          "type": "EXPERIMENTAL",
+          "description": "Participants in the intervention group will receive the IoT-HFActive program, a 12-month personalized and automated mHealth intervention delivered via a mobile application. They will first attend two structured education sessions covering the importance of exercise in HF, active lifestyle recommendations, and training on the app and smart wristbands. Next, they will participate in 12 supervised, group-based aerobic exercise sessions (3×50 min/week for 4 weeks) with warm-up, moderate-intensity aerobic exercise, and cool-down. Individualized activity goals will then be established using HRR calculations via the Karvonen formula and EWMA analysis of wristband data. Real-time monitoring through the app will display personal targets, achieved minutes, calories, and steps, and will include daily confirmation prompts. Behavioral support features will provide personalized feedback, motivational messages, visualizations, and monthly re-planning of goals to strengthen adherence.",
+          "interventionNames": [
+            "Other: Device&behavioral"
+          ]
+        },
+        {
+          "label": "Control group",
+          "type": "NO_INTERVENTION",
+          "description": "In the control group, participants will receive routine care provided by the healthcare system, with no structured physical activity intervention or behavioral support. Follow-up assessments will be conducted in parallel with the intervention group."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Device&behavioral",
+          "description": "The IoT-HFActive intervention is a 12-month personalized program delivered via a mobile app, integrating patient-centered goal setting, real-time monitoring, and behavioral support. Intervention group participants will first attend two structured education sessions on exercise in HF and the use of the app and smart wristbands. They will then complete 12 supervised group-based sessions (3×50 min/week for 4 weeks) including warm-up, moderate aerobic exercise, and cool-down. Personalized activity goals will be calculated using heart rate reserve (HRR) via the Karvonen formula and exponential weighted moving average (EWMA) based on wristband data. Continuous remote monitoring will display target HR, achieved minutes, calories, and steps, and include daily confirmation prompts. Behavioral support features of the app will provide personalized feedback, motivational messages, visualizations, and monthly goal re-planning to promote adherence and reduce sedentary behavior.",
+          "armGroupLabels": [
+            "Intervention group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Physical activity adherence",
+          "description": "Physical activity adherence will be evaluated using metric measurements, specifically the minutes participants reach HRtargetmin and HRtargetmax each month (intervention group only). In the first 3 months, adherence is calculated as \\[(actual minutes/week) ÷ (target minutes/week) × 100\\]; from month 4 onward, it is calculated as \\[(actual minutes/week) ÷ (150 minutes/week target) × 100\\], with 100% indicating full adherence. The central server automatically calculates and records adherence monthly as a percentage, and participants receive feedback on target achievement. Adherence is graded as: ≥80% adequate, ≥50% to \\<80% partial, and \\<50% low. These measurements will be used for subgroup analyses based on adherence levels.",
+          "timeFrame": "From the time of enrollment until the intervention ends at 12 months"
+        },
+        {
+          "measure": "Physical activity level and sedentary behavior",
+          "description": "It will be assessed using the Simple Physical Activity Questionnaire (SIMPAQ). The questionnaire, developed by Rosenbaum et al. (2020), evaluates physical activity and sedentary behaviors performed by participants over the past 7 days. It consists of five items covering time spent in bed, sedentary activities, walking, exercise, and incidental activities. The reported durations by participants should approximately total 24 hours. The duration of moderate-to-vigorous physical activity is calculated by summing the time spent walking and exercising. The questionnaire will be administered to all participants at three-month intervals.",
+          "timeFrame": "From enrollment to the end of the intervention at 12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Left ventricular function",
+          "description": "Left ventricular functions will be assessed using comprehensive parameters of transthoracic echocardiography (TTE). TTE will be performed in the left lateral decubitus position at rest according to the American Society of Echocardiography criteria, using a Philips EPIQ 7 echocardiography system with a Philips X5-1 xMatrix 3.5 MHz transducer (Quiñones et al., 2002). Parameters include left ventricular ejection fraction (LVEF), left ventricular wall thickness, diastolic and systolic chamber dimensions, mitral and tricuspid annular E and A waves, tissue Doppler-derived e´ and a´ waves, E/A ratio, E/e´ ratio, TAPSE, and MAPSE. Mean values will be calculated, subgroup analyses will be conducted based on physical activity adherence, and between-group comparisons will be reported.",
+          "timeFrame": "From enrollment to the end of the intervention at 12 months"
+        },
+        {
+          "measure": "Functional capacity",
+          "description": "Functional capacity will be assessed using the Six-Minute Walk Test (6MWT). After at least 10 minutes of rest, participants will be instructed to walk at their own pace, as fast as possible, for six minutes along a 30-meter corridor marked at 1-meter intervals. They will be informed that they may slow down or stop to rest if they experience shortness of breath. Blood pressure will be measured at the beginning and end of the test, and oxygen saturation and heart rate will be recorded before, during, and after the test using a fingertip pulse oximeter. At the end of the test, the six-minute walking distance (6MWD) will be recorded in meters (ATS statement, 2002). Mean values will be calculated, subgroup analyses will be performed according to physical activity adherence, and between-group comparisons will be reported.",
+          "timeFrame": "From enrollment to the end of the intervention at 12 months"
+        },
+        {
+          "measure": "Brain natriuretic peptide",
+          "description": "For brain natriuretic peptide (BNP), venous blood samples (minimum 2 cc) will be collected into ethylenediaminetetraacetic acid (EDTA) tubes after an overnight fast, between 8:30 and 10:30 a.m. Samples will be analyzed using the \"Architect BNP Test\" kit with the fluorescence immunoassay method. This method is capable of measuring BNP levels in the range of 10-5000 pg/ml with high sensitivity and accuracy. Mean values will be calculated, subgroup analyses will be performed according to physical activity adherence, and between-group comparisons will be reported.",
+          "timeFrame": "From enrollment to the end of the intervention at 12 months"
+        },
+        {
+          "measure": "Quality of Life measured by the Left Ventricular Dysfunction Scale",
+          "description": "Quality of life will be assessed using the Left Ventricular Dysfunction Questionnaire (LVD-36). The LVD-36 is a self-report tool developed by O'Leary and Jones (2000) to measure the impact of left ventricular dysfunction on daily life and well-being, as well as the effect of the disease and treatment efficacy in patients with heart failure. The questionnaire consists of 36 items presented to individuals as true/false statements. Correct responses are summed, and the total number of correct responses is expressed as a percentage. Scores range from 0 to 100, with higher scores indicating lower quality of life. Mean values will be calculated, subgroup analyses will be conducted according to physical activity adherence, and between-group comparisons will be reported. In the scale development study, the Kuder-Richardson coefficient (internal consistency analysis) was found to be 0.95.",
+          "timeFrame": "From enrollment to the end of the intervention at 12 months"
+        },
+        {
+          "measure": "Motion analysis and energy expenditure parameters",
+          "description": "Movement analysis and energy expenditure parameters will be monitored via smart wristbands, including daily step count, distance covered, and daily calories burned, through the IoT-HFActive system. These parameters will only be tracked for the intervention group. Participant data will be transferred monthly to the central server, providing a means to verify physical activity metrics.",
+          "timeFrame": "From enrollment to the end of the intervention at 12 months"
+        },
+        {
+          "measure": "Hospital readmission rate",
+          "description": "The hospital readmission rate will be assessed by contacting participants or their caregivers via telephone at specific intervals to inquire about hospital readmissions. Analyses will be conducted based on the mean number of hospitalizations and reported accordingly.",
+          "timeFrame": "From enrollment to the end of the intervention at 12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosis of HF confirmed by echocardiographic examination,\n* Heart failure characterized by reduced ejection fraction (HFrEF),\n* Individuals aged 18-75 years,\n* New York Heart Association (NYHA) functional class I, II, or III,\n* No evidence of ischemia on coronary angiography performed within the last three months,\n* No physical limitations preventing exercise,\n* Standardized Mini-Mental State Examination (MMSE) score ≥ 25,\n* Ownership of a smartphone compatible with the mobile application to be used in the study.\n\nExclusion Criteria:\n\n* Presence of an ischemic lesion requiring revascularization on coronary angiography,\n* History of major cardiac surgery within the last three months,\n* Worsening dyspnea at rest and exercise intolerance,\n* Presence of arrhythmia problems such as ventricular tachyarrhythmia or atrial fibrillation,\n* Uncontrolled diabetes (Hemoglobin A1C ≥ 7 mg/dl),\n* Presence of chronic pulmonary disease or renal insufficiency,\n* Symptomatic postural hypotension (≥20 mmHg systolic drop),\n* Score ≥ 9 on the Edmonton Frail Scale (moderate to severe frailty),\n* Morbid obesity (BMI \\> 40 kg/m²),\n* Neuropsychiatric disorders severely impairing cognitive functions such as dementia or Alzheimer's disease,\n* Unwillingness to participate in the exercise program.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Seyma Demir Erbas, PhD",
+          "role": "CONTACT",
+          "phone": "05464715674",
+          "email": "seymademir@ibu.edu.tr"
+        },
+        {
+          "name": "Seyma Demir Erbas, PhD",
+          "role": "CONTACT",
+          "phone": "+905464715674",
+          "email": "seymademir@ibu.edu.tr"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Seyma Demir Erbas, PhD",
+          "affiliation": "Abant Izzet Baysal University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "The collected data will be stored in separate folders for each participant within a Google Drive space created specifically for the project, and only the project coordinator will have access. Upon completion of the study, the data will continue to be stored in anonymized form and will be made accessible, if needed, to verify the research findings."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D054143",
+          "term": "Heart Failure, Systolic"
+        },
+        {
+          "id": "D009043",
+          "term": "Motor Activity"
+        },
+        {
+          "id": "D057185",
+          "term": "Sedentary Behavior"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

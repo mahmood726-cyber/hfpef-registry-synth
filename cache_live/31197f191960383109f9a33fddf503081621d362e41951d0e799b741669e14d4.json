@@ -1,0 +1,283 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06507657",
+      "orgStudyIdInfo": {
+        "id": "CV-2023-32230"
+      },
+      "organization": {
+        "fullName": "University of Minnesota",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effect of Empagliflozin on Left Atrial Function in Adults at Risk for Heart Failure",
+      "officialTitle": "Effect of Empagliflozin on Left Atrial Function in Adults at Risk for Heart Failure"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-10",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-12-12",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2029-01-15",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-01-15",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-07-11",
+      "studyFirstSubmitQcDate": "2024-07-11",
+      "studyFirstPostDateStruct": {
+        "date": "2024-07-18",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-10-01",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-10-03",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Minnesota",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Sodium-glucose cotransporter 2 inhibitors (SGLT2i) reduce CVD events, including incident HF. SGLT2 is a glucose transport protein in the kidneys. Inhibition of this protein results in glucosuria and lower serum blood sugar. The SGLT2i medications were initially approved to treat type 2 diabetes (T2D). In 2015, Zinman et al. published the first large randomized clinical trial (RCT) demonstrating a lower composite CVD outcome in adults with T2D treated with empagliflozin compared to placebo (HR 0.85, 95% CI 0.74-0.99). In the specific case of empagliflozin, the hazard ratio was 0.75 (95% CI 0.65-0.86) for HFrEF 8 and 0.79 (95% CI 0.69-0.90) for HFpEF using a treatment dose of 10mg daily.\n\nThe purpose of this placebo-controlled, double-blinded, randomized pilot study is to investigate the effect of empagliflozin on left atrial (LA) function in 80 patients who are at risk for heart failure. Participants will be randomized 1:1 to either intake of a 10mg empagliflozin oral tablet or a matching placebo once daily."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hypertension",
+        "Cardiovascular Diseases"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "placebo-controlled, double-blinded, randomized pilot study",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 80,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Experimental group",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: empagliflozin"
+          ]
+        },
+        {
+          "label": "Placebo group",
+          "type": "PLACEBO_COMPARATOR",
+          "interventionNames": [
+            "Drug: Placebo tablet"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "empagliflozin",
+          "description": "intake of a 10mg empagliflozin oral tablet\n\nAt visit 1, after randomization, participants will be provided with bottles containing enough study pills for 3 months duration at 1 tablet daily. Participants will start the study drug on the morning following Visit 1. At the 3 month follow up visit, participants will be provided with enough study pills to complete the remaining 6 months of the study.",
+          "armGroupLabels": [
+            "Experimental group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo tablet",
+          "description": "intake a placebo oral tablet\n\nAt visit 1, after randomization, participants will be provided with bottles containing enough study pills for 3 months duration at 1 tablet daily. Participants will start the study drug on the morning following Visit 1. At the 3 month follow up visit, participants will be provided with enough study pills to complete the remaining 6 months of the study.",
+          "armGroupLabels": [
+            "Placebo group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "change in LA function",
+          "description": "LA function will be quantified by assessing LA reservoir, conduit, and contractile strain with 2DE at baseline and 9 months.",
+          "timeFrame": "9 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "change in left ventricular ejection fraction",
+          "timeFrame": "9 months"
+        },
+        {
+          "measure": "change in global longitudinal strain",
+          "timeFrame": "9 months"
+        },
+        {
+          "measure": "change in mass (indexed to body surface area)",
+          "timeFrame": "9 months"
+        },
+        {
+          "measure": "change in E/e' ratio",
+          "timeFrame": "9 months"
+        },
+        {
+          "measure": "change in plasma protein levels: DLK-1 (protein delta homolog 1)",
+          "timeFrame": "9 months"
+        },
+        {
+          "measure": "change in plasma protein levels: GDF15 (growth differentiating factor 15)",
+          "timeFrame": "9 months"
+        },
+        {
+          "measure": "change in plasma protein levels: Spondin-1",
+          "timeFrame": "9 months"
+        },
+        {
+          "measure": "change in plasma protein levels: IGBPF-7",
+          "timeFrame": "9 months"
+        },
+        {
+          "measure": "change in plasma protein levels: THBS-2 (thrombospondin 2)",
+          "timeFrame": "9 months"
+        },
+        {
+          "measure": "change in plasma protein levels: IGFBP-1 (insulin-like binding factor protein 1)",
+          "timeFrame": "9 months"
+        },
+        {
+          "measure": "change in plasma protein levels: FABP-4 (fatty acid-binding protein 4)",
+          "timeFrame": "9 months"
+        },
+        {
+          "measure": "change in plasma protein levels: CCL16 (C-C motif chemokine 16)",
+          "timeFrame": "9 months"
+        },
+        {
+          "measure": "change in cardiovascular disease biomarker C-reactive protein (CRP)",
+          "timeFrame": "3 months and 9 months"
+        },
+        {
+          "measure": "change in cardiovascular disease biomarker Troponin",
+          "timeFrame": "3 months and 9 months"
+        },
+        {
+          "measure": "change in cardiovascular disease biomarker NT-proBNP",
+          "timeFrame": "3 months and 9 months"
+        },
+        {
+          "measure": "changes in blood pressure ration",
+          "timeFrame": "1, 3 and 9 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \\>60 years of age\n* Clinical diagnosis of hypertension\n* Body mass index ≥30kg/m2\n* We will screen for participants with an echocardiogram within 60 days of the baseline visit\n\nExclusion Criteria:\n\n* Female participants who are pregnant, lactating, or of child bearing potential\n* History of type 1 or type 2 diabetes mellitus by medical history or hemoglobin A1c \\>7.0% at Visit 1\n* Clinical diagnosis of HFpEF or HFrEF by participant self-report or documented in the electronic health record\n* Any LVEF measure of ≤40% on past echocardiogram\n* Moderate or severe valve disease on echocardiogram\n* History of genitourinary infection\n* eGFR \\<60 ml/min/1.73 m2 at Visit 1\n* Current treatment with SGLT2 inhibitor, GLP1 agonist, or DPP4 inhibitors\n* Participants in whom coronary revascularization by either PCI or bypass surgery is being contemplated within 6 months, or who have undergone revascularization in the prior 2 months\n* Significant allergy or known intolerance to SGLT2 inhibitors or any ingredient in the formulations\n* Participants currently experiencing any clinically significant or unstable medical condition that might limit their ability to complete the study, or to comply with the requirements of the protocol, including: dermatologic disease, hematological disease, pulmonary disease, hepatic disease, gastrointestinal disease, genitourinary disease, endocrine disease, neurological disease, and psychiatric disease\n* Any malignancy not considered cured (except basal cell carcinoma of the skin). A participant is considered cured if there has been no evidence of cancer recurrence for the 5 years prior to screening\n* Participants who have participated in studies of an investigational drug or device within 30 days prior to the screening visit\n* Inadequate quality echocardiographic images\n* Unstable coronary syndromes\n* Major surgery (major according to the investigator's assessment) performed within 90 days prior to Visit 1 or scheduled major elective surgery within 90 days after Visit 1.\n* Non-English speaking individuals",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "60 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Julie Dicken, RN",
+          "role": "CONTACT",
+          "email": "dicke022@umn.edu"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Jeremy Van't Hof, MD",
+          "affiliation": "University of Minnesota",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Minnesota",
+          "status": "RECRUITING",
+          "city": "Minneapolis",
+          "state": "Minnesota",
+          "zip": "55414",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Julie Dicken",
+              "role": "CONTACT",
+              "email": "dicke022@umn.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.97997,
+            "lon": -93.26384
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006973",
+          "term": "Hypertension"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C570240",
+          "term": "empagliflozin"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

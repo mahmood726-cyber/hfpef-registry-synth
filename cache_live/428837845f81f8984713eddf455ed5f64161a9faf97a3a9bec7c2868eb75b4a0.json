@@ -1,0 +1,342 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06479876",
+      "orgStudyIdInfo": {
+        "id": "240749"
+      },
+      "organization": {
+        "fullName": "Vanderbilt University Medical Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "Home-Based Cardiac Rehabilitation for Patients With Heart Failure",
+      "officialTitle": "Home-Based Cardiac Rehabilitation Using Mobile Health Tools for Patients With Heart Failure (MOBILE HEART): A Randomized Controlled Trial",
+      "acronym": "MOBILE HEART"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-09",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-08-05",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-08",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-08",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-06-24",
+      "studyFirstSubmitQcDate": "2024-06-24",
+      "studyFirstPostDateStruct": {
+        "date": "2024-06-28",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-09-19",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-09-24",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Brian Lindman",
+        "investigatorTitle": "Associate Professor",
+        "investigatorAffiliation": "Vanderbilt University Medical Center"
+      },
+      "leadSponsor": {
+        "name": "Vanderbilt University Medical Center",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The vast majority of individuals with heart failure do not participate in center based cardiac rehabilitation (CBCR). While steps to increase utilization of CBCR are important, many individuals will still not participate for a variety of reasons. This pilot randomized controlled trial is evaluating a home-based cardiac rehabilitation (HBCR) intervention delivered using a custom app and digital tools in patients with heart failure. After a brief roll-in period, participants are randomized to one of two groups: (1) control or (2) HBCR mobile health intervention. The intervention targets key health behaviors and includes traditional cardiac rehabilitation components. The study will assess the effect of the intervention on physical activity, quality of life, clinical events, and other outcomes."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Preserved Ejection Fraction",
+        "Heart Failure With Reduced Ejection Fraction",
+        "Cardiovascular Diseases"
+      ],
+      "keywords": [
+        "cardiac rehabilitation, physical activity, functional capacity, quality of life, outcomes"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Participants randomized 1:1 to 2 groups.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Assessments performed at baseline visit and final (12-week visit) will be performed by a study team member unaware of randomization group. Clinical outcomes upon completion study will be assessed by an adjudicator who is blinded to randomization group.",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Home-based cardiac rehabilitation mobile health intervention",
+          "type": "EXPERIMENTAL",
+          "description": "Home-based cardiac rehabilitation with mobile application and periodic video calls with exercise physiologist + AHA Life's Essential 8 sheets.",
+          "interventionNames": [
+            "Other: HBCR"
+          ]
+        },
+        {
+          "label": "Control",
+          "type": "NO_INTERVENTION",
+          "description": "Standard of care course for an individual not participating in center based cardiac rehabilitation. AHA Life's Essential 8 Fact Sheets are provided to promote healthy living."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "HBCR",
+          "description": "Home-based cardiac rehabilitation intervention facilitated by a custom app to deliver education, counseling on healthy living and modification of risk factors, mindfulness, and physical activity guidance. Additionally, there are periodic video calls with an exercise physiologist.",
+          "armGroupLabels": [
+            "Home-based cardiac rehabilitation mobile health intervention"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Average daily total activity counts",
+          "description": "Daily total activity counts are determined by a triaxial actigraphy device.",
+          "timeFrame": "The actigraphy device will be worn for approximately one week and, using data from days when the device was worn >10 hours, the average daily total activity counts determined. The primary comparison will be at 12 weeks after randomization."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Average daily active minutes",
+          "description": "Daily active minutes are determined by a triaxial actigraphy device.",
+          "timeFrame": "The actigraphy device will be worn for approximately one week and, using data from days when the device was worn >10 hours, the average daily activity minutes determined. The comparison will be at 12 weeks after randomization."
+        },
+        {
+          "measure": "Average daily steps",
+          "description": "Daily steps are determined by a triaxial actigraphy device.",
+          "timeFrame": "The actigraphy device will be worn for approximately one week and, using data from days when the device was worn >10 hours, the average daily steps determined. The comparison will be at 12 weeks after randomization."
+        },
+        {
+          "measure": "Average daily energy expenditure",
+          "description": "Average daily energy expenditure is determined by a triaxial actigraphy device.",
+          "timeFrame": "The actigraphy device will be worn for approximately one week and, using data from days when the device was worn >10 hours, the average daily energy expenditure determined. The comparison will be at 12-weeks after randomization."
+        },
+        {
+          "measure": "Average daily moderate to vigorous active minutes",
+          "description": "Daily moderate to vigorous active minutes are determined by a triaxial actigraphy device.",
+          "timeFrame": "The actigraphy device will be worn for approximately one week and, using data from days when the device was worn >10 hours, the average daily moderate to vigorous active mins determined. The comparison will be at 12-weeks after randomization."
+        },
+        {
+          "measure": "Sustained physical activity bursts of 10 minutes or greater per day",
+          "description": "Physical activity bursts are determined by a triaxial actigraphy device.",
+          "timeFrame": "The actigraphy device will be worn for approximately one week and, using data from days when the device was worn >10 hours, the average daily steps determined. The comparison will be at 12 weeks after randomization."
+        },
+        {
+          "measure": "6 minute walk distance",
+          "description": "The distance walked in 6 minutes.",
+          "timeFrame": "The comparison will be at 12-weeks after randomization."
+        },
+        {
+          "measure": "Chair sit to stand time",
+          "description": "The time taken to complete 5 chair rises.",
+          "timeFrame": "The comparison will be at 12-weeks after randomization."
+        },
+        {
+          "measure": "5 meter gait speed",
+          "description": "The speed of walking 5 meters (meters/second).",
+          "timeFrame": "The comparison will be at 12-weeks after randomization."
+        },
+        {
+          "measure": "Balance test",
+          "description": "Score based on ability to stand unsupported for 10 seconds with feet in a certain position (feet together, semi tandem, full tandem). Score ranges from 0-4 (higher score is better).",
+          "timeFrame": "The comparison will be at 12-weeks after randomization."
+        },
+        {
+          "measure": "AM-PAC Basic Mobility Outpatient Short Form (Low Function)",
+          "description": "Basic mobility will be assessed with the Activity Measure for Post-Acute Care (AM-PAC) Basic Mobility Outpatient Short Form (Low Function); (raw score range 0-39, higher score is better)",
+          "timeFrame": "The comparison will be at 12-weeks after randomization."
+        },
+        {
+          "measure": "Short Physical Performance Battery Score",
+          "description": "Composite score including 3 components (Chair sit to stand, 5 meter gait speed, balance test). Score ranges from 0-12 (higher score is better).",
+          "timeFrame": "The comparison will be at 12-weeks after randomization."
+        },
+        {
+          "measure": "Heart-failure specific health status assessed by the KCCQ",
+          "description": "Assessed with the Kansas City Cardiomyopathy Questionnaire (KCCQ); (score range 0-100, higher is better health status).",
+          "timeFrame": "The comparison will be at 12-weeks after randomization."
+        },
+        {
+          "measure": "Physical health status assessed by the PROMIS 10",
+          "description": "Global physical health score from the PROMIS 10 Global Health Short Form questionnaire (raw score range 4-20, higher is better).",
+          "timeFrame": "The comparison will be at 12-weeks after randomization."
+        },
+        {
+          "measure": "Mental health status assessed by the PROMIS 10",
+          "description": "Global mental health score from the PROMIS 10 Global Health Short Form questionnaire (raw score range 4-20, higher is better)",
+          "timeFrame": "The comparison will be at 12-weeks after randomization."
+        },
+        {
+          "measure": "Mood disturbance assessed by PHQ9",
+          "description": "Patient health questionnaire 9 (PHQ9); (score range 1-27, lower is better)",
+          "timeFrame": "The comparison will be at 12-weeks after randomization."
+        },
+        {
+          "measure": "Behavioral Regulation In Exercise Questionnaire 3",
+          "description": "Behavioral Regulation In Exercise Questionnaire 3 (BREQ-3); (score range per question of 0-4, higher is better).",
+          "timeFrame": "The comparison will be at 12-weeks after randomization."
+        },
+        {
+          "measure": "Social support and exercise survey",
+          "description": "Social support and exercise survey (score range per question of 1-5, higher is better).",
+          "timeFrame": "The comparison will be at 12-weeks after randomization."
+        },
+        {
+          "measure": "Multidimensional Self-Efficacy for Exercise Scale",
+          "description": "Multidimensional Self-Efficacy for Exercise Scale (MSES); (score range per question of 0-10, higher is better).",
+          "timeFrame": "The comparison will be at 12-weeks after randomization."
+        },
+        {
+          "measure": "General self-efficacy scale",
+          "description": "General self-efficacy scale (GSE); (score range per question of 1-4, higher is better).",
+          "timeFrame": "The comparison will be at 12-weeks after randomization."
+        },
+        {
+          "measure": "Blood pressure",
+          "timeFrame": "The comparison will be at 12-weeks after randomization."
+        },
+        {
+          "measure": "Modified Heart Failure Collaborative GDMT score",
+          "description": "Guideline directed medical therapy (GDMT) score includes 4 components of RAASi, BB, SGLT2i, and MRA (maximum score of 9, higher scores indicate increased GDMT utilization).",
+          "timeFrame": "The comparison will be at 12-weeks after randomization in patients with LVEF of 40% or less."
+        },
+        {
+          "measure": "Probability of the hierarchical clinical event composite",
+          "description": "The hierarchical clinical event composite includes (in order of hierarchy): (1) all-cause death and (2) all-cause hospitalization. To examine whether the intervention improves mortality and hospitalization, in heart failure patients, we will conduct Bayesian Markov longitudinal proportional odds model on weekly outcome measures. The active treatment vs. control group comparison (primary comparison for the trial) will be estimated by contrasting the average of posterior probability that Y≥y of the active treatment group to the control group.",
+          "timeFrame": "Over the entire available follow-up period for randomized participants (minimum of 12 weeks)."
+        },
+        {
+          "measure": "All-cause unplanned rehospitalization",
+          "description": "This includes inpatient, observation, or ER visit.",
+          "timeFrame": "Over the entire available follow-up period for randomized participants (minimum of 12 weeks)."
+        },
+        {
+          "measure": "Worsening heart failure event",
+          "description": "This includes inpatient, observation, ER visit, or urgent clinic visit for worsening heart failure.",
+          "timeFrame": "Over the entire available follow-up period for randomized participants (minimum of 12 weeks)."
+        },
+        {
+          "measure": "All-cause mortality",
+          "description": "Death for any reason.",
+          "timeFrame": "Over the entire available follow-up period for randomized participants (minimum of 12 weeks)."
+        },
+        {
+          "measure": "\"Thriving patient\" composite",
+          "description": "Percent of patients that meet the following criteria: 1) alive 2) no all-cause hospitalization 3) Improvement in average daily total activity counts by 10% or greater from baseline to 12 weeks.",
+          "timeFrame": "The comparison will be made at 12 weeks."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria Roll-in Phase\n\n1. Stage C HF (NYHA Class I-III) AND\n\n   1. Discharged from a HF hospitalization OR\n   2. Scheduled for appointment in a cardiology clinic with a prior HF hospitalization within the past 12 months OR\n   3. Scheduled for appointment in a cardiology clinic with a KCCQ-SS \\<75\n2. Receives longitudinal HF care at VUMC, including at least one visit prior to the roll-in phase\n\nRandomized Controlled Trial (beyond roll-in phase)\n\n1\\. Willingness to continue and participate in the study visits and other study activities required for the RCT\n\nExclusion Criteria Roll-in Phase\n\n1. Unwilling or unable to provide informed consent for participation in the RCT\n2. Requires a wheelchair all (or most) of the time inside and outside the house; it is acceptable if a wheelchair is needed, for example, for parking lot transfer for a clinic visit and navigating around the hospital without it being needed in the home\n3. If an individual uses a walker or cane all (or most) of the time, then he/she will be excluded if he/she scores 2 or lower on the Mini-Cog or the patient is unable to perform 2 chair sit-to-stands independently or is deemed to be at high fall risk during baseline visit assessment.\n4. History of falls over the last 6 months; an isolated explainable fall with no injury would not exclude the patient, but a tendency to falls indicative of balance/stability issues would exclude the patient.\n5. Age \\< 18 years\n6. Stage D HF (advanced HF under evaluation for LVAD or transplant)\n7. NYHA class IV symptoms\n8. Congenital heart disease\n9. Pregnant\n10. Group 1 pulmonary hypertension\n11. Moderate-severe or severe (\\> 3+) mitral or aortic valvular disease\n12. Physical or neuropsychiatric limitations that would prevent proficient use of the study tools and successful completion of the physical and quality of life assessments (e.g. blindness, dementia)\n13. Planned surgery within 3 months\n14. Planned discharge from hospital to hospice, assisted living, or inpatient rehabilitation facility (discharge to a senior facility permitted as long as they are considered Independent Living)\n15. Treating provider or study team physician indicates that participation in the RCT would be unsafe\n16. Participation in any ongoing randomized trial that has not completed follow-up\n\nRandomized Controlled Trial (beyond roll-in phase)\n\n1. Not adherent to wearing the Actigraph activity tracker during the roll-in phase for a minimum of 4 (out of 10) compliant days (worn ³10 hours/day). Allowance will be made to include participants who wear the ActiGraph device ³10 hours/day for 3 days and also wear the ActiGraph device \\>9 hours/day for at least 1 day.\n2. Unable to complete the baseline study visit within 4 weeks of the completion of the roll-in actigraphy assessment.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Bassim El-Sabawi, MD",
+          "role": "CONTACT",
+          "phone": "615-589-6076",
+          "email": "bassim.el-sabawi@vumc.org"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Brian R Lindman, MD, MSCI",
+          "affiliation": "Vanderbilt University Medical Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Vanderbilt University Medical Center",
+          "status": "RECRUITING",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37232",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Bassim El-Sabawi, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D009043",
+          "term": "Motor Activity"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

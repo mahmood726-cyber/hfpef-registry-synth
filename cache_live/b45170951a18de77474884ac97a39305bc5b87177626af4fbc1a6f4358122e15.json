@@ -1,0 +1,447 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07272902",
+      "orgStudyIdInfo": {
+        "id": "CABANA-RAFT HF"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "1032000",
+          "type": "OTHER",
+          "domain": "Nova Scotia Health REB File #"
+        }
+      ],
+      "organization": {
+        "fullName": "Nova Scotia Health Authority",
+        "class": "OTHER"
+      },
+      "briefTitle": "Treating Atrial Fibrillation in Heart Failure With Preserved Ejection Fraction: Ablation or Medication",
+      "officialTitle": "A Randomized Ablation-based Atrial Fibrillation Rhythm Control Versus Rate Control Trial in Patients With Heart Failure and Preserved Ejection Fraction (CABANA-RAFT HF): A Pilot Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-01-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-10",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-10",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-11-24",
+      "studyFirstSubmitQcDate": "2025-12-08",
+      "studyFirstPostDateStruct": {
+        "date": "2025-12-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Ratika Parkash",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "Nova Scotia Health Authority"
+      },
+      "leadSponsor": {
+        "name": "Nova Scotia Health Authority",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Heart and Stroke Foundation of Canada",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is testing two different ways of treating atrial fibrillation (AF) in people who also have heart failure with mildly reduced or preserved heart function. Patients will randomly be assigned to either rhythm control using catheter ablation or rate control using medicines. The pilot phase will determine if a larger study can be successfully carried out to see which approach better improves survival, reduces hospitalizations, and enhances quality of life."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Atrial Fibrillation (AF)",
+        "Heart Failure With Mildly Reduced Ejection Fraction",
+        "Heart Failure With Preserved Ejection Fraction (HFPEF)",
+        "Rate Control",
+        "Rhythm Control"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "This trial is a pilot feasibility trial intended to lead into a larger, definitive trial as the trial is comparing two treatments already in clinical use.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 84,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Catheter Ablation (Rhythm Control Group)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants in this group will undergo catheter ablation procedure, scheduled within 4 weeks of joining the study.",
+          "interventionNames": [
+            "Procedure: Catheter Ablation for Atrial Fibrillation"
+          ]
+        },
+        {
+          "label": "Medical Therapy (Rate Control Group)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants in this group will take medications, with the dosages adjusted over the first few weeks to find the correct dosage.",
+          "interventionNames": [
+            "Drug: Rate Control Medications (beta-blockers, calcium channel blockers, digoxin)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "Catheter Ablation for Atrial Fibrillation",
+          "description": "Participants randomized to this arm will undergo catheter ablation within 4 weeks of randomization. Pulmonary vein isolation is required; additional ablation strategies may be applied at investigator discretion. Guideline-directed medical therapy for atrial fibrillation and heart failure will also be provided.",
+          "armGroupLabels": [
+            "Catheter Ablation (Rhythm Control Group)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Rate Control Medications (beta-blockers, calcium channel blockers, digoxin)",
+          "description": "Participants randomized to this arm will receive pharmacologic therapy to achieve guideline-recommended heart rate control (resting HR \\<80 bpm, \\<110 bpm with exercise). Therapy may include beta-blockers, non-dihydropyridine calcium channel blockers, or digoxin. If adequate control is not achieved with medication, AV nodal ablation and pacing may be used. Guideline-directed medical therapy for atrial fibrillation and heart failure will also be provided.",
+          "armGroupLabels": [
+            "Medical Therapy (Rate Control Group)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Feasibility of Trial Conduct",
+          "description": "Recruitment rate (patients recruited per center per month) and crossover rate (percentage of participants switching study arms). Feasibility will be defined as ≥0.7 patients enrolled per center per month and ≤10% crossover.",
+          "timeFrame": "12 months after randomization"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Composite of Cardiovascular Mortality and Heart Failure Hospitalization",
+          "description": "Time to first event of cardiovascular death (due to MI, sudden cardiac death, HF, stroke, CV procedures, CV bleeding, or other CV cause) or hospitalization for heart failure (admission \\>24h, ED visit, or unscheduled IV diuretic administration).",
+          "timeFrame": "Up to 12 months post-randomization"
+        },
+        {
+          "measure": "All-Cause Mortality",
+          "description": "Death from any cause",
+          "timeFrame": "Up to 12 months"
+        },
+        {
+          "measure": "Cardiovascular Hospitalizations and ED Visits (Non-HF)",
+          "description": "Number of hospitalizations or emergency department visits for other cardiovascular causes, including atrial fibrillation.",
+          "timeFrame": "Up to 12 months"
+        },
+        {
+          "measure": "Quality of Life: EQ-5D (Euroquol 5D Questionnaire)",
+          "description": "EQ5D Will include responses from the Euroquol 5D questionnaire",
+          "timeFrame": "Baseline, 12 months"
+        },
+        {
+          "measure": "Quality of Life: AFEQT (Atrial Fibrillation Effect on Quality of Life) Questionnaire",
+          "description": "AFEQT- Atrial Fibrillation Effect on Quality of Life Questionnaire (Scored 0-100, 0 is complete disability, 100 is no disability)",
+          "timeFrame": "Baseline, 12 months"
+        },
+        {
+          "measure": "Quality of life- KCCQ-12 (Kansas City Cardiomyopathy Questionnaire-12)",
+          "description": "KCCQ-12- Kansas City Cardiomyopathy Questionnaire-12 (0-100, 0 is very poor, 100 is excellent)",
+          "timeFrame": "Baseline, 12 months"
+        },
+        {
+          "measure": "Atrial Fibrillation Burden",
+          "description": "Proportion of time in atrial fibrillation as measured by Holter monitoring and symptom-triggered ECG recordings",
+          "timeFrame": "Baseline, 3, 6, and 12 months"
+        },
+        {
+          "measure": "Change in NT-proBNP levels",
+          "description": "Change in plasma NT-proBNP levels from baseline to follow-up",
+          "timeFrame": "Baseline, 12 months"
+        },
+        {
+          "measure": "Change in Left Ventricular Ejection Fraction (LVEF)",
+          "description": "Change in LVEF as measured by echocardiography",
+          "timeFrame": "Baseline, 12 months"
+        },
+        {
+          "measure": "Exercise Capacity (6-Minute Walk Distance)",
+          "description": "Change in distance walked in 6 minutes from baseline to follow-up",
+          "timeFrame": "Baseline, 12 months"
+        },
+        {
+          "measure": "Recruitment Metrics",
+          "description": "Recruitment ration of male vs. female participants, refusal rates and reasons.",
+          "timeFrame": "Throughout 12-month recruitment"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Procedural Complications",
+          "description": "Symptomatic pulmonary vein stenosis, atrio-esophageal fistula, pericardial effusion requiring pericardiocentesis, major bleeding requiring transfusion.",
+          "timeFrame": "Up to 30 days post-ablation procedure"
+        },
+        {
+          "measure": "Antiarrhythmic Drug Adverse Events",
+          "description": "Incidence of drug-related toxicities (e.g., thyroid, hepatic, pulmonary, proarrhythmia)",
+          "timeFrame": "Up to 12 months"
+        },
+        {
+          "measure": "All-Cause Death",
+          "description": "Number of deaths from any cause",
+          "timeFrame": "Up to 12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age ≥18 years\n* Diagnosis of atrial fibrillation (documented on Holter, rhythm strip, or ECG)\n* New York Heart Association (NYHA) class II-III heart failure\n* Left ventricular ejection fraction (LVEF) \\>40%\n* Meet specific NT-proBNP criteria:\n* If HF hospitalization within 6 months prior to screening: NT-proBNP \\>200 pg/ml (if not in AF at screening) or \\>600 pg/ml (if in AF at screening)\n* Otherwise: NT-proBNP \\>300 pg/ml (if not in AF at screening) or \\>900 pg/ml (if in AF at screening)\n* On stable guideline-directed medical therapy for ≥1 month\n* On stable diuretic dose for ≥2 weeks\n* Suitable for either ablation-based rhythm control or rate control strategy\n\nExclusion Criteria:\n\n* Permanent atrial fibrillation diagnosis\n* Prior catheter ablation for atrial fibrillation\n* NYHA class IV heart failure\n* Rheumatic heart disease\n* Moderate or severe mitral stenosis\n* Mechanical mitral valve\n* Severe aortic stenosis or severe aortic/mitral regurgitation\n* Renal failure requiring dialysis\n* Contraindication to oral anticoagulation\n* Infiltrative cardiomyopathies\n* Complex congenital heart disease\n* Untreated thyroid disease\n* Acute coronary syndrome or coronary artery bypass surgery within 12 weeks\n* Participation in another clinical trial\n* Inability to provide informed consent\n* Other serious non-cardiovascular condition with life expectancy ≤1 year\n* Age \\<18 years",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Laura Hamilton, BSC, MAHSR",
+          "role": "CONTACT",
+          "phone": "902-473-7226",
+          "email": "laura.hamilton@nshealth.ca"
+        },
+        {
+          "name": "Katie Kawulka, BScN, RN",
+          "role": "CONTACT",
+          "phone": "902-473-7684",
+          "email": "katie.kawulka@nshealth.ca"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "QEII HSC",
+          "status": "RECRUITING",
+          "city": "Halifax",
+          "state": "Nova Scotia",
+          "zip": "B3H 3A7",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Laura Hamilton, BSC, MAHSR",
+              "role": "CONTACT",
+              "phone": "902-473-7226",
+              "email": "laura.hamilton@nshealth.ca"
+            },
+            {
+              "name": "Katie Kawulka, BScN, RN",
+              "role": "CONTACT",
+              "phone": "902-473-7684",
+              "email": "katie.kawulka@nshealth.ca"
+            },
+            {
+              "name": "Ratika Parkash, MD, FRCPC",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.64269,
+            "lon": -63.57688
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001281",
+          "term": "Atrial Fibrillation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001145",
+          "term": "Arrhythmias, Cardiac"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D017115",
+          "term": "Catheter Ablation"
+        },
+        {
+          "id": "D000319",
+          "term": "Adrenergic beta-Antagonists"
+        },
+        {
+          "id": "D002121",
+          "term": "Calcium Channel Blockers"
+        },
+        {
+          "id": "D004077",
+          "term": "Digoxin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000078703",
+          "term": "Radiofrequency Ablation"
+        },
+        {
+          "id": "D000078702",
+          "term": "Radiofrequency Therapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D055011",
+          "term": "Ablation Techniques"
+        },
+        {
+          "id": "D013514",
+          "term": "Surgical Procedures, Operative"
+        },
+        {
+          "id": "D018674",
+          "term": "Adrenergic Antagonists"
+        },
+        {
+          "id": "D018663",
+          "term": "Adrenergic Agents"
+        },
+        {
+          "id": "D018377",
+          "term": "Neurotransmitter Agents"
+        },
+        {
+          "id": "D045504",
+          "term": "Molecular Mechanisms of Pharmacological Action"
+        },
+        {
+          "id": "D020228",
+          "term": "Pharmacologic Actions"
+        },
+        {
+          "id": "D020164",
+          "term": "Chemical Actions and Uses"
+        },
+        {
+          "id": "D045505",
+          "term": "Physiological Effects of Drugs"
+        },
+        {
+          "id": "D049990",
+          "term": "Membrane Transport Modulators"
+        },
+        {
+          "id": "D000077264",
+          "term": "Calcium-Regulating Hormones and Agents"
+        },
+        {
+          "id": "D002317",
+          "term": "Cardiovascular Agents"
+        },
+        {
+          "id": "D045506",
+          "term": "Therapeutic Uses"
+        },
+        {
+          "id": "D004071",
+          "term": "Digitalis Glycosides"
+        },
+        {
+          "id": "D002298",
+          "term": "Cardenolides"
+        },
+        {
+          "id": "D002301",
+          "term": "Cardiac Glycosides"
+        },
+        {
+          "id": "D002297",
+          "term": "Cardanolides"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D006027",
+          "term": "Glycosides"
+        },
+        {
+          "id": "D002241",
+          "term": "Carbohydrates"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

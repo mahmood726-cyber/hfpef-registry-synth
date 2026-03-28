@@ -1,0 +1,343 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05553314",
+      "orgStudyIdInfo": {
+        "id": "CARE-preserved HF"
+      },
+      "organization": {
+        "fullName": "Seoul National University Bundang Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Carvedilol in HF With Preserved EF",
+      "officialTitle": "Slow-release CArvedilol in Patients With REduced Strain and Preserved Ejection Fraction Heart Failure (CARE-preserved HF): A Prospective Randomized, Double-Blinded, Multicenter Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-11",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-11-17",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-08-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2024-12-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-09-20",
+      "studyFirstSubmitQcDate": "2022-09-22",
+      "studyFirstPostDateStruct": {
+        "date": "2022-09-23",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-11-03",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-11-08",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Dong-Ju Choi",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "Seoul National University Bundang Hospital"
+      },
+      "leadSponsor": {
+        "name": "Seoul National University Bundang Hospital",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Samsung Medical Center",
+          "class": "OTHER"
+        },
+        {
+          "name": "Wonju Severance Christian Hospital",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Beta-blockers improve clinical outcomes in heart failure and reduced ejection fraction (HFrEF); but not in those with preserved EF. Global longitudinal strain (GLS) is a prognostic factor independent of left ventricular ejection fraction (LVEF). In a retrospective with 1969 patients with HF and LVEF of ≥40%, beta-blocker was associated with improved survival in those with low GLS (GLS \\<14%), but not in those with GLS ≥14%. In this prospective, randomized clinical study, the investigators will assess the effect of slow-release carvedilol in patients with HFpEF and hypertension. The primary endpoint is the time-averaged proportional changes in NT-proBNP level and GLS change from baseline to month 6."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Preserved Ejection Fraction",
+        "Beta Blocker",
+        "Myocardial Strain"
+      ],
+      "keywords": [
+        "HFPEF",
+        "beta-blocker",
+        "reduced strain",
+        "BNP"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "A prospective, randomized, double-blinded, placebo-controlled study",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Carvedilol-group",
+          "type": "EXPERIMENTAL",
+          "description": "Patients receiving carvedilol",
+          "interventionNames": [
+            "Drug: Carvedilol"
+          ]
+        },
+        {
+          "label": "Placebo-group",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Patients receiving placebo",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Carvedilol",
+          "description": "patients randomized to carvedilol group will receive carvedilol-SR.",
+          "armGroupLabels": [
+            "Carvedilol-group"
+          ],
+          "otherNames": [
+            "carvedilol slow-release (SR)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "patients randomized to placebo group will receive placebo.",
+          "armGroupLabels": [
+            "Placebo-group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "NT-proBNP change",
+          "description": "Time averaged NT-proBNP change from baseline to 6 months",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "GLS change",
+          "description": "Change of GLS from baselin to 6 months",
+          "timeFrame": "6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "off-level NT-proBNP",
+          "description": "Decrease in NT-proBNP \\> 10% from baseline to 6 months",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Mortality",
+          "description": "All-cause mortality from baseline to 6 months",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "rehospitalization",
+          "description": "rehospitalization from baseline to 6 months",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* age ≥20 yrs\n* symptomatic HFpEF with LVEF≥50%\n* NT-proBNP ≥220 pg/ml (sinus rhythm) or ≥660 pg/ml(AF) (BNP ≥80 pg/ml (sinus rhythm) or ≥240 pg/ml(AF) )\n* SBP≥140mmHg and/or DBP ≥90mmHg, or if taking anti-hypertensive medication, SBP ≥110mmHg.\n* LAVI≥29(sinus rhythm)/34ml/m2 (AF) or LVMI≥115(male)/95(female) g/m2\n* meet one the following\n\n  1. Average E/e'≥ 9\n  2. Septal e' \\< 7 cm/s\n  3. Lateral e' \\<10 cm/s\n  4. TR velocity \\> 2.8 m/s\n  5. PASP \\> 35 mmHg\n  6. GLS \\< 16%\n\nExclusion Criteria:\n\n* systolic blood pressure \\< 110 mmHg, or heart rate \\< 60 beats/min\n* contra-indication to beta-blockers\n* creatinine\\> 2.4mg/dL\n* amyloidosis, hypertrophic cardiomyopathy with obstruction, severe aortic or mitral valve disease, acute coronary syndrome, Cerebrovascular event within 6 months, PCI within 3 months before\n* AST/ALT \\>3 x normal upper range",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "20 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Jin Joo Park, MD, PhD",
+          "role": "CONTACT",
+          "phone": "+82317877074",
+          "email": "jinjooparkmd@gmail.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Dong-Ju Choi, MD, PhD",
+          "affiliation": "Seoul National Univeristy Bundang Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Samsung Medical Center",
+          "status": "RECRUITING",
+          "city": "Seoul",
+          "state": "Il-won",
+          "zip": "06351",
+          "country": "South Korea",
+          "contacts": [
+            {
+              "name": "Sung-Ji Park, MD,PhD",
+              "role": "CONTACT",
+              "phone": "82-2-3410-3448",
+              "email": "tyche.park@gmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Wonju Severance Christian Hospital",
+          "status": "RECRUITING",
+          "city": "Wŏnju",
+          "zip": "26426",
+          "country": "South Korea",
+          "contacts": [
+            {
+              "name": "Byung-Su Yoo, MD,PhD",
+              "role": "CONTACT",
+              "phone": "82-33-741-0908",
+              "email": "yubs@yonsei.ac.kr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.35139,
+            "lon": 127.94528
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "29724346",
+          "type": "RESULT",
+          "citation": "Park JJ, Park JB, Park JH, Cho GY. Global Longitudinal Strain to Predict Mortality in Patients With Acute Heart Failure. J Am Coll Cardiol. 2018 May 8;71(18):1947-1957. doi: 10.1016/j.jacc.2018.02.064."
+        },
+        {
+          "pmid": "22983988",
+          "type": "RESULT",
+          "citation": "Yamamoto K, Origasa H, Hori M; J-DHF Investigators. Effects of carvedilol on heart failure with preserved ejection fraction: the Japanese Diastolic Heart Failure Study (J-DHF). Eur J Heart Fail. 2013 Jan;15(1):110-8. doi: 10.1093/eurjhf/hfs141. Epub 2012 Sep 14."
+        },
+        {
+          "pmid": "31540679",
+          "type": "RESULT",
+          "citation": "Park JJ, Choi HM, Hwang IC, Park JB, Park JH, Cho GY. Myocardial Strain for Identification of beta-Blocker Responders in Heart Failure with Preserved Ejection Fraction. J Am Soc Echocardiogr. 2019 Nov;32(11):1462-1469.e8. doi: 10.1016/j.echo.2019.06.017. Epub 2019 Sep 17."
+        },
+        {
+          "pmid": "38737708",
+          "type": "DERIVED",
+          "citation": "Yoon M, Park SJ, Yoo BS, Choi DJ. The effect of sustained-release CARvedilol in patients with hypErtension and heart failure with preserved ejection fraction: a study protocol for a pilot randomized controlled trial (CARE-preserved HF). Front Cardiovasc Med. 2024 Apr 26;11:1375003. doi: 10.3389/fcvm.2024.1375003. eCollection 2024."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077261",
+          "term": "Carvedilol"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011412",
+          "term": "Propanolamines"
+        },
+        {
+          "id": "D000605",
+          "term": "Amino Alcohols"
+        },
+        {
+          "id": "D000438",
+          "term": "Alcohols"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D020005",
+          "term": "Propanols"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        },
+        {
+          "id": "D002227",
+          "term": "Carbazoles"
+        },
+        {
+          "id": "D007211",
+          "term": "Indoles"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D006575",
+          "term": "Heterocyclic Compounds, 3-Ring"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

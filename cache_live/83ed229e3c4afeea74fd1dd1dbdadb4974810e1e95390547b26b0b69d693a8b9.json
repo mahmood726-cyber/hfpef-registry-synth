@@ -1,0 +1,758 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05075161",
+      "orgStudyIdInfo": {
+        "id": "PIONEER"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2020-005306-25",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Università Vita-Salute San Raffaele",
+        "class": "OTHER"
+      },
+      "briefTitle": "Pirfenidone to Prevent Fibrosis in Ards.",
+      "officialTitle": "Pirfenidone to Prevent Fibrosis in ARDS. A Randomized Controlled Trial - PIONEER",
+      "acronym": "PIONEER"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-08",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-06-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-05-25",
+      "studyFirstSubmitQcDate": "2021-09-29",
+      "studyFirstPostDateStruct": {
+        "date": "2021-10-12",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-08-05",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-08-06",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Giovanni Landoni",
+        "investigatorTitle": "MD, Associate Professor",
+        "investigatorAffiliation": "Università Vita-Salute San Raffaele"
+      },
+      "leadSponsor": {
+        "name": "Università Vita-Salute San Raffaele",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Acute respiratory distress syndrome (ARDS) is a severe form of acute lung injury and a major cause of Intensive Care Unit (ICU) admission worldwide. Despite a large number of randomized clinical trials, a specific and effective pharmacological approach for patients with ARDS is still lacking.\n\nFibroproliferation is a crucial part of the host defence response, and severe fibrotic lung disease affects ARDS patients even years after acute phase resolution.\n\nPirfenidone is an oral anti-fibrotic drug, approved and largely used for treatment of idiopathic pulmonary fibrosis (IPF). The effect of Pirfenidone in ARDS has been evaluated only in animal models.\n\nThis is a randomized controlled study to evaluate for the first time the efficacy of Pirfenidone in ARDS.",
+      "detailedDescription": "Acute respiratory distress syndrome (ARDS) is an acute inflammatory lung injury, associated with increased pulmonary vascular permeability, increased lung weight, and loss of aerated lung tissue.\n\nARDS represents 10.4% of total ICU admissions and 23.4% of all patients requiring mechanical ventilation and the hospital mortality rate remains as high as 40%.\n\nOptimal care for patients with ARDS includes PEEP, muscle relaxation, protective ventilation, prone position, conservative fluid strategy.\n\nPharmacological interventions focused on dampening the pro-inflammatory response in the initial phase of ARDS, on reduction of pulmonary oedema and on improvement of repair mechanisms. Besides treatment with glucocorticosteroids, none of the other pharmacological interventions tested so far in clinical trials showed a significant reduction in morbidity and mortality.\n\nMany ARDS patients survive the acute inflammation phase but develop remarkable pulmonary fibrosis. In hospital mortality is significantly lower (24%) than 1-y mortality after hospital discharge (41%) regardless of the etiology of ARDS. Although a protective ventilation strategy can improve short-term survival in ARDS subjects, there is no difference in pulmonary function compared with standard ventilation treatment up to 2 years after the acute-phase resolution.\n\nPulmonary fibrosis was observed in 53% of ventilated patients who had ARDS for five days and their mortality rate was 57% compared with 0% in patients without pulmonary fibrosis.\n\nThe purpose of this study is to provide a large multicenter RCT with an adequate size to explore the efficacy of Pirfenidone in ARDS patients."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Respiratory Distress Syndrome (ARDS)"
+      ],
+      "keywords": [
+        "ARDS",
+        "Pulmonary Fibrosis",
+        "Mechanical Ventilation",
+        "Antifibrotic drug",
+        "Intensive Care Unit",
+        "ICU discharge",
+        "Mortality",
+        "Spirometry",
+        "Quality of life"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 130,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Pirfenidone",
+          "type": "EXPERIMENTAL",
+          "description": "Patients randomized to Pirfernidone Group will receive tables of 267 mg",
+          "interventionNames": [
+            "Drug: Pirfenidone"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Patients randomized to Placebo Group will receive 5 ml of Water",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Pirfenidone",
+          "description": "From days 1-7: 801mg/day; from days 8-14:1602mg/day, from day 15 to ICU discharge 2403 mg/day. All drugs will be delivered by a nasogastric tube divided in 3 daily doses.",
+          "armGroupLabels": [
+            "Pirfenidone"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "All drugs will be delivered by a nasogastric tube divided in 3 daily doses.",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The number of ventilator free days (VFD) at day 28.",
+          "description": "The primary outcome will be calculated following these rules:\n\n1. the total number of days from day 1 to 28 post randomization on which a patient is alive and receives no assistance from mechanical ventilation, if any period of ventilator liberation lasts at least 48 consecutive hours.\n2. study day 1 is the day of enrolment.\n3. if patients are on mechanical ventilation they will be classified as being on mechanical ventilation for that entire study day.\n4. to be considered liberated from mechanical ventilation, the patient will need to have at least 48 consecutive hours without mechanical ventilation.\n5. non-invasive mechanical ventilation will not be considered assistance if it is provided by face or nasal mask.\n6. patients dead before weaning will be allocated the value of 0 ventilator free days. Any patient who dies after weaning from mechanical ventilation but before day 28 will not have the days after their death until day 28 considered as a VFD.",
+          "timeFrame": "28 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "ICU-free days at day 28",
+          "description": "Number of days from randomization to day 28 (or death) in which the subject is outside the ICU. For any discharge lasting less than 48h, no ICU-free days will be computed. Re-admission lasting less than 24 hours will not reduce ICU-fd. Patients that will not survive outside ICU for at least 48 hours.",
+          "timeFrame": "28 days"
+        },
+        {
+          "measure": "Cumulative SOFA-free point at day 28",
+          "description": "Sequential organ failure assessment score to describe the extent of a patient's organ function and the rate of failure",
+          "timeFrame": "28 days"
+        },
+        {
+          "measure": "Hospital length of stay.",
+          "description": "The total number of days of hospital stay or until dead",
+          "timeFrame": "28 days or until discharge"
+        },
+        {
+          "measure": "Fibroproliferative changes on high-resolution CT performed at ICU discharge",
+          "description": "High-resolution CT (HRCT) scan will be performed at ICU discharge. HRCT scans will be evaluated by two independent observers - radiologists with experience and will be unaware of patient condition. According to specific interpretation guidelines, the presence and extent of areas of ground-glass attenuation, air-space consolidation, traction bronchiectasis, traction bronchiolectasis and honeycombing will be assessed. (Am J Respir Crit Care Med. 2017 May 1;195(9):1253-1263).",
+          "timeFrame": "28 days or until discharge"
+        },
+        {
+          "measure": "Mortality at ICU/hospital discharge",
+          "timeFrame": "28 days or until discharge"
+        },
+        {
+          "measure": "Quality of life assessment at follow-up (6 12 months) with SF-36 .",
+          "description": "The SF-36 assesses health across eight dimensions using 36 items, such as physical functioning, social functioning and vitality. The SF-36 produces one reported score on a 0-100 scale from the combination of different measurements.",
+          "timeFrame": "through study completion, an average of 1 year"
+        },
+        {
+          "measure": "Quality of life assessment at follow-up (6 12 months) with EQ-5D score.",
+          "description": "The EQ-5D is the most widely used generic preference- based measure of health-related quality of life.\n\nIt is based on five dimension (mobility, self-care, usual activity, pain/discomfort and anxiety/depression) and 3 levels (no problems, some problems, extreme problems)which combined, create 243 potential health states.",
+          "timeFrame": "through study completion, an average of 1 year"
+        },
+        {
+          "measure": "Percentage change in the spirometric values, such as FEV1 (% and L/min), FVC (% and L/min) and DLCO (%).",
+          "description": "FEV1-Forced expiratory volume in one second; the volume of air exhaled in the first second under force after a maximal inhalation. It will be used as a baseline pulmonary function parameter. It will be performed via standard office spirometry. It will be calculated as an absolute value (in liters) and as a percentage (compared to the normal population data) FVC- Forced Vital Capacity; the total volume of air that can be exhaled during a maximal forced expiration effort. It will be calculated as an absolute value (in liters) and as a percentage (compared to the normal population data) DLCO-Diffusion Lung Carbon monOxide. It describes the lung capacity of gas exchange.",
+          "timeFrame": "28 days or until discharge"
+        },
+        {
+          "measure": "Proportion of subjects who develop right and/or left heart dysfunction",
+          "description": "Percentage change in the echocardiographic parameters from the baseline to the discharge.\n\nTricuspid regurgitation (scored from 1 to 4) in the absence of organic tricuspid valve pathology.\n\nTricuspid annular plane systolic excursion (TAPSE), reflects longitudinal shortening of the RV, measured in mm.\n\nTissue doppler Index-S' (TDI) reflects the longitudinal velocity of the tricuspid annulus during systole. Measured in cm/sec.\n\nPulmonary artery systolic pressure (PAPs) has a reasonable accuracy to diagnose exercise-induced pulmonary hypertension. Measured in mmHg.\n\nTelediastolic Diameter (TDD) meaning the measurement of the internal diameter of left ventricle in diastole. Measured in mm.\n\nEjection Fraction (EF) calculated by dividing the volume of blood pumped from the left ventricle per beat, by the volume of blood collected in the left ventricle at the end of diastolic filling.\n\nRegional Wall Motion Abnormalities (RWMA)",
+          "timeFrame": "28 days or until discharge"
+        },
+        {
+          "measure": "Adverse event rate",
+          "description": "Number of patients who experience at least one adverse event and number of total adverse events",
+          "timeFrame": "28 days or until discharge"
+        },
+        {
+          "measure": "Use of rescue therapies for severe hypoxaemia",
+          "description": "Inhaled nitric oxide, inhaled prostacyclin, prone position, high frequency oscillatory ventilation and extracorporeal membrane ventilation (ECMO)",
+          "timeFrame": "28 days or until discharge"
+        },
+        {
+          "measure": "Broncoalveolar lavage fluid (BAL) speciments",
+          "description": "Cell biology of pulmonary sputum or tissue",
+          "timeFrame": "28 days or until discharge"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nConcomitant presence of:\n\n* ARDS (moderate and severe) - Berlin definition\n\n  1. Within 1 week of a known clinical insult or new or worsening respiratory symptoms\n  2. Bilateral opacities on CXR which are not fully explained by effusions, lobar/lung collapse or nodules\n  3. Respiratory failure not fully explained by cardiac failure or fluid overload\n  4. PaO2/FiO2\\<200 mmHg with PEEP\\<=5 cmH2O (invasive mechanical ventilation)\n* Inflammatory ARDS phenotype (28), defined by at least one of the following:\n\n  1. High plasma levels of inflammatory biomarkers\n  2. Vasopressor dependence\n  3. Lower serum bicarbonate or increased serum lactate\n* Informed consent expressed by the patient or by legal representative or on the Ethical Committee indication.\n* Age \\>=18 years\n\nExclusion Criteria:\n\n* Intubated and mechanically ventilated via an endotracheal or tracheostomy tube (\\>7 days) up to the time of randomization\n* ARDS severe or moderate for more than 36 hours\n* Untreated pulmonary embolism, pleural effusion or pneumothorax as the primary cause of ARF\n* ARF fully explained by left ventricular failure or fluid overload\n* Consent declined\n* Severe chronic respiratory disease requiring domiciliary ventilation\n* Clinical suspicion for significant restrictive lung disease\n* Pregnant women or women of childbearing potential who are sexually active\n* Known allergy to pirfenidone\n* Concomitant use of fluvoxamine\n* Known severe hepatic failure\n* Known severe renal failure or necessity of dialysis not related to acute disease\n* Little chance of survival (SAPS II score\\>75)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Nora Di Tomasso, MD",
+          "role": "CONTACT",
+          "phone": "+39022643",
+          "phoneExt": "7722",
+          "email": "ditomasso.nora@hsr.it"
+        },
+        {
+          "name": "Giacomo Monti, MD",
+          "role": "CONTACT",
+          "phone": "+39022643",
+          "phoneExt": "2222",
+          "email": "monti.giacomo@hsr.it"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Giovanni Landoni, Professor",
+          "affiliation": "Vita-Salute San Raffaele University",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "IRCCS San Raffaele Scientific Institute",
+          "status": "RECRUITING",
+          "city": "Milan",
+          "state": "MI",
+          "zip": "20132",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Nora Di Tomasso, MD",
+              "role": "CONTACT",
+              "phone": "+39022643",
+              "phoneExt": "7722",
+              "email": "ditomasso.nora@hsr.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.46427,
+            "lon": 9.18951
+          }
+        },
+        {
+          "facility": "Ospedale Cesare Arrigo",
+          "status": "RECRUITING",
+          "city": "Alessandria",
+          "state": "Piedmont",
+          "zip": "15121",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Giulia Maj, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Giulia Maj, MD",
+              "role": "CONTACT",
+              "email": "giulia.maj@ospedale.al.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.90924,
+            "lon": 8.61007
+          }
+        },
+        {
+          "facility": "Ospedale Santa Maria",
+          "status": "RECRUITING",
+          "city": "Bari",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Michele Gerardi",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.12066,
+            "lon": 16.86982
+          }
+        },
+        {
+          "facility": "ASST Spedali Civili di Brescia",
+          "status": "RECRUITING",
+          "city": "Brescia",
+          "zip": "25123",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Matteo Filippini, MD",
+              "role": "CONTACT",
+              "email": "matteo.filippini123@gmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.53558,
+            "lon": 10.21472
+          }
+        },
+        {
+          "facility": "Ospedale San Giovanni di Dio - Azienda Ospedaliera Universitaria di Cagliari",
+          "status": "RECRUITING",
+          "city": "Cagliari",
+          "zip": "09123",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Gabriele Finco, MD",
+              "role": "CONTACT",
+              "email": "gabriele.finco@gmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.23054,
+            "lon": 9.11917
+          }
+        },
+        {
+          "facility": "Ospedale di Merano",
+          "status": "RECRUITING",
+          "city": "Merano",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Simon Rauch, MD",
+              "role": "CONTACT",
+              "email": "simon.rauch@sabes.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 46.66817,
+            "lon": 11.15953
+          }
+        },
+        {
+          "facility": "Ospedale Uboldo di Cernusco sul Naviglio",
+          "status": "RECRUITING",
+          "city": "Milan",
+          "zip": "20070",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Massimo Zambon, MD",
+              "role": "CONTACT",
+              "email": "massimo.zambon@asst-melegnano-martesana.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.46427,
+            "lon": 9.18951
+          }
+        },
+        {
+          "facility": "Fondazione IRCCS Ca' Granda Ospedale Maggiore Policlinico",
+          "status": "RECRUITING",
+          "city": "Milan",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Giacomo Grasselli",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Alessio Caccioppola",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.78235,
+            "lon": 12.59836
+          }
+        },
+        {
+          "facility": "AOU Policlinico Paolo Giaccone",
+          "status": "RECRUITING",
+          "city": "Palermo",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Andrea Cortegiani, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.1166,
+            "lon": 13.3636
+          }
+        },
+        {
+          "facility": "Azienda Ospedaliero Universitaria Pisana",
+          "status": "RECRUITING",
+          "city": "Pisa",
+          "zip": "56126",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Fabio Guarracino, prof",
+              "role": "CONTACT",
+              "email": "fabioguarracino@gmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.70853,
+            "lon": 10.4036
+          }
+        },
+        {
+          "facility": "AOU Pisana",
+          "status": "RECRUITING",
+          "city": "Pisa",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Francesco Corradi, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.70853,
+            "lon": 10.4036
+          }
+        },
+        {
+          "facility": "A.O.R San Carlo",
+          "status": "RECRUITING",
+          "city": "Potenza",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Gianluca Paternoster, MD",
+              "role": "CONTACT",
+              "email": "paternostergianluca@gmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.64175,
+            "lon": 15.80794
+          }
+        },
+        {
+          "facility": "Fondazione PTV - Policlinico Tor Vergata",
+          "status": "RECRUITING",
+          "city": "Rome",
+          "zip": "00133",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Valentina Ajello, MD",
+              "role": "CONTACT",
+              "email": "valeajello@gmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.89193,
+            "lon": 12.51133
+          }
+        },
+        {
+          "facility": "Azienda Ospedaliero Universitaria Senese",
+          "status": "RECRUITING",
+          "city": "Siena",
+          "zip": "53100",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Casere Biuzzi, prof",
+              "role": "CONTACT",
+              "email": "cesare.biuzzi@ao-siena.toscana.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.31822,
+            "lon": 11.33064
+          }
+        },
+        {
+          "facility": "AOU Città della Salute e della Scienza",
+          "status": "RECRUITING",
+          "city": "Torino",
+          "zip": "10126",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Gabriele Sales, MD",
+              "role": "CONTACT",
+              "email": "gabriele.sales86@gmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.88856,
+            "lon": 11.99138
+          }
+        },
+        {
+          "facility": "Azienda Sanitaria Universitaria Integrata di Udine",
+          "status": "RECRUITING",
+          "city": "Udine",
+          "zip": "33100",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Tiziana Bove, prof",
+              "role": "CONTACT",
+              "email": "tiziana.bove@asufc.sanita.fvg.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 46.0693,
+            "lon": 13.23715
+          }
+        },
+        {
+          "facility": "Astana Medical University",
+          "status": "RECRUITING",
+          "city": "Astana",
+          "zip": "010000",
+          "country": "Kazakhstan",
+          "contacts": [
+            {
+              "name": "Aidos Konkayev, Full Professor",
+              "role": "CONTACT",
+              "phone": "+77475339215",
+              "email": "konkaev@mail.ru"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.1801,
+            "lon": 71.44598
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "22797452",
+          "type": "BACKGROUND",
+          "citation": "ARDS Definition Task Force; Ranieri VM, Rubenfeld GD, Thompson BT, Ferguson ND, Caldwell E, Fan E, Camporota L, Slutsky AS. Acute respiratory distress syndrome: the Berlin Definition. JAMA. 2012 Jun 20;307(23):2526-33. doi: 10.1001/jama.2012.5669."
+        },
+        {
+          "pmid": "26903337",
+          "type": "BACKGROUND",
+          "citation": "Bellani G, Laffey JG, Pham T, Fan E, Brochard L, Esteban A, Gattinoni L, van Haren F, Larsson A, McAuley DF, Ranieri M, Rubenfeld G, Thompson BT, Wrigge H, Slutsky AS, Pesenti A; LUNG SAFE Investigators; ESICM Trials Group. Epidemiology, Patterns of Care, and Mortality for Patients With Acute Respiratory Distress Syndrome in Intensive Care Units in 50 Countries. JAMA. 2016 Feb 23;315(8):788-800. doi: 10.1001/jama.2016.0291."
+        },
+        {
+          "pmid": "29367411",
+          "type": "BACKGROUND",
+          "citation": "Bos LD, Martin-Loeches I, Schultz MJ. ARDS: challenges in patient care and frontiers in research. Eur Respir Rev. 2018 Jan 24;27(147):170107. doi: 10.1183/16000617.0107-2017. Print 2018 Mar 31."
+        },
+        {
+          "pmid": "22166903",
+          "type": "BACKGROUND",
+          "citation": "Gao Smith F, Perkins GD, Gates S, Young D, McAuley DF, Tunnicliffe W, Khan Z, Lamb SE; BALTI-2 study investigators. Effect of intravenous beta-2 agonist treatment on clinical outcomes in acute respiratory distress syndrome (BALTI-2): a multicentre, randomised controlled trial. Lancet. 2012 Jan 21;379(9812):229-35. doi: 10.1016/S0140-6736(11)61623-1. Epub 2011 Dec 11."
+        },
+        {
+          "pmid": "16542488",
+          "type": "BACKGROUND",
+          "citation": "Davidson WJ, Dorscheid D, Spragg R, Schulzer M, Mak E, Ayas NT. Exogenous pulmonary surfactant for the treatment of adult patients with acute respiratory distress syndrome: results of a meta-analysis. Crit Care. 2006;10(2):R41. doi: 10.1186/cc4851."
+        },
+        {
+          "pmid": "28928799",
+          "type": "BACKGROUND",
+          "citation": "Zhang Y, Ding S, Li C, Wang Y, Chen Z, Wang Z. Effects of N-acetylcysteine treatment in acute respiratory distress syndrome: A meta-analysis. Exp Ther Med. 2017 Oct;14(4):2863-2868. doi: 10.3892/etm.2017.4891. Epub 2017 Aug 7."
+        },
+        {
+          "pmid": "21088343",
+          "type": "BACKGROUND",
+          "citation": "Iwata K, Doi A, Ohji G, Oka H, Oba Y, Takimoto K, Igarashi W, Gremillion DH, Shimada T. Effect of neutrophil elastase inhibitor (sivelestat sodium) in the treatment of acute lung injury (ALI) and acute respiratory distress syndrome (ARDS): a systematic review and meta-analysis. Intern Med. 2010;49(22):2423-32. doi: 10.2169/internalmedicine.49.4010. Epub 2010 Nov 15."
+        },
+        {
+          "pmid": "21926600",
+          "type": "BACKGROUND",
+          "citation": "Paine R 3rd, Standiford TJ, Dechert RE, Moss M, Martin GS, Rosenberg AL, Thannickal VJ, Burnham EL, Brown MB, Hyzy RC. A randomized trial of recombinant human granulocyte-macrophage colony stimulating factor for patients with acute lung injury. Crit Care Med. 2012 Jan;40(1):90-7. doi: 10.1097/CCM.0b013e31822d7bf0."
+        },
+        {
+          "pmid": "22865551",
+          "type": "BACKGROUND",
+          "citation": "Agrawal A, Zhuo H, Brady S, Levitt J, Steingrub J, Siegel MD, Soto G, Peterson MW, Chesnutt MS, Matthay MA, Liu KD. Pathogenetic and predictive value of biomarkers in patients with ALI and lower severity of illness: results from two clinical trials. Am J Physiol Lung Cell Mol Physiol. 2012 Oct 15;303(8):L634-9. doi: 10.1152/ajplung.00195.2012. Epub 2012 Aug 3."
+        },
+        {
+          "pmid": "24853585",
+          "type": "BACKGROUND",
+          "citation": "Calfee CS, Delucchi K, Parsons PE, Thompson BT, Ware LB, Matthay MA; NHLBI ARDS Network. Subphenotypes in acute respiratory distress syndrome: latent class analysis of data from two randomised controlled trials. Lancet Respir Med. 2014 Aug;2(8):611-20. doi: 10.1016/S2213-2600(14)70097-9. Epub 2014 May 19."
+        },
+        {
+          "pmid": "27513822",
+          "type": "BACKGROUND",
+          "citation": "Famous KR, Delucchi K, Ware LB, Kangelaris KN, Liu KD, Thompson BT, Calfee CS; ARDS Network. Acute Respiratory Distress Syndrome Subphenotypes Respond Differently to Randomized Fluid Management Strategy. Am J Respir Crit Care Med. 2017 Feb 1;195(3):331-338. doi: 10.1164/rccm.201603-0645OC."
+        },
+        {
+          "pmid": "7705118",
+          "type": "BACKGROUND",
+          "citation": "Meduri GU, Headley S, Kohler G, Stentz F, Tolley E, Umberger R, Leeper K. Persistent elevation of inflammatory cytokines predicts a poor outcome in ARDS. Plasma IL-1 beta and IL-6 levels are consistent and efficient predictors of outcome over time. Chest. 1995 Apr;107(4):1062-73. doi: 10.1378/chest.107.4.1062."
+        },
+        {
+          "pmid": "24435201",
+          "type": "BACKGROUND",
+          "citation": "Wang CY, Calfee CS, Paul DW, Janz DR, May AK, Zhuo H, Bernard GR, Matthay MA, Ware LB, Kangelaris KN. One-year mortality and predictors of death among hospital survivors of acute respiratory distress syndrome. Intensive Care Med. 2014 Mar;40(3):388-96. doi: 10.1007/s00134-013-3186-3. Epub 2014 Jan 17."
+        },
+        {
+          "pmid": "10793162",
+          "type": "BACKGROUND",
+          "citation": "Acute Respiratory Distress Syndrome Network; Brower RG, Matthay MA, Morris A, Schoenfeld D, Thompson BT, Wheeler A. Ventilation with lower tidal volumes as compared with traditional tidal volumes for acute lung injury and the acute respiratory distress syndrome. N Engl J Med. 2000 May 4;342(18):1301-8. doi: 10.1056/NEJM200005043421801."
+        },
+        {
+          "pmid": "12493646",
+          "type": "BACKGROUND",
+          "citation": "Orme J Jr, Romney JS, Hopkins RO, Pope D, Chan KJ, Thomsen G, Crapo RO, Weaver LK. Pulmonary function and health-related quality of life in survivors of acute respiratory distress syndrome. Am J Respir Crit Care Med. 2003 Mar 1;167(5):690-4. doi: 10.1164/rccm.200206-542OC. Epub 2002 Dec 18."
+        },
+        {
+          "pmid": "21330382",
+          "type": "BACKGROUND",
+          "citation": "Masclans JR, Roca O, Munoz X, Pallisa E, Torres F, Rello J, Morell F. Quality of life, pulmonary function, and tomographic scan abnormalities after ARDS. Chest. 2011 Jun;139(6):1340-1346. doi: 10.1378/chest.10-2438. Epub 2011 Feb 17."
+        },
+        {
+          "pmid": "19226296",
+          "type": "BACKGROUND",
+          "citation": "Linden VB, Lidegran MK, Frisen G, Dahlgren P, Frenckner BP, Larsen F. ECMO in ARDS: a long-term follow-up study regarding pulmonary morphology and function and health-related quality of life. Acta Anaesthesiol Scand. 2009 Apr;53(4):489-95. doi: 10.1111/j.1399-6576.2008.01808.x. Epub 2009 Feb 18."
+        },
+        {
+          "pmid": "10628599",
+          "type": "BACKGROUND",
+          "citation": "Cooper AB, Ferguson ND, Hanly PJ, Meade MO, Kachura JR, Granton JT, Slutsky AS, Stewart TE. Long-term follow-up of survivors of acute lung injury: lack of effect of a ventilation strategy to prevent barotrauma. Crit Care Med. 1999 Dec;27(12):2616-21. doi: 10.1097/00003246-199912000-00002."
+        },
+        {
+          "pmid": "17255856",
+          "type": "BACKGROUND",
+          "citation": "Papazian L, Doddoli C, Chetaille B, Gernez Y, Thirion X, Roch A, Donati Y, Bonnety M, Zandotti C, Thomas P. A contributive result of open-lung biopsy improves survival in acute respiratory distress syndrome patients. Crit Care Med. 2007 Mar;35(3):755-62. doi: 10.1097/01.CCM.0000257325.88144.30."
+        },
+        {
+          "pmid": "7813276",
+          "type": "BACKGROUND",
+          "citation": "Martin C, Papazian L, Payan MJ, Saux P, Gouin F. Pulmonary fibrosis correlates with outcome in adult respiratory distress syndrome. A study in mechanically ventilated patients. Chest. 1995 Jan;107(1):196-200. doi: 10.1378/chest.107.1.196."
+        },
+        {
+          "pmid": "24836312",
+          "type": "BACKGROUND",
+          "citation": "King TE Jr, Bradford WZ, Castro-Bernardini S, Fagan EA, Glaspole I, Glassberg MK, Gorina E, Hopkins PM, Kardatzke D, Lancaster L, Lederer DJ, Nathan SD, Pereira CA, Sahn SA, Sussman R, Swigris JJ, Noble PW; ASCEND Study Group. A phase 3 trial of pirfenidone in patients with idiopathic pulmonary fibrosis. N Engl J Med. 2014 May 29;370(22):2083-92. doi: 10.1056/NEJMoa1402582. Epub 2014 May 18."
+        },
+        {
+          "pmid": "24613900",
+          "type": "BACKGROUND",
+          "citation": "Conte E, Gili E, Fagone E, Fruciano M, Iemmolo M, Vancheri C. Effect of pirfenidone on proliferation, TGF-beta-induced myofibroblast differentiation and fibrogenic activity of primary human lung fibroblasts. Eur J Pharm Sci. 2014 Jul 16;58:13-9. doi: 10.1016/j.ejps.2014.02.014. Epub 2014 Mar 12."
+        },
+        {
+          "pmid": "21632796",
+          "type": "BACKGROUND",
+          "citation": "Schaefer CJ, Ruhrmund DW, Pan L, Seiwert SD, Kossen K. Antifibrotic activities of pirfenidone in animal models. Eur Respir Rev. 2011 Jun;20(120):85-97. doi: 10.1183/09059180.00001111."
+        },
+        {
+          "pmid": "28420366",
+          "type": "BACKGROUND",
+          "citation": "Liu Y, Lu F, Kang L, Wang Z, Wang Y. Pirfenidone attenuates bleomycin-induced pulmonary fibrosis in mice by regulating Nrf2/Bach1 equilibrium. BMC Pulm Med. 2017 Apr 18;17(1):63. doi: 10.1186/s12890-017-0405-7."
+        },
+        {
+          "pmid": "28459336",
+          "type": "BACKGROUND",
+          "citation": "Fan E, Del Sorbo L, Goligher EC, Hodgson CL, Munshi L, Walkey AJ, Adhikari NKJ, Amato MBP, Branson R, Brower RG, Ferguson ND, Gajic O, Gattinoni L, Hess D, Mancebo J, Meade MO, McAuley DF, Pesenti A, Ranieri VM, Rubenfeld GD, Rubin E, Seckel M, Slutsky AS, Talmor D, Thompson BT, Wunsch H, Uleryk E, Brozek J, Brochard LJ; American Thoracic Society, European Society of Intensive Care Medicine, and Society of Critical Care Medicine. An Official American Thoracic Society/European Society of Intensive Care Medicine/Society of Critical Care Medicine Clinical Practice Guideline: Mechanical Ventilation in Adult Patients with Acute Respiratory Distress Syndrome. Am J Respir Crit Care Med. 2017 May 1;195(9):1253-1263. doi: 10.1164/rccm.201703-0548ST."
+        },
+        {
+          "pmid": "40090666",
+          "type": "DERIVED",
+          "citation": "Monti G, Marzaroli M, Tucciariello MT, Ferrara B, Meroi F, Nakhnoukh C, Zambon M, Borghi G, Guarracino F, Manazza M, Ajello V, Belletti A, Biuzzi C, Plumari V, Filippini M, Cuffaro R, Racanelli G, Pontillo D, Rauch S, Oliva FM, Tescione M, Baiardo Redaelli M, Melegari G, Maj G, Navalesi P, Gerardi M, Caccioppola A, Bruni A, Ballotta A, Ferri C, Orso D, Di Benedetto V, Baldassarri R, Franceschini G, Alamami A, Pasin L, Putzu A, Romero Garcia CS, Chen YS, Noto A, Yavorovskiy A, Hajjar LA, Cortegiani A, Likhvantsev V, Konkayev A, Finco G, Sales G, Brazzi L, Paternoster G, Bellomo R, Zangrillo A, Landoni G, Di Tomasso N; PIONEER Study Group. Pirfenidone to prevent fibrosis in acute respiratory distress syndrome: The PIONEER study protocol. Contemp Clin Trials. 2025 Jun;153:107883. doi: 10.1016/j.cct.2025.107883. Epub 2025 Mar 14."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D012128",
+          "term": "Respiratory Distress Syndrome"
+        },
+        {
+          "id": "D011658",
+          "term": "Pulmonary Fibrosis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D012120",
+          "term": "Respiration Disorders"
+        },
+        {
+          "id": "D017563",
+          "term": "Lung Diseases, Interstitial"
+        },
+        {
+          "id": "D005355",
+          "term": "Fibrosis"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C093844",
+          "term": "pirfenidone"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

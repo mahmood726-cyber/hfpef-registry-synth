@@ -1,0 +1,252 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07380555",
+      "orgStudyIdInfo": {
+        "id": "B2025-392R2"
+      },
+      "organization": {
+        "fullName": "Shanghai Zhongshan Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Effectiveness and Safety of Artificial Intelligence(AI)-Assisted Medical Treatment Decision Support System Compared to Conventional Care in HFrEF Patients",
+      "officialTitle": "A Multicenter, Cluster-randomized, Controlled Study Evaluating the Effectiveness and Safety of Artificial Intelligence(AI)-Assisted Medical Treatment Decision Support System Compared to Conventional Care in HFrEF Patients"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-01-30",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-01-12",
+      "studyFirstSubmitQcDate": "2026-01-24",
+      "studyFirstPostDateStruct": {
+        "date": "2026-02-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-24",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-02",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Shanghai Zhongshan Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This clinical trial aims to find out if using an artificial intelligence (AI) decision support system can help doctors better manage medications for people with heart failure with reduced ejection fraction (HFrEF). The main goal is to see if this approach can lower the chance of patients being hospitalized for heart failure or dying from heart-related causes compared to standard care.\n\nAbout 1,200 participants from 60 hospitals will take part in this study. The hospitals, not the individual patients, are randomly assigned to one of two groups:\n\nAI-Guided Group: Doctors at these hospitals will receive medication recommendations from an AI system based on patient health data.\n\nStandard Care Group: Doctors at these hospitals will manage medications as they normally would, without AI assistance.\n\nAll participants will have regular check-ups, both remotely every 30 days and in-person at 3, 6, and 12 months. The study will last about 12 months for each participant."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Reduced Ejection Fraction (HF-rEF)"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1200,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "AI-Guided Group",
+          "type": "EXPERIMENTAL",
+          "description": "patients in this group will receive medication recommendations from an AI system based on patient health data.",
+          "interventionNames": [
+            "Device: artificial intelligence (AI) decision support system"
+          ]
+        },
+        {
+          "label": "Standard Care Group",
+          "type": "NO_INTERVENTION",
+          "description": "patients in this group will receive medications as normally plan, without AI assistance."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "artificial intelligence (AI) decision support system",
+          "description": "According to the data uploaded by patients, drug treatment plan were generated based on a prespecified AI-assisted decision-making system, which were reviewed by researchers and sent to patients",
+          "armGroupLabels": [
+            "AI-Guided Group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Incidence of the composite endpoint of heart failure rehospitalization or cardiovascular death",
+          "description": "The occurrence of the first event of either hospitalization due to worsening heart failure or death from a cardiovascular cause.",
+          "timeFrame": "12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "All-cause rehospitalization",
+          "description": "Hospitalization for any cause",
+          "timeFrame": "From enrollment to 12 months follow-up"
+        },
+        {
+          "measure": "Change from baseline in Left Ventricular End-Diastolic Diameter (LVEDD)",
+          "description": "The absolute change in the internal diameter of the left ventricle at the end of its filling phase (millimeters, mm).",
+          "timeFrame": "Baseline and 12 months"
+        },
+        {
+          "measure": "Cardiovascular mortality",
+          "description": "Death due to cardiovascular causes",
+          "timeFrame": "From enrollment to 12 months follow-up"
+        },
+        {
+          "measure": "All-cause mortality",
+          "description": "Death from any cause",
+          "timeFrame": "From enrollment to 12 months follow-up"
+        },
+        {
+          "measure": "From enrollment to 12 months follow-up",
+          "description": "The total count of heart failure-related hospitalizations per participant.",
+          "timeFrame": "From enrollment to 12 months follow-up"
+        },
+        {
+          "measure": "Change from baseline in NT-proBNP level",
+          "description": "The absolute or relative change in the N-terminal pro-brain natriuretic peptide level from the start of the study to the follow-up time point.",
+          "timeFrame": "Baseline and 12 months"
+        },
+        {
+          "measure": "Change from baseline in Left Ventricular Ejection Fraction (LVEF)",
+          "description": "The absolute change in the percentage of blood pumped out of the left ventricle with each contraction.",
+          "timeFrame": "Baseline and 12 months"
+        },
+        {
+          "measure": "Change from baseline in Left Ventricular End-Diastolic Diameter (LVEDD)",
+          "description": "The absolute change in the internal diameter of the left ventricle at the end of its filling phase(millimeters, mm).",
+          "timeFrame": "Baseline and 12 months"
+        },
+        {
+          "measure": "Change from baseline in quality of life score as assessed by the EQ-5D",
+          "description": "The change in the score from the EQ-5D quality of life questionnaire",
+          "timeFrame": "Baseline and 12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age ≥18 years old;\n2. Patients diagnosed with HF in hospital and discharged on medical orders;\n3. LVEF≤40% detected by echocardiography within 1 month before enrollment;\n4. Signed informed consent is obtained.\n\nExclusion Criteria:\n\n1. Patients who are unable or unsuitable for follow-up.\n2. Patients with poor compliance, presenting a risk of switching study groups.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Shuai Yuan, MD",
+          "role": "CONTACT",
+          "phone": "+8618516568776",
+          "email": "shuaiyuanys94@163.com"
+        },
+        {
+          "name": "Jingmin Zhou, MD",
+          "role": "CONTACT",
+          "phone": "+8613601954136",
+          "email": "zhou.jingmin@zs-hospital.sh.cn"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Shanghai Zhongshan Hospital",
+          "city": "Shanghai",
+          "state": "Shanghai Municipality",
+          "zip": "200032",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Shuai Yuan",
+              "role": "CONTACT",
+              "email": "shuaiyuanys94@163.com"
+            },
+            {
+              "name": "Jingmin Zhou, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED",
+      "description": "The individual participant data collected in this study are not currently planned for sharing due to privacy and ethical constraints. However, reasonable requests for de-identified data will be considered by the corresponding investigator upon submission of a methodologically sound proposal."
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2025-09-08",
+          "uploadDate": "2026-01-24T22:48",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 851127
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19"
+    }
+  },
+  "hasResults": false
+}

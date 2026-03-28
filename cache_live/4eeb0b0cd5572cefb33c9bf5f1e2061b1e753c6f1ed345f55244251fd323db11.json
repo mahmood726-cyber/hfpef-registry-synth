@@ -1,0 +1,223 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06724653",
+      "orgStudyIdInfo": {
+        "id": "IRB 2024-09-039-002"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2024-09-039-002",
+          "type": "OTHER",
+          "domain": "Chungnam national university hospital IRB"
+        }
+      ],
+      "organization": {
+        "fullName": "Chungnam National University Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Tapering Heart Failure Medication in Patients with Heart Failure with Recovered Ejection Fraction; Open Label Prospective Random Trial",
+      "officialTitle": "Tapering Heart Failure Medication in Patients with Heart Failure with Recovered Ejection Fraction; Open Label Prospective Random Trial",
+      "acronym": "HFrecEF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-12",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-12-06",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-11-26",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-11-26",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-12-05",
+      "studyFirstSubmitQcDate": "2024-12-05",
+      "studyFirstPostDateStruct": {
+        "date": "2024-12-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-12-05",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-12-09",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Chungnam National University Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Study start date is on Nov 27th 2024.\n\nA patient with an initial ejection fraction (EF) of less than 40%, whose follow-up shows an improvement to an EF of 50% or higher, along with the left ventricular end-diastolic diameter returning to the normal range and taking 3 more heart failure medication randomed to drug tapering group ( RAS blocker or beta blocker) or continuing medication group.",
+      "detailedDescription": "Patients described above randomly assigned to drug tapering group and drug maintaining group.\n\nDrug tapering group is 2 groups, which one is RAS blocker tapering group and others is beta blocker tapering group.\n\nDrug tapering group is monitored ejection fraction, LV dimension and LV GLS by 1-3 month."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure",
+        "Ejection Fraction",
+        "Recovery of Function"
+      ],
+      "keywords": [
+        "heart failure with recovered ejection fraction",
+        "Tapering"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "randomly assignment to 3 groups ( drug tapering\\_RAS blocker, beta blocker, drug maintaining)",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 150,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "RAS blocker tapering arm",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "RAS blocker tapering",
+          "interventionNames": [
+            "Drug: RAS blocker tapering group",
+            "Drug: Beta blocker tapering out"
+          ]
+        },
+        {
+          "label": "Beta blocker tapering arm",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Beta blocker tapering arm",
+          "interventionNames": [
+            "Drug: RAS blocker tapering group",
+            "Drug: Beta blocker tapering out"
+          ]
+        },
+        {
+          "label": "Control",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Drug maintain group",
+          "interventionNames": [
+            "Drug: RAS blocker tapering group",
+            "Drug: Beta blocker tapering out"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "RAS blocker tapering group",
+          "description": "RAS blocker tapering out",
+          "armGroupLabels": [
+            "Beta blocker tapering arm",
+            "Control",
+            "RAS blocker tapering arm"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Beta blocker tapering out",
+          "description": "Beta blocker tapering out group",
+          "armGroupLabels": [
+            "Beta blocker tapering arm",
+            "Control",
+            "RAS blocker tapering arm"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Heart failure relapse",
+          "description": "LVEF 10% drop, EF less than 50 %, LVIDd/BSA 10% increase, over 33mm/m\\^2",
+          "timeFrame": "From enrollment to the end of treatment at 18 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* initial echocardiogram ejection fraction less than 40%\n* follow up echocardiogram ejection fraction over 50% and LVEDD index normal range\n* NTprobnp criteria\n\n  1. eGFR ≥60 ; less 440\n  2. eGFR 45-59: less 980\n  3. eGFR 30-44; less 1220\n  4. eGFR \\< 30 : less 5300\n  5. in HD; no criteria for NTproBNP\n* on more than 3 heart failure medication ( RAS blocker, beta blocker, mineral corticoid receptor antagonist, SGLT 2 inhibitor)\n\nExclusion Criteria:\n\n1. under age 18 year\n2. uncontrolled BP ( over 150/90)\n3. coronary revascularization within 6 months\n4. significant valve disease\n5. arrhythmia requiring rate control\n6. CKD with albuminuria ( over 30mg/g)\n7. Pregnancy",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Yujin Yang",
+          "role": "CONTACT",
+          "phone": "821043311245",
+          "email": "wjsdudtns9@gmail.com"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF",
+        "CSR",
+        "ANALYTIC_CODE"
+      ],
+      "timeFrame": "Beginning 3 months after the publication of results with no end date"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

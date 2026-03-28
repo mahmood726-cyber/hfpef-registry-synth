@@ -1,0 +1,385 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05367037",
+      "orgStudyIdInfo": {
+        "id": "PhysioVP-AF"
+      },
+      "organization": {
+        "fullName": "Quovadis Associazione",
+        "class": "OTHER"
+      },
+      "briefTitle": "Physiological Ventricular Pacing Vs Managed Ventricular Pacing for Persistent AF Prevention in Prolonged AV Interval",
+      "officialTitle": "Physiological Ventricular Pacing Versus Managed Ventricular Pacing for Persistent Atrial Fibrillation Prevention in Patients With Prolonged Atrioventricular Interval: a Multicenter RCT",
+      "acronym": "PhysioVP-AF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-05",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-07-27",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-01-12",
+      "studyFirstSubmitQcDate": "2022-05-04",
+      "studyFirstPostDateStruct": {
+        "date": "2022-05-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-05-06",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-05-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Quovadis Associazione",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "A multicenter, prospective, randomized study in a 1:1 ratio, single-blind with double-blind evaluation to evaluate the superiority of physiological ventricular pacing (proposed modality) vs. managed ventricular pacing (control) for prevention of persistent AF (PeAF) occurrence in patients with prolonged atrioventricular interval (PR≥180 ms) and indication for pacing: sinus node disease and/or paroxysmal type 1 or 2-second degree AV block.",
+      "detailedDescription": "Study aim: Evaluate the superiority of physiological ventricular pacing (proposed modality) vs. managed ventricular pacing (control) for prevention of persistent AF (PeAF) occurrence in patients with prolonged atrioventricular interval (PR≥180 ms) and indication for pacing: sinus node disease and/or paroxysmal type 1 or 2-second degree AV block. If the efficacy superiority is confirmed, this pacing mode may be considered to reduce the occurrence of persistent atrial fibrillation in this group of patients.\n\nStudy design: Independent, multicenter, prospective, randomized study in a 1:1 ratio, single-blind with double-blind evaluation (the actual evaluator of the primary endpoint is the pacemaker device's internal diagnostic algorithm, without intervention by the Investigator). This study will use only CE-marked devices already part of clinical practice.\n\nGroups:\n\n* PhysioVP group: the Physiological Ventricular Pacing is achieved by delivering a pacing stimulus to a cardiac conduction structure, such as the bundle of His or left bundle branch of the His-Purkinje system, with a permanent lead. PhysioVP activates the heart through the native His-Purkinje conduction system, thus offering the most physiologic pacing approach to correct the PR interval and avoiding pacing-induced dyssynchrony.\n* DDD-VPA group: In managed ventricular pacing, the right ventricular (RV) lead is implanted in the myocardial right ventricular (septum or apex). In this pacing mode, the ventricular pacing is minimized by using algorithms for right Ventricular Pacing Avoidance.\n\nDevices used:\n\n* PhysioVP group: a specialized delivery sheath for His-Purkinje system pacing with appropriate or standard leads will be used.\n* DDD-VPA group: the RV leads will be implanted in the standard right ventricular myocardial sites (septum or apex) using standard bipolar active-fixation leads.\n\nThe atrial leads will be placed in the right atrial appendage in both groups. The 13 participating Italian Clinical Centers are proven experience in the PM implantation procedures used in the study.\n\nEnrolled patients will be monitored by in-office clinical checks at 1, 12, 24, and 36 months and by home monitoring at 6, 18, and 30 months after implantation."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Sinus Node Disease",
+        "Atrioventricular; Block, Second Degree (Types I and II)"
+      ],
+      "keywords": [
+        "Sinus Node Disease",
+        "Paroxysmal AV-block",
+        "conduction system pacing",
+        "persistent atrial fibrillation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "a prospective, randomized study in a 1:1 ratio, single-blind with double-blind evaluation (the actual evaluator of the primary endpoint is the pacemaker device's internal diagnostic algorithm, without intervention by the Investigator)",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "maskingDescription": "single-blind with double-blind evaluation (the actual evaluator of the primary endpoint is the pacemaker device's internal diagnostic algorithm, without intervention by the Investigator)",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 640,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "PhysioVP group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Physiological ventricular pacing",
+          "interventionNames": [
+            "Device: PhysioVP"
+          ]
+        },
+        {
+          "label": "DDD-VPA group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Dual-chamber pacing with the addition of algorithms for ventricular pacing avoidance",
+          "interventionNames": [
+            "Device: DDD-VPA"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "PhysioVP",
+          "description": "The Physiological ventricular pacing is achieved by delivering a stimulus to a cardiac conduction structure, such as the bundle of His or left bundle branch of the His-Purkinje system, with a permanent lead. PhysioVP activates the heart through the native His-Purkinje conduction system, thus offering the most physiologic pacing approach to correct the PR interval and avoiding pacing-induced dyssynchrony. A specialized delivery sheath for His-Purkinje system pacing with appropriate or standard leads will be used. The atrial leads will be implanted in the right atrial appendage and will connect the leads to the standard dual-chamber PM. By continuously recording a 12-lead ECG, we determine whether cardiac conduction structure, such as the bundle of His or left bundle branch of the His-Purkinje system, will be achieved.",
+          "armGroupLabels": [
+            "PhysioVP group"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "DDD-VPA",
+          "description": "In dual-chamber pacing with the addition of algorithms for ventricular pacing avoidance, also called managed ventricular pacing, the right ventricular (RV) lead is implanted in the myocardial right ventricular (septum or apex). In this pacing mode, the ventricular pacing is minimized by using algorithms for right ventricular pacing avoidance. Therefore, the RV leads will be implanted in the right ventricular myocardial sites (septum or apex) and standard bipolar active or passive fixation leads. In addition, the atrial leads will be implanted in the right atrial appendage and connect leads to the standard dual-chamber PM.",
+          "armGroupLabels": [
+            "DDD-VPA group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "PeAF Free",
+          "description": "Freedom from persistent AF occurrences up to 36 months after the pacemaker (PM) implant.\n\nThe occurrence of PeAF is defined as the first AF / Atrial Flutter / Atrial Tachycardia episode lasting \\> 7 days, detected by the PM after a 1-month post PM lead-stabilization period. A day of AF is satisfied with a device-detected daily AF burden of ≥ 23 hours. Device-detected AF may also be collected by remote monitoring tools, if available. The definition also includes the occurrence of episodes terminated by cardioversion, whatever its duration or undergoing AF ablation",
+          "timeFrame": "36 months"
+        },
+        {
+          "measure": "Clinical composite outcome",
+          "description": "Composite outcome based on the occurrence of one or more of the events: Death from cardiovascular disease, or heart failure, or pacing system upgrading to the conduction system pacing (CSP) or to the biventricular pacing (BVP).",
+          "timeFrame": "36 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Hemodynamic performance, LV remodeling 1",
+          "description": "Echocardiographic parameters: Left Ventriculi end-systolic volume (ml/m2).",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Hemodynamic performance, LV remodeling 2",
+          "description": "Echocardiographic parameters: LVEF (%).",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Hemodynamic performance, Diastolic function 1",
+          "description": "Echocardiographic parameters: E to A mitral wave amplitude ratio.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Hemodynamic performance, Diastolic function 2",
+          "description": "Echocardiographic parameters: E wave deceleration time (ms).",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Hemodynamic performance, Diastolic function 3",
+          "description": "Echocardiographic parameters: pulsed-wave tissue Doppler early diastolic septal mitral annular velocity (e') (cm/s).",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Hemodynamic performance, Diastolic function 4",
+          "description": "Echocardiographic parameters: E/e' ratio.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Hemodynamic performance, Diastolic function 5",
+          "description": "Echocardiographic parameters: Diastolic time (from onset E wave to end A wave) normalized for RR interval (ms).",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Hemodynamic performance, Left atrial volume",
+          "description": "Echocardiographic parameters: Left atrial volume (ml/m2).",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Hemodynamic performance, Mitral regurgitation",
+          "description": "Echocardiographic parameters: vena contracta (mm).",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Clinical evaluations, NYHA",
+          "description": "NYHA class variation (I, II, III, IV).",
+          "timeFrame": "12, 24, and 36 months"
+        },
+        {
+          "measure": "Clinical evaluations, MLHFQ",
+          "description": "Variation of Quality-of-Life assessment by Minnesota Living with Heart Failure questionnaire (MLHFQ).",
+          "timeFrame": "12, 24, and 36 months"
+        },
+        {
+          "measure": "Clinical evaluations",
+          "description": "Number of cardiovascular diseases related to health structure access.",
+          "timeFrame": "12, 24, and 36 months"
+        },
+        {
+          "measure": "Safety endpoints, PRAE",
+          "description": "Rate of all procedure-related adverse events (PRAE).",
+          "timeFrame": "36 months"
+        },
+        {
+          "measure": "Safety endpoints, Potentially harmful factor 1",
+          "description": "Implantation/s procedure time (mm:ss).",
+          "timeFrame": "36 months"
+        },
+        {
+          "measure": "Safety endpoints, Potentially harmful factor 2",
+          "description": "Fluoroscopy time (mm:ss).",
+          "timeFrame": "36 months"
+        },
+        {
+          "measure": "Safety endpoints, Incidence Rate of re-interventions",
+          "description": "Rate of re-interventions for lead revision, replacement, or infection.",
+          "timeFrame": "36 months"
+        },
+        {
+          "measure": "Estimated battery longevity",
+          "description": "Estimated residual battery longevity (time to end-of-life) by the implanted device every 6-months and/or when the primary endpoint is reached.",
+          "timeFrame": "36 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n18 years older patients, able to express Informed Consent, with prolonged atrioventricular interval (PR\\>180 ms) and one of the following indications for PM implantation according to current guidelines:\n\n* Sinus node disease.\n* Paroxysmal type1or 2 second-degree AV-block.\n\nExclusion Criteria:\n\n* Candidacy for implantable cardioverter-defibrillator or cardiac resynchronization therapy device implantation.\n* Severe grade mitral or aortic regurgitation/stenosis.\n* Atrial fibrillation ablation (left pulmonary veins).\n* Cardiac surgery \\< 3 months before PM implantation.\n* History of long-standing persistent AF.\n* Permanent third-degree AV block.\n* Participation in another clinical trial in the past 3 months.\n* Pregnancy or intention to become pregnant.\n* Life expectancy of \\< 3 years.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Gianni Pastore, MD",
+          "role": "CONTACT",
+          "phone": "‭+39 (339) 754-4514‬",
+          "email": "gianni.pastore@aulss5.veneto.it"
+        },
+        {
+          "name": "Franco Noventa, MD",
+          "role": "CONTACT",
+          "email": "franco.noventa@quovadis-ass.it"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Gianni Pastore, MD",
+          "affiliation": "Cardiology Unit, \"S.Maria della Misericordia\" Hospital, Rovigo, Italy",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Elettrofisiologia, Cardiologia, Ospedale di Rovigo",
+          "status": "RECRUITING",
+          "city": "Rovigo",
+          "state": "Veneto",
+          "zip": "45100",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Gianni Pastore, MD",
+              "role": "CONTACT",
+              "email": "gianni.pastore@aulss5.veneto.it"
+            },
+            {
+              "name": "Gianni Pastore, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.06982,
+            "lon": 11.79022
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "36974970",
+          "type": "BACKGROUND",
+          "citation": "Pastore G, Bertini M, Bonanno C, Coluccia G, Dell'Era G, De Mattia L, Grieco D, Katsouras G, Maines M, Marcantoni L, Marinaccio L, Paglino G, Palmisano P, Ziacchi M, Zoppo F, Noventa F. The PhysioVP-AF study, a randomized controlled trial to assess the clinical benefit of physiological ventricular pacing vs. managed ventricular pacing for persistent atrial fibrillation prevention in patients with prolonged atrioventricular conduction: design and rationale. Europace. 2023 May 19;25(5):euad082. doi: 10.1093/europace/euad082."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Promotor's site",
+          "url": "https://www.quovadis-ass.it/physiovp-af-trial/"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D012804",
+          "term": "Sick Sinus Syndrome"
+        },
+        {
+          "id": "D001733",
+          "term": "Bites and Stings"
+        },
+        {
+          "id": "D001281",
+          "term": "Atrial Fibrillation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001146",
+          "term": "Arrhythmia, Sinus"
+        },
+        {
+          "id": "D001145",
+          "term": "Arrhythmias, Cardiac"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D006327",
+          "term": "Heart Block"
+        },
+        {
+          "id": "D000075224",
+          "term": "Cardiac Conduction System Disease"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D011041",
+          "term": "Poisoning"
+        },
+        {
+          "id": "D064419",
+          "term": "Chemically-Induced Disorders"
+        },
+        {
+          "id": "D014947",
+          "term": "Wounds and Injuries"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

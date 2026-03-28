@@ -1,0 +1,427 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03485092",
+      "orgStudyIdInfo": {
+        "id": "GN15CA580"
+      },
+      "organization": {
+        "fullName": "NHS Greater Glasgow and Clyde",
+        "class": "OTHER"
+      },
+      "briefTitle": "Studies of Empagliflozin and Its Cardiovascular, Renal and Metabolic Effects",
+      "officialTitle": "Studies of Empagliflozin and Its Cardiovascular, Renal and Metabolic Effects in Patients With Diabetes Mellitus (or Pre-diabetes) and Heart Failure (SUGAR-DM-HF)",
+      "acronym": "SUGAR-DM-HF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-09",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2018-03-16",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-03-28",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-03-28",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2018-03-19",
+      "studyFirstSubmitQcDate": "2018-03-26",
+      "studyFirstPostDateStruct": {
+        "date": "2018-04-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2020-09-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-09-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "NHS Greater Glasgow and Clyde",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "University of Glasgow",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The investigators hypothesise that empagliflozin 10mg daily will have haemodynamic, cardiac, and renal benefits compared to placebo over 36 weeks in heart failure patients with type 2 diabetes (or pre-diabetes), leading to measurable improvements in clinical measures of cardiac structure and function (LVESVI, and LV strain) as well as renal blood flow.",
+      "detailedDescription": "The results of the EMPA-REG OUTCOME trial on CVD outcomes and heart failure hospitalisation suggests that empagliflozin works quickly to lessen CVD mortality and reduce heart failure hospitalisations in patients with diabetes and existing cardiovascular disease. The lack of effect on non-fatal MI and stroke would suggest limited impact on atherothrombotic mechanisms. It is important to understand the mechanisms by which empagliflozin is acting in more detail, in order that the drug can be more widely targeted at patient groups that might benefit most; particularly patients with heart failure and diabetes (or pre-diabetes) (as discussed in the rationale).\n\nThe investigators have hypothesised, in a detailed published review, that the benefit derives from the specific effects of sodium-glucose linked transporter-2 (SGLT2) inhibition on renal sodium and glucose handling, leading to both diuresis and improvements in diabetes-related maladaptive renal arteriolar responses. These haemodynamic and renal effects are likely to be beneficial in patients with clinical or subclinical cardiac dysfunction. The net result of these processes is an improvement in cardiac systolic and diastolic function and, thereby, a lower risk of heart failure hospitalisation (HFH) and sudden cardiac death.\n\nThe investigators have therefore designed the present trial to perform a comprehensive clinical trial to interrogate in detail the effects of empagliflozin on specific pathways (inclusive of cardiac and renal effects) in patients with type 2 diabetes (or pre-diabetes) and heart failure."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure",
+        "Diabetes Mellitus"
+      ],
+      "keywords": [
+        "heart failure",
+        "diabetes mellitus",
+        "empagliflozin",
+        "Randomised, placebo controlled trial"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Randomised, placebo controlled trial",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "placebo controlled trial",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 105,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Empagliflozin",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Empagliflozin 10mg tablets for oral self-administration once daily",
+          "interventionNames": [
+            "Drug: Empagliflozin 10 MG"
+          ]
+        },
+        {
+          "label": "Placebo Oral Tablet",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "placebo tablets for oral self-administration once daily",
+          "interventionNames": [
+            "Drug: Placebo Oral Tablet"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Empagliflozin 10 MG",
+          "description": "Empagliflozin 10mg tablets for oral self administration once a day",
+          "armGroupLabels": [
+            "Empagliflozin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo Oral Tablet",
+          "description": "placebo tablets for oral self administration once a day",
+          "armGroupLabels": [
+            "Placebo Oral Tablet"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Left Ventricular End Systolic Volume Index (LVESVI)",
+          "description": "Cardiac structure measured by left ventricular end-systolic volume index measured by cardiac magnetic resonance imaging as mL/m2",
+          "timeFrame": "36 weeks"
+        },
+        {
+          "measure": "left ventricular global longitudinal strain (GLS)",
+          "description": "Cardiac structure measured by left ventricular global longitudinal strain measured by cardiac magnetic resonance imaging GLS%",
+          "timeFrame": "36 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Left ventricular end diastolic volume index (LVEDVI)",
+          "description": "Left ventricular end diastolic volume index (LVEDVI) measured by Cardiac MR in ml/m2",
+          "timeFrame": "36 weeks"
+        },
+        {
+          "measure": "Left ventricular ejection fraction (LVEF)",
+          "description": "Left ventricular ejection fraction (LVEF) measured by Cardiac MR in percentage",
+          "timeFrame": "36 weeks"
+        },
+        {
+          "measure": "Left ventricular mass index (LVMI)",
+          "description": "Left ventricular mass index (LVMI) measured by cardiac MR in grams/m2",
+          "timeFrame": "36 weeks"
+        },
+        {
+          "measure": "Left ventricular global function index (LVGFI)",
+          "description": "Left ventricular global function index (LVGFI) measured by cardiac MR in percentage",
+          "timeFrame": "36 weeks"
+        },
+        {
+          "measure": "Left atrial volume index (LAVI)",
+          "description": "Left atrial volume index (LAVI) measured by cardiac MR in ml/m2",
+          "timeFrame": "36 weeks"
+        },
+        {
+          "measure": "Microvascular perfusion",
+          "description": "Microvascular perfusion measured by Gadolinium enhanced Cardiac magnetic resonance imaging measured as ml/min/g",
+          "timeFrame": "36 weeks"
+        },
+        {
+          "measure": "Extracellular volume fraction",
+          "description": "Extracellular volume fraction measured by Gadolinium enhanced Cardiac magnetic resonance imaging measured as %",
+          "timeFrame": "36 weeks"
+        },
+        {
+          "measure": "Kansas City Cardiomyopathy Questionnaire (KCCQ) Total Symptom Score (TSS)",
+          "description": "Kansas City Cardiomyopathy Questionnaire Total Symptom score (TSS) measured by mean overall difference and responder analysis (higher score = better outcome)",
+          "timeFrame": "36 weeks"
+        },
+        {
+          "measure": "6 minute walk distance (Exercise Capacity)",
+          "description": "Exercise capacity measured by six minute walk test measured in m",
+          "timeFrame": "36 weeks"
+        },
+        {
+          "measure": "Pulmonary congestion",
+          "description": "Pulmonary congestion as B-lines measured using lung ultrasound",
+          "timeFrame": "36 weeks"
+        },
+        {
+          "measure": "Biomarker profile -glycated haemaglobin (HbA1c)",
+          "description": "biomarker profile of HbA1c (mmol/mol)",
+          "timeFrame": "36 weeks"
+        },
+        {
+          "measure": "Biomarker profile - creatine",
+          "description": "biomarker profile of creatine (umol/L)",
+          "timeFrame": "36 weeks"
+        },
+        {
+          "measure": "Biomarker profile - estimated glomerular filtration rate (eGFR)",
+          "description": "biomarker profile of eGFR (ml/min/m2)",
+          "timeFrame": "36 weeks"
+        },
+        {
+          "measure": "Biomarker profile - liver function tests (LFTs)",
+          "description": "biomarker profile of LFTs (U/L)",
+          "timeFrame": "36 weeks"
+        },
+        {
+          "measure": "Biomarker profile - uric acid",
+          "description": "biomarker profile of uric acid (umol/L)",
+          "timeFrame": "36 weeks"
+        },
+        {
+          "measure": "Intensification of diuretic therapy",
+          "description": "Intensification of diuretic therapy through addition and/or increase dose of diuretic medication",
+          "timeFrame": "36 weeks"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Left ventricular global longitudinal strain (GLS)",
+          "description": "Left ventricular global longitudinal strain (GLS) measured by CMR tagging measured in percentage",
+          "timeFrame": "36 weeks"
+        },
+        {
+          "measure": "Left ventricular global circumferential strain (GCS)",
+          "description": "Left ventricular global circumferential strain (GCS) measured in CMR featured-tracking and tagging in percentage",
+          "timeFrame": "36 weeks"
+        },
+        {
+          "measure": "Left ventricular global radial strain (GRS)",
+          "description": "Left ventricular global radial strain (GRS)measured in CMR featured-tracking and tagging in percentage",
+          "timeFrame": "36 weeks"
+        },
+        {
+          "measure": "total renal blood flow measured by magnetic resonance imaging",
+          "description": "total renal blood flow measure using cardiac magnetic resonance imaging measured as ml/min/100g",
+          "timeFrame": "36 weeks"
+        },
+        {
+          "measure": "Renal fibrosis",
+          "description": "Renal fibrosis measured by T1 mapping in MRI in miiliseconds",
+          "timeFrame": "36 weeks"
+        },
+        {
+          "measure": "Bioelectrical impedance analysis",
+          "description": "Bioelectrical impedance analysis in percentage",
+          "timeFrame": "36 weeks"
+        },
+        {
+          "measure": "Clinical composite outcome of death, hospitalisation with worsening heart failure, ED visit for worsening heart failure, outpatient worsening of heart failure accompanied by increase in HF therapy",
+          "description": "Clinical composite outcome of death, hospitalisation with worsening heart failure, ED visit for worsening heart failure, outpatient worsening of heart failure accompanied by increase in HF therapy",
+          "timeFrame": "36 weeks"
+        },
+        {
+          "measure": "Clinical composite analysed using Win-ratio approach",
+          "description": "Clinical composite (analysed using Win-ratio approach) outcome of death, hospitalisation with worsening heart failure, ED visit for worsening heart failure, outpatient worsening of heart failure accompanied by increase in HF therapy, KCCQ-TSS \\>5-point decrease, or no decrease, \\>30% in NT-proBNP from baseline",
+          "timeFrame": "36 weeks"
+        },
+        {
+          "measure": "Left ventricular diastolic function",
+          "description": "Left ventricular diastolic function measured by echocardiogram",
+          "timeFrame": "36 weeks"
+        },
+        {
+          "measure": "DNA and epigenetics",
+          "description": "DNA and epigenetic analysis",
+          "timeFrame": "36 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Written informed consent\n* Male or female, aged ≥18 years age\n* Type 2 DM (diet-controlled or on stable treatment) or prediabetes\n\n  * Stable treatment defined as no change in oral therapy agents or doses for diabetes mellitus and (where applicable) \\<10% change in average total daily insulin dose over last 6 weeks\n  * HbA1c ≤97 mmol/mol (11%) (routine available data from medical records, recorded in the last year)\n  * Prediabetes defined as HbA1c 39-47 mmol/mol (5.7-6.4%) at the time of screening (specifically for the prediabetes group, HbA1c will be repeated at the time of screening if there are no recent results within the last 3 months, in order to confirm the diagnosis of prediabetes)\n* Heart failure (as defined by the presence of typical signs and symptoms of heart failure with documented reduced ejection fraction (ref SIGN and ESC guidelines))\n\n  * NYHA class II-IV\n  * LVEF ≤40%\n  * On stable doses of ACEI, ARB or ARNI for 4 weeks prior to randomisation unless contraindicated or not tolerated. They should also be taking a beta-blocker at a stable dose for 4 weeks unless contraindicated or not tolerated\n* Women of childbearing potential (WOCBP) must be currently adhering to, or be willing to use, highly effective birth control methods for study treatment duration including:\n\n  * Combined hormonal contraception (oestrogen and progestogen containing medication) either orally, intravaginally, or transdermally\n  * Progesterone only hormonal contraception either orally, injected, or implanted\n  * Intrauterine device (IUD)\n  * Intrauterine hormone release system (IUS)\n  * Bilateral fallopian tube occlusion\n  * Vasectomised partner\n  * Complete sexual abstinence where this is their preferred and usual lifestyle\n\nWOCBP comprises women who have experienced menarche and who have not undergone successful surgical sterilisation (hysterectomy, bilateral tubal ligation, or bilateral oophorectomy) or who are not post-menopausal. Post-menopausal is defined as:\n\no Women who have had amenorrhea for ≥12 consecutive months (without another medical cause)\n\nExclusion Criteria:\n\n* Type 1 DM\n* History of hospital admission with a diagnosis of diabetic ketoacidosis (DKA)\n* Insulin use within 1 year of diagnosis of diabetes\n* History of acute or chronic pancreatitis\n* eGFR \\<30 ml/min/1.73m2 (derived using CKD EPI)\n* Persistent/permanent atrial fibrillation/flutter (conditions which significantly impede MRI image interpretability)\n* Acute coronary syndrome, stroke or surgery within 1 month (small type 2 MI in the context of acute HF does not apply)\n* BMI \\>52 kg/m2\n* Liver disease, defined by serum levels of alanine aminotransferase, aspartate aminotransferase, or alkaline phosphatase above 3 x upper limit of normal (ULN) during screening\n* Bariatric surgery within the past two years and other gastrointestinal surgeries that induce chronic malabsorption\n* Any condition outside the cardiovascular and renal disease area, such as but not limited to malignancy, with a life expectancy of less than 2 years based on investigator's clinical judgement\n* Active malignancy requiring treatment at the time of visit 1 (with the exception of successfully treated basal cell or treated squamous cell carcinoma, adjuvant hormonal therapy for breast cancer and hormone therapy for prostate cancer)\n* Blood dyscrasias or any disorders causing haemolysis or unstable red blood cells (e.g. malaria, babesiosis, haemolytic anaemia)\n* Treatment with systemic steroids at time of informed consent or change in dosage of thyroid hormones within 6 weeks prior to informed consent\n* Any uncontrolled endocrine disorder except Type 2 DM\n* Alcohol or drug abuse within 3 months of informed consent that would interfere with trial participation or any ongoing condition leading to decreased compliance with study procedures or study drug intake\n* Known hypersensitivity to the empagliflozin or excipients\n* Known hypersensitivity to gadolinium\n* Inability to give informed consent\n* SGLT2 inhibitor use (current or previous)\n* Devices or any other contraindication to MRI scans\n* Currently pregnant, planning pregnancy, or currently breastfeeding\n* History of previous lower limb amputation\n* Current participation in another interventional medical study or within the last 90 days\n* Anyone who, in the investigators' opinion, is not suitable to participate in the trial for other reasons",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Naveed Sattar, PhD",
+          "affiliation": "Glasgow University and NHS GGC",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Queen Elizabeth University Hospital",
+          "city": "Glasgow",
+          "state": "Scotland",
+          "zip": "G51 4TF",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 55.86515,
+            "lon": -4.25763
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "26378978",
+          "type": "BACKGROUND",
+          "citation": "Zinman B, Wanner C, Lachin JM, Fitchett D, Bluhmki E, Hantel S, Mattheus M, Devins T, Johansen OE, Woerle HJ, Broedl UC, Inzucchi SE; EMPA-REG OUTCOME Investigators. Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes. N Engl J Med. 2015 Nov 26;373(22):2117-28. doi: 10.1056/NEJMoa1504720. Epub 2015 Sep 17."
+        },
+        {
+          "pmid": "34693515",
+          "type": "DERIVED",
+          "citation": "Kanie T, Mizuno A, Takaoka Y, Suzuki T, Yoneoka D, Nishikawa Y, Tam WWS, Morze J, Rynkiewicz A, Xin Y, Wu O, Providencia R, Kwong JS. Dipeptidyl peptidase-4 inhibitors, glucagon-like peptide 1 receptor agonists and sodium-glucose co-transporter-2 inhibitors for people with cardiovascular disease: a network meta-analysis. Cochrane Database Syst Rev. 2021 Oct 25;10(10):CD013650. doi: 10.1002/14651858.CD013650.pub2."
+        },
+        {
+          "pmid": "33186500",
+          "type": "DERIVED",
+          "citation": "Lee MMY, Brooksbank KJM, Wetherall K, Mangion K, Roditi G, Campbell RT, Berry C, Chong V, Coyle L, Docherty KF, Dreisbach JG, Labinjoh C, Lang NN, Lennie V, McConnachie A, Murphy CL, Petrie CJ, Petrie JR, Speirits IA, Sourbron S, Welsh P, Woodward R, Radjenovic A, Mark PB, McMurray JJV, Jhund PS, Petrie MC, Sattar N. Effect of Empagliflozin on Left Ventricular Volumes in Patients With Type 2 Diabetes, or Prediabetes, and Heart Failure With Reduced Ejection Fraction (SUGAR-DM-HF). Circulation. 2021 Feb 9;143(6):516-525. doi: 10.1161/CIRCULATIONAHA.120.052186. Epub 2020 Nov 13."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "annotationSection": {
+    "annotationModule": {
+      "unpostedAnnotation": {
+        "unpostedResponsibleParty": "NHS Greater Glasgow and Clyde",
+        "unpostedEvents": [
+          {
+            "type": "RELEASE",
+            "date": "2022-03-21"
+          },
+          {
+            "type": "RESET",
+            "date": "2022-07-18"
+          }
+        ]
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18",
+      "submissionTracking": {
+        "estimatedResultsFirstSubmitDate": "2022-03-21",
+        "submissionInfos": [
+          {
+            "releaseDate": "2022-03-21",
+            "resetDate": "2022-07-18"
+          }
+        ]
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C570240",
+          "term": "empagliflozin"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

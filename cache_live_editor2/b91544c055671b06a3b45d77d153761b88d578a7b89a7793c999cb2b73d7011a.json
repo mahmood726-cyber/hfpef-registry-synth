@@ -1,0 +1,231 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06671990",
+      "orgStudyIdInfo": {
+        "id": "2024-514111-10-00"
+      },
+      "organization": {
+        "fullName": "Rigshospitalet, Denmark",
+        "class": "OTHER"
+      },
+      "briefTitle": "The CardioMEMS Vericiguat Heart Failure Trial",
+      "officialTitle": "The CardioMEMS Vericiguat Heart Failure Trial",
+      "acronym": "ARETHA"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-11",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-12-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-12-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-01-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-11-01",
+      "studyFirstSubmitQcDate": "2024-11-01",
+      "studyFirstPostDateStruct": {
+        "date": "2024-11-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-11-01",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-11-04",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Finn Gustafsson",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "Rigshospitalet, Denmark"
+      },
+      "leadSponsor": {
+        "name": "Finn Gustafsson",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Aarhus University Hospital",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The ARETHA trial is a national (Danish), multicenter, randomized, placebo-controlled, double-blind, cross-over, no run-in phase, phase 4, investigator-initiated clinical trial investigating the effect of vericiguat on diastolic pulmonary arterial pressure in patients with heart failure with reduced ejection fraction. Participants will receive both vericiguat and placebo with an intermediate wash-out period. Patients will randomly be allocated 1:1 to two 6-week treatment sequences: either vericiguat first then placebo, or vice versa. The study drug dose will be doubled every 2 weeks (e.g., 2.5, 5, and 10 mg)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure",
+        "Pulmonary Arterial Hypertension"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 17,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Vericiguat THEN Placebo",
+          "type": "OTHER",
+          "description": "Oral vericiguat tablet (2.5, 5, and 10 mg) for first period.",
+          "interventionNames": [
+            "Drug: Vericiguat"
+          ]
+        },
+        {
+          "label": "Placebo THEN Vericiguat",
+          "type": "OTHER",
+          "description": "Oral placebo tablet (2.5, 5, and 10 mg) for first period.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Vericiguat",
+          "description": "Participants will receive vericiguat and placebo with a cross-over intermediate wash-out period. Patients will randomly be allocated 1:1 to two 6-week treatment sequences: either vericiguat first then placebo, or vice versa. The study drug dose will be doubled every 2 weeks (e.g., 2.5, 5, and 10 mg)",
+          "armGroupLabels": [
+            "Vericiguat THEN Placebo"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Participants will receive vericiguat and placebo with a cross-over intermediate wash-out period. Patients will randomly be allocated 1:1 to two 6-week treatment sequences: either vericiguat first then placebo, or vice versa. The study drug dose will be doubled every 2 weeks (e.g., 2.5, 5, and 10 mg)",
+          "armGroupLabels": [
+            "Placebo THEN Vericiguat"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Pulmonary arterial pressure (diastolic)",
+          "timeFrame": "From baseline to the end of treatment at 6 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "N-Terminal Pro-B-Type Natriuretic Peptide",
+          "timeFrame": "From baseline to the end of treatment at 6 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. ≥18 years\n2. Ability to provide informed consent.\n3. CardioMEMS implanted for clinical indication (≥ 2 weeks prior to first visit).\n4. Known CHF with LVEF \\<45% (documented within the past 24 months by an imaging modality: echocardiography, nuclear imaging, LV angiography, or magnetic resonance imaging).\n5. NYHA functional class II-IV symptoms.\n6. Optimal and stable medical therapy for HF (as indicated under point 5 of exclusion criteria)\n7. SBP ≥100 mmHg\n8. dPAP \\>15 mmHg more than 8 days in the last 14 days on the CardioMEMS system.\n\nExclusion Criteria:\n\n1. Patients in optimization phase in the CardioMEMS system or implantation of the CardioMEMs device within the past 2 weeks.\n2. Recent (within 14 days) hospitalization for decompensated HF.\n3. Average supine SBP \\<100 mmHg at the screening or randomization visit.\n4. Current symptomatic hypotension\n5. Recent changes (within 48 hours) in diuretic dose, recent (within 4 weeks) initiation of hydralazine, long-acting nitrates, β-blockers, ACEi/ARB or ARNi.\n6. Marked variability in PA diastolic pressure during screening period.\n7. Low CardioMEMS reading compliance (\\<75% 30 days reading compliance).\n8. Concurrent or anticipated use of: o Long-acting nitrates or nitric oxide (NO) doners including isosorbide dinitrate, isosorbide 5-mononitrate, pentaerythritol tetranitrate, nicorandil or transdermal nitroglycerin (NTG) patch, and molsidomine. o sGC stimulators such as riociguat. o PDE5 inhibitors such as vardenafil, tadalafil, and sildenafil. o Intravenous inotropes.\n9. Previous or planned LVAD or HTx implantation.\n10. Implantation of CRT device within the previous 90 days.\n11. Known allergy or sensitivity to any sGC stimulator.\n12. Primary valvular heart disease requiring surgery or intervention or is within 3 months after valvular surgery or intervention.\n13. Diagnosed with hypertrophic obstructive cardiomyopathy, acute myocarditis, amyloidosis, sarcoidosis, or takotsubo cardiomyopathy.\n14. Tachycardia-induced cardiomyopathy and/or uncontrolled tachyarrhythmia 15. Acute coronary syndrome (unstable angina, non-ST elevation myocardial infarction \\[NSTEMI\\], or ST elevation myocardial infarction \\[STEMI\\] or coronary revascularization (coronary artery bypass grafting \\[CABG\\] or percutaneous coronary intervention \\[PCI\\]) within 60 days, or indication for coronary revascularization at first study visit.\n\n16\\. Symptomatic carotid stenosis, transient ischemic attack (TIA) or stroke within 60 days 17. Complex congenital heart disease 18. Active endocarditis or constrictive pericarditis 19. eGFR \\<15 mL/min/1.73 m2 or chronic dialysis. 20. Severe hepatic insufficiency such as with hepatic encephalopathy 21. Malignancy or other non-cardiac condition limiting life expectancy to \\<1 years.\n\n22\\. Require continuous home oxygen for severe pulmonary disease. 23. Current alcohol and/or drug abuse. 24. Participating in another interventional clinical study or plans to participate in any other trial/investigation during the duration of this study.\n\n25\\. Mental or legal incapacitation and is unable to provide informed consent. 26. Immediate family member (e.g., spouse, parent/legal guardian, sibling, or child) who is involved with this study.\n\n27\\. Interstitial Lung Disease. 28. Is pregnant or breastfeeding (or lactating) or plans to become pregnant or to breastfeed during the course of the study.\n\n29\\. Females of reproductive age and childbearing potential not using at least one safe form of contraception.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Benjamin L Hansen, MD",
+          "role": "CONTACT",
+          "phone": "+4535456261",
+          "email": "benjamin.lautrup.hansen.01@regionh.dk"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Finn Gustafsson, Professor",
+          "affiliation": "Rigshospitalet, Denmark",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D000081029",
+          "term": "Pulmonary Arterial Hypertension"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D006976",
+          "term": "Hypertension, Pulmonary"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000603960",
+          "term": "vericiguat"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

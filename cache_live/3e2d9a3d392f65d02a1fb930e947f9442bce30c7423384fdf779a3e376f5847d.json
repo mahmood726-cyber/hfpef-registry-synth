@@ -1,0 +1,417 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01691053",
+      "orgStudyIdInfo": {
+        "id": "MN0511_1"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2011-003179-12",
+          "type": "EUDRACT_NUMBER"
+        },
+        {
+          "id": "01KG1202",
+          "type": "OTHER_GRANT",
+          "domain": "German Ministry of Education and Research"
+        }
+      ],
+      "organization": {
+        "fullName": "Wuerzburg University Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Mineralocorticoid Receptor Antagonists in End Stage Renal Disease",
+      "officialTitle": "Phase II Trial to Evaluate the Efficacy and Safety of Spironolactone in Hemodialysis Patients",
+      "acronym": "MiREnDa"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2019-08",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2012-12"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2017-02-14",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2018-03-28",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2012-09-19",
+      "studyFirstSubmitQcDate": "2012-09-21",
+      "studyFirstPostDateStruct": {
+        "date": "2012-09-24",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2019-08-01",
+      "lastUpdatePostDateStruct": {
+        "date": "2019-08-06",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Wuerzburg University Hospital",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "German Federal Ministry of Education and Research",
+          "class": "OTHER_GOV"
+        },
+        {
+          "name": "Clinical Trial Center Wuerzburg (CTCW)",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "End stage renal disease (ESRD) patients exhibit an extraordinarily high annual mortality. Cardiovascular (CV) causes account for almost half of all-cause mortality. Increased left ventricular mass (LVM) is a common finding in ESRD patients on dialysis and is an independent predictor of survival. Yet, to date there is no established medical treatment to reduce CV morbidity and mortality in ESRD patients on hemodialysis. Blockade of aldosterone action by means of mineralocorticoid receptor antagonists (MRA) provides cardioprotection and improves outcome in heart failure patients. Furthermore, the MRA spironolactone has recently been shown to reduce LVM in patients with mild-to-moderate chronic kidney disease (CKD). The investigators here hypothesize that spironolactone treatment is cardioprotective by reducing LVM in ESRD patients on dialysis."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "End Stage Renal Disease / Hemodialysis"
+      ],
+      "keywords": [
+        "End stage renal disease",
+        "Hemodialysis",
+        "Spironolactone",
+        "Left ventricular hypertrophy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 118,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Spironolactone",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Drug: Spironolactone"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Spironolactone",
+          "description": "50mg once daily",
+          "armGroupLabels": [
+            "Spironolactone"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Left Ventricular Mass Index",
+          "description": "as assessed by cardiac MRI",
+          "timeFrame": "9 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Cardiac function parameters",
+          "description": "cardiac volumes, systolic and diastolic function, cardiac output as measured by cardiac MRI and echocardiography",
+          "timeFrame": "9 months"
+        },
+        {
+          "measure": "Office and 24h blood pressure",
+          "timeFrame": "9 months"
+        },
+        {
+          "measure": "Clinical measures of heart failure severity",
+          "description": "New York Heart Association (NYHA) functional class, 6 minute walk test",
+          "timeFrame": "9 months"
+        },
+        {
+          "measure": "Vascular function",
+          "description": "Carotid intima meda thickness, pulse wave analysis, carotid artery distensibility, flow mediated dilatation of the brachial artery",
+          "timeFrame": "9 months"
+        },
+        {
+          "measure": "Biomarkers of heart failure, inflammation and fibrosis",
+          "timeFrame": "9 months"
+        },
+        {
+          "measure": "Quality of Life - Hospital Anxiety and Depression Scale (HADS)",
+          "description": "Quality of life will be measured by analyzing HADS",
+          "timeFrame": "9 months"
+        },
+        {
+          "measure": "Cardiac death and/or hospitalization for heart failure",
+          "timeFrame": "9 months"
+        },
+        {
+          "measure": "Safety measures",
+          "description": "Pre-dialysis potassium levels, frequency of hyperkalemic episodes (K\\>6.5mmol/l), measurement of residual kidney function (if applicable)",
+          "timeFrame": "9 months"
+        },
+        {
+          "measure": "Quality of Life - Kidney Disease Quality of Life Instrument (KDQOL-SF36)",
+          "description": "Quality of life will be measured by analyzing KDQOL-SF36",
+          "timeFrame": "9 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \\>18 years\n* Hemodialysis treatment for at least 3 months\n* At least 3 dialysis sessions per week\n* Written informed consent\n\nExclusion Criteria:\n\n* Contraindications for cardiac magnet resonance imaging (CMR)\n* Mineralocorticoid receptor antagonist treatment within the last 6 months\n* Estimated life expectancy \\< 12 months as judged by the nephrologist\n* History of hyperkalemia, defined as pre-dialysis potassium \\> 6.5 mmol/l occurring ≥ 3 times within the last 3 months prior to enrolment.\n* High risk to develop hyperkalemia defined as pre-dialysis potassium \\> 6.0 mmol/l\n* Hypotension (systolic blood pressure \\< 100 mmHg)\n* Planned kidney transplantation (living donor) within the prospected study duration\n* Any acute illness within the last 4 weeks precluding a study participation as judged by the nephrologist\n* Non-amenorrheic women with child bearing potential without reliable contraception, pregnancy/lactation\n* Allergy/hypersensitivity to spironolactone\n* Non-compliance suspected or demonstrated",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Christoph Wanner, MD",
+          "affiliation": "University Hospital Wuerzburg",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Fabian Hammer, MD, PhD",
+          "affiliation": "University Hospital Wuerzburg",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Vera Krane, MD",
+          "affiliation": "University Hospital Wuerzburg",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University Hospital Erlangen-Nürnberg",
+          "city": "Erlangen",
+          "zip": "91054",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.59099,
+            "lon": 11.00783
+          }
+        },
+        {
+          "facility": "University Hospital Frankfurt",
+          "city": "Frankfurt",
+          "zip": "60590",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.68333,
+            "lon": 10.53333
+          }
+        },
+        {
+          "facility": "University Hospital Wuerzburg",
+          "city": "Würzburg",
+          "zip": "97080",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.79391,
+            "lon": 9.95121
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "33586138",
+          "type": "DERIVED",
+          "citation": "Hasegawa T, Nishiwaki H, Ota E, Levack WM, Noma H. Aldosterone antagonists for people with chronic kidney disease requiring dialysis. Cochrane Database Syst Rev. 2021 Feb 15;2(2):CD013109. doi: 10.1002/14651858.CD013109.pub2."
+        },
+        {
+          "pmid": "33544240",
+          "type": "DERIVED",
+          "citation": "Hauser T, Dornberger V, Malzahn U, Grebe SJ, Liu D, Stork S, Nauck M, Friedrich N, Dorr M, Wanner C, Krane V, Hammer F; MiREnDa Study Group; Collaborating investigators (sites). The effect of spironolactone on diastolic function in haemodialysis patients. Int J Cardiovasc Imaging. 2021 Jun;37(6):1927-1936. doi: 10.1007/s10554-021-02176-5. Epub 2021 Feb 5."
+        },
+        {
+          "pmid": "32938484",
+          "type": "DERIVED",
+          "citation": "Grebe SJ, Malzahn U, Donhauser J, Liu D, Wanner C, Krane V, Hammer F. Quantification of left ventricular mass by echocardiography compared to cardiac magnet resonance imaging in hemodialysis patients. Cardiovasc Ultrasound. 2020 Sep 16;18(1):39. doi: 10.1186/s12947-020-00217-y."
+        },
+        {
+          "pmid": "24166468",
+          "type": "DERIVED",
+          "citation": "Hammer F, Krane V, Stork S, Roser C, Hofmann K, Pollak N, Allolio B, Wanner C. Rationale and design of the Mineralocorticoid Receptor Antagonists in End-Stage Renal Disease Study (MiREnDa). Nephrol Dial Transplant. 2014 Feb;29(2):400-5. doi: 10.1093/ndt/gft409. Epub 2013 Oct 28."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D007676",
+          "term": "Kidney Failure, Chronic"
+        },
+        {
+          "id": "D017379",
+          "term": "Hypertrophy, Left Ventricular"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D051436",
+          "term": "Renal Insufficiency, Chronic"
+        },
+        {
+          "id": "D051437",
+          "term": "Renal Insufficiency"
+        },
+        {
+          "id": "D007674",
+          "term": "Kidney Diseases"
+        },
+        {
+          "id": "D014570",
+          "term": "Urologic Diseases"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D052801",
+          "term": "Male Urogenital Diseases"
+        },
+        {
+          "id": "D002908",
+          "term": "Chronic Disease"
+        },
+        {
+          "id": "D020969",
+          "term": "Disease Attributes"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D006332",
+          "term": "Cardiomegaly"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D006984",
+          "term": "Hypertrophy"
+        },
+        {
+          "id": "D020763",
+          "term": "Pathological Conditions, Anatomical"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D013148",
+          "term": "Spironolactone"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007783",
+          "term": "Lactones"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011283",
+          "term": "Pregnenes"
+        },
+        {
+          "id": "D011278",
+          "term": "Pregnanes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

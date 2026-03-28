@@ -1,0 +1,1399 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03717194",
+      "orgStudyIdInfo": {
+        "id": "B-2018-498-002"
+      },
+      "organization": {
+        "fullName": "Seoul National University Bundang Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effect of Ertugliflozin on Cardiac Function in Diabetes",
+      "officialTitle": "A Phase 3, Randomized, Double-blind, Placebo-controlled, Parallel-group, to Evaluate the Effect of Ertugliflozin on Cardiac Function in Patients With Type 2 Diabetes Who Have Inadequate Glycemic Control and Stage B Heart Failure",
+      "acronym": "ERTU-GLS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-10",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-06-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-12-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-04-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2018-10-22",
+      "studyFirstSubmitQcDate": "2018-10-23",
+      "studyFirstPostDateStruct": {
+        "date": "2018-10-24",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2024-10-30",
+      "resultsFirstSubmitQcDate": "2024-10-30",
+      "resultsFirstPostDateStruct": {
+        "date": "2024-11-20",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-10-30",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-11-20",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Soo Lim",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "Seoul National University Bundang Hospital"
+      },
+      "leadSponsor": {
+        "name": "Soo Lim",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "MSD Korea Ltd.",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of this study is to investigate the beneficial role of ertugliflozin, a new SGLT2 inhibitor, in cardiac function via measuring GLS as well as other hemodynamic factors using echocardiogram in patients with T2D and HF, who are not controlled with oral antidiabetic medications including DPP4 inhibitors.",
+      "detailedDescription": "This study is a phase 3, randomized, double-blind, active-competitor, parallel-group study that is anticipated to enroll 120 patients. Patients taking metformin and/or DPP4 inhibitors as per local label for ≥12 weeks without a dose adjustment before enrollment will be eligible for screening. All patients will have a screening period comprised of an up to 2-week screening phase prior to randomization. In order to qualify for randomization, patients must demonstrate compliance based upon pill count (80%) and discretion of the investigators during the Run-in phase.\n\nGlycated hemoglobin (HbA1c) and fasting plasma glucose (FPG) will be masked to patients after randomization. To prevent partial unblinding, urinary glucose excretion (UGE) results will be masked to patients. Urine glucose, albumin, calcium, and creatinine will be measured separately on-site visits."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type2 Diabetes",
+        "Heart Failure"
+      ],
+      "keywords": [
+        "type 2 diabetes",
+        "heart failure",
+        "ertugliflozin",
+        "Global longitudinal strain (GLS)"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 102,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Ertugliflozin",
+          "type": "EXPERIMENTAL",
+          "description": "Ertugliflozin 5 mg in addition to their preexisting metformin and/or DPP4 inhibitor",
+          "interventionNames": [
+            "Drug: Ertugliflozin"
+          ]
+        },
+        {
+          "label": "Control group",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo in addition to their preexisting metformin and/or DPP4 inhibitor",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ertugliflozin",
+          "description": "Ertugliflozin as add-on to Metformin and/or DPP4 inhibitors in patients with inadequately controlled type 2 diabetes",
+          "armGroupLabels": [
+            "Ertugliflozin"
+          ],
+          "otherNames": [
+            "Steglatro"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo as add-on to Metformin and/or DPP4 inhibitors in patients with inadequately controlled type 2 diabetes",
+          "armGroupLabels": [
+            "Control group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Left Ventricular Global Longitudinal Strain (LVGLS)",
+          "description": "Change in LVGLS after 24 weeks of treatment",
+          "timeFrame": "Baseline, Week 24"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Left Ventricular Mass Index (LVMI)",
+          "description": "Change in LVMI after 24 weeks of treatment",
+          "timeFrame": "Baseline, Week 24"
+        },
+        {
+          "measure": "Left Ventricular Ejection Fraction (LVEF)",
+          "description": "Change in LVEF after 24 weeks of treatment",
+          "timeFrame": "Baseline, Week 24"
+        },
+        {
+          "measure": "E/e' Ratio",
+          "description": "Change in E/e' ratio after 24 weeks of treatment",
+          "timeFrame": "Baseline, Week 24"
+        },
+        {
+          "measure": "Left Atrium Ventricular Index (LAVI)",
+          "description": "Change in LVVI after 24 weeks of treatment",
+          "timeFrame": "Baseline, Week 24"
+        },
+        {
+          "measure": "Left Ventricular End-diastolic Volume (LVEDV)",
+          "description": "Change in LVEDV after 24 weeks of treatment",
+          "timeFrame": "Baseline, Week 24"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "N-terminal Pro-B-type Natriuretic Peptide (NT-proBNP)",
+          "timeFrame": "Baseline, Week 24"
+        },
+        {
+          "measure": "Troponin-T",
+          "timeFrame": "Baseline, Week 24"
+        },
+        {
+          "measure": "Angiotensin-converting Enzyme 2 (ACE2)",
+          "timeFrame": "Baseline, Week 24"
+        },
+        {
+          "measure": "Angiotensin (1-7)",
+          "timeFrame": "Baseline, Week 24"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with T2D taking oral antidiabetic medications (metformin and/or DPP4 inhibitors) except SGLT2 inhibitors for at least 12 weeks without a dose adjustment before enrollment.\n* eGFR ≥ 45 mL/min/1.73 m2.\n* Stage B HF identified on the basis of either structural or functional markers.\n\nExclusion Criteria:\n\n* Type 1 diabetes mellitus\n* At the time of screening age \\<20 years\n* HbA1c \\<7% or HbA1c \\>9.5% at Screening\n* FPG \\>15 mmol/L (270 mg/dL) measured by the laboratory at Screening (Visit 1), and confirmed (\\>15 mmol/L \\[\\>270 mg/dL\\]) by a repeat test before randomization\n* Treated with insulin and/or GLP-1R agonist within 12 weeks preceding the Screening Visit.\n* Women of childbearing potential with no effective contraceptive method\n* History of gastric surgery including history of gastric banding within 3 years before the Screening Visit\n* History of diabetic ketoacidosis or nonketotic hyperosmolar coma prior to the Screening Visit\n* Mean blood pressure after 3 separate measurements \\>180 mmHg in systolic blood pressure (SBP) or \\>95 mmHg in diastolic blood pressure (DBP)\n* Patients with current or prior symptoms of HF.\n* Patients with severe anemia, severe respiratory, hepatic, neurological, psychiatric disorders or active malignant tumor or other major systemic disease or patients with short life expectancy making implementation of the protocol or interpretation of the study results difficult\n* Aspartate aminotransferase and/or alanine aminotransferase: \\>3 times the upper limit of the normal laboratory range (ULN)\n* Total bilirubin: \\>1.5 times ULN (except in case of Gilbert's syndrome)\n* Use of systemic glucocorticoids (excluding topical or ophthalmic, application or inhaled forms) for more than 10 consecutive days within 90 days prior to the Screening Visit\n* Patient who has taken other investigational drugs or prohibited therapy for this study within 3 months",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "20 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Soo Lim, MD, PhD",
+          "affiliation": "Seoul National University Bundang Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Seoul National University Bundang Hospita;",
+          "city": "Seongnam-si",
+          "state": "Gyeonggi-do",
+          "zip": "13620",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.43861,
+            "lon": 127.13778
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "26378978",
+          "type": "BACKGROUND",
+          "citation": "Zinman B, Wanner C, Lachin JM, Fitchett D, Bluhmki E, Hantel S, Mattheus M, Devins T, Johansen OE, Woerle HJ, Broedl UC, Inzucchi SE; EMPA-REG OUTCOME Investigators. Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes. N Engl J Med. 2015 Nov 26;373(22):2117-28. doi: 10.1056/NEJMoa1504720. Epub 2015 Sep 17."
+        },
+        {
+          "pmid": "29166232",
+          "type": "BACKGROUND",
+          "citation": "Neal B, Perkovic V, Matthews DR. Canagliflozin and Cardiovascular and Renal Events in Type 2 Diabetes. N Engl J Med. 2017 Nov 23;377(21):2099. doi: 10.1056/NEJMc1712572. No abstract available."
+        },
+        {
+          "pmid": "25978372",
+          "type": "BACKGROUND",
+          "citation": "Krishnasamy R, Isbel NM, Hawley CM, Pascoe EM, Burrage M, Leano R, Haluska BA, Marwick TH, Stanton T. Left Ventricular Global Longitudinal Strain (GLS) Is a Superior Predictor of All-Cause and Cardiovascular Mortality When Compared to Ejection Fraction in Advanced Chronic Kidney Disease. PLoS One. 2015 May 15;10(5):e0127044. doi: 10.1371/journal.pone.0127044. eCollection 2015."
+        },
+        {
+          "pmid": "11834347",
+          "type": "BACKGROUND",
+          "citation": "Hunt SA, Baker DW, Chin MH, Cinquegrani MP, Feldman AM, Francis GS, Ganiats TG, Goldstein S, Gregoratos G, Jessup ML, Noble RJ, Packer M, Silver MA, Stevenson LW, Gibbons RJ, Antman EM, Alpert JS, Faxon DP, Fuster V, Gregoratos G, Jacobs AK, Hiratzka LF, Russell RO, Smith SC; American College of Cardiology; American Heart Association. ACC/AHA guidelines for the evaluation and management of chronic heart failure in the adult: executive summary. J Heart Lung Transplant. 2002 Feb;21(2):189-203. doi: 10.1016/s1053-2498(01)00776-8. No abstract available."
+        },
+        {
+          "pmid": "25533754",
+          "type": "BACKGROUND",
+          "citation": "Kosmala W, Jellis CL, Marwick TH. Exercise limitation associated with asymptomatic left ventricular impairment: analogy with stage B heart failure. J Am Coll Cardiol. 2015 Jan 27;65(3):257-66. doi: 10.1016/j.jacc.2014.10.044. Epub 2014 Dec 19."
+        },
+        {
+          "pmid": "20650361",
+          "type": "BACKGROUND",
+          "citation": "Kramer DG, Trikalinos TA, Kent DM, Antonopoulos GV, Konstam MA, Udelson JE. Quantitative evaluation of drug or device effects on ventricular remodeling as predictors of therapeutic effects on mortality in patients with heart failure and reduced ejection fraction: a meta-analytic approach. J Am Coll Cardiol. 2010 Jul 27;56(5):392-406. doi: 10.1016/j.jacc.2010.05.011."
+        },
+        {
+          "pmid": "2936235",
+          "type": "BACKGROUND",
+          "citation": "Devereux RB, Alonso DR, Lutas EM, Gottlieb GJ, Campo E, Sachs I, Reichek N. Echocardiographic assessment of left ventricular hypertrophy: comparison to necropsy findings. Am J Cardiol. 1986 Feb 15;57(6):450-8. doi: 10.1016/0002-9149(86)90771-x."
+        },
+        {
+          "pmid": "16376782",
+          "type": "BACKGROUND",
+          "citation": "Lang RM, Bierig M, Devereux RB, Flachskampf FA, Foster E, Pellikka PA, Picard MH, Roman MJ, Seward J, Shanewise JS, Solomon SD, Spencer KT, Sutton MS, Stewart WJ; Chamber Quantification Writing Group; American Society of Echocardiography's Guidelines and Standards Committee; European Association of Echocardiography. Recommendations for chamber quantification: a report from the American Society of Echocardiography's Guidelines and Standards Committee and the Chamber Quantification Writing Group, developed in conjunction with the European Association of Echocardiography, a branch of the European Society of Cardiology. J Am Soc Echocardiogr. 2005 Dec;18(12):1440-63. doi: 10.1016/j.echo.2005.10.005. No abstract available."
+        },
+        {
+          "pmid": "19187853",
+          "type": "BACKGROUND",
+          "citation": "Nagueh SF, Appleton CP, Gillebert TC, Marino PN, Oh JK, Smiseth OA, Waggoner AD, Flachskampf FA, Pellikka PA, Evangelista A. Recommendations for the evaluation of left ventricular diastolic function by echocardiography. J Am Soc Echocardiogr. 2009 Feb;22(2):107-33. doi: 10.1016/j.echo.2008.11.023. No abstract available."
+        },
+        {
+          "pmid": "15163933",
+          "type": "BACKGROUND",
+          "citation": "Reisner SA, Lysyansky P, Agmon Y, Mutlak D, Lessick J, Friedman Z. Global longitudinal strain: a novel index of left ventricular systolic function. J Am Soc Echocardiogr. 2004 Jun;17(6):630-3. doi: 10.1016/j.echo.2004.02.011."
+        },
+        {
+          "pmid": "28678927",
+          "type": "BACKGROUND",
+          "citation": "Lima MSM, Villarraga HR, Abduch MCD, Lima MF, Cruz CBBV, Sbano JCN, Voos MC, Mathias W Junior, Tsutsui JM. Global Longitudinal Strain or Left Ventricular Twist and Torsion? Which Correlates Best with Ejection Fraction? Arq Bras Cardiol. 2017 Jul;109(1):23-29. doi: 10.5935/abc.20170085. Epub 2017 Jun 29."
+        },
+        {
+          "pmid": "28185312",
+          "type": "BACKGROUND",
+          "citation": "Medvedofsky D, Kebed K, Laffin L, Stone J, Addetia K, Lang RM, Mor-Avi V. Reproducibility and experience dependence of echocardiographic indices of left ventricular function: Side-by-side comparison of global longitudinal strain and ejection fraction. Echocardiography. 2017 Mar;34(3):365-370. doi: 10.1111/echo.13446. Epub 2017 Feb 9."
+        },
+        {
+          "pmid": "39438942",
+          "type": "DERIVED",
+          "citation": "Lim S, Bae JH, Oh H, Hwang IC, Yoon YE, Cho GY. Effect of ertugliflozin on left ventricular function in type 2 diabetes and pre-heart failure: the Ertu-GLS randomized clinical trial. Cardiovasc Diabetol. 2024 Oct 22;23(1):373. doi: 10.1186/s12933-024-02463-0."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Intervention Group",
+          "description": "Ertugliflozin 5 mg once daily"
+        },
+        {
+          "id": "FG001",
+          "title": "Control Group",
+          "description": "Placebo once daily"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "51"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "51"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "48"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "46"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "5"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "4"
+                }
+              ]
+            },
+            {
+              "type": "Adverse Event",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Intervention Group",
+          "description": "Ertugliflozin 5 mg once daily"
+        },
+        {
+          "id": "BG001",
+          "title": "Control Group",
+          "description": "Placebo once daily"
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "51"
+            },
+            {
+              "groupId": "BG001",
+              "value": "51"
+            },
+            {
+              "groupId": "BG002",
+              "value": "102"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "102"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "62.5",
+                      "spread": "9.9"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "65.3",
+                      "spread": "8.4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "63.9",
+                      "spread": "9.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "102"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "39"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "34"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "29"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "63"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race and Ethnicity Not Collected",
+          "populationDescription": "Race and Ethnicity were not collected from any participant.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Body mass index",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "kg/m2",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "102"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "26.3",
+                      "spread": "2.9"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "26.4",
+                      "spread": "3.6"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "26.4",
+                      "spread": "2.9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Glycated hemoglobin",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "%",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "102"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8.3",
+                      "spread": "1.0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "8.4",
+                      "spread": "1.1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "8.4",
+                      "spread": "1.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Estimated glomerular filtration rate",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "mL/min/1.73 m2",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "102"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "90.1",
+                      "spread": "17.6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "86.9",
+                      "spread": "16.8"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "88.5",
+                      "spread": "17.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Hypertension",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "102"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "35"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "35"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "70"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Dyslipidemia",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "102"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "48"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "41"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "89"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Left Ventricular Global Longitudinal Strain (LVGLS)",
+          "description": "Change in LVGLS after 24 weeks of treatment",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "% of LVGLS",
+          "timeFrame": "Baseline, Week 24",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Ertugliflozin Group",
+              "description": "Ertugliflozin 5 mg in addition to their preexisting oral antidiabetic medications, except for other SGLT2 inhibitors, or insulin"
+            },
+            {
+              "id": "OG001",
+              "title": "Control Group",
+              "description": "Placebo in addition to their preexisting oral antidiabetic medications, except for other SGLT2 inhibitors, or insulin"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "51"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "51"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "16.6",
+                      "spread": "2.8"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16.4",
+                      "spread": "2.6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Left Ventricular Mass Index (LVMI)",
+          "description": "Change in LVMI after 24 weeks of treatment",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "g/m2",
+          "timeFrame": "Baseline, Week 24",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Ertugliflozin Group",
+              "description": "Ertugliflozin 5 mg in addition to their preexisting oral antidiabetic medications, except for other SGLT2 inhibitors, or insulin"
+            },
+            {
+              "id": "OG001",
+              "title": "Control Group",
+              "description": "Placebo in addition to their preexisting oral antidiabetic medications, except for other SGLT2 inhibitors, or insulin"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "51"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "51"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "92.6",
+                      "spread": "22.7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "99.1",
+                      "spread": "22.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Left Ventricular Ejection Fraction (LVEF)",
+          "description": "Change in LVEF after 24 weeks of treatment",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "% of LVEF",
+          "timeFrame": "Baseline, Week 24",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Ertugliflozin Group",
+              "description": "Ertugliflozin 5 mg in addition to their preexisting oral antidiabetic medications, except for other SGLT2 inhibitors, or insulin"
+            },
+            {
+              "id": "OG001",
+              "title": "Control Group",
+              "description": "Placebo in addition to their preexisting oral antidiabetic medications, except for other SGLT2 inhibitors, or insulin"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "51"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "51"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "61.3",
+                      "spread": "7.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "61.5",
+                      "spread": "5.9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "E/e' Ratio",
+          "description": "Change in E/e' ratio after 24 weeks of treatment",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "ratio",
+          "timeFrame": "Baseline, Week 24",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Ertugliflozin Group",
+              "description": "Ertugliflozin 5 mg in addition to their preexisting oral antidiabetic medications, except for other SGLT2 inhibitors, or insulin"
+            },
+            {
+              "id": "OG001",
+              "title": "Control Group",
+              "description": "Placebo in addition to their preexisting oral antidiabetic medications, except for other SGLT2 inhibitors, or insulin"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "51"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "51"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "10.6",
+                      "spread": "3.1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "10.4",
+                      "spread": "2.9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Left Atrium Ventricular Index (LAVI)",
+          "description": "Change in LVVI after 24 weeks of treatment",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "mL/m2",
+          "timeFrame": "Baseline, Week 24",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Ertugliflozin Group",
+              "description": "Ertugliflozin 5 mg in addition to their preexisting oral antidiabetic medications, except for other SGLT2 inhibitors, or insulin"
+            },
+            {
+              "id": "OG001",
+              "title": "Control Group",
+              "description": "Placebo in addition to their preexisting oral antidiabetic medications, except for other SGLT2 inhibitors, or insulin"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "51"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "51"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "35.5",
+                      "spread": "11.3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "35.3",
+                      "spread": "11.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Left Ventricular End-diastolic Volume (LVEDV)",
+          "description": "Change in LVEDV after 24 weeks of treatment",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "mL",
+          "timeFrame": "Baseline, Week 24",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Ertugliflozin Group",
+              "description": "Ertugliflozin 5 mg in addition to their preexisting oral antidiabetic medications, except for other SGLT2 inhibitors, or insulin"
+            },
+            {
+              "id": "OG001",
+              "title": "Control Group",
+              "description": "Placebo in addition to their preexisting oral antidiabetic medications, except for other SGLT2 inhibitors, or insulin"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "51"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "51"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "82.2",
+                      "spread": "24.7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "75.0",
+                      "spread": "17.8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "N-terminal Pro-B-type Natriuretic Peptide (NT-proBNP)",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "Baseline, Week 24",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Troponin-T",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "Baseline, Week 24",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Angiotensin-converting Enzyme 2 (ACE2)",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "Baseline, Week 24",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Angiotensin (1-7)",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "Baseline, Week 24",
+          "denomUnitsSelected": "Participants"
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "Over a 24-week period",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Intervention Group",
+          "description": "Ertugliflozin 5 mg once daily",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 51,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 51,
+          "otherNumAffected": 6,
+          "otherNumAtRisk": 51
+        },
+        {
+          "id": "EG001",
+          "title": "Control Group",
+          "description": "Placebo once daily",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 51,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 51,
+          "otherNumAffected": 5,
+          "otherNumAtRisk": 51
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Hypoglycemia",
+          "organSystem": "Endocrine disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 51
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 51
+            }
+          ]
+        },
+        {
+          "term": "Genital infection",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 51
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 51
+            }
+          ]
+        },
+        {
+          "term": "Urinary tract infection",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 51
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 51
+            }
+          ]
+        },
+        {
+          "term": "Dehydration",
+          "organSystem": "Endocrine disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 51
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 51
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Soo Lim",
+        "organization": "Seoul National University Bundang Hospital",
+        "email": "limsoo@snu.ac.kr",
+        "phone": "+82-31-787-7035"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2016-11-10",
+          "uploadDate": "2024-10-30T01:30",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 1031023
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C570288",
+          "term": "ertugliflozin"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

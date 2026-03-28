@@ -1,0 +1,272 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03751748",
+      "orgStudyIdInfo": {
+        "id": "AC201809"
+      },
+      "organization": {
+        "fullName": "Unity Health Toronto",
+        "class": "OTHER"
+      },
+      "briefTitle": "Flow Regulation by Opening the Septum in Patients With Heart Failure Trial",
+      "officialTitle": "Flow Regulation by Opening the Septum in Patients With Heart Failure (FROST-HF) Trial",
+      "acronym": "FROST-HF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2018-11",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-01-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2021-04-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2018-11-14",
+      "studyFirstSubmitQcDate": "2018-11-21",
+      "studyFirstPostDateStruct": {
+        "date": "2018-11-23",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2018-11-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2018-11-23",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Unity Health Toronto",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Sinai Health System",
+          "class": "OTHER"
+        },
+        {
+          "name": "University Health Network, Toronto",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "To investigate the safety and efficacy of a novel atrial flow regulator (AFR) device in patients with heart failure and preserved ejection fraction.",
+      "detailedDescription": "The study will allow us to demonstrate the safety of the AFR device as well as determine the clinical response of the therapeutic intervention. In addition, the invasive exercise hemodynamics will provide objective data for the changes in the cardiac hemodynamics and delineate underlying mechanisms of creating a permanent inter atrial shunting."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Normal Ejection Fraction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Multicenter, randomized, sham controlled, single blind with objective end points.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 230,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Control arm",
+          "type": "SHAM_COMPARATOR",
+          "description": "Sham procedure to include cardiac catheterization and hemodynamic. Ongoing management at the discretion of the treating physician. Patient to undergo",
+          "interventionNames": [
+            "Device: Sham procedure"
+          ]
+        },
+        {
+          "label": "AFR arm",
+          "type": "EXPERIMENTAL",
+          "description": "Implantation of Occlutech atrial flow regulator (AFR) device",
+          "interventionNames": [
+            "Device: AFR implantation"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "AFR implantation",
+          "description": "Implantation of atrial flow regulator (AFR) device",
+          "armGroupLabels": [
+            "AFR arm"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Sham procedure",
+          "description": "Sham procedure to include cardiac catheterization and hemodynamic. Ongoing management at the discretion of the treating physician. Patient to undergo",
+          "armGroupLabels": [
+            "Control arm"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "6MWT",
+          "description": "Six minute walk test at 12 months",
+          "timeFrame": "12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "MACE",
+          "description": "Composite of cardiac death, heart failure hospitalization and worsening heart failure",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Cardiac death",
+          "description": "Death from a cardiac cause (myocardial infarction, sudden death)",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Congestive heart failure (CHF)",
+          "description": "Heart failure hospitalization, worsening heart failure",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Quality of Life (QOL)",
+          "description": "QOL as per KCCQE questionaire",
+          "timeFrame": "12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Informed consent\n* Age \\> 40 years\n* LVEF \\> 45% documented within the last 3 months.\n* NYHA class ≥II status or 6MWT distance \\<80% predicted.\n* Left atrial enlargement\n* PCWP ≥25 mmHg during supine bicycle exercise on hemodynamic monitoring.\n* Left atrial pressure greater than right atrial pressure by ≥5 mmHg on hemodynamic monitoring.\n\nExclusion Criteria:\n\n* Recent MI, PCI or CABG\n* Untreated CAD with indication for revascularization\n* Recent stroke, pulmonary embolism or major surgery\n* Uncontrolled atrial fibrillation\n* H/O cardiomyopathy (hypertrophic, restrictive, infiltrative) or pericardial disease\n* Inability to perform a 6-minute walk test.\n* Clinically significant valvular disease\n* Uunsuitable for study participation at investigator discretion.\n* Severe COPD, Anemia or morbid obesity\n* Uncontrolled hypertension\n* Women of child bearing age\n* RA pressure \\>15 mmHg or PVR \\>4 wood units",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Asim Cheema, MD, PhD",
+          "role": "CONTACT",
+          "phone": "416-864-5739",
+          "email": "cheemaa@smh.ca"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "St. Michael's hospital",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M5B 1W8",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Asim Cheema, MD",
+              "role": "CONTACT",
+              "phone": "416-864-5739",
+              "email": "cheemaA@smh.ca"
+            },
+            {
+              "name": "Asim Cheema, MD, FRCPC",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Abdul Alhesayen, MD, FRCPC",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "facility": "Sinai Health System",
+          "city": "Toronto",
+          "state": "Ontario",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Susanna Mak, MD, FRCPC",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Susanna Mak, MD, FRCPC",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "facility": "University Health Network",
+          "city": "Toronto",
+          "state": "Ontario",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Mark Osten, MD, FRCPC",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Mark Osten, MD, FRCPC",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,211 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07186972",
+      "orgStudyIdInfo": {
+        "id": "2025AZB6019"
+      },
+      "organization": {
+        "fullName": "Beijing Anzhen Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Evaluation of MTH in PCI Under VA-ECMO for AMICS",
+      "officialTitle": "Evaluation of Mild Therapeutic Hypothermia in Percutaneous Coronary Intervention Under Venous-arterial Extracorporeal Membrane Oxygenation for Acute Myocardial Infarction Complicated With Cardiogenic Shock",
+      "acronym": "HOPE-CS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-09",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-09",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-05",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-05",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-09-09",
+      "studyFirstSubmitQcDate": "2025-09-16",
+      "studyFirstPostDateStruct": {
+        "date": "2025-09-22",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-09-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-09-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Chenglong Li",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "Beijing Anzhen Hospital"
+      },
+      "leadSponsor": {
+        "name": "Beijing Anzhen Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is a randomized controlled trial conducted at Beijing Anzhen Hospital, Capital Medical University. The primary objective is to assess the efficacy of mild therapeutic hypothermia in reducing infarct size and improving cardiac function in patients receiving percutaneous coronary intervention under venous-arterial extracorporeal membrane oxygenation for acute myocardial infarction complicated with cardiogenic shock. Secondary objectives include evaluating the safety of mild therapeutic hypothermia and its impact on venous-arterial extracorporeal membrane oxygenation weaning success and short-term survival."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Myocardial Infarction Complicated With Cardiogenic Shock",
+        "Mild Therapeutic Hypothermia",
+        "Venous-arterial Extracorporeal Membrane Oxygenation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 44,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Control",
+          "type": "NO_INTERVENTION",
+          "description": "Maintaining a target temperature of 36.5℃ (±0.3℃) during percutaneous coronary intervention"
+        },
+        {
+          "label": "Mild therapeutic hypothermia",
+          "type": "EXPERIMENTAL",
+          "description": "Cooling down to a target temperature of 33.0°C-34.0°C before percutaneous coronary intervention, and then rewarming was initiated after 24 hours with a speed of 0.25°C/h to a target temperature of 36.5°C (± 0.3°C).",
+          "interventionNames": [
+            "Procedure: Mild therapeutic hypothermia"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "Mild therapeutic hypothermia",
+          "description": "Before percutaneous coronary intervention, cooling was maintained with venous-arterial extracorporeal membrane oxygenation in patients receiving mild therapeutic hypothermia. By protocol, cooling down to the target temperature of 33°C-34°C was set at the maximum possible cooling rate. After the target temperature was reached, it was maintained for 24 hours with the temperature regulation function of the extracorporeal membrane oxygenation system by central temperature measurement in the urinary bladder. After 24 hours, rewarming was initiated with a speed of 0.25°C/h to a target temperature of 36.5℃ (± 0.3℃). To avoid shivering in the mild therapeutic hypothermia group, the patients were treated with a protocol including deep sedation and optional muscle relaxation.",
+          "armGroupLabels": [
+            "Mild therapeutic hypothermia"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Myocardial Salvage Index (MSI)",
+          "description": "Myocardial Salvage Index (MSI) is measured by 99mTc-sestamibi single photon emission tomography at day 3 (± 1 day) post-percutaneous coronary intervention, calculated as MSI = (area at risk-final infarct size)/area at risk, where area at risk is the area at risk and final infarct size is the final infarct size.",
+          "timeFrame": "3 day (± 1 day) post-percutaneous coronary intervention"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Area under the curve of serum creatine kinase-MB within 72 hours post-percutaneous coronary intervention",
+          "timeFrame": "72 hours post-percutaneous coronary intervention"
+        },
+        {
+          "measure": "Area under the curve of serum cardiac troponin I within 72 hours post-percutaneous coronary intervention",
+          "timeFrame": "72 hours post-percutaneous coronary intervention"
+        },
+        {
+          "measure": "Cardiac function",
+          "description": "Echocardiographic indicators, including left ventricular ejection fraction, cardiac index, left ventricular end-systolic volume index, left ventricular end-diastolic volume index, the ratio of early diastolic filling velocity to atrial systolic filling velocity, maximum rate of left ventricular pressure rise/decline, measured every 24 hours post-percutaneous coronary intervention",
+          "timeFrame": "Baseline, and every 24 hours post-percutaneous coronary intervention up to discharge."
+        },
+        {
+          "measure": "Serum N-terminal pro-B-type natriuretic peptide levels",
+          "description": "Serum N-terminal pro-B-type natriuretic peptide measured every 4 hours post-percutaneous coronary intervention",
+          "timeFrame": "Baseline, and every 4 hours post-percutaneous coronary intervention up to discharge."
+        },
+        {
+          "measure": "Arterial blood lactate levels",
+          "description": "Arterial blood lactate levels measured every 4 hours post-percutaneous coronary intervention",
+          "timeFrame": "Baseline, and every 4 hours post-percutaneous coronary intervention up to discharge."
+        },
+        {
+          "measure": "Major adverse cardiovascular events",
+          "description": "Major adverse cardiovascular events are defined as cardiovascular death, recurrent myocardial infarction, stroke, recurrent shock, urgent or unplanned coronary revascularization, re-hospitalization for heart failure, severe mechanical complications, Bleeding Academic Research Consortium ≥ Grade 3 bleeding, need for renal replacement therapy due to acute kidney injury.",
+          "timeFrame": "24 hours, 7 days, 30 days post-percutaneous coronary intervention, and during hospitalization"
+        },
+        {
+          "measure": "Rates of successful extracorporeal membrane oxygenation weaning",
+          "description": "Successful weaning from extracorporeal membrane oxygenation is defined as survival for more than 24 hours after discontinuation without the need for mechanical circulatory support.",
+          "timeFrame": "Wean off extracorporeal membrane oxygenation after 24 hours"
+        },
+        {
+          "measure": "Rates of heart transplantation, or implantation of left ventricular assist device through study completion",
+          "timeFrame": "At discharge"
+        },
+        {
+          "measure": "Mortality",
+          "description": "All-cause and cardiac-cause mortality",
+          "timeFrame": "24 hours, 7 days, and 30 days post-percutaneous coronary intervention, and during hospitalization"
+        },
+        {
+          "measure": "Extracorporeal membrane oxygenation-related complications",
+          "description": "Extracorporeal membrane oxygenation-related complications included Bleeding Academic Research Consortium ≥ Grade 3 bleeding, thrombosis, thrombocytopenia, stroke, limb ischemia, infection.",
+          "timeFrame": "Up to ECMO weaning"
+        },
+        {
+          "measure": "Mild therapeutic hypothermia-associated safety events",
+          "description": "Mild therapeutic hypothermia-associated safety events included Bleeding Academic Research Consortium ≥ Grade 3 bleeding, infection, hypothermia injury, and transfusion, etc.",
+          "timeFrame": "24 hours, 7 days, and 30 days post-PCI, and during hospitalization"
+        },
+        {
+          "measure": "Mean arterial pressure, and heart rate",
+          "timeFrame": "Baseline, and every 4 hours post-percutaneous coronary intervention up to discharge."
+        },
+        {
+          "measure": "Blood routine examination",
+          "description": "Blood routine examination included red blood cell (RBC) count, hemoglobin, hematocrit, mean corpuscular volume, mean corpuscular hemoglobin, mean corpuscular hemoglobin concentration, red cell distribution width, white blood cell (WBC) count, platelet count, mean platelet volume, platelet distribution width, platelet crit.",
+          "timeFrame": "Baseline, and every 4 hours post-percutaneous coronary intervention up to discharge."
+        },
+        {
+          "measure": "Coagulation function monitoring",
+          "description": "Coagulation function monitoring included prothrombin time, activated partial thromboplastin time, thrombin time, fibrinogen, D-Dimer.",
+          "timeFrame": "Baseline, and every 4 hours post-percutaneous coronary intervention up to discharge."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patients diagnosed with acute myocardial infarction complicated by cardiogenic shock who undergo emergency percutaneous coronary intervention under venoarterial extracorporeal membrane oxygenation support and endotracheal intubation.\n2. Patients diagnosed with anterior wall myocardial infarction.\n3. Aged ≥18 years.\n\nExclusion Criteria:\n\n1. Cardiogenic shock lasting more than 12 hours or a history of chronic congestive heart failure.\n2. History of prior coronary artery intervention, coronary artery bypass grafting, heart transplantation, heart-lung transplantation, or left ventricular assist device implantation.\n3. Cardiogenic shock associated with mechanical complications of acute myocardial infarction, such as ventricular septal rupture, acute mitral regurgitation, acute ventricular septal defect, and cardiac tamponade.\n4. Refractory out-of-hospital cardiac arrest or cardiopulmonary resuscitation lasting longer than 45 minutes.\n5. Known end-stage renal disease (e.g., on dialysis or post-kidney transplantation) or severe liver failure (e.g., cirrhosis or acute hepatitis).\n6. Contraindications to hypothermia therapy, such as cryoglobulinemia, sickle cell disease, cold agglutinin disease, and vasospastic disorders (e.g., Raynaud's disease and thromboangiitis obliterans).\n7. Refusal to undergo 99mTc-sestamibi single photon emission tomography imaging or presence of known or suspected contraindications to 99mTc-sestamibi single photon emission tomography imaging.\n8. Pregnency.\n9. Currently participation in other interventional clinical trials.\n10. Refusal to sign informed consent related to this trial.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    }
+  },
+  "hasResults": false
+}

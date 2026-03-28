@@ -1,0 +1,302 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06108427",
+      "orgStudyIdInfo": {
+        "id": "RETAME-PA"
+      },
+      "organization": {
+        "fullName": "Centre Integre Universitaire de Sante et Services Sociaux du Nord de l'ile de Montreal",
+        "class": "OTHER"
+      },
+      "briefTitle": "REnin-guided TherApy With MinEralocorticoid Receptor Antagonists in Primary Aldosteronism - Feasibility Study",
+      "officialTitle": "REnin-guided TherApy With MinEralocorticoid Receptor Antagonists in Primary Aldosteronism - Feasibility Study",
+      "acronym": "RETAME-PA"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-07",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-04-25",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-09",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-10-25",
+      "studyFirstSubmitQcDate": "2023-10-25",
+      "studyFirstPostDateStruct": {
+        "date": "2023-10-31",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-07-17",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-07-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Remi Goupil, MD MSc",
+        "investigatorTitle": "Associate Professor of Clinic",
+        "investigatorAffiliation": "Centre Integre Universitaire de Sante et Services Sociaux du Nord de l'ile de Montreal"
+      },
+      "leadSponsor": {
+        "name": "Centre Integre Universitaire de Sante et Services Sociaux du Nord de l'ile de Montreal",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "High blood pressure, or hypertension, can be caused by a condition called Primary Aldosteronism (PA), where the body produces too much of a hormone called aldosterone. People with PA have a higher risk of heart problems compared to those with regular high blood pressure. To treat PA, some patients need to take medicine called mineralocorticoid receptor antagonists (MRA) for the rest of their lives. While treatment with MRA is effective, it can have side effects like high levels of potassium in the blood, breast enlargement in men, menstrual problems in women, and reduced sex drive. Finding the right dose of MRA for each patient can be tricky.\n\nRecent observations suggest that when a hormone called renin goes up during MRA treatment, it might be a good sign. This is because renin is higher when the action of aldosterone is well blocked. But it's not certain if this happens because of the patient's unique characteristics or if it can truly be a way to know if the treatment is working.\n\nThis study aims to find out if guiding MRA treatment with renin levels leads to more patients having unsuppressed renin levels compared to the standard of care.\n\nThis is a multicentric pragmatic clinical trial. Patients with a new diagnosis of PA and low renin levels will be asked if there are willing to participate. Those with recent use of MRA, known MRA intolerance, severe kidney problems, or have high potassium levels will not be able to participate.\n\nParticipants will be randomized into two groups: one group will have their MRA treatment adjusted based on renin levels (the \"renin-guided\" group), and the other group won't have renin levels checked during treatment (the \"renin-blinded\" group). Both groups will aim to have their blood pressure under control and potassium levels in the normal range.\n\nThe main outcome is the proportion in each group with unsuppressed renin levels after 12 months. Other outcomes will be tested, such as changes in renin levels, how well the treatment works, and any safety concerns (like potassium levels, kidney function, side effects, and blood pressure changes). Different groups of patients will also be looked at separately, like men and women, different ages, races, and initial renin levels, to see if the approach works better for some people.\n\nThis study will help find a safe and effective way to treat PA with MRA. Choosing the right dose of MRA is important to adequately block aldosterone but also to avoid side effects."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Primary Aldosteronism"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 58,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Renin-guided arm",
+          "type": "EXPERIMENTAL",
+          "description": "Renin levels will be measured prior to each follow-up appointment and MRA therapy will be titrated to achieve renin unsuppression and normokalemia. Once this is achieved, any other class of antihypertensive drugs mais be used to achieve normal BP levels.",
+          "interventionNames": [
+            "Other: Renin measurements"
+          ]
+        },
+        {
+          "label": "Renin-blinded arm",
+          "type": "NO_INTERVENTION",
+          "description": "No measurements of renin levels will be allowed during follow-up. MRA therapy will be titrated to achieve normokalemia. Once this is achieved, any other class of antihypertensive drugs mais be used to achieve normal BP levels."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Renin measurements",
+          "description": "Use of plasma renin measurements to guide MRA dosing, aiming for plasma renin unsuppression",
+          "armGroupLabels": [
+            "Renin-guided arm"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Proportion of participants with unsuppressed renin",
+          "description": "Proportion of participants with plasma renin concentration \\>15 mIU/L or \\>10 ng/L, or plasma renin activity \\>1 ng/mL/h",
+          "timeFrame": "12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Relative change in renin levels from baseline",
+          "description": "Relative change in renin levels from baseline",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Office-based systolic and diastolic BP",
+          "description": "Office-based systolic and diastolic BP",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Central systolic and diastolic BP",
+          "description": "Central systolic and diastolic BP",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Absolute change in left ventricular mass index from baseline",
+          "description": "Absolute change in left ventricular mass index from baseline",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Defined daily dose of mineralocorticoid receptor antagonists",
+          "description": "Defined daily dose of mineralocorticoid receptor antagonists",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Defined daily dose of all antihypertensive medications (including mineralocorticoid receptor antagonists)",
+          "description": "Defined daily dose of all antihypertensive medications (including mineralocorticoid receptor antagonists)",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Health-related quality of life (SF-36 questionnaire)",
+          "description": "Health-related quality of life (SF-36 questionnaire): Score of 0 to 100 with highest better",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Health-related quality of life (primary aldosteronism-specific questionnaire)",
+          "description": "Health-related quality of life (primary aldosteronism-specific questionnaire): Score of 0 to 112 with highest worse",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Albumin/creatinine ratio",
+          "description": "Albumin/creatinine ratio",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Serum potassium levels",
+          "description": "Serum potassium levels",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Change in eGFR",
+          "description": "Change in eGFR",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Proportion of participants with MRA discontinuation, switch or dose-reduction due to side effects or hyperkalemia",
+          "description": "Proportion of participants with MRA discontinuation, switch or dose-reduction due to side effects or hyperkalemia",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Acute kidney injury (>50% increase in serum creatinine)",
+          "description": "\\>50% increase in serum creatinine",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Number of participants with progression towards kidney failure",
+          "description": "Number of participants with sustained eGFR loss ≥ 40%, kidney replacement therapy or death from renal failure",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Number of participants with symptomatic orthostatic hypotension, dizziness, light headedness, injurious falls, syncope or any unexpected event that the attending physician believes could be attributed to the intervention",
+          "description": "Number of participants with symptomatic orthostatic hypotension, dizziness, light headedness, injurious falls, syncope or any unexpected event that the attending physician believes could be attributed to the intervention",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Number of participants with cardiovascular adverse events: cardiovascular mortality, myocardial infarction, stroke, heart failure requiring hospitalisation, peripheral artery disease requiring revascularisation (composite and individual categories)",
+          "description": "Number of participants with cardiovascular adverse events: cardiovascular mortality, myocardial infarction, stroke, heart failure requiring hospitalisation, peripheral artery disease requiring revascularisation (composite and individual categories)",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "All-cause hospitalisation",
+          "description": "All-cause hospitalisation",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "All-cause mortality",
+          "description": "All-cause mortality",
+          "timeFrame": "12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Over 18 years of age\n* Diagnosis of PA, in accordance with clinical guidelines and local practice\n* Suppressed plasma renin prior to treatment initiation (plasma renin concentration \\>15 mIU/L or \\>10 ng/L, or plasma renin activity \\>1 ng/mL/h)\n* Planned long-term treatment with mineralocorticoid receptor antagonist\n\nExclusion Criteria:\n\n* Prior use of mineralocorticoid receptor antagonist or any potassium-sparing diuretics in the past 3 months\n* Known intolerance or contraindication to mineralocorticoid receptor antagonist treatment\n* eGFR \\< 30 ml/min/1.73m2 (past 3 months)\n* Baseline serum potassium above \\> 4.8 mmol/L (past 3 months)\n* Deemed medically unsafe to stop medications for the initiation of MRA as monotherapy\n* Pregnancy or breastfeeding\n* Participation in another study that is likely to affect renin or BP levels\n* Inability to provide consent due to cognitive impairment and/or language barrier.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Remi Goupil, MD MSc",
+          "role": "CONTACT",
+          "phone": "1(514)338-2883",
+          "email": "remi.goupil@umontreal.ca"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hôpital du Sacré-Coeur de Montréal",
+          "status": "RECRUITING",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H4J1C5",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Guylaine Marcotte",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Remi Goupil, MD MSc",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "41419284",
+          "type": "DERIVED",
+          "citation": "Merabtine A, Leung AA, Kline GA, Dubrofsky L, Hundemer GL, Goupil R. Renin-guided therapy with mineralocorticoid receptor antagonists in primary aldosteronism: feasibility study (RETAME-PA) - a clinical research protocol for a randomised controlled trial. BMJ Open. 2025 Dec 19;15(12):e111167. doi: 10.1136/bmjopen-2025-111167."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006929",
+          "term": "Hyperaldosteronism"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000308",
+          "term": "Adrenocortical Hyperfunction"
+        },
+        {
+          "id": "D000307",
+          "term": "Adrenal Gland Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

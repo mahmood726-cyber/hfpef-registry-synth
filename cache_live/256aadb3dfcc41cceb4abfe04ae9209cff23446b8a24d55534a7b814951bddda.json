@@ -1,0 +1,1135 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05732727",
+      "orgStudyIdInfo": {
+        "id": "DR210320"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2022-501494-39-00",
+          "type": "OTHER",
+          "domain": "EU CT"
+        }
+      ],
+      "organization": {
+        "fullName": "University Hospital, Tours",
+        "class": "OTHER"
+      },
+      "briefTitle": "Intensification of Blood Pressure Lowering Therapeutics Based on Diuretics Versus Usual Management for Uncontrolled Hypertension IN Patients With Moderate to Severe Chronic Kidney Disease",
+      "officialTitle": "Intensification of Blood Pressure Lowering Therapeutics Based on Diuretics Versus Usual Management for Uncontrolled Hypertension IN Patients With Moderate to Severe Chronic Kidney Disease: an Open Label, a Cluster Randomized Controlled, Phase 3 Trial",
+      "acronym": "THINK"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-11",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-03-28",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2029-03",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-03",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-02-08",
+      "studyFirstSubmitQcDate": "2023-02-08",
+      "studyFirstPostDateStruct": {
+        "date": "2023-02-17",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-11-27",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-01",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University Hospital, Tours",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Chronic kidney disease (CKD) is a major public health issue worldwide. Hypertension is the first risk factor in patients with CKD for mortality, cardiovascular disease and end-stage renal disease. It's now well established that lowering blood pressure (BP) reduces renal and cardiovascular complications in this high-risk population. In the general population, in addition to lifestyle interventions, the strategy to initiate and escalate a BP-lowering drug treatment is well described. The drug therapies recommended to achieve optimal BP control in the general population are the following: blockers of the renin-angiotensin system (angiotensin-converting enzyme inhibitors (ACEi) or angiotensin receptor blockers (ARB)), diuretics (thiazides and thiazide-like diuretics), and calcium channel blockers. For patients with CKD, the guidelines advise to start the BP-lowering agent with ACEi or ARB, but then, there is no strong evidence to support the preferential use of any particular agent in controlling BP and the results of clinical trials are discordant. In the NephroTest cohort, a French cohort of patients with CKD stage 1 to 5, among 2015 patients, 1782 had hypertension, only 54% had a diuretic and 44% had uncontrolled hypertension. In this cohort, extracellular fluid (ECF) overload was an independent determinant of hypertension, uncontrolled hypertension and apparent treatment resistant hypertension. In the same cohort, ECF overload was independently associated with end-stage kidney disease and death. Our hypothesis is that patients with CKD and uncontrolled hypertension are fluid overloaded and that the second line of treatment after an ACEi or an ARB should be a diuretic. We hypothesize that a specific algorithm to lower BP in patients with moderate to severe CKD based on diuretics will be more effective in term of cardiovascular event, mortality and evolution to end-stage kidney disease as compared to standard of care."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Chronic Kidney Disease(CKD)",
+        "Uncontrolled Hypertension"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Cluster randomized controlled",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "The very nature of the intervention assessed prevents any form of blinding, neither for care providers, nor for patients.\n\nHowever, the primary outcome is a composite outcome of events which we plan to adjudicate. As a consequence, the primary outcome will be blindly assessed."
+        }
+      },
+      "enrollmentInfo": {
+        "count": 720,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Experimental group",
+          "type": "EXPERIMENTAL",
+          "description": "Antihypertensive algorithm based on diuretics agents : the clinicians will adjust the drug therapy according to the antihypertensive algorithm based on diuretics agents.",
+          "interventionNames": [
+            "Drug: Antihypertensive algorithm"
+          ]
+        },
+        {
+          "label": "Control group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Standard of care : the clinicians will adapt the antihypertensive strategy according to his own standard of care which can be pharmacological or non-pharmacological therapies.",
+          "interventionNames": [
+            "Drug: Standard of care"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Antihypertensive algorithm",
+          "description": "Antihypertensive algorithm based on diuretics agents",
+          "armGroupLabels": [
+            "Experimental group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Standard of care",
+          "description": "standard of care management for antihypertensive therapy intensification",
+          "armGroupLabels": [
+            "Control group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "End stage kidney disease",
+          "description": "The primary endpoint is a time to event outcome, considering the following composite endpoint:\n\n* End stage kidney disease\n* eGFR decline of at least 40%\n* Cardiovascular events among myocardial infarction, heart failure, hospitalization and stroke\n* All cause mortality",
+          "timeFrame": "Up to 36 months"
+        },
+        {
+          "measure": "eGFR decline of at least 40%",
+          "description": "The primary endpoint is a time to event outcome, considering the following composite endpoint:\n\n* End stage kidney disease\n* eGFR decline of at least 40%\n* Cardiovascular events among myocardial infarction, heart failure, hospitalization and stroke\n* All cause mortality",
+          "timeFrame": "Up to 36 months"
+        },
+        {
+          "measure": "Cardiovascular events",
+          "description": "The primary endpoint is a time to event outcome, considering the following composite endpoint:\n\n* End stage kidney disease\n* eGFR decline of at least 40%\n* Cardiovascular events among myocardial infarction, heart failure, hospitalization and stroke\n* All cause mortality",
+          "timeFrame": "Up to 36 months"
+        },
+        {
+          "measure": "All cause mortality",
+          "description": "The primary endpoint is a time to event outcome, considering the following composite endpoint:\n\n* End stage kidney disease\n* eGFR decline of at least 40%\n* Cardiovascular events among myocardial infarction, heart failure, hospitalization and stroke\n* All cause mortality",
+          "timeFrame": "Up to 36 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Time to end-stage kidney disease",
+          "description": "All components of the composite endpoint will be assessed separately",
+          "timeFrame": "Up to 36 months"
+        },
+        {
+          "measure": "Time to eGFR decrease of at leat 40%",
+          "description": "All components of the composite endpoint will be assessed separately",
+          "timeFrame": "Up to 36 months"
+        },
+        {
+          "measure": "Time to the first cardiovascular event among myocardial infarction, heart failure, hospitalization and stroke",
+          "description": "All components of the composite endpoint will be assessed separately",
+          "timeFrame": "Up to 36 months"
+        },
+        {
+          "measure": "All-cause mortality",
+          "description": "All components of the composite endpoint will be assessed separately",
+          "timeFrame": "Up to 36 months"
+        },
+        {
+          "measure": "Change from baseline in blood pressure",
+          "description": "Systolic and diastolic blood pressure at months 3 and 6 then every 6 months (home blood pressure monitoring and office blood pressure measurement),",
+          "timeFrame": "From baseline and up to 36 months"
+        },
+        {
+          "measure": "Proportion of patients with controlled blood pressure",
+          "description": "Proportion of patients with controlled blood pressure at 2 years (PA\\< 135/85mmHg with home blood pressure monitoring)",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Change from baseline in glomerular filtration rate",
+          "description": "Change from baseline in glomerular filtration rate estimated by CKD-EPI formula at months 3 and 6 then every 6 months",
+          "timeFrame": "From baseline and up to 36 months"
+        },
+        {
+          "measure": "Change from baseline in proteinuria (g/d) or proteinuria /creatinuria (g/g)",
+          "description": "Change from baseline in proteinuria (g/d) or proteinuria /creatinuria (g/g) at months 3 and 6 then every 6 months",
+          "timeFrame": "From baseline and up to 36 months"
+        },
+        {
+          "measure": "Proportion of patients who used at least one diuretic",
+          "timeFrame": "Up to 36 months"
+        },
+        {
+          "measure": "Change from baseline in quality of life",
+          "description": "Change from baseline in quality of life assessed by PROMIS-29 survey each year",
+          "timeFrame": "From baseline and up to 36 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Male or female \\>=18 years with a clinical frailty score ≤5 for patient aged over 80\n* Advanced or moderate chronic kidney disease (eGFR 15 to 44.9 mL/min/1.73m² using CKD-EPI formula)\n* Arterial hypertension treated with at least one blood pressure lowering drug therapy among blockers of the renin-angiotensin system (ACEi or ARB), at the maximal posology tolerated by the patients stable since at least one month. Other blood pressure lowering drug therapies are tolerated in combination with or in the event of intolerance to ACE inhibitors or ARBs.\n* Uncontrolled office BP\n* Uncontrolled office BP (\\>140 and/or 90 mmHg) confirmed by home blood pressure monitoring (\\>135 and/or 85 mmHg) or Day-time Ambulatory Blood Pressure Monitoring\n* Participant covered by or entitled to social security\n* Written informed consent obtained from the participant\n\nExclusion Criteria:\n\n* Patient following any measures of legal presentation\n* Pregnant or breastfeeding woman\n* woman of childbearing without a highly effective contraceptive measure (combined or progestogen-only hormonal contraception associated with inhibition of ovulation, intrauterine device or intrauterine hormone-releasing system)\n* Clinical signs of hypovolemia\n* Symptomatic orthostatic hypotension\n* Hyponatremia (\\<130 mmol/L)\n* Dyskalemia (\\<3,5 mmol/L or \\>5,5 mmol/L)\n* Major adverse cardiovascular event during the last three months: myocardial infarction, heart failure hospitalization, stroke\n* Current medical history of cancer requiring chemotherapy\n* Solid organ transplantation\n* Two or more diuretic agents (loop diuretic, thiazides and thiazide-like diuretics)\n* Mineralocorticoid receptor antagonists\n* Autosomal dominant polycystic kidney disease treated with Tolvaptan\n* Contraindication to diuretics involved in the algorithm\n* Severe heart failure (NYHA III\\_IV)\n* Cirrhosis Child B-C",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Bénédicte Sautenet, MD",
+          "role": "CONTACT",
+          "phone": "02.34.37.96.86",
+          "phoneExt": "+33",
+          "email": "benedicte.sautenet@gmail.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Bénédicte Sautenet, MD",
+          "affiliation": "University Hospital, Tours",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Department of Nephrology, University Hospital of Angers",
+          "status": "RECRUITING",
+          "city": "Angers",
+          "zip": "49933",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Martin PLANCHAIS, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Martin PLANCHAIS, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.47156,
+            "lon": -0.55202
+          }
+        },
+        {
+          "facility": "Department of Nephrology, University Hospital of Bordeaux",
+          "status": "RECRUITING",
+          "city": "Bordeaux",
+          "zip": "33000",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Pierre PFIRMANN, MD-PhD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Pierre PFIRMANN, MD-PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.84124,
+            "lon": -0.58046
+          }
+        },
+        {
+          "facility": "AUB Santé foundation, Brest",
+          "status": "RECRUITING",
+          "city": "Brest",
+          "zip": "29200",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Morgane GOSSELIN, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Morgane GOSSELIN, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.39029,
+            "lon": -4.48628
+          }
+        },
+        {
+          "facility": "Department of Nephrology, University Hospital of Brest",
+          "status": "RECRUITING",
+          "city": "Brest",
+          "zip": "29200",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Yannick LE MEUR, MD-PhD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Yannick LE MEUR, MD-PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.39029,
+            "lon": -4.48628
+          }
+        },
+        {
+          "facility": "Department of Nephrology, Hospital of Chalon-sur-Saône",
+          "status": "RECRUITING",
+          "city": "Chalon-sur-Saône",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Magali LOUIS, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Magali LOUIS, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 46.78112,
+            "lon": 4.85372
+          }
+        },
+        {
+          "facility": "Department of Nephrology, Hospital of Chartres",
+          "status": "RECRUITING",
+          "city": "Chartres",
+          "zip": "28630",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Nestor NANKEU, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Nestor NANKEU, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.44685,
+            "lon": 1.48925
+          }
+        },
+        {
+          "facility": "Department of Nephrology, University Hospital of Clermont-Ferrand",
+          "status": "RECRUITING",
+          "city": "Clermont-Ferrand",
+          "zip": "63001",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Julien ANIORT, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Julien ANIORT, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.77969,
+            "lon": 3.08682
+          }
+        },
+        {
+          "facility": "Department of Nephrology, Hospital of Colmar",
+          "status": "RECRUITING",
+          "city": "Colmar",
+          "zip": "68024",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Alexandre KLEIN, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Alexandre KLEIN, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.08078,
+            "lon": 7.35584
+          }
+        },
+        {
+          "facility": "Department of Nephrology, University Hospital of Grenoble",
+          "status": "RECRUITING",
+          "city": "Grenoble",
+          "zip": "38043",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Pierre Louis CARRON, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Pierre Louis CARRON, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.17869,
+            "lon": 5.71479
+          }
+        },
+        {
+          "facility": "Department of Nephrology, Hospital of Haguenau",
+          "status": "RECRUITING",
+          "city": "Haguenau",
+          "zip": "67500",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Julien OTT, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Julien OTT, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.81557,
+            "lon": 7.79051
+          }
+        },
+        {
+          "facility": "Department of Nephrology, Departemental Hospital of Vendée",
+          "status": "RECRUITING",
+          "city": "La Roche-sur-Yon",
+          "zip": "85925",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Anne Hélène QUERARD, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Anne Hélène QUERARD, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 46.66974,
+            "lon": -1.42757
+          }
+        },
+        {
+          "facility": "ECHO Santé Association, Le Mans",
+          "status": "RECRUITING",
+          "city": "Le Mans",
+          "zip": "72100",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Louis Marie VERNIER, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Louis Marie VERNIER, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.0021,
+            "lon": 0.20251
+          }
+        },
+        {
+          "facility": "Department of Nephrology, Hospital of Le Puy en Velay",
+          "status": "RECRUITING",
+          "city": "Le Puy-en-Velay",
+          "zip": "43012",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Marc BOUILLER, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Marc BOUILLER, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.04366,
+            "lon": 3.88523
+          }
+        },
+        {
+          "facility": "Department of Nephrology, University Hospital of Lille",
+          "status": "RECRUITING",
+          "city": "Lille",
+          "zip": "59000",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Marie FRIMAT, Md-PhD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Marie FRIMAT, Md-PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.63391,
+            "lon": 3.05512
+          }
+        },
+        {
+          "facility": "Department of Nephrology, University Hospital of Limoges",
+          "status": "RECRUITING",
+          "city": "Limoges",
+          "zip": "87042",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Fatouma TOURE, MD-PhD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Fatima TOURE, MD-PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.83362,
+            "lon": 1.24759
+          }
+        },
+        {
+          "facility": "AUB Santé foundation, Lorient",
+          "status": "RECRUITING",
+          "city": "Lorient",
+          "zip": "56100",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Gabrielle DUNEAU, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Gabrielle DUNEAU, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.74817,
+            "lon": -3.37177
+          }
+        },
+        {
+          "facility": "Department of Nephrology, University Hospital of Lyon",
+          "status": "RECRUITING",
+          "city": "Lyon",
+          "zip": "69003",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Jean Pierre FAUVEL, MD-PhD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Jean Pierre FAUVEL, MD-PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.74906,
+            "lon": 4.84789
+          }
+        },
+        {
+          "facility": "Department of Nephrology, University Hospital of Marseille",
+          "status": "RECRUITING",
+          "city": "Marseille",
+          "zip": "13005",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Stéphane BURTEY, MD-PhD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Stéphane BURTEY, MD-PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.29695,
+            "lon": 5.38107
+          }
+        },
+        {
+          "facility": "Department of Nephrology, Regional Hospital of Metz",
+          "status": "RECRUITING",
+          "city": "Metz",
+          "zip": "57085",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Thomas QUINAUX, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Thomas QUINAUX, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 49.11911,
+            "lon": 6.17269
+          }
+        },
+        {
+          "facility": "Department of Nephrology, Régional Hospital of Mulhouse",
+          "status": "RECRUITING",
+          "city": "Mulhouse",
+          "zip": "68100",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "François CHANTREL, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "François CHANTREL, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.75205,
+            "lon": 7.32866
+          }
+        },
+        {
+          "facility": "Department of Nephrology, University Hospital of Nantes",
+          "status": "RECRUITING",
+          "city": "Nantes",
+          "zip": "44093",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Caroline GOURRAUD VERCEL, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Caroline GOURRAUD VERCEL, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.21725,
+            "lon": -1.55336
+          }
+        },
+        {
+          "facility": "ECHO Santé Association, Nantes",
+          "status": "RECRUITING",
+          "city": "Nantes",
+          "zip": "44402",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Lila GHOUTI TERKI, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Lila GHOUTI TERKI, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.21725,
+            "lon": -1.55336
+          }
+        },
+        {
+          "facility": "Department of Nephrology, University Hospital of Nîmes",
+          "status": "RECRUITING",
+          "city": "Nîmes",
+          "zip": "30029",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Olivier MORANNE, MD-PhD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Olivier MORANNE, MD-PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.83665,
+            "lon": 4.35788
+          }
+        },
+        {
+          "facility": "Department of Nephrology, Hospital of Orléans",
+          "status": "RECRUITING",
+          "city": "Orléans",
+          "zip": "45067",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Marion DEKEYSER, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Marion DEKEYSER, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.90248,
+            "lon": 1.90407
+          }
+        },
+        {
+          "facility": "Department of Nephrology, European Hospital Georges Pompidou, AP-HP",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Paris",
+          "zip": "75015",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Department of Nephrology, Necker Hospital, AP-HP",
+          "status": "RECRUITING",
+          "city": "Paris",
+          "zip": "75015",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Dominique JOLY, MD-PhD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Dominique JOLY, MD-PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Department of Nephrology, Bichat Hospital, AP-HP",
+          "status": "RECRUITING",
+          "city": "Paris",
+          "zip": "75018",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "François VRTOVSNIK, MD-PhD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "François VRTOVSNIK, MD-PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Department of Nephrology, Tenon Hospital, AP-HP",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Paris",
+          "zip": "75020",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Department of Nephrology, Hospital of Perpignan",
+          "status": "RECRUITING",
+          "city": "Perpignan",
+          "zip": "66046",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Sébastien CANET, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Sébastien CANET, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.69764,
+            "lon": 2.89541
+          }
+        },
+        {
+          "facility": "Department of Nephrology, University Hospital of Reims",
+          "status": "RECRUITING",
+          "city": "Reims",
+          "zip": "51092",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Pierre Guillaume DELIEGE, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Pierre Guillaume DELIEGE, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 49.26526,
+            "lon": 4.02853
+          }
+        },
+        {
+          "facility": "Department of Nephrology, University Hospital of Rennes",
+          "status": "RECRUITING",
+          "city": "Rennes",
+          "zip": "35033",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Thierry FROUGET, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Thierry FROUGET, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.11109,
+            "lon": -1.67431
+          }
+        },
+        {
+          "facility": "Department of Nephrology, Hospital of Roubaix",
+          "status": "RECRUITING",
+          "city": "Roubaix",
+          "zip": "59100",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Thomas GUINCESTRE, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Thomas GUINCESTRE, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.69421,
+            "lon": 3.17456
+          }
+        },
+        {
+          "facility": "Department of Nephrology, University Hospital of Rouen",
+          "status": "RECRUITING",
+          "city": "Rouen",
+          "zip": "76230",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Dominique GUERROT, MD-PHD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Dominique GUERROT, MD-PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 49.44313,
+            "lon": 1.09932
+          }
+        },
+        {
+          "facility": "Department of Nephrology, University Hospital of Saint Etienne",
+          "status": "RECRUITING",
+          "city": "Saint-Etienne",
+          "zip": "42270",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Christophe MARIAT, MD-PhD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Christophe MARIAT, MD-PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.43389,
+            "lon": 4.39
+          }
+        },
+        {
+          "facility": "ECHO Santé Association, Saint Herblain",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Saint-Herblain",
+          "zip": "44819",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.21154,
+            "lon": -1.651
+          }
+        },
+        {
+          "facility": "Department of Nephrology, Hospital of Saint Malo",
+          "status": "RECRUITING",
+          "city": "St-Malo",
+          "zip": "35400",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Eric RENAUDINEAU, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Eric RENAUDINEAU, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.64738,
+            "lon": -2.00877
+          }
+        },
+        {
+          "facility": "Department of Nephrology, Hospital of Strasbourg",
+          "status": "RECRUITING",
+          "city": "Strasbourg",
+          "zip": "67000",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Nans FLORENS, MD-PhD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Nans FLORENS, MD-PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.58392,
+            "lon": 7.74553
+          }
+        },
+        {
+          "facility": "Department of Nephrology, University Hospital of Tours",
+          "status": "RECRUITING",
+          "city": "Tours",
+          "zip": "37044",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Bénédicte SAUTENET, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Bénédicte SAUTENET, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.39484,
+            "lon": 0.70398
+          }
+        },
+        {
+          "facility": "Department of Nephrology, Hospital of Valenciennes",
+          "status": "RECRUITING",
+          "city": "Valenciennes",
+          "zip": "59322",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Marc ULRICH, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Marc ULRICH, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.35909,
+            "lon": 3.52506
+          }
+        },
+        {
+          "facility": "Department of Nephrology, University Hospital of Nancy",
+          "status": "RECRUITING",
+          "city": "Vandœuvre-lès-Nancy",
+          "zip": "54511",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Adrien FLAHAULT, MD-PhD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Adrien v, MD-PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.66115,
+            "lon": 6.17114
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D051436",
+          "term": "Renal Insufficiency, Chronic"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D051437",
+          "term": "Renal Insufficiency"
+        },
+        {
+          "id": "D007674",
+          "term": "Kidney Diseases"
+        },
+        {
+          "id": "D014570",
+          "term": "Urologic Diseases"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D052801",
+          "term": "Male Urogenital Diseases"
+        },
+        {
+          "id": "D002908",
+          "term": "Chronic Disease"
+        },
+        {
+          "id": "D020969",
+          "term": "Disease Attributes"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D059039",
+          "term": "Standard of Care"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D019984",
+          "term": "Quality Indicators, Health Care"
+        },
+        {
+          "id": "D011787",
+          "term": "Quality of Health Care"
+        },
+        {
+          "id": "D006298",
+          "term": "Health Services Administration"
+        },
+        {
+          "id": "D017530",
+          "term": "Health Care Quality, Access, and Evaluation"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

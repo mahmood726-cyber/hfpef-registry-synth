@@ -1,0 +1,4246 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03276728",
+      "orgStudyIdInfo": {
+        "id": "20150183"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2017-002940-34",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Amgen",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Study to Evaluate the Safety and Tolerability of AMG 986 in Healthy Volunteers and Heart Failure Patients",
+      "officialTitle": "A Phase I, Randomized, Double-Blind, Placebo-Controlled, Single and Multiple Ascending Dose Study to Evaluate the Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of AMG 986 in Healthy Subjects and Heart Failure Patients"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-03",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Terminated (Decision by the Sponsor. The study was not terminated due to a safety reason.)",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-08-12",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2019-04-18",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2019-04-18",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-08-17",
+      "studyFirstSubmitQcDate": "2017-09-06",
+      "studyFirstPostDateStruct": {
+        "date": "2017-09-08",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2022-03-30",
+      "resultsFirstSubmitQcDate": "2022-03-30",
+      "resultsFirstPostDateStruct": {
+        "date": "2022-08-08",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-03-30",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-08-08",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Amgen",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "To evaluate the safety and tolerability of ascending single (Part A) and ascending multiple (Part B) doses of AMG 986 in healthy adults and of ascending multiple oral doses of AMG 986 in heart failure patients (Part C).",
+      "detailedDescription": "This study is a randomized, placebo-controlled, double-blind, single day ascending dose (SDAD) study (Part A), a multiple daily ascending dose (MDAD) study (Part B), in healthy adults, and a MDAD study (Part C) in heart failure patients. In Parts A and B of the study, healthy volunteers will receive AMG 986 by continuous IV infusion or by oral administration in a fasted state. IV Infusions will be divided into an initial loading dose (LD) for the first hour followed immediately by a maintenance dose (MD).\n\nIn Part C of the study, patients with heart failure and either reduced (HFrEF) or preserved (HFpEF) ejection fraction will receive MDAD of AMG 986 or matching placebo once daily by oral administration for 21 days."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure",
+        "Healthy Volunteer"
+      ],
+      "keywords": [
+        "Heart Failure",
+        "Cardiovascular Diseases",
+        "Heart Diseases",
+        "Ejection fraction",
+        "Heart Failure with reduced ejection fraction",
+        "Heart Failure with preserved ejection fraction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Double-blind, placebo-controlled",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "Double-blinded",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 182,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Part A: Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Healthy participants were administered placebo either intravenously (IV) or by mouth (PO) to match the 5 IV cohorts and 6 PO cohorts of AMG 986.",
+          "interventionNames": [
+            "Drug: Placebo PO",
+            "Drug: Placebo IV"
+          ]
+        },
+        {
+          "label": "Part A: AMG 986",
+          "type": "EXPERIMENTAL",
+          "description": "Healthy participants were administered a single dose of AMG 986 either IV or PO. The 5 IV cohorts started at a 0.5 mg loading dose over one hour up to to the Cohort 5 IV dosage consisting of a 60 mg loading dose over 1 hour and a 360 mg maintenance dose lasting 23 hours. The 6 PO cohorts started at a single 5 mg dose up to the Cohort 6 PO dose of 650 mg.",
+          "interventionNames": [
+            "Drug: AMG 986 IV",
+            "Drug: AMG 986 PO"
+          ]
+        },
+        {
+          "label": "Part B: Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Healthy participants were administered placebo either IV for 4 consecutive days or PO for 7 days to match the 2 IV cohorts and 6 PO cohorts of AMG 986.",
+          "interventionNames": [
+            "Drug: Placebo PO",
+            "Drug: Placebo IV"
+          ]
+        },
+        {
+          "label": "Part B: AMG 986",
+          "type": "EXPERIMENTAL",
+          "description": "Healthy participants were administered AMG 986 either IV or PO. IV cohort 1 was administered a loading dose of 6 mg over one hour followed by maintenance doses of 36 mg lasting 23 hours on Day 1 and 38 mg lasting 24 hours on Days 2-4. IV cohort 2 was administered a loading dose of 60 mg over one hour followed by maintenance doses of 360 mg lasting 23 hours on Day 1 and 376 mg lasting 24 hours on Days 2-4. The 6 PO cohorts started at 5 mg for 7 days up to Cohort 6 PO dose of 650 mg for 7 days.",
+          "interventionNames": [
+            "Drug: AMG 986 IV",
+            "Drug: AMG 986 PO"
+          ]
+        },
+        {
+          "label": "Part C: HFrEF Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants with heart failure with reduced ejection fraction (HFrEF) were administered a single PO placebo tablet daily from Days 1-21.",
+          "interventionNames": [
+            "Drug: Placebo PO"
+          ]
+        },
+        {
+          "label": "Part C: HFpEF Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants with heart failure with preserved ejection fraction (HFpEF) were administered a single PO placebo tablet daily from Days 1-21.",
+          "interventionNames": [
+            "Drug: Placebo PO"
+          ]
+        },
+        {
+          "label": "Part C: HFrEF AMG 986",
+          "type": "EXPERIMENTAL",
+          "description": "Participants with heart failure with reduced ejection fraction (HFrEF) were administered a single PO AMG 986 tablet daily from Days 1-21 in ascending doses of 10 mg for Days 1-7, 30 mg for Days 8-14 and 100 mg for days 15-21.",
+          "interventionNames": [
+            "Drug: AMG 986 PO"
+          ]
+        },
+        {
+          "label": "Part C: HFpEF AMG 986",
+          "type": "EXPERIMENTAL",
+          "description": "Participants with heart failure with preserved ejection fraction (HFpEF) were administered a single PO AMG 986 tablet daily from Days 1-21 in ascending doses of 10 mg for Days 1-7, 30 mg for Days 8-14 and 100 mg for days 15-21.",
+          "interventionNames": [
+            "Drug: AMG 986 PO"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "AMG 986 IV",
+          "description": "AMG 986 solution for infusion",
+          "armGroupLabels": [
+            "Part A: AMG 986",
+            "Part B: AMG 986"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "AMG 986 PO",
+          "description": "AMG 986 tablets for oral (PO) administration",
+          "armGroupLabels": [
+            "Part A: AMG 986",
+            "Part B: AMG 986",
+            "Part C: HFpEF AMG 986",
+            "Part C: HFrEF AMG 986"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo PO",
+          "description": "Matching placebo tablets for oral administration",
+          "armGroupLabels": [
+            "Part A: Placebo",
+            "Part B: Placebo",
+            "Part C: HFpEF Placebo",
+            "Part C: HFrEF Placebo"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo IV",
+          "description": "Matching placebo solution for infusion",
+          "armGroupLabels": [
+            "Part A: Placebo",
+            "Part B: Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Participants With Treatment Emergent Adverse Events (TEAE)",
+          "description": "An adverse event is defined as any untoward medical occurrence in a clinical trial subject. The event does not necessarily have a causal relationship with study treatment. Events categorized as TEAEs started on or after first dose of study drug and include up to 30 days after the last dose.\n\nA serious AE is an AE that met one or more of the following criteria:\n\n* Death\n* Life-threatening\n* Required inpatient hospitalization or prolongation of an existing hospitalization\n* Resulted in persistent or significant disability/incapacity\n* A congenital anomaly/birth defect\n* Important medical events that required medical or surgical intervention to prevent one of the outcomes above.",
+          "timeFrame": "Part A: Day 1 up to Day 31 Part B: Day 1 up to Day 37 Part C: Day 1 up to Day 51"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Left Ventricular Ejection Fraction by Visit for Part C Heart Failure With Reduced Ejection Fraction (HFrEF) Cohort",
+          "description": "Heart failure (HF) refers to a clinical condition in which the cardiac output is insufficient to meet the metabolic needs of body organs and is marked by cardiac systolic and/or diastolic dysfunction. Heart failure with predominantly systolic dysfunction, which is identifiable as decreased contraction, is more aptly described as heart failure with reduced ejection fraction (HFrEF). Ejection fraction is a measurement, expressed as a percentage, of how much blood the left ventricle pumps out with each contraction and is measured by echocardiogram.",
+          "timeFrame": "Baseline (Day 1 predose), Day 8, Day 15, Day 21, Day 30"
+        },
+        {
+          "measure": "Stroke Volume (Method of Disks, Volumetric Assessment) by Visit for Part C Heart Failure With Reduced Ejection Fraction (HFrEF) Cohort",
+          "description": "Stroke volume is the amount of blood pumped by the left ventricle of the heart in one contraction reported by volumetric method of disks (MoD) assessment.",
+          "timeFrame": "Baseline (Day 1 predose), Day 8, Day 15, Day 21, Day 30"
+        },
+        {
+          "measure": "Stroke Volume (Left Ventricular Outflow Tract Using Doppler Assessment) by Visit for Part C Heart Failure With Reduced Ejection Fraction (HFrEF) Cohort",
+          "description": "Stroke volume is the amount of blood pumped by the left ventricle of the heart in one contraction as measured using left ventricular outflow tract (LVOT) Doppler assessment.",
+          "timeFrame": "Baseline (Day 1 predose), Day 8, Day 15, Day 21, Day 30"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria\n\n* Subject has provided informed consent prior to initiation of any study-specific activities/procedures.\n* Male and female subjects ≥ 18 to ≤ 55 years old with no history or evidence of clinically relevant medical disorders as determined by the investigator and the Amgen physician (Parts A and B only)\n* Body mass index (BMI) between 18 and 35 kg/m\\^2, inclusive, at screening.\n* Physical examination including vital signs, clinical laboratory values, and electrocardiograms (ECGs) are clinically acceptable to the investigator. Abnormal findings for healthy volunteers and unexpected findings for heart failure patient subjects will be discussed with Amgen prior to study enrollment.\n* Women must be of non-reproductive potential (ie, postmenopausal)\n* Men must agree to practice an acceptable method of effective birth control while on study through 11 weeks after receiving the last dose of investigational product (AMG 986 or placebo). Acceptable methods of effective birth control include sexual abstinence; vasectomy and testing that shows there are no sperm in the semen; or a condom with spermicide (men) in combination with barrier methods (diaphragm, cervical cap or cervical sponge), hormonal birth control or IUS (women).\n* Men must be willing to abstain from sperm donation while on study through 11 weeks after receiving the last dose of investigational product (AMG 986 or placebo).\n* This inclusion criterion only applies to Parts B and C cohorts. Before inclusion in the study, subjects will undergo a screening echocardiogram to ensure that the following parameters can be accurately measured: left ventricular end-systolic and end-diastolic volumes, left atrial end-systolic and end-diastolic volumes, ejection fraction, fraction shortening, and end-systolic septal and posterior wall thickness.\n\nFor Part C\n\nAdditional Inclusion Criteria for HFrEF Patients:\n\n* Subject must be of age 18 to 85 years, have a diagnosis of HF confirmed by medical records for ≥ 3 months, and be in stable condition for at least 4 weeks.\n* Left ventricular ejection fraction (LVEF) ≤ 40% confirmed by echocardiogram, radionuclide ventriculography, cardiac magnetic resonance imaging, or contrast ventriculography within 12 months prior to randomization.\n* New York Heart Association (NYHA) class II or III at screening\n* Sinus rhythm\n* N-terminal pro b-type natriuretic peptide (NT-proBNP) level ≥ 250 pg/ml\n* Patients will be treated with stable, optimal pharmacological therapy for a minimum of 4 weeks prior to randomization. Treatment of HFrEF includes at least beta-blockers (carvedilol, metoprolol succinate or bisoprolol) and a RAAS inhibitor (ACEi, ARB or sacubitril/valsartan).\n\nAdditional Inclusion Criteria for HFpEF patients:\n\n* Subject must be of age of 18 to 85 years, have a diagnosis of HF confirmed by medical records for ≥ 3 months, and be in stable condition for at least 4 weeks.\n* LVEF ≥ 50% confirmed by echocardiogram, radionuclide ventriculography, cardiac magnetic resonance imaging, or contrast ventriculography within 12 months prior to randomization.\n* LVEF never ≤ 40% in the past\n* NYHA class II or III at screening\n* Sinus rhythm\n* NT-proBNP level ≥ 250 pg/ml\n* Patients will be treated with stable, optimal pharmacological therapy for a minimum of 4 weeks prior to randomization. Treatment of HFpEF includes at least a daily dose of diuretics equivalent to furosemide 40 mg.\n* For subjects in Parts A, B and C: Women must have negative results for both the screening (serum) and day -1 (serum or urine) pregnancy tests\n\nExclusion Criteria\n\n* Currently receiving treatment in another investigational device or drug study, or less than 30 days or 5 half-lives (whichever is longer), since ending treatment on another investigational device or drug study(s) prior to receiving the first dose of investigational product (AMG 986 or placebo).\n* Female subjects who are lactating/breastfeeding or who plan to breastfeed while on study through 11 weeks after receiving the last dose of investigational product (AMG 986 or placebo).\n* Male subjects with partners who are pregnant or planning to become pregnant while the subject is on study through 11 weeks after receiving the last dose of investigational product (AMG 986 or placebo).\n* Female subjects of reproductive potential.\n* Subjects in Parts A and B of the study: estimated glomerular filtration rate (eGFR) within the screening period of less than 60 mL/min/1.73m\\^2 as calculated using the estimated Modification of Diet in Renal Disease (MDRD) formula.\n* Current or prior malignancy within 5 years of randomization, with the exception of non-melanoma skin cancers, cervical or breast ductal carcinoma in situ, and adenocarcinoma of the prostate Stage I or IIa (defined as T1, T2a or T2b, N0, M0 with documented serum prostate-specific antigen (PSA) \\< 20 ng/mL and Gleason score ≤ 7) per the American Joint Committee on Cancer (AJCC) primary tumor, regional lymph nodes, and distant metastasis system.\n* Positive results for human immunodeficiency virus (HIV), antibodies, hepatitis B surface antigen (HBsAg), or hepatitis C antibodies (HepCAb).\n* Subject has known sensitivity to any of the products or components to be administered during dosing.\n* Subject likely to not be available to complete all protocol required study visits or procedures, and/or to comply with all required study procedures to the best of the subject and investigator's knowledge.\n* History or evidence of any other clinically significant disorder, condition or disease with the exception of those outlined above that, in the opinion of the investigator or Amgen physician, if consulted, would pose a risk to subject safety or interfere with the study evaluation, procedures or completion.\n* Subject previously has entered this study or has been previously exposed to AMG 986.\n* Concurrent or prior use of strong CYP3A4 inhibitors within 14 days of study Day 1, including (not limited to): macrolide antibiotics (eg, clarithromycin, telithromycin), antifungals (eg, itraconazole, voriconazole), antivirals (eg, ritonavir, saquinavir, indinavir, nelfinavir), nefazodone.\n* Concurrent or prior ingestion of grapefruit or grapefruit products and other foods that are known to inhibit CYP3A4 within 7 days of study Day 1.\n* Concurrent or prior use of strong CYP3A4 inducers within 28 days of study Day 1, Including (not limited to): phenytoin, carbamazepine, rifampin, rifabutin, rifapentin, phenobarbital. Subjects should also not take St John's Wort.\n* Concurrent or prior use of strong P-glycoprotein inhibitors within 28 days of study Day 1, including (not limited to): elacridar and valspodar.\n* All herbal supplements, vitamins, and nutritional supplements taken within the last 30 days prior to dosing on Day 1 (and continued use, if appropriate), must be reviewed and approved by the PI and Amgen Medical Monitor.\n* For subjects enrolled under Amendments 1-6, inclusive: QTc \\> 450 msec or history/evidence of long QT syndrome.\n* Planned elective surgery within 30 days of study completion or before return of red blood cell parameters to normal values.\n* Blood donation ≥ 500 mL within 60 days of Day 1.\n* Systolic blood pressure \\> 150 mmHg or \\< 90 mmHg, or diastolic blood pressure \\> 95 mmHg or \\< 60 mmHg, assessed on 2 separate occasions prior to enrollment (Parts A and B only).\n* Heart rate ≥ 100 beats per minute after 5 minutes of rest or an untreated symptomatic bradyarrhythmia within 1 month prior to enrollment.\n* For Parts A and B: Troponin I at screening \\> upper limit of normal (ULN).\n* In the opinion of the Investigator, a condition that compromises the ability of the subject to give written informed consent or to comply with study procedures.\n* Unwilling or unable to abstain from nicotine or tobacco containing products (including but not limited to: snuff, chewing tobacco, cigars, cigarettes, pipes, or nicotine patches) throughout the screening period and for the duration of the study.\n* Subjects who are unwilling or unable to limit alcohol consumption to 1 units/day (1 unit = 1 drink and 1 drink is equivalent to 12 ounces of regular beer, 8 to 9 ounces of malt liquor, 5 ounces of wine or 1.5 ounces of 80 proof distilled spirits).\n* Subjects with a positive urine drug screen or alcohol breath test.\n* Known history of drug or alcohol abuse.\n* Concurrent use of phosphodiesterase 5 (PDE5) inhibitors including (not limited to) avanafil, sildenafil, tadalafil, vardenafil.\n* Concurrent use of vasodilators by healthy subjects in Parts A and B that could in the opinion of the investigator potentially lead to a drop in blood pressure in combination with investigational product.\n* Severe uncorrected valvular heart disease, or hypertrophic obstructive cardiomyopathy, active myocarditis, constrictive pericarditis, or clinically significant congenital heart disease.\n* For subjects in Part C of the study: eGFR within the screening period of less than 30 mL/min/1.732m\\^2 as calculated using the MDRD formula.\n* For subjects in Part C of the study: Systolic blood pressure \\> 160 mmHg or \\< 100 mmHg, or diastolic blood pressure \\> 110 mmHg or \\< 60 mmHg, assessed on 2 separate occasions prior to enrollment.\n* For subjects in Part C of the study: troponin I \\> ULN if there is also evidence of an acute cardiovascular event.\n* For subjects enrolled in Part C under Amendment 7: QTc \\> 500 msec or history/evidence of long QT syndrome.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "MD",
+          "affiliation": "Amgen",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Research Site",
+          "city": "Anaheim",
+          "state": "California",
+          "zip": "92801",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.83529,
+            "lon": -117.9145
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Tustin",
+          "state": "California",
+          "zip": "92780",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.74585,
+            "lon": -117.82617
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Jacksonville",
+          "state": "Florida",
+          "zip": "32216",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Metairie",
+          "state": "Louisiana",
+          "zip": "70006",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.98409,
+            "lon": -90.15285
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21201",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Minneapolis",
+          "state": "Minnesota",
+          "zip": "55415",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.97997,
+            "lon": -93.26384
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Las Vegas",
+          "state": "Nevada",
+          "zip": "89148",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.17497,
+            "lon": -115.13722
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Durham",
+          "state": "North Carolina",
+          "zip": "27705",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.99403,
+            "lon": -78.89862
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Auchenflower",
+          "state": "Queensland",
+          "zip": "4066",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -27.47443,
+            "lon": 152.99213
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Bundaberg",
+          "state": "Queensland",
+          "zip": "4670",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -24.86621,
+            "lon": 152.3479
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Leabrook",
+          "state": "South Australia",
+          "zip": "5068",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -34.92976,
+            "lon": 138.65862
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Berwick",
+          "state": "Victoria",
+          "zip": "3806",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -38.03333,
+            "lon": 145.35
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Bundoora",
+          "state": "Victoria",
+          "zip": "3083",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.69825,
+            "lon": 145.05967
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Sherbrooke",
+          "state": "Quebec",
+          "zip": "J1G 2E8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.40008,
+            "lon": -71.89908
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Nantes",
+          "zip": "44093",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.21725,
+            "lon": -1.55336
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Paris",
+          "zip": "75015",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Rennes",
+          "zip": "35033",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.11109,
+            "lon": -1.67431
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Toulouse",
+          "zip": "31059",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.60426,
+            "lon": 1.44367
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Bad Neuheim",
+          "zip": "61231",
+          "country": "Germany"
+        },
+        {
+          "facility": "Research Site",
+          "city": "Berlin",
+          "zip": "13353",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Groningen",
+          "zip": "9713 GZ",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 53.21917,
+            "lon": 6.56667
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Christchurch",
+          "zip": "8011",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -43.53333,
+            "lon": 172.63333
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Józefów",
+          "zip": "05-410",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.13707,
+            "lon": 21.23589
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Wroclaw",
+          "zip": "51-162",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.10286,
+            "lon": 17.03006
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Singapore",
+          "zip": "169609",
+          "country": "Singapore",
+          "geoPoint": {
+            "lat": 1.28967,
+            "lon": 103.85007
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "35460392",
+          "type": "DERIVED",
+          "citation": "Winkle P, Goldsmith S, Koren MJ, Lepage S, Hellawell J, Trivedi A, Tsirtsonis K, Abbasi SA, Kaufman A, Troughton R, Voors A, Hulot JS, Donal E, Kazemi N, Neutel J. A First-in-Human Study of AMG 986, a Novel Apelin Receptor Agonist, in Healthy Subjects and Heart Failure Patients. Cardiovasc Drugs Ther. 2023 Aug;37(4):743-755. doi: 10.1007/s10557-022-07328-w. Epub 2022 Apr 23."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "AmgenTrials clinical trials website",
+          "url": "http://www.amgentrials.com"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "De-identified individual patient data for variables necessary to address the specific research question in an approved data sharing request",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF",
+        "CSR"
+      ],
+      "timeFrame": "Data sharing requests relating to this study will be considered beginning 18 months after the study has ended and either 1) the product and indication (or other new use) have been granted marketing authorization in both the US and Europe or 2) clinical development for the product and/or indication discontinues and the data will not be submitted to regulatory authorities. There is no end date for eligibility to submit a data sharing request for this study.",
+      "accessCriteria": "Qualified researchers may submit a request containing the research objectives, the Amgen product(s) and Amgen study/studies in scope, endpoints/outcomes of interest, statistical analysis plan, data requirements, publication plan, and qualifications of the researcher(s). In general, Amgen does not grant external requests for individual patient data for the purpose of re-evaluating safety and efficacy issues already addressed in the product labelling. Requests are reviewed by a committee of internal advisors, and if not approved, may be further arbitrated by a Data Sharing Independent Review Panel. Upon approval, information necessary to address the research question will be provided under the terms of a data sharing agreement. This may include anonymized individual patient data and/or available supporting documents, containing fragments of analysis code where provided in analysis specifications. Further details are available at the link below.",
+      "url": "https://www.amgen.com/datasharing"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "Within each dose cohort participants were randomized to AMG 986 or placebo in a 3:1 ratio. At the conclusion of each cohort, safety and tolerability of AMG 986 was reviewed before advancing to the next dose cohort.\n\nThe Statistical Analysis Plan for this study specified that AMG 986 and Placebo-treated participants in Part A and Part B would be combined to form pooled AMG 986 and placebo groups, respectively for each Part.",
+      "recruitmentDetails": "Participants were enrolled at 13 study centers in 7 countries (Canada, France, New Zealand, Netherland, Poland, Singapore, United States).\n\nThe study included Parts A, B (healthy volunteers) and C (participants with either heart failure with reduced ejection fraction \\[HFrEF\\] or heart failure with preserved ejection fraction \\[HFpEF\\]). Each part of the study consisted of ascending dose cohorts.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Part A: Placebo Pooled",
+          "description": "Healthy participants were administered placebo either intravenously (IV) or by mouth (PO) to match the 5 IV cohorts and 6 PO cohorts of AMG 986."
+        },
+        {
+          "id": "FG001",
+          "title": "Part A: AMG 986 Pooled",
+          "description": "Healthy participants were administered a single dose of AMG 986 either IV or PO. The 5 IV cohorts started at a 0.5 mg loading dose over one hour up to the Cohort 5 IV dosage of a 60 mg loading dose over 1 hour and a 360 mg maintenance dose lasting 23 hours. The 6 PO cohorts started at a single 5 mg dose up to the Cohort 6 PO dose of 650 mg."
+        },
+        {
+          "id": "FG002",
+          "title": "Part B: Placebo Pooled",
+          "description": "Healthy participants were administered placebo either IV for 4 consecutive days or PO for 7 days to match the 2 IV cohorts and 6 PO cohorts of AMG 986."
+        },
+        {
+          "id": "FG003",
+          "title": "Part B: AMG 986 Pooled",
+          "description": "Healthy participants were administered AMG 986 either IV or PO. IV cohort 1 was administered a loading dose of 6 mg over one hour followed by maintenance doses of 36 mg lasting 23 hours on day 1 and 38 mg lasting 24 hours on days 2-4. IV cohort 2 was administered a loading dose of 60 mg lasting one hour followed by maintenance doses of 360 mg lasting 23 hours on day 1 and 376 mg lasting 24 hours on days 2-4. The 6 PO cohorts started at 5 mg for 7 days up to Cohort 6 PO dose of 650 mg for 7 days."
+        },
+        {
+          "id": "FG004",
+          "title": "Part C: HFrEF Placebo",
+          "description": "Participants with heart failure with reduced ejection fraction (HFrEF) were administered a single PO placebo tablet daily from days 1-21."
+        },
+        {
+          "id": "FG005",
+          "title": "Part C: HFpEF Placebo",
+          "description": "Participants with heart failure with preserved ejection fraction (HFpEF) were administered a single PO placebo tablet daily from days 1-21."
+        },
+        {
+          "id": "FG006",
+          "title": "Part C: HFrEF AMG 986",
+          "description": "Participants with heart failure with reduced ejection fraction (HFrEF) were administered a single PO AMG 986 tablet daily from days 1-21 in ascending doses of 10 mg for days 1-7, 30 mg for days 8-14 and 100 mg for days 15-21."
+        },
+        {
+          "id": "FG007",
+          "title": "Part C: HFpEF AMG 986",
+          "description": "Participants with heart failure with preserved ejection fraction (HFpEF) were administered a single PO AMG 986 tablet daily from days 1-21 in ascending doses of 10 mg for days 1-7, 30 mg for days 8-14 and 100 mg for days 15-21."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "22"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "66"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "16"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "50"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "7"
+                },
+                {
+                  "groupId": "FG005",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG006",
+                  "numSubjects": "17"
+                },
+                {
+                  "groupId": "FG007",
+                  "numSubjects": "3"
+                }
+              ]
+            },
+            {
+              "type": "Treated Participants",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "22"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "66"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "16"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "50"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "7"
+                },
+                {
+                  "groupId": "FG005",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG006",
+                  "numSubjects": "16"
+                },
+                {
+                  "groupId": "FG007",
+                  "numSubjects": "3"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "22"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "66"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "14"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "45"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG005",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG006",
+                  "numSubjects": "15"
+                },
+                {
+                  "groupId": "FG007",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "5"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG005",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG006",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG007",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Lost to Follow-up",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG005",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG006",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG007",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG005",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG006",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG007",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "Decision by sponsor",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG005",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG006",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG007",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Part A: Placebo Pooled",
+          "description": "Healthy participants were administered placebo either intravenously (IV) or by mouth (PO) to match the 5 IV cohorts and 6 PO cohorts of AMG 986."
+        },
+        {
+          "id": "BG001",
+          "title": "Part A: AMG 986 Pooled",
+          "description": "Healthy participants were administered a single dose of AMG 986 either IV or PO. The 5 IV cohorts started at a 0.5 mg loading dose over one hour up to the Cohort 5 IV dosage of a 60 mg loading dose over 1 hour and a 360 mg maintenance dose lasting 23 hours. The 6 PO cohorts started at a single 5 mg dose up to the Cohort 6 PO dose of 650 mg."
+        },
+        {
+          "id": "BG002",
+          "title": "Part B: Placebo Pooled",
+          "description": "Healthy participants were administered placebo either IV for 4 consecutive days or PO for 7 days to match the 2 IV cohorts and 6 PO cohorts of AMG 986."
+        },
+        {
+          "id": "BG003",
+          "title": "Part B: AMG 986 Pooled",
+          "description": "Healthy participants were administered AMG 986 either IV or PO. IV cohort 1 was administered a loading dose of 6 mg over one hour followed by maintenance doses of 36 mg lasting 23 hours on day 1 and 38 mg lasting 24 hours on days 2-4. IV cohort 2 was administered a loading dose of 60 mg lasting one hour followed by maintenance doses of 360 mg lasting 23 hours on day 1 and 376 mg lasting 24 hours on days 2-4. The 6 PO cohorts started at 5 mg for 7 days up to Cohort 6 PO dose of 650 mg for 7 days."
+        },
+        {
+          "id": "BG004",
+          "title": "Part C: HFrEF Placebo",
+          "description": "Participants with heart failure with reduced ejection fraction (HFrEF) were administered a single PO placebo tablet daily from days 1-21."
+        },
+        {
+          "id": "BG005",
+          "title": "Part C: HFpEF Placebo",
+          "description": "Participants with heart failure with preserved ejection fraction (HFpEF) were administered a single PO placebo tablet daily from days 1-21."
+        },
+        {
+          "id": "BG006",
+          "title": "Part C: HFrEF AMG 986",
+          "description": "Participants with heart failure with reduced ejection fraction (HFrEF) were administered a single PO AMG 986 tablet daily from days 1-21 in ascending doses of 10 mg for days 1-7, 30 mg for days 8-14 and 100 mg for days 15-21."
+        },
+        {
+          "id": "BG007",
+          "title": "Part C: HFpEF AMG 986",
+          "description": "Participants with heart failure with preserved ejection fraction (HFpEF) were administered a single PO AMG 986 tablet daily from days 1-21 in ascending doses of 10 mg for days 1-7, 30 mg for days 8-14 and 100 mg for days 15-21."
+        },
+        {
+          "id": "BG008",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "22"
+            },
+            {
+              "groupId": "BG001",
+              "value": "66"
+            },
+            {
+              "groupId": "BG002",
+              "value": "16"
+            },
+            {
+              "groupId": "BG003",
+              "value": "50"
+            },
+            {
+              "groupId": "BG004",
+              "value": "7"
+            },
+            {
+              "groupId": "BG005",
+              "value": "1"
+            },
+            {
+              "groupId": "BG006",
+              "value": "17"
+            },
+            {
+              "groupId": "BG007",
+              "value": "3"
+            },
+            {
+              "groupId": "BG008",
+              "value": "182"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "37.2",
+                      "spread": "9.4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "39.5",
+                      "spread": "9.8"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "36.9",
+                      "spread": "10.0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "37.4",
+                      "spread": "9.8"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "61.6",
+                      "spread": "10.1"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "73.0"
+                    },
+                    {
+                      "groupId": "BG006",
+                      "value": "64.3",
+                      "spread": "7.8"
+                    },
+                    {
+                      "groupId": "BG007",
+                      "value": "69.0",
+                      "spread": "1.0"
+                    },
+                    {
+                      "groupId": "BG008",
+                      "value": "42.3",
+                      "spread": "13.4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Age, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "18-64 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "66"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "50"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG006",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "BG007",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG008",
+                      "value": "169"
+                    }
+                  ]
+                },
+                {
+                  "title": "65-84 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG006",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG007",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG008",
+                      "value": "13"
+                    }
+                  ]
+                },
+                {
+                  "title": "85 years and over",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG006",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG007",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG008",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG006",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG007",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG008",
+                      "value": "17"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "59"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "49"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG006",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG007",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG008",
+                      "value": "165"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG006",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG007",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG008",
+                      "value": "35"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "44"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG006",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "BG007",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG008",
+                      "value": "146"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG006",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG007",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG008",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race/Ethnicity, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG006",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG007",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG008",
+                      "value": "30"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG006",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG007",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG008",
+                      "value": "54"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG006",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG007",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG008",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "35"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG006",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG007",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG008",
+                      "value": "81"
+                    }
+                  ]
+                },
+                {
+                  "title": "Other",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG006",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG007",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG008",
+                      "value": "13"
+                    }
+                  ]
+                },
+                {
+                  "title": "Multiple",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG006",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG007",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG008",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Participants With Treatment Emergent Adverse Events (TEAE)",
+          "description": "An adverse event is defined as any untoward medical occurrence in a clinical trial subject. The event does not necessarily have a causal relationship with study treatment. Events categorized as TEAEs started on or after first dose of study drug and include up to 30 days after the last dose.\n\nA serious AE is an AE that met one or more of the following criteria:\n\n* Death\n* Life-threatening\n* Required inpatient hospitalization or prolongation of an existing hospitalization\n* Resulted in persistent or significant disability/incapacity\n* A congenital anomaly/birth defect\n* Important medical events that required medical or surgical intervention to prevent one of the outcomes above.",
+          "populationDescription": "All participants who received at least 1 dose of study drug",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Part A: Day 1 up to Day 31 Part B: Day 1 up to Day 37 Part C: Day 1 up to Day 51",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Part A: Placebo Pooled",
+              "description": "Healthy participants were administered placebo either intravenously (IV) or by mouth (PO) to match the 5 IV cohorts and 6 PO cohorts of AMG 986."
+            },
+            {
+              "id": "OG001",
+              "title": "Part A: AMG 986 Pooled",
+              "description": "Healthy participants were administered a single dose of AMG 986 either IV or PO. The 5 IV cohorts started at a 0.5 mg loading dose over one hour up to the Cohort 5 IV dosage of a 60 mg loading dose over 1 hour and a 360 mg maintenance dose lasting 23 hours. The 6 PO cohorts started at a single 5 mg dose up to the Cohort 6 PO dose of 650 mg."
+            },
+            {
+              "id": "OG002",
+              "title": "Part B: Placebo Pooled",
+              "description": "Healthy participants were administered placebo either IV for 4 consecutive days or PO for 7 days to match the 2 IV cohorts and 6 PO cohorts of AMG 986."
+            },
+            {
+              "id": "OG003",
+              "title": "Part B: AMG 986 Pooled",
+              "description": "Healthy participants were administered AMG 986 either IV or PO. IV cohort 1 was administered a loading dose of 6 mg over one hour followed by maintenance doses of 36 mg lasting 23 hours on day 1 and 38 mg lasting 24 hours on days 2-4. IV cohort 2 was administered a loading dose of 60 mg lasting one hour followed by maintenance doses of 360 mg lasting 23 hours on day 1 and 376 mg lasting 24 hours on days 2-4. The 6 PO cohorts started at 5 mg for 7 days up to Cohort 6 PO dose of 650 mg for 7 days."
+            },
+            {
+              "id": "OG004",
+              "title": "Part C: HFrEF Placebo",
+              "description": "Participants with heart failure with reduced ejection fraction (HFrEF) were administered a single PO placebo tablet daily from days 1-21."
+            },
+            {
+              "id": "OG005",
+              "title": "Part C: HFpEF Placebo",
+              "description": "Participants with heart failure with preserved ejection fraction (HFpEF) were administered a single PO placebo tablet daily from days 1-21."
+            },
+            {
+              "id": "OG006",
+              "title": "Part C: HFrEF AMG 986",
+              "description": "Participants with heart failure with reduced ejection fraction (HFrEF) were administered a single PO AMG 986 tablet daily from days 1-21 in ascending doses of 10 mg for days 1-7, 30 mg for days 8-14 and 100 mg for days 15-21."
+            },
+            {
+              "id": "OG007",
+              "title": "Part C: HFpEF AMG 986",
+              "description": "Participants with heart failure with preserved ejection fraction (HFpEF) were administered a single PO AMG 986 tablet daily from days 1-21 in ascending doses of 10 mg for days 1-7, 30 mg for days 8-14 and 100 mg for days 15-21."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "22"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "66"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "16"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "50"
+                },
+                {
+                  "groupId": "OG004",
+                  "value": "7"
+                },
+                {
+                  "groupId": "OG005",
+                  "value": "1"
+                },
+                {
+                  "groupId": "OG006",
+                  "value": "16"
+                },
+                {
+                  "groupId": "OG007",
+                  "value": "3"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "All treatment-emergent adverse events (TEAEs)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG006",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "OG007",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Serious adverse events",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG006",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG007",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "TEAEs leading to discontinuation of study drug",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG006",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG007",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Fatal adverse events",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG006",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG007",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Left Ventricular Ejection Fraction by Visit for Part C Heart Failure With Reduced Ejection Fraction (HFrEF) Cohort",
+          "description": "Heart failure (HF) refers to a clinical condition in which the cardiac output is insufficient to meet the metabolic needs of body organs and is marked by cardiac systolic and/or diastolic dysfunction. Heart failure with predominantly systolic dysfunction, which is identifiable as decreased contraction, is more aptly described as heart failure with reduced ejection fraction (HFrEF). Ejection fraction is a measurement, expressed as a percentage, of how much blood the left ventricle pumps out with each contraction and is measured by echocardiogram.",
+          "populationDescription": "Participants who received study drug with available LVEF at each time point",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "percent of total left ventricular blood",
+          "timeFrame": "Baseline (Day 1 predose), Day 8, Day 15, Day 21, Day 30",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Part C: HFrEF Placebo",
+              "description": "Participants with heart failure with reduced ejection fraction (HFrEF) were administered a single PO placebo tablet daily from Days 1-21."
+            },
+            {
+              "id": "OG001",
+              "title": "Part C: HFrEF AMG 986",
+              "description": "Participants with heart failure with reduced ejection fraction (HFrEF) were administered a single PO AMG 986 tablet daily from Days 1-21 in ascending doses of 10 mg for Days 1-7, 30 mg for Days 8-14 and 100 mg for days 15-21."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "7"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "15"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "33.300",
+                      "spread": "8.420"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "28.380",
+                      "spread": "6.483"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Day 8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "15"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "34.900",
+                      "spread": "12.441"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "32.553",
+                      "spread": "7.055"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Day 15",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "14"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "33.533",
+                      "spread": "9.194"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "31.614",
+                      "spread": "7.154"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Day 21",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "14"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "33.550",
+                      "spread": "8.896"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "31.436",
+                      "spread": "5.953"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Day 30",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "15"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "33.171",
+                      "spread": "8.140"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "31.987",
+                      "spread": "7.036"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Stroke Volume (Method of Disks, Volumetric Assessment) by Visit for Part C Heart Failure With Reduced Ejection Fraction (HFrEF) Cohort",
+          "description": "Stroke volume is the amount of blood pumped by the left ventricle of the heart in one contraction reported by volumetric method of disks (MoD) assessment.",
+          "populationDescription": "Participants who received study drug with available data at each time point",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "mL",
+          "timeFrame": "Baseline (Day 1 predose), Day 8, Day 15, Day 21, Day 30",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Part C: HFrEF Placebo",
+              "description": "Participants with heart failure with reduced ejection fraction (HFrEF) were administered a single PO placebo tablet daily from Days 1-21."
+            },
+            {
+              "id": "OG001",
+              "title": "Part C: HFrEF AMG 986",
+              "description": "Participants with heart failure with reduced ejection fraction (HFrEF) were administered a single PO AMG 986 tablet daily from Days 1-21 in ascending doses of 10 mg for Days 1-7, 30 mg for Days 8-14 and 100 mg for days 15-21."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "7"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "15"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "53.387",
+                      "spread": "16.995"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "40.461",
+                      "spread": "14.193"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Day 8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "15"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "55.185",
+                      "spread": "19.158"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "46.130",
+                      "spread": "13.927"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Day 15",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "14"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "52.673",
+                      "spread": "19.514"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "46.784",
+                      "spread": "14.348"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Day 21",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "14"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "54.113",
+                      "spread": "18.789"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44.014",
+                      "spread": "12.051"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Day 30",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "15"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "53.621",
+                      "spread": "19.258"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44.634",
+                      "spread": "13.491"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Stroke Volume (Left Ventricular Outflow Tract Using Doppler Assessment) by Visit for Part C Heart Failure With Reduced Ejection Fraction (HFrEF) Cohort",
+          "description": "Stroke volume is the amount of blood pumped by the left ventricle of the heart in one contraction as measured using left ventricular outflow tract (LVOT) Doppler assessment.",
+          "populationDescription": "Participants who received study drug with available data at each time point",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "mL",
+          "timeFrame": "Baseline (Day 1 predose), Day 8, Day 15, Day 21, Day 30",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Part C: HFrEF Placebo",
+              "description": "Participants with heart failure with reduced ejection fraction (HFrEF) were administered a single PO placebo tablet daily from Days 1-21."
+            },
+            {
+              "id": "OG001",
+              "title": "Part C: HFrEF AMG 986",
+              "description": "Participants with heart failure with reduced ejection fraction (HFrEF) were administered a single PO AMG 986 tablet daily from Days 1-21 in ascending doses of 10 mg for Days 1-7, 30 mg for Days 8-14 and 100 mg for days 15-21."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "7"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "14"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "59.056",
+                      "spread": "18.120"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "54.739",
+                      "spread": "14.523"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Day 8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "14"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "52.657",
+                      "spread": "13.231"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "53.512",
+                      "spread": "14.943"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Day 15",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "13"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "53.985",
+                      "spread": "21.580"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "53.073",
+                      "spread": "14.747"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Day 21",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "13"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "55.805",
+                      "spread": "26.127"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "53.858",
+                      "spread": "14.339"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Day 30",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "14"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "55.113",
+                      "spread": "20.900"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "50.616",
+                      "spread": "14.212"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "2",
+      "timeFrame": "Part A: Day 1 up to Day 31 Part B: Day 1 up to Day 37 Part C: Day 1 up to Day 51",
+      "description": "All-cause mortality is reported for all participants randomized in the study. Serious adverse events and other adverse events are reported for all participants who received at least one dose of study drug.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Part A: Placebo Pooled",
+          "description": "Healthy participants were administered placebo either intravenously (IV) or by mouth (PO) to match the 5 IV cohorts and 6 PO cohorts of AMG 986.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 22,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 22,
+          "otherNumAffected": 3,
+          "otherNumAtRisk": 22
+        },
+        {
+          "id": "EG001",
+          "title": "Part A: AMG 986 Pooled",
+          "description": "Healthy participants were administered a single dose of AMG 986 either IV or PO. The 5 IV cohorts started at a 0.5 mg loading dose over one hour up to the Cohort 5 IV dosage of a 60 mg loading dose over 1 hour and a 360 mg maintenance dose lasting 23 hours. The 6 PO cohorts started at a single 5 mg dose up to the Cohort 6 PO dose of 650 mg.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 66,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 66,
+          "otherNumAffected": 8,
+          "otherNumAtRisk": 66
+        },
+        {
+          "id": "EG002",
+          "title": "Part B: Placebo Pooled",
+          "description": "Healthy participants were administered placebo either IV for 4 consecutive days or PO for 7 days to match the 2 IV cohorts and 6 PO cohorts of AMG 986.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 16,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 16,
+          "otherNumAffected": 2,
+          "otherNumAtRisk": 16
+        },
+        {
+          "id": "EG003",
+          "title": "Part B: AMG 986 Pooled",
+          "description": "Healthy participants were administered AMG 986 either IV or PO. IV cohort 1 was administered a loading dose of 6 mg over one hour followed by maintenance doses of 36 mg lasting 23 hours on day 1 and 38 mg lasting 24 hours on days 2-4. IV cohort 2 was administered a loading dose of 60 mg lasting one hour followed by maintenance doses of 360 mg lasting 23 hours on day 1 and 376 mg lasting 24 hours on days 2-4. The 6 PO cohorts started at 5 mg for 7 days up to Cohort 6 PO dose of 650 mg for 7 days.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 50,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 50,
+          "otherNumAffected": 7,
+          "otherNumAtRisk": 50
+        },
+        {
+          "id": "EG004",
+          "title": "Part C: HFrEF Placebo",
+          "description": "Participants with heart failure with reduced ejection fraction (HFrEF) were administered a single PO placebo tablet daily from days 1-21.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 7,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 7,
+          "otherNumAffected": 2,
+          "otherNumAtRisk": 7
+        },
+        {
+          "id": "EG005",
+          "title": "Part C: HFpEF Placebo",
+          "description": "Participants with heart failure with preserved ejection fraction (HFpEF) were administered a single PO placebo tablet daily from days 1-21.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 1,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 1,
+          "otherNumAffected": 1,
+          "otherNumAtRisk": 1
+        },
+        {
+          "id": "EG006",
+          "title": "Part C: HFrEF AMG 986",
+          "description": "Participants with heart failure with reduced ejection fraction (HFrEF) were administered a single PO AMG 986 tablet daily from days 1-21 in ascending doses of 10 mg for days 1-7, 30 mg for days 8-14 and 100 mg for days 15-21.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 17,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 16,
+          "otherNumAffected": 6,
+          "otherNumAtRisk": 16
+        },
+        {
+          "id": "EG007",
+          "title": "Part C: HFpEF AMG 986",
+          "description": "Participants with heart failure with preserved ejection fraction (HFpEF) were administered a single PO AMG 986 tablet daily from days 1-21 in ascending doses of 10 mg for days 1-7, 30 mg for days 8-14 and 100 mg for days 15-21.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 3,
+          "seriousNumAffected": 1,
+          "seriousNumAtRisk": 3,
+          "otherNumAffected": 3,
+          "otherNumAtRisk": 3
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Pleuritic pain",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Anaemia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 1,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Swelling of eyelid",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 1,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Abdominal pain upper",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Constipation",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Diarrhoea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Dyspepsia",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 1,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Oral mucosal eruption",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Toothache",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 3,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Asthenia",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Upper respiratory tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Alanine aminotransferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Aspartate aminotransferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Blood creatine phosphokinase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Platelet count decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 1,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "White blood cell count decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 1,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Dehydration",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 1,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Hypertriglyceridaemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 1,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Hypoglycaemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Hypokalaemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Hypomagnesaemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Arthralgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 1,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Dizziness",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 1,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 2,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Social avoidant behaviour",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 1,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Pruritus",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Rash",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Skin irritation",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Hypotension",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA 22.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 66
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 7
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 16
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "This study was terminated early because the clinical development program was terminated. Therefore, no formal PK or pharmacodynamic analyses were conducted."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "OTHER",
+        "restrictiveAgreement": true,
+        "otherDetails": "The Clinical Trial Agreement generally does not restrict an investigator's discussion of trial results after completion. The Agreement permits Amgen a limited period of time to review material discussing trial results (typically up to 45 days and possible extension). Amgen may remove confidential information, but authors have final control and approval of publication content. For multicenter studies, the investigator agrees not to publish any results before the first multi-center publication."
+      },
+      "pointOfContact": {
+        "title": "IHQ Medical Info-Clinical Trials",
+        "organization": "Amgen (EUROPE) GmbH",
+        "email": "MedInfoInternational@amgen.com",
+        "phone": "866-572-6436"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2018-07-27",
+          "uploadDate": "2022-03-30T15:31",
+          "filename": "Prot_000.pdf",
+          "size": 3981185
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2019-06-17",
+          "uploadDate": "2022-03-30T15:31",
+          "filename": "SAP_001.pdf",
+          "size": 563862
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

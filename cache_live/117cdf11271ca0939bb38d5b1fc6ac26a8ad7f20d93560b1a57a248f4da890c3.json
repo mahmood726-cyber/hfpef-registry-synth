@@ -1,0 +1,343 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05839730",
+      "orgStudyIdInfo": {
+        "id": "MDT20060"
+      },
+      "organization": {
+        "fullName": "Medtronic Cardiac Rhythm and Heart Failure",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Fast Induced Remodeling in Heart Failure With Preserved Ejection Fraction",
+      "officialTitle": "Fast Induced Remodeling in Heart Failure With Preserved Ejection Fraction",
+      "acronym": "FIRE-HFpEF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-09-11",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-07",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-07",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-03-01",
+      "studyFirstSubmitQcDate": "2023-04-20",
+      "studyFirstPostDateStruct": {
+        "date": "2023-05-03",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-23",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Medtronic Cardiac Rhythm and Heart Failure",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true
+    },
+    "descriptionModule": {
+      "briefSummary": "FIRE-HFpEF is a multi-center, prospective, randomized, single-blinded, clinical feasibility study. This study will enroll up to 105 subjects with heart failure with preserved ejection fraction in the United States. Data will be collected to evaluate whether pacing therapies can lead to improvements in exercise capacity and health status of subjects.",
+      "detailedDescription": "After enrollment, baseline data will be collected, and subjects will then have a pacemaker implanted. After 6 weeks, subjects will have a follow up visit with a blood draw and a cardiac MRI. At this visit, subjects will be randomized 2:1 for pacing therapy or as a control (programmed into either a non-pacing mode or an exertional rate-adaptive pacing mode with no planned pacing at rest). After 3, 6 and 9 months after randomization, subjects will return for a follow up visit. At the 9-month visit therapy modifications will be made based on initial pacing randomization assignment: pacing therapy will be terminated in the original therapy group and enabled in the control group. After an additional 3-months of follow-up, subjects will return for their final visit, therapies will be disabled in all subjects and subjects will be exited. Echocardiographic, functional, and health status endpoints will be collected and analyzed to assess therapy efficacy."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Preserved Ejection Fraction",
+        "Concentric Hypertrophy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "FACTORIAL",
+        "interventionModelDescription": "Eligible subjects will have enrollment data collected, including a blood draw. Subjects will then have a pacemaker implanted. After 6 weeks, subjects will have a follow up visit with a blood draw and a cardiac MRI. At this visit, subjects will be randomized 2:1 for pacing therapy or as a control (programmed into either a non-pacing mode or an exertional rate-adaptive pacing mode with no planned pacing at rest). After 3, 6 and 9 months after randomization, subjects will return for a follow up visit. At the 9-month visit therapy modifications will be made based on initial pacing randomization assignment: pacing therapy will be terminated in the original therapy group and enabled in the control group. After an additional 3-months of follow-up, subjects will return for their final visit, therapies will be disabled in all subjects and subjects will be exited.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "Subjects and assessors of outcomes will be blinded to treatment assignment.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 105,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Pacemaker with multiple pacing therapies enabled",
+          "type": "EXPERIMENTAL",
+          "description": "Device will be programmed for personalized lower rate pacing (PLR) and tachycardiac remodeling pacing (TRT).",
+          "interventionNames": [
+            "Device: Pacemaker PLR + TRT ON"
+          ]
+        },
+        {
+          "label": "Pacemaker with no pacing therapies enabled",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Device will be programmed to a non-pacing mode or an exertional rate-adaptive pacing mode with no planned pacing at rest.",
+          "interventionNames": [
+            "Device: Pacemaker non-pacing mode or an exertional rate-adaptive pacing mode with no planned pacing at rest."
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Pacemaker PLR + TRT ON",
+          "description": "RAMware modified implantable pulse generator (IPG) with personalized lower rate (PLR) and tachycardia remodeling therapy (TRT) ON",
+          "armGroupLabels": [
+            "Pacemaker with multiple pacing therapies enabled"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Pacemaker non-pacing mode or an exertional rate-adaptive pacing mode with no planned pacing at rest.",
+          "description": "RAMware modified implantable pulse generator (IPG)",
+          "armGroupLabels": [
+            "Pacemaker with no pacing therapies enabled"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "characterize the effect of TRT + PLR on cardiac structure. LV mass, LVEDV, LVESV, and wall thickness which will be collected at baseline, 3-month, 6-month, 9-month, and 12-month visits.",
+          "timeFrame": "Through study completion, projected for three years until last subject last 12-month visit."
+        },
+        {
+          "measure": "Characterize the effect of pacing therapies on health status, defined as change in the Minnesota Living with Heart Failure Questionnaire (MLHFQ) from baseline to 3, 6, and 9 months.",
+          "description": "The Minnesota Living with Heart Failure Questionnaire (MLHFQ) is a validated patient-oriented measure of the adverse effects of heart failure on a patient's life. Each of the 21 questions are scored on a 6-point Likert Scale (0 to 5), the total score could range from 0 to 105, with higher scores indicating more significant impairment in health-related quality of life.",
+          "timeFrame": "Through study completion, projected for three years until last subject last 12-month visit."
+        },
+        {
+          "measure": "Characterize the durability of cardiac remodeling changes and assess the safety and tolerability of TRT + PLR.",
+          "timeFrame": "Through study completion, projected for three years until last subject last 12-month visit."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosis of Heart Failure, Left Ventricular Ejection Fraction (LVEF) ≥ 55% (this and other measurements must be made within the last year).\n* New York Heart Association (NYHA) Functional Class I-III\n* Stable on guideline-directed medical therapy (GDMT) heart failure medications as determined by the investigator, for at least 1 month, with the exception of loop diuretic therapy. GDMT should be in accordance with current American Heart Association (AHA)/American College of Cardiology (ACC)/Heart Failure Society of America (HFSA) Guidelines and include consideration of Sodium/glucose cotransporter-2 inhibitors (SGLT2i) therapy.\n* V End Diastolic Volume indexed to body surface area (BSA) ≤ 80 mL/m\\^2.\n* Concentric remodeling or concentric hypertrophy defined as at least one of the following criteria:\n\n  * Left ventricular (LV) posterior or lateral wall thickness \\> 11mm\n  * Relative wall thickness (RWT) \\> 0.42\n  * Male and LV mass indexed to BSA ≥115 g/m2\n  * Male and LV mass indexed to height ≥ 49.2 g/m2.7\n  * Female and LV mass indexed to BSA ≥ 95 g/m2\n  * Female and LV mass indexed to height ≥ 46.7 g/m2.7\n\nExclusion Criteria:\n\n* Unable or unwilling to undergo contrast MRI.\n* Class I indication for permanent pacing, except for symptomatic chronotropic incompetence\n* Current permanent or persistent Atrial fibrillation (A-fib)\n* Structural heart disease requiring intervention\n* Aortic valve replacement procedure less than 12 months prior to enrollment\n* Known pericardial constriction, genetic hypertrophic cardiomyopathy, or infiltrative cardiomyopathy\n* Severe aortic or mitral valve disease, defined as severe regurgitation or a valve area \\< 1cm\\^2\n* Exertional angina\n* Severe pulmonary disease including severe Chronic obstructive pulmonary disease (COPD) (i.e., requiring home oxygen, chronic nebulizer therapy, or chronic oral steroid therapy or hospitalized for pulmonary decompensation within 12 months)\n* Estimated glomerular filtration rate (eGFR) \\< 25 ml/min/1.73m\\^2 as calculated by the Modification in Diet in Renal Disease (MDRD) formula\n* Uncontrolled blood pressure, defined as systolic pressure outside the range of 100 to 160 mmHg despite anti-hypertensive medication.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Scott A Sarazin",
+          "role": "CONTACT",
+          "phone": "763-526-2817",
+          "email": "scott.a.sarazin@medtronic.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "NCH Heart Institute",
+          "status": "RECRUITING",
+          "city": "Naples",
+          "state": "Florida",
+          "zip": "34102",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Dinesh Sharma, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 26.14234,
+            "lon": -81.79596
+          }
+        },
+        {
+          "facility": "Prairie Education and Research Cooperative-St. Elizabeth's",
+          "status": "RECRUITING",
+          "city": "O'Fallon",
+          "state": "Illinois",
+          "zip": "62269",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Ziad Issa, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.59227,
+            "lon": -89.91121
+          }
+        },
+        {
+          "facility": "Prairie Education and Research Cooperative-St. John's",
+          "status": "RECRUITING",
+          "city": "Springfield",
+          "state": "Illinois",
+          "zip": "62769",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Ziad Issa, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.80172,
+            "lon": -89.64371
+          }
+        },
+        {
+          "facility": "University of Kansas Medical Center",
+          "status": "RECRUITING",
+          "city": "Kansas City",
+          "state": "Kansas",
+          "zip": "66160",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Seth Sheldon, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.11417,
+            "lon": -94.62746
+          }
+        },
+        {
+          "facility": "Duke University",
+          "status": "RECRUITING",
+          "city": "Durham",
+          "state": "North Carolina",
+          "zip": "27708",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Daniel Friedman, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.99403,
+            "lon": -78.89862
+          }
+        },
+        {
+          "facility": "Oklahoma Heart Hospital",
+          "status": "RECRUITING",
+          "city": "Oklahoma City",
+          "state": "Oklahoma",
+          "zip": "73120",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Charles Te, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.46756,
+            "lon": -97.51643
+          }
+        },
+        {
+          "facility": "Dallas VA Medical Center",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75216",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Phi Wiegn, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "Houston Methodist Research Institute",
+          "status": "RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Miguel Valderrabano, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "The University of Vermont Medical Center",
+          "status": "RECRUITING",
+          "city": "Burlington",
+          "state": "Vermont",
+          "zip": "05401",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Nicole Habel, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.47588,
+            "lon": -73.21207
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    }
+  },
+  "hasResults": false
+}

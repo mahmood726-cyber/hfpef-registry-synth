@@ -1,0 +1,298 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06775886",
+      "orgStudyIdInfo": {
+        "id": "2024-16244"
+      },
+      "organization": {
+        "fullName": "Montefiore Medical Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effect of Personalized Accelerated Pacing in Symptomatic Patients With Non-Obstructive Hypertrophic Cardiomyopathy",
+      "officialTitle": "Effect of Personalized Accelerated Pacing in Symptomatic Patients With Non-Obstructive Hypertrophic Cardiomyopathy",
+      "acronym": "PACE-nHCM"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "PI left the institution. IRB study closure date of 11/12/2025. IRB approved closeout on 2/6/2026.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-10-02",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-10-23",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-10-23",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-01-09",
+      "studyFirstSubmitQcDate": "2025-01-09",
+      "studyFirstPostDateStruct": {
+        "date": "2025-01-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Montefiore Medical Center",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Medtronic",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This will be a two-arm investigator-initiated randomized controlled study of patients with nHCM and LV ejection fraction ≥50% and NYHA II-III symptoms, normal intrinsic conduction system and pre-existing suitable dual-chamber implantable cardioverter defibrillators (ICD) systems. Patients will be randomly assigned to either personalized accelerated pacing (using the myPACE+ algorithm with mono-fractional exponent) or usual care groups. At baseline and after 3 months of pacing all patients will undergo a CPET, echocardiogram, blood work for NT-proBNP levels and complete the KCCQ-OSS and HCMSQ, questionnaires.\n\nThe investigator team hypothesizes that personalized accelerated pacing will be safe and improve symptoms and heart-failure related quality of life, physical activity, pVO2, biomarkers (i.e. NT-proBNP), diastolic parameters and cardiac structure.",
+      "detailedDescription": "This will be a two-arm investigator-initiated randomized controlled study of patients with nHCM and LV ejection fraction≥50% and NYHA II-III symptoms, normal intrinsic conduction system and pre-existing suitable dual-chamber implantable cardioverter defibrillators (ICD) systems. Patients will be randomly assigned to either personalized accelerated pacing (using the myPACE+ algorithm with mono-fractional exponent) or usual care groups. At baseline and after 3 months of pacing all patients will undergo a CPET, echocardiogram, blood work for NT-proBNP levels and complete the KCCQ-OSS and HCMSQ, questionnaires.\n\nThe investigator team hypothesizes that personalized accelerated pacing will be safe and improve symptoms and heart-failure related quality of life, physical activity, pVO2, biomarkers (i.e. NT-proBNP), diastolic parameters and cardiac structure. An interim data safety analysis will be conducted."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Non-obstructive Hypertrophic Cardiomyopathy",
+        "Hypertrophic Cardiomyopathy"
+      ],
+      "keywords": [
+        "Cardiomyopathy",
+        "Personalized Accelerated Pacing",
+        "Heart Failure with preserved Ejection Fraction (HFpEF)"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "OTHER",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "maskingDescription": "Researchers collecting pacemaker-detected endpoints cannot be blinded to the rate setting.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "myPACE+",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will be programmed to a personalized lower rate setting based on the myPACE+ resting heart rate algorithm will be conducted using the myPACE+ algorithm",
+          "interventionNames": [
+            "Other: myPACE+ algorithm"
+          ]
+        },
+        {
+          "label": "Usual Care",
+          "type": "NO_INTERVENTION",
+          "description": "Standard of care. Participants will retain a standard pacing lower rate setting of 60 beats per minute (bpm)."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "myPACE+ algorithm",
+          "description": "myPACE+ algorithm with mono-fractional exponent",
+          "armGroupLabels": [
+            "myPACE+"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Health-Related Quality of Life (HRQoL) status",
+          "description": "Change in HRQoL from prior to randomization to the time of 3-month follow-up will be assessed based on patient responses to the 12-item Kansas City Cardiomyopathy Questionnaire (KCCQ-12). The KCCQ-12 is a validated health status measure for patients with heart failure. An overall summary score (OSS) is tabulated based on responses ranging from 0-100, with 0 denoting the worst and 100 the best possible HRQoL status. Change from baseline scores will be summarized by study arm using basic descriptive statistics. A logistic mixed-effect model will be employed to calculate the odds ratio for a ≥ 5 point or more improvement of the KCCQ-OSS, which is considered clinically meaningful.",
+          "timeFrame": "Baseline to 3 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in N-terminal pro-brain natriuretic peptide (NT-proBNP) levels",
+          "description": "Change in NT-proBNP concentration from baseline to 3-month follow-up will be summarized by study arm using basic descriptive statistics and subsequently compared between groups. Samples will be obtained by venipuncture and submitted to a local laboratory for analysis. While normal NT-proBNP levels vary by age, the normal threshold for those under 50 years of age is 450 pg/mL, while it is 900 pg/mL for those greater than 50 years of age. Higher than normal NT-proBNP levels may be indicative of heart failure. As part of an exploratory analysis for this trial a \\>29% decrease in NT-proBNP concentration from baseline will be considered a \"clinically meaningful threshold\"",
+          "timeFrame": "Baseline to 3 months"
+        },
+        {
+          "measure": "Change in Peak Oxygen (pVO2) Uptake and predicted pVO2",
+          "description": "Change in pVO2 and predicted pVO2 from baseline to 3-month follow-up will be measured by cardiopulmonary exercise testing (CPET). CPET is a functional assessment that helps to detect disorders affecting the system involved in oxygen transport and utilization through the analysis of gas exchange during exercise. Change in pVO2 uptake from baseline will be summarized by study arm using basic descriptive statistics and analyzed by win ratios. An increase in pVO2 \\>1.5mL/kg/min from baseline will be considered a \"clinically meaningful threshold\" as part of an exploratory analysis for this trial.",
+          "timeFrame": "Baseline to 3 months"
+        },
+        {
+          "measure": "Change in pacemaker-detected atrial arrhythmia burden",
+          "description": "Change in pacemaker-detected atrial arrhythmia burden from baseline to 3-month follow-up will be assessed by interrogation of the pacemaker. Pacemaker-detected data will be continuously collected and stored by the pacemaker. Atrial arrhythmia burden is quantified as the percentage of time per day the patient is in atrial fibrillation (AF). Change in percentage over time will be summarized by study arm using basic descriptive statistics and analyzed by win ratios. Pacemaker-detected arrhythmia burden is associated with more adverse cardiac outcomes including increased risk of stroke or thromboembolism.",
+          "timeFrame": "Baseline to 3 months"
+        },
+        {
+          "measure": "Change in pacemaker-detected patient activity level",
+          "description": "Change in pacemaker-detected patient activity levels from baseline to 3-month follow-up will be assessed using the pacemaker's built-in accelerometer. This accelerometer can measure a patient's physical activity levels by detecting the frequency and amplitude of a patient's motion. The device measures the number of hours/minutes the patient is active, based on a threshold for the number and magnitude of accelerometer signal deflections. Change in pacemaker-detected patient activity levels from baseline will be summarized by study arm using basic descriptive statistics and analyzed by win ratios. As part of an exploratory analysis for this trial an increase in pacemaker detected daily activity \\>0.5 hour/day from baseline will be considered a \"clinically meaningful threshold\".",
+          "timeFrame": "Baseline to 3 months"
+        },
+        {
+          "measure": "Change in echocardiographic parameters: Left Atrial (LA) Strain",
+          "description": "Change in LA strain from baseline to 3-month follow-up will be assessed using TTE. Strain is a measure of deformation of the myocardium during the cardiac cycle in multiple directions; lengthening, shortening and thickening and is expressed as a fractional length change, where shortening is a negative value and lengthening a positive value. The difference between length at the reference point (end-diastole) and the current length (end-systole) will be calculated in accordance with American Society of Echocardiography (ASE) January 2015 guidelines related to strains. This is then divided by original reference length and then expressed as a percentage for the given timepoint. Change in this percentage from baseline will be summarized by study arm using basic descriptive statistics and analyzed by win ratios. LA strain is an earlier marker of underlying cardiovascular pathology than many conventional echocardiographic parameters given the relatively thinner walls of the atria.",
+          "timeFrame": "Baseline to 3 months"
+        },
+        {
+          "measure": "Change in echocardiographic parameters: Left Ventricular (LV) Strain",
+          "description": "Change in LV strain from baseline to 3-month follow-up will be assessed using transthoracic echocardiogram (TTE). Strain is a measure of deformation of the myocardium during the cardiac cycle in multiple directions; lengthening, shortening and thickening and is expressed as a fractional length change, where shortening is a negative value and lengthening a positive value. The difference between length at the reference point (end-diastole) and the current length (end-systole) will be calculated in accordance with (ASE) January 2015 guidelines related to strain. This is then divided by original reference length and then expressed as a percentage for the given timepoint. Change in this percentage from baseline will be summarized by study arm using basic descriptive statistics and analyzed by win ratios. LV Strain can be used for the early detection of left ventricular dysfunction by detecting subtle changes in deformation of heart muscle, which can lead to earlier diagnosis/prognosis.",
+          "timeFrame": "Baseline to 3 months"
+        },
+        {
+          "measure": "Change in echocardiographic E/e' ratio",
+          "description": "Change in echocardiographic E/e' ratio from baseline to 3-month follow-up will be assessed using transthoracic echocardiogram (TTE). E/e' ratio is a measure of diastolic function that is calculated by dividing the peak E wave velocity (early filling velocity, or E) by the peak e' wave velocity (or the early relaxation velocity, e') and will be calculated in accordance with (ASE) January 2015 guidelines. Elevated E/e' ratios are a key indicator of left ventricular end-diastolic pressure and, as such, are often used to assess the severity of diastolic dysfunction. Change in E/e' ratios will be summarized by study arm using basic descriptive statistics and analyzed by win ratios.",
+          "timeFrame": "Baseline to 3 months"
+        },
+        {
+          "measure": "Change in Left Ventricular Myocardial Thickness (LVMT)",
+          "description": "Change LVMT from baseline to 3-month follow-up will be evaluated using motion-mode echocardiography in accordance with (ASE) January 2015 guidelines. This one-dimensional view allows for digitized, linear measurements of LV thickness in the parasternal long-axis view. Increased LV myocardial wall thickness can lead to Left ventricular hypertrophy (LVH), making it more difficult for the heart to pump blood and increase the risk of unfavorable cardiovascular outcomes. Change in LV myocardial thickness will be summarized by study arm using basic descriptive statistics and analyzed by win ratios.",
+          "timeFrame": "Baseline to 3 months"
+        },
+        {
+          "measure": "Change in Left Atrial (LA) chamber size",
+          "description": "Change in LA chamber size from baseline to 3-month follow-up will be evaluated using transthoracic echocardiogram (TTE) in accordance with (ASE) January 2015 guidelines. An enlarged left atrium, known as Left Atrial Enlargement (LAE), is a result of increased left atrial pressure over a prolonged period and can be a predictor of clinically significant cardiovascular diseases and heart failure. Change in LA chamber size from baseline will be summarized by study arm using basic descriptive statistics and analyzed by win ratios.",
+          "timeFrame": "Baseline to 3 months"
+        },
+        {
+          "measure": "Change in Left Ventricular (LV) chamber size",
+          "description": "Change in LV chamber size from baseline to 3-month follow-up will be evaluated using transthoracic echocardiogram (TTE) in accordance with (ASE) January 2015 guidelines. An increased left ventricular chamber size is caused by elevated blood pressure over a prolonged period and can lead to Left Ventricular Hypertrophy (LVH) complications of which can lead to heart failure or sudden cardiac death. Change in LV chamber size from baseline will be summarized by study arm using basic descriptive statistics and analyzed by win ratios.",
+          "timeFrame": "Baseline to 3 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Non obstructive HCM: Left Ventricular Outflow Tract (LVOT) gradient \\<30mmHg at rest and with provocation\n* Left ventricular ejection fraction (LVEF) ≥50%\n* New York Heart Association (NYHA II-III) symptoms\n* Normal intrinsic conduction system\n* Suitable dual-chamber implantable cardioverter defibrillators (ICD) system\n\nExclusion Criteria:\n\n* Pregnancy\n* LVEF \\<50%\n* LVOT gradient \\> 30mmHg at rest or with provocation\n* Prolonged PR \\> 250ms\n* Baseline RV-pacing burden of \\> 1% more than moderate valvular stenosis or regurgitation\n* Aortic valve replacement in the past one year\n* Significant primary pulmonary disease on home oxygen\n* Uncontrolled hypertension as defined by BP \\>160/100 mmHg on two measurements ≥15 minutes apart",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Luigi Di Biase, MD",
+          "affiliation": "Montefiore Medical Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Montefiore Medical Center",
+          "city": "The Bronx",
+          "state": "New York",
+          "zip": "10467",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.84985,
+            "lon": -73.86641
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "35379504",
+          "type": "BACKGROUND",
+          "citation": "Heidenreich PA, Bozkurt B, Aguilar D, Allen LA, Byun JJ, Colvin MM, Deswal A, Drazner MH, Dunlay SM, Evers LR, Fang JC, Fedson SE, Fonarow GC, Hayek SS, Hernandez AF, Khazanie P, Kittleson MM, Lee CS, Link MS, Milano CA, Nnacheta LC, Sandhu AT, Stevenson LW, Vardeny O, Vest AR, Yancy CW. 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure: Executive Summary: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. J Am Coll Cardiol. 2022 May 3;79(17):1757-1780. doi: 10.1016/j.jacc.2021.12.011. Epub 2022 Apr 1."
+        },
+        {
+          "pmid": "33229115",
+          "type": "BACKGROUND",
+          "citation": "Ommen SR, Mital S, Burke MA, Day SM, Deswal A, Elliott P, Evanovich LL, Hung J, Joglar JA, Kantor P, Kimmelstiel C, Kittleson M, Link MS, Maron MS, Martinez MW, Miyake CY, Schaff HV, Semsarian C, Sorajja P. 2020 AHA/ACC Guideline for the Diagnosis and Treatment of Patients With Hypertrophic Cardiomyopathy: Executive Summary: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. J Am Coll Cardiol. 2020 Dec 22;76(25):3022-3055. doi: 10.1016/j.jacc.2020.08.044. Epub 2020 Nov 20."
+        },
+        {
+          "pmid": "36723919",
+          "type": "BACKGROUND",
+          "citation": "Infeld M, Wahlberg K, Cicero J, Plante TB, Meagher S, Novelli A, Habel N, Krishnan AM, Silverman DN, LeWinter MM, Lustgarten DL, Meyer M. Effect of Personalized Accelerated Pacing on Quality of Life, Physical Activity, and Atrial Fibrillation in Patients With Preclinical and Overt Heart Failure With Preserved Ejection Fraction: The myPACE Randomized Clinical Trial. JAMA Cardiol. 2023 Mar 1;8(3):213-221. doi: 10.1001/jamacardio.2022.5320."
+        },
+        {
+          "pmid": "37650505",
+          "type": "BACKGROUND",
+          "citation": "Weissler-Snir A, Rakowski H, Meyer M. Beta-blockers in non-obstructive hypertrophic cardiomyopathy: time to ease the heart rate restriction? Eur Heart J. 2023 Oct 1;44(37):3655-3657. doi: 10.1093/eurheartj/ehad518. No abstract available."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D002312",
+          "term": "Cardiomyopathy, Hypertrophic"
+        },
+        {
+          "id": "D009202",
+          "term": "Cardiomyopathies"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D001020",
+          "term": "Aortic Stenosis, Subvalvular"
+        },
+        {
+          "id": "D001024",
+          "term": "Aortic Valve Stenosis"
+        },
+        {
+          "id": "D000082862",
+          "term": "Aortic Valve Disease"
+        },
+        {
+          "id": "D006349",
+          "term": "Heart Valve Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

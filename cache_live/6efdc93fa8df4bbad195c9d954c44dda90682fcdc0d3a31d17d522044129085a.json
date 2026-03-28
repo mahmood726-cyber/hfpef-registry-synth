@@ -1,0 +1,257 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03380520",
+      "orgStudyIdInfo": {
+        "id": "IRON-CRT"
+      },
+      "organization": {
+        "fullName": "Hasselt University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effect of Intravenous FerRic carbOxymaltose oN Reverse Remodeling Following Cardiac Resynchronization Therapy",
+      "officialTitle": "Effect of Intravenous FerRic carbOxymaltose oN Reverse Remodeling Following Cardiac Resynchronization Therapy",
+      "acronym": "IRON-CRT"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-08",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-10-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-12-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-08-04",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-11-02",
+      "studyFirstSubmitQcDate": "2017-12-20",
+      "studyFirstPostDateStruct": {
+        "date": "2017-12-21",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-08-04",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-08-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Wilfried Mullens, MD PhD",
+        "investigatorTitle": "Md PhD",
+        "investigatorAffiliation": "Hasselt University"
+      },
+      "leadSponsor": {
+        "name": "Hasselt University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Ziekenhuis Oost-Limburg",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "To assess impact on left ventricular reverse remodeling defined as a change in left ventricular ejection fraction in heart failure patients with reduced ejection fraction (and previous implantation of cardiac resynchronization therapy) undergoing treatment with ferric carboxymaltose vs. placebo"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 75,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Ferric carboxymaltose",
+          "type": "EXPERIMENTAL",
+          "description": "Ferric carboxymaltose according to SmPC",
+          "interventionNames": [
+            "Drug: Ferric Carboxymaltose"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Normal saline (0.9%)",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ferric Carboxymaltose",
+          "description": "Ferric carboxymaltose will be administered according to product specification dosing",
+          "armGroupLabels": [
+            "Ferric carboxymaltose"
+          ],
+          "otherNames": [
+            "injectafer"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "IV nacl 0.9%",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in left ventricular ejection fraction from baseline",
+          "description": "delta\\_LVEF measured by 3D-echocardiography",
+          "timeFrame": "3 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in left ventricular end systolic volume from baseline",
+          "description": "delta\\_LVESV measured by 3D-echocardiography",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Change in left ventricular end diastolic volume from baseline",
+          "description": "delta\\_LVEDV measured by 3D-echocardiography",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Force frequency relationship",
+          "description": "measured by 2D-echocardiography",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Heart failure hospitalization and all-cause mortality",
+          "description": "measured by telephone contact",
+          "timeFrame": "Up to six months"
+        },
+        {
+          "measure": "Incidence of Treatment-associated Serious and non-serious adverse events.",
+          "description": "Serious and non-serious adverse events (AE) will be registered, which include:start date AE, duration AE, end-date AE, treatment group, continuation of AE after dose interruption, causality with study medication, presence of risk factors for AE and response to AE (sequela or recovery).",
+          "timeFrame": "During intravenous study drug administration and 1-hour in hospital follow-up"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Predefined right ventricular (RV) analysis",
+          "description": "Assessment of effect of FCM on RV-function at rest and during incremental pacing. Assessment of RV-to-pulmonary artery coupling",
+          "timeFrame": "3 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Chronic heart failure and implantation of cardiac resynchronization therapy more than 6 months ago and presence of iron deficiency (ferritin \\< 100 μg/l, irrespective of TSAT or ferritine between 100 - 300 μg/l with TSAT \\< 20%) and presence of incomplete reverse remodeling (LVEF \\< 40%).\n2. Age ≥18 years\n3. Obtained informed consent\n4. Stable pharmacological therapy of heart failure during the last 4 weeks (with the exception of diuretics)\n\nExclusion Criteria:\n\n1. Hemochromatosis, iron overload, defined as TSAT \\> 45%\n2. Hemoglobin \\> 15 g/dl at inclusion\n3. Known hypersensitivity to injectafer®.\n4. Known active infection, CRP\\>20 mg/L, clinically significant bleeding, active malignancy.\n5. Chronic liver disease and/or screening alanine transaminase (ALT) or aspartate transaminase (AST) above three times the upper limit of the normal range.\n6. Immunosuppressive therapy or renal dialysis (current or planned within the next 6 months).\n7. History of erythropoietin, i. v. or oral iron therapy, and blood transfusion in previous 12 weeks and/or such therapy planned within the next 6 months.\n8. Unstable angina pectoris as judged by the investigator, clinically significant uncorrected valvular disease or left ventricular outflow obstruction, obstructive cardiomyopathy, poorly controlled fast atrial fibrillation or flutter, poorly controlled symptomatic brady- or tachyarrhythmias.\n9. Acute myocardial infarction or acute coronary syndrome, transient ischemic attack or stroke within the last 3 months.\n10. Coronary-artery bypass graft, percutaneous intervention (e.g. cardiac, cerebrovascular, aortic; diagnostic catheters are allowed) or major surgery, including thoracic and cardiac surgery, within the last 3 months.\n11. Inability to fully comprehend and/or perform study procedures in the investigator's opinion.\n12. Vitamin B12 and/or serum folate deficiency according to the laboratory (re-screening is possible after substitution therapy).\n13. Pregnancy or lactation.\n14. Participation in another clinical trial within previous 30 days and/or anticipated participation in another trial during this study.\n15. Planned cardiac hospitalization during study follow-up",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Pieter Martens",
+          "city": "Genk",
+          "state": "Limburg",
+          "zip": "3500",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.965,
+            "lon": 5.50082
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "34185066",
+          "type": "RESULT",
+          "citation": "Martens P, Dupont M, Dauw J, Nijst P, Herbots L, Dendale P, Vandervoort P, Bruckers L, Tang WHW, Mullens W. The effect of intravenous ferric carboxymaltose on cardiac reverse remodelling following cardiac resynchronization therapy-the IRON-CRT trial. Eur Heart J. 2021 Dec 21;42(48):4905-4914. doi: 10.1093/eurheartj/ehab411."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED",
+      "description": "Yes, full patient level data"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C522335",
+          "term": "ferric carboxymaltose"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

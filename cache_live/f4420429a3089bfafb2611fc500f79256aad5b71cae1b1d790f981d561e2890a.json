@@ -1,0 +1,280 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02753868",
+      "orgStudyIdInfo": {
+        "id": "15691"
+      },
+      "organization": {
+        "fullName": "University of Illinois at Urbana-Champaign",
+        "class": "OTHER"
+      },
+      "briefTitle": "Acute Effects of Intradialytic Exercise on Cardiovascular Function in Hemodialysis Patients",
+      "officialTitle": "Acute Effects of Intradialytic Exercise on Cardiovascular Function in Hemodialysis Patients",
+      "acronym": "ACE-HD"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2017-03",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-02"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2016-12",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2017-02",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-02-27",
+      "studyFirstSubmitQcDate": "2016-04-26",
+      "studyFirstPostDateStruct": {
+        "date": "2016-04-28",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2017-03-05",
+      "lastUpdatePostDateStruct": {
+        "date": "2017-03-07",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Kenneth Wilund",
+        "investigatorTitle": "Associate Professor",
+        "investigatorAffiliation": "University of Illinois at Urbana-Champaign"
+      },
+      "leadSponsor": {
+        "name": "University of Illinois at Urbana-Champaign",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to examine the effect of cycling at mild to moderate intensity during hemodialysis treatment on cardiovascular function in a crossover design.",
+      "detailedDescription": "Patients with kidney failure requiring hemodialysis (HD) treatment die at excessively high rates, despite advances in HD techniques and pharmacological therapies. This indicates additional therapeutic strategies are needed. Intradialytic exercise (IDEX, exercise during HD treatment) represents a low-cost, easy to administer treatment strategy that could potentially improve cardiovascular function, physical function and quality of life. However, nephrologists rarely counsel their patients to increase their physical activity levels or to exercise during HD treatment, in part due to a lack of understanding of IDEX knowledge.\n\nProviding more robust evidence for the safety and effectiveness of IDEX, as well as evaluating the impact of exercising early vs late in the treatment, could help improve adoption of exercise training as a standard practice in HD clinics.\n\nTherefore, investigators plan to examine the impact of IDEX and its timing during treatment (1st vs 3rd hour) on blood pressure and adverse symptoms in HD patients. The proposed study also includes various cardiovascular measures to allow deeper mechanistic understanding of cardiovascular physiology with IDEX. Such understanding will significantly advance the field and lead to improved therapeutic approaches, including exercise training, which may help mediate the deleterious effects of renal failure."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Kidney Failure"
+      ],
+      "keywords": [
+        "Intradialytic exercise",
+        "Cardiac and arterial function"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 12,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Standard Hemodialysis",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will be monitored during their normal hemodialysis treatment with no intervention administered",
+          "interventionNames": [
+            "Procedure: Hemodialysis treatment"
+          ]
+        },
+        {
+          "label": "Hemodialysis with Exercise (1-st hr)",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will be monitored during a normal dialysis treatment in which they cycle at mild to moderate intensity for 30 minutes during 1-st hour into treatment",
+          "interventionNames": [
+            "Behavioral: exercise",
+            "Procedure: Hemodialysis treatment"
+          ]
+        },
+        {
+          "label": "Hemodialysis with Exercise (3-rd hr)",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will be monitored during a normal dialysis treatment in which they cycle at mild to moderate intensity for 30 minutes during 3-rd hour into treatment",
+          "interventionNames": [
+            "Behavioral: exercise",
+            "Procedure: Hemodialysis treatment"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "exercise",
+          "description": "Participants will be asked to cycle at mild to moderate intensity for 30 minutes during either 1-st hour of 3-rd hour into treatment",
+          "armGroupLabels": [
+            "Hemodialysis with Exercise (1-st hr)",
+            "Hemodialysis with Exercise (3-rd hr)"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Hemodialysis treatment",
+          "description": "Participants will receive a standard hemodialysis treatment during the study period",
+          "armGroupLabels": [
+            "Hemodialysis with Exercise (1-st hr)",
+            "Hemodialysis with Exercise (3-rd hr)",
+            "Standard Hemodialysis"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Serial change in brachial blood pressure (mmHg) from start to end of a dialysis treatment",
+          "description": "Systolic and diastolic blood pressure will be measured using an automated blood pressure cuff attached to the clinic dialysis machine",
+          "timeFrame": "Every 15 minutes throughout each dialysis treatment (approximately 4 hours)"
+        },
+        {
+          "measure": "Changes in cardiac output (mL/min) measured by thoracic impedance technique",
+          "description": "Cardiac output will be estimated continuously using thoracic impedance with electrodes placed around the chest.",
+          "timeFrame": "Continous throughout a dialysis treatment (approximately 4 hours)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Changes in total peripheral resistance estimated by peripheral blood pressure via a finger plethysmography and cardiac output via thoracic impedance (Task Force Monitor)",
+          "description": "A finger cuff will be placed around the non-dialyzing finger and will measure the change in peripheral blood pressure from successive beats continuously. Total peripheral resistance will be estimated using measured cardiac output and peripheral blood pressure.",
+          "timeFrame": "Continuous throughout each dialysis treatment (approximately 4 hours) for three dialysis sessions that are separated by a week"
+        },
+        {
+          "measure": "Hypotensive event assessment measured by a symptom questionnaire",
+          "description": "The presence of hypotensive-relating intradialytic symptoms including nausea, dizziness and cramping will be recorded.",
+          "timeFrame": "Throughout and up to 5 hours after completion of a dialysis treatment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Receiving hemodialysis treatment three times per week, on hemodialysis for greater than three months, receive medical clearance from a Nephrologists\n\nExclusion Criteria:\n\n* Patients with established contraindications to exercise including lower-limb amputation, advanced chronic obstructive pulmonary disease and decompensated chronic heart failure.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Kenneth Wilund, PhD",
+          "affiliation": "University of Illinois at Urbana-Champaign",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Illinois at Urbana-Champaign",
+          "city": "Urbana",
+          "state": "Illinois",
+          "zip": "61801",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.11059,
+            "lon": -88.20727
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "35018639",
+          "type": "DERIVED",
+          "citation": "Bernier-Jean A, Beruni NA, Bondonno NP, Williams G, Teixeira-Pinto A, Craig JC, Wong G. Exercise training for adults undergoing maintenance dialysis. Cochrane Database Syst Rev. 2022 Jan 12;1(1):CD014653. doi: 10.1002/14651858.CD014653."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D051437",
+          "term": "Renal Insufficiency"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007674",
+          "term": "Kidney Diseases"
+        },
+        {
+          "id": "D014570",
+          "term": "Urologic Diseases"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D052801",
+          "term": "Male Urogenital Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D015444",
+          "term": "Exercise"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009043",
+          "term": "Motor Activity"
+        },
+        {
+          "id": "D009068",
+          "term": "Movement"
+        },
+        {
+          "id": "D009142",
+          "term": "Musculoskeletal Physiological Phenomena"
+        },
+        {
+          "id": "D055687",
+          "term": "Musculoskeletal and Neural Physiological Phenomena"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

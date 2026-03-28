@@ -1,0 +1,235 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03789487",
+      "orgStudyIdInfo": {
+        "id": "2018/09"
+      },
+      "organization": {
+        "fullName": "CMC Ambroise Paré",
+        "class": "OTHER"
+      },
+      "briefTitle": "Electrical Optimization of Cardiac Resynchronization Therapy in Non-responder Patients",
+      "officialTitle": "Prospective Multicentric Study of Electrical Optimization of Cardiac Resynchronization Therapy in Non-responder Patients",
+      "acronym": "OPTIREG"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-01",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "the end of inclusion period",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-02-22",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-08-21",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-09-14",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2018-12-17",
+      "studyFirstSubmitQcDate": "2018-12-27",
+      "studyFirstPostDateStruct": {
+        "date": "2018-12-28",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-01-25",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-01-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "CMC Ambroise Paré",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Cardiac Resynchronization Therapy (CRT) is an established treatment for patients with systolic heart failure and bundle branch block, improving functional capacity, quality of life and reducing morbi-mortality. However, one-third of patients are non-responders. Among factors associated with non-response, suboptimal electrical settings of the device, i.e. inadequate pacing vector selection and atrioventricular (AV) delay, is an important cause.\n\nThe aim of the study is to investigate whether the optimization of CRT settings (pacing vector and AV delay) results in improved clinical and echocardiographic outcomes in a non-responder CRT population after 6 months of therapy.",
+      "detailedDescription": "This study is non-randomized, prospective, interventional, multicentric study. Patients who have been implanted with a CRT device between 6 and 18 months prior to inclusion and are considered non-responders are eligible for this study. CRT non-response can be clinical (lack of functional improvement or hospitalization for heart failure) and/or echocardiographic (insufficient improvement of LVEF and/or reduction of LVESV). Among exclusion criteria, permanent atrial fibrillation is of note.\n\nRecruited patients will be submitted to an optimization procedure of their CRT device settings. This will be performed with a non-invasive method using the Finapress NOVA device, which records blood pressure with a digital cuff. The peak of blood pressure will correspond to the optimal device settings. The first step will be to chose the best pacing vector. The second step will be to chose the best AV delay. The best setting, i.e. associated with the highest blood pressure, will be programmed at the end of the optimization protocol.\n\nThe patients will be followed at 6 months with clinical evaluation and echocardiography to assess the conversion rate of non-responders to responders."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure",
+        "Cardiac Resynchronization Therapy"
+      ],
+      "keywords": [
+        "Cardiac Resynchronization Therapy",
+        "Non-responders",
+        "Pacing vector optimization",
+        "Atrioventricular delay optimization",
+        "Non invasive hemodynamic optimization",
+        "Heart Failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 27,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Non-responders to CRT",
+          "type": "EXPERIMENTAL",
+          "description": "Non-responders to CRT who will undergo an electrical optimization of the settings of their device",
+          "interventionNames": [
+            "Device: Device programming of CRT pacemaker or defibrillator"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Device programming of CRT pacemaker or defibrillator",
+          "description": "Stimulation vector optimization then AV delay optimization in order to obtain the highest systolic blood pressure (SBP) by using the Finapress® NOVA noninvasive device",
+          "armGroupLabels": [
+            "Non-responders to CRT"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Hemodynamic response",
+          "description": "Highest Systolic Blood Pressure (SBP) obtained by stimulation vector",
+          "timeFrame": "During the optimization session"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "echocardiographic response",
+          "description": "Left Ventricular Ejection Fraction (LVEF), Left Ventricular end-diastolic Volume (LVEDV), Left Ventricular End-Systolic Volume (LVESV)",
+          "timeFrame": "at 6 months of follow-up"
+        },
+        {
+          "measure": "Clinical response",
+          "description": "Hospitalization for heart failure",
+          "timeFrame": "at 6 months of follow up"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patient older than 18\n* Patient implanted with a CRT (CRT-P or CRT-D) more than 6 months but less than 18 months before inclusion\n* Non-responder patients:\n\nClinical criteria (Packer classification):\n\nLack of improvement of NYHA functional class And/or hospitalization for heart failure\n\nEchocardiographic criteria:\n\nLack of improvement of LVEF \\> 5points And/or reduction of LVESV \\< 15%\n\n* Patient who had signed an informed consent and is willing to comply with study requirements\n* Patient covered by French national healthcare insurance\n\nExclusion Criteria:\n\n* Permanent/persistant atrial fibrillation/ supra-ventricular tachycardia\n* Scheduled hospitalization for major cardiac intervention or cardiac surgery in the 6 coming months\n* Life-expectancy of less than 6 months\n* Pregnant or breastfeeding women\n* Adults under legal protection",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "GHEM Eaubonne",
+          "city": "Montmorency",
+          "zip": "95160",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.98826,
+            "lon": 2.3434
+          }
+        },
+        {
+          "facility": "CHU de Poitiers",
+          "city": "Poitiers",
+          "zip": "86021",
+          "country": "France",
+          "geoPoint": {
+            "lat": 46.58261,
+            "lon": 0.34348
+          }
+        },
+        {
+          "facility": "CMC Ambroise Paré",
+          "city": "Neuilly-sur-Seine",
+          "state": "Île-de-France Region",
+          "zip": "92200",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.8846,
+            "lon": 2.26965
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D047548",
+          "term": "Defibrillators"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004566",
+          "term": "Electrodes"
+        },
+        {
+          "id": "D055615",
+          "term": "Electrical Equipment and Supplies"
+        },
+        {
+          "id": "D004864",
+          "term": "Equipment and Supplies"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

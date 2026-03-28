@@ -1,0 +1,2637 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03130257",
+      "orgStudyIdInfo": {
+        "id": "CER-1511-32979"
+      },
+      "organization": {
+        "fullName": "Kaiser Permanente",
+        "class": "OTHER"
+      },
+      "briefTitle": "Blood Pressure Checks for Diagnosing Hypertension (BP-CHECK)",
+      "officialTitle": "Blood Pressure Checks for Diagnosing Hypertension (BP-CHECK)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-10",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-05-11",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2019-08-26",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2019-08-26",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-04-21",
+      "studyFirstSubmitQcDate": "2017-04-25",
+      "studyFirstPostDateStruct": {
+        "date": "2017-04-26",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2020-05-10",
+      "resultsFirstSubmitQcDate": "2020-10-21",
+      "resultsFirstPostDateStruct": {
+        "date": "2020-11-16",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2020-10-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-11-16",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Kaiser Permanente",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Patient-Centered Outcomes Research Institute",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Hypertension is usually diagnosed at a clinic or doctor's office when a patient has blood pressure (BP) that is high for several measurements. However, about 30 percent of patients with high BP in clinics have normal BP outside of clinics. This is called white-coat hypertension. Correct diagnosis of hyper-tension is important to prevent strokes, heart attacks, and heart failure but also to avoid making people worry or take medicines when they don't need to.\n\nTo avoid misdiagnosis of hypertension, the US Preventive Services Task Force (USPSTF), which makes national recommendations about disease screening, recommends people should have 24-hour BP ambulatory monitoring (i.e., an arm cuff and BP monitor worn for 24 hours, with measurements taken every 30 minutes during the day and every 60 minutes at night), with home BP monitoring over several days as an alternative. However, most patients have never heard of 24-hour BP monitoring, and physicians rarely order it. Physicians sometimes use home BP monitoring, but not according to recommended guidelines. BP kiosks, for example at drug stores, offer another option. Newer models are accurate and easy to use.\n\nBP-CHECK will identify participants, ages 18 to 85, with high BP at their last clinic visit and invite them to a screening visit. Participants with high BP at the screening visit (510 patients) will be randomized and assigned to 1) clinic BP, 2) home BP, or 3) kiosk BP diagnostic groups for confirming a new diagnosis of hypertension. The clinic BP group will have BP measured at one clinic visit. The home BP group will measure BP two times, twice a day, for five days. The kiosk BP group will measure BP three times on three separate days at a kiosk at their clinic or nearby drugstore. Participants will complete their diagnostic tests over approximately three weeks. They will then be asked to complete 24-hour BP monitoring. Participants will complete surveys at baseline prior to randomization, after diagnostic tests, and at six months.\n\nHypothesis 1: Compared to the reference standard (24-hour BP), home BP and kiosk BP will be more accurate than clinic BP. Hypothesis 2: Participants with clinic, home, or kiosk BP results concordant with reference standard results will prefer home or kiosk to clinic and 24-hour BP. Hypothesis 2: Participants with clinic, home, or kiosk BP results concordant with reference standard results will prefer home or kiosk to clinic and 24-hour BP.",
+      "detailedDescription": "The investigators will compare the accuracy and acceptability (i.e., comfort, convenience) of clinic, home, and kiosk BP testing to 24-hour BP ambulatory monitoring. The investigators will look at the impact of the study on outcomes that matter to participants: their BP and whether participants feel better or worse overall, worry about BP, and change health behaviors (e.g., lowering salt intake).\n\nOur study team includes patients. The study team also has patient and stakeholder advisors to ensure our study is conducted properly and is not a burden to patients and providers. The investigators will share study results with patient participants and publish papers in scientific journals."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Blood Pressure"
+      ],
+      "keywords": [
+        "blood pressure measurement"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "SCREENING",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 510,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Clinic Blood Pressure Measurement",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants will be asked to check their blood pressure at their clinic once within the subsequent three weeks.",
+          "interventionNames": [
+            "Diagnostic Test: Clinic Blood Pressure Measurement",
+            "Diagnostic Test: 24-hour Ambulatory Blood Pressure Monitoring (Reference Standard)"
+          ]
+        },
+        {
+          "label": "Home Blood Pressure Measurement",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants will receive a validated upper-arm home blood pressure monitor and asked to take two measurements in the morning and two in the evening for at least 5 days over three weeks.",
+          "interventionNames": [
+            "Diagnostic Test: Home Blood Pressure Measurement",
+            "Diagnostic Test: 24-hour Ambulatory Blood Pressure Monitoring (Reference Standard)"
+          ]
+        },
+        {
+          "label": "Kiosk Blood Pressure Measurement",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants will be asked to use a validated blood pressure kiosk in their clinic or local pharmacy to measure their blood pressure three times on three separate days over three weeks.",
+          "interventionNames": [
+            "Diagnostic Test: Kiosk Blood Pressure Measurement",
+            "Diagnostic Test: 24-hour Ambulatory Blood Pressure Monitoring (Reference Standard)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Clinic Blood Pressure Measurement",
+          "description": "Participants will be asked to check their blood pressure once within the subsequent three weeks.",
+          "armGroupLabels": [
+            "Clinic Blood Pressure Measurement"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Home Blood Pressure Measurement",
+          "description": "Participants will receive a validated upper-arm home blood pressure monitor and asked to two measurements in the morning and two in the evening for at least 5 days over three weeks.",
+          "armGroupLabels": [
+            "Home Blood Pressure Measurement"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Kiosk Blood Pressure Measurement",
+          "description": "Participants will be asked to use a validated blood pressure kiosk in their clinic or local pharmacy to measure their blood pressure three times on three separate days over three weeks.",
+          "armGroupLabels": [
+            "Kiosk Blood Pressure Measurement"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "24-hour Ambulatory Blood Pressure Monitoring (Reference Standard)",
+          "description": "Participants will be asked to wear an arm cuff and ambulatory blood pressure monitor for 24 hours, with measurements taken every 30 minutes during the day and every 60 minutes at night.",
+          "armGroupLabels": [
+            "Clinic Blood Pressure Measurement",
+            "Home Blood Pressure Measurement",
+            "Kiosk Blood Pressure Measurement"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Comparative Performance of Clinic, Home, and Kiosk",
+          "description": "To compare the performance of clinic, home, and kiosk blood pressure to 24-hour blood pressure (reference standard) for new hypertension diagnoses. Our primary outcome is differences in mean systolic and diastolic blood pressure comparing clinic, home, and kiosk to 24-hour BP.",
+          "timeFrame": "Randomization to three weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* enrolled in the health plan for two years, no diagnosis of hypertension in the prior 2 years or more,\n* not on anti-hypertensive medications,\n* a high blood pressure at their last clinic visit (systolic blood pressure \\> or equal to 140 mm Hg or diastolic blood pressure \\> or equal to 90,\n* planning to remain a Kaiser Permanente patient for the next six months,\n* able to converse and read in English,\n* required to have elevated blood pressure at the screening visit (BP taken 2 times, high each time).\n\nExclusion Criteria:\n\n* children and pregnant women,\n* patients with end-stage renal disease,\n* dementia,\n* atrial fibrillation and other significant arrhythmias.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Beverly B Green, MD, MPH",
+          "affiliation": "Kaiser Permanente",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Kaiser Permanente Washington",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98023",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "38995194",
+          "type": "DERIVED",
+          "citation": "Hansell LD, Hsu CW, Munson SA, Margolis KL, Thompson MJ, Ehrlich KJ, Hall YN, Anderson ML, Evers SC, Marcus-Smith MS, McClure JB, Green BB. Patient Experiences With Blood Pressure Measurement Methods for Hypertension Diagnosis: Qualitative Findings From the BP-CHECK Study. Am J Hypertens. 2024 Oct 14;37(11):868-875. doi: 10.1093/ajh/hpae088."
+        },
+        {
+          "pmid": "38328915",
+          "type": "DERIVED",
+          "citation": "Hall YN, Anderson ML, McClure JB, Ehrlich K, Hansell LD, Hsu CW, Margolis KL, Munson SA, Thompson MJ, Green BB. Relationship of Blood Pressure, Health Behaviors, and New Diagnosis and Control of Hypertension in the BP-CHECK Study. Circ Cardiovasc Qual Outcomes. 2024 Feb;17(2):e010119. doi: 10.1161/CIRCOUTCOMES.123.010119. Epub 2024 Feb 8."
+        },
+        {
+          "pmid": "37688515",
+          "type": "DERIVED",
+          "citation": "Green BB, Anderson ML, McClure JB, Ehrlich K, Hall YN, Hansell L, Hsu C, Margolis KL, Munson SA, Thompson MJ. Is Hypertension Diagnostic Testing and Diagnosis Associated With Psychological Distress? Am J Hypertens. 2024 Jan 1;37(1):69-76. doi: 10.1093/ajh/hpad083."
+        },
+        {
+          "pmid": "36698062",
+          "type": "DERIVED",
+          "citation": "Hsu C, Hansell L, Ehrlich K, Munson S, Anderson M, Margolis KL, McClure JB, Hall YN, Thompson M, Joseph D, Green BB. Primary care physician beliefs and practices regarding blood pressure measurement: results from BP-CHECK qualitative interviews. BMC Prim Care. 2023 Jan 25;24(1):30. doi: 10.1186/s12875-022-01950-1."
+        },
+        {
+          "pmid": "36650328",
+          "type": "DERIVED",
+          "citation": "Thompson MJ, Anderson ML, Cook AJ, Ehrlich K, Hall YN, Hsu C, Margolis KL, McClure JB, Munson SA, Green BB. Acceptability and Adherence to Home, Kiosk, and Clinic Blood Pressure Measurement Compared to 24-H Ambulatory Monitoring. J Gen Intern Med. 2023 Jun;38(8):1854-1861. doi: 10.1007/s11606-023-08036-3. Epub 2023 Jan 17."
+        },
+        {
+          "pmid": "35239109",
+          "type": "DERIVED",
+          "citation": "Green BB, Anderson ML, Cook AJ, Ehrlich K, Hall YN, Hsu C, Joseph D, Klasnja P, Margolis KL, McClure JB, Munson SA, Thompson MJ. Clinic, Home, and Kiosk Blood Pressure Measurements for Diagnosing Hypertension: a Randomized Diagnostic Study. J Gen Intern Med. 2022 Sep;37(12):2948-2956. doi: 10.1007/s11606-022-07400-z. Epub 2022 Mar 3."
+        },
+        {
+          "pmid": "30634036",
+          "type": "DERIVED",
+          "citation": "Green BB, Anderson ML, Campbell J, Cook AJ, Ehrlich K, Evers S, Hall YN, Hsu C, Joseph D, Klasnja P, Margolis KL, McClure JB, Munson SA, Thompson MJ. Blood pressure checks and diagnosing hypertension (BP-CHECK): Design and methods of a randomized controlled diagnostic study comparing clinic, home, kiosk, and 24-hour ambulatory BP monitoring. Contemp Clin Trials. 2019 Apr;79:1-13. doi: 10.1016/j.cct.2019.01.003. Epub 2019 Jan 8."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "A final de-identified data set will be made available to the Patient-Centered Outcome Research Institute (PCORI). This data set will include de-identified, individual-level data and meet specifications set by our Institutional Review Board for sharing such data. The analytic data set will include data dictionaries and descriptions of the data such as cohort identification, study participant characteristics, and data captured electronically and via patient surveys. Parties may request data from Dr. Beverly Green and will need to indicate their plans for data use, acknowledge the source of the data in publications, and, if possible, collaborate with BP-CHECK research group."
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Clinic Blood Pressure Measurement",
+          "description": "Participants will be asked to check their blood pressure at their clinic once within the subsequent 3 weeks.\n\nBlood Pressure Measurement: We are comparing 3 types of measuring blood pressure for making a new diagnosis of hypertension, clinic blood pressure, home blood pressure, and kiosk blood pressure measurements over a 3 week diagnostic time period"
+        },
+        {
+          "id": "FG001",
+          "title": "Home Blood Pressure Measurement",
+          "description": "Participants will receive a validated upper-arm home blood pressure monitor and asked to take two measurements in the morning and two in the evening for at least 5 days over 3 weeks.\n\nBlood Pressure Measurement: We are comparing 3 types of measuring blood pressure for making a new diagnosis of hypertension, clinic blood pressure, home blood pressure, and kiosk blood pressure measurements over a 3 week diagnostic time period"
+        },
+        {
+          "id": "FG002",
+          "title": "Kiosk Blood Pressure Measurement",
+          "description": "Participants will be asked to use a validated blood pressure kiosk in their clinic or local pharmacy.\n\nBlood Pressure Measurement: We are comparing 3 types of measuring blood pressure for making a new diagnosis of hypertension, clinic blood pressure, home blood pressure, and kiosk blood pressure measurements over a 3 week diagnostic time period"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "172"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "170"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "168"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "171"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "170"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "166"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "2"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Clinic Blood Pressure Measurement",
+          "description": "Participants will be asked to check their blood pressure at their clinic once within the subsequent 3 weeks.\n\nBlood Pressure Measurement: We are comparing 3 types of measuring blood pressure for making a new diagnosis of hypertension, clinic blood pressure, home blood pressure, and kiosk blood pressure measurements over a 3 week diagnostic time period"
+        },
+        {
+          "id": "BG001",
+          "title": "Home Blood Pressure Measurement",
+          "description": "Participants will receive a validated upper-arm home blood pressure monitor and asked to take two measurements in the morning and two in the evening for at least 5 days over 3 weeks.\n\nBlood Pressure Measurement: We are comparing 3 types of measuring blood pressure for making a new diagnosis of hypertension, clinic blood pressure, home blood pressure, and kiosk blood pressure measurements over a 3 week diagnostic time period"
+        },
+        {
+          "id": "BG002",
+          "title": "Kiosk Blood Pressure Measurement",
+          "description": "Participants will be asked to use a validated blood pressure kiosk in their clinic or local pharmacy.\n\nBlood Pressure Measurement: We are comparing 3 types of measuring blood pressure for making a new diagnosis of hypertension, clinic blood pressure, home blood pressure, and kiosk blood pressure measurements over a 3 week diagnostic time period"
+        },
+        {
+          "id": "BG003",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "172"
+            },
+            {
+              "groupId": "BG001",
+              "value": "170"
+            },
+            {
+              "groupId": "BG002",
+              "value": "168"
+            },
+            {
+              "groupId": "BG003",
+              "value": "510"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "103"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "99"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "102"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "304"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "69"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "71"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "66"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "206"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "58.1",
+                      "spread": "14.2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "59.3",
+                      "spread": "13.2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "58.9",
+                      "spread": "12.9"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "58.8",
+                      "spread": "13.4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "82"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "86"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "79"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "247"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "90"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "84"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "89"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "263"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "19"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "160"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "165"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "157"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "482"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "28"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "34"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "136"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "137"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "136"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "409"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "16"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "18"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "172"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "170"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "168"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "510"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Baseline systolic blood pressure",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "millimeters of mercury",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "149.4",
+                      "spread": "9.8"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "149.9",
+                      "spread": "11.0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "150.1",
+                      "spread": "9.4"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "149.8",
+                      "spread": "10.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Baseline diastolic blood pressure",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "millimeters of mercury",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "88.5",
+                      "spread": "9.3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "87.9",
+                      "spread": "9.2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "88.0",
+                      "spread": "9.6"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "88.1",
+                      "spread": "9.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Comparative Performance of Clinic, Home, and Kiosk",
+          "description": "To compare the performance of clinic, home, and kiosk blood pressure to 24-hour blood pressure (reference standard) for new hypertension diagnoses. Our primary outcome is differences in mean systolic and diastolic blood pressure comparing clinic, home, and kiosk to 24-hour BP.",
+          "populationDescription": "The primary analysis population included all participants who completed 14 or more daytime 24-hour BP measurements, plus one or more measurements according to their randomization group.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "millimeters of mercury",
+          "timeFrame": "Randomization to three weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Clinic Blood Pressure Measurement",
+              "description": "Participants will be asked to check their blood pressure at their clinic once within the subsequent 3 weeks.\n\nBlood Pressure Measurement: We are comparing 3 types of measuring blood pressure for making a new diagnosis of hypertension, clinic blood pressure, home blood pressure, and kiosk blood pressure measurements over a 3 week diagnostic time period"
+            },
+            {
+              "id": "OG001",
+              "title": "Home Blood Pressure Measurement",
+              "description": "Participants will receive a validated upper-arm home blood pressure monitor and asked to take two measurements in the morning and two in the evening for at least 5 days over 3 weeks.\n\nBlood Pressure Measurement: We are comparing 3 types of measuring blood pressure for making a new diagnosis of hypertension, clinic blood pressure, home blood pressure, and kiosk blood pressure measurements over a 3 week diagnostic time period"
+            },
+            {
+              "id": "OG002",
+              "title": "Kiosk Blood Pressure Measurement",
+              "description": "Participants will be asked to use a validated blood pressure kiosk in their clinic or local pharmacy.\n\nBlood Pressure Measurement: We are comparing 3 types of measuring blood pressure for making a new diagnosis of hypertension, clinic blood pressure, home blood pressure, and kiosk blood pressure measurements over a 3 week diagnostic time period"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "142"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "152"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "140"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Systolic BP Mean difference diagnostic vs 24-hour",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-4.7",
+                      "lowerLimit": "-7.3",
+                      "upperLimit": "-2.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.1",
+                      "lowerLimit": "-1.6",
+                      "upperLimit": "1.5"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "9.5",
+                      "lowerLimit": "7.5",
+                      "upperLimit": "11.6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Diastolic BP Mean difference diagnostic vs 24-hour",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-7.2",
+                      "lowerLimit": "-8.8",
+                      "upperLimit": "-5.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.4",
+                      "lowerLimit": "-1.4",
+                      "upperLimit": "0.7"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "5.0",
+                      "lowerLimit": "3.8",
+                      "upperLimit": "6.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002"
+              ],
+              "groupDescription": "We used linear regression models to estimate the mean difference in BP between diagnostic measurement and daytime average 24-hr BP for each randomization group. Models were estimated using generalized estimating equations with robust standard errors, and adjusted for age, sex, BMI, education, and baseline systolic and diastolic BP. Separate models estimated mean differences (diagnostic protocol - 24-hr BP) between groups for systolic and diastolic BP.",
+              "nonInferiorityType": "EQUIVALENCE",
+              "nonInferiorityComment": "The study planned for a sample size of 510 and 80% protocol completion, resulting in sample size 136 per group. With this sample size, the least detectable difference (LDD) is 4.1 mmHg systolic BP (SBP) and 2.8 mmHg diastolic BP (DBP) between any two groups (assuming Standard Deviation 12.1 and 8.3 for SBP and DBP respectively). Actual sample sizes completing protocol were 142, 149, and 111 for Clinic, Home, and Kiosk groups respectively, resulting in LDD of at least 4.3 for SBP and 3.0 for DBP.",
+              "pValue": "<0.05",
+              "statisticalMethod": "Regression, Linear"
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "Self-reported adverse events were collected post-randomization via survey at: 1) 3 weeks; 2) 3 weeks and one day (after collection of 24-hour BP monitor data); and 3) 6-months.",
+      "description": "The definitions of adverse event or serious adverse event do not differ from ClinicalTrials.gov definitions. Adverse events were collected using an open text self-report question \"Since you enrolled in this study, about \\[x-time\\] ago, have you experienced any new and serious health problems?\" All responses were collated and coded.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Clinic Blood Pressure Measurement",
+          "description": "Participants will be asked to check their blood pressure at their clinic once within the subsequent 3 weeks.\n\nBlood Pressure Measurement: We are comparing 3 types of measuring blood pressure for making a new diagnosis of hypertension, clinic blood pressure, home blood pressure, and kiosk blood pressure measurements over a 3 week diagnostic time period",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 172,
+          "seriousNumAffected": 5,
+          "seriousNumAtRisk": 172,
+          "otherNumAffected": 38,
+          "otherNumAtRisk": 172
+        },
+        {
+          "id": "EG001",
+          "title": "Home Blood Pressure Measurement",
+          "description": "Participants will receive a validated upper-arm home blood pressure monitor and asked to take two measurements in the morning and two in the evening for at least 5 days over 3 weeks.\n\nBlood Pressure Measurement: We are comparing 3 types of measuring blood pressure for making a new diagnosis of hypertension, clinic blood pressure, home blood pressure, and kiosk blood pressure measurements over a 3 week diagnostic time period",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 170,
+          "seriousNumAffected": 2,
+          "seriousNumAtRisk": 170,
+          "otherNumAffected": 38,
+          "otherNumAtRisk": 170
+        },
+        {
+          "id": "EG002",
+          "title": "Kiosk Blood Pressure Measurement",
+          "description": "Participants will be asked to use a validated blood pressure kiosk in their clinic or local pharmacy.\n\nBlood Pressure Measurement: We are comparing 3 types of measuring blood pressure for making a new diagnosis of hypertension, clinic blood pressure, home blood pressure, and kiosk blood pressure measurements over a 3 week diagnostic time period",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 168,
+          "seriousNumAffected": 3,
+          "seriousNumAtRisk": 168,
+          "otherNumAffected": 35,
+          "otherNumAtRisk": 168
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Hospitalization: Back operation",
+          "organSystem": "Surgical and medical procedures",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Hospitalization: Surgery for enlarged prostate & bladder stones",
+          "organSystem": "Surgical and medical procedures",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Hospitalization: Surgery for removal appendix, bowel resection",
+          "organSystem": "Surgical and medical procedures",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Hospitalization: Bladder surgery",
+          "organSystem": "Surgical and medical procedures",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Acute respiratory failure",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Colon cancer",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Hospitalization: Knee replacement surgery",
+          "organSystem": "Surgical and medical procedures",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Prostate cancer",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Severe allergic reaction",
+          "organSystem": "Immune system disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Hospitalization: Surgery to implant stents",
+          "organSystem": "Surgical and medical procedures",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 168
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Discomfort, pain, irritation or bruisng from 24-hour monitor",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 15,
+              "numAffected": 15,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 5,
+              "numAffected": 5,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 7,
+              "numAffected": 7,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Sleep disruption",
+          "organSystem": "General disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Restlessness",
+          "organSystem": "General disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Musculoskeletal pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 6,
+              "numAffected": 6,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Anxiety",
+          "organSystem": "General disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Anxiety generated by using 24-hour BP monitor",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "High cholesterol",
+          "organSystem": "Metabolism and nutrition disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Asthma",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Post-Traumatic Stress Disorder",
+          "organSystem": "Psychiatric disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Shingles",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Flu",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Gluten intolerance",
+          "organSystem": "Metabolism and nutrition disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Toothache",
+          "organSystem": "General disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Rash",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Arthritis",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Sleep apnea",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Abnormal EKG",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Diabetes",
+          "organSystem": "Endocrine disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Toe surgery",
+          "organSystem": "Surgical and medical procedures",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "MRSA",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Low B12 and iron",
+          "organSystem": "Metabolism and nutrition disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Gall stones",
+          "organSystem": "Hepatobiliary disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Hernia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Gastrointestinal NOS",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Tendonitis",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Loss in erection",
+          "organSystem": "Reproductive system and breast disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Ankle fracture",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Swelling of hands, lips",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Plantar fasciitus",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Bladder infection",
+          "organSystem": "Renal and urinary disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Nerve pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Leg/hip injury",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Dizziness",
+          "organSystem": "Ear and labyrinth disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Stomach flu/nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Muscle weakness",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Bacterial infection",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Diverticulitis",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Vertigo",
+          "organSystem": "Ear and labyrinth disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Trigger finger",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Allergy",
+          "organSystem": "Immune system disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Respiratory track infection",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Pain NOS",
+          "organSystem": "General disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Acid reflux",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Depression",
+          "organSystem": "Psychiatric disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Deteriorating vision",
+          "organSystem": "Eye disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Carpal tunnel",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Thyroid nodules",
+          "organSystem": "Endocrine disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Stress",
+          "organSystem": "General disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Epigastric parasite infection",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Nerve damage from frostbite",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 168
+            }
+          ]
+        },
+        {
+          "term": "Kidney stones",
+          "organSystem": "Renal and urinary disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 172
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 170
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 168
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "Participants had to have high blood pressure (BP) to be eligible, thus our results may not be generalizable to a population with lower BPs. Diverse groups were somewhat under-represented, but reflective of the underlying demographics of the region."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Beverly B. Green, MD, MPH",
+        "organization": "Kaiser Permanente Washington Health Research Institute",
+        "email": "Bev.B.Green@kp.org",
+        "phone": "206-287-2997"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2020-05-07",
+          "uploadDate": "2020-10-20T13:48",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 427841
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D018660",
+          "term": "Blood Pressure Monitoring, Ambulatory"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001795",
+          "term": "Blood Pressure Determination"
+        },
+        {
+          "id": "D003935",
+          "term": "Diagnostic Techniques, Cardiovascular"
+        },
+        {
+          "id": "D019937",
+          "term": "Diagnostic Techniques and Procedures"
+        },
+        {
+          "id": "D003933",
+          "term": "Diagnosis"
+        },
+        {
+          "id": "D018670",
+          "term": "Monitoring, Ambulatory"
+        },
+        {
+          "id": "D008991",
+          "term": "Monitoring, Physiologic"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

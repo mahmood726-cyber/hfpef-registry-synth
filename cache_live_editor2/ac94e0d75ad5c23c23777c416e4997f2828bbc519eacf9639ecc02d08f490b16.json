@@ -1,0 +1,357 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03415906",
+      "orgStudyIdInfo": {
+        "id": "M17-05-LCZ-ARNI"
+      },
+      "organization": {
+        "fullName": "Hannover Medical School",
+        "class": "OTHER"
+      },
+      "briefTitle": "Influences of Angiotensin-neprilysin Inhibition on Sympathetic Activity in Heart Failure",
+      "officialTitle": "Influences of Angiotensin-neprilysin Inhibition With Sacubitril/Valsartan (ENTRESTO®) on Centrally Generated Sympathetic Activity in Heart Failure Patients",
+      "acronym": "ARNI-Sy"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2018-10",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "Difficulties in recruiting patients",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-12-14",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-09-06",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2018-09-06",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2018-01-02",
+      "studyFirstSubmitQcDate": "2018-01-29",
+      "studyFirstPostDateStruct": {
+        "date": "2018-01-30",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2018-10-05",
+      "lastUpdatePostDateStruct": {
+        "date": "2018-10-09",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Hannover Medical School",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "DLR German Aerospace Center",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The autonomic nervous system plays an important role in controlling the circulation. Increased sympathetic activity has detrimental effects in patients with heart failure.\n\nThe purpose of this study is to test the hypothesis that combined angiotensin receptor + neprilysin inhibition results in lower sympathetic activity than angiotensin receptor inhibition alone.",
+      "detailedDescription": "Thirty-five heart-failure patients will be included in a prospective, monocentric, active-controlled, double-blind, cross-over study with randomized sequence of treatments sacubitril+valsartan or valsartan alone. After open-label dose finding and washout patients will be randomly assigned to the treatment sequence \\[sac+val --\\> val\\] or \\[val --\\> sac+val\\]. The two treatment periods of 4 weeks duration will be separated by 2 weeks of washout. At the end of both treatments the state of the cardiovascular system and its control will be measured."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ],
+      "keywords": [
+        "angiotensin receptor blocker",
+        "neprilysin inhibition",
+        "sympathetic activity",
+        "baroreflex",
+        "microneurography",
+        "functional MRI"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "interventionModelDescription": "Prospective, monocentric, active-controlled, double-blind, cross-over with randomized sequence of treatments",
+        "primaryPurpose": "BASIC_SCIENCE",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "double",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "sacubitril+valsartan",
+          "type": "EXPERIMENTAL",
+          "description": "Combined angiotensin receptor and neprilysin inhibition",
+          "interventionNames": [
+            "Combination Product: sacubitril+valsartan"
+          ]
+        },
+        {
+          "label": "valsartan",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Angiotensin receptor inhibition alone",
+          "interventionNames": [
+            "Drug: valsartan"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "COMBINATION_PRODUCT",
+          "name": "sacubitril+valsartan",
+          "description": "Combined angiotensin receptor + neprilysin inhibition",
+          "armGroupLabels": [
+            "sacubitril+valsartan"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "valsartan",
+          "description": "Angiotensin receptor inhibition alone",
+          "armGroupLabels": [
+            "valsartan"
+          ],
+          "otherNames": [
+            "Angiotensin receptor blocker (AT1-receptor blocker)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "MSNA burst frequency [bursts/min]",
+          "description": "Bursts of vasoconstrictor sympathetic nerve activity directed to skeletal muscle (muscle sympathetic nerve activity, MSNA) per minute",
+          "timeFrame": "For 5 minutes at the end of both treatments"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "DBP [mmHg]",
+          "description": "Diastolic blood pressure",
+          "timeFrame": "For 5 minutes at the end of both treatments"
+        },
+        {
+          "measure": "PVN activity [unitless]",
+          "description": "Using functional Magnetic Resonance Imaging (fMRI) with concurrent Lower Body Negative Pressure (LBNP), we will identify the paraventricular hypothalamic nucleus (PVN) by its activity change from low to high LBNP stimulation in a 20-minute paradigm. Activity will be reported as a z-scores (no unit) averaged over the entire activation cluster.",
+          "timeFrame": "For 20 minutes at the end of both treatments"
+        },
+        {
+          "measure": "NTS activity [unitless]",
+          "description": "Using functional Magnetic Resonance Imaging (fMRI) with concurrent Lower Body Negative Pressure (LBNP), we will identify the nucleus of the solitary tract (NTS) by its activity change from low to high LBNP stimulation in a 20-minute paradigm. Activity will be reported as a z-scores (no unit) averaged over the entire activation cluster.",
+          "timeFrame": "For 20 minutes at the end of both treatments"
+        },
+        {
+          "measure": "MSNA burst incidence [bursts/100 heartbeats]",
+          "description": "Bursts of vasoconstrictor sympathetic nerve activity normalized to heart rate",
+          "timeFrame": "For 5 minutes at the end of both treatments"
+        },
+        {
+          "measure": "MSNA burst area [au/min]",
+          "description": "Area under the bursts in the integrated neurogram of vasoconstrictor sympathetic nerve activity",
+          "timeFrame": "For 5 minutes at the end of both treatments"
+        },
+        {
+          "measure": "Cardiac baroreflex gain [ms/mmHg]",
+          "description": "Ratio between the changes in ECG RR interval and systolic blood pressure",
+          "timeFrame": "For 5 minutes at the end of both treatments"
+        },
+        {
+          "measure": "Sympathetic baroreflex gain [bursts/mmHg]",
+          "description": "Ratio between the changes in burst frequency and diastolic blood pressure",
+          "timeFrame": "For 5 minutes at the end of both treatments"
+        },
+        {
+          "measure": "Sympathetic excitability [bursts]",
+          "description": "Increase in burst frequency elicited by isometric exercise (handgrip)",
+          "timeFrame": "For 3 minutes at the end of both treatments"
+        },
+        {
+          "measure": "NE [nM]",
+          "description": "Venous plasma norepinephrine level",
+          "timeFrame": "After 20 minutes of supine rest at the end of both treatments"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "GLS [%]",
+          "description": "Echocardiography:\n\nGlobal longitudinal strain as assessed using the speckle tracking technique",
+          "timeFrame": "For 10 seconds at the end of both treatments"
+        },
+        {
+          "measure": "E/E' [ratio]",
+          "description": "Echocardiography:\n\nE = mitral peak velocity of early filling E' = early diastolic mitral annular velocity (mean of E' lateral and E' septal) E and E' are obtained from 3 or 5 heart cycles with sinus rhythm or atrial fibrillation, respectively.",
+          "timeFrame": "For 10 seconds at the end of both treatments"
+        },
+        {
+          "measure": "sPAP [mmHg]",
+          "description": "Echocardiography:\n\nSystolic pulmonary arterial pressure obtained from 3 or 5 heart cycles with sinus rhythm or atrial fibrillation, respectively.",
+          "timeFrame": "For 10 seconds at the end of both treatments"
+        },
+        {
+          "measure": "HR variability [ms²]",
+          "description": "ECG RR-interval oscillations",
+          "timeFrame": "For 5 minutes at the end of both treatments"
+        },
+        {
+          "measure": "BP variability [mmHg²]",
+          "description": "Blood pressure oscillations",
+          "timeFrame": "For 5 minutes at the end of both treatments"
+        },
+        {
+          "measure": "Echocardiographic parameters",
+          "description": "Cardiac dimension and function as assessed by echocardiography",
+          "timeFrame": "For 20 minutes at the end of both treatments"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Women or men at the age ≥ 18 years, ≤ 80 years and able to give written informed consent\n2. Heart failure NYHA class II-III\n3. Ejection fraction of 40 % or less\n4. Stable dose of an ACE inhibitor or ARB over the last 4 weeks (A 2-day ACE inhibitor washout is scheduled before run-in; see Figure 3 on page 29.)\n5. Stable dose of a beta-blocker over the last 4 weeks unless contraindicated or not tolerated\n6. Patient has to be in sinus rhythm\n7. Patients capable of understanding the investigational nature, potential risks and benefits of the clinical trial\n8. Women without childbearing potential defined by:\n\n   * at least 6 weeks after surgical sterilization by bilateral tubal ligation or bilateral oophorectomy or\n   * hysterectomy or uterine agenesis or\n   * ≥ 50 years and in postmenopausal state ≥ 1 year or\n   * \\< 50 years and in postmenopausal state ≥ 1 year with urine FSH \\> 40 IU/l and urine estrogen \\< 30 ng/l or a negative estrogen test OR\n\n   Women of childbearing potential with a negative urine ß-HCG pregnancy test at screening who agree to meet one of the following criteria from the time of screening, during the study and for a period of 7 days following the last administration of study medication:\n   * correct use of at least an acceptable effective contraceptive measure. The following are deemed acceptable in this study: hormonal contraceptives (combined oral contraceptives and estrogen-free pills with desogestrel, implants, transdermal patches, hormonal vaginal devices or injections with prolonged release), intrauterine device (IUS))\n   * true abstinence (periodic abstinence and withdrawal are not acceptable methods of contraception)\n   * sexual relationship only with female partners and/or sterile male partners OR Male\n9. Signed written informed consent and willingness to comply with treatment and follow- up procedures.\n\nExclusion Criteria:\n\n1. History of hypersensitivity or allergy to any of the study drugs, drugs of similar chemical classes, ACE inhibitors (ACE-Is), ARBs, or neprilysin inhibitors, as well as known or suspected contraindications to the study drugs\n2. History of angioedema\n3. Recent acute decompensated heart failure within 2 months before screening\n4. Symptomatic hypotension and/or office systolic BP \\<110 mmHg at screening measured according to the recommendations of the European Society of Hypertension\n5. Combined intake of an ACE inhibitor and ARB over the last 4 weeks\n6. Estimated glomerular filtration rate (eGFR) \\<30 mL/min/1.73 m²\n7. Concomitant medication with Aliskiren in patients with Diabetes or patients with eGFR \\< 60 mL/min/1.73 m²\n8. Serum potassium \\>5.2 mmol/L at Visit 1 (screening)\n9. Acute coronary syndrome, stroke, transient ischemic attack, cardiac, carotid, or other major cardiovascular surgery, PCI, or carotid angioplasty within the 3 months before screening\n10. History of heart transplant or on a transplant list or with LV assistance device\n11. History of severe pulmonary disease\n12. Documented untreated ventricular arrhythmia with syncopal episodes within the 3 months prior to Visit 1\n13. Presence of hemodynamically significant mitral and/or aortic valve disease/ left ventricular outflow tract obstruction, except mitral regurgitation secondary to LV dilatation\n14. Any surgical or medical condition which might significantly alter the absorption, distribution, metabolism, or excretion of study drugs\n15. Evidence of hepatic disease as determined by any one of the following: aspartate aminotransferase or alanine aminotransferase values exceeding 2× upper limit of normal at Visit 1, history of hepatic encephalopathy, history of esophageal varices, or history of porto-caval shunt\n16. Contraindications precluding microneurography measurements, such as relevant peripheral neuropathy as judged by the investigator\n17. Pregnancy or lactation period\n18. Current participation in any other clinical trial or participation in another clinical trial within 30 days before screening\n19. Known or suspected hypersensitivity to any of the active substances or any excipients of the investigational medicinal products\n20. Vulnerable subjects (i.e. persons under any administrative or legal supervision or persons kept in detention)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Clinical Research Center Hannover, Hannover Medical School",
+          "city": "Hanover",
+          "zip": "30625",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.37052,
+            "lon": 9.73322
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C549068",
+          "term": "sacubitril and valsartan sodium hydrate drug combination"
+        },
+        {
+          "id": "D000068756",
+          "term": "Valsartan"
+        },
+        {
+          "id": "D057911",
+          "term": "Angiotensin Receptor Antagonists"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013777",
+          "term": "Tetrazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D014633",
+          "term": "Valine"
+        },
+        {
+          "id": "D000597",
+          "term": "Amino Acids, Branched-Chain"
+        },
+        {
+          "id": "D000596",
+          "term": "Amino Acids"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D000601",
+          "term": "Amino Acids, Essential"
+        },
+        {
+          "id": "D045504",
+          "term": "Molecular Mechanisms of Pharmacological Action"
+        },
+        {
+          "id": "D020228",
+          "term": "Pharmacologic Actions"
+        },
+        {
+          "id": "D020164",
+          "term": "Chemical Actions and Uses"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

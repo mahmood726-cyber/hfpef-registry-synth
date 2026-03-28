@@ -1,0 +1,279 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06655480",
+      "orgStudyIdInfo": {
+        "id": "124020200111-6"
+      },
+      "organization": {
+        "fullName": "National Medical Research Center for Cardiology, Ministry of Health of Russian Federation",
+        "class": "OTHER_GOV"
+      },
+      "briefTitle": "Triple Combination Therapy (ARNI, SGLT2i, MRA) in Advanced HFpEF",
+      "officialTitle": "Effect on Clinical Status, Structural and Functional Cardiac Parameters and Myocardial Fibrosis of Triple Combination Therapy With a Sodium-glucose Cotransporter 2 Inhibitor, Angiotensin Receptor/Neprilysin Inhibitor and Mineralocorticoid Receptor Antagonist in Patients With Advanced HFpEF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-02",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-03-18",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-09-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-10-21",
+      "studyFirstSubmitQcDate": "2024-10-21",
+      "studyFirstPostDateStruct": {
+        "date": "2024-10-23",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-02-14",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-02-19",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "National Medical Research Center for Cardiology, Ministry of Health of Russian Federation",
+        "class": "OTHER_GOV"
+      },
+      "collaborators": [
+        {
+          "name": "Lomonosov Moscow State University Medical Center",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Patients with advanced heart failure with preserved ejection fraction (HFpEF) will be randomly assigned in open-label multicenter study to receive triple combination therapy with \\[angiotensin receptor/neprilysin inhibitor \\[ARNI\\] + sodium-glucose cotransporter 2 inhibitor \\[SGLTi\\] + mineralocorticoid receptor antagonist \\[MRA\\]) or with individualized medical therapy \\[SGLTi + renin-angiotensin system inhibitor \\[RASi\\] \\[angiotensin receptor blocker \\[ARB\\] or angiotensin-converting enzyme inhibitor \\[ACE-I\\]), and will be treated for 52 weeks",
+      "detailedDescription": "HFpEF has a signiﬁcant morbidity and mortality, and the therapeutic options for HFpEF are limited. According to the results of clinical HFpEF trials, SGLTis and MRA can improve prognosis (EMPEROR-preserved, DELIVER, FINEARTS-HF trials); and ARNI can reduce the risk of hospitalization due to exacerbation of heart failure (PARAGON-HF trial). There is also clinical and experimental evidence of anti-inflammatory and antifibrotic effects in SGLTi, MRA and ARNI. However, there are currently no randomized clinical trials evaluating the efficacy of the combination therapy with all these drugs in HFpEF. The investigators suppose that triple combination therapy with \\[ARNI + SGLTi + AMR\\] in HFpEF will have a pronounced, rapid and safe positive clinical and haemodynamic effect primarily through its effect on fibrosis and inflammation in patients with HFpEF."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "HFpEF",
+        "LVDD",
+        "Myocardial Fibrosis"
+      ],
+      "keywords": [
+        "HFpEF",
+        "HF",
+        "left ventricular hypertrophy",
+        "diastolic dysfunction",
+        "cardiac reserves",
+        "LV filling pressures",
+        "myocardial fibrosis"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 50,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "[ARNI + SGLTi + AMR]",
+          "type": "EXPERIMENTAL",
+          "description": "Patients will receive combination therapy with ARNI, gliflozin and AMR",
+          "interventionNames": [
+            "Drug: [ARNI + SGLTi + AMR]"
+          ]
+        },
+        {
+          "label": "[SGLTi + previously taken RAAS blocker]",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients will receive combination therapy with gliflozin and previously taken RAAS blocker",
+          "interventionNames": [
+            "Drug: [SGLTi + previously taken RAAS blocker]"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "[ARNI + SGLTi + AMR]",
+          "description": "Empagliflozin 10mg tablet, Valsartan+Sacubitril 100-200-400 mg tablet, Finerenone 20-40 mg tablet",
+          "armGroupLabels": [
+            "[ARNI + SGLTi + AMR]"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "[SGLTi + previously taken RAAS blocker]",
+          "description": "Empagliflozin 10mg tablet, previously taken RAAS inhibitor",
+          "armGroupLabels": [
+            "[SGLTi + previously taken RAAS blocker]"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in myocardial extracellular volume (MRI)",
+          "description": "Difference in myocardial extracellular volume assessed by MRI data between 52 weeks after baseline and at baseline",
+          "timeFrame": "52 weeks"
+        },
+        {
+          "measure": "Change in 6-minute walking distance (6MWD)",
+          "description": "Difference in distance walked during 6-minute walking test (6MWT) between 52 weeks after baseline and at baseline",
+          "timeFrame": "52 weeks"
+        },
+        {
+          "measure": "Change in N-terminal pro b-type natriuretic peptide (NT-proBNP)",
+          "description": "Difference in NT-proBNP plasma levels between 52 weeks after baseline and at baseline",
+          "timeFrame": "52 weeks"
+        },
+        {
+          "measure": "Change in average E/e' ratio and tricuspid regurgitation velocity",
+          "description": "Difference in E/e' ratio and tricuspid regurgitation velocity assessed by echocardiography both at rest and at peak exercise during diastolic stress test (DST) between 52 weeks after baseline and at baseline",
+          "timeFrame": "52 weeks"
+        },
+        {
+          "measure": "Change in left atrial volume index (LAVi)",
+          "description": "Difference in LAVi assessed by echocardiography between 52 weeks after baseline and at baseline",
+          "timeFrame": "52 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in left ventricular mass index (LVMi)",
+          "description": "Difference in LVMi assessed by MRI between 52 weeks after baseline and at baseline",
+          "timeFrame": "52 weeks"
+        },
+        {
+          "measure": "Change in Minnesota Living with Heart Failure Questionnaire (MLHFQ) score",
+          "description": "Difference in Minnesota Living with Heart Failure Questionnaire (MLHFQ, potential scoring range between 0 and 105; higher scores mean a worse outcome) score between 52 weeks after baseline and at baseline",
+          "timeFrame": "52 weeks"
+        },
+        {
+          "measure": "Change in Kansas City Cardiomyopathy Questionnaire (KCCQ) score",
+          "description": "Difference in Kansas City Cardiomyopathy Questionnaire (KCCQ; a range of possible subscale scores is from 0 to 100, with 100 representing the least burden of symptoms. The total KCCQ score represents the mean of the three subscale scores) score between 52 weeks after baseline and at baseline",
+          "timeFrame": "52 weeks"
+        },
+        {
+          "measure": "Change in biomarkers of inflammation and fibrosis",
+          "description": "Difference in plasma levels of inflammatory and fibrosis biomarkers (hsCRP, GDF-15, PICP, galectin-3, MCP-1) between 52 weeks after baseline and at baseline",
+          "timeFrame": "52 weeks"
+        },
+        {
+          "measure": "Change in cardiac hemodynamic reserves - LV contractile",
+          "description": "Difference in cardiac hemodynamic reserves (LV contractile) during DST between 52 weeks after baseline and at baseline",
+          "timeFrame": "52 weeks"
+        },
+        {
+          "measure": "Change in cardiac hemodynamic reserves - LV diastolic",
+          "description": "Difference in cardiac hemodynamic reserves (LV diastolic) during DST between 52 weeks after baseline and at baseline",
+          "timeFrame": "52 weeks"
+        },
+        {
+          "measure": "Change in cardiac hemodynamic reserves - LA reservoir",
+          "description": "Difference in cardiac hemodynamic reserves (LA reservoir) during DST between 52 weeks after baseline and at baseline",
+          "timeFrame": "52 weeks"
+        },
+        {
+          "measure": "Change in cardiac hemodynamic reserves - cardiac chronotropic",
+          "description": "Difference in cardiac hemodynamic reserves (cardiac chronotropic) during DST between 52 weeks after baseline and at baseline",
+          "timeFrame": "52 weeks"
+        },
+        {
+          "measure": "Change in cardiac hemodynamic reserves - RV contractile",
+          "description": "Difference in cardiac hemodynamic reserves (RV contractile) during DST between 52 weeks after baseline and at baseline",
+          "timeFrame": "52 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Signed and data informed consent;\n2. Symptoms and signs of HF;\n3. LV ejection fraction \\> 50%;\n4. NT-proBNP \\> 300 pg/mL (for patients with atrial fibrillation NT-proBNP \\> 900 pg/mL)\n5. LV diastolic dysfunction II-III grade OR\n\nLV diastolic dysfunction I grade and at least 2 out of 4:\n\n* Е/е' \\> 14\n* LAVi \\> 34 ml/m2 (for those with persistent atrial fibrillation \\> 40 ml/m2)\n* PASP \\> 35 mm Hg or TR velocity \\> 2.8 m/sec\n* LV mass index \\> 95 g/m2 for women / \\> 115 g/m2 for men or LV interventricular septum or posterior wall thickness ≥ 1.1 sm OR\n\nChronic atrial fibrillation and at least 3 out of 4:\n\n* Е/е' \\> 11\n* E-wave velocity \\> 100 sm/s\n* TR velocity \\> 2.8 sm/s\n* DT ≤ 160 ms\n\nExclusion Criteria:\n\n1. Evidence of myocardial ischemia during stress echocardiography;\n2. Significant lesions of main coronary arteries;\n3. Atrial fibrillation with resting HR \\> 110 beats/min;\n4. Continuous (\\>90 days) treatment with ARNI, SGLTi and/or AMR within 12 months prior to screening. The last administration of these drugs must be at least 30 days prior to randomization. Treatment with these drugs should not be interrupted for the purpose of inclusion in the study.\n5. Coronary bypass surgery, stroke or TIA within the last 3 months of screening;\n6. Myocardial infarction or myocardial revascularization within the last 3 months of screening;\n7. Systolic blood pressure \\< 90 mmHg or ≥ 180 mmHg at screening or randomization;\n8. Genetic forms of HFpEF (HCM, amyloidosis, Fabry disease, glycogen storage diseases etc.);\n9. Peripartum cardiomyopathy, chemotherapy-induced cardiomyopathy, viral myocarditis, isolated right-sided HF without left-sided structural disease, constrictive pericarditis, significant pericardial effusion;\n10. Dyspnea due to non-cardiac causes such as pulmonary disease, anemia, severe obesity, primary valvular, or myocardial diseases;\n11. Significant lung disease (severe lung disease requiring home oxygen or chronic oral steroid therapy);\n12. Primary pulmonary artery hypertension;\n13. Significant left sided structural valve disease;\n14. Anemia (Hb \\< 100 g/L);\n15. Obesity (body mass index \\> 50 kg/m2);\n16. Impaired renal function, defined as estimated glomerular filtration rate (eGFR) \\<30 mL/min/1.73 m2 (CKD-EPI);\n17. Impaired liver function (serum levels of alanine aminotransferase, aspartate aminotransferase, or alkaline phosphatase above 3 × upper limit of normal);\n18. Addison's disease;\n19. Known hypersensitivity to medications used the in the study;\n20. Non-cardiac conditions that complicate/exclude participation in the study;\n21. Diseases associated with isolated LV insufficiency (idiopathic pulmonary hypertension, chronic thromboembolic pulmonary hypertension, etc.);\n22. Serum/plasma potassium \\>5.0 mmol/L at screening or randomization or a history of hyperkalemia or acute renal failure during AMR treatment for \\>7 consecutive days leading to discontinuation of AMR treatment.\n23. For patients with diabetes mellitus:\n\n    * Type 1 diabetes mellitus;\n    * Presence of more than 4 episodes of moderate hypoglycemia within the past month or at least one episode of severe hypoglycemia within the past year;\n    * Glycated hemoglobin level \\> 9% or \\<6%",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "40 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Artem G Ovchinnikov, MD, PhD, DSc",
+          "role": "CONTACT",
+          "phone": "+74954146612",
+          "email": "artcardio@mail.ru"
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D017379",
+          "term": "Hypertrophy, Left Ventricular"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006332",
+          "term": "Cardiomegaly"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D006984",
+          "term": "Hypertrophy"
+        },
+        {
+          "id": "D020763",
+          "term": "Pathological Conditions, Anatomical"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,178 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05438030",
+      "orgStudyIdInfo": {
+        "id": "21HH7048"
+      },
+      "organization": {
+        "fullName": "Imperial College London",
+        "class": "OTHER"
+      },
+      "briefTitle": "Diastolic Function Assessment With Cardiac Magnetic Resonance Imaging",
+      "officialTitle": "Diastolic Function Assessment With Cardiac Magnetic Resonance Imaging",
+      "acronym": "DIAMER"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-03",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-09-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-12-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2024-06-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-06-21",
+      "studyFirstSubmitQcDate": "2022-06-24",
+      "studyFirstPostDateStruct": {
+        "date": "2022-06-29",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-03-01",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-03-02",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Imperial College London",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Cardiac magnetic resonance (CMR) imaging is excellent at assessing the contractility of the heart muscle. However, relatively little is known about CMR's ability to assess the relaxation (diastolic function) of the heart between heart beats, where echocardiography remains the gold standard. This is important because in 30% of heart failure patients the overwhelming problem is diastolic dysfunction, and so they often need both tests.\n\nThe investigators wish to investigate how to best make measurements using CMR to identify those with impaired diastolic function, in the context of the current gold standard test (echocardiography).",
+      "detailedDescription": "37 participants will be recruited, comprising a mix of patients with diastolic heart dysfunction and health controls.\n\nThe diseased cohort will comprise patients with preserved systolic function and known raised B-type natriuretic peptide levels (BNP, a blood test indicating raised pressures in the heart) from cardiology clinics who are undergoing a clinical CMR scan.\n\nThe healthy controls will comprise patients also undergoing MRI scans, but who are strongly expected not to have heart diastolic disease - for example, patients undergoing MRI scans for family screening but displaying no symptoms or other abnormal tests. BNP blood testing will not be necessary for the healthy control arm.\n\nIf a participant in the health control arm is found to have diastolic dysfunction, they will be eligible to cross over to the diseased group, after discussing their results with their physician. At this point, a BNP level will be checked if the patient is happy to continue in the study. The criteria for crossover this will be Grade 2 or greater diastolic dysfunction as per the British Society of Echocardiography Diastolic Dysfunction guidelines. If the BNP level is not raised, despite meeting imaging criteria for diastolic dysfunction, the patient will not be eligible for the full analysis and the second visit will not be performed.\n\nPatients in the diseased cohort will represent a range of pathologies that typically cause HFPEF (heart failure with preserved ejection fraction), including hypertrophic cardiomyopathy, aortic stenosis, and cardiac amyloidosis.\n\nOn the same day as their clinical CMR scan, participants will undergo a focused research echocardiogram which will include quantification of left atrium size, trans-mitral Doppler, tissue Doppler imaging and global longitudinal strain (GLS). All measurements will be performed in both left lateral decubitus positioning (typical for echocardiography) and supine positioning (typical for CMR).\n\nParticipants will then undergo their clinical CMR scan.\n\nAfter their CMR scan, patients will then undergo repeat focused echocardiography.\n\nWhen patients return for their clinical follow-up, they will undergo a repeat focused echocardiogram and 15-minute research CMR scan.\n\nThis design allows the agreement between each CMR and echocardiographic measure of diastolic function to be assessed. More importantly, this agreement can be described in the context of:\n\n1. Changes in diastolic function parameters due to patient positioning\n2. Changes in diastolic function parameters during a scan, e.g. due to the patient relaxing\n3. Each modality's test re-test reproducibility over two timescales (less than 1 hour versus several weeks)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Diastolic Dysfunction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "DIAGNOSTIC",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 37,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Paired cardiac MRI and echocardiographic measurements",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Diagnostic Test: Cardiac MRI scan",
+            "Diagnostic Test: Echocardiogram scan"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Cardiac MRI scan",
+          "description": "Undertaken at the radiology department at Hammersmith Hospital. The scan will be performed by the MRI radiographers, under the supervision of a consultant radiologist or cardiologist.",
+          "armGroupLabels": [
+            "Paired cardiac MRI and echocardiographic measurements"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Echocardiogram scan",
+          "description": "Undertaken at the Peart Rose research unit, by a British Society of Echocardiography accredited sonographer.",
+          "armGroupLabels": [
+            "Paired cardiac MRI and echocardiographic measurements"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Diagnostic accuracy using e:E'",
+          "description": "The accuracy rate using the ratio (dimensionless) of early mitral valve inflow (centimetres per second) to the mitral valve peak relaxation velocity (centimeters per second), measured using echocardiography and cardiac MRI.",
+          "timeFrame": "15 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Cohort 1: patients with preserved systolic function, grade 2 or more diastolic dysfunction on echocardiography, a raised BNP, and a diagnosis typically causing HFPEF (e.g., hypertrophic cardiomyopathy, severe aortic stenosis, or cardiac amyloidosis).\n* Cohort 2: patients without grade 2 or more diastolic dysfunction on echocardiography.\n\nExclusion Criteria:\n\n* Contraindications to CMR or echocardiographic scanning - for safety.\n* Contraindications to gadolinium contrast agents - for safety.\n* Severe claustrophobia - extra CMR scanning may prove too difficult.\n* Pregnancy - likely to be undergoing progressive physiological changes in the conduct of the study which may invalid assumptions about repeat scanning.\n* The ability to provide informed consent.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Becky Ward",
+          "role": "CONTACT",
+          "phone": "0207 594 9459",
+          "email": "becky.ward@imperial.ac.uk"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hammersmith Hospital",
+          "status": "RECRUITING",
+          "city": "London",
+          "zip": "W12 0HS",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "James P Howard, PhD",
+              "role": "CONTACT",
+              "phone": "+44 (0)20 7594 5735",
+              "email": "james.howard1@imperial.ac.uk"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    }
+  },
+  "hasResults": false
+}

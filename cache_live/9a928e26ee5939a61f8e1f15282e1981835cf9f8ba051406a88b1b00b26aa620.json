@@ -1,0 +1,550 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06183437",
+      "orgStudyIdInfo": {
+        "id": "STOPMED-1"
+      },
+      "organization": {
+        "fullName": "University Health Network, Toronto",
+        "class": "OTHER"
+      },
+      "briefTitle": "The STOP-MED CTRCD Trial",
+      "officialTitle": "A Multi-Centre Non-Inferiority Randomized Controlled Trial of STOPping Cardiac MEDications in Patients With Normalized Cancer Therapy Related Cardiac Dysfunction: The STOP-MED CTRCD Trial",
+      "acronym": "STOP-MED"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-11",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-03-04",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2031-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-12-13",
+      "studyFirstSubmitQcDate": "2023-12-13",
+      "studyFirstPostDateStruct": {
+        "date": "2023-12-27",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-11-25",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-03",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University Health Network, Toronto",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Unity Health Toronto",
+          "class": "OTHER"
+        },
+        {
+          "name": "Hamilton Health Sciences Corporation",
+          "class": "OTHER"
+        },
+        {
+          "name": "St. Boniface Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Ottawa Heart Institute Research Corporation",
+          "class": "OTHER"
+        },
+        {
+          "name": "University College London Hospitals",
+          "class": "OTHER"
+        },
+        {
+          "name": "Alberta Health Services, Calgary",
+          "class": "OTHER"
+        },
+        {
+          "name": "Brigham and Women's Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Baker Heart and Diabetes Institute",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Cancer therapy-related cardiac dysfunction (CTRCD) is when the heart's ability to pump oxygenated blood to the body is compromised. It is a side effect of cancer therapy which can occur as commonly as in 1 in 5 patients. When this occurs, heart failure medications are started to protect the heart from progressing to heart failure. With early detection and treatment, heart function recovers to normal in \\>80% of patients. Unfortunately, heart failure medications are associated with an undesirable long-term pill burden, financial costs, and side-effects (e.g., dizziness and fatigue). As a result, cancer survivors frequently ask if they can safely stop their heart failure medications once their heart function has returned to normal. Currently there is no scientific evidence in this area of Cardio-Oncology.\n\nTo address this knowledge gap, the investigators have designed a randomized control trial to assess the safety of stopping heart failure medication in patients with CTRCD and recovered heart function. The investigators will enrol patients who have completed their cancer therapy and are on heart medications for their CTRCD, which has now normalized. The investigators will randomize patients with no other reasons to continue heart failure medications (e.g., kidney disease) to continuing or stopping their heart medications safely. All patients will undergo a cardiac MRI at baseline, 1 and 5 years with safety assessments at 6-8 weeks, 6 months and 3 and 5 years. The investigators will determine if stopping medications is non-inferior to continuing medications by counting the numbers of patients who develop heart dysfunction by 1 year in each group."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure",
+        "Cardiotoxicity",
+        "Cardiac Toxicity",
+        "Antineoplastics Toxicity",
+        "Cancer"
+      ],
+      "keywords": [
+        "cancer therapy related cardiac dysfunction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 335,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Stop Group",
+          "type": "EXPERIMENTAL",
+          "description": "This group will stop their heart failure medication(s) under the supervision of the study team. The investigators expect most participants in the STOP group to only be on beta-blockers (BB) and/or angiotensin-converting-enzyme inhibitors (ACEi) or angiotensin receptor blockers (ARB). The ACEi or ARB will be stopped first. The ACEi or ARB will be reduced by 50% every 7 days and stopped 7 days after 25% of maximal recommended dose for HF is reached. At this point (or at baseline if only on BB), the BB dose will be reduced by 50% every 7 days then stopped once 25% of the maximal dose is reached. Participants on 75% of the maximal dose will be reduced to 50% of the maximal dose before reducing by 50% every 7 days. Other HF medications will be stopped as follows: MRA: reduce by 50% every 7 days then stop once 50% of maximal dose is reached; SGLT2i: stopped without titration, ARNi: reduce by 50% every 7 days then stop once 25% of the maximal dose.",
+          "interventionNames": [
+            "Other: Stopping Heart Failure Medication(s)"
+          ]
+        },
+        {
+          "label": "Standard of Care Group",
+          "type": "NO_INTERVENTION",
+          "description": "This group with continue with their heart failure medication(s) for at least 1 year."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Stopping Heart Failure Medication(s)",
+          "description": "This group will stop their heart failure medication(s) under the supervision of the study team.",
+          "armGroupLabels": [
+            "Stop Group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Cancer Therapy Related Cardiac Dysfunction Relapse",
+          "description": "To compare the proportion of those that develop by 1 year of follow-up one or both of the following (i) left ventricular ejection fraction \\<50% and an absolute decline of \\>5% from baseline by cardiac magnetic resonance (CMR) (ii) new heart failure signs (at least two physical findings or one physical finding and one laboratory finding) AND symptoms (at least one) with the initiation of qualifying heart failure therapy.",
+          "timeFrame": "1 year"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Changes in cardiac magnetic resonance parameters",
+          "description": "Differences between the two groups in the following measures.\n\n1. Changes in CMR LVEF as a continuous parameter.\n2. Proportion of participants with increased CMR indexed LV volumes by ≥10% to higher-than-normal limits.\n3. Proportion of participants with decline in CMR LVEF to \\<50% with a \\>10% absolute fall compared to pre-HF medication withdrawal.\n4. CMR peak systolic global longitudinal strain (GLS) worsening by \\>15%.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Left ventricular diastolic function",
+          "description": "Proportion of participants with new diastolic dysfunction or worsening diastolic function ≥1 grade by echocardiography between the two study groups.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Non-adherence of heart failure medication(s)",
+          "description": "Proportion of participants with non-adherence of heart failure medication(s) by 1 year between the two study groups. Non-adherence is defined in the STOP group as the proportion of participants in whom successful cessation of all medications used to treat CTRCD was not possible or re-addition of the same medications used in that participant for HF was necessary for non-HF indications (e.g., palpitations). In the standard of care (SOC) group non-adherence is defined as the proportion of participants who stopped all HF medications used to treat CTRCD.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "N-terminal pro B-type Natriuretic Peptide (NT-pro BNP)",
+          "description": "Doubling of NT-pro BNP compared to pre-HF therapy cessation between the two study groups.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Changes in quality of life score",
+          "description": "Difference in patient questionnaires scores between the two groups using the following patient questionnaires:\n\n1. Kansas City Cardiomyopathy Questionnaire\n2. Short Form (SF) Survey -36\n3. EQ-5D-5L",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Cost effectiveness analysis",
+          "description": "We will compare the cost per quality adjusted life years between the two study groups.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Proportion of participants developing the primary outcome by whether they developed moderate versus severe CTRCD at original diagnosis",
+          "description": "The proportion of those that develop the primary outcome stratified by CTRCD LVEF \\<40% or ≥40%",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Incidence of novel biomarkers and genomic factors that may determine the risk of developing the primary endpoint",
+          "description": "Incidence of cardiac, inflammatory, endothelial and other novel biomarkers and genomic factors that may determine the risk of developing the primary endpoint.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Proportion of participants developing the primary outcome stratified by natriuretic peptides thresholds.",
+          "description": "Proportion of participants developing the primary outcome stratified by natriuretic peptides thresholds.",
+          "timeFrame": "1 year"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Longer term changes in cardiac magnetic resonance parameters",
+          "description": "Differences between the two groups in the following measures.\n\n1. Changes in CMR LVEF as a continuous parameter.\n2. Proportion of participants with increased CMR indexed LV volumes by ≥10% to higher-than-normal limits.\n3. Proportion of participants with decline in CMR LVEF to \\<50% with a \\>10% absolute fall compared to pre-HF medication withdrawal.\n4. CMR peak systolic global longitudinal strain (GLS) worsening by \\>15%.",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Longer term changes in left ventricular diastolic function",
+          "description": "Proportion of participants with new diastolic dysfunction or worsening diastolic function ≥1 grade by echocardiography between the two study groups.",
+          "timeFrame": "3 and 5 years"
+        },
+        {
+          "measure": "Clinical heart failure",
+          "description": "Difference in proportion of participants with clinical HF between the two groups.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Changes in quality of life score",
+          "description": "Difference in patient questionnaires scores between the two groups using the following patient questionnaires:\n\n1. Kansas City Cardiomyopathy Questionnaire\n2. SF-36\n3. EQ-5D-5L",
+          "timeFrame": "3 and"
+        },
+        {
+          "measure": "Impact of gender",
+          "description": "Differences in the GENESIS-PRAXY score between groups",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Novel biomarkers and genomic factors",
+          "description": "Incidence of novel biomarkers and genomic factors that may determine the risk of developing the primary endpoint between the two groups.",
+          "timeFrame": "1 year"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Adult patients (age ≥18 years) with cancer therapy completed more than 6 months prior (other than hormonal therapy) and no plan for further cancer treatments with potential risk for CTRCD.\n* Prior cancer therapy with anthracyclines and/ or HER2-targeted therapy.\n* Prior asymptomatic, moderate to severe CTRCD, defined using the ESC/ICOS criteria (MODERATE: ≥10% drop in LVEF from baseline to 40% to 49.9% OR \\<10% drop to 40-49.9% with a reduction in GLS by \\>15% or new abnormal Troponin I/T or NT-proBNP or SEVERE: new LVEF reduction to \\<40% from normal baseline LVEF), diagnosed within 1 year of completing potentially cardiotoxic cancer therapy.\n* Current use of ≥1 HF medication started for CTRCD for at least 6 months with LVEF ≥55% by recently performed (≤6 months) echocardiogram, normal sex and age adjusted NT-proBNP or BNP ≤97.5th Centile, and no symptoms attributable to HF.\n* Reference ranges for NT-proBNP and BNP by age and sex:\n\n\\<30 years: Female: NT-proBNP ≤196 pg/ml, BNP ≤55 pg/ml Male: NT-proBNP ≤104 pg/ml, BNP ≤29 pg/ml\n\n30-39 years: Female: NT-proBNP ≤209 pg/ml, BNP ≤59 pg/ml Male: NT-proBNP ≤102 pg/ml, BNP ≤29 pg/ml\n\n40-49 years: Female: NT-proBNP ≤233 pg/ml, BNP ≤65 pg/ml Male: NT-proBNP ≤137 pg/ml, BNP ≤38 pg/ml\n\n50-59 years: Female: NT-proBNP ≤299 pg/ml, BNP ≤84 pg/ml Male: NT-proBNP ≤195 pg/ml, BNP ≤55 pg/ml\n\n60-69 years: Female: NT-proBNP ≤399 pg/ml, BNP ≤112 pg/ml Male: NT-proBNP ≤333 pg/ml, BNP ≤93 pg/ml\n\n70-79 years: Female: NT-proBNP ≤743 pg/ml, BNP ≤208 pg/ml Male: NT-proBNP ≤763 pg/ml, BNP ≤214 pg/ml\n\n≥80 years: Female: NT-proBNP ≤2,704 pg/ml, BNP ≤757 pg/ml Male: NT-proBNP ≤6,792 pg/ml, BNP ≤1,902 pg/ml\n\n* Confirmation of LVEF ≥55% and normal volumes at baseline CMR (i.e., some patients recruited based on echocardiography, may be excluded if baseline CMR LVEF/volumes are not normal). This is included given that the primary outcome includes the use of CMR LVEF.\n\nExclusion Criteria:\n\n* Indication for continuation of HF medications i.e., ongoing HF symptoms, chronic kidney disease (CKD), vascular disease, atrial or ventricular arrythmias, other (note: participants with hypertension will be switched to other guideline-based antihypertensive therapy).\n* Contraindications for CMR (e.g., MRI non-compatible implanted pacemakers).\n* Patients with cardiac devices i.e. defibrillator, CRT, pacemaker, etc.\n* Continued use of loop diuretic therapy for heart failure purposes i.e., furosemide.\n* Life expectancy \\<1 year or metastatic disease.\n* Prior history of major cardiovascular event (defined as myocardial infarction, cerebral vascular event, admission for HF) or therapeutic cardiovascular procedure (e.g., percutaneous coronary intervention (PCI), coronary artery bypass grafting (CABG)).\n* Issues that prevent communication, understanding or presentation for study-related visits and inability to provide informed consent.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Paaladinesh Thavendiranathan, MD",
+          "role": "CONTACT",
+          "phone": "416-340-5326",
+          "email": "dinesh.thavendiranathan@uhn.ca"
+        },
+        {
+          "name": "Sadia Khan",
+          "role": "CONTACT",
+          "phone": "437-522-6441",
+          "email": "Sadia.Khan@uhn.ca"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Brigham and Women's Hospital",
+          "status": "RECRUITING",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02115",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Anju Nohria, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Anju Nohria, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Baker Heart and Diabetes Institute",
+          "status": "RECRUITING",
+          "city": "Melbourne",
+          "state": "Victoria",
+          "zip": "3004",
+          "country": "Australia",
+          "contacts": [
+            {
+              "name": "Tom Marwick, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Tom Marwick, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": -37.814,
+            "lon": 144.96332
+          }
+        },
+        {
+          "facility": "Foothills Medical Centre",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Calgary",
+          "state": "Alberta",
+          "zip": "T2N 2T9",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "James White, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "James White, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.05011,
+            "lon": -114.08529
+          }
+        },
+        {
+          "facility": "Edmonton Clinic Health Academy",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Edmonton",
+          "state": "Alberta",
+          "zip": "T6G 1C9",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Edith Pituskin, PhD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Edith Pituskin, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.55014,
+            "lon": -113.46871
+          }
+        },
+        {
+          "facility": "St. Boniface Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Winnipeg",
+          "state": "Manitoba",
+          "zip": "R2H 2A6",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Davinder Jassal, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Davinder Jassal, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 49.8844,
+            "lon": -97.14704
+          }
+        },
+        {
+          "facility": "Hamilton General Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Hamilton",
+          "state": "Ontario",
+          "zip": "L8L 2X2",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Darryl Leong, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Darryl Leong, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.25011,
+            "lon": -79.84963
+          }
+        },
+        {
+          "facility": "University of Ottawa Heart Institute",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Ottawa",
+          "state": "Ontario",
+          "zip": "K1Y 4W7",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Ian Paterson, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Ian Paterson, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.41117,
+            "lon": -75.69812
+          }
+        },
+        {
+          "facility": "St Michael's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M5B 1W8",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Kim Connelly, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Kim Connelly, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "facility": "University Health Network",
+          "status": "RECRUITING",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M5G2C4",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Paaladinesh Thavendiranathan, MD",
+              "role": "CONTACT",
+              "phone": "416-340-5326",
+              "email": "dinesh.thavendiranathan@uhn.ca"
+            },
+            {
+              "name": "Paaladinesh Thavendiranathan, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "facility": "Barts Health NHS Trust, University College London",
+          "status": "NOT_YET_RECRUITING",
+          "city": "London",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Charlotte Manisty, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Charlotte Manisty, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D066126",
+          "term": "Cardiotoxicity"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D064420",
+          "term": "Drug-Related Side Effects and Adverse Reactions"
+        },
+        {
+          "id": "D064419",
+          "term": "Chemically-Induced Disorders"
+        },
+        {
+          "id": "D011832",
+          "term": "Radiation Injuries"
+        },
+        {
+          "id": "D014947",
+          "term": "Wounds and Injuries"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

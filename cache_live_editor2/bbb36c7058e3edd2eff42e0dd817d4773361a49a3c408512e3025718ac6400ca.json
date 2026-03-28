@@ -1,0 +1,1780 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05438576",
+      "orgStudyIdInfo": {
+        "id": "22-000539"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "K12AR084222",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/K12AR084222"
+        },
+        {
+          "id": "UL1TR002377",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/UL1TR002377"
+        }
+      ],
+      "organization": {
+        "fullName": "Mayo Clinic",
+        "class": "OTHER"
+      },
+      "briefTitle": "Screening for Pregnancy Related Heart Failure in Nigeria",
+      "officialTitle": "Screening for Peripartum Cardiomyopathies Using Artificial Intelligence (SPEC-AI) in Nigeria"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-08-15",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-05-15",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-05-15",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-06-24",
+      "studyFirstSubmitQcDate": "2022-06-28",
+      "studyFirstPostDateStruct": {
+        "date": "2022-06-30",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2025-02-05",
+      "resultsFirstSubmitQcDate": "2025-04-30",
+      "resultsFirstPostDateStruct": {
+        "date": "2025-05-16",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-04-30",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-05-16",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Demilade A. Adedinsewo",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "Mayo Clinic"
+      },
+      "leadSponsor": {
+        "name": "Mayo Clinic",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD)",
+          "class": "NIH"
+        },
+        {
+          "name": "National Center for Advancing Translational Sciences (NCATS)",
+          "class": "NIH"
+        },
+        {
+          "name": "National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study will evaluate the effectiveness of an artificial intelligence-enabled ECG (AI-ECG) for cardiomyopathy detection in an obstetric population in Nigeria."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiomyopathy",
+        "Pregnancy Related"
+      ],
+      "keywords": [
+        "Cardiomyopathy",
+        "Artificial Intelligence",
+        "Women's Health",
+        "Digital Health"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "SCREENING",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1232,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intervention",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will have ECGs analyzed with artificial intelligence for cardiomyopathy detection.",
+          "interventionNames": [
+            "Other: Digital stethoscope electrocardiogram"
+          ]
+        },
+        {
+          "label": "Control",
+          "type": "NO_INTERVENTION",
+          "description": "Participants will have standard clinical ECGs acquired."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Digital stethoscope electrocardiogram",
+          "description": "Digital stethoscope artificial intelligence enabled electrocardiogram (AI-ECG). An artificial intelligence algorithm which analyses ECG data and generates prediction probabilities for a diagnosis of cardiomyopathy.",
+          "armGroupLabels": [
+            "Intervention"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Left Ventricular Ejection Fraction (LVEF) <50%",
+          "description": "Number of participants diagnosed with left ventricular ejection fraction (LVEF) \\<50% by echocardiography during pregnancy or within 12 months postpartum.",
+          "timeFrame": "18 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Effectiveness of AI-ECG for Cardiomyopathy Detection in the Intervention Arm for Left Ventricular Ejection Fraction (LVEF) ≤ 35%",
+          "description": "This is defined as a positive point-of-care AI prediction for LVEF ≤ 35% (maximum prediction across all stethoscope recording locations) confirmed with echocardiography",
+          "timeFrame": "18 months"
+        },
+        {
+          "measure": "Effectiveness AI-ECG for Cardiomyopathy Detection in the Intervention Arm in LVEF < 40%",
+          "description": "This is defined as a positive point-of-care AI prediction for LVEF \\< 40% (maximum prediction across all stethoscope recording locations) confirmed with echocardiography",
+          "timeFrame": "18 months"
+        },
+        {
+          "measure": "Effectiveness AI-ECG for Cardiomyopathy Detection in the Intervention Arm in LVEF < 45%",
+          "description": "This is defined as a positive point-of-care AI prediction for LVEF \\<45% (maximum prediction across all stethoscope recording locations) confirmed with echocardiography",
+          "timeFrame": "18 months"
+        },
+        {
+          "measure": "Effectiveness AI-ECG for Cardiomyopathy Detection in the Intervention Arm in LVEF < 50%",
+          "description": "This is defined as a positive point-of-care AI prediction for LVEF \\<50% (maximum prediction across all stethoscope recording locations) confirmed with echocardiography",
+          "timeFrame": "18 months"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Composite Adverse Cardiovascular Events",
+          "description": "The number of subjects to experience composite cardiovascular events with include any of the following: diastolic heart failure, gestational hypertension, pre-eclampsia, eclampsia, valvular heart disease, atrial arrhythmias and sustained ventricular arrhythmias.",
+          "timeFrame": "18 months"
+        },
+        {
+          "measure": "Echocardiography Utilization",
+          "description": "Determine the impact of an AI-ECG on echocardiography utilization",
+          "timeFrame": "18 months"
+        },
+        {
+          "measure": "Effectiveness of AI Point of Care Tools for Cardiomyopathy Detection in the Intervention Arm",
+          "description": "Develop and evaluate the diagnostic performance of an AI-enhanced point of care screening tool",
+          "timeFrame": "18 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Currently pregnant or within 12 months postpartum\n* Willing and able to provide informed consent\n\nExclusion Criteria:\n\n* Complex congenital heart disease (single ventricle physiology or significant shunts with cardiac structural changes)\n* Significant conduction abnormalities (ventricular pacing on recorded ECG, pacemaker dependence, or severely abnormal/bizarre QRS morphology on ECG tracings)\n* Unable or unwilling to provide consent",
+      "healthyVolunteers": true,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "49 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Demilade Adedinsewo, MD, MPH",
+          "affiliation": "Mayo Clinic",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Rasheed Shekoni Specialist Hospital",
+          "city": "Dutse",
+          "state": "Jigawa State",
+          "country": "Nigeria",
+          "geoPoint": {
+            "lat": 11.75618,
+            "lon": 9.33896
+          }
+        },
+        {
+          "facility": "University of Ilorin Teaching Hospital",
+          "city": "Ilorin",
+          "state": "Kwara State",
+          "country": "Nigeria",
+          "geoPoint": {
+            "lat": 8.49664,
+            "lon": 4.54214
+          }
+        },
+        {
+          "facility": "Olabisi Onabanjo University Teaching Hospital",
+          "city": "Sagamu",
+          "state": "Ogun State",
+          "country": "Nigeria",
+          "geoPoint": {
+            "lat": 6.8485,
+            "lon": 3.64633
+          }
+        },
+        {
+          "facility": "University College Hospital",
+          "city": "Ibadan",
+          "state": "Oyo State",
+          "country": "Nigeria",
+          "geoPoint": {
+            "lat": 7.37756,
+            "lon": 3.90591
+          }
+        },
+        {
+          "facility": "Aminu Kano Teaching Hospital",
+          "city": "Kano",
+          "country": "Nigeria",
+          "geoPoint": {
+            "lat": 12.00012,
+            "lon": 8.51672
+          }
+        },
+        {
+          "facility": "Lagos University Teaching Hospital",
+          "city": "Lagos",
+          "country": "Nigeria",
+          "geoPoint": {
+            "lat": 6.45407,
+            "lon": 3.39467
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "36966922",
+          "type": "BACKGROUND",
+          "citation": "Adedinsewo DA, Morales-Lara AC, Dugan J, Garzon-Siatoya WT, Yao X, Johnson PW, Douglass EJ, Attia ZI, Phillips SD, Yamani MH, Tobah YB, Rose CH, Sharpe EE, Lopez-Jimenez F, Friedman PA, Noseworthy PA, Carter RE. Screening for peripartum cardiomyopathies using artificial intelligence in Nigeria (SPEC-AI Nigeria): Clinical trial rationale and design. Am Heart J. 2023 Jul;261:64-74. doi: 10.1016/j.ahj.2023.03.008. Epub 2023 Mar 25."
+        },
+        {
+          "pmid": "39223284",
+          "type": "RESULT",
+          "citation": "Adedinsewo DA, Morales-Lara AC, Afolabi BB, Kushimo OA, Mbakwem AC, Ibiyemi KF, Ogunmodede JA, Raji HO, Ringim SH, Habib AA, Hamza SM, Ogah OS, Obajimi G, Saanu OO, Jagun OE, Inofomoh FO, Adeolu T, Karaye KM, Gaya SA, Alfa I, Yohanna C, Venkatachalam KL, Dugan J, Yao X, Sledge HJ, Johnson PW, Wieczorek MA, Attia ZI, Phillips SD, Yamani MH, Tobah YB, Rose CH, Sharpe EE, Lopez-Jimenez F, Friedman PA, Noseworthy PA, Carter RE; SPEC-AI Nigeria Investigators. Artificial intelligence guided screening for cardiomyopathies in an obstetric population: a pragmatic randomized clinical trial. Nat Med. 2024 Oct;30(10):2897-2906. doi: 10.1038/s41591-024-03243-9. Epub 2024 Sep 2."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Intervention",
+          "description": "Participants had ECGs analyzed with artificial intelligence for cardiomyopathy detection.\n\nDigital stethoscope electrocardiogram: Digital stethoscope artificial intelligence enabled electrocardiogram (AI-ECG). An artificial intelligence algorithm which analyses ECG data and generates prediction probabilities for a diagnosis of cardiomyopathy."
+        },
+        {
+          "id": "FG001",
+          "title": "Control",
+          "description": "Participants had standard clinical ECGs acquired."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "616"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "616"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "587"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "608"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "29"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "8"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Death",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "4"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "Not Eligible",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Did not complete baseline testing",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "22"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Intervention",
+          "description": "Participants had ECGs analyzed with artificial intelligence for cardiomyopathy detection.\n\nDigital stethoscope electrocardiogram: Digital stethoscope artificial intelligence enabled electrocardiogram (AI-ECG). An artificial intelligence algorithm which analyses ECG data and generates prediction probabilities for a diagnosis of cardiomyopathy."
+        },
+        {
+          "id": "BG001",
+          "title": "Control",
+          "description": "Participants had standard clinical ECGs acquired."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "587"
+            },
+            {
+              "groupId": "BG001",
+              "value": "608"
+            },
+            {
+              "groupId": "BG002",
+              "value": "1195"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "31",
+                      "lowerLimit": "27",
+                      "upperLimit": "35"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "31",
+                      "lowerLimit": "26",
+                      "upperLimit": "35"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "31",
+                      "lowerLimit": "27",
+                      "upperLimit": "35"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "587"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "608"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1195"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "587"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "608"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1195"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race/Ethnicity, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Ethnicity - Hausa",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "163"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "174"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "337"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Ethnicity - Igbo",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "61"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "68"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "129"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Ethnicity - other",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "35"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "41"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "76"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Ethnicity - Yoruba",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "328"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "325"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "653"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "Nigeria",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "587"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "608"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1195"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Left Ventricular Ejection Fraction (LVEF) <50%",
+          "description": "Number of participants diagnosed with left ventricular ejection fraction (LVEF) \\<50% by echocardiography during pregnancy or within 12 months postpartum.",
+          "populationDescription": "Analysis was categorized by pregnant and post-partum participants. Total of each group equals the overall number of participants analyzed per arm.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "18 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Intervention",
+              "description": "Participants had ECGs analyzed with artificial intelligence for cardiomyopathy detection.\n\nDigital stethoscope electrocardiogram: Digital stethoscope artificial intelligence enabled electrocardiogram (AI-ECG). An artificial intelligence algorithm which analyses ECG data and generates prediction probabilities for a diagnosis of cardiomyopathy."
+            },
+            {
+              "id": "OG001",
+              "title": "Control",
+              "description": "Participants had standard clinical ECGs acquired."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "587"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "608"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Pregnant",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "423"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "451"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Post partum",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "164"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "157"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "21"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "11"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.032",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "2.12",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "1.05",
+              "ciUpperLimit": "4.27"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Effectiveness of AI-ECG for Cardiomyopathy Detection in the Intervention Arm for Left Ventricular Ejection Fraction (LVEF) ≤ 35%",
+          "description": "This is defined as a positive point-of-care AI prediction for LVEF ≤ 35% (maximum prediction across all stethoscope recording locations) confirmed with echocardiography",
+          "populationDescription": "To explain the differences in number analyzed for each section below, details are provided: Sensitivity, is calculated as True Positive (TP) / (TP + FN), as such the denominator in this case is 17. Specificity is calculated as True Negatives (TN) divided by True Negatives and False Positives (TN + FP), and the denominator is 563. Positive Predictive Value (PPV) = TP / (TP + FP), with a denominator of 122 and Negative Predictive Value (PPV) = TN / (TN + FN) with a denominator of 458.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "18 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Intervention",
+              "description": "Participants had ECGs analyzed with artificial intelligence for cardiomyopathy detection.\n\nDigital stethoscope electrocardiogram: Digital stethoscope artificial intelligence enabled electrocardiogram (AI-ECG). An artificial intelligence algorithm which analyses ECG data and generates prediction probabilities for a diagnosis of cardiomyopathy."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "587"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "LVEF ≤ 35% (Sensitivity)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "LVEF ≤ 35% (Specificity)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "563"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "458"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "LVEF ≤ 35% (PPV)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "122"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "LVEF ≤ 35% (NPV)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "458"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "458"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Effectiveness AI-ECG for Cardiomyopathy Detection in the Intervention Arm in LVEF < 40%",
+          "description": "This is defined as a positive point-of-care AI prediction for LVEF \\< 40% (maximum prediction across all stethoscope recording locations) confirmed with echocardiography",
+          "populationDescription": "To explain the differences in number analyzed for each section below, details are provided: Sensitivity, is calculated as True Positive (TP) / (TP + FN), as such the denominator in this case is 20. Specificity is calculated as True Negatives (TN) divided by True Negatives and False Positives (TN + FP), and the denominator is 560. Positive Predictive Value (PPV) = TP / (TP + FP), with a denominator of 122 and Negative Predictive Value (PPV) = TN / (TN + FN) with a denominator of 458.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "18 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Intervention",
+              "description": "Participants had ECGs analyzed with artificial intelligence for cardiomyopathy detection.\n\nDigital stethoscope electrocardiogram: Digital stethoscope artificial intelligence enabled electrocardiogram (AI-ECG). An artificial intelligence algorithm which analyses ECG data and generates prediction probabilities for a diagnosis of cardiomyopathy."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "587"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "LVEF < 40% (Sensitivity)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "20"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "20"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "LVEF < 40% (Specificity)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "560"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "458"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "LVEF < 40% (PPV)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "122"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "20"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "LVEF < 40% (NPV)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "458"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "458"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Effectiveness AI-ECG for Cardiomyopathy Detection in the Intervention Arm in LVEF < 45%",
+          "description": "This is defined as a positive point-of-care AI prediction for LVEF \\<45% (maximum prediction across all stethoscope recording locations) confirmed with echocardiography",
+          "populationDescription": "To explain the differences in number analyzed for each section below, details are provided: Sensitivity, is calculated as True Positive (TP) / (TP + FN), as such the denominator in this case is 23. Specificity is calculated as True Negatives (TN) divided by True Negatives and False Positives (TN + FP), and the denominator is 557. Positive Predictive Value (PPV) = TP / (TP + FP), with a denominator of 122 and Negative Predictive Value (PPV) = TN / (TN + FN) with a denominator of 458.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "18 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Intervention",
+              "description": "Participants had ECGs analyzed with artificial intelligence for cardiomyopathy detection.\n\nDigital stethoscope electrocardiogram: Digital stethoscope artificial intelligence enabled electrocardiogram (AI-ECG). An artificial intelligence algorithm which analyses ECG data and generates prediction probabilities for a diagnosis of cardiomyopathy."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "587"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "LVEF < 45% (Sensitivity)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "LVEF < 45% (Specificity)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "557"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "457"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "LVEF < 45% (PPV)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "122"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "LVEF < 45% (NPV)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "458"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "457"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Effectiveness AI-ECG for Cardiomyopathy Detection in the Intervention Arm in LVEF < 50%",
+          "description": "This is defined as a positive point-of-care AI prediction for LVEF \\<50% (maximum prediction across all stethoscope recording locations) confirmed with echocardiography",
+          "populationDescription": "To explain the differences in number analyzed for each section below, details are provided: Sensitivity, is calculated as True Positive (TP) / (TP + FN), as such the denominator in this case is 23. Specificity is calculated as True Negatives (TN) divided by True Negatives and False Positives (TN + FP), and the denominator is 557. Positive Predictive Value (PPV) = TP / (TP + FP), with a denominator of 122 and Negative Predictive Value (PPV) = TN / (TN + FN) with a denominator of 458.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "18 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Intervention",
+              "description": "Participants had ECGs analyzed with artificial intelligence for cardiomyopathy detection.\n\nDigital stethoscope electrocardiogram: Digital stethoscope artificial intelligence enabled electrocardiogram (AI-ECG). An artificial intelligence algorithm which analyses ECG data and generates prediction probabilities for a diagnosis of cardiomyopathy."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "587"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "LVEF < 50% (Sensitivity)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "LVEF < 50% (Specificity)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "557"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "457"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "LVEF < 50% (PPV)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "122"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "LVEF < 50% (NPV)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "458"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "457"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Composite Adverse Cardiovascular Events",
+          "description": "The number of subjects to experience composite cardiovascular events with include any of the following: diastolic heart failure, gestational hypertension, pre-eclampsia, eclampsia, valvular heart disease, atrial arrhythmias and sustained ventricular arrhythmias.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "18 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Intervention",
+              "description": "Participants had ECGs analyzed with artificial intelligence for cardiomyopathy detection.\n\nDigital stethoscope electrocardiogram: Digital stethoscope artificial intelligence enabled electrocardiogram (AI-ECG). An artificial intelligence algorithm which analyses ECG data and generates prediction probabilities for a diagnosis of cardiomyopathy."
+            },
+            {
+              "id": "OG001",
+              "title": "Control",
+              "description": "Participants had standard clinical ECGs acquired."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "587"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "608"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "56"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "53"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.621",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "1.10",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.74",
+              "ciUpperLimit": "1.64"
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Echocardiography Utilization",
+          "description": "Determine the impact of an AI-ECG on echocardiography utilization",
+          "populationDescription": "Data was not collected nor analyzed for this outcome measure",
+          "reportingStatus": "POSTED",
+          "timeFrame": "18 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Intervention",
+              "description": "Participants had ECGs analyzed with artificial intelligence for cardiomyopathy detection.\n\nDigital stethoscope electrocardiogram: Digital stethoscope artificial intelligence enabled electrocardiogram (AI-ECG). An artificial intelligence algorithm which analyses ECG data and generates prediction probabilities for a diagnosis of cardiomyopathy."
+            },
+            {
+              "id": "OG001",
+              "title": "Control",
+              "description": "Participants had standard clinical ECGs acquired."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Effectiveness of AI Point of Care Tools for Cardiomyopathy Detection in the Intervention Arm",
+          "description": "Develop and evaluate the diagnostic performance of an AI-enhanced point of care screening tool",
+          "populationDescription": "Data was not collected nor analyzed for this outcome measure",
+          "reportingStatus": "POSTED",
+          "timeFrame": "18 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Intervention",
+              "description": "Participants had ECGs analyzed with artificial intelligence for cardiomyopathy detection.\n\nDigital stethoscope electrocardiogram: Digital stethoscope artificial intelligence enabled electrocardiogram (AI-ECG). An artificial intelligence algorithm which analyses ECG data and generates prediction probabilities for a diagnosis of cardiomyopathy."
+            },
+            {
+              "id": "OG001",
+              "title": "Control",
+              "description": "Participants had standard clinical ECGs acquired."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "Long-term clinical outcomes including mortality were passively tracked for all participants (for up to 18 months) beyond the duration of active trial participation. These outcomes are also described as \"adverse cardiovascular events\" in order to match prevailing descriptions in published literature but are completely unrelated to the study intervention. Study defined adverse events per protocol were collected for up to 3 hours following study intervention (ECG and Echo recording).",
+      "description": "Anticipated study related risk is limited to potential skin irritation from placement of ECG lead electrode stickers directly on the skin for ECG measurements. The \"adverse cardiovascular events\" reported in the manuscript are not \"events\" in the context of this clinical trial. They are described collectively as \"adverse cardiovascular events\" to facilitate a comprehensive grouping for descriptive and summarization purposes, and to ensure consistency with the existing literature.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Intervention",
+          "description": "Participants had ECGs analyzed with artificial intelligence for cardiomyopathy detection.\n\nDigital stethoscope electrocardiogram: Digital stethoscope artificial intelligence enabled electrocardiogram (AI-ECG). An artificial intelligence algorithm which analyses ECG data and generates prediction probabilities for a diagnosis of cardiomyopathy.",
+          "deathsNumAffected": 12,
+          "deathsNumAtRisk": 587,
+          "seriousNumAffected": 56,
+          "seriousNumAtRisk": 587,
+          "otherNumAffected": 1,
+          "otherNumAtRisk": 587
+        },
+        {
+          "id": "EG001",
+          "title": "Control",
+          "description": "Participants had standard clinical ECGs acquired.",
+          "deathsNumAffected": 3,
+          "deathsNumAtRisk": 608,
+          "seriousNumAffected": 53,
+          "seriousNumAtRisk": 608,
+          "otherNumAffected": 4,
+          "otherNumAtRisk": 608
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Diastolic heart failure",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Non-treatment related (not related to study intervention)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 587
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 608
+            }
+          ]
+        },
+        {
+          "term": "Atrial Arrhythmias",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Non-treatment related (not related to study intervention)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 587
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 608
+            }
+          ]
+        },
+        {
+          "term": "Sustained Ventricular Arrhythmias",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Non-treatment related (not related to study intervention)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 587
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 608
+            }
+          ]
+        },
+        {
+          "term": "Gestational Hypertension",
+          "organSystem": "Pregnancy, puerperium and perinatal conditions",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Non-treatment related (not related to study intervention)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 30,
+              "numAtRisk": 587
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 30,
+              "numAtRisk": 608
+            }
+          ]
+        },
+        {
+          "term": "Preeclampsia",
+          "organSystem": "Pregnancy, puerperium and perinatal conditions",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Non-treatment related (not related to study intervention)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 21,
+              "numAtRisk": 587
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 19,
+              "numAtRisk": 608
+            }
+          ]
+        },
+        {
+          "term": "Eclampsia",
+          "organSystem": "Pregnancy, puerperium and perinatal conditions",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Non-treatment related (not related to study intervention)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 587
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 608
+            }
+          ]
+        },
+        {
+          "term": "Valvular Disease",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Non-treatment related (not related to study intervention)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 587
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 608
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Skin Irritation",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 587
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 608
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Demilade Adedinsewo, M.B, Ch.B.",
+        "organization": "Mayo Clinic",
+        "email": "adedinsewo.demilade@mayo.edu",
+        "phone": "904-953-0859"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2023-04-21",
+          "uploadDate": "2025-01-08T14:46",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 1827729
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009202",
+          "term": "Cardiomyopathies"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

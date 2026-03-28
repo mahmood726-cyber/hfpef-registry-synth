@@ -1,0 +1,258 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01241838",
+      "orgStudyIdInfo": {
+        "id": "1717"
+      },
+      "organization": {
+        "fullName": "University of Aarhus",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Effect of Heart Rate on Cardiac Index in Patients With Left Ventricular Hypertrophy",
+      "officialTitle": "The Effect of Heart Rate on Cardiac Index in Patients With Left Ventricular Hypertrophy"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2012-08",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Insufficient no of patients eligible for enrollment.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2011-02"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2012-08",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2012-08",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2010-11-15",
+      "studyFirstSubmitQcDate": "2010-11-15",
+      "studyFirstPostDateStruct": {
+        "date": "2010-11-16",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2012-08-03",
+      "lastUpdatePostDateStruct": {
+        "date": "2012-08-06",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Aarhus",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to compare the effect of heart rate on cardiac index in patients with or without left ventricular hypertrophy. The study will be conducted in postoperative heart surgery patients with a pacemaker."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Left Ventricular Hypertrophy",
+        "Diastolic Dysfunction",
+        "Heart Failure",
+        "Heart Rate"
+      ],
+      "keywords": [
+        "Heart failure",
+        "Left ventricular hypertrophy",
+        "Diastolic dysfunction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 11,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Normal left ventricular size",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Postoperative patient with normal left ventricular size",
+          "interventionNames": [
+            "Device: Pacemaker"
+          ]
+        },
+        {
+          "label": "Left ventricular hypertrophy",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Postoperative patient with left ventricular hypertrophy",
+          "interventionNames": [
+            "Device: Pacemaker"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Pacemaker",
+          "description": "Routine postoperative temporary pacemaker Rate change of 65-80-95-110-125 beats/second in random order at day 3-4 after operation",
+          "armGroupLabels": [
+            "Left ventricular hypertrophy",
+            "Normal left ventricular size"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Cardiac index",
+          "timeFrame": "At heart rates 65-80-95-110-125"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Mean arterial blood pressure",
+          "timeFrame": "At heart rates 65-80-95-110-125"
+        },
+        {
+          "measure": "Ejection fraction",
+          "description": "Echocardiographic index of systolic function",
+          "timeFrame": "Heart rates of 65-80-95-110-120"
+        },
+        {
+          "measure": "Strain",
+          "description": "Echocardiographic index of systolic function",
+          "timeFrame": "Heart rates of 65-80-95-110-125"
+        },
+        {
+          "measure": "S-max",
+          "description": "Echocardiographic index of systolic function",
+          "timeFrame": "Heart rates of 65-80-95-110-125 beats per second"
+        },
+        {
+          "measure": "E/E'",
+          "description": "Echocardiographic index of diastolic function",
+          "timeFrame": "Heart rates of 65-80-95-110-125 beats per second"
+        },
+        {
+          "measure": "E/A ratio",
+          "description": "Echocardiographic index of diastolic function",
+          "timeFrame": "Heart rates of 65-80-95-110-125 beats per second"
+        },
+        {
+          "measure": "E'/A' ratio",
+          "description": "Echocardiographic index of diastolic function",
+          "timeFrame": "Heart rates of 65-80-95-110-125 beats per second"
+        },
+        {
+          "measure": "Isovolumetric relaxation index",
+          "description": "Echocardiographic index of diastolic function",
+          "timeFrame": "Heart rates of 65-80-95-110-125 beats per second"
+        },
+        {
+          "measure": "IVRT/IVRT'",
+          "description": "Echocardiographic index of diastolic function",
+          "timeFrame": "Heart rates of 65-80-95-110-125 beats per second"
+        },
+        {
+          "measure": "End diastolic volume",
+          "description": "Volume of left ventricle and end diastole",
+          "timeFrame": "Heart rates of 65-80-95-110-125 beats per second"
+        },
+        {
+          "measure": "End systolic volume",
+          "description": "Volume of left ventricle at end systole",
+          "timeFrame": "Heart rates of 65-80-95-110-125 beats per second"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Scheduled heart surgery including thoracotomy\n* Ejection fraction \\> 45%\n* Duration of QRS complex \\< 120 milliseconds\n* Sinus rhythm\n* Planned perioperative temporary pacemaker\n\nGroup: Left ventricular hypertrophy:\n\nThickness of interventricular septum and posterior wall \\>11 mm.\n\nGroup: No left ventricular hypertrophy:\n\nThickness of interventricular septum and posterior wall \\<11 mm.\n\nExclusion Criteria:\n\n* Active endocarditis\n* Severe mitral insufficiency\n* No patient consent",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "30 Years",
+      "maximumAge": "90 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Peter Juhl-Olsen, M.D.",
+          "affiliation": "Department of Anaesthesiology, Århus University Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Department of Anaesthesiology, Århus University Hospital",
+          "city": "Århus N",
+          "zip": "8200",
+          "country": "Denmark"
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D017379",
+          "term": "Hypertrophy, Left Ventricular"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006332",
+          "term": "Cardiomegaly"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D006984",
+          "term": "Hypertrophy"
+        },
+        {
+          "id": "D020763",
+          "term": "Pathological Conditions, Anatomical"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

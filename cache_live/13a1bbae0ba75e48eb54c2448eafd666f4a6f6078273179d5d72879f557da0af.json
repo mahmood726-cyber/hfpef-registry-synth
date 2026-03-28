@@ -1,0 +1,762 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05164653",
+      "orgStudyIdInfo": {
+        "id": "00001"
+      },
+      "organization": {
+        "fullName": "Saga University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Program of Angiotensin-Neprilysin Inhibition in Admitted Patients With Worsening Heart Failure (PREMIER)",
+      "officialTitle": "An Investigator-initiated, Multicenter, Prospective, Randomized, Open-label, Blinded-endpoint Study to Assess the Effect of In-hospital Initiation of Sacubitril Valsartan on the NT-proBNP Concentrations in Patients Admitted Due to Acute Exacerbation of Heart Failure (PREMIER)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-08",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-12-27",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-02-08",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-03",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-11-17",
+      "studyFirstSubmitQcDate": "2021-12-20",
+      "studyFirstPostDateStruct": {
+        "date": "2021-12-21",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-08-19",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-08-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Koichi Node",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "Saga University"
+      },
+      "leadSponsor": {
+        "name": "Saga University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of this study is to assess the treatment effect of sacubitril valsartan versus conventional therapy for heart failure (HF) in admitted patients due to exacerbation of HF on the N-terminal fragment of pro-B-type natriuretic peptide (NT-proBNP) concentrations.",
+      "detailedDescription": "The high rate of rehospitalization and mortality of patients hospitalized for acute exacerbation of HF, especially at the early phase after discharge, has long been a serious clinical concern. However, few trials evaluating drug therapies on the post-acute phase of HF showed positive and/or satisfying results. Therefore, it is urgently required to establish an efficient treatment strategy at that phase. Sacubitril valsartan is an angiotensin receptor-neprilysin inhibitor that was approved in Japan in 2020 for patients who are taking standard care of HF.\n\nIn this investigator-initiated, multicenter, 8-week, randomized controlled study (PREMIER), the investigators try to assess the effect of in-hospital initiation of sacubitril valsartan, compared to standard HF treatment, in patients who were admitted due to worsening heart failure, on the NT-proBNP concentrations."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ],
+      "keywords": [
+        "Acute decompensated heart failure",
+        "Heart failure hospitalization",
+        "Sacubitril valsartan",
+        "NT-proBNP"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 400,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Sacubitril Valsartan Sodium Hydrate",
+          "type": "EXPERIMENTAL",
+          "description": "Entresto® Tablets",
+          "interventionNames": [
+            "Drug: Sacubitril Valsartan Sodium Hydrate"
+          ]
+        },
+        {
+          "label": "No Sacubitril Valsartan Sodium Hydrate",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Standard treatment for HF (ARB, ACE inhibitor etc.)",
+          "interventionNames": [
+            "Drug: Standard treatment"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Sacubitril Valsartan Sodium Hydrate",
+          "description": "Switch from the ACE inhibitor or ARB that was taken before the allocation, and start oral administration twice daily with a starting dose of 50 mg of sacubitril valsartan. The duration of administration of the ACE inhibitor or ARB before allocation does not matter, but when switching from the ACE inhibitor, administration of sacubitril valsartan should be started at least 36 hours after the final administration of the drug.\n\nAfter the start of administration, the dose is gradually increased to 100 mg and 200 mg once at intervals of 2 to 4 weeks, referring to the latest package insert and safety and tolerability standards. At that time, if the doctor in charge determines that the dose is not tolerated after the dose is increased, the dose may be reduced to the previous dose or the drug may be suspended depending on the medical situation.",
+          "armGroupLabels": [
+            "Sacubitril Valsartan Sodium Hydrate"
+          ],
+          "otherNames": [
+            "Entresto® Tablets, Novartis Pharma K.K."
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Standard treatment",
+          "description": "Standard treatment, other than Sacubitril Valsartan Sodium Hydrate, for HF",
+          "armGroupLabels": [
+            "No Sacubitril Valsartan Sodium Hydrate"
+          ],
+          "otherNames": [
+            "Angiotensin Converting Enzyme(ACE) inhibitor or Angiotensin II Receptor Blocker(ARB) etc."
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Proportional change in NT-proBNP concentrations from baseline to 8 weeks",
+          "description": "Group ratio of the proportional change in the geometric mean of NT-proBNP concentrations from baseline to 8 weeks after protocol treatment initiation",
+          "timeFrame": "8 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Proportional change in NT-proBNP concentrations from baseline to 4 weeks",
+          "description": "Group ratio of the proportional change in the geometric mean of NT-proBNP concentrations from baseline to 4 weeks after protocol treatment initiation",
+          "timeFrame": "4 weeks"
+        },
+        {
+          "measure": "Reduction in NT-proBNP levels at 8 weeks",
+          "description": "Percentage of patients with at least a 50% reduction in NT-proBNP levels at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Reduction in NT-proBNP levels at 4 weeks",
+          "description": "Percentage of patients with at least a 30% reduction in NT-proBNP levels at 4 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks"
+        },
+        {
+          "measure": "Mean reduction in NT-proBNP at 4 and 8 weeks",
+          "description": "Percentage of patients with at least a 40% reduction from baseline in mean NT-proBNP at 4 and 8 weeks after protocol treatment initiation",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Amount of change in biomarkers (cardiac troponin T)",
+          "description": "Amount of change in cardiac troponin T at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Percent change in biomarkers (cardiac troponin T)",
+          "description": "Percent change in cardiac troponin T at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Amount of change in biomarkers (C-reactive protein)",
+          "description": "Amount of change in C-reactive protein at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Percent change in biomarkers (C-reactive protein)",
+          "description": "Percent change in C-reactive protein at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Amount of change in biomarkers (growth differentiation factor 15)",
+          "description": "Amount of change in growth differentiation factor 15 at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Percent change in biomarkers (growth differentiation factor 15)",
+          "description": "Percent change in growth differentiation factor 15 at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Amount of change in biomarkers (soluble suppression of tumorigenesis-2)",
+          "description": "Amount of change in soluble suppression of tumorigenesis-2 at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Percent change in biomarkers (soluble suppression of tumorigenesis-2)",
+          "description": "Percent change in soluble suppression of tumorigenesis-2 at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Amount of change in biomarkers (glycoalbumin)",
+          "description": "Amount of change in glycoalbumin at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Percent change in biomarkers (glycoalbumin)",
+          "description": "Percent change in glycoalbumin at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Amount of change in biomarkers (1.5-anhydro-D-glucitol)",
+          "description": "Amount of change in 1.5-anhydro-D-glucitol at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Percent change in biomarkers (1.5-anhydro-D-glucitol)",
+          "description": "Percent change in 1.5-anhydro-D-glucitol at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Amount of change in clinical parameters (weight)",
+          "description": "Amount of change in weight at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Percent change in clinical parameters (weight)",
+          "description": "Percent change in weight at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Amount of change in clinical parameters (body mass index)",
+          "description": "Amount of change in body mass index at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Percent change in clinical parameters (body mass index)",
+          "description": "Percent change in body mass index at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Amount of change in clinical parameters (blood pressure)",
+          "description": "Amount of change in systolic blood pressure and diastolic blood pressure at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Percent change in clinical parameters (blood pressure)",
+          "description": "Percent change in systolic blood pressure and diastolic blood pressure at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Amount of change in clinical parameters (heart rate)",
+          "description": "Amount of change in heart rate at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Percent change in clinical parameters (heart rate)",
+          "description": "Percent change in heart rate at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Amount of changs in clinical parameters (red blood cell)",
+          "description": "Amount of change in red blood cell at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Percent change in clinical parameters (red blood cell)",
+          "description": "Percent change in red blood cell at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Amount of change in clinical parameters (hemoglobin)",
+          "description": "Amount of change in hemoglobin at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Percent change in clinical parameters (hemoglobin)",
+          "description": "Percent change in hemoglobin at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Amount of chang in clinical parameters (hematocrit)",
+          "description": "Amount of change in hematocrit at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Percent change in clinical parameters (hematocrit)",
+          "description": "Percent change in hematocrit at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Amount of change in clinical parameters (platelet)",
+          "description": "Amount of change in platelet at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Percent change in clinical parameters (platelet)",
+          "description": "Percent change in platelet at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Amount of change in clinical parameters (hemoglobin A1c)",
+          "description": "Amount of change in hemoglobin A1c at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Percent change in clinical parameters (hemoglobin A1c)",
+          "description": "Percent change in hemoglobin A1c at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Amount of change in clinical parameters (fasting glucose)",
+          "description": "Amount of change in fasting glucose at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Percent change in clinical parameters (fasting glucose)",
+          "description": "Percent change in fasting glucose at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Amount of change in clinical parameters (total cholesterol)",
+          "description": "Amount of change in total cholesterol at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Percent change in clinical parameters (total cholesterol)",
+          "description": "Percent change in total cholesterol at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Amount of change in clinical parameters (high-density lipoprotein cholesterol)",
+          "description": "Amount of change in high-density lipoprotein cholesterol at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Percent change in clinical parameters (high-density lipoprotein cholesterol)",
+          "description": "Percent change in high-density lipoprotein cholesterol at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Amount of change in clinical parameters (non-high-density lipoprotein cholesterol)",
+          "description": "Amount of change in non-high-density lipoprotein cholesterol at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Percent change in clinical parameters (non-high-density lipoprotein cholesterol)",
+          "description": "Percent change in non-high-density lipoprotein cholesterol at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Amount of change in clinical parameters (triglyceride)",
+          "description": "Amount of change in triglyceride at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Percent change in clinical parameters (triglyceride)",
+          "description": "Percent change in triglyceride at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Amount of change in clinical parameters (aspartate aminotransferase)",
+          "description": "Amount of change in aspartate aminotransferase at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Percent change in clinical parameters (aspartate aminotransferase)",
+          "description": "Percent change in aspartate aminotransferase at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Amount of change in clinical parameters (alanine aminotransferase)",
+          "description": "Amount of change in alanine aminotransferase at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Percent change in clinical parameters (alanine aminotransferase)",
+          "description": "Percent change in alanine aminotransferase at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Amount of change in clinical parameters (γ-glutamyl transpeptidase)",
+          "description": "Amount of change in γ-glutamyl transpeptidase at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Percent change in clinical parameters (γ-glutamyl transpeptidase)",
+          "description": "Percent change in γ-glutamyl transpeptidase at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Amount of change in clinical parameters (uric acid)",
+          "description": "Amount of change in uric acid at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Percent change in clinical parameters (uric acid)",
+          "description": "Percent change in uric acid at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Amount of change in clinical parameters (creatinine)",
+          "description": "Amount of change in creatinine at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Percent change in clinical parameters (creatinine)",
+          "description": "Percent change in creatinine at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Amount of change in clinical parameters (estimated glomerular filtration rate)",
+          "description": "Amount of change in estimated glomerular filtration rate at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Percent change in clinical parameters (estimated glomerular filtration rate)",
+          "description": "Percent change in estimated glomerular filtration rate at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Amount of change in clinical parameters (sodium)",
+          "description": "Amount of change in sodium at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Percent change in clinical parameters (sodium)",
+          "description": "Percent change in sodium at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Amount of change in clinical parameters (potassium)",
+          "description": "Amount of change in potassium at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Percent change in clinical parameters (potassium)",
+          "description": "Percent change in potassium at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Amount of change in clinical parameters (Fibrosis-4)",
+          "description": "Amount of change in Fibrosis-4 at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Percent change in clinical parameters (Fibrosis-4)",
+          "description": "Percent change in Fibrosis-4 at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Amount of change in clinical parameters (estimated plasma volume)",
+          "description": "Amount of change in estimated plasma volume at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Percent change in clinical parameters (estimated plasma volume)",
+          "description": "Percent change in estimated plasma volume at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Amount of change in clinical parameters (New York Heart Association class)",
+          "description": "Amount of change in New York Heart Association class at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Percent change in clinical parameters (New York Heart Association class)",
+          "description": "Percent change in New York Heart Association class at 4 and 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "4 weeks, 8 weeks"
+        },
+        {
+          "measure": "Amount of change in echocardiographic parameters (left ventricular end-diastolic volume)",
+          "description": "Amount of change in left ventricular end-diastolic volume at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Percent change in echocardiographic parameters (left ventricular end-diastolic volume)",
+          "description": "Percent change in left ventricular end-diastolic volume at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Amount of change in echocardiographic parameters (left ventricular end-systolic volume)",
+          "description": "Amount of change in left ventricular end-systolic volume at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Percent change in echocardiographic parameters (left ventricular end-systolic volume)",
+          "description": "Percent change in left ventricular end-systolic volume at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Amount of change in echocardiographic parameters (left ventricular ejection fraction)",
+          "description": "Amount of change in left ventricular ejection fraction at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Percent change in echocardiographic parameters (left ventricular ejection fraction)",
+          "description": "Percent change in left ventricular ejection fraction at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Amount of change in echocardiographic parameters (septal e')",
+          "description": "Amount of change in septal e' at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Percent change in echocardiographic parameters (septal e')",
+          "description": "Percent change in septal e' at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Amount of change in echocardiographic parameters (lateral e')",
+          "description": "Amount of change in lateral e' at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Percent change in echocardiographic parameters (lateral e')",
+          "description": "Percent change in lateral e' at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Amount of change in echocardiographic parameters (flow velocity pattern through the mitral orifice (E))",
+          "description": "Amount of change in flow velocity pattern through the mitral orifice (E) at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Percent change in echocardiographic parameters (flow velocity pattern through the mitral orifice (E))",
+          "description": "Percent change in flow velocity pattern through the mitral orifice (E) at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Amount of change in echocardiographic parameters (early mitral inflow velocity E and mitral annular early diastolic velocity e')",
+          "description": "Amount of change in early mitral inflow velocity E and mitral annular early diastolic velocity e' at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Percent change in echocardiographic parameters (early mitral inflow velocity E and mitral annular early diastolic velocity e')",
+          "description": "Percent change in early mitral inflow velocity E and mitral annular early diastolic velocity e' at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Amount of change in echocardiographic parameters (left ventricular mass index)",
+          "description": "Amount of change in left ventricular mass index at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Percent change in echocardiographic parameters (left ventricular mass index)",
+          "description": "Percent change in left ventricular mass index at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Amount of change in echocardiographic parameters (left atrial volume index)",
+          "description": "Amount of change in left atrial volume index at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Percent change in echocardiographic parameters (left atrial volume index)",
+          "description": "Percent change in left atrial volume index at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Amount of change in echocardiographic parameters (left ventricular outflow tract)",
+          "description": "Amount of change in left ventricular outflow tract at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Percent change in echocardiographic parameters (left ventricular outflow tract)",
+          "description": "Percent change in left ventricular outflow tract at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Amount of change in echocardiographic parameters (left ventricular outflow tract velocity time integral)",
+          "description": "Amount of change in left ventricular outflow tract velocity time integral at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Percent change in echocardiographic parameters (left ventricular outflow tract velocity time integral)",
+          "description": "Percent change in left ventricular outflow tract velocity time integral at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Amount of change in echocardiographic parameters (tricuspid regurgitation velocity)",
+          "description": "Amount of change in tricuspid regurgitation velocity at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Percent change in echocardiographic parameters (tricuspid regurgitation velocity)",
+          "description": "Percent change in tricuspid regurgitation velocity at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Amount of change in echocardiographic parameters(inferior vena cava diameter)",
+          "description": "Amount of change in inferior vena cava diameter at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Percent change in echocardiographic parameters(inferior vena cava diameter)",
+          "description": "Percent change in inferior vena cava diameter at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Amount of change in echocardiographic parameters (global longitudinal strain)",
+          "description": "Amount of change in global longitudinal strain at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Percent change in echocardiographic parameters (global longitudinal strain)",
+          "description": "Percent change in global longitudinal strain at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Amount of change in echocardiographic parameters (left atrial strain (2-chamber view and 4-chamber view))",
+          "description": "Amount of change in left atrial strain (2-chamber view and 4-chamber view) at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Percent change in echocardiographic parameters (left atrial strain (2-chamber view and 4-chamber view))",
+          "description": "Percent change in left atrial strain (2-chamber view and 4-chamber view) at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Change in echocardiographic parameters (inferior vena cava diameter)",
+          "description": "Percentage of patients with at least a 50% respiratory variation in inferior vena cava diameter at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Amount of change in Kansas City Cardiomyopathy Questionnaire-12 score",
+          "description": "Amount of change in Kansas City Cardiomyopathy Questionnaire-12 score at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Percentage of patients in Kansas City Cardiomyopathy Questionnaire-12 score",
+          "description": "Percentage of patients with at least a 5-point increase in Kansas City Cardiomyopathy Questionnaire-12 score at 8 weeks after protocol treatment initiation compared with baseline",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Time to first occurrences of the composite event of all-cause death or worsening heart failure event",
+          "description": "Time to first occurrences of the composite event of all-cause death or worsening heart failure event, defined as i) unplanned rehospitalization, ii) initiation of intravenous treatment (vasodilator or positive inotropic agent) for heart failure (during hospitalization: excludes at rehospitalization), iii) urgent visit due to heart failure requiring intravenous treatment (vasodilator, positive inotropic agent, or diuretic), or iv) initiation of oral diuretic (loop diuretic, thiazide-type diuretic, or tolvaptan) or at least a 50% increase in its dose (outpatient)",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Occurrences of the composite event of all-cause death or worsening heart failure events (total number of occurrences)",
+          "description": "Total number of occurrences of the composite event of all-cause death or worsening heart failure events (first and recurrence)",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Occurrences of the composite event of all-cause death or worsening heart failure events (incidence of occurrences)",
+          "description": "Incidence of occurrences of the composite event of all-cause death or worsening heart failure events (first and recurrence)",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Occurrences of the individual components of composite events and cardiovascular death (total number of occurrences)",
+          "description": "Total number of occurrences of individual components of the following events: first and recurrent worsening heart failure events (i, ii, iii, and iv), all-cause mortality, and cardiovascular death",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Occurrences of the individual components of composite events and cardiovascular death (incidence of occurrences)",
+          "description": "Incidence of occurrences of individual components of the following events: first and recurrent worsening heart failure events (i, ii, iii, and iv), all-cause mortality, and cardiovascular death",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Occurrences of the individual components of composite events and cardiovascular death (time until occurrence)",
+          "description": "Time until occurrence of individual components of the following events: first and recurrent worsening heart failure events (i, ii, iii, and iv), all-cause mortality, and cardiovascular death",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Occurrences of adverse events of interest (total number of occurrences)",
+          "description": "Total number of occurrences of specific adverse events, including decreased renal function (at least a 50% increase in serum creatinine or at least a 30% decrease in eGFR), hyperkalemia (serum potassium: 5.5 mEq/L or more), symptomatic hypotension, and angioedema",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Occurrences of adverse events of interest (time until occurrence)",
+          "description": "Time until occurrence of specific adverse events, including decreased renal function (at least a 50% increase in serum creatinine or at least a 30% decrease in eGFR), hyperkalemia (serum potassium: 5.5 mEq/L or more), symptomatic hypotension, and angioedema",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Occurrences of other serious adverse events",
+          "description": "Number of occurrences of other serious adverse events",
+          "timeFrame": "8 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patients must provide written informed consent themselves to participate in this study\n2. Aged 20 or older at consent (male or female)\n3. Hospitalized due to worsening heart failure with both signs of congestion (such as edema, moist rales, and congestion on chest X-ray) and symptoms of heart failure (such as dyspnea on mild exertion or at rest) (any level of left ventricular ejection fraction)\n4. NYHA class II-IV\n5. Taking an ACE inhibitor or an ARB\n6. Can undergo randomization within 7 days of current hospitalization\n7. Patients who meet the following criteria of hemodynamic stability I. Systolic blood pressure ≥100 mm Hg II. No dose increase of intravenous diuretic within 6 hours before randomization III. No intravenous administration of vasodilator (such as carperitide or nitrates) or positive inotropic agent\n8. Patients who meet the following reference range for natriuretic peptide level from 48 hours before current hospitalization to the time of eligibility determination\n\nNT-proBNP ≥1200 pg/mL or BNP ≥300 pg/mL\n\nExclusion Criteria:\n\n1. Currently taking oral sacubitril valsartan or have taken it within 30 days prior to randomization\n2. History of hypersensitivity to ingredients in ARB, ACE inhibitor, or sacubitril valsartan; or expected to be contraindicated for or intolerant to any of these drugs\n3. History of angioedema\n4. Severe renal dysfunction (\\<eGFR 30 mL/min/1.73 m\\^2), on maintenance dialysis, or known bilateral renal artery stenosis (in patients with solitary kidney, known renal artery stenosis in the residual kidney)\n5. Severe liver dysfunction (Child-Pugh class C)\n6. Diabetic patients who are currently taking aliskiren fumarate\n7. Serum potassium ≥5.3 mEq/L or more\n8. Cardiogenic shock\n9. On cardiopulmonary support, with a left ventricular assist device, or on a ventilator\n10. Onset of stroke or acute coronary syndrome within 30 days prior to randomization\n11. History of surgical or percutaneous treatment of cardiovascular disease within 30 days prior to randomization\n12. Patients with an advanced plan for surgical or percutaneous treatment of cardiovascular disease or for coronary artery revascularization during an observation period\n13. Patients with an advanced plan for pacemaker implantation, cardiac resynchronization therapy, or electrical cardioversion during an observation period\n14. History or comorbidity of hypertrophic obstructive cardiomyopathy or infiltrative cardiomyopathy such as amyloidosis or sarcoidosis\n15. Active pericardial disease\n16. History of or awaiting heart transplant\n17. Severe chronic respiratory disease or active infectious disease\n18. Patients who are or might become pregnant or who are breastfeeding\n19. Patients whom a study investigator determined to be unsuitable for the study (such as patients with comorbid active malignancy)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "20 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Koichi Node, Pr.,Dr.",
+          "affiliation": "Saga University Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Saga University Hospital",
+          "city": "Saga",
+          "zip": "849-8501",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 33.23333,
+            "lon": 130.3
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "39215531",
+          "type": "DERIVED",
+          "citation": "Tanaka A, Kida K, Matsue Y, Imai T, Suwa S, Taguchi I, Hisauchi I, Teragawa H, Yazaki Y, Moroi M, Ohashi K, Nagatomo D, Kubota T, Ijichi T, Ikari Y, Yonezu K, Takahashi N, Toyoda S, Toshida T, Suzuki H, Minamino T, Nogi K, Shiina K, Horiuchi Y, Tanabe K, Hachinohe D, Kiuchi S, Kusunose K, Shimabukuro M, Node K. In-hospital initiation of angiotensin receptor-neprilysin inhibition in acute heart failure: the PREMIER trial. Eur Heart J. 2024 Nov 8;45(42):4482-4493. doi: 10.1093/eurheartj/ehae561."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C549068",
+          "term": "sacubitril and valsartan sodium hydrate drug combination"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

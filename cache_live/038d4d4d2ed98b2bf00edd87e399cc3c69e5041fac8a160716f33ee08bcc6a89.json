@@ -1,0 +1,1164 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06979375",
+      "orgStudyIdInfo": {
+        "id": "NN6706-8282"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "U1111-1313-4591",
+          "type": "OTHER",
+          "domain": "World Health Organization (WHO)"
+        },
+        {
+          "id": "2024-515797-27",
+          "type": "OTHER",
+          "domain": "European Medical Agency (EMA)"
+        },
+        {
+          "id": "jRCT2031250305",
+          "type": "REGISTRY",
+          "domain": "jRCT(Japan)"
+        }
+      ],
+      "organization": {
+        "fullName": "Novo Nordisk A/S",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Research Study Comparing CDR132L With Placebo on the Structure and Function of the Heart in People With Heart Failure With Reduced/Mildly Reduced Ejection Fraction and Left Ventricular Hypertrophy",
+      "officialTitle": "Phase 2, Multicentre, Randomised, Double-blind, Placebo-controlled Safety and Efficacy Study of CDR132L on Reverse Cardiac Remodelling in Participants With Heart Failure With Reduced/Mildly Reduced Ejection Fraction and Left Ventricular Hypertrophy",
+      "acronym": "8282-Reduced"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-06-30",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-05-16",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-01-23",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-05-15",
+      "studyFirstSubmitQcDate": "2025-05-16",
+      "studyFirstPostDateStruct": {
+        "date": "2025-05-19",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-29",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-31",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Novo Nordisk A/S",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study will look into how CDR132L (a potential new medicine) works on the structure and function of the heart in people living with heart failure. Participants will either get CDR132L or placebo (a medicine which has no effect on the body), which treatment the participants get is decided by chance. The study will last for about 60 weeks."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 200,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "CDR132L + SoC",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will receive intravenous infusion of CDR132L once every 4 weeks for 48 weeks. Participants will also continue their individually adapted guideline-directed Standard of care (SoC) therapy for heart failure.",
+          "interventionNames": [
+            "Drug: CDR132L"
+          ]
+        },
+        {
+          "label": "Placebo + SoC",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants will receive intravenous infusion of placebo once every 4 weeks for 48 weeks. Participants will also continue their individually adapted guideline-directed Standard of care (SoC) therapy for heart failure.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "CDR132L",
+          "description": "Administered intravenous infusion of CDR132L once every 4 weeks for 48 weeks.",
+          "armGroupLabels": [
+            "CDR132L + SoC"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Administered intravenous infusion of placebo once every 4 weeks for 48 weeks.",
+          "armGroupLabels": [
+            "Placebo + SoC"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Main Phase: Change in normalised microRNA-132-3p (miR-132)",
+          "description": "Ratio to baseline",
+          "timeFrame": "From baseline to week 24"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Main Phase: Change in composite Z-score based on the 3 outcome measures: LVEDVi; LVESVi; NT-proBNP",
+          "description": "The composite Z-score is calculated as the mean of the participant's 3 Z-scores for the change in the 3 outcome measures: Left ventricular end-diastolic volume indexed to body surface area (LVEDVi); Left ventricular end-systolic volume indexed to body surface area (LVESVi); N-terminal pro B-type natriuretic peptide (NT-proBNP)",
+          "timeFrame": "From baseline to week 24"
+        },
+        {
+          "measure": "Main Phase: Number of adverse events",
+          "description": "Count",
+          "timeFrame": "From baseline to week 24"
+        },
+        {
+          "measure": "Extension Phase: Number of adverse events",
+          "description": "Count",
+          "timeFrame": "From baseline to week 60"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 40-84 years (both inclusive) at the time of signing the informed consent.\n* Documented symptomatic heart failure (HF) diagnosed greater than or equal to (≥) 180 days prior to screening with at least weekly need for oral diuretic treatment, and New York Heart Association class II-III at screening.\n* Clinically stable and on optimized doses and unchanged drug classes of guideline-directed HF therapy ≥ 45 days prior to randomisation.\n* Left ventricular ejection fraction (LVEF) less than (\\<) 50 percent (%) as assessed by echocardiography at screening, measured by central laboratory.\n* Left ventricular mass indexed to body surface area (LVMi) greater than (\\>) 88 gram per meter square (g/m\\^2) for female participants and \\>102 g/m\\^2 for male participants as assessed by echocardiography at screening, using the truncated ellipsoid method measured by central laboratory.\n* Left ventricular end-diastolic diameter indexed to body surface area (LVEDDi)≥3.0 cm/m\\^2 for male participants and ≥3.1 centimeter per meter square (cm/m\\^2) for female participants as assessed by echocardiography at screening, measured by central laboratory.\n* Body mass index 18.5-40 kilogram per meter square (kg/m\\^2) (both inclusive) and body weight less than or equal to (≤) 140 kilogram (kg). Body mass index is calculated in the electronic case report form based on height and body weight at the screening visit (visit 1).\n* N-terminal pro B-type natriuretic peptide (NT-proBNP) ≥ 300 picograms per milliliter (pg/mL); NT-proBNP ≥600 pg/mL if atrial fibrillation/flutter is present at time of screening, measured by central laboratory.\n\nExclusion Criteria:\n\n* Estimated Glomerular Filtration Rate (eGFR) less than (\\<) 30 milliliter/minute/ 1.73-meter square (mL/min/1.73 m\\^2) at time of screening, measured by central laboratory.\n* Participants with an episode of acute kidney failure or acute kidney injury, at the discretion of the investigator,within 90 days prior to randomisation.\n* Myocardial infarction, unstable angina pectoris or HF hospitalization within 30 days prior to screening.\n* Participants receiving intravenous HF medications within 45 days prior to randomisation.\n* Planned coronary revascularization, pacemaker/cardioverter-defibrillator/cardiac resynchronization therapy (CRT) implantation, ablation of cardiac arrythmias or valve repair/replacement at the time of randomisation.\n* Stroke or transient ischemic attack within 12 months prior to randomisation.\n* Participants with potential disruption of the blood-brain barrier (e.g., multiple sclerosis), in the opinion of the investigator.\n* Known history of severe liver disease and/or alanine aminotransferase or aspartate aminotransferase greater than (\\>) 2.5x upper limit of normal at screening, measured by central laboratory.\n* Known genetic (or highly suspected due to family history) cause of increased cardiac mass (including dilated cardiomyopathy, Fabry disease and likely pathogenic or pathogenic variants within hypertrophic cardiomyopathy (HCM).\n* Participants with suspected or diagnosed cardiac amyloidosis or sarcoidosis.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "40 Years",
+      "maximumAge": "84 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Novo Nordisk",
+          "role": "CONTACT",
+          "phone": "(+1) 866-867-7178",
+          "email": "clinicaltrials@novonordisk.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Clinical Transparency (dept. 2834)",
+          "affiliation": "Novo Nordisk A/S",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Concord Repatriation General Hospital - Cardiology Department",
+          "status": "RECRUITING",
+          "city": "Concord",
+          "state": "New South Wales",
+          "zip": "2139",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.84722,
+            "lon": 151.10381
+          }
+        },
+        {
+          "facility": "The Prince Charles Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Brisbane",
+          "state": "Queensland",
+          "zip": "4032",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -27.46794,
+            "lon": 153.02809
+          }
+        },
+        {
+          "facility": "Royal Adelaide Hospital Cardiovascular Clinical Trials",
+          "status": "RECRUITING",
+          "city": "Adelaide",
+          "state": "South Australia",
+          "zip": "5000",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -34.92866,
+            "lon": 138.59863
+          }
+        },
+        {
+          "facility": "Flinders Medical Centre",
+          "status": "RECRUITING",
+          "city": "Bedford Park",
+          "state": "South Australia",
+          "zip": "5042",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -35.02204,
+            "lon": 138.56815
+          }
+        },
+        {
+          "facility": "Royal Hobart Hospital",
+          "status": "RECRUITING",
+          "city": "Hobart",
+          "state": "Tasmania",
+          "zip": "7000",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -42.87936,
+            "lon": 147.32941
+          }
+        },
+        {
+          "facility": "Victorian Heart Hospital",
+          "status": "RECRUITING",
+          "city": "Clayton",
+          "state": "Victoria",
+          "zip": "3168",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.91667,
+            "lon": 145.11667
+          }
+        },
+        {
+          "facility": "Fiona Stanley Hospital Cardiology",
+          "status": "RECRUITING",
+          "city": "Murdoch",
+          "state": "Western Australia",
+          "zip": "6150",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -32.06987,
+            "lon": 115.83757
+          }
+        },
+        {
+          "facility": "Fakultní nemocnice u sv. Anny v Brně",
+          "status": "COMPLETED",
+          "city": "Brno",
+          "zip": "602 00",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 49.19522,
+            "lon": 16.60796
+          }
+        },
+        {
+          "facility": "Nemocnice České Budějovice a.s.",
+          "status": "RECRUITING",
+          "city": "České Budějovice",
+          "zip": "370 01",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 48.97447,
+            "lon": 14.47434
+          }
+        },
+        {
+          "facility": "Fakultní Nemocnice Ostrava",
+          "status": "RECRUITING",
+          "city": "Ostrava-Poruba",
+          "zip": "708 52",
+          "country": "Czechia"
+        },
+        {
+          "facility": "Vseobecna fakultni nemocnice v Praze",
+          "status": "RECRUITING",
+          "city": "Prague",
+          "zip": "128 08",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.08804,
+            "lon": 14.42076
+          }
+        },
+        {
+          "facility": "IKEM",
+          "status": "RECRUITING",
+          "city": "Prague",
+          "zip": "140 21",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.08804,
+            "lon": 14.42076
+          }
+        },
+        {
+          "facility": "Sana Kliniken Berlin-Brandenburg GmbH - Lichtenberg",
+          "status": "COMPLETED",
+          "city": "Berlin",
+          "zip": "10365",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Charité - Campus Benjamin Franklin - Klinik für Kardiologie",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Berlin",
+          "zip": "12203",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Charité - Campus Virchow-Klinikum - Kardiologie, Angiologie und Intensivmedizin (CRU)",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Berlin",
+          "zip": "13353",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Uniklinik TU Dresden - Herzzentrum Dresden GmbH",
+          "status": "RECRUITING",
+          "city": "Dresden",
+          "zip": "01307",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.05089,
+            "lon": 13.73832
+          }
+        },
+        {
+          "facility": "Universitaetsklinikum Essen - Klinik für Kardiologie und Angiologie",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Essen",
+          "zip": "45147",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.45657,
+            "lon": 7.01228
+          }
+        },
+        {
+          "facility": "Universitätsklinikum Frankfurt aM - Kardiologie",
+          "status": "RECRUITING",
+          "city": "Frankfurt am Main",
+          "zip": "60596",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.11552,
+            "lon": 8.68417
+          }
+        },
+        {
+          "facility": "Universitätsklinikum Halle - Innere Medizin III",
+          "status": "RECRUITING",
+          "city": "Halle",
+          "zip": "06120",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.48158,
+            "lon": 11.97947
+          }
+        },
+        {
+          "facility": "Medizinische Hochschule Hannover - Kardiologie und Angiologie",
+          "status": "RECRUITING",
+          "city": "Hanover",
+          "zip": "30625",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.37052,
+            "lon": 9.73322
+          }
+        },
+        {
+          "facility": "UniklinikHeidelberg - Innere Med. III - Kardiologie, Angiologie, Pneumologie",
+          "status": "RECRUITING",
+          "city": "Heidelberg",
+          "zip": "69120",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.40768,
+            "lon": 8.69079
+          }
+        },
+        {
+          "facility": "Uniklinik Schleswig-Holstein - Med. Klinik III Kardiologie und Internist. Intensivmedizin",
+          "status": "RECRUITING",
+          "city": "Kiel",
+          "zip": "24105",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 54.32133,
+            "lon": 10.13489
+          }
+        },
+        {
+          "facility": "Rhythm Heart Institute",
+          "status": "RECRUITING",
+          "city": "Vadodara",
+          "state": "Gujarat",
+          "zip": "390022",
+          "country": "India",
+          "geoPoint": {
+            "lat": 22.29941,
+            "lon": 73.20812
+          }
+        },
+        {
+          "facility": "Lisie Hospital",
+          "status": "RECRUITING",
+          "city": "Kochi",
+          "state": "Kerala",
+          "zip": "682018",
+          "country": "India",
+          "geoPoint": {
+            "lat": 9.93988,
+            "lon": 76.26022
+          }
+        },
+        {
+          "facility": "Seth GS Medical College & KEM Hospital",
+          "status": "RECRUITING",
+          "city": "Mumbai",
+          "state": "Maharashtra",
+          "zip": "400012",
+          "country": "India",
+          "geoPoint": {
+            "lat": 19.07283,
+            "lon": 72.88261
+          }
+        },
+        {
+          "facility": "Arneja Heart & Multispeciality Hospital",
+          "status": "RECRUITING",
+          "city": "Nagpur",
+          "state": "Maharashtra",
+          "zip": "440010",
+          "country": "India",
+          "geoPoint": {
+            "lat": 21.14631,
+            "lon": 79.08491
+          }
+        },
+        {
+          "facility": "Arneja Heart & Multispeciality Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Nagpur",
+          "state": "Maharashtra",
+          "zip": "440010",
+          "country": "India",
+          "geoPoint": {
+            "lat": 21.14631,
+            "lon": 79.08491
+          }
+        },
+        {
+          "facility": "G B Pant Institute of Postgraduate Medical Education and Research",
+          "status": "RECRUITING",
+          "city": "New Delhi",
+          "state": "National Capital Territory of Delhi",
+          "zip": "110002",
+          "country": "India",
+          "geoPoint": {
+            "lat": 28.62137,
+            "lon": 77.2148
+          }
+        },
+        {
+          "facility": "VMMC & Safdarjung Hospital",
+          "status": "RECRUITING",
+          "city": "New Dehli",
+          "state": "New Delhi",
+          "zip": "110029",
+          "country": "India"
+        },
+        {
+          "facility": "Dayanand Medical College & Hospital",
+          "status": "RECRUITING",
+          "city": "Ludhiana",
+          "state": "Punjab",
+          "zip": "141001",
+          "country": "India",
+          "geoPoint": {
+            "lat": 30.91204,
+            "lon": 75.85379
+          }
+        },
+        {
+          "facility": "Shri Mahant Indiresh Hospital",
+          "status": "RECRUITING",
+          "city": "Dehradun",
+          "state": "Uttarakhand",
+          "zip": "248001",
+          "country": "India",
+          "geoPoint": {
+            "lat": 30.32443,
+            "lon": 78.03392
+          }
+        },
+        {
+          "facility": "Sir Ganga Ram Hospital-Cardiology",
+          "status": "RECRUITING",
+          "city": "New Delhi",
+          "zip": "110060",
+          "country": "India",
+          "geoPoint": {
+            "lat": 28.62137,
+            "lon": 77.2148
+          }
+        },
+        {
+          "facility": "Sir Ganga Ram Hospital-Cardiology",
+          "status": "NOT_YET_RECRUITING",
+          "city": "New Delhi",
+          "zip": "110060",
+          "country": "India",
+          "geoPoint": {
+            "lat": 28.62137,
+            "lon": 77.2148
+          }
+        },
+        {
+          "facility": "NIPPON MEDICAL SCHOOL HOSPITAL_Cardiovascular medicine",
+          "status": "RECRUITING",
+          "city": "Bunkyo-ku, Tokyo",
+          "zip": "113-8603",
+          "country": "Japan"
+        },
+        {
+          "facility": "Hyogo Prefectural HarimaHimeji General Medical Center_Cardiology",
+          "status": "RECRUITING",
+          "city": "Himeji-shi, Hyogo",
+          "zip": "670-8560",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 43.36667,
+            "lon": 144.43333
+          }
+        },
+        {
+          "facility": "National Hospital Organization Mito Medical Center_Cardiovascular medicine",
+          "status": "RECRUITING",
+          "city": "Ibaraki",
+          "zip": "311-3193",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 34.81641,
+            "lon": 135.56828
+          }
+        },
+        {
+          "facility": "Yokohama City University Medical Center_Cardiovascular Center",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Kanagawa",
+          "zip": "232-0024",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 37.58333,
+            "lon": 139.91667
+          }
+        },
+        {
+          "facility": "Kagawa University Hospital_Cardiology",
+          "status": "COMPLETED",
+          "city": "Kita-gun, Kagawa",
+          "zip": "761-0793",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 34.06667,
+            "lon": 131.03333
+          }
+        },
+        {
+          "facility": "Kobe City Medical Center General Hospital_Cardiology",
+          "status": "RECRUITING",
+          "city": "Kobe-shi, Hyogo",
+          "zip": "650-0047",
+          "country": "Japan"
+        },
+        {
+          "facility": "Osaka University Hospital_Cardiovascular medicine",
+          "status": "RECRUITING",
+          "city": "Osaka",
+          "zip": "565-0871",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 34.69379,
+            "lon": 135.50107
+          }
+        },
+        {
+          "facility": "Medical Research Institute KITANO HOSPITAL_Cardiovascular Medicine",
+          "status": "RECRUITING",
+          "city": "Osaka-shi, Osaka",
+          "zip": "530-8480",
+          "country": "Japan"
+        },
+        {
+          "facility": "Osaka Metropolitan University Hospital_Cardiovascular Medicine",
+          "status": "RECRUITING",
+          "city": "Osaka-Shi, Osaka",
+          "zip": "545-8586",
+          "country": "Japan"
+        },
+        {
+          "facility": "Sapporo Medical University Hospital_Cardiovascular, Kidney, Metabolism Endocrinology",
+          "status": "RECRUITING",
+          "city": "Sapporo-shi, Hokkaido",
+          "zip": "060-8543",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 43.06667,
+            "lon": 141.35
+          }
+        },
+        {
+          "facility": "National Hospital Organization Yokohama Medical Center_Cardiology",
+          "status": "RECRUITING",
+          "city": "Yokohama-shi, Kanagawa",
+          "zip": "245-8575",
+          "country": "Japan"
+        },
+        {
+          "facility": "Academisch Medisch Centrum",
+          "status": "RECRUITING",
+          "city": "Amsterdam",
+          "zip": "1105 AZ",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.37403,
+            "lon": 4.88969
+          }
+        },
+        {
+          "facility": "Zuyderland ziekenhuis",
+          "status": "RECRUITING",
+          "city": "Heerlen",
+          "zip": "6419 PC",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 50.88365,
+            "lon": 5.98154
+          }
+        },
+        {
+          "facility": "Radboudumc",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Nijmegen",
+          "zip": "6525 GA",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.8425,
+            "lon": 5.85278
+          }
+        },
+        {
+          "facility": "Erasmus MC",
+          "status": "RECRUITING",
+          "city": "Rotterdam",
+          "zip": "3015 GD",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.9225,
+            "lon": 4.47917
+          }
+        },
+        {
+          "facility": "VieCuri",
+          "status": "RECRUITING",
+          "city": "Venlo",
+          "zip": "5912 BL",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.37,
+            "lon": 6.16806
+          }
+        },
+        {
+          "facility": "4 Wojskowy Szpital Kliniczny Z Poliklinika Samodzielny Publiczny Zaklad Opieki Zdrowotnej We Wroclawiu",
+          "status": "RECRUITING",
+          "city": "Wroclaw",
+          "state": "Lower Silesian Voivodeship",
+          "zip": "50-981",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.10286,
+            "lon": 17.03006
+          }
+        },
+        {
+          "facility": "Uniwersytecki Szpital Kliniczny w Bialymstoku",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Bialystok",
+          "state": "Podlaskie Voivodeship",
+          "zip": "15-276",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.13333,
+            "lon": 23.16433
+          }
+        },
+        {
+          "facility": "Wojewodzki Szpital Specjalistyczny W Bialej Podlaskiej",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Biała Podlaska",
+          "zip": "21-500",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.03238,
+            "lon": 23.11652
+          }
+        },
+        {
+          "facility": "American Heart of Poland S.A.",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Bielsko-Biala",
+          "zip": "43-316",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 49.82245,
+            "lon": 19.04686
+          }
+        },
+        {
+          "facility": "Krakowski Szpital Specjalistyczny im. Jana Pawla II",
+          "status": "RECRUITING",
+          "city": "Krakow",
+          "zip": "31-202",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.06143,
+            "lon": 19.93658
+          }
+        },
+        {
+          "facility": "Szpital Specjalistyczny im. Ludwika Rydygiera w Krakowie Sp. z o.o.",
+          "status": "RECRUITING",
+          "city": "Krakow",
+          "zip": "31-826",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.06143,
+            "lon": 19.93658
+          }
+        },
+        {
+          "facility": "Uniwersytecki Szpital Kliniczny Nr 4 W Lublinie",
+          "status": "RECRUITING",
+          "city": "Lublin",
+          "zip": "20-090",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.25058,
+            "lon": 22.57009
+          }
+        },
+        {
+          "facility": "Wojewodzki Szpital Im. Sw.Ojca Pio W Przemyslu",
+          "status": "RECRUITING",
+          "city": "Przemyśl",
+          "zip": "37-700",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 49.78498,
+            "lon": 22.76728
+          }
+        },
+        {
+          "facility": "Narodowy Instytut Kardiologii Stefana Kardynala Wyszynskiego Panstwowy Instytut Badawczy",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Warsaw",
+          "zip": "04-628",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.22977,
+            "lon": 21.01178
+          }
+        },
+        {
+          "facility": "Uniwersytecki Szpital Kliniczny Im. Jana Mikulicza-Radeckiego We Wroclawiu",
+          "status": "RECRUITING",
+          "city": "Wroclaw",
+          "zip": "50-556",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.10286,
+            "lon": 17.03006
+          }
+        },
+        {
+          "facility": "Chungbuk National University Hospital",
+          "status": "RECRUITING",
+          "city": "Cheongju-si",
+          "zip": "28644",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 36.63722,
+            "lon": 127.48972
+          }
+        },
+        {
+          "facility": "Keimyung University Dongsan Hospital",
+          "status": "RECRUITING",
+          "city": "Daegu",
+          "zip": "42601",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 35.87028,
+            "lon": 128.59111
+          }
+        },
+        {
+          "facility": "Wonju Severance Christian Hospital",
+          "status": "RECRUITING",
+          "city": "Gangwon-do",
+          "zip": "26426",
+          "country": "South Korea"
+        },
+        {
+          "facility": "Seoul National University Bundang Hospital",
+          "status": "COMPLETED",
+          "city": "Seongnam-si, Gyeonggi-do",
+          "zip": "13620",
+          "country": "South Korea"
+        },
+        {
+          "facility": "Korea University Anam Hospital",
+          "status": "RECRUITING",
+          "city": "Seoul",
+          "zip": "02841",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Severance Hospital, Yonsei University Health System",
+          "status": "RECRUITING",
+          "city": "Seoul",
+          "zip": "03722",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Korea University Guro Hospital",
+          "status": "RECRUITING",
+          "city": "Seoul",
+          "zip": "08308",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Korea University Guro Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Seoul",
+          "zip": "08308",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Hospital Universitario San Cecilio",
+          "status": "RECRUITING",
+          "city": "Granada",
+          "state": "Andalusia",
+          "zip": "18016",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.18817,
+            "lon": -3.60667
+          }
+        },
+        {
+          "facility": "Hospital Universitario de Gerona Doctor Josep Trueta",
+          "status": "RECRUITING",
+          "city": "Girona",
+          "state": "Catalonia",
+          "zip": "17007",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.98311,
+            "lon": 2.82493
+          }
+        },
+        {
+          "facility": "Hospital Univ. Virgen de la Arrixaca",
+          "status": "RECRUITING",
+          "city": "El Palmar",
+          "state": "Murcia",
+          "zip": "30120",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.93939,
+            "lon": -1.16095
+          }
+        },
+        {
+          "facility": "Hospital del Mar",
+          "status": "RECRUITING",
+          "city": "Barcelona",
+          "zip": "08003",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital de Dénia",
+          "status": "RECRUITING",
+          "city": "Denia",
+          "zip": "03700",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 38.84078,
+            "lon": 0.10574
+          }
+        },
+        {
+          "facility": "Hospital Virgen de la Arrixaca",
+          "status": "NOT_YET_RECRUITING",
+          "city": "El Palmar",
+          "zip": "30120",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.31305,
+            "lon": -0.3174
+          }
+        },
+        {
+          "facility": "Hospital Univ. de Gran Canaria Doctor Negrín",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Las Palmas de Gran Canaria",
+          "zip": "35010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 28.10178,
+            "lon": -15.41573
+          }
+        },
+        {
+          "facility": "Hospital Universitario La Paz",
+          "status": "RECRUITING",
+          "city": "Madrid",
+          "zip": "28046",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Clinico Virgen de la Victoria",
+          "status": "COMPLETED",
+          "city": "Málaga",
+          "zip": "29010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 36.72016,
+            "lon": -4.42034
+          }
+        },
+        {
+          "facility": "Hospital Virgen del Rocío",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Seville",
+          "zip": "41013",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.38283,
+            "lon": -5.97317
+          }
+        },
+        {
+          "facility": "Hospital Clinico Universitario de Valencia",
+          "status": "RECRUITING",
+          "city": "Valencia",
+          "zip": "46010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Trialmed - Midlands",
+          "status": "RECRUITING",
+          "city": "Birmingham",
+          "zip": "B15 2SQ",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 52.48142,
+            "lon": -1.89983
+          }
+        },
+        {
+          "facility": "Wycombe General Hospital",
+          "status": "RECRUITING",
+          "city": "High Wycombe",
+          "zip": "HP11 2TT",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.62907,
+            "lon": -0.74934
+          }
+        },
+        {
+          "facility": "St Bartholomew's Hospital - Cardiac Research Office",
+          "status": "NOT_YET_RECRUITING",
+          "city": "London",
+          "zip": "EC1A 7BE",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "St Bartholomew's Hospital - Cardiology",
+          "status": "NOT_YET_RECRUITING",
+          "city": "London",
+          "zip": "EC1A 7BE",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "Kings College Hospital",
+          "status": "RECRUITING",
+          "city": "London",
+          "zip": "SE5 9RS",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "The Royal Brompton Hospital - Respiratory CRF",
+          "status": "NOT_YET_RECRUITING",
+          "city": "London",
+          "zip": "SW3 6HP",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "The James Cook University Hospital - Cardiology",
+          "status": "RECRUITING",
+          "city": "Middlesbrough",
+          "zip": "TS4 3BW",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 54.57623,
+            "lon": -1.23483
+          }
+        },
+        {
+          "facility": "Southampton General Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Southampton",
+          "zip": "SO16 6YD",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 50.90395,
+            "lon": -1.40428
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "According to the Novo Nordisk disclosure commitment on novonordisk-trials.com",
+      "url": "https://novonordisk-trials.com"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

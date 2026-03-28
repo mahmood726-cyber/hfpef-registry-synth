@@ -1,0 +1,212 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06937827",
+      "orgStudyIdInfo": {
+        "id": "Pro2025-0058"
+      },
+      "organization": {
+        "fullName": "Hackensack Meridian Health",
+        "class": "OTHER"
+      },
+      "briefTitle": "Transitions of Care Clinic (TOCC)",
+      "officialTitle": "Impact of Multidisciplinary Transitions of Care Clinic on Readmission Rates for Patients With Heart Failure With Preserved Ejection Fraction at a University Medical Center"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-06-26",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-04-15",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-04-15",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-04-14",
+      "studyFirstSubmitQcDate": "2025-04-14",
+      "studyFirstPostDateStruct": {
+        "date": "2025-04-22",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-09",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Hackensack Meridian Health",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "New Jersey Health Foundation",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The transition period from hospital to home is a time of heightened risk for patients to experience adverse events, medication errors, and readmission to the hospital. Patients at the highest risk include older adults and patients with low health literacy, socioeconomic disadvantages, and/or multiple comorbidities. This project proposes to expand the existing Transitions of Care Clinic (TOCC) which was recently introduced in our institution in 2024, to bridge the gap in care between hospital discharge to home and connect discharged patients to their outpatient providers with a focus on patients with heart failure (HF).\n\nThe existing TOCC, a multidisciplinary team composed of a pharmacist and a nurse practitioner, seeks to improve the services that are currently being provided to patients and enhance the transitions of care process by providing patients with education, tools, and resources to help manage their chronic disease. With this study, we propose to expand TOCC by offering extensive education to patients via iPad videos and providing them with HF tool kits prior to their discharge. We will also assist with scheduling follow appointments with their outpatient providers and follow up with patients after the appointment takes place to re-evaluate their needs and reinforce self management of heart failure.\n\nBy targeting patients being treated for acute exacerbation of heart failure with preserved ejection fraction (HFpEF), this study aims to facilitate the transition of care, reduce hospital readmissions and improve patients' quality of life and satisfaction. Patients with HFpEF represent a majority of the HF patients that are readmitted at OUMC. HFpEF patients have fewer guideline recommended treatments and represent a vulnerable patient population. The HF tool kits will provide these patients with the essential tools, resources, and log sheets for self-management such as monitoring daily weights, monitoring blood pressure and heart rate. Patients provided with a kit will receive an initial phone call from TOCC within 1 to 3 days of discharge and a second phone call within 21-24-days post discharge."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Preserved Ejection Fraction"
+      ],
+      "keywords": [
+        "Discharge plans",
+        "heart failure with preserved ejection fraction",
+        "Readmissions",
+        "transition of care"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Active cohort will be compared to historical controls",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 150,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Active Cohort - Heart Failure (HF) Kit",
+          "type": "EXPERIMENTAL",
+          "description": "Extensive education to patients via iPad videos and providing them with HF kits prior to their discharge. Structured follow up post discharge and linkage to care.",
+          "interventionNames": [
+            "Behavioral: HF Kit and Follow-ups"
+          ]
+        },
+        {
+          "label": "Historical controls",
+          "type": "NO_INTERVENTION",
+          "description": "Standard of care education and follow up"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "HF Kit and Follow-ups",
+          "description": "These patients will receive TOCC intervention, which includes: pre-discharge introduction to the program; watching educational videos about heart failure via Mytonomy; receiving the American Heart Association's \"Get With The Guidelines\" (GWTG) booklet and a heart failure (HF) kit. These patients will receive a follow-up phone call days 1 to 3 days post discharge from the pharmacist and nurse practitioner to review discharge instructions, provide medication education, and assess clinical status; a second follow-up call will be conducted days 21 to 24 post discharge. The HF tool kits will provide these patients with the essential tools, resources, and log sheets for self-management such as monitoring daily weights, monitoring blood pressure and heart rate",
+          "armGroupLabels": [
+            "Active Cohort - Heart Failure (HF) Kit"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "All-cause 30-day hospital readmission rate for heart failure",
+          "description": "This measures the percentage of patients initially hospitalized for HF who are readmitted to the hospital for any reason within 30 days of discharge. This is a standard metric for evaluating HF care and aligns directly with the objective of reducing readmissions.",
+          "timeFrame": "30 days post discharge"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "7-Day Provider Follow-Up",
+          "description": "Proportion of patients in each cohort (intervention and control) who receive a follow-up contact from an outpatient provider within 7 days of discharge.",
+          "timeFrame": "7 day post discharge"
+        },
+        {
+          "measure": "Patient Satisfaction with Transition of Care",
+          "description": "Patient-reported satisfaction with the transition of care process, measured using a post discharge survey.\n\nPatient-reported satisfaction will be measured using a 5-item survey on patients' perception regarding the different components of the project (kit, education, phone calls and medication information). Four questions are using Likert scale 1-5 with 1 being \"not helpful/satisfied\" and 5 being very satisfied. The last question captures overall satisfaction with a Yes/No question.",
+          "timeFrame": "31 to 45 days post discharge"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Adults ages 18 to 90 years old discharged from Ocean University Medical Center (OUMC)\n* Inpatient admission for heart failure with preserved ejection fraction (HFpEF) exacerbation\n* Patient discharged home with or without homecare\n\nExclusion Criteria:\n\n* Refuse to participate in TOCC phone calls\n* Discharged to a facility\n* Discharged with homecare services\n* Discharged on hospice services\n* Hemodialysis\n* Leave against medical advice (AMA)\n* Pregnant\n* Diagnosed with dementia\n* Without medical capacity or unable to provide own consent",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "90 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Alexandria Berns, PharmD",
+          "role": "CONTACT",
+          "phone": "7328405100",
+          "email": "Alexandria.Berns@hmhn.org"
+        },
+        {
+          "name": "Tina Wismar, MSN, FNP-BC",
+          "role": "CONTACT",
+          "phone": "7328405101",
+          "email": "Tina.Wismar@hmhn.org"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Alexandria Berns, PharmD",
+          "affiliation": "Hackensack Meridian Health",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Ocean University Medical Center",
+          "status": "RECRUITING",
+          "city": "Brick",
+          "state": "New Jersey",
+          "zip": "08724",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Alexandria Berns, PharmD",
+              "role": "CONTACT",
+              "phone": "732-840-5100",
+              "email": "Alexandria.Berns@hmhn.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.05928,
+            "lon": -74.13708
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    }
+  },
+  "hasResults": false
+}

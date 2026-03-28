@@ -1,0 +1,209 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04506606",
+      "orgStudyIdInfo": {
+        "id": "E3343-R"
+      },
+      "organization": {
+        "fullName": "VA Office of Research and Development",
+        "class": "FED"
+      },
+      "briefTitle": "Cardiac Rehab Effects in HFpEF",
+      "officialTitle": "Efficacy of Exercise Training in Patients With HFpEF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-04",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-05-02",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-09-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-09-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2020-08-06",
+      "studyFirstSubmitQcDate": "2020-08-06",
+      "studyFirstPostDateStruct": {
+        "date": "2020-08-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-04-11",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-04-16",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "VA Office of Research and Development",
+        "class": "FED"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This research in Veterans with heart failure with preserved ejection fraction (HFpEF) will provide new information on the mechanisms determining the patients' exercise intolerance and the efficacy of regular physical activity to improve this shortcoming by alleviating the patients' neurocirculatory abnormalities. Specifically, the investigators will focus on the role of nerves originating in working limb muscles in determining the patients' exercise intolerance and compromised fatigue resistance before and after a chronic exercise intervention. By focusing on a specific mechanism, this project will evaluate the validity of exercise as an alternative treatment strategy with the overall purpose of improving the quality of life of Veterans with HFpEF.",
+      "detailedDescription": "Patients with heart failure with preserved ejection fraction (HFpEF) are characterized by exercise intolerance and premature fatigue during physical activity. An abnormal exercise pressor reflex mediated by neural feedback from mechano- and/or metabosensitive group III and IV muscle afferents may contribute to these debilitating symptoms. However, little is known about the role and relative contribution of group III/IV afferents in circulatory control and fatigue development in patients with HFpEF. By studying both patients with HFpEF and well-matched controls, the investigators will evaluate the contribution of these muscle afferents to circulatory control and fatigue development, factors recognized to be major contributors to exercise intolerance. The investigators will use lumbar intrathecal fentanyl to block the central projection of group III/IV muscle afferents during voluntary and passive exercise (no concomitant effect on feedforward drive). This proven approach will enable us to evaluate, and distinguish between, the effects of group III and IV muscle afferents on central and peripheral hemodynamics during exercise, the exercise-induced development of central and peripheral fatigue (femoral nerve stimulation techniques), and on exercise tolerance. The investigators will also study muscle morphometry, baroreflex and chemoreflex sensitivity, and investigate intramuscular metabolic changes of the quadriceps during exercise using 31phosphorus magnetic resonance spectroscopy to evaluate disease-related alterations in cardiovascular reflex sensitivity and intrinsic muscle characteristics as a potential factor determining alterations in circulatory control and fatigue resistance in patients with HFpEF. Finally, the investigators will repeat these studies after a supervised 12-week knee-extension exercise training program, allowing us to investigate the effect of chronic exercise on the role of group III/IV muscle afferents in the hemodynamic response to exercise, the development of fatigue, and, ultimately, exercise tolerance. If this project confirms a significant contribution of group III/IV muscle afferents to the exercise intolerance exhibited by patients with HFpEF, and that chronic exercise can alleviate these impairments, the proposed work will provide the scientific basis for a paradigm shift in the treatment of this growing population."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Preserved Ejection Fraction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Afferent effect on hemodynamics",
+          "type": "EXPERIMENTAL",
+          "description": "Evaluate impact of group III/IV muscle afferents on femoral blood flow",
+          "interventionNames": [
+            "Procedure: Afferent block"
+          ]
+        },
+        {
+          "label": "Afferent effect on fatigue",
+          "type": "EXPERIMENTAL",
+          "description": "Evaluate impact of group III/IV muscle afferents on exercise-induced changes in quadriceps twitch force",
+          "interventionNames": [
+            "Procedure: Afferent block"
+          ]
+        },
+        {
+          "label": "Effect of cardiac rehab",
+          "type": "EXPERIMENTAL",
+          "description": "Evaluate effect of chronic exercise on influence of muscle afferents on limb blood flow",
+          "interventionNames": [
+            "Procedure: Afferent block"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "Afferent block",
+          "description": "Block sensory feedback to evaluate hemodynamic and fatigue consequence of group III/IV muscle afferents",
+          "armGroupLabels": [
+            "Afferent effect on fatigue",
+            "Afferent effect on hemodynamics",
+            "Effect of cardiac rehab"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "femoral blood flow",
+          "description": "Quantifying femoral blood flow during exercise with and without afferent blockade",
+          "timeFrame": "1 hour"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "femoral blood flow",
+          "description": "Impact of cardiac rehab on the influence of afferent blockade on femoral blood flow",
+          "timeFrame": "12 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* heart failure with preserved ejection fraction\n\nExclusion Criteria:\n\n* heart failure with reduced ejection fraction",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "21 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Misti R Seppi, MBA BS AAS",
+          "role": "CONTACT",
+          "phone": "(801) 582-1565",
+          "phoneExt": "4860",
+          "email": "Misti.Seppi@va.gov"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Markus Amann, PhD",
+          "affiliation": "VA Salt Lake City Health Care System, Salt Lake City, UT",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "VA Salt Lake City Health Care System, Salt Lake City, UT",
+          "status": "RECRUITING",
+          "city": "Salt Lake City",
+          "state": "Utah",
+          "zip": "84148-0001",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Misti R Seppi, MBA BS AAS",
+              "role": "CONTACT",
+              "phone": "801-582-1565",
+              "phoneExt": "4860",
+              "email": "Misti.Seppi@va.gov"
+            },
+            {
+              "name": "Markus Amann, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.76078,
+            "lon": -111.89105
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    }
+  },
+  "hasResults": false
+}

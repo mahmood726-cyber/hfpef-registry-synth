@@ -1,0 +1,368 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02024230",
+      "orgStudyIdInfo": {
+        "id": "REWRAPS"
+      },
+      "organization": {
+        "fullName": "Fujita Health University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Rivaroxaban Estimation With Warfarin in Atrial Fibrillation Patients With Coronary Stent Implantation Study (REWRAPS)",
+      "officialTitle": "Rivaroxaban Estimation With Warfarin in Atrial Fibrillation Patients With Coronary Stent Implantation Study (REWRAPS)",
+      "acronym": "REWRAPS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-12",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2014-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-12",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-12",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2013-12-10",
+      "studyFirstSubmitQcDate": "2013-12-25",
+      "studyFirstPostDateStruct": {
+        "date": "2013-12-31",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2022-12-29",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-01-03",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Yukio Ozaki",
+        "investigatorTitle": "Department of Cardiology, Fujita Health University",
+        "investigatorAffiliation": "Fujita Health University"
+      },
+      "leadSponsor": {
+        "name": "Fujita Health University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Antiplatelet therapy is indispensable for the prevention of stent thrombosis in patients who underwent coronary artery stenting. Similarly, anticoagulant therapy is essential for the prevention of cardiogenic embolism including cerebral infarction in AF patients. However, the combined antithrombotic therapy has been reported to increase the risk of major bleeding for AF patients after coronary stenting, New anticoagulant drugs that hardly interact with other drugs and do not need frequent blood tests have become commonly used. The purpose of this study is to assess the hypothesis that Rivaroxaban is non-inferior to Warfarin in the efficacy and safety for AF patients after coronary stenting"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Coronary Artery Disease",
+        "Atrial Fibrillation",
+        "Stroke",
+        "Fetal Blood Loss",
+        "Major Bleeding",
+        "All Cause Mortality"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 500,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Rivaroxaban",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients were treated over a median of 4.75 years with either rivaroxaban (10 mg once daily for patients with a creatinine clearance of 15-49 mL/min or 15 mg once daily for patients with a creatinine clearance ≥50 mL/min)",
+          "interventionNames": [
+            "Drug: Rivaroxaban or Warfarin"
+          ]
+        },
+        {
+          "label": "Warfarin",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "The dose of warfarin can be controlled with dose adjustment to achieve a target international normalized ratio \\[INR\\] of 2.0-3.0 or in patients aged \\>70 years and having a high bleeding risk, a target INR of 1.6-2.6) according to the guideline of Japanese Circulation Society based on the following paper (Inoue H, Okumura K, Atarashi H, Yamashita T, Origasa H, Kumagai N, et al. Target international normalized ratio values for preventing thromboembolic and hemorrhagic events in Japanese patients with non-valvular atrial fibrillation: results of the J-RHYTHM Registry. Circ J 2013;77(9):2264-70.)",
+          "interventionNames": [
+            "Drug: Rivaroxaban or Warfarin"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Rivaroxaban or Warfarin",
+          "description": "a multi-center, prospective, non-randomized, open-label, physician-initiated interventional allocation study either rivaroxaban or warfarin",
+          "armGroupLabels": [
+            "Rivaroxaban",
+            "Warfarin"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "a composite of adverse events",
+          "description": "cardiac or stroke death, non-fatal myocardial infarction, non-fatal stroke, coronary artery revascularization (percutaneous coronary intervention or coronary artery bypass graft), and systemic embolism",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "major bleeding",
+          "description": "BARC 3 and 5",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Net Adverse Clinical Event (NACE)",
+          "description": "a composite of all-cause death and major bleeding",
+          "timeFrame": "3 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "all-cause death",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "admission due to congestive heart failure",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "fatal arrhythmia",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "electrocardiographic findings",
+          "description": "rhythm, ST change, Q wave abnormality, QRS duration, QT interval, QTc interval, the presence of supraventricular premature contraction (SVPC), the presence of ventricular premature contraction (VPC)",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "cardiac ultrasound findings",
+          "description": "left atrial dilatation (LAD), left ventricular end-diastolic diameter (LVDd), left ventricular end-systolic diameter (LVDs), E/A, E/E', tricuspid regurgitation pressure gradient (TRPG), LV wall abnormality",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "each cardiovascular event used for the primary efficacy outcome measures",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "non-major clinical relevant bleeding",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "cardiac or stroke death",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "non-fatal myocardial infarction",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "non-fatal stroke",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "coronary artery revascularization (percutaneous coronary intervention or coronary artery bypass graft)",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "systemic embolism",
+          "timeFrame": "3 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nClinically stable atrial fibrillation (AF) patients who underwent coronary artery stenting more than one year ago and are treated or are scheduled to be treated with anticoagulant drug (regardless of the type of stents and AF).\n\nThose who are willing to cooperate with us in the study. Those who can sign the informed consent document that is approved by the ethics committee of the medical institution participating in the study.\n\nExclusion Criteria:\n\nThose in whom the package inserts state anticoagulant drugs are contraindicated for use Those who are scheduled to undergo percutaneous coronary intervention or catheter ablation for AF. Those who have to continuously undergo dual antiplatelet due to a past history of stent thrombosis during the distant stage after stenting. Those who have undergone prosthetic valve replacement for valvular disease. Those who the physician in charge judges are ineligible for the study due to serious pathological conditions. Those who are not willing to participate in the study.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "20 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Yukio Ozaki",
+          "city": "Nagoya",
+          "state": "Aichi-ken",
+          "zip": "461-0021",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.18147,
+            "lon": 136.90641
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003324",
+          "term": "Coronary Artery Disease"
+        },
+        {
+          "id": "D001281",
+          "term": "Atrial Fibrillation"
+        },
+        {
+          "id": "D020521",
+          "term": "Stroke"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003327",
+          "term": "Coronary Disease"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D001145",
+          "term": "Arrhythmias, Cardiac"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D002561",
+          "term": "Cerebrovascular Disorders"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000069552",
+          "term": "Rivaroxaban"
+        },
+        {
+          "id": "D014859",
+          "term": "Warfarin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013876",
+          "term": "Thiophenes"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D009025",
+          "term": "Morpholines"
+        },
+        {
+          "id": "D010078",
+          "term": "Oxazines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D015110",
+          "term": "4-Hydroxycoumarins"
+        },
+        {
+          "id": "D003374",
+          "term": "Coumarins"
+        },
+        {
+          "id": "D001578",
+          "term": "Benzopyrans"
+        },
+        {
+          "id": "D011714",
+          "term": "Pyrans"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

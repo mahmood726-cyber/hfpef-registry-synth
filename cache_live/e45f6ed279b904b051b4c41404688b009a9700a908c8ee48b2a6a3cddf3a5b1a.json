@@ -1,0 +1,282 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03446326",
+      "orgStudyIdInfo": {
+        "id": "REB15-2887"
+      },
+      "organization": {
+        "fullName": "University of Calgary",
+        "class": "OTHER"
+      },
+      "briefTitle": "Assessment of Stroke Volume and Cardiac Output in Response to Varying Heart Rates",
+      "officialTitle": "Assessment of Stroke Volume and Cardiac Output in Response to Varying Heart Rates and Body Position - a Pacemaker Based Study",
+      "acronym": "Pacing_SV"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-05",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2018-01-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-01-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-01-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2018-01-31",
+      "studyFirstSubmitQcDate": "2018-02-22",
+      "studyFirstPostDateStruct": {
+        "date": "2018-02-26",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-05-15",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-05-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Calgary",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The investigators will seek to determine the effects of different heart rates on both stroke volume and cardiac output using non-invasive hemodynamic assessments. In order to safely manipulate the HR, the investigators will study patients with permanent pacemakers in whom heart rate manipulation can be done in a safe and non-invasive manner.",
+      "detailedDescription": "Permanent pacemakers have sometimes been used to treat patients with recurrent vasovagal syncope. This is because patients with vasovagal syncope often experience bradycardia at the time of their syncope. Unfortunately, pacemakers are often ineffective in preventing syncope.\n\nClassical cardiovascular hemodynamics would suggest that increasing the heart rate (HR; via pacemaker) should increase the cardiac output (CO). This is because:\n\nCO = HR x Stroke volume (SV).\n\nThe assumption is that the SV is fixed during manipulation of the HR. However, this might not be the case. As the number of beats per minute (HR) increases, the cardiac cycle length (R-R interval \\[RRI\\]) shortens, as a function of simple math. This means that the time in cardiac systole shortens, and the time in cardiac diastole shortens. Since cardiac diastole is when the heart fills up with blood, faster HR can be associated with decreased cardiac filling times. This, in turn, could compromise the SV. However, there is a paucity of data as to what happens to SV and CO at different HR. Further, it is possible that these effects will be different when a person is lying down supine versus when a patient is upright (when stroke volume will be lower).\n\nThe investigators will seek to determine the effects of different HR on both SV \\& CO. In order to safely manipulate the HR, they will study patients with permanent pacemakers in whom HR manipulation can be done in a safe and non-invasive manner."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Vasovagal Syncope"
+      ],
+      "keywords": [
+        "pacemaker",
+        "stroke volume",
+        "cardiac output",
+        "heart rate"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 25,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Stroke volume and cardiac output",
+          "type": "EXPERIMENTAL",
+          "description": "Pacing runs will occur at the following rates:\n\n* 50 beats per minute (bpm)\n* 60 bpm\n* 70 bpm\n* 80 bpm\n* 90 bpm\n* 100 bpm\n* 110 bpm\n* 120 bpm\n* 130 bpm\n\nThe finger blood pressure cuff will be calibrated between pacing runs.\n\nFollowing the final pacing run while supine, the patient will be given 10 minutes to rest prior to the upright portion of the study. They will then be strapped into the table (so they will not fall) and then they will be tilted up to \\>70 degrees (almost standing up). They will stand for \\~10 minutes prior to commencing the next pacing trains.",
+          "interventionNames": [
+            "Device: Pacing"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Pacing",
+          "description": "Assess the non-invasively determined stroke volume and cardiac output response at different paced heart rates in patients with a cardiac pacemaker or implanted defibrillator with preserved ejection fractions (LVEF≥50%)",
+          "armGroupLabels": [
+            "Stroke volume and cardiac output"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in cardiac output while atrial pacing at lower and higher rates while supine",
+          "description": "Change in cardiac output (CO) when atrial pacing at 80 bpm \\& 120 bpm while supine. CO = HR x Stroke volume (SV)",
+          "timeFrame": "1 day"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in cardiac output at lower and higher ventricular (VVI) paced rates while supine",
+          "description": "Change in Cardiac output at ventricular (VVI) paced rates when it is lower (50-70 bpm) and higher (130 bpm) while supine",
+          "timeFrame": "1 day"
+        },
+        {
+          "measure": "Change of cardiac output at lower and higher atrial (AAI) paced rates while supine versus while upright",
+          "description": "Change of cardiac output at lower and higher atrial (AAI) paced rates while supine versus while upright at different paced rates",
+          "timeFrame": "1 day"
+        },
+        {
+          "measure": "Change of cardiac output at lower and higher ventricular (VVI) paced rates while supine versus while upright",
+          "description": "Change of cardiac output at lower and higher ventricular (VVI) paced rates while supine versus while upright at different paced rates",
+          "timeFrame": "1 day"
+        },
+        {
+          "measure": "Change in stroke volume at lower and higher atrial paced rates while tilted up",
+          "description": "Change in stroke volume at lower (50-70 bpm) vs. higher (130 bpm) atrial paced rates while tilted up",
+          "timeFrame": "1 day"
+        },
+        {
+          "measure": "Change in stroke volume at lower and higher ventricular (VVI) paced rates while tilted up",
+          "description": "Change in stroke volume at ventricular (VVI) paced rates when it is lower (50-70 bpm) and higher (130 bpm) while tilted up",
+          "timeFrame": "1 day"
+        },
+        {
+          "measure": "Change of stroke volume at lower and higher atrial (AAI) paced rates while supine versus while upright",
+          "description": "Change of stroke volume at lower and higher atrial (AAI) paced rates while supine versus while upright at different paced rates",
+          "timeFrame": "1 day"
+        },
+        {
+          "measure": "Change of stroke volume at lower and higher ventricular (VVI) paced rates while supine versus while upright",
+          "description": "Change of stroke volume at lower and higher ventricular (VVI) paced rates while supine versus while upright at different paced rates",
+          "timeFrame": "1 day"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 18-70 years (inclusive)\n* Implanted permanent pacemaker or implanted defibrillator capable of atrial and ventricular pacing\n* LV ejection fraction \\>50%\n\nExclusion Criteria:\n\n* Unable or unwilling to provide informed consent\n* Clinical need for a cardiac resynchronization device",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "70 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Satish R Raj, MD MSCI",
+          "role": "CONTACT",
+          "phone": "4032106152",
+          "email": "satish.raj@ucalgary.ca"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Satish R Raj, MD MSCI",
+          "affiliation": "University of Calgary",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Calgary",
+          "status": "RECRUITING",
+          "city": "Calgary",
+          "state": "Alberta",
+          "zip": "T2N 4Z6",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Satish R Raj, MD, MSCI",
+              "role": "CONTACT",
+              "phone": "403-210-6152",
+              "email": "autonomic.research@ucalgary.ca"
+            },
+            {
+              "name": "Robert S Sheldon, MD, PhD",
+              "role": "CONTACT",
+              "phone": "403-220-8191",
+              "email": "autonomic.research@ucalgary.ca"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.05011,
+            "lon": -114.08529
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D019462",
+          "term": "Syncope, Vasovagal"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D054971",
+          "term": "Orthostatic Intolerance"
+        },
+        {
+          "id": "D054969",
+          "term": "Primary Dysautonomias"
+        },
+        {
+          "id": "D001342",
+          "term": "Autonomic Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D013575",
+          "term": "Syncope"
+        },
+        {
+          "id": "D014474",
+          "term": "Unconsciousness"
+        },
+        {
+          "id": "D003244",
+          "term": "Consciousness Disorders"
+        },
+        {
+          "id": "D019954",
+          "term": "Neurobehavioral Manifestations"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

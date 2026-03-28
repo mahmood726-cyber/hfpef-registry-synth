@@ -1,0 +1,783 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05983250",
+      "orgStudyIdInfo": {
+        "id": "TNX-103-06"
+      },
+      "organization": {
+        "fullName": "Tenax Therapeutics, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "LEVosimendan to Improve Exercise Limitation in Patients With PH-HFpEF",
+      "officialTitle": "A Phase 3, Double-Blind, Randomized, Placebo-Controlled Study of Levosimendan in Pulmonary Hypertension Patients With Heart Failure With Preserved Left Ventricular Ejection Fraction (PH-HFpEF)",
+      "acronym": "LEVEL"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-01-10",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-10",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-10",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-08-01",
+      "studyFirstSubmitQcDate": "2023-08-01",
+      "studyFirstPostDateStruct": {
+        "date": "2023-08-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Tenax Therapeutics, Inc.",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Medpace, Inc.",
+          "class": "INDUSTRY"
+        },
+        {
+          "name": "Northwestern University",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study will evaluate the efficacy of TNX-103 (oral levosimendan) compared with placebo in subjects with PH-HFpEF as measured by the change in 6-Minute Walk Distance (6 MWD; Day 1 to Week 12).",
+      "detailedDescription": "This is a Phase 3, double-blind, randomized, placebo-controlled study of oral levosimendan in patients with PH-HFpEF. There will be a Screening Period of up to 30 days. Subjects will provide written informed consent prior to completing any study procedures. Upon meeting all eligibility criteria, patients will continue to the 12-week randomized, double-blind treatment phase. Approximately 230 subjects will be randomized in a 1:1 ratio to receive an oral dose of levosimendan or placebo\n\nAll randomized subjects will have the option to enter the 92-week OLE following the completion of all study events at Week 12."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Pulmonary Hypertension"
+      ],
+      "keywords": [
+        "HFpEF",
+        "Pulmonary hypertension group 2",
+        "PH-HFpEF",
+        "Heart Failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Double blind, randomized, placebo controlled",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "The blind is maintained by the use of a matching placebo.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 230,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "TNX-103",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "oral levosimendan",
+          "interventionNames": [
+            "Drug: TNX-103"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "TNX-103",
+          "description": "oral levosimendan 1 mg",
+          "armGroupLabels": [
+            "TNX-103"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Six-minute walk distance",
+          "timeFrame": "12 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "KCCQ",
+          "description": "Change in KCCQ",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Clinical Worsening Events",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Change in NT-proBNP",
+          "description": "Decreases in NT-proBNP may indicate an improvement in symptoms",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Change NYHA functional class",
+          "description": "On a scale of I-IV. Lower scores may indicate improvement in symptoms",
+          "timeFrame": "12 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Men or women, greater than or equal to18 to 85 years of age.\n2. NYHA Class II or III or NYHA class IV symptoms.\n3. A diagnosis of World Health Organization (WHO) Group 2 PH-HFpEF with qualifying hemodynamics\n4. Qualifying Baseline RHC.\n5. Qualifying echocardiogram\n6. Qualifying 6-MWD\n7. A 48-hour ambulatory cardiac rhythm monitor during the Screening Period.\n8. Requirements related to child bearing potential, contraception, and egg/sperm donation\n\nExclusion Criteria:\n\n1. A diagnosis of PH WHO Groups 1, 3, 4, or 5.\n2. Echocardiographic evidence for hypertrophic cardiomyopathy, restrictive cardiomyopathy, constrictive pericarditis, cardiac amyloidosis, or infiltrative cardiomyopathy\n3. Structural heart repair or replacement of the aortic valve or mitral valve (surgical or percutaneous). OR, planned valve intervention. OR, the presence of significant valve disease\n4. A diagnosis of pre-existing lung disease\n5. History of severe allergic or anaphylactic reaction or hypersensitivity to the excipients in the investigational product.\n6. Major surgery within 60 days.\n7. Prior heart, lung, or heart-lung transplants or life expectancy of \\<12 months\n8. History of clinically significant other diseases that may limit or complicate participation in the study.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Kevin Crawford",
+          "role": "CONTACT",
+          "phone": "19198552145",
+          "email": "k.crawford@tenaxthera.com"
+        },
+        {
+          "name": "Douglas Hay, PhD",
+          "role": "CONTACT",
+          "phone": "19198552110",
+          "email": "d.hay@tenaxthera.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Tucson",
+          "state": "Arizona",
+          "zip": "85721",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.22174,
+            "lon": -110.92648
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "La Jolla",
+          "state": "California",
+          "zip": "92037",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.84727,
+            "lon": -117.2742
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90033",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90048",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Sacramento",
+          "state": "California",
+          "zip": "95817",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.58157,
+            "lon": -121.4944
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94143",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Torrance",
+          "state": "California",
+          "zip": "90502",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.83585,
+            "lon": -118.34063
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Jacksonville",
+          "state": "Florida",
+          "zip": "32224",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Winter Haven",
+          "state": "Florida",
+          "zip": "33881",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.02224,
+            "lon": -81.73286
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30322",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60208",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60637",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Galesburg",
+          "state": "Illinois",
+          "zip": "61401",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.94782,
+            "lon": -90.37124
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Indianapolis",
+          "state": "Indiana",
+          "zip": "46202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.76838,
+            "lon": -86.15804
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Indianapolis",
+          "state": "Indiana",
+          "zip": "46260",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.76838,
+            "lon": -86.15804
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Louisville",
+          "state": "Kentucky",
+          "zip": "40202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.25424,
+            "lon": -85.75941
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02114",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Minneapolis",
+          "state": "Minnesota",
+          "zip": "55455",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.97997,
+            "lon": -93.26384
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Rochester",
+          "state": "Minnesota",
+          "zip": "55905",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63136",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Omaha",
+          "state": "Nebraska",
+          "zip": "68198",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.25626,
+            "lon": -95.94043
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10021",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10029",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Rochester",
+          "state": "New York",
+          "zip": "14621",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.15478,
+            "lon": -77.61556
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Roslyn",
+          "state": "New York",
+          "zip": "11576",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.79982,
+            "lon": -73.65096
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Charlotte",
+          "state": "North Carolina",
+          "zip": "28203",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.22709,
+            "lon": -80.84313
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Durham",
+          "state": "North Carolina",
+          "zip": "27710",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.99403,
+            "lon": -78.89862
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Greensboro",
+          "state": "North Carolina",
+          "zip": "27401",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.07264,
+            "lon": -79.79198
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45267",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Columbus",
+          "state": "Ohio",
+          "zip": "43214",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.96118,
+            "lon": -82.99879
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Pittsburgh",
+          "state": "Pennsylvania",
+          "zip": "15212",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.44062,
+            "lon": -79.99589
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Providence",
+          "state": "Rhode Island",
+          "zip": "02903",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.82399,
+            "lon": -71.41283
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Charleston",
+          "state": "South Carolina",
+          "zip": "29425",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.77632,
+            "lon": -79.93275
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Columbia",
+          "state": "South Carolina",
+          "zip": "29044",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.00071,
+            "lon": -81.03481
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75204",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75390",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Lubbock",
+          "state": "Texas",
+          "zip": "79430",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.57786,
+            "lon": -101.85517
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Plano",
+          "state": "Texas",
+          "zip": "75093",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.01984,
+            "lon": -96.69889
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Murray",
+          "state": "Utah",
+          "zip": "84107",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.66689,
+            "lon": -111.88799
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Richmond",
+          "state": "Virginia",
+          "zip": "23298",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Madison",
+          "state": "Wisconsin",
+          "zip": "53792",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.07305,
+            "lon": -89.40123
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Winnipeg",
+          "state": "Manitoba",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.8844,
+            "lon": -97.14704
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "London",
+          "state": "Ontario",
+          "zip": "N6A 5A5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 42.98339,
+            "lon": -81.23304
+          }
+        },
+        {
+          "facility": "Tenax Investigational Site",
+          "status": "RECRUITING",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M5A 4P5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006976",
+          "term": "Hypertension, Pulmonary"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D006973",
+          "term": "Hypertension"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

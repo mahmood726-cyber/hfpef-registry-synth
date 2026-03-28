@@ -1,0 +1,769 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00789724",
+      "orgStudyIdInfo": {
+        "id": "VCU-ART"
+      },
+      "organization": {
+        "fullName": "Virginia Commonwealth University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Anakinra to Prevent Post-infarction Remodeling",
+      "officialTitle": "Recombinant Human Interleukin-1 Receptor Antagonist, Anakinra, to Prevent Post-infarction Remodeling: the Virginia Commonwealth University Anakinra Remodeling Trial (VCU-ART)",
+      "acronym": "VCU-ART"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2017-10",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2008-11"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2009-08",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2009-08",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2008-11-11",
+      "studyFirstSubmitQcDate": "2008-11-12",
+      "studyFirstPostDateStruct": {
+        "date": "2008-11-13",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2010-07-30",
+      "resultsFirstSubmitQcDate": "2010-07-30",
+      "resultsFirstPostDateStruct": {
+        "date": "2010-08-24",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2017-10-24",
+      "lastUpdatePostDateStruct": {
+        "date": "2017-11-30",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Virginia Commonwealth University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Thousands of patients die daily from early and late complications of a heart attack (acute myocardial infarction, AMI). Patients surviving AMI remain at high risk of death from adverse cardiac remodeling (dysfunction and enlargement of the heart) leading to heart failure (weakening of the heart).\n\nCurrent interventions proven to reduce adverse remodeling and progression to heart failure include early reperfusion (restoring blood flow to the heart muscle) and long-term use of medicines that block the effects of hormones (such as angiotensin II, norepinephrine and aldosterone) involved in adverse remodeling. Despite these treatments, however, many patients continue to develop heart failure within 1 year of AMI. These patients are at very high risk of death.\n\nNumerous changes occur in the hearts of patients after AMI that lead to adverse remodeling. Ischemia (lack of oxygen) and infarction (cell damage) lead to increased interleukin-1 (IL-1) production in the heart. IL-1 plays a critical role in adverse cardiac remodeling by coordinating the inflammatory pathway (leading to wound healing) and apoptotic pathway (leading to cell death).\n\nIn opposition to IL-1 activity, the human body produces a natural IL-1 receptor antagonist that blocks the effects of IL-1. The drug form of this IL-1 receptor antagonist (anakinra) is currently FDA approved for the treatment of rheumatoid arthritis, an inflammatory disease characterized by excessive IL-1 activity. Experimental studies show that anakinra is able to prevent cardiac remodeling and improve survival in mice after AMI.\n\nWe hypothesize that anakinra will show similar benefits in human patients by preventing adverse remodeling and heart failure after AMI."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ST Segment Elevation Acute Myocardial Infarction"
+      ],
+      "keywords": [
+        "acute myocardial infarction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 10,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Anakinra",
+          "type": "EXPERIMENTAL",
+          "description": "Anakinra 100 mg given daily by subcutaneous injection for 14 days",
+          "interventionNames": [
+            "Drug: Anakinra"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "0.67 ml of NaCl 0.9% solution",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Anakinra",
+          "description": "100 mg daily subcutaneous injection for 14 days",
+          "armGroupLabels": [
+            "Anakinra"
+          ],
+          "otherNames": [
+            "Kineret (TM)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "0.67 ml of NaCl 0.9% subcutaneously daily for 14 days",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Difference Between the Anakinra Arm and Placebo Arm in Change in End-systolic Volume Indices From Baseline to Follow up Exam 10-14 Weeks Later at Cardiac Magnetic Resonance Imaging.",
+          "timeFrame": "10-14 weeks"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Difference Between the 2 Arms in the Percentage of Patients With Any of the Following : a) End-systolic or End-diastolic Volume Index Increase >10%; b) Ejection Fraction Decrease >10%; c) E/E'>15 at Follow up",
+          "timeFrame": "10-14 weeks"
+        },
+        {
+          "measure": "Difference Between the 2 Arms in Change in the Number of Circulating Endothelial Progenitor Cells From Baseline to Follow up Exam",
+          "timeFrame": "10-14 weeks"
+        },
+        {
+          "measure": "Difference Between the 2 Arms in Change in Serum BNP Levels, C-reactive Protein, and Hemoglobin A1c% From Baseline to Follow up",
+          "timeFrame": "10-14 weeks"
+        },
+        {
+          "measure": "Difference Between the 2 Arms in the Incidence of Significant Cardiac Arrhythmias in the Acute Phase",
+          "timeFrame": "48 hours"
+        },
+        {
+          "measure": "Difference Between the 2 Arms in the Number of Adverse Effects Including a) All Events; b) All Events Requiring Unblinding of the Treatment; c) All Events Requiring Early Termination of the Intervention",
+          "timeFrame": "10-14 weeks"
+        },
+        {
+          "measure": "Difference Between the 2 Arms in Change in Oxygen Uptake Kinetics From Baseline to Follow up Exam at Submaximal Cardiopulmonary Exercise Test",
+          "timeFrame": "10-14 weeks"
+        },
+        {
+          "measure": "Difference Between the 2 Arms in Change in E/E' Ratios and Myocardial Performance (Tei) Indices From Baseline to Follow up Exam at Transthoracic Echo-color-Doppler Cardiac Exam",
+          "timeFrame": "10-14 weeks"
+        },
+        {
+          "measure": "Difference Between the 2 Arms in Change in End-diastolic Volume Indices and Ejection Fraction Values From Baseline to Follow up Exam at Cardiac Magnetic Resonance Imaging",
+          "timeFrame": "10-14 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \\>18 years\n* Acute (\\<24 hours) onset of chest pain\n* New or presumably new ST elevation on ECG\n* Planned coronary angiography for percutaneous revascularization\n\nExclusion Criteria:\n\n* Inability to give informed consent\n* Late presentation (\\>24 hours)\n* Unsuccessful revascularization or urgent coronary bypass surgery\n* Hemodynamic instability\n* End-stage congestive heart failure (AHA/ACC stage C/D, NYHA class IV)\n* Preexisting severe LV dysfunction (LVEF\\<20%) or severe valvular disease\n* Severe asthma\n* Pregnancy ( pre-enrollment pregnancy test)\n* Contraindications to cardiac MRI or cardiac angiography\n* Severe coagulopathy (INR\\>2.0, Platelet count\\<50,000/mm3)\n* Severe renal insufficiency (creatinine clearance \\<30 ml/min/m2)\n* Recent (\\<14 days) use of anti-inflammatory drugs (NSAIDS excluded)\n* Chronic inflammatory disease",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Antonio Abbate, MD",
+          "affiliation": "Virginia Commonwealth University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Virginia Commonwealth University",
+          "city": "Richmond",
+          "state": "Virginia",
+          "zip": "23298",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "39531530",
+          "type": "DERIVED",
+          "citation": "Denicolai M, Morello M, Golino M, Corna G, Del Buono MG, Agatiello CR, Van Tassell BW, Abbate A. Interleukin-1 Blockade in Patients With ST-Segment Elevation Myocardial Infarction Across the Spectrum of Coronary Artery Disease Complexity. J Cardiovasc Pharmacol. 2025 Mar 1;85(3):200-210. doi: 10.1097/FJC.0000000000001652."
+        },
+        {
+          "pmid": "35170493",
+          "type": "DERIVED",
+          "citation": "Del Buono MG, Damonte JI, Chiabrando JG, Markley R, Turlington J, Trankle CR, Kang L, Biondi-Zoccai G, Van Tassell BW, Abbate A. Effect of IL-1 Blockade With Anakinra on Heart Failure Outcomes in Patients With Anterior Versus Nonanterior ST Elevation Myocardial Infarction. J Cardiovasc Pharmacol. 2022 Jun 1;79(6):774-780. doi: 10.1097/FJC.0000000000001240."
+        },
+        {
+          "pmid": "25482680",
+          "type": "DERIVED",
+          "citation": "Abbate A, Kontos MC, Abouzaki NA, Melchior RD, Thomas C, Van Tassell BW, Oddi C, Carbone S, Trankle CR, Roberts CS, Mueller GH, Gambill ML, Christopher S, Markley R, Vetrovec GW, Dinarello CA, Biondi-Zoccai G. Comparative safety of interleukin-1 blockade with anakinra in patients with ST-segment elevation acute myocardial infarction (from the VCU-ART and VCU-ART2 pilot studies). Am J Cardiol. 2015 Feb 1;115(3):288-92. doi: 10.1016/j.amjcard.2014.11.003. Epub 2014 Nov 13."
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "recruitmentDetails": "Enrollment started in November 2008. During the first 4 months, 33 patients admitted with STEMI were screened and 10 patients were enrolled. One patient withdrew consent to the study on day 2 prior to all assessment and was excluded. The Institutional Review Board then approved enrollment of an additional patient who was enrolled in May 2009.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Anakinra",
+          "description": "Anakinra 100 mg given daily by subcutaneous injection for 14 days"
+        },
+        {
+          "id": "FG001",
+          "title": "Placebo",
+          "description": "0.67 ml of NaCl 0.9% solution"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "5"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "5"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "5"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "5"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Anakinra",
+          "description": "Anakinra 100 mg given daily by subcutaneous injection for 14 days"
+        },
+        {
+          "id": "BG001",
+          "title": "Placebo",
+          "description": "0.67 ml of NaCl 0.9% solution"
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "5"
+            },
+            {
+              "groupId": "BG001",
+              "value": "5"
+            },
+            {
+              "groupId": "BG002",
+              "value": "10"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "10"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "45",
+                      "spread": "13"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "52",
+                      "spread": "15"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "48",
+                      "spread": "13"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "10"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Difference Between the Anakinra Arm and Placebo Arm in Change in End-systolic Volume Indices From Baseline to Follow up Exam 10-14 Weeks Later at Cardiac Magnetic Resonance Imaging.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Inter-Quartile Range",
+          "unitOfMeasure": "mL/m2",
+          "timeFrame": "10-14 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Anakinra",
+              "description": "Anakinra 100 mg given daily by subcutaneous injection for 14 days"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "0.67 ml of NaCl 0.9% solution"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "5"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "5"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-3.2",
+                      "lowerLimit": "-4.5",
+                      "upperLimit": "-1.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.0",
+                      "lowerLimit": "1.0",
+                      "upperLimit": "11.0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.033",
+              "statisticalMethod": "ANOVA",
+              "ciPctValue": "95"
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Difference Between the 2 Arms in the Percentage of Patients With Any of the Following : a) End-systolic or End-diastolic Volume Index Increase >10%; b) Ejection Fraction Decrease >10%; c) E/E'>15 at Follow up",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "10-14 weeks",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Difference Between the 2 Arms in Change in the Number of Circulating Endothelial Progenitor Cells From Baseline to Follow up Exam",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "10-14 weeks",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Difference Between the 2 Arms in Change in Serum BNP Levels, C-reactive Protein, and Hemoglobin A1c% From Baseline to Follow up",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "10-14 weeks",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Difference Between the 2 Arms in the Incidence of Significant Cardiac Arrhythmias in the Acute Phase",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "48 hours",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Difference Between the 2 Arms in the Number of Adverse Effects Including a) All Events; b) All Events Requiring Unblinding of the Treatment; c) All Events Requiring Early Termination of the Intervention",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "10-14 weeks",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Difference Between the 2 Arms in Change in Oxygen Uptake Kinetics From Baseline to Follow up Exam at Submaximal Cardiopulmonary Exercise Test",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "10-14 weeks",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Difference Between the 2 Arms in Change in E/E' Ratios and Myocardial Performance (Tei) Indices From Baseline to Follow up Exam at Transthoracic Echo-color-Doppler Cardiac Exam",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "10-14 weeks",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Difference Between the 2 Arms in Change in End-diastolic Volume Indices and Ejection Fraction Values From Baseline to Follow up Exam at Cardiac Magnetic Resonance Imaging",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "10-14 weeks",
+          "denomUnitsSelected": "Participants"
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "1",
+      "timeFrame": "3 months",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Anakinra",
+          "description": "Anakinra 100 mg given daily by subcutaneous injection for 14 days",
+          "seriousNumAffected": 2,
+          "seriousNumAtRisk": 5,
+          "otherNumAffected": 2,
+          "otherNumAtRisk": 5
+        },
+        {
+          "id": "EG001",
+          "title": "Placebo",
+          "description": "0.67 ml of NaCl 0.9% solution",
+          "seriousNumAffected": 4,
+          "seriousNumAtRisk": 5,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 5
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Recurrent acute coronary syndrome",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 5
+            }
+          ]
+        },
+        {
+          "term": "Congestive Heart Failure",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 5
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Injection site pain",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 5
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": true,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Antonio Abbate, MD, PhD",
+        "organization": "VCU Pauley Heart Center",
+        "email": "aabbate@mcvh-vcu.edu",
+        "phone": "8048280513"
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D053590",
+          "term": "Interleukin 1 Receptor Antagonist Protein"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D016207",
+          "term": "Cytokines"
+        },
+        {
+          "id": "D036341",
+          "term": "Intercellular Signaling Peptides and Proteins"
+        },
+        {
+          "id": "D010455",
+          "term": "Peptides"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D001685",
+          "term": "Biological Factors"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

@@ -1,0 +1,343 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01922141",
+      "orgStudyIdInfo": {
+        "id": "CSPP100A2370"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2013-001562-42",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Novartis",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Aliskiren Study of Safety and Efficacy in Senior Hypertensives",
+      "officialTitle": "A Randomized, Double-blind, Parallel Group, Active-controlled Study to Compare the Systolic Blood Pressure Lowering Efficacy of Aliskiren, Ramipril and a Combination of Aliskiren and Amlodipine, With an Initial 8-week Evaluation, Followed by a 2-3 Year Follow-up to Compare Long-term Safety of an Aliskiren-based Regimen to a Ramipril-based Regimen in Hypertensive Patients ≥ 65 Years of Age",
+      "acronym": "ASSESS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2015-04",
+      "overallStatus": "WITHDRAWN",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-05"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-06",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2018-06",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2013-08-12",
+      "studyFirstSubmitQcDate": "2013-08-12",
+      "studyFirstPostDateStruct": {
+        "date": "2013-08-14",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2015-04-14",
+      "lastUpdatePostDateStruct": {
+        "date": "2015-04-16",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Novartis Pharmaceuticals",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is designed to compare the blood pressure lowering efficacy of aliskiren, a combination of aliskiren plus amlodipine, and ramipril in elderly patients with mild to moderate hypertension. It will also compare the long-term safety of an aliskiren-based regimen to a ramipril-based regimen"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hypertension"
+      ],
+      "keywords": [
+        "High blood pressure, stage 1 and 2 hypertension"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Aliskiren monotherapy",
+          "type": "EXPERIMENTAL",
+          "description": "Aliskiren 150 mg, once a day, force titrated to Aliskiren 300 mg after 8 weeks in 50% of patients. Optional addition/titration of amlodipine 5 mg/10 mg and hydrochlorothiazide 12.5/25 mg based on systolic BP control in sequential steps",
+          "interventionNames": [
+            "Drug: Aliskiren",
+            "Drug: Amlodipine",
+            "Drug: Hydrochlorothiazide"
+          ]
+        },
+        {
+          "label": "Aliskiren dual therapy",
+          "type": "EXPERIMENTAL",
+          "description": "Aliskiren 150 mg plus amlodipine 5 mg, once a day, force titrated to Aliskiren 300 mg plus amlodipine 5 mg after 8 weeks in 50% of patients. Optional titration of amlodipine 5 mg to 10 mg and optional addition/titration of hydrochlorothiazide 12.5/25 mg based on systolic BP control in sequential steps",
+          "interventionNames": [
+            "Drug: Aliskiren",
+            "Drug: Amlodipine",
+            "Drug: Hydrochlorothiazide"
+          ]
+        },
+        {
+          "label": "Ramipril monotherapy",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Ramipril 5 mg, once a day, force titrated to Ramipril 10 mg after 8 weeks in 50% of patients. Optional addition/titration of amlodipine 5 mg/10 mg and hydrochlorothiazide 12.5/25 mg based on systolic BP control in sequential steps",
+          "interventionNames": [
+            "Drug: Amlodipine",
+            "Drug: Ramipril",
+            "Drug: Hydrochlorothiazide"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Aliskiren",
+          "description": "Aliskiren 150 mg and aliskiren 300 mg tablets will be supplied centrally. These will be blinded with matching placebos for the 2 dose strengths.",
+          "armGroupLabels": [
+            "Aliskiren dual therapy",
+            "Aliskiren monotherapy"
+          ],
+          "otherNames": [
+            "Rasilez, Tekturna"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Amlodipine",
+          "description": "Amlodipine 5 mg/10 mg will also be blinded and supplied centrally. For Aliskiren dual therapy arm , Amlodipine is in the regimen; where as for monotherapy arms, Amlodipine is an optional add-on therapy.",
+          "armGroupLabels": [
+            "Aliskiren dual therapy",
+            "Aliskiren monotherapy",
+            "Ramipril monotherapy"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Ramipril",
+          "description": "Ramipril 5 mg and ramipril 10 mg capsules will be supplied centrally. These will be blinded with matching placebos for the 2 dose strengths.",
+          "armGroupLabels": [
+            "Ramipril monotherapy"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Hydrochlorothiazide",
+          "description": "Hydrochlorothiazide 12.5 mg/25 mg will be open label and supplied locally. It is an optional add-on to each arm.",
+          "armGroupLabels": [
+            "Aliskiren dual therapy",
+            "Aliskiren monotherapy",
+            "Ramipril monotherapy"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change from baseline in mean sitting systolic blood pressure (MSSBP) to week 8",
+          "description": "The change from baseline to week 8 in mean sitting systolic blood pressure will be analyzed for aliskiren monotherapy, dual therapy of aliskiren and amlodipine and ramipril monotherapy using ANCOVA model in which treatment arm, region and age (less than 75 and greater than or equal to 75 years) will be included as factors",
+          "timeFrame": "Baseline, Week 8"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of patients with serious adverse events and adverse events",
+          "description": "Safety and tolerability of study treatments will be analyzed by comparing the frequency of serious adverse events and adverse events at the time frames",
+          "timeFrame": "Baseline, Week 8, average 2.5 years"
+        },
+        {
+          "measure": "Number of patients with hyperkalemia, hypotension and reduction of estimated glomerular filtration rate (eGFR)",
+          "description": "The incidence of hyperkalemia, hypotension and reduction of eGFR will be compared between aliskiren monotherapy, aliskiren dual therapy with amlodipine and ramipril monotherapy",
+          "timeFrame": "Baseline, Week 8"
+        },
+        {
+          "measure": "Change from baseline in mean sitting systolic blood pressure (MSSBP) at the end of double blind period",
+          "description": "Change in mean sitting systolic blood pressure will be analyzed for the aliskiren-based regimen vs. the ramipril based regimen",
+          "timeFrame": "Baseline, end of double blind period (in average 2.5 years)"
+        },
+        {
+          "measure": "Percentage of patients achieving blood pressure control",
+          "description": "Percentage of patients achieving blood pressure control, defined as mean sitting systolic BP below 140 mmHg and mean sitting diastolic BP below 90 mmHg, will be analyzed for the study treatments",
+          "timeFrame": "Baseline, Week 8, average 2.5 years"
+        },
+        {
+          "measure": "Percentage of patients with major cardiovascular events",
+          "description": "Percentage of patients with major cardiovascular events (defined as composite of cardiovascular death, resuscitated cardiac death, non-fatal stroke, non-fatal myocardial infarction, heart failure hospitalization and atrial fibrillation) will be analyzed for the aliskiren-based regimen and the ramipril-based regimen",
+          "timeFrame": "Average 2.5 years"
+        },
+        {
+          "measure": "Number of patients with gastrointestinal tract cancer",
+          "description": "The frequency of gastrointestinal tract cancer (malignant neoplasms of mouth, esophagus, stomach, small intestine, appendix, anus, gastrointestinal stroma, colon and rectum, excluding pancreatic, biliary tract and liver cancers) will be analyzed for the aliskiren-based regimen and the ramipril-based regimen",
+          "timeFrame": "Average 2.5 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients ≥ 65 years of age with a clinical diagnosis of essential hypertension at Visit 1.\n* Mean sitting SBP (MSSBP) ≥ 140 mmHg and \\< 180 mmHg at Visit 2/Visit 201 and Visit 3.\n* Absolute MSSBP difference ≤ 20 mmHg between Visit 3 and the Visit immediately prior\n\nExclusion Criteria:\n\n* History of hypersensitivity to any of the study drugs or to drugs of similar chemical classes.\n* Severe hypertension (MSSBP ≥ 180 mmHg or MSDBP ≥ 110 mmHg) at Visit 1, Visit 2, Visit 201 or Visit 3 or during patient self measured blood pressure (SMBP) monitoring in the pre-randomization period confirmed by office measurement.\n* Current treatment with any blocker of the renin angiotensin aldosterone system (RAAS) (aliskiren, ACE inhibitor, angiotensin receptor blocker or an aldosterone antagonist) and unable to discontinue this therapy.\n* Concurrent use of any anti-hypertensive medications except a stable dose of 3 months prior to Visit 1 of alpha adrenergic blockers for benign prostatic hypertrophy (e.g., tamsulosin \\[Flomax®\\] for benign prostatic hypertrophy), beta blockers for angina, or beta blocker ophthalmic preparations.\n* Contraindications to aliskiren, ramipril, amlodipine, or hydrochlorothiazide. Other protocol defined inclusion/exclusion criteria apply",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "65 Years",
+      "stdAges": [
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Novartis Pharmaceuticals",
+          "affiliation": "Novartis Pharmaceuticals",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18",
+      "removedCountries": [
+        "Argentina",
+        "Germany",
+        "Hungary",
+        "Poland",
+        "Romania",
+        "Russia",
+        "Slovakia",
+        "Spain",
+        "United States"
+      ]
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006973",
+          "term": "Hypertension"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C446481",
+          "term": "aliskiren"
+        },
+        {
+          "id": "D017311",
+          "term": "Amlodipine"
+        },
+        {
+          "id": "D017257",
+          "term": "Ramipril"
+        },
+        {
+          "id": "D006852",
+          "term": "Hydrochlorothiazide"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004095",
+          "term": "Dihydropyridines"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D002740",
+          "term": "Chlorothiazide"
+        },
+        {
+          "id": "D001581",
+          "term": "Benzothiadiazines"
+        },
+        {
+          "id": "D013449",
+          "term": "Sulfonamides"
+        },
+        {
+          "id": "D013450",
+          "term": "Sulfones"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D049971",
+          "term": "Thiazides"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

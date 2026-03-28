@@ -1,0 +1,207 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02751853",
+      "orgStudyIdInfo": {
+        "id": "16-011"
+      },
+      "organization": {
+        "fullName": "University of Luebeck",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effects of Acutely Elevated Afterload on Left Ventricular Contractility and Relaxation",
+      "officialTitle": "Effects of Acutely Elevated Afterload oN Left VentRicular Contractility and RElaxation in Heart Failure With Preserved and Reduced Ejection Fraction",
+      "acronym": "ANREP-EF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-09",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Due to the heterogeneity in the first group.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-12",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-08-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-08-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-04-19",
+      "studyFirstSubmitQcDate": "2016-04-25",
+      "studyFirstPostDateStruct": {
+        "date": "2016-04-26",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2022-09-06",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-09-10",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Holger Thiele",
+        "investigatorTitle": "Director, Department of Cardiology, Angiology, and Intensive Care Medicine, University Heart Center Luebeck",
+        "investigatorAffiliation": "University of Luebeck"
+      },
+      "leadSponsor": {
+        "name": "University of Luebeck",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Aim of the study is to assess the effects of abruptly increased afterload on left ventricular contractility and relaxation in patients with heart failure with preserved ejection fraction (HFPEF), patients with heart failure with reduced ejection fraction (HFREF), and patients without HFPEF or HFREF."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "DIAGNOSTIC",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 20,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "HFPEF",
+          "type": "EXPERIMENTAL",
+          "description": "Patient with heart failure with preserved ejection fraction (HFPEF)",
+          "interventionNames": [
+            "Device: Conductance catheter"
+          ]
+        },
+        {
+          "label": "HFREF",
+          "type": "EXPERIMENTAL",
+          "description": "Patient with heart failure with reduced ejection fraction (HFREF)",
+          "interventionNames": [
+            "Device: Conductance catheter"
+          ]
+        },
+        {
+          "label": "No HFPEF/HFREF",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patient without heart failure with preserved ejection fraction (HFPEF) or heart failure with reduced ejection fraction (HFREF)",
+          "interventionNames": [
+            "Device: Conductance catheter"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Conductance catheter",
+          "description": "Continuous online measurements of left ventricular pressure and volume using conductance catheters",
+          "armGroupLabels": [
+            "HFPEF",
+            "HFREF",
+            "No HFPEF/HFREF"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Hemodynamic parameter 1: Changes in contractility assessed by the end-systolic pressure-volume relationship",
+          "description": "Changes in contractility after handgrip exercise assessed by the end-systolic pressure-volume relationship",
+          "timeFrame": "Day 1"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Hemodynamic parameter 2: Changes in contractility assessed by the peak power index",
+          "description": "Changes in contractility after handgrip exercise assessed by the peak power index",
+          "timeFrame": "Day 1"
+        },
+        {
+          "measure": "Hemodynamic parameter 3: Changes in relaxation assessed by the relaxation constant \"tau\"",
+          "description": "Changes in relaxation after handgrip exercise assessed by the relaxation constant \"tau\"",
+          "timeFrame": "Day 1"
+        },
+        {
+          "measure": "Functional parameter: Changes in ejection fraction",
+          "description": "Changes in ejection fraction after handgrip exercise assessed by echocardiography",
+          "timeFrame": "Day 1"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Clinical indication for left and right heart catheterization\n* HFPEF (Group 1) OR HFREF (Group 2) OR absent echocardiographic evidence of HFREF OR HFPEF(Group 3)\n\nAND\n\n* Sinus rhythm during invasive measurements\n* Age ≥18 years\n* Negative pregnancy test in women with childbearing potential\n* Written informed consent\n\nExclusion Criteria:\n\n* Acute coronary syndrome\n* Acute myocardial infarction \\<6 months\n* Planned cardiac surgery or cardiovascular intervention within 6 months following inclusion\n* Valvular heart disease \\>2°\n* Severe comorbidities with limited life expectancy \\<12 months\n* Precapillary pulmonary hypertension\n* Participation in another trial",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Universitätsklinikum Schleswig-Holstein",
+          "city": "Lübeck",
+          "state": "Schleswig-Holstein",
+          "zip": "23538",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.86893,
+            "lon": 10.68729
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

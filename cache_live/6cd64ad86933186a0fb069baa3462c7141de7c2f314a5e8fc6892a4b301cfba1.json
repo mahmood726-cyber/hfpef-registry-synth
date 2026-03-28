@@ -1,0 +1,352 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05790876",
+      "orgStudyIdInfo": {
+        "id": "38RC22.0268"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2022-A02380-43",
+          "type": "OTHER",
+          "domain": "ID-RCB"
+        }
+      ],
+      "organization": {
+        "fullName": "University Hospital, Grenoble",
+        "class": "OTHER"
+      },
+      "briefTitle": "Super Saturated Oxygen (SSO2) Therapy in Patients With ST-segment Elevation Myocardial Infarction (STEMI) and Action on Coronary Microcirculation Dysfunction",
+      "officialTitle": "Super Saturated Oxygen (SSO2) Therapy in Patients With ST-segment Elevation Myocardial Infarction (STEMI) and Action on Coronary Microcirculatory Dysfunction: Pilot Study",
+      "acronym": "IC-HOT-MICRO"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-03-21",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-03-07",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-06-11",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-02-28",
+      "studyFirstSubmitQcDate": "2023-03-16",
+      "studyFirstPostDateStruct": {
+        "date": "2023-03-30",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-06-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-06-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University Hospital, Grenoble",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Zoll Medical Corporation",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this clinical trial is to demonstrate the improvement in Coronary Microcirculation Dysfunction (CMD) with Super Saturated Oxygene (SSO2) therapy in patients with anterior ST-segment Elevation Myocardial Infarction (STEMI) successfully revascularized by percutaneous coronary intervention (PCI).\n\nParticipants will receive SSO2 therapy for 60 minutes, which aims to overoxygenate their blood. Improvement in CMD will be assessed by comparing angio-IMR before and after 60 minutes of SSO2 therapy measured on conventional angiographic images.",
+      "detailedDescription": "Ten patients with acute anterior STEMI undergoing primary PCI will be enrolled. After successful PCI of a proximal lesion or middle left anterior descending artery (LAD), the patient will be informed and emergency consent will be obtained.\n\nSSO2 therapy will then be performed. Blood is drawn from a femoral artery sheath and circulated via a roller pump through an extracorporeal oxygenator located in a polycarbonate chamber to achieve a PaO2 of 760 to 1000 mmHg. The overoxygenated blood is then delivered to the origin of the LAD at a flow rate of 100 ml/min for 60 minutes via a dedicated catheter.\n\nImprovement in CMD will be assessed by comparing angio-IMR before and after 60 minutes of SSO2 therapy measured on conventional angiographic images. Then, conventional follow-up of previous STEMI will be performed by imaging and functional assessment.\n\nThe primary endpoint will be analyzed using a paired Student's t test, to take into account the evolution \"before/after\" implementation of SSO2 therapy on CMD.\n\nThe demonstration of the beneficial effect of SSO2 therapy on CMD will allow the development of a care strategy based on CMD measurement by angio-IMR. Thus, this new treatment could be reserved for patients with severe CMD for which our management arsenal is still lacking, even though we know that CMD is a major prognostic factor in STEMI patients."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "STEMI",
+        "Coronary Microvascular Dysfunction"
+      ],
+      "keywords": [
+        "STEMI",
+        "coronary microcirculatory dysfunction",
+        "SSO2 therapy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "Prospective, single-center, non-controlled, non-randomized, open-label study (pilot study)",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 15,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "SSO2 therapy",
+          "type": "EXPERIMENTAL",
+          "description": "After successful PCI of a proximal or middle LAD lesion, the patient will be informed and emergency consent will be obtained. SSO2 therapy will then be performed. Overoxygenated blood will be delivered to the origin of the LAD for 60 minutes. Improvement in CMD will be assessed by comparing angio-IMR before and after 60 minutes of SSO2 therapy measured on conventional angiographic images",
+          "interventionNames": [
+            "Procedure: SSO2 therapy"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "SSO2 therapy",
+          "description": "SSO2 therapy consists of overoxygenating the patient's blood and delivering it to the origin of the LAD for 60 min. Improvement in CMD will be assessed by comparing angio-IMR before and after 60 minutes of SSO2 therapy measured on conventional angiographic images",
+          "armGroupLabels": [
+            "SSO2 therapy"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Angio-IMR measurement before and after treatment with SSO2 therapy",
+          "description": "Angio-IMR measurement before and after treatment with SSO2 therapy to demonstrate improvement in CMD with SSO2 therapy in patients with anterior STEMI successfully revascularized by PCI",
+          "timeFrame": "Maximum 7 hours after symptoms"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "30-day composite rate of net clinical adverse events (death, reinfarction, target vessel revascularization, stent thrombosis, severe heart failure or major/minor bleeding TIMI classification",
+          "description": "30-day composite criterion rate",
+          "timeFrame": "30 days"
+        },
+        {
+          "measure": "Measurement of exercise performance",
+          "description": "Number of watts per exercise test at the end of cardiovascular rehabilitation",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Reversal of cardiac remodeling",
+          "description": "Baseline and 3-month echocardiography. Left Ventricle (LV) remodeling is defined as an increase ≥20% in LV end-diastolic volume at 3 months after infarction.",
+          "timeFrame": "Baseline and 3 months"
+        },
+        {
+          "measure": "Late gadolinium enhancement by cardiac MRI to measure the infarct size",
+          "description": "Measurement of infarct size",
+          "timeFrame": "3 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \\>18 years and \\<80 years\n* ST-segment elevation myocardial infarction within 6 hours of symptom onset with ≥1 mm ST-segment elevation in ≥2 contiguous leads in V1-V4 or new left bundle branch block.\n* Successful PCI of a proximal or medial LAD lesion with commercially available coronary stents and achievement of residual stenosis \\<50% diameter and thrombolysis-in-myocardial-infarction (TIMI) flow grade 2 or 3.\n* Systemic arterial pO2 greater than or equal to 10.7 kPa or 80 mmHg with or without oxygen supplementation.\n* Patient enrolled in a social security plan or beneficiary of such a plan\n* Consent obtained from the patient before inclusion (Emergency consent)\n\nExclusion Criteria:\n\n* History of anterior coronary artery bypass grafting (CABG)\n* Previous myocardial infarction\n* History of PCI on the LAD\n* New LAD PCI planned within 30 days.\n* Mechanical complications of STEMI (Patients with ventricular pseudoaneurysm, ventricular septal defect (VSD), or severe mitral valve regurgitation (with or without papillary muscle rupture)), cardiogenic shock, or Presence of an intra-aortic counterpulsation balloon.\n* Valvular stenosis or heart failure, pericardial disease, or nonischemic cardiomyopathy.\n* Known prior left ventricular ejection fraction (LVEF) \\< 40%,\n* Use of thrombolytic therapy\n* Patients with a contraindication to anticoagulant therapy.\n* Creatinine clearance \\<30 ml/min/1.73 m2,\n* Hemoglobin \\<10 g/dL\n* Gastrointestinal or urogenital bleeding within the last two months or any major surgery (including CABG) within six weeks prior to surgery.\n* Female of childbearing age\n* Patient on deferral or participating in another clinical investigation,\n* Protected populations: pregnant women, parturients, nursing mothers; persons deprived of liberty by a judicial or administrative decision; protected adults",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "University Hospital Grenoble",
+          "city": "La Tronche",
+          "zip": "38700",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.20507,
+            "lon": 5.74629
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "28527533",
+          "type": "BACKGROUND",
+          "citation": "Roth GA, Johnson C, Abajobir A, Abd-Allah F, Abera SF, Abyu G, Ahmed M, Aksut B, Alam T, Alam K, Alla F, Alvis-Guzman N, Amrock S, Ansari H, Arnlov J, Asayesh H, Atey TM, Avila-Burgos L, Awasthi A, Banerjee A, Barac A, Barnighausen T, Barregard L, Bedi N, Belay Ketema E, Bennett D, Berhe G, Bhutta Z, Bitew S, Carapetis J, Carrero JJ, Malta DC, Castaneda-Orjuela CA, Castillo-Rivas J, Catala-Lopez F, Choi JY, Christensen H, Cirillo M, Cooper L Jr, Criqui M, Cundiff D, Damasceno A, Dandona L, Dandona R, Davletov K, Dharmaratne S, Dorairaj P, Dubey M, Ehrenkranz R, El Sayed Zaki M, Faraon EJA, Esteghamati A, Farid T, Farvid M, Feigin V, Ding EL, Fowkes G, Gebrehiwot T, Gillum R, Gold A, Gona P, Gupta R, Habtewold TD, Hafezi-Nejad N, Hailu T, Hailu GB, Hankey G, Hassen HY, Abate KH, Havmoeller R, Hay SI, Horino M, Hotez PJ, Jacobsen K, James S, Javanbakht M, Jeemon P, John D, Jonas J, Kalkonde Y, Karimkhani C, Kasaeian A, Khader Y, Khan A, Khang YH, Khera S, Khoja AT, Khubchandani J, Kim D, Kolte D, Kosen S, Krohn KJ, Kumar GA, Kwan GF, Lal DK, Larsson A, Linn S, Lopez A, Lotufo PA, El Razek HMA, Malekzadeh R, Mazidi M, Meier T, Meles KG, Mensah G, Meretoja A, Mezgebe H, Miller T, Mirrakhimov E, Mohammed S, Moran AE, Musa KI, Narula J, Neal B, Ngalesoni F, Nguyen G, Obermeyer CM, Owolabi M, Patton G, Pedro J, Qato D, Qorbani M, Rahimi K, Rai RK, Rawaf S, Ribeiro A, Safiri S, Salomon JA, Santos I, Santric Milicevic M, Sartorius B, Schutte A, Sepanlou S, Shaikh MA, Shin MJ, Shishehbor M, Shore H, Silva DAS, Sobngwi E, Stranges S, Swaminathan S, Tabares-Seisdedos R, Tadele Atnafu N, Tesfay F, Thakur JS, Thrift A, Topor-Madry R, Truelsen T, Tyrovolas S, Ukwaja KN, Uthman O, Vasankari T, Vlassov V, Vollset SE, Wakayo T, Watkins D, Weintraub R, Werdecker A, Westerman R, Wiysonge CS, Wolfe C, Workicho A, Xu G, Yano Y, Yip P, Yonemoto N, Younis M, Yu C, Vos T, Naghavi M, Murray C. Global, Regional, and National Burden of Cardiovascular Diseases for 10 Causes, 1990 to 2015. J Am Coll Cardiol. 2017 Jul 4;70(1):1-25. doi: 10.1016/j.jacc.2017.04.052. Epub 2017 May 17."
+        },
+        {
+          "pmid": "28886621",
+          "type": "BACKGROUND",
+          "citation": "Ibanez B, James S, Agewall S, Antunes MJ, Bucciarelli-Ducci C, Bueno H, Caforio ALP, Crea F, Goudevenos JA, Halvorsen S, Hindricks G, Kastrati A, Lenzen MJ, Prescott E, Roffi M, Valgimigli M, Varenhorst C, Vranckx P, Widimsky P; ESC Scientific Document Group. 2017 ESC Guidelines for the management of acute myocardial infarction in patients presenting with ST-segment elevation: The Task Force for the management of acute myocardial infarction in patients presenting with ST-segment elevation of the European Society of Cardiology (ESC). Eur Heart J. 2018 Jan 7;39(2):119-177. doi: 10.1093/eurheartj/ehx393. No abstract available."
+        },
+        {
+          "pmid": "31181374",
+          "type": "BACKGROUND",
+          "citation": "Puymirat E, Cayla G, Cottin Y, Elbaz M, Henry P, Gerbaud E, Lemesle G, Popovic B, Labeque JN, Roubille F, Andrieu S, Farah B, Schiele F, Ferrieres J, Simon T, Danchin N. Twenty-year trends in profile, management and outcomes of patients with ST-segment elevation myocardial infarction according to use of reperfusion therapy: Data from the FAST-MI program 1995-2015. Am Heart J. 2019 Aug;214:97-106. doi: 10.1016/j.ahj.2019.05.007. Epub 2019 May 16."
+        },
+        {
+          "pmid": "33430516",
+          "type": "BACKGROUND",
+          "citation": "Bouisset F, Ruidavets JB, Dallongeville J, Moitry M, Montaye M, Biasch K, Ferrieres J. Comparison of Short- and Long-Term Prognosis between ST-Elevation and Non-ST-Elevation Myocardial Infarction. J Clin Med. 2021 Jan 7;10(2):180. doi: 10.3390/jcm10020180."
+        },
+        {
+          "pmid": "33319509",
+          "type": "BACKGROUND",
+          "citation": "Jenca D, Melenovsky V, Stehlik J, Stanek V, Kettner J, Kautzner J, Adamkova V, Wohlfahrt P. Heart failure after myocardial infarction: incidence and predictors. ESC Heart Fail. 2021 Feb;8(1):222-237. doi: 10.1002/ehf2.13144. Epub 2020 Dec 14."
+        },
+        {
+          "pmid": "34556322",
+          "type": "BACKGROUND",
+          "citation": "Del Buono MG, Montone RA, Camilli M, Carbone S, Narula J, Lavie CJ, Niccoli G, Crea F. Coronary Microvascular Dysfunction Across the Spectrum of Cardiovascular Diseases: JACC State-of-the-Art Review. J Am Coll Cardiol. 2021 Sep 28;78(13):1352-1371. doi: 10.1016/j.jacc.2021.07.042."
+        },
+        {
+          "pmid": "26364289",
+          "type": "BACKGROUND",
+          "citation": "Niccoli G, Scalone G, Lerman A, Crea F. Coronary microvascular obstruction in acute myocardial infarction. Eur Heart J. 2016 Apr 1;37(13):1024-33. doi: 10.1093/eurheartj/ehv484. Epub 2015 Sep 12."
+        },
+        {
+          "pmid": "31122353",
+          "type": "BACKGROUND",
+          "citation": "Maznyczka AM, Oldroyd KG, McCartney P, McEntegart M, Berry C. The Potential Use of the Index of Microcirculatory Resistance to Guide Stratification of Patients for Adjunctive Therapy in Acute Myocardial Infarction. JACC Cardiovasc Interv. 2019 May 27;12(10):951-966. doi: 10.1016/j.jcin.2019.01.246."
+        },
+        {
+          "pmid": "35576227",
+          "type": "BACKGROUND",
+          "citation": "Canu M, Khouri C, Marliere S, Vautrin E, Piliero N, Ormezzano O, Bertrand B, Bouvaist H, Riou L, Djaileb L, Charlon C, Vanzetto G, Roustit M, Barone-Rochette G. Prognostic significance of severe coronary microvascular dysfunction post-PCI in patients with STEMI: A systematic review and meta-analysis. PLoS One. 2022 May 16;17(5):e0268330. doi: 10.1371/journal.pone.0268330. eCollection 2022."
+        },
+        {
+          "pmid": "34353599",
+          "type": "BACKGROUND",
+          "citation": "Choi KH, Dai N, Li Y, Kim J, Shin D, Lee SH, Joh HS, Kim HK, Jeon KH, Ha SJ, Kim SM, Jang MJ, Park TK, Yang JH, Song YB, Hahn JY, Doh JH, Shin ES, Choi SH, Gwon HC, Lee JM. Functional Coronary Angiography-Derived Index of Microcirculatory Resistance in Patients With ST-Segment Elevation Myocardial Infarction. JACC Cardiovasc Interv. 2021 Aug 9;14(15):1670-1684. doi: 10.1016/j.jcin.2021.05.027."
+        },
+        {
+          "pmid": "35024508",
+          "type": "BACKGROUND",
+          "citation": "Kloner RA, Creech JL, Stone GW, O'Neill WW, Burkhoff D, Spears JR. Update on Cardioprotective Strategies for STEMI: Focus on Supersaturated Oxygen Delivery. JACC Basic Transl Sci. 2021 Oct 27;6(12):1021-1033. doi: 10.1016/j.jacbts.2021.07.011. eCollection 2021 Dec."
+        },
+        {
+          "pmid": "20031745",
+          "type": "BACKGROUND",
+          "citation": "Stone GW, Martin JL, de Boer MJ, Margheri M, Bramucci E, Blankenship JC, Metzger DC, Gibbons RJ, Lindsay BS, Weiner BH, Lansky AJ, Krucoff MW, Fahy M, Boscardin WJ; AMIHOT-II Trial Investigators. Effect of supersaturated oxygen delivery on infarct size after percutaneous coronary intervention in acute myocardial infarction. Circ Cardiovasc Interv. 2009 Oct;2(5):366-75. doi: 10.1161/CIRCINTERVENTIONS.108.840066. Epub 2009 Sep 15."
+        },
+        {
+          "pmid": "17662390",
+          "type": "BACKGROUND",
+          "citation": "O'Neill WW, Martin JL, Dixon SR, Bartorelli AL, Trabattoni D, Oemrawsingh PV, Atsma DE, Chang M, Marquardt W, Oh JK, Krucoff MW, Gibbons RJ, Spears JR; AMIHOT Investigators. Acute Myocardial Infarction with Hyperoxemic Therapy (AMIHOT): a prospective, randomized trial of intracoronary hyperoxemic reperfusion after percutaneous coronary intervention. J Am Coll Cardiol. 2007 Jul 31;50(5):397-405. doi: 10.1016/j.jacc.2007.01.099. Epub 2007 Jul 16."
+        },
+        {
+          "pmid": "25512256",
+          "type": "BACKGROUND",
+          "citation": "Hanson ID, David SW, Dixon SR, Metzger DC, Genereux P, Maehara A, Xu K, Stone GW. \"Optimized\" delivery of intracoronary supersaturated oxygen in acute anterior myocardial infarction: a feasibility and safety study. Catheter Cardiovasc Interv. 2015 Oct;86 Suppl 1:S51-7. doi: 10.1002/ccd.25773. Epub 2015 Apr 2."
+        },
+        {
+          "pmid": "30265429",
+          "type": "BACKGROUND",
+          "citation": "David SW, Khan ZA, Patel NC, Metzger DC, Wood FO, Wasserman HS, Lotfi AS, Hanson ID, Dixon SR, LaLonde TA, Genereux P, Ozan MO, Maehara A, Stone GW. Evaluation of intracoronary hyperoxemic oxygen therapy in acute anterior myocardial infarction: The IC-HOT study. Catheter Cardiovasc Interv. 2019 Apr 1;93(5):882-890. doi: 10.1002/ccd.27905. Epub 2018 Sep 28."
+        },
+        {
+          "pmid": "32649037",
+          "type": "BACKGROUND",
+          "citation": "Chen S, David SW, Khan ZA, Metzger DC, Wasserman HS, Lotfi AS, Hanson ID, Dixon SR, LaLonde TA, Genereux P, Ozan MO, Maehara A, Stone GW. One-year outcomes of supersaturated oxygen therapy in acute anterior myocardial infarction: The IC-HOT study. Catheter Cardiovasc Interv. 2021 May 1;97(6):1120-1126. doi: 10.1002/ccd.29090. Epub 2020 Jul 10."
+        },
+        {
+          "pmid": "14655741",
+          "type": "BACKGROUND",
+          "citation": "Spears JR, Prcevski P, Xu R, Li L, Brereton G, DiCarli M, Spanta A, Crilly R, Lavine S, vander Heide R. Aqueous oxygen attenuation of reperfusion microvascular ischemia in a canine model of myocardial infarction. ASAIO J. 2003 Nov-Dec;49(6):716-20. doi: 10.1097/01.mat.0000094665.72503.3c."
+        },
+        {
+          "pmid": "25444143",
+          "type": "BACKGROUND",
+          "citation": "Cuculi F, De Maria GL, Meier P, Dall'Armellina E, de Caterina AR, Channon KM, Prendergast BD, Choudhury RP, Forfar JC, Kharbanda RK, Banning AP. Impact of microvascular obstruction on the assessment of coronary flow reserve, index of microcirculatory resistance, and fractional flow reserve after ST-segment elevation myocardial infarction. J Am Coll Cardiol. 2014 Nov 4;64(18):1894-904. doi: 10.1016/j.jacc.2014.07.987. Epub 2014 Oct 27."
+        },
+        {
+          "pmid": "34242489",
+          "type": "BACKGROUND",
+          "citation": "Mejia-Renteria H, Lee JM, Choi KH, Lee SH, Wang L, Kakuta T, Koo BK, Escaned J. Coronary microcirculation assessment using functional angiography: Development of a wire-free method applicable to conventional coronary angiograms. Catheter Cardiovasc Interv. 2021 Nov 15;98(6):1027-1037. doi: 10.1002/ccd.29863. Epub 2021 Jul 9."
+        },
+        {
+          "pmid": "27712739",
+          "type": "BACKGROUND",
+          "citation": "Tu S, Westra J, Yang J, von Birgelen C, Ferrara A, Pellicano M, Nef H, Tebaldi M, Murasato Y, Lansky A, Barbato E, van der Heijden LC, Reiber JHC, Holm NR, Wijns W; FAVOR Pilot Trial Study Group. Diagnostic Accuracy of Fast Computational Approaches to Derive Fractional Flow Reserve From Diagnostic Coronary Angiography: The International Multicenter FAVOR Pilot Study. JACC Cardiovasc Interv. 2016 Oct 10;9(19):2024-2035. doi: 10.1016/j.jcin.2016.07.013."
+        },
+        {
+          "pmid": "31394987",
+          "type": "BACKGROUND",
+          "citation": "Mejia-Renteria H, Lauri FM, Lee JM, McInerney A, van der Hoeven NW, de Waard GA, Fernandez-Ortiz A, Macaya C, Knaapen P, van Royen N, Koo BK, Escaned J. Interindividual Variations in the Adenosine-Induced Hemodynamics During Fractional Flow Reserve Evaluation: Implications for the Use of Quantitative Flow Ratio in Assessing Intermediate Coronary Stenoses. J Am Heart Assoc. 2019 Aug 20;8(16):e012906. doi: 10.1161/JAHA.119.012906. Epub 2019 Aug 9."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

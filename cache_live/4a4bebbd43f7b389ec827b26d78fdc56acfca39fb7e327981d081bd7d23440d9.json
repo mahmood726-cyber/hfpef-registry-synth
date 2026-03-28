@@ -1,0 +1,263 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03387215",
+      "orgStudyIdInfo": {
+        "id": "ITI-214-104"
+      },
+      "organization": {
+        "fullName": "Intra-Cellular Therapies, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Randomized, Double-Blind, Placebo-Controlled, Safety and Tolerability Study of ITI-214 in Patients With Heart Failure",
+      "officialTitle": "Randomized, Double-Blind, Placebo-Controlled, Safety and Tolerability Study of Escalating Single Doses of ITI-214 in Patients With Systolic Heart Failure"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-12",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2018-07-10",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-03-16",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-03-16",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-12-18",
+      "studyFirstSubmitQcDate": "2017-12-21",
+      "studyFirstPostDateStruct": {
+        "date": "2018-01-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2020-12-23",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-12-24",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Intra-Cellular Therapies, Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a Phase I/II randomized, double-blind, placebo-controlled, single rising dose study in patients with systolic heart failure to evaluate the safety and tolerability of ITI-214."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure, Systolic"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "SEQUENTIAL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 36,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "10 mg ITI-214",
+          "type": "EXPERIMENTAL",
+          "description": "Single oral dose",
+          "interventionNames": [
+            "Drug: ITI-214"
+          ]
+        },
+        {
+          "label": "30 mg ITI-214",
+          "type": "EXPERIMENTAL",
+          "description": "Single oral dose",
+          "interventionNames": [
+            "Drug: ITI-214"
+          ]
+        },
+        {
+          "label": "75 mg - 150 mg ITI-214",
+          "type": "EXPERIMENTAL",
+          "description": "Single oral dose",
+          "interventionNames": [
+            "Drug: ITI-214"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Single oral dose",
+          "interventionNames": [
+            "Other: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "ITI-214",
+          "description": "Oral",
+          "armGroupLabels": [
+            "10 mg ITI-214",
+            "30 mg ITI-214",
+            "75 mg - 150 mg ITI-214"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Placebo",
+          "description": "Oral",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Echocardiogram with Doppler imaging and hemodynamic monitoring",
+          "description": "Cardiac systolic and diastolic function",
+          "timeFrame": "2 hours"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "12-lead electrocardiogram (ECG)",
+          "description": "Safety and tolerability",
+          "timeFrame": "2 hours"
+        },
+        {
+          "measure": "Hemodynamic monitoring",
+          "description": "Cardiac systolic and diastolic function",
+          "timeFrame": "5-6 hours"
+        },
+        {
+          "measure": "Number of patients with treatment-emergent adverse events",
+          "description": "Safety and tolerability",
+          "timeFrame": "5 days"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Plasma and urine levels of cAMP and cGMP as Exploratory biomarkers",
+          "description": "Pharmacodynamics",
+          "timeFrame": "2 hours"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* NYHA class II-III heart failure\n* Ejection fraction equal to or below 35%\n* On stable heart failure drug treatment\n\nExclusion Criteria:\n\n* Considered medically inappropriate for study participation",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Johns Hopkins University",
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21287",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "Duke Clinical Research Institute",
+          "city": "Durham",
+          "state": "North Carolina",
+          "zip": "27710",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.99403,
+            "lon": -78.89862
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "34461742",
+          "type": "DERIVED",
+          "citation": "Gilotra NA, DeVore AD, Povsic TJ, Hays AG, Hahn VS, Agunbiade TA, DeLong A, Satlin A, Chen R, Davis R, Kass DA. Acute Hemodynamic Effects and Tolerability of Phosphodiesterase-1 Inhibition With ITI-214 in Human Systolic Heart Failure. Circ Heart Fail. 2021 Sep;14(9):e008236. doi: 10.1161/CIRCHEARTFAILURE.120.008236. Epub 2021 Aug 31."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054143",
+          "term": "Heart Failure, Systolic"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000625407",
+          "term": "ITI-214"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,223 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06330103",
+      "orgStudyIdInfo": {
+        "id": "RayongH"
+      },
+      "organization": {
+        "fullName": "Rayong Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Efficacy of AI EF Screening by Using Smartphone Application Recorded PLAX View Cardiac Ultrasound Video Clips",
+      "officialTitle": "Assessing the Efficacy of Artificial Intelligence in Left Ventricular Function Screening Using Parasternal Long Axis View Cardiac Ultrasound Video Clips"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-03",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-05-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-07-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-07-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-03-05",
+      "studyFirstSubmitQcDate": "2024-03-18",
+      "studyFirstPostDateStruct": {
+        "date": "2024-03-26",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-03-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-03-26",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Sittiluck Wongwantanee",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "Rayong Hospital"
+      },
+      "leadSponsor": {
+        "name": "Rayong Hospital",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Chulalongkorn University",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Assessing the Efficacy of Artificial Intelligence in Left Ventricular Function Screening Using Parasternal Long Axis View Cardiac Ultrasound Video Clips\n\nABSTRACT BACKGROUND: Echocardiography serves as a fundamental diagnostic procedure for managing heart failure patients. Data from Thailand's Ministry of Public Health reveals that there is a substantial patient population, with over 100,000 admissions annually due to this condition. Nevertheless, the widespread implementation of echocardiography in this patient group remains challenging, primarily due to limitations in specialist resources, particularly in rural community hospitals. Although modern community hospitals are equipped with ultrasound machines capable of basic cardiac assessment (e.g., parasternal long axis view), the demand for expert cardiologists remains a formidable obstacle to achieving comprehensive diagnostic capabilities. Leveraging the capabilities of Artificial Intelligence (AI) technology, proficient in the accurate prediction and processing of diverse healthcare data types, offers a promising for addressing this prevailing issue. This study is designed to assess the effectiveness of AI in evaluating cardiac performance from parasternal long axis view ultrasound video clips obtained via the smartphone application.\n\nOBJECTIVES: To evaluate the effectiveness of artificial intelligence in screening cardiac function from parasternal long axis view cardiac ultrasound video clips obtained through the smartphone application.",
+      "detailedDescription": "METHODS: The investigators built the smartphone application to collect parasternal long axis view video clips and used artificial intelligence \"Easy EF\" to evaluate cardiac function. All samples that were evaluated for LVEF by certified cardiologists, 70% of all clips were used to train AI, while the remaining 30% of clips were used to test if AI could process the results correctly. Artificial intelligence aims to classify cardiac function into three groups: Reduced EF, Mildly Reduced EF, and Preserved LV."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure",
+        "Heart Failure With Reduced Ejection Fraction",
+        "Cardiac Failure",
+        "Echocardiography",
+        "Artificial Intelligence"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "923 samples that were evaluated for LVEF by certified cardiologists, 739 clips were used to train AI, while the remaining 184 clips were used to test if AI could process the results correctly. Artificial intelligence aims to classify cardiac function into three groups: Reduced EF, Mildly Reduced EF, and Preserved LV.",
+        "primaryPurpose": "DIAGNOSTIC",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 923,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "LV function from cardiologist",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Certified Cardiologist will access and interpreted LV function by used traditional Echocardiography then separate result into three group Preserved LV ejection fraction(EF\\>50%), mildly reduce ejection fraction(EF40-49%), reduced LV ejection fraction(EF\\<40%)",
+          "interventionNames": [
+            "Other: Easy EF"
+          ]
+        },
+        {
+          "label": "LV function By artificial intelligence",
+          "type": "EXPERIMENTAL",
+          "description": "AI will access VDO clips in only parasternal long axis view and separate into three group Preserved LV ejection fraction(EF\\>50%), mildly reduce ejection fraction(EF40-49%), reduced LV ejection fraction(EF\\<40%)",
+          "interventionNames": [
+            "Other: Easy EF"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Easy EF",
+          "description": "AI was integrated into the application smartphone and used smartphone camera to recorded shot VDO clip of heart ultrasound in parasternal long axis view and returned cardiac function result to user.",
+          "armGroupLabels": [
+            "LV function By artificial intelligence",
+            "LV function from cardiologist"
+          ],
+          "otherNames": [
+            "artificial intelligence",
+            "mobile smart phone application"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "efficiency of AI in screening left ventricular cardiac function by use smartphone application",
+          "description": "percentage of correct LV function clip that interpreted by AI in each LV function group(Preserved LV, Mildly reduced LV, Reduced LV function) and overall compare with result from certified cardiologist",
+          "timeFrame": "3 month"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Shot 5 second VDO clip of Parasternal long axis heart ultrasound recorded by smartphone Application \"Easy EF\" without patient identification with result of Ejection fraction that performed by certify cardiologist approved result\n\nExclusion Criteria:\n\n* Incomplete VDO clip (too much shaking, too shot recording)\n* Lighting was inappropriate\n* Inappropriate ultrasound framing\n* arrhythmia (atrial fibrillation)",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Rayong Hospital",
+          "city": "Rayong",
+          "zip": "066",
+          "country": "Thailand",
+          "geoPoint": {
+            "lat": 12.68095,
+            "lon": 101.25798
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "result of AI screening",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP"
+      ],
+      "timeFrame": "3 month",
+      "accessCriteria": "contact rayong hospital"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001185",
+          "term": "Artificial Intelligence"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000465",
+          "term": "Algorithms"
+        },
+        {
+          "id": "D055641",
+          "term": "Mathematical Concepts"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,354 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06071026",
+      "orgStudyIdInfo": {
+        "id": "NIMAO/2022-2/SDB-01"
+      },
+      "organization": {
+        "fullName": "Centre Hospitalier Universitaire de Nīmes",
+        "class": "OTHER"
+      },
+      "briefTitle": "Hemodynamic Effects of Variations in Net Ultrafiltration Rate During Continuous Renal Replacement Therapy.",
+      "officialTitle": "Evaluation of the Hemodynamic Effect of Variations in Net Ultrafiltration Rate During Continuous Renal Replacement Therapy Sessions for Acute Renal Failure in Intensive Care Patients. Multiple N-of-1 Randomised Bi-centric Controlled Trial.",
+      "acronym": "NEPTUNE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-07",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-10-06",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-07-08",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-07-08",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-09-19",
+      "studyFirstSubmitQcDate": "2023-10-02",
+      "studyFirstPostDateStruct": {
+        "date": "2023-10-06",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-11-14",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-11-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Centre Hospitalier Universitaire de Nīmes",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Net ultra filtration (NUF) is one of the most important parameters during renal replacement therapy (RRT) whose role is to control fluid balance by water removal.\n\nTo our knowledge, there are no prospective studies or guidelines about the setting of this parameter.\n\nIn the NEPTUNE study, we aim to compare the hemodynamic effect of three NUF rates during RRT: 1 ml/kg/h, 2 ml/kg/h and 3 ml/kg/h.\n\nThe research hypothesis is that one of the three flow rates evaluated induces the fewest hemodynamic instabilities related to RRT, while guaranteeing the best possible fluid balance.",
+      "detailedDescription": "Renal renal replacement therapy (RRT) for severe acute kidney injury is one of the most widely used life-support techniques in intensive care. One of its main functions is to maintain the water balance in oligo-anuric patients by means of net ultrafiltration (NUF), defined as the volume of water removed from the patient by the RRT per unit time and indexed to the patient's weight.\n\nSurprisingly, the setting of this parameter, which is one of the most important, there are no guidelines. If net ultrafiltration is too low, it may prolong RRT dependency and length of stay in the ICU, with all the associated care-related complications, and increase mortality. If net ultrafiltration is too high, it may transiently induce hypovolemia, leading to hemodynamic instability related to renal replacement therapy (HIRRT).\n\nA recent survey of French practices shows that the average NUF flow rate used in intensive care units in France is 119 ± 77 ml/h, and the median flow rate is 100 ml/h \\[min-max 20-300\\]; in this study, NUF was not indexed by weight, but for a patient with an average weight of 75 kg, corresponding to an average NUF of 1.6 ± 1 ml/kg/h.\n\nIn the NEPTUNE study, the investigators aim to compare the hemodynamic effect of three net ultrafiltration rates during RRT: 1 ml/kg/h, 2 ml/kg/h and 3 ml/kg/h. These three flow rates are within the range of those usually used in clinical practice.The research hypothesis is that one of the three flow rates evaluated induces the fewest hemodynamic instabilities related to RRT, while guaranteeing the best possible fluid balance."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Fluid Overload",
+        "Hemodynamic Instability"
+      ],
+      "keywords": [
+        "fluid overload",
+        "renal replacement therapy",
+        "hemodynamic instability",
+        "acute kidney injury"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "interventionModelDescription": "Multiple N of one trial",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 39,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "1 ml/kg/h",
+          "type": "EXPERIMENTAL",
+          "description": "Net ultra filtration setting: 1 ml/kg/h",
+          "interventionNames": [
+            "Device: Net Ultra Filtration Rate"
+          ]
+        },
+        {
+          "label": "2 ml/kg/h",
+          "type": "EXPERIMENTAL",
+          "description": "Net ultra filtration setting: 2 ml/kg/h",
+          "interventionNames": [
+            "Device: Net Ultra Filtration Rate"
+          ]
+        },
+        {
+          "label": "3 ml/kg/h",
+          "type": "EXPERIMENTAL",
+          "description": "Net ultra filtration setting: 3 ml/kg/h",
+          "interventionNames": [
+            "Device: Net Ultra Filtration Rate"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Net Ultra Filtration Rate",
+          "description": "The net ultra filtration rate is modified every 6 hours accordingly to randomisation",
+          "armGroupLabels": [
+            "1 ml/kg/h",
+            "2 ml/kg/h",
+            "3 ml/kg/h"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Occurrence of HIRRT",
+          "description": "Occurrence of Hemodynamic Instability related to Renal Replacement Therapy",
+          "timeFrame": "6 hours"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of HIRRT",
+          "description": "Number of HIRRT episodes in 6-hour sessions, i.e. number of hypotensive episodes during the 6-hour UFN cycle with mean arterial pressure \\< 65 mmHg \\[n\\]",
+          "timeFrame": "6 hours"
+        },
+        {
+          "measure": "Water depletion",
+          "description": "Total volume of water depleted during 6-hour session \\[ml/kg/6h\\]",
+          "timeFrame": "6 hours"
+        },
+        {
+          "measure": "Fluid intake",
+          "description": "The volume of all fluid intake (resuscitative fluids, transfusions of blood derivatives) during the 6-hour session \\[ml/kg/6h\\].",
+          "timeFrame": "6 hours"
+        },
+        {
+          "measure": "Time before HIRRT in each session",
+          "description": "Time in hours between start of session and onset of hemodynamic instability (h)",
+          "timeFrame": "6 hours"
+        },
+        {
+          "measure": "Time between start of RRT and HIRRT",
+          "description": "Time in hours between start of RRT and onset of hemodynamic instability (h)",
+          "timeFrame": "28 days"
+        },
+        {
+          "measure": "Atrial fibrillation",
+          "description": "Proportion of sessions with onset of atrial fibrillation (%)",
+          "timeFrame": "28 days"
+        },
+        {
+          "measure": "Variation in norepinephrine",
+          "description": "\\- variation between h0 and h6 in norepinephrine dosage \\[µg/kg/min\\].",
+          "timeFrame": "6 hours"
+        },
+        {
+          "measure": "Variations in central venous pressure",
+          "description": "Variations between h0 and h6 in central venous pressure (CVP) \\[mmHg\\].",
+          "timeFrame": "6 hours"
+        },
+        {
+          "measure": "Variations in heart rate",
+          "description": "Variations between h0 and h6 in heart rate \\[bpm\\].",
+          "timeFrame": "6 hours"
+        },
+        {
+          "measure": "Variations in arterial pressure",
+          "description": "Variations between h0 and h6 in systolic, diastolic and mean arterial pressure (MAP) \\[mmHg\\].",
+          "timeFrame": "6 hours"
+        },
+        {
+          "measure": "Slope of arterial pressure",
+          "description": "Slope of variation in systolic, diastolic and mean arterial pressure between h0 and h6 obtained with repeated hourly measurements",
+          "timeFrame": "6 hours"
+        },
+        {
+          "measure": "Frequency of episodes of arterial hypertension",
+          "description": "Frequency of episodes between h0 and h6 of arterial hypertension defined by a systolic blood pressure greater than 180 mmHg \\[n\\].",
+          "timeFrame": "6 hours"
+        },
+        {
+          "measure": "Variations in arterial lactate levels",
+          "description": "Variations between h0 and h6 in arterial lactate levels \\[mmol/l\\].",
+          "timeFrame": "6 hours"
+        },
+        {
+          "measure": "Variations in central venous oxygen saturation (SvcO2)",
+          "description": "Variations between h0 and h6 in central venous oxygen saturation (SvcO2) measured in the superior vena cava \\[%\\].",
+          "timeFrame": "6 hours"
+        },
+        {
+          "measure": "Variations in hematocrit",
+          "description": "Variations between h0 and h6 in hematocrit \\[%\\].",
+          "timeFrame": "6 hours"
+        },
+        {
+          "measure": "Variations in albuminemia",
+          "description": "Variations between h0 and h6 in albuminemia \\[g/L\\].",
+          "timeFrame": "6 hours"
+        },
+        {
+          "measure": "Variations in natremia",
+          "description": "Variations in natremia \\[mmol/L\\] between h0 and h6",
+          "timeFrame": "6 hours"
+        },
+        {
+          "measure": "Frequency of mottling",
+          "description": "Frequency of clinical signs/symptoms potentially associated with per-dialytic hypotension during the session: mottling. \\[n\\]",
+          "timeFrame": "6 hours"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients hospitalised in the intensive care unit of one of the two participating centres\n* Patients with Kidney Disease: Improving Global Outcomes 3 (KDIGO3) acute kidney injury (AKI) requiring a continuous RRT during their stay in the intensive care unit, regardless of the aetiology of the AKI\n* Need to prescribe water loss by net ultrafiltration (NUF), defined by at least one of the following sub-criteria:\n\n  1. weight gain ≥ 1 kg relative to entry weight\n  2. oligo-anuria ≥ 24 hours\n  3. clinical impact of fluid overload as judged by the clinician: acute lung oedema clinical or at CT-scan, difficulty of weaning from mechanical ventilation.\n* Hemodynamic stability in the 2 hours preceding the start of NUF, defined by all of the following sub-criteria:\n\n  1. absence of vasopressors (noradrenaline) or stability or reduction in their dosage\n  2. no need for resuscitative fluids as judged by the clinician\n* Patient or his/her trusted support person/legal representative/family member having given free and informed consent, and having signed the consent form or patient included in an emergency situation.\n* Patient affiliated to or benefiting from a health insurance scheme.\n\nExclusion Criteria:\n\n* Patient moribund, with life expectancy too low to benefit from treatment, or with decision to discontinue treatment\n* Patient participating in an another interventional study\n* Patient in exclusion period determined by another study\n* Patient under court protection or guardianship\n* Patient/trusted person/legal representative/family member for whom it is impossible to give informed information.\n* Pregnant, parturient or breast-feeding patient.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Saber D. BARBAR, MD, PhD",
+          "affiliation": "Centre Hospitalier Universitaire de Nīmes",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Centre Hospitalier Universitaire de Nîmes",
+          "city": "Nîmes",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.83665,
+            "lon": 4.35788
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "26162677",
+          "type": "BACKGROUND",
+          "citation": "Hoste EA, Bagshaw SM, Bellomo R, Cely CM, Colman R, Cruz DN, Edipidis K, Forni LG, Gomersall CD, Govil D, Honore PM, Joannes-Boyau O, Joannidis M, Korhonen AM, Lavrentieva A, Mehta RL, Palevsky P, Roessler E, Ronco C, Uchino S, Vazquez JA, Vidal Andrade E, Webb S, Kellum JA. Epidemiology of acute kidney injury in critically ill patients: the multinational AKI-EPI study. Intensive Care Med. 2015 Aug;41(8):1411-23. doi: 10.1007/s00134-015-3934-7. Epub 2015 Jul 11."
+        },
+        {
+          "pmid": "30244678",
+          "type": "BACKGROUND",
+          "citation": "Murugan R, Balakumar V, Kerti SJ, Priyanka P, Chang CH, Clermont G, Bellomo R, Palevsky PM, Kellum JA. Net ultrafiltration intensity and mortality in critically ill patients with fluid overload. Crit Care. 2018 Sep 24;22(1):223. doi: 10.1186/s13054-018-2163-1."
+        },
+        {
+          "pmid": "28666082",
+          "type": "BACKGROUND",
+          "citation": "Sharma S, Waikar SS. Intradialytic hypotension in acute kidney injury requiring renal replacement therapy. Semin Dial. 2017 Nov;30(6):553-558. doi: 10.1111/sdi.12630. Epub 2017 Jun 30."
+        },
+        {
+          "pmid": "34289471",
+          "type": "BACKGROUND",
+          "citation": "Murugan R, Kerti SJ, Chang CH, Gallagher M, Neto AS, Clermont G, Ronco C, Palevsky PM, Kellum JA, Bellomo R. Association between Net Ultrafiltration Rate and Renal Recovery among Critically Ill Adults with Acute Kidney Injury Receiving Continuous Renal Replacement Therapy: An Observational Cohort Study. Blood Purif. 2022;51(5):397-409. doi: 10.1159/000517281. Epub 2021 Jul 21."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004487",
+          "term": "Edema"
+        },
+        {
+          "id": "D058186",
+          "term": "Acute Kidney Injury"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D051437",
+          "term": "Renal Insufficiency"
+        },
+        {
+          "id": "D007674",
+          "term": "Kidney Diseases"
+        },
+        {
+          "id": "D014570",
+          "term": "Urologic Diseases"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D052801",
+          "term": "Male Urogenital Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

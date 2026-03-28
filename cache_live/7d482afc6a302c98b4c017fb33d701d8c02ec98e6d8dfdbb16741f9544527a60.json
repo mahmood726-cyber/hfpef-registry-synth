@@ -1,0 +1,583 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04860011",
+      "orgStudyIdInfo": {
+        "id": "GN19CA407"
+      },
+      "organization": {
+        "fullName": "NHS Greater Glasgow and Clyde",
+        "class": "OTHER"
+      },
+      "briefTitle": "DAPAgliflozin Versus Thiazide Diuretic in Patients With Heart Failure and Diuretic RESISTance",
+      "officialTitle": "Sodium Glucose Cotransporter-2 Inhibitor DAPAgliflozin Versus Thiazide Diuretic in Patients With Heart Failure and Diuretic RESISTance: a Multi-centre, Open-label, Randomised Controlled Clinical Trial",
+      "acronym": "DAPARESIST"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-04",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-04-27",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-10-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-04-03",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-04-06",
+      "studyFirstSubmitQcDate": "2021-04-22",
+      "studyFirstPostDateStruct": {
+        "date": "2021-04-26",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-04-06",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-04-10",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "NHS Greater Glasgow and Clyde",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "University of Glasgow",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "To assess the effect of dapagliflozin compared with metolazone, added to furosemide, on diuresis and decongestion in hospitalised heart failure patients with diuretic resistance, and renal impairment. The primary analysis will be in patients with HFrEF but patients with HFpEF will also be recruited in an ancillary study and included in supplementary analyses.",
+      "detailedDescription": "The investigators aim to assess whether SGLT2i (in addition to IV loop diuretic) results in greater diuresis and decongestion compared to the standard practice of treatment with the thiazide-like diuretic metolazone (in addition to IV loop diuretic) in patients hospitalised for heart failure, with both renal impairment and diuretic resistance. Dapagliflozin has received National Institute for Health and Care Excellence (NICE) approval as an add-on option to optimised standard care in patients with HFrEF. The investigators primary focus is patients with HFrEF as it is in ambulatory patients with this phenotype that SGLT2 inhibition has already been shown to reduce morbidity and mortality (DAPA-HF).However, the investigators will also enrol patients with HFpEF in an ancillary study as they present the same management challenges as patients with HFrEF and the study hypothesis and aims are as clinically relevant in HFpEF as in HFrEF. HFpEF patients in the ancillary study will undergo the same protocol as the main study. One recent trial demonstrating benefit of a SGLT1/2 inhibitor, the Effect of Sotagliflozin on Cardiovascular Events in Patients With Type 2 Diabetes Post Worsening Heart Failure (SOLOIST-WHF), included patients with both HFrEF and HFpEF hospitalised with worsening heart failure (NCT03521934). This trial demonstrated similar efficacy of sotagliflozin on cardiovascular death and worsening heart failure in patients with a LVEF \\<50% and ≥50%.There are other large trials currently underway specifically with SGLT2i in ambulatory patients with HFpEF underway. These trials are either fully recruited, or close to full enrolment. Both already have extensive follow-up of several thousand patients and are due to complete follow up in the next 1-2 years (EMPEROR-Preserved and DELIVER). Therefore, the findings will be contemporaneous and complementary to the results of those trials."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Prospective, randomised, active-comparator, multi-centre, open label study.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 61,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "SGLT2i",
+          "type": "EXPERIMENTAL",
+          "description": "Sodium-glucose Co-transporter-2 inhibitors",
+          "interventionNames": [
+            "Drug: Dapagliflozin 10 MG Oral Tablet"
+          ]
+        },
+        {
+          "label": "Thiazide",
+          "type": "EXPERIMENTAL",
+          "description": "Thiazide or thiazide like diuretic",
+          "interventionNames": [
+            "Drug: Metolazone Tablets"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Dapagliflozin 10 MG Oral Tablet",
+          "description": "Dapagliflozin 10mg once daily",
+          "armGroupLabels": [
+            "SGLT2i"
+          ],
+          "otherNames": [
+            "dapagliflozin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Metolazone Tablets",
+          "description": "Metolazone 5MG or 10MG once daily",
+          "armGroupLabels": [
+            "Thiazide"
+          ],
+          "otherNames": [
+            "metolazone"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Diuretic effect",
+          "description": "Diuretic effect, as assessed by mean change in weight",
+          "timeFrame": "from randomisation to 48 hours"
+        },
+        {
+          "measure": "Diuretic effect",
+          "description": "Diuretic effect, as assessed by mean change in weight",
+          "timeFrame": "from randomisation to 72 hours"
+        },
+        {
+          "measure": "Diuretic effect",
+          "description": "Diuretic effect, as assessed by mean change in weight",
+          "timeFrame": "from randomisation to 96 hours"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in congestion measured by ultrasound",
+          "description": "Change in congestion, assessed using lung ultrasound as a measure of the sum of B-lines across 8 zones",
+          "timeFrame": "from randomisation to 48 hours"
+        },
+        {
+          "measure": "Change in congestion measured by ultrasound",
+          "description": "Change in congestion, assessed using lung ultrasound as a measure of the sum of B-lines across 8 zones",
+          "timeFrame": "from randomisation to 72 hours"
+        },
+        {
+          "measure": "Change in congestion measured by ultrasound",
+          "description": "Change in congestion, assessed using lung ultrasound as a measure of the sum of B-lines across 8 zones",
+          "timeFrame": "from randomisation to 96 hours"
+        },
+        {
+          "measure": "Loop diuretic efficiency",
+          "description": "Loop diuretic efficiency will be defined as weight loss in kilograms divided by furosemide equivalents in milligrams.",
+          "timeFrame": "from randomisation to 48 hours"
+        },
+        {
+          "measure": "Loop diuretic efficiency",
+          "description": "Loop diuretic efficiency will be defined as weight loss in kilograms divided by furosemide equivalents in milligrams.",
+          "timeFrame": "from randomisation to 72 hours"
+        },
+        {
+          "measure": "Loop diuretic efficiency",
+          "description": "Loop diuretic efficiency will be defined as weight loss in kilograms divided by furosemide equivalents in milligrams.",
+          "timeFrame": "from randomisation to 96 hours"
+        },
+        {
+          "measure": "Change in ADVOR clinical congestion score",
+          "description": "Change in ADVOR clinical congestion score will be measured on a scale of 0 to 10 with 0 being the least congested",
+          "timeFrame": "from randomisation to 48 hours"
+        },
+        {
+          "measure": "Change in ADVOR clinical congestion score",
+          "description": "Change in ADVOR clinical congestion score will be measured on a scale of 0 to 10 with 0 being the least congested",
+          "timeFrame": "from randomisation to 72 hours"
+        },
+        {
+          "measure": "Change in ADVOR clinical congestion score",
+          "description": "Change in ADVOR clinical congestion score will be measured on a scale of 0 to 10 with 0 being the least congested",
+          "timeFrame": "from randomisation to 96 hours"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Change in urinary spot sodium",
+          "description": "change in urinary spot urine measured in mmol/L",
+          "timeFrame": "from randomisation to 48 hours"
+        },
+        {
+          "measure": "Change in urinary spot sodium",
+          "description": "change in urinary spot urine measured in mmol/L",
+          "timeFrame": "from randomisation to 72 hours"
+        },
+        {
+          "measure": "Change in urinary spot sodium",
+          "description": "change in urinary spot urine measured in mmol/L",
+          "timeFrame": "from randomisation to 96 hours"
+        },
+        {
+          "measure": "Change in NT-proBNP",
+          "description": "measured in pg/ml",
+          "timeFrame": "from randomisation to 48 hours"
+        },
+        {
+          "measure": "Change in NT-proBNP",
+          "description": "measured in pg/ml",
+          "timeFrame": "from randomisation to 72 hours"
+        },
+        {
+          "measure": "Change in NT-proBNP",
+          "description": "measured in pg/ml",
+          "timeFrame": "from randomisation to 96 hours"
+        },
+        {
+          "measure": "Change in serum uric acid",
+          "description": "measured in umol/L",
+          "timeFrame": "from randomisation to 48 hours"
+        },
+        {
+          "measure": "Change in serum uric acid",
+          "description": "measured in umol/L",
+          "timeFrame": "from randomisation to 72 hours"
+        },
+        {
+          "measure": "Change in serum uric acid",
+          "description": "measured in umol/L",
+          "timeFrame": "from randomisation to 96 hours"
+        },
+        {
+          "measure": "Serum uric acid ≥360 μmol/L",
+          "description": "measured in umol/L",
+          "timeFrame": "from randomisation to 48 hours"
+        },
+        {
+          "measure": "Serum uric acid ≥360 μmol/L",
+          "description": "measured in umol/L",
+          "timeFrame": "from randomisation to 72 hours"
+        },
+        {
+          "measure": "Serum uric acid ≥360 μmol/L",
+          "description": "measured in umol/L",
+          "timeFrame": "from randomisation to 96 hours"
+        },
+        {
+          "measure": "Total net fluid loss",
+          "description": "difference between fluid intake and output measured in ml",
+          "timeFrame": "from randomisation to 48 hours"
+        },
+        {
+          "measure": "Total net fluid loss",
+          "description": "difference between fluid intake and output measured in ml",
+          "timeFrame": "from randomisation to 72 hours"
+        },
+        {
+          "measure": "Total net fluid loss",
+          "description": "difference between fluid intake and output measured in ml",
+          "timeFrame": "from randomisation to 96 hours"
+        },
+        {
+          "measure": "Change in dyspnoea",
+          "description": "Change in dyspnoea (breathlessness) measured using a 7 point Likert scale (1= strong positive to 7 = strong negative) and a 11-point Dyspnoea Numerical Rating scale (0= not breathless at all to 10=breathlessness as bad as you can imagine)",
+          "timeFrame": "from randomisation to 48 hours"
+        },
+        {
+          "measure": "Change in dyspnoea",
+          "description": "Change in dyspnoea (breathlessness) measured using a 7 point Likert scale (1= strong positive to 7 = strong negative) and a 11-point Dyspnoea Numerical Rating scale (0= not breathless at all to 10=breathlessness as bad as you can imagine)",
+          "timeFrame": "from randomisation to 72 hours"
+        },
+        {
+          "measure": "Change in dyspnoea",
+          "description": "Change in dyspnoea (breathlessness) measured using a 7 point Likert scale (1= strong positive to 7 = strong negative) and a 11-point Dyspnoea Numerical Rating scale (0= not breathless at all to 10=breathlessness as bad as you can imagine)",
+          "timeFrame": "from randomisation to 96 hours"
+        },
+        {
+          "measure": "Patient global assessment",
+          "description": "Change in patients perception of their own health measured using a 7 point Likert scale (1= strong positive to 7 = strong negative)",
+          "timeFrame": "from randomisation to 48 hours"
+        },
+        {
+          "measure": "Patient global assessment",
+          "description": "Change in patients perception of their own health measured using a 7 point Likert scale (1= strong positive to 7 = strong negative)",
+          "timeFrame": "from randomisation to 72 hours"
+        },
+        {
+          "measure": "Patient global assessment",
+          "description": "Change in patients perception of their own health measured using a 7 point Likert scale (1= strong positive to 7 = strong negative)",
+          "timeFrame": "from randomisation to 96 hours"
+        },
+        {
+          "measure": "change in serum glucose",
+          "description": "measured in mmol/L",
+          "timeFrame": "from randomisation to 72 hours"
+        },
+        {
+          "measure": "change in serum glucose",
+          "description": "measured in mmol/L",
+          "timeFrame": "from randomisation to 48 hours"
+        },
+        {
+          "measure": "change in serum glucose",
+          "description": "measured in mmol/L",
+          "timeFrame": "from randomisation to 96 hours"
+        },
+        {
+          "measure": "Time from randomisation to discharge",
+          "description": "Time from randomisation to discharge measured in hours",
+          "timeFrame": "through study completion, an average of 5 days"
+        },
+        {
+          "measure": "In-hospital mortality",
+          "description": "Number of patients who died in hospital",
+          "timeFrame": "through study completion, an average of 5 days"
+        },
+        {
+          "measure": "Rate of heart failure re-hospitalisation or death",
+          "description": "Number of patients who are re-admitted to hospital after initial discharge",
+          "timeFrame": "through study completion (on average 5 days) and up to 90 days"
+        },
+        {
+          "measure": "Change in serum creatinine",
+          "description": "measured in umol/L",
+          "timeFrame": "from randomisation to 48 hours"
+        },
+        {
+          "measure": "Change in serum creatinine",
+          "description": "measured in umol/L",
+          "timeFrame": "from randomisation to 72 hours"
+        },
+        {
+          "measure": "Change in serum creatinine",
+          "description": "measured in umol/L",
+          "timeFrame": "from randomisation to 96 hours"
+        },
+        {
+          "measure": "increase in serum creatinine concentration",
+          "description": "measured in umol/L",
+          "timeFrame": "from randomisation to 48 hours"
+        },
+        {
+          "measure": "increase in serum creatinine concentration",
+          "description": "measured in umol/L",
+          "timeFrame": "from randomisation to 72 hours"
+        },
+        {
+          "measure": "increase in serum creatinine concentration",
+          "description": "measured in umol/L",
+          "timeFrame": "from randomisation to 96 hours"
+        },
+        {
+          "measure": "change in blood urea (nitrogen)",
+          "description": "measured in mmol/L",
+          "timeFrame": "from randomisation to 48 hours"
+        },
+        {
+          "measure": "change in blood urea (nitrogen)",
+          "description": "measured in mmol/L",
+          "timeFrame": "from randomisation to 72 hours"
+        },
+        {
+          "measure": "change in blood urea (nitrogen)",
+          "description": "measured in mmol/L",
+          "timeFrame": "from randomisation to 96 hours"
+        },
+        {
+          "measure": "change in serum potassium",
+          "description": "measured in mmol/L",
+          "timeFrame": "from randomisation to 48 hours"
+        },
+        {
+          "measure": "change in serum potassium",
+          "description": "measured in mmol/L",
+          "timeFrame": "from randomisation to 72 hours"
+        },
+        {
+          "measure": "change in serum potassium",
+          "description": "measured in mmol/L",
+          "timeFrame": "from randomisation to 96 hours"
+        },
+        {
+          "measure": "Serum potassium <3.5 mmol/L and ≥5.5 mmol/L",
+          "description": "measured in mmol/L",
+          "timeFrame": "from randomisation to 48 hours"
+        },
+        {
+          "measure": "Serum potassium <3.5 mmol/L and ≥5.5 mmol/L",
+          "description": "measured in mmol/L",
+          "timeFrame": "from randomisation to 72 hours"
+        },
+        {
+          "measure": "Serum potassium <3.5 mmol/L and ≥5.5 mmol/L",
+          "description": "measured in mmol/L",
+          "timeFrame": "from randomisation to 96 hours"
+        },
+        {
+          "measure": "change in serum sodium",
+          "description": "measured in mmol/L",
+          "timeFrame": "from randomisation to 48 hours"
+        },
+        {
+          "measure": "change in serum sodium",
+          "description": "measured in mmol/L",
+          "timeFrame": "from randomisation to 72 hours"
+        },
+        {
+          "measure": "change in serum sodium",
+          "description": "measured in mmol/L",
+          "timeFrame": "from randomisation to 96 hours"
+        },
+        {
+          "measure": "Serum sodium concentration <125 mmol/L",
+          "description": "measured in mmol/L",
+          "timeFrame": "from randomisation to 48 hours"
+        },
+        {
+          "measure": "Serum sodium concentration <125 mmol/L",
+          "description": "measured in mmol/L",
+          "timeFrame": "from randomisation to 72 hours"
+        },
+        {
+          "measure": "Serum sodium concentration <125 mmol/L",
+          "description": "measured in mmol/L",
+          "timeFrame": "from randomisation to 96 hours"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n\\- Male or female ≥18 years of age\n\n* Informed consent\n* Primary reason for admission to hospital is worsening HF meeting the European Society of Cardiology (ESC) definition.14\n* Diuretic Resistance as defined as: Lack of weight loss or absence of a negative fluid balance (as defined above) over the preceding 24 hours despite treatment with high dose IV loop diuretic (equivalent of ≥160mg IV furosemide in 24 hours)\n* Plasma BNP ≥ 100 pg/mL or plasma NT-proBNP ≥ 400 pg/mL in current hospital admission\n* eGFR \\<60 ml/min/1.73m2 required within 24 hours before randomisation\n* Ongoing clinical evidence of congestion: pitting peripheral oedema and/or ascites and/or elevated jugular venous pressure, and/or radiographic or ultrasonic evidence of pulmonary congestion\n* Expected hospital length of stay \\>3 days\n\nExclusion Criteria:\n\n* Inability to give informed consent e.g. due to significant cognitive impairment\n\n  * Intravascular volume depletion based on investigator's clinical assessment\n  * eGFR \\<20 mL/min/1.73 m2\n  * Alternative explanation for worsening renal function such as obstructive nephropathy, contrast induced nephropathy, or acute tubular necrosis\n  * Enrollment in another randomised clinical trial involving medical or device-based interventions (co-enrolment in observational studies is permitted)\n  * Women of child-bearing potential\n  * History of allergy to SGLT2i or thiazide or thiazide-like diuretics or any of the excipients\n  * Hypertrophic obstructive cardiomyopathy (HOCM) or significant valvular disease in whom surgical or percutaneous repair or replacement may be considered.\n  * SGLT2i, thiazide or thiazide-like diuretics administration in the previous 48 hours prior to randomisation\n  * Active genital tract infections\n  * Anyone who, in the investigators' opinion, is not suitable to participate in the trial for other reasons",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "John McMurray, MBChB",
+          "affiliation": "University of Glasgow and NHS Greater Glasgow and Clyde",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Glasgow Royal Infirmary",
+          "city": "Glasgow",
+          "state": "Strathclyde",
+          "zip": "G4 0SF",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 55.86515,
+            "lon": -4.25763
+          }
+        },
+        {
+          "facility": "Queen Elizabeth University Hospital",
+          "city": "Glasgow",
+          "state": "Strathclyde",
+          "zip": "G51 4TF",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 55.86515,
+            "lon": -4.25763
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "37210742",
+          "type": "DERIVED",
+          "citation": "Yeoh SE, Osmanska J, Petrie MC, Brooksbank KJM, Clark AL, Docherty KF, Foley PWX, Guha K, Halliday CA, Jhund PS, Kalra PR, McKinley G, Lang NN, Lee MMY, McConnachie A, McDermott JJ, Platz E, Sartipy P, Seed A, Stanley B, Weir RAP, Welsh P, McMurray JJV, Campbell RT. Dapagliflozin vs. metolazone in heart failure resistant to loop diuretics. Eur Heart J. 2023 Aug 14;44(31):2966-2977. doi: 10.1093/eurheartj/ehad341."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "To be discussed and agreed at TSC"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C529054",
+          "term": "dapagliflozin"
+        },
+        {
+          "id": "D008788",
+          "term": "Metolazone"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013449",
+          "term": "Sulfonamides"
+        },
+        {
+          "id": "D000577",
+          "term": "Amides"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D013450",
+          "term": "Sulfones"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D052999",
+          "term": "Quinazolinones"
+        },
+        {
+          "id": "D011799",
+          "term": "Quinazolines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,789 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04912518",
+      "orgStudyIdInfo": {
+        "id": "COOPERATION"
+      },
+      "organization": {
+        "fullName": "Harbin Medical University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Cardioprotective Effect of Dexmedetomidine in Patients With ST-segment Elevation Myocardial Infarction",
+      "officialTitle": "Cardioprotective Effect of Dexmedetomidine in Patients With ST-segment Elevation Myocardial Infarction: a Double-Blind, Multicenter, Randomized, Placebo-Controlled Clinical Trial",
+      "acronym": "COOPERATION"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-10",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-05-27",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-05-12",
+      "studyFirstSubmitQcDate": "2021-06-02",
+      "studyFirstPostDateStruct": {
+        "date": "2021-06-03",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-10-11",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-10-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Yu Bo",
+        "investigatorTitle": "Director",
+        "investigatorAffiliation": "Harbin Medical University"
+      },
+      "leadSponsor": {
+        "name": "Harbin Medical University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Yangtze River Pharmaceutical Group Co., Ltd.",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a double-blind, multicenter, randomized, placebo-controlled clinical trial. It is planned to enroll patients admitted with anterior ST-segment elevation myocardial infarction (STEMI) within 6h of symptom onset and undergo primary percutaneous coronary intervention (pPCI). Patients who meet the inclusion criteria and without exclusion criteria were randomized 1:1 into the dexmedetomidine (DEX) group or the placebo (saline) group after signing the informed consent. In the DEX group, intravenous injection of DEX was started immediately after enrollment, covering the entire PCI operation, and the administration was stopped at the end of the pPCI. The administration of saline was the same as those in the DEX group. The primary endpoint was the myocardial infarct size (MIS) as assessed by cardiac magnetic resonance imaging (CMR) at 5±2 days post-STEMI. Based on a superiority design and assuming an 20.0% relative infarct size reduction (from 26.0% to 20.8% with a SD of 13.0%), 250 patients are required to be enrolled, accounting for 20% drop-out (α= 0.05 and power= 80%)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ST-segment Elevation Myocardial Infarction (STEMI)",
+        "Percutaneous Coronary Intervention",
+        "Cardioprotection"
+      ],
+      "keywords": [
+        "ST-segment Elevation Myocardial Infarction (STEMI)",
+        "Percutaneous coronary intervention",
+        "Dexmedetomidine",
+        "Cardioprotection"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 250,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Dexmedetomidine (DEX) group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "The patient began to inject DEX intravenously as soon as he enrolled. This study started with the maximum maintenance dose allowed by the label (0.7μg/kg/h). With reference to previous studies, we set 3 pump injection gradients within the range of 0.2-0.7μg/kg/h (0.2μg/kg/h, 0.45μg/kg/h, 0.7μg/kg/h), and based on the patient's heart rate , systolic blood pressure and RASS sedation score to adjust.",
+          "interventionNames": [
+            "Drug: Dexmedetomidine (DEX)"
+          ]
+        },
+        {
+          "label": "Placebo (Saline) group",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "The patient began intravenous injection of normal saline immediately after enrollment. The administration method and dosage adjustment of normal saline are the same as DEX group.",
+          "interventionNames": [
+            "Drug: Placebo (Saline)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Dexmedetomidine (DEX)",
+          "description": "The patient began to inject DEX intravenously as soon as he enrolled. This study started with the maximum maintenance dose allowed by the label (0.7μg/kg/h). With reference to previous studies, we set 3 pump injection gradients within the range of 0.2-0.7μg/kg/h (0.2μg/kg/h, 0.45μg/kg/h, 0.7μg/kg/h), and based on the patient's heart rate , systolic blood pressure and RASS sedation score to adjust.",
+          "armGroupLabels": [
+            "Dexmedetomidine (DEX) group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo (Saline)",
+          "description": "The patient began intravenous injection of normal saline immediately after enrollment. The administration method and dosage adjustment of normal saline are the same as DEX.",
+          "armGroupLabels": [
+            "Placebo (Saline) group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Myocardial infarction size (MIS) evaluated by CMR 5±2 days post-STEMI.",
+          "description": "MIS was measured by CMR delayed gadolinium enhancement（expressed as %LV myocardial mass).",
+          "timeFrame": "5±2 days post-STEMI"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Myocardial salvage index (MSI) evaluated by CMR 5±2 days post-STEMI.",
+          "description": "MSI defined as: (area at risk - myocardial infarct size) / area at risk × 100.",
+          "timeFrame": "5±2 days post-STEMI"
+        },
+        {
+          "measure": "Microvascular obstruction (MVO) evaluated by CMR 5±2 days post-STEMI.",
+          "description": "MVO was evaluated qualitatively on delayed enhanced images; it was defined as hypodense regions within the hyperenhanced infracted area.",
+          "timeFrame": "5±2 days post-STEMI"
+        },
+        {
+          "measure": "Left ventricular ejection fraction (LVEF) evaluated by CMR 5±2 days post-STEMI.",
+          "description": "LVEF was defined as: (left ventricular end-diastolic volume - left ventricular end-systolic volume) / left ventricular end-diastolic volume × 100.",
+          "timeFrame": "5±2 days post-STEMI"
+        },
+        {
+          "measure": "The area under curve (AUC) for troponin I (cTnI) and creatine kinase-MB (CK-MB).",
+          "description": "Myocardial ischemic injury markers refer to CK-MB and cTnI",
+          "timeFrame": "First medical contact in hospital (before drug administration, baseline), and return to ward immediately, 6 Hours, 12 Hours, 24 Hours, 48 Hours after PCI procedure"
+        },
+        {
+          "measure": "The peak value for troponin I (cTnI) and creatine kinase-MB (CK-MB).",
+          "description": "Myocardial ischemic injury markers refer to CK-MB and cTnI",
+          "timeFrame": "First medical contact in hospital (before drug administration, baseline), and return to ward immediately, 6 Hours, 12 Hours, 24 Hours, 48 Hours after PCI procedure"
+        },
+        {
+          "measure": "LVEF evaluated by echocardiograhy at 30 days post-STEMI.",
+          "description": "LVEF was defined as: (left ventricular end-diastolic volume - left ventricular end-systolic volume) / left ventricular end-diastolic volume × 100.",
+          "timeFrame": "30 days post-STEMI"
+        },
+        {
+          "measure": "Incidence of major adverse cardiovascular events (MACE): cardiac death, recurrent myocardial infarction, revascularization, rehospitalization due to heart failure.",
+          "description": "Clinical follow-up is performed at 30 days, 3 months, 6 months, and 12 months. Follow-up at 30 days is in the outpatient clinic, other time frame follow-up is performed by phone call and clinical charts review.",
+          "timeFrame": "30 days and 12 months post-STEMI"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "The major prespecified safety endpoint: a composite of cardiac death during the first 24 hours after admission.",
+          "description": "A composite of cardiac death was defined death from cardiac causes",
+          "timeFrame": "The first 24 hours after admission"
+        },
+        {
+          "measure": "The major prespecified safety endpoint: II-III degree atrioventricular block during the first 24 hours after admission.",
+          "description": "Atrioventricular block is defined as the abnormal conduction of electrical activation between the atria and ventricles during the conduction of electrical activation of the heart, which can lead to arrhythmia and prevent the heart from contracting and pumping blood normally.",
+          "timeFrame": "The first 24 hours after admission"
+        },
+        {
+          "measure": "The major prespecified safety endpoint:severe sinus bradycardia during the first 24 hours after admission.",
+          "description": "Severe sinus bradycardia was defined as heart rate (HR) sustained \\<50 beats/min",
+          "timeFrame": "The first 24 hours after admission"
+        },
+        {
+          "measure": "The major prespecified safety endpoint:severe hypotension during the first 24 hours after admission.",
+          "description": "severe hypotension was defined as continuous systolic blood pressure \\<80mmHg",
+          "timeFrame": "The first 24 hours after admission"
+        },
+        {
+          "measure": "The major prespecified safety endpoint:malignant ventricular arrhythmia during the first 24 hours after admission.",
+          "description": "malignant ventricular arrhythmia including ventricular tachycardia and ventricular fibrillation.",
+          "timeFrame": "The first 24 hours after admission"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria: the enrolled subjects must meet all of the following criteria:\n\n* Aged 18-75 years old (inclusive);\n* Diagnosed with anterior STEMI within 6h of symptom onset: (1) ischemic chest discomfort; (2) electrocardiogram (ECG) with ST elevation ≥0.2 mV in 2 or more contiguous precordial leads (one of which should be V2, V3, or V4);\n* Sign the informed consent form.\n\nExclusion Criteria: subjects who meet any one of the following criteria are excluded from the study:\n\n* Ventricular fibrillation, cardiogenic shock, Killip III-IV grade;\n* Sinus bradycardia (heart rate sustained \\<60 beats/min), PR interval\\> 240ms or II-III degree atrioventricular block;\n* Continuous systolic blood pressure \\<120mmHg;\n* Severe breathing difficulties, aterial blood oxygen saturation \\<92%;\n* Thrombolytic therapy has been performed before the first medical contact in the hospital;\n* Consciousness disorder or past cerebrovascular disease;\n* Previous history of myocardial infarction or PCI/CABG treatment;\n* Known severe liver and kidney dysfunction;\n* Known allergy to dexmedetomidine;\n* CMR contraindications: such as claustrophobia, pacemaker or ICD implantation;\n* Pregnant or lactating women;\n* Malignant tumor or expected survival time \\<1 year;\n* Any condition which in the opinion of the investigator would make it unsafe or unsuitable for the patient to participate in this study (eg, poor compliance, inability of the patient to comply with study procedures and/or follow up);\n* Participate in other randomized controlled studies at the same time.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Jiannan Dai, M.D., Ph.D",
+          "role": "CONTACT",
+          "phone": "+86 15124559838",
+          "email": "daijiannandr@163.com"
+        },
+        {
+          "name": "Jinfeng Tan, M.D.",
+          "role": "CONTACT",
+          "phone": "+86 13633643383",
+          "email": "418904005@qq.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Bo Yu, M.D., FACC",
+          "affiliation": "The Second Affiliated Hospital of Harbin Medical University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Xi Su",
+          "affiliation": "Wuhan Asia Heart Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Xiaohui Zheng",
+          "affiliation": "Henan Provincial People's Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Kai Liu",
+          "affiliation": "Mudanjiang cardiovascular hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Jian An",
+          "affiliation": "Shanxi Cardiovascular Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Xiling Shou",
+          "affiliation": "Shaanxi Provincial People's Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Chengzhi Lu",
+          "affiliation": "Tianjin First Central Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Xianhe Lin",
+          "affiliation": "The First Affiliated Hospital of Anhui Medical University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Zheng Zhang",
+          "affiliation": "LanZhou University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "The First Affiliated Hospital of Anhui Medical University",
+          "status": "RECRUITING",
+          "city": "Hefei",
+          "state": "Anhui",
+          "zip": "230000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yangjing Xie",
+              "role": "CONTACT",
+              "phone": "13721053618",
+              "email": "xieyj2011@foxmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.86389,
+            "lon": 117.28083
+          }
+        },
+        {
+          "facility": "The First Affiliated Hospital of Lanzhou University",
+          "status": "RECRUITING",
+          "city": "Lanzhou",
+          "state": "Gansu",
+          "zip": "730000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Bo Zhang",
+              "role": "CONTACT",
+              "phone": "13359401106",
+              "email": "783846183@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 36.05701,
+            "lon": 103.83987
+          }
+        },
+        {
+          "facility": "The Second Affiliated Hospital of Harbin Medical University",
+          "status": "RECRUITING",
+          "city": "Harbin",
+          "state": "Heilongjiang",
+          "zip": "150000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Jiannan Dai",
+              "role": "CONTACT",
+              "phone": "15124559838",
+              "email": "daijiannandr@163.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.75,
+            "lon": 126.65
+          }
+        },
+        {
+          "facility": "Mudanjiang Cardiovascular Hospital",
+          "status": "RECRUITING",
+          "city": "Mudanjiang",
+          "state": "Heilongjiang",
+          "zip": "1570011",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Wanqing Zhao",
+              "role": "CONTACT",
+              "phone": "18946326812",
+              "email": "xingyunxing158@yeah.net"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.54804,
+            "lon": 129.62594
+          }
+        },
+        {
+          "facility": "Henan Provincial People's Hospital",
+          "status": "RECRUITING",
+          "city": "Zhengzhou",
+          "state": "Henan",
+          "zip": "450000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Xiaohui Zheng",
+              "role": "CONTACT",
+              "phone": "18838910817",
+              "email": "16859755@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.75778,
+            "lon": 113.64861
+          }
+        },
+        {
+          "facility": "Wuhan Asia Heart Hospital",
+          "status": "RECRUITING",
+          "city": "Wuhan",
+          "state": "Hubei",
+          "zip": "430022",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Sheng Bi",
+              "role": "CONTACT",
+              "phone": "13971668450",
+              "email": "bisheng_123123@163.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.58333,
+            "lon": 114.26667
+          }
+        },
+        {
+          "facility": "Shaanxi Provincial People's Hospital",
+          "status": "RECRUITING",
+          "city": "Xi'an",
+          "state": "Shaanxi",
+          "zip": "710068",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Nier Zhong",
+              "role": "CONTACT",
+              "phone": "13201790519",
+              "email": "zhongnier@sina.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.25833,
+            "lon": 108.92861
+          }
+        },
+        {
+          "facility": "Shanxi Cardiovascular Hospital",
+          "status": "RECRUITING",
+          "city": "Taiyuan",
+          "state": "Shanxi",
+          "zip": "30001",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Jingyi Liu",
+              "role": "CONTACT",
+              "phone": "18235123471",
+              "email": "Janeyiliu@163.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.86944,
+            "lon": 112.56028
+          }
+        },
+        {
+          "facility": "Tianjin First Central Hospital",
+          "status": "RECRUITING",
+          "city": "Tianjin",
+          "state": "Tianjin Municipality",
+          "zip": "300192",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Dachuan Xia",
+              "role": "CONTACT",
+              "phone": "13902061361",
+              "email": "xiadachuan@126.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.14222,
+            "lon": 117.17667
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "29547992",
+          "type": "BACKGROUND",
+          "citation": "Dai J, Xing L, Jia H, Zhu Y, Zhang S, Hu S, Lin L, Ma L, Liu H, Xu M, Ren X, Yu H, Li L, Zou Y, Zhang S, Mintz GS, Hou J, Yu B. In vivo predictors of plaque erosion in patients with ST-segment elevation myocardial infarction: a clinical, angiographical, and intravascular optical coherence tomography study. Eur Heart J. 2018 Jun 7;39(22):2077-2085. doi: 10.1093/eurheartj/ehy101."
+        },
+        {
+          "type": "BACKGROUND",
+          "citation": "2. The World Bank. Toward a healthy and harmonious life in China: stemming the rising tide of non-communicable diseases. http://www.worldbank.org/content/dam/Worldbank/document/NCD_ report_en.pdf (accessed Nov 27, 2013)."
+        },
+        {
+          "pmid": "24969506",
+          "type": "BACKGROUND",
+          "citation": "Li J, Li X, Wang Q, Hu S, Wang Y, Masoudi FA, Spertus JA, Krumholz HM, Jiang L; China PEACE Collaborative Group. ST-segment elevation myocardial infarction in China from 2001 to 2011 (the China PEACE-Retrospective Acute Myocardial Infarction Study): a retrospective analysis of hospital data. Lancet. 2015 Jan 31;385(9966):441-51. doi: 10.1016/S0140-6736(14)60921-1. Epub 2014 Jun 23."
+        },
+        {
+          "pmid": "27056772",
+          "type": "BACKGROUND",
+          "citation": "Stone GW, Selker HP, Thiele H, Patel MR, Udelson JE, Ohman EM, Maehara A, Eitel I, Granger CB, Jenkins PL, Nichols M, Ben-Yehuda O. Relationship Between Infarct Size and Outcomes Following Primary PCI: Patient-Level Analysis From 10 Randomized Trials. J Am Coll Cardiol. 2016 Apr 12;67(14):1674-83. doi: 10.1016/j.jacc.2016.01.069."
+        },
+        {
+          "pmid": "23536610",
+          "type": "BACKGROUND",
+          "citation": "Frohlich GM, Meier P, White SK, Yellon DM, Hausenloy DJ. Myocardial reperfusion injury: looking beyond primary PCI. Eur Heart J. 2013 Jun;34(23):1714-22. doi: 10.1093/eurheartj/eht090. Epub 2013 Mar 27."
+        },
+        {
+          "pmid": "32620851",
+          "type": "BACKGROUND",
+          "citation": "Heusch G. Myocardial ischaemia-reperfusion injury and cardioprotection in perspective. Nat Rev Cardiol. 2020 Dec;17(12):773-789. doi: 10.1038/s41569-020-0403-y. Epub 2020 Jul 3."
+        },
+        {
+          "pmid": "27118196",
+          "type": "BACKGROUND",
+          "citation": "Hausenloy DJ, Botker HE, Engstrom T, Erlinge D, Heusch G, Ibanez B, Kloner RA, Ovize M, Yellon DM, Garcia-Dorado D. Targeting reperfusion injury in patients with ST-segment elevation myocardial infarction: trials and tribulations. Eur Heart J. 2017 Apr 1;38(13):935-941. doi: 10.1093/eurheartj/ehw145. No abstract available."
+        },
+        {
+          "pmid": "24002794",
+          "type": "BACKGROUND",
+          "citation": "Ibanez B, Macaya C, Sanchez-Brunete V, Pizarro G, Fernandez-Friera L, Mateos A, Fernandez-Ortiz A, Garcia-Ruiz JM, Garcia-Alvarez A, Iniguez A, Jimenez-Borreguero J, Lopez-Romero P, Fernandez-Jimenez R, Goicolea J, Ruiz-Mateos B, Bastante T, Arias M, Iglesias-Vazquez JA, Rodriguez MD, Escalera N, Acebal C, Cabrera JA, Valenciano J, Perez de Prado A, Fernandez-Campos MJ, Casado I, Garcia-Rubira JC, Garcia-Prieto J, Sanz-Rosa D, Cuellas C, Hernandez-Antolin R, Albarran A, Fernandez-Vazquez F, de la Torre-Hernandez JM, Pocock S, Sanz G, Fuster V. Effect of early metoprolol on infarct size in ST-segment-elevation myocardial infarction patients undergoing primary percutaneous coronary intervention: the Effect of Metoprolol in Cardioprotection During an Acute Myocardial Infarction (METOCARD-CNIC) trial. Circulation. 2013 Oct 1;128(14):1495-503. doi: 10.1161/CIRCULATIONAHA.113.003653. Epub 2013 Sep 3."
+        },
+        {
+          "pmid": "27050189",
+          "type": "BACKGROUND",
+          "citation": "Roolvink V, Ibanez B, Ottervanger JP, Pizarro G, van Royen N, Mateos A, Dambrink JE, Escalera N, Lipsic E, Albarran A, Fernandez-Ortiz A, Fernandez-Aviles F, Goicolea J, Botas J, Remkes W, Hernandez-Jaras V, Kedhi E, Zamorano JL, Navarro F, Alfonso F, Garcia-Lledo A, Alonso J, van Leeuwen M, Nijveldt R, Postma S, Kolkman E, Gosselink M, de Smet B, Rasoul S, Piek JJ, Fuster V, van 't Hof AWJ; EARLY-BAMI Investigators. Early Intravenous Beta-Blockers in Patients With ST-Segment Elevation Myocardial Infarction Before Primary Percutaneous Coronary Intervention. J Am Coll Cardiol. 2016 Jun 14;67(23):2705-2715. doi: 10.1016/j.jacc.2016.03.522. Epub 2016 Apr 3."
+        },
+        {
+          "pmid": "25240548",
+          "type": "BACKGROUND",
+          "citation": "White SK, Frohlich GM, Sado DM, Maestrini V, Fontana M, Treibel TA, Tehrani S, Flett AS, Meier P, Ariti C, Davies JR, Moon JC, Yellon DM, Hausenloy DJ. Remote ischemic conditioning reduces myocardial infarct size and edema in patients with ST-segment elevation myocardial infarction. JACC Cardiovasc Interv. 2015 Jan;8(1 Pt B):178-188. doi: 10.1016/j.jcin.2014.05.015. Epub 2014 Sep 17."
+        },
+        {
+          "pmid": "26385956",
+          "type": "BACKGROUND",
+          "citation": "Eitel I, Stiermaier T, Rommel KP, Fuernau G, Sandri M, Mangner N, Linke A, Erbs S, Lurz P, Boudriot E, Mende M, Desch S, Schuler G, Thiele H. Cardioprotection by combined intrahospital remote ischaemic perconditioning and postconditioning in ST-elevation myocardial infarction: the randomized LIPSIA CONDITIONING trial. Eur Heart J. 2015 Nov 21;36(44):3049-57. doi: 10.1093/eurheartj/ehv463. Epub 2015 Sep 17."
+        },
+        {
+          "pmid": "31500849",
+          "type": "BACKGROUND",
+          "citation": "Hausenloy DJ, Kharbanda RK, Moller UK, Ramlall M, Aaroe J, Butler R, Bulluck H, Clayton T, Dana A, Dodd M, Engstrom T, Evans R, Lassen JF, Christensen EF, Garcia-Ruiz JM, Gorog DA, Hjort J, Houghton RF, Ibanez B, Knight R, Lippert FK, Lonborg JT, Maeng M, Milasinovic D, More R, Nicholas JM, Jensen LO, Perkins A, Radovanovic N, Rakhit RD, Ravkilde J, Ryding AD, Schmidt MR, Riddervold IS, Sorensen HT, Stankovic G, Varma M, Webb I, Terkelsen CJ, Greenwood JP, Yellon DM, Botker HE; CONDI-2/ERIC-PPCI Investigators. Effect of remote ischaemic conditioning on clinical outcomes in patients with acute myocardial infarction (CONDI-2/ERIC-PPCI): a single-blind randomised controlled trial. Lancet. 2019 Oct 19;394(10207):1415-1424. doi: 10.1016/S0140-6736(19)32039-2. Epub 2019 Sep 6."
+        },
+        {
+          "pmid": "28886621",
+          "type": "BACKGROUND",
+          "citation": "Ibanez B, James S, Agewall S, Antunes MJ, Bucciarelli-Ducci C, Bueno H, Caforio ALP, Crea F, Goudevenos JA, Halvorsen S, Hindricks G, Kastrati A, Lenzen MJ, Prescott E, Roffi M, Valgimigli M, Varenhorst C, Vranckx P, Widimsky P; ESC Scientific Document Group. 2017 ESC Guidelines for the management of acute myocardial infarction in patients presenting with ST-segment elevation: The Task Force for the management of acute myocardial infarction in patients presenting with ST-segment elevation of the European Society of Cardiology (ESC). Eur Heart J. 2018 Jan 7;39(2):119-177. doi: 10.1093/eurheartj/ehx393. No abstract available."
+        },
+        {
+          "pmid": "24315907",
+          "type": "BACKGROUND",
+          "citation": "Hobl EL, Stimpfl T, Ebner J, Schoergenhofer C, Derhaschnig U, Sunder-Plassmann R, Jilma-Stohlawetz P, Mannhalter C, Posch M, Jilma B. Morphine decreases clopidogrel concentrations and effects: a randomized, double-blind, placebo-controlled trial. J Am Coll Cardiol. 2014 Feb 25;63(7):630-635. doi: 10.1016/j.jacc.2013.10.068. Epub 2013 Dec 4."
+        },
+        {
+          "pmid": "27099137",
+          "type": "BACKGROUND",
+          "citation": "Thomas MR, Morton AC, Hossain R, Chen B, Luo L, Shahari NN, Hua P, Beniston RG, Judge HM, Storey RF. Morphine delays the onset of action of prasugrel in patients with prior history of ST-elevation myocardial infarction. Thromb Haemost. 2016 Jul 4;116(1):96-102. doi: 10.1160/TH16-02-0102. Epub 2016 Apr 21."
+        },
+        {
+          "pmid": "26491112",
+          "type": "BACKGROUND",
+          "citation": "Kubica J, Adamski P, Ostrowska M, Sikora J, Kubica JM, Sroka WD, Stankowska K, Buszko K, Navarese EP, Jilma B, Siller-Matula JM, Marszall MP, Rosc D, Kozinski M. Morphine delays and attenuates ticagrelor exposure and action in patients with myocardial infarction: the randomized, double-blind, placebo-controlled IMPRESSION trial. Eur Heart J. 2016 Jan 14;37(3):245-52. doi: 10.1093/eurheartj/ehv547. Epub 2015 Oct 21."
+        },
+        {
+          "pmid": "27420579",
+          "type": "BACKGROUND",
+          "citation": "Bellandi B, Zocchi C, Xanthopoulou I, Scudiero F, Valenti R, Migliorini A, Antoniucci D, Marchionni N, Alexopoulos D, Parodi G. Morphine use and myocardial reperfusion in patients with acute myocardial infarction treated with primary PCI. Int J Cardiol. 2016 Oct 15;221:567-71. doi: 10.1016/j.ijcard.2016.06.204. Epub 2016 Jun 29. No abstract available."
+        },
+        {
+          "pmid": "31976867",
+          "type": "BACKGROUND",
+          "citation": "Furtado RHM, Nicolau JC, Guo J, Im K, White JA, Sabatine MS, Newby LK, Giugliano RP. Morphine and Cardiovascular Outcomes Among Patients With Non-ST-Segment Elevation Acute Coronary Syndromes Undergoing Coronary Angiography. J Am Coll Cardiol. 2020 Jan 28;75(3):289-300. doi: 10.1016/j.jacc.2019.11.035."
+        },
+        {
+          "pmid": "26063213",
+          "type": "BACKGROUND",
+          "citation": "Keating GM. Dexmedetomidine: A Review of Its Use for Sedation in the Intensive Care Setting. Drugs. 2015 Jul;75(10):1119-30. doi: 10.1007/s40265-015-0419-5."
+        },
+        {
+          "pmid": "19188334",
+          "type": "BACKGROUND",
+          "citation": "Riker RR, Shehabi Y, Bokesch PM, Ceraso D, Wisemandle W, Koura F, Whitten P, Margolis BD, Byrne DW, Ely EW, Rocha MG; SEDCOM (Safety and Efficacy of Dexmedetomidine Compared With Midazolam) Study Group. Dexmedetomidine vs midazolam for sedation of critically ill patients: a randomized trial. JAMA. 2009 Feb 4;301(5):489-99. doi: 10.1001/jama.2009.56. Epub 2009 Feb 2."
+        },
+        {
+          "pmid": "22436955",
+          "type": "BACKGROUND",
+          "citation": "Jakob SM, Ruokonen E, Grounds RM, Sarapohja T, Garratt C, Pocock SJ, Bratty JR, Takala J; Dexmedetomidine for Long-Term Sedation Investigators. Dexmedetomidine vs midazolam or propofol for sedation during prolonged mechanical ventilation: two randomized controlled trials. JAMA. 2012 Mar 21;307(11):1151-60. doi: 10.1001/jama.2012.304."
+        },
+        {
+          "pmid": "27542303",
+          "type": "BACKGROUND",
+          "citation": "Su X, Meng ZT, Wu XH, Cui F, Li HL, Wang DX, Zhu X, Zhu SN, Maze M, Ma D. Dexmedetomidine for prevention of delirium in elderly patients after non-cardiac surgery: a randomised, double-blind, placebo-controlled trial. Lancet. 2016 Oct 15;388(10054):1893-1902. doi: 10.1016/S0140-6736(16)30580-3. Epub 2016 Aug 16."
+        },
+        {
+          "pmid": "30402501",
+          "type": "BACKGROUND",
+          "citation": "Cheng X, Hu J, Wang Y, Ye H, Li X, Gao Q, Li Z. Effects of Dexmedetomidine Postconditioning on Myocardial Ischemia/Reperfusion Injury in Diabetic Rats: Role of the PI3K/Akt-Dependent Signaling Pathway. J Diabetes Res. 2018 Oct 8;2018:3071959. doi: 10.1155/2018/3071959. eCollection 2018."
+        },
+        {
+          "pmid": "32406910",
+          "type": "BACKGROUND",
+          "citation": "Zhang X, Li Y, Wang Y, Zhuang Y, Ren X, Yang K, Ma W, Zhong M. Dexmedetomidine postconditioning suppresses myocardial ischemia/reperfusion injury by activating the SIRT1/mTOR axis. Biosci Rep. 2020 May 29;40(5):BSR20194030. doi: 10.1042/BSR20194030.",
+          "retractions": [
+            {
+              "pmid": "36102153",
+              "source": "Biosci Rep. 2022 Sep 30;42(9):"
+            }
+          ]
+        },
+        {
+          "pmid": "29328437",
+          "type": "BACKGROUND",
+          "citation": "Weng X, Zhang X, Lu X, Wu J, Li S. Reduced mitochondrial response sensitivity is involved in the anti-apoptotic effect of dexmedetomidine pretreatment in cardiomyocytes. Int J Mol Med. 2018 Apr;41(4):2328-2338. doi: 10.3892/ijmm.2018.3384. Epub 2018 Jan 12."
+        },
+        {
+          "pmid": "26607864",
+          "type": "BACKGROUND",
+          "citation": "Riquelme JA, Westermeier F, Hall AR, Vicencio JM, Pedrozo Z, Ibacache M, Fuenzalida B, Sobrevia L, Davidson SM, Yellon DM, Sanchez G, Lavandero S. Dexmedetomidine protects the heart against ischemia-reperfusion injury by an endothelial eNOS/NO dependent mechanism. Pharmacol Res. 2016 Jan;103:318-27. doi: 10.1016/j.phrs.2015.11.004. Epub 2015 Dec 1."
+        },
+        {
+          "pmid": "29359143",
+          "type": "BACKGROUND",
+          "citation": "Gao JM, Meng XW, Zhang J, Chen WR, Xia F, Peng K, Ji FH. Dexmedetomidine Protects Cardiomyocytes against Hypoxia/Reoxygenation Injury by Suppressing TLR4-MyD88-NF-kappaB Signaling. Biomed Res Int. 2017;2017:1674613. doi: 10.1155/2017/1674613. Epub 2017 Nov 22."
+        },
+        {
+          "pmid": "28914648",
+          "type": "BACKGROUND",
+          "citation": "Yoshikawa Y, Hirata N, Kawaguchi R, Tokinaga Y, Yamakage M. Dexmedetomidine Maintains Its Direct Cardioprotective Effect Against Ischemia/Reperfusion Injury in Hypertensive Hypertrophied Myocardium. Anesth Analg. 2018 Feb;126(2):443-452. doi: 10.1213/ANE.0000000000002452."
+        },
+        {
+          "pmid": "32407987",
+          "type": "BACKGROUND",
+          "citation": "Chang JH, Jin MM, Liu JT. Dexmedetomidine pretreatment protects the heart against apoptosis in ischemia/reperfusion injury in diabetic rats by activating PI3K/Akt signaling in vivo and in vitro. Biomed Pharmacother. 2020 Jul;127:110188. doi: 10.1016/j.biopha.2020.110188. Epub 2020 May 11."
+        },
+        {
+          "pmid": "30965239",
+          "type": "BACKGROUND",
+          "citation": "He L, Hao S, Wang Y, Yang W, Liu L, Chen H, Qian J. Dexmedetomidine preconditioning attenuates ischemia/reperfusion injury in isolated rat hearts with endothelial dysfunction. Biomed Pharmacother. 2019 Jun;114:108837. doi: 10.1016/j.biopha.2019.108837. Epub 2019 Apr 6."
+        },
+        {
+          "pmid": "28375904",
+          "type": "BACKGROUND",
+          "citation": "Behmenburg F, Pickert E, Mathes A, Heinen A, Hollmann MW, Huhn R, Berger MM. The Cardioprotective Effect of Dexmedetomidine in Rats Is Dose-Dependent and Mediated by BKCa Channels. J Cardiovasc Pharmacol. 2017 Apr;69(4):228-235. doi: 10.1097/FJC.0000000000000466."
+        },
+        {
+          "pmid": "31633505",
+          "type": "BACKGROUND",
+          "citation": "Bunte S, Behmenburg F, Majewski N, Stroethoff M, Raupach A, Mathes A, Heinen A, Hollmann MW, Huhn R. Characteristics of Dexmedetomidine Postconditioning in the Field of Myocardial Ischemia-Reperfusion Injury. Anesth Analg. 2020 Jan;130(1):90-98. doi: 10.1213/ANE.0000000000004417."
+        },
+        {
+          "pmid": "8623959",
+          "type": "BACKGROUND",
+          "citation": "Lawrence CJ, Prinzen FW, de Lange S. The effect of dexmedetomidine on the balance of myocardial energy requirement and oxygen supply and demand. Anesth Analg. 1996 Mar;82(3):544-50. doi: 10.1097/00000539-199603000-00021."
+        },
+        {
+          "pmid": "8949826",
+          "type": "BACKGROUND",
+          "citation": "Roekaerts PM, Prinzen FW, De Lange S. Beneficial effects of dexmedetomidine on ischaemic myocardium of anaesthetized dogs. Br J Anaesth. 1996 Sep;77(3):427-9. doi: 10.1093/bja/77.3.427."
+        },
+        {
+          "pmid": "12598239",
+          "type": "BACKGROUND",
+          "citation": "Willigers HM, Prinzen FW, Roekaerts PM, de Lange S, Durieux ME. Dexmedetomidine decreases perioperative myocardial lactate release in dogs. Anesth Analg. 2003 Mar;96(3):657-664. doi: 10.1213/01.ANE.0000048708.75957.FF."
+        },
+        {
+          "pmid": "22552015",
+          "type": "BACKGROUND",
+          "citation": "Yoshitomi O, Cho S, Hara T, Shibata I, Maekawa T, Ureshino H, Sumikawa K. Direct protective effects of dexmedetomidine against myocardial ischemia-reperfusion injury in anesthetized pigs. Shock. 2012 Jul;38(1):92-7. doi: 10.1097/SHK.0b013e318254d3fb."
+        },
+        {
+          "pmid": "26429360",
+          "type": "BACKGROUND",
+          "citation": "Chi X, Liao M, Chen X, Zhao Y, Yang L, Luo A, Yang H. Dexmedetomidine Attenuates Myocardial Injury in Off-Pump Coronary Artery Bypass Graft Surgery. J Cardiothorac Vasc Anesth. 2016 Jan;30(1):44-50. doi: 10.1053/j.jvca.2015.06.026. Epub 2015 Jun 26."
+        },
+        {
+          "pmid": "28182690",
+          "type": "BACKGROUND",
+          "citation": "Li X, Yang J, Nie XL, Zhang Y, Li XY, Li LH, Wang DX, Ma D. Impact of dexmedetomidine on the incidence of delirium in elderly patients after cardiac surgery: A randomized controlled trial. PLoS One. 2017 Feb 9;12(2):e0170757. doi: 10.1371/journal.pone.0170757. eCollection 2017."
+        },
+        {
+          "pmid": "23513068",
+          "type": "BACKGROUND",
+          "citation": "Ji F, Li Z, Nguyen H, Young N, Shi P, Fleming N, Liu H. Perioperative dexmedetomidine improves outcomes of cardiac surgery. Circulation. 2013 Apr 16;127(15):1576-84. doi: 10.1161/CIRCULATIONAHA.112.000936. Epub 2013 Mar 19."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D020927",
+          "term": "Dexmedetomidine"
+        },
+        {
+          "id": "D012965",
+          "term": "Sodium Chloride"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007093",
+          "term": "Imidazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D002712",
+          "term": "Chlorides"
+        },
+        {
+          "id": "D006851",
+          "term": "Hydrochloric Acid"
+        },
+        {
+          "id": "D017606",
+          "term": "Chlorine Compounds"
+        },
+        {
+          "id": "D007287",
+          "term": "Inorganic Chemicals"
+        },
+        {
+          "id": "D017670",
+          "term": "Sodium Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

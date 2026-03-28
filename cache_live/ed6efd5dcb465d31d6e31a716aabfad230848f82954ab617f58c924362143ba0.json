@@ -1,0 +1,391 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07132918",
+      "orgStudyIdInfo": {
+        "id": "2025-0798"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "5R01HL153720-03",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/5R01HL153720-03"
+        },
+        {
+          "id": "A533300",
+          "type": "OTHER",
+          "domain": "UW Madison"
+        },
+        {
+          "id": "SMPH/HUMAN ONCOLOGY/HUMAN ONCO",
+          "type": "OTHER",
+          "domain": "UW Madison"
+        },
+        {
+          "id": "Protocol Version 10/31/2025",
+          "type": "OTHER",
+          "domain": "UW Madison"
+        }
+      ],
+      "organization": {
+        "fullName": "University of Wisconsin, Madison",
+        "class": "OTHER"
+      },
+      "briefTitle": "HEARTS Trial for Thoracic Cancers",
+      "officialTitle": "The cARdiac Radiation Therapy Sparing (HEARTS) for Thoracic Cancers"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-10",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-10-08",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2029-03",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-03",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-08-12",
+      "studyFirstSubmitQcDate": "2025-08-12",
+      "studyFirstPostDateStruct": {
+        "date": "2025-08-20",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-11-24",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-11-26",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Wisconsin, Madison",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Heart, Lung, and Blood Institute (NHLBI)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this clinical trial is to compare a new way of using magnetic resonance-guided adaptive radiation therapy (MRgART) to the standard of care linear accelerator (LINAC) radiation treatment in people with cancer in the thoracic region near the heart.\n\nThe main question it aims to answer is whether MRgART affects the heart differently than LINAC.\n\nParticipants will:\n\n* Receive radiation therapy\n* Undergo MRIs and bloodwork\n* Complete quality of life questionnaires",
+      "detailedDescription": "This clinical trial, The cARdiac Radiation Therapy Sparing (HEARTS) trial, will compare MR-guided adaptive radiation therapy (MRgART) with substructure sparing to standard of care x-ray based linac RT with whole-heart dose metrics for patients with cancer in the thoracic region based on longitudinal changes in cardiac function using MRI, quality of life, cardiac waveforms, and blood biomarkers."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Non-Small Cell Lung Cancer (Stage III)",
+        "Esophageal Cancer Stage I-III",
+        "Esophagogastric Cancer Stage I-III",
+        "Thymoma and Thymic Carcinoma Stage II-III",
+        "Other Cancers in the Thoracic Region"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "MRgART radiation therapy",
+          "type": "EXPERIMENTAL",
+          "description": "Participants randomized to this arm will receive magnetic resonance-guided adaptive radiation therapy (MRgART)",
+          "interventionNames": [
+            "Radiation: MRgART"
+          ]
+        },
+        {
+          "label": "LINAC radiation therapy",
+          "type": "EXPERIMENTAL",
+          "description": "Participants randomized to this arm will receive linear accelerator (LINAC) radiation therapy",
+          "interventionNames": [
+            "Radiation: LINAC"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "RADIATION",
+          "name": "MRgART",
+          "description": "Magnetic Resonance-guided Adaptive Radiation Therapy (MRgART) is a form of MRgRT that incorporates daily adaptive planning, or making a new treatment plan each treatment, and real-time imaging during treatment delivery.",
+          "armGroupLabels": [
+            "MRgART radiation therapy"
+          ]
+        },
+        {
+          "type": "RADIATION",
+          "name": "LINAC",
+          "description": "Daily 3D x-ray scans will be obtained for radiation delivery to confirm tumor and organ at risk placement.",
+          "armGroupLabels": [
+            "LINAC radiation therapy"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in left ventricular ejection fraction (LVEF)",
+          "description": "Changes are measured between timepoints as determined by cardiac MRI. LVEF is calculated by dividing the left ventricular (LV) stroke volume (the amount of blood pumped out) by the end-diastolic volume (the amount of blood in the left ventricle before contraction) and multiplying by 100.",
+          "timeFrame": "Pre-treatment, 3 months post-treatment, 6 months post-treatment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in right ventricular function (RVEF)",
+          "description": "Changes are measured between timepoints as determined by cardiac MRI. RVEF is calculated by dividing the right ventricular (RV) stroke volume (the amount of blood pumped out) by the end-diastolic volume (the amount of blood in the right ventricle before contraction) and multiplying by 100.",
+          "timeFrame": "Pre-treatment, 3 months, 6 months post-treatment"
+        },
+        {
+          "measure": "Change in left and right ventricular (LV/RV) volumes",
+          "description": "Volumes of LV and RV chamber - each derived from tracing the endocardial borders at end-diastole and end-systole in a cardiac MRI scan.",
+          "timeFrame": "Pre-treatment, 3 months, 6 months post-treatment"
+        },
+        {
+          "measure": "Change in myocardial strain",
+          "description": "Myocardial strain measures how much the heart muscle stretches or contracts during a heartbeat. Strain is measured on cardiac MRI images by tracking myocardial deformation using feature tracking techniques, which analyze changes in myocardial length or orientation between end-diastole and end-systole to calculate strain values.",
+          "timeFrame": "Pre-treatment, 3 months, 6 months post-treatment"
+        },
+        {
+          "measure": "Change in T1 Mapping",
+          "description": "By acquiring a series of images at different inversion times (Modified Look-Locker Inversion recovery sequence), the longitudinal relaxation time of myocardial tissue on a pixel-by-pixel basis to derive the T1 map.",
+          "timeFrame": "Pre-treatment, 3 months, 6 months post-treatment"
+        },
+        {
+          "measure": "Change in extracellular volume fraction (ECV)",
+          "description": "Extracellular volume fraction (ECV) is measured in cardiac MRI by first acquiring T1 maps of the heart before and after administering a gadolinium-based contrast agent, then using the change in T1 values of both the myocardium and blood pool-along with the patient's hematocrit-to calculate the proportion of the heart tissue made up of extracellular space.",
+          "timeFrame": "Pre-treatment, 3 months, 6 months post-treatment"
+        },
+        {
+          "measure": "Change in T2 mapping",
+          "description": "T2 maps are derived by acquiring images at multiple echo times using a T2-prepared sequence and analyzed.",
+          "timeFrame": "Pre-treatment, 3 months, 6 months post-treatment"
+        },
+        {
+          "measure": "Change in semi-quantitative perfusion",
+          "description": "Semi-quantitative perfusion analysis in cardiac MRI is used to assess myocardial blood flow by analyzing the dynamic passage of contrast agent through the heart muscle. The process involves acquiring first-pass contrast-enhanced images, defining myocardial and blood pool contours, segmenting the myocardium, and generating signal intensity curves to extract parameters such as upslope and time to peak-providing insight into regional perfusion",
+          "timeFrame": "Pre-treatment, 3 months, 6 months post-treatment"
+        },
+        {
+          "measure": "Change in late gadolinium enhancement",
+          "description": "Late gadolinium enhancement (LGE) in cardiac MRI is measured by acquiring inversion recovery images post-contrast, nulling normal myocardium, and quantifying enhancing regions using signal intensity thresholds relative to remote myocardium to assess myocardial scar or fibrosis.",
+          "timeFrame": "Pre-treatment, 3 months, 6 months post-treatment"
+        },
+        {
+          "measure": "Change Kansas City Cardiomyopathy Questionnaire (KCCQ-12) score",
+          "description": "Using the abbreviated Kansas City Cardiomyopathy Questionnaire (KCCQ-12) quality of life will be measured. The KCCQ-12 is a heart failure-specific health status measure that provides scores for physical limitation, symptom frequency, quality of life, and social limitation. Scores range from 0 to 100, with higher scores indicating better health. Ranges like \"very poor to poor\" (0-24), \"poor to fair\" (25-49), \"fair to good\" (50-74), and \"good to excellent\" (75-100), can add further categorization.",
+          "timeFrame": "Baseline to 12 months post-treatment (up to 14 months)"
+        },
+        {
+          "measure": "Change in Functional Assessment of Cancer Therapy - Lung (FACT-L) Score",
+          "description": "The FACT-L Scale is a 36-item self-report instrument that measures multidimensional quality of life. It is scored on a 5-point Likert scale ranging from 0-4, with 0 = not at all and 4 = very much. Scores range from 0-144 where higher scores indicate greater quality of life.",
+          "timeFrame": "Baseline to 12 months post-treatment (up to 14 months)"
+        },
+        {
+          "measure": "Toxicity related to cancer",
+          "description": "Toxicity will be measured by number of adverse events",
+          "timeFrame": "Baseline, mid-treatment, end of treatment, 3, 6,9, and 12 months post-treatment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \\> 18 years at the time of consent.\n* Dosimetric eligibility criteria met using endpoints from QUANTEC (\\>10% of heart receives \\> 25 Gy) as determined through rapid auto-planning\n* Participants with histologically or cytologically proven AJCC, 8th edition including:\n\n  * Stage IIIA,IIIB, or IIIC non-operable non-small cell lung cancer\n  * Stage I-III N0-2 disease esophageal/esophagogastric cancer\n  * Stage II or III thymoma/thymic carcinoma\n  * Other cancers in the thoracic region that meet the dosimetric and other clinical trial criteria.\n* Participants must have a definitive course of daily fractionated RT planned of at least 15 treatment fractions, typically ranging from 1.8 to 4 Gy/fraction\n\nExclusion Criteria:\n\n* Definitive clinical or radiologic evidence of metastatic disease with life expectancy \\<12 months\n* Prior thoracic radiotherapy significantly overlapping the heart region\n* Contraindications to MRI\n* Severe, active co-morbidity defined as follows: New York Heart Association Functional Classification III/IV are not eligible.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Cancer Connect",
+          "role": "CONTACT",
+          "phone": "800-622-8922",
+          "email": "cancerconnect@uwcarbone.wisc.edu"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Carri Glide-Hurst, PhD, DABR, FAAPM",
+          "affiliation": "University of Wisconsin, Madison",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Wisconsin - Madison",
+          "status": "RECRUITING",
+          "city": "Madison",
+          "state": "Wisconsin",
+          "zip": "53705",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Cancer Connect",
+              "role": "CONTACT",
+              "phone": "800-622-8922",
+              "email": "cancerconnect@uwcarbone.wisc.edu"
+            },
+            {
+              "name": "Carri Glide-Hurst, PhD, DABR, FAAPM",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.07305,
+            "lon": -89.40123
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "De-identified individual participant data (IPD) collected during the study will be shared in accordance with the NIH Data Management and Sharing Policy. Data will be made available to qualified researchers for the purpose of secondary analyses that are consistent with the informed consent provided by participants. The data will be de-identified to protect participant privacy and confidentiality.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP"
+      ],
+      "timeFrame": "Data will be made available no later than 12 months after the primary completion date or upon publication of the primary results, whichever comes first. Data will remain available for a minimum of 5 years",
+      "accessCriteria": "Researchers must submit a data access request that includes a research proposal, data use plan, and institutional review board (IRB) approval or exemption. Access will be granted through a controlled-access repository following review and approval by a data access committee. A Data Use Agreement (DUA) must be signed prior to data release."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D002289",
+          "term": "Carcinoma, Non-Small-Cell Lung"
+        },
+        {
+          "id": "D004938",
+          "term": "Esophageal Neoplasms"
+        },
+        {
+          "id": "D013945",
+          "term": "Thymoma"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D002283",
+          "term": "Carcinoma, Bronchogenic"
+        },
+        {
+          "id": "D001984",
+          "term": "Bronchial Neoplasms"
+        },
+        {
+          "id": "D008175",
+          "term": "Lung Neoplasms"
+        },
+        {
+          "id": "D012142",
+          "term": "Respiratory Tract Neoplasms"
+        },
+        {
+          "id": "D013899",
+          "term": "Thoracic Neoplasms"
+        },
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D005770",
+          "term": "Gastrointestinal Neoplasms"
+        },
+        {
+          "id": "D004067",
+          "term": "Digestive System Neoplasms"
+        },
+        {
+          "id": "D006258",
+          "term": "Head and Neck Neoplasms"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        },
+        {
+          "id": "D004935",
+          "term": "Esophageal Diseases"
+        },
+        {
+          "id": "D005767",
+          "term": "Gastrointestinal Diseases"
+        },
+        {
+          "id": "D018193",
+          "term": "Neoplasms, Complex and Mixed"
+        },
+        {
+          "id": "D009370",
+          "term": "Neoplasms by Histologic Type"
+        },
+        {
+          "id": "D013953",
+          "term": "Thymus Neoplasms"
+        },
+        {
+          "id": "D008206",
+          "term": "Lymphatic Diseases"
+        },
+        {
+          "id": "D006425",
+          "term": "Hemic and Lymphatic Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

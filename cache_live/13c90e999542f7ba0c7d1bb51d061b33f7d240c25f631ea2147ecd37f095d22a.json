@@ -1,0 +1,1987 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05722938",
+      "orgStudyIdInfo": {
+        "id": "996"
+      },
+      "organization": {
+        "fullName": "Biotest",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Efficacy and Safety of Trimodulin (BT588) in Subjects With Severe Community-acquired Pneumonia (sCAP)",
+      "officialTitle": "A Randomized, Placebo-controlled, Double-blind, Multi-center, Phase III Trial to Assess the Efficacy and Safety of Trimodulin (BT588) in Adult Hospitalized Subjects With Severe Community-acquired Pneumonia (sCAP)",
+      "acronym": "ESsCAPE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-09-09",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-07-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-07-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-01-11",
+      "studyFirstSubmitQcDate": "2023-01-31",
+      "studyFirstPostDateStruct": {
+        "date": "2023-02-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Biotest",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The main objective of the trial is to assess the efficacy and safety of trimodulin as adjunctive treatment to standard of care (SoC) compared to placebo plus SoC in adult hospitalized subjects with sCAP on invasive mechanical ventilation (IMV).\n\nOther objectives are to determine detailed pharmacokinetic (PK) properties of trimodulin in a PK substudy and to determine its pharmacodynamic (PD) properties.",
+      "detailedDescription": "This is a randomized, placebo-controlled, double-blind, multi-center, multi-national, phase III trial, to assess the efficacy and safety of trimodulin compared to placebo treatment, as adjunctive treatment to SoC in adult hospitalized subjects with sCAP receiving IMV.\n\nSubjects will be randomized on a 1:1 basis to receive trimodulin or placebo, stratified by center. Investigational medicinal product (IMP) treatments will be blinded.\n\nSubject will be administered IMP once daily on 5 consecutive days (day 1 through day 5) adjunctive to SoC. The subsequent follow-up phase comprises maximally 23 days (day 6 through day 28) followed by an end-of-follow-up visit/telephone call on day 29 \\[+3\\]. For subjects still in the hospital (trial site) after day 29, an extended follow-up is conducted until discharge or until day 90. For all subjects alive on day 29, a closing visit/telephone call on day 91 \\[+10\\] will be done."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Community-acquired Pneumonia"
+      ],
+      "keywords": [
+        "Severe Community-acquired Pneumonia"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Subjects will be randomized on a 1:1 basis to receive trimodulin or placebo, stratified by center",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "All bottles will be indistinguishable.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 590,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Trimodulin",
+          "type": "EXPERIMENTAL",
+          "description": "Trimodulin (human IgM, IgA, IgG solution) for intravenous (IV) administration.",
+          "interventionNames": [
+            "Drug: Trimodulin"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Human albumin 1%",
+          "interventionNames": [
+            "Drug: Placebo (human albumin 1%)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Trimodulin",
+          "description": "IMP will be administered via IV infusion on 5 consecutive days",
+          "armGroupLabels": [
+            "Trimodulin"
+          ],
+          "otherNames": [
+            "BT588"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo (human albumin 1%)",
+          "description": "IMP will be administered via IV infusion on 5 consecutive days",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "28-day all-cause mortality rate",
+          "description": "Percentage of subjects that died until day 29 regardless of cause of death",
+          "timeFrame": "Between days 1-29"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "90-day all-cause mortality rate",
+          "description": "Percentage of subjects that died until day 91 regardless of cause of death",
+          "timeFrame": "Between days 1-91"
+        },
+        {
+          "measure": "Deterioration rate (up to day 29)",
+          "description": "Percentage of subjects with at least one deterioration event up to day 29",
+          "timeFrame": "Up to day 29"
+        },
+        {
+          "measure": "Change in Sequential Organ Failure Assessment (SOFA) score from baseline to day 7",
+          "description": "Change in Sequential Organ Failure Assessment (SOFA)",
+          "timeFrame": "Between baseline and Day 7"
+        },
+        {
+          "measure": "Proportion of subjects with clinical cure of pneumonia up to day 29",
+          "description": "Percentage of subjects with clinical cure of pneumonia",
+          "timeFrame": "Up to day 29"
+        },
+        {
+          "measure": "Days of invasive mechanical ventilation (IMV) up to day 29",
+          "description": "Days of invasive mechanical ventilation (IMV) up to day 29",
+          "timeFrame": "Up to day 29"
+        },
+        {
+          "measure": "Ventilator-free days (VFD) until day 29",
+          "description": "Ventilator-free days (VFD)",
+          "timeFrame": "Until day 29"
+        },
+        {
+          "measure": "Days with oxygen supply up to day 29",
+          "description": "Days with oxygen supply",
+          "timeFrame": "Up to day 29"
+        },
+        {
+          "measure": "Proportion of subjects with oxygen supply on days 7, 14, 21 and 29",
+          "description": "Percentage of subjects with oxygen supply",
+          "timeFrame": "On days 7, 14, 21 and 29"
+        },
+        {
+          "measure": "Days in intensive care unit (ICU) up to day 29",
+          "description": "Days in intensive care unit (ICU) up to day 29",
+          "timeFrame": "Up to day 29"
+        },
+        {
+          "measure": "Time to discharge from ICU",
+          "description": "Time to discharge from ICU",
+          "timeFrame": "Until day 91"
+        },
+        {
+          "measure": "Proportion of subjects in ICU on days 7, 14, 21 and 29",
+          "description": "Percentage of subjects in ICU",
+          "timeFrame": "On days 7, 14, 21, 29"
+        },
+        {
+          "measure": "Days of hospitalization up to day 29",
+          "description": "Days of hospitalization",
+          "timeFrame": "Up to day 29"
+        },
+        {
+          "measure": "Time to discharge from hospital",
+          "description": "Time to discharge from hospital",
+          "timeFrame": "Until day 91"
+        },
+        {
+          "measure": "Proportion of subjects in hospital on days 7, 14, 21 and 29",
+          "description": "Percentage of subjects in hospital",
+          "timeFrame": "On days 7, 14, 21, 29"
+        },
+        {
+          "measure": "28-day readmission rate",
+          "description": "Percentage of subjects readmitted to the hospital",
+          "timeFrame": "Day 29"
+        },
+        {
+          "measure": "Rate of unscheduled return(s) to the emergency department or primary physician between day 29 and day 91",
+          "description": "Percentage of subjects returning to the emergency department or primary physician",
+          "timeFrame": "Between Days 29 - 91"
+        },
+        {
+          "measure": "Time to return to normal activities up to day 91",
+          "description": "Time to return to normal activities",
+          "timeFrame": "Up to day 91"
+        },
+        {
+          "measure": "Health status based on Clinical Frailty Scale (CFS) on day 91",
+          "description": "Change in Health status from Baseline assessment based on Clinical Frailty Scale (score 1 very fit to score 9 terminally ill)",
+          "timeFrame": "Between Days 29 - 91"
+        },
+        {
+          "measure": "Adverse events (AEs), treatment-emergent AEs (TEAEs), AEs of special interest (AESIs), infusional TEAEs, TEAEs that led to permanent discontinuation of IMP and/or discontinuation of trial",
+          "description": "Number, severity, causality, outcome, and seriousness of all AEs and TEAEs, AESIs, infusional TEAEs, TEAEs that led to permanent discontinuation of IMP, and TEAEs that led to discontinuation of the trial",
+          "timeFrame": "Up to day 29"
+        },
+        {
+          "measure": "Infusion-related TEAEs",
+          "description": "Number of all infusion-related TEAEs",
+          "timeFrame": "Up to day 91"
+        },
+        {
+          "measure": "Serious adverse events (SAEs)",
+          "description": "Number, severity, causality, and outcome of all SAEs",
+          "timeFrame": "Up to day 29"
+        },
+        {
+          "measure": "Dose modifications",
+          "description": "Dose modifications (including reductions and changes in infusion rate)",
+          "timeFrame": "Day 1-5"
+        },
+        {
+          "measure": "Change over time in electrocardiogram (ECG) parameters",
+          "description": "ECG output (diagram including QT-interval and QTcF) showing abnormal, clinically relevant findings will be reported as adverse event",
+          "timeFrame": "Days -1, 1, 3, 5 and once between days 8-13"
+        },
+        {
+          "measure": "Number and changes in observed Adverse Events in vital signs over time",
+          "description": "Clinically significant changes in values of vital signs (including systolic and diastolic blood pressure, arterial oxygen saturation, heart rate, respiratory rate and body temperature) are rated as adverse events. The number of adverse events and changes in numbers of the adverse events over time will be reported",
+          "timeFrame": "Days -1, 1-5, 7, 14, 21, 29"
+        },
+        {
+          "measure": "Number and changes in observed Adverse Events in clinical laboratory parameters over time",
+          "description": "Clinically significant changes in clinical laboratory values (including chemistry, hematology and coagulation) are rated as adverse events. The number of adverse events and changes in numbers of the adverse events over time will be reported",
+          "timeFrame": "Days -1, 1-5, 7, 14, 21, 29"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Serum concentration of immunoglobulins",
+          "description": "Changes of serum concentration of IgM, IgA, and IgG from baseline, during and after treatment",
+          "timeFrame": "Day 1, 5, 14"
+        },
+        {
+          "measure": "Pharmacokinetic assessment of immunoglobulins",
+          "description": "Assessment of changes in serum concentrations (g/L) of IgM, IgA, and IgG before, during and after treatment",
+          "timeFrame": "Day 1, 2, 3, 4, 5, 6, 7, 9, 14, 21, 29"
+        },
+        {
+          "measure": "Pharmacodynamic assessment of disease related serum proteins",
+          "description": "Assessment of relative changes in serum concentrations from baseline, during and after treatment of factors and markers of coagulation (e.g. % change in D-dimer), markers of inflammation (e.g. % change in CRP), complement factors (e.g. % change in C3, C4), specific antibody titers against sCAP-related pathogens (e.g. % change in Streptococcus pneumoniae antibody titers)",
+          "timeFrame": "Day 1, 2, 3, 4, 5, 7, 14, 21, 29"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Main Inclusion Criteria:\n\n1. Written informed consent.\n2. Hospitalized, adult (≥ 18 years of age) subject.\n3. Signs of inflammation based on C-reactive protein threshold level.\n4. Diagnosis of active community-acquired pneumonia (CAP) before hospital-admission or within 48 hours after admission.\n5. Radiological (or other imaging technology) evidence consistent with active pneumonia.\n6. Acute respiratory failure requiring IMV.\n\nMain Exclusion Criteria:\n\n1. For an incapacitated subject: any indication that the subject's presumed will would be against inclusion in the trial.\n2. Pregnant or lactating women.\n3. Subjects of childbearing potential not willing to use reliable contraceptive measures during the trial and for 15 weeks after the last IMP treatment.\n4. Subjects on ECMO at start of IMP treatment.\n5. Suspected hospital-acquired pneumonia (HAP) including ventilator-associated pneumonia (VAP).\n6. Subjects discharged from hospital within the previous 14 days.\n7. Defined neutrophil counts up to one calendar day prior to start of IMP treatment.\n8. Defined platelet counts up to one calendar day prior to start of IMP treatment.\n9. Defined hemoglobin within up to one calendar day prior to start of IMP treatment.\n10. Pre-existing hemolytic disease.\n11. Thromboembolic events (TEEs) caused by other reasons than the current sCAP within 3 months before start of IMP treatment unless the risk for further TEEs can be adequately managed with standard prophylaxis or treatment.\n12. Severe renal impairment prior to start of IMP treatment.\n13. End-stage renal disease (ESRD) or known primary focal segmental glomerulosclerosis (FSGS).\n14. Pre-existing severe lung diseases concomitant to current sCAP (e.g. active tuberculosis, active lung cancer).\n15. Pre-existing decompensated heart failure.\n16. Pre-existing severe hepatic cirrhosis (Child Pugh score ≥ 10 points), or severe hepatic impairment (Child Pugh score ≥ 10 points), or hepatocellular carcinoma.\n17. Known intolerance to proteins of human origin or known allergic reactions to components of trimodulin / placebo.\n18. Selective immunoglobulin A (IgA) deficiency with known antibodies to IgA.\n19. Life expectancy of less than 90 days, according to the investigator's clinical judgment, because of medical conditions related neither to sCAP nor to sCAP-associated septic conditions.\n20. Morbid obesity with high body mass index (BMI) ≥ 40 kg/m2, or malnutrition with low BMI \\< 16 kg/m2.\n21. Treatment with polyvalent immunoglobulin preparations during the last 21 days before start of IMP treatment.\n22. Known treatment with predefined medications, during the last 2 days before start of IMP treatment.\n23. Hematopoietic stem cell transplantation or previous lung transplantation.\n24. Treatment with investigational medications/procedures not according to SoC of the trial site, due to participation in another interventional clinical trial within 30 days before start of IMP treatment, or previous treatment with IMP in this clinical trial.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Patrick Langohr",
+          "role": "CONTACT",
+          "phone": "+491732947122",
+          "email": "patrick.langohr@biotest.com"
+        },
+        {
+          "name": "Claudia Schulte",
+          "role": "CONTACT",
+          "phone": "+4915222801491",
+          "email": "claudia.schulte@biotest.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Ricard Ferrer Roca, Dr.",
+          "affiliation": "Hospital Vall d'Hebron",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Pulmonary Associates of Mobile, P.C.",
+          "status": "WITHDRAWN",
+          "city": "Mobile",
+          "state": "Alabama",
+          "zip": "36608",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.69436,
+            "lon": -88.04305
+          }
+        },
+        {
+          "facility": "University of California San Francisco-Fresno",
+          "status": "RECRUITING",
+          "city": "Fresno",
+          "state": "California",
+          "zip": "93701",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.74773,
+            "lon": -119.77237
+          }
+        },
+        {
+          "facility": "UC Davis Health",
+          "status": "WITHDRAWN",
+          "city": "Sacramento",
+          "state": "California",
+          "zip": "95817",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.58157,
+            "lon": -121.4944
+          }
+        },
+        {
+          "facility": "Augusta University",
+          "status": "WITHDRAWN",
+          "city": "Augusta",
+          "state": "Georgia",
+          "zip": "30912",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.47097,
+            "lon": -81.97484
+          }
+        },
+        {
+          "facility": "Sparrow Clinical Research Institute",
+          "status": "WITHDRAWN",
+          "city": "Lansing",
+          "state": "Michigan",
+          "zip": "48912",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.73253,
+            "lon": -84.55553
+          }
+        },
+        {
+          "facility": "William Beaumont Hospital",
+          "status": "WITHDRAWN",
+          "city": "Royal Oak",
+          "state": "Michigan",
+          "zip": "48073",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.48948,
+            "lon": -83.14465
+          }
+        },
+        {
+          "facility": "University of Missouri Clinical Research Center",
+          "status": "WITHDRAWN",
+          "city": "Columbia",
+          "state": "Missouri",
+          "zip": "65212",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.95171,
+            "lon": -92.33407
+          }
+        },
+        {
+          "facility": "Hannibal Clinic",
+          "status": "WITHDRAWN",
+          "city": "Hannibal",
+          "state": "Missouri",
+          "zip": "63401",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.70838,
+            "lon": -91.35848
+          }
+        },
+        {
+          "facility": "Mercury Street Medical Group",
+          "status": "WITHDRAWN",
+          "city": "Butte",
+          "state": "Montana",
+          "zip": "59701",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 46.00382,
+            "lon": -112.53474
+          }
+        },
+        {
+          "facility": "St. Michael's Medical Center",
+          "status": "WITHDRAWN",
+          "city": "Newark",
+          "state": "New Jersey",
+          "zip": "07102",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.73566,
+            "lon": -74.17237
+          }
+        },
+        {
+          "facility": "Buffalo VA Medical Center",
+          "status": "WITHDRAWN",
+          "city": "Buffalo",
+          "state": "New York",
+          "zip": "14215",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.88645,
+            "lon": -78.87837
+          }
+        },
+        {
+          "facility": "Lenox Hill Hospital",
+          "status": "RECRUITING",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10075-1850",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Wake Forest Baptist",
+          "status": "RECRUITING",
+          "city": "Winston-Salem",
+          "state": "North Carolina",
+          "zip": "27157",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.09986,
+            "lon": -80.24422
+          }
+        },
+        {
+          "facility": "University of Oklahoma Health Sciences Center",
+          "status": "WITHDRAWN",
+          "city": "Oklahoma City",
+          "state": "Oklahoma",
+          "zip": "73104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.46756,
+            "lon": -97.51643
+          }
+        },
+        {
+          "facility": "Jefferson University Hospitals",
+          "status": "WITHDRAWN",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19107",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Vanderbilt University Medical Center",
+          "status": "WITHDRAWN",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37232",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        },
+        {
+          "facility": "Medical City Fort Worth",
+          "status": "WITHDRAWN",
+          "city": "Fort Worth",
+          "state": "Texas",
+          "zip": "76104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.72541,
+            "lon": -97.32085
+          }
+        },
+        {
+          "facility": "Houston Methodist Hospital",
+          "status": "RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "University of Utah",
+          "status": "RECRUITING",
+          "city": "Salt Lake City",
+          "state": "Utah",
+          "zip": "84108",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.76078,
+            "lon": -111.89105
+          }
+        },
+        {
+          "facility": "Sanatorio Parque S.A. Privado",
+          "status": "WITHDRAWN",
+          "city": "San Vicente",
+          "state": "Córdoba Province",
+          "zip": "5006",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -31.85375,
+            "lon": -65.43037
+          }
+        },
+        {
+          "facility": "CEMIC",
+          "status": "RECRUITING",
+          "city": "Ciudad Autonoma de Buenos Aire",
+          "zip": "1431",
+          "country": "Argentina"
+        },
+        {
+          "facility": "Sanatorio de la Trinidad Mitre",
+          "status": "WITHDRAWN",
+          "city": "Ciudad Autonoma de Buenos Aire",
+          "zip": "C1039AAO",
+          "country": "Argentina"
+        },
+        {
+          "facility": "Hospital Italiano de Buenos Aires",
+          "status": "WITHDRAWN",
+          "city": "Ciudad Autonoma de Buenos Aire",
+          "zip": "C1181ACH",
+          "country": "Argentina"
+        },
+        {
+          "facility": "Hospital General de Agudos Dr. Ignacio Pirovano",
+          "status": "WITHDRAWN",
+          "city": "Ciudad Autonoma de Buenos Aire",
+          "zip": "C1430BKC",
+          "country": "Argentina"
+        },
+        {
+          "facility": "Clinica Adventista Belgrano",
+          "status": "WITHDRAWN",
+          "city": "Ciudad Autonoma de Buenos Aire",
+          "zip": "C1430EGF",
+          "country": "Argentina"
+        },
+        {
+          "facility": "Clinica Chutro",
+          "status": "WITHDRAWN",
+          "city": "Córdoba",
+          "zip": "5000",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -31.40648,
+            "lon": -64.18853
+          }
+        },
+        {
+          "facility": "Hospital San Roque",
+          "status": "RECRUITING",
+          "city": "Córdoba",
+          "zip": "5000",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -31.40648,
+            "lon": -64.18853
+          }
+        },
+        {
+          "facility": "Sanatorio Privado de la Canada - Cordoba",
+          "status": "WITHDRAWN",
+          "city": "Córdoba",
+          "zip": "X5000BSQ",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -31.40648,
+            "lon": -64.18853
+          }
+        },
+        {
+          "facility": "Centro Medico IPAM",
+          "status": "WITHDRAWN",
+          "city": "Rosario",
+          "zip": "S2001SBK",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -32.94682,
+            "lon": -60.63932
+          }
+        },
+        {
+          "facility": "Estudios Clinicos de los Arroyos",
+          "status": "RECRUITING",
+          "city": "San Nicolás",
+          "zip": "2900",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -31.43628,
+            "lon": -64.45288
+          }
+        },
+        {
+          "facility": "Sanatorio de la Canada",
+          "status": "RECRUITING",
+          "city": "Villa María",
+          "zip": "5900",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -32.40751,
+            "lon": -63.24016
+          }
+        },
+        {
+          "facility": "Princess Alexandra Hospital",
+          "status": "WITHDRAWN",
+          "city": "Woolloongabba",
+          "state": "Queensland",
+          "zip": "4102",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -27.48855,
+            "lon": 153.03655
+          }
+        },
+        {
+          "facility": "Monash Medical Centre",
+          "status": "RECRUITING",
+          "city": "Clayton",
+          "state": "Victoria",
+          "zip": "3168",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.91667,
+            "lon": 145.11667
+          }
+        },
+        {
+          "facility": "Sir Charles Gairdner Hospital",
+          "status": "RECRUITING",
+          "city": "Nedlands",
+          "state": "Western Australia",
+          "zip": "6009",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -31.98184,
+            "lon": 115.8073
+          }
+        },
+        {
+          "facility": "Footscray Hospital",
+          "status": "RECRUITING",
+          "city": "Footscray",
+          "zip": "3011",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.8,
+            "lon": 144.9
+          }
+        },
+        {
+          "facility": "Austin Health",
+          "status": "RECRUITING",
+          "city": "Heidelberg",
+          "zip": "3084",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.75,
+            "lon": 145.06667
+          }
+        },
+        {
+          "facility": "Sunshine Hospital",
+          "status": "RECRUITING",
+          "city": "Saint Albans",
+          "zip": "3021",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.73333,
+            "lon": 144.8
+          }
+        },
+        {
+          "facility": "KABEG-Klinikum Klagenfurt",
+          "status": "WITHDRAWN",
+          "city": "Klagenfurt",
+          "zip": "9020",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 46.62472,
+            "lon": 14.30528
+          }
+        },
+        {
+          "facility": "AKH - Medizinische Universität Wien",
+          "status": "WITHDRAWN",
+          "city": "Vienna",
+          "zip": "1090",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.20849,
+            "lon": 16.37208
+          }
+        },
+        {
+          "facility": "Onze Lieve Vrouw Ziekenhuis",
+          "status": "RECRUITING",
+          "city": "Aalst",
+          "zip": "9300",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.93604,
+            "lon": 4.0355
+          }
+        },
+        {
+          "facility": "AZ Sint-Jan",
+          "status": "RECRUITING",
+          "city": "Bruges",
+          "zip": "8000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.20892,
+            "lon": 3.22424
+          }
+        },
+        {
+          "facility": "Hopital Erasme",
+          "status": "RECRUITING",
+          "city": "Brussels",
+          "zip": "1070",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.85045,
+            "lon": 4.34878
+          }
+        },
+        {
+          "facility": "Cliniques Universitaires Saint-Luc",
+          "status": "RECRUITING",
+          "city": "Brussels",
+          "zip": "1200",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.85045,
+            "lon": 4.34878
+          }
+        },
+        {
+          "facility": "Antwerp University Hospital (UZA)",
+          "status": "RECRUITING",
+          "city": "Edegem",
+          "zip": "2650",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.15662,
+            "lon": 4.44504
+          }
+        },
+        {
+          "facility": "ZOL",
+          "status": "RECRUITING",
+          "city": "Genk",
+          "zip": "3600",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.965,
+            "lon": 5.50082
+          }
+        },
+        {
+          "facility": "AZ Maria Middelares",
+          "status": "RECRUITING",
+          "city": "Ghent",
+          "zip": "9000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.05,
+            "lon": 3.71667
+          }
+        },
+        {
+          "facility": "Universitair Ziekenhuis Brussel",
+          "status": "RECRUITING",
+          "city": "Jette",
+          "zip": "1090",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.87309,
+            "lon": 4.33419
+          }
+        },
+        {
+          "facility": "C. H. R. de la Citadelle",
+          "status": "RECRUITING",
+          "city": "Liège",
+          "zip": "4000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.63373,
+            "lon": 5.56749
+          }
+        },
+        {
+          "facility": "CHU Charleroi Hôpital Civil Marie Curie",
+          "status": "RECRUITING",
+          "city": "Lodelinsart",
+          "zip": "6042",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.43138,
+            "lon": 4.44886
+          }
+        },
+        {
+          "facility": "Clinique Saint-Pierre",
+          "status": "RECRUITING",
+          "city": "Ottignies",
+          "zip": "1340",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.66535,
+            "lon": 4.56679
+          }
+        },
+        {
+          "facility": "AZ Delta VZW",
+          "status": "RECRUITING",
+          "city": "Roeselare",
+          "zip": "8800",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.94653,
+            "lon": 3.12269
+          }
+        },
+        {
+          "facility": "UPECLIN - Unidade de Pesquisa Clínica",
+          "status": "RECRUITING",
+          "city": "Botucatu",
+          "zip": "18618-686",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.88583,
+            "lon": -48.445
+          }
+        },
+        {
+          "facility": "HMCP - Hospital e Maternidade Celso Pierro - PUC-Campinas",
+          "status": "WITHDRAWN",
+          "city": "Campinas",
+          "zip": "13060-904",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.90556,
+            "lon": -47.06083
+          }
+        },
+        {
+          "facility": "Hospital do Rocio",
+          "status": "RECRUITING",
+          "city": "Campo Largo",
+          "zip": "83606-177",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -25.45955,
+            "lon": -49.53014
+          }
+        },
+        {
+          "facility": "Universidade de Caxias do Sul, IPCEM - Instituto de Pesquisa Clínica para Estudos Multicêntricos",
+          "status": "RECRUITING",
+          "city": "Caxias do Sul",
+          "zip": "95070-560",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -29.16806,
+            "lon": -51.17944
+          }
+        },
+        {
+          "facility": "Hospital de Clínicas de Passo Fundo",
+          "status": "RECRUITING",
+          "city": "Passo Fundo",
+          "zip": "99010-260",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -28.26278,
+            "lon": -52.40667
+          }
+        },
+        {
+          "facility": "Irmandade da Santa Casa de Misericórdia de Porto Alegre",
+          "status": "RECRUITING",
+          "city": "Porto Alegre",
+          "zip": "90020-090",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Hospital de Clínicas de Porto Alegre",
+          "status": "WITHDRAWN",
+          "city": "Porto Alegre",
+          "zip": "90035-903",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Hospital Ernesto Dornelles",
+          "status": "RECRUITING",
+          "city": "Porto Alegre",
+          "zip": "90160-093",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "CIP - Centro Integrado de Pesquisa",
+          "status": "RECRUITING",
+          "city": "São José do Rio Preto",
+          "zip": "15090-000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -20.81972,
+            "lon": -49.37944
+          }
+        },
+        {
+          "facility": "Hospital Alemão Oswaldo Cruz",
+          "status": "WITHDRAWN",
+          "city": "São Paulo",
+          "zip": "01323-020",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Universidade Municipal de Sao Caetano do Sul (USCS)",
+          "status": "WITHDRAWN",
+          "city": "São Paulo",
+          "zip": "09530-700",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Fakultni nemocnice u sv. Anny v Brne",
+          "status": "RECRUITING",
+          "city": "Brno",
+          "zip": "65691",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 49.19522,
+            "lon": 16.60796
+          }
+        },
+        {
+          "facility": "Oblastni nemocnice Kolin a.s.",
+          "status": "RECRUITING",
+          "city": "Kolín",
+          "zip": "28002",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.02806,
+            "lon": 15.1998
+          }
+        },
+        {
+          "facility": "Hospital Kyjov",
+          "status": "RECRUITING",
+          "city": "Kyjov",
+          "zip": "69701",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 49.01018,
+            "lon": 17.12253
+          }
+        },
+        {
+          "facility": "Fakultni nemocnice Kralovske Vinohrady",
+          "status": "RECRUITING",
+          "city": "Prague",
+          "zip": "10034",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.08804,
+            "lon": 14.42076
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Victor Dupouy",
+          "status": "RECRUITING",
+          "city": "Argenteuil",
+          "zip": "95107",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.94788,
+            "lon": 2.24744
+          }
+        },
+        {
+          "facility": "Hôpital Louis Mourier",
+          "status": "WITHDRAWN",
+          "city": "Colombes",
+          "zip": "92700",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.91882,
+            "lon": 2.25404
+          }
+        },
+        {
+          "facility": "CHU de Grenoble - Hôpital Albert Michallon",
+          "status": "RECRUITING",
+          "city": "Grenoble",
+          "zip": "38043",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.17869,
+            "lon": 5.71479
+          }
+        },
+        {
+          "facility": "CHRU Lille - Hôpital Salengro",
+          "status": "WITHDRAWN",
+          "city": "Lille",
+          "zip": "59037",
+          "country": "France",
+          "geoPoint": {
+            "lat": 50.63391,
+            "lon": 3.05512
+          }
+        },
+        {
+          "facility": "CHU de Limoges - Hôpital Dupuytren",
+          "status": "WITHDRAWN",
+          "city": "Limoges",
+          "zip": "87000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.83362,
+            "lon": 1.24759
+          }
+        },
+        {
+          "facility": "Centre Hospitalier de Melun",
+          "status": "RECRUITING",
+          "city": "Melun",
+          "zip": "77000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.5457,
+            "lon": 2.65356
+          }
+        },
+        {
+          "facility": "CHU Nice-Hopital de l' Archet",
+          "status": "RECRUITING",
+          "city": "Nice",
+          "zip": "06202",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.70313,
+            "lon": 7.26608
+          }
+        },
+        {
+          "facility": "CHU Nice Hopital Pasteur 2",
+          "status": "RECRUITING",
+          "city": "Nice",
+          "zip": "6100",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.70313,
+            "lon": 7.26608
+          }
+        },
+        {
+          "facility": "Hôpital Bichat - Claude Bernard",
+          "status": "RECRUITING",
+          "city": "Paris",
+          "zip": "75018",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Groupe Hospitalier Diaconesses - Hopital De La Croix Saint Simon",
+          "status": "RECRUITING",
+          "city": "Paris",
+          "zip": "75020",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Hôpital Tenon",
+          "status": "RECRUITING",
+          "city": "Paris",
+          "zip": "75020",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Hôpital Cochin",
+          "status": "RECRUITING",
+          "city": "Paris",
+          "zip": "75679",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "CHU Reims - Hôpital Robert Debré",
+          "status": "RECRUITING",
+          "city": "Reims",
+          "zip": "51100",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.26526,
+            "lon": 4.02853
+          }
+        },
+        {
+          "facility": "CHU Rennes - Hôpital Pontchaillou",
+          "status": "RECRUITING",
+          "city": "Rennes",
+          "zip": "35000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.11109,
+            "lon": -1.67431
+          }
+        },
+        {
+          "facility": "CHU Saint-Etienne",
+          "status": "RECRUITING",
+          "city": "Saint-Etienne",
+          "zip": "42055",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.43389,
+            "lon": 4.39
+          }
+        },
+        {
+          "facility": "CHU Strasbourg - Nouvel Hôpital Civil",
+          "status": "RECRUITING",
+          "city": "Strasbourg",
+          "zip": "67091",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.58392,
+            "lon": 7.74553
+          }
+        },
+        {
+          "facility": "CHU Strasbourg - Hôpital Hautepierre",
+          "status": "WITHDRAWN",
+          "city": "Strasbourg",
+          "zip": "67098",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.58392,
+            "lon": 7.74553
+          }
+        },
+        {
+          "facility": "Hôpital Sainte Musse",
+          "status": "WITHDRAWN",
+          "city": "Toulon",
+          "zip": "83056",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.12442,
+            "lon": 5.92836
+          }
+        },
+        {
+          "facility": "CHU Tours - Hôpital Bretonneau",
+          "status": "WITHDRAWN",
+          "city": "Tours",
+          "zip": "37000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.39484,
+            "lon": 0.70398
+          }
+        },
+        {
+          "facility": "Hôpital Nord Franche-Comté",
+          "status": "RECRUITING",
+          "city": "Trévenans",
+          "zip": "90400",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.56667,
+            "lon": 6.86667
+          }
+        },
+        {
+          "facility": "Charité Universitätsmedizin Berlin - Campus Charité Mitte",
+          "status": "WITHDRAWN",
+          "city": "Berlin",
+          "zip": "10117",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Universitaetsklinikum Essen",
+          "status": "RECRUITING",
+          "city": "Essen",
+          "zip": "45147",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.45657,
+            "lon": 7.01228
+          }
+        },
+        {
+          "facility": "Universitaetsklinikum Freiburg",
+          "status": "RECRUITING",
+          "city": "Freiburg im Breisgau",
+          "zip": "79106",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 47.9959,
+            "lon": 7.85222
+          }
+        },
+        {
+          "facility": "Universitätsklinikum Hamburg-Eppendorf",
+          "status": "WITHDRAWN",
+          "city": "Hamburg",
+          "zip": "20246",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.55073,
+            "lon": 9.99302
+          }
+        },
+        {
+          "facility": "Medizinische Hochschule Hannover",
+          "status": "WITHDRAWN",
+          "city": "Hanover",
+          "zip": "30625",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.37052,
+            "lon": 9.73322
+          }
+        },
+        {
+          "facility": "Bugat Pal Korhaz",
+          "status": "WITHDRAWN",
+          "city": "Gyöngyös",
+          "zip": "3200",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.78257,
+            "lon": 19.928
+          }
+        },
+        {
+          "facility": "Bekes Megyei Kozponti Korhaz Pandy Kalman Tagkorhaza",
+          "status": "WITHDRAWN",
+          "city": "Gyula",
+          "zip": "5700",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.65,
+            "lon": 21.28333
+          }
+        },
+        {
+          "facility": "Pest Megyei Flor Ferenc Korhaz",
+          "status": "WITHDRAWN",
+          "city": "Kistarcsa",
+          "zip": "2143",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.54757,
+            "lon": 19.26247
+          }
+        },
+        {
+          "facility": "Aneszteziologiai es Intenziv Terapias Intezet",
+          "status": "WITHDRAWN",
+          "city": "Pécs",
+          "zip": "7624",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.07617,
+            "lon": 18.22814
+          }
+        },
+        {
+          "facility": "Szegedi Tudomanyegyetem Szent-Gyorgyi Albert Klinikai Kozpont",
+          "status": "WITHDRAWN",
+          "city": "Szeged",
+          "zip": "6725",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.253,
+            "lon": 20.14824
+          }
+        },
+        {
+          "facility": "Fejer Megyei Szent Gyorgy Egyetemi Oktato Korhaz",
+          "status": "RECRUITING",
+          "city": "Székesfehérvár",
+          "zip": "8000",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.18995,
+            "lon": 18.41034
+          }
+        },
+        {
+          "facility": "St James's Hospital",
+          "status": "RECRUITING",
+          "city": "Dublin",
+          "zip": "D08NYH1",
+          "country": "Ireland",
+          "geoPoint": {
+            "lat": 53.33306,
+            "lon": -6.24889
+          }
+        },
+        {
+          "facility": "Beaumont Hospital",
+          "status": "RECRUITING",
+          "city": "Dublin",
+          "zip": "D09 V2N0",
+          "country": "Ireland",
+          "geoPoint": {
+            "lat": 53.33306,
+            "lon": -6.24889
+          }
+        },
+        {
+          "facility": "St Vincents University Hospital",
+          "status": "RECRUITING",
+          "city": "Dublin",
+          "zip": "Dublin 4",
+          "country": "Ireland",
+          "geoPoint": {
+            "lat": 53.33306,
+            "lon": -6.24889
+          }
+        },
+        {
+          "facility": "University Hospital Galway",
+          "status": "RECRUITING",
+          "city": "Galway",
+          "zip": "H91YR71",
+          "country": "Ireland",
+          "geoPoint": {
+            "lat": 53.27245,
+            "lon": -9.05095
+          }
+        },
+        {
+          "facility": "Soroka Medical Center",
+          "status": "RECRUITING",
+          "city": "Beersheba",
+          "zip": "8410101",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 31.25181,
+            "lon": 34.7913
+          }
+        },
+        {
+          "facility": "Bnai Zion Medical Center",
+          "status": "RECRUITING",
+          "city": "Haifa",
+          "zip": "31048",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.81303,
+            "lon": 34.99928
+          }
+        },
+        {
+          "facility": "Rambam Medical Center",
+          "status": "RECRUITING",
+          "city": "Haifa",
+          "zip": "31096",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.81303,
+            "lon": 34.99928
+          }
+        },
+        {
+          "facility": "The Lady Davis Carmel Medical Center",
+          "status": "RECRUITING",
+          "city": "Haifa",
+          "zip": "3436212",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.81303,
+            "lon": 34.99928
+          }
+        },
+        {
+          "facility": "Rabin Medical Center",
+          "status": "RECRUITING",
+          "city": "Petah Tikva",
+          "zip": "4941492",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.08707,
+            "lon": 34.88747
+          }
+        },
+        {
+          "facility": "Kaplan Medical Center",
+          "status": "RECRUITING",
+          "city": "Rehovot",
+          "zip": "761001",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 31.89421,
+            "lon": 34.81199
+          }
+        },
+        {
+          "facility": "Tel Aviv Sourasky Medical Center",
+          "status": "RECRUITING",
+          "city": "Tel Aviv",
+          "zip": "64239",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.08088,
+            "lon": 34.78057
+          }
+        },
+        {
+          "facility": "Middlemore Hospital",
+          "status": "RECRUITING",
+          "city": "Otahuhu",
+          "zip": "2025",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -36.9382,
+            "lon": 174.84019
+          }
+        },
+        {
+          "facility": "Capital, Coast and Hutt Valley District - Wellington Regional Hospital",
+          "status": "RECRUITING",
+          "city": "Wellington",
+          "zip": "6021",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -41.28664,
+            "lon": 174.77557
+          }
+        },
+        {
+          "facility": "Baguio General Hospital and Medical Center",
+          "status": "RECRUITING",
+          "city": "Baguio City",
+          "zip": "2600",
+          "country": "Philippines",
+          "geoPoint": {
+            "lat": 16.41639,
+            "lon": 120.59306
+          }
+        },
+        {
+          "facility": "Dr. Jose N. Rodriguez Memorial Hospital",
+          "status": "RECRUITING",
+          "city": "Caloocan",
+          "zip": "1427",
+          "country": "Philippines",
+          "geoPoint": {
+            "lat": 14.64953,
+            "lon": 120.96788
+          }
+        },
+        {
+          "facility": "Davao Doctors Hospital",
+          "status": "WITHDRAWN",
+          "city": "Davao City",
+          "zip": "8000",
+          "country": "Philippines",
+          "geoPoint": {
+            "lat": 7.07306,
+            "lon": 125.61278
+          }
+        },
+        {
+          "facility": "Southern Philippines Medical Center",
+          "status": "RECRUITING",
+          "city": "Davao City",
+          "zip": "8000",
+          "country": "Philippines",
+          "geoPoint": {
+            "lat": 7.07306,
+            "lon": 125.61278
+          }
+        },
+        {
+          "facility": "St.Paul's Hospital",
+          "status": "WITHDRAWN",
+          "city": "Iloilo City",
+          "zip": "5000",
+          "country": "Philippines",
+          "geoPoint": {
+            "lat": 10.69694,
+            "lon": 122.56444
+          }
+        },
+        {
+          "facility": "West Visayas State University Medical Center",
+          "status": "RECRUITING",
+          "city": "Iloilo City",
+          "zip": "5000",
+          "country": "Philippines",
+          "geoPoint": {
+            "lat": 10.69694,
+            "lon": 122.56444
+          }
+        },
+        {
+          "facility": "Philippine General Hospital",
+          "status": "RECRUITING",
+          "city": "Manila",
+          "zip": "1000",
+          "country": "Philippines",
+          "geoPoint": {
+            "lat": 14.6042,
+            "lon": 120.9822
+          }
+        },
+        {
+          "facility": "Lung Center of the Philippines",
+          "status": "RECRUITING",
+          "city": "Quezon City",
+          "zip": "1100",
+          "country": "Philippines",
+          "geoPoint": {
+            "lat": 14.6488,
+            "lon": 121.0509
+          }
+        },
+        {
+          "facility": "Institutul Clinic Fundeni",
+          "status": "WITHDRAWN",
+          "city": "Bucharest",
+          "zip": "022328",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 44.43225,
+            "lon": 26.10626
+          }
+        },
+        {
+          "facility": "Spitalul Universitar de Urgenta Bucuresti",
+          "status": "RECRUITING",
+          "city": "Bucharest",
+          "zip": "050098",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 44.43225,
+            "lon": 26.10626
+          }
+        },
+        {
+          "facility": "Spitalul Clinic Judetean de Urgenta \"Pius Brinzeu\"",
+          "status": "RECRUITING",
+          "city": "Timișoara",
+          "zip": "300723",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 45.75372,
+            "lon": 21.22571
+          }
+        },
+        {
+          "facility": "Johese Clinical Research",
+          "status": "RECRUITING",
+          "city": "Centurion",
+          "state": "Gauteng",
+          "zip": "0157",
+          "country": "South Africa",
+          "geoPoint": {
+            "lat": -25.85891,
+            "lon": 28.18577
+          }
+        },
+        {
+          "facility": "Emmed Clinical Research",
+          "status": "WITHDRAWN",
+          "city": "Pretoria",
+          "state": "Gauteng",
+          "zip": "0002",
+          "country": "South Africa",
+          "geoPoint": {
+            "lat": -25.74486,
+            "lon": 28.18783
+          }
+        },
+        {
+          "facility": "Into Research",
+          "status": "WITHDRAWN",
+          "city": "Pretoria",
+          "state": "Gauteng",
+          "zip": "0181",
+          "country": "South Africa",
+          "geoPoint": {
+            "lat": -25.74486,
+            "lon": 28.18783
+          }
+        },
+        {
+          "facility": "Worthwhile Clinical Trials",
+          "status": "WITHDRAWN",
+          "city": "Johannesburg",
+          "zip": "1500",
+          "country": "South Africa",
+          "geoPoint": {
+            "lat": -26.20227,
+            "lon": 28.04363
+          }
+        },
+        {
+          "facility": "RYEXO Clinical Research Zuid Afrikaans Hospital",
+          "status": "WITHDRAWN",
+          "city": "Pretoria",
+          "zip": "0002",
+          "country": "South Africa",
+          "geoPoint": {
+            "lat": -25.74486,
+            "lon": 28.18783
+          }
+        },
+        {
+          "facility": "RYEXO Clinical Research",
+          "status": "TERMINATED",
+          "city": "Pretoria",
+          "zip": "0184",
+          "country": "South Africa",
+          "geoPoint": {
+            "lat": -25.74486,
+            "lon": 28.18783
+          }
+        },
+        {
+          "facility": "Dr JM Engelbrecht Trial Site",
+          "status": "RECRUITING",
+          "city": "Somerset West",
+          "zip": "7130",
+          "country": "South Africa",
+          "geoPoint": {
+            "lat": -34.08401,
+            "lon": 18.82113
+          }
+        },
+        {
+          "facility": "Hospital Clinic de Barcelona",
+          "status": "RECRUITING",
+          "city": "Barcelona",
+          "zip": "08036",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital de la Santa Creu i de Sant Pau",
+          "status": "RECRUITING",
+          "city": "Barcelona",
+          "zip": "08041",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Universitari Vall d'Hebrón",
+          "status": "RECRUITING",
+          "city": "Barcelona",
+          "zip": "8035",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Universitari de Bellvitge",
+          "status": "RECRUITING",
+          "city": "Barcelona",
+          "zip": "8907",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Universitario Reina Sofia",
+          "status": "RECRUITING",
+          "city": "Córdoba",
+          "zip": "14004",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.89155,
+            "lon": -4.77275
+          }
+        },
+        {
+          "facility": "Hospital Universitari de Girona Dr Josep Trueta",
+          "status": "RECRUITING",
+          "city": "Girona",
+          "zip": "17007",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.98311,
+            "lon": 2.82493
+          }
+        },
+        {
+          "facility": "Hospital Universitario Clinico San Carlos",
+          "status": "RECRUITING",
+          "city": "Madrid",
+          "zip": "28040",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Universitario La Paz",
+          "status": "WITHDRAWN",
+          "city": "Madrid",
+          "zip": "28046",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Universitario Puerta de Hierro Majadahonda",
+          "status": "WITHDRAWN",
+          "city": "Majadahonda",
+          "zip": "28222",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.47353,
+            "lon": -3.87182
+          }
+        },
+        {
+          "facility": "Hospital Universitario Son Espases",
+          "status": "RECRUITING",
+          "city": "Palma de Mallorca",
+          "zip": "07120",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.56939,
+            "lon": 2.65024
+          }
+        },
+        {
+          "facility": "Clinica Universidad de Navarra",
+          "status": "RECRUITING",
+          "city": "Pamplona",
+          "zip": "31008",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.81687,
+            "lon": -1.64323
+          }
+        },
+        {
+          "facility": "Hospital Universitari de Tarragona Joan XXIII",
+          "status": "RECRUITING",
+          "city": "Tarragona",
+          "zip": "43007",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.11905,
+            "lon": 1.24544
+          }
+        },
+        {
+          "facility": "Hospital Universitari Mutua de Terrassa",
+          "status": "RECRUITING",
+          "city": "Terrassa",
+          "zip": "8221",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.56667,
+            "lon": 2.01667
+          }
+        },
+        {
+          "facility": "Hospital Universitari i Politecnic La Fe",
+          "status": "WITHDRAWN",
+          "city": "Valencia",
+          "zip": "46026",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Queen Elizabeth University Campus",
+          "status": "RECRUITING",
+          "city": "Glasgow",
+          "zip": "G11 6NT",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 55.86515,
+            "lon": -4.25763
+          }
+        },
+        {
+          "facility": "Royal Surrey County Hospital",
+          "status": "WITHDRAWN",
+          "city": "Guildford",
+          "zip": "GU2 7XX",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.23536,
+            "lon": -0.57427
+          }
+        },
+        {
+          "facility": "St Thomas' Hospital",
+          "status": "RECRUITING",
+          "city": "London",
+          "zip": "SE1 7EH",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "Derriford Hospital",
+          "status": "RECRUITING",
+          "city": "Plymouth",
+          "zip": "PL6 8DH",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 50.37153,
+            "lon": -4.14305
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000098968",
+          "term": "Community-Acquired Pneumonia"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017714",
+          "term": "Community-Acquired Infections"
+        },
+        {
+          "id": "D007239",
+          "term": "Infections"
+        },
+        {
+          "id": "D011014",
+          "term": "Pneumonia"
+        },
+        {
+          "id": "D012141",
+          "term": "Respiratory Tract Infections"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000723513",
+          "term": "trimodulin"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,2307 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04434664",
+      "orgStudyIdInfo": {
+        "id": "833517"
+      },
+      "organization": {
+        "fullName": "University of Pennsylvania",
+        "class": "OTHER"
+      },
+      "briefTitle": "BLOCKade of Calcium Channels and Beta Adrenergic Receptors for the Treatment of Hypertension in HFpEF",
+      "officialTitle": "BLOCKade of Calcium Channels and Beta Adrenergic Receptors for the Treatment of Hypertension in Heart Failure With Preserved Ejection Fraction (BLOCK HFpEF) Trial",
+      "acronym": "BLOCK HFpEF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-12-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-12-03",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-12-20",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2020-06-10",
+      "studyFirstSubmitQcDate": "2020-06-12",
+      "studyFirstPostDateStruct": {
+        "date": "2020-06-17",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2025-11-17",
+      "resultsFirstSubmitQcDate": "2026-01-20",
+      "resultsFirstPostDateStruct": {
+        "date": "2026-01-30",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-20",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-30",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Jordana Cohen, MD, MSCE",
+        "investigatorTitle": "Assistant Professor of Medicine and Epidemiology",
+        "investigatorAffiliation": "University of Pennsylvania"
+      },
+      "leadSponsor": {
+        "name": "University of Pennsylvania",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Heart failure with preserved ejection fraction (HFpEF) is a critical public health problem. Heart failure (HF) affects over 5 million adults in the United States (US), and is a major source of morbidity, mortality, and impaired quality of life. Approximately half of individuals with HF have a preserved left ventricular (LV) ejection fraction (EF), termed HF with preserved EF (HFpEF). While there are several effective pharmacologic therapies for HF with reduced ejection fraction (HFrEF), none have been identified for HFpEF. Hypertension, which is present in approximately 80% of individuals with HFpEF, is the foremost modifiable risk factor for the development and progression of HFpEF. Despite the clinical importance of hypertension in HFpEF, there is limited information on how common antihypertensive agents, particularly calcium channel blockers (CCBs) and β-blockers, effect pathophysiologic mechanisms of HFpEF. This is a mechanistic investigation of the role of dihydropyridine CCBs compared to β-blockers (commonly used antihypertensive agents in clinical practice) in targeting key physiologic abnormalities in HFpEF."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Preserved Ejection Fraction",
+        "Hypertension"
+      ],
+      "keywords": [
+        "Calcium channel blocker",
+        "Beta-blocker"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "For blinding, tablets are placed into oral gelatin capsules with an inert filler (lactose monohydrate). Blinding is performed and maintained by the University of Pennsylvania Investigational Drug Service.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 50,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Amlodipine besylate",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Initial dose 5mg (1 capsule) daily, titrated up to 10mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use",
+          "interventionNames": [
+            "Drug: Amlodipine Besylate"
+          ]
+        },
+        {
+          "label": "Metoprolol succinate",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Initial dose 100mg (1 capsule) daily, titrated up to 200mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use",
+          "interventionNames": [
+            "Drug: Metoprolol Succinate"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Amlodipine Besylate",
+          "description": "The interventions will be implemented in random order in a crossover (AB-BA) design, separated by an approximately one-week washout period",
+          "armGroupLabels": [
+            "Amlodipine besylate"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Metoprolol Succinate",
+          "description": "The interventions will be implemented in random order in a crossover (AB-BA) design, separated by an approximately one-week washout period",
+          "armGroupLabels": [
+            "Metoprolol succinate"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Difference in Home Systolic Blood Pressure",
+          "description": "The difference in home systolic blood pressure between treatments was determined using a single summary value per participant per intervention period, calculated as the mean of all available home systolic BP readings obtained during the final week of each intervention period. Home BP monitoring was performed using the same validated device model (Microlife BP 3MX1-4 WatchBP Home N), with three consecutive measurements taken in the morning and evening each day over the seven-day period.",
+          "timeFrame": "Measured during the last week of each of the two 4-week intervention phases"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Difference in Home Diastolic Blood Pressure",
+          "description": "The difference in home diastolic blood pressure between treatments was determined using a single summary value per participant per intervention period, calculated as the mean of all available home diastolic BP readings obtained during the final week of each intervention period. Home BP monitoring was performed using the same validated device model (Microlife BP 3MX1-4 WatchBP Home N), with three consecutive measurements taken in the morning and evening each day over the seven-day period.",
+          "timeFrame": "Measured during the last week of each of the two 4-week intervention phases"
+        },
+        {
+          "measure": "Difference in Office Systolic Blood Pressure",
+          "description": "Blood pressure will be measured at rest with a validated oscillometric device (Uscom BP+/UM-211).",
+          "timeFrame": "Measured at the end of each of the two 4-week intervention phases"
+        },
+        {
+          "measure": "Difference in Office Diastolic Blood Pressure",
+          "description": "Blood pressure will be measured at rest with a validated oscillometric device (Uscom BP+/UM-211).",
+          "timeFrame": "Measured at the end of each of the two 4-week intervention phases"
+        },
+        {
+          "measure": "Difference in Peak Oxygen Consumption (VO2) During a Maximal Exercise Test",
+          "description": "We will use a supine cycle ergometer in conjunction with expired gas analysis to assess oxygen consumption (VO2) during exercise. Subjects will perform a maximal exertion-limited exercise test using a graded-exercise protocol.",
+          "timeFrame": "Measured at the end of each of the two 4-week intervention phases"
+        },
+        {
+          "measure": "Difference in Quality of Life",
+          "description": "Quality of life will be assessed with the Kansas City Cardiomyopathy Questionnaire. The responses are categorized under 3 subscales (symptom burden, physical limitation and quality of life) with a range of possible subscale scores from 0 to 100. The total score will be calculated as the mean of the three subscale scores. A mean score of 100 represents the least symptoms and 0 represents the worst symptoms.",
+          "timeFrame": "Measured at the end of each of the two 4-week intervention phases"
+        },
+        {
+          "measure": "Difference in Systemic Vasodilatory Response to Exercise",
+          "description": "Systemic vascular resistance (SVR) will be calculated at rest and at peak exercise as mean arterial pressure / cardiac output. Systemic vasodilatory reserve will be measured as the percentage reduction in SVR during exercise, relative to SVR at rest (\\[rest SVR - peak exercise SVR\\] / rest SVR) x 100%.",
+          "timeFrame": "Measured at the end of each of the two 4-week intervention phases"
+        },
+        {
+          "measure": "Difference in Arterial Wave Reflections",
+          "description": "Arterial wave reflections will be assessed using radial artery pressure waveforms obtained with a high-fidelity applanation tonometer. Waveforms will be calibrated using brachial mean and diastolic blood pressure. Forward and backward pressure wave components will be derived using wave separation analysis, and arterial wave reflection magnitude will be quantified as the ratio of backward to forward pressure wave amplitudes (unitless ratio). Change from baseline will be reported.",
+          "timeFrame": "Measured at the end of each of the two 4-week intervention phases"
+        },
+        {
+          "measure": "Difference in Large Artery Stiffness",
+          "description": "Large artery stiffness will be assessed by measuring carotid-femoral pulse wave velocity using arterial applanation tonometry. Pulse wave velocity will be calculated as the distance between the carotid and femoral recording sites divided by the transit time of the arterial pressure waveform.",
+          "timeFrame": "Measured at the end of each of the two 4-week intervention phases"
+        },
+        {
+          "measure": "Difference in Left Ventricular Filling Pressure",
+          "description": "We will assess the ratio of early diastolic mitral inflow velocity (E) to mitral annular tissue velocity (e'; a surrogate of LV filling pressures) on echocardiography",
+          "timeFrame": "Measured at the end of each of the two 4-week intervention phases"
+        },
+        {
+          "measure": "Difference in Myocardial Strain",
+          "description": "Left ventricular systolic function will be assessed by global longitudinal myocardial strain measured using two-dimensional speckle-tracking echocardiography. Strain will be calculated as the peak systolic percentage change in myocardial length from end-diastole to end-systole, expressed as a percentage.",
+          "timeFrame": "Measured at the end of each of the two 4-week intervention phases"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Adults age 18-90 years\n2. Diagnosis of hypertension defined by at least two of the following: A) ICD-9 (401.0-404.91) or ICD-10 (I10-I13) codes signifying hypertension; B) Treatment with antihypertensive medication other than a loop diuretic for at least two months; C) History of previous blood pressure readings ≥130/80 mmHg at two separate office visits\n3. Stable antihypertensive therapy; defined as no changes in antihypertensive medications in the preceding 30 days\n4. A diagnosis of heart failure\n5. LV ejection fraction \\>50%\n6. Elevated filling pressures defined by at least one of the following criteria: A) Mitral E/e' ratio (lateral or septal) \\>8 with low e' velocity (septal e' \\<7 cm/s or lateral e' \\<10 cm/s) and at least one of the following: a. Enlarged left atrium (LA volume index \\>34 ml/m2); b. Chronic loop diuretic use for management of symptoms; c. Elevated natriuretic peptides (BNP levels \\>100 ng/L or NT-proBNP levels \\>300 ng/L); B) Mitral E/e' ratio (lateral or septal) \\>14; C) Previously elevated invasively determined filling pressures based on one of the following criteria: a. Resting LVEDP \\>16 mmHg; b. Mean PCWP \\>12 mmHg; c. PCWP or LVEDP ≥25 mmHg with exercise; D) Previous acutely decompensated heart failure requiring IV diuretics;\n\nExclusion Criteria:\n\n1. Systolic BP meeting any of the following criteria: A) Current office systolic BP \\<100 mmHg; B) Current office systolic BP 100-119 mmHg if not receiving treatment with an antihypertensive agent or if holding antihypertensive medication prior to randomization would be clinically contraindicated, as per the investigator's clinical judgement; C) Current office systolic BP ≥180 mmHg if not receiving treatment with a CCB or β-blocker, or ≥160 mmHg if already receiving a CCB and/or β-blocker prior to the pre-randomization wash-out period; D) Orthostatic hypotension defined as \\>20 mmHg decline in office systolic BP 3-5 minutes following the transition from sitting to standing position\n2. Resting heart rate \\<50 or \\>100 bpm\n3. Contraindication to withholding CCB or β-blocker therapy (e.g. use of non-dihydropyridine CCB \\[diltiazem or verapamil\\] or β-blocker for rate control for atrial fibrillation) as per the investigator's clinical judgement\n4. Children, fetuses, neonates, prisoners, and pregnant women (women of childbearing age will undergo a pregnancy test during the screening visit) are not included in this research study.\n5. Inability/unwillingness to exercise\n6. Any the following echocardiographic findings: A) LV ejection fraction \\<45% on any prior echocardiogram, unless it was in the setting of uncontrolled atrial fibrillation; B) Hypertrophic, infiltrative, or inflammatory cardiomyopathy; C) Clinically significant pericardial disease, as per investigator judgment; D) Moderate or greater left-sided valvular disease, any degree of mitral stenosis, or prosthetic mitral valve; E) Severe right-sided valvular disease; F) Severe right ventricular dysfunction\n7. Active coronary artery disease, defined as any of the following: A) Acute coronary syndrome or coronary intervention in the past 2 months; B) Ischemia on stress testing without either subsequent revascularization or a subsequent angiogram demonstrating the absence of clinically significant epicardial coronary artery disease, as per investigator judgement\n8. Clinically significant lung disease, defined as any of the following: A) Chronic Obstructive Pulmonary Disease meeting GOLD criteria stage III or greater; B) Treatment with oral steroids within the past 6 months for an exacerbation of obstructive lung disease; C) The use of daytime supplemental oxygen\n9. Primary pulmonary arteriopathy\n10. eGFR \\<30 mL/min/1.73m2\n11. Any medical condition that, under the investigator's discretion, will interfere with safe completion of the study or validity of the endpoint assessments\n12. Known history of an allergy or clinically significant sensitivity (as determined by the investigator) to either amlodipine besylate or metoprolol succinate",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "90 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Hospital of the University of Pennsylvania",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "31926856",
+          "type": "BACKGROUND",
+          "citation": "Cohen JB, Schrauben SJ, Zhao L, Basso MD, Cvijic ME, Li Z, Yarde M, Wang Z, Bhattacharya PT, Chirinos DA, Prenner S, Zamani P, Seiffert DA, Car BD, Gordon DA, Margulies K, Cappola T, Chirinos JA. Clinical Phenogroups in Heart Failure With Preserved Ejection Fraction: Detailed Phenotypes, Prognosis, and Response to Spironolactone. JACC Heart Fail. 2020 Mar;8(3):172-184. doi: 10.1016/j.jchf.2019.09.009. Epub 2020 Jan 8."
+        },
+        {
+          "pmid": "23103044",
+          "type": "BACKGROUND",
+          "citation": "Chirinos JA, Kips JG, Jacobs DR Jr, Brumback L, Duprez DA, Kronmal R, Bluemke DA, Townsend RR, Vermeersch S, Segers P. Arterial wave reflections and incident cardiovascular events and heart failure: MESA (Multiethnic Study of Atherosclerosis). J Am Coll Cardiol. 2012 Nov 20;60(21):2170-7. doi: 10.1016/j.jacc.2012.07.054. Epub 2012 Oct 24."
+        },
+        {
+          "pmid": "20733089",
+          "type": "BACKGROUND",
+          "citation": "Chirinos JA, Segers P. Noninvasive evaluation of left ventricular afterload: part 1: pressure and flow measurements and basic principles of wave conduction and reflection. Hypertension. 2010 Oct;56(4):555-62. doi: 10.1161/HYPERTENSIONAHA.110.157321. Epub 2010 Aug 23."
+        },
+        {
+          "pmid": "20733088",
+          "type": "BACKGROUND",
+          "citation": "Chirinos JA, Segers P. Noninvasive evaluation of left ventricular afterload: part 2: arterial pressure-flow and pressure-volume relations in humans. Hypertension. 2010 Oct;56(4):563-70. doi: 10.1161/HYPERTENSIONAHA.110.157339. Epub 2010 Aug 23."
+        },
+        {
+          "pmid": "25533966",
+          "type": "BACKGROUND",
+          "citation": "Zamani P, Rawat D, Shiva-Kumar P, Geraci S, Bhuva R, Konda P, Doulias PT, Ischiropoulos H, Townsend RR, Margulies KB, Cappola TP, Poole DC, Chirinos JA. Effect of inorganic nitrate on exercise capacity in heart failure with preserved ejection fraction. Circulation. 2015 Jan 27;131(4):371-80; discussion 380. doi: 10.1161/CIRCULATIONAHA.114.012957. Epub 2014 Dec 22."
+        },
+        {
+          "pmid": "27927683",
+          "type": "BACKGROUND",
+          "citation": "Zamani P, Tan V, Soto-Calderon H, Beraun M, Brandimarto JA, Trieu L, Varakantam S, Doulias PT, Townsend RR, Chittams J, Margulies KB, Cappola TP, Poole DC, Ischiropoulos H, Chirinos JA. Pharmacokinetics and Pharmacodynamics of Inorganic Nitrate in Heart Failure With Preserved Ejection Fraction. Circ Res. 2017 Mar 31;120(7):1151-1161. doi: 10.1161/CIRCRESAHA.116.309832. Epub 2016 Dec 7."
+        },
+        {
+          "pmid": "30827125",
+          "type": "BACKGROUND",
+          "citation": "Muntner P, Shimbo D, Carey RM, Charleston JB, Gaillard T, Misra S, Myers MG, Ogedegbe G, Schwartz JE, Townsend RR, Urbina EM, Viera AJ, White WB, Wright JT Jr. Measurement of Blood Pressure in Humans: A Scientific Statement From the American Heart Association. Hypertension. 2019 May;73(5):e35-e66. doi: 10.1161/HYP.0000000000000087."
+        },
+        {
+          "pmid": "20409919",
+          "type": "BACKGROUND",
+          "citation": "White WB, Krishnan S, Giacco S, Mallareddy M. Effects of metoprolol succinate extended release vs. amlodipine besylate on the blood pressure, heart rate, and the rate-pressure product in patients with hypertension. J Am Soc Hypertens. 2008 Sep-Oct;2(5):378-84. doi: 10.1016/j.jash.2008.03.002. Epub 2008 Jun 5."
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Amlodipine Besylate, Then Metoprolol Succinate",
+          "description": "Drug: Amlodipine besylate, initial dose 5mg (1 capsule) daily, titrated up to 10mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use.\n\nDrug: Metoprolol succinate. Initial dose 100mg (1 capsule) daily, titrated up to 200mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use"
+        },
+        {
+          "id": "FG001",
+          "title": "Metoprolol Succinate, Then Amlodipine Besylate",
+          "description": "Drug: Metoprolol succinate, initial dose 100mg (1 capsule) daily, titrated up to 200mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use.\n\nDrug: Amlodipine besylate, initial dose 5mg (1 capsule) daily, titrated up to 10mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use"
+        }
+      ],
+      "periods": [
+        {
+          "title": "First Intervention (4 weeks)",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "25"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "25"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "23"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "22"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Washout (one week)",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "23"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "22"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "23"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "22"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Second Intervention (4 weeks)",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "23"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "22"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "23"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "22"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Amlodipine Besylate, Then Metoprolol Succinate",
+          "description": "Drug: Amlodipine besylate, initial dose 5mg (1 capsule) daily, titrated up to 10mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use.\n\nDrug: Metoprolol succinate. Initial dose 100mg (1 capsule) daily, titrated up to 200mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use"
+        },
+        {
+          "id": "BG001",
+          "title": "Metoprolol Succinate, Then Amlodipine Besylate",
+          "description": "Drug: Metoprolol succinate, initial dose 100mg (1 capsule) daily, titrated up to 200mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use.\n\nDrug: Amlodipine besylate, initial dose 5mg (1 capsule) daily, titrated up to 10mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use"
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "25"
+            },
+            {
+              "groupId": "BG001",
+              "value": "25"
+            },
+            {
+              "groupId": "BG002",
+              "value": "50"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "72",
+                      "spread": "10"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "73",
+                      "spread": "9"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "72",
+                      "spread": "9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "21"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "34"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "16"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "33"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "17"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "24"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "49"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Office Systolic Blood Pressure",
+          "description": "Determined using the average of three seated, successive, automated blood pressure readings using guideline-recommended approach, performed by a trained member of the study team.",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "mm Hg",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "145",
+                      "spread": "15"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "142",
+                      "spread": "14"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "144",
+                      "spread": "15"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Office Diastolic Blood Pressure",
+          "description": "Determined using the average of three seated, successive, automated blood pressure readings using guideline-recommended approach, performed by a trained member of the study team.",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "mm Hg",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "79",
+                      "spread": "11"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "77",
+                      "spread": "7"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "78",
+                      "spread": "9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "New York Heart Association Class",
+          "description": "Study clinician-determined severity of heart failure symptoms. Class I indicates no physical limitations. Class II indicates slight limitation in physical activity. Class III indicates more significant limitations in physical activity. Class IV indicates severe limitations in physical activity with symptoms event present at rest.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Class II",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "20"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "21"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "41"
+                    }
+                  ]
+                },
+                {
+                  "title": "Class III",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "N-terminal Pro-B-type Natriuretic Peptide",
+          "description": "Blood test determined using plasma collection",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "pg/mL",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "97",
+                      "lowerLimit": "82",
+                      "upperLimit": "168"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "100",
+                      "lowerLimit": "69",
+                      "upperLimit": "177"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "97",
+                      "lowerLimit": "74",
+                      "upperLimit": "177"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Septal E/e'",
+          "description": "Calculated as the ratio of early diastolic mitral inflow velocity (E) in cm/s to septal mitral annular tissue velocity (e'; a surrogate of left ventricular filling pressures) in cm/s determined on echocardiography",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "ratio",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "13",
+                      "spread": "4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "14",
+                      "spread": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "14",
+                      "spread": "4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Kansas City Cardiomyopathy Questionnaire",
+          "description": "Quality of life will be assessed with the Kansas City Cardiomyopathy Questionnaire. The responses are categorized under 3 subscales (symptom burden, physical limitation and quality of life) with a range of possible subscale scores from 0 to 100. The total score will be calculated as the mean of the three subscale scores. A mean score of 100 represents the least symptoms and 0 represents the worst symptoms.",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "score",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "68",
+                      "spread": "25"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "68",
+                      "spread": "22"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "68",
+                      "spread": "23"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Difference in Home Systolic Blood Pressure",
+          "description": "The difference in home systolic blood pressure between treatments was determined using a single summary value per participant per intervention period, calculated as the mean of all available home systolic BP readings obtained during the final week of each intervention period. Home BP monitoring was performed using the same validated device model (Microlife BP 3MX1-4 WatchBP Home N), with three consecutive measurements taken in the morning and evening each day over the seven-day period.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "mm Hg",
+          "timeFrame": "Measured during the last week of each of the two 4-week intervention phases",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Amlodipine Besylate",
+              "description": "Amlodipine besylate, initial dose 5mg (1 capsule) daily, titrated up to 10mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use."
+            },
+            {
+              "id": "OG001",
+              "title": "Metoprolol Succinate",
+              "description": "Metoprolol succinate. Initial dose 100mg (1 capsule) daily, titrated up to 200mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "45"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "45"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "130.7",
+                      "spread": "12.4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "134.5",
+                      "spread": "17.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.017",
+              "statisticalMethod": "t-test, 2 sided",
+              "statisticalComment": "Paired t-test (within-individual across periods)",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "-3.8",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-6.8",
+              "ciUpperLimit": "-0.7"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Difference in Home Diastolic Blood Pressure",
+          "description": "The difference in home diastolic blood pressure between treatments was determined using a single summary value per participant per intervention period, calculated as the mean of all available home diastolic BP readings obtained during the final week of each intervention period. Home BP monitoring was performed using the same validated device model (Microlife BP 3MX1-4 WatchBP Home N), with three consecutive measurements taken in the morning and evening each day over the seven-day period.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "mm Hg",
+          "timeFrame": "Measured during the last week of each of the two 4-week intervention phases",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Amlodipine Besylate",
+              "description": "Initial dose 5mg (1 capsule) daily, titrated up to 10mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use"
+            },
+            {
+              "id": "OG001",
+              "title": "Metoprolol Succinate",
+              "description": "Initial dose 100mg (1 capsule) daily, titrated up to 200mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "45"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "45"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "73.5",
+                      "spread": "7.6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "74.1",
+                      "spread": "8.4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.36",
+              "statisticalMethod": "t-test, 2 sided",
+              "statisticalComment": "Paired t-test (within individual)",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "-0.6",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-1.8",
+              "ciUpperLimit": "0.7"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Difference in Office Systolic Blood Pressure",
+          "description": "Blood pressure will be measured at rest with a validated oscillometric device (Uscom BP+/UM-211).",
+          "populationDescription": "Two individuals did not complete their final study visit/did not provide sufficient data to calculate the final estimate",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "mm Hg",
+          "timeFrame": "Measured at the end of each of the two 4-week intervention phases",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Amlodipine Besylate",
+              "description": "Initial dose 5mg (1 capsule) daily, titrated up to 10mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use"
+            },
+            {
+              "id": "OG001",
+              "title": "Metoprolol Succinate",
+              "description": "Initial dose 100mg (1 capsule) daily, titrated up to 200mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "43"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "43"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "133.4",
+                      "spread": "32.6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "135.9",
+                      "spread": "20.8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.49",
+              "statisticalMethod": "t-test, 2 sided",
+              "statisticalComment": "Paired t-test (within individual)",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "-3.7",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-14.6",
+              "ciUpperLimit": "7.1"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Difference in Office Diastolic Blood Pressure",
+          "description": "Blood pressure will be measured at rest with a validated oscillometric device (Uscom BP+/UM-211).",
+          "populationDescription": "Two individuals did not complete their final study visit/did not provide sufficient data to calculate the final estimate",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "mm Hg",
+          "timeFrame": "Measured at the end of each of the two 4-week intervention phases",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Amlodipine Besylate",
+              "description": "Initial dose 5mg (1 capsule) daily, titrated up to 10mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use"
+            },
+            {
+              "id": "OG001",
+              "title": "Metoprolol Succinate",
+              "description": "Initial dose 100mg (1 capsule) daily, titrated up to 200mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "43"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "43"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "72.4",
+                      "spread": "11.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "73.0",
+                      "spread": "15.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.59",
+              "statisticalMethod": "t-test, 2 sided",
+              "statisticalComment": "Paired t-test (within individual)",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "-1.0",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-4.8",
+              "ciUpperLimit": "2.8"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Difference in Peak Oxygen Consumption (VO2) During a Maximal Exercise Test",
+          "description": "We will use a supine cycle ergometer in conjunction with expired gas analysis to assess oxygen consumption (VO2) during exercise. Subjects will perform a maximal exertion-limited exercise test using a graded-exercise protocol.",
+          "populationDescription": "Eight individuals did not complete exercise testing during at least one of their endpoint visits",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "ml/min/kg",
+          "timeFrame": "Measured at the end of each of the two 4-week intervention phases",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Amlodipine Besylate",
+              "description": "Initial dose 5mg (1 capsule) daily, titrated up to 10mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use"
+            },
+            {
+              "id": "OG001",
+              "title": "Metoprolol Succinate",
+              "description": "Initial dose 100mg (1 capsule) daily, titrated up to 200mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "37"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "37"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12.2",
+                      "spread": "3.8"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "10.8",
+                      "spread": "3.9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.008",
+              "statisticalMethod": "t-test, 2 sided",
+              "statisticalComment": "Paired t-test (within individual)",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "1.2",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.3",
+              "ciUpperLimit": "2.0"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Difference in Quality of Life",
+          "description": "Quality of life will be assessed with the Kansas City Cardiomyopathy Questionnaire. The responses are categorized under 3 subscales (symptom burden, physical limitation and quality of life) with a range of possible subscale scores from 0 to 100. The total score will be calculated as the mean of the three subscale scores. A mean score of 100 represents the least symptoms and 0 represents the worst symptoms.",
+          "populationDescription": "One individual was unable to complete the questionnaire at one of their endpoint visits",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "Measured at the end of each of the two 4-week intervention phases",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Amlodipine Besylate",
+              "description": "Initial dose 5mg (1 capsule) daily, titrated up to 10mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use"
+            },
+            {
+              "id": "OG001",
+              "title": "Metoprolol Succinate",
+              "description": "Initial dose 100mg (1 capsule) daily, titrated up to 200mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "44"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "44"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "67",
+                      "spread": "22"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "68",
+                      "spread": "24"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.43",
+              "statisticalMethod": "t-test, 2 sided",
+              "statisticalComment": "Paired t-test (within individual)",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "-2",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-7",
+              "ciUpperLimit": "3"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Difference in Systemic Vasodilatory Response to Exercise",
+          "description": "Systemic vascular resistance (SVR) will be calculated at rest and at peak exercise as mean arterial pressure / cardiac output. Systemic vasodilatory reserve will be measured as the percentage reduction in SVR during exercise, relative to SVR at rest (\\[rest SVR - peak exercise SVR\\] / rest SVR) x 100%.",
+          "populationDescription": "Ten individuals did not complete the necessary exercise testing and/or echocardiography during at least one endpoint visit",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Percentage reduction",
+          "timeFrame": "Measured at the end of each of the two 4-week intervention phases",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Amlodipine Besylate",
+              "description": "Initial dose 5mg (1 capsule) daily, titrated up to 10mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use"
+            },
+            {
+              "id": "OG001",
+              "title": "Metoprolol Succinate",
+              "description": "Initial dose 100mg (1 capsule) daily, titrated up to 200mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "35"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "35"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "20",
+                      "spread": "14"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "25",
+                      "spread": "19"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.25",
+              "statisticalMethod": "t-test, 2 sided",
+              "statisticalComment": "Paired t-test (within individual)",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "-5",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-13",
+              "ciUpperLimit": "4"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Difference in Arterial Wave Reflections",
+          "description": "Arterial wave reflections will be assessed using radial artery pressure waveforms obtained with a high-fidelity applanation tonometer. Waveforms will be calibrated using brachial mean and diastolic blood pressure. Forward and backward pressure wave components will be derived using wave separation analysis, and arterial wave reflection magnitude will be quantified as the ratio of backward to forward pressure wave amplitudes (unitless ratio). Change from baseline will be reported.",
+          "populationDescription": "6 individuals did not have the necessary tonometry readings captured during at least one endpoint visit",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "ratio of backward to forward waveforms",
+          "timeFrame": "Measured at the end of each of the two 4-week intervention phases",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Amlodipine Besylate",
+              "description": "Initial dose 5mg (1 capsule) daily, titrated up to 10mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use"
+            },
+            {
+              "id": "OG001",
+              "title": "Metoprolol Succinate",
+              "description": "Initial dose 100mg (1 capsule) daily, titrated up to 200mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "39"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "39"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.5",
+                      "spread": "0.10"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.5",
+                      "spread": "0.11"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.71",
+              "statisticalMethod": "t-test, 2 sided",
+              "statisticalComment": "Paired t-test (within individual)",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "-0.01",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-0.05",
+              "ciUpperLimit": "0.04"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Difference in Large Artery Stiffness",
+          "description": "Large artery stiffness will be assessed by measuring carotid-femoral pulse wave velocity using arterial applanation tonometry. Pulse wave velocity will be calculated as the distance between the carotid and femoral recording sites divided by the transit time of the arterial pressure waveform.",
+          "populationDescription": "Six individuals did not complete the necessary tonometry measurements during at least one endpoint visit",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "m/s",
+          "timeFrame": "Measured at the end of each of the two 4-week intervention phases",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Amlodipine Besylate",
+              "description": "Initial dose 5mg (1 capsule) daily, titrated up to 10mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use"
+            },
+            {
+              "id": "OG001",
+              "title": "Metoprolol Succinate",
+              "description": "Initial dose 100mg (1 capsule) daily, titrated up to 200mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "39"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "39"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11",
+                      "spread": "5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "10",
+                      "spread": "5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.59",
+              "statisticalMethod": "t-test, 2 sided",
+              "statisticalComment": "Paired t-test (within individual)",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "0.4",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-1",
+              "ciUpperLimit": "2"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Difference in Left Ventricular Filling Pressure",
+          "description": "We will assess the ratio of early diastolic mitral inflow velocity (E) to mitral annular tissue velocity (e'; a surrogate of LV filling pressures) on echocardiography",
+          "populationDescription": "Three individuals did not complete the necessary echocardiographic measurements during at least one endpoint visit",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "ratio of E/e'",
+          "timeFrame": "Measured at the end of each of the two 4-week intervention phases",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Amlodipine Besylate",
+              "description": "Initial dose 5mg (1 capsule) daily, titrated up to 10mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use"
+            },
+            {
+              "id": "OG001",
+              "title": "Metoprolol Succinate",
+              "description": "Initial dose 100mg (1 capsule) daily, titrated up to 200mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "42"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "42"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "14",
+                      "spread": "5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "15",
+                      "spread": "5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.13",
+              "statisticalMethod": "t-test, 2 sided",
+              "statisticalComment": "Paired t-test (within individual)",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "-1",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-2",
+              "ciUpperLimit": "0.2"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Difference in Myocardial Strain",
+          "description": "Left ventricular systolic function will be assessed by global longitudinal myocardial strain measured using two-dimensional speckle-tracking echocardiography. Strain will be calculated as the peak systolic percentage change in myocardial length from end-diastole to end-systole, expressed as a percentage.",
+          "populationDescription": "Twelve individuals did not have the necessary echocardiographic measurements performed during at least one study visit",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Percentage change in length",
+          "timeFrame": "Measured at the end of each of the two 4-week intervention phases",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Amlodipine Besylate",
+              "description": "Initial dose 5mg (1 capsule) daily, titrated up to 10mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use"
+            },
+            {
+              "id": "OG001",
+              "title": "Metoprolol Succinate",
+              "description": "Initial dose 100mg (1 capsule) daily, titrated up to 200mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "33"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "33"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-19",
+                      "spread": "3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-20",
+                      "spread": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.09",
+              "statisticalMethod": "t-test, 2 sided",
+              "statisticalComment": "Paired t-test (within individual)",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "0.5",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-0.1",
+              "ciUpperLimit": "1"
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "From enrollment until the end of follow-up, an average of 10 weeks",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Amlodipine Besylate",
+          "description": "Initial dose 5mg (1 capsule) daily, titrated up to 10mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 45,
+          "seriousNumAffected": 1,
+          "seriousNumAtRisk": 45,
+          "otherNumAffected": 33,
+          "otherNumAtRisk": 45
+        },
+        {
+          "id": "EG001",
+          "title": "Metoprolol Succinate",
+          "description": "Initial dose 100mg (1 capsule) daily, titrated up to 200mg (2 capsules) daily for a home systolic BP ≥135 mmHg and heart rate ≥50 bpm after the first week of use",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 46,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 46,
+          "otherNumAffected": 36,
+          "otherNumAtRisk": 46
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Syncope",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Assessed by PI. Grade 3, unrelated, unexpected",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 45
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 46
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Bradycardia",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 1, expected",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 45
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 46
+            }
+          ]
+        },
+        {
+          "term": "Arrhythmia",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Assessed by PI, Grade 1, expected",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 45
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 46
+            }
+          ]
+        },
+        {
+          "term": "Low blood pressure",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Assessed by PI, Grade 1, expected",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 45
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 46
+            }
+          ]
+        },
+        {
+          "term": "High blood pressure",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Assessed by PI, Grade 1, expected",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 45
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 9,
+              "numAtRisk": 46
+            }
+          ]
+        },
+        {
+          "term": "Worsening heart failure",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Assessed by PI, Grade 1, expected",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 45
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 7,
+              "numAtRisk": 46
+            }
+          ]
+        },
+        {
+          "term": "Worsening kidney function",
+          "organSystem": "Renal and urinary disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Assessed by PI, Grade 1, expected",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 45
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 46
+            }
+          ]
+        },
+        {
+          "term": "Rising liver enzymes",
+          "organSystem": "Hepatobiliary disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Assessed by PI, Grade 1, expected",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 45
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 46
+            }
+          ]
+        },
+        {
+          "term": "Chest pain",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Assessed by PI, Grade 1, unexpected",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 45
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 46
+            }
+          ]
+        },
+        {
+          "term": "Loose stools",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Assessed by PI, Grade 1, unexpected",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 45
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 46
+            }
+          ]
+        },
+        {
+          "term": "Anemia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Assessed by PI, Grade 1, expected",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 45
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 46
+            }
+          ]
+        },
+        {
+          "term": "Fatigue at rest",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Assessed by PI, Grade 1, expected",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 45
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 46
+            }
+          ]
+        },
+        {
+          "term": "Leg swelling",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Assessed by PI, Grade 1, expected",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 45
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 46
+            }
+          ]
+        },
+        {
+          "term": "Lightheadedness",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Assessed by PI, Grade 1, expected",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 45
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 46
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Assessed by PI, Grade 1, expected",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 45
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 46
+            }
+          ]
+        },
+        {
+          "term": "Rash",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Assessed by PI, Grade 1, expected",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 45
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 46
+            }
+          ]
+        },
+        {
+          "term": "Cramping or pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Assessed by PI, Grade 1, unexpected, unrelated",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 45
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 46
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Assessed by PI, Grade 1, unexpected, unrelated",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 45
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 46
+            }
+          ]
+        },
+        {
+          "term": "Abnormal serum calcium",
+          "organSystem": "Renal and urinary disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Assessed by PI, Grade 1, unexpected, unrelated",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 45
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 46
+            }
+          ]
+        },
+        {
+          "term": "Hypoxia (spO2 90-94%) or dyspnea",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Assessed by PI, Grade 1, unexpected, unrelated",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 45
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 46
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "Sample size; while the study was adequately powered for the primary outcome, the small sample size yielded imbalance in some baseline characteristics and limits the ability to draw conclusions from the secondary outcomes."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": true,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Jordana Cohen, MD, MSCE",
+        "organization": "University of Pennsylvania",
+        "email": "jco@pennmedicine.upenn.edu",
+        "phone": "215-573-6074"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2024-12-02",
+          "uploadDate": "2025-11-14T17:14",
+          "filename": "Prot_000.pdf",
+          "size": 879029
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2025-03-27",
+          "uploadDate": "2025-11-14T17:17",
+          "filename": "SAP_001.pdf",
+          "size": 268575
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19",
+      "submissionTracking": {
+        "firstMcpInfo": {
+          "postDateStruct": {
+            "date": "2025-12-09",
+            "type": "ACTUAL"
+          }
+        }
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006973",
+          "term": "Hypertension"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D017311",
+          "term": "Amlodipine"
+        },
+        {
+          "id": "D008790",
+          "term": "Metoprolol"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004095",
+          "term": "Dihydropyridines"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D050198",
+          "term": "Phenoxypropanolamines"
+        },
+        {
+          "id": "D011412",
+          "term": "Propanolamines"
+        },
+        {
+          "id": "D000605",
+          "term": "Amino Alcohols"
+        },
+        {
+          "id": "D000438",
+          "term": "Alcohols"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D020005",
+          "term": "Propanols"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

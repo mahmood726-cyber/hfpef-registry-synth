@@ -1,0 +1,371 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06937320",
+      "orgStudyIdInfo": {
+        "id": "Pro00117625"
+      },
+      "organization": {
+        "fullName": "Duke University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Chronic Exogenous Ketosis in HFpEF",
+      "officialTitle": "Chronic Effects of Exogenous Ketone Administration in Heart Failure With Preserved Ejection Fraction"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-09",
+      "overallStatus": "ENROLLING_BY_INVITATION",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-07-28",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-06",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-06",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-04-15",
+      "studyFirstSubmitQcDate": "2025-04-15",
+      "studyFirstPostDateStruct": {
+        "date": "2025-04-22",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-09-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-09-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Duke University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this clinical research study is to test what effects a ketone drink will have in people with heart failure with preserved ejection fraction (HFpEF), including on exercise and heart function. Patients with HFpEF often have difficulty exercising, and our goal is to understand whether a ketone drink changes much patients can exercise. The study has three visits, including a baseline visit to assess for study eligibility, and two visits (one after 8 weeks of a ketone drink or a placebo drink, and another one after 8 weeks of whichever drink the participant did not receive the first time)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Preserved Ejection Fraction (HFPEF)",
+        "Heart Failure With Normal Ejection Fraction",
+        "Heart Failure, Diastolic"
+      ],
+      "keywords": [
+        "heart failure",
+        "ketosis",
+        "exercise",
+        "chronic",
+        "ketones",
+        "metabolism",
+        "echocardiography",
+        "cardiopulmonary exercise test"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "interventionModelDescription": "This is an 8-week randomized, crossover, double-blind, placebo-controlled trial to evaluate the effects of an exogenous ketone drink on peak VO2 in 20 patients with heart failure with preserved ejection fraction (HFpEF).",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 20,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Exogenous ketone drink",
+          "type": "EXPERIMENTAL",
+          "description": "(R)-1,3-butanediol (commercially obtained as \"KetoneIQ\")",
+          "interventionNames": [
+            "Dietary Supplement: Exogenous Ketone Drink"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "ketone-free solution",
+          "interventionNames": [
+            "Dietary Supplement: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DIETARY_SUPPLEMENT",
+          "name": "Exogenous Ketone Drink",
+          "description": "(R)-1,3-butanediol (BD, commercially available as \"KetoneIQ\") initially dosed 300 mg/kg BID (target dose 400 mg/kg grams BID if tolerated) for 8 weeks",
+          "armGroupLabels": [
+            "Exogenous ketone drink"
+          ],
+          "otherNames": [
+            "(R)-1,3-butanediol",
+            "KetoneIQ",
+            "ketone"
+          ]
+        },
+        {
+          "type": "DIETARY_SUPPLEMENT",
+          "name": "Placebo",
+          "description": "equi-volume placebo administered for 8 weeks",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Maximal exercise capacity",
+          "description": "Peak VO2 assessed by cardiopulmonary exercise testing",
+          "timeFrame": "8 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Respiratory exchange ratio",
+          "description": "Respiratory exchange ratio (RER) during cardiopulmonary exercise testing at 25 watts",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Vasodilatory reserve",
+          "description": "Percent change in total peripheral resistance from rest to peak exercise",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Left atrial volume index",
+          "description": "Left atrial volume index measured by echocardiogram",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Resting E/e'",
+          "description": "Resting E/e' on echocardiogram",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Heart failure-related health status",
+          "description": "Heart failure-related health status using Kansas City Cardiomyopathy Questionnaire overall summary score (KCCQ-OSS). Score range is from 0 to 100, with higher scores indicating better health status and lower scores indicating poorer health status.",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "NT-proBNP",
+          "description": "N-terminal pro-B-type natriuretic peptide levels measured in peripheral blood.",
+          "timeFrame": "8 weeks"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Global longitudinal strain",
+          "description": "Global longitudinal strain measured by echocardiogram",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Exercise E/e' ratio",
+          "description": "Measured during exercise as the ratio of early diastolic transmitral flow velocity (E) to early diastolic mitral annular velocity (e')",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Hemoglobin A1c",
+          "description": "Hemoglobin A1c level measured in peripheral blood",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Fat free mass",
+          "description": "Fat free mass measured by body composition scan (DXA)",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Pulse wave velocity",
+          "description": "Pulse wave velocity measured during arterial tonometry",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Ventilatory efficiency",
+          "description": "VE/VCO2 slope during cardiopulmonary exercise testing",
+          "timeFrame": "8 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria\n\n1. 18 years of age or older\n2. Stable medical therapy for at least 2 weeks\n3. New York Heart Association (NYHA) class symptoms II or III\n4. Left ventricular ejection fraction ≥ 50%\n5. Evidence for elevated filling pressures as follows (at least one of the following between a-d):\n\n   a. Mitral early (E)/mitral septal tissue annular (e') velocity ratio \\> 8 on echocardiography in addition to one of the following:\n\n   i. Enlarged left atrium (LA\\>4.0 cm width or LA volume index \\>34 mL/m2)\n\nii. Chronic loop diuretic use for control of symptoms\n\niii. Elevated natriuretic peptides within the past year (NT-proBNP\\>125 pg/ml or BNP\\>35 pg/ml)\n\nb. Mitral E/e' ratio \\> 14 at rest or with exercise on echocardiography\n\nc. Elevated invasively-determined filling pressures previously (resting left ventricular end-diastolic pressure \\>16 mm Hg or pulmonary capillary wedge pressure \\> 14 mmHg; or PCWP or LVEDP ≥ 25 mmHg with exercise)\n\nd. Prior episode of acute heart failure requiring IV diuretics with evidence of volume overload on exam or radiology, or evidence of elevated natriuretic peptides.\n\nExclusion Criteria:\n\n1. Intentional ketogenic (high fat, low carbohydrate) diet in the last week\n2. Cirrhosis or alcohol use disorder (\\>14 drinks/week).\n3. Contraindications to stress testing, conditions that limit exercise, and other clinically-significant causes of exertional limitation (claudication with peripheral artery disease, atrial fibrillation and heart rate \\>110 at rest, systolic blood pressure\\>180 mmHg or diastolic blood pressure\\>110 mmHg, infiltrative/hypertrophic/inflammatory cardiomyopathy, clinically significant pericardial disease, joint or neuromuscular disease that precludes exercise, acute coronary syndrome within the last 2 months, estimated glomerular filtration rate\\<20 mL/min/1.73 m2, and hemoglobin \\< 9 mg/dL).\n4. Clinically significant lung disease, defined as severe obstructive lung disease (Gold stage 3), a requirement for supplemental oxygen, or chronic obstructive pulmonary disease with an exacerbation requiring steroids or antibiotics within the last 2 months.\n5. \\> Moderate aortic stenosis, \\>mild mitral stenosis, \\> moderate aortic or mitral regurgitation on screening echocardiogram, or presence of a prosthetic valve in the mitral position.\n6. Type 1 diabetes mellitus\n7. Start of a GLP-1 RA within the past 6 months.\n8. Pregnant women.\n9. Angina due to epicardial coronary disease or known presence of clinically-significant, unrevascularized epicardial coronary disease, in the investigator's opinion.\n10. Prior reduced LVEF to \\< 45% by echocardiography or cardiac MRI\n11. Participation in another clinical study with an investigational product in the previous 4 weeks prior to enrollment (or longer if deemed necessary by the investigator).\n12. Conditions that may render the patient unable to complete the study, in the opinion of the investigator.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Senthil Selvaraj, MD",
+          "affiliation": "Duke University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Duke University",
+          "city": "Durham",
+          "state": "North Carolina",
+          "zip": "27710",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.99403,
+            "lon": -78.89862
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054144",
+          "term": "Heart Failure, Diastolic"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D007662",
+          "term": "Ketosis"
+        },
+        {
+          "id": "D009043",
+          "term": "Motor Activity"
+        },
+        {
+          "id": "D000092122",
+          "term": "Bronchiolitis Obliterans Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D000138",
+          "term": "Acidosis"
+        },
+        {
+          "id": "D000137",
+          "term": "Acid-Base Imbalance"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        },
+        {
+          "id": "D000092124",
+          "term": "Organizing Pneumonia"
+        },
+        {
+          "id": "D001989",
+          "term": "Bronchiolitis Obliterans"
+        },
+        {
+          "id": "D001988",
+          "term": "Bronchiolitis"
+        },
+        {
+          "id": "D001991",
+          "term": "Bronchitis"
+        },
+        {
+          "id": "D001982",
+          "term": "Bronchial Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D008173",
+          "term": "Lung Diseases, Obstructive"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D006086",
+          "term": "Graft vs Host Disease"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D007659",
+          "term": "Ketones"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

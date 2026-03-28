@@ -1,0 +1,1159 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05677100",
+      "orgStudyIdInfo": {
+        "id": "CSP001"
+      },
+      "organization": {
+        "fullName": "Procyrion",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Diuretics Alone vs. Aortix Endovascular Device for Acute Heart Failure",
+      "officialTitle": "DRAIN-HF: Diuretics Alone vs. Aortix Endovascular Device for Acute Heart Failure",
+      "acronym": "DRAIN-HF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-08-23",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-08",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-10-07",
+      "studyFirstSubmitQcDate": "2023-01-06",
+      "studyFirstPostDateStruct": {
+        "date": "2023-01-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-05",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-09",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Procyrion",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUnapprovedDevice": true,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Aortix is a circulatory support device for chronic heart failure patients on medical management who have been hospitalized for acute decompensated heart failure (ADHF) and have persistent congestion despite usual medical therapy.\n\nEligible ADHF patients with diuretic resistance (irrespective of ejection fraction) will be enrolled and randomized 1:1 to either the Aortix system or standard of care medical management.",
+      "detailedDescription": "The study is a prospective, multi-center, randomized, nonblinded study to evaluate the safety and effectiveness of the Aortix System versus standard of care medical therapy in patients hospitalized with acute decompensated heart failure (ADHF) and persistent congestion despite usual medical management.Eligible ADHF patients with diuretic resistance (irrespective of ejection fraction) will be enrolled and randomized 1:1 to either the Aortix system or standard of care medical management. Randomization will be stratified by ejection fraction..\n\nAn additional registry arm will enroll patients who are considered candidates for advanced therapies in the near-term, but need improvement in their renal function to be able to receive additional medical therapies. All eligible enrolled registry subjects will receive Aortix system support.\n\nPlanned study population is male or female patients 21 years of age or greater, with acute decompensated heart failure and diuretic resistance who remain congested despite standard of care medical therapy.\n\nThis study will enroll up to 295 subjects with heart failure at 45 clinical sites in the United States and up to 5 OUS sites. The randomized study includes up to 215 subjects and the Advanced HF registry includes up to 80 subjects."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure",
+        "Cardiorenal Syndrome",
+        "Cardio-Renal Syndrome",
+        "ADHF",
+        "Heart Failure, Systolic",
+        "Heart Failure, Diastolic",
+        "Heart Failure; With Decompensation",
+        "Heart Failure, Congestive"
+      ],
+      "keywords": [
+        "mechanical circulatory support",
+        "percutaneous"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "The patients will be randomized 1:1 and will be receiving their treatment in parallel to each other. An additional non-randomized registry is also included",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 295,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Treatment Arm",
+          "type": "EXPERIMENTAL",
+          "description": "Eligible ADHF patients with diuretic resistance (irrespective of ejection fraction) will be enrolled and randomized 1:1 to either the Aortix system or standard of care medical management. Randomization will be stratified by ejection fraction.",
+          "interventionNames": [
+            "Device: Aortix System"
+          ]
+        },
+        {
+          "label": "Control Arm",
+          "type": "NO_INTERVENTION",
+          "description": "The Control arm should receive standard of care therapy as per the study directed Diuretic Care Treatment Algorithm."
+        },
+        {
+          "label": "Advanced HF Registry",
+          "type": "EXPERIMENTAL",
+          "description": "For the Advanced HF registry, all eligible enrolled subjects will receive Aortix system support.",
+          "interventionNames": [
+            "Device: Aortix System"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Aortix System",
+          "description": "Aortix is a circulatory support device for chronic heart failure patients on medical management who have been hospitalized for acute decompensated heart failure (ADHF) and are resistant to diuretic therapy.",
+          "armGroupLabels": [
+            "Advanced HF Registry",
+            "Treatment Arm"
+          ],
+          "otherNames": [
+            "Aortix Pump"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Primary Safety Endpoint: Incidence of Aortix Device / Procedural-Related Major Adverse Events (MAE) through 30 days of Follow-up.",
+          "description": "Incidence of Major Adverse Events",
+          "timeFrame": "Baseline to 30 day Follow-Up"
+        },
+        {
+          "measure": "Primary Effectiveness Endpoint: Combined composite of clinically significant reduction in net fluid loss over 7 days and freedom from mortality or heart failure re-hospitalization/therapy escalation from the baseline visit to the 30-day follow-up visit.",
+          "description": "Composite of net fluid loss, mortality and HF hospitalization/escalation of therapy",
+          "timeFrame": "Baseline to 30 day Follow-Up"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Net Fluid Loss",
+          "description": "Change in Net Fluid Loss from Baseline to Day 7/Discharge",
+          "timeFrame": "Baseline to Day 7"
+        },
+        {
+          "measure": "All-cause Mortality",
+          "description": "Rate of mortality",
+          "timeFrame": "Baseline to 30 day Follow-Up"
+        },
+        {
+          "measure": "HF Re-Hospitalization or escalation of HF therapy",
+          "description": "Evaluation of HF re-hospitalization and therapy escalation",
+          "timeFrame": "Baseline to 30 day Follow-Up"
+        },
+        {
+          "measure": "eGFR",
+          "description": "Evaluation of changes in eGFR",
+          "timeFrame": "Baseline to 30 day Follow-Up"
+        },
+        {
+          "measure": "NT-proBNP",
+          "description": "Evaluation of NT-proBNP",
+          "timeFrame": "Baseline to 30 day Follow-Up"
+        },
+        {
+          "measure": "Patient Reported Dyspnea Assessment",
+          "description": "Change in patient reported dyspnea scale",
+          "timeFrame": "Baseline to 30 day Follow-Up"
+        },
+        {
+          "measure": "Standing body weight",
+          "description": "Change in standing body weight",
+          "timeFrame": "Baseline to 30 day Follow-Up"
+        },
+        {
+          "measure": "Incidence and percentages of major adverse events (MAE) Pooled",
+          "description": "Incidence and percentages of major adverse events (MAE) pooled analysis of Aortix randomized cohort and registry cohort",
+          "timeFrame": "Baseline to 30 day Follow-Up"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria (Randomized Study):\n\n* Currently admitted to the hospital with a primary diagnosis of decompensated heart failure, irrespective of ejection fraction (EF);\n* Patients should be on maximally tolerated diuretic therapy and not diuresing sufficiently before being enrolled in DRAIN-HF. After being up-titrated on diuretics, patients should be followed for at least 24 hours on the higher of: i) furosemide 80 mg IV bid or equivalent or ii) IV furosemide or equivalent IV loop diuretic at a dose 2.5 x total daily home dose of furosemide equivalents in 2 divided doses, as tolerated, patient must have: Urine Output \\<1,500mL in a 12-hour period OR a Net Fluid Loss ≤375mL in a 12-hour period.\n* Persistent signs and/or symptoms of congestion as evidenced by at least 2+ pitting edema, elevated jugular venous pressure \\>12 cm water or ascites after treatment with IV diuretics per inclusion criterion 2.;\n* Age \\>21 years and able to provide written informed consent;\n* Negative pregnancy test if patient is of child-bearing potential.\n\nExclusion Criteria (Randomized Study):\n\n* Treatment with high dose IV inotropes within the last 48 hours prior to enrollment. High dose is defined as \\>5 µg/kg/min dopamine OR \\>5 µg/kg/min dobutamine OR \\>0.375 µg/kg/min milrinone;\n* Active and ongoing hypotension with a systolic blood pressure \\<90 mmHg lasting more than 30 minutes or a mean arterial pressure (MAP) \\<60 mmHg lasting more than 30 minutes at enrollment;\n* Treatment with vasopressors (defined as phenylephrine, norepinephrine, epinephrine or, vasopressin) within 48 hours prior to enrollment;\n* An estimated PASP of \\>80 mmHg as measured on echocardiogram or echocardiographic evidence of primarily right heart failure;\n* Treatment with IV diuretics (does not have to be continuous) for ≥21 days during the current hospitalization (including time spent at an outside hospital);\n* Acute kidney failure defined as an increase in serum creatinine to ≥4.0mg/dL (≥353.6 µmol/L) at enrollment;\n* Evidence of contrast induced nephropathy, nephritis or nephrotic syndrome;\n* Prior kidney transplant, single kidney, partial nephrectomy OR use of dialysis, continuous renal replacement therapy (CRRT) or ultrafiltration in the last 90 days prior to enrollment;\n* Confirmed decompensated cirrhosis (defined as Child Pugh class B or C) or concern for shock liver (AST \\> 1000U/L or total Bilirubin \\> 5.0mg/dl) at enrollment;\n* Presence of an active, uncontrolled infection that would preclude safe placement or removal of the device;\n* Prior heart transplant or likely heart transplantation before the 30- day follow-up visit;\n* Current or previous support with a durable LVAD at any time or planned LVAD insertion before the 30-day follow-up visit;\n* Use of an intra-aortic balloon pump (IABP), extracorporeal membrane oxygenation (ECMO), or percutaneous ventricular assist devices (e.g. Impella or TandemHeart) within the last 30 days;\n* Known amyloidosis of any type;\n* Acute myocardial infarction Type 1 within 30 days of enrollment, or planned coronary revascularization in the next 30 days;\n* Stroke within 30 days of enrollment;\n* Severe Bleeding Risk (any of the following):\n\n  1. Previous intracranial bleed unless there is documentation in the medical record (from a physician that is not part of the study) that the patient can safely use anticoagulation for 7 days,\n  2. GI bleeding within 6 months requiring hospitalization and/or transfusion,\n  3. Recent major surgery within 30 days if the surgical wound is judged to be associated with an increased risk of bleeding,\n  4. Procedure with arterial ilio-femoral access \\> 6 FR within 30 days,\n  5. Platelet count \\<75,000 cells/mm3,\n  6. Uncorrectable bleeding diathesis or coagulopathy (e.g. INR ≥2 not due to anticoagulation therapy) or hypercoaguable state including HIT;\n  7. Inability to tolerate anticoagulation therapy for up to 7 days.\n* Contraindicated Anatomy :\n\n  1. Descending aortic anatomy that would prevent safe placement of the device \\[\\<18 mm or \\>31 mm aorta diameter at deployment location (measured between the superior aspect of the T10 vertebra and superior aspect of the L1 vertebra)\\],\n  2. Ilio-femoral diameter or peripheral vascular anatomy that would preclude safe placement of a 21F (outer diameter) introducer sheath,\n  3. Femoral artery depth inconsistent with use of closure device,\n  4. Abnormalities or severe vascular disease that would preclude safe access and device delivery (e.g. aneurysm with thrombus, marked tortuosity, significant narrowing or inadequate size of the abdominal aorta, iliac or femoral arteries, or severe calcification),\n  5. Known connective tissue disorder (e.g. Marfan Syndrome) or other aortopathy at risk of vascular injury,\n  6. Any endovascular stent graft in the descending aorta. Any endovascular stent graft in the femoro-iliac vessels that is not well endothelialized and would preclude safe introduction/removal of the Aortix pump as demonstrated by imaging.\n* Known hypersensitivity or contraindication to study or procedure medications (e.g. anticoagulation therapy) or device materials (e.g. history of severe reaction to nickel or nitinol);\n* Participation in any other clinical investigation that is likely to confound study results or affect the study;\n* Poor health such that the patient is unable to undergo the Aortix device placement/retrieval and/or unlikely to be able to survive to the 30-day visit;\n* Unable or unwilling to undergo screening (imaging, PA Catheter placement), device implant and retrieval procedures or return for 30-day visit.\n\nInclusion Criteria (Advanced Heart Failure Registry):\n\n* Currently admitted to the hospital with a primary diagnosis of decompensated HF, irrespective of ejection fraction (EF).\n* Patient has already been evaluated and indicated to receive an LVAD or heart transplant and will receive the LVAD or be listed for heart transplantation in the next 30 days if their congestion status and renal function improves.\n* Patient must have been treated with ≥ 80 mg IV furosemide bid or equivalent and have evidence of increasing diuretic dosing requirements over the past 12 months, as tolerated.\n* Must have evidence of refractoriness to medical management as documented by persistent signs and/or symptoms of congestion as evidenced by at least 2+ pitting edema, elevated jugular venous pressure \\>12 cm water, or ascites after treatment with IV diuretics for a minimum of 24 hours.\n* Serum creatinine ≥ 2.0 mg/dL AND eGFR ≤ 45 ml/min/1.73m2 at time of enrollment\n* Age ≥ 21 years and able to provide written informed consent.\n* Negative pregnancy test if patient is of childbearing potential.\n\nExclusion Criteria (Advanced Heart Failure Registry):\n\n* Treatment with high dose IV inotropes within 48 hours prior to enrollment. High dose is defined as any one of the following: \\>5 µg/kg/min dopamine OR \\>5 µg/kg/min dobutamine OR \\>0.375 µg/kg/min milrinone.\n* Active and ongoing hypotension with a systolic blood pressure \\<80 mmHg lasting more than 30 minutes or a mean arterial pressure (MAP) \\<55 mmHg lasting more than 30 minutes at enrollment.\n* Treatment with vasopressors (defined as phenylephrine, norepinephrine, epinephrine or, vasopressin) within 48 hours prior to enrollment.\n* An estimated PASP of \\>80 mmHg as measured on echocardiogram or echocardiographic evidence of primarily right heart failure.\n* Acute kidney failure defined as an increase in serum creatinine to ≥ 4.0mg/dL at enrollment.\n* Evidence of contrast-induced nephropathy, nephritis, or nephrotic syndrome.\n* Prior kidney transplant, single kidney, partial nephrectomy OR use of dialysis, continuous renal replacement therapy (CRRT), or ultrafiltration in the last 90 days prior to enrollment.\n* Confirmed decompensated cirrhosis (defined as Child Pugh class B or C) or concern for shock liver (AST \\> 1000U/L or total Bilirubin \\> 5.0mg/dl) at enrollment.\n* Presence of an active, uncontrolled infection that would preclude safe placement or removal of the device.\n* Current or previous support with a durable LVAD.\n* INTERMACS Profile 1 at enrollment.\n* Currently on mechanical ventilatory support.\n* Use of an intra-aortic balloon pump (IABP) within the last 14 days or use of an extracorporeal membrane oxygenation (ECMO) or percutaneous ventricular assist device (e.g., Impella or TandemHeart) within the last 30 days.\n* Known amyloidosis of any type.\n* Acute myocardial infarction Type 1 within 30 days of enrollment or planned coronary revascularization in the next 30 days.\n* Stroke within 30 days of enrollment.\n* Severe Bleeding Risk (any of the following):\n\n  * Previous intracranial bleed unless there is documentation in the medical record (from a physician that is not part of the study) that the patient can safely use anticoagulation for 7 days.\n  * GI bleeding within 6 months requiring hospitalization and/or transfusion.\n  * Recent major surgery within 30 days if the surgical wound is judged to be associated with an increased risk of bleeding.\n  * Procedure with arterial ilio-femoral access \\> 6 Fr within 30 days.\n  * Platelet count \\<75,000 cells/mm3 .\n  * Uncorrectable bleeding diathesis or coagulopathy (e.g., INR≥ 2 not due to anticoagulation therapy) or hypercoagulable state including HIT.\n  * Inability to tolerate anticoagulation therapy for up to 7 days.\n* Contraindicated Anatomy :\n\n  * Descending aortic anatomy that would prevent safe placement of the device \\[\\<18 mm or \\>31 mm aorta diameter at deployment location (measured between the superior aspect of the T10 vertebra and superior aspect of the L1 vertebra)\\].\n  * Ilio-femoral diameter or peripheral vascular anatomy that would preclude safe placement of a 21 Fr (outer diameter) introducer sheath.\n  * Femoral artery depth inconsistent with use of closure device.\n  * Abnormalities or severe vascular disease that would preclude safe access and device delivery (e.g., aneurysm with thrombus; marked tortuosity; significant narrowing or inadequate size of the abdominal aorta, iliac, or femoral arteries; or severe calcification).\n  * Known connective tissue disorder (e.g., Marfan Syndrome) or other aortopathy at risk of vascular injury.\n  * Any endovascular stent graft in the descending aorta. Any endovascular stent graft in the femoro-iliac vessels that is not well endothelialized and would preclude safe introduction/removal of the Aortix pump as demonstrated by imaging.\n* Known hypersensitivity or contraindication to study or procedure medications (e.g., anticoagulation therapy) or device materials (e.g., history of severe reaction to nickel or nitinol).\n* Participation in any other clinical investigation that is likely to confound study results or affect the study.\n* Poor health such that the patient is unable to undergo the Aortix device placement/retrieval and/or unlikely to be able to survive to the 30-day visit.\n* Unable or unwilling to undergo screening, device implant and retrieval procedures, or return for 30-day visit.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "21 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Rubi Reyes-Fuentez",
+          "role": "CONTACT",
+          "phone": "832-536-1601",
+          "email": "rubi@procyrion.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Banner--University Medical Center Phoenix",
+          "status": "RECRUITING",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85006",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Abisola Akinbobola, MSc",
+              "role": "CONTACT"
+            },
+            {
+              "name": "I-Hui Chiang, M.D.",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        },
+        {
+          "facility": "Mayo Clinic - Arizona",
+          "status": "RECRUITING",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85054",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Alexandra Gaughan, R.N.",
+              "role": "CONTACT",
+              "phone": "480-342-3484",
+              "email": "Gaughan.Alexandra@mayo.edu"
+            },
+            {
+              "name": "David Fortuin, M.D.",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        },
+        {
+          "facility": "HonorHealth Medical Center",
+          "status": "TERMINATED",
+          "city": "Scottsdale",
+          "state": "Arizona",
+          "zip": "85258",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.50921,
+            "lon": -111.89903
+          }
+        },
+        {
+          "facility": "John Muir Health",
+          "status": "RECRUITING",
+          "city": "Concord",
+          "state": "California",
+          "zip": "94520",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Rita Trachuk",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.97798,
+            "lon": -122.03107
+          }
+        },
+        {
+          "facility": "Zuckerberg San Francisco General",
+          "status": "RECRUITING",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94110",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Katherine Steineman",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Lucas Zier, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "San Francisco Veterans Administration",
+          "status": "RECRUITING",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94121",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Cynthia Huynh",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Joseph Yang, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "University of California San Francisco",
+          "status": "RECRUITING",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94143",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Cherry Ng",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "Ascension Sacred Heart",
+          "status": "WITHDRAWN",
+          "city": "Pensacola",
+          "state": "Florida",
+          "zip": "32504",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.42131,
+            "lon": -87.21691
+          }
+        },
+        {
+          "facility": "Tallahassee Research Institute",
+          "status": "RECRUITING",
+          "city": "Tallahassee",
+          "state": "Florida",
+          "zip": "32308",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Wendie Najdowski, RN",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Andres Vargas Estrada, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.43826,
+            "lon": -84.28073
+          }
+        },
+        {
+          "facility": "University of South Florida",
+          "status": "RECRUITING",
+          "city": "Tampa",
+          "state": "Florida",
+          "zip": "33606",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Mia Eifrid",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Robby Wu, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 27.94752,
+            "lon": -82.45843
+          }
+        },
+        {
+          "facility": "BayCare Medical/St. Joseph's Hospital",
+          "status": "RECRUITING",
+          "city": "Tampa",
+          "state": "Florida",
+          "zip": "33607",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Nirav Raval, MD",
+              "role": "CONTACT",
+              "phone": "813-397-1251"
+            },
+            {
+              "name": "Alok Singh, MD",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 27.94752,
+            "lon": -82.45843
+          }
+        },
+        {
+          "facility": "AdventHealth Tampa",
+          "status": "RECRUITING",
+          "city": "Tampa",
+          "state": "Florida",
+          "zip": "33613",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Cynthia Paysor, LPN",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Oliver Abela, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 27.94752,
+            "lon": -82.45843
+          }
+        },
+        {
+          "facility": "Cleveland Clinic Florida",
+          "status": "RECRUITING",
+          "city": "Weston",
+          "state": "Florida",
+          "zip": "33331",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Juan Armijos",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Steve Minear, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 26.10037,
+            "lon": -80.39977
+          }
+        },
+        {
+          "facility": "Emory University Hospital",
+          "status": "RECRUITING",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30308",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Wei Xu",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Chandan Devireddy, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Piedmont Healthcare Inc.",
+          "status": "RECRUITING",
+          "city": "Augusta",
+          "state": "Georgia",
+          "zip": "30309",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jennifer Hansen",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Darshak Karia, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.47097,
+            "lon": -81.97484
+          }
+        },
+        {
+          "facility": "Wellstar Research Institue",
+          "status": "RECRUITING",
+          "city": "Marietta",
+          "state": "Georgia",
+          "zip": "30060",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Amuthanayaki Kanagaraj",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Abdul Latif Bikak, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.9526,
+            "lon": -84.54993
+          }
+        },
+        {
+          "facility": "University of Chicago",
+          "status": "RECRUITING",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60637",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Kristen Hanauer",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Jonathan Grinstein, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Advocate IMMC",
+          "status": "RECRUITING",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60657",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Maci Eiber",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Advocate Aurora - Good Samaritan",
+          "status": "RECRUITING",
+          "city": "Downers Grove",
+          "state": "Illinois",
+          "zip": "60515",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Debra Heidenreich",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.80892,
+            "lon": -88.01117
+          }
+        },
+        {
+          "facility": "Ascension via Christi Kansas",
+          "status": "TERMINATED",
+          "city": "Wichita",
+          "state": "Kansas",
+          "zip": "67226",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.69224,
+            "lon": -97.33754
+          }
+        },
+        {
+          "facility": "University of Michigan, Cardiovascular Medicine",
+          "status": "WITHDRAWN",
+          "city": "Ann Arbor",
+          "state": "Michigan",
+          "zip": "48109",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.27756,
+            "lon": -83.74088
+          }
+        },
+        {
+          "facility": "Henry Ford",
+          "status": "RECRUITING",
+          "city": "Detroit",
+          "state": "Michigan",
+          "zip": "48202",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Kelsey Neaton",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.33143,
+            "lon": -83.04575
+          }
+        },
+        {
+          "facility": "University of Mississippi Medical Center",
+          "status": "RECRUITING",
+          "city": "Jackson",
+          "state": "Mississippi",
+          "zip": "39216",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Memrie Cochran",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.29876,
+            "lon": -90.18481
+          }
+        },
+        {
+          "facility": "Hackensack University Medical Center",
+          "status": "RECRUITING",
+          "city": "Hackensack",
+          "state": "New Jersey",
+          "zip": "07601",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Stephanie Lynes",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.88593,
+            "lon": -74.04347
+          }
+        },
+        {
+          "facility": "Jersey Shore University Medical Center",
+          "status": "RECRUITING",
+          "city": "Neptune City",
+          "state": "New Jersey",
+          "zip": "07753",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Anne DeToro",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.20011,
+            "lon": -74.02792
+          }
+        },
+        {
+          "facility": "New York Presbyterian - Brooklyn Methodist Hospital",
+          "status": "RECRUITING",
+          "city": "Brooklyn",
+          "state": "New York",
+          "zip": "11215",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jhane Phanor",
+              "role": "CONTACT",
+              "email": "jhp4004@nyp.org"
+            },
+            {
+              "name": "Kumudha Ramasubbu",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.6501,
+            "lon": -73.94958
+          }
+        },
+        {
+          "facility": "Mount Sinai Morningside",
+          "status": "RECRUITING",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10025",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Kathy Idrissi",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Nyph/Cumc",
+          "status": "RECRUITING",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10032",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Barbara Alvarez",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Northwell Health (Lenox Hill)",
+          "status": "TERMINATED",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10075",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Nuvance Health",
+          "status": "RECRUITING",
+          "city": "Poughkeepsie",
+          "state": "New York",
+          "zip": "12601",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Tricia Landi",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.70037,
+            "lon": -73.92097
+          }
+        },
+        {
+          "facility": "Northwell Health (Staten Island)",
+          "status": "RECRUITING",
+          "city": "Staten Island",
+          "state": "New York",
+          "zip": "10305",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Sammi Ruan",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.56233,
+            "lon": -74.13986
+          }
+        },
+        {
+          "facility": "Atrium Health Sanger Heart and Vascular Institute",
+          "status": "RECRUITING",
+          "city": "Charlotte",
+          "state": "North Carolina",
+          "zip": "28204",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Krystal Winkler",
+              "role": "CONTACT",
+              "email": "krystal.winkler@advocatehealth.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.22709,
+            "lon": -80.84313
+          }
+        },
+        {
+          "facility": "Duke University Medical Center",
+          "status": "RECRUITING",
+          "city": "Durham",
+          "state": "North Carolina",
+          "zip": "27710",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Kimberly Biever",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.99403,
+            "lon": -78.89862
+          }
+        },
+        {
+          "facility": "Novant Health New Hanover Regional Medical Center",
+          "status": "RECRUITING",
+          "city": "Wilmington",
+          "state": "North Carolina",
+          "zip": "28401",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Lyn Lanier",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.23556,
+            "lon": -77.94604
+          }
+        },
+        {
+          "facility": "The Ohio State University",
+          "status": "RECRUITING",
+          "city": "Columbus",
+          "state": "Ohio",
+          "zip": "43210",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Diane Burke",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.96118,
+            "lon": -82.99879
+          }
+        },
+        {
+          "facility": "Oklahoma Cardiovascular Research Group",
+          "status": "RECRUITING",
+          "city": "Oklahoma City",
+          "state": "Oklahoma",
+          "zip": "73120",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Katie Kennedy",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.46756,
+            "lon": -97.51643
+          }
+        },
+        {
+          "facility": "Oregon Health & Sciences University",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Portland",
+          "state": "Oregon",
+          "zip": "97239",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.52345,
+            "lon": -122.67621
+          }
+        },
+        {
+          "facility": "Jefferson Abington Hospital",
+          "status": "RECRUITING",
+          "city": "Abington",
+          "state": "Pennsylvania",
+          "zip": "19001",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Colleen Marchand",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.12067,
+            "lon": -75.11795
+          }
+        },
+        {
+          "facility": "Penn Presbyterian Medical Center",
+          "status": "RECRUITING",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19104",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Margaret Bussineau",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Thomas Jefferson University Hospital",
+          "status": "RECRUITING",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19107",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Maura Wasilewski",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Jess Amos",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Alec Vishvevsky",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Baylor Scott & White Research Institute",
+          "status": "WITHDRAWN",
+          "city": "Fort Worth",
+          "state": "Texas",
+          "zip": "76104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.72541,
+            "lon": -97.32085
+          }
+        },
+        {
+          "facility": "Texas Heart Institute",
+          "status": "RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jeanine Bacani",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Joggy George, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Baylor Scott & White",
+          "status": "WITHDRAWN",
+          "city": "Plano",
+          "state": "Texas",
+          "zip": "75093",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.01984,
+            "lon": -96.69889
+          }
+        },
+        {
+          "facility": "Intermountain Health",
+          "status": "RECRUITING",
+          "city": "Murray",
+          "state": "Utah",
+          "zip": "84107",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Daniel Babcock",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Rami Alharethi, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.66689,
+            "lon": -111.88799
+          }
+        },
+        {
+          "facility": "University of Virginia",
+          "status": "TERMINATED",
+          "city": "Charlottesville",
+          "state": "Virginia",
+          "zip": "22908",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.02931,
+            "lon": -78.47668
+          }
+        },
+        {
+          "facility": "Virginia Commonwealth University",
+          "status": "RECRUITING",
+          "city": "Richmond",
+          "state": "Virginia",
+          "zip": "23219",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Melissa Sears",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          }
+        },
+        {
+          "facility": "Semmelweis University",
+          "status": "RECRUITING",
+          "city": "Budapest",
+          "country": "Hungary",
+          "contacts": [
+            {
+              "name": "Laura Kosa-Hobor",
+              "role": "CONTACT",
+              "phone": "0036 20 825 0511",
+              "email": "hobor.laura@semmelweis.hu"
+            },
+            {
+              "name": "Bela Merkely, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D059347",
+          "term": "Cardio-Renal Syndrome"
+        },
+        {
+          "id": "D054143",
+          "term": "Heart Failure, Systolic"
+        },
+        {
+          "id": "D054144",
+          "term": "Heart Failure, Diastolic"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D051437",
+          "term": "Renal Insufficiency"
+        },
+        {
+          "id": "D007674",
+          "term": "Kidney Diseases"
+        },
+        {
+          "id": "D014570",
+          "term": "Urologic Diseases"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D052801",
+          "term": "Male Urogenital Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

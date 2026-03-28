@@ -1,0 +1,443 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02404376",
+      "orgStudyIdInfo": {
+        "id": "COMBAT-MI"
+      },
+      "organization": {
+        "fullName": "Hospital Universitari Vall d'Hebron Research Institute",
+        "class": "OTHER"
+      },
+      "briefTitle": "COMBinAtion Therapy in Myocardial Infarction: The COMBAT-MI Trial",
+      "officialTitle": "COMBinAtion Therapy in Myocardial Infarction: The COMBAT-MI Trial",
+      "acronym": "COMBAT-MI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-02",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-03",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2019-08",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-06",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2015-03-20",
+      "studyFirstSubmitQcDate": "2015-03-26",
+      "studyFirstPostDateStruct": {
+        "date": "2015-03-31",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2020-11-02",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-11-03",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Hospital Universitari Vall d'Hebron Research Institute",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Remote ischemic conditioning (RIC) and intravenous exenatide administered immediately before primary angioplasty have been found to limit infarct size in patients with STEMI (ST segment elevation myocardial infarction), but the reduction is limited. This study investigates whether a combination therapy including both therapies is more effective.",
+      "detailedDescription": "COMBAT-MI is an investigator-driven, randomized, double-blind and placebo-controlled clinical trial aimed at evaluating the effect of Remote Ischemic Conditioning and exenatide, alone and in combination, on Myocardial Infarct size in 428 STEMI patients (107 per group) (ST segment elevation myocardial infarction). Patients with TIMI (Thrombolysis in Myocardial Infarction) flow grade \\> 1 will be excluded. The study has a 2 x 2 factorial design (Remote Ischemic Conditioning , Exenatide, both or neither). The primary end-point will be Myocardial Infarct size measured by Cardiac Magnetic Resonance Imaging (CMRI) performed 3 - 7 days after primary Percutaneous Coronary Intervention (pPCI) (expressed as % of left ventricular (LV) mass). Sample size has been calculated in 274 patients with TIMI 0-1 available for analysis of the primary end-point, and inclusion will end when this number is reached, which will require, according to the current rate of TIMI 0-1 in our STEMI population, to randomize 428 patients. Secondary end-points will include myocardial salvage index, based on angiographic and CMRI derived estimations of the area at risk, and frequency of Major Adverse Cardiovascular Events (MACE) and of major adverse events during admission."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ST Elevation Acute Myocardial Infarction"
+      ],
+      "keywords": [
+        "STEMI",
+        "Reperfusion Injury",
+        "Myocardial Infarction",
+        "Myocardial Ischemia",
+        "Remote Ischemic Conditioning",
+        "Exenatide",
+        "Glucagon-Like Peptide-1 (GLP-1)",
+        "Acute Coronary Syndrome",
+        "Cardioprotection"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 378,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Remote Ischemic Conditioning",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Remote Ischemic Conditioning + placebo",
+          "interventionNames": [
+            "Other: Remote Ischemic Conditioning (RIC)",
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "Combined treatment",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Remote Ischemic Conditioning + exenatide",
+          "interventionNames": [
+            "Drug: Exenatide",
+            "Other: Remote Ischemic Conditioning (RIC)"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Sham Remote Ischemic Conditioning + placebo",
+          "interventionNames": [
+            "Other: Remote Ischemic Conditioning (RIC)",
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "Exenatide",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Sham Remote Ischemic Conditioning + exenatide",
+          "interventionNames": [
+            "Drug: Exenatide",
+            "Other: Remote Ischemic Conditioning (RIC)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Exenatide",
+          "description": "Intravenous administration of Exenatide",
+          "armGroupLabels": [
+            "Combined treatment",
+            "Exenatide"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Remote Ischemic Conditioning (RIC)",
+          "description": "Remote ischemic conditioning with a cuff in the arm",
+          "armGroupLabels": [
+            "Combined treatment",
+            "Exenatide",
+            "Placebo",
+            "Remote Ischemic Conditioning"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Intrevenous administration of Placebo",
+          "armGroupLabels": [
+            "Placebo",
+            "Remote Ischemic Conditioning"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Myocardial Infarct Size",
+          "description": "MI, measured by late gadolinium enhancement in CMRI 3-7 days after pPCI, and expressed as percent of left ventricular mass.",
+          "timeFrame": "3-7 days after pPCI"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Myocardial salvage index",
+          "description": "Myocardial salvage index defined as the difference between infarct size and area at risk, defined by the T2 CMRI and expressed as a percent of total LV (Left Ventricular) mass, divided by the area at risk.",
+          "timeFrame": "3-7 days after pPCI"
+        },
+        {
+          "measure": "Transmurality index",
+          "description": "Transmurality index, defined as the ratio of the mass of myocardium showing late gadolinium enhancement to the mass of the myocardial segment containing it.",
+          "timeFrame": "3-7 days after pPCI"
+        },
+        {
+          "measure": "Ventricular volumes",
+          "description": "LV (Left Ventricular) end-diastolic volume and LVEF (Left Ventricular Ejection Fraction), as determined by CMRI.",
+          "timeFrame": "3-7 days after pPCI"
+        },
+        {
+          "measure": "Microvascular obstruction",
+          "description": "Volume of myocardium with microvascular obstruction determined by late gadolinium enhancement expressed as percent of infarct size.",
+          "timeFrame": "3-7 days after pPCI"
+        },
+        {
+          "measure": "Markers of successful reperfusion",
+          "description": "Markers of successful myocardial reperfusion: ST segment resolution 90 minutes post-pPCI , TIMI flow and frame-count post-pPCI , and TIMI blush grade .",
+          "timeFrame": "First 90 min after reperfusion"
+        },
+        {
+          "measure": "Major adverse cardiac events (MACE)",
+          "description": "MACE rate during hospitalization, defined as death, non-fatal myocardial rupture, or appearance or worsening of heart failure during the hospitalization period and after 1 year of follow-up",
+          "timeFrame": "Hospital discharge and expected average of 1 week, one year follow-up"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Substudy: Biomarker analysis in Hospital Universitari Vall d'Hebron Biobank (HUVH Biobank)",
+          "description": "To find biomarkers of increased myocardial susceptibility to reperfusion injury in blood samples obtained before PCI",
+          "timeFrame": "pre- pPCI"
+        },
+        {
+          "measure": "PRESPECIFIED SUBGROUP ANALYSIS ACCORDING TO TOTAL ISCHEMIC TIME",
+          "description": "The effects of treatments will be analysed in the subgroup of patients with a total ischemic time of less than 3 hours and of 3 hours of longer.",
+          "timeFrame": "3-7 days after pPCI"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Men or women ≥18 years of age\n* STEMI characterized by 2 mm ST segment elevation in 2 or more V1 through V4 leads or presumed new left bundle branch block with minimum of 1 mm concordant ST elevation or 1 mV(millivolt) ST segment elevation in the limb leads (II, III and aVF leads, I, aVL leads) and V4-V6.\n* Patients presenting within 6 hours of chest pain.\n\nExclusion Criteria:\n\n* Known hypersensitivity to exenatide or any of the excipients\n* Known contraindication to CMR imaging such as significant claustrophobia, severe allergy to gadolinium chelate contrast, severe renal insufficiency (defined as estimated glomerular filtration rate \\[eGFR\\] (epidermal growth factor receptor) \\<30 mL/min/1.73 m2), presence of CMRI contraindicated implanted devices (e.g., pacemaker, implanted cardiac defibrillator, cardiac resynchronization therapy device, cochlear implant), embedded metal objects (e.g., shrapnel), or any other contraindication for CMRI.\n* Assumed life expectancy \\< 1 year e.g. due to non-cardiac disease.\n* TIMI flow grade \\> 1 at the time of diagnostic coronary angiography. These patients will be excluded from the analysis of infarct size but will be included in the safety analysis.\n* Pregnant women\n* Patients with loss of consciousness or confused, not able to read the information and to sign the writting consent\n* Patients with oro-tracheal intubation\n* Patients with cardiogenic shock persisting 48h after reperfusion",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Ignacio Ferreira González, MD, PhD",
+          "affiliation": "Hospital Universitari Vall d'Hebron, Vall d'Hebron Institut de Recerca",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hospital Universitari Germans Trias i Pujol",
+          "city": "Badalona",
+          "state": "Barcelona",
+          "zip": "08916",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.45004,
+            "lon": 2.24741
+          }
+        },
+        {
+          "facility": "Hospital Clínico Universitario de Santiago de Compostela",
+          "city": "Santiago de Compostela",
+          "state": "La Coruña",
+          "zip": "15706",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.88052,
+            "lon": -8.54569
+          }
+        },
+        {
+          "facility": "Hospital Universitario Valle de Hebron",
+          "city": "Barcelona",
+          "zip": "08035",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Universitario Arnau de Vilanova",
+          "city": "Lleida",
+          "zip": "25198",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.61674,
+            "lon": 0.62218
+          }
+        },
+        {
+          "facility": "Hospital Universitario Fundación Jiménez Díaz",
+          "city": "Madrid",
+          "zip": "28040",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Universitari de Tarragona Joan 23",
+          "city": "Tarragona",
+          "zip": "43005",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.11905,
+            "lon": 1.24544
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "21920963",
+          "type": "BACKGROUND",
+          "citation": "Lonborg J, Vejlstrup N, Kelbaek H, Botker HE, Kim WY, Mathiasen AB, Jorgensen E, Helqvist S, Saunamaki K, Clemmensen P, Holmvang L, Thuesen L, Krusell LR, Jensen JS, Kober L, Treiman M, Holst JJ, Engstrom T. Exenatide reduces reperfusion injury in patients with ST-segment elevation myocardial infarction. Eur Heart J. 2012 Jun;33(12):1491-9. doi: 10.1093/eurheartj/ehr309. Epub 2011 Sep 14."
+        },
+        {
+          "pmid": "20189026",
+          "type": "RESULT",
+          "citation": "Botker HE, Kharbanda R, Schmidt MR, Bottcher M, Kaltoft AK, Terkelsen CJ, Munk K, Andersen NH, Hansen TM, Trautner S, Lassen JF, Christiansen EH, Krusell LR, Kristensen SD, Thuesen L, Nielsen SS, Rehling M, Sorensen HT, Redington AN, Nielsen TT. Remote ischaemic conditioning before hospital admission, as a complement to angioplasty, and effect on myocardial salvage in patients with acute myocardial infarction: a randomised trial. Lancet. 2010 Feb 27;375(9716):727-34. doi: 10.1016/S0140-6736(09)62001-8."
+        },
+        {
+          "pmid": "25240548",
+          "type": "RESULT",
+          "citation": "White SK, Frohlich GM, Sado DM, Maestrini V, Fontana M, Treibel TA, Tehrani S, Flett AS, Meier P, Ariti C, Davies JR, Moon JC, Yellon DM, Hausenloy DJ. Remote ischemic conditioning reduces myocardial infarct size and edema in patients with ST-segment elevation myocardial infarction. JACC Cardiovasc Interv. 2015 Jan;8(1 Pt B):178-188. doi: 10.1016/j.jcin.2014.05.015. Epub 2014 Sep 17."
+        },
+        {
+          "pmid": "25449504",
+          "type": "RESULT",
+          "citation": "Garcia-Dorado D, Garcia-del-Blanco B, Otaegui I, Rodriguez-Palomares J, Pineda V, Gimeno F, Ruiz-Salmeron R, Elizaga J, Evangelista A, Fernandez-Aviles F, San-Roman A, Ferreira-Gonzalez I. Intracoronary injection of adenosine before reperfusion in patients with ST-segment elevation myocardial infarction: a randomized controlled clinical trial. Int J Cardiol. 2014 Dec 20;177(3):935-41. doi: 10.1016/j.ijcard.2014.09.203. Epub 2014 Oct 7."
+        },
+        {
+          "pmid": "37106099",
+          "type": "DERIVED",
+          "citation": "Consegal M, Barba I, Garcia Del Blanco B, Otaegui I, Rodriguez-Palomares JF, Marti G, Serra B, Bellera N, Ojeda-Ramos M, Valente F, Carmona MA, Miro-Casas E, Sambola A, Lidon RM, Baneras J, Barrabes JA, Rodriguez C, Benito B, Ruiz-Meana M, Inserte J, Ferreira-Gonzalez I, Rodriguez-Sinovas A. Spontaneous reperfusion enhances succinate concentration in peripheral blood from stemi patients but its levels does not correlate with myocardial infarct size or area at risk. Sci Rep. 2023 Apr 27;13(1):6907. doi: 10.1038/s41598-023-34196-7."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18",
+      "removedCountries": [
+        "France",
+        "United Kingdom"
+      ]
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        },
+        {
+          "id": "D015427",
+          "term": "Reperfusion Injury"
+        },
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D011183",
+          "term": "Postoperative Complications"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077270",
+          "term": "Exenatide"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010455",
+          "term": "Peptides"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D014688",
+          "term": "Venoms"
+        },
+        {
+          "id": "D045424",
+          "term": "Complex Mixtures"
+        },
+        {
+          "id": "D014118",
+          "term": "Toxins, Biological"
+        },
+        {
+          "id": "D001685",
+          "term": "Biological Factors"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

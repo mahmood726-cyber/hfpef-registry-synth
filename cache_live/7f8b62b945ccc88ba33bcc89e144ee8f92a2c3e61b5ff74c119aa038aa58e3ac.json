@@ -1,0 +1,656 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03084679",
+      "orgStudyIdInfo": {
+        "id": "HF-CMR-53967215800005404"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "FAPESP 2015/15402-2",
+          "type": "OTHER_GRANT",
+          "domain": "São Paulo Research Foundation"
+        }
+      ],
+      "organization": {
+        "fullName": "University of Campinas, Brazil",
+        "class": "OTHER"
+      },
+      "briefTitle": "Characterization of Myocardial Interstitial Fibrosis and Cardiomyocyte Hypertrophy by Cardiac MRI in Heart Failure",
+      "officialTitle": "Characterization of Myocardial Interstitial Fibrosis and Cardiomyocyte Hypertrophy by Cardiac MRI In Heart Failure: Implication on Early Remodeling and on the Transition to Heart Failure"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2019-06",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-11-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2019-06-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2020-07",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2016-12-25",
+      "studyFirstSubmitQcDate": "2017-03-20",
+      "studyFirstPostDateStruct": {
+        "date": "2017-03-21",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2019-06-03",
+      "lastUpdatePostDateStruct": {
+        "date": "2019-06-05",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Otavio Rizzi Coelho Filho",
+        "investigatorTitle": "Assistant Professor",
+        "investigatorAffiliation": "University of Campinas, Brazil"
+      },
+      "leadSponsor": {
+        "name": "University of Campinas, Brazil",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The investigators hypothesised that novel MRI metrics derived from myocardium post-gadolinium T1 mapping analysis will improve the current knowledge about the role interstitial fibrosis and cardiomyocyte hypertrophy in the development of left ventricular (LV) remodelling and clinical Heart Failure (HF). The investigators believe that these recently described variables will be associated with prognostically important indices in HF development.",
+      "detailedDescription": "Cardiac hypertrophy is one of the earliest manifestations of myocardial disease, representing a modifiable, prognostic response to hemodynamic stimuli across physiologic (e.g., exercise) and pathologic states (e.g., hypertension, aortic stenosis). The extent of myocardial hypertrophy is determined by a combination of cardiomyocyte size and extracellular volume (ECV) expansion/interstitial fibrosis: while physiologic (exercise-induced) hypertrophy reflects mostly reversible cardiomyocyte hypertrophy, pathologic hypertrophy (e.g., in heart failure) is a combination of both interstitial fibrosis (potentially irreversible) and cardiomyocyte hypertrophy (reversible). Current methods to delineate the potential for LV reverse remodeling (e.g., natriuretic peptides and echocardiographic or clinical markers) detect primarily advanced disease, missing a critical opportunity to intervene and follow patients at an early disease phase where myocardial pathology may be reversible. Therefore, establishing novel, quantitative metrics of myocardial tissue phenotype that define a transition from hypertrophy to fibrosis, and then to irreversible LV remodeling/dysfunction may facilitate targeting therapies at a modifiable stage of disease in HF. The investigator's group has recently extended cardiac T1 mapping MRI techniques to quantify the intracellular lifetime of water (τic) serially as an index of cardiomyocyte diameter, validating this technique histologically in mouse models of pressure overload."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ],
+      "keywords": [
+        "Heart Failure",
+        "Hypertrophy",
+        "Fibrosis",
+        "Magnetic Resonance"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Randomized trial in a 2:1 (intervention:control) proportion and in blocks of 6 participants.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 90,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Conventional Clinical Care - HFpEF",
+          "type": "NO_INTERVENTION",
+          "description": "Heart Failure patients with preserved ejection fraction (HFpEF) randomized to this arm will keep receiving their conventional clinical care, being instructed to continue and maintain their usual daily activities."
+        },
+        {
+          "label": "Supervised Exercise Training- HFpEF",
+          "type": "OTHER",
+          "description": "Heart Failure patients with preserved ejection fraction (HFpEF) randomized to this arm will keep receiving their conventional clinical care and participate in a supervised, facility based training program consisting of stretching exercises and aerobic exercise in treadmill.",
+          "interventionNames": [
+            "Other: Aerobic exercise in treadmill",
+            "Other: Local strengthening exercises",
+            "Other: Stretching exercises"
+          ]
+        },
+        {
+          "label": "Conventional Clinical Care - HFrEF",
+          "type": "NO_INTERVENTION",
+          "description": "Heart Failure patients with reduced ejection fraction (HFrEF) randomized to this arm will keep receiving their conventional clinical care, being instructed to continue and maintain their usual daily activities."
+        },
+        {
+          "label": "Supervised Exercise Training - HFrEF",
+          "type": "OTHER",
+          "description": "Heart Failure patients with reduced ejection fraction (HFrEF) randomized to this arm will keep receiving their conventional clinical care and participate in a supervised, facility based training program consisting of stretching exercises and aerobic exercise in treadmill.",
+          "interventionNames": [
+            "Other: Aerobic exercise in treadmill",
+            "Other: Local strengthening exercises",
+            "Other: Stretching exercises"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Aerobic exercise in treadmill",
+          "description": "30-40min of aerobic exercise in treadmill. The aerobic intensity will be established by heart rate levels that corresponded to anaerobic threshold up to 10% below the respiratory compensation point obtained in the cardiopulmonary exercise test. This intensity corresponded to 60-72% peak V̇o2. During the exercise sessions, when a training effect will be observed, as indicated by a decrease by 8 to 10% in heart rate, the treadmill velocity or inclination will be increased to return to the target heart rate levels.",
+          "armGroupLabels": [
+            "Supervised Exercise Training - HFrEF",
+            "Supervised Exercise Training- HFpEF"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Local strengthening exercises",
+          "description": "15 min of local strengthening exercises will be performed in major muscle groups (legs, arms and trunk muscles): three series of each exercise, 12-15 repetitions.",
+          "armGroupLabels": [
+            "Supervised Exercise Training - HFrEF",
+            "Supervised Exercise Training- HFpEF"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Stretching exercises",
+          "description": "5-min stretching exercises will be performed in major muscle groups (legs, arms and trunk muscles)",
+          "armGroupLabels": [
+            "Supervised Exercise Training - HFrEF",
+            "Supervised Exercise Training- HFpEF"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Myocardial remodeling assessed by CMR in rehabilitation vs usual care.",
+          "description": "Investigate whether rehabilitation compared to usual care is associated with significant favorable myocardial remodeling assessed by CMR determination of ECV.",
+          "timeFrame": "4 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in left ventricular ejection fraction",
+          "description": "Left Ventricular ejection fraction (%) will be determined by cardiac magnetic resonance using a previously described cine steady-state free precession imaging. All patients will be imaged with ECG gating and breath holding in a supine position. Patients will be imaged at baseline and after 4 months of the intervention.",
+          "timeFrame": "4 months"
+        },
+        {
+          "measure": "Change in right ventricular ejection fraction",
+          "description": "Right Ventricular ejection fraction (%) will be determined by cardiac magnetic resonance using a previously described cine steady-state free precession imaging. All patients will be imaged with ECG gating and breath holding in a supine position. Patients will be imaged at baseline and after 4 months of the intervention.",
+          "timeFrame": "4 months"
+        },
+        {
+          "measure": "Change in left ventricular mass (absolute/index)",
+          "description": "Left ventricular mass absolute (g) and index (g/m2) will be determined by cardiac magnetic resonance using a previously described cine steady-state free precession imaging. All patients will be imaged with ECG gating and breath holding in a supine position. Patients will be imaged at baseline and after 4 months of the intervention.",
+          "timeFrame": "4 months"
+        },
+        {
+          "measure": "Change in left ventricular diastolic volume (absolute/index)",
+          "description": "Left ventricular diastolic volume absolute (ml) and index (ml/m2) will be determined by cardiac magnetic resonance using a previously described cine steady-state free precession imaging. All patients will be imaged with ECG gating and breath holding in a supine position. Patients will be imaged at baseline and after 4 months of the intervention.",
+          "timeFrame": "4 months"
+        },
+        {
+          "measure": "Change in right ventricular diastolic volume (absolute/index)",
+          "description": "Right ventricular diastolic volume absolute (ml) and index (ml/m2) will be determined by cardiac magnetic resonance using a previously described cine steady-state free precession imaging. All patients will be imaged with ECG gating and breath holding in a supine position. Patients will be imaged at baseline and after 4 months of the intervention.",
+          "timeFrame": "4 months"
+        },
+        {
+          "measure": "Change in left ventricular systolic volume (absolute/index)",
+          "description": "Left ventricular systolic volume absolute (ml) and index (ml/m2) will be determined by cardiac magnetic resonance using a previously described cine steady-state free precession imaging. All patients will be imaged with ECG gating and breath holding in a supine position. Patients will be imaged at baseline and after 4 months of the intervention.",
+          "timeFrame": "4 months"
+        },
+        {
+          "measure": "Change in right ventricular systolic volume (absolute/index)",
+          "description": "Right ventricular systolic volume absolute (ml) and index (ml/m2) will be determined by cardiac magnetic resonance using a previously described cine steady-state free precession imaging. All patients will be imaged with ECG gating and breath holding in a supine position. Patients will be imaged at baseline and after 4 months of the intervention.",
+          "timeFrame": "4 months"
+        },
+        {
+          "measure": "Change in left ventricular stroke volume (absolute/index)",
+          "description": "Left ventricular stroke volume absolute (ml) and index (ml/m2) will be determined by cardiac magnetic resonance using a previously described cine steady-state free precession imaging. All patients will be imaged with ECG gating and breath holding in a supine position. Patients will be imaged at baseline and after 4 months of the intervention.",
+          "timeFrame": "4 months"
+        },
+        {
+          "measure": "Change in right ventricular stroke volume (absolute/index)",
+          "description": "Right ventricular stroke volume (absolute (ml) and index (ml/m2) will be determined by cardiac magnetic resonance using a previously described cine steady-state free precession imaging. All patients will be imaged with ECG gating and breath holding in a supine position. Patients will be imaged at baseline and after 4 months of the intervention.",
+          "timeFrame": "4 months"
+        },
+        {
+          "measure": "Change in late gadolinium enhancement",
+          "description": "Late gadolinium enhancement (LGE) will be determined by cardiac magnetic resonance using a previously describe inversion recovery sequence after 10-15 minutes of a cumulative dose of 0,2 mmol/kg of gadolinium diethylenetriamine pentaacetic acid. All patients will be imaged with ECG gating and breath holding in a supine position. Patients will be imaged at baseline and after 4 months of the intervention.",
+          "timeFrame": "4 months"
+        },
+        {
+          "measure": "Change in LV mass/volume ratio",
+          "description": "LV mass/volume ratio (g/mL) will be determined by cardiac magnetic resonance using a previously described cine steady-state free precession imaging. All patients will be imaged with ECG gating and breath holding in a supine position. Patients will be imaged at baseline and after 4 months of the intervention.",
+          "timeFrame": "4 months"
+        },
+        {
+          "measure": "Change in functional capacity",
+          "description": "VO2max will be evaluated by cardiopulmonary test. Patients will performed the cardiopulmonary test at baseline and after 4 months of the intervention.",
+          "timeFrame": "4 months"
+        },
+        {
+          "measure": "Change in quality of life",
+          "description": "Quality of life will be evaluated by numerical score of Minnesota Questionnaire.\n\nPatients will performed the Minnesota Questionnaire at baseline and after 4 months of the intervention.",
+          "timeFrame": "4 months"
+        },
+        {
+          "measure": "Change in N-Terminal pro-B-type Natriuretic Peptide (NT-proBNP)",
+          "description": "Change in NT-proBNP with the intervention.",
+          "timeFrame": "4 months"
+        },
+        {
+          "measure": "Change in diastolic dysfunction assessed by transthoracic echocardiogram",
+          "description": "Change in parameters of diastolic dysfunction assessed before and after the intervention.",
+          "timeFrame": "4 months"
+        },
+        {
+          "measure": "Change in cardiac sympathetic function",
+          "description": "Change in cardiac sympathetic function assessed by cardiac uptake of metaiodobenzylguanidine (MIBG) labeled with I-123. Patients will performed the MIBG study at baseline and after 4 months of the intervention.",
+          "timeFrame": "4 months"
+        },
+        {
+          "measure": "Change in intracellular lifetime of water (τic - a marker of cardiomyocyte hypertrophy)",
+          "description": "τic will be determined by cardiac magnetic resonance T1 measurements acquired before and after administration of gadolinium diethylenetriamine pentaacetic acid (0,2mmol/kg), at 2 different time points (baseline and 4-moths after the intervention)",
+          "timeFrame": "4 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age\\> 18 years\n* Functional limitation (New York Heart Association Class II or worse)\n* No contraindication to exercise (American College of Cardiology / American Heart Association criteria)\n* Eligibility to take MRI (absence of metallic devices, and glomerular filtration rate \\> 40ml / min / 1.73m2, etc.)\n* Prior diagnosis of Heart Failure (by the Framingham criterion)\n* Therapy with diuretic and euvolemia state (evaluated by cardiologist and cardiopulmonary exercise testing)\n* Transthoracic echocardiogram\n\nExclusion Criteria:\n\n* Severe ischemia in any stress test\n* Hypertrophic cardiomyopathy or any infiltrative heart disease\n* Chronic obstructive pulmonary disease , pulmonary hypertension (Pulmonary artery pressure\\> 60mmHg)\n* Severe left or right valve disease.\n* Pacemaker or implantable cardioverter defibrillator\n* Myocardial infarction or revascularization in 3 months\n* Anemia (hemoglobin \\<10 grams / dl) until 1 month before cardiopulmonary exercise testing",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "OTAVIO R COELHO-FILHO, MD, MPH, PhD",
+          "role": "CONTACT",
+          "phone": "996038484",
+          "phoneExt": "+5519",
+          "email": "tavicocoelho@gmail.com"
+        },
+        {
+          "name": "FERNANDO B CARDOSO, MD",
+          "role": "CONTACT",
+          "phone": "999203131",
+          "phoneExt": "+5519",
+          "email": "fermedesportiva@yahoo.com.br"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "OTAVIO R COELHO-FILHO, MD, MPH, PhD",
+          "affiliation": "University of Campinas, Brazil",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Campinas",
+          "status": "RECRUITING",
+          "city": "Campinas",
+          "state": "São Paulo",
+          "country": "Brazil",
+          "contacts": [
+            {
+              "name": "Otavio R Coelho Filho, MD, PhD",
+              "role": "CONTACT",
+              "phone": "+5519996038484",
+              "email": "tavicocoelho@gmail.com"
+            },
+            {
+              "name": "Fernando B Cardoso, MD",
+              "role": "CONTACT",
+              "phone": "+5519999203131",
+              "email": "fermedesportiva@yahoo.com.br"
+            }
+          ],
+          "geoPoint": {
+            "lat": -22.90556,
+            "lon": -47.06083
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "12805233",
+          "type": "BACKGROUND",
+          "citation": "Dorn GW 2nd, Robbins J, Sugden PH. Phenotyping hypertrophy: eschew obfuscation. Circ Res. 2003 Jun 13;92(11):1171-5. doi: 10.1161/01.RES.0000077012.11088.BC. No abstract available."
+        },
+        {
+          "pmid": "8013079",
+          "type": "BACKGROUND",
+          "citation": "Boluyt MO, O'Neill L, Meredith AL, Bing OH, Brooks WW, Conrad CH, Crow MT, Lakatta EG. Alterations in cardiac gene expression during the transition from stable hypertrophy to heart failure. Marked upregulation of genes encoding extracellular matrix components. Circ Res. 1994 Jul;75(1):23-32. doi: 10.1161/01.res.75.1.23."
+        },
+        {
+          "pmid": "10908222",
+          "type": "BACKGROUND",
+          "citation": "Lorell BH, Carabello BA. Left ventricular hypertrophy: pathogenesis, detection, and prognosis. Circulation. 2000 Jul 25;102(4):470-9. doi: 10.1161/01.cir.102.4.470. No abstract available."
+        },
+        {
+          "pmid": "22810587",
+          "type": "BACKGROUND",
+          "citation": "Scimia MC, Hurtado C, Ray S, Metzler S, Wei K, Wang J, Woods CE, Purcell NH, Catalucci D, Akasaka T, Bueno OF, Vlasuk GP, Kaliman P, Bodmer R, Smith LH, Ashley E, Mercola M, Brown JH, Ruiz-Lozano P. APJ acts as a dual receptor in cardiac hypertrophy. Nature. 2012 Aug 16;488(7411):394-8. doi: 10.1038/nature11263."
+        },
+        {
+          "pmid": "8623931",
+          "type": "BACKGROUND",
+          "citation": "Gunja-Smith Z, Morales AR, Romanelli R, Woessner JF Jr. Remodeling of human myocardial collagen in idiopathic dilated cardiomyopathy. Role of metalloproteinases and pyridinoline cross-links. Am J Pathol. 1996 May;148(5):1639-48."
+        },
+        {
+          "pmid": "14517834",
+          "type": "BACKGROUND",
+          "citation": "Hughes SE. Detection of apoptosis using in situ markers for DNA strand breaks in the failing human heart. Fact or epiphenomenon? J Pathol. 2003 Oct;201(2):181-6. doi: 10.1002/path.1447."
+        },
+        {
+          "pmid": "16228910",
+          "type": "BACKGROUND",
+          "citation": "Kostin S, Hein S, Arnon E, Scholz D, Schaper J. The cytoskeleton and related proteins in the human failing heart. Heart Fail Rev. 2000 Oct;5(3):271-80. doi: 10.1023/A:1009813621103."
+        },
+        {
+          "pmid": "8815940",
+          "type": "BACKGROUND",
+          "citation": "Narula J, Haider N, Virmani R, DiSalvo TG, Kolodgie FD, Hajjar RJ, Schmidt U, Semigran MJ, Dec GW, Khaw BA. Apoptosis in myocytes in end-stage heart failure. N Engl J Med. 1996 Oct 17;335(16):1182-9. doi: 10.1056/NEJM199610173351603."
+        },
+        {
+          "pmid": "9099657",
+          "type": "BACKGROUND",
+          "citation": "Olivetti G, Abbi R, Quaini F, Kajstura J, Cheng W, Nitahara JA, Quaini E, Di Loreto C, Beltrami CA, Krajewski S, Reed JC, Anversa P. Apoptosis in the failing human heart. N Engl J Med. 1997 Apr 17;336(16):1131-41. doi: 10.1056/NEJM199704173361603."
+        },
+        {
+          "pmid": "6640872",
+          "type": "BACKGROUND",
+          "citation": "Unverferth DV, Fetters JK, Unverferth BJ, Leier CV, Magorien RD, Arn AR, Baker PB. Human myocardial histologic characteristics in congestive heart failure. Circulation. 1983 Dec;68(6):1194-200. doi: 10.1161/01.cir.68.6.1194."
+        },
+        {
+          "pmid": "12598016",
+          "type": "BACKGROUND",
+          "citation": "Zorc M, Vraspir-Porenta O, Zorc-Pleskovic R, Radovanovic N, Petrovic D. Apoptosis of myocytes and proliferation markers as prognostic factors in end-stage dilated cardiomyopathy. Cardiovasc Pathol. 2003 Jan-Feb;12(1):36-9. doi: 10.1016/s1054-8807(02)00134-5."
+        },
+        {
+          "pmid": "22739784",
+          "type": "BACKGROUND",
+          "citation": "Yamada Y, Saito S, Nishinaka T, Yamazaki K. Myocardial size and fibrosis changes during left ventricular assist device support. ASAIO J. 2012 Jul-Aug;58(4):402-6. doi: 10.1097/MAT.0b013e31825b9826."
+        },
+        {
+          "pmid": "14734125",
+          "type": "BACKGROUND",
+          "citation": "Bruckner BA, Razeghi P, Stetson S, Thompson L, Lafuente J, Entman M, Loebe M, Noon G, Taegtmeyer H, Frazier OH, Youker K. Degree of cardiac fibrosis and hypertrophy at time of implantation predicts myocardial improvement during left ventricular assist device support. J Heart Lung Transplant. 2004 Jan;23(1):36-42. doi: 10.1016/s1053-2498(03)00103-7."
+        },
+        {
+          "pmid": "21821961",
+          "type": "BACKGROUND",
+          "citation": "Aoki T, Fukumoto Y, Sugimura K, Oikawa M, Satoh K, Nakano M, Nakayama M, Shimokawa H. Prognostic impact of myocardial interstitial fibrosis in non-ischemic heart failure. -Comparison between preserved and reduced ejection fraction heart failure.-. Circ J. 2011;75(11):2605-13. doi: 10.1253/circj.cj-11-0568. Epub 2011 Aug 6."
+        },
+        {
+          "pmid": "11395543",
+          "type": "BACKGROUND",
+          "citation": "Aronow BJ, Toyokawa T, Canning A, Haghighi K, Delling U, Kranias E, Molkentin JD, Dorn GW 2nd. Divergent transcriptional responses to independent genetic causes of cardiac hypertrophy. Physiol Genomics. 2001 Jun 6;6(1):19-28. doi: 10.1152/physiolgenomics.2001.6.1.19."
+        },
+        {
+          "pmid": "9223325",
+          "type": "BACKGROUND",
+          "citation": "D'Angelo DD, Sakata Y, Lorenz JN, Boivin GP, Walsh RA, Liggett SB, Dorn GW 2nd. Transgenic Galphaq overexpression induces cardiac contractile failure in mice. Proc Natl Acad Sci U S A. 1997 Jul 22;94(15):8121-6. doi: 10.1073/pnas.94.15.8121."
+        },
+        {
+          "pmid": "9568714",
+          "type": "BACKGROUND",
+          "citation": "Molkentin JD, Lu JR, Antos CL, Markham B, Richardson J, Robbins J, Grant SR, Olson EN. A calcineurin-dependent transcriptional pathway for cardiac hypertrophy. Cell. 1998 Apr 17;93(2):215-28. doi: 10.1016/s0092-8674(00)81573-1."
+        },
+        {
+          "pmid": "11705790",
+          "type": "BACKGROUND",
+          "citation": "Iemitsu M, Miyauchi T, Maeda S, Sakai S, Kobayashi T, Fujii N, Miyazaki H, Matsuda M, Yamaguchi I. Physiological and pathological cardiac hypertrophy induce different molecular phenotypes in the rat. Am J Physiol Regul Integr Comp Physiol. 2001 Dec;281(6):R2029-36. doi: 10.1152/ajpregu.2001.281.6.R2029."
+        },
+        {
+          "pmid": "15623566",
+          "type": "BACKGROUND",
+          "citation": "Kong SW, Bodyak N, Yue P, Liu Z, Brown J, Izumo S, Kang PM. Genetic expression profiles during physiological and pathological cardiac hypertrophy and heart failure in rats. Physiol Genomics. 2005 Mar 21;21(1):34-42. doi: 10.1152/physiolgenomics.00226.2004. Epub 2004 Dec 28."
+        },
+        {
+          "pmid": "15943803",
+          "type": "BACKGROUND",
+          "citation": "Strom CC, Aplin M, Ploug T, Christoffersen TE, Langfort J, Viese M, Galbo H, Haunso S, Sheikh SP. Expression profiling reveals differences in metabolic gene expression between exercise-induced cardiac effects and maladaptive cardiac hypertrophy. FEBS J. 2005 Jun;272(11):2684-95. doi: 10.1111/j.1742-4658.2005.04684.x."
+        },
+        {
+          "pmid": "10067796",
+          "type": "BACKGROUND",
+          "citation": "Mujumdar VS, Tyagi SC. Temporal regulation of extracellular matrix components in transition from compensatory hypertrophy to decompensatory heart failure. J Hypertens. 1999 Feb;17(2):261-70. doi: 10.1097/00004872-199917020-00011."
+        },
+        {
+          "pmid": "15313958",
+          "type": "BACKGROUND",
+          "citation": "Querejeta R, Lopez B, Gonzalez A, Sanchez E, Larman M, Martinez Ubago JL, Diez J. Increased collagen type I synthesis in patients with heart failure of hypertensive origin: relation to myocardial fibrosis. Circulation. 2004 Sep 7;110(10):1263-8. doi: 10.1161/01.CIR.0000140973.60992.9A. Epub 2004 Aug 16."
+        },
+        {
+          "pmid": "16618817",
+          "type": "BACKGROUND",
+          "citation": "van Heerebeek L, Borbely A, Niessen HW, Bronzwaer JG, van der Velden J, Stienen GJ, Linke WA, Laarman GJ, Paulus WJ. Myocardial structure and function differ in systolic and diastolic heart failure. Circulation. 2006 Apr 25;113(16):1966-73. doi: 10.1161/CIRCULATIONAHA.105.587519. Epub 2006 Apr 17."
+        },
+        {
+          "pmid": "23963758",
+          "type": "BACKGROUND",
+          "citation": "Shah RV, Abbasi SA, Neilan TG, Hulten E, Coelho-Filho O, Hoppin A, Levitsky L, de Ferranti S, Rhodes ET, Traum A, Goodman E, Feng H, Heydari B, Harris WS, Hoefner DM, McConnell JP, Seethamraju R, Rickers C, Kwong RY, Jerosch-Herold M. Myocardial tissue remodeling in adolescent obesity. J Am Heart Assoc. 2013 Aug 20;2(4):e000279. doi: 10.1161/JAHA.113.000279."
+        },
+        {
+          "pmid": "23725816",
+          "type": "BACKGROUND",
+          "citation": "Kida K, Yoneyama K, Kobayashi Y, Takano M, Akashi YJ, Miyake F. Response to the letter regarding the article, \"late gadolinium enhancement on cardiac magnetic resonance images predicts reverse remodeling in patients with nonischemic cardiomyopathy treated with carvedilol\". Int J Cardiol. 2013 Oct 9;168(4):4351. doi: 10.1016/j.ijcard.2013.05.073. Epub 2013 May 29. No abstract available."
+        },
+        {
+          "pmid": "22991405",
+          "type": "BACKGROUND",
+          "citation": "Redfield MM, Borlaug BA, Lewis GD, Mohammed SF, Semigran MJ, Lewinter MM, Deswal A, Hernandez AF, Lee KL, Braunwald E; Heart Failure Clinical Research Network. PhosphdiesteRasE-5 Inhibition to Improve CLinical Status and EXercise Capacity in Diastolic Heart Failure (RELAX) trial: rationale and design. Circ Heart Fail. 2012 Sep 1;5(5):653-9. doi: 10.1161/CIRCHEARTFAILURE.112.969071."
+        },
+        {
+          "pmid": "23443441",
+          "type": "BACKGROUND",
+          "citation": "Edelmann F, Wachter R, Schmidt AG, Kraigher-Krainer E, Colantonio C, Kamke W, Duvinage A, Stahrenberg R, Durstewitz K, Loffler M, Dungen HD, Tschope C, Herrmann-Lingen C, Halle M, Hasenfuss G, Gelbrich G, Pieske B; Aldo-DHF Investigators. Effect of spironolactone on diastolic function and exercise capacity in patients with heart failure with preserved ejection fraction: the Aldo-DHF randomized controlled trial. JAMA. 2013 Feb 27;309(8):781-91. doi: 10.1001/jama.2013.905."
+        },
+        {
+          "pmid": "24716680",
+          "type": "BACKGROUND",
+          "citation": "Pitt B, Pfeffer MA, Assmann SF, Boineau R, Anand IS, Claggett B, Clausell N, Desai AS, Diaz R, Fleg JL, Gordeev I, Harty B, Heitner JF, Kenwood CT, Lewis EF, O'Meara E, Probstfield JL, Shaburishvili T, Shah SJ, Solomon SD, Sweitzer NK, Yang S, McKinlay SM; TOPCAT Investigators. Spironolactone for heart failure with preserved ejection fraction. N Engl J Med. 2014 Apr 10;370(15):1383-92. doi: 10.1056/NEJMoa1313731."
+        },
+        {
+          "pmid": "25006726",
+          "type": "BACKGROUND",
+          "citation": "Pfeffer MA, Pitt B, McKinlay SM. Spironolactone for heart failure with preserved ejection fraction. N Engl J Med. 2014 Jul 10;371(2):181-2. doi: 10.1056/NEJMc1405715. No abstract available."
+        },
+        {
+          "pmid": "11581138",
+          "type": "BACKGROUND",
+          "citation": "Mathew J, Sleight P, Lonn E, Johnstone D, Pogue J, Yi Q, Bosch J, Sussex B, Probstfield J, Yusuf S; Heart Outcomes Prevention Evaluation (HOPE) Investigators. Reduction of cardiovascular risk by regression of electrocardiographic markers of left ventricular hypertrophy by the angiotensin-converting enzyme inhibitor ramipril. Circulation. 2001 Oct 2;104(14):1615-21. doi: 10.1161/hc3901.096700."
+        },
+        {
+          "pmid": "15547162",
+          "type": "BACKGROUND",
+          "citation": "Devereux RB, Wachtell K, Gerdts E, Boman K, Nieminen MS, Papademetriou V, Rokkedal J, Harris K, Aurup P, Dahlof B. Prognostic significance of left ventricular mass change during treatment of hypertension. JAMA. 2004 Nov 17;292(19):2350-6. doi: 10.1001/jama.292.19.2350."
+        },
+        {
+          "type": "BACKGROUND",
+          "citation": "Coelho-Filho OR, Mitchell RN, Moreno H, Kwong RY and Jerosch-Herold M. MRI based non-invasive detection of cardiomyocyte hypertrophy and cell-volume changes. J Cardiovasc Magn Reson. 2012;14:O10."
+        },
+        {
+          "pmid": "24965024",
+          "type": "BACKGROUND",
+          "citation": "Coelho-Filho OR, Shah RV, Neilan TG, Mitchell R, Moreno H Jr, Kwong R, Jerosch-Herold M. Cardiac magnetic resonance assessment of interstitial myocardial fibrosis and cardiomyocyte hypertrophy in hypertensive mice treated with spironolactone. J Am Heart Assoc. 2014 Jun 25;3(3):e000790. doi: 10.1161/JAHA.114.000790."
+        },
+        {
+          "pmid": "17389260",
+          "type": "BACKGROUND",
+          "citation": "Dorn GW 2nd. The fuzzy logic of physiological cardiac hypertrophy. Hypertension. 2007 May;49(5):962-70. doi: 10.1161/HYPERTENSIONAHA.106.079426. Epub 2007 Mar 26. No abstract available."
+        },
+        {
+          "pmid": "16103253",
+          "type": "BACKGROUND",
+          "citation": "Rosen BD, Edvardsen T, Lai S, Castillo E, Pan L, Jerosch-Herold M, Sinha S, Kronmal R, Arnett D, Crouse JR 3rd, Heckbert SR, Bluemke DA, Lima JA. Left ventricular concentric remodeling is associated with decreased global and regional systolic function: the Multi-Ethnic Study of Atherosclerosis. Circulation. 2005 Aug 16;112(7):984-91. doi: 10.1161/CIRCULATIONAHA104.500488."
+        },
+        {
+          "pmid": "15052243",
+          "type": "BACKGROUND",
+          "citation": "Somsen GA, Verberne HJ, Fleury E, Righetti A. Normal values and within-subject variability of cardiac I-123 MIBG scintigraphy in healthy individuals: implications for clinical studies. J Nucl Cardiol. 2004 Mar-Apr;11(2):126-33. doi: 10.1016/j.nuclcard.2003.10.010."
+        },
+        {
+          "pmid": "17409109",
+          "type": "BACKGROUND",
+          "citation": "Kasama S, Toyama T, Hatori T, Sumino H, Kumakura H, Takayama Y, Ichikawa S, Suzuki T, Kurabayashi M. Evaluation of cardiac sympathetic nerve activity and left ventricular remodelling in patients with dilated cardiomyopathy on the treatment containing carvedilol. Eur Heart J. 2007 Apr;28(8):989-95. doi: 10.1093/eurheartj/ehm048. Epub 2007 Apr 4."
+        },
+        {
+          "pmid": "17409108",
+          "type": "BACKGROUND",
+          "citation": "Henneman MM, Bax JJ, van der Wall EE. Monitoring of therapeutic effect in heart failure patients: a clinical application of 123I MIBG imaging? Eur Heart J. 2007 Apr;28(8):922-3. doi: 10.1093/eurheartj/ehl325. Epub 2007 Apr 4. No abstract available."
+        },
+        {
+          "pmid": "9869480",
+          "type": "BACKGROUND",
+          "citation": "Nakata T, Miyamoto K, Doi A, Sasao H, Wakabayashi T, Kobayashi H, Tsuchihashi K, Shimamoto K. Cardiac death prediction and impaired cardiac sympathetic innervation assessed by MIBG in patients with failing and nonfailing hearts. J Nucl Cardiol. 1998 Nov-Dec;5(6):579-90. doi: 10.1016/s1071-3581(98)90112-x."
+        },
+        {
+          "pmid": "8457398",
+          "type": "BACKGROUND",
+          "citation": "Gill JS, Hunter GJ, Gane J, Ward DE, Camm AJ. Asymmetry of cardiac [123I] meta-iodobenzyl-guanidine scans in patients with ventricular tachycardia and a \"clinically normal\" heart. Br Heart J. 1993 Jan;69(1):6-13. doi: 10.1136/hrt.69.1.6."
+        },
+        {
+          "pmid": "12673176",
+          "type": "BACKGROUND",
+          "citation": "Arora R, Ferrick KJ, Nakata T, Kaplan RC, Rozengarten M, Latif F, Ng K, Marcano V, Heller S, Fisher JD, Travin MI. I-123 MIBG imaging and heart rate variability analysis to predict the need for an implantable cardioverter defibrillator. J Nucl Cardiol. 2003 Mar-Apr;10(2):121-31. doi: 10.1067/mnc.2003.2."
+        },
+        {
+          "pmid": "17344327",
+          "type": "BACKGROUND",
+          "citation": "Kioka H, Yamada T, Mine T, Morita T, Tsukamoto Y, Tamaki S, Masuda M, Okuda K, Hori M, Fukunami M. Prediction of sudden death in patients with mild-to-moderate chronic heart failure by using cardiac iodine-123 metaiodobenzylguanidine imaging. Heart. 2007 Oct;93(10):1213-8. doi: 10.1136/hrt.2006.094524. Epub 2007 Mar 7."
+        },
+        {
+          "pmid": "19179201",
+          "type": "BACKGROUND",
+          "citation": "Tamaki S, Yamada T, Okuyama Y, Morita T, Sanada S, Tsukamoto Y, Masuda M, Okuda K, Iwasaki Y, Yasui T, Hori M, Fukunami M. Cardiac iodine-123 metaiodobenzylguanidine imaging predicts sudden cardiac death independently of left ventricular ejection fraction in patients with chronic heart failure and left ventricular systolic dysfunction: results from a comparative study with signal-averaged electrocardiogram, heart rate variability, and QT dispersion. J Am Coll Cardiol. 2009 Feb 3;53(5):426-35. doi: 10.1016/j.jacc.2008.10.025."
+        },
+        {
+          "pmid": "19091900",
+          "type": "BACKGROUND",
+          "citation": "Akutsu Y, Kaneko K, Kodama Y, Li HL, Kawamura M, Asano T, Tanno K, Shinozuka A, Gokan T, Kobayashi Y. The significance of cardiac sympathetic nervous system abnormality in the long-term prognosis of patients with a history of ventricular tachyarrhythmia. J Nucl Med. 2009 Jan;50(1):61-7. doi: 10.2967/jnumed.108.055194. Epub 2008 Dec 17."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "No plan to Share individual participant data."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D006984",
+          "term": "Hypertrophy"
+        },
+        {
+          "id": "D005355",
+          "term": "Fibrosis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D020763",
+          "term": "Pathological Conditions, Anatomical"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D015444",
+          "term": "Exercise"
+        },
+        {
+          "id": "D052580",
+          "term": "Muscle Stretching Exercises"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009043",
+          "term": "Motor Activity"
+        },
+        {
+          "id": "D009068",
+          "term": "Movement"
+        },
+        {
+          "id": "D009142",
+          "term": "Musculoskeletal Physiological Phenomena"
+        },
+        {
+          "id": "D055687",
+          "term": "Musculoskeletal and Neural Physiological Phenomena"
+        },
+        {
+          "id": "D005081",
+          "term": "Exercise Therapy"
+        },
+        {
+          "id": "D012046",
+          "term": "Rehabilitation"
+        },
+        {
+          "id": "D000359",
+          "term": "Aftercare"
+        },
+        {
+          "id": "D003266",
+          "term": "Continuity of Patient Care"
+        },
+        {
+          "id": "D005791",
+          "term": "Patient Care"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D026741",
+          "term": "Physical Therapy Modalities"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

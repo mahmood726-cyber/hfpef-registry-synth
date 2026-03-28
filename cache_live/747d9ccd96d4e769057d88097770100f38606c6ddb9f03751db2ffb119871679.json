@@ -1,0 +1,288 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01905670",
+      "orgStudyIdInfo": {
+        "id": "EBR-02494"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "CIV-13-04-010803",
+          "type": "OTHER",
+          "domain": "EUDAMED"
+        }
+      ],
+      "organization": {
+        "fullName": "EBR Systems, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Safety and Performance of Electrodes Implanted in the Left Ventricle",
+      "officialTitle": "Multicenter, Prospective Evaluation of Safety and Performance of the WiCS-LV System in Patients Indicated for Cardiac Resynchronization Therapy",
+      "acronym": "SELECT-LV"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2018-02",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2013-07"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2015-08",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2019-11",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2013-07-19",
+      "studyFirstSubmitQcDate": "2013-07-22",
+      "studyFirstPostDateStruct": {
+        "date": "2013-07-23",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2020-07-07",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-07-09",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "EBR Systems, Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The study is intended to demonstrate the safe implant of small receiver-electrodes into the endocardial surface of the left ventricle and to demonstrate its utility in providing cardiac resynchronization therapy in heart failure patients.",
+      "detailedDescription": "Eligible patients will undergo an acoustic window assessment using transthoracic echocardiography. Patients with adequate acoustic windows will undergo implantation of the WiCS-LV system.\n\nPatients will undergo evaluations pre-hospital discharge, and at one month, 3 months, and 6 months post implantation. Extended follow-up will be obtained via a registry at 1, 2, 3, 4, and 5 years post implantation."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure",
+        "Ventricular Dysfunction",
+        "Cardiomyopathies",
+        "Heart Diseases",
+        "Cardiovascular Diseases"
+      ],
+      "keywords": [
+        "Cardiac Resynchronization Therapy",
+        "cardiac pacing",
+        "electrical stimulation",
+        "bi-ventricular pacing"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 39,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Implant",
+          "type": "EXPERIMENTAL",
+          "description": "Implant of the WiCS-LV system",
+          "interventionNames": [
+            "Device: WiCS-LV system"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "WiCS-LV system",
+          "description": "Wireless cardiac stimulator implant to pace the left ventricle for CRT Transvascular endocardial implantation of wireless pacing Electrode and subcutaneous implantation of Implantable Pulse Generator",
+          "armGroupLabels": [
+            "Implant"
+          ],
+          "otherNames": [
+            "Implant"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of patients with device-related adverse events as a measure of safety",
+          "description": "Device-related adverse events are those in which the WiCS-LV system is directly or indirectly responsible.",
+          "timeFrame": "24 hour peri-operative and one month"
+        },
+        {
+          "measure": "Number of patients with procedure-related adverse events as a measure of safety",
+          "description": "Procedure-related adverse events are those which occur during the WiCS-LV system implant procedure.",
+          "timeFrame": "24 hour perioperative and one month"
+        },
+        {
+          "measure": "Bi-ventricular pacing capture",
+          "description": "Bi-ventricular pacing capture documented on 12-lead EKG",
+          "timeFrame": "one month"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of patients with device-related adverse events as a measure of safety",
+          "description": "Device-related adverse events are those in which the WiCS-LV system is directly or indirectly responsible.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Number of patients with serious adverse events as a measure of safety",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Bi-ventricular pacing capture",
+          "description": "Bi-ventricular pacing capture documented on 12-lead EKG",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Clinical composite score",
+          "description": "Composite of all cause mortality, heart failure hospitalization, NYHA class, and patient global assessment",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Change in echocardiographic indices",
+          "description": "change in left-ventricular end-systolic volume, left ventricular end-diastolic volume, and ejection fraction",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nPatients with standard indications for CRT based upon the most recent ESC/EHRA guidelines AND meeting criteria for one of these two categories:\n\n1. Patients with previously implanted pacemakers or ICD's and meeting standard indications for CRT but in whom standard CRT is not advisable due to known high risk - referred to as \"upgrades\". Justifications for not using standard CRT must be documented in a CRF.\n2. Patients in whom coronary sinus lead implantation or attempted implantation for CRT has failed to provide demonstrable therapy benefit - referred to as \"untreated\"\n\nExclusion Criteria:\n\n1. Inability to comply with the study follow-up or other study requirements\n2. History of chronic alcohol/drug abuse and currently using alcohol/drugs\n3. Non-ambulatory (or unstable) NYHA class 4\n4. Contraindication to heparin\n5. Contraindication to both chronic anticoagulants and antiplatelet agents\n6. Triple anticoagulation therapy (warfarin, clopidogrel, ASA, and other agents)\n7. Thrombocytopenia (platelet count \\<150,000)\n8. Contraindication to iodinated contrast agents\n9. Intracardiac thrombus by transesophageal echocardiography\n10. Age less than 18 years or greater than 75\n11. Attempted IPG implant within 3 days\n12. Life expectancy of less than 12 months\n13. Chronic hemodialysis\n14. Stage 4 or 5 renal dysfunction defined as GFR \\<30\n15. Grade 4 mitral valve regurgitation\n16. Myocardial infarction within one month\n17. Major cardiac surgery within one month\n18. History of a pericardial effusion in prior procedures\n19. Female of childbearing potential, pregnant, or breastfeeding (a pregnancy test will be obtained where applicable)\n20. Non-cardiac implanted electrical stimulation therapy devices",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Na Homolce Hospital",
+          "city": "Prague",
+          "zip": "150 30",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.08804,
+            "lon": 14.42076
+          }
+        },
+        {
+          "facility": "Aalborg University Hospital",
+          "city": "Aalborg",
+          "zip": "9100",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 57.048,
+            "lon": 9.9187
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "28449772",
+          "type": "DERIVED",
+          "citation": "Reddy VY, Miller MA, Neuzil P, Sogaard P, Butter C, Seifert M, Delnoy PP, van Erven L, Schalji M, Boersma LVA, Riahi S. Cardiac Resynchronization Therapy With Wireless Left Ventricular Endocardial Pacing: The SELECT-LV Study. J Am Coll Cardiol. 2017 May 2;69(17):2119-2129. doi: 10.1016/j.jacc.2017.02.059."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D018754",
+          "term": "Ventricular Dysfunction"
+        },
+        {
+          "id": "D009202",
+          "term": "Cardiomyopathies"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D016254",
+          "term": "Mutagenesis, Insertional"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D015202",
+          "term": "Protein Engineering"
+        },
+        {
+          "id": "D005818",
+          "term": "Genetic Engineering"
+        },
+        {
+          "id": "D005821",
+          "term": "Genetic Techniques"
+        },
+        {
+          "id": "D008919",
+          "term": "Investigative Techniques"
+        },
+        {
+          "id": "D009154",
+          "term": "Mutation"
+        },
+        {
+          "id": "D014644",
+          "term": "Genetic Variation"
+        },
+        {
+          "id": "D055614",
+          "term": "Genetic Phenomena"
+        },
+        {
+          "id": "D016296",
+          "term": "Mutagenesis"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

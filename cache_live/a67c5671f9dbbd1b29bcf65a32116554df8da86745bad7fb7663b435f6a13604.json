@@ -1,0 +1,489 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05572736",
+      "orgStudyIdInfo": {
+        "id": "NUP: 25000.123471/2021-59"
+      },
+      "organization": {
+        "fullName": "Hospital Moinhos de Vento",
+        "class": "OTHER"
+      },
+      "briefTitle": "Conduction System Pacing Versus Biventricular Resynchronization in Patients With Chronic Heart Failure",
+      "officialTitle": "Conduction System Pacing Versus Biventricular Resynchronization in Patients With Chronic Heart Failure (PhysioSync-HF)",
+      "acronym": "PhysioSync-HF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-11-07",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-01-10",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-01-10",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-09-02",
+      "studyFirstSubmitQcDate": "2022-10-05",
+      "studyFirstPostDateStruct": {
+        "date": "2022-10-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-06-06",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-06-08",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Hospital Moinhos de Vento",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Ministry of Health, Brazil",
+          "class": "OTHER_GOV"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to evaluate the efficacy and safety of conduction system pacing versus biventricular pacing in patients with chronic heart failure with reduced ejection fraction and left bundle branch block."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure",
+        "Left Bundle-Branch Block",
+        "Cardiac Resynchronization",
+        "Conduction System Pacing"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 179,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Conduction system pacing",
+          "type": "EXPERIMENTAL",
+          "description": "Patients will be randomized 1:1 to either conduction system pacing or biventricular pacing.",
+          "interventionNames": [
+            "Device: Conduction system pacing"
+          ]
+        },
+        {
+          "label": "Biventricular pacing",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients will be randomized 1:1 to either conduction system pacing or biventricular pacing.",
+          "interventionNames": [
+            "Device: Biventricular pacing"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Conduction system pacing",
+          "description": "Pacing from the His-Purkinje system (His-bundle pacing, left bundle branch area pacing, or deep septal pacing).",
+          "armGroupLabels": [
+            "Conduction system pacing"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Biventricular pacing",
+          "description": "Pacing from the coronary sinus and right ventricular leads.",
+          "armGroupLabels": [
+            "Biventricular pacing"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Primary Outcome Measure",
+          "description": "Heart failure-related net composite outcome, a hierarchical composite of all-cause death, any hospitalization for heart failure, any urgent heart failure visit, and left ventricular ejection fraction change at 12 months.\n\nThe category of the composite outcome for each patient will be determined by assessing the following criteria sequentially, stopping when the event is present:\n\nAll-cause death: death during follow-up. Hospitalization for heart failure: any hospitalization for heart failure during follow-up.\n\nUrgent heart failure visit: any urgent heart failure visit during follow-up. Left ventricular ejection fraction change: the difference between baseline and follow-up, categorized by every 5-point change.\n\nThe distribution of outcome categories will be compared by ordinal distribution analysis. Non-inferiority margin: odds ratio \\<1.2.",
+          "timeFrame": "12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Key secondary outcome: Cost analysis (dominance) (superiority)",
+          "description": "Mean total direct medical cost per patient at 12 months.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Change in QRS complex",
+          "timeFrame": "Duration of the QRS complex, defined as the widest paced QRS complex rated at 12-lead ECG, measured immediately after the index procedure"
+        },
+        {
+          "measure": "Change in left ventricular ejection fraction",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Left ventricular end-diastolic volume",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Change in natriuretic peptide values",
+          "description": "BNP and NT-proBNP",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Change in 6-minute walk test",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Change in NYHA Classification",
+          "description": "New York Heart Association Functional Class",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Change in Kansas City Cardiomyopathy Questionnaire Overall Summary Score",
+          "description": "The Kansas City Cardiomyopathy Questionnaire Overall Summary Score ranges from 0-100, where a lower score indicates a worse outcome.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "EuroQol Group 5-Dimensions questionnaire (EQ-5D)",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Hierarchical endpoint of death, hospitalization for heart failure, urgent heart failure visit, and change in KCCQ Clinical Summary Score",
+          "timeFrame": "12 months"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Change in peak oxygen consumption (VO2)",
+          "timeFrame": "12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion criteria:\n\n* Male or female, age ≥18 years\n* Established diagnosis of symptomatic heart failure (New York Heart Association class II-III)\n* Left ventricular ejection fraction ≤35% in prior 3 months\n* Left bundle branch block (QRS ≥130 ms)\n* Clinical indication for cardiac resynchronization therapy\n* Patients should be clinically stable\n* Patients should receive background standard of care for heart failure with reduced ejection fraction, with the maximum tolerated doses of ACE inhibitor or ARB or ARNI, beta-blocker, and mineralocorticoid receptor antagonist\n\nExclusion criteria:\n\n* Life expectancy \\<12 months due to any disease\n* Dementia or advanced cerebrovascular disease\n* NYHA class IV\n* Plan to implant an implantable cardioverter defibrillator (ICD), with or without resynchronization therapy (CRT-D)\n* Enrollment in other clinical trials involving cardiac pacing\n* Pregnancy or pre-menopausal women who do not use regular contraceptive methods\n* Patients unable to understand and sign the consent for participation",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Carisi Polanczyk, MD PhD",
+          "affiliation": "Hospital Moinhos de Vento",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Andre d'Avila, MD PhD",
+          "affiliation": "Harvard Medical School (HMS and HSDM)",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Alexander Dal Forno, MD",
+          "affiliation": "Hospital SOS Cardio",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Leandro Zimerman, MD PhD",
+          "affiliation": "Hospital Moinhos de Vento",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Luis E Rohde, MD PhD",
+          "affiliation": "Hospital Moinhos de Vento",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Andre Zimerman, MD PhD",
+          "affiliation": "Hospital Moinhos de Vento",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Caique Ternes, MD",
+          "affiliation": "Hospital Moinhos de Vento",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Fernanda D Alves, PhD",
+          "affiliation": "Hospital Moinhos de Vento",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Fundação Hospital do Coração Francisca Mendes",
+          "city": "Manaus",
+          "state": "Amazonas",
+          "zip": "69097720",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -3.10194,
+            "lon": -60.025
+          }
+        },
+        {
+          "facility": "Hospital Universitário Cassiano Antônio de Moraes",
+          "city": "Vitória",
+          "state": "Espírito Santo",
+          "zip": "29041-295",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -20.31944,
+            "lon": -40.33778
+          }
+        },
+        {
+          "facility": "Hospital Ana Nery",
+          "city": "Salvador",
+          "state": "Estado de Bahia",
+          "zip": "40301-155",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -12.97563,
+            "lon": -38.49096
+          }
+        },
+        {
+          "facility": "Hospital Geral Universitário de Cuiabá",
+          "city": "Cuiabá",
+          "state": "Mato Grosso",
+          "zip": "78020-840",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -15.59611,
+            "lon": -56.09667
+          }
+        },
+        {
+          "facility": "Instituto de Medicina Integral Professor Fernando Figueira",
+          "city": "Recife",
+          "state": "Pernambuco",
+          "zip": "50070-902",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -8.05389,
+            "lon": -34.88111
+          }
+        },
+        {
+          "facility": "Hospital Universitário da Universidade Federal do Piauí",
+          "city": "Teresina",
+          "state": "Piauí",
+          "zip": "64049-550",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -5.08917,
+            "lon": -42.80194
+          }
+        },
+        {
+          "facility": "Hospital Moinhos de Vento",
+          "city": "Porto Alegre",
+          "state": "Rio Grande do Sul",
+          "zip": "90035-000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Hospital de Clínicas de Porto Alegre",
+          "city": "Porto Alegre",
+          "state": "Rio Grande do Sul",
+          "zip": "90035-903",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Hospital Mãe de Deus",
+          "city": "Porto Alegre",
+          "state": "Rio Grande do Sul",
+          "zip": "900880-481",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "SOS Cardio",
+          "city": "Florianópolis",
+          "state": "Santa Catarina",
+          "zip": "88030-000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -27.59667,
+            "lon": -48.54917
+          }
+        },
+        {
+          "facility": "Instituto de Cardiologia de Santa Catarina",
+          "city": "São José",
+          "state": "Santa Catarina",
+          "zip": "88103-901",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -27.61528,
+            "lon": -48.6275
+          }
+        },
+        {
+          "facility": "Instituto Nacional de Cardiologia",
+          "city": "Rio de Janeiro",
+          "zip": "22240-006",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.90642,
+            "lon": -43.18223
+          }
+        },
+        {
+          "facility": "Beneficência Portuguesa",
+          "city": "São Paulo",
+          "zip": "01323-001",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Hospital Alemão Oswaldo Cruz",
+          "city": "São Paulo",
+          "zip": "01323-020",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "40473010",
+          "type": "DERIVED",
+          "citation": "Zimerman A, Dal Forno A, Rohde LE, Ternes CM, Alves FD, Decker SR, Silveira AD, Damiani LP, Martinelli Filho M, Costa R, Fagundes AA, Barbosa RM, Gadelha EB, Lima CE, Silva MA, Maldonado JA, de Oliveira JC, Mallmann F, Baggio JM Jr, Duarte CE, Zimerman LI, D'Avila A, Polanczyk CA. Conduction system pacing vs biventricular resynchronization in heart failure with reduced ejection fraction and left bundle branch block: Rationale and design of the PhysioSync-HF Trial. Am Heart J. 2025 Dec;290:38-45. doi: 10.1016/j.ahj.2025.06.002. Epub 2025 Jun 3."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D002037",
+          "term": "Bundle-Branch Block"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D006327",
+          "term": "Heart Block"
+        },
+        {
+          "id": "D001145",
+          "term": "Arrhythmias, Cardiac"
+        },
+        {
+          "id": "D000075224",
+          "term": "Cardiac Conduction System Disease"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D058406",
+          "term": "Cardiac Resynchronization Therapy"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D002304",
+          "term": "Cardiac Pacing, Artificial"
+        },
+        {
+          "id": "D004599",
+          "term": "Electric Stimulation Therapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

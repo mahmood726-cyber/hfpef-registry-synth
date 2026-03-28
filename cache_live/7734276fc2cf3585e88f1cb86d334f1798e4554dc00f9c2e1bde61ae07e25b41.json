@@ -1,0 +1,321 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04763460",
+      "orgStudyIdInfo": {
+        "id": "IRBnet#: 1706252"
+      },
+      "organization": {
+        "fullName": "Allina Health System",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effects of CRT Optimization as Assessed by Cardiac MR",
+      "officialTitle": "Effects of CRT Optimization on LV Mechanical Synchrony, Structure, and Function in CRT Patients as Assessed by Cardiac MR"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-09",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-07-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-04-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-04-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-02-12",
+      "studyFirstSubmitQcDate": "2021-02-18",
+      "studyFirstPostDateStruct": {
+        "date": "2021-02-21",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-09-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-09-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Alan J. Bank, MD",
+        "investigatorTitle": "Medical Director of Research - United Heart & Vascular Clinic (MHI East)",
+        "investigatorAffiliation": "Allina Health System"
+      },
+      "leadSponsor": {
+        "name": "Allina Health System",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Minneapolis Heart Institute Foundation",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Cardiac resynchronization therapy (CRT), or atrial-synchronized biventricular (BiV) pacing, is an FDA-approved device therapy option for heart failure (HF) patients with reduced left ventricular ejection fraction and electrical dyssynchrony. A traditional CRT device has pacing leads implanted within the right atrium (RA), the right ventricle (RV), and within a coronary vein overlying the lateral or posterior left ventricle (LV). Within the past decade, various multi-center randomized controlled trials have reported improved quality of life, aerobic exercise capacity, LV systolic function and structure, as well as decreased hospitalization rates and mortality among patients with HF. Despite improvements in CRT technology with multipoint pacing, quadripolar leads, and adaptive pacing algorithms, approximately 30% of patients do not clinically benefit and are considered non-responders. This study looks to optimize CRT device programming in patients considered non-responders to CRTusing information obtained from standard ECG machines, and to assess acute and chronic effects of CRT optimization using cardiac magnetic resonance imaging (CMR).",
+      "detailedDescription": "This is a prospective, randomized study designed to evaluate if CRT device optimization, guided by electrocardiography, improves cardiac function and clinical outcomes among patients considered non-responders to CRT. All patients will have electrocardiographic assessment of electrical dyssynchrony at a range of device settings using standard ECG machines. All patients will then have a baseline CMR study at baseline CRT programming, underlying rhythm, and optimal settings derived from the electrocardiographic assessment to assess acute effects of CRT optimization on mechanical synchrony, LV regional wall motion, and LV structure/ function. To assess chronic effects of CRT optimization, patients will be randomized in a 1:1 ratio after baseline CMR to either the active comparator arm (baseline CRT programming), or the experimental arm (CRT device programmed to optimal settings derived from the electrocardiographic assessment). Patients will be blinded to randomization. After 6 month, all patients will return for follow up CMR study to assess chronic effects. After follow up CMR imaging, the active comparator group will crossover to the experimental group. After 12 months, all patients will return for follow up echocardiogram to further evaluate the chronic effects of CRT optimization."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure, Systolic"
+      ],
+      "keywords": [
+        "Cardiac Resynchronization Therapy",
+        "Pacing",
+        "Electrocardiography",
+        "Cardiac Magnetic Resonance Imaging",
+        "Echocardiography",
+        "Optimization of Cardiac Devices",
+        "Heart Failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Parallel (with 6 month crossover) 1:1 randomization - active comparator and experimental arm (note: at 6 month, the active comparator arm will crossover to the experimental arm)",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "Patients blinded to which group they are randomized and how their CRT device is programmed during the study. Individuals (readers) who perform cardiac magnetic resonance and echocardiographic imaging measurements blinded to patient randomization and CRT programming.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 40,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Baseline CRT programming",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "The comparator arm patients will remain at baseline CRT programming for the first 6 months, and then will crossover to the experimental arm and CRT device will be programmed to optimal settings derived from the electrocardiographic assessment for the following 6 months.",
+          "interventionNames": [
+            "Device: Programming of CRT device settings"
+          ]
+        },
+        {
+          "label": "Electrocardiography-guided optimal CRT programming",
+          "type": "EXPERIMENTAL",
+          "description": "The experimental arm patients will have CRT device programmed based on the electrocardiographic assessment for 12 months.",
+          "interventionNames": [
+            "Device: Programming of CRT device settings"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Programming of CRT device settings",
+          "description": "Reprogramming of CRT device to maximize the benefit derived from the electrocardiographic assessment.",
+          "armGroupLabels": [
+            "Baseline CRT programming",
+            "Electrocardiography-guided optimal CRT programming"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Acute changes in left ventricular mechanical synchrony in study population",
+          "description": "Acute changes, measured by cardiac magnetic resonance imaging, in left ventricular mechanical synchrony at underlying rhythm, baseline CRT programming, and optimal programming derived from electrocardiographic assessment in all patients.",
+          "timeFrame": "During Baseline Assessment"
+        },
+        {
+          "measure": "Acute changes in left ventricular regional wall motion in study population",
+          "description": "Acute changes, measured by cardiac magnetic resonance imaging, in left ventricular wall motion at underlying rhythm, baseline CRT programming, and optimal programming derived from electrocardiographic assessment in all patients.",
+          "timeFrame": "During Baseline Assessment"
+        },
+        {
+          "measure": "Acute changes in left ventricular end-diastolic volume in study population",
+          "description": "Acute changes, measured by cardiac magnetic resonance imaging, in left ventricular end-diastolic volume at underlying rhythm, baseline CRT programming, and optimal programming derived from electrocardiographic assessment in all patients.",
+          "timeFrame": "During Baseline Assessment"
+        },
+        {
+          "measure": "Acute changes in left ventricular end-systolic volume in study population",
+          "description": "Acute changes, measured by cardiac magnetic resonance imaging, in left ventricular end-systolic volume at underlying rhythm, baseline CRT programming, and optimal programming derived from electrocardiographic assessment in all patients.",
+          "timeFrame": "During Baseline Assessment"
+        },
+        {
+          "measure": "Chronic changes in left ventricular mechanical synchrony",
+          "description": "Chronic changes, measured by cardiac magnetic resonance imaging and echocardiography, in left ventricular mechanical synchrony between the experimental and active comparator group.",
+          "timeFrame": "Baseline to 12 months"
+        },
+        {
+          "measure": "Chronic changes in left ventricular regional wall motion",
+          "description": "Chronic changes, measured by cardiac magnetic resonance imaging and echocardiography, in left ventricular regional wall motion between the experimental and active comparator group.",
+          "timeFrame": "Baseline to 12 months"
+        },
+        {
+          "measure": "Chronic changes in left ventricular end-diastolic volume",
+          "description": "Chronic changes, measured by cardiac magnetic resonance imaging and echocardiography, in left ventricular end-diastolic volume between the experimental and active comparator group.",
+          "timeFrame": "Baseline to 12 months"
+        },
+        {
+          "measure": "Chronic changes in left ventricular end-systolic volume",
+          "description": "Chronic changes, measured by cardiac magnetic resonance and echocardiographic imaging, in left ventricular end-systolic volume between the experimental and active comparator group.",
+          "timeFrame": "Baseline to 12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in 6 Minute Hall Walk (6MHW)",
+          "description": "Comparison between experimental arm and active comparator arm in 6MHW",
+          "timeFrame": "Baseline to 12 months"
+        },
+        {
+          "measure": "Change in Kansis City Cardiomyopathy Questionnaire (KCCQ)",
+          "description": "Comparison between experimental arm and active comparator arm in KCCQ. Scores are scaled 0-100. Higher scores indicate better outcomes.",
+          "timeFrame": "Baseline to 12 months"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Correlation in electrical dyssynchrony and left ventricular function in study population",
+          "description": "Changes in electrical dyssynchrony, measured by electrocardiography, and correlation to change in left ventricular function, measured by cardiac magnetic resonance and echocardiographic imaging, in all patients.",
+          "timeFrame": "Baseline to 12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Currently on standard medical therapy\n2. CRT device in place for \\> 4 months\n3. Non-responder (ejection fraction improvement with CRT \\< 5%) or incomplete responder (ejection fraction \\< 40%)\n4. Suboptimal electrical wavefront fusion at current CRT programming as observed on 12-lead ECG\n5. Left bundle branch block, interventricular conduction delay or right ventricular paced underlying QRS complex\n6. Age \\> 18 years\n\nExclusion Criteria:\n\n1. Decompensated heart failure\n2. Right bundle branch block\n3. Pregnancy or lactation\n4. History of severe allergic reactions to ECG gels, electrode adhesives, and/or cardiac magnetic resonance contrast (e.g. gadolinium)\n5. Implantation of pacing lead in the his bundle or left bundle branch\n6. Frequent ventricular ectopy as defined as \\>10% premature ventricular contraction burden by either device interrogation or Holter monitor, or sustained ventricular tachycardia/ventricular fibrillation\n7. Uncontrolled atrial fibrillation (HR \\> 100 bpm)\n8. Patient is enrolled in concurrent research study that would potentially confound the results of this study (noting: co-enrollment acceptable if patient is enrolled in registry study)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "100 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Christopher D Brown",
+          "role": "CONTACT",
+          "phone": "651-241-2806",
+          "email": "christopher.brown2@allina.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Alan J Bank, MD",
+          "affiliation": "Allina Heath System",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Minneapolis Heart Institute - Abbott Northwestern Hospital (MHI West)",
+          "status": "RECRUITING",
+          "city": "Minneapolis",
+          "state": "Minnesota",
+          "zip": "55407",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Christopher D Brown",
+              "role": "CONTACT",
+              "phone": "651-241-2806",
+              "email": "christopher.brown2@allina.com"
+            },
+            {
+              "name": "João L Cavalcante, MD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Jay D Sengupta, MD",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.97997,
+            "lon": -93.26384
+          }
+        },
+        {
+          "facility": "United Heart & Vascular Clinic - Nasseff Specialty Center (MHI East)",
+          "status": "RECRUITING",
+          "city": "Saint Paul",
+          "state": "Minnesota",
+          "zip": "55102",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Christopher D Brown",
+              "role": "CONTACT",
+              "phone": "651-241-2806",
+              "email": "christopher.brown2@allina.com"
+            },
+            {
+              "name": "Alan J Bank, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.94441,
+            "lon": -93.09327
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "We do not plan to share IPD with other external researchers."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054143",
+          "term": "Heart Failure, Systolic"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

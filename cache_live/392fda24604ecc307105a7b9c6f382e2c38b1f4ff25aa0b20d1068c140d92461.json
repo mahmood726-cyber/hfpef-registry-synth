@@ -1,0 +1,253 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00574756",
+      "orgStudyIdInfo": {
+        "id": "070480"
+      },
+      "organization": {
+        "fullName": "University of California, San Diego",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effect of Ranolazine on Echocardiographic Indices of Diastolic Dysfunction",
+      "officialTitle": "The Effect of Ranolazine on Echocardiographic Indices of Diastolic Dysfunction"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2019-07",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "no funding",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2007-12",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2010-03",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2010-03",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2007-12-14",
+      "studyFirstSubmitQcDate": "2007-12-14",
+      "studyFirstPostDateStruct": {
+        "date": "2007-12-17",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2019-07-31",
+      "lastUpdatePostDateStruct": {
+        "date": "2019-08-02",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of California, San Diego",
+        "class": "OTHER"
+      }
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to evaluate the effects of ranolazine, an FDA-approved medication for the treatment of angina, on heart function by using echocardiography."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Ranolazine",
+        "Diastolic Heart Failure",
+        "Tissue Doppler Ultrasound",
+        "Echocardiography"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 14,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "1",
+          "type": "OTHER",
+          "description": "Active drug for 2 weeks, then washout period for 2 weeks, then placebo for 2 weeks",
+          "interventionNames": [
+            "Drug: ranolazine"
+          ]
+        },
+        {
+          "label": "2",
+          "type": "OTHER",
+          "description": "Placebo for 2 weeks, then washout for 2 weeks, then ranolazine for 2 weeks",
+          "interventionNames": [
+            "Drug: ranolazine"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "ranolazine",
+          "description": "extended release 500 mg twice a day for two weeks",
+          "armGroupLabels": [
+            "1",
+            "2"
+          ],
+          "otherNames": [
+            "Ranexa"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in E/Ea",
+          "timeFrame": "2 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "changes in mitral inflow parameters (E, A, IVRT, DT)",
+          "timeFrame": "2 weeks"
+        },
+        {
+          "measure": "Changes in tissue doppler parameters (Ea, Aa)",
+          "timeFrame": "2 weeks"
+        },
+        {
+          "measure": "Changes in pulmonary venous inflow (S, D, a reversal)",
+          "timeFrame": "2 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Moderate of severe diastolic dysfunction, E/Ea\\>12\n* Preserved systolic function\n* NYHA Class I-II\n\nExclusion Criteria:\n\n* QTc \\>450 msec at enrollment\n* Taking medications that prolong QT interval or are potent inhibitors of CYP3A\n* Significant coronary artery disease\n* Severe valvular disease\n* Hepatic disease\n* Severe kidney disease\n* Women of childbearing age\n* Prior serious ventricular arrhythmia",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Anthony DeMaria, MD",
+          "affiliation": "UCSD Medical Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "UCSD Medical Center",
+          "city": "San Diego",
+          "state": "California",
+          "zip": "92103",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.71571,
+            "lon": -117.16472
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054144",
+          "term": "Heart Failure, Diastolic"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000069458",
+          "term": "Ranolazine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000083",
+          "term": "Acetanilides"
+        },
+        {
+          "id": "D000813",
+          "term": "Anilides"
+        },
+        {
+          "id": "D000577",
+          "term": "Amides"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D000814",
+          "term": "Aniline Compounds"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        },
+        {
+          "id": "D010879",
+          "term": "Piperazines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

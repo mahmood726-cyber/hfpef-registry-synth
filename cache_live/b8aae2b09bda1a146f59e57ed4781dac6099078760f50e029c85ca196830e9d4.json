@@ -1,0 +1,284 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04522609",
+      "orgStudyIdInfo": {
+        "id": "2020_4_19_31"
+      },
+      "organization": {
+        "fullName": "Research Institute for Complex Problems of Cardiovascular Diseases, Russia",
+        "class": "OTHER"
+      },
+      "briefTitle": "Electrostimulation of Skeletal Muscles in Patients Listed for a Heart Transplant",
+      "officialTitle": "Electrostimulation of Skeletal Muscles in Patients Listed for a Heart Transplant"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-09",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-09",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-07",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2022-11",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2020-08-18",
+      "studyFirstSubmitQcDate": "2020-08-18",
+      "studyFirstPostDateStruct": {
+        "date": "2020-08-21",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2020-09-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-09-10",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Andrey Bezdenezhnykh",
+        "investigatorTitle": "Senior Researcher of Comorbidity in Cardiovascular Diseases Laboratory, PhD",
+        "investigatorAffiliation": "Research Institute for Complex Problems of Cardiovascular Diseases, Russia"
+      },
+      "leadSponsor": {
+        "name": "Research Institute for Complex Problems of Cardiovascular Diseases, Russia",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Heart transplantation is the best way to treat terminal heart failure, which can improve the quality and life expectancy of patients, as well as contribute to their social and labor rehabilitation. Actually, the procedure of heart transplantation is a complex procedure that requires the coordinated work of cardiologists, cardiac surgeons, anesthetists, perfusionist, nurses, as well as the administration of medical organizations. It is known that the restriction of motor activity in patients with heart failure leads to a loss of muscle mass, as well as a decrease in its strength and endurance. In patients with heart failure, the low functional status of skeletal muscle is associated with poor prognosis, regardless of gender, age, and concomitant coronary heart disease. Optimization of drug therapy and appropriate use of resynchronization therapy can improve functional status, as can patient engagement in exercise. Although exercise is recommended as a component of heart failure management, adherence is consistently low. This is particularly troubling because exercise has great potential as a low-risk, low-cost intervention to improve functional status and quality of life while decreasing heart failure symptoms and hospitalizations in patients with heart failure. Low adherence is due in part to inadequate strength and inability to tolerate or sustain even low levels of activity.\n\nIn this study, we propose to use neuromuscular electrical stimulation to assist patient initiation of quadriceps strengthening in order to progressively increase low exercise tolerance."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Sarcopenia",
+        "Heart Failure, Systolic"
+      ],
+      "keywords": [
+        "sarcopenia",
+        "neuromuscular electric stimulation",
+        "skeletal muscles",
+        "heart failure",
+        "heart transplantation listing"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "This is a single-blinded, randomized longitudinal study design to determine if NMES will increase muscle mass and strength and improve exercise capacity and right-ventricle diastolic function in patients with advanced HF. Patients will be randomized to either intervention that includes NMES or to a control group. In order to ensure that the two groups are comparable between treatment and control, the participants will be randomized according to gender. Randomization via minimization will be used in order to avoid an unbalanced number of women in the two comparison groups due to chance. A file of the computer-generated random assignments will be kept.",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "The Investigator will collect baseline data before the participant is randomized. The intervention will be set-up by the Investigator.",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Control group",
+          "type": "NO_INTERVENTION",
+          "description": "Guideline recommended pharmacologic therapy"
+        },
+        {
+          "label": "NMES group",
+          "type": "EXPERIMENTAL",
+          "description": "standard protocol for cardiac rehabilitation plus neuromuscular electrical stimulation (NMES)",
+          "interventionNames": [
+            "Device: Neuromuscular electrical stimulation (NMES)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Neuromuscular electrical stimulation (NMES)",
+          "description": "NMES will carried out with four-channel myostimulator \"Beurer EM80\" (Germany). Self-adhesive electrodes locates above the quadriceps, the duration of the NMES session was 60 minutes, including 5-minute periods of warm-up and warm-down. Throughout the series, rectangular pulses with a frequency of 45 Hz will modulate. As a result, tonic contraction of these muscles will induce for 12 seconds, followed by a pause of 5 seconds. The amplitude of electrical exposure will select separately for each of the four channels until good muscle contraction (visually or by palpation) without pain. Electrical stimulation: 5-6 session per week, for 12 weeks, with 60-minuite session.",
+          "armGroupLabels": [
+            "NMES group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in strength test (Dynamometer) from baseline to 12-weeks post EMS in EMS vs. controls",
+          "description": "Strength Assessment will be done using a portable hand-held dynamometer (Lafayette Manual Muscle Test System 001165)",
+          "timeFrame": "Baseline, 12 weeks after baseline"
+        },
+        {
+          "measure": "Change in 6-minute walk test distance from baseline to 12-weeks post EMS in EMS vs. controls",
+          "description": "Participants will be instructed to move as quickly as they feel safe and comfortable over the 50-meter course for 6 minutes. As per the protocol, participants will be allowed to stop and rest if necessary.",
+          "timeFrame": "Baseline, 12 weeks after baseline"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in right ventricle diastolic function from baseline to 12-weeks post EMS in EMS vs. controls",
+          "timeFrame": "Baseline, 12 weeks after baseline"
+        },
+        {
+          "measure": "Change in peak oxygen consumption, measured by spiroergometry from baseline to 12 weeks post EMS in EMS vs. controls",
+          "timeFrame": "Baseline, 12 weeks after baseline"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Patients survival in EMS vs. controls",
+          "timeFrame": "12 weeks after baseline"
+        },
+        {
+          "measure": "Change in muscle rectus femoris crossectional area assessed by ultrasound from baseline to 12 weeks post EMSin EMS vs. controls",
+          "timeFrame": "Baseline, 12 weeks after baseline"
+        },
+        {
+          "measure": "Change in muscle rectus femoris crossectional area assessed by ultrasound from baseline to 12 weeks post EMSin EMS vs. controls",
+          "timeFrame": "Time Frame: Baseline, 12 weeks after baseline"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with end-stage heart disease, listed for heart transplantation\n* already received standard treatment based on patient condition\n* are receiving guideline recommended pharmacologic therapy\n* able to follow protocol procedures\n* assigned the informed consent\n* do not regularly exercise (10 minutes or more a day of exercise most days of the week for the past week).\n\nExclusion Criteria:\n\n* UNOS 1a or 1b patients\n* already receive NMES at femoris area in last 6 weeks before admission\n* Patients, who have undertaken cardiac rehab within the 12 months prior to enrollment\n* Cognitive, orthopedic or neurological disorders or other impairment which prevents accurate application of intervention or inability to provide informed consent\n* End Stage Renal Disease\n* Uncontrolled arrhythmia's or 3rd degree AV heart block\n* Those with wounds over area of proper placement of electrodes",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "70 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Andrey V Bezdenezhnykh, PhD",
+          "role": "CONTACT",
+          "phone": "+79132971069",
+          "email": "andrew22014@mail.ru"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Andrey V Bezdenezhnykh, PhD",
+          "affiliation": "Research Institute for Complex Issues of Cardiovacular Diseases",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Research Institute for Complex Issues of Cardiovascular Diseases",
+          "status": "RECRUITING",
+          "city": "Kemerovo",
+          "zip": "650002",
+          "country": "Russia",
+          "contacts": [
+            {
+              "name": "Andrey V Bezdenezhnykh, PhD",
+              "role": "CONTACT",
+              "phone": "+73842644461",
+              "email": "andrew22014@mail.ru"
+            }
+          ],
+          "geoPoint": {
+            "lat": 55.35417,
+            "lon": 86.10435
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D055948",
+          "term": "Sarcopenia"
+        },
+        {
+          "id": "D054143",
+          "term": "Heart Failure, Systolic"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009133",
+          "term": "Muscular Atrophy"
+        },
+        {
+          "id": "D020879",
+          "term": "Neuromuscular Manifestations"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D001284",
+          "term": "Atrophy"
+        },
+        {
+          "id": "D020763",
+          "term": "Pathological Conditions, Anatomical"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

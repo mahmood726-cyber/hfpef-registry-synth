@@ -1,0 +1,452 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04737265",
+      "orgStudyIdInfo": {
+        "id": "UPCC 25920"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "R21HL152148",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/R21HL152148"
+        }
+      ],
+      "organization": {
+        "fullName": "Abramson Cancer Center at Penn Medicine",
+        "class": "OTHER"
+      },
+      "briefTitle": "Pilot Study of an NTproBNP Guided Strategy of Cardioprotection",
+      "officialTitle": "A Randomized, Open Label Pilot Trial of a Biomarker Guided Strategy of Cardioprotection in Patients With Lymphoma or Breast Cancer Treated With Anthracyclines",
+      "acronym": "NTproBNP-Guide"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-07",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-03-18",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-02-05",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-02-05",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-01-28",
+      "studyFirstSubmitQcDate": "2021-02-02",
+      "studyFirstPostDateStruct": {
+        "date": "2021-02-03",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-07-01",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-07-03",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Abramson Cancer Center at Penn Medicine",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Heart, Lung, and Blood Institute (NHLBI)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Investigators will evaluate the safety and feasibility of a biomarker-guided cardioprotection strategy using NTproBNP, as compared to usual care, in breast cancer and lymphoma patients treated with anthracyclines.",
+      "detailedDescription": "This is a randomized, open-label pilot trial of a biomarker-guided strategy using NT-proBNP to identify and treat patients with a high risk of cancer therapy-related cardiotoxicity. Patients will be enrolled and randomized prior to initiation of anthracycline-based therapy and followed for 12 months with blood samples, echocardiography, and patient reported outcomes surveys. The overall hypothesis is that a biomarker guided treatment strategy that initiates neurohormonal antagonists in breast cancer or lymphoma patients who have increases in NT-proBNP prior to, during, or after anthracyclines will be feasible, well-tolerated, and result in attenuation of cardiotoxicity, compared to standard care."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiotoxicity",
+        "Toxicity Due to Chemotherapy",
+        "Breast Cancer",
+        "Lymphoma",
+        "Cardiomyopathies",
+        "Heart Failure"
+      ],
+      "keywords": [
+        "Risk-Guided Intervention",
+        "Cardiotoxicity of Chemotherapy",
+        "Cardio-Oncology",
+        "Cardiomyopathy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Serial monitoring of NTproBNP during chemotherapy will be used to identify high-risk patients in the intervention arm; patients who experience elevations in NTproBNP will be initiated and titrated on a personalized regimen of neurohormonal antagonists. Patients in the usual care arm will not have serial NTproBNP monitoring and will be managed according to usual care.",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 101,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Biomarker Guided Arm",
+          "type": "EXPERIMENTAL",
+          "description": "NTproBNP will be monitored serially prior to start of anthracycline based chemotherapy, at each cycle of anthracycline based chemotherapy, and at 3 month intervals for a total of 12 months.\n\nClinical, echocardiographic, and biomarker data will be collected on all patients at baseline and at standardized intervals at 3, 6, 9, and 12 months following initiation of Anthracycline chemotherapy.",
+          "interventionNames": [
+            "Other: Biomarker Guided Intervention"
+          ]
+        },
+        {
+          "label": "Usual Care",
+          "type": "NO_INTERVENTION",
+          "description": "NTproBNP will not be monitored while patients are on study unless clinically indicated. Clinical, echocardiographic, and biomarker data will be collected on all patients at baseline and at standardized intervals at 3, 6, 9, and 12 months following initiation of Anthracycline chemotherapy. Biomarker data will also be collected at each cycle of Anthracycline chemotherapy."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Biomarker Guided Intervention",
+          "description": "NTproBNP above the upper limit of normal will trigger the initiation of heart failure therapy with counseling from a study investigator based on protocol specified algorithm.",
+          "armGroupLabels": [
+            "Biomarker Guided Arm"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Recruitment Rate",
+          "description": "percent of eligible patients who are randomized",
+          "timeFrame": "At baseline"
+        },
+        {
+          "measure": "Retention rate",
+          "description": "percent of randomized patients who complete the study per protocol",
+          "timeFrame": "Through study completion (expected to be 1 year)"
+        },
+        {
+          "measure": "Adherence rate",
+          "description": "percent of study activities completed in window",
+          "timeFrame": "Through study completion (expected to be 1 year)"
+        },
+        {
+          "measure": "Compliance rate",
+          "description": "Compliance by PROMIS Scale v1.0 for patients in the biomarker guided arm initiated on heart failure medications",
+          "timeFrame": "Through study completion (expected to be 1 year)"
+        },
+        {
+          "measure": "Maximum tolerated dose",
+          "description": "Maximum tolerated dosage of neurohormonal antagonist medications for patients in the biomarker-guided arm with NTproBNP above upper limit of normal",
+          "timeFrame": "Through study completion (expected to be 1 year)"
+        },
+        {
+          "measure": "Incidence of Adverse Events",
+          "description": "Rate of Grade 2 or higher adverse events by CTCAEv5.0",
+          "timeFrame": "12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in NTproBNP",
+          "description": "Change in clinically measured NTproBNP following initiation of neurohormonal antagonists in patients with NTproBNP above upper limit of normal in the biomarker guided arm",
+          "timeFrame": "Through study completion (expected to be 1 year)"
+        },
+        {
+          "measure": "Change in Left ventricular ejection fraction (LVEF) by Echocardiogram",
+          "description": "Change in core-lab quantitated left ventricular ejection fraction",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Incidence of cardiotoxicity",
+          "description": "Incidence of cardiotoxicity defined as LVEF decline of at least 10% to less than 50%",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Incidence of Hear Failure (HF)",
+          "description": "Incidence of new or worsened clinical heart failure, defined as urgent or new office or emergency department visit or hospitalization for HF, adjudicated by a clinical events committee",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Frequency of cancer treatment interruptions",
+          "description": "Frequency of cancer treatment interruptions due to cardiotoxicity",
+          "timeFrame": "Through study completion (expected to be 1 year)"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Change in diastolic function on echo",
+          "description": "Change in E/e' by echo",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Change in longitudinal strain",
+          "description": "Change in global longitudinal strain by echocardiogram",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Change in circumferential strain",
+          "description": "Change in circumferential strain by echocardiogram",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Change in high sensitivity troponin (hsTnT)",
+          "description": "Change in hsTnT measured in batches from banked samples",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Change in Growth Differentiation Factor 15 (GDF-15)",
+          "description": "Change in GDF-15 measured in batches from banked samples",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Change in myeloperoxidase (MPO)",
+          "description": "Change in MPO measured in batches from banked samples",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Change in NTproBNP (post hoc batch analysis)",
+          "description": "Change in NTproBNP measured in batches from banked samples for all patients on both arms",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Change in patient reported activity level",
+          "description": "Change in total weekly leisure activity in METS (assessed by GODIN Leisure Time Exercise Questionnaire)",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Change in patient reported symptoms",
+          "description": "Change in MD Anderson Symptoms Inventory - Heart Failure (MDASI-HF). Higher scores indicate increased symptom severity or symptom distress.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Change in patient reported fatigue",
+          "description": "Change in Patient Reported Outomes Information System (PROMIS) Fatigue Score. A higher score corresponds to higher levels of reported fatigue.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Change in patient reported quality of life",
+          "description": "Change in Patient Reported Outomes Information System (PROMIS) Global Health score. Higher scores indicate a healthier patient.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Change in patient reported adverse events",
+          "description": "Change in NCI Patient Reported Outcomes - Common Terms and Criteria for Adverse Events (PRO CTCAE).",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Incidence of treatment interruptions in administration of anthracycline chemotherapy",
+          "description": "Incidence of anthracycline chemotherapy being held or discontinued secondary to side effects or toxicity",
+          "timeFrame": "12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Provision of written informed consent and HIPAA authorization\n* Stated willingness to comply with all study procedures and availability for the duration of the study\n* Male or female, ≥ 18 years of age\n* Diagnosed with breast cancer or lymphoma (any subtype), planned to receive an anthracycline based chemotherapy regimen. Patients may be enrolled up to their first dose of anthracycline even if they have already received other chemotherapeutic or targeted agents as part of neo-adjuvant or adjuvant systemic therapy.\n\nExclusion Criteria:\n\n* Diagnosed with Stage IV breast cancer\n* Uncontrolled blood pressure defined by SBP \\> 180mmHg on two or more occasions and taking three or more antihypertensives within 1 month prior to enrollment.\n* Baseline systolic blood pressure \\< 90mmHg within 1 month prior to enrollment (if multiple blood pressures are available in the medical record within 1 month prior to enrollment, the average SBP will be considered)\n* Women must not be pregnant or breast-feeding due to the potential harm to an unborn fetus and possible risk for adverse events in nursing infants with some anti-hypertensives, including angiotensin receptor blockers. All females of childbearing potential must have a blood test or urine study within 10 days prior to enrollment to rule out pregnancy. All females of childbearing potential must be strongly advised to use accepted and effective methods of contraception or to abstain from sexual intercourse for the duration of their participation in the study. A female of childbearing potential is defined as any woman, regardless of sexual orientation or whether they have undergone tubal ligation, who meets the following criteria: 1) has achieved menarche at some point, 2) has not undergone a hysterectomy or bilateral oophorectomy; or 3) has not been naturally postmenopausal (amenorrhea following cancer therapy does not rule out childbearing potential) for at least 24 consecutive months (i.e., has had menses at any time in the preceding 24 consecutive months).\n* Patient with prior or concurrent malignancy whose natural history of treatment, in the opinion of the investigator, has the potential to interfere with the safety or efficacy assessment of the investigational regimen\n* Patient must not have any of the following\n* Severe hepatic impairment, defined as serum bilirubin \\> ULN, or AST or ALT \\> 5.0 ULN on most recent labs prior to enrollment. Results of serum bilirubin, AST, and ALT must be checked for screening if no results available in the EMR within 28 days prior to enrollment.\n* end-stage renal failure on dialysis\n* hyperkalemia with a potassium \\> 5.5 mEq/l on most recent labs prior to enrollment. Serum potassium must be checked for screening if no results available in the EMR within 28 days prior to enrollment.\n* a history of kidney transplant\n* an eGFR \\< 30 ml/min/1.73m2 at most recent check prior to enrollment. Creatinine must be checked for screening if no results available in the EMR within 28 days prior to enrollment\n* cardiogenic shock\n* decompensated heart failure requiring the use of IV inotropic therapy\n* Non-English speaking",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Bonnie Ky, MD, MSCE",
+          "affiliation": "Perelman School of Medicine at the University of Pennsylvania",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "City of Hope",
+          "city": "Duarte",
+          "state": "California",
+          "zip": "91010",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.13945,
+            "lon": -117.97729
+          }
+        },
+        {
+          "facility": "Abramson Cancer Center at University of Pennsylvania",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Chester County Hospital",
+          "city": "West Chester",
+          "state": "Pennsylvania",
+          "zip": "19380",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.96097,
+            "lon": -75.60804
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "41335439",
+          "type": "DERIVED",
+          "citation": "Xia C, Smith AM, Lefebvre B, Jamal FA, Armenian SH, Koropeckyj-Cox D, Zhang L, Liu PP, Landsburg D, Clark AS, Shah PD, Hubbard RA, Huang A, Golec S, Hewitt M, Wilcox NS, Chen Z, Rethy L, Jung W, Ko K, Narayan V, Martei YM, Lang NN, Januzzi JL, Felker GM, Ky B. Biomarker-Guided Cardioprotection for Patients Treated With Anthracyclines: A Randomized Clinical Trial. JAMA Netw Open. 2025 Dec 1;8(12):e2546201. doi: 10.1001/jamanetworkopen.2025.46201."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18",
+      "submissionTracking": {
+        "estimatedResultsFirstSubmitDate": "2026-02-02",
+        "submissionInfos": [
+          {
+            "releaseDate": "2026-02-02"
+          }
+        ]
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D066126",
+          "term": "Cardiotoxicity"
+        },
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D008223",
+          "term": "Lymphoma"
+        },
+        {
+          "id": "D009202",
+          "term": "Cardiomyopathies"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D064420",
+          "term": "Drug-Related Side Effects and Adverse Reactions"
+        },
+        {
+          "id": "D064419",
+          "term": "Chemically-Induced Disorders"
+        },
+        {
+          "id": "D011832",
+          "term": "Radiation Injuries"
+        },
+        {
+          "id": "D014947",
+          "term": "Wounds and Injuries"
+        },
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        },
+        {
+          "id": "D009370",
+          "term": "Neoplasms by Histologic Type"
+        },
+        {
+          "id": "D008232",
+          "term": "Lymphoproliferative Disorders"
+        },
+        {
+          "id": "D008206",
+          "term": "Lymphatic Diseases"
+        },
+        {
+          "id": "D006425",
+          "term": "Hemic and Lymphatic Diseases"
+        },
+        {
+          "id": "D007160",
+          "term": "Immunoproliferative Disorders"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

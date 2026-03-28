@@ -1,0 +1,674 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04166331",
+      "orgStudyIdInfo": {
+        "id": "87RI18_0012 (ADAPT)"
+      },
+      "organization": {
+        "fullName": "University Hospital, Limoges",
+        "class": "OTHER"
+      },
+      "briefTitle": "Adjunctive DobutAmine in sePtic Cardiomyopathy With Tissue Hypoperfusion",
+      "officialTitle": "Adjunctive DobutAmine in sePtic Cardiomyopathy With Tissue Hypoperfusion: a Randomized Controlled Multi-center Trial",
+      "acronym": "ADAPT"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-11",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-09-20",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-07-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-07-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-10-25",
+      "studyFirstSubmitQcDate": "2019-11-15",
+      "studyFirstPostDateStruct": {
+        "date": "2019-11-18",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-11-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-11-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University Hospital, Limoges",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Centre d'Investigation Clinique 1415",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Sepsis induces both a systolic and diastolic cardiac dysfunction. The prevalence of this septic cardiomyopathy ranges between 30 and 60% according to the timing of assessment and definition used. Although the prognostic role of septic cardiomyopathy remains debated, sepsis-induced left ventricular (LV) systolic dysfunction may be severe and associated with tissue hypoperfusion, while it appears to fully recover in survivors. Accordingly, optimization of therapeutic management of septic cardiomyopathy may contribute to improve tissue hypoperfusion in increasing oxygen delivery, and to reduce related organ dysfunctions in septic shock patients.\n\nEchocardiography is currently the recommended first-line modality to assess patients with acute circulatory failure.\n\nCurrent Surviving Sepsis Campaign strongly recommends Norepinephrine as the first-choice vasopressor in fluid-filled patients with septic shock. In contrast, the use of Dobutamine is only suggested (weak recommendation, low quality of evidence) in patients with persistent tissue hypoperfusion despite adequate fluid resuscitation and vasopressor support. Levosimendan, an alternative inodilator, has failed preventing acute organ dysfunction in septic patients and has induced more supraventricular tachyarrhythmias than in the control group. Data supporting Dobutamine in this setting are scarce and primarily physiologic and based on monitored effects of this drug on hemodynamics and indices of tissue perfusion.\n\nNo randomized controlled trials have yet compared the effects of Dobutamine versus placebo on clinical outcomes. In open-labelled, small sample trials, the ability of septic patients to increase their oxygen delivery during Dobutamine administration appears to be associated with lower mortality.\n\nThe tested hypothesis in the ADAPT trial is that Dobutamine will reduce tissue hypoperfusion and associated organ dysfunctions in patients with septic shock and associated septic cardiomyopathy. In doing so, it may participate in improving clinical outcomes."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Sepsis",
+        "Cardiomyopathies",
+        "Hypoperfusion",
+        "Left Ventricular Systolic Dysfunction"
+      ],
+      "keywords": [
+        "sepsis",
+        "Cardiomyopathies",
+        "Hypoperfusion",
+        "Left Ventricular Systolic Dysfunction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 136,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Control",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo will initially be started at a dose of 2.5 µg/kg/min and subsequently titrated using incremental steps (predefined durations) of 2.5 µg/kg/min, up to a maximal dose of 10 µg/kg/min",
+          "interventionNames": [
+            "Drug: Placebos"
+          ]
+        },
+        {
+          "label": "Experimental",
+          "type": "EXPERIMENTAL",
+          "description": "Dobutamine will initially be started at a dose of 2.5 µg/kg/min and subsequently titrated using incremental steps (predefined durations) of 2.5 µg/kg/min, up to a maximal dose of 10 µg/kg/min",
+          "interventionNames": [
+            "Drug: Dobutamine"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Placebos",
+          "description": "Placebo will initially be started at a dose of 2.5 µg/kg/min and subsequently titrated using incremental steps (predefined durations) of 2.5 µg/kg/min, up to a maximal dose of 10 µg/kg/min. Dose adaptation will be left at the discretion of attending physician.",
+          "armGroupLabels": [
+            "Control"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Dobutamine",
+          "description": "Dobutamine will initially be started at a dose of 2.5 µg/kg/min and subsequently titrated using incremental steps (predefined durations) of 2.5 µg/kg/min, up to a maximal dose of 10 µg/kg/min. Dose adaptation will be left at the discretion of attending physician.",
+          "armGroupLabels": [
+            "Experimental"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Sequential Organ Failure Assessment (SOFA) score evolution",
+          "description": "Evolution of a modified Sequential (Sepsis-Related) Organ Failure Assessment (SOFA) score (no gradation of the neurologic system) between baseline (before randomization) and Day 1, Day 2 and Day 3 after randomization. Min value =0. Max value =20 . The highest score means the worst situation",
+          "timeFrame": "Day 0 to Day 3"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Circulating lactate level measurement",
+          "description": "Biological indices of tissue dysoxia at baseline, hour 6, Day1, Day 2 and Day 3 after initiating Dobutamine / placebo",
+          "timeFrame": "Hour 0, Hour 6, Day 1, Day 2 and Day 3"
+        },
+        {
+          "measure": "Central venous oxygen saturation (ScvO2) measurement",
+          "description": "Biological indices of tissue dysoxia at baseline, hour 6, Day1, Day 2 and Day 3 after initiating Dobutamine / placebo",
+          "timeFrame": "Hour 0, Hour 6, Day 1, Day 2 and Day 3"
+        },
+        {
+          "measure": "Open-labelled Dobutamine dayly maximal dose used as rescue therapy",
+          "description": "Requirement of organ function supports during ICU stay. Maximal dose in mcg/kg/min of open-labelled Dobutamine used as rescue therapy",
+          "timeFrame": "through study completion, an average 90 days"
+        },
+        {
+          "measure": "Open-labelled Dobutamine duration used as rescue therapy",
+          "description": "Requirement of organ function supports during ICU stay. Duration in days of open-labelled Dobutamine used as rescue therapy",
+          "timeFrame": "through study completion, an average of 90 days"
+        },
+        {
+          "measure": "Vasopressor support duration",
+          "description": "Requirement of organ function supports during ICU stay. Duration in days of vasopressor support",
+          "timeFrame": "through study completion, an average of 90 days"
+        },
+        {
+          "measure": "Vasopressor support dayly maximal dose",
+          "description": "Requirement of organ function supports during ICU stay. Maximal dose in mg/h by day of vasopressor support",
+          "timeFrame": "through study completion, an average of 90 days"
+        },
+        {
+          "measure": "Invasive mechanical ventilation duration",
+          "description": "Requirement of organ function supports during ICU stay. Duration of invasive mechanical ventilation",
+          "timeFrame": "through study completion, an average of 90 days"
+        },
+        {
+          "measure": "Renal replacement therapy number",
+          "description": "Requirement of organ function supports during ICU stay. Number of session of renal replacement therapy (excluding hemodialysis patient for chronic renal failure at the time of randomization)",
+          "timeFrame": "through study completion, an average of 90 days"
+        },
+        {
+          "measure": "Renal replacement therapy duration",
+          "description": "Requirement of organ function supports during ICU stay. Duration of renal replacement therapy (excluding hemodialysis patient for chronic renal failure at the time of randomization)",
+          "timeFrame": "through study completion, an average of 90 days"
+        },
+        {
+          "measure": "Arterial pressure measurement",
+          "description": "Systolic, diastolic and mean arterial blood pressure (in mmHg) at Baseline, h6, Day 1, Day 2 and Day3after initiating Dobutamine / placebo",
+          "timeFrame": "Hour 0, Hour 6, Day 1, Day 2 and Day 3"
+        },
+        {
+          "measure": "heart rate measurement",
+          "description": "Heart rate measurement in bpm at Baseline, Hour 6, Day 1, Day 2 and Day3 after initiating Dobutamine / placebo",
+          "timeFrame": "Hour 0, Hour 6, Day 1, Day 2 and Day 3"
+        },
+        {
+          "measure": "Central venous pressure measurement",
+          "description": "Central venous pressure in cm H2O at Baseline, Hour 6, Day 1, Day 2 and Day3 after initiating Dobutamine / placebo",
+          "timeFrame": "Hour 0, Hour 6, Day 1, Day 2 and Day 3"
+        },
+        {
+          "measure": "Cardiac index measurement",
+          "description": "Cardiac index measurement in L/min/m2 at Baseline, Hour 6, Day 1, Day 2 and Day3 after initiating Dobutamine / placebo",
+          "timeFrame": "Hour 0, Hour 6, Day 1, Day 2 and Day 3"
+        },
+        {
+          "measure": "Stroke volume measurement",
+          "description": "Stroke volume measurement in mL status at Baseline, Hour 6, Day 1, Day 2 and Day3 after initiating Dobutamine / placebo",
+          "timeFrame": "Hour 0, Hour 6, Day 1, Day 2 and Day 3"
+        },
+        {
+          "measure": "Hypotension measurement",
+          "description": "Severe cardiovascular adverse events from inform consent to ICU discharge : Hypotension related to worsened vasoplegia",
+          "timeFrame": "Hour 0, Hour 6, Day 1, Day 2 and Day 3"
+        },
+        {
+          "measure": "Supraventricular arrhythmias measurement",
+          "description": "Severe cardiovascular adverse events from inform consent to ICU discharge. Supraventricular arrhythmias with ventricular rate \\> 140 bpm",
+          "timeFrame": "through study completion, an average of 90 days"
+        },
+        {
+          "measure": "Ventricular arrhythmias measurement",
+          "description": "Severe cardiovascular adverse events from inform consent to ICU discharge. Ventricular arrhythmias",
+          "timeFrame": "through study completion, an average of 90 days"
+        },
+        {
+          "measure": "Occurence of Acute coronary syndrome",
+          "description": "Severe cardiovascular adverse events from inform consent to ICU discharge. Acute coronary syndrome",
+          "timeFrame": "through study completion, an average of 90 days"
+        },
+        {
+          "measure": "Occurence of Stroke",
+          "description": "Severe cardiovascular adverse events during ICU stay. Stroke",
+          "timeFrame": "through study completion, an average of 90 days"
+        },
+        {
+          "measure": "Mortality",
+          "description": "Number of death",
+          "timeFrame": "Day 90"
+        },
+        {
+          "measure": "Mortality causes",
+          "description": "Cause of death",
+          "timeFrame": "Day 90"
+        },
+        {
+          "measure": "Organ function free supports",
+          "description": "Number of days free from vasopressor support, invasive mechanical ventilation, renal replacement therapy from inform consent to ICU discharge",
+          "timeFrame": "Day 90"
+        },
+        {
+          "measure": "Number of days in ICU and hospital",
+          "description": "Length of ICU and hospital stay",
+          "timeFrame": "Day 90"
+        },
+        {
+          "measure": "echocardiographic assessment of left ventricular systolic function",
+          "description": "ejection fraction measurement",
+          "timeFrame": "Day 0 and Day 1"
+        },
+        {
+          "measure": "Leucocyte subsets level",
+          "description": "Leucocyte subsets level according to the severity of the sepsis-induced LV systolic dysfunction and hemodynamic effects of the study drug administration",
+          "timeFrame": "Hour 6"
+        },
+        {
+          "measure": "Cytokines level",
+          "description": "tumor necrosis factor (TNF) -α, Interferon ɣ, Interleukin-6, 8 and 10 cytokines concentration will be assess according to the severity of the sepsis-induced LV systolic dysfunction and hemodynamic effects of the study drug administration. Result for each cytokine concentration will be given in picograms per milliliter.",
+          "timeFrame": "Hour 6"
+        },
+        {
+          "measure": "LV global longitudinal strain measurement",
+          "description": "LV segmental deformation longitudinal analysis",
+          "timeFrame": "Hour 6, Day 1, Day 2 AND Day 3"
+        },
+        {
+          "measure": "RV free wall strain measurement",
+          "description": "deformation of right ventricular myocardial tissue / routinely using with echocardiography or post exam analysis",
+          "timeFrame": "Hour 6, Day 1, Day 2 AND Day 3"
+        },
+        {
+          "measure": "LV volume measurement",
+          "description": "Ratio between systolic and diastolic left ventricular volume / routinely using with echocardiography",
+          "timeFrame": "Hour 6, Day 1, Day 2 AND Day 3"
+        },
+        {
+          "measure": "LV ejection fraction measurement",
+          "description": "Cardiac output measurement with echocardiography Doppler (in centers routinely using transpulmonary thermodilution). Quality of left ventricular contraction",
+          "timeFrame": "Hour 6, Day 1, Day 2 AND Day 3"
+        },
+        {
+          "measure": "RV volume measurement",
+          "description": "Ratio between systolic and diastolic right ventricular volume / routinely using with echocardiography",
+          "timeFrame": "Hour 6, Day 1, Day 2 AND Day 3"
+        },
+        {
+          "measure": "RV ejection fraction measurement",
+          "description": "Cardiac output measurement with echocardiography Doppler (in centers routinely using transpulmonary thermodilution). Quality of right ventricular contraction",
+          "timeFrame": "Hour 6, Day 1, Day 2 AND Day 3"
+        },
+        {
+          "measure": "Transpulmonary thermodilution measurement",
+          "description": "In selected centers routinely using continuous monitoring of cardiac output using transpulmonary thermodilution: agreement of cardiac output measurement with echocardiography Doppler.",
+          "timeFrame": "Hour 6, Day 1, Day 2 AND Day 3"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \\> 18 years hospitalized in ICU\n* \\> Septic shock (Sepsis-3 definition):\n\n  1. Clinically suspected or documented acute infection\n  2. Responsible for organ dysfunction(s): change in SOFA ≥ 2 points\n  3. With persisting hypotension (systolic and/or mean arterial pressure \\< 90 / \\< 65 mmHg) despite adequate fluid resuscitation (≥ 30 mL/kg, unless presence of pulmonary venous congestion)\n  4. Requiring vasopressor support (Norepinephrine) to maintain steady mean arterial pressure ≥ 65 mmHg\n  5. And lactate \\> 2 mmol/L\n* Septic cardiomyopathy: echocardiographically measured LV ejection fraction (EF) ≤ 40% and LV outflow tract velocity-time integral \\< 14 cm\n* Informed consent\n\nExclusion Criteria:\n\n* Pregnancy or breast feeding\n* Hypersensitivity to Dobutamine, 5% Dextrose, or to the excipients\n* Ventricular rate \\> 130 bpm (sinus rhythm or not)\n* Severe ventricular arrhythmia\n* Obstructive cardiomyopathy with pressure gradient at rest ≥ 50 mmHg unrelated to uncorrected hypovolemia\n* Severe aortic stenosis: mean gradient \\> 40 mmHg, peak aortic jet velocity \\> 4 m/s, aortic valve area \\< 1 cm² (aortic valve area index \\< 0.6 cm²/m²)\n* Acute coronary syndrome\n* Decision to limit care or moribund status (life expectancy \\< 24 h)\n* Absence of affiliation to Social Security\n* Subjects under juridical protection.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "VIGNON Philippe, MD",
+          "affiliation": "University Hospital, Limoges",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "CHU Orléans - service de Réanimation",
+          "city": "Orléans",
+          "state": "Orleans",
+          "zip": "47067",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.90248,
+            "lon": 1.90407
+          }
+        },
+        {
+          "facility": "CHU Strasbourg - service de Réanimation",
+          "city": "Strasbourg",
+          "state": "Strasbourg",
+          "zip": "67000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.58392,
+            "lon": 7.74553
+          }
+        },
+        {
+          "facility": "CHU Tours - Service de Réanimation",
+          "city": "Tours",
+          "state": "Tours",
+          "zip": "37044",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.39484,
+            "lon": 0.70398
+          }
+        },
+        {
+          "facility": "Angouleme Hospital",
+          "city": "Angoulême",
+          "zip": "16959",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.64997,
+            "lon": 0.15345
+          }
+        },
+        {
+          "facility": "Argenteuil Hospital",
+          "city": "Argenteuil",
+          "zip": "95107",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.94788,
+            "lon": 2.24744
+          }
+        },
+        {
+          "facility": "CH de Bethune",
+          "city": "Béthune",
+          "country": "France",
+          "geoPoint": {
+            "lat": 50.52965,
+            "lon": 2.64003
+          }
+        },
+        {
+          "facility": "University Hospital",
+          "city": "Brest",
+          "zip": "29200",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.39029,
+            "lon": -4.48628
+          }
+        },
+        {
+          "facility": "CH de Brive",
+          "city": "Brive-la-Gaillarde",
+          "zip": "19100",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.1589,
+            "lon": 1.53326
+          }
+        },
+        {
+          "facility": "CH de Cannes",
+          "city": "Cannes",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.55135,
+            "lon": 7.01275
+          }
+        },
+        {
+          "facility": "Aphp - Henri Mondor",
+          "city": "Créteil",
+          "zip": "94010",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.79266,
+            "lon": 2.46569
+          }
+        },
+        {
+          "facility": "Dijon university hospital",
+          "city": "Dijon",
+          "zip": "21033",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.31344,
+            "lon": 5.01391
+          }
+        },
+        {
+          "facility": "CH d'Haguenau",
+          "city": "Haguenau",
+          "zip": "67500",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.81557,
+            "lon": 7.79051
+          }
+        },
+        {
+          "facility": "Le Mans Hospital",
+          "city": "Le Mans",
+          "zip": "72000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.0021,
+            "lon": 0.20251
+          }
+        },
+        {
+          "facility": "Lille University Hospital",
+          "city": "Lille",
+          "zip": "59045",
+          "country": "France",
+          "geoPoint": {
+            "lat": 50.63391,
+            "lon": 3.05512
+          }
+        },
+        {
+          "facility": "Limoges University Hospital",
+          "city": "Limoges",
+          "zip": "87042",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.83362,
+            "lon": 1.24759
+          }
+        },
+        {
+          "facility": "HCL",
+          "city": "Lyon",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.74906,
+            "lon": 4.84789
+          }
+        },
+        {
+          "facility": "Montpellier University Hospital",
+          "city": "Montpellier",
+          "zip": "34295",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.61093,
+            "lon": 3.87635
+          }
+        },
+        {
+          "facility": "Nice University Hospital",
+          "city": "Nice",
+          "zip": "06202",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.70313,
+            "lon": 7.26608
+          }
+        },
+        {
+          "facility": "Aphp - Ambroise Paré",
+          "city": "Paris",
+          "zip": "75010",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Poitiers University Hospital",
+          "city": "Poitiers",
+          "zip": "86000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 46.58261,
+            "lon": 0.34348
+          }
+        },
+        {
+          "facility": "CH de Toulon",
+          "city": "Toulon",
+          "zip": "83000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.12442,
+            "lon": 5.92836
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "40588393",
+          "type": "DERIVED",
+          "citation": "Vignon P, Leger J, Evrard B, Goudelin M, Vaidie J, Brit S, Giraudeau B. Adjunctive dobutamine in patients with septic cardiomyopathy and tissue hypoperfusion: a blinded randomised controlled multicentre trial study protocol of the ADAPT-dobutamine trial. BMJ Open. 2025 Jun 30;15(6):e101200. doi: 10.1136/bmjopen-2025-101200."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D018805",
+          "term": "Sepsis"
+        },
+        {
+          "id": "D009202",
+          "term": "Cardiomyopathies"
+        },
+        {
+          "id": "D018487",
+          "term": "Ventricular Dysfunction, Left"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007239",
+          "term": "Infections"
+        },
+        {
+          "id": "D018746",
+          "term": "Systemic Inflammatory Response Syndrome"
+        },
+        {
+          "id": "D007249",
+          "term": "Inflammation"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D018754",
+          "term": "Ventricular Dysfunction"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004280",
+          "term": "Dobutamine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D002395",
+          "term": "Catecholamines"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D010627",
+          "term": "Phenethylamines"
+        },
+        {
+          "id": "D005021",
+          "term": "Ethylamines"
+        },
+        {
+          "id": "D002396",
+          "term": "Catechols"
+        },
+        {
+          "id": "D010636",
+          "term": "Phenols"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

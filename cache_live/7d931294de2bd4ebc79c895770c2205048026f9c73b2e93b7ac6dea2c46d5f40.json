@@ -1,0 +1,286 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06026683",
+      "orgStudyIdInfo": {
+        "id": "STAY trial"
+      },
+      "organization": {
+        "fullName": "Parc de Salut Mar",
+        "class": "OTHER"
+      },
+      "briefTitle": "Conduction System Stimulation to Avoid Left Ventricle Dysfunction",
+      "officialTitle": "Conduction System Stimulation to Avoid Left Ventricle Dysfunction",
+      "acronym": "STAY"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-09-30",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-10-02",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-11-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-08-28",
+      "studyFirstSubmitQcDate": "2023-08-30",
+      "studyFirstPostDateStruct": {
+        "date": "2023-09-07",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-04-02",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-04-03",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Ermengol Vallès",
+        "investigatorTitle": "Principal investigator",
+        "investigatorAffiliation": "Parc de Salut Mar"
+      },
+      "leadSponsor": {
+        "name": "Parc de Salut Mar",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of the study is to demonstrate that conduction system pacing (CSP) can preserve a normal ventricular function compared to right ventricular apical pacing (RVAP) in patients with pre-implant preserved left ventricular ejection fraction (LVEF) and a high burden of expected ventricular pacing due to atrioventricular conduction block (AV block).\n\nAfter informed consent signature, patients with high degree AV block and normal LVEF will be randomized to permanent pacemaker stimulation with CSP vs RVAP.\n\nAll the patients have a complete evaluation before the procedure and at 3 and 6 months follow-up.",
+      "detailedDescription": "The STAY trial (Conduction System sTimulation to Avoid left ventricle dYsfunction) is a single-center, prospective, randomized, parallel, controlled study, comparing mid-term outcomes in a population undergoing pacemaker implantation due to a high degree atrio-ventricular block (AVB). The study was approved by the Hospital Ethics Committee, in accordance with the Declaration of Helsinki. All patients signed informed consent and were implanted between September 2019 until December 2022 in a 1:1 randomized fashion to conventional RVAP vs CSP (HBS or LBBS). Randomization was performed during the pre-procedural antibiotic infusion.\n\nAll the patients have a complete evaluation before the procedure and at 3 and 6 months follow-up, including demographic and clinical characteristics, physical examination, twelve-lead ECG, Minnesota score (MLWHFQ), and blood test with NT-ProBNP determination. Patients also have a transthoracic echography before the procedure and at 6 months follow-up.\n\nAt 6 months echocardiographic and clinical data will be compared."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Atrioventricular Block, Second and Third Degree",
+        "Pacemaker-Induced Cardiomyopathy",
+        "Heart Failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Patients will be randomized into 2 groups according to pacing site: CSP vs RVAP.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "The study is blinded for the patient and for the echocardiographers.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 75,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "CSP (Conduction system pacing)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients with pacemaker implanted with conduction system pacing.",
+          "interventionNames": [
+            "Device: Pacemaker implant"
+          ]
+        },
+        {
+          "label": "RVAP (Right ventricular apical pacing)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients with pacemaker implanted with right ventricular apical pacing.",
+          "interventionNames": [
+            "Device: Pacemaker implant"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Pacemaker implant",
+          "description": "Implantation of pacemaker with conduction system pacing or right ventricular apical pacing",
+          "armGroupLabels": [
+            "CSP (Conduction system pacing)",
+            "RVAP (Right ventricular apical pacing)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Delta-LVEF at 6 months",
+          "description": "Change in LVEF in each group at 6 months vs baseline LVEF",
+          "timeFrame": "6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Delta-LVEDD at 6 months",
+          "description": "Change in Left ventricular end diastolic diameter (LVEDD) in each group at 6 months vs baseline LVEDD",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Delta-MLWHFQ (Minnesota score) at 6 months",
+          "description": "Change in MLWHFQ score in each group at 6 months vs baseline MLWHFQ score. The MLWHFQ score is obtained by using a questionnaire of 21 aspects. It depicts how heart failure affected the daily life of the patients during the last month previous to the questionnaire. Each question can be scored from 0 (\"No\" effect) to 5 (\"Very much\" effect)",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Delta-New York Heart Association (NYHA) class at 6 months",
+          "description": "Change in NYHA class in each group at 6 months vs baseline NYHA class. NYHA class places patients in one of four categories based on limitations of physical activity:\n\n* I: No limitation of physical activity. Ordinary physical activity does not cause undue fatigue, palpitation or shortness of breath.\n* II: Slight limitation of physical activity. Comfortable at rest. Ordinary physical activity results in fatigue, palpitation, shortness of breath or chest pain.\n* III: Marked limitation of physical activity. Comfortable at rest. Less than ordinary activity causes fatigue, palpitation, shortness of breath or chest pain.\n* IV: Symptoms of heart failure at rest. Any physical activity causes further discomfort.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Delta-NTProBNP at 6 months",
+          "description": "Change in NTProBNP levels in each group at 6 months vs baseline NTProBNP levels",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Readmissions due to heart failure",
+          "description": "Number of readmissions due to heart failure in each group during follow-up",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "New onset Atrial fibrillation",
+          "description": "Number of new-onset atrial fibrillation episodes in each group during follow-up",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Mortality",
+          "description": "All-cause Mortality in each group during follow-up",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion criteria:\n\n1. Age of 18 years or more\n2. Preserved or mild deteriorated LVEF (Simpson \\>40%) assessed by a recent (\\<1 month before implantation) transthoracic echocardiography.\n3. Indication for pacing based on the presence of a high degree AVB, and consequently with an anticipated high burden of ventricular pacing (\\>50%).\n4. Live expectancy of more than 6 months and capability to understand the protocol, signing the informed consent form and accomplish the follow-up.\n\nExclusion criteria:\n\n1. Indication for implantable cardioverter defibrillator device.\n2. Patients with previous LVD and a recovered LVEF\n3. History of myocardial infarction/revascularization or cardiac surgery within 6 months before randomization\n4. Pregnancy, active cancer treatment, or participation in another clinical trial with active treatment.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Ermengol Vallès, PhD",
+          "affiliation": "Parc de Salut Mar",
+          "role": "STUDY_DIRECTOR"
+        },
+        {
+          "name": "Carlos González, M.D.",
+          "affiliation": "Parc de Salut Mar. Universitat Autónoma de Barcelona.",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hospital del Mar",
+          "city": "Barcelona",
+          "zip": "08003",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "38284238",
+          "type": "DERIVED",
+          "citation": "Gonzalez-Matos CE, Rodriguez-Queralto O, Zaraket F, Jimenez J, Casteigt B, Valles E. Conduction System Stimulation to Avoid Left Ventricle Dysfunction. Circ Arrhythm Electrophysiol. 2024 Feb;17(2):e012473. doi: 10.1161/CIRCEP.123.012473. Epub 2024 Jan 29."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "Data will only be available upon reasonable request."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054537",
+          "term": "Atrioventricular Block"
+        },
+        {
+          "id": "D009362",
+          "term": "Neoplasm Metastasis"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006327",
+          "term": "Heart Block"
+        },
+        {
+          "id": "D001145",
+          "term": "Arrhythmias, Cardiac"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D000075224",
+          "term": "Cardiac Conduction System Disease"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009385",
+          "term": "Neoplastic Processes"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

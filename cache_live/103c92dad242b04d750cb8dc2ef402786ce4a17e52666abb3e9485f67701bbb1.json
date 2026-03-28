@@ -1,0 +1,469 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05230901",
+      "orgStudyIdInfo": {
+        "id": "02717"
+      },
+      "organization": {
+        "fullName": "University Medical Center Goettingen",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effect of Antifibrotic Therapy on Regression of Myocardial Fibrosis After Transcatheter Aortic Valve Implantation (TAVI) in Aortic Stenosis Patients With High Fibrotic Burden",
+      "officialTitle": "Effect of Antifibrotic Therapy on Regression of Myocardial Fibrosis After Transcatheter Aortic Valve Implantation (TAVI) in Aortic Stenosis Patients With High Fibrotic Burden",
+      "acronym": "Reduce-MFA"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-06",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-02-23",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-06",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-03",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-01-12",
+      "studyFirstSubmitQcDate": "2022-01-27",
+      "studyFirstPostDateStruct": {
+        "date": "2022-02-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-06-27",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-06-28",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Karsten Gavenis",
+        "investigatorTitle": "Clinical Study Management on behalf of the Principal Investigator",
+        "investigatorAffiliation": "University Medical Center Goettingen"
+      },
+      "leadSponsor": {
+        "name": "University Medical Center Goettingen",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of the study is to evaluate the effect of antifibrotic therapy on regression of myocardial fibrosis after TAVI in patients with baseline high fibrotic burden. Therefore, patients will be treated with Spironolactone in addition to standard of care, Spioronolactone + Dihydralazine in addition to standard of care or according to standard of care alone without any study medication. First, differences between patients in the control arm and patients randomized to anti-fibrotic therapy will be analyzed. The second analysis will determine, whether dihydralazine medication in addition to spironolactone is able to increase a potential antifibrotic effect. Myocardial fibrosis will be assessed by cardiac magnetic resonance imaging (CMR) before TAVI and 1 year after. Quantification of potentially irreversible replacement fibrosis will be carried out by late gadolinium enhancement (LGE), and quantification of the potentially reversible diffuse interstitial fibrosis will be performed by measurement of the extracellular volume fraction (ECV), thereby deriving matrix volume and cell volume."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Aortic Stenosis, Severe"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 300,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Control group",
+          "type": "OTHER",
+          "description": "Patients with CMR-derived ECV% levels ≥25.9% will receive Standard of care",
+          "interventionNames": [
+            "Other: Standard of Care"
+          ]
+        },
+        {
+          "label": "Spironolactone",
+          "type": "EXPERIMENTAL",
+          "description": "Patients with CMR-derived ECV% levels ≥25.9% will receive Standard of care + Spironolactone (25 mg/d, p.o.)",
+          "interventionNames": [
+            "Other: Standard of Care",
+            "Drug: Spironolactone 25mg"
+          ]
+        },
+        {
+          "label": "Spironolactone + Dihydralazine",
+          "type": "EXPERIMENTAL",
+          "description": "Patients with CMR-derived ECV% levels ≥25.9% will receive Standard of care + Spironolactone (25 mg/d, p.o.) + Dihydralazine (2x12.5 mg/d p.o. in slow acethylators, and 2x25mg / d p.o. in fast acethylators, confirmed by genetic testing)",
+          "interventionNames": [
+            "Other: Standard of Care",
+            "Drug: Spironolactone 25mg",
+            "Drug: Dihydralazine"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Standard of Care",
+          "description": "Patients with CMR-derived ECV% levels ≥25.9% will be treated with standard of care according to current guidelines (Control group).",
+          "armGroupLabels": [
+            "Control group",
+            "Spironolactone",
+            "Spironolactone + Dihydralazine"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Spironolactone 25mg",
+          "description": "Patients with CMR-derived ECV% levels ≥25.9% in Arm \"Spironolactone\" will receive spironolactone 25 mg/d in addition to standard of care medication .",
+          "armGroupLabels": [
+            "Spironolactone",
+            "Spironolactone + Dihydralazine"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Dihydralazine",
+          "description": "Patients with CMR-derived ECV% levels ≥25.9% in arm \"Spironolactone + Dihydralazine\" will receive spironolactone 25 mg/d + dihydralazine (2x12.5 mg/d p.o. in slow acethylators, and 2x25mg/d p.o. in fast acethylators, confirmed by genetic testing)",
+          "armGroupLabels": [
+            "Spironolactone + Dihydralazine"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Extracellular volume (ECV)-derived matrix volume (measured by CMR)",
+          "description": "Differences between treatment groups in reduction of extracellular volume (ECV)- derived matrix volume (measured by CMR) after 12 months",
+          "timeFrame": "12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Left ventricular ejection fraction",
+          "description": "Differences in recovery of left ventricular ejection fraction (EF) in % (measured by CMR) after 12 months",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Global longitudinal strain",
+          "description": "Differences in recovery of global longitudinal strain (GLS) in % (measured by CMR) after 12 months",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "diastolic function",
+          "description": "Differences in recovery of diastolic function (measured by CMR) after 12 months",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Left ventricular myocardial tissue volumes",
+          "description": "Differences in reduction of left ventricular myocardial tissue volumes (measured by CMR) after 12 months",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Left ventricular blood volumes",
+          "description": "Differences in reduction of left ventricular blood volumes (measured by CMR) after 12 months",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Kansas City Cardiomyopathy Questionnaire",
+          "description": "Differences in quality of life changes according to 23-items Kansas City Cardiomyopathy Questionnaire (KCCQ) after 12 months",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "NYHA status",
+          "description": "Differences in NYHA status after 12 months",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "6min-walking test distance (6MWT)",
+          "description": "Differences in 6min-walking test distance (6MWT; in m) after 12 months",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "NT-proBNP-levels",
+          "description": "Differences in NT-proBNP-levels (in pg/ml) after 12 months",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Heart failure hospitalizations",
+          "description": "Rate of Heart failure hospitalizations within 12 months",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Total mortality",
+          "description": "Rate of total mortality within 12 months",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Cardiovascular mortality",
+          "description": "Rate of Cardiovascular mortality within 12 months",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Biomarker Procollagen type I carboxy-terminal propeptide (PICP)",
+          "description": "Measurement of PICP in ng/ml",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Biomarker Procollagen III N-terminal propeptid (PIIINP)",
+          "description": "Measurement of PIIINP in ng/ml",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Ratio of Increased collagen degradation (CITP) vs. matrix metalloproteinase-1 (MMP-1)",
+          "description": "Measurement of CITP (in ng/l) and MMP-1 (in ng/ml)",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Methylation of Iroquois Homeobox 3 (IRX3)",
+          "description": "Measurement of Methylation of IRX3 in %",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Methylation of rfGAP With Coiled-Coil, Ankyrin Repeat And PH Domains 3 (ACAP3)",
+          "description": "Measurement of Methylation of ACAP3 in %",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Methylation of Growth Arrest And DNA Damage Inducible Gamma (GADD45G)",
+          "description": "Measurement of Methylation of GADD45G in %",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Methylation of Chordin (CHRD)",
+          "description": "Measurement of Methylation of CHRD in %",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Methylation of Klotho",
+          "description": "Measurement of Methylation of Klotho in %",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Methylation of RAS Protein Activator Like 1 (RASAL1)",
+          "description": "Measurement of Methylation of RASAL1 in %",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Methylation of ATPase Sarcoplasmic/Endoplasmic Reticulum Ca2+ Transporting 2 (ATP2A2)",
+          "description": "Measurement of Methylation of ATP2A2 in %",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Methylation of B9 Domain Containing 1 (B9D1)",
+          "description": "Measurement of Methylation of B9D1 in %",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Methylation of Bone Morphogenetic Protein 7 (BMP7)",
+          "description": "Measurement of Methylation of BMP7 in %",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Methylation of Latency associated peptide (LAP)",
+          "description": "Measurement of Methylation of LAP in %",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Serum creatinine",
+          "description": "Change in serum creatinine (in mg/dl) after 12 months",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Cystatin c",
+          "description": "Change in cystatin c (in mg/l) after 12 months",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Phosphate",
+          "description": "Change in phosphate (in mmol/l) after 12 months",
+          "timeFrame": "12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Male, female age ≥ 60\n* Diagnosis of severe symptomatic aortic stenosis\n* Transcatheter aortic valve implantation (TAVI) scheduled\n* Written informed consent\n\nExclusion Criteria:\n\n* 1\\. Pre-existing dilative or ischemic heart disease with EF\\<35% and guideline indication for spironolactone\n* Patient on current medication with spironolactone, eplerenone, or dihydralazine\n* Presence of coexistent myocardial pathology such as cardiac amyloidosis, hypertrophic cardiomyopathy, or myocarditis\n* Presence of coexistent severe aortic regurgitation or severe mitral stenosis\n* Previous surgical valve replacement or repair\n* Pacemaker or ICD implanted\n* Renal impairment (serum creatinine \\> 1,8 mg/dl and/ or GFR \\< 30 ml/min/1,73 m² BSA)\n* Significant hypotension (blood pressure \\< 90 mm Hg systolic and/or \\< 50 mm Hg diastolic\n* Serum potassium \\> 5,1 mmol/l\n* Contraindications for Spironolactone (anuria, acute renal failure, serum creatinine \\> 1.8 mg/dl, hyperkalemia, pregnancy)\n* Contraindications for Dihydralazine (known allergy or hypersensitivity, systemic lupus erythematodes, adrenocortical disorders)\n* Known active malignant disease with life expectancy \\< 1 year\n* Women with child-bearing potential\n* Simultaneous participation (including a waiting period of 4 weeks) in other interventional clinical trials\n* Patient without legal capacity who is unable to understand the nature, significance and consequences of the trial\n* Person who is in a relationship of dependence/employment with the sponsor or the investigator",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "60 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Miriam Puls, Prof.",
+          "role": "CONTACT",
+          "phone": "+49 551 3910958",
+          "email": "dr.m.puls@med.uni-goettingen.de"
+        },
+        {
+          "name": "Florian Walker, Dr.",
+          "role": "CONTACT",
+          "phone": "+49 551 3960825",
+          "email": "florian.walker@med.uni-goettingen.de"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University Medical Center Göttingen",
+          "status": "RECRUITING",
+          "city": "Göttingen",
+          "state": "Lower Saxony",
+          "zip": "37075",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Miriam Puls, Prof. Dr.",
+              "role": "CONTACT",
+              "email": "dr.m.puls@med.uni-goettingen.de"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.53443,
+            "lon": 9.93228
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001024",
+          "term": "Aortic Valve Stenosis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000082862",
+          "term": "Aortic Valve Disease"
+        },
+        {
+          "id": "D006349",
+          "term": "Heart Valve Diseases"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014694",
+          "term": "Ventricular Outflow Obstruction"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D059039",
+          "term": "Standard of Care"
+        },
+        {
+          "id": "D013148",
+          "term": "Spironolactone"
+        },
+        {
+          "id": "D004078",
+          "term": "Dihydralazine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D019984",
+          "term": "Quality Indicators, Health Care"
+        },
+        {
+          "id": "D011787",
+          "term": "Quality of Health Care"
+        },
+        {
+          "id": "D006298",
+          "term": "Health Services Administration"
+        },
+        {
+          "id": "D017530",
+          "term": "Health Care Quality, Access, and Evaluation"
+        },
+        {
+          "id": "D007783",
+          "term": "Lactones"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011283",
+          "term": "Pregnenes"
+        },
+        {
+          "id": "D011278",
+          "term": "Pregnanes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D006830",
+          "term": "Hydralazine"
+        },
+        {
+          "id": "D010793",
+          "term": "Phthalazines"
+        },
+        {
+          "id": "D011724",
+          "term": "Pyridazines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,509 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05030987",
+      "orgStudyIdInfo": {
+        "id": "UNLOAD-HFpEF"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "CIV-20-10-034846",
+          "type": "OTHER",
+          "domain": "Eudamed-Nr."
+        }
+      ],
+      "organization": {
+        "fullName": "University of Leipzig",
+        "class": "OTHER"
+      },
+      "briefTitle": "Renal Denervation to Treat Heart Failure With Preserved Ejection Fraction",
+      "officialTitle": "Renal Denervation to Treat Heart Failure With Preserved Ejection Fraction - A Pilot Trial",
+      "acronym": "UNLOAD-HFpEF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-07",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-11-30",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-03-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-08-30",
+      "studyFirstSubmitQcDate": "2021-08-30",
+      "studyFirstPostDateStruct": {
+        "date": "2021-09-01",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-07-15",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-07-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Karl Fengler",
+        "investigatorTitle": "PhD",
+        "investigatorAffiliation": "University of Leipzig"
+      },
+      "leadSponsor": {
+        "name": "University of Leipzig",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "ReCor Medical, Inc.",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Heart failure with preserved ejection fraction has a high mortality, which is contrasted by a total absence of therapy options besides symptomatic diuretic treatment. This study aims to explore the potential of renal denervation as a treatment option for heart failure with preserved ejection fraction.",
+      "detailedDescription": "Heart failure is one of the most important diseases worldwide, with a 5-year mortality of up to 75% in symptomatic patients. While substantial progress has been made in the treatment of patients with reduced left ventricular ejection fraction (HFrEF), mortality for patients with heart failure and preserved ejection fraction (HFpEF) remains unchanged, despite a comparable prevalence and mortality of the disease as for heart failure with reduced ejection fraction.\n\nHFpEF is a heterogeneous condition and has been a diagnostic and therapeutic challenge for clinicians and researchers over the past decades. While some rare cases of HFpEF can be attributed to specific diseases like amyloidosis, in most other patients common characteristics are increased ventricular filling pressures and ventricular and arterial stiffening as frequently caused by ageing, diabetes and arterial hypertension. Furthermore, increased sympathetic activity has been described as one pathogenic contributor to chronic heart failure and is associated with poor clinical prognosis. It also leads to a more pulsatile BP profile which can cause a mismatch in arterio-ventricular coupling.\n\nThe modulating effects on the sympathetic nervous system induced by renal denervation (RDN) should be beneficial in HFpEF, as they improve resting and exercise hemodynamics due to an improved ventriculoarterial coupling by reduced aortic stiffness and lower systemic blood pressure. In addition, RDN leads to optimized stroke volume and stroke work and might affect cardiac preload by improving blood distribution into the splanchnic compartment.\n\nThis study aims to explore the potential of RDN as a therapy for HFpEF in a single center pilot trial using a randomized, sham-controlled double-blind design."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Preserved Ejection Fraction",
+        "Hypertension, Renal"
+      ],
+      "keywords": [
+        "Renal Denervation",
+        "Hypertension",
+        "Heart Failure with Preserved Ejection Fraction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 68,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "RDN",
+          "type": "EXPERIMENTAL",
+          "description": "Renal Denervation",
+          "interventionNames": [
+            "Procedure: Renal Denervation"
+          ]
+        },
+        {
+          "label": "Sham",
+          "type": "SHAM_COMPARATOR",
+          "description": "Sham Procedure",
+          "interventionNames": [
+            "Procedure: Sham"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "Renal Denervation",
+          "description": "Renal denervation in patients with HFpEF and uncontrolled hypertension",
+          "armGroupLabels": [
+            "RDN"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Sham",
+          "description": "Sham Treatment. After six months, cross-over is planned in all sham-treated patients and this patients will also receive a renal denervation.",
+          "armGroupLabels": [
+            "Sham"
+          ],
+          "otherNames": [
+            "Sham Procedure"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "exercise pulmonary capillary wedge pressure (PCWP) at 20 W workload",
+          "description": "To assess the hemodynamic effects of RDN in patients with HFpEF in comparison to sham-treatment",
+          "timeFrame": "6 months after randomization"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "number of combination of death, increase in diuretic therapy, hospitalization for heart failure, worsening NYHA-class, change in pulmonary pressure parameters",
+          "description": "number of combined endpoint in RDN and SHAM patients",
+          "timeFrame": "6, 12 and 24 months after RDN"
+        },
+        {
+          "measure": "Change in mean Pulmonary artery (PA) pressure, estimated pulmonary artery diastolic pressure (ePAD) and PA pressure variability from pulmonary pressure sensor measurements",
+          "description": "difference between RDN and sham",
+          "timeFrame": "6 months after randomization"
+        },
+        {
+          "measure": "Change in mean PA pressure, ePAD and PA pressure variability from pulmonary pressure sensor measurements",
+          "description": "Change in mean PA pressure, ePAD and PA pressure variability from pulmonary pressure sensor measurements, compared to baseline values",
+          "timeFrame": "6, 12 and 24 months after RDN"
+        },
+        {
+          "measure": "Change in Systolic/Diastolic 24h blood pressure by ABPM and blood pressure variability",
+          "description": "difference between RDN and sham",
+          "timeFrame": "6 months after randomization"
+        },
+        {
+          "measure": "Change in Systolic/Diastolic 24h blood pressure by ABPM and blood pressure variability",
+          "description": "Change in Systolic/Diastolic 24h blood pressure by ABPM and blood pressure variability, compared to baseline values",
+          "timeFrame": "6, 12 and 24 months after RDN"
+        },
+        {
+          "measure": "Difference in ventriculo-arterial coupling",
+          "description": "Difference in ventriculo-arterial coupling (by end-systolic elastance and arterial elastance) as acquired by invasive measurement",
+          "timeFrame": "6 months after randomization"
+        },
+        {
+          "measure": "Change in Cardiac magnetic resonance (CMR) based hemodynamics",
+          "description": "Change in CMR-based hemodynamics (difference between RDN and sham) as compared to baseline values",
+          "timeFrame": "6 months after randomization"
+        },
+        {
+          "measure": "Change in ventriculo-arterial coupling",
+          "description": "Change in ventriculo-arterial coupling (cMRI and echocardiogram) (difference between RDN and sham) as compared to baseline values",
+          "timeFrame": "6 months after randomization"
+        },
+        {
+          "measure": "Difference in resting and exercise PCWP (at 20, 40, 60, 80 W, and maximum workload)",
+          "description": "Difference in resting and exercise PCWP (at 20, 40, 60, 80 W, and maximum workload) (difference between RDN and sham) as compared to baseline values",
+          "timeFrame": "6 months after randomization"
+        },
+        {
+          "measure": "Difference in peak PCWP",
+          "description": "Difference in peak PCWP (difference between RDN and sham) as compared to baseline values",
+          "timeFrame": "6 months after randomization"
+        },
+        {
+          "measure": "Difference in NT-proBNP",
+          "description": "Difference in NT-proBNP (difference between RDN and sham) as compared to baseline",
+          "timeFrame": "6 months after randomization"
+        },
+        {
+          "measure": "Difference in NT-proBNP",
+          "description": "Difference in NT-proBNP as compared to baseline",
+          "timeFrame": "6, 12 and 24 months after RDN"
+        },
+        {
+          "measure": "number of patients with Hospitalizations for heart failure",
+          "description": "number of patients with Hospitalizations for heart failure (difference between RDN and sham)",
+          "timeFrame": "6 months after randomization"
+        },
+        {
+          "measure": "difference in All-cause Mortality",
+          "description": "All-cause Mortality (difference between RDN and sham)",
+          "timeFrame": "6 months after randomization"
+        },
+        {
+          "measure": "difference in cardiac mortality",
+          "description": "cardiac mortality (difference between RDN and sham)",
+          "timeFrame": "6 months after randomization"
+        },
+        {
+          "measure": "difference in major adverse cardiovascular events",
+          "description": "major adverse cardiovascular events (composite of cardiac death, myocardial infarction, stroke and hospitalization for heart failure) (difference between RDN and sham)",
+          "timeFrame": "6 months after randomization"
+        },
+        {
+          "measure": "difference in number of Adverse Events",
+          "description": "Adverse events (difference between RDN and sham)",
+          "timeFrame": "6 months after randomization"
+        },
+        {
+          "measure": "difference in Frequency of patients with controlled hypertension",
+          "description": "Frequency of patients with controlled hypertension (blood pressure within treatment goals in ABPM as recommended by the European Society of Cardiology) (difference between RDN and sham)",
+          "timeFrame": "6 months after randomization"
+        },
+        {
+          "measure": "difference in Frequency of patients with controlled hypertension",
+          "description": "Frequency of patients with controlled hypertension (blood pressure within treatment goals in ABPM as recommended by the European Society of Cardiology) as compared to baseline",
+          "timeFrame": "6, 12 and 24 months after RDN"
+        },
+        {
+          "measure": "Difference in 6-minute walk distance",
+          "description": "Difference in 6-minute walk distance (difference between RDN and sham)",
+          "timeFrame": "6 months after randomization"
+        },
+        {
+          "measure": "Difference in 6-minute walk distance",
+          "description": "Difference in 6-minute walk distance as compared to baseline",
+          "timeFrame": "6, 12 and 24 months after RDN"
+        },
+        {
+          "measure": "Change in exercise BP and maximum maximum exercise capacity",
+          "description": "Change in exercise BP between baseline and 6 months and maximum exercise capacity between baseline and 6 months (difference between RDN and sham)",
+          "timeFrame": "6 months after randomization"
+        },
+        {
+          "measure": "Change in Minnesota living with heart failure questionnaire (difference between RDN and sham)",
+          "description": "Change in Minnesota living with heart failure questionnaire (difference between RDN and sham)",
+          "timeFrame": "6 months after randomization"
+        },
+        {
+          "measure": "Change in Minnesota living with heart failure questionnaire",
+          "description": "Change in Minnesota living with heart failure questionnaire, compared to baseline",
+          "timeFrame": "6, 12 and 24 months after RDN"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. confirmed arterial hypertension (1-5 antihypertensive drugs without any dosage change in the preceding 4 weeks) and average systolic BP between \\>125 and ≤170 mmHg and diastolic BP ≤110 mmHg in 24h ambulatory blood pressure measurement (ABPM)\n2. HFpEF (defined by clinical signs and/or symptoms of heart failure, objective structural cardiac abnormalities according to the ESC (European Society of Cardiology) criteria \\[1\\], elevated NT-proBNP ≥125 pg/mL and left-ventricular ejection fraction ≥55%)\n3. NYHA-Class II or III\n4. Confirmation of an elevated cardiac filling pressures (either LVEDP \\>= 16 mmHg or PCWP \\>= 15 mmHg at rest or \\>=25 mmHg during exercise) by catheterization\n5. Age 18-80 years\n6. Written informed consent\n\nExclusion Criteria:\n\n1. ≥1 main renal artery diameter \\<3.0 mm\n2. main renal artery length \\< 20 mm\n3. a single functioning kidney\n4. presence of abnormal kidney tumors\n5. renal artery aneurysm\n6. pre-existing renal stent or history of renal artery angioplasty\n7. fibromuscular disease of the renal arteries\n8. presence of renal artery stenosis of any origin ≥50%\n9. iliac/femoral artery stenosis precluding femoral access for RDN\n10. fertile women (within two years of their last menstruation) without appropriate contraceptive measures (implanon, injections, oral contraceptives, intrauterine devices, partner with vasectomy) while participating in the trial (participants using a hormone-based method have to be informed of possible effects of the trial device on contraception).\n11. participation in other interventional trials\n12. patients under legal supervision or guardianship\n13. suspected lack of compliance\n14. pregnant women\n15. Presence of intracardiac pacemakers or implantable cardioverter/defibrillators",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Karl Fengler, PhD",
+          "role": "CONTACT",
+          "phone": "49 341",
+          "phoneExt": "8651426",
+          "email": "Karl.Fengler@medizin.uni-leipzig.de"
+        },
+        {
+          "name": "Philipp Lurz, Prof. Dr.",
+          "role": "CONTACT",
+          "phone": "49 6131",
+          "phoneExt": "177251",
+          "email": "lurzphil@uni-mainz.de"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Karl Fengler, PhD",
+          "affiliation": "Herzzentrum Leipzig - Universitätsklinik für Kardiologie",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Universitätsklinikum Halle (Saale), Klinik und Poliklinik für Innere Medizin III",
+          "status": "RECRUITING",
+          "city": "Halle",
+          "state": "Saxony-Anhalt",
+          "zip": "06120",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Alexander Vogt, MD, PhD",
+              "role": "CONTACT",
+              "phone": "+49 345",
+              "phoneExt": "557 3134",
+              "email": "alexander.vogt@uk-halle.de"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.48158,
+            "lon": 11.97947
+          }
+        },
+        {
+          "facility": "BG Klinikum Unfallkrankenhaus Berlin gGmbH",
+          "status": "RECRUITING",
+          "city": "Berlin",
+          "zip": "13683",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Sebastian Winkler, MD, PhD",
+              "role": "CONTACT",
+              "phone": "+49 30",
+              "phoneExt": "5681 3684",
+              "email": "sebastian.winkler@ukb.de"
+            },
+            {
+              "name": "Leonhard Bruch, MD, PhD",
+              "role": "CONTACT",
+              "phone": "+49 30",
+              "phoneExt": "5681 3601",
+              "email": "leonhard.bruch@ukb.de"
+            }
+          ],
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Universitätsklinikum Leipzig, Klinik und Poliklinik für Kardiologie",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Leipzig",
+          "zip": "04103",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Rolf Wachter, MD, Prof",
+              "role": "CONTACT",
+              "phone": "+49 341",
+              "phoneExt": "9720958",
+              "email": "rolf.wachter@medizin.uni-leipzig.de"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.33962,
+            "lon": 12.37129
+          }
+        },
+        {
+          "facility": "Herzzentrum Leipzig, Universitätsklinik für Kardiologie",
+          "status": "RECRUITING",
+          "city": "Leipzig",
+          "zip": "04289",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Karl Fengler, MD, PhD",
+              "role": "CONTACT",
+              "email": "karl.fengler@medizin.uni-leipzig.de"
+            },
+            {
+              "name": "MD, PhD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.33962,
+            "lon": 12.37129
+          }
+        },
+        {
+          "facility": "Universitätsmedizin der Johannes Gutenberg Universität Mainz, Zentrum für Kardiologie / Kardiologie 1",
+          "status": "RECRUITING",
+          "city": "Mainz",
+          "zip": "55131",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Philipp Lurz, MD, Prof",
+              "role": "CONTACT",
+              "phone": "+49 6131",
+              "phoneExt": "177251",
+              "email": "lurzphil@uni-mainz.de"
+            },
+            {
+              "name": "Karl-Philipp Rommel, MD, PhD",
+              "role": "CONTACT",
+              "email": "rommelka@uni-mainz.de"
+            }
+          ],
+          "geoPoint": {
+            "lat": 49.98185,
+            "lon": 8.28008
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "After publication of the major results and upon reasonable request from researchers performing an individual patient data meta-analysis, individual patient data that underlie published results will be shared after de-identification. This requires approval by the local Institutional Review Board (IRB) of the researcher requesting the data along with public registration of the meta-analysis.\n\nSummary statistics that go beyond the scope of published material will be made available to researchers for meta-analysis upon reasonable request and if the necessary data analysis is not unduly time-consuming. Together with publication of the main results, the trial protocol in full will be made publically available as well as the statistical analysis plan.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF"
+      ],
+      "timeFrame": "after publication of the major results"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006977",
+          "term": "Hypertension, Renal"
+        },
+        {
+          "id": "D006973",
+          "term": "Hypertension"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007674",
+          "term": "Kidney Diseases"
+        },
+        {
+          "id": "D014570",
+          "term": "Urologic Diseases"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D052801",
+          "term": "Male Urogenital Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C005703",
+          "term": "salicylhydroxamic acid"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,407 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05042973",
+      "orgStudyIdInfo": {
+        "id": "S-20210028-2"
+      },
+      "organization": {
+        "fullName": "Odense University Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Metabolic Effects of Empagliflozin in Patients With High Risk of Heart Failure",
+      "officialTitle": "Empagliflozin to Elderly and Obese Patients With Cardiovascular Disease (Empire Prevent: Metabolic): A Randomized Controlled Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-01",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-09-02",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-01-16",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-01-23",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-09-03",
+      "studyFirstSubmitQcDate": "2021-09-03",
+      "studyFirstPostDateStruct": {
+        "date": "2021-09-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-01-26",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-01-29",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Jacob Moller",
+        "investigatorTitle": "Professor, MD, PhD",
+        "investigatorAffiliation": "Odense University Hospital"
+      },
+      "leadSponsor": {
+        "name": "Jacob Moller",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Danish Heart Foundation",
+          "class": "OTHER"
+        },
+        {
+          "name": "Herlev and Gentofte Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "University Hospital Bispebjerg and Frederiksberg",
+          "class": "OTHER"
+        },
+        {
+          "name": "Hillerod Hospital, Denmark",
+          "class": "OTHER"
+        },
+        {
+          "name": "Rigshospitalet, Denmark",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of this trial is to assess the effect of Empagliflozin on lipid and glucose metabolism as well as volume homeostasis and renal function in elderly and obese patients with increased risk of developing heart failure. No history of established heart failure or diabetes is allowed.\n\nThe primary hypotheses are that 6 months treatment with Empagliflozin 10 mg a day will: 1) decrease epicardial adipose tissue volume, and 2) reduce estimated extracellular volume compared with placebo.",
+      "detailedDescription": "The Empire Prevent: Metabolic is a part of the Empire Prevent Trial Program, which also comprises the Empire Prevent: Cardiac.\n\nThe Empire Prevent: Metabolic is designed to enroll at least 120 patients."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Obesity",
+        "Heart Failure"
+      ],
+      "keywords": [
+        "Renal function",
+        "Glucose intolerance",
+        "Lipid metabolism"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Parallel Assignment",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 165,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Active drug (Empagliflozin)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Empagliflozin 10 mg, 1 capsule per day",
+          "interventionNames": [
+            "Drug: Empagliflozin 10 MG"
+          ]
+        },
+        {
+          "label": "Inactive drug (placebo)",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo, 1 capsule per day",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Empagliflozin 10 MG",
+          "description": "Patients are randomized 1:1 to receive either Empagliflozin or matching placebo for 180 days",
+          "armGroupLabels": [
+            "Active drug (Empagliflozin)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo matches the active drug in appearance, odor and labelling.",
+          "armGroupLabels": [
+            "Inactive drug (placebo)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Ventricular epicardial adipose tissue (EAT) mass",
+          "description": "Between-group difference in the change of EAT mass assessed by cardiac magnetic resonance imaging (MRI)",
+          "timeFrame": "180 days"
+        },
+        {
+          "measure": "Estimated extracellular volume (eECV)",
+          "description": "Between-group difference in the change of eECV assessed by 99mTc-DTPA clearance (technetium-99mTc-diethylenetriaminepentaacetic acid)",
+          "timeFrame": "180 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Total pericardial adipose tissue volume",
+          "description": "Between-group difference in the change of pericardial adipose tissue volume assessed by cardiac MRI",
+          "timeFrame": "180 days"
+        },
+        {
+          "measure": "Total epicardial adipose tissue (EAT) volume",
+          "description": "Between-group difference in the change of EAT mass assessed by cardiac magnetic resonance imaging (MRI)",
+          "timeFrame": "180 days"
+        },
+        {
+          "measure": "Plasma volume",
+          "description": "Between-group difference in the change of estimated plasma volume assessed by hematocrit and hemoglobin",
+          "timeFrame": "180 days"
+        },
+        {
+          "measure": "Right ventricular end-diastolic volume index, RVEDVI",
+          "description": "Between-group difference in the change of RVEDVI assessed by cardiac MRI",
+          "timeFrame": "180 days"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Erythropoietin",
+          "description": "Between-group difference in the change of erythropoietin",
+          "timeFrame": "180 days"
+        },
+        {
+          "measure": "Exploratory outcome: fat tissue gene expression",
+          "description": "Between-group difference in fat tissue gene expression assessed by Western Blot",
+          "timeFrame": "180 days"
+        },
+        {
+          "measure": "Exploratory outcome: oxidative stress and inflammation.",
+          "description": "Between-group difference in biomarkers of oxidative stress and inflammation.",
+          "timeFrame": "180 days"
+        },
+        {
+          "measure": "Ketone bodies",
+          "description": "Between-group difference in the change of ketone supply to the heart assessed by blood ketones",
+          "timeFrame": "180 days"
+        },
+        {
+          "measure": "Urine albumin/creatinine ratio",
+          "description": "Between-group difference in the change of urine albumin/creatinine ratio",
+          "timeFrame": "180 days"
+        },
+        {
+          "measure": "Uric acid",
+          "description": "Between-group difference in the change of uric acid",
+          "timeFrame": "180 days"
+        },
+        {
+          "measure": "Kidney function (estimated)",
+          "description": "Between-group difference in the change of estimated glomerular filtration rate (eGFR) based on the chronic kidney disease epidemiology collaboration (CKD-EPI) estimation",
+          "timeFrame": "180 days"
+        },
+        {
+          "measure": "Kidney function (measured)",
+          "description": "Between-group difference in the change of glomerular filtration rate assessed by 99mTc-DTPA clearance",
+          "timeFrame": "180 days"
+        },
+        {
+          "measure": "Glucose tolerance",
+          "description": "Between-group difference in the change of glucose metabolism assessed by oral glucose tolerance test",
+          "timeFrame": "180 days"
+        },
+        {
+          "measure": "Body composition",
+          "description": "Between-group difference in the change in body composition assessed by dual energy x-ray absorptiometry (DXA) scan",
+          "timeFrame": "180 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Body mass index \\>28kg/m2\n* Age 60-84 years\n* Established risk factor for developing heart failure, defined as at least one of the following:\n* hypertension\n* ischemic heart disease\n* stroke/transient cerebral ischemia\n* chronic kidney disease (eGFR 30-45ml/min/1.73m2)\n\nExclusion Criteria:\n\n* Diabetes mellitus type 1 or 2 (no medical history, no antidiabetic treatment)\n* Heart failure with reduced ejection fraction (LVEF \\<40%)\n* Inability to perform exercise test\n* Dementia\n* Severe non-compliance\n* Substance abuse\n* Severe chronic obstructive pulmonary disease (FEV1\\<50% expected value)\n* Permanent atrial fibrillation\n* GFR \\<30 ml/min/1,73m2\n* Severe peripheral artery disease\n* Cancer treatment within one year beside prostate cancer and basal cell carcinoma\n* Severe aortic or mitral valve disease\n* Pregnancy or breastfeeding\n* Acute hospital admission within 30 days\n* Participation in other pharmacological study",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "60 Years",
+      "maximumAge": "84 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Morten Schou, MD, PhD",
+          "affiliation": "Herlev-Gentofte Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Jacob Eifer Møller, MD, PhD",
+          "affiliation": "Odense University Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Herlev Hospital",
+          "city": "Herlev",
+          "zip": "2730",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 55.72366,
+            "lon": 12.43998
+          }
+        },
+        {
+          "facility": "Odense University Hospital",
+          "city": "Odense",
+          "zip": "5000",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 55.39594,
+            "lon": 10.38831
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "38365073",
+          "type": "DERIVED",
+          "citation": "Andersen CF, Larsen JH, Jensen J, Omar M, Nouhravesh N, Kistorp C, Tuxen C, Gustafsson F, Knop FK, Forman JL, Davidovski FS, Jensen LT, Hojlund K, Kober L, Antonsen L, Poulsen MK, Schou M, Moller JE. Empagliflozin to elderly and obese patients with increased risk of developing heart failure: Study protocol for the Empire Prevent trial program. Am Heart J. 2024 May;271:84-96. doi: 10.1016/j.ahj.2024.02.005. Epub 2024 Feb 15."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2025-01-23",
+          "uploadDate": "2025-01-24T16:22",
+          "filename": "SAP_000.pdf",
+          "size": 908108
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D018149",
+          "term": "Glucose Intolerance"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D006943",
+          "term": "Hyperglycemia"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C570240",
+          "term": "empagliflozin"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

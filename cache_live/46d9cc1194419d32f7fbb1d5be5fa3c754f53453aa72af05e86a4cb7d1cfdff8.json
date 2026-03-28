@@ -1,0 +1,645 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07403058",
+      "orgStudyIdInfo": {
+        "id": "CP003"
+      },
+      "organization": {
+        "fullName": "Axon Therapies, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Endovascular Ablation of the Right Greater Splanchnic Nerve in Subjects With Reduced Ejection Fraction",
+      "officialTitle": "Endovascular Ablation Of The Right Greater Splanchnic Nerve In Subjects Having Heart Failure With Reduced Ejection Fraction: Randomized Controlled Feasibility Trial",
+      "acronym": "R-HFrEF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-03-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-03-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-09-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-01-29",
+      "studyFirstSubmitQcDate": "2026-02-04",
+      "studyFirstPostDateStruct": {
+        "date": "2026-02-11",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-04",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Axon Therapies, Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUnapprovedDevice": true,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is a small, early-stage clinical trial designed to test whether a new catheter-based procedure is safe and may help people with heart failure with reduced ejection fraction (HFrEF). The procedure uses the Satera Ablation System to treat the right greater splanchnic nerve, which may play a role in heart failure symptoms. The study also aims to identify which types of patients might benefit most from this treatment in the future.\n\nUp to 50 patients aged 40 or older with HFrEF will take part at as many as 10 hospitals worldwide. The study is prospective, meaning patients are followed forward in time, and it is randomized, double-blinded, and sham-controlled. Patients are randomly assigned in a 2:1 ratio to either receive the actual nerve ablation treatment or a sham (placebo) procedure. Randomization happens during the procedure, after anesthesia or sedation, to reduce the risk of revealing which treatment the patient receives.\n\nNeither the patient nor their heart failure doctor will know whether the patient received the real treatment or the sham. However, the doctor performing the procedure and certain study staff will know, mainly for safety and operational reasons.\n\nThe sham procedure is designed to mimic the real procedure as closely as possible without performing the nerve ablation. It involves placing a small needle in the groin or neck and accessing the vein, but no treatment catheter is inserted. The sham procedure takes about the same amount of time as the real treatment (around 45 minutes) to help account for any placebo effect.\n\nOverall, this study is focused on evaluating safety and early signs of benefit rather than proving long-term effectiveness."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Reduced Ejection Fraction (HFrEF)"
+      ],
+      "keywords": [
+        "Heart Failure",
+        "Reduced Ejection Fraction",
+        "Right Greater Splanchnic Nerve (GSN)"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Randomized, sham controlled, double blinded",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 50,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Greater Splanchnic Nerve Ablation",
+          "type": "EXPERIMENTAL",
+          "description": "Subjects receive catheter-based unilateral ablation of the right greater splanchnic nerve (GSN) using the Satera Ablation System. Randomization occurs during the procedure after anesthesia or sedation and after confirmation that the subject's vein anatomy is suitable for treatment.",
+          "interventionNames": [
+            "Device: Right Greater Splanchnic Nerve (GSN) ablation"
+          ]
+        },
+        {
+          "label": "Sham treatment",
+          "type": "SHAM_COMPARATOR",
+          "description": "Subjects undergo a simulated procedure designed to mimic the treatment experience without delivering nerve ablation. This includes venous access via a small needle puncture in the groin or neck and assessment of vein anatomy, but no treatment catheter is inserted and no ablation is performed. The sham procedure lasts approximately the same amount of time as the active treatment.",
+          "interventionNames": [
+            "Procedure: Sham Control"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Right Greater Splanchnic Nerve (GSN) ablation",
+          "description": "Subjects receive catheter-based unilateral ablation of the right greater splanchnic nerve.",
+          "armGroupLabels": [
+            "Greater Splanchnic Nerve Ablation"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Sham Control",
+          "description": "Simulated procedure designed to mimic the treatment experience without delivering nerve ablation",
+          "armGroupLabels": [
+            "Sham treatment"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Device or procedure related serious adverse events",
+          "description": "Evaluation of device or procedure related serious adverse events based on Clinical Events Committee (CEC) assessment",
+          "timeFrame": "Treatment through the 1 month"
+        },
+        {
+          "measure": "NT-proBNP (6 months)",
+          "description": "Assessment of change in NT-ProBNP from baseline to 6-month follow up visit",
+          "timeFrame": "Baseline through the 6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Serious device related cardiac or vascular events",
+          "description": "Incidence of serious device related cardiac or vascular events for up to 12 months",
+          "timeFrame": "Treatment through the 12 months"
+        },
+        {
+          "measure": "Device or procedure related pain",
+          "description": "Device or procedure related pain lasting at least 30 days and requiring medical management",
+          "timeFrame": "Enrollment through the 12 months"
+        },
+        {
+          "measure": "Orthostatic hypotension",
+          "description": "Incidence of new orthostatic hypotension up to 12 months",
+          "timeFrame": "Procedure through 12 months"
+        },
+        {
+          "measure": "Acute Kidney Injury",
+          "description": "Incidence of AKI requiring renal replacement therapy up to 12 months",
+          "timeFrame": "Procedure through 12 months"
+        },
+        {
+          "measure": "Worsening Glomerular Filtration Rate (GFR)",
+          "description": "Incidence of worsening GFR (defined as change \\> 50% for at least 30 days in duration) up to 12 months",
+          "timeFrame": "Procedure through 12 months"
+        },
+        {
+          "measure": "Adverse Events",
+          "description": "Incidence of all Adverse Events through 12 months",
+          "timeFrame": "Procedure through 12 months"
+        },
+        {
+          "measure": "Mortality",
+          "description": "Incidence of all mortality for up to 12 months summarized as all-cause mortality, CV mortality, or heart failure-related",
+          "timeFrame": "Procedure through 12 months"
+        },
+        {
+          "measure": "Left Ventricular End Diastolic Volume (LVEDV)",
+          "description": "Change in LVEDV from baseline indexed for body surface area (LVEDVi ml/m2) at 6 and 12 month follow up",
+          "timeFrame": "Baseline through 6- and 12- months"
+        },
+        {
+          "measure": "Left Ventricular Ejection Fraction (LVEF)",
+          "description": "Change in LVEF from baseline at 6 and 12 month follow up",
+          "timeFrame": "Baseline through 6- and 12-months"
+        },
+        {
+          "measure": "NT-proBNP (12 months)",
+          "description": "Change in NT-proBNP evaluated over time from baseline through 12 months",
+          "timeFrame": "Baseline through 12 months"
+        },
+        {
+          "measure": "Kansas City Cardiomyopathy Questionnaire (KCCQ)",
+          "description": "Change in KCCQ scores evaluated over time from baseline through 6 and 12 months",
+          "timeFrame": "Baseline through 6- and 12-months"
+        },
+        {
+          "measure": "6-minute Walk Test (6MWT)",
+          "description": "Change in 6MWT evaluated over time from baseline through 6 and 12 months",
+          "timeFrame": "Baseline through 6- and 12-months"
+        },
+        {
+          "measure": "Worsening Heart Failure (Time to)",
+          "description": "Time to first heart failure hospitalization or worsening heart failure event through 6 and 12 months",
+          "timeFrame": "Baseline through 6- and 12-months"
+        },
+        {
+          "measure": "Worsening Heart Failure (Incidence)",
+          "description": "Incidence of heart failure hospitalization and worsening heart failure events through 6 and 12 months",
+          "timeFrame": "Baseline through 6- and 12-months"
+        },
+        {
+          "measure": "Composite Endpoint",
+          "description": "Hierarchical composite endpoint of cardiovascular death, heart failure events, and changes from baseline to 12 months in KCCQ OSS",
+          "timeFrame": "Baseline through 12 months"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Diuretic Dose",
+          "description": "Change in diuretic dose through 6 and 12 months",
+          "timeFrame": "Baseline through 6- and 12 months"
+        },
+        {
+          "measure": "High Sensitivity C-reactive Protein",
+          "description": "Change in high sensitivity C-reactive protein levels from baseline through 6 and 12 months",
+          "timeFrame": "Baseline through 6- and 12 months"
+        },
+        {
+          "measure": "Weight",
+          "description": "Change in weight from baseline through 6 and 12 months",
+          "timeFrame": "Baseline through 6- and 12 months"
+        },
+        {
+          "measure": "HbA1c",
+          "description": "Change in HbA1c from baseline through 6 and 12 months",
+          "timeFrame": "Baseline through 6- and 12 months"
+        },
+        {
+          "measure": "Technical Success (Primary) - treatment cohort only",
+          "description": "Technical success of RF ablation of the GSN at the T11 level, defined as successful catheter positioning at the target site, completion of RF energy delivery, and absence of device-related Serious Adverse Events.",
+          "timeFrame": "Procedure"
+        },
+        {
+          "measure": "Technical Success (Secondary) - treatment cohort only",
+          "description": "Technical success (Secondary) of RF ablation of the GSN at the T10 level, defined as successful catheter positioning at the target site, completion of RF energy delivery, and absence of device-related Serious Adverse Events.",
+          "timeFrame": "Procedure"
+        },
+        {
+          "measure": "SGLT2 Inhibitor Dose",
+          "description": "Number of changes in SGLT2 Inhibitor dose and percentage of subjects with at least one change through 6- and 12-months",
+          "timeFrame": "Baseline through 6- and 12-months"
+        },
+        {
+          "measure": "Angiotensin Receptor Blocker (ARB) Dose",
+          "description": "Number of changes in Angiotensin Receptor Blocker Dose and percentage of subjects with at least one change though 6- and 12-months",
+          "timeFrame": "Baseline through 6- and 12-months"
+        },
+        {
+          "measure": "ACE Inhibitor Dose",
+          "description": "Number of subjects with changes in ACE Inhibitor Dose and percentage of subjects with at least one change through 6- and 12-months",
+          "timeFrame": "Baseline through 6- and 12-months"
+        },
+        {
+          "measure": "Angiotensin Receptor-Neprilysin Inhibitor (ARNI) Dose",
+          "description": "Number of subjects with changes in Angiotensin Receptor-Neprilysin Inhibitor dose and percentage of subjects with at least one change through 6- and 12-months",
+          "timeFrame": "Baseline through 6- and 12-months"
+        },
+        {
+          "measure": "Aldosterone Antagonist (MRA) Dose",
+          "description": "Number of subjects with changes in Aldosterone Antagonist (MRA) Dose and percentage of subjects with at least one change through 6- and 12-months",
+          "timeFrame": "Baseline through 6- and 12-months"
+        },
+        {
+          "measure": "Beta Blocker Dose",
+          "description": "Number of subjects with changes in Beta Blocker dose and percentage of subjects with at least one change through 6- and 12-months",
+          "timeFrame": "Baseline through 6- and 12-months"
+        },
+        {
+          "measure": "Aldosterone (ALD)",
+          "description": "Change in aldosterone levels from baseline through 6- and 12-months",
+          "timeFrame": "Baseline through 6- and 12-months"
+        },
+        {
+          "measure": "Renin",
+          "description": "Change in Renin levels from Baseline through 6- and 12-months",
+          "timeFrame": "Baseline through 6- and 12-months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Chronic heart failure, defined as:\n\n   1. Symptoms of HF requiring current (QD or QOD or appropriate dosing as per screening committee) treatment with loop diuretics for at least 30 days prior to screening visit, AND\n   2. NYHA class II, NYHA class III, or ambulatory NYHA class IV symptoms at screening or signs of HF, AND\n   3. NT-proBNP \\>800 pg/ml in normal sinus rhythm (\\>1400 pg/ml in atrial fibrillation or flutter) within 3 months of consent, with no adjustment for BMI\n2. Ongoing stable GDMT HF management for a minimum of 30 days prior to screening (unless unable to tolerate GDMT) which refers to those HF drugs carrying a Class I indication, including:\n\n   1. An inhibitor of the renin-angiotensin system (RAS inhibitor), including an angiotensin-converting enzyme (ACE) inhibitor or angiotensin receptor blocker (ARB) or angiotensin receptor-neprilysin inhibitor (ARNI) and beta-blocker (BB).\n   2. A mineralocorticoid receptor antagonist (MRA), Sodium-Glucose Transport 2 inhibitor (SGLT2i), or nitrates/hydralazine, should be used in appropriate patients, according to the published guidelines unless intolerant or not indicated.\n   3. Drug intolerance, contraindications, or lack of indications must be attested to by the investigator. Patients should be on appropriate doses of diuretics as required for volume control.\n   4. Stable GDMT refers to consistent dose (change is considered a more than 100% increase or 50% decrease in dose) for at least 30 days prior to screening visit or as appropriate per the screening committee.\n3. Participants cannot have started a glucagon-like peptide (GLP)-1 or gastric inhibitory peptide (GIP) agonist within the last 6 months or plan to start a GLP-1 or GIP agonist within the ensuing 6 months after enrollment.\n4. Considered for Class I recommended cardiac rhythm management device therapy. Specifically: if indicated by class I guidelines, cardiac resynchronization therapy (CRT), an implanted cardioverter- defibrillator (ICD) or a pacemaker should be implanted at least 3 months prior to enrollment. These criteria may be waived if a patient is clinically contraindicated for these therapies or refuses them and must be attested to by the investigator.\n5. LVEF 20% - 40% (at screening visit and determined by echo core lab).\n6. Age ≥40 years.\n7. Subject is willing and able to provide appropriate study-specific informed consent, follow protocol procedures, and comply with follow-up visit requirements.\n\nExclusion Criteria:\n\n1. MI (type I) and/or percutaneous cardiac intervention within 3 months prior to screening; CABG in past 3 months prior to screening, or current indication for coronary revascularization.\n2. Cardiac resynchronization therapy initiated within 3 months prior to enrollment.\n3. Advanced heart failure defined as one or more of the following:\n\n   1. ACC/AHA/ESC Stage D HF or non-ambulatory NYHA Class IV HF.\n   2. Inotropic infusion (continuous or intermittent) within 6 months prior to screening.\n   3. Subject is on the cardiac transplant waiting list or has undergone transplant.\n   4. Presence of, or history of, mechanical circulatory support for HF.\n   5. Planned other advanced HF Therapies in the next 12 months.\n4. Right heart dysfunction defined as tricuspid annular plane systolic excursion (TAPSE) \\<12 mm or right ventricular (RV) fractional area change (FAC) \\<25% (at screening visit and determined by echo core lab).\n5. Body mass index (BMI) \\>45 kg/m2.\n6. 6-minute walk test distance \\<100 meters OR \\>450 meters.\n7. Admission for HF within the 30 days prior to planned index procedure.\n8. Any known history of orthostatic hypotension or orthostatic hypotension at the time of screening (regardless of the presence of symptoms). Orthostatic hypotension is defined as a systolic blood pressure (BP) decrease of \\>20 mmHg upon going from supine to standing position or undergoing treatment with Midodrine.\n9. Orthostatic pulse pressure narrowing from supine to standing (+3 minutes) of ≥10mmHg in the absence of a HR increase \\>15bpm\n10. Postural orthostatic tachycardia syndrome or preload insufficiency syndrome or on medical therapy for neurogenic orthostatic hypotension (e.g., midodrine, droxidopa).\n11. Systolic BP \\<100 mmHg or \\>170 mmHg despite appropriate medical management.\n12. Baseline screening ECG resting HR \\>100 beats per minute or ventricular tachycardia.\n13. Catheter ablation for atrial fibrillation within 6 months prior to screening or planned in the next 12 months at the time of screening.\n14. Presence of significant valve disease defined by the site cardiologist as:\n\n    1. Greater than mild mitral valve stenosis.\n    2. Greater than moderate mitral valve regurgitation.\n    3. Greater than moderate-to-severe tricuspid valve regurgitation.\n    4. Greater than moderate aortic valve stenosis or regurgitation.\n15. Any planned procedure to address valve disease in the past 6 months.\n16. Known hypertrophic cardiomyopathy, restrictive cardiomyopathy, constrictive pericarditis, cardiac amyloidosis, or other infiltrative cardiomyopathy (e.g., hemochromatosis, sarcoidosis).\n17. History of clinically significant liver cirrhosis.\n18. Prior weight loss surgery\n19. Dialysis dependent; or estimated GFR \\<20 ml/min/1.73 m2 by CKD-EPI creatinine equation.\n20. Arterial oxygen saturation \\<90% on room air.\n21. Chronic pulmonary disease requiring continuous home oxygen OR hospitalization for exacerbation of chronic pulmonary disease (including intubation) in the 12 months before study entry OR known history of GOLD Class III or worse chronic obstructive pulmonary disease (COPD).\n22. Participating in conflicting investigational drug or device study that is not completed within 30 days prior to the screening visit.\n23. Life expectancy \\<12 months for non-cardiovascular reasons.\n24. Any condition, or history of illness or surgery that, in the opinion of the site investigator or Screening Committee, might confound the results of the study or pose additional risks to the patient.\n25. Females who are pregnant or lactating or planning to become pregnant during the next year.\n26. LVEDD \\> 7.5 cm (at screening visit and determined by echo core lab)\n27. Estimated peak pulmonary artery pressure (PAP) \\> 70 mmHg (at screening visit and determined by echo core lab).\n\n    Exclusion Criteria Assessed During the index procedure:\n28. Vessel tortuosity or variant vascular anatomy that could preclude the access or maneuvering of the interventional device from the access site to target vessel. This includes previous spine surgery that may impact the ability to access and treat the target sites of T11 and T10.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "40 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Judit Adorjan",
+          "role": "CONTACT",
+          "phone": "+1 650 722-1119",
+          "email": "j.adorjan@axontherapies.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Piotr Ponikowski, MD, PhD",
+          "affiliation": "Professor of Cardiology, Head of the Department of Heart Diseases at Wroclaw Medical University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Marat Fudim, MD, MHS",
+          "affiliation": "Associate Professor of Medicine, Duke Clinical Research Institute of Cardiology",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Klaus Witte, MD",
+          "affiliation": "Senior Lecturer in Cardiology and Consultant Cardiologist Leeds Institute of Cardiovascular and Metabolic Medicine University of Leeds and Leeds Teaching Hospitals NHS Trust",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Motol and Homolka University Hospital",
+          "city": "Prague",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.08804,
+            "lon": 14.42076
+          }
+        },
+        {
+          "facility": "Uniwersytecki Szpital Kliniczny im. Jana Mikulicza Radeckiego we Wrocławiu",
+          "city": "Wroclaw",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.10286,
+            "lon": 17.03006
+          }
+        },
+        {
+          "facility": "Hospital Clínico Universitario de Valencia-INCLIVA",
+          "city": "Valencia",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Vithas Valencia Turia",
+          "city": "Valencia",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Leeds General Infirmary",
+          "city": "Leeds",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 53.79648,
+            "lon": -1.54785
+          }
+        },
+        {
+          "facility": "King's College London",
+          "city": "London",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "10399200",
+          "type": "BACKGROUND",
+          "citation": "Finkelstein DM, Schoenfeld DA. Combining mortality and longitudinal measures in clinical trials. Stat Med. 1999 Jun 15;18(11):1341-54. doi: 10.1002/(sici)1097-0258(19990615)18:113.0.co;2-7."
+        },
+        {
+          "pmid": "21900289",
+          "type": "BACKGROUND",
+          "citation": "Pocock SJ, Ariti CA, Collier TJ, Wang D. The win ratio: a new approach to the analysis of composite endpoints in clinical trials based on clinical priorities. Eur Heart J. 2012 Jan;33(2):176-82. doi: 10.1093/eurheartj/ehr352. Epub 2011 Sep 6."
+        },
+        {
+          "pmid": "35598154",
+          "type": "BACKGROUND",
+          "citation": "Fudim M, Fail PS, Litwin SE, Shaburishvili T, Goyal P, Hummel SL, Borlaug BA, Mohan RC, Patel RB, Mitter SS, Klein L, Rocha-Singh K, Patel MR, Reddy VY, Burkhoff D, Shah SJ. Endovascular ablation of the right greater splanchnic nerve in heart failure with preserved ejection fraction: early results of the REBALANCE-HF trial roll-in cohort. Eur J Heart Fail. 2022 Aug;24(8):1410-1414. doi: 10.1002/ejhf.2559. Epub 2022 May 29."
+        },
+        {
+          "pmid": "33714749",
+          "type": "BACKGROUND",
+          "citation": "Fudim M, Patel MR, Boortz-Marx R, Borlaug BA, DeVore AD, Ganesh A, Green CL, Lopes RD, Mentz RJ, Patel CB, Rogers JG, Felker GM, Hernandez AF, Sunagawa K, Burkhoff D. Splanchnic Nerve Block Mediated Changes in Stressed Blood Volume in Heart Failure. JACC Heart Fail. 2021 Apr;9(4):293-300. doi: 10.1016/j.jchf.2020.12.006. Epub 2021 Mar 10."
+        },
+        {
+          "pmid": "33932262",
+          "type": "BACKGROUND",
+          "citation": "Malek F, Gajewski P, Zymlinski R, Janczak D, Chabowski M, Fudim M, Martinca T, Neuzil P, Biegus J, Mates M, Kruger A, Skalsky I, Bapna A, Engelman ZJ, Ponikowski PP. Surgical ablation of the right greater splanchnic nerve for the treatment of heart failure with preserved ejection fraction: first-in-human clinical trial. Eur J Heart Fail. 2021 Jul;23(7):1134-1143. doi: 10.1002/ejhf.2209. Epub 2021 Jul 16."
+        },
+        {
+          "pmid": "8862367",
+          "type": "BACKGROUND",
+          "citation": "Maher JW, Johlin FC, Pearson D. Thoracoscopic splanchnicectomy for chronic pancreatitis pain. Surgery. 1996 Oct;120(4):603-9; discussion 609-10. doi: 10.1016/s0039-6060(96)80006-7."
+        },
+        {
+          "pmid": "32535123",
+          "type": "BACKGROUND",
+          "citation": "Fudim M, Boortz-Marx RL, Ganesh A, DeVore AD, Patel CB, Rogers JG, Coburn A, Johnson I, Paul A, Coyne BJ, Rao SV, Gutierrez JA, Kiefer TL, Kong DF, Green CL, Jones WS, Felker GM, Hernandez AF, Patel MR. Splanchnic Nerve Block for Chronic Heart Failure. JACC Heart Fail. 2020 Sep;8(9):742-752. doi: 10.1016/j.jchf.2020.04.010. Epub 2020 Jun 10."
+        },
+        {
+          "pmid": "29804067",
+          "type": "BACKGROUND",
+          "citation": "Fudim M, Jones WS, Boortz-Marx RL, Ganesh A, Green CL, Hernandez AF, Patel MR. Splanchnic Nerve Block for Acute Heart Failure. Circulation. 2018 Aug 28;138(9):951-953. doi: 10.1161/CIRCULATIONAHA.118.035260. No abstract available."
+        },
+        {
+          "pmid": "18163168",
+          "type": "BACKGROUND",
+          "citation": "Baghdadi S, Abbas MH, Albouz F, Ammori BJ. Systematic review of the role of thoracoscopic splanchnicectomy in palliating the pain of patients with chronic pancreatitis. Surg Endosc. 2008 Mar;22(3):580-8. doi: 10.1007/s00464-007-9730-x. Epub 2007 Dec 28."
+        },
+        {
+          "pmid": "13573575",
+          "type": "BACKGROUND",
+          "citation": "RAPAPORT E, WEISBART MH, LEVINE M. The splanchnic blood volume in congestive heart failure. Circulation. 1958 Oct;18(4 Part 1):581-7. doi: 10.1161/01.cir.18.4.581. No abstract available."
+        },
+        {
+          "pmid": "20543134",
+          "type": "BACKGROUND",
+          "citation": "Borlaug BA, Nishimura RA, Sorajja P, Lam CS, Redfield MM. Exercise hemodynamics enhance diagnosis of early heart failure with preserved ejection fraction. Circ Heart Fail. 2010 Sep;3(5):588-95. doi: 10.1161/CIRCHEARTFAILURE.109.930701. Epub 2010 Jun 11."
+        },
+        {
+          "pmid": "8238596",
+          "type": "BACKGROUND",
+          "citation": "Burkhoff D, Tyberg JV. Why does pulmonary venous pressure rise after onset of LV dysfunction: a theoretical analysis. Am J Physiol. 1993 Nov;265(5 Pt 2):H1819-28. doi: 10.1152/ajpheart.1993.265.5.H1819."
+        },
+        {
+          "pmid": "24291683",
+          "type": "BACKGROUND",
+          "citation": "Funakoshi K, Hosokawa K, Kishi T, Ide T, Sunagawa K. Striking volume intolerance is induced by mimicking arterial baroreflex failure in normal left ventricular function. J Card Fail. 2014 Jan;20(1):53-9. doi: 10.1016/j.cardfail.2013.11.007. Epub 2013 Nov 28."
+        },
+        {
+          "pmid": "3795110",
+          "type": "BACKGROUND",
+          "citation": "Barnes RJ, Bower EA, Rink TJ. Haemodynamic responses to stimulation of the splanchnic and cardiac sympathetic nerves in the anaesthetized cat. J Physiol. 1986 Sep;378:417-36. doi: 10.1113/jphysiol.1986.sp016228."
+        },
+        {
+          "pmid": "30346508",
+          "type": "BACKGROUND",
+          "citation": "Fudim M, Ganesh A, Green C, Jones WS, Blazing MA, DeVore AD, Felker GM, Kiefer TL, Kong DF, Boortz-Marx RL, Hernandez AF, Patel MR. Splanchnic nerve block for decompensated chronic heart failure: splanchnic-HF. Eur Heart J. 2018 Dec 21;39(48):4255-4256. doi: 10.1093/eurheartj/ehy682. No abstract available."
+        },
+        {
+          "pmid": "5093284",
+          "type": "BACKGROUND",
+          "citation": "Brooksby GA, Donald DE. Dynamic changes in splanchnic blood flow and blood volume in dogs during activation of sympathetic nerves. Circ Res. 1971 Sep;29(3):227-38. doi: 10.1161/01.res.29.3.227. No abstract available."
+        },
+        {
+          "pmid": "6832386",
+          "type": "BACKGROUND",
+          "citation": "Greenway CV. Role of splanchnic venous system in overall cardiovascular homeostasis. Fed Proc. 1983 Apr;42(6):1678-84."
+        },
+        {
+          "pmid": "14020808",
+          "type": "BACKGROUND",
+          "citation": "CHIEN S. Cell volume, plasma volume and cell percentage in splanchnic circulation of splenectomized dogs. Circ Res. 1963 Jan;12:22-8. doi: 10.1161/01.res.12.1.22. No abstract available."
+        },
+        {
+          "pmid": "14892239",
+          "type": "BACKGROUND",
+          "citation": "DELORME EJ, MacPHERSON AI, MUKHERJEE SR, ROWLANDS S. Measurement of the visceral blood volume in dogs. Q J Exp Physiol Cogn Med Sci. 1951;36(4):219-31. doi: 10.1113/expphysiol.1951.sp000975. No abstract available."
+        },
+        {
+          "pmid": "4825450",
+          "type": "BACKGROUND",
+          "citation": "Greenway CV, Lister GE. Capacitance effects and blood reservoir function in the splanchnic vascular bed during non-hypotensive haemorrhage and blood volume expansion in anaesthetized cats. J Physiol. 1974 Mar;237(2):279-94. doi: 10.1113/jphysiol.1974.sp010482."
+        },
+        {
+          "pmid": "18362606",
+          "type": "BACKGROUND",
+          "citation": "Gelman S. Venous function and central venous pressure: a physiologic story. Anesthesiology. 2008 Apr;108(4):735-48. doi: 10.1097/ALN.0b013e3181672607."
+        },
+        {
+          "pmid": "35512865",
+          "type": "BACKGROUND",
+          "citation": "Fudim M, Kaye DM, Borlaug BA, Shah SJ, Rich S, Kapur NK, Costanzo MR, Brener MI, Sunagawa K, Burkhoff D. Venous Tone and Stressed Blood Volume in Heart Failure: JACC Review Topic of the Week. J Am Coll Cardiol. 2022 May 10;79(18):1858-1869. doi: 10.1016/j.jacc.2022.02.050."
+        },
+        {
+          "pmid": "34053158",
+          "type": "BACKGROUND",
+          "citation": "Sorimachi H, Burkhoff D, Verbrugge FH, Omote K, Obokata M, Reddy YNV, Takahashi N, Sunagawa K, Borlaug BA. Obesity, venous capacitance, and venous compliance in heart failure with preserved ejection fraction. Eur J Heart Fail. 2021 Oct;23(10):1648-1658. doi: 10.1002/ejhf.2254. Epub 2021 Jun 17."
+        },
+        {
+          "pmid": "28862947",
+          "type": "BACKGROUND",
+          "citation": "Fudim M, Hernandez AF, Felker GM. Role of Volume Redistribution in the Congestion of Heart Failure. J Am Heart Assoc. 2017 Aug 17;6(8):e006817. doi: 10.1161/JAHA.117.006817. No abstract available."
+        },
+        {
+          "pmid": "29578280",
+          "type": "BACKGROUND",
+          "citation": "Savarese G, Carrero JJ, Pitt B, Anker SD, Rosano GMC, Dahlstrom U, Lund LH. Factors associated with underuse of mineralocorticoid receptor antagonists in heart failure with reduced ejection fraction: an analysis of 11 215 patients from the Swedish Heart Failure Registry. Eur J Heart Fail. 2018 Sep;20(9):1326-1334. doi: 10.1002/ejhf.1182. Epub 2018 Mar 26."
+        },
+        {
+          "pmid": "36202739",
+          "type": "BACKGROUND",
+          "citation": "Savarese G, Kishi T, Vardeny O, Adamsson Eryd S, Bodegard J, Lund LH, Thuresson M, Bozkurt B. Heart Failure Drug Treatment-Inertia, Titration, and Discontinuation: A Multinational Observational Study (EVOLUTION HF). JACC Heart Fail. 2023 Jan;11(1):1-14. doi: 10.1016/j.jchf.2022.08.009. Epub 2022 Sep 7."
+        },
+        {
+          "pmid": "39257278",
+          "type": "BACKGROUND",
+          "citation": "Lund LH, Crespo-Leiro MG, Laroche C, Zaliaduonyte D, Saad AM, Fonseca C, Celutkiene J, Zdravkovic M, Bielecka-Dabrowa AM, Agostoni P, Xuereb RG, Neronova KV, Lelonek M, Cavusoglu Y, Gellen B, Abdelhamid M, Hammoudi N, Anker SD, Chioncel O, Filippatos G, Lainscak M, McDonagh TA, Mebazaa A, Piepoli M, Ruschitzka F, Seferovic PM, Savarese G, Metra M, Rosano GMC, Maggioni AP; ESC EORP HF III National Leaders and Investigators. Heart failure in Europe: Guideline-directed medical therapy use and decision making in chronic and acute, pre-existing and de novo, heart failure with reduced, mildly reduced, and preserved ejection fraction - the ESC EORP Heart Failure III Registry. Eur J Heart Fail. 2024 Dec;26(12):2487-2501. doi: 10.1002/ejhf.3445. Epub 2024 Sep 10."
+        },
+        {
+          "pmid": "32446323",
+          "type": "BACKGROUND",
+          "citation": "Vaduganathan M, Claggett BL, Jhund PS, Cunningham JW, Pedro Ferreira J, Zannad F, Packer M, Fonarow GC, McMurray JJV, Solomon SD. Estimating lifetime benefits of comprehensive disease-modifying pharmacological therapies in patients with heart failure with reduced ejection fraction: a comparative analysis of three randomised controlled trials. Lancet. 2020 Jul 11;396(10244):121-128. doi: 10.1016/S0140-6736(20)30748-0. Epub 2020 May 21."
+        },
+        {
+          "pmid": "21934091",
+          "type": "BACKGROUND",
+          "citation": "Fallick C, Sobotka PA, Dunlap ME. Sympathetically mediated changes in capacitance: redistribution of the venous reservoir as a cause of decompensation. Circ Heart Fail. 2011 Sep;4(5):669-75. doi: 10.1161/CIRCHEARTFAILURE.111.961789. No abstract available."
+        },
+        {
+          "pmid": "12598066",
+          "type": "BACKGROUND",
+          "citation": "Adamson PB, Magalski A, Braunschweig F, Bohm M, Reynolds D, Steinhaus D, Luby A, Linde C, Ryden L, Cremers B, Takle T, Bennett T. Ongoing right ventricular hemodynamics in heart failure: clinical value of measurements derived from an implantable monitoring system. J Am Coll Cardiol. 2003 Feb 19;41(4):565-71. doi: 10.1016/s0735-1097(02)02896-6."
+        },
+        {
+          "pmid": "27561853",
+          "type": "BACKGROUND",
+          "citation": "Nijst P, Verbrugge FH, Bertrand PB, Martens P, Dupont M, Drieskens O, Penders J, Tang WH, Mullens W. Plasma Volume Is Normal but Heterogeneously Distributed, and True Anemia Is Highly Prevalent in Patients With Stable Heart Failure. J Card Fail. 2017 Feb;23(2):138-144. doi: 10.1016/j.cardfail.2016.08.008. Epub 2016 Aug 22."
+        },
+        {
+          "pmid": "27436837",
+          "type": "BACKGROUND",
+          "citation": "Miller WL. Fluid Volume Overload and Congestion in Heart Failure: Time to Reconsider Pathophysiology and How Volume Is Assessed. Circ Heart Fail. 2016 Aug;9(8):e002922. doi: 10.1161/CIRCHEARTFAILURE.115.002922."
+        },
+        {
+          "pmid": "15135699",
+          "type": "BACKGROUND",
+          "citation": "Androne AS, Hryniewicz K, Hudaihed A, Mancini D, Lamanca J, Katz SD. Relation of unrecognized hypervolemia in chronic heart failure to clinical status, hemodynamics, and patient outcomes. Am J Cardiol. 2004 May 15;93(10):1254-9. doi: 10.1016/j.amjcard.2004.01.070."
+        },
+        {
+          "pmid": "28034373",
+          "type": "BACKGROUND",
+          "citation": "Ambrosy AP, Cerbin LP, Armstrong PW, Butler J, Coles A, DeVore AD, Dunlap ME, Ezekowitz JA, Felker GM, Fudim M, Greene SJ, Hernandez AF, O'Connor CM, Schulte P, Starling RC, Teerlink JR, Voors AA, Mentz RJ. Body Weight Change During and After Hospitalization for Acute Heart Failure: Patient Characteristics, Markers of Congestion, and Outcomes: Findings From the ASCEND-HF Trial. JACC Heart Fail. 2017 Jan;5(1):1-13. doi: 10.1016/j.jchf.2016.09.012."
+        },
+        {
+          "pmid": "18794390",
+          "type": "BACKGROUND",
+          "citation": "Zile MR, Bennett TD, St John Sutton M, Cho YK, Adamson PB, Aaron MF, Aranda JM Jr, Abraham WT, Smart FW, Stevenson LW, Kueffer FJ, Bourge RC. Transition from chronic compensated to acute decompensated heart failure: pathophysiological insights obtained from continuous monitoring of intracardiac pressures. Circulation. 2008 Sep 30;118(14):1433-41. doi: 10.1161/CIRCULATIONAHA.108.783910. Epub 2008 Sep 15."
+        },
+        {
+          "pmid": "17846286",
+          "type": "BACKGROUND",
+          "citation": "Chaudhry SI, Wang Y, Concato J, Gill TM, Krumholz HM. Patterns of weight change preceding hospitalization for heart failure. Circulation. 2007 Oct 2;116(14):1549-54. doi: 10.1161/CIRCULATIONAHA.107.690768. Epub 2007 Sep 10."
+        },
+        {
+          "pmid": "29111106",
+          "type": "BACKGROUND",
+          "citation": "Ezekowitz JA, O'Meara E, McDonald MA, Abrams H, Chan M, Ducharme A, Giannetti N, Grzeslo A, Hamilton PG, Heckman GA, Howlett JG, Koshman SL, Lepage S, McKelvie RS, Moe GW, Rajda M, Swiggum E, Virani SA, Zieroth S, Al-Hesayen A, Cohen-Solal A, D'Astous M, De S, Estrella-Holder E, Fremes S, Green L, Haddad H, Harkness K, Hernandez AF, Kouz S, LeBlanc MH, Masoudi FA, Ross HJ, Roussin A, Sussex B. 2017 Comprehensive Update of the Canadian Cardiovascular Society Guidelines for the Management of Heart Failure. Can J Cardiol. 2017 Nov;33(11):1342-1433. doi: 10.1016/j.cjca.2017.08.022. Epub 2017 Sep 6."
+        },
+        {
+          "pmid": "16855265",
+          "type": "BACKGROUND",
+          "citation": "Owan TE, Hodge DO, Herges RM, Jacobsen SJ, Roger VL, Redfield MM. Trends in prevalence and outcome of heart failure with preserved ejection fraction. N Engl J Med. 2006 Jul 20;355(3):251-9. doi: 10.1056/NEJMoa052256."
+        },
+        {
+          "pmid": "20685685",
+          "type": "BACKGROUND",
+          "citation": "Lam CS, Donal E, Kraigher-Krainer E, Vasan RS. Epidemiology and clinical course of heart failure with preserved ejection fraction. Eur J Heart Fail. 2011 Jan;13(1):18-28. doi: 10.1093/eurjhf/hfq121. Epub 2010 Aug 3."
+        },
+        {
+          "pmid": "35363499",
+          "type": "BACKGROUND",
+          "citation": "Heidenreich PA, Bozkurt B, Aguilar D, Allen LA, Byun JJ, Colvin MM, Deswal A, Drazner MH, Dunlay SM, Evers LR, Fang JC, Fedson SE, Fonarow GC, Hayek SS, Hernandez AF, Khazanie P, Kittleson MM, Lee CS, Link MS, Milano CA, Nnacheta LC, Sandhu AT, Stevenson LW, Vardeny O, Vest AR, Yancy CW; ACC/AHA Joint Committee Members. 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. Circulation. 2022 May 3;145(18):e895-e1032. doi: 10.1161/CIR.0000000000001063. Epub 2022 Apr 1."
+        },
+        {
+          "pmid": "29716540",
+          "type": "BACKGROUND",
+          "citation": "Lesyuk W, Kriza C, Kolominsky-Rabas P. Cost-of-illness studies in heart failure: a systematic review 2004-2016. BMC Cardiovasc Disord. 2018 May 2;18(1):74. doi: 10.1186/s12872-018-0815-3."
+        },
+        {
+          "pmid": "37622666",
+          "type": "BACKGROUND",
+          "citation": "McDonagh TA, Metra M, Adamo M, Gardner RS, Baumbach A, Bohm M, Burri H, Butler J, Celutkiene J, Chioncel O, Cleland JGF, Crespo-Leiro MG, Farmakis D, Gilard M, Heymans S, Hoes AW, Jaarsma T, Jankowska EA, Lainscak M, Lam CSP, Lyon AR, McMurray JJV, Mebazaa A, Mindham R, Muneretto C, Francesco Piepoli M, Price S, Rosano GMC, Ruschitzka F, Skibelund AK; ESC Scientific Document Group. 2023 Focused Update of the 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure. Eur Heart J. 2023 Oct 1;44(37):3627-3639. doi: 10.1093/eurheartj/ehad195. No abstract available."
+        },
+        {
+          "pmid": "27207191",
+          "type": "BACKGROUND",
+          "citation": "Ponikowski P, Voors AA, Anker SD, Bueno H, Cleland JG, Coats AJ, Falk V, Gonzalez-Juanatey JR, Harjola VP, Jankowska EA, Jessup M, Linde C, Nihoyannopoulos P, Parissis JT, Pieske B, Riley JP, Rosano GM, Ruilope LM, Ruschitzka F, Rutten FH, van der Meer P; Authors/Task Force Members; Document Reviewers. 2016 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure: The Task Force for the diagnosis and treatment of acute and chronic heart failure of the European Society of Cardiology (ESC). Developed with the special contribution of the Heart Failure Association (HFA) of the ESC. Eur J Heart Fail. 2016 Aug;18(8):891-975. doi: 10.1002/ejhf.592. Epub 2016 May 20. No abstract available."
+        },
+        {
+          "pmid": "34447992",
+          "type": "BACKGROUND",
+          "citation": "McDonagh TA, Metra M, Adamo M, Gardner RS, Baumbach A, Bohm M, Burri H, Butler J, Celutkiene J, Chioncel O, Cleland JGF, Coats AJS, Crespo-Leiro MG, Farmakis D, Gilard M, Heymans S, Hoes AW, Jaarsma T, Jankowska EA, Lainscak M, Lam CSP, Lyon AR, McMurray JJV, Mebazaa A, Mindham R, Muneretto C, Francesco Piepoli M, Price S, Rosano GMC, Ruschitzka F, Kathrine Skibelund A; ESC Scientific Document Group. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure. Eur Heart J. 2021 Sep 21;42(36):3599-3726. doi: 10.1093/eurheartj/ehab368. No abstract available."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

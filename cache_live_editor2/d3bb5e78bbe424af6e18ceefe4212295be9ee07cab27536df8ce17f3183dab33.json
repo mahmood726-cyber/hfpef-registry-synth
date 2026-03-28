@@ -1,0 +1,294 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01876433",
+      "orgStudyIdInfo": {
+        "id": "2012-004805-29"
+      },
+      "organization": {
+        "fullName": "Rigshospitalet, Denmark",
+        "class": "OTHER"
+      },
+      "briefTitle": "Beta 3 Agonist Treatment in Heart Failure",
+      "officialTitle": "Beta 3 Agonist Treatment in Heart Failure",
+      "acronym": "Beat-HF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-10",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2013-09-30",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2015-09-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2015-09-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2013-06-10",
+      "studyFirstSubmitQcDate": "2013-06-11",
+      "studyFirstPostDateStruct": {
+        "date": "2013-06-12",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2020-10-14",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-10-19",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Henning Bundgaard",
+        "investigatorTitle": "Consultant, dr. med.",
+        "investigatorAffiliation": "Rigshospitalet, Denmark"
+      },
+      "leadSponsor": {
+        "name": "Henning Bundgaard",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Objective: The objective of the study is to assess the structural and functional cardiac effects of treatment with the beta 3 AR agonist Mirabegron in patients with chronic heart failure.\n\nDesign: The investigators are planning a study aiming at establishing proof of concept that treatment of patients with HF with Mirabegron has significant positive effects, as assessed by clinical and biochemistry measurements, but not by hard endpoints. The investigators are performing a combined dose-finding - chronic efficacy study.\n\nThe study is a randomized, placebo-controlled, double-blinded trial. The follow-up period is 6 months. 70 patients with chronic heart failure will be included.\n\nSpecific aims\n\n1. Determine safety of administration of Mirabegron to patients with heart failure.\n2. Determine if treatment with Mirabegron for 6 months induces beneficial cardiac structural remodelling in patients with heart failure.\n3. Determine if Mirabegron improves symptoms and exercise capacity as indicated by questionnaires and 6 min walk test in patients with heart failure.\n4. Determine effects of Mirabegron on cardiac conduction, repolarisation and rhythms and arrhythmias in patients with heart failure.\n5. Determine effects of Mirabegron on circulating biomarkers in patients with heart failure."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Chronic Heart Failure With Reduced Ejection Fraction (HFrEF)"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 70,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Beta-3-agonist",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Mirabegron 25 mg x 2 titrated up to maximal tolerated dosis or a maximum of 150 mg x 2.",
+          "interventionNames": [
+            "Drug: Mirabegron"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo 25 mg x 2 titrated up to maximal tolerated dosis or a maximum of 150 mg x 2.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Mirabegron",
+          "armGroupLabels": [
+            "Beta-3-agonist"
+          ],
+          "otherNames": [
+            "Beta 3 agonist"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Increase in LVEF (measured by MRI or CT)",
+          "timeFrame": "6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "A reduction in NT proBNP",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "An increase in 6 min walking distance",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "An increase in CO/SV",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "A reduction in LVIDd",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "An improvement in diastolic function",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "A reduction in LA volume",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "A reduction in LV diameters",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "A shortening of the QT interval",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Improvement in quality of life",
+          "timeFrame": "6 monhs"
+        },
+        {
+          "measure": "Improvement in functional class",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Stable heart failure NYHA class II-III on ischemic or non-ischemic basis\n2. Left ventricular ejection fraction (LVEF) \\< 40%\n3. Stable sinus rhythm (SR)\n4. On optimised evidence-based pharmacological HF treatment stable \\> 4 weeks with no current plan for changing HF therapy. The therapy must include a beta-blocker.\n5. No change in diuretics \\< 4 weeks\n6. \\>18 years\n\nExclusion Criteria:\n\n1. Unstable cardiac condition\n2. Acute myocardial infarction (AMI) or revascularisation \\< 3 month ago\n3. Atrial fibrillation (for technical reasons in relation to imaging and HR reporting)\n4. Uncorrected significant primary obstructive valve disease\n5. Planned major surgery including cardiac revascularisation\n6. Hemodynamically significant obstructive cardiomyopathy\n7. Stroke with significant neurological deficit\n8. Acute myocarditis or constrictive pericarditis\n9. Symptomatic bradycardia or \\> 1. degree AV-block unless the patient has a pacemaker\n10. Clinically significant hepatic (transaminases or bilirubin x 3 above upper reference level) or renal (GFR\\< 50 ml/min/1,73 m2) diseases\n11. Heart failure due to uncorrected thyroid disease\n12. Cardiac mechanical support\n13. \\< 6 months after CRT\n14. Uncontrolled hypotension (defined as symptomatic systolic blood pressure \\< 90 mmHg) - or hypertension (defined as systolic at 180 mmHg or above and/or diastolic blood pressure at 110 mmHg or below)\n15. Body mass index (BMI) \\> 35\n16. Unable to give informed consent\n17. Reduced compliance\n18. All women of child bearing potential will be required to use adequate contraception\n19. Pregnant or lactating women\n20. Treatment with a tricyclic antidepressant or CYP2D6 substrates other than beta-blockers or treatment with digoxin.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Henning Bundgaard, MD, PhD, DMSc",
+          "affiliation": "Rigshospitalet Copenhagen University Hospital, Department of Cardiology",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Monash Center of Cardiovascular Research.",
+          "city": "Melbourne",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.814,
+            "lon": 144.96332
+          }
+        },
+        {
+          "facility": "Department of Cardiology, Royal North Shore Hospital.",
+          "city": "Sydney",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.86785,
+            "lon": 151.20732
+          }
+        },
+        {
+          "facility": "Department of Cardiology, The Heart Centre, Rigshospitalet Copenhagen University Hospital.",
+          "city": "Copenhagen Ø",
+          "zip": "2100",
+          "country": "Denmark"
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "38452283",
+          "type": "DERIVED",
+          "citation": "Bahrami HSZ, Hasselbalch RB, Soholm H, Thomsen JH, Sorgaard M, Kofoed KF, Valeur N, Boesgaard S, Fry NAS, Moller JE, Raja AA, Kober L, Iversen K, Rasmussen H, Bundgaard H. First-In-Man Trial of beta3-Adrenoceptor Agonist Treatment in Chronic Heart Failure: Impact on Diastolic Function. J Cardiovasc Pharmacol. 2024 May 1;83(5):466-473. doi: 10.1097/FJC.0000000000001545."
+        },
+        {
+          "pmid": "27990717",
+          "type": "DERIVED",
+          "citation": "Bundgaard H, Axelsson A, Hartvig Thomsen J, Sorgaard M, Kofoed KF, Hasselbalch R, Fry NA, Valeur N, Boesgaard S, Gustafsson F, Kober L, Iversen K, Rasmussen HH. The first-in-man randomized trial of a beta3 adrenoceptor agonist in chronic heart failure: the BEAT-HF trial. Eur J Heart Fail. 2017 Apr;19(4):566-575. doi: 10.1002/ejhf.714. Epub 2016 Dec 18."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C520025",
+          "term": "mirabegron"
+        },
+        {
+          "id": "D058667",
+          "term": "Adrenergic beta-3 Receptor Agonists"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000318",
+          "term": "Adrenergic beta-Agonists"
+        },
+        {
+          "id": "D000322",
+          "term": "Adrenergic Agonists"
+        },
+        {
+          "id": "D018663",
+          "term": "Adrenergic Agents"
+        },
+        {
+          "id": "D018377",
+          "term": "Neurotransmitter Agents"
+        },
+        {
+          "id": "D045504",
+          "term": "Molecular Mechanisms of Pharmacological Action"
+        },
+        {
+          "id": "D020228",
+          "term": "Pharmacologic Actions"
+        },
+        {
+          "id": "D020164",
+          "term": "Chemical Actions and Uses"
+        },
+        {
+          "id": "D045505",
+          "term": "Physiological Effects of Drugs"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,260 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06278844",
+      "orgStudyIdInfo": {
+        "id": "3020"
+      },
+      "organization": {
+        "fullName": "University Hospital, Antwerp",
+        "class": "OTHER"
+      },
+      "briefTitle": "Exercise Capacity Improvement by Conduction System Pacing in heArt Failure patieNts Without Compelling CRT inDication",
+      "officialTitle": "Exercise Capacity Improvement by Conduction System Pacing in heArt Failure patieNts Without Compelling CRT inDication",
+      "acronym": "ESCPAND"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-01",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-12-12",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-09",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-02-07",
+      "studyFirstSubmitQcDate": "2024-02-19",
+      "studyFirstPostDateStruct": {
+        "date": "2024-02-26",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-02-19",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-02-26",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University Hospital, Antwerp",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This randomized controlled trial aims to investigate the impact of conduction system pacing in comparison to right ventricular apical pacing on exercise capacity, as measured by peak oxygen uptake (VO2peak), in heart failure patients with indication for pacing but no compelling indication for cardiac resynchronization therapy (CRT). The mechanisms of exercise intolerance in heart failure patients influenced by conduction system pacing will be assessed.",
+      "detailedDescription": "Heart failure (HF) is a serious condition that affects a lot of people and places a significant burden on the healthcare system. Some HF patients also have issues with the natural electrical system of their heart, causing uneven heart contractions and worsening heart function. A treatment known as CRT has been helping such patients, but it does not work for everyone. A new technique called conduction system pacing (CSP) has emerged that might offer a more natural way of maintaining heart contractions.\n\nThis study aims to determine if CSP can enhance the ability of HF patients to exercise, by looking at their maximum oxygen consumption (a measure of exercise capacity). It will also explore why some HF patients struggle with exercise more than others. Eligible patients will be randomly assigned to either the new CSP treatment or a standard pacing method (right ventricular apical pacing). Patients will be checked regularly over a follow-up period of 24 weeks.\n\nThe main goal is to see if patients can exercise better with CSP after 24 weeks. The study will also look at other heart measures and safety concerns related to the devices. This study might show that CSP can help improve exercise capacity and heart function in certain HF patients. The results could guide health care professionals in offering better, tailored treatments for their patients."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Reduced Ejection Fraction",
+        "Heart Failure With Preserved Ejection Fraction",
+        "Heart Conduction Disorder"
+      ],
+      "keywords": [
+        "conduction system pacing",
+        "exercise capacity",
+        "Cardiopulmonary exercise testing"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 75,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Conduction system pacing",
+          "type": "EXPERIMENTAL",
+          "description": "In the conduction system pacing group, the right ventricular lead will be placed in a septal position to achieve conduction system pacing, either His bundle pacing (HBP) or left bundle branch area (LBBA) pacing.",
+          "interventionNames": [
+            "Device: Conduction system pacing"
+          ]
+        },
+        {
+          "label": "Right ventricular apical pacing",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Control group, in this group patients will receive a pacemaker with the ventricular lead in the right ventricle apex.",
+          "interventionNames": [
+            "Device: Right ventricular apical pacing"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Conduction system pacing",
+          "description": "In the conduction system pacing group, the right ventricular lead will be placed in a septal position to achieve conduction system pacing, either His bundle pacing (HBP) or left bundle branch area (LBBA) pacing. In the usual care group, the right ventricular lead will be placed in the right ventricle apex as usual.",
+          "armGroupLabels": [
+            "Conduction system pacing"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Right ventricular apical pacing",
+          "description": "This is the usual care group. Patients will receive a pacemaker device with the right ventricular lead inserted in the apex and not in the septal position.",
+          "armGroupLabels": [
+            "Right ventricular apical pacing"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Exercise capacity",
+          "description": "Change of VO2 peak from baseline to 24 weeks",
+          "timeFrame": "24 weeks after pacemaker implantation"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Exercise capacity",
+          "description": "Change of VO2 peak from baseline to 4 weeks",
+          "timeFrame": "4 weeks after pacemaker implantation"
+        },
+        {
+          "measure": "Echocardiographic parameters (Ejection Fraction)",
+          "description": "Change from baseline to 4,12 and 24 weeks (EF%)",
+          "timeFrame": "4, 12 and 24 weeks after pacemaker implantation"
+        },
+        {
+          "measure": "QRS width",
+          "description": "Change from baseline to 4,12,24 weeks (msec)",
+          "timeFrame": "4, 12 and 24 weeks after pacemaker implantation"
+        },
+        {
+          "measure": "Biomarker, N-terminal pro B-type natriuretic peptide levels",
+          "description": "Change from baseline to 4, 24 weeks (pg/ml)",
+          "timeFrame": "4 and 24 weeks after pacemaker implantation"
+        },
+        {
+          "measure": "Health-related quality of life scores",
+          "description": "KCCQS - Kansas City cardiomyopathy quality score",
+          "timeFrame": "4,12 and 24 weeks after pacemaker implantation"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nPatients with heart failure as defined by European Society of Cardiology guidelines\n\n* Signs and/or symptoms of heart failure\n* AND LVEF \\<50% OR LVEF ≥50% and objective evidence of cardiac structural and/or functional abnormalities consistent with the presence of LV diastolic dysfunction/raised filling pressures\n* AND indication for cardiac pacing as defined by European Society of Cardiology guidelines\n\nExclusion Criteria:\n\n* Age under 18 years old\n* Pregnancy\n* Inability to provide consent or to undergo follow-up\n* Class 1A indication for classical CRT as defined by European Society of Cardiology guidelines. Patients with a class 2A or higher indication for CRT can be included. However, patients with Class 1A indication for classical CRT but failure or suboptimal result of CS lead placement can be included.\n* Significant cardiac or extracardiac comorbidity precluding maximal exercise testing, examples: Recent (\\<4 weeks) decompensation of heart failure, angina pectoris class ≥2 , uncontrolled hypertension or arrhythmia , severe valvular heart disease, significant peripheral vascular disease, orthopaedic limitation ...\n* Comorbidity that may influence 6-month prognosis, examples:\n\nSevere chronic kidney disease (eGFR ≤20 mL/kg/min or dialysis) , severe chronic obstructive pulmonary disease (≥GOLD 3) , active malignancy ...",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Andreas Gevaert",
+          "role": "CONTACT",
+          "phone": "038213538",
+          "email": "Andreas.gevaert@uza.be"
+        },
+        {
+          "name": "Faro Verelst",
+          "role": "CONTACT",
+          "phone": "038213538",
+          "email": "Faro.verelst@uza.be"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Andreas Gevaert",
+          "affiliation": "University Hospital, Antwerp",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Universitair Ziekenhuis Antwerpen",
+          "status": "RECRUITING",
+          "city": "Edegem",
+          "state": "Antwerp",
+          "zip": "2650",
+          "country": "Belgium",
+          "contacts": [
+            {
+              "name": "Faro Verelst",
+              "role": "CONTACT",
+              "phone": "038213538",
+              "email": "faro.verelst@uza.be"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.15662,
+            "lon": 4.44504
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001145",
+          "term": "Arrhythmias, Cardiac"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,438 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01110824",
+      "orgStudyIdInfo": {
+        "id": "OVERCOME"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2007-006604-38",
+          "type": "EUDRACT_NUMBER"
+        },
+        {
+          "id": "FIS EC07/90211",
+          "type": "OTHER_GRANT",
+          "domain": "ISCIII"
+        }
+      ],
+      "organization": {
+        "fullName": "Hospital Clinic of Barcelona",
+        "class": "OTHER"
+      },
+      "briefTitle": "Prevention of Left Ventricular Dysfunction During Chemotherapy",
+      "officialTitle": "Prevention of Left Ventricular Dysfunction With Enalapril and Carvedilol in Patients Submitted to Intensive Chemotherapy for the Treatment of Malignant Hemopathies",
+      "acronym": "OVERCOME"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2013-11",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2008-04"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2011-12",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2012-03",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2010-04-23",
+      "studyFirstSubmitQcDate": "2010-04-23",
+      "studyFirstPostDateStruct": {
+        "date": "2010-04-27",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2013-11-14",
+      "lastUpdatePostDateStruct": {
+        "date": "2013-11-15",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Xavier Bosch",
+        "investigatorTitle": "Dr.",
+        "investigatorAffiliation": "Hospital Clinic of Barcelona"
+      },
+      "leadSponsor": {
+        "name": "Hospital Clinic of Barcelona",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Instituto de Salud Carlos III",
+          "class": "OTHER_GOV"
+        },
+        {
+          "name": "European Union",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The investigators' objective is to assess the efficacy of the combined treatment with enalapril and carvedilol in the prevention of left ventricular systolic dysfunction in patients with hematological malignancies submitted to intensive chemotherapy with potential cardiotoxicity.\n\nThe hypothesis is that these drugs administered during chemotherapy may prevent left ventricular systolic dysfunction.",
+      "detailedDescription": "The prognosis of patients with hematological malignancies has greatly improved in the last years with the use of new chemotherapeutic drugs and regimens at the cost of significant adverse events such as cardiac toxicity. Asymptomatic left ventricular systolic dysfunction limits the specific treatment of the patients and their long-term survival, since a significant proportion of them will relapse within 5 years after front-line therapy and will require further salvage treatment, including hematopoietic stem-cell transplantation in most instances.\n\nAngiotensin-converting enzyme inhibitors (ACEIs) have showed to have preventive effects against chemotherapy-induced cardiotoxicity in animal models, and in patients with early cardiotoxicity. Carvedilol prevent free radical release, mitochondrial dysfunction, apoptosis, and dilated cardiomyopathy in animals treated with anthracyclines, and have shown promising results in preventing chemotherapy-induced left ventricular dysfunction in patients.\n\nAs demonstrated in post-infarction patients, the combined treatment with an ACEI and carvedilol could have additive effects to prevent LV dysfunction in patients with hematological malignancies at high risk of cardiac toxicity. Therefore, we designed the OVERCOME (preventiOn of left Ventricular dysfunction with Enalapril and caRvedilol in patients submitted to intensive ChemOtherapy for the treatment of Malignant hEmopathies) study, a prospective, randomized trial to evaluate the combined effect of enalapril and carvedilol on the prevention of left ventricular dysfunction in patients with malignant hemopathies undergoing intensive chemotherapy."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Myeloid Leukemia",
+        "Precursor-cell Lymphoblastic Leukemia-Lymphoma",
+        "Lymphoid Neoplasm",
+        "Multiple Myeloma",
+        "Lymphoma",
+        "Autologous Hematopoietic Stem Cell Transplantation"
+      ],
+      "keywords": [
+        "Prevention",
+        "ventricular dysfunction",
+        "chemotherapy",
+        "acute myeloid leukemia",
+        "precursor-cell lymphoblastic leukemia",
+        "multiple myeloma",
+        "lymphoma",
+        "ejection fraction",
+        "Autologous hematopoietic stem cell transplantation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 90,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Enalapril and carvedilol",
+          "type": "EXPERIMENTAL",
+          "description": "Enalapril 2.5 to 10 mg BID plus Carvedilol 6.25 to 25 mg BID",
+          "interventionNames": [
+            "Drug: Enalapril and carvedilol"
+          ]
+        },
+        {
+          "label": "Control",
+          "type": "NO_INTERVENTION",
+          "description": "Control arm without intervention"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Enalapril and carvedilol",
+          "description": "Enalapril 2.5 to 10 mg BID Carvedilol 6.25 to 25 mg BID",
+          "armGroupLabels": [
+            "Enalapril and carvedilol"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change from baseline in left ventricular ejection fraction (LVEF) measured by echocardiography and by cardiac magnetic resonance imaging (CMR).",
+          "timeFrame": "6 months after randomization"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Incidence of death, heart failure or LV systolic disfunction (LVEF<45%)",
+          "timeFrame": "6 months after randomization"
+        },
+        {
+          "measure": "Assessment of genetic polymorphisms involved in chemotherapy-induced cardiotoxicity",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Prognostic value for cardiac toxicity of troponin I and BNP",
+          "timeFrame": "up to 3 months"
+        },
+        {
+          "measure": "Right and left ventricular volumes measured by CMR",
+          "timeFrame": "6 months after randomization"
+        },
+        {
+          "measure": "Subgroup analysis by diagnosis (acute leukemia vs. other malignant hemopathies submitted to autologous peripheral blood stem cell transplantation), and positive biomarkers (TnI, BNP).",
+          "timeFrame": "6 months after randomization"
+        },
+        {
+          "measure": "Incidence of an absolute decrease in LVEF>10 percent units associated with a decline below its normal limit of 50%",
+          "timeFrame": "6 months after randomization"
+        },
+        {
+          "measure": "Serious adverse events",
+          "timeFrame": "6 months after randomization"
+        },
+        {
+          "measure": "the incidence of LV dysfunction as assessed by the measurement of the LV strain, and of diastolic dysfunction measured by echo-Doppler",
+          "timeFrame": "6 months after randomization"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Adult patients 18-70 years old\n* Sinus rhythm\n* Normal LVEF (\\>=50%)\n* Patients recently diagnosed of acute leukemia to be submitted to intensive chemotherapy or\n* Patients with other hemopathies submitted to autologous peripheral blood stem cell transplantation\n* Signed informed consent\n\nExclusion Criteria:\n\n* Congestive heart failure\n* LVEF\\<50%\n* Coronary artery disease,\n* significant valvulopathy or myocardiopathy\n* Renal failure (MDRD\\<30)\n* Liver failure\n* Ongoing or expected need to be treated with angiotensin-converting enzyme inhibitors (ACE-i),angiotensin II receptor blockers (ARB) or beta-blockers\n* Prior allergy to ACEI or ARB\n* Systolic blood pressure \\<90 mmHg\n* Asthma\n* Auriculoventricular (AV) block or sinus bradycardia (HR\\<60 bpm)\n* Persistent atrial fibrillation\n* Need to be treated with Class I antiarrhythmic drugs\n* Pregnancy\n* Inability or unwillingness to give unformed consent",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "70 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Xavier Bosch, M.D., PhD.",
+          "affiliation": "Hospital Clinic, University of Barcelona",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hospital Clinic",
+          "city": "Barcelona",
+          "state": "Catalonia",
+          "zip": "08035",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Clinic",
+          "city": "Barcelona",
+          "state": "Catalonia",
+          "zip": "08036",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "21807325",
+          "type": "BACKGROUND",
+          "citation": "Bosch X, Esteve J, Sitges M, de Caralt TM, Domenech A, Ortiz JT, Monzo M, Morales-Ruiz M, Perea RJ, Rovira M. Prevention of chemotherapy-induced left ventricular dysfunction with enalapril and carvedilol: rationale and design of the OVERCOME trial. J Card Fail. 2011 Aug;17(8):643-8. doi: 10.1016/j.cardfail.2011.03.008. Epub 2011 May 6."
+        },
+        {
+          "pmid": "23583763",
+          "type": "RESULT",
+          "citation": "Bosch X, Rovira M, Sitges M, Domenech A, Ortiz-Perez JT, de Caralt TM, Morales-Ruiz M, Perea RJ, Monzo M, Esteve J. Enalapril and carvedilol for preventing chemotherapy-induced left ventricular systolic dysfunction in patients with malignant hemopathies: the OVERCOME trial (preventiOn of left Ventricular dysfunction with Enalapril and caRvedilol in patients submitted to intensive ChemOtherapy for the treatment of Malignant hEmopathies). J Am Coll Cardiol. 2013 Jun 11;61(23):2355-62. doi: 10.1016/j.jacc.2013.02.072. Epub 2013 Apr 10."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D015470",
+          "term": "Leukemia, Myeloid, Acute"
+        },
+        {
+          "id": "D054198",
+          "term": "Precursor Cell Lymphoblastic Leukemia-Lymphoma"
+        },
+        {
+          "id": "D009101",
+          "term": "Multiple Myeloma"
+        },
+        {
+          "id": "D008223",
+          "term": "Lymphoma"
+        },
+        {
+          "id": "D018754",
+          "term": "Ventricular Dysfunction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007951",
+          "term": "Leukemia, Myeloid"
+        },
+        {
+          "id": "D007938",
+          "term": "Leukemia"
+        },
+        {
+          "id": "D009370",
+          "term": "Neoplasms by Histologic Type"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D006402",
+          "term": "Hematologic Diseases"
+        },
+        {
+          "id": "D006425",
+          "term": "Hemic and Lymphatic Diseases"
+        },
+        {
+          "id": "D007945",
+          "term": "Leukemia, Lymphoid"
+        },
+        {
+          "id": "D008232",
+          "term": "Lymphoproliferative Disorders"
+        },
+        {
+          "id": "D008206",
+          "term": "Lymphatic Diseases"
+        },
+        {
+          "id": "D007160",
+          "term": "Immunoproliferative Disorders"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        },
+        {
+          "id": "D054219",
+          "term": "Neoplasms, Plasma Cell"
+        },
+        {
+          "id": "D020141",
+          "term": "Hemostatic Disorders"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D010265",
+          "term": "Paraproteinemias"
+        },
+        {
+          "id": "D001796",
+          "term": "Blood Protein Disorders"
+        },
+        {
+          "id": "D006474",
+          "term": "Hemorrhagic Disorders"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004656",
+          "term": "Enalapril"
+        },
+        {
+          "id": "D000077261",
+          "term": "Carvedilol"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004151",
+          "term": "Dipeptides"
+        },
+        {
+          "id": "D009842",
+          "term": "Oligopeptides"
+        },
+        {
+          "id": "D010455",
+          "term": "Peptides"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D011412",
+          "term": "Propanolamines"
+        },
+        {
+          "id": "D000605",
+          "term": "Amino Alcohols"
+        },
+        {
+          "id": "D000438",
+          "term": "Alcohols"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D020005",
+          "term": "Propanols"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        },
+        {
+          "id": "D002227",
+          "term": "Carbazoles"
+        },
+        {
+          "id": "D007211",
+          "term": "Indoles"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D006575",
+          "term": "Heterocyclic Compounds, 3-Ring"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

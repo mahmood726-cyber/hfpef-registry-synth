@@ -1,0 +1,277 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04546555",
+      "orgStudyIdInfo": {
+        "id": "00000988"
+      },
+      "organization": {
+        "fullName": "University of Vermont",
+        "class": "OTHER"
+      },
+      "briefTitle": "Physiologic Accelerated Pacing as a Treatment in Patients With Heart Failure With Preserved Ejection Fraction",
+      "officialTitle": "Physiologic Accelerated Pacing as a Treatment in Patients With Heart Failure With Preserved Ejection Fraction",
+      "acronym": "PACE HFpEF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-07",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-02-23",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-05-16",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-05-25",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2020-08-31",
+      "studyFirstSubmitQcDate": "2020-09-04",
+      "studyFirstPostDateStruct": {
+        "date": "2020-09-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-07-27",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-07-28",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Daniel L Lustgarten",
+        "investigatorTitle": "Professor of Medicine",
+        "investigatorAffiliation": "University of Vermont"
+      },
+      "leadSponsor": {
+        "name": "Daniel L Lustgarten",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Medtronic",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Part I: Week 0-12: Quantify the effects of lower heart rate (HR) elevation on symptoms and function in patients with heart failure with preserved ejection fraction (HFpEF).\n\nThe investigators hypothesize that a personalized lower HR elevation employing physiological conduction system pacing in patients with HFpEF will decrease left atrial and left ventricular filling pressures. The investigators expect that this will result in a symptomatic and functional improvements and reduce NTproBNP levels. Additionally, HR elevation may have the potential to reduce the risk for heart failure hospitalization, atrial fibrillation (AF), and cerebrovascular stroke as these outcomes are increased in patients with a normal or preserved ejection fraction on HR lowering treatments.\n\nAfter undergoing pacemaker implantation participants will be randomized to one out of three treatment arms (a) Bachmann's bundle pacing, (b) Bachmann's bundle and His bundle pacing, (c) no pacing with cross-over to alternative treatment arm at week 4 and 8, respectively. The lower pacing rate in arms a and b will be programmed to the personalized lower heart rate for 24 hours a day (the patient's intrinsic heart rate can exceed the personalized lower rate limit).\n\nPart II: Week 13-20: Determine the effects of nocturnal heart rate elevation on symptoms and function in patients with HFpEF.\n\nThe investigators hypothesize that a moderate HR elevation to 110bpm delivered for 10 hours between 8PM to 6AM will provide additional hemodynamic benefits and will lead to beneficial ventricular remodeling.\n\nAfter week 12 the participant will undergo randomization to one of two treatment arms (a) Bachmann's bundle and His bundle pacing, (b) Bachmann's bundle pacing, His bundle pacing and nocturnal pacing. The participant will cross-over to the other treatment arm after 4 weeks (study week 16)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure, Diastolic"
+      ],
+      "keywords": [
+        "Physiologic Pacing",
+        "His Bundle Pacing",
+        "Bachmann's Bundle Pacing",
+        "HFpEF"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "OTHER",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 20,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "No pacing",
+          "type": "PLACEBO_COMPARATOR",
+          "interventionNames": [
+            "Device: Dual chamber pacemaker"
+          ]
+        },
+        {
+          "label": "Bachmann's bundle pacing",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Device: Dual chamber pacemaker",
+            "Other: Accelerated Physiologic Pacing"
+          ]
+        },
+        {
+          "label": "Bachmann's bundle and His bundle pacing",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Device: Dual chamber pacemaker",
+            "Other: Accelerated Physiologic Pacing"
+          ]
+        },
+        {
+          "label": "Bachmann's bundle, His bundle and nocturnal pacing",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Device: Dual chamber pacemaker",
+            "Other: Accelerated Physiologic Pacing",
+            "Other: Nocturnal Pacing"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Dual chamber pacemaker",
+          "description": "Dual chamber pacemaker implantation with Bachmann's bundle lead and His bundle lead placement.",
+          "armGroupLabels": [
+            "Bachmann's bundle and His bundle pacing",
+            "Bachmann's bundle pacing",
+            "Bachmann's bundle, His bundle and nocturnal pacing",
+            "No pacing"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Accelerated Physiologic Pacing",
+          "description": "The lower rate limit will be programmed to an individualized heart rate.",
+          "armGroupLabels": [
+            "Bachmann's bundle and His bundle pacing",
+            "Bachmann's bundle pacing",
+            "Bachmann's bundle, His bundle and nocturnal pacing"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Nocturnal Pacing",
+          "description": "In addition to adjustment of the lower rate limit to an individualized heart rate, nocturnal pacing a moderate HR elevation of 110bpm will be implemented between 8pm and 6am.",
+          "armGroupLabels": [
+            "Bachmann's bundle, His bundle and nocturnal pacing"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in composite Minnesota-Living-with-Heart-Failure-Questionnaire score",
+          "description": "Total score can range from 0 to 105, with higher scores indicating more significant impairment in health-related quality of life",
+          "timeFrame": "At 1 month, 2 months, 3 months, 4 months and 5 months"
+        },
+        {
+          "measure": "Percent change in NTproBNP",
+          "timeFrame": "At 1 month, 2 months, 3 months, 4 months and 5 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in 6 minute walk test",
+          "timeFrame": "At 1 month, 2 months, 3 months, 4 months and 5 months"
+        },
+        {
+          "measure": "Incident AF",
+          "timeFrame": "At 1 month, 2 months, 3 months, 4 months and 5 months"
+        },
+        {
+          "measure": "Burden of AF",
+          "timeFrame": "At 1 month, 2 months, 3 months, 4 months and 5 months"
+        },
+        {
+          "measure": "Hemodynamic changes by Echo",
+          "timeFrame": "At 3 months and at 5 months"
+        },
+        {
+          "measure": "Change in left ventricular mass/volume ratio by cardiac MRI",
+          "timeFrame": "5 months"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Quantitative assessment of the risks of pacemaker implantation",
+          "description": "Incidence of pocket hematoma, pocket infection phrenic or diaphragmatic stimulation, lead endocarditis, lead dysfunction/dislocation, pneumothorax, hemopericardium, mortality",
+          "timeFrame": "1 month"
+        },
+        {
+          "measure": "Doubling in baseline Troponin or NTproBNP",
+          "timeFrame": "At 1 month, 2 months, 3 months, 4 months and 5 months"
+        },
+        {
+          "measure": ">= 25% increase in systolic blood pressure",
+          "timeFrame": "At 1 month, 2 months, 3 months, 4 months and 5 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Left ventricular ejection fraction ≥ 55% (and diastolic volume \\< 80ml/m2)\n* Controlled blood pressure: average blood pressure \\<130/80 mmHg on office visits in the last 30 days or on home blood pressure log or patient has completed up-titration of antihypertensive medications\n* Heart failure hospitalization within the past 12 months OR Echocardiogram within the past 24 months that reported left ventricular hypertrophy AND an NTproBNP \\>400 with at least one symptom of heart failure (dyspnea on exertion, orthopnea or paroxysmal nocturnal dyspnea) and at least one sign of heart failure in the past 12 months (pulmonary edema or pleural effusion on chest x-ray, lower extremity edema, jugular venous distention, rales).\n* Study candidates are expected to remain available for follow-up visits.\n\nExclusion Criteria:\n\n* Subject has an implanted cardiac pacemaker or defibrillator\n* Life expectancy is less than 12 months\n* Subject is unable or unwilling to perform the 6 Minute Walk Test and MLHFQ at all scheduled follow up visits\n* Subject has any of the following: uncontrolled hypertension (average blood pressure of \\>140/90 on office visits in the last 30 days or on home blood pressure log or actively undergoing uptitration of antihypertensive medication), more than moderate valvular disease, chronic hypoxic respiratory failure requiring supplemental oxygen, long-standing persistent atrial fibrillation\n* Baseline ECG with non-LBBB morphology AND QRS \\>150ms\n* Subject is currently enrolled or planning to enroll in a potentially confounding trial during the course of the study",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "University of Vermont Medical Center",
+          "city": "Burlington",
+          "state": "Vermont",
+          "zip": "05401",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.47588,
+            "lon": -73.21207
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054144",
+          "term": "Heart Failure, Diastolic"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

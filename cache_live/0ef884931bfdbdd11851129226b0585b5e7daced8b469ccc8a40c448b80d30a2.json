@@ -1,0 +1,1046 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04153292",
+      "orgStudyIdInfo": {
+        "id": "2018-19"
+      },
+      "organization": {
+        "fullName": "Edwards Lifesciences",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "The ENCIRCLE Trial",
+      "officialTitle": "SAPIEN M3 System Transcatheter Mitral Valve Replacement Via Transseptal Access",
+      "acronym": "ENCIRCLE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-11-12",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-02-28",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2031-02-28",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2019-11-04",
+      "studyFirstSubmitQcDate": "2019-11-05",
+      "studyFirstPostDateStruct": {
+        "date": "2019-11-06",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-20",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Edwards Lifesciences",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUnapprovedDevice": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This study will establish the safety and effectiveness of the SAPIEN M3 System in subjects with symptomatic, at least 3+ mitral regurgitation (MR) for whom commercially available surgical or transcatheter treatment options are deemed unsuitable.\n\nFollowing completion of enrollment, subjects will be eligible for enrollment in the continued access phase of the trial.",
+      "detailedDescription": "This is a prospective single-arm, multicenter study."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Mitral Regurgitation",
+        "Mitral Valve Insufficiency"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 900,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "TMVR - Main Cohort",
+          "type": "EXPERIMENTAL",
+          "description": "Subjects for whom commercially available surgical or transcatheter treatment options are deemed unsuitable will have transcatheter mitral valve replacement (TMVR).",
+          "interventionNames": [
+            "Device: SAPIEN M3 valve and dock"
+          ]
+        },
+        {
+          "label": "TMVR - Failed TEER Registry",
+          "type": "EXPERIMENTAL",
+          "description": "Subjects who have had an attempted but failed transcatheter edge-to-edge repair (TEER) procedure will have TMVR.",
+          "interventionNames": [
+            "Device: SAPIEN M3 valve and dock"
+          ]
+        },
+        {
+          "label": "TMVR - MAC Registry",
+          "type": "EXPERIMENTAL",
+          "description": "Subjects with mitral annular calcification (MAC) will have TMVR.",
+          "interventionNames": [
+            "Device: SAPIEN M3 valve and dock"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "SAPIEN M3 valve and dock",
+          "description": "During the procedure a SAPIEN M3 dock and a SAPIEN M3 valve will be implanted via transseptal approach.",
+          "armGroupLabels": [
+            "TMVR - Failed TEER Registry",
+            "TMVR - MAC Registry",
+            "TMVR - Main Cohort"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Non-hierarchical composite of death and heart failure rehospitalization",
+          "description": "Number of subjects with death and/or heart failure rehospitalization",
+          "timeFrame": "1 year"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Improvement in NYHA functional class compared to baseline",
+          "description": "New York Heart Association (NYHA) functional classification of heart failure is based on how much a patient is limited during physical activity. The rating ranges from I-IV. I = no limitations of physical activity; II = slight limitations of physical activity, ordinary physical activity results in fatigue, palpitation, shortness of breath; III = marked limitations of physical activity, less than ordinary activity causes fatigue, palpitation, or shortness of breath; IV = unable to carry on any physical activity without discomfort, symptoms of heart failure at rest.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Improvement in KCCQ Overall Score compared to baseline",
+          "description": "The Kansas City Cardiomyopathy Questionnaire (KCCQ) is a 23-item, self-administered instrument that quantifies physical function, symptoms (frequency, severity and recent change), social function, self-efficacy and knowledge, and quality of life. An overall summary score can be derived from the physical function, symptom (frequency and severity), social function and quality of life domains. Scores are transformed to a range of 0-100, in which higher scores reflect better health status.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Improvement in MR compared to baseline",
+          "description": "Number of subjects with improved MR compared to baseline",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Decrease in LVEDVi compared to baseline",
+          "description": "Number of subjects with decreased left ventricular end-diastolic volume index (LVEDVi) compared to baseline",
+          "timeFrame": "1 year"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. 18 years of age or older\n2. MR ≥ 3+\n3. NYHA functional class ≥ II\n4. Per the Heart Team, commercially available surgical or transcatheter treatment options are deemed unsuitable due to clinical, anatomic or technical considerations.\n5. Subject's heart failure management has been optimized based on subject characteristics and applicable guidelines, and stable for at least 30 days prior to enrollment.\n6. The subject or subject's legal representative has been informed of the nature of the study, agrees to its provisions and has provided written informed consent.\n\nExclusion Criteria:\n\n1. Mitral/cardiac anatomy that would preclude appropriate delivery and deployment of the SAPIEN M3 dock or valve\n2. Inappropriate anatomy for femoral introduction and delivery of the SAPIEN M3 dock and valve\n3. Presence of any device that will contact or interfere with the SAPIEN M3 System during delivery or after implantation\n4. Left ventricular ejection fraction \\<25%\n5. Severe right ventricular dysfunction\n6. Need for aortic, tricuspid or pulmonic valve intervention within the next 12 months\n7. History of heart transplant\n8. Cardiac imaging evidence of intracardiac mass, thrombus or vegetation\n9. Active bacterial endocarditis within 180 days of the procedure\n10. Hemodynamic instability requiring inotropic or mechanical support within 30 days of the procedure\n11. Myocardial infarction within 30 days of the procedure\n12. Clinically significant untreated coronary artery disease requiring revascularization\n13. Any percutaneous cardiovascular intervention, cardiovascular surgery, or carotid surgery within 30 days of the procedure\n14. Stroke or transient ischemic attack within 90 days of the procedure\n15. Irreversible, severe pulmonary hypertension\n16. Chronic obstructive pulmonary disease requiring home oxygen therapy or chronic outpatient oral steroid use\n17. Renal insufficiency or receiving renal replacement therapy\n18. Liver disease\n19. Planned surgery within the next 12 months\n20. Inability to tolerate or a medical condition precluding treatment with antithrombotic therapy, including heparin administration during the procedure\n21. Active infection requiring current antibiotic therapy\n22. Active SARS-CoV-2 infection (Coronavirus-19 \\[COVID-19\\]) or previously diagnosed with COVID-19 with sequelae that could confound endpoint assessments\n23. Leukopenia, anemia, thrombocytopenia, history of bleeding diathesis or coagulopathy or hypercoagulable states\n24. Refusal of blood products\n25. Female who is pregnant or lactating\n26. Estimated life expectancy \\<12 months due to non-cardiac conditions\n27. Participating in another investigational drug or device study that has not reached its primary endpoint\n28. Subject considered to be part of a vulnerable population",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Edwards THV Clinical Affairs",
+          "role": "CONTACT",
+          "phone": "+1 (949) 250-2500",
+          "email": "THV_CT.gov@Edwards.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "John Webb, MD",
+          "affiliation": "St. Paul's Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Mayra Guerrero, MD",
+          "affiliation": "Mayo Clinic",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "David Daniels, MD",
+          "affiliation": "California Pacific Medical Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Heart Center Hospital",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Huntsville",
+          "state": "Alabama",
+          "zip": "35801",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.7304,
+            "lon": -86.58594
+          }
+        },
+        {
+          "facility": "Banner University Medical Center",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85006",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        },
+        {
+          "facility": "Saint Josephs Hospital Medical Center Dignity Health",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85013",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        },
+        {
+          "facility": "TMC Healthcare",
+          "status": "WITHDRAWN",
+          "city": "Tucson",
+          "state": "Arizona",
+          "zip": "85712",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.22174,
+            "lon": -110.92648
+          }
+        },
+        {
+          "facility": "Scripps Health",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "La Jolla",
+          "state": "California",
+          "zip": "92037",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.84727,
+            "lon": -117.2742
+          }
+        },
+        {
+          "facility": "Good Samaritan Hospital",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90017",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Cedars-Sinai Medical Center",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90048",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Kaiser Sunset LA",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90071",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Saint Joseph Hospital",
+          "status": "WITHDRAWN",
+          "city": "Orange",
+          "state": "California",
+          "zip": "92868",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.78779,
+            "lon": -117.85311
+          }
+        },
+        {
+          "facility": "California Pacific Medical Center",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94109",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "UC Health Northern Colorado (Medical Center of the Rockies)",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Loveland",
+          "state": "Colorado",
+          "zip": "80538",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.39776,
+            "lon": -105.07498
+          }
+        },
+        {
+          "facility": "Delray Medical Center",
+          "status": "WITHDRAWN",
+          "city": "Delray Beach",
+          "state": "Florida",
+          "zip": "33484",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.46146,
+            "lon": -80.07282
+          }
+        },
+        {
+          "facility": "Cardiac & Vascular Institute Foundation",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Gainesville",
+          "state": "Florida",
+          "zip": "32605",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.65163,
+            "lon": -82.32483
+          }
+        },
+        {
+          "facility": "Ascension St. Vincent's Hospital",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Jacksonville",
+          "state": "Florida",
+          "zip": "32204",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          }
+        },
+        {
+          "facility": "Naples Community Hospital",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Naples",
+          "state": "Florida",
+          "zip": "34102",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.14234,
+            "lon": -81.79596
+          }
+        },
+        {
+          "facility": "Sarasota Memorial Hospital",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Sarasota",
+          "state": "Florida",
+          "zip": "34239",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.33643,
+            "lon": -82.53065
+          }
+        },
+        {
+          "facility": "Emory University",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30308",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Piedmont Healthcare",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30309",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Rush University Medical Center",
+          "status": "WITHDRAWN",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60612",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Northshore University Health System",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Glenview",
+          "state": "Illinois",
+          "zip": "60026",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.06975,
+            "lon": -87.78784
+          }
+        },
+        {
+          "facility": "St. Vincent Heart Center of Indiana",
+          "status": "WITHDRAWN",
+          "city": "Indianapolis",
+          "state": "Indiana",
+          "zip": "46290",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.76838,
+            "lon": -86.15804
+          }
+        },
+        {
+          "facility": "University of Kansas",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Kansas City",
+          "state": "Kansas",
+          "zip": "66160",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.11417,
+            "lon": -94.62746
+          }
+        },
+        {
+          "facility": "Cardiovascular Research Institute of Kansas (CRIOK)",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Wichita",
+          "state": "Kansas",
+          "zip": "67226",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.69224,
+            "lon": -97.33754
+          }
+        },
+        {
+          "facility": "Our Lady of the Lake Regional Medical Center",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Baton Rouge",
+          "state": "Louisiana",
+          "zip": "70808",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.44332,
+            "lon": -91.18747
+          }
+        },
+        {
+          "facility": "Medstar Union Memorial Hospital",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21218",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "Massachusetts General Hospital",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02114",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Brigham & Women's",
+          "status": "WITHDRAWN",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02115",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Henry Ford",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Detroit",
+          "state": "Michigan",
+          "zip": "48202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.33143,
+            "lon": -83.04575
+          }
+        },
+        {
+          "facility": "Minneapolis Heart",
+          "status": "WITHDRAWN",
+          "city": "Minneapolis",
+          "state": "Minnesota",
+          "zip": "55407",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.97997,
+            "lon": -93.26384
+          }
+        },
+        {
+          "facility": "Mayo Clinic",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Rochester",
+          "state": "Minnesota",
+          "zip": "55905",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          }
+        },
+        {
+          "facility": "CentraCare",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Saint Cloud",
+          "state": "Minnesota",
+          "zip": "56303",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.5608,
+            "lon": -94.16249
+          }
+        },
+        {
+          "facility": "Saint Luke's Kansas City",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Kansas City",
+          "state": "Missouri",
+          "zip": "64111",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.09973,
+            "lon": -94.57857
+          }
+        },
+        {
+          "facility": "St. Patrick Hospital",
+          "status": "WITHDRAWN",
+          "city": "Missoula",
+          "state": "Montana",
+          "zip": "59802",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 46.87215,
+            "lon": -113.994
+          }
+        },
+        {
+          "facility": "Dartmouth-Hitchcock Medical Center",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Lebanon",
+          "state": "New Hampshire",
+          "zip": "03756",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.64229,
+            "lon": -72.25176
+          }
+        },
+        {
+          "facility": "Morristown Medical Center",
+          "status": "WITHDRAWN",
+          "city": "Morristown",
+          "state": "New Jersey",
+          "zip": "07962",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.79677,
+            "lon": -74.48154
+          }
+        },
+        {
+          "facility": "Robert Wood Johnson University Hospital",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "New Brunswick",
+          "state": "New Jersey",
+          "zip": "08901",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.48622,
+            "lon": -74.45182
+          }
+        },
+        {
+          "facility": "University of Buffalo",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Buffalo",
+          "state": "New York",
+          "zip": "14203",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.88645,
+            "lon": -78.87837
+          }
+        },
+        {
+          "facility": "Weill Cornell Medicine",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10007",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Carolinas Medical Center",
+          "status": "WITHDRAWN",
+          "city": "Charlotte",
+          "state": "North Carolina",
+          "zip": "28203",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.22709,
+            "lon": -80.84313
+          }
+        },
+        {
+          "facility": "Novant Health and Vascular Institute",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Charlotte",
+          "state": "North Carolina",
+          "zip": "28204",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.22709,
+            "lon": -80.84313
+          }
+        },
+        {
+          "facility": "The Christ Hospital",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45219",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "Cleveland Clinic Foundation",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Cleveland",
+          "state": "Ohio",
+          "zip": "44122",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.4995,
+            "lon": -81.69541
+          }
+        },
+        {
+          "facility": "Mount Carmel East Hospital",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Columbus",
+          "state": "Ohio",
+          "zip": "43123",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.96118,
+            "lon": -82.99879
+          }
+        },
+        {
+          "facility": "Oklahoma Heart Hospital",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Oklahoma City",
+          "state": "Oklahoma",
+          "zip": "73120",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.46756,
+            "lon": -97.51643
+          }
+        },
+        {
+          "facility": "Oklahoma Heart Institute",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Tulsa",
+          "state": "Oklahoma",
+          "zip": "74104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.15398,
+            "lon": -95.99277
+          }
+        },
+        {
+          "facility": "UPMC Heart and Vascular Institute",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Mechanicsburg",
+          "state": "Pennsylvania",
+          "zip": "17050",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.21426,
+            "lon": -77.00859
+          }
+        },
+        {
+          "facility": "Alleghany General Hospital",
+          "status": "WITHDRAWN",
+          "city": "Pittsburgh",
+          "state": "Pennsylvania",
+          "zip": "15212",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.44062,
+            "lon": -79.99589
+          }
+        },
+        {
+          "facility": "Saint Thomas Health",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37205",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        },
+        {
+          "facility": "Austin Heart",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Austin",
+          "state": "Texas",
+          "zip": "78705",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.26715,
+            "lon": -97.74306
+          }
+        },
+        {
+          "facility": "HCA Houston Healthcare Medical (SCRI)",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77004",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "UT Memorial Hermann",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Intermountain Medical Center",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Murray",
+          "state": "Utah",
+          "zip": "84107",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.66689,
+            "lon": -111.88799
+          }
+        },
+        {
+          "facility": "Sentara Norfolk",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Norfolk",
+          "state": "Virginia",
+          "zip": "23507",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.84681,
+            "lon": -76.28522
+          }
+        },
+        {
+          "facility": "Carilion Roanoke Memorial Hospital",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Roanoke",
+          "state": "Virginia",
+          "zip": "24014",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.27097,
+            "lon": -79.94143
+          }
+        },
+        {
+          "facility": "University of Washington Seattle",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98195",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        },
+        {
+          "facility": "University of Wisconsin",
+          "status": "WITHDRAWN",
+          "city": "Madison",
+          "state": "Wisconsin",
+          "zip": "53792-3248",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.07305,
+            "lon": -89.40123
+          }
+        },
+        {
+          "facility": "The Prince Charles Hospital",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Chermside",
+          "state": "Queensland",
+          "zip": "4032",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -27.38472,
+            "lon": 153.03062
+          }
+        },
+        {
+          "facility": "Royal Prince Alfred Hospital",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Camperdown",
+          "zip": "NSW2050",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.88965,
+            "lon": 151.17642
+          }
+        },
+        {
+          "facility": "Laval University",
+          "status": "RECRUITING",
+          "city": "Québec",
+          "state": "Quebec",
+          "zip": "G1V 0A6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.81228,
+            "lon": -71.21454
+          }
+        },
+        {
+          "facility": "St. Michael's",
+          "status": "RECRUITING",
+          "city": "Toronto",
+          "zip": "M5B 1W8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "facility": "St. Pauls",
+          "status": "RECRUITING",
+          "city": "Vancouver",
+          "zip": "V6E 1M7",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.24966,
+            "lon": -123.11934
+          }
+        },
+        {
+          "facility": "Shaare Zedek Medical Center",
+          "status": "WITHDRAWN",
+          "city": "Jerusalem",
+          "zip": "9103102",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 31.76904,
+            "lon": 35.21633
+          }
+        },
+        {
+          "facility": "Rabin Medical Center",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Petah Tikva",
+          "zip": "4941492",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.08707,
+            "lon": 34.88747
+          }
+        },
+        {
+          "facility": "Sheba Medical Center",
+          "status": "WITHDRAWN",
+          "city": "Ramat Gan",
+          "zip": "5211401",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.08227,
+            "lon": 34.81065
+          }
+        },
+        {
+          "facility": "Leiden University Medical Center",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Leiden",
+          "zip": "2333 ZA",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.15833,
+            "lon": 4.49306
+          }
+        },
+        {
+          "facility": "Rotterdam Erasmus MC",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Rotterdam",
+          "zip": "3015 CE",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.9225,
+            "lon": 4.47917
+          }
+        },
+        {
+          "facility": "Saint Bartholomew's Medical Center",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "London",
+          "zip": "EC1A 7BE",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "Saint Thomas Hospital",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "London",
+          "zip": "SE1 7EH",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "41167201",
+          "type": "DERIVED",
+          "citation": "Guerrero ME, Daniels DV, Makkar RR, Thourani VH, Asch FM, Pham M, Muhammad KI, Greenbaum AB, Vasquez A, Oldemeyer JB, Dahle TG, Rihal C, Morse MA, Rodriguez E, O'Neill BP, Russo M, Whisenant B, Yadav P, Yu X, Wang DD, Makar M, Baran DA, Mahoney P, Reddy G, Blanke P, Webb J; ENCIRCLE Trial Executive Committee and Study Investigators. Percutaneous transcatheter valve replacement in individuals with mitral regurgitation unsuitable for surgery or transcatheter edge-to-edge repair: a prospective, multicountry, single-arm trial. Lancet. 2025 Nov 29;406(10519):2541-2550. doi: 10.1016/S0140-6736(25)02073-2. Epub 2025 Oct 27."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D008944",
+          "term": "Mitral Valve Insufficiency"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006349",
+          "term": "Heart Valve Diseases"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

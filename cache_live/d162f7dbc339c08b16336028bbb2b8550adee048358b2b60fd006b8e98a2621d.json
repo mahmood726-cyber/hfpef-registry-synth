@@ -1,0 +1,252 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01399801",
+      "orgStudyIdInfo": {
+        "id": "F/N-R09-284IL"
+      },
+      "organization": {
+        "fullName": "Main Line Health",
+        "class": "OTHER"
+      },
+      "briefTitle": "Optimizing Left Ventricular Lead To Improve Cardiac Output",
+      "officialTitle": "Optimizing the Left Ventricular Contractility in Cardiac Resynchronization Therapy Using a Doppler Wire",
+      "acronym": "CARE/VOLCANO"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-08",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2010-12"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2014-09-25",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2014-09-25",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2011-06-16",
+      "studyFirstSubmitQcDate": "2011-07-20",
+      "studyFirstPostDateStruct": {
+        "date": "2011-07-22",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2022-08-25",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-08-30",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Ann Marie Chikowski",
+        "investigatorTitle": "Division Manager Cardiology Research",
+        "investigatorAffiliation": "Main Line Health"
+      },
+      "leadSponsor": {
+        "name": "Ann Marie Chikowski",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Main Line Health",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to determine if optimal lead placement, guided by the largest improvement in aortic flow measured by Doppler will:\n\n1. Improve the way the heart's left ventricle functions\n2. Decrease the number of hospital admissions for heart failure related symptoms\n3. Reduces uncoordinated heart contractions\n4. Improve quality of life as measured by the Minnesota Living with Heart Failure Questionaire and NYHA Class assessed after six months",
+      "detailedDescription": "The hypothesis of this study determines if response to CRT therapy could be improved by optimizing LV lead position at the time of the left ventricular pacing lead implantation. This optimization (using a Doppler wire) would alter the left ventricular activation pattern and contraction mechanics. This increase in contractility may improve the likelihood of mid/long term response to therapy. This study will compare 6-month response to CRT (left ventricular ejection fraction, decrease in left ventricular end systolic and end diastolic dimensions and volumes) in heart failure patients.\n\nThe secondary objective will be to:\n\n1. To determine if optimal lead placement, guided by the largest improvement in stroke volume, results in a greater 6-month improvement in clinical QOL and NYHA class.\n2. Acutely compare and/or correlate intra-operative A-V and V-V timing optimization via invasive pressure volume data to post-operative echo optimization of these same parameters.\n3. Acutely contrast changes in stroke volume during pacing from several different left ventricular lead locations."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Ischemic Congestive Cardiomyopathy",
+        "Dilated Cardiomyopathy",
+        "Congestive Heart Failure"
+      ],
+      "keywords": [
+        "Cardiac Resynchronization Therapy",
+        "medically refractory heart failure patients"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 12,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "hemodynamicaly guided LV lead placement",
+          "type": "EXPERIMENTAL",
+          "description": "optimized left ventricular lead placement",
+          "interventionNames": [
+            "Procedure: Doppler flow measurement"
+          ]
+        },
+        {
+          "label": "Standard lead placement",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Standard LV lead placement with no measurements to guide LV lead placement",
+          "interventionNames": [
+            "Procedure: standard implantation of the LV lead"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "Doppler flow measurement",
+          "description": "use of doppler wire to measure change in flow that corresponds to changes in stroke volume to guide LV lead placement",
+          "armGroupLabels": [
+            "hemodynamicaly guided LV lead placement"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "standard implantation of the LV lead",
+          "description": "Standard implantation of the LV lead with measurements of flow",
+          "armGroupLabels": [
+            "Standard lead placement"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Left Ventricular End Systolic Volume (LVESV) using the difference from baseline to six months",
+          "description": "Comparison of clinical and functional outcomes of stroke volume optimized lead placement to standard lateral lead placement.",
+          "timeFrame": "Six months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in End diastolic volume",
+          "description": "End diastolic volume should decrease over follow up time of six months as a result of left ventricular remodeling.",
+          "timeFrame": "Six months"
+        },
+        {
+          "measure": "Change in ejection fraction",
+          "description": "Increase in ejection fraction should happen as a result of remodeling and increased efficiency of the left ventricle",
+          "timeFrame": "six months"
+        },
+        {
+          "measure": "Increase in exercise capacity",
+          "description": "Inrease in exercise capacity should be result of remodeled left ventricle and increased stroke volume and cardiac output",
+          "timeFrame": "six months"
+        },
+        {
+          "measure": "Decrease in heart failure related hospital admissions",
+          "description": "number of hospitalizations for CHF should decrease during follow up",
+          "timeFrame": "six months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Clinical indication for CRT-P or CRT-D\n* QRS Duration\\>=120 MSEC\n* Left Ventricular Ejection fraction\\<=35%\n* NYHA Class III-IV\n* History of Cardiomyopathy, least one month post MI, or at least six months old in case of non-ischemic cardiomyopathy\n* At least 18 years of afe\n\nExclusion Criteria:\n\n* Previous implanted CRT-P/CRT-D\n* woman who are pregnant\n* Psychological or emotional problems",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Dusan Kocovic, MD",
+          "affiliation": "Lankenau Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Lankenau Hosspital",
+          "city": "Wynnewood",
+          "state": "Pennsylvania",
+          "zip": "19096",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.00289,
+            "lon": -75.27074
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D002311",
+          "term": "Cardiomyopathy, Dilated"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006332",
+          "term": "Cardiomegaly"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D009202",
+          "term": "Cardiomyopathies"
+        },
+        {
+          "id": "D000083083",
+          "term": "Laminopathies"
+        },
+        {
+          "id": "D030342",
+          "term": "Genetic Diseases, Inborn"
+        },
+        {
+          "id": "D009358",
+          "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

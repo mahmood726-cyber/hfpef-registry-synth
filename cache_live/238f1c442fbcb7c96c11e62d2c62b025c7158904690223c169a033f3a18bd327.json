@@ -1,0 +1,313 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01568931",
+      "orgStudyIdInfo": {
+        "id": "197/2012/D"
+      },
+      "organization": {
+        "fullName": "University of Roma La Sapienza",
+        "class": "OTHER"
+      },
+      "briefTitle": "Local Thrombolytics Before Thrombectomy in STEMI",
+      "officialTitle": "Local Delivery of thrombolytIcs Before Thrombectomy in patientS With ST-elevatiOn myocardiaL Infarction Undergoing Primary percuTaneous Coronary interventION - The DISSOLUTION Randomized Trial",
+      "acronym": "DISSOLUTION"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-04",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "ENROLLING_BY_INVITATION",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2014-01"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-03",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-03",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2012-03-29",
+      "studyFirstSubmitQcDate": "2012-03-30",
+      "studyFirstPostDateStruct": {
+        "date": "2012-04-02",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2020-04-06",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-04-08",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Francesco Pelliccia",
+        "investigatorTitle": "Assistant Professor",
+        "investigatorAffiliation": "University of Roma La Sapienza"
+      },
+      "leadSponsor": {
+        "name": "University of Roma La Sapienza",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Background Prompt reperfusion with percutaneous coronary intervention (PCI) in the setting of ST-elevation myocardial infarction (STEMI) improves clinical outcomes through salvage of myocardial tissue.\n\nAlthough the use of thrombus aspiration with PCI can result in improved rates of normal epicardial flow and myocardial perfusion, several unmet needs remain.\n\nPurpose The purpose of this trial will be to evaluate the hypothesis that local delivery of thrombolytics vs. saline infusion prior to thrombus aspiration and PCI is safe and effective in patients with STEMI.",
+      "detailedDescription": "The study will select patients with ST-elevation myocardial infarction (STEMI) with angiographic evidence of massive thrombosis in the culprit artery undergoing manual thrombectomy followed by primary percutaneous coronary intervention (PCI).\n\nPatients will be randomized to receive local bolus of 200,000 units urokinase or saline solution"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Coronary Artery Disease"
+      ],
+      "keywords": [
+        "thrombectomy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Urokinase",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients will be randomized to to receive local bolus of 200,000 units urokinase",
+          "interventionNames": [
+            "Drug: Urokinase"
+          ]
+        },
+        {
+          "label": "Saline",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients will be randomized to to receive local bolus of intracoronary saline",
+          "interventionNames": [
+            "Drug: Saline"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Urokinase",
+          "description": "intracoronary, urokinase, 200,000 Units, bolus",
+          "armGroupLabels": [
+            "Urokinase"
+          ],
+          "otherNames": [
+            "UROKINASE-R, IMARX THERAPEUTICS INC., Tucson, AZ"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Saline",
+          "description": "intracoronary, saline, bolus 1 cc",
+          "armGroupLabels": [
+            "Saline"
+          ],
+          "otherNames": [
+            "Saline infusion"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Outcomes at 30 days",
+          "description": "30-day occurrence of death, new Q-wave myocardial infarction, coronary artery bypass grafting, target lesion revascularization, stroke, or stent thrombosis",
+          "timeFrame": "Up to 30 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Myocardial reperfusion after Primary CI",
+          "description": "ST-segment resolution (STR)\\>70% as assessed 90 minutes after Primary PCI",
+          "timeFrame": "Up to 90 minutes after Primary PCI"
+        },
+        {
+          "measure": "Left ventricular remodeling",
+          "description": "A change in left ventricular end-diastolic volume\\>20% (compared with baseline values) as assessed at 1-year echocardiography",
+          "timeFrame": "Up to 1 year after Primary PCI"
+        },
+        {
+          "measure": "5-year MACE",
+          "description": "Death, reinfarction, new-onset severe heart failure, and rehospitalization for heart failure",
+          "timeFrame": "Up to 5 years after Primary PCI"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* ST-elevation myocardial infarction\n* angiographic evidence of massive thrombosis in the culprit artery\n* Indication to manual thrombectomy followed by primary percutaneous coronary intervention (PCI)\n* Able to understand and willing to sign the informed CF\n\nExclusion Criteria:\n\n* Women of child bearing potential patients must demonstrate a negative pregnancy test performed within 24 hours before CT",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Cesare Greco, MD",
+          "affiliation": "University Sapienza",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003324",
+          "term": "Coronary Artery Disease"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003327",
+          "term": "Coronary Disease"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D014568",
+          "term": "Urokinase-Type Plasminogen Activator"
+        },
+        {
+          "id": "D012965",
+          "term": "Sodium Chloride"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012697",
+          "term": "Serine Endopeptidases"
+        },
+        {
+          "id": "D010450",
+          "term": "Endopeptidases"
+        },
+        {
+          "id": "D010447",
+          "term": "Peptide Hydrolases"
+        },
+        {
+          "id": "D006867",
+          "term": "Hydrolases"
+        },
+        {
+          "id": "D004798",
+          "term": "Enzymes"
+        },
+        {
+          "id": "D045762",
+          "term": "Enzymes and Coenzymes"
+        },
+        {
+          "id": "D057057",
+          "term": "Serine Proteases"
+        },
+        {
+          "id": "D010960",
+          "term": "Plasminogen Activators"
+        },
+        {
+          "id": "D001779",
+          "term": "Blood Coagulation Factors"
+        },
+        {
+          "id": "D001798",
+          "term": "Blood Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D002712",
+          "term": "Chlorides"
+        },
+        {
+          "id": "D006851",
+          "term": "Hydrochloric Acid"
+        },
+        {
+          "id": "D017606",
+          "term": "Chlorine Compounds"
+        },
+        {
+          "id": "D007287",
+          "term": "Inorganic Chemicals"
+        },
+        {
+          "id": "D017670",
+          "term": "Sodium Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,355 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06091475",
+      "orgStudyIdInfo": {
+        "id": "22HH8010"
+      },
+      "organization": {
+        "fullName": "Imperial College London",
+        "class": "OTHER"
+      },
+      "briefTitle": "Therapy to Maintain Remission in Dilated Cardiomyopathy",
+      "officialTitle": "A Randomised Trial Examining Therapy to Maintain Remission in Dilated Cardiomyopathy",
+      "acronym": "TRED-HF2"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-09",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-12-02",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-08-15",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-09-15",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-08-16",
+      "studyFirstSubmitQcDate": "2023-10-17",
+      "studyFirstPostDateStruct": {
+        "date": "2023-10-19",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-09-03",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-09-19",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Imperial College London",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Royal Brompton & Harefield NHS Foundation Trust",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "One third of patients diagnosed with heart failure demonstrate left ventricular reverse remodelling and recovery of cardiac function following a period of medical therapy. The TRED-HF trial investigated the impact of therapy withdrawal in this cohort and found that 40% of patients relapsed within 6 months of stopping treatment. In this follow-on study, the investigators will investigate the safety of therapy withdrawal of sodium cotransporter 2 inhibitors (SGLT2i) and mineralocorticord receptor anatagonists (MRAs) in patients with a previous diagnosis of heart failure and recovered cardiac function, in a randomised controlled trial to assess whether this maintains remission in this population.",
+      "detailedDescription": "One third of patients diagnosed with heart failure demonstrate left ventricular reverse remodelling and recovery of cardiac function following a period of medical therapy. These patients have an excellent long-term prognosis. Whether they need to remain on long-term medical therapy is not clear. Current guideline directed treatment of patients with heart failure relies on a combination of (1) angiotensin converting enzyme inhibitors (ACEi) or angiotensin receptor blockers (ARBs), (2) beta-blockers, (3) mineralocorticoid antagonists, and (4) sodium-glucose co-transporter 2 inhibitors (SGLT2i).\n\nThe TRED-HF trial, confirmed that complete withdrawal of beta-blockers, ACEi or ARBs, and MRAs resulted in relapse within 6 months in 40% of asymptomatic patients with a previous diagnosis of DCM and improved cardiac function. This confirmed that many patients have heart failure remission rather than sustained recovery and still benefit from at least some pharmacological therapy. Defining the therapies required to maintain heart failure remission is a priority for heart failure research, taking into account the changing therapeutic needs of many millions of patients following improvement in their cardiac function. In this follow-on study to the TRED-HF trial, the investigators will carry out an open-label, randomised clinical trial examining the safety and feasibility of sequential mineralocorticoid receptor antagonist (MRA) and sodium glucose co-transporter 2 inhibitor (SGLT2i) withdrawal in 50 patients with dilated cardiomyopathy who are now in heart failure remission and taking angiotensin system inhibitors and beta-blockers. Patients will have serial cardiovascular magnetic resonance (CMR) scans and circulating biomarkers after withdrawal of each therapy and will be followed for 8 months. The primary end-point will be relapse of heart failure defined by features of adverse remodelling."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure",
+        "Cardiomyopathy, Dilated",
+        "Cardiomyopathies",
+        "Heart Diseases"
+      ],
+      "keywords": [
+        "Cardiomyopathy",
+        "heart failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 50,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Withdrawal of treatment with eplerenone or spironolactone, and empagliflozin and dapalgiflozin",
+          "type": "EXPERIMENTAL",
+          "description": "Gradual, supervised withdrawal of ineralocorticoid receptor antagonists (spironolactone or eplerenone) and sodium glucose cotransporter 2 inhibitor (dapagliflozin or empagliflozin) over 4-16 weeks. Continued monitoring off study therapies during the cross-over phase.",
+          "interventionNames": [
+            "Drug: Other"
+          ]
+        },
+        {
+          "label": "Continued treatment with eplerenone or spironolactone, and empagliflozin and dapagliflozin",
+          "type": "NO_INTERVENTION",
+          "description": "Continuation of usually prescribed pharmacological therapy over 16 weeks followed by cross-over to withdrawal of SGLT2i and MRA over the subsequent 4-16 weeks."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Other",
+          "description": "Withdrawal of mineralocorticoid receptor antagonists and/or sodium glucose cotransporter 2 inhibitors",
+          "armGroupLabels": [
+            "Withdrawal of treatment with eplerenone or spironolactone, and empagliflozin and dapalgiflozin"
+          ],
+          "otherNames": [
+            "Withdrawal of spironolactone or eplerenone and dapagliflozin or empagliflozin"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Heart Failure Relapse assessed through left ventricular ejection fraction (LVEF)",
+          "description": "Relapse of DCM defined by a reduction in LVEF\\>10% and to below 50%",
+          "timeFrame": "32 weeks"
+        },
+        {
+          "measure": "Heart Failure Relapse assessed through pro-BNP",
+          "description": "Relapse of DCM defined by a two-fold rise in NT-pro-BNP and to \\>400ng/L",
+          "timeFrame": "32 weeks"
+        },
+        {
+          "measure": "Number of patients with heart failure Relapse assessed through signs of heart failure",
+          "description": "Relapse of DCM defined by clinical signs of heart failure as determined by the research team",
+          "timeFrame": "32 weeks"
+        },
+        {
+          "measure": "Number of patients with heart failure Relapse assessed through symptoms of heart failure",
+          "description": "Relapse of DCM defined by clinical symptoms of heart failure as determined by the research team",
+          "timeFrame": "32 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Left ventricular ejection fraction (LVEF)",
+          "description": "Change in LVEF between baseline, during randomised phase (0-16 weeks) and follow-on phase (16-32 weeks)",
+          "timeFrame": "32 weeks"
+        },
+        {
+          "measure": "Left Ventricular End-Diastolic Volume Index indexed to body surface area (ml/m2) (LVEDVi)",
+          "description": "Change in LVEDVi between baseline, during randomised phase (0-16 weeks) and follow-on phase (16-32 weeks)",
+          "timeFrame": "32 weeks"
+        },
+        {
+          "measure": "left ventricular global longitudinal strain (LV GLS)",
+          "description": "Change in LV GLS between baseline, during randomised phase (0-16 weeks) and follow-on phase (16-32 weeks)",
+          "timeFrame": "32 weeks"
+        },
+        {
+          "measure": "left ventricular mass index (LVMi; g/m2)",
+          "description": "Change in LVMI between baseline, during randomised phase (0-16 weeks) and follow-on phase (16-32 weeks)",
+          "timeFrame": "32 weeks"
+        },
+        {
+          "measure": "left atrial volume index (LAVi; ml/m2)",
+          "description": "Change in LAVi between baseline, during randomised phase (0-16 weeks) and follow-on phase (16-32 weeks)",
+          "timeFrame": "32 weeks"
+        },
+        {
+          "measure": "left atrial strain (LAS)",
+          "description": "Change in LAS between baseline, during randomised phase (0-16 weeks) and follow-on phase (16-32 weeks)",
+          "timeFrame": "32 weeks"
+        },
+        {
+          "measure": "right ventricular ejection fraction (RVEF; %)",
+          "description": "Change in RVEF between baseline, during randomised phase (0-16 weeks) and follow-on phase (16-32 weeks)",
+          "timeFrame": "32 weeks"
+        },
+        {
+          "measure": "Change in Quality of Life (EQ-5D-5L score)",
+          "description": "Assessed through EQ-5D-5L score. This is a validated score from the EuroQoL research foundation, graded from 5 to 25 with a higher score reflecting a worse quality of life",
+          "timeFrame": "32 weeks"
+        },
+        {
+          "measure": "Change in Quality of Life (Treatment Burden Questionnaire score)",
+          "description": "Assessed through TBQ (Treatment Burden Questionnaire) score. The TBQ score is graded from 0 to 150 with a higher score reflecting a greater treatment burden",
+          "timeFrame": "32 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. a diagnosis of dilated cardiomyopathy,\n2. previous left ventricular ejection fraction (LVEF) \\<40% (on echocardiography or cardiovascular magnetic resonance \\[CMR\\]),\n3. current LVEF \\>50% with normal left ventricular end-diastolic volume (LVEDV),\n4. plasma NT-pro-BNP\\<250ng/L,\n5. New York Heart Association (NYHA) class I,\n6. sinus rhythm,\n7. taking a beta-blocker and an angiotensin converting enzyme inhibitor (ACEi), angiotensin receptor blocker (ARB) or sacubitril-valsartan, along with either a mineralocorticoid receptor antagonist (MRA) and/or sodium glucose co-transporter 2 inhibitor (SGLT2i).\n\nExclusion Criteria:\n\n1. Atrial fibrillation,\n2. prior sustained ventricular tachycardia or fibrillation,\n3. a known likely pathogenic or pathogenic variant in LMNA/DSP/FLNC/RBM20,\n4. sudden cardiac or heart failure death in a first degree relative \\<50 years,\n5. contraindication to CMR,\n6. estimated glomerular filtration rate (eGFR) \\<60mls/min,\n7. planned pregnancy,8) active myocardial inflammation,\n\n9\\) diabetes mellitus managed with an SGLT2i, 10) urinary albumin-to-creatine ratio of 200-5000 (mg:g) and eGFR\\< 75mls/min.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Saad Javed, MBChB",
+          "role": "CONTACT",
+          "phone": "02073528121",
+          "email": "tred2trial@imperial.ac.uk"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Brian P Halliday, MBChB",
+          "affiliation": "Imperial College London, Royal Brompton Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Royal Brompton Hospital",
+          "status": "RECRUITING",
+          "city": "London",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Saad Javed",
+              "role": "CONTACT",
+              "email": "tred2trial@imperial.ac.uk"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "30429050",
+          "type": "BACKGROUND",
+          "citation": "Halliday BP, Wassall R, Lota AS, Khalique Z, Gregson J, Newsome S, Jackson R, Rahneva T, Wage R, Smith G, Venneri L, Tayal U, Auger D, Midwinter W, Whiffin N, Rajani R, Dungu JN, Pantazis A, Cook SA, Ware JS, Baksi AJ, Pennell DJ, Rosen SD, Cowie MR, Cleland JGF, Prasad SK. Withdrawal of pharmacological treatment for heart failure in patients with recovered dilated cardiomyopathy (TRED-HF): an open-label, pilot, randomised trial. Lancet. 2019 Jan 5;393(10166):61-73. doi: 10.1016/S0140-6736(18)32484-X. Epub 2018 Nov 11."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D002311",
+          "term": "Cardiomyopathy, Dilated"
+        },
+        {
+          "id": "D009202",
+          "term": "Cardiomyopathies"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D006332",
+          "term": "Cardiomegaly"
+        },
+        {
+          "id": "D000083083",
+          "term": "Laminopathies"
+        },
+        {
+          "id": "D030342",
+          "term": "Genetic Diseases, Inborn"
+        },
+        {
+          "id": "D009358",
+          "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077545",
+          "term": "Eplerenone"
+        },
+        {
+          "id": "C529054",
+          "term": "dapagliflozin"
+        },
+        {
+          "id": "C570240",
+          "term": "empagliflozin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007783",
+          "term": "Lactones"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011283",
+          "term": "Pregnenes"
+        },
+        {
+          "id": "D011278",
+          "term": "Pregnanes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

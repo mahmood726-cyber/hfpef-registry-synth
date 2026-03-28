@@ -1,0 +1,818 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06237309",
+      "orgStudyIdInfo": {
+        "id": "R5381-HF-22118"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2023-508568-31-00",
+          "type": "CTIS"
+        }
+      ],
+      "organization": {
+        "fullName": "Regeneron Pharmaceuticals",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "REGN5381 in Adult Participants With Heart Failure With Reduced Ejection Fraction",
+      "officialTitle": "A Phase 2, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Safety, Pharmacokinetics and Pharmacodynamics of a Single Dose of REGN5381, an NPR1 Monoclonal Antibody Agonist, in Patients With Chronic Heart Failure With Reduced Ejection Fraction",
+      "acronym": "NATRIX-BNP"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Sponsor decision",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-04-11",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-09-17",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-12-29",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-01-23",
+      "studyFirstSubmitQcDate": "2024-01-23",
+      "studyFirstPostDateStruct": {
+        "date": "2024-02-01",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-14",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Regeneron Pharmaceuticals",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is researching an experimental drug called REGN5381 (called \"study drug\"). The study is focused on patients with heart failure with reduced ejection fraction (ie, the heart is not functioning as well as it should).\n\nThe aim of the study is to see how safe, tolerable, and effective the study drug is.\n\nThe study is looking at several other research questions, including:\n\n* What side effects may happen from taking the study drug\n* How much study drug is in the blood at different times\n* Whether the body makes antibodies against the study drug (which could make the study drug less effective or could lead to side effects)",
+      "detailedDescription": "Enrollment for the Part A2 low eGFR cohort has been closed"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ],
+      "keywords": [
+        "Heart failure with reduced ejection fraction (HFrEF)",
+        "Reduced ejection fraction",
+        "N-terminal pro-brain natriuretic peptide (NT-proBNP) hormone"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 89,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Part A1 High Dose",
+          "type": "EXPERIMENTAL",
+          "description": "Single ascending dose cohort",
+          "interventionNames": [
+            "Drug: REGN5381"
+          ]
+        },
+        {
+          "label": "Part A1 Low Dose",
+          "type": "EXPERIMENTAL",
+          "description": "Single ascending dose cohort",
+          "interventionNames": [
+            "Drug: REGN5381"
+          ]
+        },
+        {
+          "label": "Part A1 Optional",
+          "type": "EXPERIMENTAL",
+          "description": "Single ascending dose cohort",
+          "interventionNames": [
+            "Drug: REGN5381"
+          ]
+        },
+        {
+          "label": "Part A2 High Dose, sacubitril-valsartan group",
+          "type": "EXPERIMENTAL",
+          "description": "Single ascending dose cohort",
+          "interventionNames": [
+            "Drug: REGN5381"
+          ]
+        },
+        {
+          "label": "Part A2 Low Dose, sacubitril-valsartan group",
+          "type": "EXPERIMENTAL",
+          "description": "Single ascending dose cohort",
+          "interventionNames": [
+            "Drug: REGN5381"
+          ]
+        },
+        {
+          "label": "Placebo for Part A2, sacubitril-valsartan group",
+          "type": "PLACEBO_COMPARATOR",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "Part A2 High Dose, Low estimated glomerular filtration rate (eGFR) group",
+          "type": "EXPERIMENTAL",
+          "description": "Single ascending dose cohort. Note: This group has been closed",
+          "interventionNames": [
+            "Drug: REGN5381"
+          ]
+        },
+        {
+          "label": "Part A2 Low Dose, Low eGFR group",
+          "type": "EXPERIMENTAL",
+          "description": "Single ascending dose cohort. Note: This group has been closed",
+          "interventionNames": [
+            "Drug: REGN5381"
+          ]
+        },
+        {
+          "label": "Placebo for Part A2, Low eGFR group",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Note: This group has been closed",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "Part B High Dose",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: REGN5381"
+          ]
+        },
+        {
+          "label": "Part B Low Dose",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: REGN5381"
+          ]
+        },
+        {
+          "label": "Part A1 and Part B Placebo Only",
+          "type": "PLACEBO_COMPARATOR",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "REGN5381",
+          "description": "Single dose intravenous (IV) infusion",
+          "armGroupLabels": [
+            "Part A1 High Dose",
+            "Part A1 Low Dose",
+            "Part A1 Optional",
+            "Part A2 High Dose, Low estimated glomerular filtration rate (eGFR) group",
+            "Part A2 High Dose, sacubitril-valsartan group",
+            "Part A2 Low Dose, Low eGFR group",
+            "Part A2 Low Dose, sacubitril-valsartan group",
+            "Part B High Dose",
+            "Part B Low Dose"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Single dose IV infusion",
+          "armGroupLabels": [
+            "Part A1 and Part B Placebo Only",
+            "Placebo for Part A2, Low eGFR group",
+            "Placebo for Part A2, sacubitril-valsartan group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change from baseline in circulating N-Terminal pro-Brain Natriuretic Peptide (NTproBNP)",
+          "timeFrame": "Day 8"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Occurrence of Treatment Emergent Adverse Events (TEAEs)",
+          "timeFrame": "Through week 16"
+        },
+        {
+          "measure": "Severity of TEAEs",
+          "timeFrame": "Through week 16"
+        },
+        {
+          "measure": "Change from baseline in circulating NT-proBNP",
+          "timeFrame": "Week 2"
+        },
+        {
+          "measure": "Change from baseline in circulating NT-proBNP",
+          "timeFrame": "Week 3"
+        },
+        {
+          "measure": "Change from baseline in circulating NT-proBNP",
+          "timeFrame": "Week 4"
+        },
+        {
+          "measure": "Change from baseline in circulating NT-proBNP",
+          "timeFrame": "Up to week 16"
+        },
+        {
+          "measure": "Change from baseline in Systolic Blood Pressure (SBP)",
+          "timeFrame": "Each visit through week 16"
+        },
+        {
+          "measure": "Change from baseline in Diastolic Blood Pressure (DBP)",
+          "timeFrame": "Each visit through week 16"
+        },
+        {
+          "measure": "Change from baseline in Mean Arterial Pressure (MAP)",
+          "timeFrame": "Each visit through week 16"
+        },
+        {
+          "measure": "Change from baseline in Heart Rate (HR)",
+          "timeFrame": "Each visit through week 16"
+        },
+        {
+          "measure": "Concentrations of REGN5381 in serum",
+          "timeFrame": "Through week 16"
+        },
+        {
+          "measure": "Incidence of Anti-Drug Antibodies (ADAs) to REGN5381",
+          "timeFrame": "Through week 16"
+        },
+        {
+          "measure": "Magnitude of ADAs to REGN5381",
+          "timeFrame": "Through week 16"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Key Inclusion Criteria\n\n1. Body mass index (BMI) between 18 and 45 kg/m\\^2, inclusive, at initial screening visit\n2. Diagnosis of chronic heart failure\n3. Left ventricular ejection fraction 20-49% by echocardiogram performed within 3 months of screening\n4. Plasma NT-proBNP ≥800 pg/mL (or ≥1000 pg/mL if in atrial fibrillation) at screening (visit 1) and NT-proBNP ≥600 pg/mL (or ≥800 pg/mL if in atrial fibrillation) approximately 30 days prior to randomization (visit 5)\n5. Receiving optimized standard of care therapy for heart failure as described in the protocol\n6. Sacubitril-valsartan treatment:\n\n   a. Treatment with sacubitril-valsartan at screening and at baseline permitted in Part A2 sacubitril-valsartan cohort and in Part B if supported by safety data from the Part A2 sacubitril-valsartan cohort as described in the protocol\n7. Estimated Glomerular Filtration Rate (eGFR) levels:\n\n   1. eGFR of ≥30 mL/min/1.73 m2 according to locally used formula (Chronic Kidney Disease Epidemiology Collaboration \\[CKD-EPI\\] preferred), at screening (visit 1) or approximately 30 days prior to randomization (visit 5) as described in the protocol\n\nKey Exclusion Criteria\n\n1. Hospital discharge within 180 days of anticipated randomization\n2. Resting SBP that remains out of range after two repeated measurements prior to randomization as described in the protocol\n3. Current or recent diagnosis of acute coronary syndrome or myocardial infarction as described in the protocol\n4. History of symptomatic autonomic dysfunction as evidenced by orthostatic hypotension and/or syncope\n5. Unexplained syncope \\<12 months prior to initial screening or during the Run-in period\n6. History of clinically significant cardiovascular, respiratory, hepatic, renal, gastrointestinal, endocrine, hematological, psychiatric, or neurological disease, as assessed by the investigator that may confer unreasonable risk to the participant's participation in the study\n7. Uncorrected congenital heart disease\n8. Cardiac surgery within 6 months prior to screening or any planned surgery during the study\n9. Implantation of a cardiac resynchronization therapy device in the prior 90 days, or planned during the study, or planned device optimization 30 days prior to randomization or during the study\n10. Current chronic lung disease requiring long-term oxygen therapy\n\nNote: Other protocol-defined inclusion/ exclusion criteria apply",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Clinical Trials Administrator",
+          "affiliation": "Regeneron Pharmaceuticals",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Arensia Exploratory Medicine Clinic",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85015",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        },
+        {
+          "facility": "Harbor UCLA Medical Center",
+          "city": "Torrance",
+          "state": "California",
+          "zip": "90509",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.83585,
+            "lon": -118.34063
+          }
+        },
+        {
+          "facility": "Flourish Research - Miami (Kendall) (Formerly Clinical Site Partners)",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33186",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        },
+        {
+          "facility": "Flourish Research - Orlando (Formerly Clinical Site Partners)",
+          "city": "Winter Park",
+          "state": "Florida",
+          "zip": "32789",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.6,
+            "lon": -81.33924
+          }
+        },
+        {
+          "facility": "Grand Hopital de Charleroi",
+          "city": "Gilly",
+          "state": "Hainaut",
+          "zip": "6060",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.42449,
+            "lon": 4.4789
+          }
+        },
+        {
+          "facility": "Anima Research Center",
+          "city": "Alken",
+          "state": "Limburg",
+          "zip": "3570",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.87553,
+            "lon": 5.30558
+          }
+        },
+        {
+          "facility": "Onze Lieve Vrouw Ziekenhuis Aalst",
+          "city": "Aalst",
+          "state": "Oost-Vlaanderen",
+          "zip": "9300",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.93604,
+            "lon": 4.0355
+          }
+        },
+        {
+          "facility": "UZ Leuven",
+          "city": "Leuven",
+          "state": "Vlaams Brabant",
+          "zip": "3000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.87959,
+            "lon": 4.70093
+          }
+        },
+        {
+          "facility": "Algemeen Ziekenhuis St Jan Brugge Oostende Av",
+          "city": "Bruges",
+          "state": "West Flanders",
+          "zip": "8000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.20892,
+            "lon": 3.22424
+          }
+        },
+        {
+          "facility": "Algemeen Ziekenhuis Groeninge",
+          "city": "Kortrijk",
+          "state": "West Vlaanderen",
+          "zip": "8500",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.82803,
+            "lon": 3.26487
+          }
+        },
+        {
+          "facility": "AZ Oostende",
+          "city": "Ostend",
+          "state": "West Vlaanderen",
+          "zip": "8400",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.21551,
+            "lon": 2.927
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Regional de la Citadelle",
+          "city": "Liège",
+          "zip": "4000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.63373,
+            "lon": 5.56749
+          }
+        },
+        {
+          "facility": "MHAT Haskovo",
+          "city": "Haskovo",
+          "zip": "6300",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 41.93415,
+            "lon": 25.55557
+          }
+        },
+        {
+          "facility": "University Multiprofile Hospital for Active Treatment Plovdiv",
+          "city": "Plovdiv",
+          "zip": "4000",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.15387,
+            "lon": 24.75001
+          }
+        },
+        {
+          "facility": "Arensia Exploratory Medicine Clinic at MBAL Sveta Sofia",
+          "city": "Sofia",
+          "zip": "1618",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.69751,
+            "lon": 23.32415
+          }
+        },
+        {
+          "facility": "Fakultni Nemocnice v Motole",
+          "city": "Prague",
+          "state": "Central Bohemian",
+          "zip": "15006",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.08804,
+            "lon": 14.42076
+          }
+        },
+        {
+          "facility": "University Hospital Brno",
+          "city": "Brno",
+          "state": "South Moravian",
+          "zip": "62500",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 49.19522,
+            "lon": 16.60796
+          }
+        },
+        {
+          "facility": "Medicus Services s.r.o.",
+          "city": "Brandýs nad Labem-Stará Boleslav",
+          "zip": "25001",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.18709,
+            "lon": 14.66326
+          }
+        },
+        {
+          "facility": "Edumed",
+          "city": "Jaroměř",
+          "zip": "55101",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.3562,
+            "lon": 15.92136
+          }
+        },
+        {
+          "facility": "Arensia Exploratory Medicine at the Research Institute of Clinical Medicine",
+          "city": "Tbilisi",
+          "zip": "0112",
+          "country": "Georgia",
+          "geoPoint": {
+            "lat": 41.69143,
+            "lon": 44.83412
+          }
+        },
+        {
+          "facility": "First Cardiology Clinic University of Athens",
+          "city": "Athens",
+          "state": "Attica",
+          "zip": "11527",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 37.98376,
+            "lon": 23.72784
+          }
+        },
+        {
+          "facility": "Athens Naval Hospital",
+          "city": "Athens",
+          "state": "Attikh",
+          "zip": "11521",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 37.98376,
+            "lon": 23.72784
+          }
+        },
+        {
+          "facility": "General University Hospital Attikon",
+          "city": "Chaïdári",
+          "zip": "12462",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 38.01135,
+            "lon": 23.66597
+          }
+        },
+        {
+          "facility": "Larissa University Hospital",
+          "city": "Larissa",
+          "zip": "41110",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 39.62847,
+            "lon": 22.42112
+          }
+        },
+        {
+          "facility": "Pmsi Republican Clinical Hospital Timofei Mosneaga",
+          "city": "Chisinau",
+          "zip": "MD-2025",
+          "country": "Moldova",
+          "geoPoint": {
+            "lat": 47.00902,
+            "lon": 28.85938
+          }
+        },
+        {
+          "facility": "Wojewodzki Szpital Zespolony - Ludwik Rydygier Provincial Hospital",
+          "city": "Torun",
+          "state": "Kuyavian-Pomeranian Voivodeship",
+          "zip": "87-100",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.01375,
+            "lon": 18.59814
+          }
+        },
+        {
+          "facility": "UCK Medical University of Warsaw",
+          "city": "Warsaw",
+          "state": "Masovian Voivodeship",
+          "zip": "02-097",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.22977,
+            "lon": 21.01178
+          }
+        },
+        {
+          "facility": "Medical University of Lodz",
+          "city": "Lodz",
+          "zip": "90-549",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.77058,
+            "lon": 19.47395
+          }
+        },
+        {
+          "facility": "NZOZ Gemini",
+          "city": "Żychlin",
+          "zip": "62-571",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.24404,
+            "lon": 19.62613
+          }
+        },
+        {
+          "facility": "Clinmedica Research sp zo.o.",
+          "city": "Skierniewice",
+          "state": "Łódź Voivodeship",
+          "zip": "96-100",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.95485,
+            "lon": 20.15837
+          }
+        },
+        {
+          "facility": "Arensia Exploratory Medicine Clinic at Monza Bucharest",
+          "city": "Bucharest",
+          "zip": "11658",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 44.43225,
+            "lon": 26.10626
+          }
+        },
+        {
+          "facility": "Sc Arensia Exploratory Medicine Srl",
+          "city": "Cluj-Napoca",
+          "zip": "400006",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 46.76667,
+            "lon": 23.6
+          }
+        },
+        {
+          "facility": "Worthwhile Clinical Trials",
+          "city": "Benoni",
+          "state": "Gauteng",
+          "zip": "1500",
+          "country": "South Africa",
+          "geoPoint": {
+            "lat": -26.18848,
+            "lon": 28.32078
+          }
+        },
+        {
+          "facility": "Into Research",
+          "city": "Groenkloof",
+          "state": "Gauteng",
+          "zip": "0181",
+          "country": "South Africa",
+          "geoPoint": {
+            "lat": -25.77586,
+            "lon": 28.21795
+          }
+        },
+        {
+          "facility": "Dr M I Sarvan,R Moodley & partners",
+          "city": "Durban",
+          "state": "KwaZulu-Natal",
+          "zip": "4321",
+          "country": "South Africa",
+          "geoPoint": {
+            "lat": -29.8579,
+            "lon": 31.0292
+          }
+        },
+        {
+          "facility": "Kuils River Hospital",
+          "city": "Kuils River",
+          "state": "Western Cape",
+          "zip": "7580",
+          "country": "South Africa",
+          "geoPoint": {
+            "lat": -33.94208,
+            "lon": 18.70663
+          }
+        },
+        {
+          "facility": "Wonju Severance Christian Hospital",
+          "city": "Wŏnju",
+          "state": "Gangwon-do",
+          "zip": "26426",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.35139,
+            "lon": 127.94528
+          }
+        },
+        {
+          "facility": "Seoul National University Bundang Hospital",
+          "city": "Seongnam-si",
+          "state": "Gyeonggi-do",
+          "zip": "13620",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.43861,
+            "lon": 127.13778
+          }
+        },
+        {
+          "facility": "Severance Hospital at Yonsei University College of Medicine",
+          "city": "Seoul",
+          "state": "Seodaemun-gu",
+          "zip": "03722",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Korea University Guro Hospital",
+          "city": "Seoul",
+          "zip": "8308",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Virgen de las Montañas Hospital",
+          "city": "Villamartín",
+          "state": "Cadiz",
+          "zip": "11650",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 36.85979,
+            "lon": -5.64485
+          }
+        },
+        {
+          "facility": "Hospital Universitario Virgen de la Arrixaca",
+          "city": "El Palmar",
+          "state": "Murcia",
+          "zip": "30120",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.93939,
+            "lon": -1.16095
+          }
+        },
+        {
+          "facility": "Hospital Universitario Virgen Macarena Unidad Coronaria 1 planta",
+          "city": "Seville",
+          "zip": "41009",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.38283,
+            "lon": -5.97317
+          }
+        },
+        {
+          "facility": "Hospital Arnau de Vilanova",
+          "city": "Valencia",
+          "zip": "46015",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "All Individual Patient Data (IPD) that underlie publicly available results will be considered for sharing",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF",
+        "CSR",
+        "ANALYTIC_CODE"
+      ],
+      "timeFrame": "When Regeneron has:\n\n* received marketing authorization from major health authorities (e.g., FDA, European Medicines Agency (EMA), Pharmaceuticals and Medical Devices Agency (PMDA), etc.) for the product and indication or has globally discontinued development of the product for all indications on or after April 2020 and has no plans for future development\n* made the study results publicly available (e.g., scientific publication, scientific conference, clinical trial registry)\n* the legal authority to share the data, and\n* ensured the ability to protect participant privacy",
+      "accessCriteria": "Qualified researchers can submit a proposal for access to individual patient or aggregate level data from a Regeneron-sponsored clinical trial through Vivli. Regeneron's Independent Research Request Evaluation Criteria can be found at: https://www.regeneron.com/sites/default/files/Regeneron-External-Data-Sharing-Policy-and-Independent-Research-Request-Evaluation-Criteria.pdf",
+      "url": "https://vivli.org/"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

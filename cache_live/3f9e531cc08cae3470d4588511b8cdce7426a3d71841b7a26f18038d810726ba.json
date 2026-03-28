@@ -1,0 +1,328 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04977960",
+      "orgStudyIdInfo": {
+        "id": "MINECRAFT"
+      },
+      "organization": {
+        "fullName": "Fondazione IRCCS Ca' Granda, Ospedale Maggiore Policlinico",
+        "class": "OTHER"
+      },
+      "briefTitle": "Efficacy of Canrenone as add-on Treatment in Moderate to Severe ARDS in COVID-19",
+      "officialTitle": "MINECRAFT Study: MINEralcorticoid Receptor Antagonism With CanRenone As eFfective Treatment in Moderate to Severe ARDS in COVID-19, a Phase 2 Clinical Trial.",
+      "acronym": "MINECRAFT"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-07",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-09",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-05",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2023-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-07-21",
+      "studyFirstSubmitQcDate": "2021-07-22",
+      "studyFirstPostDateStruct": {
+        "date": "2021-07-27",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-05-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-05-20",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Fondazione IRCCS Ca' Granda, Ospedale Maggiore Policlinico",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "University of Milan",
+          "class": "OTHER"
+        },
+        {
+          "name": "IRCCS Azienda Ospedaliero-Universitaria di Bologna",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The main aim of the study is to estimate the potential efficacy of i.v. canrenone as add-on therapy on maximal medical treatment versus maximal medical treatment alone in treating moderate-to-severe ARDS due to SARS-CoV-2."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "COVID-19 Acute Respiratory Distress Syndrome"
+      ],
+      "keywords": [
+        "COVID-19",
+        "potassium canrenoate"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Open label, 1:1 randomized parallel arms, Simon's two stage design, single centre.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 180,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Reference group",
+          "type": "NO_INTERVENTION",
+          "description": "Patients randomized to the Reference Group will receive the standard-of-care treatments, according to institutional procedures in force:\n\n* Dexamethasone i.v. 6 mg die for consecutive 5 days\n* Methylprednisolone i.v. 40 mg bid for consecutive 10 days\n* Low-molecular-weight-heparin i.v. at standardized dose of 70 UI/kg twice\n* Remdesivir i.v. 200 mg in bolus (1st day) then 100 mg die for 4 days; remdesivir will be used only in patients supported with low-flow nasal cannula oxygen or Venturi mask\n* Antibiotic therapy:\n\n  * azithromycin: 500 mg/die per os for 5 days\n  * ceftriaxone: 2 g i.v. die for 8 days"
+        },
+        {
+          "label": "Experimental Group",
+          "type": "EXPERIMENTAL",
+          "description": "Patients randomized in the Experimental Group will receive canrenone as add-on therapy to standard-of-care treatments. Different starting doses of i.v. canrenone will be administrated in a single or double infusion per day, for 7 days, according to the serum concentration of potassium at randomization",
+          "interventionNames": [
+            "Drug: Potassium Canrenoate"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Potassium Canrenoate",
+          "description": "potassium canrenoate for 7 days in addition to maximal medical treatment",
+          "armGroupLabels": [
+            "Experimental Group"
+          ],
+          "otherNames": [
+            "Canrenone"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "in-hospital death",
+          "description": "patients discharged to a long-term care facility will be classified as \"discharged alive\"",
+          "timeFrame": "At the event (discharge or death)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Need of invasive mechanical ventilation throughout hospitalization",
+          "description": "Researchers will record if mechanical ventilation has been required during hospitalization (YES) or not (NO)",
+          "timeFrame": "at discharge or death"
+        },
+        {
+          "measure": "Duration of hospitalization for alive patients",
+          "description": "from randomization to discharge",
+          "timeFrame": "From date of randomization until the date discharge or in-hospital death from any cause, whichever came first, assessed up to 48 months"
+        },
+        {
+          "measure": "Drug intolerance",
+          "description": "measured as number of AR and SAR",
+          "timeFrame": "From the date of randomization until three days after the end of IMP administration (10 days after randomization)"
+        },
+        {
+          "measure": "Number of hypotensive events",
+          "description": "defined as systolic blood pressure constantly \\<90 mmHg and diastolic blood pressure constantly \\<60 mmHg)",
+          "timeFrame": "From the date of randomization until three days after the end of IMP administration (10 days after randomization)"
+        },
+        {
+          "measure": "Number of hyperkaliemias events",
+          "description": "defined as \\[K+\\]hematic \\>5.1 mEq/L",
+          "timeFrame": "From the date of randomization until three days after the end of IMP administration (10 days after randomization)"
+        },
+        {
+          "measure": "Number of renal failures",
+          "description": "defined as eGFR \\<30 ml/min",
+          "timeFrame": "From the date of randomization until three days after the end of IMP administration (10 days after randomization)"
+        },
+        {
+          "measure": "Change in Sequential Organ Failure Assessment (SOFA) score from randomization to 7 days after randomization",
+          "description": "A score from 0 (better outcome) to 4 (worst outcome) for six different systems (respiratory, cardiovascular, hepatic, coagulation, renal and neurological systems) will be assessed and recorded in CRF",
+          "timeFrame": "7 days after randomization"
+        },
+        {
+          "measure": "Change in inflammatory status",
+          "description": "CRP levels, IL-6, Ddimer and Ferritin",
+          "timeFrame": "at 48 hours and 168 hours (7th day) from randomization"
+        },
+        {
+          "measure": "Change in respiratory parameters",
+          "description": "Heart Rate, Blood Pressure (mmHg), PaO2/FiO2 (mmHg), alveolar-arterial gradient (mmHg)",
+          "timeFrame": "at 48 hours and 168 hours (7th day) from randomization"
+        },
+        {
+          "measure": "Changes in features of pulmonary interstitial disease measured by chest X-Ray",
+          "timeFrame": "at 7 days after randomization"
+        },
+        {
+          "measure": "Changes in [K+]hematic, renin, AngII, Ang1-7, Ang1-9, aldosterone and structurally related steroids",
+          "description": "\\[K+\\]hematic will be expressed as mEq/L Plasmatic Renin Activity will be expressed as µUI/mL Hematic Concentration of AngII, Ang1-7, Ang1-9, aldosterone and structurally related steroids will be expressed as ng/mL",
+          "timeFrame": "at randomization and at 48 and 168 hours (7th day) from randomization"
+        },
+        {
+          "measure": "Correlation between levels of [K+]hematic, renin, AngII, Ang1-7, Ang1-9, aldosterone and structurally related steroids, at basal level (randomization) and clinical outcomes (in-hospital death, need of invasive mechanical ventilation, SOFA score)",
+          "description": "\\[K+\\]hematic will be expressed as mEq/L Plasmatic Renin Activity will be expressed as µUI/mL Hematic Concentration of AngII, Ang1-7, Ang1-9, aldosterone and structurally related steroids will be expressed as ng/mL",
+          "timeFrame": "at randomization and at 48 and 168 hours (7th day) from randomization"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 18 - 80 y.o. Since over eighties are very fragile patients, a lot of confounding unpredictable events may interfere with the trial analyses; thus, these patients will be excluded from this exploratory proof-of-concept trial;\n* COVID-19 diagnosis through swab within 14 days from the beginning of symptoms\n* Hospitalization for moderate to severe ARDS (as determined by PaO2/FiO2 ≤300 mmHg at admission)\n* Serum concentration of potassium ≤4.5 mEq/L\n* Consent to participate\n\nExclusion Criteria:\n\n* Invasive mechanical ventilation\n* I.v. hydratation with Darrow's solution or half-strength Darrow's solution underway\n* Acute cardiovascular event (acute myocardial infarction, acute ischaemic stroke)\n* Current malignant disease\n* Creatinine \\>1.8 mg/dL (for women) and \\>2.0 mg/dL (for men) or glomerular filtration rate \\<50 mL/mm\n* Systolic blood pressure \\<110 mmHg and/or diastolic blood pressure \\<60 mmHg\n* Known or suspected hypersensitivity to canrenone\n* Hyponatremia\n* Anuria\n* Familial history of porphyria\n* Pregnancy and breastfeeding\n* known or suspected hypersensitivity to canrenone\n* Inclusion in any other pharmacological clinical trials",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Marco Vicenzi, MD",
+          "role": "CONTACT",
+          "phone": "+390255033537",
+          "email": "marco.vicenzi@policlinico.mi.it"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Marco Vicenzi, MD",
+          "affiliation": "Fondazione IRCCS Ca' Granda, Ospedale Maggiore Policlinico",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000086382",
+          "term": "COVID-19"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011024",
+          "term": "Pneumonia, Viral"
+        },
+        {
+          "id": "D011014",
+          "term": "Pneumonia"
+        },
+        {
+          "id": "D012141",
+          "term": "Respiratory Tract Infections"
+        },
+        {
+          "id": "D007239",
+          "term": "Infections"
+        },
+        {
+          "id": "D014777",
+          "term": "Virus Diseases"
+        },
+        {
+          "id": "D018352",
+          "term": "Coronavirus Infections"
+        },
+        {
+          "id": "D003333",
+          "term": "Coronaviridae Infections"
+        },
+        {
+          "id": "D030341",
+          "term": "Nidovirales Infections"
+        },
+        {
+          "id": "D012327",
+          "term": "RNA Virus Infections"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D002191",
+          "term": "Canrenoic Acid"
+        },
+        {
+          "id": "D002192",
+          "term": "Canrenone"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011245",
+          "term": "Pregnadienes"
+        },
+        {
+          "id": "D011278",
+          "term": "Pregnanes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

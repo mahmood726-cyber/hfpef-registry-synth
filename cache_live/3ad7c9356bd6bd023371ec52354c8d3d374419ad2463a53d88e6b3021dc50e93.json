@@ -1,0 +1,404 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03743103",
+      "orgStudyIdInfo": {
+        "id": "CRT088"
+      },
+      "organization": {
+        "fullName": "Cristália Produtos Químicos Farmacêuticos Ltda.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Esmolol for the Treatment of Hypertension After Intracerebral Hemorrhage Study (ETHICHS)",
+      "officialTitle": "A Randomized, Exploratory, Open-label, Phase IV, Blinded Endpoint, Multicenter and Prospective Study to Evaluate the Effect of the Addition of Esmolol on the Current Therapeutic Regimen Used for the Treatment of Hemorrhagic Stroke",
+      "acronym": "ETHICHS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-01",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Low enrollement",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-04-18",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-10-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-10-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2018-11-13",
+      "studyFirstSubmitQcDate": "2018-11-13",
+      "studyFirstPostDateStruct": {
+        "date": "2018-11-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-02-07",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-02-09",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Cristália Produtos Químicos Farmacêuticos Ltda.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Because of its pharmacokinetic characteristics, such as short half-life and its safety profile, esmolol hydrochloride is a beta blocker suitable for venous use in the form of continuous infusion. Strategies that improve the blood pressure control of patients with hemorrhagic stroke during the first hours of hospitalization are determinant in controlling the hematoma expansion and determining factor in its prognosis. This study was designed with the objective of evaluating the beneficial effects of combining esmolol hydrochloride with sodium nitroprusside for the blood pressure control of participants with hemorrhagic stroke.",
+      "detailedDescription": "Participants with parenchymal intracranial hemorrhage (diagnosis confirmed by computed tomography or magnetic resonance imaging), and:\n\n* with systolic pressure \\> 150 mmHg,\n* not contraindicated for treatment with beta-blockers,\n* who can start the drug treatment within 6 hours of the stroke,\n* having a target of ≤ 140 mmHg of systolic pressure within 1 hour after initiation of treatment."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hemorrhagic Stroke"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 20,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Brevibloc, 10 Mg/mL Intravenous Solution",
+          "type": "EXPERIMENTAL",
+          "description": "10 mL/h every 5 minutes until reaching the pressure target",
+          "interventionNames": [
+            "Drug: Brevibloc, 10 Mg/mL Intravenous Solution",
+            "Drug: Nitroprusside, Sodium"
+          ]
+        },
+        {
+          "label": "Nitroprusside, Sodium",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "0.5 mcg / kg / min every 3 minutes until reaching the pressure target",
+          "interventionNames": [
+            "Drug: Nitroprusside, Sodium"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Brevibloc, 10 Mg/mL Intravenous Solution",
+          "description": "10 mL/h every 5 minutes until reaching the pressure target",
+          "armGroupLabels": [
+            "Brevibloc, 10 Mg/mL Intravenous Solution"
+          ],
+          "otherNames": [
+            "Brevibloc"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Nitroprusside, Sodium",
+          "description": "0.5 ug/kg/min every 3 minutes until reaching the pressure target",
+          "armGroupLabels": [
+            "Brevibloc, 10 Mg/mL Intravenous Solution",
+            "Nitroprusside, Sodium"
+          ],
+          "otherNames": [
+            "Nitroprus"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "To evaluate comparatively the drug test and the comparator drug",
+          "description": "Variation of systolic and diastolic pressure during the time of use of the investigational products measured by ABPM (outpatient blood pressure monitoring).",
+          "timeFrame": "7 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "To compare the percentage of participants",
+          "description": "To compare the percentage of participants with controlled systolic pressure (goal ≤ 140 mmHg)",
+          "timeFrame": "in the first hour of treatment between the groups."
+        },
+        {
+          "measure": "Rankin Scale",
+          "description": "To compare the ranks of the modified Rankin Scale (Applied by blind-investigator) between groups.",
+          "timeFrame": "in 90 ± 4 days"
+        },
+        {
+          "measure": "NIH Stroke Scale (NIHSS) and Glasgow Coma Scale",
+          "description": "Compare the variation in scores on the NIH Stroke Scale (NIHSS) and Glasgow Coma Scale (whichever comes first) between groups.",
+          "timeFrame": "from admission to discharge or 7th day"
+        },
+        {
+          "measure": "MOCA scale",
+          "description": "To compare the cognitive performance assessed between the groups.",
+          "timeFrame": "in 90 ± 4 days"
+        },
+        {
+          "measure": "Hematoma volume expansion and perihematoma volume of cerebral edema",
+          "description": "To compare the percentages of between admission tomography and control tomography after the end of infusion of investigational products",
+          "timeFrame": "24 ± 4 hours"
+        },
+        {
+          "measure": "Severe hypotensive events with clinical consequences",
+          "description": "To compare the frequency of severe hypotensive events with clinical consequencesrequiring corrective therapy with vasopressors during the use of investigational products between groups.",
+          "timeFrame": "in 90 ± 4 days"
+        },
+        {
+          "measure": "Adverse events related with investigational product",
+          "description": "To compare the frequency and intensity of adverse events related to the use of research products between groups.",
+          "timeFrame": "in 90 ± 4 days"
+        },
+        {
+          "measure": "Severe cardiovascular events",
+          "description": "Compare the frequency of severe cardiovascular events (acute myocardial infarction, cardiac arrest, arrhythmias, or the development of severe congestive heart failure) or major neurological complications (eg need for neurosurgery, intraventricular bypass placement, cerebral infarction, convulsive seizures, intoxication, neurological toxicity) within the first 90 days of follow-up between groups.",
+          "timeFrame": "in 90 ± 4 days"
+        },
+        {
+          "measure": "Bradycardia",
+          "description": "Compare the frequency and duration of major bradycardia (\\<50 beats per minute) between groups.",
+          "timeFrame": "in 90 ± 4 days"
+        },
+        {
+          "measure": "QT interval variability",
+          "description": "Compare the QT interval variability measured by Holter during the infusion period of the investigational products between the groups",
+          "timeFrame": "during the infusion period"
+        },
+        {
+          "measure": "Frequency of changes in the ECO",
+          "description": "Compare the frequency of changes in the Echocardiogram (Differences observed between the examination performed in the first 72 ± 4 hours and the return after 90 ± 3 days) between the groups.",
+          "timeFrame": "in the first 72 ± 4 hours and the return after 90 ± 3 days"
+        },
+        {
+          "measure": "Frequency of changes in the level of BNP",
+          "description": "To compare the frequency of changes in the level of B-type natriuretic peptide (BNP) measured at baseline times, 24 ± 4 and 72 ± 4 hours between groups.",
+          "timeFrame": "at baseline times, 24 ± 4 and 72 ± 4 hours"
+        },
+        {
+          "measure": "Frequency of changes in baseline cardiac troponin levels",
+          "description": "To compare the frequency of changes in baseline cardiac troponin levels, 24 ± 4 and 72 ± 4 hours",
+          "timeFrame": "24 ± 4 and 72 ± 4 hours"
+        },
+        {
+          "measure": "Frequency of intra-cranial hypertension",
+          "description": "To compare the frequency of intra-cranial hypertension diagnosed by measuring the diameter of the optic nerve sheath by transorbital ultrasound daily for 7 days or high, whichever occurs first between the groups.",
+          "timeFrame": "7 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Signature of the TCLE by participant or companion.\n2. Spontaneous intracerebral hemorrhage confirmed by computed tomography or magnetic resonance imaging and fit to be included in the study and initiate therapy with study medications within 6 hours after the event.\n3. Intracerebral hemorrhage (volume \\< 30 cm3).\n4. No immediate surgical indication.\n5. Both sexes, aged above 18 years.\n6. Systolic blood pressure (\\> 150 mmHg and \\< 220 mmHg) measured on two occasions with a minimum difference of 2 minutes.\n\nExclusion Criteria:\n\n1. Cerebral hemorrhage secondary to structural lesions in the brain, vascular malformations, coagulopathies or traumatic brain injury, if known at the time of randomization.\n2. Participant in deep coma, defined by the Glasgow Coma Scale score of 3 to 5.\n3. Uncontrolled asthmatic or COPD participants, if known at the time of randomization.\n4. Participants with Grade IV Heart Failure, defined as heart rate \\< 50 beats per minute.\n5. Previous hemorrhagic stroke, if known at the time of randomization\n6. Participants with Cerebral Vascular Stroke.\n7. Participants who have presented previous ischemic cerebrovascular accident, if known at the time of randomization.\n8. Chronic diseases with life expectancy less than 3 months.\n9. Score ≥ 4 on the ICH score at the time of recruitment.\n10. In use of anticoagulants in the last 48 hours, if known at the time of randomization.\n11. Patients with contraindication to any of the study medications.\n12. Intubation Orotraqueal on arrival at the service.\n13. Pheochromocytoma, if known at the time of randomization.\n14. Patients with hyperthyroidism, if known at the time of randomization.\n15. Known pregnancy or breastfeeding . At the discretion of the investigator, an examination for confirmation may be requested.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Hospital Geral de Fortaleza",
+          "city": "Fortaleza",
+          "state": "Ceará",
+          "zip": "60150-160",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -3.71722,
+            "lon": -38.54306
+          }
+        },
+        {
+          "facility": "Hospital São Rafael",
+          "city": "Salvador",
+          "state": "Estado de Bahia",
+          "zip": "04011-032",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -12.97563,
+            "lon": -38.49096
+          }
+        },
+        {
+          "facility": "Hospital Madre Teresa",
+          "city": "Belo Horizonte",
+          "state": "Minas Gerais",
+          "zip": "30380-090",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -19.92083,
+            "lon": -43.93778
+          }
+        },
+        {
+          "facility": "Hospital de Clínicas de Porto Alegre",
+          "city": "Porto Alegre",
+          "state": "Rio Grande do Sul",
+          "zip": "90035-903",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Hospital das Clínicas da Faculdade de Medicina de Botucatu",
+          "city": "Botucatu",
+          "state": "São Paulo",
+          "zip": "18607-741",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.88583,
+            "lon": -48.445
+          }
+        },
+        {
+          "facility": "Hospital das Clínicas de Riberião Preto",
+          "city": "Ribeirão Preto",
+          "state": "São Paulo",
+          "zip": "14015-130",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -21.1775,
+            "lon": -47.81028
+          }
+        },
+        {
+          "facility": "Universidade Federal de São Paulo",
+          "city": "São Paulo",
+          "zip": "04022-002",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000083302",
+          "term": "Hemorrhagic Stroke"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D020521",
+          "term": "Stroke"
+        },
+        {
+          "id": "D002561",
+          "term": "Cerebrovascular Disorders"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C036604",
+          "term": "esmolol"
+        },
+        {
+          "id": "D009599",
+          "term": "Nitroprusside"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D005292",
+          "term": "Ferricyanides"
+        },
+        {
+          "id": "D003486",
+          "term": "Cyanides"
+        },
+        {
+          "id": "D000838",
+          "term": "Anions"
+        },
+        {
+          "id": "D007477",
+          "term": "Ions"
+        },
+        {
+          "id": "D004573",
+          "term": "Electrolytes"
+        },
+        {
+          "id": "D007287",
+          "term": "Inorganic Chemicals"
+        },
+        {
+          "id": "D005290",
+          "term": "Ferric Compounds"
+        },
+        {
+          "id": "D058085",
+          "term": "Iron Compounds"
+        },
+        {
+          "id": "D006856",
+          "term": "Hydrogen Cyanide"
+        },
+        {
+          "id": "D017672",
+          "term": "Nitrogen Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,634 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07029503",
+      "orgStudyIdInfo": {
+        "id": "SCARF-1"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2025-520550-11-00",
+          "type": "CTIS"
+        }
+      ],
+      "organization": {
+        "fullName": "Karolinska Institutet",
+        "class": "OTHER"
+      },
+      "briefTitle": "Swedish Cardiac And Renal Failure Study-1",
+      "officialTitle": "Swedish Cardiac And Renal Failure Study-1 (SCARF-1): An Open-Label Pilot Trial to Evaluate the Feasibility, Safety and Efficacy of Eplerenone in Patients With Heart Failure With Reduced Ejection Fraction and Severe Chronic Kidney Disease",
+      "acronym": "SCARF-1"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-02",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-02",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-10",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-06-02",
+      "studyFirstSubmitQcDate": "2025-06-11",
+      "studyFirstPostDateStruct": {
+        "date": "2025-06-19",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-22",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-26",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Carl Haggård",
+        "investigatorTitle": "MD, PhD",
+        "investigatorAffiliation": "Karolinska Institutet"
+      },
+      "leadSponsor": {
+        "name": "Karolinska Institutet",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Previous studies have shown that patients with heart failure with reduced pumping function and preserved kidney function experience improved symptoms, longer survival, and fewer hospitalizations when treated with medications such as eplerenone. However, individuals with impaired kidney function have been excluded from these trials due to concerns about potential adverse effects on potassium levels, kidney function, and possibly also blood pressure. As a result, clear treatment recommendations for this high-risk group are lacking.\n\nIn recent years, however, background therapies have been modernized and are now associated with a lower risk of potassium disturbances. Preliminary data also suggest that patients with impaired kidney function may benefit from eplerenone treatment. However, confirmation through dedicated studies is needed.\n\nThe primary objective of this pilot trial is to assess the feasibility and safety of eplerenone in patients with heart failure with reduced pumping function and impaired kidney function. Treatment effectiveness will also be explored.",
+      "detailedDescription": "Virtually all major trials in heart failure with reduced ejection fraction (HFrEF), including those investigating mineralocorticoid receptor antagonists (MRAs) such as eplerenone, have excluded patients with severe chronic kidney disease (CKD). This exclusion has likely been driven by concerns over the risks of hyperkalemia and worsening renal function (WRF). However, post-hoc analyses of these major trials, along with data from registries and cohort studies, suggest that patients with more advanced renal impairment may still derive an overall benefit from MRA treatment.\n\nThe objective of this pilot trial is to evaluate the feasibility and safety of eplerenone in patients with HFrEF and severe CKD. An exploratory analysis of efficacy will also be performed."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "HFrEF - Heart Failure With Reduced Ejection Fraction",
+        "Chronic Kidney Disease"
+      ],
+      "keywords": [
+        "HFrEF - Heart Failure with Reduced Ejection Fraction",
+        "Chronic kidney disease",
+        "Heart failure",
+        "Chronic heart failure",
+        "HFrEF",
+        "CKD",
+        "Renal dysfunction",
+        "Kidney dysfunction",
+        "Renal impairment",
+        "Advanced",
+        "Severe",
+        "Mineralocorticoid receptor antagonists",
+        "MRA",
+        "Eplerenone",
+        "Sodium Zirconium Cyclosilicate",
+        "SZC"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "ABA-design with a 12-week baseline, a 12-week intervention, and a 12-week withdrawal period. Two observational periods are chosen due to the high risk of natural clinical deterioration, even over a relatively short timeframe, and to enable within-participant comparison of outcome slopes across phases.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "Transthoracic Echocardiography (TTE) analysis will take place retrospectively in a blinded manner"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 40,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Single-arm",
+          "type": "EXPERIMENTAL",
+          "description": "Eplerenone",
+          "interventionNames": [
+            "Drug: Eplerenone"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Eplerenone",
+          "description": "Participants will receive eplerenone 25 mg once daily or every other day, based on baseline potassium levels, eGFR, systolic blood pressure, and concomitant use of weak or moderate CYP3A4 inhibitors.\n\nThe study will implement a safety protocol with predefined procedures for managing significant hyperkalemia, worsening renal function, and hypotension. These will include temporary or permanent dose reduction or discontinuation of eplerenone, and, if necessary, administration of the potassium binder sodium zirconium cyclosilicate (SZC, Lokelma®).",
+          "armGroupLabels": [
+            "Single-arm"
+          ],
+          "otherNames": [
+            "Inspra®"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The primary endpoint is the proportion of participants who complete the treatment period with and without the need to use a potassium binder",
+          "description": "Without eplerenone interruption/discontinuation due to safety reasons, with and without SZC",
+          "timeFrame": "Between the first and final day of the 12-week eplerenone treatment period"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "The occurrence of plasma potassium (P-K) ≥ 5.6 and ≥ 6.0",
+          "description": "Yes/no",
+          "timeFrame": "Between the first and final day of each of the three 12-week study periods"
+        },
+        {
+          "measure": "Hospitalization for hyperkalemia",
+          "description": "Primary or co-primary reason, yes/no",
+          "timeFrame": "Between the first and final day of each of the three 12-week study periods"
+        },
+        {
+          "measure": "The occurrence of P-K < 3.0",
+          "description": "Yes/no",
+          "timeFrame": "Between the first and final day of each of the three 12-week study periods"
+        },
+        {
+          "measure": "Hospitalization for hypokalemia",
+          "description": "Primary or co-primary reason, yes/no",
+          "timeFrame": "Between the first and final day of each of the three 12-week study periods"
+        },
+        {
+          "measure": "Decrease in eGFR of ≥ 30% and ≥ 50%",
+          "description": "According to the revised Lund-Malmö method in ml/min/1.73 m2, compared to the start of each study period, yes/no",
+          "timeFrame": "Between the first and final day of each of the three 12-week study periods"
+        },
+        {
+          "measure": "Hospitalization for renal failure",
+          "description": "Primary or co-primary reason, yes/no",
+          "timeFrame": "Between the first and final day of each of the three 12-week study periods"
+        },
+        {
+          "measure": "Initiation of dialysis",
+          "description": "Yes/no",
+          "timeFrame": "Between the first and final day of each of the three 12-week study periods"
+        },
+        {
+          "measure": "Participant-reported lightheadedness due to orthostatic hypotension as judged by the investigator",
+          "description": "Yes/no",
+          "timeFrame": "Between the first and final day of each of the three 12-week study periods"
+        },
+        {
+          "measure": "Participant-reported syncope",
+          "description": "Yes/no",
+          "timeFrame": "Between the first and final day of each of the three 12-week study periods"
+        },
+        {
+          "measure": "Any participant-reported side effect",
+          "description": "Yes/No",
+          "timeFrame": "Between the first and final day of each of the three 12-week study periods"
+        },
+        {
+          "measure": "Hospitalization for heart failure",
+          "description": "Primary or co-primary reason, yes/no",
+          "timeFrame": "Between the first and final day of each of the three 12-week study periods"
+        },
+        {
+          "measure": "All-cause hospitalization",
+          "description": "Yes/no",
+          "timeFrame": "Between the first and final day of each of the three 12-week study periods"
+        },
+        {
+          "measure": "Cardiovascular death",
+          "description": "Primary reason, yes/no",
+          "timeFrame": "Between the first and final day of each of the three 12-week study periods"
+        },
+        {
+          "measure": "All-cause death",
+          "description": "Yes/no",
+          "timeFrame": "Between the first and final day of each of the three 12-week study periods"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Kansas City Cardiomyopathy Questionnaire (KCCQ) total symptom score",
+          "description": "Overall summary score between 0 and 100 (0 = very poor health status and 100 = excellent health status)",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the scores at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "Six-Minute Walk Test (6MWD)",
+          "description": "Meters walked during six minutes",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "N-terminal pro b-type natriuretic peptide (NTpro-BNP)",
+          "description": "in ng/L",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "eGFR",
+          "description": "According to the revised Lund-Malmö method in ml/min/1.73 m2",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "Urine albumine-creatinine ratio",
+          "description": "in mg/mol",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "Interventricular septal diameter in diastole (IVSd)",
+          "description": "in mm, as assessed by TTE",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "Left ventricular internal diameter in diastole (LVIDd)",
+          "description": "in mm, as assessed by TTE",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "Posterior wall diameter (PWd)",
+          "description": "in mm, as assessed by TTE",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "Left ventricular mass index (LVMi)",
+          "description": "in g/m2, as assessed by TTE",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "Relative wall thickness (RWT)",
+          "description": "in %, as assessed by TTE",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "Stroke volume index (SVI)",
+          "description": "in ml/m2, as assessed by TTE",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "Cardiac index (CI)",
+          "description": "in l/min/m2, as assessed by TTE",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "Ejection time",
+          "description": "in ms, as assessed by TTE",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "Indexed left atrial volume (LAVi)",
+          "description": "in ml/m2, as assessed by TTE",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "Left atrial (LA) strain",
+          "description": "in %, as assessed by TTE",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "Indexed left ventricular end diastolic volume (LVEDVi)",
+          "description": "in ml/m2, as assessed by TTE",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "Indexed left ventricular end systolic volume (LVESVi)",
+          "description": "in ml/m2, as assessed by TTE",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "Left ventricular (LV) EF",
+          "description": "in %, as assessed by TTE",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "Left ventricular global longitudinal strain (LVGLS)",
+          "description": "in %, as assessed by TTE",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "E/A (early/late ventricular filling velocity)",
+          "description": "ratio, as assessed by TTE",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "S/D (systolic/diastolic pulmonary vein flow velocity)",
+          "description": "ratio, as assessed by TTE",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "Isovolumetric contraction velocity (IVCV)",
+          "description": "in m/s, as assessed by TTE",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "Isovolumetric relaxation velocity (IVRV)",
+          "description": "in m/s, as assessed by TTE",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "Isovolumetric relaxation time (IVRT)",
+          "description": "in ms, as assessed by TTE",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "Septal S´",
+          "description": "in cm/s, as assessed by TTE",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "Lateral S´",
+          "description": "in cm/s, as assessed by TTE",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "Septal É",
+          "description": "in cm/s, as assessed by TTE",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "Lateral É",
+          "description": "in ms, as assessed by TTE",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "Tricuspid annular plane systolic excursion (TAPSE)",
+          "description": "in mm, as assessed by TTE",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "Right ventricular (RV) strain",
+          "description": "in %, as assessed by TTE",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "RV S´",
+          "description": "in cm/s, as assessed by TTE",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "Systolic pulmonary arterial pressure (SPAP)",
+          "description": "in mmHg, as assessed by TTE",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "Myocardial work index (MWI)",
+          "description": "in mmHg%, as assessed by TTE",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        },
+        {
+          "measure": "Tei index",
+          "description": "in %, as assessed by TTE",
+          "timeFrame": "At the end of the 12-week eplerenone treatment period, compared with the values at the end of the 12-week baseline period and the end of the 12-week withdrawal period"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* The participant has given their written consent to participate\n* A diagnosis of HFrEF according to current criteria, for at least three months before the screening visit\n* Echocardiography within 24 months of the screening visit with ejection fraction ≤ 40%. The responsible investigator is allowed to order a new TTE at their own discretion if clinically indicated - e.g. following the initiation of markedly intensified HFrEF-treatment or in the event of significant clinical deterioration. If the new TTE shows an EF \\> 40%, the participant will not be eligible for inclusion. However, a potential echocardiographic worsening should not, by itself, preclude enrollment\n* New York Heart Association class II-III\n* Optimally treated and stable HFrEF (according to the investigator) since at least four weeks before the screening visit. Treatment should include beta-blockers, sodium/glucose co-transporter 2 inhibitors, angiotensin-converting enzyme inhibitors, or angiotensin receptor blockers if eGFR ≥ 20 ml/min/1.73m2 according to the revised Lund-Malmö method. Participants should also have cardiac resynchronization therapy or an implantable cardioverter-defibrillator if the indication exists according to current guidelines\n* eGFR \\< 30 ml/min/1.73m2 according to the revised Lund-Malmö method at least once during the 12 months before the screening visit, and eGFR \\< 45 ml/min/1.73m2 at the time of inclusion\n\nExclusion Criteria:\n\n* P-K ≥ 5.6\n* For the first ten study participants:\n\neGFR \\< 20 ml/min/1.73m2 according to the revised Lund-Malmö method, or projected decline in eGFR to \\< 10 ml/min/1.73m2 during the 36-week study period. The projected decline will be estimated using the three most recent eGFR values from the previous 6-12 months\n\n\\- For the remainder of the study participants: eGFR \\< 10 ml/min/1.73m2 according to the revised Lund-Malmö method, or projected decline in eGFR to \\< 10 ml/min/1.73m2 during the 36-week study period. The projected decline will be estimated using the three most recent eGFR values from the previous 6-12 months\n\n* Ongoing/planned dialysis\n* Systolic blood pressure \\< 90 mmHg\n* Uncontrolled hypertension as judged by the investigator\n* Severe hepatic impairment (Child-Pugh C)\n* History of, or planned, heart transplantation or left ventricular assist device\n* Unwillingness to comply with highly effective contraceptive methods, or ongoing/planned pregnancy, or breastfeeding\n* Previous allergic reaction to an MRA or a potassium binder\n* Ongoing treatment with lithium, cyclosporine, tacrolimus, nonsteroidal anti-inflammatory drugs, trimethoprim, or strong CYP3A inhibitors (ketoconazole, itraconazole, ritonavir, nelfinavir, clarithromycin, telithromycin, and nefazodone) or inducers (rifampicin, carbamazepine, phenytoin, phenobarbital, and St. John's Wort)\n* QTc(f) ≥ 550 msec, history of QT prolongation associated with any medication requiring medication discontinuation, or congenital long QT syndrome\n* Uncontrolled arrhythmia as judged by the investigator\n* Acute cardiac hospitalization or procedure within four weeks before inclusion\n* Not suitable as judged by the investigator (presumed inability to participate, severe or terminal co-morbidity, and expected survival \\< 12 months)\n* Previously enrolled in this trial or participation in another trial not approved for co-enrollment",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Carl Haggård, MD, PhD",
+          "role": "CONTACT",
+          "phone": "0046735574724",
+          "email": "carl.haggard@regionstockholm.se"
+        },
+        {
+          "name": "Krister Lindmark, MD, PhD",
+          "role": "CONTACT",
+          "phone": "00467028888285",
+          "email": "krister.lindmark@regionstockholm.se"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Krister Lindmark, MD, PhD",
+          "affiliation": "Karolinska Institutet",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Department of Cardiology, Danderyd Hospital, Karolinska Institutet",
+          "city": "Stockholm",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Carl Haggård, MD, PhD",
+              "role": "CONTACT",
+              "phone": "0046735574724",
+              "email": "carl.haggard@regionstockholm.se"
+            },
+            {
+              "name": "Krister Lindmark, MD, PhD",
+              "role": "CONTACT",
+              "phone": "00467028888285",
+              "email": "krister.lindmark@regionstockholm.se"
+            },
+            {
+              "name": "Carl Haggård, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Krister Lindmark, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Karl Wärnberg, MD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Karin Bergen, MD, PhD",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 59.32938,
+            "lon": 18.06871
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Qualified researchers can request access to anonymized individual patient-level data with approved ethical permission. All requests will be evaluated, but this does not mean all requests will be shared.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF",
+        "CSR",
+        "ANALYTIC_CODE"
+      ],
+      "timeFrame": "The IPD and supporting information will be shared after publication of the results in a peer-reviewed medical journal, and will be available for a minimum of 25 years therafter.",
+      "accessCriteria": "Access to IPD and supporting information may be granted to qualified researchers whose intended use is to evaluate the trial, provided that participant anonymity is maintained."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D051436",
+          "term": "Renal Insufficiency, Chronic"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D051437",
+          "term": "Renal Insufficiency"
+        },
+        {
+          "id": "D008224",
+          "term": "Lymphoma, Follicular"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007674",
+          "term": "Kidney Diseases"
+        },
+        {
+          "id": "D014570",
+          "term": "Urologic Diseases"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D052801",
+          "term": "Male Urogenital Diseases"
+        },
+        {
+          "id": "D002908",
+          "term": "Chronic Disease"
+        },
+        {
+          "id": "D020969",
+          "term": "Disease Attributes"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D008228",
+          "term": "Lymphoma, Non-Hodgkin"
+        },
+        {
+          "id": "D008223",
+          "term": "Lymphoma"
+        },
+        {
+          "id": "D009370",
+          "term": "Neoplasms by Histologic Type"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D008232",
+          "term": "Lymphoproliferative Disorders"
+        },
+        {
+          "id": "D008206",
+          "term": "Lymphatic Diseases"
+        },
+        {
+          "id": "D006425",
+          "term": "Hemic and Lymphatic Diseases"
+        },
+        {
+          "id": "D007160",
+          "term": "Immunoproliferative Disorders"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077545",
+          "term": "Eplerenone"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007783",
+          "term": "Lactones"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011283",
+          "term": "Pregnenes"
+        },
+        {
+          "id": "D011278",
+          "term": "Pregnanes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

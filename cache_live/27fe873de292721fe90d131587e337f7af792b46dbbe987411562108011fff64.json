@@ -1,0 +1,321 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05223894",
+      "orgStudyIdInfo": {
+        "id": "ZMLiu"
+      },
+      "organization": {
+        "fullName": "Help Therapeutics",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Treating Heart Failure With hiPSC-CMs",
+      "officialTitle": "Epicardial Injection of Human Pluripotent Stem Cell-derived Cardiomyocytes to Treat Severe Chronic Heart Failure"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-11",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-06-30",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-12-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-12-22",
+      "studyFirstSubmitQcDate": "2022-01-25",
+      "studyFirstPostDateStruct": {
+        "date": "2022-02-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-11-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-11-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Help Therapeutics",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Shanghai East Hospital",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Heart failure has a high morbidity and mortality because the heart is one of the least regenerative organs in the human body. Drug treatments for heart failure manage symptoms but do not restore lost myocytes. Cellular replacement therapy is a potential approach to repair damaged myocardial tissue, restore cardiac function, which has become a new strategy for the treatment of heart failure. The purpose of this study is to assess the safety and efficacy of intramyocardial delivery of cardiomyocytes at the time of coronary artery bypass grafting in patients with chronic heart failure.",
+      "detailedDescription": "Patients with heart failure will be treated with allogenic human pluripotent stem cell-derived cardiomyocytes ( hPSC-CM ) from healthy donors. The cells will be injected directly into the myocardium at time of coronary artery bypass grafting. Patients will be assessed at 1, 3, 6 and 12 months after cell transplantation for safety and efficacy."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 20,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "hiPSC-CM therapy",
+          "type": "EXPERIMENTAL",
+          "description": "Injection of allogenic human pluripotent stem cell-derived cardiomyocytes (hPSC-CMs) during coronary artery bypass grafting surgery. 100 million hPSC-CMs in 2.5-5 mL medium suspension will be injected into the myocardium.",
+          "interventionNames": [
+            "Biological: hiPSC-CM therapy"
+          ]
+        },
+        {
+          "label": "Control",
+          "type": "SHAM_COMPARATOR",
+          "description": "Coronary artery bypass grafting surgery only.",
+          "interventionNames": [
+            "Other: Control"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "hiPSC-CM therapy",
+          "description": "Injection of allogenic human pluripotent stem cell-derived cardiomyocytes (hPSC-CMs) during coronary artery bypass grafting surgery. 100 million hPSC-CMs in 2.5-5 mL medium suspension will be injected into the myocardium.",
+          "armGroupLabels": [
+            "hiPSC-CM therapy"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Control",
+          "description": "Coronary artery bypass grafting surgery only.",
+          "armGroupLabels": [
+            "Control"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Incidence of serious adverse events(SAEs) within 1 month post-CABG surgery.",
+          "description": "Incidence of serious adverse events(SAEs) within 1 month post-CABG surgery. These include death, fatal myocardial infarction, stroke, cardiac tamponade, cardiac perforation, hemodynamic ventricular arrhythmias (duration \\> 15s), and new allogeneic human neoplasms.",
+          "timeFrame": "1 Month Post-operation"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Size of infracted myocardium assessed by MRI",
+          "description": "Size of infracted myocardium;",
+          "timeFrame": "Baseline, 1, 3, 6 and 12 Months Post-operation"
+        },
+        {
+          "measure": "Left Ventricular systolic performance as assessed by MRI",
+          "description": "left ventricular side wall thickness at diastolic; interventricular septum thickness;",
+          "timeFrame": "Baseline, 1, 3, 6 and 12 Months Post-operation"
+        },
+        {
+          "measure": "Left ventricular ejection fraction assessed by MRI",
+          "description": "left ventricular ejection fraction;",
+          "timeFrame": "Baseline, 1, 3, 6 and 12 Months Post-operation"
+        },
+        {
+          "measure": "Overall Left Ventricular systolic performance as assessed by MRI",
+          "description": "left ventricular end-systolic volume and end-diastolic volume; stroke volume;",
+          "timeFrame": "Baseline, 1, 3, 6 and 12 Months Post-operation"
+        },
+        {
+          "measure": "Cardiac output assessed by MRI",
+          "description": "cardiac output;",
+          "timeFrame": "Baseline, 1, 3, 6 and 12 Months Post-operation"
+        },
+        {
+          "measure": "Myocardium density assessed by MRI",
+          "description": "myocardium density;",
+          "timeFrame": "Baseline, 1, 3, 6 and 12 Months Post-operation"
+        },
+        {
+          "measure": "Left ventricular mass assessed by MRI",
+          "description": "left ventricular mass at diastolic;",
+          "timeFrame": "Baseline, 1, 3, 6 and 12 Months Post-operation"
+        },
+        {
+          "measure": "Overall Left Ventricular systolic performance as assessed by Echocardiogram",
+          "description": "Interventricular septum thickness at diastolic; left ventricular posterior wall thickness at diastolic;",
+          "timeFrame": "Baseline, 1, 3, 6 and 12 Months Post-operation"
+        },
+        {
+          "measure": "Left Ventricular systolic performance as assessed by Echocardiogram",
+          "description": "left ventricular end-systolic diameter and end-diastolic diameter; left atrial diameter;",
+          "timeFrame": "Baseline, 1, 3, 6 and 12 Months Post-operation"
+        },
+        {
+          "measure": "Left ventricular ejection fraction assessed by Echocardiogram",
+          "description": "left ventricular ejection fraction;",
+          "timeFrame": "Baseline, 1, 3, 6 and 12 Months Post-operation"
+        },
+        {
+          "measure": "Mitral flow pattern (E/A) assessed by Echocardiogram",
+          "description": "mitral flow pattern (E/A) ;",
+          "timeFrame": "Baseline, 1, 3, 6 and 12 Months Post-operation"
+        },
+        {
+          "measure": "Overall Left Ventricular systolic performance as assessed by PET/ECT Scan",
+          "description": "Myocardium perfusion",
+          "timeFrame": "Baseline, 6 and 12 Months Post-operation"
+        },
+        {
+          "measure": "Functional status by 6 minute walk test",
+          "description": "Evaluate Functional Capacity via the Six Minute Walk Test",
+          "timeFrame": "Baseline, 1, 3, 6 and 12 Months Post-operation"
+        },
+        {
+          "measure": "Functional status by New York Heart Association (NYHA) Classification",
+          "description": "Evaluate Functional Capacity via New York Heart Association (NYHA) Class Determination.\n\nIt classifies patients in one of four categories based on their limitations during physical activity; Class I - No symptoms and no limitation in ordinary physical activity, e.g. shortness of breath when walking, climbing stairs etc.\n\nClass II - Mild symptoms (mild shortness of breath and/or angina) and slight limitation during ordinary activity.\n\nClass III - Marked limitation in activity due to symptoms, even during less-than-ordinary activity, e.g. walking short distances (20-100 m).Comfortable only at rest.\n\nClass IV - Severe limitations. Experiences symptoms even while at rest. Mostly bedbound patients.",
+          "timeFrame": "Baseline, 1, 3, 6 and 12 Months Post-operation"
+        },
+        {
+          "measure": "Minnesota Living With Heart Failure Questionnaire (MLHFQ)",
+          "description": "Evaluate Quality Of Life Changes via Minnesota Living with Heart Failure (MLHF). The Maximum possible scores being 105 and the minimum 0. Higher scores indicate a worse or worsening quality of life, while lower scores or decreasing scores indicate a better quality of life.",
+          "timeFrame": "Baseline, 1, 3, 6 and 12 Months Post-operation"
+        },
+        {
+          "measure": "Incidence of Serious Adverse Events (SAE)",
+          "description": "SAE justified (all undesirable or unintended diseases or laboratory and imaging disorders and symptoms that occur in subjects after CABG surgery and 12 months postoperative follow-up, or until the subject withdrawals from the study. AE grading will be based on Common Terminology Criteria for Adverse Events (CTCAE) V5.0.)",
+          "timeFrame": "Baseline, 1~12Months Post-operation"
+        },
+        {
+          "measure": "Incidence of severe arrhythmia",
+          "description": "Clinically significant arrhythmias will be recorded by Electrocardiogram monitoring",
+          "timeFrame": "First month post-operatively"
+        },
+        {
+          "measure": "Changes in penal reactive antibodies (PRA)",
+          "description": "Changes in penal reactive antibodies (PRA) as assessed via blooddraw",
+          "timeFrame": "Baseline, 1, 3, 6 and 12 Months Post-operation"
+        },
+        {
+          "measure": "Changes in donor specific antibodies (DSA)",
+          "description": "Changes in donor specific antibodies (DSA) as assessed via blooddraw",
+          "timeFrame": "Baseline, 1, 3, 6 and 12 Months Post-operation"
+        },
+        {
+          "measure": "Changes in cytokines",
+          "description": "Change in NT-proBNP as assessed via blooddraw",
+          "timeFrame": "Baseline,1, 3, 6 and 12 Months Post-operation"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Aged 35-75 (including 35 and 75).\n2. Have signed the Informed Consent Form (ICF).\n3. Patients have chronic left ventricular dysfunction.\n4. Patients have NYHA Class III-IV cardiac function even after improved medication for the treatment of advanced chronic heart failure.\n5. Patients have indications for Coronary Artery Bypass Grafting.\n6. 20% ≤ LVEF ≤ 40% as determined by echocardiogram (data collected up to 3 months prior to inclusion evaluation are valid; data collected within 1 month since a myocardial infarction are invalid).\n7. Weakening or absence of segmental regional wall motion as determined by standard imaging.\n\nExclusion Criteria:\n\n1. PRA ≥ 20% or DSA-positive.\n2. Patient received ICD transplantation, CRT or similar treatment.\n3. Patients with valvular heart disease or received heart valvular disease\n4. Patients received treatment of percutaneous transluminal coronary intervention (PCI)\n5. Patients with atrial fibrillation\n6. Patients previously suffered sustained ventricular tachycardia or sudden cardiac death.\n7. Baseline glomerular filtration rate \\<30ml/min/1.73m2.\n8. Liver dysfunction, as evidenced by enzymes (AST and ALT) greater than three times the ULN.\n9. Hematological abnormality: A hematocrit \\<25% as determined by HCT, white blood cell\\<2500/ul or platelet values \\<100000/ul without another explanation.\n10. Known, serious radiographic contrast allergy, penicillin allergy, streptomycin allergy.\n11. Coagulopathy (INR\\>1.3) not due to a reversible cause.\n12. Contra-indication to performance of a MRI scan.\n13. Recipients of organ transplant.\n14. Clinical history of malignancy within 5 years (patients with prior malignancy must be disease free for 5 years).\n15. Non-cardiac condition that limits lifespan \\<1 year.\n16. On chronic therapy with immunosuppressant medication, such as glucocorticoid and TNF-α antagonist.\n17. Patients allergy to or cannot use immunosuppressant.\n18. Serum positive for HIV, HBV, HCV, TP.\n19. Currently enrolled other investigational therapeutic or device study.\n20. Patients who are pregnant or breast feeding.\n21. Other conditions that researchers consider not suitable to participate in this study.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "35 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Gang Yang, MD,PhD",
+          "role": "CONTACT",
+          "phone": "+86-18601406982",
+          "email": "yanggang@helpsci.com.cn"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Zhongmin Liu, MD,phD",
+          "affiliation": "Shanghai East Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Shanghai east Hospital",
+          "status": "RECRUITING",
+          "city": "Shanghai",
+          "state": "Shanghai Municipality",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Zhongmin Liu",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

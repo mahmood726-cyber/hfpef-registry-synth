@@ -1,0 +1,346 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02522208",
+      "orgStudyIdInfo": {
+        "id": "AR06.009"
+      },
+      "organization": {
+        "fullName": "Arbor Pharmaceuticals, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Pharmacodynamic and Pharmacokinetic Study of BiDil Extended-release Capsules and Commercial BiDil Tablets",
+      "officialTitle": "Randomized, Open-Label, Daily Dose, 2-sequence, 2-way Crossover Pharmacodynamic and Pharmacokinetic Study of BiDil XR Capsules and Commercial BiDil Tablets in Self-identified Black Patients, Who Are Slow Acetylators, With Heart Failure"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2016-11",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-09"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2016-04",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2016-04",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2015-08-05",
+      "studyFirstSubmitQcDate": "2015-08-11",
+      "studyFirstPostDateStruct": {
+        "date": "2015-08-13",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2016-11-07",
+      "lastUpdatePostDateStruct": {
+        "date": "2016-11-08",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Arbor Pharmaceuticals, Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study will investigate cardiovascular parameters using echocardiographic and pharmacokinetics during a daily dose of BiDil and BiDil Extended Release (XR) compared to a study drug free day.",
+      "detailedDescription": "A multiple-center, open-label, randomized, daily dose, two-sequence, two-way crossover pharmacodynamics (PD) and pharmacokinetic (PK) study of BiDil XR capsules and commercial BiDil tablets in Self-identified Black Patients, who are Slow Acetylators, with Heart Failure and have not received BiDil, isosorbide dinitrate (ISDN), or hydralazine hydrochloride (HCl) for at least 30 days prior to screening. The study consists of two doses of BiDil XR capsules (dosed at 0 hr and 9 hr) and three doses of BiDil tablets (dosed at 0 hr, 6 hr and 12 hr)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 12,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "BiDil Extended Release (XR)",
+          "type": "EXPERIMENTAL",
+          "description": "BiDil XR isosorbide dinitrate 40 mg and hydralazine hydrochloride 75 mg 2 capsules 9 hours apart for one day",
+          "interventionNames": [
+            "Drug: BiDil XR",
+            "Drug: BiDil Immediate Release (IR)"
+          ]
+        },
+        {
+          "label": "BiDil Immediate Release (IR)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "BiDil isosorbide dinitrate 20 mg and hydralazine hydrochloride 37.5 mg 3 tablets 6 hours apart for one day",
+          "interventionNames": [
+            "Drug: BiDil XR",
+            "Drug: BiDil Immediate Release (IR)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "BiDil XR",
+          "description": "fixed combination capsule",
+          "armGroupLabels": [
+            "BiDil Extended Release (XR)",
+            "BiDil Immediate Release (IR)"
+          ],
+          "otherNames": [
+            "BiDil capsules, hydralazine HCl + isosorbide dinitrate"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "BiDil Immediate Release (IR)",
+          "description": "fixed combination tablet",
+          "armGroupLabels": [
+            "BiDil Extended Release (XR)",
+            "BiDil Immediate Release (IR)"
+          ],
+          "otherNames": [
+            "BiDil tablets, hydralazine HCl + isosorbide dinitrate"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Pulmonary Artery (PA) Systolic Pressure change from baseline to each post dose timepoint for 28 hours",
+          "description": "assess the treatment effect of BiDil and BiDil XR on Pulmonary Artery Systolic Pressure (PASP) by Doppler echocardiography",
+          "timeFrame": "6 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Comparison of Maximum observed effect (Emax) on PA systolic pressure vs maximum blood concentration (Cmax)",
+          "description": "examine the relationship between the blood concentrations of each active treatment group and the changes in PASP",
+          "timeFrame": "6 days"
+        },
+        {
+          "measure": "Comparison of the area under the effect curve (AUEC) on PA systolic pressure versus AUC (the area under the curve) for blood",
+          "description": "To examine the relationship between the blood concentrations of each active treatment group and the changes in PASP",
+          "timeFrame": "6 days"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Treatment effect on ejection fraction",
+          "description": "assessing the treatment effect of BiDil and BiDil XR on other central hemodynamic measures (such as ejection fraction) and examining the relationship between the plasma or blood concentrations of each treatment group and each of these central hemodynamic measure",
+          "timeFrame": "6 days"
+        },
+        {
+          "measure": "Treatment effect on Mean PA pressure",
+          "description": "assessing the treatment effect of BiDil and BiDil XR on other central hemodynamic measures (such as ejection fraction) and examining the relationship between the plasma or blood concentrations of each treatment group and each of these central hemodynamic measure",
+          "timeFrame": "6 days"
+        },
+        {
+          "measure": "Treatment effect on PA diastolic pressure",
+          "description": "assessing the treatment effect of BiDil and BiDil XR on other central hemodynamic measures (such as ejection fraction) and examining the relationship between the plasma or blood concentrations of each treatment group and each of these central hemodynamic measure",
+          "timeFrame": "6 days"
+        },
+        {
+          "measure": "Treatment effect on Pulmonary vascular resistance",
+          "description": "assessing the treatment effect of BiDil and BiDil XR on other central hemodynamic measures (such as ejection fraction) and examining the relationship between the plasma or blood concentrations of each treatment group and each of these central hemodynamic measure",
+          "timeFrame": "6 days"
+        },
+        {
+          "measure": "Treatment effect on Right atrial pressure",
+          "description": "assessing the treatment effect of BiDil and BiDil XR on other central hemodynamic measures (such as ejection fraction) and examining the relationship between the plasma or blood concentrations of each treatment group and each of these central hemodynamic measure",
+          "timeFrame": "6 days"
+        },
+        {
+          "measure": "Number of Participants with Adverse Events (AE) as a Measure of Safety and Tolerability",
+          "description": "to compare the safety and tolerability of BiDil XR capsules, as measured by treatment-emergent AEs",
+          "timeFrame": "12 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Self-identified Black, stable, chronic heart failure male or female subjects classified as having New York Heart Association (NYHA) Class II or III, diagnosed at least 3 months prior to Screening.\n* Clinically stable outpatient, receiving standard, stable treatment regimen for heart failure (HF), at least 2 weeks prior to screening and throughout the duration of the trial. Subjects receiving beta-blockers must have been taking these for at least 3 months.\n* All other medications must have been at a stable dose for at least 2 weeks prior to first dose\n* Subjects must not have received BiDil, isosorbide dinitrate or hydralazine HCl for at least 30 days prior to Screening\n* Have an adequate and demonstrable baseline Tricuspid regurgitation jet, visible inferior vena cava, and adequate right heart echocardiogram (with or without saline bubble contrast) allowing measurements to be made.\n* Baseline PA systolic pressures \\> 35 mmHg\n* Slow acetylator\n* Adult subjects at least 18 years old or state-specific age of majority.\n* Clinical lab tests negative for HIV, Hepatitis B surface antigen and Hepatitis C antibody.\n* Urine testing negative for alcohol and drugs of abuse.\n* Negative human chorionic gonadotropin (hCG) pregnancy test.\n* Females must agree to avoid becoming pregnant or males must agree to use appropriate contraceptive methods with his partner(s), during the study and up to post 30 days from last dose of study drug.\n* Females must be:\n* unable to have children or\n* where the partner is sterile OR\n* willing to remain abstinent OR\n* willing to use two effective methods of birth control.\n* Willing and able to be confined for inpatient study periods and agree to study restrictions\n* Ability to grant voluntary informed consent to participate in the study.\n\nExclusion Criteria:\n\n* Have significant valvular heart disease, hemodynamically significant obstructive hypertrophic cardiomyopathy, active myocarditis, or uncontrolled hypertension.\n* Presence of severe, clinical right heart failure.\n* Symptoms of unstable angina, a myocardial infarction, cardiac surgery, or percutaneous coronary intervention within 1 month prior to Screening\n* Have coronary artery disease likely to require coronary artery bypass grafting or percutaneous coronary intervention during the ensuing 3 months.\n* Had cardiac arrest or a sustained ventricular tachycardia considered life threatening and requiring intervention within 3 months, unless treated with implantable cardioverter-defibrillator.\n* other causes of pulmonary hypertension that may confound pharmacodynamic assessments of heart failure\n* Active malignancy or any non-cardiac life-limiting disease.\n* Have significant hepatic, renal, or other disease that might confound the study results or present a risk to the subject.\n* Had a stroke within the past 3 months.\n* Received parenteral inotropic therapy within 1 month.\n* Likelihood of undergoing cardiac transplantation or circulatory assist device implant over the ensuing 3 months.\n* Symptomatic hypotension or blood pressure less than 110/70 mmHg at Screening.\n* Any condition or risk factor which would jeopardize the evaluation of efficacy or safety or the ability to obtain effective echocardiography results.\n* Currently require riociguat, hydralazine HCl, long-acting nitrates like ISDN, isosorbide mononitrate or sustained release nitroglycerin or phosphodiesterase 5 inhibitors.\n* Alcohol or drug abuse within 1 year of study participation.\n* Hypersensitivity, allergy, idiosyncratic reaction or adverse reaction to caffeine (if slow acetylator test is required), ISDN, hydralazine HCl, or any compounds with similar chemical characteristics.\n* Received investigational drug within 30 days.\n* Donated one pint or more of blood, plasma, or platelets within 30 days.\n* Any subject who, in the opinion of the Investigator, cannot follow instructions.\n* Pregnant, lactating or plan to get pregnant during the study\n* History of lupus erythematous or lupus like syndrome.\n* Use of herbal preparations, grapefruit, grapefruit juice, Seville oranges/juice or use of phosphodiesterase inhibitors within 2 weeks of first dose of study drug and throughout study.\n* Employee of the Sponsor, investigative site or contract research organization.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Steve D Caras, MD, PhD",
+          "affiliation": "Arbor Pharmaceuticals",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Pinnacle Research Group, LLC",
+          "city": "Anniston",
+          "state": "Alabama",
+          "zip": "36207",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.65983,
+            "lon": -85.83163
+          }
+        },
+        {
+          "facility": "Linfritz Research Institue Inc",
+          "city": "Coral Gables",
+          "state": "Florida",
+          "zip": "33134",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.72149,
+            "lon": -80.26838
+          }
+        },
+        {
+          "facility": "Jacksonville Center for Clinical Research",
+          "city": "Jacksonville",
+          "state": "Florida",
+          "zip": "32216",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          }
+        },
+        {
+          "facility": "Morehouse School of Medicine",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30310",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Center for Medical Research, LLC",
+          "city": "Providence",
+          "state": "Rhode Island",
+          "zip": "02908",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.82399,
+            "lon": -71.41283
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006830",
+          "term": "Hydralazine"
+        },
+        {
+          "id": "D007548",
+          "term": "Isosorbide Dinitrate"
+        },
+        {
+          "id": "C431665",
+          "term": "isosorbide-hydralazine combination"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010793",
+          "term": "Phthalazines"
+        },
+        {
+          "id": "D011724",
+          "term": "Pyridazines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D007547",
+          "term": "Isosorbide"
+        },
+        {
+          "id": "D013012",
+          "term": "Sorbitol"
+        },
+        {
+          "id": "D013402",
+          "term": "Sugar Alcohols"
+        },
+        {
+          "id": "D000438",
+          "term": "Alcohols"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D002241",
+          "term": "Carbohydrates"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

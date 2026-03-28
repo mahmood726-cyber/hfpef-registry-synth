@@ -1,0 +1,283 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05390502",
+      "orgStudyIdInfo": {
+        "id": "22000036"
+      },
+      "organization": {
+        "fullName": "University of California, Los Angeles",
+        "class": "OTHER"
+      },
+      "briefTitle": "University of California Health Remote (Home) Monitoring Evaluation",
+      "officialTitle": "Evaluation of a University of California-wide Quality Improvement Effort to Improve Blood Pressure Control Using Remote (Home) Monitoring"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-01",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-03-28",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-12-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-06-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-05-20",
+      "studyFirstSubmitQcDate": "2022-05-20",
+      "studyFirstPostDateStruct": {
+        "date": "2022-05-25",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-01-25",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-01-29",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Catherine A. Sarkisian",
+        "investigatorTitle": "Director, Value-Based Care Research Consortium",
+        "investigatorAffiliation": "University of California, Los Angeles"
+      },
+      "leadSponsor": {
+        "name": "University of California, Los Angeles",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "University of California Office of the President- Quality and Population Health Management",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "University of California, Davis",
+          "class": "OTHER"
+        },
+        {
+          "name": "University of California, San Francisco",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study sets out to evaluate a University of California-wide (Davis, San Francisco, and Los Angeles) quality improvement initiative to increase remote (home) blood pressure monitoring and improve blood pressure control for persons with hypertension. Participants at each site will be randomized to one of two types of remote monitoring: integrated versus manual. Participants using the integrated monitoring will have their home blood pressure readings sent directly to their participating health systems. Participants using the manual monitoring will record their own blood pressures and report them to their health care system as per usual care.",
+      "detailedDescription": "Hypertension is an important modifiable risk factor for numerous adverse health outcomes including cardiovascular and kidney disease. In 2017, about 45.3% of US adults had hypertension or were taking antihypertensive medications (1).\n\nHypertension has historically been diagnosed and treated using office-based blood pressure measurements, however blood pressure may differ when measured in the office compared to the home setting. Because of this discrepancy, and an extensive body of evidence supporting remote monitoring, national guidelines for hypertension management now recommend that all persons with hypertension participate in remote (home) monitoring. (2)\n\nThis study sets out to evaluate a University of California-wide (Davis, San Francisco, and Los Angeles) quality improvement initiative to increase remote (home) blood pressure monitoring and improve blood pressure control for persons with hypertension. Participants at each site will be randomized to one of two types of remote monitoring: integrated versus manual. Participants using the integrated monitoring will have their home blood pressure readings sent directly to their participating health systems. Participants using the manual monitoring will record their own blood pressures and report them to their health care system as per usual care.\n\nThe investigators hypothesize that remote monitoring (both integrated and manual) will be associated with improved blood pressure control and that there will be no difference in control between type of remote monitoring.\n\nAim 1: Evaluate whether this remote blood pressure quality improvement initiative leads to improved blood pressure control.\n\nAim 2: Compare the impact of integrated versus manual remote monitoring on blood pressure control.\n\nThe primary outcome measures will be: 1) the difference in blood pressure after six months (adjusted for baseline variables), and 2) whether participants achieved greater than or equal to 5 mmHg change in systolic blood pressure (SBP).\n\nOutcomes will be compared between participants in each arm to determine whether one type of monitoring is superior to the other.\n\nThe investigators will convene bi-monthly meetings with site champions to foster communication and learning across sites and to learn about variation across sites."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hypertension"
+      ],
+      "keywords": [
+        "Remote Blood Pressure Monitoring"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 660,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Integrated",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will have their home blood pressure readings sent directly to their participating health systems. Participants will also receive a wrap-around intervention.",
+          "interventionNames": [
+            "Behavioral: integrated monitoring and local wrap-around hypertension program"
+          ]
+        },
+        {
+          "label": "Manual",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants will record their own blood pressures and report them to their health care system as per usual care.",
+          "interventionNames": [
+            "Behavioral: manual monitoring and general education on use"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "manual monitoring and general education on use",
+          "description": "Patients will receive a standard blood pressure monitor and education on how to use it. Data will be reported as part of usual care.",
+          "armGroupLabels": [
+            "Manual"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "integrated monitoring and local wrap-around hypertension program",
+          "description": "Patients will receive a standard blood pressure monitor and a local wrap-around hypertension program. Data will be sent directly to their participating health system.",
+          "armGroupLabels": [
+            "Integrated"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Continuous change in blood pressure (BP)",
+          "description": "the difference in systolic blood pressure after six months (adjusted for baseline variables)",
+          "timeFrame": "Baseline, six months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Binary 5mm change in blood pressure",
+          "description": "whether participants achieved greater than or equal to 5 mmHg change in systolic blood pressure",
+          "timeFrame": "Baseline, six months"
+        },
+        {
+          "measure": "Binary measure of controlled vs uncontrolled hypertension",
+          "description": "where uncontrolled is defined as SBP \\> 130 mmHg or diastolic blood pressure (DBP) \\> 80 mmHg.",
+          "timeFrame": "Baseline, six months"
+        },
+        {
+          "measure": "Exploratory pre-post analysis of overall change in BP",
+          "description": "for all participants, subanalysis for select demographics including elderly.",
+          "timeFrame": "Baseline, six months"
+        },
+        {
+          "measure": "Changes in blood pressure (BP) outcomes from integrated monitor readings",
+          "description": "For participants in the integrated device study arm, we will calculate the change between the baseline BP and the latest BP reading that is recorded via the remote device.",
+          "timeFrame": "Baseline, six months"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Adverse events",
+          "description": "acute coronary syndrome, myocardial infarction, non-ST-elevation myocardial infarction (NSTEMI), ST Elevation Myocardial Infarction (STEMI), stroke (ischemic, hemorrhagic), decompensated heart failure, all-cause mortality, hospitalization, syncope, hyponatremia, hypokalemia, hyperkalemia",
+          "timeFrame": "Baseline, six months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Aged 18 years and older.\n* Participant must be willing and functionally able (with help from another person if needed) to both use the remote BP monitoring device as well as do home BP monitoring using a manual BP cuff.\n* Have access to the online healthcare portal (with help from another person if needed).\n\n  •-Have outpatient visit within the last 12 months, and have a prior visit within 6 months of inclusion outpatient visit with diagnosis of hypertension, defined as having two readings of SBP \\> 140 or DBP \\> 90 mmHg\n* Has visit with a primary care physician within one year.\n* Takes zero or three anti-hypertensive prescriptions (can include pills with 2 different drugs so could be on 2 medications).\n\nExclusion Criteria:\n\n* BP \\> 180/110 mmHg (office) or \\> 175/105 mmHg (self-measured BP measurements)\n* Pheochromocytoma\n* Uncontrolled hypothyroidism or hyperthyroidism\n* Renal artery stenosis\n* Conn's syndrome\n* End stage renal disease (ESRD)\n* Chronic kidney disease (CKD) Stage 3b (CrCL \\< 45) and above\n* Transplant patients --\\> used the code that if they ever had a transplant\n* Pregnancy\n* Severe aortic stenosis\n* Hospice/End-of-life or Palliative Care\n* Left Ventricular Ejection Fraction \\< 30%\n* Acute cardiac event in the last 3 months (e.g. acute MI)\n* Heart block and arrhythmia(s)\n* Recurrent or symptomatic hypotension (SBP \\< 100 mmHg or DBP \\< 60 mmHg)\n* Drug/alcohol abuse\n* Orthostatic hypotension (drop in SBP \\>20 mmHg)\n* Other secondary causes of hypertension\n* Receiving hypertension management from other services (home health, hospice, already enrolled in hypertension management program)\n* White coat hypertension",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Catherine Sarkisian, MD, MSHS",
+          "affiliation": "Director, Value-Based Care Research Consortium",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of California, Davis",
+          "city": "Davis",
+          "state": "California",
+          "zip": "95616",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.54491,
+            "lon": -121.74052
+          }
+        },
+        {
+          "facility": "University of California, Los Angeles",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90095",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "University of California, San Francisco",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94143",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "29357396",
+          "type": "BACKGROUND",
+          "citation": "Carey RM, Whelton PK. The 2017 American College of Cardiology/American Heart Association Hypertension Guideline: A Resource for Practicing Clinicians. Ann Intern Med. 2018 Mar 6;168(5):359-360. doi: 10.7326/M18-0025. Epub 2018 Jan 23. No abstract available."
+        },
+        {
+          "pmid": "32567342",
+          "type": "BACKGROUND",
+          "citation": "Shimbo D, Artinian NT, Basile JN, Krakoff LR, Margolis KL, Rakotz MK, Wozniak G; American Heart Association and the American Medical Association. Self-Measured Blood Pressure Monitoring at Home: A Joint Policy Statement From the American Heart Association and American Medical Association. Circulation. 2020 Jul 28;142(4):e42-e63. doi: 10.1161/CIR.0000000000000803. Epub 2020 Jun 22."
+        },
+        {
+          "pmid": "37902819",
+          "type": "DERIVED",
+          "citation": "Lee DR, Chenoweth M, Chuong LH, Villaflores CW, Cuevas M, Vangala S, Borenstein J, Kwak H, Chima-Melton C, Han M, Skootsky SA, Chan Tack T, Branagan L, Martin H, Gupta R, Phan L, Sanchez MA, Malaak MM, Dermenchyan A, Pearson KN, Altunyan M, Barakat PF, Pablo R, Sarkisian C. A Multisite Electronic Health Record Integrated Remote Monitoring Intervention for Hypertension Improvement: Protocol for a Randomized Pragmatic Comparative Effectiveness Trial. JMIR Res Protoc. 2023 Oct 30;12:e45915. doi: 10.2196/45915."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006973",
+          "term": "Hypertension"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

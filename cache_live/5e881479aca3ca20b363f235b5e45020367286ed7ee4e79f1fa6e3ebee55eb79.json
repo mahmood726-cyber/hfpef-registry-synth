@@ -1,0 +1,430 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01872234",
+      "orgStudyIdInfo": {
+        "id": "MADIT-ASIA"
+      },
+      "organization": {
+        "fullName": "Boston Scientific Corporation",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "MADIT ASIA Cardiac Resynchronization Trial",
+      "officialTitle": "MADIT ASIA Cardiac Resynchronization Trial (MADIT-ASIA)",
+      "acronym": "MADIT-ASIA"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2014-04",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "The study encountered significant difficulties in patient enrollment.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2014-02"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2014-04",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2014-04",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2013-05-31",
+      "studyFirstSubmitQcDate": "2013-06-05",
+      "studyFirstPostDateStruct": {
+        "date": "2013-06-07",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2014-04-29",
+      "lastUpdatePostDateStruct": {
+        "date": "2014-04-30",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Boston Scientific Corporation",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "University of Rochester",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this trial or study is to determine if pacemaker therapy can be a beneficial alternative to conventional medical therapy in patients with a history of moderate heart failure. The investigators are looking to enroll approximately 180 people in this trial. Patients will be randomized in two groups. One group will be implanted with a pacemaker and will continue to receive conventional medical therapy as prescribed by their doctor. The second group will continue to receive conventional medical therapy as prescribed by their doctor and will not be implanted with a pacemaker. Clinical histories, physical exams, and external device testing will be collected both at the time of enrollment in the trial and during follow-up study visits. Patients who enter the study will be seen for study visits at 1 month, 3 and 6 months.",
+      "detailedDescription": "MADIT-ASIA is a multicenter, prospective, randomized clinical study. The primary aim is to show that two lead CRT-P with guideline-based optimal pharmacological therapy is associated with a significantly greater improvement in left ventricular ejection fraction (LVEF) at 6 months compared with guideline-based optimal pharmacologic therapy only.\n\nThe study will be initially conducted at approximately 25 centers in up to 9 countries in Asia including India, Thailand, Taiwan, Malaysia, China, Japan, South Korea and Singapore. If necessary, more sites may be invited to participate to meet the enrollment goal.\n\nFollowing randomization, subjects will have scheduled clinic visit follow-ups at 1, 3 and 6-month intervals. Relevant event history, cardiac medications, physical assessment, device interrogation/programming status and adverse events will be collected at each follow-up visit. At the 6-month visit, a repeat echocardiogram and a 12-lead ECG will be obtained. Subjects will be followed through the 6 month visit. After that, subjects will have a safety follow up contact at the end of the study. The study will end when the last randomized subject reaches the 6 months visit."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Congestive Heart Failure",
+        "Left Bundle Branch Block",
+        "Heart Failure, Systolic"
+      ],
+      "keywords": [
+        "Heart Failure",
+        "Cardiac Resynchronization Therapy",
+        "Mild systolic dysfunction",
+        "Left Bundle Branch Block"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Device Arm: Two Lead CRT-P",
+          "type": "EXPERIMENTAL",
+          "description": "Intervention: Device: Two-lead CRT-P. Patients will be implanted with a two lead CRT-P system: right atrial lead, left ventricular lead and a dual chamber pacemaker. Patients in this group will also be under optimal pharmacologic therapy.",
+          "interventionNames": [
+            "Device: Two-lead CRT-P"
+          ]
+        },
+        {
+          "label": "Control: Optimal Pharmacologic Therapy",
+          "type": "NO_INTERVENTION",
+          "description": "The control group will be managed on optimal pharmacologic therapy only. They will not be implanted with a device."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Two-lead CRT-P",
+          "description": "The two lead CRT-P will consist of a dual chamber pacemaker, a right atrial lead and a left ventricular lead.",
+          "armGroupLabels": [
+            "Device Arm: Two Lead CRT-P"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Primary Endpoint",
+          "description": "The primary endpoint will be the change in left ventricular ejection fraction (LVEF) from baseline to six months.",
+          "timeFrame": "6 months post randomization"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "All-cause mortality",
+          "timeFrame": "6 months post randomization"
+        },
+        {
+          "measure": "Recurrent heart failure or cardiovascular death, whichever comes first",
+          "timeFrame": "6 months post randomization"
+        },
+        {
+          "measure": "Changes in Left Ventricular End Systolic Volume (LVESV) and in Left Ventricular End Diastolic Volume (LVEDV)",
+          "timeFrame": "6 months post randomization"
+        },
+        {
+          "measure": "Change in NYHA functional class",
+          "timeFrame": "6 months post randomization"
+        },
+        {
+          "measure": "Atrial fibrillation events",
+          "timeFrame": "6 months post randomization"
+        },
+        {
+          "measure": "Change in left atrial size",
+          "timeFrame": "6 months post randomization"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Subject is age 18 or above, or of legal age to give informed consent specific to state and national law\n* Hospitalization for heart failure using the Framingham criteria requiring medical treatment more than 4 weeks ago but less than six months prior to randomization date\n* Subject in sinus rhythm\n* Subject with QRS duration \\>110 milliseconds and left bundle branch block or incomplete left bundle branch block\n* Subject with ejection fraction 36-50%\n* Subject with ischemic or non-ischemic heart disease\n* Subject on stable\\* optimal pharmacologic therapy for the cardiac condition that is guideline-based and may include one or more of the following medications: Loop diuretics (e.g., furosemide, bumetanide, torsemide) unless the subject is not indicated, is contraindicated, or is intolerant of loop diuretics; Angiotensin converting enzyme (ACE) inhibitors and/or angiotensin receptor blocker (ARB) unless the subject failed, is not indicated, or is contraindicated for these therapies; Aldosterone antagonists unless the subject is not indicated, or is intolerant of aldosterone antagonists; Beta-blockers unless the subject is not indicated, contraindicated, or is intolerant of beta-blockers. The choice of selective or non-selective beta-blockers use is left to the Investigator's discretion \\* For purposes of the study, \"stable\" is defined as beta blockers and ACE/ARB for at least three months prior to randomization, unless contraindicated or not tolerated, with stable doses for at least one month prior to randomization. It is permissible for diuretic and aldosterone antagonist dosage to have been adjusted as necessary.\n\nExclusion Criteria:\n\n* Subject with a currently implanted pacemaker, ICD, CRT-P or CRT-D generator or device component\n* Subject with a history of spontaneous sustained VT\\>160 bpm or VF\n* Subject with permanent or chronic AF, or cardioversion for AF within the past 3 calendar months before randomization\n* Subject with structural heart disease such as congenital heart disease, valvular heart disease, e.g., rheumatic valvular heart disease, amyloid heart disease, etc.\n* Subject with coronary artery bypass graft surgery or percutaneous coronary intervention within the past 3 calendar months before randomization\n* Subject with enzyme positive myocardial infarction within the past 3 calendar months prior to randomization\n* Subject with angiographic evidence of coronary disease who are candidates for coronary revascularization and are likely to undergo coronary artery bypass graft surgery or percutaneous coronary intervention in the foreseeable future\n* Right bundle branch block or non-specific interventricular conduction delay\n* Subject with second or third degree heart block\n* Subject in New York Heart Association Class IV (symptoms of heart failure at rest)\n* Subject who is pregnant or plans to become pregnant during the course of the trial. Note: Women of childbearing potential must have a negative pregnancy test within 7 days prior to randomization\n* Subject with irreversible brain damage from pre-existing cerebral disease\n* Subject with presence of any disease, other than the subject's cardiac disease, associated with a reduced likelihood of survival for the duration of the trial, e.g., cancer, uremia, liver failure, etc.\n* Subject with chronic renal disease with blood urea nitrogen (BUN) \\> 50mg/dl (18 mmol/l) or creatinine \\> 2.5mg/dl (221 µmol/l)\n* Subject participating in any other clinical trial\n* Subject unwilling or unable to cooperate with the protocol\n* Subject who lives at such a distance from the clinic that travel for follow-up visits would be unusually difficult\n* Subject who does not anticipate being a resident of the area for the scheduled duration of the trial\n* Subject unwilling to sign the consent for participation\n* Subject whose physician does not allow participation",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Arthur J. Moss, M.D.",
+          "affiliation": "Univ. of Rochester Medical Center, Rochester, New York 14642, heartajm@heart.rochester.edu",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Grantham Hospital",
+          "city": "Hong Kong",
+          "state": "Hong Kong",
+          "country": "China",
+          "geoPoint": {
+            "lat": 22.27832,
+            "lon": 114.17469
+          }
+        },
+        {
+          "facility": "Queen Mary Hospital",
+          "city": "Hong Kong",
+          "state": "Hong Kong",
+          "country": "China",
+          "geoPoint": {
+            "lat": 22.27832,
+            "lon": 114.17469
+          }
+        },
+        {
+          "facility": "Prince of Wales Hospital",
+          "city": "Shatin",
+          "state": "Hong Kong",
+          "country": "China",
+          "geoPoint": {
+            "lat": 22.38333,
+            "lon": 114.18333
+          }
+        },
+        {
+          "facility": "Fu Wai Hospital",
+          "city": "Beijing",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        },
+        {
+          "facility": "Zhejiang hospital Hangzhou",
+          "city": "Hangzhou",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.29365,
+            "lon": 120.16142
+          }
+        },
+        {
+          "facility": "Zhongshan hospital Shanghai",
+          "city": "Shanghai",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        },
+        {
+          "facility": "Medanta-Medicity",
+          "city": "Gurgaon",
+          "state": "Haryana",
+          "country": "India",
+          "geoPoint": {
+            "lat": 28.4601,
+            "lon": 77.02635
+          }
+        },
+        {
+          "facility": "Fortis Escorts Health Institute, New Delhi",
+          "city": "New Delhi",
+          "state": "New Delhi",
+          "country": "India",
+          "geoPoint": {
+            "lat": 28.62137,
+            "lon": 77.2148
+          }
+        },
+        {
+          "facility": "CARE Hospital Nampally, Hyderabad",
+          "city": "Hyderabad",
+          "country": "India",
+          "geoPoint": {
+            "lat": 17.38405,
+            "lon": 78.45636
+          }
+        },
+        {
+          "facility": "Tokyo Women's Medical Univesity Hospital",
+          "city": "Shinjuku",
+          "state": "Tokyo",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.69115,
+            "lon": 139.70854
+          }
+        },
+        {
+          "facility": "Okayama University Hospital",
+          "city": "Okayama",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 34.65,
+            "lon": 133.93333
+          }
+        },
+        {
+          "facility": "Institut Jantung Negara",
+          "city": "Kuala Lumpur",
+          "country": "Malaysia",
+          "geoPoint": {
+            "lat": 3.1412,
+            "lon": 101.68653
+          }
+        },
+        {
+          "facility": "National Heart Center",
+          "city": "Singapore",
+          "country": "Singapore",
+          "geoPoint": {
+            "lat": 1.28967,
+            "lon": 103.85007
+          }
+        },
+        {
+          "facility": "National University Heart Center Singapore",
+          "city": "Singapore",
+          "country": "Singapore",
+          "geoPoint": {
+            "lat": 1.28967,
+            "lon": 103.85007
+          }
+        },
+        {
+          "facility": "Tan Tock Seng Hospital",
+          "city": "Singapore",
+          "country": "Singapore",
+          "geoPoint": {
+            "lat": 1.28967,
+            "lon": 103.85007
+          }
+        },
+        {
+          "facility": "Korea University Medical Center",
+          "city": "Seoul",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Seoul ASAN Medical Center",
+          "city": "Seoul",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Yonsei University Medical Center - Severance Hospital",
+          "city": "Seoul",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Chang Gung Memorial Hospital",
+          "city": "Linkou District",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 25.07777,
+            "lon": 121.39348
+          }
+        },
+        {
+          "facility": "Her Majesty's Cardiac Center, Siriraj Hospital, Mahidol University",
+          "city": "Bangkok",
+          "country": "Thailand",
+          "geoPoint": {
+            "lat": 13.75398,
+            "lon": 100.50144
+          }
+        },
+        {
+          "facility": "Ramathibodi Hospital, Mahidol University",
+          "city": "Bangkok",
+          "country": "Thailand",
+          "geoPoint": {
+            "lat": 13.75398,
+            "lon": 100.50144
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D002037",
+          "term": "Bundle-Branch Block"
+        },
+        {
+          "id": "D054143",
+          "term": "Heart Failure, Systolic"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D006327",
+          "term": "Heart Block"
+        },
+        {
+          "id": "D001145",
+          "term": "Arrhythmias, Cardiac"
+        },
+        {
+          "id": "D000075224",
+          "term": "Cardiac Conduction System Disease"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

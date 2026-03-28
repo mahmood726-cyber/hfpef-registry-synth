@@ -1,0 +1,291 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06197503",
+      "orgStudyIdInfo": {
+        "id": "PHYSTAVI II"
+      },
+      "organization": {
+        "fullName": "Hospital Clinic of Barcelona",
+        "class": "OTHER"
+      },
+      "briefTitle": "Randomized Study of Physiological vs Right Ventricular Pacing in Patients With Normal Ventricular Function Post TAVI",
+      "officialTitle": "Ranodmized Study of Physiological vs Right Ventricular Pacing in Patients With Normal Ventricular Function Post TAVI (PHYSTAVI II)",
+      "acronym": "PHYSTAVIII"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-03",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-11-30",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-12-09",
+      "studyFirstSubmitQcDate": "2024-01-08",
+      "studyFirstPostDateStruct": {
+        "date": "2024-01-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-03-14",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-03-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Josep Lluis Mont Girbau",
+        "investigatorTitle": "Head of Arrhythmia Research.",
+        "investigatorAffiliation": "Hospital Clinic of Barcelona"
+      },
+      "leadSponsor": {
+        "name": "Hospital Clinic of Barcelona",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Single-center randomized trial in patients with pacing indication (AV block) after TAVI (transfemoral aortic valve implantation) and LVEF\\> 50%, that aims to study the percentage of patients who improve at 12 months in a combined clinical endpoint.",
+      "detailedDescription": "There is currently no evidence of the best mode of definitive pacing after TAVI in patients with preserved systolic ventricular function and AV block. Through this study, investigators intend to elucidate the best post TAVI pacing strategy, comparing the effect of right apical pacing vs. physiological pacing on the evolution of both echocardiographic and clinical parameters.\n\nInvestigators will include 24 patients without ventricular dysfunction (LVEF\\> 50%) and with AV block pacing indication after TAVI.\n\nPatients will be randomized to 2 types of pacing (parallel randomized trial): physiological or right ventricular pacing (conventional).\n\nPHYS-TAVI trial will analyze the following parameters in the 2 groups: survival; NYHA class; distance in the 6-minute walking test; hospital admissions; left ventricular function; echocardiographic asynchrony (strain and flash septal); NTproBNP; and quality of life/symptoms with the Kansas City Cardiomyopathy Questionnaire test (KCCQ-12)\n\nClinical, and echocardiographic follow-up will be performed for 1 year.\n\nInclusion of 24 more patients to those already included in the context of PHYSTAVI I (NCT04482816). Exploratory trial."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Transcatheter Aortic Valve Implantation",
+        "Physiological Pacing",
+        "Right Ventricular Pacing",
+        "AV Block",
+        "Preserved Left Ventricular Systolic Function"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 48,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Conduction system pacing",
+          "type": "EXPERIMENTAL",
+          "description": "Lead placed in the His-Purkinje system (His or left bundle branch) in order to achieve QRS shortening and physiologic pacing.\n\nCrossover from physiological pacing to right ventricular pacing will be allowed in case of failed His bundle pacing or left bundle branch pacing.",
+          "interventionNames": [
+            "Procedure: Conduction system pacing"
+          ]
+        },
+        {
+          "label": "Right ventricular pacing",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Lead placed in the right ventricle (conventional pacing).",
+          "interventionNames": [
+            "Procedure: Right ventricular pacing"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "Conduction system pacing",
+          "description": "Left bundle branch pacing or His bundle branch pacing",
+          "armGroupLabels": [
+            "Conduction system pacing"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Right ventricular pacing",
+          "description": "Conventional pacing",
+          "armGroupLabels": [
+            "Right ventricular pacing"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Clinical combined endpoint: survival; and improvement > 1 point in NYHA class or > 25% increase in the distance covered in the 6-minute walking test.",
+          "description": "Determine the percentage of patients who improve at 12 months on a clinical combined endpoint: survival; and improvement \\> 1 point in NYHA class or \\> 25% increase in the distance covered in the 6-minute walking test.",
+          "timeFrame": "12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in left ventricular ejection fraction.",
+          "description": "Left ventricular ejection fraction (LVEF %) measured with Simpson method with echocardiography (Delta left ventricular ejection fraction: 12 months LVEF - baseline LVEF).",
+          "timeFrame": "12 months."
+        },
+        {
+          "measure": "Correction of echocardiographic asynchrony: septal flash expressed in mm.",
+          "description": "Correction of septal flash determined with echocardiography (M mode).",
+          "timeFrame": "30 days; 12 months."
+        },
+        {
+          "measure": "Distance covered in the 6-minute walking test.",
+          "description": "Distance in meters walked in 6 minutes.",
+          "timeFrame": "30 days; 12 months."
+        },
+        {
+          "measure": "Change in NYHA (New York Heart Association) functional class.",
+          "description": "NYHA functional class I, II, III, IV.",
+          "timeFrame": "30 days; 12 months."
+        },
+        {
+          "measure": "Change in degree of mitral regurgitation.",
+          "description": "Mitral regurgitation (MR) measured with echocardiography. The severity of MR graded as absent (0), mild (1), moderate (2), moderate-severe (3), or severe (4).",
+          "timeFrame": "30 days; 12 months."
+        },
+        {
+          "measure": "Change in NTproBNP.",
+          "description": "NTproBNP blood levels.",
+          "timeFrame": "Baseline; 12 months."
+        },
+        {
+          "measure": "Hospitalization due to heart failure.",
+          "description": "Hospitalization: patient hospitalization (yes/no).",
+          "timeFrame": "12 months."
+        },
+        {
+          "measure": "QRS duration.",
+          "description": "QRS duration (milliseconds) measured with a 12-lead ECG (200mm/s).",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Score on quality of life/symptoms Questionnaire (KCCQ-12 Kansas City Cardiomyopathy Questionnaire).",
+          "description": "Score in Kansas City Cardiomyopathy Questionnaire-12: (higher=better).",
+          "timeFrame": "30 days; 12 months."
+        },
+        {
+          "measure": "Correction of global longitudinal strain",
+          "description": "Global longitudinal strain assessed with two-dimensional speckle-tracking echocardiography",
+          "timeFrame": "30 days; 12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Successful implantation of TAVI according to VARC-3 criteria.\n* Indication of cardiac pacing due to AV block according to ESC Guidelines.\n* LVEF\\> 50%.\n* The patient must indicate their acceptance to participate in the study by signing an informed consent document.\n\nExclusion Criteria:\n\n* Ventricular dysfunction: LVEF \\<50%.\n* Transapical TAVI.\n* Participating currently in a clinical investigation that includes an active treatment.\n* Patients with left bundle branch block but without indication of pacing (AV block).\n* Life expectancy \\<12 months.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Lluís Mont, MD, PhD",
+          "role": "CONTACT",
+          "phone": "93 2271778 Ext. 2094",
+          "email": "lmont@clinic.cat"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Lluís Mont, MD, PhD",
+          "affiliation": "Hospital Clínic de Barcelona. IDIBAPS",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hospital Clínic de Barcelona",
+          "status": "RECRUITING",
+          "city": "Barcelona",
+          "zip": "08036",
+          "country": "Spain",
+          "contacts": [
+            {
+              "name": "Lluís Mont, MD, PhD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054537",
+          "term": "Atrioventricular Block"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006327",
+          "term": "Heart Block"
+        },
+        {
+          "id": "D001145",
+          "term": "Arrhythmias, Cardiac"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D000075224",
+          "term": "Cardiac Conduction System Disease"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

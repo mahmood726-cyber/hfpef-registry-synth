@@ -1,0 +1,298 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00419640",
+      "orgStudyIdInfo": {
+        "id": "CR04032AF"
+      },
+      "organization": {
+        "fullName": "Abbott Medical Devices",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "SAFE Study - Septal Pacing for Atrial Fibrillation Suppression Evaluation",
+      "officialTitle": "Septal Pacing for Atrial Fibrillation Suppression Evaluation",
+      "acronym": "SAFE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2019-02",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2005-05"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2012-02",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2012-11",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2007-01-08",
+      "studyFirstSubmitQcDate": "2007-01-08",
+      "studyFirstPostDateStruct": {
+        "date": "2007-01-09",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2019-02-01",
+      "lastUpdatePostDateStruct": {
+        "date": "2019-02-04",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Abbott Medical Devices",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a randomized, parallel, single-blinded multi-center study. The objective is to compare the long term clinical outcomes among the site of atrial pacing and to compare the long term effect of the atrial fibrillation (AF) Suppression algorithm."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Atrial Fibrillation"
+      ],
+      "keywords": [
+        "Sinus node disease",
+        "AV node disease"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 385,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "LAS + DAO ON",
+          "type": "EXPERIMENTAL",
+          "description": "The right atrial lead is placed in the low atrial septal position and the DAO algorithm is turned ON.",
+          "interventionNames": [
+            "Device: Pacemaker implantation with RA lead in LAS position"
+          ]
+        },
+        {
+          "label": "LAS + DAO OFF",
+          "type": "EXPERIMENTAL",
+          "description": "The right atrial lead is placed in the low atrial septal position and the DAO algorithm is turned OFF.",
+          "interventionNames": [
+            "Device: Pacemaker implantation with RA lead in LAS position"
+          ]
+        },
+        {
+          "label": "RAA + DAO ON",
+          "type": "EXPERIMENTAL",
+          "description": "The right atrial lead is placed in the right atrial appendage position and the DAO algorithm is turned ON.",
+          "interventionNames": [
+            "Device: Pacemaker implantation with RA lead in RAA position"
+          ]
+        },
+        {
+          "label": "RAA + DAO OFF",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "The right atrial lead is placed in the right atrial appendage position and the DAO algorithm is turned OFF.",
+          "interventionNames": [
+            "Device: Pacemaker implantation with RA lead in RAA position"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Pacemaker implantation with RA lead in LAS position",
+          "description": "Pacemaker implantation with RA lead placed in low atrial septal position",
+          "armGroupLabels": [
+            "LAS + DAO ON"
+          ],
+          "otherNames": [
+            "Identity ADx DR device"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Pacemaker implantation with RA lead in LAS position",
+          "description": "Pacemaker implantation with RA lead placed in low atrial septal position",
+          "armGroupLabels": [
+            "LAS + DAO OFF"
+          ],
+          "otherNames": [
+            "Identity ADx DR pacemaker"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Pacemaker implantation with RA lead in RAA position",
+          "description": "Pacemaker implantation with RA lead placed in right atrial appendage position",
+          "armGroupLabels": [
+            "RAA + DAO ON"
+          ],
+          "otherNames": [
+            "Identity ADx DR pacemaker"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Pacemaker implantation with RA lead in RAA position",
+          "description": "Pacemaker implantation with RA lead placed in right atrial appendage position",
+          "armGroupLabels": [
+            "RAA + DAO OFF"
+          ],
+          "otherNames": [
+            "Identity ADx DR pacemaker"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Persistent AF and chronic AF",
+          "timeFrame": "2 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Device diagnostic data: number of atrial high rate episode, mode switch episode and AF burden",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "Number of cardioversions",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "Safety and efficacy of low septal pacing",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "Echocardiogram (Echo) parameters include left ventricular ejection fraction (LVEF) and diastolic index using Doppler Echo",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "Quality-of-life questionnaire: Short Form-36 (SF-36)",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "Major cardiovascular events: heart failure, stroke, hospitalization, and cardiovascular mortality",
+          "timeFrame": "2 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Have a history of paroxysmal AF with documented AF episode within the last 6 months; documentation of AF is required. It can be documented by one of the following:\n\n   * Holter documentation and the strip must be at least 30 seconds; OR\n   * one page of 12-lead electrocardiogram (ECG); OR\n   * transtelephonic recording for more than 15 seconds.\n2. Have a conventional indication for a pacemaker due to either sinus or atrioventricular (AV) node diseases.\n3. Provide written informed consent for study participation and be willing and able to comply with the prescribed follow-up tests and schedule of evaluations.\n4. Be at least 18 years old.\n\nExclusion Criteria:\n\n1. Already implanted with a pacemaker or implantable cardioverter defibrillator (ICD).\n2. Are expected to have heart surgery within the next 6 months.\n3. Have angina pectoris, New York Heart Association (NYHA) Class III or Class IV.\n4. Are expected not to be able to tolerate high rate pacing.\n5. Have less than 12 months' life expectancy.\n6. Are on the cardiac transplantation list.\n7. Are in chronic AF.\n8. Have a reversible aetiology of AF (e.g., hyperthyroidism, acute post-cardiac surgery AF, etc.).",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Chu-Pak Lau, Prof.",
+          "affiliation": "The University of Hong Kong",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Queen Mary Hospital, The University Hospital of Hong Kong",
+          "city": "Hong Kong",
+          "country": "Hong Kong",
+          "geoPoint": {
+            "lat": 22.27832,
+            "lon": 114.17469
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "23868858",
+          "type": "DERIVED",
+          "citation": "Lau CP, Tachapong N, Wang CC, Wang JF, Abe H, Kong CW, Liew R, Shin DG, Padeletti L, Kim YH, Omar R, Jirarojanakorn K, Kim YN, Chen MC, Sriratanasathavorn C, Munawar M, Kam R, Chen JY, Cho YK, Li YG, Wu SL, Bailleul C, Tse HF; Septal Pacing for Atrial Fibrillation Suppression Evaluation Study Group. Prospective randomized study to assess the efficacy of site and rate of atrial pacing on long-term progression of atrial fibrillation in sick sinus syndrome: Septal Pacing for Atrial Fibrillation Suppression Evaluation (SAFE) Study. Circulation. 2013 Aug 13;128(7):687-93. doi: 10.1161/CIRCULATIONAHA.113.001644. Epub 2013 Jul 18."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001281",
+          "term": "Atrial Fibrillation"
+        },
+        {
+          "id": "D012804",
+          "term": "Sick Sinus Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001145",
+          "term": "Arrhythmias, Cardiac"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D001146",
+          "term": "Arrhythmia, Sinus"
+        },
+        {
+          "id": "D006327",
+          "term": "Heart Block"
+        },
+        {
+          "id": "D000075224",
+          "term": "Cardiac Conduction System Disease"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

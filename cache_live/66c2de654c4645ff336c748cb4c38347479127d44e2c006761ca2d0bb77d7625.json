@@ -1,0 +1,461 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05613426",
+      "orgStudyIdInfo": {
+        "id": "HenanICE202204"
+      },
+      "organization": {
+        "fullName": "Henan Institute of Cardiovascular Epidemiology",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effect of Very Early and Rapid Lowering Cholesterol With Evolocumab on Left Ventricular Remodeling in Patients With Anterior STEMI Undergoing Primary PCI",
+      "officialTitle": "Effect of Very Early and Rapid Lowering Cholesterol With Evolocumab on Left Ventricular Remodeling in Patients With Anterior ST Elevation Myocardial Infarction Undergoing Primary Percutaneous Coronary Intervention (EVALUATE-STEMI Trial): a Prospective, Multicenter, Open-label, Adjudicator-blinded, Randomized Clinical Trial",
+      "acronym": "EVALUATE-STEMI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-12",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-04-03",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-12-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-10-18",
+      "studyFirstSubmitQcDate": "2022-11-04",
+      "studyFirstPostDateStruct": {
+        "date": "2022-11-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-12-26",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-12-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Chuanyu Gao",
+        "investigatorTitle": "Vice President, Chief of Cardiology Department",
+        "investigatorAffiliation": "Henan Institute of Cardiovascular Epidemiology"
+      },
+      "leadSponsor": {
+        "name": "Henan Institute of Cardiovascular Epidemiology",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "For patients with anterior ST elevation myocardial infarction (STEMI) undergoing primary percutaneous coronary intervention (PCI), whether early application of proprotein convertase subtilisin kexin type 9 (PCSK9) inhibitors to rapidly reduce low-density lipoprotein cholesterol (LDL-C) before PCI could effectively inhibit left ventricular remodeling has been rarely reported. The aim of this study was to investigate the effect of early application of PCSK9 inhibitors Evolocumab to rapidly reduce LDL-C levels before primary PCI treatment on left ventricular remodeling in STEMI patients.\n\nEligible patients were randomly randomized 1:1:1 to one of the following three groups immediately after enrollment: (1) Intensive statin group: rosuvastatin 20 mg per day, in addition to usual therapy; (2) Combined intensive statin and PCSK9 inhibitor group: rosuvastatin 20 mg per day and subcutaneous injection of evolocumab 140 mg twice a month, for at least 3 months, and preferably 6 months; (3) PCSK9 inhibitor alone group: subcutaneous injection of evolocumab 140 mg, twice a month for at least 3 months and preferably 6 months."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ST Elevation Myocardial Infarction (STEMI)"
+      ],
+      "keywords": [
+        "ST Elevation Myocardial Infarction",
+        "percutaneous coronary intervention",
+        "PCSK9 Inhibitors",
+        "left ventricular remodeling"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 330,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intensive statin group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Rosuvastatin, 20 mg per day after randomization",
+          "interventionNames": [
+            "Drug: Rosuvastatin 20 mg"
+          ]
+        },
+        {
+          "label": "Combined intensive statin and PCSK9 inhibitor group",
+          "type": "EXPERIMENTAL",
+          "description": "Evolocumab, 140 mg twice a month after randomization, and Rosuvastatin, 20 mg per day after randomization",
+          "interventionNames": [
+            "Drug: Rosuvastatin 20 mg",
+            "Drug: Evolocumab 140 mg/1 ml Subcutaneous Solution [REPATHA]"
+          ]
+        },
+        {
+          "label": "PCSK9 inhibitor alone group",
+          "type": "EXPERIMENTAL",
+          "description": "Evolocumab, 140 mg twice a month after randomization",
+          "interventionNames": [
+            "Drug: Evolocumab 140 mg/1 ml Subcutaneous Solution [REPATHA]"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Rosuvastatin 20 mg",
+          "description": "Very early use of Rosuvastatin before primary PCI in anterior STEMI",
+          "armGroupLabels": [
+            "Combined intensive statin and PCSK9 inhibitor group",
+            "Intensive statin group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Evolocumab 140 mg/1 ml Subcutaneous Solution [REPATHA]",
+          "description": "Very early use of Evolocumab before primary PCI in anterior STEMI",
+          "armGroupLabels": [
+            "Combined intensive statin and PCSK9 inhibitor group",
+            "PCSK9 inhibitor alone group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in left ventricular ejection fraction (LVEF)",
+          "description": "Echocardiography Core Laboratory, blinded analysis",
+          "timeFrame": "Baseline and 12 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in left ventricular end diastolic/systolic diameter",
+          "description": "Echocardiography Core Laboratory, blinded analysis",
+          "timeFrame": "Baseline and 12 weeks"
+        },
+        {
+          "measure": "Change in left ventricular end diastolic/systolic volume",
+          "description": "Echocardiography Core Laboratory, blinded analysis",
+          "timeFrame": "Baseline and 12 weeks"
+        },
+        {
+          "measure": "A composite of cardiovascular death, recurrent myocardial infarction, ischemic stroke, and hospitalization for heart failure",
+          "timeFrame": "12 weeks, 52 weeks"
+        },
+        {
+          "measure": "Proportion of LDL-C < 1.4 mmol/L",
+          "timeFrame": "One week, 12 weeks"
+        },
+        {
+          "measure": "Thrombolysis in Myocardial Infarction (TIMI) flow grade",
+          "timeFrame": "TIMI flow in culprit coronary artery at first coronary angiography, and immediately after primary PCI within 12 hours of onset"
+        },
+        {
+          "measure": "Level of troponin",
+          "timeFrame": "24 hours, 48 hours, and at hospital discharge, an average of 10 days after randomization"
+        },
+        {
+          "measure": "Number of patients with adverse events and serious adverse events",
+          "timeFrame": "At hospital discharge, an average of 10 days after randomization"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 18-75 years\n* Persistent chest pain or chest discomfort\n* Onset within 12 hours\n* ST-segment elevation ≥0.1 millivolt in two adjacent precordial leads, or a new-onset left bundle branch block with dynamic changes\n* Primary PCI is planned\n\nExclusion Criteria:\n\n* Contraindications to Statins or PCSK9 inhibitors\n* Prior intravenous thrombolytic therapy\n* Prior use of Statins, PCSK9 inhibitors or Ezetimibe\n* Cardiogenic shock\n* Acute heart failure or pulmonary edema\n* Prior chronic heart failure\n* Severe hepatic and renal insufficiency (alanine aminotransferase ≥5 upper limit of normal; estimated glomerular filtration rate \\<30ml/min/1.73m2, or on dialysis)\n* Prolonged (\\> 20 minutes) cardiopulmonary resuscitation\n* Definite mechanical complications (including ventricular septal perforation, or rupture of the Papillary tendon bundle, or rupture of the left ventricular free wall)\n* Malignant arrhythmias that are difficult to control with drugs\n* Severe chronic obstructive pulmonary disease or respiratory failure\n* Severe infection\n* Neurological disorders\n* Bleeding history of cerebrovascular, gastrointestinal, respiratory, urinary or other organs within the last month\n* Active bleeding or bleeding diatheses\n* Use of anticoagulants\n* Malignant tumors or other pathophysiological conditions with an expected survival time of less than 1 year\n* Pregnant or lactating women",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "You Zhang, Doctor",
+          "role": "CONTACT",
+          "phone": "+86 37158681037",
+          "email": "youzhangww@hotmail.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "The People's Hospital of Gongyi",
+          "status": "RECRUITING",
+          "city": "Gongyi",
+          "state": "Henan",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Lei Li",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Lei Li",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.75534,
+            "lon": 113.01137
+          }
+        },
+        {
+          "facility": "Kaifeng Central Hospital",
+          "status": "RECRUITING",
+          "city": "Kaifeng",
+          "state": "Henan",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Jieyun Liu",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Lei Qin",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.7986,
+            "lon": 114.30742
+          }
+        },
+        {
+          "facility": "The People's Hospital of Changyuan",
+          "status": "RECRUITING",
+          "city": "Xinxiang",
+          "state": "Henan",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Guangyan He",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Ruiyang Chen",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.19033,
+            "lon": 113.80151
+          }
+        },
+        {
+          "facility": "Hopeshine Minsheng Hospital of Xinzheng",
+          "status": "RECRUITING",
+          "city": "Xinzheng",
+          "state": "Henan",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yanhong Li",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Yanhong Li",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.3966,
+            "lon": 113.74162
+          }
+        },
+        {
+          "facility": "The People's Hospital of Xuchang",
+          "status": "RECRUITING",
+          "city": "Xuchang",
+          "state": "Henan",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Shuya Zhou",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Fei Xing, Master",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.03189,
+            "lon": 113.86299
+          }
+        },
+        {
+          "facility": "Fuwai Central China Cardiovascular Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Zhengzhou",
+          "state": "Henan",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Junhui Zhang, Doctor",
+              "role": "CONTACT",
+              "phone": "008637158681033"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.75778,
+            "lon": 113.64861
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        },
+        {
+          "id": "D020257",
+          "term": "Ventricular Remodeling"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D020763",
+          "term": "Pathological Conditions, Anatomical"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000068718",
+          "term": "Rosuvastatin Calcium"
+        },
+        {
+          "id": "C577155",
+          "term": "evolocumab"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013449",
+          "term": "Sulfonamides"
+        },
+        {
+          "id": "D000577",
+          "term": "Amides"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D005464",
+          "term": "Fluorobenzenes"
+        },
+        {
+          "id": "D006845",
+          "term": "Hydrocarbons, Fluorinated"
+        },
+        {
+          "id": "D006846",
+          "term": "Hydrocarbons, Halogenated"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D013450",
+          "term": "Sulfones"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D011743",
+          "term": "Pyrimidines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

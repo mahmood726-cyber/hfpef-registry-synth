@@ -1,0 +1,3007 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03532009",
+      "orgStudyIdInfo": {
+        "id": "D9484C00001"
+      },
+      "organization": {
+        "fullName": "AstraZeneca",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Potassium Reduction Initiative to Optimize RAAS Inhibition Therapy With Sodium Zirconium Cyclosilicate in Heart Failure",
+      "officialTitle": "A Phase II, Randomised, Double-Blind, Placebo Controlled, Parallel-Group, Multicentre, Three Month Duration Potassium Reduction Initiative to Optimize RAAS Inhibition Therapy With Sodium Zirconium Cyclosilicate in Heart Failure",
+      "acronym": "PRIORITIZE HF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-05",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Study stopped early due to the COVID-19 pandemic",
+      "startDateStruct": {
+        "date": "2018-06-26",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-05-22",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-05-22",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2018-03-29",
+      "studyFirstSubmitQcDate": "2018-05-09",
+      "studyFirstPostDateStruct": {
+        "date": "2018-05-22",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2021-05-20",
+      "resultsFirstSubmitQcDate": "2021-05-20",
+      "resultsFirstPostDateStruct": {
+        "date": "2021-06-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-05-20",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-06-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "AstraZeneca",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is an international, multicentre, parallel-group, randomised, double-blind, placebo controlled, phase II study to evaluate the benefits and risks of using sodium zirconium cyclosilicate (ZS) to initiate and intensify renin angiotensin aldosterone system inhibitor (RAASi) therapy in heart failure patients.",
+      "detailedDescription": "Patients with chronic heart failure (NYHA II-IV) and serum potassium \\> 5.0 mmol/L or at high risk of developing hyperkalaemia will be enrolled. Patients signing informed consent will be screened for up to 14 days. Patients meeting the inclusion criteria, but not the exclusion criteria, are then randomized in a 1:1 ratio to receive ZS or placebo for 3 months while titrating RAASi therapies. Approximately 280 patients will be randomized in the study. Study treatment in this study refers to ZS or placebo, while RAASi therapies are considered background therapy and will not be provided by the study sponsor. Patients will participate in the study for approximately 16 to 18 weeks in total, depending on the duration of the screening period. A Safety Review Committee will be established to review emerging safety data"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ],
+      "keywords": [
+        "Heart Failure",
+        "Chronic Heart Failure",
+        "Hyperkalaemia"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 182,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Sodium Zirconium Cyclosilicate (ZS)",
+          "type": "EXPERIMENTAL",
+          "description": "Powder for oral suspension",
+          "interventionNames": [
+            "Drug: Sodium Zirconium Cyclosilicate"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Powder for oral suspension",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Sodium Zirconium Cyclosilicate",
+          "description": "Oral use for approximately 3 months",
+          "armGroupLabels": [
+            "Sodium Zirconium Cyclosilicate (ZS)"
+          ],
+          "otherNames": [
+            "ZS; Lokelma"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Oral use for approximately 3 months",
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "otherNames": [
+            "PBO"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of Patients Receiving Different Categories of RAASi Treatments at Month 3",
+          "description": "RAASi treatment categories:\n\n* No, or less than target dose, angiotensin converting enzyme inhibitors (ACEi)/ angiotensin receptor blockers (ARB)/ angiotensin receptor/ neprolysin inhibitors (ARNI) and no mineralocorticoid receptor antagonist (MRA);\n* ACEi/ARB/ARNI at target dose and no MRA;\n* MRA at less than target dose;\n* MRA at target dose.\n\nMissing values at 3 months were imputed using a multiple imputation approach with 10000 imputations. The imputation model included RAASi category at 3 months as the outcome variable and the following covariates: RAASi category, local lab-K, eGFR and systolic blood pressure measured at the last visit before the 3 months (starting with the randomisation visit) when all the covariates' data were available.",
+          "timeFrame": "At the end of the treatment visit (Month 3)"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Number of Patients Who Experienced Adverse Events (AEs) During the Study",
+          "description": "An AE is the development of any untoward medical occurrence in a patient or clinical study patient administered an investigational product (IP) and which does not necessarily have a causal relationship with the IP. An AE can be any unfavourable and unintended sign, symptom, or disease temporally associated with the use of an IP.\n\nA serious adverse event (SAE) is an AE occurring during any study phase, that fulfils one or more of the following criteria:\n\n* Results in death;\n* Is immediately life-threatening;\n* Requires in-patient hospitalisation or prolongation of existing hospitalisation;\n* Results in persistent or significant disability or incapacity;\n* Is a congenital abnormality or birth defect;\n* Is an important medical event that may jeopardise the patient or may require medical treatment to prevent one of the outcomes listed above.",
+          "timeFrame": "From Day 1 of treatment up to the end of the follow-up period (Week 17)"
+        },
+        {
+          "measure": "Number of Patients Who Experienced Clinically Important Abnormalities in Clinical Laboratory Parameters",
+          "description": "The number of patients who experienced clinically important abnormalities in clinical laboratory assessments as assessed by the Investigator are presented. Clinically important abnormalities in clinical laboratory parameters were reported as AEs. Clinical laboratory assessments included clinical chemistry, haematology and urinalysis performed at the central laboratory.",
+          "timeFrame": "From Day 1 of treatment up to the end of the follow-up period (Week 17)"
+        },
+        {
+          "measure": "Number of Patients Who Experienced Clinically Important Abnormalities in Vital Signs Measurements",
+          "description": "The number of patients who experienced clinically important abnormalities in vital signs assessments as assessed by the Investigator are presented. Clinically important abnormalities in vital signs measurements were reported as AEs. Vital signs assessments included weight, pulse, and systolic and diastolic blood pressure measurements.",
+          "timeFrame": "From Day 1 of treatment up to the end of the follow-up period (Week 17)"
+        },
+        {
+          "measure": "Number of Patients Who Experienced Clinically Significant Changes in Electrocardiogram (ECG) Measurements",
+          "description": "The number of patients who experienced clinically significant changes in ECG measurements as assessed by the Investigator are presented. Clinically important abnormalities in ECG measurements were reported as AEs. 12-lead ECGs were obtained using a digital ECG machine that automatically calculates the heart rate and measures PR, QRS, and QT (using QT interval corrected by Fredericia's algorithm) intervals.",
+          "timeFrame": "From Day 1 of treatment up to the end of the follow-up period (Week 17)"
+        },
+        {
+          "measure": "Number of Patients Who Experienced Low and High S-K Levels",
+          "description": "The S-K levels used for this analysis were based on the measurements obtained by the central laboratory. Patients with S-K levels \\< 3.5 mmol/L were considered to have low S-K levels. Patients with S-K levels \\> 5.0 mmol/L were considered to have high S-K levels.",
+          "timeFrame": "From Day 1 of treatment up to the end of the follow-up period (Week 17)"
+        },
+        {
+          "measure": "Number of Events of Low and High S-K Levels",
+          "description": "The S-K levels used for this analysis were based on the measurements obtained by the central laboratory. Patients with S-K levels \\< 3.5 mmol/L were considered to have had an event of low S-K levels. Patients with S-K levels \\> 5.0 mmol/L were considered to have had an event of high S-K levels.",
+          "timeFrame": "From Day 1 of treatment up to the end of the follow-up period (Week 17)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Capable of giving signed informed consent which includes compliance with the requirements and restrictions listed in the informed consent form (ICF) and in this protocol.\n2. Provision of signed and dated, written informed consent form prior to any mandatory study specific procedures, sampling, and analyses.\n3. Provision of signed and dated written genetic informed consent prior to collection of sample for genetic analysis. Individuals refusing to provide informed consent for genetic testing may still be included in the study, but will not have to provide samples for genetic analysis.\n4. Subject must be ≥18 years of age inclusive, at the time of signing the informed consent form.\n5. Individuals with established documented diagnosis of symptomatic Heart Failure with Reduced Ejection Fraction (HFrEF, NYHA functional class II-IV), which has been present for at least 3 months.\n6. Individuals with left ventricular ejection fraction ≤ 40% (any measurement made within the past 12 months using echocardiography, multiple gate acquisition scan, computer tomography scanning, magnetic resonance imaging or ventricular angiography is acceptable, provided no subsequent measurement above 40%).\n7. Individuals receiving background standard of care for HFrEF and treated according to locally recognized guidelines with both drugs and devices, as appropriate. Therapy with ACEi/ARB/ARNI, MRA and beta blocker should have been stable for ≥4 weeks. Subjects who are not being treated with beta blockers because of a contraindication are eligible. Subjects should be taking no MRA or a low dose of MRA (spironolactone, eplerenone, or canrenone) defined as less than or equal to 12.5 mg once a day (QD) or 25 mg every other day (QOD). If patients are taking a low dose MRA, the rationale for the low dose must be the patient could not tolerate a higher dose due to documented hyperkalemia observed at higher doses.\n8. Individuals with mild hyperkalaemia or at risk of developing hyperkalaemia during the study, as defined by meeting all of the criteria in any one of the 3 categories listed below:\n\n   1. eGFR 20-44 ml/min/1.73m2 by CKD-EPI and local lab-K 4.0-5.5 mmol/L inclusive, or\n   2. eGFR 45-59 ml/min/1.73m2 by CKD-EPI and local lab-K 5.1-5.5 mmol/L inclusive, or\n   3. eGFR 45-59 ml/min/1.73m2 by CKD-EPI and local lab-K 4.0-5.0 mmol/L inclusive and a documented history of S-K \\> 5.0 mmol/L due to RAASi.\n9. Women of childbearing potential must have a negative pregnancy test during screening (before first dose of IP) performed locally.\n\nExclusion Criteria:\n\n1. HF due to restrictive cardiomyopathy, active myocarditis, constrictive pericarditis, hypertrophic (obstructive) cardiomyopathy or uncorrected primary valvular disease.\n2. Current acute decompensated HF, hospitalization due to decompensated HF within 4 weeks prior to enrolment, or Myocardial infarction (MI), unstable angina, stroke or transient ischemic attack (TIA) within 12 weeks prior to enrolment.\n3. Coronary revascularization (percutaneous coronary intervention \\[PCI\\] or coronary artery bypass grafting \\[CABG\\]) or valvular repair/replacement within 12 weeks prior to enrolment or planned to undergo any of these operations after randomization.\n4. Implantation of a Cardiac Resynchronization Therapy (CRT) device or Implantable Cardioverter Defibrillator (ICD) within 12 weeks prior to enrolment or intent to perform atrial fibrillation ablation or to implant a CRT device.\n5. Previous cardiac transplantation or implantation of a ventricular assistance device (VAD) or similar device, or transplantation or implantation expected after randomization.\n6. Symptomatic bradycardia or second (Mobitz type 2) or third-degree heart block without a pacemaker.\n7. Symptomatic hypotension or systolic blood pressure (BP) \\<95 mmHg on 2 consecutive measurements.\n8. Receiving dialysis or anticipated by the investigator to require dialysis therapy within 3 months.\n9. Prior history of hypersensitivity to a RAASi drug, including but not limited to development of angioedema, icterus, hepatitis, or neutropenia or thrombocytopenia requiring treatment modification.\n10. Addison's disease or other causes of hypoaldosteronism.\n11. Known hypersensitivity to ZS.\n12. Any condition outside the cardiovascular (CV) and renal disease area, such as but not limited to malignancy, with a life expectancy of less than 2 years based on investigator´s clinical judgement.\n13. Active malignancy requiring treatment.\n14. MRA therapies that are mainly investigational and/or are not widely available as an oral dosing formulation (eg, canrenoate and finerenone) are excluded.\n15. Treated with potassium binding resins such as sodium polystyrene sulfonate (SPS;e.g. Kayexalate®) or calcium polystyrene sulfonate (CPS; e.g. Resonium®) or the cation exchange polymer, patiromer sorbitex calcium (Veltassa®) within 7 days prior to the first dose of study drug.\n16. Treated with potassium supplements within 7 days prior to randomization.\n17. Participation in another clinical study with ZS at any time or treatment with any investigational product (IP) during the last 3 months.\n18. Involvement in the planning and/or conduct of the study (applies to both AstraZeneca staff, AstraZeneca representatives, and/or staff at the study site).\n19. Judgment by the investigator that the subject should not participate in the study if the subject is unlikely to comply with study procedures, restrictions and requirements.\n20. Previous randomisation in the present study.\n21. Subjects with a family history of long QT syndrome, presence of cardiac arrhythmias or conduction defects that require immediate treatment, or a QTc (corrected QT interval) of ≥550 msec.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "150 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Jean-Claude Tardif",
+          "affiliation": "Montreal Heart Institute 5000 Belanger Street, Montreal, PQ Canada H1T1C8",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Research Site",
+          "city": "National City",
+          "state": "California",
+          "zip": "91950",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.67811,
+            "lon": -117.0992
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Stanford",
+          "state": "California",
+          "zip": "94305",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.42411,
+            "lon": -122.16608
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Waterbury",
+          "state": "Connecticut",
+          "zip": "06708",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.55815,
+            "lon": -73.0515
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33133",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "New Smyrna Beach",
+          "state": "Florida",
+          "zip": "32169",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.02582,
+            "lon": -80.927
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Port Charlotte",
+          "state": "Florida",
+          "zip": "33952",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.97617,
+            "lon": -82.09064
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Indianapolis",
+          "state": "Indiana",
+          "zip": "46260",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.76838,
+            "lon": -86.15804
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Alexandria",
+          "state": "Louisiana",
+          "zip": "71301",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 31.31129,
+            "lon": -92.44514
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02115",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Flint",
+          "state": "Michigan",
+          "zip": "48504",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.01253,
+            "lon": -83.68746
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Brooklyn",
+          "state": "New York",
+          "zip": "11204",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.6501,
+            "lon": -73.94958
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Wyomissing",
+          "state": "Pennsylvania",
+          "zip": "19610",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.32954,
+            "lon": -75.96521
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Rapid City",
+          "state": "South Dakota",
+          "zip": "57701",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.08054,
+            "lon": -103.23101
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "El Paso",
+          "state": "Texas",
+          "zip": "79935",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 31.75872,
+            "lon": -106.48693
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Belo Horizonte",
+          "zip": "30140 062",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -19.92083,
+            "lon": -43.93778
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Belo Horizonte",
+          "zip": "30150-240",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -19.92083,
+            "lon": -43.93778
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Brasillia",
+          "zip": "70200-730",
+          "country": "Brazil"
+        },
+        {
+          "facility": "Research Site",
+          "city": "Campina Grande do Sul",
+          "zip": "83430000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -25.30556,
+            "lon": -49.05528
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Campinas",
+          "zip": "13060-080",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.90556,
+            "lon": -47.06083
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Curitiba",
+          "zip": "80010-030",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -25.42778,
+            "lon": -49.27306
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Marília",
+          "zip": "17515000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.21389,
+            "lon": -49.94583
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Porto Alegre",
+          "zip": "90020090",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Rio de Janeiro",
+          "zip": "20241-180",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.90642,
+            "lon": -43.18223
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Santo André",
+          "zip": "09090-790",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.66389,
+            "lon": -46.53833
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "São José do Rio Preto",
+          "zip": "15090-000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -20.81972,
+            "lon": -49.37944
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "São Paulo",
+          "zip": "05403-000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Uberlândia",
+          "zip": "38411-186",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -18.91861,
+            "lon": -48.27722
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Votuporanga",
+          "zip": "15500-003",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -20.42278,
+            "lon": -49.97278
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Plovdiv",
+          "zip": "4003",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.15387,
+            "lon": 24.75001
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Shumen",
+          "zip": "9700",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 43.27064,
+            "lon": 26.92286
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Sofia",
+          "zip": "1202",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.69751,
+            "lon": 23.32415
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Sofia",
+          "zip": "1407",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.69751,
+            "lon": 23.32415
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Sofia",
+          "zip": "1527",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.69751,
+            "lon": 23.32415
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Vancouver",
+          "state": "British Columbia",
+          "zip": "V5Z 1M9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.24966,
+            "lon": -123.11934
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H1T 1C8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Québec",
+          "state": "Quebec",
+          "zip": "G1V 4G5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.81228,
+            "lon": -71.21454
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Saint-Charles-Borromée",
+          "state": "Quebec",
+          "zip": "J6E 6J2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.05007,
+            "lon": -73.46586
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Trois-Rivières",
+          "state": "Quebec",
+          "zip": "G8Z 3R9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.34515,
+            "lon": -72.5477
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Baja",
+          "zip": "6500",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.18299,
+            "lon": 18.95307
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Budapest",
+          "zip": "1051",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Budapest",
+          "zip": "1096",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Budapest",
+          "zip": "1106",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Budapest",
+          "zip": "1122",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Budapest",
+          "zip": "1204",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Hatvan",
+          "zip": "3000",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.66667,
+            "lon": 19.68333
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Kecskemét",
+          "zip": "6000",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.90618,
+            "lon": 19.69128
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Miskolc",
+          "zip": "3529",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 48.10327,
+            "lon": 20.77806
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Nyíregyháza",
+          "zip": "4400",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.95539,
+            "lon": 21.71671
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Pécs",
+          "zip": "7623",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.07617,
+            "lon": 18.22814
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Szentes",
+          "zip": "6600",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.65834,
+            "lon": 20.2608
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Chorzów",
+          "zip": "41-500",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.30582,
+            "lon": 18.9742
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Gdansk",
+          "zip": "80-952",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 54.35227,
+            "lon": 18.64912
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Legnica",
+          "zip": "59-220",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.21006,
+            "lon": 16.1619
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Poznan",
+          "zip": "60-848",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.40692,
+            "lon": 16.92993
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Rzeszów",
+          "zip": "35-055",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.04132,
+            "lon": 21.99901
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Tczew",
+          "zip": "83-110",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 54.09242,
+            "lon": 18.77787
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Brasov",
+          "zip": "500283",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 45.64861,
+            "lon": 25.60613
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Bucharest",
+          "zip": "042122",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 44.43225,
+            "lon": 26.10626
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Cluj-Napoca",
+          "zip": "400001",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 46.76667,
+            "lon": 23.6
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Craiova",
+          "zip": "200642",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 44.31667,
+            "lon": 23.8
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Sibiu",
+          "zip": "550245",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 45.8,
+            "lon": 24.15
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Tg Mures",
+          "zip": "540143",
+          "country": "Romania"
+        },
+        {
+          "facility": "Research Site",
+          "city": "Aramil",
+          "zip": "624002",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 56.6977,
+            "lon": 60.8369
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Krasnoyarsk",
+          "zip": "660062",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 56.03742,
+            "lon": 92.93136
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Moscow",
+          "zip": "121552",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Novosibirsk",
+          "zip": "630055",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.02259,
+            "lon": 82.93175
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Perm",
+          "zip": "614000",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 58.01046,
+            "lon": 56.25017
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Ryazan",
+          "zip": "390039",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 54.62696,
+            "lon": 39.70415
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Saint Petersburg",
+          "zip": "191015",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 59.93863,
+            "lon": 30.31413
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Tver'",
+          "zip": "170036",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 56.85836,
+            "lon": 35.90057
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Yaroslavl",
+          "zip": "150062",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 57.62987,
+            "lon": 39.87368
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Yekaterinburg",
+          "zip": "620039",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 56.85733,
+            "lon": 60.61529
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Brezno",
+          "zip": "97742",
+          "country": "Slovakia",
+          "geoPoint": {
+            "lat": 48.80431,
+            "lon": 19.63631
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Lučenec",
+          "zip": "984 01",
+          "country": "Slovakia",
+          "geoPoint": {
+            "lat": 48.33249,
+            "lon": 19.66708
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Prešov",
+          "zip": "080 01",
+          "country": "Slovakia",
+          "geoPoint": {
+            "lat": 48.99923,
+            "lon": 21.2355
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Svidník",
+          "zip": "08901",
+          "country": "Slovakia",
+          "geoPoint": {
+            "lat": 49.30819,
+            "lon": 21.5703
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "36564955",
+          "type": "DERIVED",
+          "citation": "Tardif JC, Rouleau J, Chertow GM, Al-Shurbaji A, Lisovskaja V, Gustavson S, Zhao Y, Bouabdallaoui N, Desai AS, Chernyavskiy A, Evsina M, Merkely B, McMurray JJV, Pfeffer MA. Potassium reduction with sodium zirconium cyclosilicate in patients with heart failure. ESC Heart Fail. 2023 Apr;10(2):1066-1076. doi: 10.1002/ehf2.14268. Epub 2022 Dec 23."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "redacted CSR synopsis",
+          "url": "https://filehosting-v2.pharmacm.com/api/Attachment/Download?tenantId=80217111&amp;parentIdentifier=D9484C00001&amp;attachmentIdentifier=ab347c2c-a46c-40f8-af1a-9b593087073c&amp;fileName=D9484C00001-CSR_synopsis_Final_Draft_14Apr21_Redacted.pdf&amp;versionIdentifier="
+        },
+        {
+          "label": "redacted SAP",
+          "url": "https://filehosting-v2.pharmacm.com/api/Attachment/Download?tenantId=80217111&amp;parentIdentifier=D9484C00001&amp;attachmentIdentifier=b35e9a27-5346-4ede-af94-00882161bfa1&amp;fileName=C9484C00001-SAP-v2_Final_Draft_14Apr21_Redacted.pdf&amp;versionIdentifier="
+        },
+        {
+          "label": "redacted CSP",
+          "url": "https://filehosting-v2.pharmacm.com/api/Attachment/Download?tenantId=80217111&amp;parentIdentifier=D9484C00001&amp;attachmentIdentifier=ee1e17a2-13a0-40db-98e0-9f41b2ff1c48&amp;fileName=C9484C00001-CSP-v5_Final_Draft_14Apr21_Redacted.pdf&amp;versionIdentifier="
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Qualified researchers can request access to anonymized individual patient-level data from AstraZeneca group of companies sponsored clinical trials via the request portal. All request will be evaluated as per the AZ disclosure commitment: https://astrazenecagrouptrials.pharmacm.com/ST/Submission/Disclosure.\n\nYes, indicates that AZ are accepting requests for IPD, but this does not mean all requests will be shared.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP"
+      ],
+      "timeFrame": "AstraZeneca will meet or exceed data availability as per the commitments made to the EFPIA Pharma Data Sharing Principles. For details of our timelines, please rerefer to our disclosure commitment at https://astrazenecagrouptrials.pharmacm.com/ST/Submission/Disclosure.",
+      "accessCriteria": "When a request has been approved AstraZeneca will provide access to the de-identified individual patient-level data in an approved sponsored tool . Signed Data Sharing Agreement (non-negotiable contract for data accessors) must be in place before accessing requested information. Additionally, all users will need to accept the terms and conditions of the SAS MSE to gain access. For additional details, please review the Disclosure Statements at https://astrazenecagrouptrials.pharmacm.com/ST/Submission/Disclosure.",
+      "url": "https://astrazenecagroup-dt.pharmacm.com/DT/Home"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "Patients were randomised in a 1:1 ratio to receive sodium zirconium cyclosilicate (SZC) or placebo for 3 months while titrating renin-angiotensin aldosterone system inhibitor (RAASi) therapies. The study was prematurely terminated due to the COVID-19 pandemic resulting in a reduced sample size (182 randomised patients as opposed to the planned 280 patients).",
+      "recruitmentDetails": "This study was performed at 64 sites in 9 countries (Brazil, Bulgaria, Canada, Hungary, Poland, Romania, Russia, Slovakia, and the United States of America) between 26 June 2018 and 22 May 2020.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Sodium Zirconium Cyclosilicate",
+          "description": "Patients with serum potassium (S-K) concentration \\> 5.0 millimole/litre (mmol/L) at the last assessment before randomisation received SZC 10 grams (g) orally 3 times daily (tid) for 2 days followed by SZC 5 g once daily (qd) for 3 months.\n\nPatients with S-K concentration ≤ 5.0 mmol/L at the last assessment before randomisation received SZC 5 g orally qd for 3 months.\n\nSZC was up- or down- titrated depending on local laboratory S-K concentration at every study visit."
+        },
+        {
+          "id": "FG001",
+          "title": "Placebo",
+          "description": "Patients with S-K concentration \\> 5.0 mmol/L at the last assessment before randomisation received placebo orally tid for 2 days followed by placebo qd for 3 months.\n\nPatients with S-K concentration ≤ 5.0 mmol/L at the last assessment before randomisation received placebo orally qd for 3 months.\n\nPlacebo was up- or down- titrated depending on local laboratory S-K concentration at every study visit."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "92"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "90"
+                }
+              ]
+            },
+            {
+              "type": "Received Treatment",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "91"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "90"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "90"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "86"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "4"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Other",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Death",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Withdrawal by Patient",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Sodium Zirconium Cyclosilicate",
+          "description": "Patients with S-K concentration \\> 5.0 mmol/L at the last assessment before randomisation received SZC 10 g orally tid for 2 days followed by SZC 5 g qd for 3 months.\n\nPatients with S-K concentration ≤ 5.0 mmol/L at the last assessment before randomisation received SZC 5 g orally qd for 3 months.\n\nSZC was up- or down- titrated depending on local laboratory S-K concentration at every study visit."
+        },
+        {
+          "id": "BG001",
+          "title": "Placebo",
+          "description": "Patients with S-K concentration \\> 5.0 mmol/L at the last assessment before randomisation received placebo orally tid for 2 days followed by placebo qd for 3 months.\n\nPatients with S-K concentration ≤ 5.0 mmol/L at the last assessment before randomisation received placebo orally qd for 3 months.\n\nPlacebo was up- or down- titrated depending on local laboratory S-K concentration at every study visit."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "92"
+            },
+            {
+              "groupId": "BG001",
+              "value": "90"
+            },
+            {
+              "groupId": "BG002",
+              "value": "182"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "72.9",
+                      "spread": "8.8"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "71.0",
+                      "spread": "8.1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "71.9",
+                      "spread": "8.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Age, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "≤ 17 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "18 - 64 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "33"
+                    }
+                  ]
+                },
+                {
+                  "title": "65 - 84 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "65"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "69"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "134"
+                    }
+                  ]
+                },
+                {
+                  "title": "≥ 85 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "15"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "41"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "33"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "74"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "57"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "108"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "29"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "77"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "76"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "153"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "90"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "89"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "179"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "S-K Concentration",
+          "description": "The patient's baseline S-K concentration was measured using the site's local laboratory or an i-STAT device at the last assessment before randomisation.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "≤ 5.0 mmol/L",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "65"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "67"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "132"
+                    }
+                  ]
+                },
+                {
+                  "title": "> 5.0 mmol/L",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "27"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "23"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "50"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "New York Heart Association (NYHA) Functional Classification",
+          "description": "The Investigator evaluated NYHA using the following classifications:\n\nClass I: No limitation of physical activity; Class II: Slight limitation of physical activity. Comfortable at rest. Ordinary physical activity results in fatigue, palpitation, or dyspnea; Class III: Marked limitation of physical activity. Comfortable at rest. Less than ordinary activity causes fatigue, palpitation, or dyspnea; Class IV: Unable to carry on any physical activity without discomfort. Symptoms of heart failure at rest. If any physical activity is undertaken, discomfort increases.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Class I",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Class II",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "61"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "57"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "118"
+                    }
+                  ]
+                },
+                {
+                  "title": "Class III",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "31"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "33"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "64"
+                    }
+                  ]
+                },
+                {
+                  "title": "Class IV",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Left Ventricular Ejection Fraction (LVEF)",
+          "description": "Measured using echocardiography, multiple gate acquisition scan, computer tomography scanning, magnetic resonance imaging or ventricular angiography.",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "LVEF Percentage",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "33.8",
+                      "spread": "5.8"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "33.9",
+                      "spread": "6.1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "33.8",
+                      "spread": "6.0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Estimated Glomerular Filtration Rate (eGFR)",
+          "description": "eGFR was calculated using the chronic kidney disease epidemiology collaboration equation.",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "Millilitre/minute/1.73 metre^2",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "40.0",
+                      "spread": "11.0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "42.7",
+                      "spread": "11.5"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "41.3",
+                      "spread": "11.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Percentage of Patients Receiving Different Categories of RAASi Treatments at Month 3",
+          "description": "RAASi treatment categories:\n\n* No, or less than target dose, angiotensin converting enzyme inhibitors (ACEi)/ angiotensin receptor blockers (ARB)/ angiotensin receptor/ neprolysin inhibitors (ARNI) and no mineralocorticoid receptor antagonist (MRA);\n* ACEi/ARB/ARNI at target dose and no MRA;\n* MRA at less than target dose;\n* MRA at target dose.\n\nMissing values at 3 months were imputed using a multiple imputation approach with 10000 imputations. The imputation model included RAASi category at 3 months as the outcome variable and the following covariates: RAASi category, local lab-K, eGFR and systolic blood pressure measured at the last visit before the 3 months (starting with the randomisation visit) when all the covariates' data were available.",
+          "populationDescription": "All randomised patients with a non-missing value for the RAASi treatment category (after imputation) were included.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "Percentage of Patients",
+          "timeFrame": "At the end of the treatment visit (Month 3)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Sodium Zirconium Cyclosilicate",
+              "description": "Patients with S-K concentration \\> 5.0 mmol/L at the last assessment before randomisation received SZC 10 g orally tid for 2 days followed by SZC 5 g qd for 3 months.\n\nPatients with S-K concentration ≤ 5.0 mmol/L at the last assessment before randomisation received SZC 5 g orally qd for 3 months.\n\nSZC was up- or down- titrated depending on local laboratory S-K concentration at every study visit."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Patients with S-K concentration \\> 5.0 mmol/L at the last assessment before randomisation received placebo orally tid for 2 days followed by placebo qd for 3 months.\n\nPatients with S-K concentration ≤ 5.0 mmol/L at the last assessment before randomisation received placebo orally qd for 3 months.\n\nPlacebo was up- or down- titrated depending on local laboratory S-K concentration at every study visit."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "89"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "87"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "No, or less than target dose ACEi/ARB/ARNI, no MRA",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "14.7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "13.5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ACEi/ARB/ARNI at target dose and no MRA",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "14.7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "15.1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "MRA at less than target dose",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "14.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "24.5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "MRA at target dose",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "56.4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "47.0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "The p-value was obtained by pooling the p-values from Chi-square tests performed on individual data sets using the F-distribution and reflects a global test of no difference in distribution of patients in the respective categories between SZC and placebo groups. The null hypothesis was that there is no difference between SZC and placebo in the distribution of percentage of patients in the 4 RAASi treatment categories. The hypothesis was tested at a significance level of 5%.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.426",
+              "statisticalMethod": "F-test"
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Number of Patients Who Experienced Adverse Events (AEs) During the Study",
+          "description": "An AE is the development of any untoward medical occurrence in a patient or clinical study patient administered an investigational product (IP) and which does not necessarily have a causal relationship with the IP. An AE can be any unfavourable and unintended sign, symptom, or disease temporally associated with the use of an IP.\n\nA serious adverse event (SAE) is an AE occurring during any study phase, that fulfils one or more of the following criteria:\n\n* Results in death;\n* Is immediately life-threatening;\n* Requires in-patient hospitalisation or prolongation of existing hospitalisation;\n* Results in persistent or significant disability or incapacity;\n* Is a congenital abnormality or birth defect;\n* Is an important medical event that may jeopardise the patient or may require medical treatment to prevent one of the outcomes listed above.",
+          "populationDescription": "The Safety analysis set included all patients randomly assigned to study treatment and who took at least one dose of study drug.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "From Day 1 of treatment up to the end of the follow-up period (Week 17)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Sodium Zirconium Cyclosilicate",
+              "description": "Patients with S-K concentration \\> 5.0 mmol/L at the last assessment before randomisation received SZC 10 g orally tid for 2 days followed by SZC 5 g qd for 3 months.\n\nPatients with S-K concentration ≤ 5.0 mmol/L at the last assessment before randomisation received SZC 5 g orally qd for 3 months.\n\nSZC was up- or down- titrated depending on local laboratory S-K concentration at every study visit."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Patients with S-K concentration \\> 5.0 mmol/L at the last assessment before randomisation received placebo orally tid for 2 days followed by placebo qd for 3 months.\n\nPatients with S-K concentration ≤ 5.0 mmol/L at the last assessment before randomisation received placebo orally qd for 3 months.\n\nPlacebo was up- or down- titrated depending on local laboratory S-K concentration at every study visit."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "91"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "90"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Any SAE",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "10"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Any AE leading to discontinuation of IP",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Any AE",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "43"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "47"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Number of Patients Who Experienced Clinically Important Abnormalities in Clinical Laboratory Parameters",
+          "description": "The number of patients who experienced clinically important abnormalities in clinical laboratory assessments as assessed by the Investigator are presented. Clinically important abnormalities in clinical laboratory parameters were reported as AEs. Clinical laboratory assessments included clinical chemistry, haematology and urinalysis performed at the central laboratory.",
+          "populationDescription": "The Safety analysis set included all patients randomly assigned to study treatment and who took at least one dose of study drug.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "From Day 1 of treatment up to the end of the follow-up period (Week 17)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Sodium Zirconium Cyclosilicate",
+              "description": "Patients with S-K concentration \\> 5.0 mmol/L at the last assessment before randomisation received SZC 10 g orally tid for 2 days followed by SZC 5 g qd for 3 months.\n\nPatients with S-K concentration ≤ 5.0 mmol/L at the last assessment before randomisation received SZC 5 g orally qd for 3 months.\n\nSZC was up- or down- titrated depending on local laboratory S-K concentration at every study visit."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Patients with S-K concentration \\> 5.0 mmol/L at the last assessment before randomisation received placebo orally tid for 2 days followed by placebo qd for 3 months.\n\nPatients with S-K concentration ≤ 5.0 mmol/L at the last assessment before randomisation received placebo orally qd for 3 months.\n\nPlacebo was up- or down- titrated depending on local laboratory S-K concentration at every study visit."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "91"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "90"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Anaemia",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Iron deficiency anaemia",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Hypoglycaemia",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Hypertriglyceridaemia",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Hyponatraemia",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Number of Patients Who Experienced Clinically Important Abnormalities in Vital Signs Measurements",
+          "description": "The number of patients who experienced clinically important abnormalities in vital signs assessments as assessed by the Investigator are presented. Clinically important abnormalities in vital signs measurements were reported as AEs. Vital signs assessments included weight, pulse, and systolic and diastolic blood pressure measurements.",
+          "populationDescription": "The Safety analysis set included all patients randomly assigned to study treatment and who took at least one dose of study drug.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "From Day 1 of treatment up to the end of the follow-up period (Week 17)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Sodium Zirconium Cyclosilicate",
+              "description": "Patients with S-K concentration \\> 5.0 mmol/L at the last assessment before randomisation received SZC 10 g orally tid for 2 days followed by SZC 5 g qd for 3 months.\n\nPatients with S-K concentration ≤ 5.0 mmol/L at the last assessment before randomisation received SZC 5 g orally qd for 3 months.\n\nSZC was up- or down- titrated depending on local laboratory S-K concentration at every study visit."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Patients with S-K concentration \\> 5.0 mmol/L at the last assessment before randomisation received placebo orally tid for 2 days followed by placebo qd for 3 months.\n\nPatients with S-K concentration ≤ 5.0 mmol/L at the last assessment before randomisation received placebo orally qd for 3 months.\n\nPlacebo was up- or down- titrated depending on local laboratory S-K concentration at every study visit."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "91"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "90"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Hypotension",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Hypertension",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Hypertensive crisis",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Blood pressure inadequately controlled",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Number of Patients Who Experienced Clinically Significant Changes in Electrocardiogram (ECG) Measurements",
+          "description": "The number of patients who experienced clinically significant changes in ECG measurements as assessed by the Investigator are presented. Clinically important abnormalities in ECG measurements were reported as AEs. 12-lead ECGs were obtained using a digital ECG machine that automatically calculates the heart rate and measures PR, QRS, and QT (using QT interval corrected by Fredericia's algorithm) intervals.",
+          "populationDescription": "The Safety analysis set included all patients randomly assigned to study treatment and who took at least one dose of study drug.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "From Day 1 of treatment up to the end of the follow-up period (Week 17)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Sodium Zirconium Cyclosilicate",
+              "description": "Patients with S-K concentration \\> 5.0 mmol/L at the last assessment before randomisation received SZC 10 g orally tid for 2 days followed by SZC 5 g qd for 3 months.\n\nPatients with S-K concentration ≤ 5.0 mmol/L at the last assessment before randomisation received SZC 5 g orally qd for 3 months.\n\nSZC was up- or down- titrated depending on local laboratory S-K concentration at every study visit."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Patients with S-K concentration \\> 5.0 mmol/L at the last assessment before randomisation received placebo orally tid for 2 days followed by placebo qd for 3 months.\n\nPatients with S-K concentration ≤ 5.0 mmol/L at the last assessment before randomisation received placebo orally qd for 3 months.\n\nPlacebo was up- or down- titrated depending on local laboratory S-K concentration at every study visit."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "91"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "90"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Number of Patients Who Experienced Low and High S-K Levels",
+          "description": "The S-K levels used for this analysis were based on the measurements obtained by the central laboratory. Patients with S-K levels \\< 3.5 mmol/L were considered to have low S-K levels. Patients with S-K levels \\> 5.0 mmol/L were considered to have high S-K levels.",
+          "populationDescription": "The Safety analysis set included all patients randomly assigned to study treatment and who took at least one dose of study drug.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "From Day 1 of treatment up to the end of the follow-up period (Week 17)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Sodium Zirconium Cyclosilicate",
+              "description": "Patients with S-K concentration \\> 5.0 mmol/L at the last assessment before randomisation received SZC 10 g orally tid for 2 days followed by SZC 5 g qd for 3 months.\n\nPatients with S-K concentration ≤ 5.0 mmol/L at the last assessment before randomisation received SZC 5 g orally qd for 3 months.\n\nSZC was up- or down- titrated depending on local laboratory S-K concentration at every study visit."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Patients with S-K concentration \\> 5.0 mmol/L at the last assessment before randomisation received placebo orally tid for 2 days followed by placebo qd for 3 months.\n\nPatients with S-K concentration ≤ 5.0 mmol/L at the last assessment before randomisation received placebo orally qd for 3 months.\n\nPlacebo was up- or down- titrated depending on local laboratory S-K concentration at every study visit."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "91"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "90"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "S-K < 3.0 mmol/L",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "S-K < 3.5 mmol/L",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "S-K > 5.5 mmol/L",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "23"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "32"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "S-K > 6.0 mmol/L",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Number of Events of Low and High S-K Levels",
+          "description": "The S-K levels used for this analysis were based on the measurements obtained by the central laboratory. Patients with S-K levels \\< 3.5 mmol/L were considered to have had an event of low S-K levels. Patients with S-K levels \\> 5.0 mmol/L were considered to have had an event of high S-K levels.",
+          "populationDescription": "The Safety analysis set included all patients randomly assigned to study treatment and who took at least one dose of study drug.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "Events",
+          "timeFrame": "From Day 1 of treatment up to the end of the follow-up period (Week 17)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Sodium Zirconium Cyclosilicate",
+              "description": "Patients with S-K concentration \\> 5.0 mmol/L at the last assessment before randomisation received SZC 10 g orally tid for 2 days followed by SZC 5 g qd for 3 months.\n\nPatients with S-K concentration ≤ 5.0 mmol/L at the last assessment before randomisation received SZC 5 g orally qd for 3 months.\n\nSZC was up- or down- titrated depending on local laboratory S-K concentration at every study visit."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Patients with S-K concentration \\> 5.0 mmol/L at the last assessment before randomisation received placebo orally tid for 2 days followed by placebo qd for 3 months.\n\nPatients with S-K concentration ≤ 5.0 mmol/L at the last assessment before randomisation received placebo orally qd for 3 months.\n\nPlacebo was up- or down- titrated depending on local laboratory S-K concentration at every study visit."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "91"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "90"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "S-K < 3.0 mmol/L",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "S-K < 3.5 mmol/L",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "S-K > 5.5 mmol/L",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "37"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "59"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "S-K > 6.0 mmol/L",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "timeFrame": "From Day 1 of treatment up to the end of the follow-up period (Week 17)",
+      "description": "The Safety analysis set included all patients randomly assigned to study treatment and who took at least one dose of study drug.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Sodium Zirconium Cyclosilicate",
+          "description": "Patients with S-K concentration \\> 5.0 mmol/L at the last assessment before randomisation received SZC 10 g orally tid for 2 days followed by SZC 5 g qd for 3 months.\n\nPatients with S-K concentration ≤ 5.0 mmol/L at the last assessment before randomisation received SZC 5 g orally qd for 3 months.\n\nSZC was up- or down- titrated depending on local laboratory S-K concentration at every study visit.",
+          "deathsNumAffected": 1,
+          "deathsNumAtRisk": 91,
+          "seriousNumAffected": 14,
+          "seriousNumAtRisk": 91,
+          "otherNumAffected": 16,
+          "otherNumAtRisk": 91
+        },
+        {
+          "id": "EG001",
+          "title": "Placebo",
+          "description": "Patients with S-K concentration \\> 5.0 mmol/L at the last assessment before randomisation received placebo orally tid for 2 days followed by placebo qd for 3 months.\n\nPatients with S-K concentration ≤ 5.0 mmol/L at the last assessment before randomisation received placebo orally qd for 3 months.\n\nPlacebo was up- or down- titrated depending on local laboratory S-K concentration at every study visit.",
+          "deathsNumAffected": 1,
+          "deathsNumAtRisk": 90,
+          "seriousNumAffected": 10,
+          "seriousNumAtRisk": 90,
+          "otherNumAffected": 7,
+          "otherNumAtRisk": 90
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Bronchitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 91
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Diverticulitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 91
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Osteomyelitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 91
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Pneumonia",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 1,
+              "numAtRisk": 91
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Iron deficiency anaemia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 91
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Diabetes mellitus inadequate control",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 91
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Hyponatraemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 91
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Syncope",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 91
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Acute myocardial infarction",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 2,
+              "numAtRisk": 91
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Angina unstable",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 91
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Atrial fibrillation",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 91
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Cardiac failure acute",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 91
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Cardiac failure chronic",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 91
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Myocardial fibrosis",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 91
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Hypertension",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 91
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Chronic obstructive pulmonary disease",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 91
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Gastrointestinal polyp haemorrhage",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 91
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Dermatitis allergic",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 91
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Chronic kidney disease",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 91
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Generalised oedema",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 91
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 90
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Viral upper respiratory tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 7,
+              "numAffected": 6,
+              "numAtRisk": 91
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Cardiac failure chronic",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 7,
+              "numAffected": 7,
+              "numAtRisk": 91
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Chronic kidney disease",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 5,
+              "numAffected": 5,
+              "numAtRisk": 91
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 90
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "The study was paused from May to October 2019 to undergo a major protocol amendment. The study was also prematurely terminated due to the COVID-19 pandemic resulting in a reduced sample size and a high premature treatment discontinuation rate."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": true
+      },
+      "pointOfContact": {
+        "title": "Global Clinical Lead",
+        "organization": "Study Information Center",
+        "email": "information.center@astrazeneca.com",
+        "phone": "1-877-240-9479"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2020-05-26",
+          "uploadDate": "2021-05-20T06:05",
+          "filename": "Prot_000.pdf",
+          "size": 785945
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2020-08-21",
+          "uploadDate": "2021-05-20T06:05",
+          "filename": "SAP_001.pdf",
+          "size": 390054
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D006947",
+          "term": "Hyperkalemia"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014883",
+          "term": "Water-Electrolyte Imbalance"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000597310",
+          "term": "sodium zirconium cyclosilicate"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

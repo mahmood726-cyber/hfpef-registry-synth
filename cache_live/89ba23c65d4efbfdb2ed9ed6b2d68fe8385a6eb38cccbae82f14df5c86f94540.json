@@ -1,0 +1,289 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03549559",
+      "orgStudyIdInfo": {
+        "id": "1R01HL141563",
+        "type": "NIH",
+        "link": "https://reporter.nih.gov/quickSearch/1R01HL141563"
+      },
+      "organization": {
+        "fullName": "Massachusetts General Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Imaging Histone Deacetylase in the Heart",
+      "officialTitle": "Imaging of Histone Deacetylase in the Heart"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2018-09-07",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-03-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-09-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2018-05-25",
+      "studyFirstSubmitQcDate": "2018-05-25",
+      "studyFirstPostDateStruct": {
+        "date": "2018-06-08",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "David E Sosnovik",
+        "investigatorTitle": "Associate Professor of Medicine",
+        "investigatorAffiliation": "Massachusetts General Hospital"
+      },
+      "leadSponsor": {
+        "name": "Massachusetts General Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The overall goal of this PET-MR imaging trial is to evaluate 11C-Martinostat, a histone deacetylase targeted radioligand, in patients with aortic stenosis, individuals with diabetes, and healthy volunteers.",
+      "detailedDescription": "Histone deacetylases (HDACs), a class of epigenetic enzymes, play an important role in the pathophysiology of heart failure, including development of left ventricular hypertrophy and myocardial fibrosis. Preclinical data demonstrate the importance of HDAC inhibition in attenuating these pathological processes and maintaining the integrity of the myocardium. However, the role of HDACs in the human heart, and the utility of HDAC inhibition remains unknown. Therefore, a noninvasive method to detect HDAC activity in the human heart in healthy individuals and patients with heart disease may be of major medical and public health value to help determine prognosis, direct therapy, and guide the development of novel therapies for heart failure. The investigators have recently developed a novel radiotracer, 11C-Martinostat, which binds with high affinity to class I HDACs. The objective of this protocol is to assess the utility of 11C-Martinostat PET-MR to detect HDAC expression in the hearts of healthy individuals and patients with severe aortic stenosis or diabetes."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Normal Ejection Fraction",
+        "Left Ventricular Hypertrophy",
+        "Aortic Valve Stenosis",
+        "Diabetes"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "DIAGNOSTIC",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 96,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Healthy Subjects",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Healthy subjects will receive an IV injection of 11C-Martinostat and undergo simultaneous PET-MRI.",
+          "interventionNames": [
+            "Drug: 11C-Martinostat",
+            "Device: PET-MRI"
+          ]
+        },
+        {
+          "label": "Diabetes Patient Subjects",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patient subjects with diabetes will receive an IV injection of 11C-Martinostat and undergo simultaneous PET-MRI.",
+          "interventionNames": [
+            "Drug: 11C-Martinostat",
+            "Device: PET-MRI"
+          ]
+        },
+        {
+          "label": "Aortic Stenosis Patient Subjects",
+          "type": "EXPERIMENTAL",
+          "description": "Patient subjects with aortic stenosis will receive an IV injection of 11C-Martinostat and undergo simultaneous PET-MRI before and after transcatheter valve replacement.",
+          "interventionNames": [
+            "Drug: 11C-Martinostat",
+            "Device: PET-MRI"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "11C-Martinostat",
+          "description": "Imaging probe for evaluating the activity of histone deacetylase in the heart",
+          "armGroupLabels": [
+            "Aortic Stenosis Patient Subjects",
+            "Diabetes Patient Subjects",
+            "Healthy Subjects"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "PET-MRI",
+          "description": "Siemens PET-MR Scanner (Biograph MMR)",
+          "armGroupLabels": [
+            "Aortic Stenosis Patient Subjects",
+            "Diabetes Patient Subjects",
+            "Healthy Subjects"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "11C-Martinostat Binding",
+          "description": "Comparison of regional HDAC activity as measured by standard uptake value ratio (SUVR) of 11C-Martinostat between patient subjects with aortic stenosis or diabetes and healthy volunteers",
+          "timeFrame": "10-60 minutes post-injection"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nGroup 1: Healthy Volunteers (n = 30)\n\n* Healthy adults with no known history of medical disease\n* Age 18-85 years\n* No history cardiovascular disease\n* Ability to provide informed consent\n\nGroup 2: Patients with Diabetes (n = 16)\n\n* Age 18-85 years\n* Diagnosis of diabetes\n* Echocardiogram within last 12 months showing no evidence of left ventricular hypertrophy or hemodynamic findings consistent with heart failure with preserved ejection fraction\n* Ability to provide informed consent\n\nGroup 3: Patients with Aortic Stenosis (n = 50)\n\n* Age 18-85 years\n* Echocardiogram or cardiac MRI scan within last 12 months documenting left ventricular hypertrophy and degenerative calcific aortic stenosis\n* Ability to provide informed consent\n\nExclusion Criteria:\n\n* Known contraindication to MRI",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "David E Sosnovik, MD",
+          "role": "CONTACT",
+          "phone": "617-724-3407",
+          "email": "dsosnovik@mgh.harvard.edu"
+        },
+        {
+          "name": "Anne L Philip, MPH",
+          "role": "CONTACT",
+          "phone": "617-726-0431",
+          "email": "alphilip@mgh.harvard.edu"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Massachusetts General Hospital",
+          "status": "RECRUITING",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02114",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "David Sosnovik, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D017379",
+          "term": "Hypertrophy, Left Ventricular"
+        },
+        {
+          "id": "D001024",
+          "term": "Aortic Valve Stenosis"
+        },
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006332",
+          "term": "Cardiomegaly"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D006984",
+          "term": "Hypertrophy"
+        },
+        {
+          "id": "D020763",
+          "term": "Pathological Conditions, Anatomical"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D000082862",
+          "term": "Aortic Valve Disease"
+        },
+        {
+          "id": "D006349",
+          "term": "Heart Valve Diseases"
+        },
+        {
+          "id": "D014694",
+          "term": "Ventricular Outflow Obstruction"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000605558",
+          "term": "martinostat"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

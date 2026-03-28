@@ -1,0 +1,677 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02693002",
+      "orgStudyIdInfo": {
+        "id": "15-0798-F6A"
+      },
+      "organization": {
+        "fullName": "University of Kentucky",
+        "class": "OTHER"
+      },
+      "briefTitle": "Estrogen Diastolic Heart Failure",
+      "officialTitle": "Heart Failure Prevention for Women: Preservation of Cardiac Function in the Peri-Menopausal Woman Through Hormone Therapy"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2018-07",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Enrollment goals not being met",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-02"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2016-11",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2016-11",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-02-23",
+      "studyFirstSubmitQcDate": "2016-02-25",
+      "studyFirstPostDateStruct": {
+        "date": "2016-02-26",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2018-03-27",
+      "resultsFirstSubmitQcDate": "2018-06-13",
+      "resultsFirstPostDateStruct": {
+        "date": "2018-07-11",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2018-07-11",
+      "lastUpdatePostDateStruct": {
+        "date": "2018-08-08",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Gretchen Wells",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "University of Kentucky"
+      },
+      "leadSponsor": {
+        "name": "Gretchen Wells",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Peri-menopausal women will be randomized to hormone replacement therapy or placebo for 12 weeks to determine if markers of systolic and diastolic function change by echocardiography as well as laboratory markers of heart failure, including b-type natriuretic peptide (BNP).",
+      "detailedDescription": "This preliminary, feasibility study will randomize 28 peri-menopausal women to either hormone replacement therapy or placebo for 12 weeks. Prior to randomization, each participant will undergo echocardiography, measurements of activity using the Duke Activity Status Index, measurements of quality of life and laboratory data, including b-type natriuretic peptide (BNP) measurements. Following the intervention for 12 weeks, these measurements will all be repeated."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Menopause"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 4,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Hormone replacement therapy",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Estradiol/norethindrone acetate 1mg/0.5 mg by mouth oral daily for 12 weeks",
+          "interventionNames": [
+            "Drug: Estradiol/Norethindrone acetate"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Inert ingredients by mouth oral daily for 12 weeks",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Estradiol/Norethindrone acetate",
+          "description": "Estradiol/Norethindrone acetate 1mg/0.5 mg",
+          "armGroupLabels": [
+            "Hormone replacement therapy"
+          ],
+          "otherNames": [
+            "Activella"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "inactive ingredient",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Diastolic Function Assessed by Echocardiography",
+          "description": "Change in diastolic function as assessed by echocardiography from baseline to 12 weeks",
+          "timeFrame": "Baseline and 12 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Activity Level Assessed by Duke Activity Status Index (DASI)",
+          "description": "Change in activity level as assessed by Duke Activity Status Index. The DASI estimates functional capacity through a series of 12 questions related to daily activity. Questions are scored as zero for a \"No\" answer or awarded a fixed number of points ranging from 1.75-8 for a \"Yes\" answer. Scores for each question are added, with the maximum score being 58.2 indicating a fully functional individual. Data are presented as the change in Mean score +/- SEM for each group at baseline and 12 weeks.",
+          "timeFrame": "Baseline and 12 weeks"
+        },
+        {
+          "measure": "Quality of Life Score Assessed by Utian Quality of Life Scale (UQoLS)",
+          "description": "Change in quality of life score as assessed by Utian Quality of Life scale. The UQoLS measures quality of life in four subcategories: Occupational, health, emotional and sexual. Questions are scored on a scale of 1-5 were 1 indicates \"Not true of me\" and 5 indicates an answer of \"mostly true\". Scores to the responses are added and evaluated within each subcategory. Higher scores indicate a higher quality of life within each subcategory with a maximum of 35 points for \"Occupational\", 31 points for \"Health\", 28 points for \"Emotional\" and 15 points for \"Sexual\" for a total of 100 points indicating the highest quality of life score possible. Data will be presented as the change in quality of life Mean +/- SEM over time.",
+          "timeFrame": "Baseline and 12 weeks"
+        },
+        {
+          "measure": "B-type Natriuretic Peptide (BNP) Levels",
+          "description": "Change in B-type natriuretic peptide (BNP) levels will be measure. Participants will have blood drawn via venipuncture and B-type natriuretic peptide will be measured using a quantitative chemiluminescent immunoassay. Data will be presented as the change in B-type natriuretic peptide over time.",
+          "timeFrame": "Baseline and 12 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* 28 healthy recently postmenopausal women with last menstrual bleeding 12 months at study entry. Women with last menstrual bleeding within 12 months at study entry are those who are peri-menopausal and for whom the drug is FDA approved.\n\nExclusion Criteria:\n\n* History of hysterectomy, oophorectomy or both\n* History of heart disease including cardiac transplantation, heart failure, bypass surgery or percutaneous intervention, and valve disease defined as moderate or severe valve regurgitation or stenosis\n* History of bone disease including non-traumatic vertebral fractures on radiography\n* Uncontrolled chronic disease (including uncontrolled diabetes defined as a hemoglobin A1C \\>8, uncontrolled hypertension defined as a systolic blood pressure \\>160 mmHg, awaiting organ transplant)\n* Previous or current cancer, excluding basal cell carcinoma\n* Previous or current thromboembolic disease\n* Previous intolerance of Hormone replacement therapy (HRT) or Oral contraception (OC)\n* Current or previous use of HRT within the past 3 months\n* Current or recent (\\<12 months) substance abuse, including tobacco use\n* No drug interactions with HRT\n* No racial or ethnic groups will be excluded",
+      "healthyVolunteers": true,
+      "sex": "FEMALE",
+      "minimumAge": "45 Years",
+      "maximumAge": "55 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Gretchen L Wells, MD, PhD",
+          "affiliation": "University of Kentucky",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Kentucky",
+          "city": "Lexington",
+          "state": "Kentucky",
+          "zip": "40536",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.98869,
+            "lon": -84.47772
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "The data will be provided to participants of the study."
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Hormone Replacement Therapy",
+          "description": "Estradiol/norethindrone acetate 1mg/0.5 mg by mouth oral daily for 12 weeks\n\nEstradiol/Norethindrone acetate: Estradiol/Norethindrone acetate 1mg/0.5 mg"
+        },
+        {
+          "id": "FG001",
+          "title": "Placebo",
+          "description": "Inert ingredients by mouth oral daily for 12 weeks\n\nPlacebo: inactive ingredient"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Hormone Replacement Therapy",
+          "description": "Estradiol/norethindrone acetate 1mg/0.5 mg by mouth oral daily for 12 weeks\n\nEstradiol/Norethindrone acetate: Estradiol/Norethindrone acetate 1mg/0.5 mg"
+        },
+        {
+          "id": "BG001",
+          "title": "Placebo",
+          "description": "Inert ingredients by mouth oral daily for 12 weeks\n\nPlacebo: inactive ingredient"
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "2"
+            },
+            {
+              "groupId": "BG001",
+              "value": "2"
+            },
+            {
+              "groupId": "BG002",
+              "value": "4"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "calculatePct": false,
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "4"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "4"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Diastolic Function Assessed by Echocardiography",
+          "description": "Change in diastolic function as assessed by echocardiography from baseline to 12 weeks",
+          "populationDescription": "Data was not analyzed for this study. The study was terminated as a result of poor enrollment (N=1, Hormone replacement 1; N=2, placebo). Presenting data for such a low number of participants would compromise participant confidentiality.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Baseline and 12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Hormone Replacement Therapy",
+              "description": "Estradiol/norethindrone acetate 1mg/0.5 mg by mouth oral daily for 12 weeks\n\nEstradiol/Norethindrone acetate: Estradiol/Norethindrone acetate 1mg/0.5 mg"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Inert ingredients by mouth oral daily for 12 weeks\n\nPlacebo: inactive ingredient"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Activity Level Assessed by Duke Activity Status Index (DASI)",
+          "description": "Change in activity level as assessed by Duke Activity Status Index. The DASI estimates functional capacity through a series of 12 questions related to daily activity. Questions are scored as zero for a \"No\" answer or awarded a fixed number of points ranging from 1.75-8 for a \"Yes\" answer. Scores for each question are added, with the maximum score being 58.2 indicating a fully functional individual. Data are presented as the change in Mean score +/- SEM for each group at baseline and 12 weeks.",
+          "populationDescription": "Data was not analyzed for this study. The study was terminated as a result of poor enrollment (N=1, Hormone replacement 1; N=2, placebo). Presenting data for such a low number of participants would compromise participant confidentiality.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Baseline and 12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Hormone Replacement Therapy",
+              "description": "Estradiol/norethindrone acetate 1mg/0.5 mg by mouth oral daily for 12 weeks\n\nEstradiol/Norethindrone acetate: Estradiol/Norethindrone acetate 1mg/0.5 mg"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Inert ingredients by mouth oral daily for 12 weeks\n\nPlacebo: inactive ingredient"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Quality of Life Score Assessed by Utian Quality of Life Scale (UQoLS)",
+          "description": "Change in quality of life score as assessed by Utian Quality of Life scale. The UQoLS measures quality of life in four subcategories: Occupational, health, emotional and sexual. Questions are scored on a scale of 1-5 were 1 indicates \"Not true of me\" and 5 indicates an answer of \"mostly true\". Scores to the responses are added and evaluated within each subcategory. Higher scores indicate a higher quality of life within each subcategory with a maximum of 35 points for \"Occupational\", 31 points for \"Health\", 28 points for \"Emotional\" and 15 points for \"Sexual\" for a total of 100 points indicating the highest quality of life score possible. Data will be presented as the change in quality of life Mean +/- SEM over time.",
+          "populationDescription": "Data was not analyzed for this study. The study was terminated as a result of poor enrollment (N=1, Hormone replacement 1; N=2, placebo). Presenting data for such a low number of participants would compromise participant confidentiality.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Baseline and 12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Hormone Replacement Therapy",
+              "description": "Estradiol/norethindrone acetate 1mg/0.5 mg by mouth oral daily for 12 weeks\n\nEstradiol/Norethindrone acetate: Estradiol/Norethindrone acetate 1mg/0.5 mg"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Inert ingredients by mouth oral daily for 12 weeks\n\nPlacebo: inactive ingredient"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "B-type Natriuretic Peptide (BNP) Levels",
+          "description": "Change in B-type natriuretic peptide (BNP) levels will be measure. Participants will have blood drawn via venipuncture and B-type natriuretic peptide will be measured using a quantitative chemiluminescent immunoassay. Data will be presented as the change in B-type natriuretic peptide over time.",
+          "populationDescription": "Data was not analyzed for this study. The study was terminated as a result of poor enrollment (N=1, Hormone replacement 1; N=2, placebo). Presenting data for such a low number of participants would compromise participant confidentiality.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Baseline and 12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Hormone Replacement Therapy",
+              "description": "Estradiol/norethindrone acetate 1mg/0.5 mg by mouth oral daily for 12 weeks\n\nEstradiol/Norethindrone acetate: Estradiol/Norethindrone acetate 1mg/0.5 mg"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Inert ingredients by mouth oral daily for 12 weeks\n\nPlacebo: inactive ingredient"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "12 weeks",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Hormone Replacement Therapy",
+          "description": "Estradiol/norethindrone acetate 1mg/0.5 mg by mouth oral daily for 12 weeks\n\nEstradiol/Norethindrone acetate: Estradiol/Norethindrone acetate 1mg/0.5 mg",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 2,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 2,
+          "otherNumAffected": 1,
+          "otherNumAtRisk": 2
+        },
+        {
+          "id": "EG001",
+          "title": "Placebo",
+          "description": "Inert ingredients by mouth oral daily for 12 weeks\n\nPlacebo: inactive ingredient",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 2,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 2,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 2
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Vaginal Bleeding",
+          "organSystem": "Reproductive system and breast disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Patient was randomized on 7/6/16. She developed vaginal bleeding on 8/7/16. Vaginal bleeding ICFinformed consent form. The patient underwent evaluation by primary care provider, stopped drug, and was withdrawn from the study.",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 2
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 2
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "Due to limited enrollment, there were too few participants to draw statistically meaningful conclusions from collected data."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Dr. Gretchen Wells, PI",
+        "organization": "University of Kentucky",
+        "email": "gretchen.wells@uky.edu"
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C418365",
+          "term": "estradiol, norethindrone drug combination"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

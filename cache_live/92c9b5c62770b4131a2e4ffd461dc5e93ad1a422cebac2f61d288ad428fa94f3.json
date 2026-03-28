@@ -1,0 +1,332 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04031573",
+      "orgStudyIdInfo": {
+        "id": "P160925J"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2018-003801-24",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Assistance Publique - Hôpitaux de Paris",
+        "class": "OTHER"
+      },
+      "briefTitle": "Ivabradine for Heart Rate Control In Septic Shock",
+      "officialTitle": "A Multicenter, Prospective, Randomized, Placebo-controlled, Double-blind, Multi-arm, Multi-stage Clinical Trial of Ivabradine for Heart Rate Control In Septic Shock",
+      "acronym": "IRISS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-06",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-02-24",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-09-24",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2024-12-24",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2019-07-16",
+      "studyFirstSubmitQcDate": "2019-07-23",
+      "studyFirstPostDateStruct": {
+        "date": "2019-07-24",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-06-24",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-06-25",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Assistance Publique - Hôpitaux de Paris",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Septic shock is a major health problem, with several million cases annually worldwide and a mortality approaching 45%. Tachycardia is associated with excess mortality during septic shock. This pejorative effect could be related to the increase in cardiac metabolic demand, impaired cardiac diastolic function, and/or poorer tolerance of administered exogenous catecholamines. Recent studies suggest that controlling the heart rate with the use of beta blockers has beneficial effects on the morbidity and mortality of septic shock. However, the negative effects of beta-blockers on cardiac contractility and blood pressure complicate their use during septic shock, particularly because about one-half of patients exhibit a septic-associated systolic dysfunction, which often requires the use of inotropes.\n\nIvabradine is a selective inhibitor of If channels in the sinoatrial node. It is a pure bradycardic agent with no deleterious effect on other aspects of cardiac function (contractility, conduction and repolarization) nor on blood pressure. Ivabradine can therefore alleviate sinus tachycardia without negative inotropic effects nor hypotension. Moreover, the improvement in diastolic function (ventricular filling) with ivabradine may increase stroke volume, even in case of severe impairment of systolic function. Controlling sinus tachycardia with ivabradine during septic shock would allow reducing cardiac metabolic demand (and potentially associated ischemic events) and improving the chronotropic tolerance of exogenous catecholamines. The effectiveness of ivabradine in controlling the heart rate was demonstrated in various clinical settings such as coronary artery disease, chronic heart failure and cardiogenic shock. Encouraging preliminary data are reported in critically ill patients."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Septic Shock"
+      ],
+      "keywords": [
+        "Septic shock",
+        "Ivabradine"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Multi-centre, double-blind, randomised, placebo-controlled, multi-arm multi-stage trial. The trial investigates the efficacy and safety of 2 dosing regimens of ivabradine in order to confirm the efficacy and safety of one dosing regimen for heart rate control in adult patients with septic shock.Two dosing regimens of ivabradine will be investigated in the first part and the best-performing dosing regimen will be selected for the last part of the trial. A multi-arm multi-stage (MAMS) design with 2 stages and 3 arms will be used. The trial incorporates 2 stages: 1. Activity: an interim comparison of activity using the percentage of patients with heart rate control (80-94/min) at hour-48 as primary endpoint. At the end of this stage, an interim analysis will be used in order to select the most promising ivabradine dosing protocol and compare it to placebo in the subsequent stage (pick the winner strategy). 2. Efficacy: final comparison with 28 days mortality as the primary endpoint.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 429,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Ivabradine (Low)",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: Ivabradine"
+          ]
+        },
+        {
+          "label": "Ivabradine (High)",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: Ivabradine"
+          ]
+        },
+        {
+          "label": "Control",
+          "type": "PLACEBO_COMPARATOR",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ivabradine",
+          "description": "Ivabradine will be administered via the enteral route, every 12 hours, at doses ranging from 2.5 to 5 mg to achieve a target heart rate between 80 and 94 bpm",
+          "armGroupLabels": [
+            "Ivabradine (Low)"
+          ],
+          "otherNames": [
+            "Ivabradine Low"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Ivabradine",
+          "description": "Ivabradine will be administered via the enteral route, every 12 hours, at doses ranging from 5 to 7.5 mg to achieve a target heart rate between 80 and 94",
+          "armGroupLabels": [
+            "Ivabradine (High)"
+          ],
+          "otherNames": [
+            "Ivabradine High"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo will be administered via the enteral route, every 12 hours.",
+          "armGroupLabels": [
+            "Control"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of patients with heart rate within the predefined threshold (80-94 bpm) at hour-48",
+          "description": "for activity and treatment selection at interim analysis",
+          "timeFrame": "hour 48 after treatment"
+        },
+        {
+          "measure": "Percentage of patients dead at 28 days",
+          "description": "for efficacy and the final analysis",
+          "timeFrame": "28 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "percentage of patients with bradycardia (heart rate <60/min), atrial fibrillation, phosphenes or blurred vision up to day-17",
+          "description": "Tolerance of ivabradine",
+          "timeFrame": "Day 17"
+        },
+        {
+          "measure": "Percentage of patients with a heart rate within the target range (80-94 bpm) at hour-72",
+          "description": "percentage of heart rate measurements (assessed every 3 to 4 hours) within the target range at hour-72; changes in heart rate, mean arterial pressure and cardiac output evaluated by the area under the curve (AUC) versus time at hour-72;",
+          "timeFrame": "hour-72"
+        },
+        {
+          "measure": "Organ failures free days (SOFA<3 for each organ) at day-14 and day-28,",
+          "timeFrame": "at day-14 and day-28"
+        },
+        {
+          "measure": "Number of catecholamines-, vasopressor- and mechanical ventilation-free days at day-14 and day-28,",
+          "timeFrame": "at day-14 and day-28"
+        },
+        {
+          "measure": "lactate clearance",
+          "timeFrame": "at day-2 and day-3;"
+        },
+        {
+          "measure": "Left ventricle ejection fraction",
+          "description": "to assess left ventricle ejection fraction",
+          "timeFrame": "at randomization (hour-0) , 12 hours, and 24 hours after the first administration of study drug"
+        },
+        {
+          "measure": "cardiac troponin assessment",
+          "description": "a blood sample will be collected for measurement of troponin T",
+          "timeFrame": "a blood sample will be collected at randomization, day-2 and day-3"
+        },
+        {
+          "measure": "Pharmacokinetics of ivabradine",
+          "description": "A blood sample for measurement of plasma concentration of ivabradine will be collected at day-3 at three time points: just before study drug administration (5th dose), 60 minutes later, and during the next routine blood sampling at a random schedule (during the next blood sampling for clinical purposes).",
+          "timeFrame": "Day-3"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* 18 years of age or older,\n* Proven or suspected site of infection,\n* Septic shock (defined as hypotension unresponsive to fluid resuscitation and requiring vasopressor treatment to maintain adequate blood pressure in the context of proven or suspected site of infection) for at least 2 hours and less than 24 hours (inclusion is possible before 2 hours in case of increasing doses of norepinephrine),\n* In sinus rhythm with heart rate ≥ 95 bpm at time of randomization,\n* Informed consent obtained in accordance with local regulations,\n* Affiliation to a social security regime.\n\nExclusion Criteria:\n\n* Age \\< 18 years,\n* Cardiac arythmia, conduction disorder, sinus syndrome (\"sick sinus syndrome\"), sino-atrial block; 3rd degree atrioventricular block, \"IRISS\" protocol, version 6.0 of 30/10/2023 7/47 This document is the property of DRCD / APHP. All reproduction is strictly prohibited.\n* Cardiogenic shock or unstable or acute heart failure without proven or suspected infection,\n* Acute myocardial infarction with angiographic documentation; CCS class\n\n  ≥ II angina pectoris;\n* Septic shock requiring vasopressor treatment for more than 24 hours,\n* Refractory shock with systolic arterial pressure \\<90 mm Hg) despite the use of high doses of vasopressors (norepinephrine BASE or epinephrine BASE \\> 2.4 µg/kg/min; these doses should be multiplied by two for noradrenaline salt (tartrate or bitartrate),\n* Co-treatment with drugs inducing bradycardia, QT lengthening or strong inhibition of CYP4503A4, pacemaker, defibrillator, kalemia \\<3 mM,\n* Co-treatment with verapamil or diltiazem (which are moderate CYP4503A4 inhibitors with heart rate reducing properties)\n* Known pregnancy, breast feeding, women with childbearing potential will be tested for pregnancy and excluded if pregnant,\n* Known allergy to ivabradine or to any of the excipients, retinitis pigmentosa, congenital galactosemia, lactase deficiency, glucose or galactose malabsorption,\n* Severe chronic renal failure (creatinine clearance \\<15 ml/min) or hepatic failure (prothrombin time \\<20%),\n* Enteral feeding impossible, vomiting, congenital galactosemia, lactase deficiency, glucose-galactose malabsorption syndrome,\n* Tachycardia due to hyperthyroidism, pheochromocytoma or severe anemia (\\<7 g/dL),\n* Prior enrolment in the trial, participation in another interventional study on septic shock,\n* Known legal incapacity (patients under guardianship or curatorship),\n* Decision to limit full care taken before obtaining informed consent,\n* Patient under AME (state emergency medical help),\n* Lack of affiliation to social security.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Armand MEKONTSO DESSAP, MD, PhD",
+          "role": "CONTACT",
+          "phone": "01 49 81 23 89",
+          "phoneExt": "+33",
+          "email": "armand.dessap@aphp.fr"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Armand MEKONTSO DESSAP, MD, PhD",
+          "affiliation": "Assistance Publique - Hôpitaux de Paris",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Henri Mondor Hospital",
+          "status": "RECRUITING",
+          "city": "Créteil",
+          "zip": "94000",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Armand Mekontso-Dessap, MD,PhD",
+              "role": "CONTACT",
+              "phone": "01 49 81 23 89",
+              "phoneExt": "+33",
+              "email": "armand.dessap@aphp.fr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.79266,
+            "lon": 2.46569
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D012772",
+          "term": "Shock, Septic"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D018805",
+          "term": "Sepsis"
+        },
+        {
+          "id": "D007239",
+          "term": "Infections"
+        },
+        {
+          "id": "D018746",
+          "term": "Systemic Inflammatory Response Syndrome"
+        },
+        {
+          "id": "D007249",
+          "term": "Inflammation"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D012769",
+          "term": "Shock"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077550",
+          "term": "Ivabradine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001552",
+          "term": "Benzazepines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

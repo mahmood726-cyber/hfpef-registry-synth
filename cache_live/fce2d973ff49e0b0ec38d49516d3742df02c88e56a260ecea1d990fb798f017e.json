@@ -1,0 +1,350 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02200822",
+      "orgStudyIdInfo": {
+        "id": "ZOL-STOP-CRT"
+      },
+      "organization": {
+        "fullName": "Hasselt University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Systematic Withdrawal of Neurohumoral Blocker Therapy in Optimally Responding CRT Patients",
+      "officialTitle": "Systematic Withdrawal of Neurohumoral Blocker Therapy in Optimally Responding Patients to Cardiac Resynchronization Therapy: the STOP-CRT Trial",
+      "acronym": "STOP-CRT"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2019-07",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2014-07"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2019-02",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2019-02",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2014-07-24",
+      "studyFirstSubmitQcDate": "2014-07-24",
+      "studyFirstPostDateStruct": {
+        "date": "2014-07-25",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2019-07-30",
+      "lastUpdatePostDateStruct": {
+        "date": "2019-08-01",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Wilfried Mullens, MD PhD",
+        "investigatorTitle": "MD PhD",
+        "investigatorAffiliation": "Hasselt University"
+      },
+      "leadSponsor": {
+        "name": "Hasselt University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Ziekenhuis Oost-Limburg",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The primary objective of this study is to demonstrate that in patients with recuperated/normalized left ventricular function, defined as an ejection fraction (EF) ≥ 50%, after implantation of cardiac resynchronization therapy, device treatment is sufficient and neurohumoral blocker therapy can safely be withdrawn"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure (HF)"
+      ],
+      "keywords": [
+        "neurohumoral blocker therapy",
+        "renin-angiotensin-aldosterone system (RAAS)",
+        "RAAS-blocker",
+        "beta blocker",
+        "spironolactone",
+        "angiotensin converting enzyme inhibitor (ACE-I)",
+        "angiotensin receptor blocker (ARB)",
+        "cardiac resynchronization therapy (CRT)",
+        "heart failure",
+        "dyssynchrony",
+        "left bundle branch block"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "FACTORIAL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 80,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "non-intervention arm",
+          "type": "NO_INTERVENTION",
+          "description": "continuation of neurohumoral blocker therapy based on maximum tolerated guideline recommended dose (this group is the control arm for as well withdrawal of beta blocker therapy as withdrawal of RAAS blocker therapy)"
+        },
+        {
+          "label": "withdrawal of beta blockers",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Intervention arm with systematic withdrawal of beta blocker therapy at a reverse sequence of guideline recommended uptitration.\n\n(this group is the experimental arm for beta blocker withdrawal. This group receives no intervention with regards to the withdrawal of RAAS blockade). Per 2 weeks:\n\n* bisoprolol: 10mg/d → 5 mg/d → 2,5 mg/d → 1,25 mg/d stop\n* metoprolol: 200 mg/d → 100 mg/d → 50 mg/d → 25 mg/d → stop\n* nebivolol: 10mg/d → 5 mg/d → 2,5 mg/d → 1,25 mg/d stop\n* carvedilol: 50 mg bid → 25 mg bid → 12,5 mg bid → 6,25 mg bid → stop",
+          "interventionNames": [
+            "Drug: beta blockers"
+          ]
+        },
+        {
+          "label": "withdrawal of RAAS blockers",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "intervention arm with systematic withdrawal of spironolactone followed by withdrawal of ACE-I/ARB at a reverse sequence of guideline recommended uptitration (this group receives no intervention regarding the withdrawal of beta blockers. This group is the experimental arm for withdrawal of RAAS blockers)\n\n* first spironolactone/eplerenone: per two weeks: 25 mg/d→12,5 mg/d → stop\n* after 2 weeks stop spironolactone/eplerenone start withdrawal of ACE-I/ARB per two weeks:\n\n  * captopril: 50 mg tid→25 mg tid→12,5 mg tid→6,25 mg tid→stop\n  * enalapril: 10 mg bid→5 mg bid→2,5 mg bid→1,25 mg bid→stop\n  * lisinopril: 20 mg/d→10 mg/d→5 mg/d→2,5 mg/d→stop\n  * ramipril: 10 mg/d→5 mg/d→2,5 mg/d→1,25 mg/d→stop\n  * candesartan: 32 mg/d→16 mg/d→8 mg/d→4 m/d→stop\n  * valsartan: 160 mg bid→80 mg bid→40 mg bid→20 mg bid→stop",
+          "interventionNames": [
+            "Drug: RAAS blockers"
+          ]
+        },
+        {
+          "label": "withdrawal of RAAS - and beta blockers",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "intervention arm with systematic withdrawal of spironolactone, secondly ACE-I/ARB and finally beta blockers. (this group is the experimental group for both study interventions (withdrawal of beta blockers and RAAS blockers)\n\n* First: spironolactone/eplerenone cfr reduction schedule supra\n* After 2 weeks of stop spironolactone withdrawal of ACE-I or ARB cfr reduction schedule supra\n* After 2 weeks of stop ACE-I/ARB withdrawal of beta blocker cfr reduction schedule supra",
+          "interventionNames": [
+            "Drug: beta blockers",
+            "Drug: RAAS blockers"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "beta blockers",
+          "armGroupLabels": [
+            "withdrawal of RAAS - and beta blockers",
+            "withdrawal of beta blockers"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "RAAS blockers",
+          "description": "RAAS blockers (combination of ACE-I/ARB and a mineralocorticoid receptor antagonist)",
+          "armGroupLabels": [
+            "withdrawal of RAAS - and beta blockers",
+            "withdrawal of RAAS blockers"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "a > 15% increase in left ventricular end systolic volume",
+          "timeFrame": "at 12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "- Incidence of HF related hospitalizations defined as admission to hospital / presentation to emergency room with need for parental therapy",
+          "timeFrame": "at 12 months"
+        },
+        {
+          "measure": "All cause mortality",
+          "timeFrame": "at 12 months"
+        },
+        {
+          "measure": "VO2 max change",
+          "timeFrame": "at 12 months"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": ">15% increase in left ventricular end systolic volume",
+          "timeFrame": "6 and 24 months"
+        },
+        {
+          "measure": "> 15% decrease in left ventricular ejection fraction",
+          "timeFrame": "at 6, 12 and 24 months"
+        },
+        {
+          "measure": "mean blood pressure change",
+          "timeFrame": "at 6, 12 and 24 months"
+        },
+        {
+          "measure": "HF symptoms change (dyspnea visual analogue scale (VAS), New York Heart Association (NYHA) class, questionnaire \"Minnesota living with Heart Failure\")",
+          "timeFrame": "at 6, 12 and 24 months"
+        },
+        {
+          "measure": "incidence of heart rhythm events (sustained ventricular tachycardia (VT), atrial fibrillation, ventricular fibrillation)",
+          "timeFrame": "at 6, 12 and 24 months"
+        },
+        {
+          "measure": "heart rate variability",
+          "timeFrame": "at 6, 12 and 24 months"
+        },
+        {
+          "measure": "urinary catecholamine concentration",
+          "timeFrame": "at 6, 12 and 24 months"
+        },
+        {
+          "measure": "change in myocardial contractility (force frequence relationship, left ventricular pre-ejection time, iso-volumetric contraction time, dP/dt)",
+          "timeFrame": "at 6, 12 and 24 months"
+        },
+        {
+          "measure": "change in diastolic filling pattern",
+          "timeFrame": "at 6, 12 and 24 months"
+        },
+        {
+          "measure": "plasma concentrations of plasma renin activity and aldosterone",
+          "timeFrame": "at 6, 12 and 24 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* ≥18 years\n* CRT implantation\n\n  * based on class I recommendations of ESC (European society of CArdiology) guidelines:\n  * Left bundle branch block (LBBB) with QRS duration \\>150 ms and left ventricular ejection fraction (LVEF) ≤35% who remained NYHA functional class II, III and ambulatory IV despite adequate medical treatment\n  * LBBB with QRS duration 120-150 ms and LVEF ≤ 35% who remain in NYHA functional class II, III and ambulatory IV despite adequate medical treatment\n* At the moment of inclusion: ≥ 6 months after implantation\n* At the moment of inclusion: normalised LVEF (≥ 50%), LVIDD/BSA (left ventricular internal diastolic diameter indexed to body surface area) ≤3.2 cm/m²(woman) en ≤3.1 cm/m² (men) or LVDV/BSA (left ventricular diastolic volume indexed to body surface area) ≤75 ml/m² (women) or ≤75 ml/m² (men)\n* euvolemic clinical state and functioning in NYHA class I\n\nExclusion Criteria:\n\n* contraindication for withdrawal of ACE-I/ARB such as diabetic nephropathy and proteinuria \\> 1g / 24 h\n* severe ventricular arrythmia (sustained VT or ventricular fibrillation) occuring at the time LV function was normalized\n* ischemic cardiomyopathy with evidence of scarring (scarring on MRI or severe hypokinesia/akinesia in \\>1 LV wall segment on echocardiography)\n* known severe coronary atherosclerosis (stenosis ≥ 80%)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Petra Nijst, MD",
+          "affiliation": "Ziekenhuis Oost-Limburg",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Ziekenhuis Oost Limburg",
+          "city": "Genk",
+          "state": "Limburg",
+          "zip": "3600",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.965,
+            "lon": 5.50082
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "32216911",
+          "type": "DERIVED",
+          "citation": "Nijst P, Martens P, Dauw J, Tang WHW, Bertrand PB, Penders J, Bruckers L, Voros G, Willems R, Vandervoort PM, Dupont M, Mullens W. Withdrawal of Neurohumoral Blockade After Cardiac Resynchronization Therapy. J Am Coll Cardiol. 2020 Mar 31;75(12):1426-1438. doi: 10.1016/j.jacc.2020.01.040."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D002037",
+          "term": "Bundle-Branch Block"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D006327",
+          "term": "Heart Block"
+        },
+        {
+          "id": "D001145",
+          "term": "Arrhythmias, Cardiac"
+        },
+        {
+          "id": "D000075224",
+          "term": "Cardiac Conduction System Disease"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000319",
+          "term": "Adrenergic beta-Antagonists"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D018674",
+          "term": "Adrenergic Antagonists"
+        },
+        {
+          "id": "D018663",
+          "term": "Adrenergic Agents"
+        },
+        {
+          "id": "D018377",
+          "term": "Neurotransmitter Agents"
+        },
+        {
+          "id": "D045504",
+          "term": "Molecular Mechanisms of Pharmacological Action"
+        },
+        {
+          "id": "D020228",
+          "term": "Pharmacologic Actions"
+        },
+        {
+          "id": "D020164",
+          "term": "Chemical Actions and Uses"
+        },
+        {
+          "id": "D045505",
+          "term": "Physiological Effects of Drugs"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

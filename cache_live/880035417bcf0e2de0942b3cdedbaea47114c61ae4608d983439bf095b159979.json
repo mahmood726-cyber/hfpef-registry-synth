@@ -1,0 +1,269 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01678183",
+      "orgStudyIdInfo": {
+        "id": "BU IRB H-30045"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "WS2069417",
+          "type": "OTHER_GRANT",
+          "domain": "Pfizer"
+        }
+      ],
+      "organization": {
+        "fullName": "Boston Medical Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "Financial Incentives for Medication Adherence",
+      "officialTitle": "Financial Incentives for Medication Adherence",
+      "acronym": "FIMA"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2015-01",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2012-09"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2014-04",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2015-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2012-08-30",
+      "studyFirstSubmitQcDate": "2012-08-31",
+      "studyFirstPostDateStruct": {
+        "date": "2012-09-03",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2015-01-30",
+      "lastUpdatePostDateStruct": {
+        "date": "2015-02-02",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Boston Medical Center",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Pfizer",
+          "class": "INDUSTRY"
+        },
+        {
+          "name": "National Bureau of Economic Research, Inc.",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is a pilot study. The investigators have designed a randomized, controlled trial of financial incentives in medication adherence, focusing primarily on poorly-controlled diabetes, and secondarily on hypertension, and high cholesterol. Prior work has shown that many patients do not take their medications as prescribed by their doctors. This contributes to increased rates of bad outcomes such as blindness, kidney failure, heart attack, and death. The investigators hypothesize that use of a financial incentive will motivate patients to improve their medication adherence and ultimately their control of their chronic diseases.\n\nThe investigators plan to identify patients who get Primary Care at Boston Medical Center who still have high blood sugars more than a year after their diabetes diagnosis, and randomize them to a control arm, or one of two intervention arms. Subjects will be approached at the time of a regularly-scheduled appointment with their Primary Care doctor and offered the opportunity to participate in the study. All subjects who agree to participate in the study will meet with a Clinical Pharmacologist to review their medications in detail, and then undergo randomization. Subjects in the first intervention group will receive a cash incentive for picking up medications for the targeted conditions from the pharmacy each month. Subjects in the second intervention group will receive a cash incentive for picking up medications for the targeted conditions from the pharmacy each month, and a one-time payment at the conclusion of the study based on the amount of hemoglobin A1c decrease. The investigators will enroll a total of 100 subjects in the study, and anticipate an observational cohort of approximately 1,000 patients.\n\nAll patients who are eligible for the study but who are not enrolled in the study and have not declined to participate in the study will become the observational cohort for the study. The observational cohort will be used to determine whether randomization to the control arm of the study has a negative, rather than neutral, effect on patients.\n\nAt the end of eight months, all subjects will meet with a Visiting Nurse in their home, to have their blood pressure checked and to have their blood drawn so that their blood sugar and cholesterol can be measured. Outcomes to be evaluated include hemoglobin A1c, lipid panel, systolic blood pressure, diastolic blood pressure, self-reported health, microvascular and macrovascular complications, and death."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Diabetes Mellitus",
+        "Hypertension",
+        "Hyperlipidemia"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "FACTORIAL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 74,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Monthly Incentive",
+          "type": "EXPERIMENTAL",
+          "description": "Subjects in this arm will receive a cash incentive each month when they pick up their medications for diabetes, hypertension, and hypercholesterolemia at the pharmacy on time. The intervention is the cash incentive.",
+          "interventionNames": [
+            "Behavioral: Monthly Financial Incentive"
+          ]
+        },
+        {
+          "label": "Monthly and Final Incentive",
+          "type": "EXPERIMENTAL",
+          "description": "Subjects in this arm will receive a cash incentive each month when they pick up their medications for diabetes, hypertension and hypercholesterolemia at the pharmacy on time, as well as an additional financial incentive for each full percentage point of decrease in their hemoglobin A1c over the eight-month course of the study. The two cash incentives are the intervention.",
+          "interventionNames": [
+            "Behavioral: Monthly Financial Incentive",
+            "Behavioral: Final Financial Incentive"
+          ]
+        },
+        {
+          "label": "Control",
+          "type": "NO_INTERVENTION",
+          "description": "These subjects will complete the enrollment process for the study but will be randomized to a group that receives usual care."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Monthly Financial Incentive",
+          "description": "A cash payment.",
+          "armGroupLabels": [
+            "Monthly Incentive",
+            "Monthly and Final Incentive"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Final Financial Incentive",
+          "description": "One-time payment in cash for each full percentage of hemoglobin A1c decrease over the eight-month period of the study.",
+          "armGroupLabels": [
+            "Monthly and Final Incentive"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Improvement in hemoglobin A1c",
+          "description": "The investigators will evaluate levels of blood sugar over time as measured by the hemoglobin A1c at the start and end of the study.",
+          "timeFrame": "8 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Improvement in blood pressure.",
+          "description": "The investigators will assess blood pressure measurements at the start and end of the study.",
+          "timeFrame": "Eight months"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Lipid levels",
+          "description": "The investigators will assess lipid levels at the start and end of the study.",
+          "timeFrame": "Eight months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age greater than or equal to 18 years\n* Speaks English, Spanish, or Haitian Creole\n* Established patient in Boston Medical Center Section of General Internal Medicine Primary Care Practice\n* Uses Boston Medical Center Pharmacy\n* Diagnosed with diabetes for more than one year\n* Prescribed medications for diabetes\n* Last hemoglobin A1c \\> 7.9\n\nExclusion Criteria:\n\n* Pregnant\n* History of Brittle Diabetes\n* Meets April, 2012 American Diabetes Association criteria for an increased goal hemoglobin A1c",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Elizabeth Rourke, MD",
+          "affiliation": "Boston Medical Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Amitabh Chandra, Ph.D.",
+          "affiliation": "Harvard Kennedy School, National Bureau of Economic Research",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Katherine Baicker, Ph.D.",
+          "affiliation": "Harvard School of Public Health, National Bureau of Economic Research",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Boston Medical Center",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02118",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D006973",
+          "term": "Hypertension"
+        },
+        {
+          "id": "D006949",
+          "term": "Hyperlipidemias"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D050171",
+          "term": "Dyslipidemias"
+        },
+        {
+          "id": "D052439",
+          "term": "Lipid Metabolism Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

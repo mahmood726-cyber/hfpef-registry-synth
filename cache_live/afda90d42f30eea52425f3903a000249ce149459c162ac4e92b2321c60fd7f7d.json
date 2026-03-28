@@ -1,0 +1,578 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06291064",
+      "orgStudyIdInfo": {
+        "id": "IRB23-0678"
+      },
+      "organization": {
+        "fullName": "University of Chicago",
+        "class": "OTHER"
+      },
+      "briefTitle": "Trial Studying Chemotherapy in Nigerian Women With Triple Negative Breast Cancer",
+      "officialTitle": "TreAtment Response and Omic-Markers in Triple-Negative Breast CAncer Patients Receiving Standard of Care Chemotherapy (TARMAC)",
+      "acronym": "TARMAC"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-03-18",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2029-06",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2032-06",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-02-19",
+      "studyFirstSubmitQcDate": "2024-02-26",
+      "studyFirstPostDateStruct": {
+        "date": "2024-03-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Chicago",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The primary purpose of this study is to determine what proportion of participants will achieve complete pathological response with epirubicin+ cyclophosphamide followed by docetaxel +carboplatin. This will also examine the potential of using signals in the blood (biomarkers) to identify resistance to chemotherapy in Nigerian women with triple negative breast cancer (TNBC).\n\nAll enrollment to this trial will occur at sites in Nigeria. University of Chicago is serving as coordinating center and will be involved in data analysis."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Triple Negative Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 85,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Treatment Arm",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will receive epirubicin and cyclophosphamide every three weeks for a total of 12 weeks followed by 3-weekly docetaxel for 12 weeks and carboplatin every three weeks for a total of 12 weeks. All premenopausal participants will receive luteinizing hormone-releasing hormone (LHRH) agonist goserelin (Zoladex) for contraception and fertility preservation.",
+          "interventionNames": [
+            "Drug: Cyclophosphamide",
+            "Drug: Epirubicin",
+            "Drug: Docetaxel",
+            "Drug: Carboplatin",
+            "Procedure: Breast Surgery",
+            "Drug: Capecitabine"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Cyclophosphamide",
+          "description": "Cyclophosphamide is given by intravenous (IV) infusion once every 3 weeks for 4 doses total (12 weeks). It will be given together with Epirubicin.",
+          "armGroupLabels": [
+            "Treatment Arm"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Epirubicin",
+          "description": "Epirubicin is given by intravenous (IV) infusion once every 3 weeks for 4 doses total (12 weeks). It will be given together with Cyclophosphamide.",
+          "armGroupLabels": [
+            "Treatment Arm"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Docetaxel",
+          "description": "Docetaxel is given by intravenous (IV) infusion once every 3 weeks for 4 doses total (12 weeks). It will be given together with Carboplatin. Dosing will start after treatment with Epirubicin and Cyclophosphamide (EC) is completed.",
+          "armGroupLabels": [
+            "Treatment Arm"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Carboplatin",
+          "description": "Carboplatin is given by intravenous (IV) infusion once every 3 weeks for 4 doses total (12 weeks). It will be given together with Docetaxel. Dosing will start after treatment with EC is completed.",
+          "armGroupLabels": [
+            "Treatment Arm"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Breast Surgery",
+          "description": "Participants will undergo breast surgery after completing dosing with Carboplatin and Docetaxel to remove any remaining cancer in the breast.",
+          "armGroupLabels": [
+            "Treatment Arm"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Capecitabine",
+          "description": "Capecitabine is a pill that will be taken by mouth daily for 6 months after surgery is completed.",
+          "armGroupLabels": [
+            "Treatment Arm"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of Participants that Achieve Pathologic Complete Response (pCR) Rate (Breast)",
+          "description": "How well does the study chemotherapy regimen of epirubicin and cyclophosphamide (EC) followed by docetaxel and carboplatin work to remove tumor cells in the breast. This will be determined by percentage of participants that do not have noticeable cancer cells in the breast after completing the chemotherapy regimen.",
+          "timeFrame": "4 - 6 months from start of chemotherapy"
+        },
+        {
+          "measure": "Percentage of Participants that Achieve Pathologic Complete Response (pCR) Rate (Lymph Nodes)",
+          "description": "How well does the study chemotherapy regimen of epirubicin and cyclophosphamide (EC) followed by docetaxel and carboplatin work to remove tumor cells in the lymph nodes. This will be determined by percentage of participants that do not have noticeable cancer cells in the lymph nodes after completing the chemotherapy regimen.",
+          "timeFrame": "4 - 6 months from start of chemotherapy"
+        },
+        {
+          "measure": "Percentage of Participants that Achieve Pathologic Complete Response (pCR) Rate (By Stage)",
+          "description": "How well does the study chemotherapy regimen of epirubicin and cyclophosphamide (EC) followed by docetaxel and carboplatin work to remove tumor cells based on stage of breast cancer. This will be determined by percentage of participants that do not have noticeable cancer cells in the lymph nodes after completing the chemotherapy regimen.",
+          "timeFrame": "4 - 6 months from start of chemotherapy"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Side Effects of the Study Pre-surgery Chemotherapy Regimen",
+          "description": "Percentage of participants experiencing Grades 3 and 4 blood, gastrointestinal, neurological and cardiovascular toxicities.",
+          "timeFrame": "After 8 cycles of treatment (24 weeks)"
+        },
+        {
+          "measure": "Clinical Response",
+          "description": "Percentage of participants achieving clinical response (CR and PR) during neoadjuvant period by breast ultrasound",
+          "timeFrame": "4 - 6 months from start of chemotherapy"
+        },
+        {
+          "measure": "Progressive Disease",
+          "description": "Percentage of participants with progressive disease during pre-surgery treatment period",
+          "timeFrame": "After 8 cycles of treatment (24 weeks)"
+        },
+        {
+          "measure": "Invasive Disease Free Survival (iDFS)",
+          "description": "Time to cancer returning or death",
+          "timeFrame": "10 years from start of treatment"
+        },
+        {
+          "measure": "Duration of Response",
+          "description": "Time to cancer worsening or death",
+          "timeFrame": "10 years from start of treatment"
+        },
+        {
+          "measure": "Heart Related Side Effects of the Pre-Surgery Chemotherapy Regimen",
+          "description": "Percentage of participants with Heart failure (NYHA Class III or IV or as confirmed by a cardiologist) and a decrease in left ventricular ejection fraction (LVEF) of at least 10 ejection fraction (EF) points from baseline and to below 50%.",
+          "timeFrame": "10 years from start of treatment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Women ages of 18 to 70 years old\n2. Women who are able and willing to read understand and sign an informed consent document\n3. Biopsy-accessible breast tumor of significant size for core needle biopsy/ultrasound measurable (≥ 2cm)\n4. Patients with histologically confirmed carcinoma of the female breast with triple-negative status by immunohistochemistry (IHC). Patients who are low estrogen reception (ER) expression (\\< 20%), progesterone receptor (PR) negative and human epidermal growth factor 2 (HER2) negative are eligible.\n5. Clinical stages IIA -IIIC (AJCC 2009)\n6. Chemotherapy-naïve patients (for this cancer)\n7. Performance status: Eastern Cooperative Oncology Group (ECOG) performance status 0-1\n8. Non-pregnant and not nursing.\n\n   * Granulocyte greater than or equal to 1,500/microliter\n   * Platelet count greater than or equal to 100,000/microliter\n   * Absolute neutrophil count (ANC) greater than or equal to l500/microliter\n   * Hemoglobin greater than or equal to 10g/deciliter\n   * Bilirubin less than or equal 1.5 x upper limit of normal\n   * aspartate aminotransferase (ALT or SGOT) and alanine transaminase (AST or SGPT) less than 2.5 x upper limit of normal\n\n7\\. Creatinine within institutional normal limits or glomerular filtration rate greater than or equal to 30 mL/min/1.73 m2 by Chronic Kidney Disease Epidemiology Collaboration (CKD EPI) equation 10. Baseline left ventricular ejection fraction of greater than or equal to 55%\n\nExclusion Criteria:\n\n1. Pregnant or lactating women.\n2. Patients with distant metastasis (brain and/or visceral metastasis)\n3. Serious, uncontrolled, concurrent infection(s).\n4. Treatment for other carcinomas within the last 5 years, except non-melanoma skin cancer and treated cervical carcinoma in-situ (CCIS)\n5. Participation in any investigational drug study within 4 weeks preceding the start of study treatment\n6. Other serious uncontrolled medical conditions that the treating investigator feels might compromise study participation including but not limited to chronic or active infection, HIV-positive patient, uncontrolled hypertension, symptomatic congestive heart failure, unstable angina pectoris, uncontrolled diabetes mellitus, or psychiatric illness/social situations that would limit compliance with study requirements.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "genderBased": true,
+      "genderDescription": "Study will enroll women with breast cancer.",
+      "minimumAge": "18 Years",
+      "maximumAge": "70 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Ilona Siljander",
+          "role": "CONTACT",
+          "phone": "773-834-6542",
+          "email": "isiljander1@bsd.uchicago.edu"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Olufunmilayo Olopade, MD",
+          "affiliation": "University of Chicago",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Lagos State University Teaching Hospital",
+          "status": "RECRUITING",
+          "city": "Ikeja",
+          "state": "Lagos",
+          "zip": "100271",
+          "country": "Nigeria",
+          "contacts": [
+            {
+              "name": "ABIODUN POPOOLA",
+              "role": "CONTACT",
+              "phone": "+234 803 3021434"
+            },
+            {
+              "name": "ADEMOLA OYEKAN",
+              "role": "CONTACT",
+              "phone": "+234 803 9277218"
+            },
+            {
+              "name": "ABIODUN POPOOLA",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 6.59651,
+            "lon": 3.34205
+          }
+        },
+        {
+          "facility": "Lagos University Teaching Hospital",
+          "status": "RECRUITING",
+          "city": "Yaba",
+          "state": "Lagos",
+          "zip": "100254",
+          "country": "Nigeria",
+          "contacts": [
+            {
+              "name": "ANTHONIA SOWUNMI",
+              "role": "CONTACT",
+              "phone": "+234 803 7216723"
+            },
+            {
+              "name": "ADEWUNMI ALABI",
+              "role": "CONTACT",
+              "phone": "+234 805 284 3206"
+            },
+            {
+              "name": "ANTHONIA SOWUNMI",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 6.51395,
+            "lon": 3.37389
+          }
+        },
+        {
+          "facility": "Obafemi Awolowo University Teaching Hospitals Complex",
+          "status": "RECRUITING",
+          "city": "Ile-Ife",
+          "state": "Osun State",
+          "zip": "220005",
+          "country": "Nigeria",
+          "contacts": [
+            {
+              "name": "Olalekan Olasehinde",
+              "role": "CONTACT",
+              "phone": "2348060716670",
+              "email": "lekanolasehinde@yahoo.com"
+            },
+            {
+              "name": "Ifeoluwa Olagunju",
+              "role": "CONTACT",
+              "phone": "2347053670305",
+              "email": "ifeoluwaolagunju4@gmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 7.4824,
+            "lon": 4.56032
+          }
+        },
+        {
+          "facility": "University of Ibadan Hospital",
+          "status": "RECRUITING",
+          "city": "Ibadan",
+          "state": "Oyo State",
+          "zip": "200285",
+          "country": "Nigeria",
+          "contacts": [
+            {
+              "name": "ATARA NTEKIM",
+              "role": "CONTACT",
+              "phone": "+234-805 207 6619"
+            },
+            {
+              "name": "AYORINDE FOLASIRE",
+              "role": "CONTACT",
+              "phone": "+234-802-887-9622"
+            },
+            {
+              "name": "ATARA NTEKIM",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 7.37756,
+            "lon": 3.90591
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D064726",
+          "term": "Triple Negative Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003520",
+          "term": "Cyclophosphamide"
+        },
+        {
+          "id": "D015251",
+          "term": "Epirubicin"
+        },
+        {
+          "id": "D000077143",
+          "term": "Docetaxel"
+        },
+        {
+          "id": "D016190",
+          "term": "Carboplatin"
+        },
+        {
+          "id": "D015412",
+          "term": "Mastectomy, Segmental"
+        },
+        {
+          "id": "D000069287",
+          "term": "Capecitabine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010752",
+          "term": "Phosphoramide Mustards"
+        },
+        {
+          "id": "D009588",
+          "term": "Nitrogen Mustard Compounds"
+        },
+        {
+          "id": "D009150",
+          "term": "Mustard Compounds"
+        },
+        {
+          "id": "D006846",
+          "term": "Hydrocarbons, Halogenated"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D063088",
+          "term": "Phosphoramides"
+        },
+        {
+          "id": "D009943",
+          "term": "Organophosphorus Compounds"
+        },
+        {
+          "id": "D004317",
+          "term": "Doxorubicin"
+        },
+        {
+          "id": "D003630",
+          "term": "Daunorubicin"
+        },
+        {
+          "id": "D018943",
+          "term": "Anthracyclines"
+        },
+        {
+          "id": "D009279",
+          "term": "Naphthacenes"
+        },
+        {
+          "id": "D011084",
+          "term": "Polycyclic Aromatic Hydrocarbons"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D000617",
+          "term": "Aminoglycosides"
+        },
+        {
+          "id": "D006027",
+          "term": "Glycosides"
+        },
+        {
+          "id": "D002241",
+          "term": "Carbohydrates"
+        },
+        {
+          "id": "D043823",
+          "term": "Taxoids"
+        },
+        {
+          "id": "D043822",
+          "term": "Cyclodecanes"
+        },
+        {
+          "id": "D003516",
+          "term": "Cycloparaffins"
+        },
+        {
+          "id": "D006840",
+          "term": "Hydrocarbons, Alicyclic"
+        },
+        {
+          "id": "D004224",
+          "term": "Diterpenes"
+        },
+        {
+          "id": "D013729",
+          "term": "Terpenes"
+        },
+        {
+          "id": "D056831",
+          "term": "Coordination Complexes"
+        },
+        {
+          "id": "D008408",
+          "term": "Mastectomy"
+        },
+        {
+          "id": "D013514",
+          "term": "Surgical Procedures, Operative"
+        },
+        {
+          "id": "D003841",
+          "term": "Deoxycytidine"
+        },
+        {
+          "id": "D003562",
+          "term": "Cytidine"
+        },
+        {
+          "id": "D011741",
+          "term": "Pyrimidine Nucleosides"
+        },
+        {
+          "id": "D011743",
+          "term": "Pyrimidines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D005472",
+          "term": "Fluorouracil"
+        },
+        {
+          "id": "D014498",
+          "term": "Uracil"
+        },
+        {
+          "id": "D011744",
+          "term": "Pyrimidinones"
+        },
+        {
+          "id": "D003853",
+          "term": "Deoxyribonucleosides"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

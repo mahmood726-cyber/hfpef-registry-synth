@@ -1,0 +1,326 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05005559",
+      "orgStudyIdInfo": {
+        "id": "VAC.CIN.PT.III"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "IRCT20150303021315N24",
+          "type": "REGISTRY",
+          "domain": "Iranian Registry of Clinical Trials"
+        }
+      ],
+      "organization": {
+        "fullName": "Cinnagen",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Phase III Clinical Trial of CinnaGen COVID-19 Vaccine (SpikoGen)",
+      "officialTitle": "A Phase III, Randomized, Two-armed, Double-blind, Placebo-controlled Trial to Evaluate the Efficacy and Safety of an Adjuvanted Recombinant SARS-CoV-2 Spike (S) Protein Subunit Vaccine Candidate (SpikoGen)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-03",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-08-07",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-03-10",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-03-10",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-08-11",
+      "studyFirstSubmitQcDate": "2021-08-11",
+      "studyFirstPostDateStruct": {
+        "date": "2021-08-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-10-11",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-10-13",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Cinnagen",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Vaxine Pty Ltd",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a phase III, randomized, two-armed, double-blind, placebo-controlled trial designed to evaluate the efficacy and safety of a candidate adjuvanted recombinant SARS-CoV-2 spike (S) protein subunit vaccine (SpikoGen) produced by CinnaGen Co. 16,876 adult individuals receive either SARS-CoV-2 recombinant spike protein (25 µg) with Advax-SM adjuvant (15 mg) or saline placebo in a 3:1 ratio. The randomization is stratified by age (from 18 to under 40 years of age or from 40 to under 50 years of age). The injection is given in two doses with a 21-day interval in the deltoid muscle of the non-dominant arm. Participants will be followed up for six months after the second dose of the study intervention.\n\nStudy hypotheses include:\n\n1. The adjuvanted COVID-19 vaccine candidate significantly reduces the risk of symptomatic COVID-19 in adult subjects.\n2. The adjuvanted COVID-19 vaccine candidate significantly reduces the risk of severe COVID-19 in adult subjects.\n3. The adjuvanted COVID-19 vaccine candidate is safe and tolerable in adult subjects."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Covid19"
+      ],
+      "keywords": [
+        "COVID-19",
+        "SARS-COV-2",
+        "Recombinant protein",
+        "Spike",
+        "Advax-SM",
+        "Advax",
+        "Vaccine",
+        "Adjuvant"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 16876,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Vaccine candidate",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Biological: SARS-CoV-2 recombinant spike protein + Advax-SM adjuvant"
+          ]
+        },
+        {
+          "label": "Saline placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "interventionNames": [
+            "Biological: Saline placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "SARS-CoV-2 recombinant spike protein + Advax-SM adjuvant",
+          "description": "SARS-CoV-2 recombinant spike protein (25 µg) with Advax-SM adjuvant (15 mg) in two doses with a 21-day interval administered with intramuscular injections in the deltoid muscle of the non-dominant arm",
+          "armGroupLabels": [
+            "Vaccine candidate"
+          ],
+          "otherNames": [
+            "SpikoGen"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Saline placebo",
+          "description": "0.9% sodium chloride (1 mL) injection in two doses with a 21-day interval administered with intramuscular injections in the deltoid muscle of the non-dominant arm",
+          "armGroupLabels": [
+            "Saline placebo"
+          ],
+          "otherNames": [
+            "Normal saline"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Occurrence of symptomatic COVID-19",
+          "description": "Participants with at least one positive SARS-CoV-2 PCR test and either any two or more of the following systemic signs or symptoms: fever, chills, myalgia, headache, sore throat, nausea, vomiting, diarrhea, rhinorrhea, new-onset anosmia, and new-onset ageusia - or any one or more of the following respiratory signs and symptoms - cough, shortness of breath, and clinical or radiographic evidence of pneumonia",
+          "timeFrame": "2 weeks after the second dose (day 35) up to 6 months after the second dose (day 201)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Incidence of solicited adverse events",
+          "description": "Injection site pain, erythema, swelling, and induration, axillary swelling or tenderness ipsilateral to the side of injection, fever (oral temperature), headache, fatigue, myalgia, arthralgia, nausea, vomiting, and chills, as reported by the study participants on electronic diaries, and as defined using system organ classes and preferred terms of the Medical Dictionary for Regulatory Activities (MedDRA)",
+          "timeFrame": "For 7 days after each dose"
+        },
+        {
+          "measure": "Incidence of unsolicited adverse events",
+          "description": "As reported by the study participants on electronic diaries, and as defined using system organ classes and preferred terms of the Medical Dictionary for Regulatory Activities (MedDRA)",
+          "timeFrame": "For 28 days after each dose"
+        },
+        {
+          "measure": "Incidence of serious adverse events (SAEs) and suspected unexpected serious adverse reaction (SUSARs)",
+          "description": "As defined using system organ classes and preferred terms of the Medical Dictionary for Regulatory Activities (MedDRA)",
+          "timeFrame": "For 6 months after the second dose"
+        },
+        {
+          "measure": "Occurrence of severe COVID-19",
+          "description": "Any symptomatic COVID-19 patient with any one or more of the following: respiratory rate of 30 per minute or more, heart rate of 125 per minute or more, oxygen saturation of 93% or less in ambient air, respiratory failure, acute respiratory distress syndrome (ARDS), need for high-flow oxygen therapy, non-invasive mechanical ventilation, invasive mechanical ventilation, or extracorporeal membrane oxygenation, any evidence of shock (systolic blood pressure of lower than 90 mmHg, diastolic blood pressure of lower than 60 mmHg, or need for vasopressors), acute renal, hepatic or neurological dysfunction, and hospitalization or death due to COVID-19.",
+          "timeFrame": "2 weeks after the second dose (day 35) up to 6 months after the second dose (day 201)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Male or female between 18 years of age and less than 50 years\n* Willing and able to comply with all study requirements, including scheduled visits, interventions, and laboratory tests\n* Healthy adults or adults in a stable medical condition, defined as not being hospitalized within 3 months prior to the screening visit\n* Females must not be pregnant or breastfeeding\n\nExclusion Criteria:\n\n* Subjects with signs of active SARS-COV-2 infection at the screening visit.\n* Subjects with body temperature of 38 degrees Celsius or greater at the screening visit or within 72 hours prior to the screening visit.\n* Subjects with a history of any progressive or severe neurological disorders, including dementia, stroke, seizure, and Guillain-Barre syndrome.\n* Female Subjects who are pregnant or breastfeeding or have planned to become pregnant during the study period.\n* Subjects who have a history of severe allergic reactions (e.g., anaphylaxis) to the study vaccine, any components of the study interventions, or any pharmaceutical products.\n* Subjects who have received any other investigational products within 30 days prior to the screening visit or intend to participate in any other clinical studies during the period of this study.\n* Subjects who have been vaccinated with any vaccine or vaccine candidate against SARS-CoV-2.\n* Subjects who have received any vaccines within 28 days prior to the screening visit or intend to receive any vaccines up to 14 days after the second dose of the study injection.\n* Subjects who have any known bleeding disorders or, in the investigator's opinion, have any contraindications for an intramuscular injection.\n* Subjects who have received any blood, plasma, or immunoglobulin products from 90 days prior to the screening visit or intend to receive during the study period.\n* Subjects with any condition that may increase the risk of participating in the study or may interfere with the evaluation of the primary endpoints of the study in the investigator's opinion.\n* Subjects who have donated ≥450 mL of blood or blood products within 28 days prior to the screening visit.\n* Subjects with end-stage renal disease\n* Subjects with Down syndrome\n* Subjects with a body mass index of 40 kg/m2 or more\n* Subjects with cystic fibrosis, chronic obstructive pulmonary disease, or pulmonary arterial hypertension\n* Subjects with uncontrolled asthma, hypertension, or diabetes mellitus\n* Subjects who receive cytotoxic medications or immunosuppressive drugs, including systemic corticosteroids at doses equivalent to prednisolone 10 mg or higher per day for more than 14 days.\n* Subjects who can get a COVID-19 vaccine within 2 months after the study enrollment date based on the national COVID-19 immunization program in Iran",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "50 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Payam Tabarsi, M.D.",
+          "affiliation": "Shahid Beheshti University of Medical Sciences",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Espinas Palace Hotel",
+          "city": "Tehran",
+          "zip": "1981846911",
+          "country": "Iran",
+          "geoPoint": {
+            "lat": 35.69439,
+            "lon": 51.42151
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "36096430",
+          "type": "RESULT",
+          "citation": "Tabarsi P, Anjidani N, Shahpari R, Mardani M, Sabzvari A, Yazdani B, Kafi H, Fallah N, Ebrahimi A, Taheri A, Petrovsky N, Barati S. Evaluating the efficacy and safety of SpikoGen(R), an Advax-CpG55.2-adjuvanted severe acute respiratory syndrome coronavirus 2 spike protein vaccine: a phase 3 randomized placebo-controlled trial. Clin Microbiol Infect. 2023 Feb;29(2):215-220. doi: 10.1016/j.cmi.2022.09.001. Epub 2022 Sep 10."
+        },
+        {
+          "pmid": "39914274",
+          "type": "DERIVED",
+          "citation": "Honda-Okubo Y, Sajkov D, Wauchope B, Turner JV, Vote B, Antipov A, Andre G, Lebedin Y, Petrovsky N. Immunogenicity and safety study of a single dose of SpikoGen(R) vaccine as a heterologous or homologous intramuscular booster following a primary course of mRNA, adenoviral vector or recombinant protein COVID-19 vaccine in ambulatory adults. Vaccine. 2025 Mar 7;49:126744. doi: 10.1016/j.vaccine.2025.126744. Epub 2025 Feb 5."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000086382",
+          "term": "COVID-19"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011024",
+          "term": "Pneumonia, Viral"
+        },
+        {
+          "id": "D011014",
+          "term": "Pneumonia"
+        },
+        {
+          "id": "D012141",
+          "term": "Respiratory Tract Infections"
+        },
+        {
+          "id": "D007239",
+          "term": "Infections"
+        },
+        {
+          "id": "D014777",
+          "term": "Virus Diseases"
+        },
+        {
+          "id": "D018352",
+          "term": "Coronavirus Infections"
+        },
+        {
+          "id": "D003333",
+          "term": "Coronaviridae Infections"
+        },
+        {
+          "id": "D030341",
+          "term": "Nidovirales Infections"
+        },
+        {
+          "id": "D012327",
+          "term": "RNA Virus Infections"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000718690",
+          "term": "SARS-CoV-2 recombinant spike protein with delta inulin and CpG-ODN adjuvant vaccine"
+        },
+        {
+          "id": "D000077330",
+          "term": "Saline Solution"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000077324",
+          "term": "Crystalloid Solutions"
+        },
+        {
+          "id": "D007552",
+          "term": "Isotonic Solutions"
+        },
+        {
+          "id": "D012996",
+          "term": "Solutions"
+        },
+        {
+          "id": "D004364",
+          "term": "Pharmaceutical Preparations"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

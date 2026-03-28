@@ -1,0 +1,359 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05961202",
+      "orgStudyIdInfo": {
+        "id": "TJ-HYPIC"
+      },
+      "organization": {
+        "fullName": "Tongji Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Effects of Hydroxychloroquine in Patients with Inflammatory Cardiomyopathy",
+      "officialTitle": "The Efficacy and Mechanism of Hydroxychloroquine in Patients with Inflammatory Cardiomyopathy After Myocarditis",
+      "acronym": "HYPIC"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-10",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-11-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-09-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-11-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-07-18",
+      "studyFirstSubmitQcDate": "2023-07-18",
+      "studyFirstPostDateStruct": {
+        "date": "2023-07-27",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-10-06",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-10-09",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Dao Wen Wang",
+        "investigatorTitle": "Prof.",
+        "investigatorAffiliation": "Tongji Hospital"
+      },
+      "leadSponsor": {
+        "name": "Tongji Hospital",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Wuhan Central Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Taihe Hospital",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Evaluating the long-term therapeutic effects and safety of hydroxychloroquine(compared to glucocorticoid therapy alone) in patients with inflammatory cardiomyopathy--a multicenter randomized controlled study",
+      "detailedDescription": "Inflammatory cardiomyopathy is the chronic stage of myocarditis, which is associated with poor cardiovascular outcome and poor prognosis.Inflammatory cardiomyopathy is also one of the common causes of heart failure. Actually, the treatment and prognosis of inflammatory cardiomyopathy remain challenging clinical issues that often have frustrating consequences. So far, there is no specific treatment for inflammatory cardiomyopathy. Hydroxychloroquine is a drug that can effectively inhibit inflammation and has been used in many inflammatory diseases in the past. Our previous basic research has proved that hydroxychloroquine can effectively treat experimental autoimmune myocarditis.Therefore, multicenter large randomized controlled trials are needed to verify the therapeutic effects of hydroxychloroquine on patients with inflammatory cardiomyopathy.\n\nPatients with inflammatory cardiomyopathy after acute myocarditis confirmed by biopsy received standard drug treatment for heart failure. These patients whose cardiac function could not be improved for a long time were randomly assigned (1:1) to hydroxychloroquine group (hydroxychloroquine and glucocorticoid) and glucocorticoid group (glucocorticoid alone). The clinical benefit will be measured with respect to absolute increase in LVEF and decrease in hs-cTnI and NT-proBNP of immunosuppressive treatment with hydroxychloroquine and prednisolone compared to prednisolone alone at long-term follow-up (1, 3, 6, 9, 12, 18, 24, 36 months)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Inflammatory Cardiomyopathy",
+        "Myocarditis"
+      ],
+      "keywords": [
+        "Inflammatory cardiomyopathy",
+        "Myocarditis",
+        "Hydroxychloroquine",
+        "Randomized controlled trial"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 200,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "HCQ group",
+          "type": "EXPERIMENTAL",
+          "description": "Hydroxychloroquine 200mg qd and Prednisolone 20mg qd for 12 months",
+          "interventionNames": [
+            "Drug: Hydroxychloroquine",
+            "Drug: Prednisolone"
+          ]
+        },
+        {
+          "label": "Non-HCQ group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Prednisolone 20mg qd for 12 months",
+          "interventionNames": [
+            "Drug: Prednisolone"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Hydroxychloroquine",
+          "description": "Hydroxychloroquine 200mg qd",
+          "armGroupLabels": [
+            "HCQ group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Prednisolone",
+          "description": "Prednisolone 20mg qd",
+          "armGroupLabels": [
+            "HCQ group",
+            "Non-HCQ group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Composite cardiovascular outcome",
+          "description": "The composite cardiovascular outcome of time to cardiovascular death or heart transplant, hospitalization for heart failure or recurrence of myocarditis, permanent pacemaker use, or ICD implantation.",
+          "timeFrame": "3 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "The increase and dynamic changes of LVEF (%)",
+          "description": "Measurement of left ventricular ejection fraction (LVEF) by cardiac echocardiography during follow-up.",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "The increase and dynamic changes of LVIDd (mm)",
+          "description": "Measurement of left ventricular internal diastolic diameter (LVIDd) by cardiac echocardiography during follow-up.",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "The decrease and dynamic changes of hs-cTnI (pg/mL)",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "The decrease and dynamic changes of NT-proBNP (pg/mL)",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "The decrease and dynamic changes of hs-CRP (mg/L)",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "The decrease and dynamic changes of ESR (mm/H)",
+          "timeFrame": "3 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion criteria:\n\n1. Male or female patient aged from 18 to 80 years;\n2. Left ventricular dysfunction \\[left ventricular ejection fraction (LVEF) \\<50%\\] diagnosed by echocardiography (Simpson's biplane) within 30 days before randomization;\n3. Chronic heart failure (lasting \\>6 months) unresponsive to conventional supportive therapy;\n4. High-sensitivity cardiac Troponin I (hs-cTnI) \\>26.2 pg/mL and N-terminal-pro-B-type natriuretic peptide (NT-proBNP) \\>169pg/mL;\n5. Suffered from confirmed fulminant myocarditis in the past;\n6. Diagnosed with chronic inflammatory cardiomyopathy confirmed by myocardial biopsy1;\n7. Absence of cardiotropic viruses at polymerase chain reaction analysis;\n8. Volunteer for the study and written informed consent;\n\nExclusion criteria:\n\n1. Age \\<18 or \\>80 years;\n2. Acute myocardial infarction occurred within the past month;\n3. Subjects who have undergone cardiac surgery or cerebrovascular accidents within 6 months;\n4. Preparing for heart transplantation;\n5. With malignant arrhythmias such as long QT syndrome;\n6. Pregnancy or lactation;\n7. Have participated in any drug clinical trial within the three months;\n8. Presence of contraindications to prednisolone and/or hydroxychloroquine (including hypersensitivity to prednisone or hydroxychloroquine, mainly untreated systemic infection, uncontrolled diabetes, poorly controlled endocrine diseases, osteoporosis, gastric or duodenal ulcer, uncontrolled hypertension, leukocytopenia (leukocyte counts \\< 4×109/L), neutropenia (neutrophils \\< 1.5×109/L), thrombocytopenia (platelet levels \\< 130×109/L), anemia (hemoglobin levels \\< 11 g/dL).\n9. Confirmed or possible systemic inflammatory diseases;\n10. On the brink of death or life expectancy of less than 1 year;\n11. Drug or alcohol abuse;\n12. cannot persist in taking medication due to various reasons;\n13. Inability to provide informed consent.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Dao Wen Wang, MD, PhD",
+          "role": "CONTACT",
+          "phone": "+86-027-6937-8422",
+          "email": "dwwang@tjh.tjmu.edu.cn"
+        },
+        {
+          "name": "Wu He",
+          "role": "CONTACT",
+          "phone": "+8613972334305",
+          "email": "hewu0912@163.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Tongji Hospital",
+          "status": "RECRUITING",
+          "city": "Wuhan",
+          "state": "Hubei",
+          "zip": "430030",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Dao Wen Wang, MD, PhD",
+              "role": "CONTACT",
+              "phone": "86-27-6937-8422",
+              "email": "dwwang@tjh.tjmu.edu.cn"
+            },
+            {
+              "name": "Wu He, MD",
+              "role": "CONTACT",
+              "phone": "+8613972334305",
+              "email": "hewu0912@163.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.58333,
+            "lon": 114.26667
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "37002488",
+          "type": "BACKGROUND",
+          "citation": "He W, Zhou L, Xu K, Li H, Wang JJ, Chen C, Wang D. Immunopathogenesis and immunomodulatory therapy for myocarditis. Sci China Life Sci. 2023 Sep;66(9):2112-2137. doi: 10.1007/s11427-022-2273-3. Epub 2023 Mar 29."
+        },
+        {
+          "pmid": "33176455",
+          "type": "BACKGROUND",
+          "citation": "Ammirati E, Frigerio M, Adler ED, Basso C, Birnie DH, Brambatti M, Friedrich MG, Klingel K, Lehtonen J, Moslehi JJ, Pedrotti P, Rimoldi OE, Schultheiss HP, Tschope C, Cooper LT Jr, Camici PG. Management of Acute Myocarditis and Chronic Inflammatory Cardiomyopathy: An Expert Consensus Document. Circ Heart Fail. 2020 Nov;13(11):e007405. doi: 10.1161/CIRCHEARTFAILURE.120.007405. Epub 2020 Nov 12."
+        },
+        {
+          "pmid": "33303763",
+          "type": "BACKGROUND",
+          "citation": "Hang W, Chen C, Seubert JM, Wang DW. Fulminant myocarditis: a comprehensive review from etiology to treatments and outcomes. Signal Transduct Target Ther. 2020 Dec 11;5(1):287. doi: 10.1038/s41392-020-00360-y."
+        },
+        {
+          "pmid": "40781621",
+          "type": "DERIVED",
+          "citation": "He W, Cui G, Chen J, Chen M, Li R, Wang L, Yu T, Li G, Jiang J, Wang DW. The efficacy and safety of hydroxychloroquine in patients with chronic inflammatory cardiomyopathy: a multicenter randomized study (HYPIC trial). BMC Med. 2025 Aug 8;23(1):467. doi: 10.1186/s12916-025-04301-w."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009205",
+          "term": "Myocarditis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009202",
+          "term": "Cardiomyopathies"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006886",
+          "term": "Hydroxychloroquine"
+        },
+        {
+          "id": "D011239",
+          "term": "Prednisolone"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D002738",
+          "term": "Chloroquine"
+        },
+        {
+          "id": "D000634",
+          "term": "Aminoquinolines"
+        },
+        {
+          "id": "D011804",
+          "term": "Quinolines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D011246",
+          "term": "Pregnadienetriols"
+        },
+        {
+          "id": "D011245",
+          "term": "Pregnadienes"
+        },
+        {
+          "id": "D011278",
+          "term": "Pregnanes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

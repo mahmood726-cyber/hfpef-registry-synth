@@ -1,0 +1,860 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05126836",
+      "orgStudyIdInfo": {
+        "id": "CV-2020-29436"
+      },
+      "organization": {
+        "fullName": "University of Minnesota",
+        "class": "OTHER"
+      },
+      "briefTitle": "Cilostazol for HFpEF",
+      "officialTitle": "Cilostazol for HFpEF (Heart Failure With a Preserved Ejection Fraction)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-11",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-09-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-06-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-07-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-11-01",
+      "studyFirstSubmitQcDate": "2021-11-18",
+      "studyFirstPostDateStruct": {
+        "date": "2021-11-19",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2023-07-26",
+      "resultsFirstSubmitQcDate": "2023-11-29",
+      "resultsFirstPostDateStruct": {
+        "date": "2023-12-15",
+        "type": "ACTUAL"
+      },
+      "dispFirstSubmitDate": "2023-05-16",
+      "dispFirstPostDateStruct": {
+        "date": "2023-12-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-11-29",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-12-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Minnesota",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Determine if cilostazol improves symptoms and NTproBNP levels (heart failure blood marker) in heart failure with preserved ejection fraction (HFpEF) - a prevalent syndrome without targeted evidence-based treatment.\n\nThis will be assessed in a prospective 1-month single blinded study with 2 cross-overs n-of-1 study design with placebo and cilostazol",
+      "detailedDescription": "Heart failure (HF) is the #1 reason for hospital admissions. About half of the patients with HF have a preserved ejection fraction (HFpEF). There is no targeted evidence-based treatment for HFpEF. We recently reported that elevating the heart rate with pacemakers conveys clinical benefits e.g. reduction in heart failure symptoms, lowering filling pressures and an increase in walk distance. Cilostazol is a PDE3 inhibitor that increases the heart rate by about 5-8 beats per minute and has other potentially beneficial HFpEF effects such as peripheral vasodilation, lusitropic effects and dromotropic effects. By activating proteinkinase A, cilostazol may also phosphorylate titin, which may reduce myocardial stiffness.\n\nn-of-1 study design using the standard dose cilostazol formulation of 100mg twice a day approved for peripheral vascular disease. The investigators and patients are blinded. The patients serve as their own controls with two crossovers (Week 1: cilostazol or placebo - Week 2: placebo or cilostazol - Week 3: cilostazol or placebo - Week 4: placebo or cilostazol)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Preserved Ejection Fraction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "interventionModelDescription": "n-of-1 design",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 25,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Cilostazol",
+          "type": "OTHER",
+          "description": "First week, Cilostazol 100mg twice a day\n\nSecond week, Placebo twice a day\n\nThird week, Cilostazol 100mg twice a day\n\nForth week, Placebo twice a day",
+          "interventionNames": [
+            "Drug: Cilostazol 100Mg Tab",
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "OTHER",
+          "description": "First week, Placebo twice a day\n\nSecond week, Cilostazol 100mg twice a day\n\nThird week, Placebo twice a day\n\nForth week, Cilostazol 100mg twice a day",
+          "interventionNames": [
+            "Drug: Cilostazol 100Mg Tab",
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Cilostazol 100Mg Tab",
+          "description": "Cilostazol Twice a Day",
+          "armGroupLabels": [
+            "Cilostazol",
+            "Placebo"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo",
+          "armGroupLabels": [
+            "Cilostazol",
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "KCCQ-12",
+          "description": "The Kansas City Cardiomyopathy Questionnaire contains 12 items that measure the effect of heart failure on health and quality of life. Total scores are scaled from 0 to 100 and frequently summarized in 25-point ranges, where scores represent health status as follows: 0 to 24: very poor to poor; 25 to 49: poor to fair; 50 to 74: fair to good; and 75 to 100: good to excellent",
+          "timeFrame": "4 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "NTproBNP",
+          "description": "Blood marker of heart failure severity \\[pg/mL\\], average of 2 time points 1st and 3rd week",
+          "timeFrame": "1st and 3rd week"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* \\>18 yrs\n* LVEF ≥ 50% (on last assessment, \\<2 years)\n* Diagnosis of HFpEF or Shortness of breath with NYHA Class ≥ 2 and one of the following:\n\n  1. pulmonary edema on chest imaging or documented on exam or on loop diuretics\n  2. NTproBNP \\>400 ng/ml in the last 24 months\n  3. HFpEF\\>50% hospitalization in the last 3 years\n  4. Qualitative echo: \\> mild diastolic dysfunction on echo report and \\> mild left ventricular hypertrophy and left atrial dilation or quantitative echo: left ventricular hypertrophy \\[men ≥115 g/m², women ≥95 g/m² or relative wall thickness \\>0.42 or any LV wall thickness \\>1.2cm and has LA dilation (\\>28ml/m2)\n\nExclusion Criteria:\n\n* \\<18yo\n* resting heart rate \\>100/min\n* patients with LVEF \\<50%\n* advanced end-stage heart failure,\n* symptomatic COPD on home O2,\n* uncontrolled severe HTN (SBP \\>160/100 mmHg)\n* patients with life expectancy \\<6 months,\n* end-stage liver cirrhosis,\n* more than moderate valve disease,\n* infiltrative myocardial disease\n* constrictive pericarditis or myocarditis,\n* patients unable to participate in follow up,\n* pregnant patients or patients without reliable contraceptive agent for the duration of study participation),\n* left ventricular outflow tract obstruction,\n* bleeding dyscrasias, blood dyscrasias,\n* Patients on oral ketoconazole, itraconazole, fluconazole, miconazole, fluvoxamine, fluoxetine, nefazodone, sertraline, erythromycin, clarithromycin or azithromycin",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "M Health Fairview",
+          "city": "Minneapolis",
+          "state": "Minnesota",
+          "zip": "55455",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.97997,
+            "lon": -93.26384
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "39552153",
+          "type": "DERIVED",
+          "citation": "Aiad N, du Fay de Lavallaz J, Zhang MJ, Chaikijurajai T, Ye B, Nijjar PS, Lahiri JA, Martin CM, Alexy T, Meyer M. Cilostazol in patients with heart failure and preserved ejection fraction-The CLIP-HFpEF trial. ESC Heart Fail. 2025 Apr;12(2):1437-1446. doi: 10.1002/ehf2.15162. Epub 2024 Nov 17."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Cilostazol First (1 Week), Then Placebo (1 Week)",
+          "description": "First week, Cilostazol 100mg twice a day\n\nSecond week, Placebo twice a day\n\nThird week, Cilostazol 100mg twice a day\n\nForth week, Placebo twice a day\n\nCilostazol 100Mg Tab: Cilostazol Twice a Day\n\nPlacebo: Placebo"
+        },
+        {
+          "id": "FG001",
+          "title": "Placebo First, Then Cilostazol",
+          "description": "First week, Placebo twice a day\n\nSecond week, Cilostazol 100mg twice a day\n\nThird week, Placebo twice a day\n\nForth week, Cilostazol 100mg twice a day\n\nCilostazol 100Mg Tab: Cilostazol Twice a Day\n\nPlacebo: Placebo"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "12"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "13"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "11"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "12"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Cilostazol First, Then Placebo",
+          "description": "First week, Cilostazol 100mg twice a day\n\nSecond week, Placebo twice a day\n\nThird week, Cilostazol 100mg twice a day\n\nForth week, Placebo twice a day\n\nCilostazol 100Mg Tab: Cilostazol Twice a Day\n\nPlacebo: Placebo"
+        },
+        {
+          "id": "BG001",
+          "title": "Placebo First, Then Cilostazol",
+          "description": "First week, Placebo twice a day\n\nSecond week, Cilostazol 100mg twice a day\n\nThird week, Placebo twice a day\n\nForth week, Cilostazol 100mg twice a day\n\nCilostazol 100Mg Tab: Cilostazol Twice a Day\n\nPlacebo: Placebo"
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "11"
+            },
+            {
+              "groupId": "BG001",
+              "value": "12"
+            },
+            {
+              "groupId": "BG002",
+              "value": "23"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "23"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "12"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "11"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "20"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "KCCQ-12",
+          "description": "The Kansas City Cardiomyopathy Questionnaire contains 12 items that measure the effect of heart failure on health and quality of life. Total scores are scaled from 0 to 100 and frequently summarized in 25-point ranges, where scores represent health status as follows: 0 to 24: very poor to poor; 25 to 49: poor to fair; 50 to 74: fair to good; and 75 to 100: good to excellent",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Inter-Quartile Range",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "4 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Cilostazol",
+              "description": "First week, Cilostazol 100mg twice a day\n\nSecond week, Placebo twice a day\n\nThird week, Cilostazol 100mg twice a day\n\nForth week, Placebo twice a day\n\nCilostazol 100Mg Tab: Cilostazol Twice a Day\n\nPlacebo: Placebo"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "First week, Placebo twice a day\n\nSecond week, Cilostazol 100mg twice a day\n\nThird week, Placebo twice a day\n\nForth week, Cilostazol 100mg twice a day\n\nCilostazol 100Mg Tab: Cilostazol Twice a Day\n\nPlacebo: Placebo"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "23"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "23"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "47",
+                      "lowerLimit": "32",
+                      "upperLimit": "52"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "39",
+                      "lowerLimit": "29",
+                      "upperLimit": "48"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "NTproBNP",
+          "description": "Blood marker of heart failure severity \\[pg/mL\\], average of 2 time points 1st and 3rd week",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Inter-Quartile Range",
+          "unitOfMeasure": "pg/mL",
+          "timeFrame": "1st and 3rd week",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Cilostazol",
+              "description": "First week, Cilostazol 100mg twice a day\n\nSecond week, Placebo twice a day\n\nThird week, Cilostazol 100mg twice a day\n\nForth week, Placebo twice a day\n\nCilostazol 100Mg Tab: Cilostazol Twice a Day\n\nPlacebo: Placebo"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "First week, Placebo twice a day\n\nSecond week, Cilostazol 100mg twice a day\n\nThird week, Placebo twice a day\n\nForth week, Cilostazol 100mg twice a day\n\nCilostazol 100Mg Tab: Cilostazol Twice a Day\n\nPlacebo: Placebo"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "23"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "23"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "375",
+                      "lowerLimit": "68",
+                      "upperLimit": "974"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "448",
+                      "lowerLimit": "154",
+                      "upperLimit": "1056"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "timeFrame": "1 month",
+      "description": "Data on non-serious adverse events was not collected",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Cilostazol",
+          "description": "First week, Cilostazol 100mg twice a day\n\nSecond week, Placebo twice a day\n\nThird week, Cilostazol 100mg twice a day\n\nForth week, Placebo twice a day\n\nCilostazol 100Mg Tab: Cilostazol Twice a Day\n\nPlacebo: Placebo",
+          "deathsNumAffected": 3,
+          "deathsNumAtRisk": 23,
+          "seriousNumAffected": 3,
+          "seriousNumAtRisk": 23,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 0
+        },
+        {
+          "id": "EG001",
+          "title": "Placebo",
+          "description": "First week, Placebo twice a day\n\nSecond week, Cilostazol 100mg twice a day\n\nThird week, Placebo twice a day\n\nForth week, Cilostazol 100mg twice a day\n\nCilostazol 100Mg Tab: Cilostazol Twice a Day\n\nPlacebo: Placebo",
+          "deathsNumAffected": 5,
+          "deathsNumAtRisk": 23,
+          "seriousNumAffected": 5,
+          "seriousNumAtRisk": 23,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 0
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Headache",
+          "organSystem": "General disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 23
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 23
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "General disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 23
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 23
+            }
+          ]
+        },
+        {
+          "term": "dizziness",
+          "organSystem": "General disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 23
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 23
+            }
+          ]
+        },
+        {
+          "term": "edema",
+          "organSystem": "General disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 23
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 23
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Dr. Markus Meyer",
+        "organization": "University of Minnesota",
+        "email": "meye3249@umn.edu",
+        "phone": "612.625-9538"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2020-05-16",
+          "uploadDate": "2023-07-26T11:55",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 1269412
+        },
+        {
+          "typeAbbrev": "ICF",
+          "hasProtocol": false,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Informed Consent Form",
+          "date": "2021-05-16",
+          "uploadDate": "2023-07-26T11:56",
+          "filename": "ICF_001.pdf",
+          "size": 1264132
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18",
+      "submissionTracking": {
+        "firstMcpInfo": {
+          "postDateStruct": {
+            "date": "2023-08-21",
+            "type": "ACTUAL"
+          }
+        }
+      }
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077407",
+          "term": "Cilostazol"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013777",
+          "term": "Tetrazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D011804",
+          "term": "Quinolines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

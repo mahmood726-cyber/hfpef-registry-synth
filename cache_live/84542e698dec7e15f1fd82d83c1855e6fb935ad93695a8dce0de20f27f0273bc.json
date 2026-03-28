@@ -1,0 +1,203 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07355023",
+      "orgStudyIdInfo": {
+        "id": "A202505041"
+      },
+      "organization": {
+        "fullName": "Tri-Service General Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "AI-Enabled Electrocardiogram-Guided Guideline-Directed Medical Therapy on Incident Left Ventricular Dysfunction: A Target Trial Emulation Study",
+      "officialTitle": "AI-Enabled Electrocardiogram-Guided Guideline-Directed Medical Therapy on Incident Left Ventricular Dysfunction: A Target Trial Emulation Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-01-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-01-15",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-01-15",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-12-30",
+      "studyFirstSubmitQcDate": "2026-01-12",
+      "studyFirstPostDateStruct": {
+        "date": "2026-01-21",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Wei-Ting Liu",
+        "investigatorTitle": "Clinical Doctor, Principal Investigator",
+        "investigatorAffiliation": "Tri-Service General Hospital"
+      },
+      "leadSponsor": {
+        "name": "Tri-Service General Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This multicenter retrospective study evaluates whether artificial intelligence-enabled electrocardiography (AI-ECG) can identify individuals at high risk for left ventricular dysfunction and whether targeted guideline-directed medical therapy can mitigate subsequent risk. Using a large multicenter cohort of patients with preserved left ventricular systolic function, the investigators applied an AI-ECG-based risk stratification approach and emulated a target trial to examine the association between guideline-directed therapies and the risk of incident left ventricular functional decline.",
+      "detailedDescription": "This retrospective, multicenter study utilized electronic medical record (EMR) data from a nationwide healthcare system in Taiwan, comprising one academic medical center and seven regional hospitals. The study period extended from January 2016 through December 2024. Clinical data included demographics, comorbidities, medication prescriptions, 12-lead electrocardiograms, and transthoracic echocardiography results.\n\nAn artificial intelligence-enabled electrocardiography (AI-ECG) model was developed to detect left ventricular dysfunction (LVD) using over 50,000 paired ECG-echocardiogram recordings obtained within a 7-day interval. The model architecture consisted of an 82-layer convolutional neural network incorporating an attention mechanism to capture salient temporal and morphological ECG features. The finalized model was applied without modification to the study cohort for risk stratification.\n\nAll eligible patients had preserved left ventricular ejection fraction (LVEF) at baseline. Based on AI-ECG predictions at cohort entry, patients classified as having LVD by the model despite normal baseline LVEF were designated as the AI-ECG high-risk group, whereas those predicted not to have LVD were designated as the AI-ECG low-risk group. The primary outcome was incident left ventricular functional decline, defined as a reduction in LVEF to ≤40% on follow-up echocardiography.\n\nCandidate preventive therapies, including angiotensin converting enzyme inhibitors (ACEi) or angiotensin II receptor blockers (ARB) , beta-blockers and sodium-glucose cotransporter 2 (SGLT2) inhibitors were first screened by evaluating their individual and combination prescription patterns and their associations with the primary outcome. The most promising therapy identified in this screening phase was subsequently assessed using a target trial emulation framework. Specifically, newly initiated use of the candidate therapy was compared with nonuse to emulate a randomized controlled trial, thereby estimating the effect of early preventive treatment on incident LVEF decline using real-world observational data.\n\nThe investigators prespecified analytic methods to estimate causal contrasts using time-to-event analyses suitable for observational data, following emulation of random treatment assignment. Prespecified sensitivity analyses were conducted to assess the robustness of the findings across different clinical settings, comorbidity profiles, concomitant therapies, and alternative AI-ECG risk thresholds."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Left Ventricular (LV) Systolic Dysfunction"
+      ],
+      "keywords": [
+        "Artificial intelligence",
+        "Electrocardiogram",
+        "Deep learning",
+        "Left ventricular dysfunction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 5000,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intervention",
+          "type": "EXPERIMENTAL",
+          "description": "Initiation of Guideline-directed medical therapies, including angiotensin converting enzyme inhibitors (ACEi) or angiotensin II receptor blockers (ARB) , beta-blockers and sodium-glucose cotransporter 2 (SGLT2) inhibitors",
+          "interventionNames": [
+            "Behavioral: Guideline-directed medical therapies"
+          ]
+        },
+        {
+          "label": "Control",
+          "type": "NO_INTERVENTION",
+          "description": "No Guideline-directed medical therapies"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Guideline-directed medical therapies",
+          "description": "Guideline-directed medical therapies for patients at risk of heart failure, including angiotensin converting enzyme inhibitors (ACEi) or angiotensin II receptor blockers (ARB) , beta-blockers and sodium-glucose cotransporter 2 (SGLT2) inhibitors.",
+          "armGroupLabels": [
+            "Intervention"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Rate of left ventricular ejection fraction (LVEF) ≤40%",
+          "description": "Rate of left ventricular ejection fraction (LVEF) ≤40% on follow-up echocardiography",
+          "timeFrame": "within follow-up period (up to 10 years)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* With an ECG followed by an echocardiogram within a 90-day interval\n* With preserved left ventricular ejection fraction (LVEF ≥ 50%)\n\nExclusion Criteria:\n\n* missing essential variables or ECG lead data\n* any prior LVEF \\< 50%\n* loss to follow-up or death during the 90-day assessment window",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Wei-Ting Liu, M.D.",
+          "role": "CONTACT",
+          "phone": "+886287923311",
+          "phoneExt": "16118",
+          "email": "wtliucv@gmail.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Tri-Service General Hospital",
+          "status": "RECRUITING",
+          "city": "Taipei",
+          "state": "Taipei",
+          "zip": "11490",
+          "country": "Taiwan",
+          "contacts": [
+            {
+              "name": "Wei-Ting Liu, M.D.",
+              "role": "CONTACT",
+              "phone": "+886-287923311",
+              "phoneExt": "16118",
+              "email": "wtliucv@gmail.com"
+            }
+          ]
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D018487",
+          "term": "Ventricular Dysfunction, Left"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D018754",
+          "term": "Ventricular Dysfunction"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

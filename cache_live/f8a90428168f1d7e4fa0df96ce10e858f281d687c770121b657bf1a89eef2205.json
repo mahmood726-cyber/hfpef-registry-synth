@@ -1,0 +1,387 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05655065",
+      "orgStudyIdInfo": {
+        "id": "49RC22_0293"
+      },
+      "organization": {
+        "fullName": "University Hospital, Angers",
+        "class": "OTHER_GOV"
+      },
+      "briefTitle": "Effects of Increasing Mean Arterial Pressure on Renal Function in Patients with Shock and with Elevated Central Venous Pressure",
+      "officialTitle": "Effects of Increasing Mean Arterial Pressure on Renal Function in Patients with Shock and with Elevated Central Venous Pressure : a Pilot Study for the Individualization of Mean Arterial Pressure",
+      "acronym": "MAPAKI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-02",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-01-02",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-11-03",
+      "studyFirstSubmitQcDate": "2022-12-14",
+      "studyFirstPostDateStruct": {
+        "date": "2022-12-16",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-02-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-02-24",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University Hospital, Angers",
+        "class": "OTHER_GOV"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to assess the effect of a higher mean arterial pressure on renal function for patients with shock and elevated central venous pressure.",
+      "detailedDescription": "Current recommandation for mean arterial pressure (MAP) target is 65 mmHg for septic shock, but optimal target to prevent acute renal failure (ARF) remains unknown.\n\nHigh central venous pressure (CVP) can lead to acute renal failure through venous congestion , and is associated with acute renal failure in intensive care unit.\n\nA decrease of renal perfusion pressure, defined by MAP - CVP, has been shown to be associated with risk of acute renal failure.\n\nThe main objective of this trial is to evaluate if an optimisation of renal perfusion pressure, by a higher MAP when CVP is high (≥ 12 cmH2O), can improve renal function.\n\nIn this interventional monocenter trial, each patient will be evaluated during 2 consecutive periods of 6 hours, with a temporary MAP target\n\n* Target at 65-70mmHg during 6 hours\n* Target at 80-85mmHg during 6 hours\n\nPatients will be randomized into two groups to define the order of targets. There will be a stratification on previous arterial hypertension. Renal function will be measured at the end of each period."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Shock"
+      ],
+      "keywords": [
+        "mean arterial pressure",
+        "central venous pressure",
+        "Renal function"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "OTHER",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 30,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Increase of MAP at low target 65-70 mmHg (with catecholamines or volemic expansion)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Target of mean arterial pressure (MAP) at 65-70 mmHg The therapeutic means used to obtain the MAP objectives within each group (increase in catecholamines and / or volume expansion) are left to the discretion of the clinician, in accordance with the recommendations.",
+          "interventionNames": [
+            "Procedure: increase of mean arterial pressure at 65-70 mmHg"
+          ]
+        },
+        {
+          "label": "Increase of MAP at high target 80-85 mmHg (with catecholamines or volemic expansion)",
+          "type": "EXPERIMENTAL",
+          "description": "Target of mean arterial pressure (MAP) at 80-85 mmHg The therapeutic means used to obtain the MAP objectives within each group (increase in catecholamines and / or volume expansion) are left to the discretion of the clinician, in accordance with the recommendations.",
+          "interventionNames": [
+            "Procedure: increase of mean arterial pressure at 80-85 mmHg"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "increase of mean arterial pressure at 65-70 mmHg",
+          "description": "Increase of mean arterial pressure at 65-70 mmHg (with catecholamines or volemic expansion at the discretion of the clinician)",
+          "armGroupLabels": [
+            "Increase of MAP at low target 65-70 mmHg (with catecholamines or volemic expansion)"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "increase of mean arterial pressure at 80-85 mmHg",
+          "description": "Increase of mean arterial pressure at 80-85mmHg (with catecholamines or volemic expansion at the discretion of the clinician).",
+          "armGroupLabels": [
+            "Increase of MAP at high target 80-85 mmHg (with catecholamines or volemic expansion)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Changes of creatinine clearance",
+          "description": "Creatinine clearance is calculated with the formula UV/P as follow :\n\n* U being the urinary creatinine concentration in μmol/l\n* V the urinary volume expressed in ml per unit time\n* P the plasmatic creatinine concentration in μmol/l",
+          "timeFrame": "At 6 hours and at 12 hours"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Changes of renal resistive index",
+          "description": "We will assess the changes of the renal resistive index with a low MAP target (65-70mmHg) and with a high MAP target (80-85mmHg).\n\nRenal resistive index is measured with the use of doppler sonography and is calculated as follow :\n\n(peak systolic velocity - end diastolic velocity / peak systolic velocity) Renal resistive index from 3 waveforms are averaged to arrive at mean RI values for each kidney.",
+          "timeFrame": "At 6 hours and 12 hours"
+        },
+        {
+          "measure": "Co-morbidities",
+          "description": "We will report rate of pre-existing conditions : ischemic heart disease, chronic heart failure, chronic obstructive pulmonary disease, chronic kidney disease, chronic kidney disease requiring long-term dialysis, liver cirrhosis, diabetes, cancer or autoimmune disease, chronic arterial hypertension.",
+          "timeFrame": "At inclusion."
+        },
+        {
+          "measure": "Arterial hypertension treatment",
+          "description": "We will report the anterior use of arterial hypertension treatment.",
+          "timeFrame": "At inclusion."
+        },
+        {
+          "measure": "Introduction time of norepinephrine",
+          "description": "Day and hour of norepinephrine introduction.",
+          "timeFrame": "At inclusion"
+        },
+        {
+          "measure": "Norepinephrine dose",
+          "description": "Norepinephrine dose will be recorded every 2 hours during the two periods",
+          "timeFrame": "At inclusion, then every hours up to hour 12"
+        },
+        {
+          "measure": "Amount of fluids (unit = L )",
+          "description": "Amount of fluids received will be recorded at the end of each period.",
+          "timeFrame": "At 6 hours and 12 hours"
+        },
+        {
+          "measure": "Quantity of nephrotoxic drugs",
+          "description": "The quantity of nephrotoxic drugs administrated will be recorded.",
+          "timeFrame": "At inclusion, at 6 hours and 12 hours"
+        },
+        {
+          "measure": "Intra-vesical pression",
+          "description": "We will measure intra-vesical pression with the use of urinary catheter.",
+          "timeFrame": "At inclusion then every hour up to 12 hours."
+        },
+        {
+          "measure": "Number of day with supportive care in intensive care unit (cathecolamines, renal replacement therapy, mechanical ventilation, extracorporeal membrane oxygenation)",
+          "description": "Quantification of the number of days with supportive care (catecholamine,renal replacement therapy, mechanical ventilation, extracorporeal membrane oxygenation)",
+          "timeFrame": "Day 90"
+        },
+        {
+          "measure": "Number of days in intensive care unit",
+          "description": "Quantification of the number of days hospitalized in intensive care unit",
+          "timeFrame": "Day 90"
+        },
+        {
+          "measure": "Number of days in hospital",
+          "description": "Quantification of the number of days hospitalized",
+          "timeFrame": "Day 90"
+        },
+        {
+          "measure": "Survival at day 90",
+          "description": "Status alive or dead at day 90.",
+          "timeFrame": "Day 90"
+        },
+        {
+          "measure": "Echocardiographic evaluation of left ventricular function",
+          "description": "We will report visual estimation of left ventricular ejection fraction (in percent).",
+          "timeFrame": "At inclusion, at 6 hours et at 12 hours"
+        },
+        {
+          "measure": "Tricuspid annular plane systolic excursion (TAPSE)",
+          "description": "We will report the tricuspid annular plane systolic excursion (mm) measured on echocardiographic to evaluate the right ventricular function.",
+          "timeFrame": "At inclusion, at 6 hours and at 12 hours."
+        },
+        {
+          "measure": "Right S' wave",
+          "description": "We will report the right S' wave (cm/s) measured on echocardiographic to evaluate the right ventricular function.",
+          "timeFrame": "At inclusion, at 6 hours and at 12 hours."
+        },
+        {
+          "measure": "Tidal volume",
+          "description": "We will report the tidal volume set on the ventilator.",
+          "timeFrame": "At inclusion, at 6 Horus and at 12 jours"
+        },
+        {
+          "measure": "Plateau pressure",
+          "description": "We will report the plateau pressure (mmHg) measured on the ventilator.",
+          "timeFrame": "At inclusion, at 6 hours and at 12 Hours."
+        },
+        {
+          "measure": "End-expiratory pressure",
+          "description": "We will report the end expiratory pressure (mmHg) measured on the ventilator.",
+          "timeFrame": "At inclusion, at 6 hours and at 12 Hours."
+        },
+        {
+          "measure": "Pulmonary compliance",
+          "description": "The pulmonary compliance (in ml/mmHg) will be calculated using the formula : Pulmonary compliance = Tidal volume / (plateau pressure - end-expiratory pressure).",
+          "timeFrame": "At inclusion, at 6 hours and at 12 Hours."
+        },
+        {
+          "measure": "Cardiac index measured",
+          "description": "We will record the cardiac index measured if the patient is monitored with a Swan Ganz catheter.",
+          "timeFrame": "At inclusion and every hour up to 12 hours."
+        },
+        {
+          "measure": "Continuous cardiac output",
+          "description": "We will record continuous cardiac output monitoring on pulse contour analysis of the invasive arterial blood pressure curve if the patient is monitored with Pulse index Continuous Cardiac Output (PICCO).",
+          "timeFrame": "At inclusion and every hour up to 12 hours"
+        },
+        {
+          "measure": "Pulmonary pressions",
+          "description": "We will record the pulmonary arterial pressions if the patient is monitored with Swan Gan catheter.",
+          "timeFrame": "At inclusion and every hour up to 12 hours"
+        },
+        {
+          "measure": "Extra vascular lung water",
+          "description": "We will record extra vascular lung water if the patient is monitored with PICCO.",
+          "timeFrame": "At inclusion and every hour up to 12 hours"
+        },
+        {
+          "measure": "Pulmonary Vascular Permeability Indice",
+          "description": "We will record Pulmonary Vascular Permeability Indice if the patient is monitored with PICCO.",
+          "timeFrame": "At inclusion and every hour up to 12 hours"
+        },
+        {
+          "measure": "Troponin",
+          "description": "Troponine dosage at the inclusion and the end of each period.",
+          "timeFrame": "At inclusion, at 6 hours and at 12 hours."
+        },
+        {
+          "measure": "Collection of all adverse event",
+          "description": "We will collect all adverse event during the protocol.",
+          "timeFrame": "At 6 hours and at 12 hours."
+        },
+        {
+          "measure": "Ionogram",
+          "description": "Results of ionogram will be recorded.",
+          "timeFrame": "At inclusion, at 6 hours and at 12 hours."
+        },
+        {
+          "measure": "paO2",
+          "description": "paO2 measured on blood gases will be recorded (in mmHg).",
+          "timeFrame": "At inclusion, at 6 hours and at 12 hours."
+        },
+        {
+          "measure": "paCO2",
+          "description": "paCO2 measured on blood gases will be recorded (in mmHg).",
+          "timeFrame": "At inclusion, at 6 hours and at 12 hours."
+        },
+        {
+          "measure": "Lactates",
+          "description": "Lactates measured on blood gases will be recorded (in mmol/l).",
+          "timeFrame": "At inclusion, at 6 hours and at 12 hours."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Adult patients (≥ 18 years old )\n* Arterial hypotension requiring the etablishment of catecholamines\n* Norepinephrine dose ⩾ 0.1µg/kg/min at the inclusion\n* High central venous pressure ≥ 12mmHg\n* Cardiac output monitoring (PICCO or Swan Ganz)\n\nExclusion Criteria:\n\n* Anuria\n* Patient with an emergency indication of renal replacement therapy (severe hyperkalemia, severe metabolical acidosis with pH \\<7.15, acute pulmonary edema due to fluid overload resulting in severe hypoxemia, serum urea concentration \\> 40 mmol/l)\n* Pregnant, lactating or parturient woman\n* Patient deprived of liberty by judicial or administrative decision\n* Patient with psychiatric compulsory care\n* Patient subject to legal protection measures\n* Patients with do-no-reanimate order or withdrawal of life sustaining support",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Nicolas FAGE, MD",
+          "role": "CONTACT",
+          "phone": "+332 41 35 36 37",
+          "email": "nicolas.fage@chu-angers.fr"
+        },
+        {
+          "name": "Ines ZIRIAT, MD",
+          "role": "CONTACT",
+          "phone": "+332 41 35 36 37"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Pierre ASFAR, MD PhD",
+          "affiliation": "Angers University Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Angers University Hospital",
+          "status": "RECRUITING",
+          "city": "Angers",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Pierre ASFAR",
+              "role": "CONTACT",
+              "phone": "02 41 35 58 65",
+              "email": "PiAsfar@chu-angers.fr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.47156,
+            "lon": -0.55202
+          }
+        },
+        {
+          "facility": "Vendée Hospital",
+          "status": "RECRUITING",
+          "city": "La Roche-sur-Yon",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Jean-Claude LACHERADE",
+              "role": "CONTACT",
+              "phone": "02 51 44 61 61",
+              "email": "Jean-claude.lacherade@ght85.fr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 46.66974,
+            "lon": -1.42757
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D012769",
+          "term": "Shock"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

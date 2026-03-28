@@ -1,0 +1,274 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00788242",
+      "orgStudyIdInfo": {
+        "id": "NAC 08-032"
+      },
+      "organization": {
+        "fullName": "University Hospital, Geneva",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Effect of Glucose-Insulin-Potassium Infusion in Patients Undergoing Cardiac Surgery",
+      "officialTitle": "The Effect of Glucose-Insulin-Potassium Infusion on Myocardial Injuries and Cardiac Function in Patients Undergoing Cardiac Surgery"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2016-11",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2009-01"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2013-12",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2013-12",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2008-11-07",
+      "studyFirstSubmitQcDate": "2008-11-07",
+      "studyFirstPostDateStruct": {
+        "date": "2008-11-10",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2016-11-22",
+      "lastUpdatePostDateStruct": {
+        "date": "2016-11-23",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Christoph Ellenberger",
+        "investigatorTitle": "Médecin Adjoint",
+        "investigatorAffiliation": "University Hospital, Geneva"
+      },
+      "leadSponsor": {
+        "name": "Christoph Ellenberger",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to evaluate the cardioprotective effects of a short term infusion of glucose-insulin-potassium (GIK) during heart surgery.",
+      "detailedDescription": "Cardiac surgery with cardiopulmonary bypass and ischemic cardiac arrest is associated with a wide spectrum of perioperative myocardial ischemic-reperfusion injuries resulting in significant cardiac morbidity, namely contractile dysfunction, myocardial infarction, and low cardiac output syndrome requiring prolonged intensive care and hospital stay. The infusion of glucose-insulin-potassium (GIK) is one of the oldest cardioprotective interventions during cardiac surgery. Although experimental evidence is strong, clinical data remain conflicting. We will investigate the impact of short term GIK on the extent of myocardial injuries as well as on the left-ventricular systolic and diastolic function in 2 high-risk groups of cardiac surgical patients: Patients with cardiac dysfunction undergoing aortocoronary bypass surgery and patients with severe aortic stenosis."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Aortic Stenosis",
+        "Coronary Heart Disease",
+        "Heart Failure"
+      ],
+      "keywords": [
+        "Cardiac surgery",
+        "Cardioprotection",
+        "Aortocoronary bypass graft",
+        "Aortic stenosis"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 200,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "1",
+          "type": "EXPERIMENTAL",
+          "description": "Administration of glucose-insulin-potassium",
+          "interventionNames": [
+            "Drug: Glucose-insulin-potassium"
+          ]
+        },
+        {
+          "label": "2",
+          "type": "PLACEBO_COMPARATOR",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Glucose-insulin-potassium",
+          "description": "20 IU of insulin and 10 mM of KCl mixed with 50 ml of 40% Glucose. Administration of 0.8 ml/kg/h over 60 min before aortic cross-clamping",
+          "armGroupLabels": [
+            "1"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "60 ml of isotonic saline. Administration of 0.8 ml/kg/h over 60 min before aortic cross-clamping",
+          "armGroupLabels": [
+            "2"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Postcardiotomy ventricular dysfunction",
+          "timeFrame": "48h postoperative"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Systolic and diastolic cardiac function using transoesophageal echocardiography",
+          "timeFrame": "intraoperative"
+        },
+        {
+          "measure": "Hypo-/hyperglycemia Hypo-/hyperkaliemia",
+          "timeFrame": "intraoperative"
+        },
+        {
+          "measure": "Serious cardiovascular adverse events (myocardial infarction, cardiac arrhythmia, low cardiac output, stroke)",
+          "timeFrame": "48 postoperative"
+        },
+        {
+          "measure": "Serum troponin and creatinine kinase",
+          "timeFrame": "Intraoperative - 48 h postoperative"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Severe aortic stenosis\n* Coronary artery disease associated with poor left ventricular function\n* Parsonnet score \\>7\n\nExclusion Criteria:\n\n* Dementia or inability to understand the study protocol\n* Off-pump and emergent cardiac surgery\n* Poorly controlled diabetes mellitus\n* Severe renal insufficiency\n* Abnormal liver function Child-Plugh - C\n* Body Mass Index \\< 18 and \\> 35",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Geneva University Hospital",
+          "city": "Geneva",
+          "state": "Canton of Geneva",
+          "zip": "1211",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.20222,
+            "lon": 6.14569
+          }
+        },
+        {
+          "facility": "Cardiocentro",
+          "city": "Lugano",
+          "state": "Canton Ticino",
+          "zip": "6900",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.01008,
+            "lon": 8.96004
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "37526194",
+          "type": "DERIVED",
+          "citation": "Bellon F, Sola I, Gimenez-Perez G, Hernandez M, Metzendorf MI, Rubinat E, Mauricio D. Perioperative glycaemic control for people with diabetes undergoing surgery. Cochrane Database Syst Rev. 2023 Aug 1;8(8):CD007315. doi: 10.1002/14651858.CD007315.pub3."
+        },
+        {
+          "pmid": "31492103",
+          "type": "DERIVED",
+          "citation": "Licker M, Diaper J, Sologashvili T, Ellenberger C. Glucose-insulin-potassium improves left ventricular performances after aortic valve replacement: a secondary analysis of a randomized controlled trial. BMC Anesthesiol. 2019 Sep 6;19(1):175. doi: 10.1186/s12871-019-0845-0."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001024",
+          "term": "Aortic Valve Stenosis"
+        },
+        {
+          "id": "D003327",
+          "term": "Coronary Disease"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000082862",
+          "term": "Aortic Valve Disease"
+        },
+        {
+          "id": "D006349",
+          "term": "Heart Valve Diseases"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014694",
+          "term": "Ventricular Outflow Obstruction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C030396",
+          "term": "glucose-insulin-potassium cardioplegic solution"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

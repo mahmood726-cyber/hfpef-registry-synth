@@ -1,0 +1,398 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03191240",
+      "orgStudyIdInfo": {
+        "id": "AMCPR"
+      },
+      "organization": {
+        "fullName": "Asan Medical Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "AMCPR (Augmented-Medication CardioPulmonary Resuscitation) Trial for OHCA",
+      "officialTitle": "AMCPR (Augmented-Medication CardioPulmonary Resuscitation) for Improving Outcome in Patient With Cardiac Arrest: Multi-center, Double-blind, Prospective Randomized Clinical Trial."
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-02",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-12-31",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-08-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-08-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-06-13",
+      "studyFirstSubmitQcDate": "2017-06-16",
+      "studyFirstPostDateStruct": {
+        "date": "2017-06-19",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-02-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-03-08",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Won Young Kim",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "Asan Medical Center"
+      },
+      "leadSponsor": {
+        "name": "Asan Medical Center",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The investigators aimed to evaluate the effect of AMCPR (Augmented-Medication CardioPulmonary Resuscitation: administration of additional vasopressin to titrate to arterial diastolic blood pressure over 20 mmHg) on cardiopulmonary resuscitation results and outcomes in out-of-hospital cardiac arrest patients.",
+      "detailedDescription": "Non-traumatic out-of-hospital cardiac arrest patients receive standard advanced cardiac life support according to the 2015 AHA guideline, including chest compression, intubation, ventilation, defibrillation, drug administration, including epinephrine and antiarrhythmic drugs if indicated, in the emergency department.\n\nA research associate generates a random sequence using Excel software, and assignment of participants to their respective groups will be undertaken by the principal investigator.\n\nArterial line insertion is performed within 6 minutes after randomization and diastolic blood pressure will be monitored.\n\nIf diastolic blood pressure is \\< 20 mmHg, drugs (vasopressin 40 IU or normal saline) will be administered for two times during CPR.\n\nArterial blood gas analysis will be analyzed for 5, 10, 15, and 20 minutes after arterial line insertion or termination of CPR.\n\nEnd-tidal carbon dioxide concentrations is monitored in real time during CPR and recorded every minute.\n\nThe resuscitated patients receive standard post cardiac arrest care according to the 2015 AHA guideline."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Out-of-Hospital Cardiac Arrest"
+      ],
+      "keywords": [
+        "Out-of-Hospital Cardiac Arrest",
+        "Vasopressin"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 110,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Vasopressins",
+          "type": "EXPERIMENTAL",
+          "description": "Additional vasopressin 40 IU intravenous injection for 2 times",
+          "interventionNames": [
+            "Drug: Vasopressins"
+          ]
+        },
+        {
+          "label": "Normal saline",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Additional normal saline intravenous injection for 2 times",
+          "interventionNames": [
+            "Drug: Normal saline"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Vasopressins",
+          "description": "Administer additional vasopressin 40 IU IV for 2 times during cardiopulmonary resuscitation",
+          "armGroupLabels": [
+            "Vasopressins"
+          ],
+          "otherNames": [
+            "Vasopressin inj"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Normal saline",
+          "description": "Placebo",
+          "armGroupLabels": [
+            "Normal saline"
+          ],
+          "otherNames": [
+            "0.9% sodium chloride"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Sustained return of spontaneous circulation (ROSC)",
+          "description": "CPCR result Achievement of sustained ROSC was declared when patients had a palpable pulse for more than 20 minutes.",
+          "timeFrame": "for 20 minutes after the time that participants had a palpable pulse"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Improvement of arterial diastolic blood pressure assessed by arterial line",
+          "description": "Successful adult resuscitation is more likely when diastolic blood pressure is \\> 25 to 30 mmHg.\n\nThe 2015 AHA Guidelines for CPR and ECC recommend \"trying to improve quality of CPR by optimizing chest compression parameters or giving vasopressors or both\" if diastolic blood pressure is \\<20 mmHg.\n\nInvestigators will record the hemodynamic monitor in real-time.",
+          "timeFrame": "during CPR, every 10 seconds after arterial line insertion until the termination of CPR due to ROSC or death, whichever came first, assessed up to 30 minutes"
+        },
+        {
+          "measure": "Improvement of end-tidal carbon dioxide concentrations assessed by capnography",
+          "description": "End-tidal carbon dioxide concentrations during CPR are primarily dependent on pulmonary blood flow and therefore reflect cardiac output.\n\nFailure to maintain end-tidal carbon dioxide concentrations \\> 10 mmHg during adult CPR reflects poor cardiac output and strongly predicts unsuccessful resuscitation.\n\nInvestigators will record the end-tidal carbon dioxide concentrations in real-time.",
+          "timeFrame": "during CPR, every one minute after endotracheal tube insertion until the termination of CPR due to ROSC or death, whichever came first, assessed up to 30 minutes"
+        },
+        {
+          "measure": "Improvement of acid-base status measured by blood-gas analysis",
+          "description": "Data are insufficient to make a conclusions, acid-base status can reflect the status of the ischemic insult on a cellular level. The changed of acid-base status during CPR may be associated with outcomes in cardiac arrest patients.",
+          "timeFrame": "during CPR, 5, 10, 15, and 20 minute after arterial line insertion and termination of CPR"
+        },
+        {
+          "measure": "Improvement of lactate level measured by blood-gas analysis",
+          "description": "In previous studies, low lactate level was prognostic factors for favourable outcome after sustained ROSC.\n\nLactate level can reflect the status of the ischemic insult on a cellular level.",
+          "timeFrame": "during CPR, 5, 10, 15, and 20 minute after arterial line insertion and termination of CPR"
+        },
+        {
+          "measure": "Low level of neuron specific enolase level",
+          "description": "Low level of neuron specific enolase level is known as a prognostic indicator of neurologic outcome after cardiac arrest.",
+          "timeFrame": "24, 48, and 72 hours after ROSC"
+        },
+        {
+          "measure": "Good neurological outcome based on Cerebral Performance Categories Scale",
+          "description": "CPC 1. Good cerebral performance: conscious, alert, able to work, might have mild neurologic or psychologic deficit. CPC 2. Moderate cerebral disability: conscious, sufficient cerebral function for independent activities of daily life. CPC 3. Severe cerebral disability: conscious, dependent on others for daily support because of impaired brain function. CPC 4. Coma or vegetative state: any degree of coma without the presence of all brain death criteria. CPC 5. Brain death: apnea, areflexia, EEG silence, etc.\n\nGood neurologic outcome is defined as CPC 1 and 2.",
+          "timeFrame": "checked at hospital discharge (participants will be followed for duration of hospital stay, an expected average of 4 weeks)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* non-traumatic adult out-of-hospital cardiac arrest (OHCA) patients with non-shockable arrest rhythm\n\nExclusion Criteria:\n\n* OHCA with terminal illness documented by medical record, under hospice care, with pregnancy, with pre-documented 'Do Not Resuscitate' card\n* trauma patients\n* age \\< 18 years old\n* failed arterial line insertion within 6 minutes after randomization\n* Extracorporeal cardiopulmonary resuscitation\n* Time interval between arrest and ED arrival \\> 60 minutes\n* ROSC within 6 minutes after ED arrival\n* Diastolic Blood Pressure \\> 20 mmHg during resuscitation",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Won Young Kim, MD, PhD",
+          "affiliation": "Asan Medical Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Chonnam National University Hospital",
+          "city": "Gwangju",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 35.15472,
+            "lon": 126.91556
+          }
+        },
+        {
+          "facility": "Asan Medical Center",
+          "city": "Seoul",
+          "zip": "05505",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "36318879",
+          "type": "DERIVED",
+          "citation": "Oh DK, Kim JS, Ryoo SM, Kim YJ, Kim SM, Hong SI, Chae B, Kim WY. Augmented-Medication CardioPulmonary Resuscitation (AMCPR) trial: a study protocol for a randomized controlled trial. Clin Exp Emerg Med. 2022 Dec;9(4):361-366. doi: 10.15441/ceem.22.367. Epub 2022 Nov 2."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D058687",
+          "term": "Out-of-Hospital Cardiac Arrest"
+        },
+        {
+          "id": "D003919",
+          "term": "Diabetes Insipidus"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006323",
+          "term": "Heart Arrest"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D007674",
+          "term": "Kidney Diseases"
+        },
+        {
+          "id": "D014570",
+          "term": "Urologic Diseases"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D052801",
+          "term": "Male Urogenital Diseases"
+        },
+        {
+          "id": "D010900",
+          "term": "Pituitary Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D014667",
+          "term": "Vasopressins"
+        },
+        {
+          "id": "D000077330",
+          "term": "Saline Solution"
+        },
+        {
+          "id": "D012965",
+          "term": "Sodium Chloride"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010909",
+          "term": "Pituitary Hormones, Posterior"
+        },
+        {
+          "id": "D010907",
+          "term": "Pituitary Hormones"
+        },
+        {
+          "id": "D036361",
+          "term": "Peptide Hormones"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        },
+        {
+          "id": "D009479",
+          "term": "Neuropeptides"
+        },
+        {
+          "id": "D010455",
+          "term": "Peptides"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D009842",
+          "term": "Oligopeptides"
+        },
+        {
+          "id": "D009419",
+          "term": "Nerve Tissue Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D000077324",
+          "term": "Crystalloid Solutions"
+        },
+        {
+          "id": "D007552",
+          "term": "Isotonic Solutions"
+        },
+        {
+          "id": "D012996",
+          "term": "Solutions"
+        },
+        {
+          "id": "D004364",
+          "term": "Pharmaceutical Preparations"
+        },
+        {
+          "id": "D002712",
+          "term": "Chlorides"
+        },
+        {
+          "id": "D006851",
+          "term": "Hydrochloric Acid"
+        },
+        {
+          "id": "D017606",
+          "term": "Chlorine Compounds"
+        },
+        {
+          "id": "D007287",
+          "term": "Inorganic Chemicals"
+        },
+        {
+          "id": "D017670",
+          "term": "Sodium Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

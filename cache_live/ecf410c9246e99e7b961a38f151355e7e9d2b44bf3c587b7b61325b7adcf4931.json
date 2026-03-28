@@ -1,0 +1,336 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05676684",
+      "orgStudyIdInfo": {
+        "id": "SOGALDI-PEF"
+      },
+      "organization": {
+        "fullName": "Universidade do Porto",
+        "class": "OTHER"
+      },
+      "briefTitle": "Dapagliflozin With or Without Spironolactone for HFpEF",
+      "officialTitle": "SOdium-Glucose Cotransporter 2 Inhibitor With and Without an ALDosterone AntagonIst for Heart Failure With Preserved Ejection Fraction: a Two-centre Randomised Crossover Trial",
+      "acronym": "SOGALDI-PEF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-03",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-09-15",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-11-29",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-11-29",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-12-06",
+      "studyFirstSubmitQcDate": "2023-01-04",
+      "studyFirstPostDateStruct": {
+        "date": "2023-01-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-08-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-08-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Universidade do Porto",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Centro Hospitalar De São João, E.P.E.",
+          "class": "OTHER"
+        },
+        {
+          "name": "Centro Hospitalar de Vila Nova de Gaia/Espinho, E.P.E.",
+          "class": "OTHER_GOV"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Heart failure (HF) is a condition in which the heart does not contract (\"pump\") or relax well, leading to insufficient perfusion of vital organs. Ankle swelling, fatigue, and breathlessness are some of the features of this syndrome. There are different causes for HF (eg., infarct and hypertension) and two distinct types: HFrEF - HF with reduced ejection fraction - where the heart does not \"pump\" properly, and HFpEF - HF with preserved ejection fraction - the heart \"pumps\" but does not relax well. Treatment for HFrEF is better established than for HFpEF. In HFpEF, only mineralocorticoid receptors antagonists (MRAs) have been shown to reduce hospitalizations, circulating markers of cardiac dysfunction and fibrosis, and blood pressure. Sodium-glucose cotransporter-2 inhibitors (SGLT2i) are a therapeutic class that reduces morbidity and mortality in patients with high cardiovascular risk and diabetes and in patients with HFrEF with and without diabetes. Trials are underway to test whether SGLT2i may also be useful for the treatment of HFpEF. This work aims to compare the effects of SGLT2i alone and in combination in an MRA in patients with HFpEF."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Preserved Ejection Fraction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "interventionModelDescription": "Prospective, randomised, open-label, two-treatment, two-period, cross-over trial",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 108,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "[Dapagliflozin] - [Dapagliflozin + Spironolactone]",
+          "type": "EXPERIMENTAL",
+          "description": "Drug will be administered according to sequence:\n\nDapagliflozin \\[week 1-12\\] - Dapagliflozin + Spironolactone \\[week 13-25\\]",
+          "interventionNames": [
+            "Drug: Dapagliflozin",
+            "Drug: Spironolactone + Dapagliflozin"
+          ]
+        },
+        {
+          "label": "[Dapagliflozin + Spironolactone] - [Dapagliflozin]",
+          "type": "EXPERIMENTAL",
+          "description": "Drug will be administered according to sequence:\n\nDapagliflozin + Spironolactone \\[week 1-12\\] - Dapagliflozin \\[week 13-25\\]",
+          "interventionNames": [
+            "Drug: Dapagliflozin",
+            "Drug: Spironolactone + Dapagliflozin"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Dapagliflozin",
+          "description": "A: Dapagliflozin 10 mg once daily",
+          "armGroupLabels": [
+            "[Dapagliflozin + Spironolactone] - [Dapagliflozin]",
+            "[Dapagliflozin] - [Dapagliflozin + Spironolactone]"
+          ],
+          "otherNames": [
+            "Forxiga(R)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Spironolactone + Dapagliflozin",
+          "description": "C: Dapagliflozin 10 mg once daily plus Spironolactone 25mg/every other day or 25mg/day (can be adjusted according to potassium and renal function)",
+          "armGroupLabels": [
+            "[Dapagliflozin + Spironolactone] - [Dapagliflozin]",
+            "[Dapagliflozin] - [Dapagliflozin + Spironolactone]"
+          ],
+          "otherNames": [
+            "Forxiga(R) + Aldactone(R)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Blood levels of NT-pro BNP (Log transformed)",
+          "description": "Comparison of NT-pro BNP levels between groups",
+          "timeFrame": "Visit 1 Day 0 / Visit 2 Day 84 [Day 77 to Day 91] / Visit 3 Day 175 [Day 168 to Day 182]"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Proportion of patients reaching a 20% or greater reduction in NT-proBNP levels",
+          "description": "Measured in blood samples",
+          "timeFrame": "Visit 1 Day 0 / Visit 2 Day 84 [Day 77 to Day 91] / Visit 3 Day 175 [Day 168 to Day 182]"
+        },
+        {
+          "measure": "Circulating levels of PICP, PIIINP and CITP",
+          "description": "Measured in blood samples the circulating levels of procollagen type I carboxy-terminal propeptide (PICP), N-terminal propeptide of procollagen type III (PIIINP), C-terminal telopeptide of collagen type I (CITP)",
+          "timeFrame": "Visit 1 Day 0 / Visit 2 Day 84 [Day 77 to Day 91] / Visit 3 Day 175 [Day 168 to Day 182]"
+        },
+        {
+          "measure": "Indexed Left Atrial Volume (LAVi)",
+          "description": "Transthoracic echocardiogram",
+          "timeFrame": "Visit 1 Day 0 / Visit 2 Day 84 [Day 77 to Day 91] / Visit 3 Day 175 [Day 168 to Day 182]"
+        },
+        {
+          "measure": "Left Ventricular Ejection Fraction (LVEF)",
+          "description": "Transthoracic echocardiogram",
+          "timeFrame": "Visit 1 Day 0 / Visit 2 Day 84 [Day 77 to Day 91] / Visit 3 Day 175 [Day 168 to Day 182]"
+        },
+        {
+          "measure": "Lateral E/e",
+          "description": "Transthoracic echocardiogram",
+          "timeFrame": "Visit 1 Day 0 / Visit 2 Day 84 [Day 77 to Day 91] / Visit 3 Day 175 [Day 168 to Day 182]"
+        },
+        {
+          "measure": "Indexed Left Ventricular Mass (LVMi)",
+          "description": "Transthoracic echocardiogram",
+          "timeFrame": "Visit 1 Day 0 / Visit 2 Day 84 [Day 77 to Day 91] / Visit 3 Day 175 [Day 168 to Day 182]"
+        },
+        {
+          "measure": "Pulmonary Artery Systolic Pressure (PASP)",
+          "description": "Transthoracic echocardiogram",
+          "timeFrame": "Visit 1 Day 0 / Visit 2 Day 84 [Day 77 to Day 91] / Visit 3 Day 175 [Day 168 to Day 182]"
+        },
+        {
+          "measure": "Systolic and Diastolic Blood Pressure (SBP/DBP)",
+          "description": "Measure in the clinical appointment after 5min of seated rest. Mean of 3 automatic oscillometric measurements",
+          "timeFrame": "Visit 1 Day 0 / Visit 2 Day 84 [Day 77 to Day 91] / Visit 3 Day 175 [Day 168 to Day 182]"
+        },
+        {
+          "measure": "Estimated glomerular filtration rate (eGFR)",
+          "description": "Calculated from the serum creatinine using the 2021 CKD-EPI creatinine-based formula",
+          "timeFrame": "Visit 1 Day 0 / Visit 2 Day 84 [Day 77 to Day 91] / Visit 3 Day 175 [Day 168 to Day 182]"
+        },
+        {
+          "measure": "Microalbuminuria (log-transformed)",
+          "description": "Spot urine",
+          "timeFrame": "Visit 1 Day 0 / Visit 2 Day 84 [Day 77 to Day 91] / Visit 3 Day 175 [Day 168 to Day 182]"
+        },
+        {
+          "measure": "Urinary sodium/natriuresis",
+          "description": "Spot urine",
+          "timeFrame": "Visit 1 Day 0 / Visit 2 Day 84 [Day 77 to Day 91] / Visit 3 Day 175 [Day 168 to Day 182]"
+        },
+        {
+          "measure": "Serum potassium (K+)",
+          "description": "Concentration of potassium in the blood",
+          "timeFrame": "Visit 1 Day 0 / Visit 2 Day 84 [Day 77 to Day 91] / Visit 3 Day 175 [Day 168 to Day 182]"
+        },
+        {
+          "measure": "Health-related quality of life (HR-QoL)",
+          "description": "HR-QoL assessed by the Kansas City Cardiomyopathy Questionnaire a 23-item instrument. All items are measured on a Likert scale with 5-7 response options. KCCQ scores are scaled from 0 to 100 and summarized in 25-point ranges, where scores represent health status as follows: 0 to 24: very poor to poor; 25 to 49: poor to fair; 50 to 74: fair to good; and 75 to 100: good to excellent",
+          "timeFrame": "Visit 1 Day 0 / Visit 2 Day 84 [Day 77 to Day 91] / Visit 3 Day 175 [Day 168 to Day 182]"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Provision of informed consent prior to any study specific procedures\n2. HFpEF diagnosis\\* (irrespective of time since diagnosis)\n3. Male or female patients, aged ≥50 years\n4. NYHA Class II-IV\n5. LVEF \\> 40%\n6. NT-pro BNP ≥220 pg/mL or BNP ≥80 pg/mL if in sinus rhythm (SR)\n7. NT-pro BNP ≥660 pg/mL or BNP ≥240 pg/mL if in atrial fibrillation (AF)\n8. Echocardiography with at least one of the following criteria:\n\n   1. LAVI ≥29 ml/m2 (≥34 ml/m2 if AF)\n   2. Lateral E/e' ≥9\n   3. LVMI ≥115 g/m2 If male or ≥95 g/m2 if female\n   4. LV wall thickness ≥12mm\n9. eGFR ≥30 ml/min/1.73m2 (CKD-EPI formula)\n10. Blood Potassium ≤5.5 mmol/L\n11. Not treated with MRAs and/or SGLT2i within the previous two weeks before inclusion and have no history of diabetic ketoacidosis while in treatment with SGLT2 inhibitors\n12. Stable/chronic ambulatory patients i.e., patients without need for hospitalization within the last 30 days due to heart failure decompensation episodes\n13. If female, she must be a woman of non-childbearing potential. That is, she must be:\n\n    1. Surgically sterilized (e.g. underwent hysterectomy, bilateral salpingectomy or bilateral oophorectomy)\n    2. Clinically diagnosed infertile\n    3. In a post-menopausal state, defined as no menses for 12 months without an alternative medical cause.\n14. A female patient of childbearing potential must have a negative serum pregnancy test at Visit 1 (Day 0) and must agree to use consistently and correctly (from 28 days prior to first study treatment administration until at least 7 days after last study treatment administration) one of the following highly effective methods of contraception:\n\n    1. Abstinence of heterosexual intercourse (when this is in line with preferred and usual lifestyle of the subject)\n    2. Progestogen-only hormonal contraception associated with inhibition of ovulation (oral, injectable, implantable)\n    3. Combined (estrogen and progestogen containing) hormonal contraception associated with inhibition of ovulation (oral, intravaginal, transdermal)\n    4. Intrauterine device\n    5. Intrauterine hormone-releasing system\n    6. Bilateral tubal occlusion\n    7. Vasectomized partner, who has received medical assessment of the surgical success, or clinically diagnosed infertile partner\n\nExclusion Criteria:\n\n1. Involvement in the planning and/or conduct of the study (applies to both Investigator staff and/or staff at the study site)\n2. Participation in another clinical study with an investigational product during the last month\n3. Unwilling to sign the informed consent form (if the patient wants to participate but cannot sign for any reason, then a third-person testimony may sign/complete informed consent form on patient's behalf)\n4. Major surgical procedure, coronary, cerebral or peripheral vascular events or sepsis in the prior 90 days\n5. Cancer (life-limiting or less than 2 years in remission)\n6. Any previously confirmed autoimmune disease\n7. Type 1 Diabetes\n8. Ability to walk is, in the investigator's opinion, clearly limited by joint disease or other locomotor problems or lung diseases rather than by cardiorespiratory fitness\n9. Previously confirmed cardiac amyloidosis\n10. Severe valvulopathy according to the echocardiogram report\n11. Patients with a known hypersensitivity or intolerance to spironolactone or dapagliflozin or any of the excipients of the products.\n12. Female patients currently pregnant (confirmed by a positive pregnancy test) or intent to become pregnant or breast feeding.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "50 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Adelino Leite-Moreira, MD, PhD",
+          "affiliation": "Universidade do Porto",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Ricardo Fontes-Carvalho, MD, PhD",
+          "affiliation": "Unidade Local de Saúde Gaia/Espinho",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "João Ferreira, MD, PhD",
+          "affiliation": "Universidade do Porto",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Unidade Local de Saúde Gaia/Espinho",
+          "city": "Porto",
+          "state": "Gaia",
+          "zip": "4434-502",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 41.1485,
+            "lon": -8.61097
+          }
+        },
+        {
+          "facility": "Centro Hospitalar Universitário São João",
+          "city": "Porto",
+          "zip": "4200-319",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 41.1485,
+            "lon": -8.61097
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "40738559",
+          "type": "DERIVED",
+          "citation": "Ferreira JP, Vasques-Novoa F, Saraiva F, Oliveira AC, Almeida J, Batista AB, Barbosa A, Ferreira AF, Costa C, Diaz SO, Santos-Ferreira D, Frioes F, Goncalves C, Guimaraes JT, Leite M, Marques P, Mascarenhas J, Matos MI, Pereira C, Rodrigues P, Sharma A, Silva G, Pereira-Sousa I, Sousa C, Zannad F, Pimenta J, Fontes-Carvalho R, Leite-Moreira A. Sodium-Glucose Cotransporter 2 Inhibitor With and Without an Aldosterone Antagonist for Heart Failure With Preserved Ejection Fraction: The SOGALDI-PEF Trial. J Am Coll Cardiol. 2025 Aug 5;86(5):320-333. doi: 10.1016/j.jacc.2025.05.033."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C529054",
+          "term": "dapagliflozin"
+        },
+        {
+          "id": "D013148",
+          "term": "Spironolactone"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007783",
+          "term": "Lactones"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011283",
+          "term": "Pregnenes"
+        },
+        {
+          "id": "D011278",
+          "term": "Pregnanes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

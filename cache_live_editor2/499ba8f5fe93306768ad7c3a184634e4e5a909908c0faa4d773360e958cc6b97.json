@@ -1,0 +1,274 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07101289",
+      "orgStudyIdInfo": {
+        "id": "PRO00117602"
+      },
+      "organization": {
+        "fullName": "Duke University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Eat Well Heart Failure",
+      "officialTitle": "Eat Well Produce Prescription for Duke Health Patients With Congestive Heart Failure"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-11",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-10-22",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-07-28",
+      "studyFirstSubmitQcDate": "2025-07-28",
+      "studyFirstPostDateStruct": {
+        "date": "2025-08-03",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-11-07",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-11-12",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Duke University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Reinvestment Partners",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "ZealCare",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this parallel pragmatic randomized controlled trial (RCT) is to evaluate the impact of Eat Well (an evidence-based 'Food is Medicine' produce prescription program) with varying levels of behavioral support on health outcomes and care utilization patterns of Duke Health patients diagnosed with congestive heart failure (CHF). Objectives of this three arm trial include testing the effectiveness of Eat Well alone with minimal behavioral support and Eat Well with intensified behavioral support based on an evidence based approach to improve CHF patients' health outcomes, estimating health care cost savings between the intervention and control arms, and identifying barriers, facilitators, and potential strategies to enhance Eat Well effectiveness and implementation."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Congestive Heart Failure Chronic"
+      ],
+      "keywords": [
+        "prescription produce",
+        "behavioral support"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "The investigators will conduct a 3-arm parallel pragmatic randomized controlled trial (RCT) to evaluate the impact of the Eat Well Produce Prescription program ($100 per month on eligible produce for 12 months) and PHP (an evidence based behavioral intervention that features virtual health coaching and peer support) on health outcomes and care utilization patterns, compared with a control group of non-participants. The investigators will use an equal allocation strategy to randomly assign Duke Health CHF patients to one of three conditions: (i) standard of care; (ii) receiving Eat Well alone; (iii) receiving Eat Well with the PHP virtual group visit health coaching program). For intervention arms, the active intervention period will be 12 months. The investigators will also examine whether program participation outcomes vary by social risk (Medicaid eligibility and the randomization stratification criteria).",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 900,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Usual Care",
+          "type": "NO_INTERVENTION",
+          "description": "Patients will continue to receive their usual care as well as educational materials"
+        },
+        {
+          "label": "Prescription Produce program with low behavioral support",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients will receive the Eat Well Prescription Produce benefit card ($100/month for 12 months) with low behavioral support provided by Reinvestment Partners",
+          "interventionNames": [
+            "Other: Prescription Produce"
+          ]
+        },
+        {
+          "label": "Prescription Produce program with high behavioral support",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients will receive the Eat Well Prescription produce benefit card ($100/month for 12 months) with high behavioral support provided by Reinvestment Partners and ZealCare",
+          "interventionNames": [
+            "Behavioral: Personal health planning and nutritional coaching",
+            "Other: Prescription Produce"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Personal health planning and nutritional coaching",
+          "description": "Behavioral support will be offed by ZealCare, an evidence-based, virtual coaching behavioral support program for patients with chronic conditions.",
+          "armGroupLabels": [
+            "Prescription Produce program with high behavioral support"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Prescription Produce",
+          "description": "Eat Well is a prescription produce program that provides a reloadable, restricted use debit card to participants to purchase fresh, frozen, or canned fruits, vegetables, and legumes at grocery stores.",
+          "armGroupLabels": [
+            "Prescription Produce program with high behavioral support",
+            "Prescription Produce program with low behavioral support"
+          ],
+          "otherNames": [
+            "Eat Well"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Composite of incidence rates of ED visits, hospitalizations, and all-cause mortality at 12 months",
+          "description": "The primary outcome of interest will be a composite endpoint of: ED visits, hospitalizations, and all-cause mortality at 12 months.",
+          "timeFrame": "12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "All cause hospitalizations",
+          "description": "The total number of admissions to a hospital for any reason",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "All cause ED visits",
+          "description": "The total number of visits to the Emergency Department for any reason",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Outpatient utilization",
+          "description": "The number of outpatient visits",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Change in Blood pressure",
+          "description": "Change in Blood Pressure from baseline to visit closest to end of study assessed by both systolic and diastolic blood pressure",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Change in Body Mass Index",
+          "description": "Change in Body Mass Index from baseline to visit closest to end of study",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Heart Failure Specific Hospitalization",
+          "description": "Hospitalization related to heart failure.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Heart Failure specific Emergency Department use",
+          "description": "Visits to the emergency department related to heart failure",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Kansas City Cardiomyopathy Questionnaire 12-item version (KCCQ-12)",
+          "description": "The Kansas City Cardiomyopathy Questionnaire 12-item version (KCCQ-12) is a validated, self-administered health status measure for patients with heart failure. It is designed to quantify the patient's perception of their health status related to heart failure over the past two weeks.\n\nScoring Range: Each domain score and the overall/clinical summary scores are transformed to a standardized range of 0 to 100.\n\nInterpretation: Higher scores indicate better health status and outcomes, while lower scores indicate worse health status and more severe limitations.\n\n0-24: Very poor to poor health 25-49: Poor to fair health 50-74: Fair to good health 75-100: Good to excellent health",
+          "timeFrame": "Baseline, 6 months, and 12 months"
+        },
+        {
+          "measure": "USDA 6-item Food Security Survey Module (FSSM)",
+          "description": "The USDA 6-item Food Security Survey Module (FSSM) is a short form of the larger 18-item survey, designed to efficiently assess and categorize a household's food security status. The scale is based on the number of affirmative (food-insecure) responses, with a raw score range of 0 to 6. A higher score indicates a worse outcome (greater food insecurity/less food security), while a lower score indicates a better outcome (higher food security).",
+          "timeFrame": "Baseline, 6 months, and 12 months"
+        },
+        {
+          "measure": "Dietary Screener Questionnaire (DSQ)",
+          "description": "The 10-item DSQ assesses the frequency of fruit and vegetable intake. Higher scores on beneficial foods (like fruits and vegetables) mean a better outcome (healthier diet). Higher scores on less healthy items (like added sugars or red/processed meat) would mean a worse outcome.",
+          "timeFrame": "Baseline, 6 months, and 12 months."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 18 or older\n* Diagnosis of CHF regardless of ejection fraction AND\n* Hospitalization or ED visit within the past 12 months AND\n* At risk of food insecurity as defined by one of the following:\n\nscreened positive for financial instability (medium risk and up) or food insecurity in the past 12 months minimum OR a Medicaid or dual eligible enrollee\n\n* English as preferred language\n* Valid email address (for virtual health coaching intervention)\n* NC mailing address\n\nExclusion Criteria:\n\n* History of dialysis or end stage renal disease OR\n* History of LVAD or heart transplant.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Connor Drake, PhD",
+          "role": "CONTACT",
+          "phone": "919-724-2129",
+          "email": "connor.drake@duke.edu"
+        },
+        {
+          "name": "Cierra Buckman, MHS",
+          "role": "CONTACT",
+          "phone": "843-269-5657",
+          "email": "cierra.buckman@duke.edu"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Connor Drake, PhD",
+          "affiliation": "Duke Health",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Duke Health",
+          "status": "RECRUITING",
+          "city": "Durham",
+          "state": "North Carolina",
+          "zip": "27701",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Stephen Greene, MD",
+              "role": "CONTACT",
+              "phone": "860-484-9403",
+              "email": "stephen.greene@duke.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.99403,
+            "lon": -78.89862
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19"
+    }
+  },
+  "hasResults": false
+}

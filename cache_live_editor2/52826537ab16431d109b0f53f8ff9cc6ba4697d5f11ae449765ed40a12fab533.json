@@ -1,0 +1,434 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00917046",
+      "orgStudyIdInfo": {
+        "id": "090309"
+      },
+      "organization": {
+        "fullName": "Norwegian University of Science and Technology",
+        "class": "OTHER"
+      },
+      "briefTitle": "The SMARTEX Heart Failure Study",
+      "officialTitle": "Study of Myocardial Recovery After Exercise Training in Heart Failure",
+      "acronym": "SMARTEX"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2019-11",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2009-01"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2013-09",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2014-07",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2009-06-08",
+      "studyFirstSubmitQcDate": "2009-06-09",
+      "studyFirstPostDateStruct": {
+        "date": "2009-06-10",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2019-11-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2019-11-14",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Norwegian University of Science and Technology",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "University Hospital, Antwerp",
+          "class": "OTHER"
+        },
+        {
+          "name": "UMC Utrecht",
+          "class": "OTHER"
+        },
+        {
+          "name": "Technical University of Munich",
+          "class": "OTHER"
+        },
+        {
+          "name": "Heart Center Leipzig - University Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Bispebjerg Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "St. Olavs Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Helse Stavanger HF",
+          "class": "OTHER_GOV"
+        },
+        {
+          "name": "Scientific Institute of Veruno",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "Centre Hospitalier du Luxembourg",
+          "class": "OTHER"
+        },
+        {
+          "name": "Alesund Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Helse Nord-Trøndelag HF",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This protocol describes a randomized multicenter clinical trial designed to test the hypothesis that a 12-week program of high-intensity interval training (HIIT) yields larger beneficial effects in stable heart failure patients than current practice, defined as either a similar training program with the same volume of moderate continuous training (MCT) or a recommendation of regular exercise at moderate intensity at individual choice (RRE).",
+      "detailedDescription": "Evaluation criteria are left ventricular dimensions and function measured by echocardiography, aerobic capacity measured as peak oxygen uptake, quality of life, and the level of physical activity by questionnaires. Assessments will be made before and after the training program and at one year follow-up. Safety of HIIT will be assessed as incidence of adverse effects during the training program. Clinical events will be recorded as worsening of heart failure requiring intensified drug therapy (diuretics), ventricular arrhythmia, hospitalization due to cardiovascular disease, and all-cause mortality at one year follow-up. The core study has been initiated and endorsed by the European Association for Cardiovascular Prevention and Rehabilitation, Section for Basic and Translational Research, under the European Society of Cardiology, and allows for sub-studies involving one or more of the participating centers. Preliminary calculations suggest that a total number of 200 patients randomized 1:1:1 to the three intervention groups is needed to detect larger beneficial effects with HIIT with a p-value of 0.05 and statistical power of 0.90 (primary endpoint is reverse remodeling, assessed by comparison between groups of change in left ventricular end-diastolic dimension from baseline to 12 weeks)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ],
+      "keywords": [
+        "All-cause heart failure patients",
+        "coronary artery disease etiology",
+        "dilated cardiomyopathy etiology"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 261,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "1 Interval training",
+          "type": "EXPERIMENTAL",
+          "description": "high-intensity Interval Training",
+          "interventionNames": [
+            "Behavioral: high-intensity interval training"
+          ]
+        },
+        {
+          "label": "2 Moderate Training",
+          "type": "EXPERIMENTAL",
+          "description": "Moderate continuous training",
+          "interventionNames": [
+            "Behavioral: Moderate continuous training"
+          ]
+        },
+        {
+          "label": "3 Recommendation of exercise",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Recommendation of regular exercise at moderate intensity at individual choice",
+          "interventionNames": [
+            "Behavioral: Recommendation of regular moderate exercise"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "high-intensity interval training",
+          "description": "3 weekly sessions of high-intensity interval training in 12 weeks",
+          "armGroupLabels": [
+            "1 Interval training"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Moderate continuous training",
+          "description": "3 weekly sessions of moderate continuous training for 12 weeks",
+          "armGroupLabels": [
+            "2 Moderate Training"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Recommendation of regular moderate exercise",
+          "description": "Recommendation of regular exercise at moderate intensity at individual choice. In addition patients will meet for treadmill walking in order to motivate for post intervention testing",
+          "armGroupLabels": [
+            "3 Recommendation of exercise"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "comparison between groups in change of left ventricular end diastolic diameter from baseline to 12 weeks",
+          "timeFrame": "Baseline-12 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Exercise capacity",
+          "timeFrame": "baseline-12 weeks- 1year"
+        },
+        {
+          "measure": "quality of life",
+          "timeFrame": "baseline - 12 weeks - 1 year"
+        },
+        {
+          "measure": "level of physical activity",
+          "timeFrame": "baseline-12 weeks- 1 year"
+        },
+        {
+          "measure": "safety and adverse events",
+          "timeFrame": "baseline-12 weeks - 1 year"
+        },
+        {
+          "measure": "Change in Ejection fraction",
+          "timeFrame": "12 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Congestive heart failure after myocardial infarction or dilated cardiomyopathy with:\n\n  * LVEF \\< 0.35,\n  * NYHA class II - III,\n  * Stable without any signs of worsening for at least 6 weeks,\n  * Minimum 3 months of optimal medical treatment,\n  * Previous revascularisation or CRT should be more than 6 months before inclusion.\n\nExclusion Criteria:\n\n* Significant intercurrent illness last 6 weeks,\n* Known severe ventricular arrhythmia with functional or prognostic significance unless protected with ICD,\n* Significant ischemia,\n* Hemodynamic deterioration or exercise-induced arrhythmia at baseline testing,\n* Other heart disease that limits exercise tolerance (valve disease with significant hemodynamic consequences, hypertrophic cardiomyopathy etc.,\n* Co-morbidity that may significantly influence one-year prognosis,\n* Functional or mental disability that may limit exercise,\n* Patients scheduled for heart transplant at time of inclusion,\n* A habit of regular vigorous exercise or participation in a program of exercise training less than 6 months before inclusion, or participation in another clinical trial,\n* Patients with COPD with FEV1 below 50% of expected values are excluded,\n* Patients taking oral corticosteroids are excluded in all cases.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Øyvind Ellingsen, MD, PhD",
+          "affiliation": "National Taiwan Normal University",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University Hospital Antwerp",
+          "city": "Antwerp",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.22047,
+            "lon": 4.40026
+          }
+        },
+        {
+          "facility": "Bispebjerg University Hospital",
+          "city": "Copenhagen",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 55.67594,
+            "lon": 12.56553
+          }
+        },
+        {
+          "facility": "Universitaet Leipzig, Herzzentrum GmbH",
+          "city": "Leipzig",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.33962,
+            "lon": 12.37129
+          }
+        },
+        {
+          "facility": "Technische Universitaet Munich",
+          "city": "Munich",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.13743,
+            "lon": 11.57549
+          }
+        },
+        {
+          "facility": "Scientific Institute of Veruno",
+          "city": "Veruno",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.68887,
+            "lon": 8.52863
+          }
+        },
+        {
+          "facility": "Centre Hospitaliers de Luxembourg",
+          "city": "Luxembourg",
+          "country": "Luxembourg",
+          "geoPoint": {
+            "lat": 49.60982,
+            "lon": 6.13268
+          }
+        },
+        {
+          "facility": "University Medical Center Utrecht",
+          "city": "Utrecht",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.09083,
+            "lon": 5.12222
+          }
+        },
+        {
+          "facility": "Ålesund Hospital",
+          "city": "Ålesund",
+          "country": "Norway",
+          "geoPoint": {
+            "lat": 62.47225,
+            "lon": 6.15492
+          }
+        },
+        {
+          "facility": "Levanger Hospital",
+          "city": "Levanger",
+          "country": "Norway",
+          "geoPoint": {
+            "lat": 63.74644,
+            "lon": 11.29963
+          }
+        },
+        {
+          "facility": "Stavanger University Hospital",
+          "city": "Stavanger",
+          "country": "Norway",
+          "geoPoint": {
+            "lat": 58.97005,
+            "lon": 5.73332
+          }
+        },
+        {
+          "facility": "St. Olavs University Hospital",
+          "city": "Trondheim",
+          "country": "Norway",
+          "geoPoint": {
+            "lat": 63.43049,
+            "lon": 10.39506
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "21450567",
+          "type": "BACKGROUND",
+          "citation": "Stoylen A, Conraads V, Halle M, Linke A, Prescott E, Ellingsen O. Controlled study of myocardial recovery after interval training in heart failure: SMARTEX-HF--rationale and design. Eur J Prev Cardiol. 2012 Aug;19(4):813-21. doi: 10.1177/1741826711403252. Epub 2011 Mar 21."
+        },
+        {
+          "pmid": "28082387",
+          "type": "RESULT",
+          "citation": "Ellingsen O, Halle M, Conraads V, Stoylen A, Dalen H, Delagardelle C, Larsen AI, Hole T, Mezzani A, Van Craenenbroeck EM, Videm V, Beckers P, Christle JW, Winzer E, Mangner N, Woitek F, Hollriegel R, Pressler A, Monk-Hansen T, Snoer M, Feiereisen P, Valborgland T, Kjekshus J, Hambrecht R, Gielen S, Karlsen T, Prescott E, Linke A; SMARTEX Heart Failure Study (Study of Myocardial Recovery After Exercise Training in Heart Failure) Group. High-Intensity Interval Training in Patients With Heart Failure With Reduced Ejection Fraction. Circulation. 2017 Feb 28;135(9):839-849. doi: 10.1161/CIRCULATIONAHA.116.022924. Epub 2017 Jan 12."
+        },
+        {
+          "pmid": "31688648",
+          "type": "RESULT",
+          "citation": "Karlsen T, Videm V, Halle M, Ellingsen O, Stoylen A, Dalen H, Delagardelle C, Larsen AI, Hole T, Mezzani A, VAN Craenenbroeck EM, Beckers P, Pressler A, Christle JW, Winzer EB, Mangner N, Woitek FJ, Hollriegel R, Snoer M, Feiereisen P, Valborgland T, Linke A, Prescott E. Baseline and Exercise Predictors of V O2peak in Systolic Heart Failure Patients: Results from SMARTEX-HF. Med Sci Sports Exerc. 2020 Apr;52(4):810-819. doi: 10.1249/MSS.0000000000002193."
+        },
+        {
+          "pmid": "38558910",
+          "type": "DERIVED",
+          "citation": "Halle M, Prescott E, Van Craenenbroeck EM, Beckers P, Videm V, Karlsen T, Feiereisen P, Winzer EB, Mangner N, Snoer M, Christle JW, Dalen H, Stoylen A, Esefeld K, Heitkamp M, Spanier B, Linke A, Ellingsen O, Delagardelle C; SMARTEX-HF Study Group. Moderate continuous or high intensity interval exercise in heart failure with reduced ejection fraction: Differences between ischemic and non-ischemic etiology. Am Heart J Plus. 2022 Sep 5;22:100202. doi: 10.1016/j.ahjo.2022.100202. eCollection 2022 Oct."
+        },
+        {
+          "pmid": "28097476",
+          "type": "DERIVED",
+          "citation": "Valborgland T, Isaksen K, Munk PS, Grabowski ZP, Larsen AI. Impact of an exercise training program on cardiac neuronal function in heart failure patients on optimal medical therapy : A randomized Iodine-123 metaiodobenzylguanidine scintigraphy study. J Nucl Cardiol. 2018 Aug;25(4):1164-1171. doi: 10.1007/s12350-016-0724-8. Epub 2017 Jan 17."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072696",
+          "term": "High-Intensity Interval Training"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D064797",
+          "term": "Physical Conditioning, Human"
+        },
+        {
+          "id": "D015444",
+          "term": "Exercise"
+        },
+        {
+          "id": "D009043",
+          "term": "Motor Activity"
+        },
+        {
+          "id": "D009068",
+          "term": "Movement"
+        },
+        {
+          "id": "D009142",
+          "term": "Musculoskeletal Physiological Phenomena"
+        },
+        {
+          "id": "D055687",
+          "term": "Musculoskeletal and Neural Physiological Phenomena"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

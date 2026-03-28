@@ -1,0 +1,238 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06992089",
+      "orgStudyIdInfo": {
+        "id": "SHOP-HF"
+      },
+      "organization": {
+        "fullName": "Fundación para la Investigación del Hospital Clínico de Valencia",
+        "class": "OTHER"
+      },
+      "briefTitle": "SHort Of Pace - Heart Failure (SHOP-HF)",
+      "officialTitle": "Pacemaker Implantation in Patients With Heart Failure With Preserved Ejection Fraction, Chronotropic Incompetence and Small Ventricular Volume. The SHOP-HF Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-06-17",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-06",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-06",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-05-09",
+      "studyFirstSubmitQcDate": "2025-05-19",
+      "studyFirstPostDateStruct": {
+        "date": "2025-05-28",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-05",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-12",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Fundación para la Investigación del Hospital Clínico de Valencia",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is designed as a multicenter, prospective, controlled, randomized, two-arms, cross-over, two parallel cohorts, efficacy Clinical research with CE-marked medical device . The crossover trial will be performed in a blind fashion, so each participant will be evaluated during both blinded pacing-on and pacing-off phases, each of which will last 3 months. The population includes patients with the diagnosis of stable HFpEF according to criteria of the European Society of Cardiology and New York Heart Association (NYHA) functional class II-III/IV, left ventricular hypertrophy with small ventricular volume, sinus rhythm with low basal heart rate and chronotropic incompetence (CI).\n\nAll patients will undergo pacemaker implantation, and computer-generated randomization sequence previously designed will be used to allocate participants (in a 1:1 ratio) to receive: (a) programming of the pacemaker with pacing On followed by pacing Off in two periods of 3 months; or (b) programming of the pacemaker with pacing Off followed by pacing On in two periods of 3 months. The study will be conducted in three centers in Spain. Discounting the time due to staggered entry, the total duration of a patient's follow-up will be 7 months."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Preserved Ejection Fraction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 30,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Pacing on",
+          "type": "EXPERIMENTAL",
+          "description": "Pacemarker stimulation programmed as AAIR / DDDR / VVIR with the basic stimulation frequency and the rate response as follows (pacing on):\n\n* Basic heart rate: derived from the averaged resting heart rates of healthy adults according to height and LVEF.\n* Rate response through a combination of minute ventilation and accelerometer: with a response factor of 3 and a medium-low activity threshold.",
+          "interventionNames": [
+            "Device: Dual-chamber cardiac pacemaker (Essentio MRI L111 Boston Scientific®), Single-chamber cardiac pacemaker (Essentio MRI L110 Boston Scientific®)"
+          ]
+        },
+        {
+          "label": "Pacing off",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "VVI 30 bpm",
+          "interventionNames": [
+            "Device: Dual-chamber cardiac pacemaker (Essentio MRI L111 Boston Scientific®), Single-chamber cardiac pacemaker (Essentio MRI L110 Boston Scientific®)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Dual-chamber cardiac pacemaker (Essentio MRI L111 Boston Scientific®), Single-chamber cardiac pacemaker (Essentio MRI L110 Boston Scientific®)",
+          "description": "Dual-chamber cardiac pacemaker (Essentio MRI L111 Boston Scientific®), with rate-adaptive pacing of the right atrium. There will be an associated right atrial lead (INGEVITY™ MRI Pacing Lead Boston®) and right ventricular lead (INGEVITY™ MRI Pacing Lead Boston®).\n\nSingle-chamber cardiac pacemaker (Essentio MRI L110 Boston Scientific®), with rate-adaptive pacing of the ventricles. There will be a right ventricular lead (INGEVITY™ MRI P Boston®).",
+          "armGroupLabels": [
+            "Pacing off",
+            "Pacing on"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Peak oxygen uptake",
+          "description": "The primary endpoint of the study is absolute and relative changes in peak oxygen uptake (peakVO2) after three months of pacemaker stimulation.",
+          "timeFrame": "3 months after the pacemarker stimulation"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Minnesota Living with Heart Failure Questionnaire (MLHFQ)",
+          "description": "Absolute changes in quality of live assessed by Minnesota Living with Heart Failure Questionnaire (MLHFQ)",
+          "timeFrame": "From randomization until the end of study in month 7"
+        },
+        {
+          "measure": "E/E' ratio",
+          "description": "Absolute changes in echocardiogram parameters (E/E' ratio)",
+          "timeFrame": "From baseline until the end of study in month 7"
+        },
+        {
+          "measure": "Left ventricular volume index",
+          "description": "Absolute changes in echocardiogram parameters (Left ventricular volume index)",
+          "timeFrame": "From baseline until the end of study in month 7"
+        },
+        {
+          "measure": "Left atrial volume index",
+          "description": "Absolute changes in echocardiogram parameters (Left atrial volume index)",
+          "timeFrame": "From baseline until the end of study in month 7"
+        },
+        {
+          "measure": "Pro-B-type natriuretic peptide",
+          "description": "Absolute and relative changes in prognostic biomarkers (pro-B-type natriuretic peptide)",
+          "timeFrame": "From baseline until the end of study in month 7"
+        },
+        {
+          "measure": "Serum carbohydrate antigen 125",
+          "description": "Absolute and relative changes in prognostic biomarkers (serum carbohydrate antigen 125).",
+          "timeFrame": "From baseline until the end of study in month 7"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Acute HF hospitalizations",
+          "description": "Total number of episodes of acute HF hospitalizations.",
+          "timeFrame": "From baseline until the end of study in month 7"
+        },
+        {
+          "measure": "Worsening HF not requiring hospitalization",
+          "description": "Total episodes of worsening HF not requiring hospitalization",
+          "timeFrame": "From baseline until the end of study in month 7"
+        },
+        {
+          "measure": "Mortality",
+          "description": "Mortality",
+          "timeFrame": "From baseline until the end of study in month 7"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Stable symptomatic heart failure (NYHA functional class ≥II) during the last month.\n* Diagnosis criteria of HFpEF according to ESC guidelines:\n\n  1. symptoms and signs of HF.\n  2. left ventricular ejection fraction ≥50% by Simpson method.\n  3. proBNP \\>125 pg/mL in the last month.\n  4. at least one additional criterion: 1. relevant structural heart disease (left ventricular hypertrophy and/or left atrial enlargement); and/or 2. Diastolic dysfunction.\n* Left ventricular hypertrophy was defined as wall thickness \\> 10 mm.\n* Small ventricular volume was defined as indexed left ventricular end diastolic volume \\< 45 ml/m2.\n* Adults ≥18 years old.\n* Previous admission for acute heart failure.\n* Chronotropic incompetence assessed by CPET, defined as: \\[(HRmax - HRrest)\\]/\\[(220 - age) - (HRrest)\\] \\< 0.62.\n* Resting heart rate \\< 65 bpm in sinus rhythm or 70 bmp in atrial fibrillation.\n\nExclusion Criteria:\n\n* Inability to perform a valid baseline exercise test.\n* Significant primary pulmonary disease; including pulmonary arterial hypertension, chronic thromboembolic pulmonary disease or chronic obstructive pulmonary disease.\n* Patient with prior history of left ventricular ejection fraction \\<50%.\n* History of an acute coronary syndrome in the previous 12 months.\n* Effort angina or signs of ischemia during CPET.\n* RER threshold at \\<1.05 at the CPET.\n* Significant primary moderate to severe valvular disease.\n* Any other comorbidity with a life expectancy lower than 1 year.\n* Heart rate at rest \\> 75 lpm.\n* Other pacemaker indication.\n* Pregnant women.\n* Baseline rhythm different from sinus rhythm or atrial fibrillation.\n* Active treatment with beta-blockers, digitalis or non dihidropiridine calcium channel blockers.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Julio Núñez, Doctor",
+          "role": "CONTACT",
+          "phone": "652856689",
+          "email": "yulnunez@gmail.es"
+        },
+        {
+          "name": "Vicente Bertomeu, Doctor",
+          "role": "CONTACT",
+          "email": "vbertog@gmail.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Julio Núñez, Doctor",
+          "affiliation": "Hospital Clínico Universitario de Valencia",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hospital Clínico de la Comunidad Valenciana",
+          "status": "RECRUITING",
+          "city": "Valencia",
+          "zip": "46010",
+          "country": "Spain",
+          "contacts": [
+            {
+              "name": "Julio Núñez Villota",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    }
+  },
+  "hasResults": false
+}

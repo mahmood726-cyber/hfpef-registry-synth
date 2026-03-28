@@ -1,0 +1,318 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05193344",
+      "orgStudyIdInfo": {
+        "id": "SK-HF-99-002"
+      },
+      "organization": {
+        "fullName": "Sidekick Health",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Digital Solution for Patients With Heart Failure",
+      "officialTitle": "A Digital Solution for Patients With Heart Failure to Improve Disease Management, Lifestyle, and Quality of Life"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-05",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-01-15",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-10-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2023-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-11-29",
+      "studyFirstSubmitQcDate": "2022-01-11",
+      "studyFirstPostDateStruct": {
+        "date": "2022-01-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-02-22",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-02-23",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Sidekick Health",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Landspitali University Hospital",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The study aim is to determine whether a 12-month digitally delivered behaviour change solution for patients with heart failure improves symptom frequency, mental health, quality of life, medication adherence, and self-care behaviour. The primary and secondary endpoints will be captured at 6- and 12-months follow-up visits to assess longer term effect on outcomes.",
+      "detailedDescription": "Heart Failure (HF) is one of the most common causes of morbidity and mortality in developed countries with a prevalence rate of 4.2% of the adult population and 11.8% among people ≥60 years of age. Worldwide HF affects about 26 million people and poses a significant burden on healthcare providers and patients. People with HF may have severe symptoms, and some may need a heart transplant or implantation of a ventricular assist device. Important modifiable HF risk factors are smoking, physical inactivity, overweight and obesity, and an unhealthy diet. Lifestyle changes by HF patients are known to reduce HF-related hospital (re)admission, morbidity and mortality.\n\nGuideline-directed treatment of HF includes among others pharmacotherapy, implantation of devices, regular exercise, and enrolment in a multidisciplinary care management program. Components of the multidisciplinary care management program are among others: patient education with an emphasis on adherence and self-care, patient involvement in symptom monitoring, and follow-up after discharge (for instance through remote monitoring). Adherence to the recommendations has proven difficult. A digitally delivered solution that provides remote symptom monitoring and lifestyle intervention support may support HF patients to halt or reverse disease progression and improve their quality of life. This study aims to digitally provide remote symptom monitoring and lifestyle intervention via a mobile platform (Sidekick Health) with the primary aim to determine the effectiveness of adding Sidekick Health's digital solution for HF patients to the standard care treatment by changes in the KCCQ-12 scores. The secondary aims are to determine the effect on other clinical outcomes (echocardiograms, biomarkers, metabolic syndrome symptoms, HF disease progression), other health-related outcomes (self-care, medication adherence, cardiorespiratory fitness, disease knowledge, smoking status, and anxiety, depression, and stress-levels), and cost-effectiveness."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ],
+      "keywords": [
+        "heart failure",
+        "digital intervention",
+        "lifestyle change",
+        "remote monitoring",
+        "clinical outcome",
+        "quality of life",
+        "digital solution"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Single center prospective randomized open blinded end-point (PROBE)",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "The outcome assessor will be blinded for group assignment at the 3, 6, and 12 month follow-up visit.",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 174,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Digital solution group",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will be instructed to download a remote symptom monitoring and lifestyle-changing mobile application to which they will have access for 12 months. The program aims to provide remote symptom monitoring by having participants enter data (on diet, exercise, weight, etc) and answer questionnaires via the SidekickHealth platform, and to empower positive lifestyle changes. Beyond this, all patients in the interventional arm will also receive standard of care as defined below for the control arm.",
+          "interventionNames": [
+            "Device: A digital care solution for patients with Heart Failure",
+            "Other: Standard of Care for patients with Heart Failure"
+          ]
+        },
+        {
+          "label": "Standard of care - control group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "All participants in the control arm will receive best medical therapy including start or optimization of secondary preventive pharmacotherapy, and advise on modifiable risk factors. The participants in the control arm will also receive an information leaflet about relevant lifestyle modifications for HF. After the baseline measurements and data collection, there will be scheduled visits to a health care provider at 3, 6, and 12 months.",
+          "interventionNames": [
+            "Other: Standard of Care for patients with Heart Failure"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "A digital care solution for patients with Heart Failure",
+          "description": "A digital solution that provides remote symptom monitoring and support of lifestyle-changes by gamification, altruistic rewards, and engaging content with relevant tasks or missions to be completed.",
+          "armGroupLabels": [
+            "Digital solution group"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Standard of Care for patients with Heart Failure",
+          "description": "The best medical therapy including start or optimization of secondary preventive pharmacotherapy, and advise on modifiable risk factors. The participants in the control arm will also receive an information leaflet about relevant lifestyle modifications for HF.",
+          "armGroupLabels": [
+            "Digital solution group",
+            "Standard of care - control group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Effectiveness for patients with HF",
+          "description": "Change in HF-induced symptom frequency, physical and social limitations, and quality of life impairment, from baseline to 12 months. This primary outcome will be as measured with the 12-item Kansas City Cardiomyopathy Questionnaire (KCCQ-12).\n\nThe KCCQ-12 score ranges from a minimum of 0 to a maximum of 100, where 100 is the best possible score indicating no symptoms, no limitations, and an excellent quality of life.",
+          "timeFrame": "12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Resource utilization (cost-effectiveness)",
+          "description": "Resource utilization (e.g. number of visits over time to the ER, hospital outpatient unit (and hospital visits in general) due to worsening of heart failure at 6 and 12 months.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Echocardiogram - ejection fraction",
+          "description": "Change in ejection fraction (percent value) for patients with Heart Failure with reduced Ejection Fraction (HFrEF) at 6 months.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Echocardiogram - change in left atrium size",
+          "description": "Change in left atrium size for patients with Heart failure with preserved Ejection Fraction (HFpEF) at 6 months.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "HF-specific laboratory values",
+          "description": "Change in N-terminal pro-Brain Natriuretic Peptide (NT-proBNP) at 6 months.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Symptoms of the metabolic syndrome (MetSyn).",
+          "description": "Participant number of MetSyn features (0-5) change from baseline to 6 months, compared between groups.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Cardiorespiratory fitness",
+          "description": "Change in outcomes on the 6 minute walking test (6MWT) from baseline to 6 months",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "HF disease progression classified with NYHA",
+          "description": "Compare changes in New York Heart Association (NYHA) classification from baseline to 6 and 12 months. The NYHA classifies heart disease in four classes, I to IV, based on symptoms. Class IV is the most severe heart disease.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "HF disease progression classified with Killip",
+          "description": "Compare changes in Killip classification from baseline to 6 and 12 months. Killip classifies acute myocard infarction patients into four classes: class I to IV. Class IV is the most severe case with the highest mortality risk.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Medication adherence",
+          "description": "Compare self-reported medication adherence from baseline to 6 and 12 months, using the eight-item Morisky Medication Adherence Scale (MMAS-8) and electronic health record (EHR) medication refill information.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Patient self-care",
+          "description": "Compare between groups score from the nine-item European Heart Failure Self-care Behaviour (EHFScB-9) scale from baseline to 3 and 6 months. The score on the EHFScB-9 scale can range from a minimum of 9 to a maximum of 45, with higher scores indicating worse self-care.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Patient disease knowledge",
+          "description": "Compare between groups score from a 6-item HF disease-specific knowledge questionnaire, from baseline to 3 and 6 months. The score on the questionnaire can range from a minimum of 6 to a maximum of 30, with higher scores indicating less HF disease specific knowledge.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Smoking status",
+          "description": "Changes in self-reported smoking status, from baseline to 6 months.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Depression, anxiety, and stress-levels",
+          "description": "Changes in outcomes on the 21-item Depression, Anxiety and Stress Scale (DASS-21) from baseline to 3, 6, and 12 months. The DASS-21 consists of three 7-item scales on which the scores range from a minimum of 0 to a maximum of 21, with higher scores indicating higher levels of anxiety, depression, or stress.",
+          "timeFrame": "12 months"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Exploratory Objective: Outcome prediction and validation between in-app and clinical metrics",
+          "description": "Associations between physical assessments and vital signs, clinical questionnaire outcomes, in-app PROs and stress levels, energy levels and quality of sleep.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Exploratory Objective: Predictive value of the disease specific in-app remote symptom monitoring for HF disease progression.",
+          "description": "In-app disease specific remote symptom monitoring score change compared to changes over time in the other outcome measures.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Safety objective: Monitor the safety and any potential adverse effects of the digital solution on patients and outcomes.",
+          "description": "Therapy discontinuation or adverse event reportings due to participation in the intervention.",
+          "timeFrame": "12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Adults with confirmed congestive HF registered at the outpatient heart failure clinic at the Landspitali University Hospital\n* Participants should be on one of these medications for heart failure treatment: angiotensin-converting enzyme (ACE) inhibitors, angiotensin receptor blocker (ARB) inhibitors, or Angiotensin Receptor-Neprilysin Inhibitor\n* Participants with all stages of HF will be included (NYHA classes I-IV)\n* Started their medical HF treatment at least 1 month prior to study enrollment\n* Participants should be willing and able to comply with study procedures and attend the scheduled visits\n* Capacity to consent to informed consent\n\nExclusion Criteria:\n\n* HF due to reversible causes (e.g., myocarditis) or severe aortic valve stenosis\n* Not owning a smartphone compatible with the Sidekick Health digital solution\n* Not knowing how to operate a smartphone\n* Moderate to severe dementia\n* Unable to understand written and verbal instructions in Icelandic.\n* estimated Glomerular Filtration Rate (eGFR) \\<15 ml/min\n* Planned dialysis in the next 6 months\n* Planned cardiac transplant surgery\n* Active drug/alcohol abuse\n* Other serious illness (e.g., cancer, endocarditis)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Landspitali University Hospital",
+          "city": "Reykjavik",
+          "country": "Iceland",
+          "geoPoint": {
+            "lat": 64.13548,
+            "lon": -21.89541
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "Anonymized individual participant data (IPD) may be shared with other researchers for relevant research purposes following complementary ethical review and approval from the Ethical Review Board."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D059039",
+          "term": "Standard of Care"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D019984",
+          "term": "Quality Indicators, Health Care"
+        },
+        {
+          "id": "D011787",
+          "term": "Quality of Health Care"
+        },
+        {
+          "id": "D006298",
+          "term": "Health Services Administration"
+        },
+        {
+          "id": "D017530",
+          "term": "Health Care Quality, Access, and Evaluation"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

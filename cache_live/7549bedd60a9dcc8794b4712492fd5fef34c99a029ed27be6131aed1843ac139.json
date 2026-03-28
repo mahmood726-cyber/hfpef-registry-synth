@@ -1,0 +1,505 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07320625",
+      "orgStudyIdInfo": {
+        "id": "KY2025011"
+      },
+      "organization": {
+        "fullName": "Shanghai Zhongshan Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Efficacy of Montelukast on STEMl Patients",
+      "officialTitle": "Clinical Therapeutic Efficacy of Montelukast on Anterior STEMl Patients With Primary Percutaneous Coronary Intervention"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-02-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-02-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-05-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-12-22",
+      "studyFirstSubmitQcDate": "2025-12-22",
+      "studyFirstPostDateStruct": {
+        "date": "2026-01-06",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-11",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-13",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Xu Lei",
+        "investigatorTitle": "Dr",
+        "investigatorAffiliation": "Shanghai Zhongshan Hospital"
+      },
+      "leadSponsor": {
+        "name": "Shanghai Zhongshan Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Acute myocardial infarction (AMI) is one of the leading causes of patient mortality worldwide. Each year, over 8 million people globally die from AMI, with approximately 30% of these cases being ST-segment elevation myocardial infarction (STEMI). Despite the continuous development of reperfusion therapy strategies in recent years, which have benefited countless STEMI patients, studies have shown that even when STEMI patients receive primary percutaneous coronary intervention (pPCI) within the therapeutic time window, the in-hospital mortality rate remains as high as 4%, while the one-year post-discharge mortality rate reaches 10%. Among the survivors, about 20% further progress to heart failure.\n\nMyocardial ischemia-reperfusion injury (I/RI) is the primary pathological mechanism underlying the residual risk in STEMI patients following pPCI treatment, directly influencing disease progression and clinical outcomes. Therefore, cardiac protection strategies aimed at targeted improvement of myocardial I/RI to enhance patient prognosis are of paramount importance. In recent research, we have identified and elucidated a novel mechanism by which ALDH2 gene deficiency exacerbates I/RI through the ER stress/Mgst2/LTC4 signaling pathway, mediating the formation of neutrophil extracellular traps (NETosis). Furthermore, we discovered that the use of leukotriene C4 (LTC4) receptor antagonists can effectively block the ER stress/Mgst2/NETosis myocardial injury axis, thereby significantly reducing infarct size and improving cardiac function in I/RI model mice. In clinical cohorts, we observed a significant elevation in LTC4 levels during the acute phase in STEMI patients receiving pPCI. More importantly, elevated LTC4 levels were closely associated with the occurrence of left ventricular adverse remodeling and poor cardiovascular prognosis, suggesting that effective inhibition of the LTC4-related myocardial injury axis during the acute phase of myocardial infarction could yield direct clinical benefits. This highlights the critical role of LTC4 in I/RI and the clinical potential of targeted LTC4 receptor therapy strategies.\n\nMontelukast is a potent leukotriene receptor antagonist with proven preventive and therapeutic effects on asthma, allergic rhinitis, and chronic obstructive pulmonary disease. In recent years, the drug repurposing strategy of montelukast in cardiovascular diseases has garnered increasing attention. Researchers have found that montelukast is closely associated with a reduced risk of major adverse cardiovascular events, indicating its therapeutic potential in cardiovascular diseases. On the other hand, mechanistic studies have also revealed that montelukast can significantly improve infarct size and ventricular remodeling levels in myocardial infarction model mice by blocking leukotriene receptors. A meta-analysis, which combined data from 26 animal experiments and 2 clinical studies, suggested that montelukast holds promising application prospects in reducing the risk of adverse cardiovascular events. Based on these findings, we propose that the drug repurposing strategy of montelukast may represent an effective treatment approach for STEMI patients. We hypothesize that in patients with anterior ST-segment elevation myocardial infarction undergoing primary percutaneous coronary intervention, the application of montelukast can reduce myocardial ischemia-reperfusion injury, thereby improving ventricular remodeling and cardiac function, and exerting cardiac protective effects."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Myocardial Infarction (MI)"
+      ],
+      "keywords": [
+        "montelukast",
+        "myocardial infarction",
+        "primary percutaneous coronary intervention"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 512,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "placebo group",
+          "type": "PLACEBO_COMPARATOR",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "montelukast group",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: Montelukast"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Montelukast",
+          "description": "After enrollment, patients received montelukast drug at a dose of 10 mg per day for 3 months.",
+          "armGroupLabels": [
+            "montelukast group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "After enrollment, patients received placebo drug at a dose of 10 mg per day for 3 months.",
+          "armGroupLabels": [
+            "placebo group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Left ventricular remodelling post-myocardial infarction",
+          "description": "The cardiac magnetic resonance (CMR) is used to assess the cardiac structure and function of all enrolled patients (512) at the time of enrollment and 24 weeks after enrollment, obtaining data on left ventricular end-diastolic volume (LVEDV). If the change in LVEDV exceeds 10% from the time of enrollment to the 24-week follow-up, it will be considered as the occurrence of left ventricular remodelling (LVR).",
+          "timeFrame": "From enrollment to the end of treatment at 24 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age \\> 18 years and \\< 75 years;\n2. Diagnosed with acute anterior ST-segment elevation myocardial infarction and planned to undergo primary percutaneous coronary intervention;\n3. Time from symptom onset ≤ 12 hours;\n4. The patient and their family members voluntarily participate in this study and sign the informed consent form.\n\nExclusion Criteria:\n\n1. Cardiogenic shock, severe heart failure (Killip Class IV), or structural complications such as papillary muscle rupture;\n2. Having received cardiopulmonary resuscitation ;\n3. Severe and inadequately controlled hypertension (systolic blood pressure \\> 180 mmHg and/or diastolic blood pressure \\> 110 mmHg);\n4. Severe liver dysfunction (alanine aminotransferase (ALT) or aspartate aminotransferase (AST) exceeding three times the upper limit of normal) or renal dysfunction (estimated glomerular filtration rate (eGFR) \\< 30 mL/min/1.73 m²);\n5. History of myocardial infarction;\n6. Concomitant active bleeding or visceral hemorrhage;\n7. Concomitant malignant tumors, lymphomas, leukemias, or other diseases with an expected survival time of less than 1 year;\n8. Having undergone gastrointestinal surgery within the past 4 weeks that may affect the absorption of the investigational drug;\n9. Pregnant or breastfeeding women;\n10. Family history of psychiatric disorders;\n11. Having been enrolled in another drug study within the past 4 weeks or currently receiving any investigational treatment other than the study drug;\n12. Allergic to montelukast or having used montelukast within the past 4 weeks;\n13. Unable to tolerate cardiac magnetic resonance imaging (e.g., patients with magnetic materials in the body or those with claustrophobia).",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Aijun Sun",
+          "role": "CONTACT",
+          "phone": "021-64041990",
+          "email": "sun.aijun@zs-hospital.sh.cn"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Affiliated Zhongshan Hospital of Dalian University",
+          "status": "RECRUITING",
+          "city": "Dalian",
+          "state": "Liaoning",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Qin Yu",
+              "role": "CONTACT",
+              "phone": "0411-62893000",
+              "email": "yuqin@dlu.edu.cn"
+            },
+            {
+              "name": "Qin Yu",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.91222,
+            "lon": 121.60222
+          }
+        },
+        {
+          "facility": "Zhongshan Hospital, Fudan University",
+          "status": "RECRUITING",
+          "city": "Shanghai",
+          "state": "Shanghai Municipality",
+          "zip": "200032",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Hanchuan Chen",
+              "role": "CONTACT",
+              "phone": "18459111985",
+              "email": "chenhanchuan66@126.com"
+            },
+            {
+              "name": "Aijun Sun",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        },
+        {
+          "facility": "The Second Affiliated Hospital of Dalian Medical University",
+          "status": "RECRUITING",
+          "city": "Dalian",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Xin Zhao",
+              "role": "CONTACT",
+              "phone": "0411-84671291",
+              "email": "zx81830@163.com"
+            },
+            {
+              "name": "Xin Zhao",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.91222,
+            "lon": 121.60222
+          }
+        },
+        {
+          "facility": "Fujian provincial hospital",
+          "status": "RECRUITING",
+          "city": "Fuzhou",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yansong Guo",
+              "role": "CONTACT",
+              "phone": "0591-87557768",
+              "email": "ysguo1234@126.com"
+            },
+            {
+              "name": "Yansong Guo",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 26.06139,
+            "lon": 119.30611
+          }
+        },
+        {
+          "facility": "Guangdong Provincial People's Hospital",
+          "status": "RECRUITING",
+          "city": "Guangdong",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yong Liu",
+              "role": "CONTACT",
+              "phone": "020-83827812",
+              "email": "liuyong@gdph.org.cn"
+            },
+            {
+              "name": "Yong Liu",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.76832,
+            "lon": 129.33635
+          }
+        },
+        {
+          "facility": "Harbin Medical University Second Affiliated Hospital",
+          "status": "RECRUITING",
+          "city": "Ha’erbin",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Bo Yu",
+              "role": "CONTACT",
+              "phone": "0451-86605612",
+              "email": "yubo@hrbmu.edu.cn"
+            },
+            {
+              "name": "Bo Yu",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.8696,
+            "lon": 101.742
+          }
+        },
+        {
+          "facility": "The First Affiliated Hospital of the University of Science and Technology of China",
+          "status": "RECRUITING",
+          "city": "Hefei",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Fan Ouyang",
+              "role": "CONTACT",
+              "phone": "0551-96512",
+              "email": "9304117@csu.edu.cn"
+            },
+            {
+              "name": "Fan Ouyang",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.86389,
+            "lon": 117.28083
+          }
+        },
+        {
+          "facility": "Hunan Provincial People's Hospital",
+          "status": "RECRUITING",
+          "city": "Hunan",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Hongwei Pan",
+              "role": "CONTACT",
+              "phone": "0731-83929900",
+              "email": "panhongwei@hunnu.edu.cn"
+            },
+            {
+              "name": "Hongwei Pan",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.9693,
+            "lon": 118.85431
+          }
+        },
+        {
+          "facility": "The Second Xiangya Hospital of Central South University",
+          "status": "RECRUITING",
+          "city": "Hunan",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Shenghua Zhou",
+              "role": "CONTACT",
+              "phone": "0731-85295888",
+              "email": "zhoushenghua@csu.edu.cn"
+            },
+            {
+              "name": "Shenghua Zhou",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.9693,
+            "lon": 118.85431
+          }
+        },
+        {
+          "facility": "Xiangya Hospital of Central South University",
+          "status": "RECRUITING",
+          "city": "Hunan",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yongping Bai",
+              "role": "CONTACT",
+              "phone": "0731-89753999",
+              "email": "baiyongping@csu.edu.cn"
+            },
+            {
+              "name": "Yongping Bai",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.9693,
+            "lon": 118.85431
+          }
+        },
+        {
+          "facility": "Liaoning Provincial People's Hospital",
+          "status": "RECRUITING",
+          "city": "Shenyang",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Aijie Hou",
+              "role": "CONTACT",
+              "phone": "024-24016001",
+              "email": "1758624242@qq.com"
+            },
+            {
+              "name": "Aijie Hou",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.79222,
+            "lon": 123.43278
+          }
+        },
+        {
+          "facility": "The 2nd Affiliated Hospital and Yuying Children's Hospital of WMU",
+          "status": "RECRUITING",
+          "city": "Wenzhou",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Ge Jin",
+              "role": "CONTACT",
+              "phone": "0577-88002682",
+              "email": "gemason@126.com"
+            },
+            {
+              "name": "Ge Jin",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 27.99942,
+            "lon": 120.66682
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "all IPD collected throughout the trial",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF",
+        "CSR",
+        "ANALYTIC_CODE"
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C093875",
+          "term": "montelukast"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

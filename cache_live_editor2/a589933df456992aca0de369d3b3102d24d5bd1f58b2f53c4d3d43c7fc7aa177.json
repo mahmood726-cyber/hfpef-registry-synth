@@ -1,0 +1,383 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05084235",
+      "orgStudyIdInfo": {
+        "id": "S-20210028-1"
+      },
+      "organization": {
+        "fullName": "Odense University Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Cardiac Effects of Empagliflozin in Patients With High Risk of Heart Failure",
+      "officialTitle": "Empagliflozin to Elderly and Obese Patients With Cardiovascular Disease (Empire Prevent: Cardiac): A Randomized Controlled Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-01",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-09-02",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-01-16",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-01-16",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-09-03",
+      "studyFirstSubmitQcDate": "2021-10-06",
+      "studyFirstPostDateStruct": {
+        "date": "2021-10-19",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-01-26",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-01-29",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Jacob Moller",
+        "investigatorTitle": "Professor, MD, PhD",
+        "investigatorAffiliation": "Odense University Hospital"
+      },
+      "leadSponsor": {
+        "name": "Jacob Moller",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Danish Heart Foundation",
+          "class": "OTHER"
+        },
+        {
+          "name": "Herlev and Gentofte Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "University Hospital Bispebjerg and Frederiksberg",
+          "class": "OTHER"
+        },
+        {
+          "name": "Hillerod Hospital, Denmark",
+          "class": "OTHER"
+        },
+        {
+          "name": "Rigshospitalet, Denmark",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of this trial is to assess the effect of Empagliflozin on cardiac mass, volumes, cardiac biomarkers, metabolism, daily activity level, health-related quality of life in patients in elderly and obese patients with increased risk of developing heart failure. The primary hypotheses are that 180 days of treatment with Empagliflozin 10 mg a day will: 1) reduce left ventricular mass index, and 2) increase peak VO2 (maximal oxygen consumption) compared with placebo.",
+      "detailedDescription": "The Empire Prevent: Cardiac is a part of the Empire Prevent Trial Program, which also comprises the Empire Prevent: Metabolic"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure",
+        "Obesity"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 191,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Empaglifloxin",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Drug: Empagliflozin 10 MG"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Empagliflozin 10 MG",
+          "description": "Patients are randomized 1:1 to receive either Empagliflozin or matching placebo for 180 days",
+          "armGroupLabels": [
+            "Empaglifloxin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo matches the active drug in appearance, odor and labelling",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Left ventricular mass index",
+          "description": "Between-group difference in the change of left ventricular mass index (LVMI) assessed by cardiac magnetic resonance image",
+          "timeFrame": "180 days"
+        },
+        {
+          "measure": "Maximal oxygen consumption",
+          "description": "Between-group difference in the change of maximal oxygen consumption (peak VO2) assessed by cardiopulmonary exercise test",
+          "timeFrame": "180 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Left ventricular volume",
+          "description": "Between-group difference in the change of left ventricular end-diastolic volume index (LVEDVI) and left ventricular end-systolic volume index (LVESVI) assessed by cardiac magnetic resonance image",
+          "timeFrame": "180 days"
+        },
+        {
+          "measure": "Left ventricular function",
+          "description": "Between-group difference in the change of first phase ejection fraction and left ventricular ejection fraction (LVEF) assessed by cardiac magnetic resonance image",
+          "timeFrame": "180 days"
+        },
+        {
+          "measure": "Daily activity level",
+          "description": "Between-group difference in the change of daily activity level assessed by accelerometer",
+          "timeFrame": "180 days"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Quality-of-life scores",
+          "description": "Between-group difference in the change of self-reported quality of life assessed by the 36-item short form health survey (SF-36 questionnaire). The SF-36 targets eight health concepts: physical functioning, bodily pain, role limitations due to physical health problems, role limitations due to personal or emotional problems, emotional well-being, social functioning, energy/fatigue, and general health perceptions. Each item is scored on a scale from 0 to 100, with a higher score representing a more favorable health state. An average score is calculated for each health concept.",
+          "timeFrame": "180 days"
+        },
+        {
+          "measure": "Blood pressure",
+          "description": "Between-group difference in the change of systolic and diastolic blood pressure assessed by ambulatory blood pressure measurement",
+          "timeFrame": "180 days"
+        },
+        {
+          "measure": "Wall stress",
+          "description": "Between-group difference in the change of estimated end-systolic wall stress (ESWS). ESWS will be calculated from results of multimodality imaging combining MRI and echocardiography by using a formula incorporating MRI LV end-systolic diameter and wall thickness as well as echocardiographic mean and arterial blood pressure as proposed by Reichek et al. based on the Law of Laplace. (please see references Reichek et al and Carter-Storch et al. in the reference list)",
+          "timeFrame": "180 days"
+        },
+        {
+          "measure": "Left atrium size",
+          "description": "Between-group difference in the change of left atrial maximal and minimal size measured by cardiac magnetic resonance image",
+          "timeFrame": "180 days"
+        },
+        {
+          "measure": "Global strain",
+          "description": "Between-group difference in the change of global strain assessed by cardiac magnetic resonance image",
+          "timeFrame": "180 days"
+        },
+        {
+          "measure": "Growth differentiation factor 15",
+          "description": "Between-group difference in the change of the biomarker growth differentiation factor 15 (pg/ml)",
+          "timeFrame": "180 days"
+        },
+        {
+          "measure": "Cardiac fibrosis",
+          "description": "Between-group difference in the change of cardiac fibrosis assessed by cardiac magnetic resonance image",
+          "timeFrame": "180 days"
+        },
+        {
+          "measure": "Left atrium function",
+          "description": "Between-group difference in the change of left atrial emptying fraction and left atrium ejection fraction assessed by cardiac magnetic resonance image",
+          "timeFrame": "180"
+        },
+        {
+          "measure": "Biomarkers of heart disease",
+          "description": "Between-group difference in the change of biomarkers of heart disease, including atrial natriuretic peptide (ANP), brain (B-type) natriuretic peptide (BNP), and N-terminal pro-hormone BNP (NT-proBNP). All measured as pmol/L.",
+          "timeFrame": "180 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Body mass index \\>28kg/m2\n* Age 60-84 years\n* Established risk factor for developing heart failure, defined as at least one of the following:\n* hypertension\n* ischemic heart disease\n* stroke/transient cerebral ischemia\n* chronic kidney disease (eGFR 30-45ml/min/1.73m2)\n\nExclusion Criteria:\n\n* Diabetes mellitus type 1 or 2 (no medical history, no antidiabetic treatment)\n* Heart failure with reduced ejection fraction (LVEF \\<40%)\n* Inability to perform exercise test\n* Dementia\n* Severe non-compliance\n* Substance abuse\n* Severe chronic obstructive pulmonary disease (FEV1\\<50% expected value)\n* Permanent atrial fibrillation\n* GFR \\<30 ml/min/1,73m2\n* Severe peripheral artery disease\n* Cancer treatment within one year beside prostate cancer and basal cell carcinoma\n* Severe aortic or mitral valve disease\n* Pregnancy or breastfeeding\n* Acute hospital admission within 30 days\n* Participation in other pharmacological study",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "60 Years",
+      "maximumAge": "84 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Jacob Eifer Møller, MD, PhD,",
+          "affiliation": "Odense University Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Morten Schou, MD, PhD, DmSc",
+          "affiliation": "Herlev-Gentofte Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Herlev Hospital",
+          "city": "Herlev",
+          "zip": "2730",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 55.72366,
+            "lon": 12.43998
+          }
+        },
+        {
+          "facility": "Odense University Hospital",
+          "city": "Odense",
+          "zip": "5000",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 55.39594,
+            "lon": 10.38831
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "7053293",
+          "type": "BACKGROUND",
+          "citation": "Reichek N, Wilson J, St John Sutton M, Plappert TA, Goldberg S, Hirshfeld JW. Noninvasive determination of left ventricular end-systolic stress: validation of the method and initial application. Circulation. 1982 Jan;65(1):99-108. doi: 10.1161/01.cir.65.1.99. No abstract available."
+        },
+        {
+          "pmid": "31168387",
+          "type": "BACKGROUND",
+          "citation": "Carter-Storch R, Moller JE, Christensen NL, Rasmussen LM, Pecini R, Sondergard E, Videbaek LM, Dahl JS. End-systolic wall stress in aortic stenosis: comparing symptomatic and asymptomatic patients. Open Heart. 2019 Apr 9;6(1):e001021. doi: 10.1136/openhrt-2019-001021. eCollection 2019."
+        },
+        {
+          "pmid": "38365073",
+          "type": "DERIVED",
+          "citation": "Andersen CF, Larsen JH, Jensen J, Omar M, Nouhravesh N, Kistorp C, Tuxen C, Gustafsson F, Knop FK, Forman JL, Davidovski FS, Jensen LT, Hojlund K, Kober L, Antonsen L, Poulsen MK, Schou M, Moller JE. Empagliflozin to elderly and obese patients with increased risk of developing heart failure: Study protocol for the Empire Prevent trial program. Am Heart J. 2024 May;271:84-96. doi: 10.1016/j.ahj.2024.02.005. Epub 2024 Feb 15."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2025-01-23",
+          "uploadDate": "2025-01-24T16:45",
+          "filename": "SAP_000.pdf",
+          "size": 908108
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C570240",
+          "term": "empagliflozin"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

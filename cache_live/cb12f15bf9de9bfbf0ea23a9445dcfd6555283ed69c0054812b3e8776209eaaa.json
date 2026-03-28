@@ -1,0 +1,357 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03102125",
+      "orgStudyIdInfo": {
+        "id": "160808"
+      },
+      "organization": {
+        "fullName": "University of California, San Diego",
+        "class": "OTHER"
+      },
+      "briefTitle": "Allograft Dysfunction in Heart Transplant",
+      "officialTitle": "Defining Mechanisms for Cardiac Allograft Dysfunction to Improve Allograft Longevity and Survival in Heart-Transplant Patients"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-02",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-10-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-12-02",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2017-03-29",
+      "studyFirstSubmitQcDate": "2017-03-29",
+      "studyFirstPostDateStruct": {
+        "date": "2017-04-05",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-02-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-02-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Paul Kim",
+        "investigatorTitle": "Assistant Professor",
+        "investigatorAffiliation": "University of California, San Diego"
+      },
+      "leadSponsor": {
+        "name": "Paul Kim",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The investigators will evaluate for early evidence of cardiac allograft dysfunction by cardiac MRI and single cell sequencing to determine underlying molecular and macroscopic causes.",
+      "detailedDescription": "Adult heart-transplant patients, excluding those with a GFR less than 30 mL/min/1.73m2, contraindications to MRI and allergies to either regadenoson or gadolinium contrast, will be enrolled over 60 months. Patients will be recruited from UCSD. The investigators will specifically enroll all eligible heart-transplant patients.\n\nBrief protocol:\n\nCardiac MRI is performed. Cine images in standard views are obtained. T1 and T2 mapping sequences are performed on short axis images pre- and post-gadolinium contrast. For stress imaging, intravenous regadenoson is given as a 0.4 mg bolus followed by a 5 mL saline flush. After 30 seconds, short-axis images are acquired for 30 consecutive heartbeats with administration of gadolinium. Rest imaging is performed 30 minutes after stress imaging. Lastly, late gadolinium enhancement images are obtained in standard views. Images are analyzed offline by a blinded independent reader. Patients will be followed for at least 1 year after enrollment for MACE.\n\nPeripheral blood and endomyocardial biopsies will also be collected, timing as per usual clinical care as well as for-cause, for single cell RNAseq analyses."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Transplant Failure and Rejection"
+      ],
+      "keywords": [
+        "heart transplant",
+        "acute graft rejection",
+        "chronic graft rejection"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "DIAGNOSTIC",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 376,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Nonspecific allograft dysfunction",
+          "type": "EXPERIMENTAL",
+          "description": "Patients with nonspecific allograft dysfunction will undergo stress cardiac MRI with regadenoson in addition to performing late gadolinium enhancement and obtaining mean segmental T1 values of the heart. Peripheral blood and endomycardial biopsies will also be obtained for single cell RNAseq analyses.",
+          "interventionNames": [
+            "Drug: Regadenoson"
+          ]
+        },
+        {
+          "label": "Normal graft function",
+          "type": "EXPERIMENTAL",
+          "description": "Patients with normal graft function will undergo stress cardiac MRI with regadenoson in addition to performing late gadolinium enhancement and obtaining mean segmental T1 values of the heart. Peripheral blood and endomycardial biopsies will also be obtained for single cell RNAseq analyses.",
+          "interventionNames": [
+            "Drug: Regadenoson"
+          ]
+        },
+        {
+          "label": "Cardiac allograft vasculopathy",
+          "type": "EXPERIMENTAL",
+          "description": "Patients with allograft dysfunction from known cardiac allograft dysfunction will undergo stress cardiac MRI with regadenoson in addition to performing late gadolinium enhancement and obtaining mean segmental T1 values of the heart. Peripheral blood and endomycardial biopsies will also be obtained for single cell RNAseq analyses.",
+          "interventionNames": [
+            "Drug: Regadenoson"
+          ]
+        },
+        {
+          "label": "ACR/AMR",
+          "type": "EXPERIMENTAL",
+          "description": "Patients with allograft dysfunction from prior episodes of acute cellular or antibody mediated rejection will undergo stress cardiac MRI with regadenoson in addition to performing late gadolinium enhancement and obtaining mean segmental T1 values of the heart. Peripheral blood and endomycardial biopsies will also be obtained for single cell RNAseq analyses.",
+          "interventionNames": [
+            "Drug: Regadenoson"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Regadenoson",
+          "description": "For use in stress myocardial perfusion imaging.",
+          "armGroupLabels": [
+            "ACR/AMR",
+            "Cardiac allograft vasculopathy",
+            "Nonspecific allograft dysfunction",
+            "Normal graft function"
+          ],
+          "otherNames": [
+            "Lexiscan"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Myocardial Perfusion Reserve",
+          "timeFrame": "60 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Rest and stress myocardial blood flow",
+          "timeFrame": "60 months"
+        },
+        {
+          "measure": "LGE %",
+          "timeFrame": "60 months"
+        },
+        {
+          "measure": "LVEF",
+          "timeFrame": "60 months"
+        },
+        {
+          "measure": "LV end-diastolic volume index",
+          "timeFrame": "60 months"
+        },
+        {
+          "measure": "LV mass index",
+          "timeFrame": "60 months"
+        },
+        {
+          "measure": "native T1 and T2 myocardial values",
+          "timeFrame": "60 months"
+        },
+        {
+          "measure": "extracellular volumes",
+          "timeFrame": "60 months"
+        },
+        {
+          "measure": "myocardial strain rate",
+          "timeFrame": "60 months"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Major adverse cardiovascular events",
+          "description": "death, re-transplantation, percutaneous coronary intervention and HF hospitalization",
+          "timeFrame": "60 months"
+        },
+        {
+          "measure": "Percentage of different T-cell subsets by single cell RNAseq",
+          "timeFrame": "60 months"
+        },
+        {
+          "measure": "Number of stenotic microvasculopathy by histopathologic review of endomyocardial biopsy samples",
+          "description": "Each endomyocardial biopsy slide will be reviewed for stenotic microvasculopathy as per Hiemann et al 2007, Circulation. 1 stenotic blood vessel per view on X200 zoom is diagnostic of stenotic microvasculopathy.",
+          "timeFrame": "60 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age greater than or equal to 18 years old.\n* At least three months status post heart transplantation.\n\nExclusion Criteria:\n\n* Biopsy proven acute rejection episode in the past 3 months.\n* Patients with symptoms or signs of acute myocardial ischemia or recent acute coronary syndrome in the past 3 months.\n* Uncontrolled obstructive ventilatory disease including asthma and COPD.\n* History of generalized tonic-clonic seizures.\n* Second or third degree AV nodal block.\n* Sinus node dysfunction.\n* Contraindications to MRI including cardiovascular implantable electronic devices.\n* Renal dysfunction with an estimated GFR less than 30 mL/min/1.73m2.\n* Prior adverse reaction to either regadenoson or gadolinium contrast. Prior adverse reaction to adenosine or dipyridamole will be assessed on a case-by-case basis.\n* Systolic blood pressure greater than 180 or less than 85 mmHg.\n* Diastolic blood pressure greater than 120 or less than 40 mmHg.\n* Resting heart rate greater than 120 or less than 45 beats per minute. - Severe claustrophobia.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Paul Kim, MD",
+          "role": "CONTACT",
+          "phone": "8582460638",
+          "email": "pjk017@ucsd.edu"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Paul Kim, MD",
+          "affiliation": "UC San Diego",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "UC San Diego",
+          "status": "RECRUITING",
+          "city": "La Jolla",
+          "state": "California",
+          "zip": "92037",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Paul Kim, MD",
+              "role": "CONTACT",
+              "phone": "8582460638",
+              "email": "pjk017@ucsd.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.84727,
+            "lon": -117.2742
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "21962016",
+          "type": "BACKGROUND",
+          "citation": "Stehlik J, Edwards LB, Kucheryavaya AY, Benden C, Christie JD, Dobbels F, Kirk R, Rahmel AO, Hertz MI. The Registry of the International Society for Heart and Lung Transplantation: Twenty-eighth Adult Heart Transplant Report--2011. J Heart Lung Transplant. 2011 Oct;30(10):1078-94. doi: 10.1016/j.healun.2011.08.003. No abstract available."
+        },
+        {
+          "pmid": "21555100",
+          "type": "BACKGROUND",
+          "citation": "Berry GJ, Angelini A, Burke MM, Bruneval P, Fishbein MC, Hammond E, Miller D, Neil D, Revelo MP, Rodriguez ER, Stewart S, Tan CD, Winters GL, Kobashigawa J, Mehra MR. The ISHLT working formulation for pathologic diagnosis of antibody-mediated rejection in heart transplantation: evolution and current status (2005-2011). J Heart Lung Transplant. 2011 Jun;30(6):601-11. doi: 10.1016/j.healun.2011.02.015. No abstract available."
+        },
+        {
+          "pmid": "20643330",
+          "type": "BACKGROUND",
+          "citation": "Costanzo MR, Dipchand A, Starling R, Anderson A, Chan M, Desai S, Fedson S, Fisher P, Gonzales-Stawinski G, Martinelli L, McGiffin D, Smith J, Taylor D, Meiser B, Webber S, Baran D, Carboni M, Dengler T, Feldman D, Frigerio M, Kfoury A, Kim D, Kobashigawa J, Shullo M, Stehlik J, Teuteberg J, Uber P, Zuckermann A, Hunt S, Burch M, Bhat G, Canter C, Chinnock R, Crespo-Leiro M, Delgado R, Dobbels F, Grady K, Kao W, Lamour J, Parry G, Patel J, Pini D, Towbin J, Wolfel G, Delgado D, Eisen H, Goldberg L, Hosenpud J, Johnson M, Keogh A, Lewis C, O'Connell J, Rogers J, Ross H, Russell S, Vanhaecke J; International Society of Heart and Lung Transplantation Guidelines. The International Society of Heart and Lung Transplantation Guidelines for the care of heart transplant recipients. J Heart Lung Transplant. 2010 Aug;29(8):914-56. doi: 10.1016/j.healun.2010.05.034. No abstract available."
+        },
+        {
+          "pmid": "3308166",
+          "type": "BACKGROUND",
+          "citation": "Uretsky BF, Murali S, Reddy PS, Rabin B, Lee A, Griffith BP, Hardesty RL, Trento A, Bahnson HT. Development of coronary artery disease in cardiac transplant patients receiving immunosuppressive therapy with cyclosporine and prednisone. Circulation. 1987 Oct;76(4):827-34. doi: 10.1161/01.cir.76.4.827."
+        },
+        {
+          "pmid": "11943259",
+          "type": "BACKGROUND",
+          "citation": "Fang JC, Kinlay S, Beltrame J, Hikiti H, Wainstein M, Behrendt D, Suh J, Frei B, Mudge GH, Selwyn AP, Ganz P. Effect of vitamins C and E on progression of transplant-associated arteriosclerosis: a randomised trial. Lancet. 2002 Mar 30;359(9312):1108-13. doi: 10.1016/S0140-6736(02)08154-0."
+        },
+        {
+          "pmid": "20413602",
+          "type": "BACKGROUND",
+          "citation": "Pham MX, Teuteberg JJ, Kfoury AG, Starling RC, Deng MC, Cappola TP, Kao A, Anderson AS, Cotts WG, Ewald GA, Baran DA, Bogaev RC, Elashoff B, Baron H, Yee J, Valantine HA; IMAGE Study Group. Gene-expression profiling for rejection surveillance after cardiac transplantation. N Engl J Med. 2010 May 20;362(20):1890-900. doi: 10.1056/NEJMoa0912965. Epub 2010 Apr 22."
+        },
+        {
+          "pmid": "16890123",
+          "type": "BACKGROUND",
+          "citation": "Bhalodolia R, Cortese C, Graham M, Hauptman PJ. Fulminant acute cellular rejection with negative findings on endomyocardial biopsy. J Heart Lung Transplant. 2006 Aug;25(8):989-92. doi: 10.1016/j.healun.2006.04.002. Epub 2006 Jun 30."
+        },
+        {
+          "pmid": "24355800",
+          "type": "BACKGROUND",
+          "citation": "Miller CA, Sarma J, Naish JH, Yonan N, Williams SG, Shaw SM, Clark D, Pearce K, Stout M, Potluri R, Borg A, Coutts G, Chowdhary S, McCann GP, Parker GJ, Ray SG, Schmitt M. Multiparametric cardiovascular magnetic resonance assessment of cardiac allograft vasculopathy. J Am Coll Cardiol. 2014 Mar 4;63(8):799-808. doi: 10.1016/j.jacc.2013.07.119. Epub 2013 Dec 18."
+        },
+        {
+          "pmid": "11693758",
+          "type": "BACKGROUND",
+          "citation": "Marie PY, Angioi M, Carteaux JP, Escanye JM, Mattei S, Tzvetanov K, Claudon O, Hassan N, Danchin N, Karcher G, Bertrand A, Walker PM, Villemot JP. Detection and prediction of acute heart transplant rejection with the myocardial T2 determination provided by a black-blood magnetic resonance imaging sequence. J Am Coll Cardiol. 2001 Mar 1;37(3):825-31. doi: 10.1016/s0735-1097(00)01196-7."
+        },
+        {
+          "pmid": "19284612",
+          "type": "BACKGROUND",
+          "citation": "Butler CR, Thompson R, Haykowsky M, Toma M, Paterson I. Cardiovascular magnetic resonance in the diagnosis of acute heart transplant rejection: a review. J Cardiovasc Magn Reson. 2009 Mar 12;11(1):7. doi: 10.1186/1532-429X-11-7."
+        },
+        {
+          "pmid": "18551063",
+          "type": "BACKGROUND",
+          "citation": "Kubrich M, Petrakopoulou P, Kofler S, Nickel T, Kaczmarek I, Meiser BM, Reichart B, von Scheidt W, Weis M. Impact of coronary endothelial dysfunction on adverse long-term outcome after heart transplantation. Transplantation. 2008 Jun 15;85(11):1580-7. doi: 10.1097/TP.0b013e318170b4cd."
+        },
+        {
+          "pmid": "24457279",
+          "type": "BACKGROUND",
+          "citation": "Solberg OG, Ragnarsson A, Kvarsnes A, Endresen K, Kongsgard E, Aakhus S, Gullestad L, Stavem K, Aaberge L. Reference interval for the index of coronary microvascular resistance. EuroIntervention. 2014 Jan 22;9(9):1069-75. doi: 10.4244/EIJV9I9A181."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D012059",
+          "term": "Rejection, Psychology"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012919",
+          "term": "Social Behavior"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C430916",
+          "term": "regadenoson"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,352 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07263035",
+      "orgStudyIdInfo": {
+        "id": "2025_001"
+      },
+      "organization": {
+        "fullName": "Lakeland Regional Health Systems, Inc.",
+        "class": "OTHER"
+      },
+      "briefTitle": "Urine Sodium-Driven Diuretic Adjustment Strategy in Acute Decompensated Heart Failure",
+      "officialTitle": "Urine Sodium-Driven Diuretic Adjustment Strategy in Acute Decompensated Heart Failure",
+      "acronym": "US-DASH"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-11",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-01-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-06-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-09-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-11-19",
+      "studyFirstSubmitQcDate": "2025-11-23",
+      "studyFirstPostDateStruct": {
+        "date": "2025-12-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-11-23",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-04",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Anas Bizanti, MD",
+        "investigatorTitle": "Associate Program Director, Internal Medicine Residency - Principal Investigator",
+        "investigatorAffiliation": "Lakeland Regional Health Systems, Inc."
+      },
+      "leadSponsor": {
+        "name": "Lakeland Regional Health Systems, Inc.",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this clinical trial is to learn if increasing the dose of diuretics to achieve a higher urine sodium target produces better clinical results when treating patients hospitalized with acute heart failure when compared to lower urine sodium target and standard of care.\n\nThe main questions it aims to answer are:\n\n1. Does targeting a higher urine sodium goal achieve greater natriuresis and diuresis?\n2. Does targeting a higher urine sodium goal reduce frequency of hospital readmissions?\n3. Does targeting a higher urine sodium goal reduce hospital length of stay?\n\nResearchers will compare natriuresis-guided arms with standard of care to see if targeting higher natriuresis goals improves significantly over current practice.\n\nParticipants will submit urine samples at routine intervals after being given diuretics to evaluate urine sodium concentration. If urine sodium is low then diuretic dose will be increased.",
+      "detailedDescription": "Patients will be randomized into one of three groups: 50 micromolar natriuresis, 85 micromolar natriuresis, and standard of care. The natriuresis arms will have urine sodium assessed two to four hours administration of intravenous diuretics. If the natriuretic response is inadequate they will immediately receive a higher dose of diuretic. This process will be repeated for the first 72 hours of admission."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure",
+        "Heart Failure - NYHA II - IV",
+        "Heart Failure Acute",
+        "Acute Heart Failure (AHF)"
+      ],
+      "keywords": [
+        "Urine sodium",
+        "Diuretics",
+        "Lasix",
+        "heart failure",
+        "Acute CHF",
+        "acute HFrEF",
+        "Acute HFpEF",
+        "Natriuresis"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 600,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Control",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Traditional diuretic dosing adjustment per provider",
+          "interventionNames": [
+            "Drug: Furosemide intravenous solution"
+          ]
+        },
+        {
+          "label": "50 mmol/L urine sodium",
+          "type": "EXPERIMENTAL",
+          "description": "Diuretics will be titrated to achieve a urine sodium concentration of 50 mmol/L",
+          "interventionNames": [
+            "Drug: Furosemide intravenous solution"
+          ]
+        },
+        {
+          "label": "85 mmol/L urine sodium",
+          "type": "EXPERIMENTAL",
+          "description": "Diuretics will be titrated to achieve a urine sodium concentration of 85 mmol/L",
+          "interventionNames": [
+            "Drug: Furosemide intravenous solution"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Furosemide intravenous solution",
+          "description": "Diuretics will be titrated to achieve a urine sodium concentration of 50 mmol/L",
+          "armGroupLabels": [
+            "50 mmol/L urine sodium"
+          ],
+          "otherNames": [
+            "Lasix"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Furosemide intravenous solution",
+          "description": "Diuretics will be titrated to achieve a urine sodium concentration of 85 mmol/L",
+          "armGroupLabels": [
+            "85 mmol/L urine sodium"
+          ],
+          "otherNames": [
+            "Lasix"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Furosemide intravenous solution",
+          "description": "Standard of care",
+          "armGroupLabels": [
+            "Control"
+          ],
+          "otherNames": [
+            "Lasix"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Natriuresis at 24 hours",
+          "description": "24-hour natriuresis as measured by urine sodium in a 24-hour urine collection",
+          "timeFrame": "24 hours"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Natriuresis at 48 hours",
+          "description": "Total urine sodium assessed by 24-hour urine collection",
+          "timeFrame": "48 hours after enrollment in trial"
+        },
+        {
+          "measure": "Diuresis at 24 hours",
+          "description": "Total urine volume assessed by 24 hour collection",
+          "timeFrame": "24 hours after enrollment"
+        },
+        {
+          "measure": "Diuresis at 48 hours",
+          "description": "Total urine volume assessed via 24-hour collection",
+          "timeFrame": "48 hours after enrollment"
+        },
+        {
+          "measure": "Length of Stay",
+          "description": "Duration of hospitalization",
+          "timeFrame": "From the date and time of admission order until the date and time of discharge order, assessed for each participant up to 30 days after admission or death from any cause, whichever comes first."
+        },
+        {
+          "measure": "Readmission of any cause at 30 days",
+          "description": "Proportion of participants who experience an unplanned hospital readmission for any cause within 30 days after the index hospital discharge.",
+          "timeFrame": "30 days after discharge"
+        },
+        {
+          "measure": "Readmission rate of any cause at 90 days",
+          "description": "Proportion of participants who experience an unplanned hospital readmission for any cause within 90 days after the index hospital discharge.",
+          "timeFrame": "90 days after the time of discharge"
+        },
+        {
+          "measure": "Readmission rate of Heart failure",
+          "description": "Proportion of participants who experience an unplanned hospital readmission specifically for heart failure within 30 days after the index hospital discharge.",
+          "timeFrame": "30 days"
+        },
+        {
+          "measure": "Readmission rate for heart failure",
+          "description": "Proportion of participants who experience an unplanned hospital readmission specifically for heart failure within 90 days after the index hospital discharge.",
+          "timeFrame": "90 days"
+        },
+        {
+          "measure": "Weight change",
+          "description": "Difference in weight from admission compared to discharge",
+          "timeFrame": "Weight assessed at baseline within 24 hours of hospital admission and at discharge, with the discharge weight measured on the discharge day up to 30 days after admission."
+        },
+        {
+          "measure": "Net fluid balance",
+          "description": "Cumulative difference between total fluid intake and output during the hospitalization",
+          "timeFrame": "Net fluid balance assessed from baseline Day 1 of admission through hospital discharge, with discharge assessment on the discharge day up to 30 days after admission."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* The study will target adults 18 years of age or older admitted to Lakeland Regional Medical Center who:\n\n  * Have a primary diagnosis of acute decompensated heart failure, and\n  * Have at least one of the following signs of hypervolemia:\n\n    * Bilateral lower extremity pitting edema\n    * Jugular venous distension\n    * Hepatojugular reflex\n    * Crackles on pulmonary exam, or\n    * Chest x-ray demonstrating pulmonary edema or pleural effusions\n\nExclusion Criteria:\n\n* Exclusion criteria include:\n\n  * Admission to the intensive care unit\n  * Presence of ST-elevated myocardial infarction\n  * Presence of type 1 non-ST elevated myocardial infarction\n  * Dyspnea primarily due to non-cardiac cause as judged by the emergency medicine physician or admitting physician\n  * Use of supplemental oxygen totaling at least 3 L per minute or greater at baseline\n  * Anuria\n  * End-stage renal disease per KDIGO criteria\n  * Dialysis use",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Andrew Lurie, DO",
+          "role": "CONTACT",
+          "phone": "8636871100",
+          "phoneExt": "1443",
+          "email": "Andrew.Lurie@myLRH.org"
+        },
+        {
+          "name": "Anas Bizanti, MD",
+          "role": "CONTACT",
+          "phone": "8636871100",
+          "phoneExt": "1443",
+          "email": "anas.bizanti@mylrh.org"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Andrew Lurie, DO",
+          "affiliation": "Lakeland Regional Hospital",
+          "role": "STUDY_DIRECTOR"
+        },
+        {
+          "name": "Anas Bizanti, MD",
+          "affiliation": "Lakeland Regional Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Lakeland Regional Hospital",
+          "city": "Lakeland",
+          "state": "Florida",
+          "zip": "33805",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.03947,
+            "lon": -81.9498
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED",
+      "description": "Yes"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D005665",
+          "term": "Furosemide"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013424",
+          "term": "Sulfanilamides"
+        },
+        {
+          "id": "D013449",
+          "term": "Sulfonamides"
+        },
+        {
+          "id": "D000577",
+          "term": "Amides"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D000814",
+          "term": "Aniline Compounds"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        },
+        {
+          "id": "D013450",
+          "term": "Sulfones"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

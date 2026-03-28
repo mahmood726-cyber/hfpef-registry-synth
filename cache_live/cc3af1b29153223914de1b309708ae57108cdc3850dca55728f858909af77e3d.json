@@ -1,0 +1,464 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05122793",
+      "orgStudyIdInfo": {
+        "id": "EA4/204/20"
+      },
+      "organization": {
+        "fullName": "German Heart Institute",
+        "class": "OTHER"
+      },
+      "briefTitle": "\"HerzCheck\" - Detection of Early Heart Failure Using Telemedicine in Structurally Weak Regions",
+      "officialTitle": "\"HerzCheck\" - Erkennung Und Prävention Einer Frühen Herzinsuffizienz Mittels Telemedizinischer Verfahren in Strukturschwachen Regionen"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-10",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-06-21",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-04-05",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2034-09-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-10-21",
+      "studyFirstSubmitQcDate": "2021-11-04",
+      "studyFirstPostDateStruct": {
+        "date": "2021-11-17",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-03-04",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-03-06",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Sebastian Kelle",
+        "investigatorTitle": "Dr. Sebastian Kelle (MD)",
+        "investigatorAffiliation": "German Heart Institute"
+      },
+      "leadSponsor": {
+        "name": "German Heart Institute",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "medneo GmbH, Germany",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "Medical Statistics, University Medicine of Goettingen",
+          "class": "OTHER"
+        },
+        {
+          "name": "University of Cologne",
+          "class": "OTHER"
+        },
+        {
+          "name": "University Hospital Heidelberg",
+          "class": "OTHER"
+        },
+        {
+          "name": "AOK Nordost",
+          "class": "INDUSTRY"
+        },
+        {
+          "name": "Herz- und Gefaesszentrum Bad Bevensen",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is intended to provide a basis for decision-making for the improved medical care of patients with asymptomatic heart failure, especially in structurally weak regions.",
+      "detailedDescription": "The aim of the study is the early detection of asymptomatic heart failure with a quality-assured cardiac screening MRI in the population in structurally weak regions and especially in patients with risk factors for the occurrence of heart failure. The diagnosis is followed by early initiation of appropriate therapeutic measures to improve the prognosis of the affected patients, avoid hospitalisations and save therapy costs, and is combined with recommended measures to minimise risk factors for the development of heart failure. The project includes a prospective, monocentric, randomised controlled clinical trial with blinded assessment of the endpoint (PROBE design). Within the scope of the study, 4,509 patients aged between 40 and 69 years who have characteristic risk factors for the development of heart failure were examined using a mobile cardiac screening MRI in the federal states of Brandenburg and Mecklenburg-Western Pomerania within Germany."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure with Preserved Ejection Fraction"
+      ],
+      "keywords": [
+        "Prevention",
+        "Heart failure",
+        "HFpEF",
+        "Asymptomatic",
+        "Cardiology",
+        "Rural Region",
+        "Germany",
+        "CMR",
+        "Cardiac Magnetic Resonance",
+        "HFrEF",
+        "Diastolic Dysfunction",
+        "Strain",
+        "Telemedicine"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "The present study is a prospective, monocentric, randomised controlled trial with stratification and blinded assessment of the endpoint (Prospective Randomised Open Blinded Endpoint (PROBE) design).",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "The attending physician who examines the patients is blinded.",
+          "whoMasked": [
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 4509,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Prevention Group",
+          "type": "EXPERIMENTAL",
+          "description": "In addition to the usual treatment (SoC), the prevention group receives an innovative prevention offer tailored to the severity of the heart failure (telemedical connection via health app as well as additional therapy recommendations).",
+          "interventionNames": [
+            "Behavioral: Prevention offer"
+          ]
+        },
+        {
+          "label": "Control Group",
+          "type": "NO_INTERVENTION",
+          "description": "The control group receives the current standard treatment according to the valid guidelines (Standard of Care = SoC)."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Prevention offer",
+          "description": "Improvement of outcomes through lifestyle changes and improved health literacy",
+          "armGroupLabels": [
+            "Prevention Group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Improved GLS",
+          "description": "Improved GLS at after one year compared to baseline.",
+          "timeFrame": "12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Body weight in kilograms and body height in meters will be aggregated to report BMI in kg/m^2",
+          "description": "BMI at baseline compared to after one year.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Systolic and diastolic blood pressure in mmHg",
+          "description": "blood pressure at baseline compared to after one year.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Heart rate in BPM",
+          "description": "heart rate at baseline compared to after one year.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Quality of life questionnaire 1 in Likert scale",
+          "description": "Quality of life at after one year compared to baseline. Min. value: 0, max value: 3; higher score: better outcome.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Quality of life questionnaire 2 in Likert scale",
+          "description": "Quality of life at after one year compared to baseline. Min. value: 1, max value: 5; higher score: depending on question.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "laboratory parameters: Iron, transferrin and creatinine",
+          "description": "laboratory parameters in µmol/l at baseline compared to after one year.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "laboratory parameters: Sodium, potassium, chloride, total cholesterol, triglycerides, HDL cholesterole, LDL cholesterole, hemoglobin and MCHC",
+          "description": "laboratory parameters in mmol/l at baseline compared to after one year.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "laboratory parameters: White cells and platelets",
+          "description": "laboratory parameters in GPt/l at baseline compared to after one year.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "laboratory parameters: MCV",
+          "description": "laboratory parameter in fl at baseline compared to after one year.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "laboratory parameters: RDW-SD",
+          "description": "laboratory parameter in fl at baseline compared to after one year.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "laboratory parameter: HbA1c",
+          "description": "laboratory parameter in mmol/mol at baseline compared to after one year.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "laboratory parameter: red cells",
+          "description": "laboratory parameter in TPt/l at baseline compared to after one year.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "laboratory parameter: MCH",
+          "description": "laboratory parameter in fmol at baseline compared to after one year.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "laboratory parameter: hematocrit",
+          "description": "laboratory parameter in l/l at baseline compared to after one year.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "laboratory parameter: NT-proBNP",
+          "description": "laboratory parameter in pmol/l at baseline compared to after one year.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "laboratory parameter: transferrin saturation",
+          "description": "laboratory parameter in % at baseline compared to after one year.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "laboratory parameter: ferritin",
+          "description": "laboratory parameter in µg/l at baseline compared to after one year.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "hospitalisations of cardiac origin, arrhythmias or death",
+          "description": "Appearance of hospitalisations of cardiac origin, arrhythmias or death",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Laboratory parameters: urine albumin-creatinine ratio",
+          "description": "UACR, calculated from albumin and creatinine in urine in mmol/l at baseline compared to after one year.",
+          "timeFrame": "12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Smoking\n* Hypercholesterolaemia\n* Arterial hypertension\n* Obesity\n* Chronic diabetes mellitus\n* Chronic kidney disease\n* Health insurance\n\nExclusion Criteria:\n\n* Previously diagnosed Heart Failure\n* MRI-exclusion criteria",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "40 Years",
+      "maximumAge": "69 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Sebastian Kelle, MD",
+          "affiliation": "Deutsches Herzzentrum der Charité",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Diana Graja",
+          "affiliation": "AOK Nordost",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Daniel Sievritts",
+          "affiliation": "medneo GmbH",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Tim Friede, PhD",
+          "affiliation": "Medical Statistics, University Medicine of Goettingen",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Stephanie Stock, MD",
+          "affiliation": "University of Cologne",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Norbert Frey, MD",
+          "affiliation": "University Hospital Heidelberg",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Bjoern Remppis, MD",
+          "affiliation": "Herz- und Gefaesszentrum Bad Bevensen",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Deutsches Herzzentrum der Charité",
+          "city": "Berlin",
+          "state": "State of Berlin",
+          "zip": "13353",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "28264868",
+          "type": "BACKGROUND",
+          "citation": "Biering-Sorensen T, Biering-Sorensen SR, Olsen FJ, Sengelov M, Jorgensen PG, Mogelvang R, Shah AM, Jensen JS. Global Longitudinal Strain by Echocardiography Predicts Long-Term Risk of Cardiovascular Morbidity and Mortality in a Low-Risk General Population: The Copenhagen City Heart Study. Circ Cardiovasc Imaging. 2017 Mar;10(3):e005521. doi: 10.1161/CIRCIMAGING.116.005521."
+        },
+        {
+          "pmid": "29181827",
+          "type": "BACKGROUND",
+          "citation": "Liu B, Dardeer AM, Moody WE, Hayer MK, Baig S, Price AM, Leyva F, Edwards NC, Steeds RP. Reference ranges for three-dimensional feature tracking cardiac magnetic resonance: comparison with two-dimensional methodology and relevance of age and gender. Int J Cardiovasc Imaging. 2018 May;34(5):761-775. doi: 10.1007/s10554-017-1277-x. Epub 2017 Nov 27."
+        },
+        {
+          "pmid": "16972704",
+          "type": "BACKGROUND",
+          "citation": "Friede T, Kieser M. Sample size recalculation in internal pilot study designs: a review. Biom J. 2006 Aug;48(4):537-55. doi: 10.1002/bimj.200510238."
+        },
+        {
+          "pmid": "31832979",
+          "type": "BACKGROUND",
+          "citation": "Huber A, Oldridge N, Benzer W, Saner H, Hofer S. Validation of the German HeartQoL: a short health-related quality of life questionnaire for cardiac patients. Qual Life Res. 2020 Apr;29(4):1093-1105. doi: 10.1007/s11136-019-02384-6. Epub 2019 Dec 12."
+        },
+        {
+          "pmid": "31504418",
+          "type": "BACKGROUND",
+          "citation": "Mach F, Baigent C, Catapano AL, Koskinas KC, Casula M, Badimon L, Chapman MJ, De Backer GG, Delgado V, Ference BA, Graham IM, Halliday A, Landmesser U, Mihaylova B, Pedersen TR, Riccardi G, Richter DJ, Sabatine MS, Taskinen MR, Tokgozoglu L, Wiklund O; ESC Scientific Document Group. 2019 ESC/EAS Guidelines for the management of dyslipidaemias: lipid modification to reduce cardiovascular risk. Eur Heart J. 2020 Jan 1;41(1):111-188. doi: 10.1093/eurheartj/ehz455. No abstract available."
+        },
+        {
+          "pmid": "27206819",
+          "type": "BACKGROUND",
+          "citation": "Ponikowski P, Voors AA, Anker SD, Bueno H, Cleland JGF, Coats AJS, Falk V, Gonzalez-Juanatey JR, Harjola VP, Jankowska EA, Jessup M, Linde C, Nihoyannopoulos P, Parissis JT, Pieske B, Riley JP, Rosano GMC, Ruilope LM, Ruschitzka F, Rutten FH, van der Meer P; ESC Scientific Document Group. 2016 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure: The Task Force for the diagnosis and treatment of acute and chronic heart failure of the European Society of Cardiology (ESC)Developed with the special contribution of the Heart Failure Association (HFA) of the ESC. Eur Heart J. 2016 Jul 14;37(27):2129-2200. doi: 10.1093/eurheartj/ehw128. Epub 2016 May 20. No abstract available."
+        },
+        {
+          "pmid": "29248650",
+          "type": "BACKGROUND",
+          "citation": "Rademakers F, Nagel E. Is Global Longitudinal Strain a Superior Parameter for Predicting Outcome After Myocardial Infarction? JACC Cardiovasc Imaging. 2018 Oct;11(10):1458-1460. doi: 10.1016/j.jcmg.2017.11.005. Epub 2017 Dec 13. No abstract available."
+        },
+        {
+          "pmid": "31123926",
+          "type": "BACKGROUND",
+          "citation": "Schneider JE, Stojanovic I. Economic evaluation of cardiac magnetic resonance with fast-SENC in the diagnosis and management of early heart failure. Health Econ Rev. 2019 May 23;9(1):13. doi: 10.1186/s13561-019-0229-7."
+        },
+        {
+          "pmid": "31712641",
+          "type": "BACKGROUND",
+          "citation": "Tanacli R, Hashemi D, Lapinskas T, Edelmann F, Gebker R, Pedrizzetti G, Schuster A, Nagel E, Pieske B, Dungen HD, Kelle S. Range Variability in CMR Feature Tracking Multilayer Strain across Different Stages of Heart Failure. Sci Rep. 2019 Nov 11;9(1):16478. doi: 10.1038/s41598-019-52683-8."
+        },
+        {
+          "pmid": "30458579",
+          "type": "BACKGROUND",
+          "citation": "Unkel S, Amiri M, Benda N, Beyersmann J, Knoerzer D, Kupas K, Langer F, Leverkus F, Loos A, Ose C, Proctor T, Schmoor C, Schwenke C, Skipka G, Unnebrink K, Voss F, Friede T. On estimands and the analysis of adverse events in the presence of varying follow-up times within the benefit assessment of therapies. Pharm Stat. 2019 Mar;18(2):166-183. doi: 10.1002/pst.1915. Epub 2018 Nov 20."
+        },
+        {
+          "pmid": "31497854",
+          "type": "BACKGROUND",
+          "citation": "Cosentino F, Grant PJ, Aboyans V, Bailey CJ, Ceriello A, Delgado V, Federici M, Filippatos G, Grobbee DE, Hansen TB, Huikuri HV, Johansson I, Juni P, Lettino M, Marx N, Mellbin LG, Ostgren CJ, Rocca B, Roffi M, Sattar N, Seferovic PM, Sousa-Uva M, Valensi P, Wheeler DC; ESC Scientific Document Group. 2019 ESC Guidelines on diabetes, pre-diabetes, and cardiovascular diseases developed in collaboration with the EASD. Eur Heart J. 2020 Jan 7;41(2):255-323. doi: 10.1093/eurheartj/ehz486. No abstract available."
+        },
+        {
+          "pmid": "32602663",
+          "type": "BACKGROUND",
+          "citation": "Chopra VK, Anker SD. Anaemia, iron deficiency and heart failure in 2020: facts and numbers. ESC Heart Fail. 2020 Oct;7(5):2007-2011. doi: 10.1002/ehf2.12797. Epub 2020 Jun 30."
+        },
+        {
+          "pmid": "31694263",
+          "type": "BACKGROUND",
+          "citation": "Doeblin P, Hashemi D, Tanacli R, Lapinskas T, Gebker R, Stehning C, Motzkus LA, Blum M, Tahirovic E, Dordevic A, Kraft R, Zamani SM, Pieske B, Edelmann F, Dungen HD, Kelle S. CMR Tissue Characterization in Patients with HFmrEF. J Clin Med. 2019 Nov 5;8(11):1877. doi: 10.3390/jcm8111877."
+        },
+        {
+          "pmid": "29350345",
+          "type": "BACKGROUND",
+          "citation": "Fischer F, Gibbons C, Coste J, Valderas JM, Rose M, Leplege A. Measurement invariance and general population reference values of the PROMIS Profile 29 in the UK, France, and Germany. Qual Life Res. 2018 Apr;27(4):999-1014. doi: 10.1007/s11136-018-1785-8. Epub 2018 Jan 19."
+        },
+        {
+          "pmid": "23313577",
+          "type": "BACKGROUND",
+          "citation": "Gaggin HK, Januzzi JL Jr. Biomarkers and diagnostics in heart failure. Biochim Biophys Acta. 2013 Dec;1832(12):2442-50. doi: 10.1016/j.bbadis.2012.12.014. Epub 2013 Jan 9."
+        },
+        {
+          "pmid": "31103586",
+          "type": "BACKGROUND",
+          "citation": "Pedrizzetti G, Lapinskas T, Tonti G, Stoiber L, Zaliunas R, Gebker R, Pieske B, Kelle S. The Relationship Between EF and Strain Permits a More Accurate Assessment of LV Systolic Function. JACC Cardiovasc Imaging. 2019 Sep;12(9):1893-1895. doi: 10.1016/j.jcmg.2019.03.019. Epub 2019 May 15. No abstract available."
+        },
+        {
+          "pmid": "39824461",
+          "type": "DERIVED",
+          "citation": "Kelle S, Nolden AC, Muller ML, Beyer RE, Steen H, Remppis BA, Wieditz J, Kentenich H, Tuit A, Cvetkovic M, Witt UE, Andre F, Schmidt S, Huppertz A, Simic D, Muller D, Shukri A, Issing M, Glardon A, Reber KC, Landmesser U, Frey N, Pieske B, Stock S, Falk V, Friede T, Thiede G. Rationale and design of the HERZCHECK trial: Detection of early heart failure using telemedicine and cardiovascular magnetic resonance in structurally weak regions (NCT05122793). J Cardiovasc Magn Reson. 2025 Summer;27(1):101841. doi: 10.1016/j.jocmr.2025.101841. Epub 2025 Jan 15."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Project Website in German language",
+          "url": "https://www.herzcheck.org/startseite/"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "It is not planned to make IPD available to other researchers."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D013180",
+          "term": "Sprains and Strains"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014947",
+          "term": "Wounds and Injuries"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

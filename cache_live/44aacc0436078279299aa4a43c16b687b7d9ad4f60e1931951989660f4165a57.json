@@ -1,0 +1,324 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05989139",
+      "orgStudyIdInfo": {
+        "id": "5615"
+      },
+      "organization": {
+        "fullName": "Fondazione Policlinico Universitario Agostino Gemelli IRCCS",
+        "class": "OTHER"
+      },
+      "briefTitle": "HF vs NIV in Acute Cardiogenic Pulmonary Edema",
+      "officialTitle": "Non-Invasive Ventilation And Right Ventricle Function In Cardiogenic Pulmonary Edema: An Echocardiographic Perspective To Select The Appropriate Ventilatory Support",
+      "acronym": "HFvsNIV"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-08",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-01-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-01-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-04-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-06-22",
+      "studyFirstSubmitQcDate": "2023-08-02",
+      "studyFirstPostDateStruct": {
+        "date": "2023-08-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-08-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-08-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Sanna Tommaso",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "Fondazione Policlinico Universitario Agostino Gemelli IRCCS"
+      },
+      "leadSponsor": {
+        "name": "Fondazione Policlinico Universitario Agostino Gemelli IRCCS",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The study's primary aim is\n\n* to compare the effects of two different ventilation modalities, non-invasive positive-pressure ventilation (NPPV) and high-flow nasal cannulae (HFNC), in the acute cardiogenic pulmonary edema (ACPE) setting, in terms of echocardiographic parameters of RV systolic and RV strain.\n* to determine the differences of the two interventions on other hemodynamic parameters echocardiographically assessed.\n* to assess the differences between the two interventions on physiological parameters, i.e., mean arterial pressure (MAP), heart rate (HR), respiratory rate (RR), oxygen saturation (SpO2), and on arterial blood gases (ABG) analysis parameters (i.e. relief of dyspnea and respiratory distress, patient comfort).\n\nEnrolled patients will receive NPPV and HFNC oxygen therapy in a randomized, cross-over fashion, for 40 minutes each (time 0, T0 and time 1, T1), followed by clinical and echocardiographic evaluation"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Pulmonary Edema Cardiac Cause"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 30,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "NPPV",
+          "type": "EXPERIMENTAL",
+          "description": "non-invasive positive-pressure ventilation arm",
+          "interventionNames": [
+            "Procedure: NPPV/HFNC"
+          ]
+        },
+        {
+          "label": "HFNC",
+          "type": "EXPERIMENTAL",
+          "description": "High-flow nasal cannulae arm",
+          "interventionNames": [
+            "Procedure: HFNC/NPPV"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "NPPV/HFNC",
+          "description": "Enrolled patients will receive NPPV and HFNC oxygen therapy in a randomized, cross-over fashion, for 40 minutes each. NPPV will be delivered through a full-face mask with a FiO2 starting at 100% and then titrated to achieve an SpO2 of 92-98%. Expiratory positive airway pressure (PEEP) will be firstly set to 5 cmH2O and then increased to a maximum of 15 cmH2O based on SpO2. Pressure support (PS) will be set to an initial value of 10 cmH2O and then increased if signs of respiratory distress persisted or worsened to a maximum value of 20 cmH2O. After 40 minutes, patient is shifted to HFNC ventilation support for 40 minutes.\n\nAt the end of the protocol, the patient will receive the treatment that will be shown as more appropriate for the patient, according to the attending physician, who will be informed about the results of the study on the individual patient.",
+          "armGroupLabels": [
+            "NPPV"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "HFNC/NPPV",
+          "description": "Enrolled patients will receive NPPV and HFNC oxygen therapy in a randomized, cross-over fashion, for 40 minutes each.\n\nHFNC oxygen therapy will start at a flow rate of 60 L/min and will be gradually decreased by 5 cmH2O at time if the patient experienced discomfort. FiO2 will be started at 100% and then titrated to maintain a peripheral oxygen saturation of 92%-98%. Active heating and humidification were provided using MR850, Fisher and Paykel, with a temperature chamber of 37°C. After 40 minutes, patient is shifted to NPPV ventilation support for 40 minutes At the end of the protocol, the patient will receive the treatment that will be shown as more appropriate for the patient, according to the attending physician, who will be informed about the results of the study on the individual patient.",
+          "armGroupLabels": [
+            "HFNC"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "RV systolic function: Tricuspid annular plane systolic excursion (TAPSE), mm",
+          "description": "Tricuspid annular plane systolic excursion (TAPSE) is a parameter of global RV function which describes apex-to-base shortening. Normal value \\> 16 mm.",
+          "timeFrame": "T0 (Patient's enrollment time)"
+        },
+        {
+          "measure": "RV systolic function: Tricuspid annular plane systolic excursion (TAPSE), mm",
+          "description": "Tricuspid annular plane systolic excursion (TAPSE) is a parameter of global RV function which describes apex-to-base shortening. Normal value \\> 16 mm.",
+          "timeFrame": "T1 (40 minutes after the first intervention has started)"
+        },
+        {
+          "measure": "RV systolic function: Tricuspid annular plane systolic excursion (TAPSE), mm",
+          "description": "Tricuspid annular plane systolic excursion (TAPSE) is a parameter of global RV function which describes apex-to-base shortening. Normal value \\> 16 mm.",
+          "timeFrame": "T2 (40 minutes after the second intervention has started)"
+        },
+        {
+          "measure": "RV systolic function: RV fractional area change (RVFAC), %",
+          "description": "RV fractional area change (RVFAC) is a parameter of radial RV function. It is calculated, in apical four chambers view, as the difference between end-diastolic and end-systolic RV area divided by the end-diastolic area and multiplied by 100. Normal value \\> 35%.",
+          "timeFrame": "T0 (Patient's enrollment time)"
+        },
+        {
+          "measure": "RV systolic function: RV fractional area change (RVFAC), %",
+          "description": "RV fractional area change (RVFAC) is a parameter of radial RV function. It is calculated, in apical four chambers view, as the difference between end-diastolic and end-systolic RV area divided by the end-diastolic area and multiplied by 100. Normal value \\> 35%.",
+          "timeFrame": "T1 (40 minutes after the first intervention has started)"
+        },
+        {
+          "measure": "RV systolic function: RV fractional area change (RVFAC), %",
+          "description": "RV fractional area change (RVFAC) is a parameter of radial RV function. It is calculated, in apical four chambers view, as the difference between end-diastolic and end-systolic RV area divided by the end-diastolic area and multiplied by 100. Normal value \\> 35%.",
+          "timeFrame": "T2 (40 minutes after the second intervention has started)"
+        },
+        {
+          "measure": "RV systolic function: RV Global Longitudinal strain (GLS), %",
+          "description": "RV Global Longitudinal strain (GLS) is an index of systolic performance of RV function. It evaluates the degree of myocardial deformation compared with its original length \\[L0\\] (%).",
+          "timeFrame": "T0 (Patient's enrollment time)"
+        },
+        {
+          "measure": "RV systolic function: RV Global Longitudinal strain (GLS), %",
+          "description": "RV Global Longitudinal strain (GLS) is an index of systolic performance of RV function. It evaluates the degree of myocardial deformation compared with its original length \\[L0\\] (%).",
+          "timeFrame": "T1 (40 minutes after the first intervention has started)"
+        },
+        {
+          "measure": "RV systolic function: RV Global Longitudinal strain (GLS), %",
+          "description": "RV Global Longitudinal strain (GLS) is an index of systolic performance of RV function. It evaluates the degree of myocardial deformation compared with its original length \\[L0\\] (%).",
+          "timeFrame": "T2 (40 minutes after the second intervention has started)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "LV systolic function: Left Ventricle Ejection Fraction (LV EF), %",
+          "description": "Parameter of LV systolic function Normal value \\> 50%",
+          "timeFrame": "T0 (Patient's enrollment time)"
+        },
+        {
+          "measure": "LV systolic function: Left Ventricle Ejection Fraction (LV EF), %",
+          "description": "Parameter of LV systolic function Normal value \\> 50%",
+          "timeFrame": "T1 (40 minutes after the first intervention has started)"
+        },
+        {
+          "measure": "LV systolic function: Left Ventricle Ejection Fraction (LV EF), %",
+          "description": "Parameter of LV systolic function Normal value \\> 50%",
+          "timeFrame": "T2 (40 minutes after the second intervention has started)"
+        },
+        {
+          "measure": "LV diastolic function parameter, i.e. LV average E/E' ratio",
+          "description": "Parameter able to assess LV diastolic function. E/E' ratio normal value \\< 12.",
+          "timeFrame": "T0 (Patient's enrollment time)"
+        },
+        {
+          "measure": "LV diastolic function parameter, i.e. LV average E/E' ratio",
+          "description": "Parameter able to assess LV diastolic function. E/E' ratio normal value \\< 12.",
+          "timeFrame": "T1 (40 minutes after the first intervention has started)"
+        },
+        {
+          "measure": "LV diastolic function parameter, i.e. LV average E/E' ratio",
+          "description": "Parameter able to assess LV diastolic function. E/E' ratio normal value \\< 12.",
+          "timeFrame": "T2 (40 minutes after the second intervention has started)"
+        },
+        {
+          "measure": "Inferior vena cava respiratory variations",
+          "description": "Echocardiographic parameter able to assess fluid responsiveness. Normal value \\>50%.",
+          "timeFrame": "T0 (Patient's enrollment time)"
+        },
+        {
+          "measure": "Inferior vena cava respiratory variations",
+          "description": "Echocardiographic parameter able to assess fluid responsiveness. Normal value \\>50%.",
+          "timeFrame": "T1 (40 minutes after the first intervention has started)"
+        },
+        {
+          "measure": "Inferior vena cava respiratory variations",
+          "description": "Echocardiographic parameter able to assess fluid responsiveness. Normal value \\>50%.",
+          "timeFrame": "T2 (40 minutes after the second intervention has started)"
+        },
+        {
+          "measure": "Physiological parameter: mean arterial pressure (MAP), mmHg",
+          "description": "Normal value \\>65 mmHg",
+          "timeFrame": "T0 (Patient's enrollment time)"
+        },
+        {
+          "measure": "Physiological parameter: mean arterial pressure (MAP), mmHg",
+          "description": "Normal value \\>65 mmHg",
+          "timeFrame": "T1 (40 minutes after the first intervention has started)"
+        },
+        {
+          "measure": "Physiological parameter: mean arterial pressure (MAP), mmHg",
+          "description": "Normal value \\>65 mmHg",
+          "timeFrame": "T2 (40 minutes after the second intervention has started)"
+        },
+        {
+          "measure": "Physiological parameter: oxygen saturation (SpO2), %",
+          "description": "Normal value \\> 90%",
+          "timeFrame": "T0 (Patient's enrollment time)"
+        },
+        {
+          "measure": "Physiological parameter: oxygen saturation (SpO2), %",
+          "description": "Normal value \\> 90%",
+          "timeFrame": "T1 (40 minutes after the first intervention has started)"
+        },
+        {
+          "measure": "Physiological parameter: oxygen saturation (SpO2), %",
+          "description": "Normal value \\> 90%",
+          "timeFrame": "T2 (40 minutes after the second intervention has started)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age ≥ 18 y.o.;\n* Clinical diagnosis of ACPE in the setting of either AMI, acute myocarditis, acute/chronic severe mitral/aortic valve regurgitation, severe mitral/aortic stenosis, acute/chronic HF with rLVEF diagnosed according to European Society of Cardiology (ESC) guidelines \\[4\\];\n* Hypertensive crisis with systolic blood pressure \\>200 mmHg;\n* Other congenital or acquired structural heart disease causing post capillary pulmonary hypertension or combination of the previous.\n* Written informed consent.\n\nExclusion Criteria:\n\n* Age \\<18 y.o.;\n* Hypercapnia with respiratory acidosis (PaCO2 \\> 45 mmHg with pH \\< 7.35);\n* History of fever in the previous 4 days;\n* White blood cell count \\> 12.000;\n* Increased procalcitonin serum levels;\n* Consolidative areas at chest radiograph;\n* Hypotension (systolic blood pressure \\< 85 mmHg);\n* Cardiogenic shock;\n* Right ventricular (RV) dysfunction;\n* Previous cardiac surgery,\n* Glasgow Coma Scale score ≤ 8 points;\n* Impaired ability to protect the airway from aspiration;\n* Orotracheal intubation needed due to cardiopulmonary resuscitation maneuvers;\n* Respiratory arrest;\n* Severe hemodynamic instability;\n* Facial trauma, burns, recent facial surgery or facial anatomy which prevents from the application of the NPPV interface to patient's face.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Tommaso Sanna",
+          "role": "CONTACT",
+          "phone": "00390630154187",
+          "email": "Tommaso.sanna@policlinicogemelli.it"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Fondazione IRCCS Policlinico Agostino Gemelli Roma",
+          "status": "RECRUITING",
+          "city": "Roma",
+          "zip": "00168",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Tommaso Sanna",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.99364,
+            "lon": 11.10642
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

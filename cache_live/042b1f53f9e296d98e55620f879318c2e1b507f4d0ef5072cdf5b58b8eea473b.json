@@ -1,0 +1,342 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04913805",
+      "orgStudyIdInfo": {
+        "id": "844627"
+      },
+      "organization": {
+        "fullName": "University of Pennsylvania",
+        "class": "OTHER"
+      },
+      "briefTitle": "Matching Perfusion and Metabolic Activity in HFpEF",
+      "officialTitle": "Matching Perfusion and Metabolic Activity in HFpEF",
+      "acronym": "MPMA"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-05",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-10-11",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-05-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-05-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-04-19",
+      "studyFirstSubmitQcDate": "2021-05-30",
+      "studyFirstPostDateStruct": {
+        "date": "2021-06-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-05-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-05-23",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Payman Zamani, MD",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "University of Pennsylvania"
+      },
+      "leadSponsor": {
+        "name": "University of Pennsylvania",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study will test whether pharmacologic agents that increase perfusion \\[Potassium Nitrate (KNO3)\\], with and without additional supplements that may improve mitochondrial function \\[Propionyl-L-Carnitine (PLC) and Nicotinamide Riboside (NR)\\], improve submaximal exercise endurance and skeletal muscle oxidative phosphorylation capacity (SkM OxPhos) in participants with Heart Failure with Preserved Ejection Fraction (HFpEF).",
+      "detailedDescription": "This study will test whether Potassium Nitrate (KNO3), with and without Propionyl-L-Carnitine (PLC) and Nicotinamide Riboside (NR), improves submaximal exercise endurance and skeletal muscle oxidative phosphorylation capacity (SkM OxPhos) in participants with Heart Failure with Preserved Ejection Fraction (HFpEF). Additionally, the study will test whether the response to supplemental oxygen during a standardized MRI assessment of skeletal muscle oxidative capacity can identify HFpEF individuals who preferentially will benefit from either KNO3 alone or the combination of pharmacologic agents (KNO3 + PLC + NR)"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Preserved Ejection Fraction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "interventionModelDescription": "3 interventions will be randomized and administered in a double-blind fashion",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "all personnel will be masked except for the IDS pharmacist dispensing the drugs",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 53,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Potassium Nitrate",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Potassium Nitrate (KNO3) 6 mmol three times daily",
+          "interventionNames": [
+            "Drug: Potassium Nitrate"
+          ]
+        },
+        {
+          "label": "Potassium Nitrate + Propionyl-L-Carnitine + Nicotinamide Riboside",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Potassium Nitrate (KNO3) 6 mmol three times daily + Propionyl-L-Carnitine (PLC) 1000 mg twice daily + Nicotinamide Riboside (NR) 300 mg three times daily",
+          "interventionNames": [
+            "Drug: Potassium Nitrate + Propionyl-L-Carnitine + Nicotinamide Riboside"
+          ]
+        },
+        {
+          "label": "Potassium Chloride",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Potassium Chloride (KCl) 6 mmol three times daily",
+          "interventionNames": [
+            "Other: Potassium Chloride"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Potassium Nitrate",
+          "description": "Potassium Nitrate is the active intervention that may increase blood flow to exercising muscle",
+          "armGroupLabels": [
+            "Potassium Nitrate"
+          ],
+          "otherNames": [
+            "KNO3"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Potassium Nitrate + Propionyl-L-Carnitine + Nicotinamide Riboside",
+          "description": "Potassium Nitrate + Propionyl-L-Carnitine + Nicotinamide Riboside will be used as a combination intervention to both increase blood flow (KNO3) and mitochondrial function (PLC + NR)",
+          "armGroupLabels": [
+            "Potassium Nitrate + Propionyl-L-Carnitine + Nicotinamide Riboside"
+          ],
+          "otherNames": [
+            "KNO3 + PLC + NR"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Potassium Chloride",
+          "description": "Active control",
+          "armGroupLabels": [
+            "Potassium Chloride"
+          ],
+          "otherNames": [
+            "PCl"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Submaximal Exercise Endurance",
+          "description": "Time to exhaustion while exercising at 75% of peak workload",
+          "timeFrame": "week 6"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Skeletal muscle oxidative capacity",
+          "description": "MRI assessment of skeletal muscle oxidative phosphorylation capacity",
+          "timeFrame": "week 6"
+        },
+        {
+          "measure": "Vasodilatory Reserve",
+          "description": "Percent change in systemic vascular resistance at baseline vs exhaustion",
+          "timeFrame": "week 6"
+        },
+        {
+          "measure": "Kansas City Cardiomyopathy Questionnaire Overall Summary Score",
+          "description": "Assess the impact of our interventions on quality of life",
+          "timeFrame": "week 6"
+        },
+        {
+          "measure": "VO2 Kinetics",
+          "description": "Assess the impact of our interventions on the kinetics of oxygen consumption (VO2 kinetics) during exercise and recovery \"On\" and \"Off\" kinetics will be modeled during the submaximal exercise transient",
+          "timeFrame": "week 6"
+        },
+        {
+          "measure": "Peak VO2",
+          "description": "maximal rate of oxygen consumption determined during the last 30s of exercise.",
+          "timeFrame": "week 6"
+        },
+        {
+          "measure": "Steps per day",
+          "description": "we will use actigraphy to document the average number of steps taken per day during the final week of each interventional period. Assess the impact of our interventions on ambulatory physical activity",
+          "timeFrame": "week 6"
+        },
+        {
+          "measure": "Skeletal muscle perfusion",
+          "description": "MRI assessment of skeletal muscle oxidative phosphorylation capacity",
+          "timeFrame": "week 6"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Change in Skeletal Muscle Oxidative Capacity",
+          "description": "The change in MRI skeletal muscle oxidative phosphorylation capacity between assessments while breathing room air versus 100% inspired oxygen",
+          "timeFrame": "<4 hours in between MRIs"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. NYHA Class II-III symptoms\n2. Left ventricular ejection fraction \\>= 50%\n3. Stable medical condition for at least 2 weeks, as per investigator judgment\n4. Prior or current evidence for elevated filling pressures as follows:\n\n   a. Mitral early (E)/mitral septal tissue annular (e') velocity ratio \\> 8, in the context of a septal e' velocity \\<=7, in addition to one of the following: i. Large left atrium (LA volume index \\> 34 mL/m2) ii. Chronic loop diuretic use for control of symptoms iii. Elevated natriuretic peptides within the past year (e.g. NTproBNP \\> 125 pg/mL in sinus rhythm or \\> 375 pg/mL if in atrial fibrillation) b. Mitral E/e' ratio \\> 14 at rest or during exercise c. Elevated invasively-determined filling pressures previously (resting left ventricular end-diastolic pressure \\>= 16 mm Hg or pulmonary capillary wedge pressure \\>= 15 mmHg; or PCWP/LVEDP \\>= 25 mmHg with exercise) d. Prior episode of acute heart failure requiring IV diuretics\n\nExclusion Criteria:\n\n1. Age \\<18 years old\n2. Pregnancy:\n3. Treatment with organic nitrates or phosphodiesterase inhibitors that cannot be interrupted\n4. Uncontrolled atrial fibrillation, as defined by a resting heart rate \\> 100 beats per minute at the time of the baseline assessment\n5. Hemoglobin \\< 10 g/dL\n6. Subject inability/unwillingness to exercise\n7. Moderate or greater left sided valvular disease (mitral regurgitation, aortic stenosis, aortic regurgitation), mild or greater mitral stenosis, severe right-sided valvular disease\n8. Known hypertrophic, infiltrative, or inflammatory cardiomyopathy\n9. Clinically significant pericardial disease, as per investigator judgment\n10. Current angina due to clinically significant epicardial coronary disease, as per investigator judgment\n11. Acute coronary syndrome or coronary intervention within the past 2 months\n12. Primary pulmonary artery hypertension (WHO Group 1 Pulmonary Arterial Hypertension)\n13. Clinically significant lung disease as defined by: Chronic Obstructive Pulmonary Disease meeting Stage III or greater GOLD criteria (FEV1\\<50%), treatment with oral steroids within the past 6 months for an exacerbation of obstructive lung disease, current use of supplemental oxygen aside from nocturnal oxygen for the treatment of obstructive sleep apnea, desaturation to \\<90% on the baseline maximal effort cardiopulmonary exercise test\n14. Clinically-significant ischemia, as per investigator's judgement, on stress testing without either (1) subsequent revascularization, (2) an angiogram demonstrating the absence of clinically significant epicardial coronary artery disease, as per investigator judgment; (3) a follow-up 'negative' stress test, particularly when using a more specific technique (i.e., a negative perfusion imaging test following a 'positive' ECG stress test)\n15. Left ventricular ejection fraction \\< 45% on a prior echocardiogram or cardiac MRI, unless the reduced LVEF occurred within the context of an uncontrolled supraventricular arrhythmia, with return of a normal ejection fraction following treatment of the arrhythmia\n16. Significant liver disease impacting synthetic function or volume control (ALT/AST \\> 3x ULN, Albumin \\< 3.0 g/dL)\n17. eGFR \\< 30 mL/min/1.73m\\^2\n18. Methemoglobin \\> 5%\n19. Serum potassium \\> 5.0 mEq/L\n20. Severe right ventricular dysfunction\n21. Baseline resting seated systolic blood pressure \\> 180 mmHg or \\< 100 mmHg\n22. Persistently low (\\<100 mmHg) or high (\\>180 mmHg) seated blood pressure at the baseline visit\n23. Orthostatic blood pressure response to the transition from supine to standing (\\>20 mmHg reduction in systolic blood pressure 2-3 minutes after standing)\n24. Active participation in another study that utilizes an investigational agent (observational studies/registries allowed)\n25. Any condition that, in the opinion of the investigator, will interfere with the performance and completion of the study.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Melissa Fernand, MPH",
+          "role": "CONTACT",
+          "phone": "2672536141",
+          "email": "fernand@pennmedicine.upenn.edu"
+        },
+        {
+          "name": "Cassandra Demastus, NP",
+          "role": "CONTACT",
+          "phone": "4432719022",
+          "email": "Cassandra.Demastus@Pennmedicine.upenn.edu"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Payman Zamani, MD",
+          "affiliation": "University of Pennsylvania",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Pennsylvania",
+          "status": "RECRUITING",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19104",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Cassandra Demastus, NP",
+              "role": "CONTACT",
+              "phone": "443-271-9022",
+              "email": "Cassandra.Demastus@Pennmedicine.upenn.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        }
+      ]
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2020-12-21",
+          "uploadDate": "2021-05-04T15:27",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 3636618
+        },
+        {
+          "typeAbbrev": "ICF",
+          "hasProtocol": false,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Informed Consent Form",
+          "date": "2020-12-21",
+          "uploadDate": "2021-05-04T16:09",
+          "filename": "ICF_001.pdf",
+          "size": 271979
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C023844",
+          "term": "potassium nitrate"
+        },
+        {
+          "id": "C018613",
+          "term": "nicotinamide-beta-riboside"
+        },
+        {
+          "id": "D011189",
+          "term": "Potassium Chloride"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D002712",
+          "term": "Chlorides"
+        },
+        {
+          "id": "D006851",
+          "term": "Hydrochloric Acid"
+        },
+        {
+          "id": "D017606",
+          "term": "Chlorine Compounds"
+        },
+        {
+          "id": "D007287",
+          "term": "Inorganic Chemicals"
+        },
+        {
+          "id": "D017680",
+          "term": "Potassium Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

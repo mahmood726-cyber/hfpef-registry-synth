@@ -1,0 +1,890 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02930980",
+      "orgStudyIdInfo": {
+        "id": "MDT16023"
+      },
+      "organization": {
+        "fullName": "Medtronic Cardiac Rhythm and Heart Failure",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Micra Accelerometer Sensor Study 2",
+      "acronym": "MASS2"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2018-11",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-10-14",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2017-04-25",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2017-04-25",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-10-06",
+      "studyFirstSubmitQcDate": "2016-10-10",
+      "studyFirstPostDateStruct": {
+        "date": "2016-10-12",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2018-01-30",
+      "resultsFirstSubmitQcDate": "2018-11-26",
+      "resultsFirstPostDateStruct": {
+        "date": "2019-03-11",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2018-11-26",
+      "lastUpdatePostDateStruct": {
+        "date": "2019-03-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Medtronic Cardiac Rhythm and Heart Failure",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of the MASS2 is to characterize accelerometer signals of Micra implantable device during different postures and activities and to understand the source of the sensed motion, in order to test feasibility for future enhancements in device functionalities."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Bradyarrhythmia"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 43,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Investigational Software",
+          "type": "EXPERIMENTAL",
+          "description": "Investigational Software loaded on Micra device",
+          "interventionNames": [
+            "Device: Investigational Software loaded on Micra device"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Investigational Software loaded on Micra device",
+          "description": "Subject will receive an investigational software loaded on subject's Micra device",
+          "armGroupLabels": [
+            "Investigational Software"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Waveform and Components of Accelerometer Signal",
+          "description": "Accelerometer signal was measured using the 3 axis Micra accelerometer (Vector 1 was labelled as V1, Vector 2 as V2, Vector 3 as V3).\n\nComponents of the accelerometer signals (unit (g) represent acceleration)were identified and labelled as A1 (acceleration associated with ventricular systole), A2 (ventricular diastole), A3 (early passive filling), and A4 (active filling). The A4 signal is associated with atrial contraction and active filling.",
+          "timeFrame": "For approximately two hours after software download"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Subject is ≥ 18 years old\n* Subject is implanted with a Micra device\n* Subject or witness (if applicable as per local regulation) is able and willing to provide Informed Consent\n\nExclusion Criteria:\n\n* Subject is in atrial fibrillation\n* Subject is not able to perform study requirements",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Kepler Universitätsklinikum",
+          "city": "Linz",
+          "zip": "4020",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.30639,
+            "lon": 14.28611
+          }
+        },
+        {
+          "facility": "Hôpital cardiologique du Haut-Lévêque",
+          "city": "Pessac",
+          "country": "France",
+          "geoPoint": {
+            "lat": 44.80565,
+            "lon": -0.6324
+          }
+        },
+        {
+          "facility": "CHRU Tours - Hopital Trousseau",
+          "city": "Tours",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.39484,
+            "lon": 0.70398
+          }
+        },
+        {
+          "facility": "Hospital Clinic",
+          "city": "Barcelona",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "29758405",
+          "type": "DERIVED",
+          "citation": "Chinitz L, Ritter P, Khelae SK, Iacopino S, Garweg C, Grazia-Bongiorni M, Neuzil P, Johansen JB, Mont L, Gonzalez E, Sagi V, Duray GZ, Clementy N, Sheldon T, Splett V, Stromberg K, Wood N, Steinwender C. Accelerometer-based atrioventricular synchronous pacing with a ventricular leadless pacemaker: Results from the Micra atrioventricular feasibility studies. Heart Rhythm. 2018 Sep;15(9):1363-1371. doi: 10.1016/j.hrthm.2018.05.004. Epub 2018 May 11."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Investigational Software",
+          "description": "Investigational Software loaded on Micra device\n\nInvestigational Software loaded on Micra device: Subject will receive an investigational software loaded on subject's Micra device"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "43"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "43"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Investigational Software",
+          "description": "Investigational Software loaded on Micra device\n\nInvestigational Software loaded on Micra device: Subject will receive an investigational software loaded on subject's Micra device"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "43"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "43"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "73",
+                      "spread": "15"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "calculatePct": false,
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "43"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "13"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "30"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race and Ethnicity Not Collected",
+          "populationDescription": "Race and Ethnicity were not collected from any participant.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "Austria",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "43"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "France",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "43"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "20"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Spain",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "43"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Weight",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "kg",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "43"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "76.5",
+                      "spread": "14.9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Height",
+          "populationDescription": "The difference between row population and overall is due to missing data.",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "cm",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "42"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "167",
+                      "spread": "10.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Body Mass Index",
+          "populationDescription": "The difference between row population and overall is due to missing data.",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "kg/m^2",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "42"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "27.6",
+                      "spread": "4.4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Systolic Blood Pressure",
+          "populationDescription": "The difference between row population and overall is due to missing data.",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "mm Hg",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "42"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "138.9",
+                      "spread": "26.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Diastolic Blood Pressure",
+          "populationDescription": "The difference between row population and overall is due to missing data.",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "mm Hg",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "41"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "76.2",
+                      "spread": "13.7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Implant Duration",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "days",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "43"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "369",
+                      "spread": "354"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Implant Location",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "43"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "RV Septum",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    }
+                  ]
+                },
+                {
+                  "title": "RV Apex",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "22"
+                    }
+                  ]
+                },
+                {
+                  "title": "RV Mid Septum",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Rhythm at time of software download",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "43"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "Sinus without 2nd or 3rd Atrioventricular block",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "31"
+                    }
+                  ]
+                },
+                {
+                  "title": "Atrial Tachycardia (AT)",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Atrial Fibrillation (AF)",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Sinus with 2nd or 3rd Atrioventricular block",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "10"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Waveform and Components of Accelerometer Signal",
+          "description": "Accelerometer signal was measured using the 3 axis Micra accelerometer (Vector 1 was labelled as V1, Vector 2 as V2, Vector 3 as V3).\n\nComponents of the accelerometer signals (unit (g) represent acceleration)were identified and labelled as A1 (acceleration associated with ventricular systole), A2 (ventricular diastole), A3 (early passive filling), and A4 (active filling). The A4 signal is associated with atrial contraction and active filling.",
+          "populationDescription": "Of the 43 subjects enrolled, 12 with Atrial tachycardia / Atrial fibrillation and 2nd degree or greater atrioventricular block were excluded from analysis since the A4 signal is absent or variable. An additional 4 subjects in sinus rhythm were excluded from analysis due to frequent pacing or telemetry noise, resulting in 27 subjects for analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "g (unit (g) represent acceleration)",
+          "timeFrame": "For approximately two hours after software download",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Investigational Software",
+              "description": "Investigational Software loaded on Micra device\n\nInvestigational Software loaded on Micra device: Subject will receive an investigational software loaded on subject's Micra device"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "27"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "A4 (g) in V1",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.15601",
+                      "spread": "0.08900"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A4 (g) in V2",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.19222",
+                      "spread": "0.11058"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A4 (g) in V3",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.14398",
+                      "spread": "0.08532"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "Adverse Events (AEs) were collected for each subject since subject enrollment until subject study exit (approx 2 hours).",
+      "description": "The definition of adverse event and/or serious adverse event used to collect adverse event information, does not differ from the clinical trials.gov",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Investigational Software",
+          "description": "Investigational Software loaded on Micra device: Subject will receive an investigational software loaded on subject's Micra device",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 43,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 43,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 43
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "LTE60",
+        "restrictiveAgreement": true
+      },
+      "pointOfContact": {
+        "title": "Valentina Amori, Medical Writer",
+        "organization": "Medtronic EMEA RCC",
+        "email": "valentina.amori@medtronic.com",
+        "phone": "+39 06 32814236"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2016-07-07",
+          "uploadDate": "2017-12-21T04:07",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 503999
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001919",
+          "term": "Bradycardia"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001145",
+          "term": "Arrhythmias, Cardiac"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

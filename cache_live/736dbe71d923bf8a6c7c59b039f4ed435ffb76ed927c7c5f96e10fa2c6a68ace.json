@@ -1,0 +1,336 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07265349",
+      "orgStudyIdInfo": {
+        "id": "TASLY-BM-B2278-HF-I/Ⅱ"
+      },
+      "organization": {
+        "fullName": "Tasly Pharmaceutical Group Co., Ltd",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Phase I/II Clinical Trial of Intramyocardial Injection of HucMSCs for the Treatment of Chronic Heart Failure",
+      "officialTitle": "A Phase I/II Clinical Trial to Evaluate the Safety and Efficacy of Intramyocardial Injection of Human Umbilical Cord Mesenchymal Stem Cells (HucMSCs) Combined With Coronary Artery Bypass Grafting in the Treatment of Chronic Heart Failure Caused by Chronic Ischemic Cardiomyopathy"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-12-26",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-08-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-11-20",
+      "studyFirstSubmitQcDate": "2025-12-02",
+      "studyFirstPostDateStruct": {
+        "date": "2025-12-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-07",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-09",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Tasly Pharmaceutical Group Co., Ltd",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Shanghai Jiao Tong University School of Medicine, Ruijin Hospital",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "B2278 is a human umbilical cord mesenchymal stem cell (HucMSCs) injection derived from the umbilical cord. It has the advantages of stronger immune regulation, stronger expansion capacity, lower immunogenicity, and greater accessibility. The preliminary research results indicated that the B2278 injection promote the polarization of macrophages towards a reparative state through paracrine action, directly promote angiogenesis and inhibited inflammatory responses, thereby exerting effects on myocardial repair and treatment of heart failure, and it is also safe and well-tolerated.\n\nThis trial is a multi-center I/II phase clinical trial of the human umbilical cord mesenchymal stem cell injection solution, aiming to explore the dosage and regimen for the intramyocardial injection of B2278 in combination with coronary artery bypass grafting surgery for the treatment of chronic heart failure caused by chronic ischemic cardiomyopathy, and to evaluate the safety, tolerance and efficacy of allogeneic intramyocardial injection of the human umbilical cord mesenchymal stem cell injection solution in patients with chronic ischemic heart failure."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Coronary Artery Bypass Grafting (CABG)",
+        "Chronic Heart Failure",
+        "Chronic Ischemic Cardiomyopathy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 51,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "CABG combined with low-dose B2278",
+          "type": "EXPERIMENTAL",
+          "description": "CABG combined with B2278 at a dose of 1.0×10\\^7 cells per patient, intramyocardial injection into the epicardium",
+          "interventionNames": [
+            "Drug: Mesenchymal stem cells(HucMSCs)"
+          ]
+        },
+        {
+          "label": "CABG combined with midium-dose B2278",
+          "type": "EXPERIMENTAL",
+          "description": "CABG combined with B2278 at a dose of 5.0×10\\^7 cells per patient, intramyocardial injection into the epicardium",
+          "interventionNames": [
+            "Drug: Mesenchymal stem cells(HucMSCs)"
+          ]
+        },
+        {
+          "label": "CABG combined with high-dose B2278",
+          "type": "EXPERIMENTAL",
+          "description": "CABG combined with B2278 at a dose of 2.0×10\\^8 cells per patient, intramyocardial injection into the epicardium",
+          "interventionNames": [
+            "Drug: Mesenchymal stem cells(HucMSCs)"
+          ]
+        },
+        {
+          "label": "Only CABG",
+          "type": "EXPERIMENTAL",
+          "description": "Only CABG surgery",
+          "interventionNames": [
+            "Procedure: CABG"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Mesenchymal stem cells(HucMSCs)",
+          "description": "B2278 is mesenchymal stem cells derived from human umbilical cord.",
+          "armGroupLabels": [
+            "CABG combined with high-dose B2278",
+            "CABG combined with low-dose B2278",
+            "CABG combined with midium-dose B2278"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "CABG",
+          "description": "only CABG",
+          "armGroupLabels": [
+            "Only CABG"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "In phase I, primary outcome will be measured with safety events including DLT, AE, SAE, TEAE, and MACE. In phase II, primary outcome will be measured with the change in LVEF based on CMR detection after 6 months of administration.",
+          "timeFrame": "6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "The changes in left ventricular ejection fraction (LVEF), left ventricular end-diastolic volume (LVEDV), and left ventricular end-systolic volume (LVESV) on CMR compared to the baseline.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "The changes from baseline of LVEF, left ventricular end-systolic diameter (LVESD), left ventricular end-diastolic diameter (LVEDD), LVEDV, LVESV on UCG",
+          "timeFrame": "28 days, 3 months and 6 months"
+        },
+        {
+          "measure": "The proportion of participants with improved LVEF (the proportion of participants whose LVEF increased by ≥10% compared to the baseline and whose LVEF was >40% based on CMR and/or UCG);",
+          "timeFrame": "3 months and 6 months"
+        },
+        {
+          "measure": "The distribution of the New York Heart Association (NYHA) cardiac function classification",
+          "timeFrame": "28 days, 3 months and 6 months"
+        },
+        {
+          "measure": "The proportion of participants with NYHA classification ≤ II level",
+          "timeFrame": "28 days, 3months and 6months"
+        },
+        {
+          "measure": "The changes in the 6-minute walk test (6MWT) results compared to the baseline",
+          "timeFrame": "28 days, 3 months and 6months"
+        },
+        {
+          "measure": "The changes in the Minnesota Heart Failure Quality of Life Questionnaire (MLHFQ) from the baseline",
+          "timeFrame": "28 days, 3months and 6months"
+        },
+        {
+          "measure": "The change in the result of amino-terminal pro-brain natriuretic peptide (NT-proBNP) compared to the baseline",
+          "timeFrame": "28 days, 3months and 6months"
+        },
+        {
+          "measure": "The proportion of participants whose heart failure worsened (requiring hospitalization or emergency treatment due to the aggravation of heart failure symptoms and signs)",
+          "timeFrame": "3 months and 6months"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "The change in troponin I (TnI) compared to the baseline",
+          "timeFrame": "28 days, 3 months and 6months"
+        },
+        {
+          "measure": "The changes from the baseline of high-sensitivity C-reactive protein (hs-CRP), TNF-α, IL-1, and IL-6",
+          "timeFrame": "28 days, 3 months and 6 months"
+        },
+        {
+          "measure": "The changes in perfusion and metabolism of ischemic myocardium during the injection stage as measured by myocardial nuclear imaging (SPECT + PET) compared to the baseline (applicable only to those who have undergone nuclear imaging for determination)",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* 1\\) Age from 18 to 80 years, both genders are eligible ;\n* 2\\) Clinically judged to be suitable for CABG treatment due to chronic ischemic cardiomyopathy;\n* 3\\) LVEF (left ventricular ejection fraction) is ≤ 40% as indicated by echocardiography (modified Simpson method) or cardiac magnetic resonance (CMR);\n* 4\\) NYHA (New York Heart Association) cardiac function classification of grade II-IV;\n* 5\\) Patients or their legal guardians agreed to participate in this trial and signed the informed consent form.\n\nMajor exclusion Criteria:\n\n* 1\\) Severe left ventricular dysfunction, with LVEF ≤ 20% (based on the UCG or CMR examination results during the screening period);\n* 2\\) Non-ischemic chronic left heart dysfunction, including but not limited to acute left heart dysfunction, dilated cardiomyopathy, severe right heart dysfunction (such as bilateral lower extremity edema accompanied by jugular vein distension, liver enlargement, etc.) or severe pulmonary hypertension (PASP \\> 70 mmHg);\n* 3\\) Clinically determined that other surgical procedures need to be performed simultaneously during CABG surgery, including but not limited to congenital heart disease requiring concurrent surgical intervention, heart valve disease, ventricular aneurysm, ventricular septal perforation, papillary muscle dysfunction, aortic dissection, intracardiac mass, thrombus or neoplasm；\n* 4\\) Acute ST-segment elevation myocardial infarction or stroke event within 1 month before enrollment；\n* 5\\) Uncontrolled malignant arrhythmia;\n* 6)have undergone or are awaiting heart transplantation or implantation of a left ventricular assist device (LVAD).",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Qiang Zhao",
+          "role": "CONTACT",
+          "phone": "86+13701695256",
+          "email": "Zq11607@rjb.com.cn"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Ruijin Hospital Affiliated to Shanghai Jiao Tong University School of Medicine",
+          "status": "RECRUITING",
+          "city": "Shanghai",
+          "state": "Shanghai Municipality",
+          "zip": "20000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Qiang Zhao",
+              "role": "CONTACT",
+              "phone": "86+13701695256",
+              "email": "Zq11607@rjb.com.cn"
+            },
+            {
+              "name": "Qiang Zhao",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        },
+        {
+          "facility": "Changhai Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Shanghai",
+          "state": "Shanghai Municipality",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Lin Han",
+              "role": "CONTACT",
+              "phone": "86+13601914266",
+              "email": "sh_hanlin@163.com"
+            },
+            {
+              "name": "Lin Han",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        },
+        {
+          "facility": "Shanghai Chest Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Shanghai",
+          "state": "Shanghai Municipality",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Dan Zhu",
+              "role": "CONTACT",
+              "phone": "86+13671573807",
+              "email": "zhudanmd@163.com"
+            },
+            {
+              "name": "Dan Zhu",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        },
+        {
+          "facility": "Shanghai General Hospital",
+          "status": "RECRUITING",
+          "city": "Shanghai",
+          "state": "Shanghai Municipality",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Fanglin Lu",
+              "role": "CONTACT",
+              "phone": "86+13901649602",
+              "email": "drlufanglin@yeah.net"
+            },
+            {
+              "name": "Fanglin Lu",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    }
+  },
+  "hasResults": false
+}

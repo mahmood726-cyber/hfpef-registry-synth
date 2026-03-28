@@ -1,0 +1,363 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05764057",
+      "orgStudyIdInfo": {
+        "id": "APHP211054"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2022-001901-28",
+          "type": "EUDRACT_NUMBER"
+        },
+        {
+          "id": "AOM20806",
+          "type": "OTHER_GRANT",
+          "domain": "Other Grant/Funding Number"
+        }
+      ],
+      "organization": {
+        "fullName": "Assistance Publique - Hôpitaux de Paris",
+        "class": "OTHER"
+      },
+      "briefTitle": "DAPAgliflozine to Attenuate Cardiac RemOdeling afTEr aCuTe myOcardial Infarction",
+      "officialTitle": "DAPAgliflozine to Attenuate Cardiac RemOdeling afTEr aCuTe myOcardial Infarction",
+      "acronym": "DAPAPROTECTOR"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-06-12",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-10-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-10-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-03-01",
+      "studyFirstSubmitQcDate": "2023-03-01",
+      "studyFirstPostDateStruct": {
+        "date": "2023-03-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-19",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Assistance Publique - Hôpitaux de Paris",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "AstraZeneca",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Recent clinical trials have proven the cardiovascular benefits of new medications for patients with heart failure with reduced ejection fraction (HFrEF), especially sodium-glucose co-transporter 2 (SGLT2) inhibitors. There are no existing randomized clinical trials evaluating the efficacy and safety of dapagliflozin (nor any other SGLT2-inhibitor) to limit cardiac remodeling in patients with acute myocardial infarction (AMI) and left ventricular (LV) dysfunction.\n\nPreventing cardiac remodeling, an established predictor of subsequent heart failure (HF) and cardiovascular death, is likely to translate into benefit in reducing clinical events in post-MI patients.",
+      "detailedDescription": "DAPA-PROTECTOR is a prospective multicenter, randomized, double blind, phase III trial.\n\nPatients with confirmed AMI (e.g., STEMI or very high-risk NSTEMI) with LV dysfunction (LVEF≤45%) after completion of percutaneous coronary intervention (PCI) will be assessed for eligibility. Patients will be randomized (in a 1:1 ratio) to receive dapagliflozin (10mg once day) or placebo for 6 months, on top of standard of care as recommended in current guidelines. Treatment will be prescribed as soon as possible after admission The first TTE (TTE-1) will be performed to confirm inclusion criteria (LVEF≤45%). Four visits are scheduled: at baseline and randomization (Visit D0), at discharge from the CICU (Visit 2) at Month 3 ±2 weeks (Visit 3), and at Month 6 (+ 4 weeks) (Visit 4). After randomization, Visit 2 and Visit 3 will be scheduled to check the tolerance of the drug. In addition, a phone call will be done to the patient to make sure he's not taking any Dapagliflozin (or equivalent as Empagliflozin) in addition to experimental treatment. Finally, the last visit (Visit 4) will be scheduled to collect clinical follow-up and to perform a TTE (TTE-2). Efficacy criteria will be assessed from randomization to Month 6 by TTE. All TTE results will be anonymized and centralized at a Corelab with assessment by independent cardiologists unaware of the patient treatment group."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "AMI",
+        "STEMI",
+        "NSTEMI",
+        "Left Ventricular Dysfunction"
+      ],
+      "keywords": [
+        "Acute myocardial infarction",
+        "Left ventricular dysfunction",
+        "Dapagliflozin",
+        "Transthoracic echocardiography",
+        "Cardiac remodeling",
+        "Cardiovascular Intensive Care Unit (CICU)"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 450,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Dapagliflozin 10mg daily + standard of care",
+          "type": "EXPERIMENTAL",
+          "description": "Dapagliflozin 10mg per day will be administered orally, as in clinical practice",
+          "interventionNames": [
+            "Drug: Dapagliflozin propanediol (FORXIGA™/FARXIGA™1)"
+          ]
+        },
+        {
+          "label": "Placebo + standard of care",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo will be administered orally",
+          "interventionNames": [
+            "Drug: Placebo comparator"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Dapagliflozin propanediol (FORXIGA™/FARXIGA™1)",
+          "description": "Dapagliflozin (10 mg per day; per os) on top of standard of care as recommended in current guidelines\\* for 6 months (experimental group)\n\n\\*All patients will receive optimal medical therapy (including antithrombotic, beta-blockers, statins, angiotensin converting enzyme inhibitors or angiotensin receptor blocker or sacubitril/valsartan, diuretics, antagonists of the mineralocorticoid receptor) according to their clinical condition as recommended.",
+          "armGroupLabels": [
+            "Dapagliflozin 10mg daily + standard of care"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo comparator",
+          "description": "Placebo daily on top of standard of care as recommended in current guidelines\\* for 6 months (control group)\n\n\\*All patients will receive optimal medical therapy (including antithrombotic, beta-blockers, statins, angiotensin converting enzyme inhibitors or angiotensin receptor blocker or sacubitril/valsartan, diuretics, antagonists of the mineralocorticoid receptor) according to their clinical condition as recommended.",
+          "armGroupLabels": [
+            "Placebo + standard of care"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in left ventricular ejection fraction (LVEF) from baseline to Month 6 (±1 month) by TTE",
+          "description": "Two primary endpoints will allow to evaluate two independent and potent predictors of mortality after AMI: 1) Cardiac systolic function, assessed by change in left ventricular ejection fraction (LVEF) from baseline to Month 6 (+4 weeks) ) by TTE; 2) Remodeling, assessed by change in left atrium volume (LAV) from baseline to Month 6 (+4 weeks) by TTE.",
+          "timeFrame": "6 months (+4 weeks) from randomization"
+        },
+        {
+          "measure": "Change in left atrium volume (LAV) from baseline to Month 6 (±1 month) by TTE",
+          "description": "Two primary endpoints will allow to evaluate two independent and potent predictors of mortality after AMI: 1) Cardiac systolic function, assessed by change in left ventricular ejection fraction (LVEF) from baseline to Month 6 (+4 weeks) ) by TTE; 2) Remodeling, assessed by change in left atrium volume (LAV) from baseline to Month 6 (+4 weeks) by TTE.",
+          "timeFrame": "6 months (+4 weeks) from randomization"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in left ventricular end-systolic volume (LVESV)",
+          "description": "Comparison in each group from baseline to Month 6 (±1 month) using TTE. To assess the efficacy and safety of dapagliflozin compared to placebo in addition to optimal secondary prevention in the prevention of cardiac dysfunction after AMI with LV dysfunction.",
+          "timeFrame": "6 months (+4 weeks) from randomization"
+        },
+        {
+          "measure": "Change in left ventricular end-diastolic volume (LVEDV)",
+          "description": "Comparison in each group from baseline to Month 6 (+4 weeks) using TTE. To assess the efficacy and safety of dapagliflozin compared to placebo in addition to optimal secondary prevention in the prevention of cardiac dysfunction after AMI with LV dysfunction.",
+          "timeFrame": "6 months (+4 weeks) from randomization"
+        },
+        {
+          "measure": "Change in LV global longitudinal strain (LS)",
+          "description": "Comparison in each group from baseline to Month 6 (+4 weeks) using TTE. To assess the efficacy and safety of dapagliflozin compared to placebo in addition to optimal secondary prevention in the prevention of cardiac dysfunction after AMI with LV dysfunction.",
+          "timeFrame": "6 months (+4 weeks) from randomization"
+        },
+        {
+          "measure": "Change in left atrial strain (LAS)",
+          "description": "Comparison in each group from baseline to Month 6 (+4 weeks) using TTE. To assess the efficacy and safety of dapagliflozin compared to placebo in addition to optimal secondary prevention in the prevention of cardiac dysfunction after AMI with LV dysfunction.",
+          "timeFrame": "6 months (+4 weeks) from randomization"
+        },
+        {
+          "measure": "Duration of hospital stay (index hospitalization)",
+          "description": "Comparison between both groups (experimental vs. placebo) To assess the efficacy and safety of dapagliflozin compared to placebo in addition to optimal secondary prevention in the prevention of cardiac dysfunction after AMI with LV dysfunction.",
+          "timeFrame": "6 months (+4 weeks) from randomization"
+        },
+        {
+          "measure": "All-cause mortality at 6-months",
+          "description": "Comparison between both groups (experimental vs. placebo) Comparison between both groups (experimental vs. placebo) To assess the efficacy and safety of dapagliflozin compared to placebo in addition to optimal secondary prevention in the prevention of cardiac dysfunction after AMI with LV dysfunction",
+          "timeFrame": "6 months (+4 weeks) from randomization"
+        },
+        {
+          "measure": "Cardiovascular death or worsening HF at 6-months",
+          "description": "Comparison between both groups (experimental vs. placebo) To assess the efficacy and safety of dapagliflozin compared to placebo in addition to optimal secondary prevention in the prevention of cardiac dysfunction after AMI with LV dysfunction",
+          "timeFrame": "6 months (+4 weeks) from randomization"
+        },
+        {
+          "measure": "Number of re-admission due to HF at 6-months",
+          "description": "Comparison between both groups (experimental vs. placebo) To assess the efficacy and safety of dapagliflozin compared to placebo in addition to optimal secondary prevention in the prevention of cardiac dysfunction after AMI with LV dysfunction",
+          "timeFrame": "6 months (±1 month) from randomization"
+        },
+        {
+          "measure": "Change from baseline to Month 6 (+4 weeks) in LVESV, LVEDV, LAV, LVEF, LV global LS, LAS and pulmonary congestion (normal lung, mild, moderate or severe ultrasound lung comets [ULCs]) using TTE at month 6",
+          "description": "Comparison between both groups (experimental vs. placebo) To assess the efficacy and safety of dapagliflozin compared to placebo in addition to optimal secondary prevention in the prevention of cardiac dysfunction after AMI with LV dysfunction",
+          "timeFrame": "6 months (+4 weeks) from randomization"
+        },
+        {
+          "measure": "Change from baseline to Month 6 (+4 weeks) in plasma levels of NT-pro BNP and HBA1C",
+          "description": "Comparison between both groups (experimental vs. placebo) To assess the efficacy and safety of dapagliflozin compared to placebo in addition to optimal secondary prevention in the prevention of cardiac dysfunction after AMI with LV dysfunction",
+          "timeFrame": "6 months (+4 weeks) from randomization"
+        },
+        {
+          "measure": "Change in body weight from baseline to Month 6 (+4 weeks)",
+          "description": "Comparison between both groups (experimental vs. placebo) To assess the efficacy and safety of dapagliflozin compared to placebo in addition to optimal secondary prevention in the prevention of cardiac dysfunction after AMI with LV dysfunction",
+          "timeFrame": "6 months (+4 weeks) from randomization"
+        },
+        {
+          "measure": "Adverse events",
+          "description": "Comparison between both groups (experimental vs. placebo) of Adverse events with particular focus to those potentially related to dapagliflozin complications (e.g., all symptoms of volume depletion, major hypoglycemia, genital infections, diabetes ketoacidosis, changes in liver function parameters \\[ASAT, ALAT ≥3 USN\\].\n\nTo assess the efficacy and safety of dapagliflozin compared to placebo in addition to optimal secondary prevention in the prevention of cardiac dysfunction after AMI with LV dysfunction.",
+          "timeFrame": "6 months (+4 weeks) from randomization"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age ≥18 years;\n* STEMI (e.g., ST elevation above the J-point of ≥0.1 millivolt in ≥two contiguous leads or left bundle branch block) or very high-risk NSTEMI (e.g., dynamic ECG changes or ongoing chest pain or acute heart failure or hemodynamic instability independent of ECG changes or life-threatening ventricular arrhythmias) with LV dysfunction (LVEF ≤45%); after completion of PCI or angiography procedure\n* eGFR ≥ 25 mL/Min per 1.73m²;\n* Systolic blood pressure (SBP) before first dosing \\>100 mmHg and/or Diastolic blood pressure (DBP) \\>70 mmHg before first dosing;\n* Ability to provide written informed consent and willing to participate in the 6-month follow-up period.\n* Affiliation to a national health care system (AME are not allowed).\n\nExclusion Criteria:\n\n* Cardiogenic shock (SBP \\<90 mmHg with clinical signs of low output or patients requiring inotropic agents) at randomization;\n* Referred to surgery for coronary artery bypass grafting (CABG) or treatment of acute complications (e.g. ventricular septal rupture);\n* Any other form of diabetes than diabetes type 2\n* History of diabetic ketoacidosis (DKA); Known contra-indication to SGLT-2 inhibitors (hereditary problems of galactose intolerance, total lactase deficiency or glucose-galactose malabsorption);\n* \\>1 episode of severe hypoglycemia within the last 6 months under treatment with insulin or sulfonylurea;\n* Acute symptomatic urinary tract infection (UTI) or genital infection at the time of randomization;\n* Concomitant treatment (and/or within the 4 weeks prior to the baseline visit) with any SGLT-2 inhibitor (dapagliflozin, canagliflozin, empagliflozin)\n* Echocardiographic examination of insufficient quality to permit adequate analysis of the study end-points.\n* Impossibility to evaluate cardiac remodeling using TTE (e.g., pacemaker or defibrillator …);\n* Atrial fibrillation rhythm at randomization;\n* Life expectancy \\<6 month;\n* Known pregnancy at time of randomization;\n* Breastfeeding women\n* Females of childbearing potential without adequate contraceptive methods (i.e. sterilization, intrauterine device, vasectomized partner; or medical history of hysterectomy)\n* Current participation in another interventional trial. Patients under guardianship or curatorship",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Etienne PUYMIRAT, Pr",
+          "role": "CONTACT",
+          "phone": "00331.56.09.28.51",
+          "email": "etienne.puymirat@aphp.fr"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Etienne PUYMIRAT, Pr",
+          "affiliation": "Assistance Publique - Hôpitaux de Paris",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Department of Cardiology AP-HP Hôpital européen Georges - Pompidou",
+          "status": "RECRUITING",
+          "city": "Paris",
+          "zip": "75015",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Etienne PUYMIRAT",
+              "role": "CONTACT",
+              "phone": "00331.56.09.28.51",
+              "email": "etienne.puymirat@aphp.fr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        },
+        {
+          "id": "D000072658",
+          "term": "Non-ST Elevated Myocardial Infarction"
+        },
+        {
+          "id": "D018487",
+          "term": "Ventricular Dysfunction, Left"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D018754",
+          "term": "Ventricular Dysfunction"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C529054",
+          "term": "dapagliflozin"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

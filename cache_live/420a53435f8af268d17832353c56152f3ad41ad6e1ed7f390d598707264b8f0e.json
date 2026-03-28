@@ -1,0 +1,358 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02408003",
+      "orgStudyIdInfo": {
+        "id": "Fredholm strain study"
+      },
+      "organization": {
+        "fullName": "Sahlgrenska University Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Changes in Cardiac Deformation Following Physiologic Alterations and Inotropic Support.",
+      "officialTitle": "What Are the Changes in Cardiac Deformation Variables and Hemodynamic Parameters Following Changes in Cardiac Loading Conditions and After Administration of Two Different Inotropic Drugs."
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2017-05",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2014-03",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2016-05",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2017-05",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2015-03-31",
+      "studyFirstSubmitQcDate": "2015-03-31",
+      "studyFirstPostDateStruct": {
+        "date": "2015-04-03",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2017-05-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2017-05-09",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Martin Fredholm",
+        "investigatorTitle": "MD",
+        "investigatorAffiliation": "Sahlgrenska University Hospital"
+      },
+      "leadSponsor": {
+        "name": "Sahlgrenska University Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The investigators want to compare the effects of two drugs, levosimendan and milrinone, on cardiac muscle, both in terms of contractility and relaxation. Half of the participants will be randomized to each drug. The effects will be measured through echocardiographic deformation analyses.\n\nSince deformation analyses could be dependent on different loading conditions of the heart, a second purpose of the study is to investigate the changes on deformation parameters after applied changes in preload and afterload, but also heart rate.",
+      "detailedDescription": "Aortic stenosis is associated with myocardial hypertrophy and diastolic dysfunction. In patients undergoing open aortic valve replacement surgery due to stenosis, the investigators want to compare the effect on myocardial relaxation between two commonly used drugs, levosimendan and milrinone, using catheter-based measurements in combination with echocardiographic evaluation.\n\nStandard anaesthesia and surgical care for these patients is performed. After surgery is completed and the participant is transferred to the intensive care unit, the studies are performed during general anaesthesia and the participants still connected to a respirator with controlled ventilation.\n\nEchocardiographic data will be collected simultaneously with hemodynamic parameters - first at two control measurements, then after each of two different doses of the drug. Preload, afterload and heart rate will be kept stable during this intervention. The echocardiographic data is later analyzed offline for strain and strain rate.\n\nTo further investigate the dependency of strain and strain rate on changes in preload, afterload, and heart rate, these variables are consecutively changed prior to drug administration. For this purpose, all patients first have their baseline data recorded, thereafter are paced at two different rates, then preload and afterload is altered by passive leg elevation and phenylephrine, respectively. Hemodynamic and echocardiographic data are collected simultaneously at baseline and after each intervention. Before administration of the drugs, baseline conditions are restored."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure, Diastolic",
+        "Aortic Valve Stenosis",
+        "Monitoring, Physiologic",
+        "Physiology"
+      ],
+      "keywords": [
+        "Transesophageal",
+        "Echocardiography",
+        "Milrinone",
+        "Levosimendan",
+        "Strain",
+        "Deformation",
+        "Diastole",
+        "Afterload",
+        "Preload",
+        "Systole"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 30,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Levosimendan",
+          "type": "EXPERIMENTAL",
+          "description": "1. st dose: 12 µg/kg iv bolus for 10 min followed by 0,1 µg/kg/min for 20 min.\n2. nd dose: 12 µg/kg iv bolus for 10 min followed by 0,2 µg/kg/min for 20 min.",
+          "interventionNames": [
+            "Drug: Levosimendan"
+          ]
+        },
+        {
+          "label": "Milrinone",
+          "type": "EXPERIMENTAL",
+          "description": "1. st dose: 48 µg/kg iv bolus for 10 min followed by 0,4 µg/kg/min for 20 min.\n2. nd dose: 48 µg/kg iv bolus for 10 min followed by 0,8 µg/kg/min for 20 min.",
+          "interventionNames": [
+            "Drug: Milrinone"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Levosimendan",
+          "description": "Data is collected at baseline as two controls.\n\nThree physiological interventions follows, and data is collected after each:\n\nIncreasing heart rate in two steps by atrial pacing through a temporary pacemaker.\n\nRaising cardiac preload by increasing central venous pressure through leg elevation.\n\nRaising cardiac afterload by increasing systemic vascular resistance through administering of phenylephrine.\n\nBaseline is restored, and data is collected before drug adminstration as two controls, then after a first (half) dose, and finally after a second (full) dose.",
+          "armGroupLabels": [
+            "Levosimendan"
+          ],
+          "otherNames": [
+            "Daxim",
+            "Simdax"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Milrinone",
+          "description": "Data is collected at baseline as two controls.\n\nThree physiological interventions follows, and data is collected after each:\n\nIncreasing heart rate in two steps by atrial pacing through a temporary pacemaker.\n\nRaising cardiac preload by increasing central venous pressure through leg elevation.\n\nRaising cardiac afterload by increasing systemic vascular resistance through administering of phenylephrine.\n\nBaseline is restored, and data is collected before drug adminstration as two controls, then after a first (half) dose, and finally after a second (full) dose.",
+          "armGroupLabels": [
+            "Milrinone"
+          ],
+          "otherNames": [
+            "Primacor",
+            "Corotrop",
+            "Milicor"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in diastolic strain rate",
+          "description": "Diastolic strain rate defined as peak E wave strain rate as measured by 2D speckle tracking of the left ventricular wall.",
+          "timeFrame": "After each physiologic intervention, and at 30 and 60 min after start of iv infusion of drug."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in systolic strain and strain rate",
+          "description": "Systolic strain and strain rate defined as their respective peak values during systole, measured by 2D speckle tracking of the left ventricular wall.",
+          "timeFrame": "After each physiologic intervention, and at 30 and 60 min after start of iv infusion of drug."
+        },
+        {
+          "measure": "Change in cardiac output",
+          "description": "Measured through pulmonary artery thermodilution as liters per minute. A baseline measurement is done before infusion is started.",
+          "timeFrame": "After each physiologic intervention, and at 30 and 60 min after start of iv infusion of drug."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Subject has aortic valve stenosis\n* Subject is scheduled for open heart aortic valve replacement with or without simultaneous coronary artery bypass grafting\n\nExclusion Criteria:\n\n* Less than normal systolic function, defined as ejection fraction less than 0,5\n* Non-sinus rhythm\n* Any major surgical complication\n* Problems understanding the informed consent",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Sven-Erik Ricksten, Professor",
+          "affiliation": "Dept of Anesthesia and Intensive Care, University of Gothenburg",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Thoraxoperation/TIVA, Sahlgrenska universitetssjukhuset",
+          "city": "Gothenburg",
+          "zip": "413 45",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 57.70716,
+            "lon": 11.96679
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "annotationSection": {
+    "annotationModule": {
+      "unpostedAnnotation": {
+        "unpostedResponsibleParty": "Martin Fredholm, MD, Sahlgrenska University Hospital",
+        "unpostedEvents": [
+          {
+            "type": "RELEASE",
+            "date": "2019-05-08"
+          },
+          {
+            "type": "RESET",
+            "date": "2019-07-25"
+          }
+        ]
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18",
+      "submissionTracking": {
+        "estimatedResultsFirstSubmitDate": "2019-05-08",
+        "submissionInfos": [
+          {
+            "releaseDate": "2019-05-08",
+            "resetDate": "2019-07-25"
+          }
+        ]
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054144",
+          "term": "Heart Failure, Diastolic"
+        },
+        {
+          "id": "D001024",
+          "term": "Aortic Valve Stenosis"
+        },
+        {
+          "id": "D013180",
+          "term": "Sprains and Strains"
+        },
+        {
+          "id": "D006337",
+          "term": "Heart Murmurs"
+        },
+        {
+          "id": "D054160",
+          "term": "Systolic Murmurs"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D000082862",
+          "term": "Aortic Valve Disease"
+        },
+        {
+          "id": "D006349",
+          "term": "Heart Valve Diseases"
+        },
+        {
+          "id": "D014694",
+          "term": "Ventricular Outflow Obstruction"
+        },
+        {
+          "id": "D014947",
+          "term": "Wounds and Injuries"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077464",
+          "term": "Simendan"
+        },
+        {
+          "id": "D020105",
+          "term": "Milrinone"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006835",
+          "term": "Hydrazones"
+        },
+        {
+          "id": "D006834",
+          "term": "Hydrazines"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011724",
+          "term": "Pyridazines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D000676",
+          "term": "Amrinone"
+        },
+        {
+          "id": "D000631",
+          "term": "Aminopyridines"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

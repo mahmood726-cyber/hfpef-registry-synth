@@ -1,0 +1,266 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05014061",
+      "orgStudyIdInfo": {
+        "id": "EudraCT number: 2021-001466-37"
+      },
+      "organization": {
+        "fullName": "Vastra Gotaland Region",
+        "class": "OTHER_GOV"
+      },
+      "briefTitle": "Adenosine's Effect on STunning Resolution in Acute Myocardial Infarction",
+      "officialTitle": "Adenosine's Effect on STunning Resolution in Acute Myocardial Infarction An Open-label, Single Center Trial",
+      "acronym": "A-STAMI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-07",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "Never started",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-01-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-06",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-07-08",
+      "studyFirstSubmitQcDate": "2021-08-12",
+      "studyFirstPostDateStruct": {
+        "date": "2021-08-20",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-05-15",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-05-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Vastra Gotaland Region",
+        "class": "OTHER_GOV"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of this study is to evaluate the effect of adenosine on the recovery of myocardial akinesia in ST-elevation myocardial infarction (STEMI). The study is a single-center randomized clinical trial intending to include 90 patients.\n\nThe objective of the study is to investigate whether treatment with adenosine hastens recovery of myocardial akinesia and improves cardiac function at 48 hours in patients with STEMI.",
+      "detailedDescription": "Primary endpoint (variable):\n\nThe resolution of myocardial stunning at 48 hours (StunningRes48h).\n\nThe proportion of stunning that has resolved at 48 hours will be calculated according to the formula:\n\nStunningRes48h = (%AkinesiaBaseline - %Akinesia48h) / (%AkinesiaBaseline - %Akinesia30days) where %AkinesiaT is defined as the endocardial length of the akinetic myocardium measured in end-diastole divided by the total endocardial length measured in end-diastole in the 2- and 4-chamber view, at time T (T= 48h or 30 days)\n\nSecondary endpoint(s) (variables):\n\n1. Infarct size at 6 months, as assessed by cardiac magnetic resonance imaging (magnetic resonance imaging).\n2. Ejection fraction days 1, 2, 3, 7, 14, 30 and 6 months.\n3. Any sustained ventricular tachycardia or fibrillation within 72 hours (safety endpoint; binary)\n4. Any high-grade atrioventricular block or sinus arrest within 72 hours (safety endpoint; binary)\n5. Implantation of cardiac assist device within 72 hours (binary)\n6. Stroke within 6 months (binary)\n7. All-cause mortality within 6 months\n8. Heart failure rehospitalization within 6 months\\*\n9. Worsening in-hospital heart failure ≥12 hours after PCI#\n10. Composite of any worsening in-hospital heart failure ≥12 hours after PCI or heart failure rehospitalization within 6 months.\n\n    * Defined as re-admission to hospital after discharge, with a total length of admission ≥24 hours, documented worsening of heart failure signs or symptoms (e.g. worsening dyspnea, fatigue, edema/fluid overload, pulmonary venous distension or signs of pulmonary edema on X-ray), with administration of intravenous diuretic or inotropic drugs, ultrafiltration, non-invasive ventilation or mechanical assist device.\n\n      * Defined as intensification of heart failure therapy due to worsening heart failure signs or symptoms (as above; including intravenous diuretic, inotropic or vasopressor drugs, non-invasive ventilation or mechanical assist device)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Myocardial Ischemia"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Single center, open-label, randomized controlled trial",
+        "primaryPurpose": "OTHER",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Adenosine",
+          "type": "EXPERIMENTAL",
+          "description": "Adenosine infusion 70 µg/kg/min initiated prior to revascularization and maintained for 6 hours",
+          "interventionNames": [
+            "Drug: Adenosine"
+          ]
+        },
+        {
+          "label": "Controll",
+          "type": "NO_INTERVENTION",
+          "description": "Standard of care"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Adenosine",
+          "description": "Adenosine infusion 70 µg/kg/min for 6 hours",
+          "armGroupLabels": [
+            "Adenosine"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The resolution of myocardial stunning at 48 hours (StunningRes48h).",
+          "description": "The proportion of stunning that has resolved at 48 hours will be calculated according to the formula:\n\nStunningRes48h = (%AkinesiaBaseline - %Akinesia48h) / (%AkinesiaBaseline - %Akinesia30days) where %AkinesiaT is defined as the endocardial length of the akinetic myocardium measured in end-diastole divided by the total endocardial length measured in end-diastole in the 2- and 4-chamber view, at time T (T= 48h or 30 days)",
+          "timeFrame": "48 hours"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Infarct size",
+          "description": "Infarct size, assessed by cardiac magnetic resonance imaging",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Ejection fraction",
+          "description": "Ejection fraction, assessed by echocardiography",
+          "timeFrame": "Day 1, Day 2, Day 3, Day 7, Day 14, Day 30 and 6 months"
+        },
+        {
+          "measure": "Sustained ventricular tachycardia or fibrillation",
+          "description": "Any sustained ventricular tachycardia or fibrillation within 72 hours",
+          "timeFrame": "72 hours"
+        },
+        {
+          "measure": "High-grade atrioventricular block or sinus arrest",
+          "description": "Any high-grade atrioventricular block or sinus arrest within 72 hours",
+          "timeFrame": "72 hours"
+        },
+        {
+          "measure": "Cardiac assist device",
+          "description": "Implantation of cardiac assist device within 72 hours",
+          "timeFrame": "72 hours"
+        },
+        {
+          "measure": "Stroke",
+          "description": "Stroke within 6 months",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Mortality",
+          "description": "All-cause mortality within 6 months",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Rehospitalization",
+          "description": "Heart failure rehospitalization within 6 months",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Worsening heart failure",
+          "description": "Worsening in-hospital heart failure after PCI",
+          "timeFrame": "≥12 hours"
+        },
+        {
+          "measure": "Composite",
+          "description": "Composite of any worsening in-hospital heart failure ≥12 hours after PCI or heart failure rehospitalization within 6 months",
+          "timeFrame": "≥12 hours or 6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age \\>18 years.\n2. Anterior STEMI.\n3. Symptom duration ≤6 hours\n4. Written informed consent obtained - Angiographic Inclusion criteria:\n\n   1. Culprit lesion in LAD, major branch of LAD, proximal or mid LCx or proximal or mid RCA\n   2. TIMI flow ≤2 in the culprit vessel\n\n      -Echocardiographic inclusion criteria:\n   3. Detectable hypo- or akinesia corresponding to ≥5% of the left ventricle corresponding to culprit lesion, per bedside visual assessment.\n\nExclusion Criteria:\n\n1. Previous randomization in the study\n2. Any of the following contraindications for treatment with adenosine:\n\n   1. Known pre-existing atrioventricular block grade ≥2 or sick sinus syndrome in patients without pacemaker.\n   2. Known pre-existing elevation of intracranial pressure\n   3. Treatment with dipyridamole within 24 hours of randomization\n   4. Systolic blood pressure \\<80 mm Hg at screening\n3. Any concomitant condition resulting in a life expectancy of less than one month\n4. Previous myocardial infarction or other cardiac condition resulting in impaired regional or global systolic function without documented recovery of cardiac function\n5. Heart transplant or left ventricular assist device recipient\n6. Not suitable in the opinion of the investigator due to severe or terminal comorbidity with poor prognosis or characteristics that may interfere with adherence to the trial protocol\n7. Pregnancy or woman of childbearing potential who is not sterilized or using a medically accepted form of contraception -",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Björn Redfors, MD, PhD",
+          "affiliation": "Vastra Gotaland Region",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000241",
+          "term": "Adenosine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011684",
+          "term": "Purine Nucleosides"
+        },
+        {
+          "id": "D011687",
+          "term": "Purines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        },
+        {
+          "id": "D012263",
+          "term": "Ribonucleosides"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

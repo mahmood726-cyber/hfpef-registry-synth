@@ -1,0 +1,547 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07254572",
+      "orgStudyIdInfo": {
+        "id": "CSDS.IV/VIII/2023"
+      },
+      "organization": {
+        "fullName": "National Institute of Cardiology, Warsaw, Poland",
+        "class": "OTHER"
+      },
+      "briefTitle": "Anti-atherosclerotic Efficacy of Selected Antidiabetic Drugs in Patients With Coronary Artery Disease and Pre-diabetes",
+      "officialTitle": "A Randomized, Open-label, Clinical Trial Evaluating the Anti-atherosclerotic Efficacy of Selected Antidiabetic Drugs in Patients With Coronary Artery Disease and Pre-diabetes",
+      "acronym": "CASCADES"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-07",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-07-10",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2029-08-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-08-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-08-01",
+      "studyFirstSubmitQcDate": "2025-11-25",
+      "studyFirstPostDateStruct": {
+        "date": "2025-11-28",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-11-25",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-11-28",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "National Institute of Cardiology, Warsaw, Poland",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Medical Research Agency, Poland",
+          "class": "OTHER_GOV"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of the study is to compare the anti-atherosclerotic efficacy of oral treatment with a GLP-1 analogue (semaglutide) or an SGLT-2 (so-called \"flozin\") inhibitor (dapagliflozin) versus routine treatment (metformin) in patients with pre-diabetes and diagnosed coronary artery disease at 24 months.\n\nThe diagnosis of coronary artery disease will be defined as the presence of coronary atherosclerosis confirmed by coronary artery computed tomography (coronary CT).\n\nThe study will evaluate the effect of treatment with flozin vs. semaglutide compared to treatment with metformin on the progression/regression of coronary atherosclerosis, change in plaque character, and control of cardiovascular risk factors."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Coronary Artery Disease",
+        "PreDiabetes"
+      ],
+      "keywords": [
+        "Coronary Artery Disease",
+        "Prediabetes",
+        "Coronary Plaque",
+        "Metformin",
+        "SGLT-2",
+        "GLP-1"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 300,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "DAPAGLIFLOZIN",
+          "type": "EXPERIMENTAL",
+          "description": "Dapagliflozin + OMT \\& Lifestyle Intervention",
+          "interventionNames": [
+            "Drug: Dapagliflozin (Forxiga)",
+            "Behavioral: Optimal Medical Therapy (OMT) And Lifestyle Intervention"
+          ]
+        },
+        {
+          "label": "SEMAGLUTIDE",
+          "type": "EXPERIMENTAL",
+          "description": "Semaglutide + OMT \\& Lifestyle Intervention",
+          "interventionNames": [
+            "Drug: Semaglutide 14 MG [Rybelsus]",
+            "Behavioral: Optimal Medical Therapy (OMT) And Lifestyle Intervention"
+          ]
+        },
+        {
+          "label": "METFORMIN",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Metformin + OMT \\& Lifestyle Intervention",
+          "interventionNames": [
+            "Drug: Metformin",
+            "Behavioral: Optimal Medical Therapy (OMT) And Lifestyle Intervention"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Semaglutide 14 MG [Rybelsus]",
+          "description": "Semaglutide 3 mg daily - up-titrated to 7 mg daily if well tolerated - up-titrated to 14 mg daily if well tolerated",
+          "armGroupLabels": [
+            "SEMAGLUTIDE"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Dapagliflozin (Forxiga)",
+          "description": "Dapagliflozin 10 mg daily",
+          "armGroupLabels": [
+            "DAPAGLIFLOZIN"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Metformin",
+          "description": "Metformin 500 mg daily (up-titrated to 1000 mg daily if indicated)",
+          "armGroupLabels": [
+            "METFORMIN"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Optimal Medical Therapy (OMT) And Lifestyle Intervention",
+          "description": "* cardiological counselling aiming to reduce risk factors of atherosclerosis progression (LDL target, optimal medical therapy, comorbidities management, electrocardiogram) in accordance with current European Society of Cardiology guidelines\n* dietary counselling\n* body weight management\n* advice on optimizing physical activity levels\n* advice on how to quit smoking if applicable\n* psychological counselling",
+          "armGroupLabels": [
+            "DAPAGLIFLOZIN",
+            "METFORMIN",
+            "SEMAGLUTIDE"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Evaluation of the effect of GLP-1 analogue treatment on coronary artery disease progression AND Evaluation of the effect of flozin treatment on the progression of coronary artery disease (CO-PRIMARY ENDPOINTS)",
+          "description": "Change in % volume of noncalcified atherosclerotic plaque in the coronary arteries assessed by coronary CT versus routine management (intention-to-treat) AND Change in % volume of noncalcified atherosclerotic plaque in the coronary arteries assessed by coronary CT versus routine management (intention-to-treat)",
+          "timeFrame": "24 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Evaluation of the effect of each of the tested drugs vs. control group on progression of coronary artery disease",
+          "description": "% change in volume of noncalcified atherosclerotic plaque assessed by coronary CT (as treated) between baseline and end of study",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Comparison of the effect of semaglutide vs. flozin on coronary artery disease progression",
+          "description": "% change in volume of noncalcified atherosclerotic plaque assessed by coronary CT (intention to treat/as treated) between baseline and end of study",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Evaluation of the effect of each study drug vs. control group/comparison of the effect of semaglutide vs. flozin on progression of coronary artery disease",
+          "description": "% change in volume of the entire atherosclerotic plaque assessed by coronary CT) (intention to treat/as treated) between baseline and end of study",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Evaluation of the effect of each of the tested drugs vs. control group/comparison of the effect of semaglutide vs. flozin on progression of coronary artery disease",
+          "description": "% change in volume of individual components of atherosclerotic plaque assessed by coronary CT (intention to treat/as treated) between baseline and end of study",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Evaluation of the effect of each of the tested drugs vs. control group/comparison of the effect of semaglutide vs. flozin on progression of coronary artery disease (plaque conversion)",
+          "description": "Conversion of non-calcified plaque to calcified plaque assessed by coronary CT (intention to treat/as treated) between baseline and end of study",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Evaluation of the effect of each of the tested drugs vs. control group/comparison of the effect of semaglutide vs. flozin on CV risk expressed as the dynamics of high-risk features",
+          "description": "Change in the number of high-risk atherosclerotic lesions defined as the presence of at least 2 high risk features among:\n\n* Spotty calcifications\n* Low attenuation plaques (low attenuation plaque, i.e. plaque density \\<30 HU)\n* positive remodeling\n* napkin ring sign assessed by coronary TK (intention-to-treat/as treated) between baseline and end of study",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Evaluation of the effect of each of the tested drugs vs. control group/comparison of the effect of semaglutide vs. flozin on CV risk on pericoronary fat attenuation index",
+          "description": "Change in the Pericoronary Fat Attenuation Index assessed by coronary TK (intention-to-treat/as treated) between baseline and end of study",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Evaluation of changes in anthropometric measurements in patients treated with semaglutide vs. patients treated with flozin - body weight",
+          "description": "Change in total body mass (expressed in kilograms) (intention-to-treat/as treated) between baseline and end of study",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Evaluation of changes in anthropometric measurements in patients treated with semaglutide vs. patients treated with flozin - body mass index",
+          "description": "Change in body mass index (BMI), calculated as following body mass index (BMI) = total body mass / (height)\\^2 and expressed in kg/m2 (intention-to-treat/as treated) between baseline and end of study",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Evaluation of changes in anthropometric measurements in patients treated with semaglutide vs. patients treated with flozin - total body fat",
+          "description": "Change in totabl body fat mass (expressed in kilograms) measured by bioimpedance analysis (intention-to-treat/as treated) between baseline and end of study",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Evaluation of changes in anthropometric measurements in patients treated with semaglutide vs. patients treated with flozin - body cell mass",
+          "description": "Change in Body Cell Mass (BCM) (expressed in kilograms) measured by bioimpedance analysis (intention-to-treat/as treated) between baseline and end of study",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Evaluation of changes in anthropometric measurements in patients treated with semaglutide vs. patients treated with flozin - fat to mass ratio",
+          "description": "Change in fat to mass ratio (FMR), calculated as following fat to mass ratoi (FMR) = total body fat (TBF) / skeletal muscle mass measured by bioimpedance analysis (intention-to-treat/as treated) between baseline and end of study",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Evaluation of changes in anthropometric measurements in patients treated with semaglutide vs. patients treated with flozin - visceral fat area",
+          "description": "Change in visceral fat area (expressed in cm2) measured by bioimpedance analysis (intention-to-treat/as treated) between baseline and end of study",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Evaluation of changes in anthropometric measurements in patients treated with semaglutide vs. patients treated with flozin - waist-to-hip index",
+          "description": "Change in waist-to-hip index (WHI) measured by bioimpedance analysis between baseline and end of study",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Evaluation of change in inflammatory parameters in patients treated with semaglutide vs. patients treated with flozin",
+          "description": "Change in concentration of high-sensitivity C-reactive protein between baseline and end of the study",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Evaluation of change in lipid levels in patients treated with semaglutide vs. patients treated with flozin",
+          "description": "Change in\n\n* total cholesterol\n* low-density lipoproteins (LDL)\n* high-density lipoproteins (HDL)\n* non-HDL cholesterol\n* triglycerides\n* lipoprotein A concentrations between baseline and end of the study",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Evaluation of change in the percentage of glycated hemoglobin (HbA1c) in patients treated with semaglutide vs. patients treated with flozin",
+          "description": "Change in the percentage of glycated hemoglobin (HbA1c) between baseline and end of study",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Evaluation of change in the percentage of patients with normal blood pressure in patients treated with semaglutide vs. patients treated with flozin",
+          "description": "Change in percentage of patients with normal blood pressure defined as systolic pressure \\<140 mmHg and diastolic pressure \\<90 mmHg between baseline and end of study",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Evaluation of change in the percentage of patients smoking tobacco or electronic cigarettes in patients treated with semaglutide vs. patients treated with flozin",
+          "description": "Change in the percentage of patients smoking tobacco (cigarettes, pipe, cigar, tobacco heating products) or electronic cigarettes as defined by the study protocol between baseline and end of study",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Evaluation of compliance with physical activity recommendations in patients treated with semaglutide vs. patients treated with flozin",
+          "description": "Change in\n\n* Percentage of patients classified in the \"high\" physical activity category;\n* Percentage of patients classified in the \"sufficient\" physical activity category;\n* Percentage of patients classified in the \"insufficient\" physical activity category between baseline and end of study",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Evaluation of dietary compliance in patients treated with semaglutide vs. patients treated with flozin",
+          "description": "Change in the Dietary Approaches to Stop Hypertension (DASH) Index between baseline and end of study.\n\nFor each of the 8 DASH food groups, a score of 10 is assigned when the DASH recommendation is met, lower intakes are scored proportionately, and the 8 individual scores are summed to create the overall DASH adherence score, which could range from 0 to 80. The higher the score, the better the adherence.\n\nReference Günther AL, Liese AD, Bell RA, et al. Association between the dietary approaches to hypertension diet and hypertension in youth with diabetes mellitus. Hypertension. 2009 Jan;53(1):6-12",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Type 2 diabetes diagnosis",
+          "description": "Number of patients diagnosed with of diabetes based on the criteria of the Polish Diabetes Association during the study",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Evaluation of the onset of heart failure requiring hospitalization",
+          "description": "Number of patients hospitalized for heart failure during the study",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Number of unscheduled hospitalizations",
+          "description": "Number of unscheduled hospitalizations during the study",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Number of major cardiovascular events and strokes (MACCE: death/myocardial infarction/revascularization/stroke) separately and combined",
+          "description": "Number of cardiovascular events and strokes (MACCE: death/myocardial infarction/revascularization/stroke) during the study",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Homeostatic Model Change Assessment - Insulin Resistance (HOMA-IR)",
+          "description": "Change in Homeostatic Model Assessment - Insulin Resistance (HOMA-IR) between baseline and of study",
+          "timeFrame": "12 and 24 months"
+        },
+        {
+          "measure": "Evaluation of change in the concentration of selected oxidative stress markers - catalase",
+          "description": "Change in plasma concentration of catalase between baseline and end of study",
+          "timeFrame": "12 months and 24 months"
+        },
+        {
+          "measure": "Evaluation of change in the concentration of selected oxidative stress markers - superoxide dismutase (SOD)",
+          "description": "Change in plasma concentration of superoxide dismutase (SOD) between baseline and end of study",
+          "timeFrame": "12 months and 24 months"
+        },
+        {
+          "measure": "Evaluation of change in the concentration of selected oxidative stress markers - Oxygen Radical Absorbance Capacity (ORAC)",
+          "description": "Change in concentration of Oxygen Radical Absorbance Capacity (ORAC) between baseline and end of study",
+          "timeFrame": "12 months and 24 months"
+        },
+        {
+          "measure": "Evaluation of change in the concentration of selected oxidative stress markers - total antioxidant capacity (TAC)",
+          "description": "Change in concentration of total antioxidant capacity (TAC) between baseline and end of study",
+          "timeFrame": "12 months and 24 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 18 - 80\n* Diagnosed coronary artery disease (coronary artery stenosis of at least 20% with a reference diameter of \\>2.5 mm or status after percutaneous coronary revascularization procedure found on coronary CT scan)\n* Coronary CT scan performed \\<3 months after inclusion in the study, at least of good quality\n* Pre-diabetic status defined as fasting blood glucose 100-125 mg% or Hba1c 5.70-6.49% (measurement documented at the screening/randomization appointment or within 30 days prior to the screening/randomization appointment) or documented, positive result of an oral glucose load test (fasting blood glucose 100-125 mg% and 140-199 mg% 2h after a 75 g oral glucose load) performed up to 30 days before the screening/randomization appointment\n* Stable treatment and control of cardiovascular risk factors, including dietary and lifestyle management for at least 4 weeks\n* Willing and able to give informed consent to participate in the study\n* Willing and able, according to the researcher, to comply with all the requirements of the study\n\nExclusion Criteria:\n\n* Severe valvular defect\n* Clinical condition requiring surgical treatment of coronary artery disease\n* Status after coronary artery bypass surgery\n* Diagnosed diabetes or Hba1c\\>=6.5% at screening/randomization appointment\n* Other severe medical conditions requiring scheduled hospital treatment at the time of the study\n* Severe musculoskeletal conditions requiring specific rehabilitation recommendations\n* Diagnosed heart failure\n* Presence of an artificial valve, cardiac pacing system or other implantable device (such as a cardioverter defibrillator)\n* Severe arrhythmia/unexplained loss of consciousness\n* Other contraindications to physical activity\n* No consent to participate in the study\n* Use of glucose-lowering drugs other than metformin\n* Use of weight-loss drugs\n* Condition after bariatric surgery\n* Diagnosed liver disease or ALT, AST above three times the upper limit of normal at screening appointment\n* Uncompensated hyperthyroidism\n* Pancreatic cancer\n* Medullary thyroid cancer\n* History of anaphylactic shock after iodine contrast administration\n* Chronic kidney disease (eGFR \\<45 ml/min/1.73 m2)\n* History of pancreatitis or active pancreatitis\n* Body mass index (BMI) \\>40 kg/m2\n* Pregnancy/lactation\n* Participation in another clinical trial\n* Other known contraindications to treatment with metformin, dapagliflozin or semaglutide",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Jan Henzel, MD, PhD",
+          "role": "CONTACT",
+          "phone": "+48 22 343 43 42",
+          "email": "jhenzel@ikard.pl"
+        },
+        {
+          "name": "Kinga Kotlinska",
+          "role": "CONTACT",
+          "phone": "+48 22 343 40 88",
+          "email": "kkotlinska@ikard.pl"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Jan Henzel, MD, PhD",
+          "affiliation": "National Institute of Cardiology",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Mariusz Kruk, MD, PhD",
+          "affiliation": "National Institute of Cardiology",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Cezary Kępka, MD, PhD",
+          "affiliation": "National Institute of Cardiology",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "National Institute of Cardiology, Department of Coronary Artery and Structural Heart Diseases",
+          "status": "RECRUITING",
+          "city": "Warsaw",
+          "country": "Poland",
+          "contacts": [
+            {
+              "name": "Kinga Kotlińska",
+              "role": "CONTACT",
+              "phone": "223434600",
+              "phoneExt": "+48",
+              "email": "kkotlinska@ikard.pl, cascades@ikard.pl"
+            },
+            {
+              "name": "Agnieszka Nowicka",
+              "role": "CONTACT",
+              "phone": "223434380",
+              "phoneExt": "+48",
+              "email": "anowicka@ikard.pl"
+            },
+            {
+              "name": "Piotr N Rudziński, MD PhD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Jan Henzel, MD PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 52.22977,
+            "lon": 21.01178
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "type": "RESULT",
+          "citation": "https://www.escardio.org/Journals/E-Journal-of-Cardiology-Practice/Volume-22/diabetes-total-risk-benefit-of-sglt2-inhibitors-and-glp1-agonists#.ZC8_KhOdj2E.link"
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Study information in Polish",
+          "url": "https://www.ikard.pl/nauka/projekty-badawcze/granty-abm/badanie-kliniczne-randomizowane-otwarte-oceniajace-skutecznosc-przeciwmiazdzycowa-wybranych-lekow-przeciwcukrzycowych-u-chorych-z-choroba-wiencowa-i-stanem-przedcukrzycowym-cascades-trial.html"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2024-09-06",
+          "uploadDate": "2025-10-05T06:03",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 425655
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003324",
+          "term": "Coronary Artery Disease"
+        },
+        {
+          "id": "D011236",
+          "term": "Prediabetic State"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003327",
+          "term": "Coronary Disease"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000591245",
+          "term": "semaglutide"
+        },
+        {
+          "id": "C529054",
+          "term": "dapagliflozin"
+        },
+        {
+          "id": "D008687",
+          "term": "Metformin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001645",
+          "term": "Biguanides"
+        },
+        {
+          "id": "D006146",
+          "term": "Guanidines"
+        },
+        {
+          "id": "D000578",
+          "term": "Amidines"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

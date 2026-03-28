@@ -1,0 +1,259 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05764564",
+      "orgStudyIdInfo": {
+        "id": "Pro00112081"
+      },
+      "organization": {
+        "fullName": "Duke University",
+        "class": "OTHER"
+      },
+      "briefTitle": "External Body Pressure in Heart Failure With Preserved Ejection Fraction",
+      "officialTitle": "External Body Pressure and the Impact on Exercise in Heart Failure With Preserved Ejection"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-02",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-04-21",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-05-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-05-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-02-25",
+      "studyFirstSubmitQcDate": "2023-02-28",
+      "studyFirstPostDateStruct": {
+        "date": "2023-03-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-28",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-29",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Duke University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The primary objective of the study is to test the impact of positive and negative body pressure on exercise capacity, symptoms, blood volume distribution and central cardiac hemodynamics in patients with heart failure and preserved ejection fraction. Aim 1 will study healthy volunteers and heart failure patients non invasively while Aim 2 will study heart failure patients invasively (intracardiac pressures)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure, Diastolic"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "DIAGNOSTIC",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 27,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Experimental: Patients with heart failure (Aim 1)",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Diagnostic Test: Positive or negative pressure"
+          ]
+        },
+        {
+          "label": "Control: Healthy Volunteers (Aim 1)",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Diagnostic Test: Positive or negative pressure"
+          ]
+        },
+        {
+          "label": "Experimental: Patients with heart failure (Aim 2)",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Diagnostic Test: Positive or negative pressure"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Positive or negative pressure",
+          "description": "Positive or negative pressure is applied via a closed chamber.",
+          "armGroupLabels": [
+            "Control: Healthy Volunteers (Aim 1)",
+            "Experimental: Patients with heart failure (Aim 1)",
+            "Experimental: Patients with heart failure (Aim 2)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "change in exercise cardiac output",
+          "description": "Change in cardiac output from rest to 0 Watts exercise",
+          "timeFrame": "Day 1"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "change in exercise cardiac output",
+          "description": "Change in cardiac output from rest to 20 Watts exercise",
+          "timeFrame": "Day 1"
+        },
+        {
+          "measure": "change in heart rate",
+          "description": "Change in heart rate from rest to 0 Watts exercise",
+          "timeFrame": "Day 1"
+        },
+        {
+          "measure": "change in heart rate",
+          "description": "Change in heart rate from rest to 20 Watts exercise",
+          "timeFrame": "Day 1"
+        },
+        {
+          "measure": "change in respiratory rate",
+          "description": "Change in heart rate from rest to 20 Watts exercise",
+          "timeFrame": "Day 1"
+        },
+        {
+          "measure": "change in O2 consumption",
+          "description": "Change in O2 consumption from rest to 0 Watts exercise",
+          "timeFrame": "Day 1"
+        },
+        {
+          "measure": "change in O2 consumption",
+          "description": "Change in O2 consumption from rest to 20 Watts exercise",
+          "timeFrame": "Day 1"
+        },
+        {
+          "measure": "Change in wedge pressure",
+          "description": "Change in wedge pressure from rest to 0 Watts exercise",
+          "timeFrame": "Day 1"
+        },
+        {
+          "measure": "Change in wedge pressure",
+          "description": "Change in wedge pressure from rest to 20 Watts exercise",
+          "timeFrame": "Day 1"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Symptom burden",
+          "description": "from rest to peak exertion we will assess symptom burden with dyspnea scales",
+          "timeFrame": "Day 1"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "* Heart Failure Study Population\n* Inclusion Criteria (Aim 1 and 2):\n\n  * Age greater than or equal to 30 yrs\n  * Established diagnosis of HFpEF with left ventricular ejection fraction greater than or equal to 50%\n  * NYHA II-III symptoms\n  * Stable HF drug regimen for the preceding 1 month\n  * Wedge pressure greater than or equal to 15 mmHg at rest or greater than or equal to 25 mmHg with peak exercise\n  * (For Aim 2 only) Scheduled for an elective right heart catheterization at Duke University Hospital.\n* Exclusion Criteria (Aim 1 and 2):\n\n  * HF hospitalization for type I myocardial infarction within 3 months\n  * Infiltrative (ie amyloid) or hypertrophic cardiomyopathy\n  * Uncontrolled atrial or ventricular arrhythmia\n  * Chronic oxygen use\n  * History of vasovagal syncope\n  * Considered inappropriate to participate by PI or Sub-I\n  * Healthy Volunteers (Controls)\n* Inclusion Criteria (Aim 1):\n\n  * Age greater than or equal to 30 yrs\n  * Able to speak English\n  * Ambulatory \\[assistive devices ok\\]\n  * Able to provide informed consent\n* Exclusion Criteria (Aim 1):\n\n  * Acute myocardial infarction (3-5 days)\n  * Unstable angina\n  * Uncontrolled arrhythmia causing symptoms or haemodynamic compromise\n  * Syncope\n  * Active endocarditis\n  * Acute myocarditis or pericarditis\n  * Symptomatic severe aortic aneurysm\n  * Uncontrolled asthma\n  * Arterial desaturation at rest on room air \\<85%\n  * Untreated left main stem coronary stenosis\n  * Asymptomatic severe aortic stenosis\n  * Severe untreated arterial hypertension at rest (\\>200 mm Hg systolic, \\>120 mm Hg diastolic)\n  * Tachyarrhythmias or bradyarrhythmias\n  * Hypertrophic cardiomyopathy\n  * Significant pulmonary hypertension\n  * Thrombosis of the lower extremity until treated for a minimum of 2 weeks\n  * Within 2 weeks of acute symptomatic pulmonary embolus\n  * Abdominal aortic aneurysm \\>8.0 cm\n  * Electrolyte abnormalities\n  * Pregnancy\n  * Inmate of correctional facility (i.e. prisoner)\n  * Diagnosed history of dementia\n  * Inability to ambulate independently\n  * Considered inappropriate to participate by Principal Investigator",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "30 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Hemming",
+          "affiliation": "Duke",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Duke University Medical Center",
+          "city": "Durham",
+          "state": "North Carolina",
+          "zip": "27710",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.99403,
+            "lon": -78.89862
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054144",
+          "term": "Heart Failure, Diastolic"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D015870",
+          "term": "Gene Expression"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D055614",
+          "term": "Genetic Phenomena"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

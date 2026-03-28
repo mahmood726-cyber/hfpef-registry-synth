@@ -1,0 +1,318 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06711003",
+      "orgStudyIdInfo": {
+        "id": "CMUH113-REC3-136"
+      },
+      "organization": {
+        "fullName": "China Medical University Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effectiveness of Enhanced External Counterpulsation for Post-acute Stroke Patients",
+      "officialTitle": "Effectiveness of Enhanced External Counterpulsation for Post-acute Stroke Patients"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-11",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-10-22",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-05-15",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-05-15",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-11-06",
+      "studyFirstSubmitQcDate": "2024-11-27",
+      "studyFirstPostDateStruct": {
+        "date": "2024-12-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-11-27",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-12-02",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "China Medical University Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this clinical trial is to learn if there benefits combine enhanced external counterpulsation (EECP) with the standard post-acute care (PAC) rehabilitation treatment to treat stroke patients.. The main questions it aims to answer are:\n\nWhat is the feasibility of combining EECP and PAC? Does EECP combined PAC rehabilitation improve functional outcomes of post-stroke patients? Researchers will compare standard PAC rehabilitation and EECP combined PAC rehabilitation to see if EECP has benefits to treat stroke."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cerebrovascular Accident (CVA)"
+      ],
+      "keywords": [
+        "Cerebrovascular Accident (CVA)",
+        "enhanced external counterpulsation",
+        "post-acute care"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 110,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "EECP+PAC",
+          "type": "EXPERIMENTAL",
+          "description": "Patients receive 35 times EECP treatments during standard PAC program.",
+          "interventionNames": [
+            "Device: enhanced external counterpulsation",
+            "Procedure: post acute care"
+          ]
+        },
+        {
+          "label": "PAC",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients receive standard PAC program.",
+          "interventionNames": [
+            "Procedure: post acute care"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "enhanced external counterpulsation",
+          "description": "Enhanced External Counterpulsation (EECP) is a non-invasive treatment primarily used for patients with angina or heart failure. It involves the application of pressure cuffs to the legs, which inflate and deflate in sync with the cardiac cycle. This enhances blood flow to the heart during diastole, the phase when the heart is resting between beats. The increased pressure promotes coronary artery perfusion, helping to improve oxygen delivery to the heart muscle, reduce angina symptoms, and enhance cardiovascular function. EECP is typically recommended for patients who are not good candidates for invasive procedures like angioplasty or bypass surgery, or for those seeking supplementary treatment for angina. Over time, it may promote the development of new blood vessels (collateral circulation), further improving heart health. The treatment is generally administered over several weeks in outpatient settings, with each session lasting around one hour.",
+          "armGroupLabels": [
+            "EECP+PAC"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "post acute care",
+          "description": "Post-Acute Care (PAC) for stroke patients focuses on improving functional independence, reducing disability, and preventing secondary complications.",
+          "armGroupLabels": [
+            "EECP+PAC",
+            "PAC"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Modified Rankin Scale (MRS)",
+          "description": "A 6 point disability scale with possible scores ranging from 0 to 5. A separate category of 6 is usually added for patients who expire. It is used to categorize level of functional independence with reference to pre-stroke activities. Activity limitations are difficulties in performance of activities.It can be documented by the physician/APN/PA, nurse (RN), medical assistant, or any individual trained to perform the mRS.",
+          "timeFrame": "0, 3, 6, 9 weeks"
+        },
+        {
+          "measure": "Barthel Activity Daily Living Index",
+          "description": "The Barthel Index-based Supplementary Scales assesses basic activities of daily living using three scales:actual performance, ability, and self-perceived difficulty. The score ranges the three scales (i.e., actual performance, ability, and self-perceived difficulty)is 0-20, 0-18, and 0-20, respectively. A higher score indicates better basic activities of daily living.",
+          "timeFrame": "0, 3, 6, 9 weeks"
+        },
+        {
+          "measure": "Lawton-Brody Instrumental Activity Daily Living scale",
+          "description": "It consists of 8 questions including information about telephone use, meal preparation, shopping, doing daily household chores, laundry, getting on transportation, traveling, medication use and management of finances.",
+          "timeFrame": "0, 3, 6, 9 weeks"
+        },
+        {
+          "measure": "Functional Oral Intake Scale",
+          "description": "The Functional Oral Intake Scale (FOIS) is a reliable and valid tool for assessing functional oral food and fluid intake in patients with oropharyngeal dysphagia (OD). Fois has seven levels, with higher levels indicating better swallowing function.",
+          "timeFrame": "0, 3, 6, 9 weeks"
+        },
+        {
+          "measure": "Mini Nutrition Assessment",
+          "description": "questionnaire score (maximum score 30): total score \\> 23.5 = normal nutritional status; total score \\< 23.5 = inadequate nutritional status",
+          "timeFrame": "0, 3, 6, 9 weeks"
+        },
+        {
+          "measure": "EuroQol Five Dimensions Questionnaire (EQ-5D)",
+          "description": "EuroQol Five Dimension 5-level (validated measure for health-related quality of life). This is a validated measure of health-related quality of life (HRQoL) (see references).\n\nSubjects are asked to rate the level of problems they experience related to 5 domains of HRQoL (mobility, self care, usual activities, pain/discomfort and anxiety/depression). There are 5 values to choose from in each domain (e.g. no problem, slight problem, moderate problem, severe problem, unable to). A higher score indicates a worse quality of life.\n\nEQ-5D scores are converted to overall utilities by averaging domains and weighting by the general public's valuation of the domains. A higher overall utility score for EQ-5D represents better HRQoL.",
+          "timeFrame": "0, 3, 6, 9 weeks"
+        },
+        {
+          "measure": "Berg Balance Scale (BBS)",
+          "description": "A testing tool with high validity ( 0.93) and reliability (0.98) was used to measure balance in the elderly. The Berg Balance Scale (BBS) is a valid tool. The total score for the BBS is 56 and a higher score means good balance. It will be measured at baseline, 4th week and 8th week.",
+          "timeFrame": "0, 3, 6, 9 weeks"
+        },
+        {
+          "measure": "Gait speed",
+          "description": "m/s",
+          "timeFrame": "0, 3, 6, 9 weeks"
+        },
+        {
+          "measure": "Mini Mental State Examination",
+          "description": "The Mini Mental State Examination general cognitive function. The score ranges is 0 to 30. A higher score indicates better general cognitive function.",
+          "timeFrame": "0, 3, 6, 9 weeks"
+        },
+        {
+          "measure": "Short Portable Mental Status Questionnaire (SPMSQ)",
+          "description": "Based on psychiatric examination using the Indonesian SPMSQ to determine patient's cognitive status. An SPMSQ test in which the patient demonstrated more than 3 mistakes implies mild cognitive impairment, whereas a mistake of greater than 8 implies dementia.",
+          "timeFrame": "0, 3, 6, 9 weeks"
+        },
+        {
+          "measure": "Fugl-Meyer Assessment",
+          "description": "The Fugl-Meyer Assessment scale is an index to assess the sensorimotor impairment in individuals who have had stroke. The score ranges is 0 to 226. A higher score indicates better body function.",
+          "timeFrame": "0, 3, 6, 9 weeks"
+        },
+        {
+          "measure": "Motor Activity Log",
+          "description": "The Motor Activity Log (MAL) is a semistructured interview for hemiparetic stroke patients to assess the use of their paretic arm and hand (amount of use \\[AOU\\]) and quality of movement \\[QOM\\]) during activities of daily living. Scores range from 0 to 5.",
+          "timeFrame": "0, 3, 6, 9 weeks"
+        },
+        {
+          "measure": "Albert's Test",
+          "description": "Albert's Test is is screening tool used to detect the presence of unilateral spatial neglect (USN) in patients with stroke. Patients cross out lines ruled in a standard fashion on a sheet of paper.",
+          "timeFrame": "0, 3, 6, 9 weeks"
+        },
+        {
+          "measure": "Canadian Occupational Performance Measure",
+          "description": "It is a semi-structured scale that helps to identify problematic areas of performance experienced by individuals and to measure their perceived occupational performance and satisfaction. This scale assesses the level of performance of self-care, productivity and leisure and satisfaction with these performances as perceived by the individual.",
+          "timeFrame": "0, 3, 6, 9 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "ankle-brachial index",
+          "description": "The ankle-brachial index test compares the blood pressure in the ankle with the blood pressure in the arm.",
+          "timeFrame": "0 and 9 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with acute cerebrovascular disease, within 1 month after acute attack.\n* Stable medical condition: (1). Neurological condition: The neurological condition has not deteriorated for more than 72 hours. (2). Vital signs including blood pressure, heartbeat, and body temperature are stable or controllable for more than 72 hours. (3). No complications such as infection, blood abnormalities, gastrointestinal bleeding, or stable or controllable after treatment.\n* Those whose functional status is moderate to moderately severe functional impairment (MRS 3-4) and who are judged by the medical team to have active rehabilitation potential: (1). Have basic cognition, learning ability and willingness. (2) Have sufficient physical strength: able to maintain a sitting position on a wheelchair or bed edge for at least one hour with support. (3). Be able to actively participate in rehabilitation treatment plans.\n* Aged over 20 years old\n\nExclusion Criteria:\n\n* Patients with atrial fibrillation/arrhythmia.\n* Within 2 weeks after cardiac catheterization or arterial puncture at the femoral artery puncture site.\n* Decompensated heart failure (NYHA class 3 or 4).\n* Left ventricular ejection fraction (EF) \\< 30%.\n* Moderate or severe aortic regurgitation.\n* Persistent and uncontrolled hypertension (blood pressure persistently \\>160/100 mmHg).\n* Bleeding tendency.\n* Active phlebitis/venous disease of the lower extremities.\n* Severe vascular occlusive disease of the lower extremities.\n* The presence of documented aortic aneurysm/dissection requiring surgical repair.\n* Pregnancy.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "20 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Li-Wei Chou, PhD",
+          "role": "CONTACT",
+          "phone": "886+975681612",
+          "email": "chouliwe@gmail.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "China Medical University Hospital Taichung East District Branch",
+          "status": "RECRUITING",
+          "city": "Taichung",
+          "country": "Taiwan",
+          "contacts": [
+            {
+              "name": "Li-Wei Chou",
+              "role": "CONTACT",
+              "phone": "886+975681612",
+              "email": "chouliwe@gmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 24.1469,
+            "lon": 120.6839
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D020521",
+          "term": "Stroke"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D002561",
+          "term": "Cerebrovascular Disorders"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D019467",
+          "term": "Subacute Care"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D005791",
+          "term": "Patient Care"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D006296",
+          "term": "Health Services"
+        },
+        {
+          "id": "D005159",
+          "term": "Health Care Facilities Workforce and Services"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

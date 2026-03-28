@@ -1,0 +1,2259 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05064709",
+      "orgStudyIdInfo": {
+        "id": "CA_CP_340"
+      },
+      "organization": {
+        "fullName": "Impulse Dynamics",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Assessment of CCM in HF With Higher Ejection Fraction",
+      "officialTitle": "Assessment of Implantable CCM in the Heart Failure Group With Higher Ejection Fraction",
+      "acronym": "AIM HIGHer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-02-03",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2029-02-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-02-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-09-21",
+      "studyFirstSubmitQcDate": "2021-09-30",
+      "studyFirstPostDateStruct": {
+        "date": "2021-10-01",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-14",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Impulse Dynamics",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The AIM HIGHer Clinical Trial will evaluate the safety and efficacy of Cardiac Contractility Modulation (CCM) therapy in patients with heart failure with LVEF ≥40% and ≤70%.",
+      "detailedDescription": "The AIM HIGHer Clinical Trial is a prospective, multi-center, randomized, quadruple-blind, sham-controlled, two-part embedded trial of the safety and efficacy of CCM therapy delivered via the OPTIMIZER Smart Mini System in subjects with heart failure and an LVEF ≥40% and ≤70%. Subjects will be enrolled at approximately 150 sites in the US and 75 sites OUS.\n\nAll subjects will undergo screening and baseline testing; all eligible subjects will be implanted with the Optimizer System. Subjects will be randomized in a 2:1 ratio to either CCM ON (CCM group) or to CCM OFF (Sham group). The trial will be blinded to the treatment assignment of the device for 18-months. Subjects in the Sham group will have CCM turned ON after completion of the 18-month study visit. Subjects enrolled during Part I (450 subjects) of the trial will continue follow-up through the end of Part II (up to an additional 1,050) and contribute data to both parts of the trial. Each part of the trial is distinguished by a separate scientific purpose. The specific purpose of each part is:\n\nPart I - Establish safety and effectiveness based on functional capacity and health status.\n\nPart II - Establish safety and effectiveness based on clinical outcome data."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure",
+        "Heart Failure With Preserved Ejection Fraction",
+        "Heart Failure With Mid Range Ejection Fraction",
+        "Heart Failure With Moderately Reduced Ejection Fraction",
+        "Diastolic Heart Failure"
+      ],
+      "keywords": [
+        "HFpEF",
+        "Heart failure",
+        "CCM",
+        "CCM therapy",
+        "cardiac contractility modulation",
+        "symptomatic heart failure",
+        "left ventricular ejection fraction",
+        "LVEF",
+        "Optimizer",
+        "Optimizer Smart Mini",
+        "Quality of Life"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Multicenter, multi-national, randomized, quadruple-blind, sham controlled, 2-part, embedded IDE clinical trial",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "In addition to the subject, the entire site research team, the implanting physician, the Clinical Events Committee (CEC), and the clinical study monitors will all be blinded to the treatment assignment. Site research staff and Impulse Dynamics monitoring personnel will not have viewing rights to the randomization assignment.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1500,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "CCM Group (CCM ON)",
+          "type": "EXPERIMENTAL",
+          "description": "CCM therapy will be turned on in 2/3 of the subjects for the entire duration of the study.",
+          "interventionNames": [
+            "Device: Cardiac Contractility Modulation Therapy via OPTIMIZER™ Smart Mini System"
+          ]
+        },
+        {
+          "label": "Sham Group (CCM OFF)",
+          "type": "SHAM_COMPARATOR",
+          "description": "CCM therapy will be turned off in 1/3 of the subjects for the first 18 months of the study. After 18 months, CCM therapy will be turned on for the rest of the study duration.",
+          "interventionNames": [
+            "Device: OPTIMIZER™ Smart Mini System"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Cardiac Contractility Modulation Therapy via OPTIMIZER™ Smart Mini System",
+          "description": "The OPTIMIZER™ Smart Mini System will be implanted and CCM will be programmed ON for the first 18 months (blinded phase). CCM therapy will be programmed to deliver 7 one-hour phases of CCM therapy that are distributed equally over every 24-hour period. CCM will remain on following completion of the 18-month visit.",
+          "armGroupLabels": [
+            "CCM Group (CCM ON)"
+          ],
+          "otherNames": [
+            "CCM Group (CCM ON)"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "OPTIMIZER™ Smart Mini System",
+          "description": "The OPTIMIZER™ Smart Mini System will be implanted and CCM will be programmed OFF for the first 18 months (blinded phase). CCM will be turned on following completion of the 18-month visit.",
+          "armGroupLabels": [
+            "Sham Group (CCM OFF)"
+          ],
+          "otherNames": [
+            "Sham Group (CCM OFF)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Part 1 Efficacy Endpoint - Change in 6-minute walk distance (6MWD) from baseline to 6 months.",
+          "description": "Demonstrate that CCM therapy improves functional capacity in subjects with symptomatic heart failure with LVEF ≥40% and ≤70%. Compare the changes in functional capacity, as measured by the 6-minute walk distance (6MWD), from baseline to 6-months following the randomization date between the two study groups.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Part 1 Efficacy Endpoint - Change in the health status from baseline to 6 months as assessed by the Kansas City Cardiomyopathy Questionnaire Clinical Summary Score (KCCQ CSS).",
+          "description": "Demonstrate that CCM therapy improves health status in subjects with symptomatic heart failure with LVEF ≥40% and ≤60%. Compare the changes in health status, as measured by the KCCQ CSS, from baseline to 6-months following the randomization date between the two study groups.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Part 1 Safety Endpoint - The incidence of Optimizer device- or procedure-related complications within the first 12 months after implant",
+          "description": "Compare the composite incidence of Optimizer device-related and procedure-related SAEs (complications) for available data collected from implant to 12 months after the Optimizer implantation procedure to a performance goal of 75% free of complications.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Part 2 Endpoint - The hierarchical composite of mortality, morbidity, and health status outcomes (KCCQ CSS).",
+          "description": "Demonstrate that CCM therapy improves a composite endpoint of cardiovascular mortality at 18-months, heart failure hospitalizations at 18-months, urgent heart failure visits requiring IV diuretics at 18-months and the Kansas City Cardiomyopathy Questionnaire Clinical Summary Score (KCCQ CSS) at 12-months. Comparison of a hierarchical composite endpoint between the two study groups will be based on the Finkelstein-Schoenfeld global rank method.",
+          "timeFrame": "18 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Signed and dated informed consent form;\n2. Male or non-pregnant female, 18 years or older;\n3. Diagnosed with symptomatic heart failure;\n4. LVEF ≥40 and ≤70% (as assessed by site echo);\n5. A. Heart failure hospitalization within 12 months prior to study consent OR an urgent heart failure visit requiring IV therapy within 6 months prior to study consent OR B. If there is no heart failure hospitalization within 12 months prior to study consent OR an urgent heart failure visit requiring IV therapy within 6 months prior to study consent, an elevated BMI-adjusted natriuretic peptide value must be achieved (Refer to Table 1 in Section 9.2.6)\n6. Subjects must meet one of the following conditions:\n\n   * Have stable, scheduled oral loop diuretic treatment (not just PRN) for a minimum of 30 days before providing study consent unless there is a documented allergy or intolerance.\n   * Eligibility for enrollment is maintained for patients on an SGLT2 inhibitor without prescribed concurrent standing loop diuretic therapy if investigators provide instructions for a flexible PRN diuretic regimen (deemed appropriate by the clinician in response to symptoms or weight gain) Note: Stable is defined as no more than a 100% increase or 50% decrease in dose within the last 30 days. A one-time hold of diuretic dosing for 24 hours during the 30-day period is allowed and not an exclusionary event.\n\nExclusion Criteria:\n\n1. Resting ventricular rate \\<50 or \\>110 bpm;\n2. Resting systolic blood pressure \\<100 or ≥160 mmHg;\n3. BMI greater than 46\n4. Any severe valvular stenotic disease or any severe valvular regurgitation;\n5. Mechanical tricuspid valve;\n6. Complex congenital heart disease;\n7. Exercise tolerance limited by a condition other than heart failure that, in the opinion of the investigator, contributes significantly to the primary symptoms of shortness of breath and/or exercise intolerance;\n8. Unable to walk at least 100 meters or walks more than 450 meters during a 6MWT;\n9. A KCCQ CCS score higher than 85;\n10. Hypertrophic, infiltrative/restrictive or inflammatory cardiomyopathy;\n11. Unstable angina pectoris within 30 days prior to study consent;\n12. Acute, decompensated heart failure requiring IV therapy or ultrafiltration within 30 days prior to consent, in the hospital or an outpatient setting;\n13. Receiving cardiac resynchronization therapy (CRT); NOTE: Subjects with active/ongoing cardiac resynchronization therapy (CRT) implanted more than one year ago are eligible for inclusion if they are currently classified as NYHA class III or higher.\n14. Scheduled for a cardiac surgery or a percutaneous cardiac intervention (PCI) or have undergone cardiac surgery within 90 days or a PCI procedure within 30 days prior to study consent;\n15. Myocardial infarction within 90 days prior to study consent;\n16. Prior heart transplant or ventricular assist device;\n17. Planning to become pregnant during the study;\n18. Dialysis (permanent) or GFR \\<15 ml/min/1.73m2;\n19. Participating in another investigational drug or device study that may interfere with the interpretation of study data;\n20. Currently undergoing active chemotherapeutic and/or radiation treatment for cancer or has a history of chemotherapy during the 2-year period prior to study consent;\n21. Expected lifespan of less than 18 months from time of study consent;\n22. Unable to follow through study protocol for any reasons in the investigator's judgement.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Rachael Riccitello",
+          "role": "CONTACT",
+          "phone": "856-434-7981",
+          "email": "aimhigher@impulsedynamics.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Javed Butler, MD, MPH, MBA",
+          "affiliation": "Baylor Scott and White Research Institute, Dallas, Texas",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Oussama Wazni, MD, MBA",
+          "affiliation": "Department of Cardiovascular Medicine, Cleveland Clinic, Cleveland, Ohio, USA",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Grandview Medical Group Research, LLC",
+          "status": "RECRUITING",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35243",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Lauren Bryant",
+              "role": "CONTACT",
+              "phone": "2059717553",
+              "email": "lauren.bryant@grandviewhealth.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "The University of Alabama at Birmingham",
+          "status": "WITHDRAWN",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35294",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "CardioVascular Associates of Mesa",
+          "status": "RECRUITING",
+          "city": "Mesa",
+          "state": "Arizona",
+          "zip": "85206",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Adam Gitkin",
+              "role": "CONTACT",
+              "phone": "4806415400",
+              "phoneExt": "2107",
+              "email": "agitkin@cvam.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.42227,
+            "lon": -111.82264
+          }
+        },
+        {
+          "facility": "Chan Heart Rhythm Institute",
+          "status": "RECRUITING",
+          "city": "Mesa",
+          "state": "Arizona",
+          "zip": "85206",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Olivia Rivera",
+              "role": "CONTACT",
+              "email": "olivia@chanheartrhythm.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.42227,
+            "lon": -111.82264
+          }
+        },
+        {
+          "facility": "Southwest Cardiovascular Associates",
+          "status": "RECRUITING",
+          "city": "Mesa",
+          "state": "Arizona",
+          "zip": "85208",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Kim Helgeson",
+              "role": "CONTACT",
+              "phone": "4809454343",
+              "phoneExt": "244",
+              "email": "khelgeson@swcva.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.42227,
+            "lon": -111.82264
+          }
+        },
+        {
+          "facility": "Banner Health- Phoenix",
+          "status": "WITHDRAWN",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85006",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        },
+        {
+          "facility": "Arizona Heart Rhythm",
+          "status": "RECRUITING",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85016",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Brandon Buscaglia",
+              "role": "CONTACT",
+              "email": "bbuscaglia@azheartrhythm.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        },
+        {
+          "facility": "Cardiovascular Consultants, Ltd",
+          "status": "RECRUITING",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85032",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Helen Foughi",
+              "role": "CONTACT",
+              "email": "hfoughi@insightmedr.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        },
+        {
+          "facility": "HonorHealth",
+          "status": "RECRUITING",
+          "city": "Scottsdale",
+          "state": "Arizona",
+          "zip": "85258",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Rachel Hultman",
+              "role": "CONTACT",
+              "email": "rhultman@honorhealth.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.50921,
+            "lon": -111.89903
+          }
+        },
+        {
+          "facility": "Pima Heart and Vascular",
+          "status": "RECRUITING",
+          "city": "Tuscon",
+          "state": "Arizona",
+          "zip": "85712",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Monica Varela",
+              "role": "CONTACT",
+              "phone": "5203294139",
+              "email": "monica.varela@pimaheartandvascular.com"
+            }
+          ]
+        },
+        {
+          "facility": "John Muir Health",
+          "status": "RECRUITING",
+          "city": "Concord",
+          "state": "California",
+          "zip": "94520",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Rita Trachuk",
+              "role": "CONTACT",
+              "email": "rita.trachuk@johnmuirhealth.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.97798,
+            "lon": -122.03107
+          }
+        },
+        {
+          "facility": "Northbay Heart and Vascular",
+          "status": "WITHDRAWN",
+          "city": "Fairfield",
+          "state": "California",
+          "zip": "94533",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.24936,
+            "lon": -122.03997
+          }
+        },
+        {
+          "facility": "University of California San Diego",
+          "status": "RECRUITING",
+          "city": "La Jolla",
+          "state": "California",
+          "zip": "92093",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Kendell Oliver",
+              "role": "CONTACT",
+              "email": "k4oliver@health.ucsd.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.84727,
+            "lon": -117.2742
+          }
+        },
+        {
+          "facility": "USC Keck School of Medicine",
+          "status": "RECRUITING",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90033",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Melissa Ramos",
+              "role": "CONTACT",
+              "email": "melissa.ramos@med.usc.edu"
+            },
+            {
+              "name": "Silvia Perez",
+              "role": "CONTACT",
+              "email": "silvia.perez@med.usc.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Cedars Sinai Medical Center",
+          "status": "RECRUITING",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90048",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Goran Stankovic",
+              "role": "CONTACT",
+              "email": "goran.stankovic@cshs.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Valley Clinical Trials Pasadena",
+          "status": "WITHDRAWN",
+          "city": "Northridge",
+          "state": "California",
+          "zip": "91325",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.22834,
+            "lon": -118.53675
+          }
+        },
+        {
+          "facility": "Valley Clinical Trials- Northridge",
+          "status": "RECRUITING",
+          "city": "Northridge",
+          "state": "California",
+          "zip": "91325",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Haydee Gutierrez",
+              "role": "CONTACT",
+              "email": "haydee@valleyclinicaltrials.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.22834,
+            "lon": -118.53675
+          }
+        },
+        {
+          "facility": "Sequoia Hospital",
+          "status": "RECRUITING",
+          "city": "Redwood City",
+          "state": "California",
+          "zip": "94062",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Juanita Fujii",
+              "role": "CONTACT",
+              "email": "juanita.fujii@commonspirit.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.48522,
+            "lon": -122.23635
+          }
+        },
+        {
+          "facility": "University of California Davis Health",
+          "status": "WITHDRAWN",
+          "city": "Sacramento",
+          "state": "California",
+          "zip": "95817",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.58157,
+            "lon": -121.4944
+          }
+        },
+        {
+          "facility": "University of California, San Francisco",
+          "status": "WITHDRAWN",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94143",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "Nuvance Health - Danbury Hospital",
+          "status": "RECRUITING",
+          "city": "Danbury",
+          "state": "Connecticut",
+          "zip": "06810",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Tricia Landi",
+              "role": "CONTACT",
+              "email": "tricia.landi@nuvancehealth.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.39482,
+            "lon": -73.45401
+          }
+        },
+        {
+          "facility": "Hartford Healthcare",
+          "status": "RECRUITING",
+          "city": "Hartford",
+          "state": "Connecticut",
+          "zip": "06103",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jennifer Rossi",
+              "role": "CONTACT",
+              "email": "jennifer.rossi@hhchealth.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.76371,
+            "lon": -72.68509
+          }
+        },
+        {
+          "facility": "HCA Florida JFK Hospital",
+          "status": "RECRUITING",
+          "city": "Atlantis",
+          "state": "Florida",
+          "zip": "33462",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Elizabeth Diebel",
+              "role": "CONTACT",
+              "email": "Elizabeth.Diebel@hcahealthcare.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 26.5909,
+            "lon": -80.10088
+          }
+        },
+        {
+          "facility": "Nouvelle Clinical Research LLC",
+          "status": "RECRUITING",
+          "city": "Cutler Bay",
+          "state": "Florida",
+          "zip": "33189",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Alexander Cabrera",
+              "role": "CONTACT",
+              "email": "acabrera@nouvelleclinicalresearch.com"
+            },
+            {
+              "name": "Nilda Cespedes",
+              "role": "CONTACT",
+              "email": "ncespedes@nouvelleclinicalresearch.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 25.5783,
+            "lon": -80.3377
+          }
+        },
+        {
+          "facility": "Holy Cross Hospital",
+          "status": "WITHDRAWN",
+          "city": "Fort Lauderdale",
+          "state": "Florida",
+          "zip": "33308",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.12231,
+            "lon": -80.14338
+          }
+        },
+        {
+          "facility": "Broward Health",
+          "status": "RECRUITING",
+          "city": "Fort Lauderdale",
+          "state": "Florida",
+          "zip": "33316",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Laura Hudson",
+              "role": "CONTACT",
+              "email": "lhudson@browardhealth.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 26.12231,
+            "lon": -80.14338
+          }
+        },
+        {
+          "facility": "Memorial Healthcare System",
+          "status": "WITHDRAWN",
+          "city": "Hollywood",
+          "state": "Florida",
+          "zip": "33021",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.0112,
+            "lon": -80.14949
+          }
+        },
+        {
+          "facility": "Baptist Health South Florida",
+          "status": "RECRUITING",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33176",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jetsenea Coto",
+              "role": "CONTACT",
+              "phone": "7865962421",
+              "email": "jetseneac@baptisthealth.net"
+            }
+          ],
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        },
+        {
+          "facility": "NCA Research Institute - Florida",
+          "status": "WITHDRAWN",
+          "city": "Naples",
+          "state": "Florida",
+          "zip": "34102",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.14234,
+            "lon": -81.79596
+          }
+        },
+        {
+          "facility": "AdventHealth Orlando",
+          "status": "RECRUITING",
+          "city": "Orlando",
+          "state": "Florida",
+          "zip": "32803",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Chanti Garvey",
+              "role": "CONTACT",
+              "email": "chantie.garvey@adventhealth.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 28.53834,
+            "lon": -81.37924
+          }
+        },
+        {
+          "facility": "Revival Clinical Research",
+          "status": "RECRUITING",
+          "city": "Orlando",
+          "state": "Florida",
+          "zip": "32807",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Joseniesse Figueroa",
+              "role": "CONTACT",
+              "email": "jfigueroa@revivalclinical.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 28.53834,
+            "lon": -81.37924
+          }
+        },
+        {
+          "facility": "Tallahassee Research Institute",
+          "status": "WITHDRAWN",
+          "city": "Tallahassee",
+          "state": "Florida",
+          "zip": "32308",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.43826,
+            "lon": -84.28073
+          }
+        },
+        {
+          "facility": "Cleveland Clinic Foundation - Florida Weston Hospital",
+          "status": "RECRUITING",
+          "city": "Weston",
+          "state": "Florida",
+          "zip": "33326",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Maria Mejia Gomez",
+              "role": "CONTACT",
+              "email": "MEJIAGM@ccf.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 26.10037,
+            "lon": -80.39977
+          }
+        },
+        {
+          "facility": "Piedmont Healthcare",
+          "status": "WITHDRAWN",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30309",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "WellStar Health System, Inc",
+          "status": "RECRUITING",
+          "city": "Marietta",
+          "state": "Georgia",
+          "zip": "30062",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jessica Drury",
+              "role": "CONTACT",
+              "email": "jessica.drury@wellstar.org"
+            },
+            {
+              "name": "Denise Grove",
+              "role": "CONTACT",
+              "email": "dgrove@wellspan.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.9526,
+            "lon": -84.54993
+          }
+        },
+        {
+          "facility": "Franciscan Health Indianapolis",
+          "status": "WITHDRAWN",
+          "city": "Indianapolis",
+          "state": "Indiana",
+          "zip": "46237",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.76838,
+            "lon": -86.15804
+          }
+        },
+        {
+          "facility": "Ascension Medical Group St. Vincent",
+          "status": "RECRUITING",
+          "city": "Indianapolis",
+          "state": "Indiana",
+          "zip": "46260",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Sabrina Rotondo",
+              "role": "CONTACT",
+              "email": "sabrina.rotondo@ascension.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.76838,
+            "lon": -86.15804
+          }
+        },
+        {
+          "facility": "University of Iowa",
+          "status": "RECRUITING",
+          "city": "Iowa City",
+          "state": "Iowa",
+          "zip": "52242",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Trisha Elliott",
+              "role": "CONTACT",
+              "email": "trisha-elliott@uiowa.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.66113,
+            "lon": -91.53017
+          }
+        },
+        {
+          "facility": "MercyOne Iowa Heart",
+          "status": "RECRUITING",
+          "city": "West Des Moines",
+          "state": "Iowa",
+          "zip": "50266",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Cayla Garner",
+              "role": "CONTACT",
+              "email": "cayla.barnhart@commonspirit.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.57721,
+            "lon": -93.71133
+          }
+        },
+        {
+          "facility": "University of Kansas Medical Center",
+          "status": "RECRUITING",
+          "city": "Kansas City",
+          "state": "Kansas",
+          "zip": "66160",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Quratulain (Annie) Mushtaq",
+              "role": "CONTACT",
+              "phone": "9139456488",
+              "email": "qmushtaq@kumc.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.11417,
+            "lon": -94.62746
+          }
+        },
+        {
+          "facility": "Kansas City Cardiac Arrhythmia Research LLC",
+          "status": "RECRUITING",
+          "city": "Overland Park",
+          "state": "Kansas",
+          "zip": "66211",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Donita Atkins",
+              "role": "CONTACT",
+              "email": "donita.atkins@hcahealthcare.com"
+            },
+            {
+              "name": "Jenny Bush",
+              "role": "CONTACT",
+              "email": "jennifer.bush2@hcahealthcare.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.98223,
+            "lon": -94.67079
+          }
+        },
+        {
+          "facility": "Baptist Health Lexington",
+          "status": "RECRUITING",
+          "city": "Lexington",
+          "state": "Kentucky",
+          "zip": "40503",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Kristie Schneider",
+              "role": "CONTACT",
+              "phone": "8592606429",
+              "email": "kschneid@bhsi.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.98869,
+            "lon": -84.47772
+          }
+        },
+        {
+          "facility": "University of Kentucky Research Foundation",
+          "status": "RECRUITING",
+          "city": "Lexington",
+          "state": "Kentucky",
+          "zip": "40506",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Ronald Smith",
+              "role": "CONTACT",
+              "email": "Ronald.t.smith@uky.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.98869,
+            "lon": -84.47772
+          }
+        },
+        {
+          "facility": "Ochsner Clinic Foundation",
+          "status": "WITHDRAWN",
+          "city": "New Orleans",
+          "state": "Louisiana",
+          "zip": "70121",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.95465,
+            "lon": -90.07507
+          }
+        },
+        {
+          "facility": "Massachusetts General Hospital",
+          "status": "RECRUITING",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02114",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Chinemerem Nwokemodo-Ihejirika",
+              "role": "CONTACT",
+              "email": "cnwokemodo-ihejirika@mgh.harvard.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "University of Michigan",
+          "status": "RECRUITING",
+          "city": "Ann Arbor",
+          "state": "Michigan",
+          "zip": "48113",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Kirsta Bray",
+              "role": "CONTACT",
+              "email": "kibray@med.umich.edu"
+            },
+            {
+              "name": "Thomas Crawford, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.27756,
+            "lon": -83.74088
+          }
+        },
+        {
+          "facility": "Henry Ford St. John Hospital",
+          "status": "RECRUITING",
+          "city": "Detroit",
+          "state": "Michigan",
+          "zip": "48236",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Renee Bess",
+              "role": "CONTACT",
+              "email": "renee.bess@ascension.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.33143,
+            "lon": -83.04575
+          }
+        },
+        {
+          "facility": "Ascension Providence Hospital",
+          "status": "RECRUITING",
+          "city": "Southfield",
+          "state": "Michigan",
+          "zip": "48075",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Candice Edillo",
+              "role": "CONTACT",
+              "email": "candice.edillo@ascension.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.47337,
+            "lon": -83.22187
+          }
+        },
+        {
+          "facility": "Trinity health- Michigan Heart",
+          "status": "RECRUITING",
+          "city": "Ypsilanti",
+          "state": "Michigan",
+          "zip": "48197",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Autumn Howe",
+              "role": "CONTACT",
+              "email": "ahowe@michiganheart.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.24115,
+            "lon": -83.61299
+          }
+        },
+        {
+          "facility": "Minneapolis Heart Institute at Abbott Northwestern Hospital",
+          "status": "RECRUITING",
+          "city": "Minneapolis",
+          "state": "Minnesota",
+          "zip": "55407",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jessica Whelan",
+              "role": "CONTACT",
+              "phone": "6128631661",
+              "email": "jessica.whelan@allina.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.97997,
+            "lon": -93.26384
+          }
+        },
+        {
+          "facility": "North Mississippi Medical Center",
+          "status": "WITHDRAWN",
+          "city": "Tupelo",
+          "state": "Mississippi",
+          "zip": "38801",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.25807,
+            "lon": -88.70464
+          }
+        },
+        {
+          "facility": "St. Louis Heart and Vascular",
+          "status": "RECRUITING",
+          "city": "Bridgeton",
+          "state": "Missouri",
+          "zip": "63044",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Paige Brown",
+              "role": "CONTACT",
+              "phone": "3147410911",
+              "phoneExt": "4044",
+              "email": "pbrown@slhv.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.767,
+            "lon": -90.41151
+          }
+        },
+        {
+          "facility": "St. Luke&#39;s Hospital",
+          "status": "WITHDRAWN",
+          "city": "Chesterfield",
+          "state": "Missouri",
+          "zip": "63017",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.66311,
+            "lon": -90.57707
+          }
+        },
+        {
+          "facility": "St. Lukes Hospital Kansas City (Mid America Heart Institute)",
+          "status": "RECRUITING",
+          "city": "Kansas City",
+          "state": "Missouri",
+          "zip": "64111",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Amanda Huffman",
+              "role": "CONTACT",
+              "email": "ahuffman@saint-lukes.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.09973,
+            "lon": -94.57857
+          }
+        },
+        {
+          "facility": "Bryan Heart",
+          "status": "RECRUITING",
+          "city": "Lincoln",
+          "state": "Nebraska",
+          "zip": "68506",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Nicci Thompson",
+              "role": "CONTACT",
+              "email": "nicci.thompson@bryanheart.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.8,
+            "lon": -96.66696
+          }
+        },
+        {
+          "facility": "University of Nebraska Medical Center",
+          "status": "WITHDRAWN",
+          "city": "Omaha",
+          "state": "Nebraska",
+          "zip": "68198-5331",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.25626,
+            "lon": -95.94043
+          }
+        },
+        {
+          "facility": "Catholic Medical Center",
+          "status": "WITHDRAWN",
+          "city": "Manchester",
+          "state": "New Hampshire",
+          "zip": "03102",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.99564,
+            "lon": -71.45479
+          }
+        },
+        {
+          "facility": "Our Lady of Lourdes",
+          "status": "RECRUITING",
+          "city": "Camden",
+          "state": "New Jersey",
+          "zip": "08103",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Marisa Brown",
+              "role": "CONTACT",
+              "phone": "8563551226",
+              "email": "mbrown3@virtua.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.92595,
+            "lon": -75.11962
+          }
+        },
+        {
+          "facility": "Hackensack University Medical Center",
+          "status": "WITHDRAWN",
+          "city": "Edison",
+          "state": "New Jersey",
+          "zip": "08837",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.51872,
+            "lon": -74.4121
+          }
+        },
+        {
+          "facility": "Jersey Shore University Medical Center",
+          "status": "WITHDRAWN",
+          "city": "Edison",
+          "state": "New Jersey",
+          "zip": "08837",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.51872,
+            "lon": -74.4121
+          }
+        },
+        {
+          "facility": "Cooper Hospital- Cardiovascular Associates of Delaware Valley",
+          "status": "RECRUITING",
+          "city": "Haddon Heights",
+          "state": "New Jersey",
+          "zip": "08035",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Erin Siderio",
+              "role": "CONTACT",
+              "phone": "8565822000",
+              "phoneExt": "5207",
+              "email": "esiderio@hearthousenj.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.87734,
+            "lon": -75.06462
+          }
+        },
+        {
+          "facility": "Atlantic Health System- Morristown Medical Center",
+          "status": "RECRUITING",
+          "city": "Morristown",
+          "state": "New Jersey",
+          "zip": "07960",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Diane Agar",
+              "role": "CONTACT",
+              "phone": "9739714205",
+              "email": "diane.agar@atlantichealth.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.79677,
+            "lon": -74.48154
+          }
+        },
+        {
+          "facility": "Rutgers New Jersey Medical School",
+          "status": "WITHDRAWN",
+          "city": "Piscataway",
+          "state": "New Jersey",
+          "zip": "08854",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.49927,
+            "lon": -74.39904
+          }
+        },
+        {
+          "facility": "AtlantiCare Regional Medical Center",
+          "status": "RECRUITING",
+          "city": "Pomona",
+          "state": "New Jersey",
+          "zip": "08240",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jackie White",
+              "role": "CONTACT",
+              "phone": "609-652-3550",
+              "email": "jmwhite@atlanticare.org"
+            },
+            {
+              "name": "Alison Hallam",
+              "role": "CONTACT",
+              "phone": "609-652-3550",
+              "email": "ahallam@atlanticare.org"
+            },
+            {
+              "name": "Haitham Dib, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.47845,
+            "lon": -74.57516
+          }
+        },
+        {
+          "facility": "Buffalo General",
+          "status": "RECRUITING",
+          "city": "Buffalo",
+          "state": "New York",
+          "zip": "14203",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Courtney Bishop",
+              "role": "CONTACT",
+              "phone": "716-888-4859",
+              "email": "cabishop@buffalo.edu"
+            },
+            {
+              "name": "Robert Cimato, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.88645,
+            "lon": -78.87837
+          }
+        },
+        {
+          "facility": "Weill Cornell Medicine",
+          "status": "WITHDRAWN",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10021",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Nuvance Health - Heart & Vascular Institute/Hudson Valley Cardiovascular Practice, PC",
+          "status": "RECRUITING",
+          "city": "Poughkeepsie",
+          "state": "New York",
+          "zip": "12601",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Tricia Landi",
+              "role": "CONTACT",
+              "phone": "845-473-8675",
+              "email": "tricia.landi@nuvancehealth.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.70037,
+            "lon": -73.92097
+          }
+        },
+        {
+          "facility": "Nuvance Health - Vassar brothers Medical Center",
+          "status": "RECRUITING",
+          "city": "Poughkeepsie",
+          "state": "New York",
+          "zip": "12601",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Tricia Landi",
+              "role": "CONTACT",
+              "phone": "845-473-8675",
+              "email": "tricia.landi@nuvancehealth.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.70037,
+            "lon": -73.92097
+          }
+        },
+        {
+          "facility": "Sanger Heart and Vascular",
+          "status": "WITHDRAWN",
+          "city": "Charlotte",
+          "state": "North Carolina",
+          "zip": "28203",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.22709,
+            "lon": -80.84313
+          }
+        },
+        {
+          "facility": "TriHealth Bethesda",
+          "status": "WITHDRAWN",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "University Hospitals Cleveland Medical Center",
+          "status": "WITHDRAWN",
+          "city": "Cleveland",
+          "state": "Ohio",
+          "zip": "44106",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.4995,
+            "lon": -81.69541
+          }
+        },
+        {
+          "facility": "Cleveland Clinic Foundation",
+          "status": "RECRUITING",
+          "city": "Cleveland",
+          "state": "Ohio",
+          "zip": "44195",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Barbara Gus",
+              "role": "CONTACT",
+              "email": "gusb@ccf.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.4995,
+            "lon": -81.69541
+          }
+        },
+        {
+          "facility": "Ohio State University Wexner Medical Center",
+          "status": "RECRUITING",
+          "city": "Columbus",
+          "state": "Ohio",
+          "zip": "43210",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Maeve McLoughlin",
+              "role": "CONTACT",
+              "phone": "6142924084",
+              "email": "maeve.mcloughlin@osumc.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.96118,
+            "lon": -82.99879
+          }
+        },
+        {
+          "facility": "OhioHealth Research Institute",
+          "status": "RECRUITING",
+          "city": "Columbus",
+          "state": "Ohio",
+          "zip": "43214",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Reem (Mimi) Bekheet",
+              "role": "CONTACT",
+              "email": "reem.bekheet@ohiohealth.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.96118,
+            "lon": -82.99879
+          }
+        },
+        {
+          "facility": "Mercy Health- St. Vincent Medical Center LLC",
+          "status": "WITHDRAWN",
+          "city": "Toledo",
+          "state": "Ohio",
+          "zip": "43608",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.66394,
+            "lon": -83.55521
+          }
+        },
+        {
+          "facility": "Oklahoma Heart Institute",
+          "status": "RECRUITING",
+          "city": "Tulsa",
+          "state": "Oklahoma",
+          "zip": "74104",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Colene Holland son",
+              "role": "CONTACT",
+              "email": "colene.hollandson@oklahomaheart.com"
+            },
+            {
+              "name": "Miriam Brooks",
+              "role": "CONTACT",
+              "email": "miriam.brooks@oklahomaheart.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 36.15398,
+            "lon": -95.99277
+          }
+        },
+        {
+          "facility": "St. Francis Hospital - Tulsa",
+          "status": "RECRUITING",
+          "city": "Tulsa",
+          "state": "Oklahoma",
+          "zip": "74136",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Martha Dixon",
+              "role": "CONTACT",
+              "phone": "918-671-8660",
+              "email": "mdixon2@saintfrancis.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 36.15398,
+            "lon": -95.99277
+          }
+        },
+        {
+          "facility": "Providence Heart & Vascular",
+          "status": "RECRUITING",
+          "city": "Portland",
+          "state": "Oregon",
+          "zip": "97225",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Sarah Jackson",
+              "role": "CONTACT",
+              "email": "sarah.jackson3@providence.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.52345,
+            "lon": -122.67621
+          }
+        },
+        {
+          "facility": "Bryn Mawr Medical Specialists Association",
+          "status": "RECRUITING",
+          "city": "Bryn Mawr",
+          "state": "Pennsylvania",
+          "zip": "19010",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Morgan Battiste",
+              "role": "CONTACT",
+              "email": "mbattiste@bmmsa.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.30396,
+            "lon": -80.08672
+          }
+        },
+        {
+          "facility": "UPMC Pinnacle Harrisburg",
+          "status": "WITHDRAWN",
+          "city": "Harrisburg",
+          "state": "Pennsylvania",
+          "zip": "17110",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.2737,
+            "lon": -76.88442
+          }
+        },
+        {
+          "facility": "Penn State Hershey Medical City",
+          "status": "RECRUITING",
+          "city": "Hershey",
+          "state": "Pennsylvania",
+          "zip": "17033",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Lisa Fox",
+              "role": "CONTACT",
+              "email": "lfox5@pennstatehealth.psu.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.28592,
+            "lon": -76.65025
+          }
+        },
+        {
+          "facility": "Lancaster General Hospital",
+          "status": "WITHDRAWN",
+          "city": "Lancaster",
+          "state": "Pennsylvania",
+          "zip": "17602",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.03788,
+            "lon": -76.30551
+          }
+        },
+        {
+          "facility": "Penn Presbyterian Medical Center",
+          "status": "RECRUITING",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19104-6061",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Katie Shoemaker",
+              "role": "CONTACT",
+              "email": "katie.shoemaker@pennmedicine.upenn.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Hospital of the University of Pennsylvania",
+          "status": "RECRUITING",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19104",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Emily Marvel",
+              "role": "CONTACT",
+              "email": "emily.marvel@pennmedicine.upenn.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Thomas Jefferson University Hospital",
+          "status": "RECRUITING",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19107",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Blaire Cain",
+              "role": "CONTACT",
+              "phone": "484-756-0929",
+              "email": "blaire.cain@jefferson.edu"
+            },
+            {
+              "name": "Susan Joseph, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Temple University Hospital",
+          "status": "RECRUITING",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19140",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Kriti Rawat",
+              "role": "CONTACT",
+              "email": "kriti.rawat@temple.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Allegheny General Hospital",
+          "status": "RECRUITING",
+          "city": "Pittsburgh",
+          "state": "Pennsylvania",
+          "zip": "15212",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Kelly Kuniak",
+              "role": "CONTACT",
+              "email": "Kelly.kuniak4@ahn.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.44062,
+            "lon": -79.99589
+          }
+        },
+        {
+          "facility": "University of Pittsburgh Medical Center",
+          "status": "RECRUITING",
+          "city": "Pittsburgh",
+          "state": "Pennsylvania",
+          "zip": "15213",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Traci McGaha",
+              "role": "CONTACT",
+              "email": "mcgahatl4@upmc.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.44062,
+            "lon": -79.99589
+          }
+        },
+        {
+          "facility": "Tower Health Reading Hospital",
+          "status": "WITHDRAWN",
+          "city": "Reading",
+          "state": "Pennsylvania",
+          "zip": "19611",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.33565,
+            "lon": -75.92687
+          }
+        },
+        {
+          "facility": "WellSpan Health",
+          "status": "WITHDRAWN",
+          "city": "York",
+          "state": "Pennsylvania",
+          "zip": "17403",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.9626,
+            "lon": -76.72774
+          }
+        },
+        {
+          "facility": "Prisma Health Upstate",
+          "status": "RECRUITING",
+          "city": "Greenville",
+          "state": "South Carolina",
+          "zip": "29601",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Kenneth Alfieri",
+              "role": "CONTACT",
+              "phone": "8644557793",
+              "email": "Kenneth.alfieri@prismahelath.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.85262,
+            "lon": -82.39401
+          }
+        },
+        {
+          "facility": "Bon Secours Upstate Cardiology",
+          "status": "WITHDRAWN",
+          "city": "Greenville",
+          "state": "South Carolina",
+          "zip": "29607",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.85262,
+            "lon": -82.39401
+          }
+        },
+        {
+          "facility": "North Central Heart",
+          "status": "RECRUITING",
+          "city": "Sioux Falls",
+          "state": "South Dakota",
+          "zip": "57108",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Robin Farley",
+              "role": "CONTACT",
+              "email": "rfarley@ncheart.com"
+            },
+            {
+              "name": "Ovar Jonsson, MD, FACC",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.54369,
+            "lon": -96.72796
+          }
+        },
+        {
+          "facility": "The Stern Cardiovascular Foundation",
+          "status": "RECRUITING",
+          "city": "Germantown",
+          "state": "Tennessee",
+          "zip": "38138",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Kristen Page",
+              "role": "CONTACT",
+              "email": "kristen.page@sterncardio.com"
+            },
+            {
+              "name": "Kari Fondren",
+              "role": "CONTACT",
+              "email": "kari.fondren@sterncardio.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.08676,
+            "lon": -89.81009
+          }
+        },
+        {
+          "facility": "Texas Cardiac Arrhythmia Research Foundation",
+          "status": "WITHDRAWN",
+          "city": "Austin",
+          "state": "Texas",
+          "zip": "78705",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.26715,
+            "lon": -97.74306
+          }
+        },
+        {
+          "facility": "Ascension Seton",
+          "status": "RECRUITING",
+          "city": "Austin",
+          "state": "Texas",
+          "zip": "78723",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Sarah Benedict",
+              "role": "CONTACT",
+              "email": "sarah.benedict@ascension.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.26715,
+            "lon": -97.74306
+          }
+        },
+        {
+          "facility": "Austin Heart",
+          "status": "RECRUITING",
+          "city": "Austin",
+          "state": "Texas",
+          "zip": "78756",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Mary Fraser",
+              "role": "CONTACT",
+              "email": "Mary.Fraser@hcahealthcare.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.26715,
+            "lon": -97.74306
+          }
+        },
+        {
+          "facility": "Baylor Scott and White Research Institute",
+          "status": "RECRUITING",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75204",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Tein Luu",
+              "role": "CONTACT",
+              "phone": "2148651685",
+              "phoneExt": "481685",
+              "email": "tein.luu@bswhealth.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "HCA Medical City Dallas",
+          "status": "WITHDRAWN",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75230",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "Baylor Scott White- All Saints- Fort Worth",
+          "status": "RECRUITING",
+          "city": "Fort Worth",
+          "state": "Texas",
+          "zip": "76104",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Felicity Vaughan",
+              "role": "CONTACT",
+              "phone": "8179222575",
+              "email": "felicity.vaughan@bswhealth.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.72541,
+            "lon": -97.32085
+          }
+        },
+        {
+          "facility": "Medical City Fort Worth Hospital",
+          "status": "RECRUITING",
+          "city": "Fort Worth",
+          "state": "Texas",
+          "zip": "76104",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jessica Blades",
+              "role": "CONTACT",
+              "email": "Jessica.Blades@HCAhealthcare.com"
+            },
+            {
+              "name": "Brenda Tapia",
+              "role": "CONTACT",
+              "email": "Brenda.Tapia@HCAhealthcare.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.72541,
+            "lon": -97.32085
+          }
+        },
+        {
+          "facility": "Baylor College of Medicine",
+          "status": "RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Stephen Harold",
+              "role": "CONTACT",
+              "email": "harold@bcm.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Houston Methodist",
+          "status": "RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Deborah Barr",
+              "role": "CONTACT",
+              "email": "ddbarr@houstonmethodist.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Memorial Hermann Texas Medical Center",
+          "status": "RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Lawana Self",
+              "role": "CONTACT",
+              "email": "Lawana.self@uth.tmc.edu"
+            },
+            {
+              "name": "Isabella Lefebvre",
+              "role": "CONTACT",
+              "email": "Isabella.n.candelaria@uth.tmc.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Heart Rhythm Specialists",
+          "status": "RECRUITING",
+          "city": "McKinney",
+          "state": "Texas",
+          "zip": "75070",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Emily Buchanan",
+              "role": "CONTACT",
+              "email": "research@hrsmedical.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.19762,
+            "lon": -96.61527
+          }
+        },
+        {
+          "facility": "Baylor Scott and White- The Heart Hospital- Plano",
+          "status": "WITHDRAWN",
+          "city": "Plano",
+          "state": "Texas",
+          "zip": "75093",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.01984,
+            "lon": -96.69889
+          }
+        },
+        {
+          "facility": "Baylor Scott and White Research Institute - Round Rock",
+          "status": "RECRUITING",
+          "city": "Round Rock",
+          "state": "Texas",
+          "zip": "78665",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Catherine Lyman",
+              "role": "CONTACT",
+              "email": "catherine.lyman@bswhealth.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.50826,
+            "lon": -97.6789
+          }
+        },
+        {
+          "facility": "Methodist Hospital",
+          "status": "WITHDRAWN",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78229",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        },
+        {
+          "facility": "Bon Secours St. Mary's",
+          "status": "RECRUITING",
+          "city": "Richmond",
+          "state": "Virginia",
+          "zip": "23114",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Janet Barrett",
+              "role": "CONTACT",
+              "phone": "804-794-6400|",
+              "email": "janet_barrett@bshsi.org"
+            },
+            {
+              "name": "LaVonne Smith, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          }
+        },
+        {
+          "facility": "Bon Secours St. Mary's",
+          "status": "RECRUITING",
+          "city": "Richmond",
+          "state": "Virginia",
+          "zip": "23226",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Janet Barrett",
+              "role": "CONTACT",
+              "phone": "804-794-6400",
+              "email": "janet_barrett@bshsi.org"
+            },
+            {
+              "name": "LaVone Smith, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          }
+        },
+        {
+          "facility": "Swedish Medical Center",
+          "status": "RECRUITING",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98122",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Michelle Garcia",
+              "role": "CONTACT",
+              "email": "michelle.garcia@swedish.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        },
+        {
+          "facility": "Peace Health",
+          "status": "RECRUITING",
+          "city": "Vancouver",
+          "state": "Washington",
+          "zip": "98664",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Nancy Fitch",
+              "role": "CONTACT",
+              "email": "nfitch@peacehealth.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.63873,
+            "lon": -122.66149
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "29754812",
+          "type": "BACKGROUND",
+          "citation": "Abraham WT, Kuck KH, Goldsmith RL, Lindenfeld J, Reddy VY, Carson PE, Mann DL, Saville B, Parise H, Chan R, Wiegn P, Hastings JL, Kaplan AJ, Edelmann F, Luthje L, Kahwash R, Tomassoni GF, Gutterman DD, Stagg A, Burkhoff D, Hasenfuss G. A Randomized Controlled Trial to Evaluate the Safety and Efficacy of Cardiac Contractility Modulation. JACC Heart Fail. 2018 Oct;6(10):874-883. doi: 10.1016/j.jchf.2018.04.010. Epub 2018 May 10."
+        },
+        {
+          "pmid": "32264716",
+          "type": "BACKGROUND",
+          "citation": "Wiegn P, Chan R, Jost C, Saville BR, Parise H, Prutchi D, Carson PE, Stagg A, Goldsmith RL, Burkhoff D. Safety, Performance, and Efficacy of Cardiac Contractility Modulation Delivered by the 2-Lead Optimizer Smart System: The FIX-HF-5C2 Study. Circ Heart Fail. 2020 Apr;13(4):e006512. doi: 10.1161/CIRCHEARTFAILURE.119.006512. Epub 2020 Apr 8."
+        },
+        {
+          "pmid": "33274601",
+          "type": "BACKGROUND",
+          "citation": "Tschope C, Butler J, Farmakis D, Morley D, Rao I, Filippatos G. Clinical effects of cardiac contractility modulation in heart failure with mildly reduced systolic function. ESC Heart Fail. 2020 Dec;7(6):3531-3535. doi: 10.1002/ehf2.13126. Epub 2020 Dec 3."
+        },
+        {
+          "pmid": "26638055",
+          "type": "BACKGROUND",
+          "citation": "Tschope C, Van Linthout S, Spillmann F, Klein O, Biewener S, Remppis A, Gutterman D, Linke WA, Pieske B, Hamdani N, Roser M. Cardiac contractility modulation signals improve exercise intolerance and maladaptive regulation of cardiac key proteins for systolic and diastolic function in HFpEF. Int J Cardiol. 2016 Jan 15;203:1061-6. doi: 10.1016/j.ijcard.2015.10.208. Epub 2015 Oct 27. No abstract available."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D054144",
+          "term": "Heart Failure, Diastolic"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

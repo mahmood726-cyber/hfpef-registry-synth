@@ -1,0 +1,366 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01045980",
+      "orgStudyIdInfo": {
+        "id": "SJH-Renal-RCT-003"
+      },
+      "organization": {
+        "fullName": "St. Joseph's Healthcare Hamilton",
+        "class": "OTHER"
+      },
+      "briefTitle": "Assessment of Bioimpedance and Vitamin D and LV Mass in PD Patients (FLUID Study)",
+      "officialTitle": "The Effect of Bio-impedance Analysis and Vitamin D Versus Usual Care on Left Ventricular Mass in Peritoneal Dialysis Patients: a Randomized Controlled Trial",
+      "acronym": "FLUID"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-05",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2010-08-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2016-05-15",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2016-11-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2010-01-08",
+      "studyFirstSubmitQcDate": "2010-01-08",
+      "studyFirstPostDateStruct": {
+        "date": "2010-01-11",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2025-05-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-05-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "St. Joseph's Healthcare Hamilton",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Population Health Research Institute",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The main purpose of this study is to compare the effects of using bio-impedance analysis to guide management of fluid status versus routine clinical care on heart structure. In addition, Vitamin D is being assessed to determine its effect on heart structure.",
+      "detailedDescription": "Patients on peritoneal dialysis are frequently hypervolemic which is associated with deleterious changes in left ventricular (LV) architecture including increased LV mass. In dialysis patients, increased LV mass is associated with death. Recent randomized trials have demonstrated that increasing small solute clearance is not associated with improved outcomes - hence an increased interest in the management of volume control in ESRD patients. Bioimpedance analysis is inexpensive, safe and easy to use and appears to be more useful than other techniques to assess volume status in dialysis patients. In addition, dialysis patients are vitamin D deficient and this is also associated with an increased LV mass and its inherent complications.\n\nThis study will evaluate the use of bioimpedance analysis versus usual care to assess and manage volume status and the use of vitamin D versus placebo in peritoneal dialysis patients and its effect on LV mass as measured by cardiac MRI."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Disorders Associated With Peritoneal Dialysis"
+      ],
+      "keywords": [
+        "Peritoneal dialysis",
+        "Impedance, bioelectric",
+        "Hypertrophy, left ventricular",
+        "Fluid status",
+        "Volume overload",
+        "Congestive heart failure",
+        "Cardiovascular outcomes",
+        "Randomized controlled trial"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "FACTORIAL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 74,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Bioimpedance and Vitamin D",
+          "type": "EXPERIMENTAL",
+          "description": "Bioimpedance and Vitamin D",
+          "interventionNames": [
+            "Drug: Bioimpedance and Vitamin D"
+          ]
+        },
+        {
+          "label": "Usual care and Vitamin D",
+          "type": "EXPERIMENTAL",
+          "description": "Usual Care and Vitamin D3",
+          "interventionNames": [
+            "Drug: Usual care and Vitamin D"
+          ]
+        },
+        {
+          "label": "Bioimpedance and Placebo",
+          "type": "EXPERIMENTAL",
+          "description": "Bioimpedance and Placebo",
+          "interventionNames": [
+            "Device: Bioimpedance and Placebo"
+          ]
+        },
+        {
+          "label": "Usual Care and Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Usual Care and Placebo",
+          "interventionNames": [
+            "Drug: Usual care and placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Bioimpedance and Vitamin D",
+          "description": "Intervention subjects will undergo BIA assessment monthly for 1 year, and then every 3 months until the end of the planned 3-year study. Protocolized interventions to achieve euvolemia will occur based on the BIA result and they include sodium restriction, addition of diuretics, use of icodextrin, and additional rational changes to the PD prescription.",
+          "armGroupLabels": [
+            "Bioimpedance and Vitamin D"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Usual care and placebo",
+          "description": "Usual care (not bioimpedance guided volume management) and Placebo",
+          "armGroupLabels": [
+            "Usual Care and Placebo"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Usual care and Vitamin D",
+          "description": "Usual care (not bioimpedance guided volume management) and Vitamin D",
+          "armGroupLabels": [
+            "Usual care and Vitamin D"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Bioimpedance and Placebo",
+          "description": "Bioimpedance guided volume management and Placebo",
+          "armGroupLabels": [
+            "Bioimpedance and Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Left ventricular mass measured by cardiac MRI",
+          "timeFrame": "1 year"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Combined outcome of death, non-fatal CV event (stroke, MI, amputation, CHF), and transfer to HD for inadequacy or ultrafiltration failure",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Volume measures: bio-impedance (RXc graph, vector length, impedance ratio, phase angle, ECW:TBW ratio), weight, N-BNP, mean and pulse arterial pressure, number of anti-hypertensive agents",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Health-related quality of life (HRQOL)",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Physical function as measured by 6 minute walk test",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Serum and peritoneal inflammatory and fibrotic markers: albumin, CRP, IL-6, TNF-a",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Peritoneal membrane transport properties,measured by PET",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Renal and peritoneal solute clearance, 24-hour urine output and ultrafiltration volume",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "left ventricular end-diastolic and systolic volumes, stroke volume and ejection fraction measure by MRI",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Fraility Score",
+          "timeFrame": "1 year"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age ≥18 years\n* on peritoneal dialysis\n\nExclusion Criteria:\n\n* Contraindication to MRI including presence of a pacemaker, defibrillator, ferromagnetic cerebral aneurysm clips, cochlear implants or eye prosthesis, neurostimulators, shrapnel in vital locations, surgery within 6 weeks, severe claustrophobia and severe obesity\n* Previous amputation\n* Life or technique expectancy \\< 1 year\n* Pregnancy\n* Peritonitis in previous 3 months\n* Currently using more than one extraneal bag per 24-hours\n* Known icodextrin allergy\n* Currently using non-Baxter PD solutions\n* Inability to provide consent\n* Allergy to cholecalciferol\n* Serum Calcium \\> 2.55 mmol/L",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Azim S Gangji, MD MSc FRCPC",
+          "affiliation": "St. Joseph's Healthcare Hamilton",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "K S Brimble, MD MSc FRCPC",
+          "affiliation": "St. Joseph's Healthcare Hamilton",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "St. Joseph's Healthcare Hamilton",
+          "city": "Hamilton",
+          "state": "Ontario",
+          "zip": "L8N4A6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.25011,
+            "lon": -79.84963
+          }
+        },
+        {
+          "facility": "Population Health Research Institute - McMaster University",
+          "city": "Hamilton",
+          "state": "Ontario",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.25011,
+            "lon": -79.84963
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "34656640",
+          "type": "DERIVED",
+          "citation": "Brimble KS, Ganame J, Margetts P, Jain A, Perl J, Walsh M, Bosch J, Yusuf S, Beshay S, Su W, Zimmerman D, Lee SF, Gangji AS. Impact of Bioelectrical Impedance-Guided Fluid Management and Vitamin D Supplementation on Left Ventricular Mass in Patients Receiving Peritoneal Dialysis: A Randomized Controlled Trial. Am J Kidney Dis. 2022 Jun;79(6):820-831. doi: 10.1053/j.ajkd.2021.08.022. Epub 2021 Oct 14."
+        },
+        {
+          "pmid": "21632446",
+          "type": "DERIVED",
+          "citation": "Su WS, Gangji AS, Margetts PM, Bosch J, Yusuf S, Clase CM, Ganame J, Noseworthy M, Lonn E, Jain AK, McCormick B, Brimble KS. The fluid study protocol: a randomized controlled study on the effects of bioimpedance analysis and vitamin D on left ventricular mass in peritoneal dialysis patients. Perit Dial Int. 2011 Sep-Oct;31(5):529-36. doi: 10.3747/pdi.2010.00232. Epub 2011 May 31."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Hamilton Centre for Kidney Research",
+          "url": "http://www.hamiltonkidneyresearch.ca/"
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D017379",
+          "term": "Hypertrophy, Left Ventricular"
+        },
+        {
+          "id": "D004487",
+          "term": "Edema"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006332",
+          "term": "Cardiomegaly"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D006984",
+          "term": "Hypertrophy"
+        },
+        {
+          "id": "D020763",
+          "term": "Pathological Conditions, Anatomical"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D014807",
+          "term": "Vitamin D"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012632",
+          "term": "Secosteroids"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

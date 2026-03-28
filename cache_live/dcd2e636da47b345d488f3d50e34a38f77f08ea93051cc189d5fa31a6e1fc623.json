@@ -1,0 +1,242 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05991284",
+      "orgStudyIdInfo": {
+        "id": "Z-2023036"
+      },
+      "organization": {
+        "fullName": "Ziekenhuis Oost-Limburg",
+        "class": "OTHER"
+      },
+      "briefTitle": "Sacubitril-Valsartan in Heart Failure With Preserved Ejection Fraction and Secondary Mitral Valve Regurgitation",
+      "officialTitle": "Sacubitril-Valsartan in Heart Failure With Preserved Ejection Fraction and Secondary Mitral Valve Regurgitation",
+      "acronym": "PRAISE-MR"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-01",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-02-29",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-09-22",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2026-05-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-08-01",
+      "studyFirstSubmitQcDate": "2023-08-10",
+      "studyFirstPostDateStruct": {
+        "date": "2023-08-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-19",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Ziekenhuis Oost-Limburg",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Jessa Hospital",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The main objective of this study is to assess the hemodynamic effects of sacubitril-valsartan in patients with heart failure with preserved ejection fraction and at least moderate atrial functional mitral regurgitation (AFMR), using a combination of cardiopulmonary exercise testing and stress echocardiography (referred to as CPETecho) at baseline and after six months of therapy. The patients included in this study will be randomly assigned to receive sacubitril-valsartan as an adjunct to standard medical care, as opposed to adhering solely to the standard of care which involves sodium-glucose cotransporter-2 (SGLT-2) inhibitor and mineralocorticoid receptor antagonist (MRA)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Preserved Ejection Fraction",
+        "Functional Mitral Regurgitation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Multicenter, Investigator-initiated, Prospective, Randomized trial with Open Blinded Endpoint",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Blinded core echocardiography laboratory",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 84,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intervention arm",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Sacubitril-Valsartan (target dose 97/103 mg twice daily) on top of standard of care (including SGLT-2 inhibitor and MRA)",
+          "interventionNames": [
+            "Drug: Sacubitril-valsartan",
+            "Drug: Standard of care"
+          ]
+        },
+        {
+          "label": "Control arm",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Standard of care (including SGLT-2 inhibitor and MRA)",
+          "interventionNames": [
+            "Drug: Standard of care"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Sacubitril-valsartan",
+          "description": "sacubitril-valsartan (target dose 97/103 mg twice daily)",
+          "armGroupLabels": [
+            "Intervention arm"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Standard of care",
+          "description": "including SGLT-2 inhibitor and MRA",
+          "armGroupLabels": [
+            "Control arm",
+            "Intervention arm"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in mean pulmonary arterial pressure over cardiac output slope assessed by CPETecho",
+          "timeFrame": "Six months of treatment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in peak oxygen uptake",
+          "timeFrame": "Six months of treatment"
+        },
+        {
+          "measure": "Change in mitral effective regurgitant orifice area (EROA)",
+          "timeFrame": "Six months of treatment"
+        },
+        {
+          "measure": "Change in natriuretic peptide levels",
+          "timeFrame": "Six months of treatment"
+        },
+        {
+          "measure": "Change in left atrial volume (LAVI)",
+          "timeFrame": "Six months of treatment"
+        },
+        {
+          "measure": "Change the minute ventilation over carbon dioxide production slope",
+          "timeFrame": "Six months of treatment"
+        },
+        {
+          "measure": "Change in patient reported outcomes (Kansas City Cardiomyopathy Questionnaire, KCCQ-12)",
+          "timeFrame": "Six months of treatment"
+        },
+        {
+          "measure": "Change in left atrial function (peak atrial longitudinal strain, PALS)",
+          "timeFrame": "Six months of treatment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \\> 18 years.\n* New York Heart Association class II to IV.\n* Written informed consent.\n* Left ventricular (LV) ejection fraction ≥ 50%.\n* Objective evidence of cardiac structural and/or functional abnormalities consistent with the presence of LV diastolic dysfunction/raised LV filling pressures, including raised natriuretic peptides.\n* ≥ moderate functional MR assessed by transthoracic echocardiography within the previous year.\n\nExclusion Criteria:\n\n* Systolic blood pressure \\< 100 mmHg.\n* Potassium ≥ 5.2 mmol/L.\n* Estimated Glomerular Filtration Rate ≤ 25 ml/min/1.73m².\n* History of angioedema or unacceptable side effects during receipt of angiotensin converting enzyme (ACE) inhibitors or angiotensin receptor blockers (ARB).\n* Structural mitral valve disease and previous or planned mitral valve intervention.\n* Already receiving angiotensin receptor neprilysin inhibitor (ARNI, sacubitril-valsartan) therapy.\n* Severe comorbid condition limiting life expectancy \\< 24 months or inability to perform a maximal CPETecho.\n* Myocardial infarction, unstable angina, coronary revascularization within 12 weeks prior enrolment.\n* Severe aortic, tricuspid or pulmonary valve disease.\n* Pregnancy, lactation, or use of any method of contraception that is not highly effective.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "95 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Ziekenhuis Oost-Limburg",
+          "city": "Genk",
+          "zip": "3600",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.965,
+            "lon": 5.50082
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C549068",
+          "term": "sacubitril and valsartan sodium hydrate drug combination"
+        },
+        {
+          "id": "D059039",
+          "term": "Standard of Care"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D019984",
+          "term": "Quality Indicators, Health Care"
+        },
+        {
+          "id": "D011787",
+          "term": "Quality of Health Care"
+        },
+        {
+          "id": "D006298",
+          "term": "Health Services Administration"
+        },
+        {
+          "id": "D017530",
+          "term": "Health Care Quality, Access, and Evaluation"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,316 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07320768",
+      "orgStudyIdInfo": {
+        "id": "IS25217"
+      },
+      "organization": {
+        "fullName": "Shanghai Chest Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Renal Denervation Combined With Pulsed Field Ablation to Prevent Blanking-Period Recurrence in Persistent Atrial Fibrillation",
+      "officialTitle": "The Efficacy and Safety of Renal Denervation Combined With Pulsed Field Ablation in Preventing Blanking Period Recurrence of Atrial Arrhythmia in Patients With Persistent Atrial Fibrillation: An OFF-MED Trial",
+      "acronym": "OFF-MED"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-01-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-01-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-06-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-12-21",
+      "studyFirstSubmitQcDate": "2025-12-21",
+      "studyFirstPostDateStruct": {
+        "date": "2026-01-06",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-06",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Wenzheng Han",
+        "investigatorTitle": "Associate Chief Physician; Administrative Deputy Director, Department of Cardiology",
+        "investigatorAffiliation": "Shanghai Chest Hospital"
+      },
+      "leadSponsor": {
+        "name": "Shanghai Chest Hospital",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Shanghai Shineyo Medical Co., Ltd.",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "BRATTEA Medtech Co. Ltd",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this clinical trial is to learn whether adding renal denervation (RDN) to pulsed-field ablation (PFA) reduces blanking-period recurrence of atrial tachyarrhythmias in adults (≥18 years) with persistent atrial fibrillation undergoing first-time ablation while off antiarrhythmic drugs.\n\nThe main questions it aims to answer are:\n\n1. Does PFA+RDN, compared with PFA alone, reduce the proportion of participants with any AF/atrial flutter/atrial tachycardia ≥30 seconds during the 90-day blanking period?\n2. Is PFA+RDN safe, as measured by procedure-related serious adverse events through 30 days?"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Persistent Atrial Fibrillation"
+      ],
+      "keywords": [
+        "Persistent Atrial Fibrillation",
+        "renal denervation (RDN)",
+        "pulsed-field ablation (PFA)"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 86,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "pulsed-field ablation alone",
+          "type": "SHAM_COMPARATOR",
+          "interventionNames": [
+            "Procedure: Pulsed-Field Ablation (PFA)"
+          ]
+        },
+        {
+          "label": "renal denervation combined with pulsed-field ablation",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Procedure: renal denervation",
+            "Procedure: Pulsed-Field Ablation (PFA)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "renal denervation",
+          "description": "Renal denervation is a catheter-based procedure performed after renal angiography confirms no significant stenosis. A specialized catheter delivers low-energy pulses inside both renal arteries to disrupt overactive sympathetic nerves surrounding the vessels. Energy is applied in a spiral pattern from distal to proximal segments. The procedure is performed during the same session as PFA under anticoagulation.",
+          "armGroupLabels": [
+            "renal denervation combined with pulsed-field ablation"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Pulsed-Field Ablation (PFA)",
+          "description": "Catheter-based PFA of the left atrium for wide-antral pulmonary vein isolation using a multielectrode PFA system. Entrance/exit block must be confirmed.",
+          "armGroupLabels": [
+            "pulsed-field ablation alone",
+            "renal denervation combined with pulsed-field ablation"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Freedom from Atrial Arrhythmia Recurrence",
+          "description": "Absence of any documented atrial tachyarrhythmia - including atrial fibrillation (AF), atrial tachycardia (AT), or atrial flutter (AFL) lasting ≥30 seconds - occurring",
+          "timeFrame": "within 12 Months After the Index Procedure"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Freedom from AF recurrence",
+          "description": "Absence of any documented atrial fibrillation (AF) episode lasting ≥ 30 seconds after a single ablation procedure, without use of antiarrhythmic drugs during follow-up.",
+          "timeFrame": "within 3 months after the index procedure"
+        },
+        {
+          "measure": "Atrial fibrillation burden",
+          "description": "AF burden measured by 24-hour (or longer) Holter monitoring at 3 months, calculated as the proportion of AF duration to total recording time, in participants not receiving antiarrhythmic drugs.",
+          "timeFrame": "at 3 months"
+        },
+        {
+          "measure": "Change in blood pressure",
+          "description": "Change in systolic and diastolic blood pressure from baseline to post-procedure, 1-month, and 3-month follow-up visits.",
+          "timeFrame": "immediately, at 1 month, and at 3 months after procedure"
+        },
+        {
+          "measure": "Major adverse cardiovascular events (MACE)",
+          "description": "Incidence of death, stroke, heart failure, major bleeding, non-stroke thromboembolic events, and cardiovascular hospitalization, reported both as individual and composite outcomes.",
+          "timeFrame": "up to 12 months after ablation"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \\> 18 years.\n* Patients with persistent atrial fibrillation undergoing first-time catheter ablation (defined as any episode lasting ≥7 days).\n* Symptomatic atrial fibrillation refractory to or intolerant of at least one class I or III antiarrhythmic drug and scheduled for guideline-directed catheter ablation.\n* Able to understand the study purpose, voluntarily participate, and sign the written informed consent form.\n\nExclusion Criteria:\n\n* Presence of advanced structural heart disease.\n* Life expectancy \\< 12 months.\n* Blood pressure \\< 90/60 mmHg.\n* Pregnant or lactating women.\n* Anatomical abnormalities of the renal arteries unsuitable for treatment as determined by pre-procedural renal CTA.\n* History of renal artery intervention, impaired renal function with estimated glomerular filtration rate (eGFR) \\< 45 mL/min/1.73 m² (calculated by the MDRD equation).\n* Secondary atrial fibrillation due to electrolyte imbalance, thyroid disorders, or other reversible or non-cardiac causes.\n* Contraindication to pulsed-field ablation (e.g., left atrial thrombus, prior atrial septal defect occluder implantation, or permanent metallic implant in the left atrium) or to anticoagulation therapy.\n* Known inability to obtain vascular access or contraindication to femoral venous puncture.\n* Heart failure with left ventricular ejection fraction \\< 30% documented by transthoracic echocardiography within 3 months before ablation.\n* Patients with current or anticipated need for pacemaker, implantable cardioverter-defibrillator (ICD), or cardiac resynchronization therapy (CRT), or prior transseptal closure with occluder device for atrial septal defect or patent foramen ovale.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "genderBased": true,
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Wenzheng Han, M.D, PhD",
+          "role": "CONTACT",
+          "phone": "+86 13585995881",
+          "email": "wzhan_cardiology@foxmail.com"
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "35781044",
+          "type": "RESULT",
+          "citation": "Heradien M, Mahfoud F, Greyling C, Lauder L, van der Bijl P, Hettrick DA, Stilwaney W, Sibeko S, Jansen van Rensburg R, Peterson D, Khwinani B, Goosen A, Saaiman JA, Ukena C, Bohm M, Brink PA. Renal denervation prevents subclinical atrial fibrillation in patients with hypertensive heart disease: Randomized, sham-controlled trial. Heart Rhythm. 2022 Nov;19(11):1765-1773. doi: 10.1016/j.hrthm.2022.06.031. Epub 2022 Jun 30."
+        },
+        {
+          "pmid": "31961420",
+          "type": "RESULT",
+          "citation": "Steinberg JS, Shabanov V, Ponomarev D, Losik D, Ivanickiy E, Kropotkin E, Polyakov K, Ptaszynski P, Keweloh B, Yao CJ, Pokushalov EA, Romanov AB. Effect of Renal Denervation and Catheter Ablation vs Catheter Ablation Alone on Atrial Fibrillation Recurrence Among Patients With Paroxysmal Atrial Fibrillation and Hypertension: The ERADICATE-AF Randomized Clinical Trial. JAMA. 2020 Jan 21;323(3):248-255. doi: 10.1001/jama.2019.21187."
+        },
+        {
+          "pmid": "33478702",
+          "type": "RESULT",
+          "citation": "Turagam MK, Whang W, Miller MA, Neuzil P, Aryana A, Romanov A, Cuoco FA, Mansour M, Lakkireddy D, Michaud GF, Dukkipati SR, Cammack S, Reddy VY. Renal Sympathetic Denervation as Upstream Therapy During Atrial Fibrillation Ablation: Pilot HFIB Studies and Meta-Analysis. JACC Clin Electrophysiol. 2021 Jan;7(1):109-123. doi: 10.1016/j.jacep.2020.08.013. Epub 2020 Oct 28."
+        },
+        {
+          "pmid": "28423234",
+          "type": "RESULT",
+          "citation": "Romanov A, Pokushalov E, Ponomarev D, Strelnikov A, Shabanov V, Losik D, Karaskov A, Steinberg JS. Pulmonary vein isolation with concomitant renal artery denervation is associated with reduction in both arterial blood pressure and atrial fibrillation burden: Data from implantable cardiac monitor. Cardiovasc Ther. 2017 Aug;35(4). doi: 10.1111/1755-5922.12264."
+        },
+        {
+          "pmid": "22958958",
+          "type": "RESULT",
+          "citation": "Pokushalov E, Romanov A, Corbucci G, Artyomenko S, Baranova V, Turov A, Shirokova N, Karaskov A, Mittal S, Steinberg JS. A randomized comparison of pulmonary vein isolation with versus without concomitant renal artery denervation in patients with refractory symptomatic atrial fibrillation and resistant hypertension. J Am Coll Cardiol. 2012 Sep 25;60(13):1163-70. doi: 10.1016/j.jacc.2012.05.036. Epub 2012 Sep 5."
+        },
+        {
+          "pmid": "23172929",
+          "type": "RESULT",
+          "citation": "Hering D, Lambert EA, Marusic P, Walton AS, Krum H, Lambert GW, Esler MD, Schlaich MP. Substantial reduction in single sympathetic nerve firing after renal denervation in patients with resistant hypertension. Hypertension. 2013 Feb;61(2):457-64. doi: 10.1161/HYPERTENSIONAHA.111.00194. Epub 2012 Nov 19."
+        },
+        {
+          "pmid": "29211857",
+          "type": "RESULT",
+          "citation": "Duytschaever M, Demolder A, Phlips T, Sarkozy A, El Haddad M, Taghji P, Knecht S, Tavernier R, Vandekerckhove Y, De Potter T. PulmOnary vein isolation With vs. without continued antiarrhythmic Drug trEatment in subjects with Recurrent Atrial Fibrillation (POWDER AF): results from a multicentre randomized trial. Eur Heart J. 2018 Apr 21;39(16):1429-1437. doi: 10.1093/eurheartj/ehx666."
+        },
+        {
+          "pmid": "32865375",
+          "type": "RESULT",
+          "citation": "Kirchhof P, Camm AJ, Goette A, Brandes A, Eckardt L, Elvan A, Fetsch T, van Gelder IC, Haase D, Haegeli LM, Hamann F, Heidbuchel H, Hindricks G, Kautzner J, Kuck KH, Mont L, Ng GA, Rekosz J, Schoen N, Schotten U, Suling A, Taggeselle J, Themistoclakis S, Vettorazzi E, Vardas P, Wegscheider K, Willems S, Crijns HJGM, Breithardt G; EAST-AFNET 4 Trial Investigators. Early Rhythm-Control Therapy in Patients with Atrial Fibrillation. N Engl J Med. 2020 Oct 1;383(14):1305-1316. doi: 10.1056/NEJMoa2019422. Epub 2020 Aug 29."
+        },
+        {
+          "pmid": "35385695",
+          "type": "RESULT",
+          "citation": "Piccini JP, Caso V, Connolly SJ, Fox KAA, Oldgren J, Jones WS, Gorog DA, Durdil V, Viethen T, Neumann C, Mundl H, Patel MR; PACIFIC-AF Investigators. Safety of the oral factor XIa inhibitor asundexian compared with apixaban in patients with atrial fibrillation (PACIFIC-AF): a multicentre, randomised, double-blind, double-dummy, dose-finding phase 2 study. Lancet. 2022 Apr 9;399(10333):1383-1390. doi: 10.1016/S0140-6736(22)00456-1. Epub 2022 Apr 3."
+        },
+        {
+          "pmid": "8841325",
+          "type": "RESULT",
+          "citation": "Lin HJ, Wolf PA, Kelly-Hayes M, Beiser AS, Kase CS, Benjamin EJ, D'Agostino RB. Stroke severity in atrial fibrillation. The Framingham Study. Stroke. 1996 Oct;27(10):1760-4. doi: 10.1161/01.str.27.10.1760."
+        },
+        {
+          "pmid": "34279604",
+          "type": "RESULT",
+          "citation": "Noubiap JJ, Feteh VF, Middeldorp ME, Fitzgerald JL, Thomas G, Kleinig T, Lau DH, Sanders P. A meta-analysis of clinical risk factors for stroke in anticoagulant-naive patients with atrial fibrillation. Europace. 2021 Oct 9;23(10):1528-1538. doi: 10.1093/europace/euab087."
+        },
+        {
+          "pmid": "9737513",
+          "type": "RESULT",
+          "citation": "Benjamin EJ, Wolf PA, D'Agostino RB, Silbershatz H, Kannel WB, Levy D. Impact of atrial fibrillation on the risk of death: the Framingham Heart Study. Circulation. 1998 Sep 8;98(10):946-52. doi: 10.1161/01.cir.98.10.946."
+        },
+        {
+          "pmid": "33509976",
+          "type": "RESULT",
+          "citation": "Du X, Guo L, Xia S, Du J, Anderson C, Arima H, Huffman M, Yuan Y, Zheng Y, Wu S, Guang X, Zhou X, Lin H, Cheng X, Dong J, Ma C. Atrial fibrillation prevalence, awareness and management in a nationwide survey of adults in China. Heart. 2021 Jan 28;107(7):535-41. doi: 10.1136/heartjnl-2020-317915. Online ahead of print."
+        },
+        {
+          "pmid": "28760871",
+          "type": "RESULT",
+          "citation": "Kalman JM, Sanders P, Rosso R, Calkins H. Should We Perform Catheter Ablation for Asymptomatic Atrial Fibrillation? Circulation. 2017 Aug 1;136(5):490-499. doi: 10.1161/CIRCULATIONAHA.116.024926."
+        },
+        {
+          "pmid": "28506916",
+          "type": "RESULT",
+          "citation": "Calkins H, Hindricks G, Cappato R, Kim YH, Saad EB, Aguinaga L, Akar JG, Badhwar V, Brugada J, Camm J, Chen PS, Chen SA, Chung MK, Nielsen JC, Curtis AB, Davies DW, Day JD, d'Avila A, de Groot NMSN, Di Biase L, Duytschaever M, Edgerton JR, Ellenbogen KA, Ellinor PT, Ernst S, Fenelon G, Gerstenfeld EP, Haines DE, Haissaguerre M, Helm RH, Hylek E, Jackman WM, Jalife J, Kalman JM, Kautzner J, Kottkamp H, Kuck KH, Kumagai K, Lee R, Lewalter T, Lindsay BD, Macle L, Mansour M, Marchlinski FE, Michaud GF, Nakagawa H, Natale A, Nattel S, Okumura K, Packer D, Pokushalov E, Reynolds MR, Sanders P, Scanavacca M, Schilling R, Tondo C, Tsao HM, Verma A, Wilber DJ, Yamane T. 2017 HRS/EHRA/ECAS/APHRS/SOLAECE expert consensus statement on catheter and surgical ablation of atrial fibrillation. Heart Rhythm. 2017 Oct;14(10):e275-e444. doi: 10.1016/j.hrthm.2017.05.012. Epub 2017 May 12. No abstract available."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001281",
+          "term": "Atrial Fibrillation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001145",
+          "term": "Arrhythmias, Cardiac"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

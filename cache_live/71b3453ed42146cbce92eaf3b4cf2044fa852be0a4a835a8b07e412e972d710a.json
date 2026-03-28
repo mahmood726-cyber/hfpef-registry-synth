@@ -1,0 +1,364 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04230551",
+      "orgStudyIdInfo": {
+        "id": "RASTA_V6"
+      },
+      "organization": {
+        "fullName": "St. Antonius Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Reverse Remodeling After PTSMA in Severe But Asymptomatic LVOT Obstruction",
+      "officialTitle": "Reverse Remodeling After PTSMA in Severe But ASympTomAtic LVOT Obstruction (RASTA Study)",
+      "acronym": "RASTA"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-09",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-01-21",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2024-01-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2019-12-31",
+      "studyFirstSubmitQcDate": "2020-01-13",
+      "studyFirstPostDateStruct": {
+        "date": "2020-01-18",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-09-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-09-16",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "J.M. ten Berg",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "St. Antonius Hospital"
+      },
+      "leadSponsor": {
+        "name": "St. Antonius Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Patients with HOCM and severe LVOT obstruction can remain asymptomatic while significant cellular and structural changes of the heart (adverse remodeling) may occur preceding heart failure and rhythm disorders. Hence, preventing adverse remodeling through LVOT desobstruction may have significant impact on cardiac function and geometry in this particular population, as it is in symptomatic patients.\n\nThe investigators will assess functional and structural characteristics of the myocardium in asymptomatic vs. symptomatic patients with severe LVOT obstruction before and after PTSMA, using advanced imaging studies with LGE-CMR and echocardiography.",
+      "detailedDescription": "The trial consists of three cohorts\n\n1. Symptomatic HOCM patients with severe LVOT obstruction undergoing PTSMA (reference group)\n2. Asymptomatic HOCM patients with severe LVOT obstruction undergoing PTSMA (study group)\n3. Asymptomatic HOCM patients with severe LVOT obstruction with no intervention (observation group)"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "HOCM, Hypertrophic Obstructive Cardiomyopathy",
+        "LVOTO - Left Ventricular Outflow Tract Obstruction",
+        "Remodeling, Ventricular"
+      ],
+      "keywords": [
+        "HOCM",
+        "Hypertrophic Obstructive Cardiomyopathy",
+        "Left Ventricular Outflow Tract Obstruction",
+        "Adverse Remodeling",
+        "Reverse Remodeling",
+        "Alcohol Septal Ablation",
+        "Percutaneous Transluminal Septal Myocardial Ablation",
+        "PTSMA",
+        "Extracellular Volume Fraction",
+        "Global Longitudinal Strain",
+        "Deformation Imaging",
+        "4D Velocity Mapping"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Technicians and/or imaging cardiologists involved in image analysis will not be informed about the procedure in order to have an unbiased analysis at baseline. At follow-up, treated patients will have akinetic/infarcted proximal septum that will be noticed during image acquisition. However, the pre-PTSMA status (symptomatic vs. asymptomatic) will be blinded for the analysis.",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 15,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Reference Group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Five symptomatic HOCM patients with severe LVOT obstruction will undergo PTSMA",
+          "interventionNames": [
+            "Procedure: PTSMA"
+          ]
+        },
+        {
+          "label": "Study Group",
+          "type": "EXPERIMENTAL",
+          "description": "Five asymptomatic HOCM patients with severe LVOT obstruction will undergo PTSMA",
+          "interventionNames": [
+            "Procedure: PTSMA"
+          ]
+        },
+        {
+          "label": "Observation Group",
+          "type": "NO_INTERVENTION",
+          "description": "Five asymptomatic HOCM patients with severe LVOT obstruction will not undergo PTSMA"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "PTSMA",
+          "description": "Alcohol Septal Ablation",
+          "armGroupLabels": [
+            "Reference Group",
+            "Study Group"
+          ],
+          "otherNames": [
+            "Alcohol Septal Ablation"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Fibrosis",
+          "description": "Extracellular Volume Fraction",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "Global longitudinal strain (TTE)",
+          "description": "Diastolic Function",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "Deformation (CMR)",
+          "description": "Shortening Index",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "Haemodynamics",
+          "description": "Left and Right-Sided Pressure Gradients (TTE)",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "4D velocity mapping",
+          "description": "Blood Flow",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "LV Geometry",
+          "description": "Volume",
+          "timeFrame": "2 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "New York Heart Association (NYHA) classification",
+          "description": "Exercise tolerance",
+          "timeFrame": "2 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \\> 40 yrs\n* HOCM diagnosed by experienced cardiologists (European Society of Cardiology (ESC)-certified imaging cardiologists and/or finalized fellowship imaging)\n* LVOT obstruction \\>30 mmHg pressure gradient in rest, or \\>50 mmHg during exercise by TTE and/or invasive measurement, performed experienced (imaging) cardiologists\n* Symptomatic (NYHA class \\>2 or CCS class \\>2)\n* Asymptomatic: free of any dyspnea/chest pain or discomfort associated with LVOT obstruction\n\nExclusion Criteria:\n\n* LV wall thickness \\<15 mm\n* Other conditions responsible for hypertrophy (e.g. hypertension, aortic valve disease)\n* Moderate to severe mitral valve regurgitation\n* Systolic anterior motion of the mitral valve\n* Coronary artery disease requiring intervention\n* Pregnancy",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "40 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Jurrien M ten Berg, MD PhD",
+          "role": "CONTACT",
+          "phone": "+31 88 320 1121",
+          "email": "j.ten.berg@antoniusziekenhuis.nl"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Jurrien M ten Berg, MD PhD",
+          "affiliation": "St. Antonius Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Fatih Arslan, MD PhD",
+          "affiliation": "St. Antonius Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "St. Antonius Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Nieuwegein",
+          "zip": "3435CM",
+          "country": "Netherlands",
+          "contacts": [
+            {
+              "name": "Jurrien M ten Berg, MD PhD",
+              "role": "CONTACT",
+              "phone": "+31 88 320 1121",
+              "email": "j.ten.berg@antoniusziekenhuis.nl"
+            },
+            {
+              "name": "Fatih Arslan, MD PhD",
+              "role": "CONTACT",
+              "email": "f.arslan@antoniusziekenhuis.nl"
+            },
+            {
+              "name": "Fatih Arslan, MD PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 52.02917,
+            "lon": 5.08056
+          }
+        },
+        {
+          "facility": "St. Antonius Hospital",
+          "status": "RECRUITING",
+          "city": "Nieuwegein",
+          "country": "Netherlands",
+          "contacts": [
+            {
+              "name": "Jurrien ten berg",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 52.02917,
+            "lon": 5.08056
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "32808736",
+          "type": "DERIVED",
+          "citation": "Arslan F, Akdim F, Ten Berg JM. Reverse remodeling after percutaneous transluminal septal myocardial ablation in severe but asymptomatic LVOT obstruction (RASTA) study: Rationale and design of transcatheter septal reduction in asymptomatic patients with severe hypertrophic obstructive cardiomyopathy. Catheter Cardiovasc Interv. 2021 Feb 15;97(3):488-492. doi: 10.1002/ccd.29178. Epub 2020 Aug 18."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D002312",
+          "term": "Cardiomyopathy, Hypertrophic"
+        },
+        {
+          "id": "D000092242",
+          "term": "Ventricular Outflow Obstruction, Left"
+        },
+        {
+          "id": "D020257",
+          "term": "Ventricular Remodeling"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009202",
+          "term": "Cardiomyopathies"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D001020",
+          "term": "Aortic Stenosis, Subvalvular"
+        },
+        {
+          "id": "D001024",
+          "term": "Aortic Valve Stenosis"
+        },
+        {
+          "id": "D000082862",
+          "term": "Aortic Valve Disease"
+        },
+        {
+          "id": "D006349",
+          "term": "Heart Valve Diseases"
+        },
+        {
+          "id": "D014694",
+          "term": "Ventricular Outflow Obstruction"
+        },
+        {
+          "id": "D020763",
+          "term": "Pathological Conditions, Anatomical"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000431",
+          "term": "Ethanol"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000438",
+          "term": "Alcohols"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

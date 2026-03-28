@@ -1,0 +1,448 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06678841",
+      "orgStudyIdInfo": {
+        "id": "MDT23039"
+      },
+      "organization": {
+        "fullName": "Medtronic Cardiac Rhythm and Heart Failure",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "ELEVATE-HFpEF Clinical Study",
+      "officialTitle": "Randomized Trial of ELEVATEd Cardiac Pacing Rate for Personalized Treatment of Heart Failure With Preserved Ejection Fraction (ELEVATE-HFpEF)",
+      "acronym": "ELEVATE-HFpEF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-07-09",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-08",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-02",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-10-14",
+      "studyFirstSubmitQcDate": "2024-11-05",
+      "studyFirstPostDateStruct": {
+        "date": "2024-11-07",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-22",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-23",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Medtronic Cardiac Rhythm and Heart Failure",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true
+    },
+    "descriptionModule": {
+      "briefSummary": "ELEVATE-HFpEF is a prospective, randomized, controlled, double-blinded, multi-center, global, interventional pivotal study evaluating the safety and efficacy of dual chamber personalized pacing compared to minimal or no pacing for the treatment of patients with heart failure with preserved ejection fraction (HFpEF).",
+      "detailedDescription": "This study will evaluate a personalized cardiac pacing rate as a treatment for symptomatic heart failure with preserved ejection fraction (LVEF ≥50%). The intervention is designed to improve health status and other signs and symptoms of heart failure in patients with HFpEF. After enrollment, baseline data will be collected, and subjects will then have a pacemaker implanted. Following successful implant, and prior to pre-hospital discharge, subjects will be randomized 1:1 to one of two study groups. In the first group, subjects will have their pacemaker programmed to dual chamber pacing at a personalized cardiac pacing rate (treatment group) based on their LVEF and height. Subjects randomized to the second group will have their pacemaker programmed to receive ventricular pacing at a non-personalized rate to minimize interference with the subject's intrinsic heart rate (control group).\n\nSubjects will complete 2-month, 6-month, and 12-month visits where data will be collected. At the 12-month visit, the second group (control group) will also be programmed to their personalized cardiac pacing rate. Subjects will complete 14-month, 18-month, and 24-month visits where data will be collected. Following the 24-month visit, additional long-term follow-up visits will occur annually until study completion. The estimated study duration is approximately 4.5 years representing an estimated 24-month enrollment period and 18-month follow-up period."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Preserved Ejection Fraction (HFpEF)"
+      ],
+      "keywords": [
+        "Heart Failure",
+        "Heart Disease",
+        "Cardiovascular Disease",
+        "Concentric Hypertrophy",
+        "Concentric Remodeling"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Primary and secondary endpoints are measured until 12 months post implant. At the 12-month visit, the second group (control group) will be crossed over and programmed to their personalized cardiac pacing rate receiving treatment group therapy for the remainder of follow-up until the subject is exited.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 700,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Personalized Pacing Therapy (Treatment Group)",
+          "type": "EXPERIMENTAL",
+          "description": "The treatment group will receive a qualifying Medtronic dual chamber pacemaker limited to Astra XT or Azure XT and programmed to provide dual chamber pacing at a personalized cardiac pacing rate determined by patient height and baseline LVEF percentage.",
+          "interventionNames": [
+            "Device: Personalized cardiac pacing"
+          ]
+        },
+        {
+          "label": "Control Group",
+          "type": "NO_INTERVENTION",
+          "description": "The control group will receive a qualifying Medtronic dual chamber pacemaker limited to Astra XT or Azure XT and programmed to provide ventricular pacing at a non-personalized rate. This is considered limited or backup pacing."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Personalized cardiac pacing",
+          "description": "Personalized cardiac pacing treatment based each patient's height and baseline LVEF.",
+          "armGroupLabels": [
+            "Personalized Pacing Therapy (Treatment Group)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Primary Efficacy Objective: Hierarchical composite endpoint of cardiovascular mortality, urgent HF events, HF events requiring an oral diuretic intensification (ODI), change in KCCQ, change in six-minute walk test distance, and change in NT-proBNP.",
+          "description": "Cardiovascular mortality, urgent heart failure events, and ODI heart failure events will be collected as they occur. The Kansas City Cardiomyopathy Questionnaire (KCCQ); (range of score is 0 to 100), 6-minute walk test (distance in meters), and N-terminal pro-B-type natriuretic peptide (NT-proBNP) (picograms per milliliter, pg/mL) will be collected at Baseline and the 12-months visit. Treatment and control groups will be compared using a win ratio.",
+          "timeFrame": "Follow-up duration for endpoint analysis is 12-months."
+        },
+        {
+          "measure": "Primary Safety Objective: Percentage of patients with major complications related to the system or procedure.",
+          "description": "Adverse events will be collected as they occur. Adverse events will be adjudicated for their relationship to the implant procedure and system. Severity of adverse events related to the procedure or system will be reviewed to determine if they are major complications. Major complications are defined as complications related to the system or procedure that result in one or more of the following: death, hospitalization, prolonged hospitalization by at least 48 hours, additional surgical intervention, system modification (e.g., reposition, replacement, or explant), and/or permanent loss of device function due to mechanical or electrical dysfunction of the device. The percentage of patients undergoing a pacemaker implant attempt who experience a major complication related to the system or procedure at 12 months.",
+          "timeFrame": "12-months post pacemaker implant attempt."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Secondary Objective #1: Compare changes in HF-related health status as measured by the KCCQ-CSS from baseline to 12-months between randomized treatment groups.",
+          "description": "KCCQ will be collected at baseline and 12-months and the clinical summary score (CSS) will be computed with a range of 0 to 100, 100 being the best score. The change in KCCQ-CCS will be compared between the treatment and control groups.",
+          "timeFrame": "Follow-up duration for endpoint analysis is 12-months."
+        },
+        {
+          "measure": "Secondary Objective #2: Compare the change in NT-proBNP from baseline to 12-months between randomized groups by comparing NT-proBNP measured at baseline and 12-months.",
+          "description": "NT-proBNP will be collected at baseline and 12-months. The change in NT-proBNP will be compared between treatment and control groups.",
+          "timeFrame": "Follow-up duration for endpoint analysis is 12-months."
+        },
+        {
+          "measure": "Secondary Objective #3: Compare AF burden as measured by the device between randomized treatment groups.",
+          "description": "AF burden (percentage of time in atrial fibrillation) is collected by the pacemaker system. AF burden will be compared between treatment and control groups.",
+          "timeFrame": "Follow-up duration for endpoint analysis is 12-months."
+        },
+        {
+          "measure": "Secondary Objective #4: Compare the change in 6-minute walk distance from baseline to 12-months between randomized treatment groups.",
+          "description": "The 6-minute walk test will be performed at baseline and 12-months. The change in walk test distance (in meters) from baseline to 12-months will be compared between the treatment and control groups.",
+          "timeFrame": "Follow-up duration for endpoint analysis is 12-months."
+        },
+        {
+          "measure": "Secondary Objective #5: Compare device measured physical activity between randomized treatment groups during the 12-month follow-up period.",
+          "description": "Physical activity (hours per day) is collected by the pacemaker system. The average physical activity during the 12-month follow-up period will be compared between the treatment and control group.",
+          "timeFrame": "Follow-up duration for endpoint analysis is 12-months."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age ≥ 40 years\n2. Documented EF ≥50% within the preceding 12 months\n3. HFpEF defined as:\n\n   1. Documented worsening HF episode (either HF hospitalization or documented urgent clinic visit for HF with intravenous diuretics) within 12-months prior to baseline visit OR\n   2. Dyspnea on exertion and New York Heart Association (NYHA) ≥ class II symptoms AND AT LEAST ONE OF THE FOLLOWING CRITERIA:\n\n      * Interstitial / pulmonary edema on prior chest imaging in the last year AND current loop diuretic use for heart failure\n      * Elevated NT-proBNP in the last year defined as \\>400 pg/m for patients with no AF or paroxysmal AF, or \\>900 pg/ml for patients with ≥persistent AF\n      * Mean pulmonary capillary wedge pressure (PCWP) ≥15 mm Hg or LVEDP ≥16 mm Hg at rest on cardiac catheterization OR pulmonary artery diastolic and wedge pressure (PADP) ≥15 mm Hg at rest on implantable monitor (e.g., CardioMEMs)\n      * Echo criteria defined by ≥2 of:\n\n        * LV wall thickness ≥ 12 mm\n        * LV mass index (BSA indexed LVH): sex at birth male \\>115 g/m2, sex at birth female \\>95 g/m2\n        * Relative wall thickness ≥0.42\n        * E/e' ≥15 in sinus rhythm (or \\> 11 in the setting of atrial fibrillation) OR septal \\<7 cm/s or lateral e' \\<10cm/s\n        * Tricuspid regurgitation (TR) velocity \\>2.8 m/s\n        * Left atrial (LA) enlargement, defined by LA volume index \\>34 ml/m2\n4. Patient is on stable guideline indicated HF medical therapy (Class I recommendations) for at least 30 days\n5. Patient's average heart rate on baseline ambulatory electrocardiographic monitor is at least 5 bpm lower than their calculated personalized cardiac pacing rate (e.g. if a patient's personalized cardiac pacing rate is 70 bpm and their average heart rate on the ambulatory electrocardiographic monitor is less than or equal to 65 bpm the patient is eligible)\n6. Patient is willing and able to adhere to the protocol (e.g., patient is able to ambulate independently at baseline).\n\nExclusion Criteria:\n\n1. Improved or recovered EF (i.e., prior LVEF\\<50%)\n2. Patient has a previously implanted, currently implanted, or is intended to have implanted a cardiac implantable electronic device capable of delivering pacing (e.g., pacemaker, implantable cardioverter defibrillator (ICD), cardiac resynchronization therapy (CRT))\n3. Current pregnancy (requirement for negative pregnancy test may vary by jurisdiction)\n4. Average heart rate \\<50 bpm or symptomatic bradycardia\n5. Acute coronary syndrome (including MI), cardiovascular surgery, or urgent percutaneous coronary intervention (PCI) within the 3 months prior to baseline visit or an elective PCI within 30 days prior to baseline visit.\n6. Current acute decompensated HF requiring intravenous diuretics, vasodilators and/or inotropic drugs.\n7. Severe obesity defined as BMI \\>45.\n8. Persistent, long-standing persistent, or permanent atrial fibrillation (AF) with an average heart rate \\<50 bpm or evidence of ventricular pauses exceeding 6 seconds\n9. Planned AF ablation\n10. Infiltrative cardiomyopathies (e.g., amyloidosis, sarcoidosis)\n11. Hypertrophic cardiomyopathies\n12. Uncontrolled hypertension as defined by BP \\>160/100 mmHg on two measurements ≥15 minutes apart\n13. End Stage Renal Disease (CKD 4 or greater)\n14. More than moderate valvular disease (e.g. exclude patients with moderate severe or severe valvular disease)\n15. Significant primary pulmonary disease on home oxygen\n16. Known contraindication for a pacemaker implant\n17. Advanced co-morbidity with life expectancy \\< 1 year\n18. Patients who are currently enrolled in a potentially confounding drug or device trial during the course of the study. Co-enrollment in concurrent trials is only allowed when documented pre-approval is obtained from the Medtronic Study Manager.\n19. Patient is a vulnerable adult (e.g. patient mentally incapable of giving consent).",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "40 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Dawn Dyer",
+          "role": "CONTACT",
+          "phone": "954-682-8334",
+          "email": "dawn.dyer@medtronic.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hartford Hospital",
+          "status": "RECRUITING",
+          "city": "Hartford",
+          "state": "Connecticut",
+          "zip": "06106",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.76371,
+            "lon": -72.68509
+          }
+        },
+        {
+          "facility": "Cardiovascular Institute of Northwest Florida",
+          "status": "RECRUITING",
+          "city": "Panama City",
+          "state": "Florida",
+          "zip": "32405",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.15946,
+            "lon": -85.65983
+          }
+        },
+        {
+          "facility": "Emory University",
+          "status": "RECRUITING",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30308",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Iowa Heart Center",
+          "status": "RECRUITING",
+          "city": "Des Moines",
+          "state": "Iowa",
+          "zip": "50266",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.60054,
+            "lon": -93.60911
+          }
+        },
+        {
+          "facility": "Cardiovascular Institute of the South",
+          "status": "RECRUITING",
+          "city": "Houma",
+          "state": "Louisiana",
+          "zip": "70360",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.59577,
+            "lon": -90.71953
+          }
+        },
+        {
+          "facility": "Saint Lukes Mid America Heart Institute",
+          "status": "RECRUITING",
+          "city": "Kansas City",
+          "state": "Missouri",
+          "zip": "64111",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.09973,
+            "lon": -94.57857
+          }
+        },
+        {
+          "facility": "The Ohio State University Wexner Medical Center",
+          "status": "RECRUITING",
+          "city": "Columbus",
+          "state": "Ohio",
+          "zip": "43210",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.96118,
+            "lon": -82.99879
+          }
+        },
+        {
+          "facility": "Mount Carmel East",
+          "status": "RECRUITING",
+          "city": "Columbus",
+          "state": "Ohio",
+          "zip": "43219",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.96118,
+            "lon": -82.99879
+          }
+        },
+        {
+          "facility": "Lancaster General Hospital",
+          "status": "RECRUITING",
+          "city": "Lancaster",
+          "state": "Pennsylvania",
+          "zip": "17602",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.03788,
+            "lon": -76.30551
+          }
+        },
+        {
+          "facility": "Medical University of South Carolina (MUSC)",
+          "status": "RECRUITING",
+          "city": "Charleston",
+          "state": "South Carolina",
+          "zip": "29425",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.77632,
+            "lon": -79.93275
+          }
+        },
+        {
+          "facility": "Saint Thomas Research Institute",
+          "status": "RECRUITING",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37203",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        },
+        {
+          "facility": "Inova Fairfax Hospital",
+          "status": "RECRUITING",
+          "city": "Falls Church",
+          "state": "Virginia",
+          "zip": "22042",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.88233,
+            "lon": -77.17109
+          }
+        },
+        {
+          "facility": "The Prince Charles Hospital",
+          "status": "RECRUITING",
+          "city": "Chermside",
+          "state": "Queensland",
+          "zip": "4032",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -27.38472,
+            "lon": 153.03062
+          }
+        },
+        {
+          "facility": "The Alfred Hospital",
+          "status": "RECRUITING",
+          "city": "Melbourne",
+          "state": "Victoria",
+          "zip": "3004",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.814,
+            "lon": 144.96332
+          }
+        },
+        {
+          "facility": "Ordensklinikum Linz GmbH / Elisabethinen",
+          "status": "RECRUITING",
+          "city": "Linz",
+          "zip": "4010",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.30639,
+            "lon": 14.28611
+          }
+        },
+        {
+          "facility": "Universitair Ziekenhuis Antwerpen",
+          "status": "RECRUITING",
+          "city": "Edegem",
+          "zip": "2650",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.15662,
+            "lon": 4.44504
+          }
+        },
+        {
+          "facility": "Prince of Wales Hospital",
+          "status": "RECRUITING",
+          "city": "Hong Kong",
+          "country": "Hong Kong",
+          "geoPoint": {
+            "lat": 22.27832,
+            "lon": 114.17469
+          }
+        },
+        {
+          "facility": "Oslo Universitetssykehus-Rikshospitalet",
+          "status": "RECRUITING",
+          "city": "Oslo",
+          "zip": "0372",
+          "country": "Norway",
+          "geoPoint": {
+            "lat": 59.91273,
+            "lon": 10.74609
+          }
+        },
+        {
+          "facility": "The Leeds Teaching Hospitals NHS Trust - Leeds General Infirmary",
+          "status": "RECRUITING",
+          "city": "Leeds",
+          "zip": "LS1 3EX",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 53.79648,
+            "lon": -1.54785
+          }
+        },
+        {
+          "facility": "Manchester University NHS Foundation Trust - Manchester Royal Infirmary",
+          "status": "RECRUITING",
+          "city": "Manchester",
+          "zip": "M13 9WL",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 53.48095,
+            "lon": -2.23743
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

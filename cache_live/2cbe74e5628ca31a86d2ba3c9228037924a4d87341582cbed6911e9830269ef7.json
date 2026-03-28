@@ -1,0 +1,304 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04753398",
+      "orgStudyIdInfo": {
+        "id": "13/085U"
+      },
+      "organization": {
+        "fullName": "Hasselt University",
+        "class": "OTHER"
+      },
+      "briefTitle": "One Heart to Care for",
+      "officialTitle": "One Heart to Care for, Your Heart to Take Care of.",
+      "acronym": "1H2C4"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-02",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "No patients included",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2014-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2015-12",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2016-12",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2014-03-03",
+      "studyFirstSubmitQcDate": "2021-02-10",
+      "studyFirstPostDateStruct": {
+        "date": "2021-02-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-02-10",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-02-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Pieter Vandervoort",
+        "investigatorTitle": "prof. dr.",
+        "investigatorAffiliation": "Hasselt University"
+      },
+      "leadSponsor": {
+        "name": "Hasselt University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Ziekenhuis Oost-Limburg",
+          "class": "OTHER"
+        },
+        {
+          "name": "WGK Limburg",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is an open randomized clinical trial with two study arms. One group, receiving usual care for heart failure, will be compared to another group, receiving usual care plus active telemonitoring interference.\n\nWhen leaving the hospital, the usual care arm receives a document with a predefined medication scheme and advice for the general practitioner (like it is currently done in usual care). Besides the normal consultations at 2 and 5 weeks, no active interactions take place between the study nurse and the patient.\n\nThe telemonitoring interference in the other study arm consists of an automatic blood pressure device and medication dispenser that transmit data to a central platform. During the first 12 weeks, the nurse of the call center will give incentive for medication up titration on the basis of the available data. Before up titration can be done, the patient needs to take blood pressure measurements 3 times in the morning and 3 times in the evening and at least 6 measurements a week."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ],
+      "keywords": [
+        "Heart Failure",
+        "Telemonitoring",
+        "medication up titration",
+        "automatic blood pressure device",
+        "medication dispenser"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Telemonitoring group",
+          "type": "EXPERIMENTAL",
+          "description": "Additional telemonitoring devices: Blood Pressure Monitor, medication dispenser, telemonitoring technology",
+          "interventionNames": [
+            "Device: Blood Pressure Monitor, medication dispenser, telemonitoring technology"
+          ]
+        },
+        {
+          "label": "Control group",
+          "type": "NO_INTERVENTION",
+          "description": "usual care, without telemonitoring"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Blood Pressure Monitor, medication dispenser, telemonitoring technology",
+          "description": "The telemonitoring interference in the telemonitoring arm consists of an automatic blood pressure device and medication dispenser that transmit data to a central platform.",
+          "armGroupLabels": [
+            "Telemonitoring group"
+          ],
+          "otherNames": [
+            "Telemedicine",
+            "remote monitoring",
+            "remote follow-up"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Mean medication doses",
+          "description": "Define whether the mean medication doses of angiotensin-converting-enzyme inhibitor (ACE-I) and bètablockers (BB) in the group with telemonitoring is higher than in the group with usual care (without telemonitoring) after 12 weeks.",
+          "timeFrame": "week 12"
+        },
+        {
+          "measure": "Mean medication doses",
+          "description": "Define whether the mean medication doses of angiotensin-converting-enzyme inhibitor (ACE-I) and bètablockers (BB) in the group with telemonitoring is higher than in the group with usual care (without telemonitoring) after 6 months",
+          "timeFrame": "week 24"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Medication titration",
+          "description": "Mean doses ACE-I/angiotensin receptor blockers (ARB) en BB after 6 months",
+          "timeFrame": "up to one year"
+        },
+        {
+          "measure": "All-cause mortality",
+          "description": "All-cause mortality",
+          "timeFrame": "Up to one year"
+        },
+        {
+          "measure": "All cardio-related hospitalisations (number and time)",
+          "description": "* Arrythmogenic nature\n* Ischemic nature\n* Heart failure nature\n* Valvular/surgical nature\n* Elektrofysiological nature (implantation ICD, CRT,…)",
+          "timeFrame": "Up to one year"
+        },
+        {
+          "measure": "All heart failure hospitalisations",
+          "description": "* Treatment with (whether or not intravenous) diuretic therapy\n* Treatment with hemodynamic guided therapy (vasodilators)\n* Treatment with intravenous inotropics",
+          "timeFrame": "Up to one year"
+        },
+        {
+          "measure": "Number of medical practitioner-patient contacts",
+          "description": "* In hospital (medical record)\n* At patient home (WGK)",
+          "timeFrame": "Up to one year"
+        },
+        {
+          "measure": "Number of (telephone) contacts, registered by the heart failure nurse",
+          "description": "Number of (telephone) contacts, registered by the heart failure nurse",
+          "timeFrame": "Up to one year"
+        },
+        {
+          "measure": "Number of (telephone) contacts for the encouragement of medication compliance",
+          "description": "Number of (telephone) contacts for the encouragement of medication compliance",
+          "timeFrame": "Up to one year"
+        },
+        {
+          "measure": "Evolution of heart failure and comorbidities",
+          "description": "* Blood collection with: kidney function determinations, electrolytes, heart markers (NT-proBNP)\n* Echo parameters (cardiac output, LVEF, diameters end systolic and diastolic)\n* Exercise stress tests (VO2max, maximal wattage, maximal heart rate)\n* Weight, length, blood pressure, ECG",
+          "timeFrame": "up to one year"
+        },
+        {
+          "measure": "Quality of life according to the HeartQoL questionnaire",
+          "timeFrame": "day 1, month 12"
+        },
+        {
+          "measure": "Satisfaction survey",
+          "description": "Satisfaction survey about the received care (anonymous)",
+          "timeFrame": "month 12"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* \\- Age ≥ 50\n* Patient has to be followed in Ziekenhuis Oost-Limburg or Jessa Ziekenhuis Hasselt\n* The patient has to be able to live independently or in a service flat\n* The diagnosis of heart failure or severe myocardial infarction has to be done after September 1, 2013 according to:\n\n  * Left ventricular ejection fraction (LVEF) \\<40%\n  * eGFR\\>30ml/min/kg\n  * Treatment minimally with ACE-I and BB\n* The general practitioner had to give his approval for the installation of telemonitoring On the basis of an interview between the heart failure nurse and patient, one will decide if the patient is eligibil to join the study. The patient also needs to speak sufficient Dutch to be communicative about his/her medical condition.\n\nExclusion Criteria:\n\n* Reversible form of heart failure\n* Heart failure due to severe aortic stenosis\n* eGFR less than 30ml/min/kg\n* Presence of a cardiac resynchronization therapy (CRT) device\n* Palliative status following the RIZIV guidelines or according to the assessment of the cardiologist (\\<1 year)\n* Patients staying in a nursing or retirement home\n* Active treatment with either ACE-I/ARB or BB",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "50 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Pieter Vandervoort, prof. dr.",
+          "affiliation": "Ziekenhuis Oost-Limburg",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Brenda Aendekerk, MSc",
+          "affiliation": "Wit Gele Kruis Limburg, Genk, Belgium",
+          "role": "STUDY_DIRECTOR"
+        },
+        {
+          "name": "Valerie Storms, dr.",
+          "affiliation": "Hasselt University",
+          "role": "STUDY_DIRECTOR"
+        },
+        {
+          "name": "Lars Grieten, dr.",
+          "affiliation": "Hasselt University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Christophe Smeets, MSc",
+          "affiliation": "Hasselt University",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Ziekenhuis Oost-Limburg",
+          "city": "Genk",
+          "zip": "3600",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.965,
+            "lon": 5.50082
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D015924",
+          "term": "Blood Pressure Monitors"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D019722",
+          "term": "Sphygmomanometers"
+        },
+        {
+          "id": "D019719",
+          "term": "Diagnostic Equipment"
+        },
+        {
+          "id": "D004864",
+          "term": "Equipment and Supplies"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

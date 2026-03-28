@@ -1,0 +1,351 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04153136",
+      "orgStudyIdInfo": {
+        "id": "MGH2019P002355"
+      },
+      "organization": {
+        "fullName": "Massachusetts General Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "The ENCHANTMENT HIV Study",
+      "officialTitle": "Ending Subclinical Heart Failure Using an Aldosterone and Natriuretic Peptide Targeted Treatment in HIV--The ENCHANTMENT HIV Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-09-11",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-07-09",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-07-09",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-10-30",
+      "studyFirstSubmitQcDate": "2019-11-03",
+      "studyFirstPostDateStruct": {
+        "date": "2019-11-06",
+        "type": "ACTUAL"
+      },
+      "dispFirstSubmitDate": "2026-01-07",
+      "dispFirstPostDateStruct": {
+        "date": "2026-01-08",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-07",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-28",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Suman Srinivasa, M.D.",
+        "investigatorTitle": "Assistant Professor of Medicine",
+        "investigatorAffiliation": "Massachusetts General Hospital"
+      },
+      "leadSponsor": {
+        "name": "Massachusetts General Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Persons with HIV, even those well-treated, are at increased risk for heart disease when compared to the general population. Two hormones called aldosterone and brain natriuretic peptide (BNP), which have been shown to be abnormal in HIV, may be associated with inflammation as well as early changes in structure and function of the heart. This study is being conducted to evaluate whether therapies to block aldosterone and increase BNP levels may reduce the burden and progression of heart failure to improve cardiovascular health.",
+      "detailedDescription": "This is a 6-month study enrolling persons with HIV with no known history of heart disease. Participants will be screened for early signs of heart failure using cardiac ultrasound (cardiac transthoracic echocardiography or cardiac TTE). Those participants who have early changes in the structure and function of the heart and may be at future risk for heart failure will be enrolled into the study. Additional imaging of the heart will occur using cardiac magnetic resonance imaging (cardiac MRI). Following baseline studies, participants will either receive a medication called sacubitril/valsartan or placebo for 6 months. Sacubitril/valsartan in an FDA approved medication currently being used for heart failure with reduced ejection fraction in the general population, and we are evaluating whether this medication could be useful to reduce HIV-related heart failure with preserved ejection fraction. Sacubitril/valsartan is an oral medication taken twice daily that may block aldosterone hormone and increase natriuretic peptide hormone. Overall, this study aims to investigate the effect of sacubitril/valsartan on measures of heart disease related to inflammation, structure and function of the heart muscle in HIV using cardiac TTE and cardiac MRI imaging as well as blood markers of heart failure and inflammation."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "HIV/AIDS",
+        "Heart Failure With Preserved Ejection Fraction"
+      ],
+      "keywords": [
+        "HIV",
+        "Sacubitril/valsartan",
+        "Heart Failure with Preserved Ejection Fraction",
+        "Aldosterone",
+        "Natriuretic Peptides",
+        "Myocardial Dysfunction",
+        "Cardiovascular Disease"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 39,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Sacubitril/Valsartan",
+          "type": "EXPERIMENTAL",
+          "description": "Sacubitril/Valsartan 49-51mg twice daily along with lifestyle modification (counseling regarding diet and healthy activity) for 6 months",
+          "interventionNames": [
+            "Drug: Sacubitril-Valsartan 49-51Mg Oral Tablet"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo twice daily along with lifestyle modification (counseling regarding diet and healthy activity) for 6 months",
+          "interventionNames": [
+            "Drug: Placebo oral tablet"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Sacubitril-Valsartan 49-51Mg Oral Tablet",
+          "description": "By mouth twice daily",
+          "armGroupLabels": [
+            "Sacubitril/Valsartan"
+          ],
+          "otherNames": [
+            "Entresto"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo oral tablet",
+          "description": "Placebo oral tablet By mouth twice daily",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Myocardial Inflammation/Fibrosis",
+          "description": "Myocardial Inflammation/Fibrosis measured by extracellular volume fraction via cardiac magnetic resonance imaging",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Myocardial Dysfunction",
+          "description": "Left Atrial Volume Index or Global Longitudinal Strain measured by cardiac transthoracic echocardiography",
+          "timeFrame": "6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Other Indices of Myocardial Dysfunction",
+          "description": "Alterations in other cardiac structure and function as measured by cardiac magnetic resonance imaging or cardiac transthoracic echocardiogram",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Markers of Myocardial Inflammation and Fibrosis",
+          "description": "Circulating biomarkers of myocardial inflammation and fibrosis: Gal3, ST2, GDF15, hs-cTnT",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Cardiac Natriuretic Peptides",
+          "description": "Circulating cardiac natriuretic peptides: ANP, BNP, NT-proBNP",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Antiretroviral therapy use for \\>12 months\n2. HIV Viral Load \\<200 copies/mL\n3. Left Ventricular Ejection Fraction\\>50%\n4. Demonstration of one or more criteria for myocardial dysfunction on cardiac transthoracic echocardiogram, relevant to the progression of heart failure with preserved ejection fraction:\n\n   * Left Atrial Volume Index \\> 28 mL/m2\n   * Global Longitudinal Strain \\<18%\n   * Left Ventricular Mass Index \\> 95g/m2 (female), 115 g/m2 (male)\n\nExclusion Criteria:\n\n1. Known history of congestive heart failure or valvular disease\n2. Recent cardiac event or stroke within 3 months\n3. Current medication use acting along the RAAS pathway (ACEi, ARB, MR blockade, direct renin inhibitor), potassium (K) supplementation or diuretic\n4. Angioedema to ACEi or ARB\n5. SBP\\<100 mmHg\n6. Medication suspected to have contraindication with active study drug\n7. Steroid use within last 3 months\n8. Uncontrolled diabetes requiring insulin and/or HbA1c \\> 7.5%\n9. Creatinine (Cr)\\>1.5 mg/dL and estimated GFR\\<60 mL/min/1.73m2\n10. K\\>5.5 mEq/L\n11. Hemoglobin \\<10.0 g/dL\n12. Known liver disease or ALT\\>3x upper limit normal\n13. Pregnant, actively seeking pregnancy or breastfeeding\n14. Estrogen, progestin derivative, or other sex steroid use within 3 months. Stable physiologic testosterone replacement (\\> 3 months) is acceptable\n15. Current bacterial or other infection\n16. Active substance abuse\n17. Known reaction to gadolinium",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "40 Years",
+      "maximumAge": "70 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Massachusetts General Hospital",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02114",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "26086328",
+          "type": "BACKGROUND",
+          "citation": "Srinivasa S, Fitch KV, Wong K, Torriani M, Mayhew C, Stanley T, Lo J, Adler GK, Grinspoon SK. RAAS Activation Is Associated With Visceral Adiposity and Insulin Resistance Among HIV-infected Patients. J Clin Endocrinol Metab. 2015 Aug;100(8):2873-82. doi: 10.1210/jc.2015-1461. Epub 2015 Jun 18."
+        },
+        {
+          "pmid": "29408981",
+          "type": "BACKGROUND",
+          "citation": "Murphy CA, Fitch KV, Feldpausch M, Maehler P, Wong K, Torriani M, Adler GK, Grinspoon SK, Srinivasa S. Excessive Adiposity and Metabolic Dysfunction Relate to Reduced Natriuretic Peptide During RAAS Activation in HIV. J Clin Endocrinol Metab. 2018 Apr 1;103(4):1558-1565. doi: 10.1210/jc.2017-02198."
+        },
+        {
+          "pmid": "29659888",
+          "type": "BACKGROUND",
+          "citation": "Srinivasa S, Fitch KV, Wong K, O'Malley TK, Maehler P, Branch KL, Looby SE, Burdo TH, Martinez-Salazar EL, Torriani M, Lyons SH, Weiss J, Feldpausch M, Stanley TL, Adler GK, Grinspoon SK. Randomized, Placebo-Controlled Trial to Evaluate Effects of Eplerenone on Metabolic and Inflammatory Indices in HIV. J Clin Endocrinol Metab. 2018 Jun 1;103(6):2376-2384. doi: 10.1210/jc.2018-00330."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "ICF",
+          "hasProtocol": false,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Informed Consent Form",
+          "date": "2025-08-04",
+          "uploadDate": "2026-01-07T10:42",
+          "filename": "ICF_000.pdf",
+          "size": 583076
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000163",
+          "term": "Acquired Immunodeficiency Syndrome"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D015658",
+          "term": "HIV Infections"
+        },
+        {
+          "id": "D000086982",
+          "term": "Blood-Borne Infections"
+        },
+        {
+          "id": "D003141",
+          "term": "Communicable Diseases"
+        },
+        {
+          "id": "D007239",
+          "term": "Infections"
+        },
+        {
+          "id": "D015229",
+          "term": "Sexually Transmitted Diseases, Viral"
+        },
+        {
+          "id": "D012749",
+          "term": "Sexually Transmitted Diseases"
+        },
+        {
+          "id": "D016180",
+          "term": "Lentivirus Infections"
+        },
+        {
+          "id": "D012192",
+          "term": "Retroviridae Infections"
+        },
+        {
+          "id": "D012327",
+          "term": "RNA Virus Infections"
+        },
+        {
+          "id": "D014777",
+          "term": "Virus Diseases"
+        },
+        {
+          "id": "D012897",
+          "term": "Slow Virus Diseases"
+        },
+        {
+          "id": "D000091662",
+          "term": "Genital Diseases"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D007153",
+          "term": "Immunologic Deficiency Syndromes"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C549068",
+          "term": "sacubitril and valsartan sodium hydrate drug combination"
+        },
+        {
+          "id": "D013607",
+          "term": "Tablets"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004304",
+          "term": "Dosage Forms"
+        },
+        {
+          "id": "D004364",
+          "term": "Pharmaceutical Preparations"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

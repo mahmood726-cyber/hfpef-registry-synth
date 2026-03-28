@@ -1,0 +1,566 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05745337",
+      "orgStudyIdInfo": {
+        "id": "00002271"
+      },
+      "organization": {
+        "fullName": "University of Vermont",
+        "class": "OTHER"
+      },
+      "briefTitle": "Atrial Fibrillation: Chronic Beta-blocker Use Versus As-needed Rate Control Guided by Implantable Cardiac Monitor",
+      "officialTitle": "Improving Outcomes in Atrial Fibrillation Patients Aided by Implantable Cardiac Monitor: Evaluation of Chronic Beta-blocker Use Versus As-needed Pharmacological Rate Control"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-02",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-02-06",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-01-30",
+      "studyFirstSubmitQcDate": "2023-02-15",
+      "studyFirstPostDateStruct": {
+        "date": "2023-02-27",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-02-28",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-03-03",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Nicole Habel, MD",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "University of Vermont"
+      },
+      "leadSponsor": {
+        "name": "University of Vermont",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this study is to test the feasibility of guiding as-needed pharmacological rate control of atrial fibrillation (AF) by implantable cardiac monitors and to assess the impact of continuous beta-blocker therapy versus as-needed rate control on the following outcomes:\n\n(1) exercise capacity, (2) AF burden, (3) symptomatic heart failure, (4) biomarker assessment of cardiac filling pressures and cardio-metabolic health, and (5) quality of life in patients with atrial fibrillation and stage II or III heart failure with preserved ejection fraction.",
+      "detailedDescription": "Patients ≥ 18 years of age with paroxysmal or persistent AF who have an implantable cardiac monitor (either loop recorder or pacemaker) and who are receiving daily beta-blocker therapy will be screened for meeting the inclusion/exclusion criteria.\n\nTrial participants will then be randomized into the daily beta-blocker or as-needed pharmacological rate control.\n\nAt baseline and six months trial participants will undergo assessment of the following measures:\n\n* Assessment of Quality of life using the Minnesota Living with Heart Failure Questionnaire and the Atrial Fibrillation Effect on Quality of life Questionnaire.\n* Blood draw\n* Cardiopulmonary exercise test, 6 Minute Walk Test and average daily activity level via integrated accelerometer of the implantable cardiac monitor (if available).\n* Assessment of AF burden\n\nStudy participants may opt into long-term follow up visits at 12, 18 and 24 months.\n\nChart review will continue for up to 4 years after enrollment for the purpose of monitoring clinical endpoints:\n\n* Heart failure events (diuretic drug change, emergency room visit, hospitalization)\n* AF events (hospitalization, emergency room visit, cardioversion, antiarrhythmic medication initiation)\n* Stroke or transient ischemic attack\n* Myocardial infarction"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Atrial Fibrillation",
+        "Diastolic Dysfunction",
+        "HFpEF - Heart Failure With Preserved Ejection Fraction"
+      ],
+      "keywords": [
+        "AF",
+        "HFpEF",
+        "Exercise capacity",
+        "Peak oxygen consumption",
+        "Beta Blocker"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 20,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Control",
+          "type": "NO_INTERVENTION",
+          "description": "Patients randomized to the control arm will continue taking their daily beta-blocker for rate control of atrial fibrillation"
+        },
+        {
+          "label": "As needed rate control",
+          "type": "EXPERIMENTAL",
+          "description": "Patients randomized to the experimental arm will stop their daily beta-blocker and take as needed rate control guided by their implantable cardiac monitor",
+          "interventionNames": [
+            "Drug: As needed pharmacological rate control with beta-blocker (metoprolol tartrate, metoprolol succinate) or calcium channel blocker (diltiazem, verapamil)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "As needed pharmacological rate control with beta-blocker (metoprolol tartrate, metoprolol succinate) or calcium channel blocker (diltiazem, verapamil)",
+          "description": "Patients will stop their daily beta-blocker and take as-needed rate control (beta-blocker or calcium channel blocker) guided by their implantable cardiac monitor",
+          "armGroupLabels": [
+            "As needed rate control"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Exercise capacity",
+          "description": "Change in peak oxygen consumption during cardiopulmonary exercise testing",
+          "timeFrame": "At time of randomization and 6 months afterwards."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of participants with a composite of treatment related adverse events",
+          "description": "Number of heart failure hospitalization, unplanned hospitalization for atrial fibrillation, stroke or transient ischemic attack, acute coronary syndrome in both treatment arms",
+          "timeFrame": "At 6 months, at 12 months, at 18 months, at 24 months"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Number of participants with a composite of treatment related heart failure events",
+          "description": "Heart failure events: diuretic drug change, emergency room visit",
+          "timeFrame": "At 6 months, at 12 months, at 18 months, at 24 months"
+        },
+        {
+          "measure": "Number of participants with a composite of treatment related atrial fibrillation events",
+          "description": "Atrial fibrillation events: planned hospitalization, emergency room visit, cardioversion, antiarrhythmic medication initiation",
+          "timeFrame": "At 6 months, at 12 months, at 18 months, at 24 months"
+        },
+        {
+          "measure": "Change in quality of life by Minnesota Living with heart failure questionnaire score",
+          "description": "Score ranges from 0-105 with higher scores meaning worse quality of life",
+          "timeFrame": "At time of randomization and 6 months afterwards."
+        },
+        {
+          "measure": "Change in quality of life by Atrial fibrillation Effect on Quality of life questionnaire score",
+          "description": "Score ranges from 0-100 with higher scores meaning better quality of life",
+          "timeFrame": "At time of randomization and 6 months afterwards."
+        },
+        {
+          "measure": "Change in NTproBNP",
+          "timeFrame": "At time of randomization and 6 months afterwards."
+        },
+        {
+          "measure": "Change in hsTroponin",
+          "timeFrame": "At time of randomization and 6 months afterwards."
+        },
+        {
+          "measure": "Change in HbA1c",
+          "timeFrame": "At time of randomization and 6 months afterwards."
+        },
+        {
+          "measure": "Change in Fructosamine",
+          "timeFrame": "At time of randomization and 6 months afterwards."
+        },
+        {
+          "measure": "Change in Cystatin C",
+          "timeFrame": "At time of randomization and 6 months afterwards."
+        },
+        {
+          "measure": "Change in atrial fibrillation burden recorded by implantable cardiac monitor",
+          "timeFrame": "At time of randomization and 6 months afterwards."
+        },
+        {
+          "measure": "Change in 6 minute walk distance",
+          "timeFrame": "At time of randomization and 6 months afterwards."
+        },
+        {
+          "measure": "Change in device detected activity level",
+          "timeFrame": "At time of randomization and 6 months afterwards."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Paroxysmal or persistent AF diagnosed in the past 4 weeks or longer\n* Implantable cardiac monitor (either loop recorder or pacemaker)\n* Current treatment with greater than minimum doses of beta-blockers OR any beta-blocker with resting sinus rhythm heart rate \\< 75 bpm (documented on EKG in the last 6 months OR at enrollment visit)\n* Left ventricular ejection fraction ≥ 50% (reported on echocardiogram within the past 48 months)\n* Echocardiographic evidence of structural changes consistent with HFpEF defined by (1) left ventricular hypertrophy (septal or posterior wall thickness \\> 10mm) OR (2) left atrial enlargement OR (3) diastolic dysfunction.\n\nExclusion Criteria:\n\n* Long-standing persistent or permanent atrial fibrillation (Long-standing persistent AF is defined as continuous AF of \\> 12 months duration. Permanent AF is defined as AF accepted by the patient and physician and no further attempts to restore/maintain sinus rhythm will be undertaken).\n* Echocardiographic evidence of left ventricular dilation (defined as left ventricular end diastolic volume (LVEDV) index ≥ 80ml/m2 as determined by echocardiogram within the past 48 months.\n* Documentation in the electronic medical record suggesting a life expectancy less than 12 months\n\nMinimum dosage of beta-blocker therapy to meet enrollment criterion:\n\nMetoprolol tartrate 25mg twice daily, Metoprolol succinate 50mg daily, Carvedilol 12.5mg daily, Bisoprolol 5mg twice daily, Nebivolol 5mg daily, Atenolol 50mg daily, Labetalol 100mg twice daily, Propranolol 40mg twice daily",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Nicole Habel, MD",
+          "role": "CONTACT",
+          "phone": "8028470000",
+          "email": "nicole.habel@uvmhealth.org"
+        },
+        {
+          "name": "Amy Henderson",
+          "role": "CONTACT",
+          "email": "amy.henderson@uvmhealth.org"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Nicole Habel, MD",
+          "affiliation": "University of Vermont",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Vermont Medical Center",
+          "status": "RECRUITING",
+          "city": "Burlington",
+          "state": "Vermont",
+          "zip": "05405",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Nicole Habel, MD",
+              "role": "CONTACT",
+              "email": "nicole.habel@uvmhealth.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.47588,
+            "lon": -73.21207
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "29378762",
+          "type": "BACKGROUND",
+          "citation": "Reddy YNV, Obokata M, Gersh BJ, Borlaug BA. High Prevalence of Occult Heart Failure With Preserved Ejection Fraction Among Patients With Atrial Fibrillation and Dyspnea. Circulation. 2018 Jan 30;137(5):534-535. doi: 10.1161/CIRCULATIONAHA.117.030093. No abstract available."
+        },
+        {
+          "pmid": "31525068",
+          "type": "BACKGROUND",
+          "citation": "Meyer M, LeWinter MM. Heart Rate and Heart Failure With Preserved Ejection Fraction: Time to Slow beta-Blocker Use? Circ Heart Fail. 2019 Aug;12(8):e006213. doi: 10.1161/CIRCHEARTFAILURE.119.006213. Epub 2019 Aug 1. No abstract available."
+        },
+        {
+          "pmid": "34794685",
+          "type": "BACKGROUND",
+          "citation": "Palau P, Seller J, Dominguez E, Sastre C, Ramon JM, de La Espriella R, Santas E, Minana G, Bodi V, Sanchis J, Valle A, Chorro FJ, Llacer P, Bayes-Genis A, Nunez J. Effect of beta-Blocker Withdrawal on Functional Capacity in Heart Failure and Preserved Ejection Fraction. J Am Coll Cardiol. 2021 Nov 23;78(21):2042-2056. doi: 10.1016/j.jacc.2021.08.073."
+        },
+        {
+          "pmid": "11937178",
+          "type": "BACKGROUND",
+          "citation": "Dahlof B, Devereux RB, Kjeldsen SE, Julius S, Beevers G, de Faire U, Fyhrquist F, Ibsen H, Kristiansson K, Lederballe-Pedersen O, Lindholm LH, Nieminen MS, Omvik P, Oparil S, Wedel H; LIFE Study Group. Cardiovascular morbidity and mortality in the Losartan Intervention For Endpoint reduction in hypertension study (LIFE): a randomised trial against atenolol. Lancet. 2002 Mar 23;359(9311):995-1003. doi: 10.1016/S0140-6736(02)08089-3."
+        },
+        {
+          "pmid": "15734615",
+          "type": "BACKGROUND",
+          "citation": "Wachtell K, Lehto M, Gerdts E, Olsen MH, Hornestam B, Dahlof B, Ibsen H, Julius S, Kjeldsen SE, Lindholm LH, Nieminen MS, Devereux RB. Angiotensin II receptor blockade reduces new-onset atrial fibrillation and subsequent stroke compared to atenolol: the Losartan Intervention For End Point Reduction in Hypertension (LIFE) study. J Am Coll Cardiol. 2005 Mar 1;45(5):712-9. doi: 10.1016/j.jacc.2004.10.068."
+        },
+        {
+          "pmid": "31800067",
+          "type": "BACKGROUND",
+          "citation": "Silverman DN, Plante TB, Infeld M, Callas PW, Juraschek SP, Dougherty GB, Meyer M. Association of beta-Blocker Use With Heart Failure Hospitalizations and Cardiovascular Disease Mortality Among Patients With Heart Failure With a Preserved Ejection Fraction: A Secondary Analysis of the TOPCAT Trial. JAMA Netw Open. 2019 Dec 2;2(12):e1916598. doi: 10.1001/jamanetworkopen.2019.16598."
+        },
+        {
+          "pmid": "33620439",
+          "type": "BACKGROUND",
+          "citation": "Mars K, Wallert J, Held C, Humphries S, Pingel R, Jernberg T, Olsson EMG, Hofmann R. Association between beta-blocker dose and cardiovascular outcomes after myocardial infarction: insights from the SWEDEHEART registry. Eur Heart J Acute Cardiovasc Care. 2021 May 25;10(4):372-379. doi: 10.1093/ehjacc/zuaa002."
+        },
+        {
+          "pmid": "33351042",
+          "type": "BACKGROUND",
+          "citation": "Kotecha D, Bunting KV, Gill SK, Mehta S, Stanbury M, Jones JC, Haynes S, Calvert MJ, Deeks JJ, Steeds RP, Strauss VY, Rahimi K, Camm AJ, Griffith M, Lip GYH, Townend JN, Kirchhof P; Rate Control Therapy Evaluation in Permanent Atrial Fibrillation (RATE-AF) Team. Effect of Digoxin vs Bisoprolol for Heart Rate Control in Atrial Fibrillation on Patient-Reported Quality of Life: The RATE-AF Randomized Clinical Trial. JAMA. 2020 Dec 22;324(24):2497-2508. doi: 10.1001/jama.2020.23138."
+        },
+        {
+          "pmid": "24135831",
+          "type": "BACKGROUND",
+          "citation": "Ulimoen SR, Enger S, Pripp AH, Abdelnoor M, Arnesen H, Gjesdal K, Tveit A. Calcium channel blockers improve exercise capacity and reduce N-terminal Pro-B-type natriuretic peptide levels compared with beta-blockers in patients with permanent atrial fibrillation. Eur Heart J. 2014 Feb;35(8):517-24. doi: 10.1093/eurheartj/eht429. Epub 2013 Oct 17."
+        },
+        {
+          "pmid": "32856526",
+          "type": "BACKGROUND",
+          "citation": "Silverman DN, Rambod M, Lustgarten DL, Lobel R, LeWinter MM, Meyer M. Heart Rate-Induced Myocardial Ca2+ Retention and Left Ventricular Volume Loss in Patients With Heart Failure With Preserved Ejection Fraction. J Am Heart Assoc. 2020 Sep;9(17):e017215. doi: 10.1161/JAHA.120.017215. Epub 2020 Aug 28."
+        },
+        {
+          "pmid": "16476843",
+          "type": "BACKGROUND",
+          "citation": "Williams B, Lacy PS, Thom SM, Cruickshank K, Stanton A, Collier D, Hughes AD, Thurston H, O'Rourke M; CAFE Investigators; Anglo-Scandinavian Cardiac Outcomes Trial Investigators; CAFE Steering Committee and Writing Committee. Differential impact of blood pressure-lowering drugs on central aortic pressure and clinical outcomes: principal results of the Conduit Artery Function Evaluation (CAFE) study. Circulation. 2006 Mar 7;113(9):1213-25. doi: 10.1161/CIRCULATIONAHA.105.595496. Epub 2006 Feb 13."
+        },
+        {
+          "pmid": "28510118",
+          "type": "BACKGROUND",
+          "citation": "Hamdani N, Herwig M, Linke WA. Tampering with springs: phosphorylation of titin affecting the mechanical function of cardiomyocytes. Biophys Rev. 2017 Jun;9(3):225-237. doi: 10.1007/s12551-017-0263-9. Epub 2017 Apr 10."
+        },
+        {
+          "pmid": "21718911",
+          "type": "BACKGROUND",
+          "citation": "Selby DE, Palmer BM, LeWinter MM, Meyer M. Tachycardia-induced diastolic dysfunction and resting tone in myocardium from patients with a normal ejection fraction. J Am Coll Cardiol. 2011 Jul 5;58(2):147-54. doi: 10.1016/j.jacc.2010.10.069."
+        },
+        {
+          "pmid": "32860505",
+          "type": "BACKGROUND",
+          "citation": "Hindricks G, Potpara T, Dagres N, Arbelo E, Bax JJ, Blomstrom-Lundqvist C, Boriani G, Castella M, Dan GA, Dilaveris PE, Fauchier L, Filippatos G, Kalman JM, La Meir M, Lane DA, Lebeau JP, Lettino M, Lip GYH, Pinto FJ, Thomas GN, Valgimigli M, Van Gelder IC, Van Putte BP, Watkins CL; ESC Scientific Document Group. 2020 ESC Guidelines for the diagnosis and management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS): The Task Force for the diagnosis and management of atrial fibrillation of the European Society of Cardiology (ESC) Developed with the special contribution of the European Heart Rhythm Association (EHRA) of the ESC. Eur Heart J. 2021 Feb 1;42(5):373-498. doi: 10.1093/eurheartj/ehaa612. No abstract available."
+        },
+        {
+          "pmid": "31131389",
+          "type": "BACKGROUND",
+          "citation": "Di Carlo A, Bellino L, Consoli D, Mori F, Zaninelli A, Baldereschi M, Cattarinussi A, D'Alfonso MG, Gradia C, Sgherzi B, Pracucci G, Piccardi B, Polizzi B, Inzitari D; National Research Program: Progetto FAI. La Fibrillazione Atriale in Italia. Prevalence of atrial fibrillation in the Italian elderly population and projections from 2020 to 2060 for Italy and the European Union: the FAI Project. Europace. 2019 Oct 1;21(10):1468-1475. doi: 10.1093/europace/euz141."
+        },
+        {
+          "pmid": "31779791",
+          "type": "BACKGROUND",
+          "citation": "Diederichsen SZ, Haugan KJ, Brandes A, Lanng MB, Graff C, Krieger D, Kronborg C, Holst AG, Kober L, Hojberg S, Svendsen JH. Natural History of Subclinical Atrial Fibrillation Detected by Implanted Loop Recorders. J Am Coll Cardiol. 2019 Dec 3;74(22):2771-2781. doi: 10.1016/j.jacc.2019.09.050."
+        },
+        {
+          "pmid": "30355097",
+          "type": "BACKGROUND",
+          "citation": "Ogawa H, An Y, Ikeda S, Aono Y, Doi K, Ishii M, Iguchi M, Masunaga N, Esato M, Tsuji H, Wada H, Hasegawa K, Abe M, Lip GYH, Akao M; Fushimi AF Registry Investigators. Progression From Paroxysmal to Sustained Atrial Fibrillation Is Associated With Increased Adverse Events. Stroke. 2018 Oct;49(10):2301-2308. doi: 10.1161/STROKEAHA.118.021396."
+        },
+        {
+          "pmid": "20170808",
+          "type": "BACKGROUND",
+          "citation": "de Vos CB, Pisters R, Nieuwlaat R, Prins MH, Tieleman RG, Coelen RJ, van den Heijkant AC, Allessie MA, Crijns HJ. Progression from paroxysmal to persistent atrial fibrillation clinical correlates and prognosis. J Am Coll Cardiol. 2010 Feb 23;55(8):725-31. doi: 10.1016/j.jacc.2009.11.040."
+        },
+        {
+          "pmid": "32642768",
+          "type": "BACKGROUND",
+          "citation": "De With RR, Erkuner O, Rienstra M, Nguyen BO, Korver FWJ, Linz D, Cate Ten H, Spronk H, Kroon AA, Maass AH, Blaauw Y, Tieleman RG, Hemels MEW, de Groot JR, Elvan A, de Melis M, Scheerder COS, Al-Jazairi MIH, Schotten U, Luermans JGLM, Crijns HJGM, Van Gelder IC; RACE V Investigators. Temporal patterns and short-term progression of paroxysmal atrial fibrillation: data from RACE V. Europace. 2020 Aug 1;22(8):1162-1172. doi: 10.1093/europace/euaa123."
+        },
+        {
+          "pmid": "32483830",
+          "type": "BACKGROUND",
+          "citation": "Groenewegen A, Rutten FH, Mosterd A, Hoes AW. Epidemiology of heart failure. Eur J Heart Fail. 2020 Aug;22(8):1342-1356. doi: 10.1002/ejhf.1858. Epub 2020 Jun 1."
+        },
+        {
+          "pmid": "26727047",
+          "type": "BACKGROUND",
+          "citation": "van Riet EE, Hoes AW, Wagenaar KP, Limburg A, Landman MA, Rutten FH. Epidemiology of heart failure: the prevalence of heart failure and ventricular dysfunction in older adults over time. A systematic review. Eur J Heart Fail. 2016 Mar;18(3):242-52. doi: 10.1002/ejhf.483. Epub 2016 Jan 4."
+        },
+        {
+          "pmid": "32854840",
+          "type": "BACKGROUND",
+          "citation": "Reddy YNV, Obokata M, Verbrugge FH, Lin G, Borlaug BA. Atrial Dysfunction in Patients With Heart Failure With Preserved Ejection Fraction and Atrial Fibrillation. J Am Coll Cardiol. 2020 Sep 1;76(9):1051-1064. doi: 10.1016/j.jacc.2020.07.009."
+        },
+        {
+          "pmid": "29089343",
+          "type": "BACKGROUND",
+          "citation": "Elshazly MB, Senn T, Wu Y, Lindsay B, Saliba W, Wazni O, Cho L. Impact of Atrial Fibrillation on Exercise Capacity and Mortality in Heart Failure With Preserved Ejection Fraction: Insights From Cardiopulmonary Stress Testing. J Am Heart Assoc. 2017 Oct 31;6(11):e006662. doi: 10.1161/JAHA.117.006662."
+        },
+        {
+          "pmid": "29089342",
+          "type": "BACKGROUND",
+          "citation": "Nadruz W Jr, West E, Sengelov M, Santos M, Groarke JD, Forman DE, Claggett B, Skali H, Shah AM. Prognostic Value of Cardiopulmonary Exercise Testing in Heart Failure With Reduced, Midrange, and Preserved Ejection Fraction. J Am Heart Assoc. 2017 Oct 31;6(11):e006000. doi: 10.1161/JAHA.117.006000."
+        },
+        {
+          "pmid": "21737017",
+          "type": "BACKGROUND",
+          "citation": "Haykowsky MJ, Brubaker PH, John JM, Stewart KP, Morgan TM, Kitzman DW. Determinants of exercise intolerance in elderly heart failure patients with preserved ejection fraction. J Am Coll Cardiol. 2011 Jul 12;58(3):265-74. doi: 10.1016/j.jacc.2011.02.055."
+        },
+        {
+          "pmid": "26764059",
+          "type": "BACKGROUND",
+          "citation": "Anderson L, Oldridge N, Thompson DR, Zwisler AD, Rees K, Martin N, Taylor RS. Exercise-Based Cardiac Rehabilitation for Coronary Heart Disease: Cochrane Systematic Review and Meta-Analysis. J Am Coll Cardiol. 2016 Jan 5;67(1):1-12. doi: 10.1016/j.jacc.2015.10.044."
+        },
+        {
+          "pmid": "19351941",
+          "type": "BACKGROUND",
+          "citation": "O'Connor CM, Whellan DJ, Lee KL, Keteyian SJ, Cooper LS, Ellis SJ, Leifer ES, Kraus WE, Kitzman DW, Blumenthal JA, Rendall DS, Miller NH, Fleg JL, Schulman KA, McKelvie RS, Zannad F, Pina IL; HF-ACTION Investigators. Efficacy and safety of exercise training in patients with chronic heart failure: HF-ACTION randomized controlled trial. JAMA. 2009 Apr 8;301(14):1439-50. doi: 10.1001/jama.2009.454."
+        },
+        {
+          "pmid": "10069785",
+          "type": "BACKGROUND",
+          "citation": "Belardinelli R, Georgiou D, Cianci G, Purcaro A. Randomized, controlled trial of long-term moderate exercise training in chronic heart failure: effects on functional capacity, quality of life, and clinical outcome. Circulation. 1999 Mar 9;99(9):1173-82. doi: 10.1161/01.cir.99.9.1173."
+        },
+        {
+          "pmid": "29980595",
+          "type": "BACKGROUND",
+          "citation": "Solomon SD, Rizkala AR, Lefkowitz MP, Shi VC, Gong J, Anavekar N, Anker SD, Arango JL, Arenas JL, Atar D, Ben-Gal T, Boytsov SA, Chen CH, Chopra VK, Cleland J, Comin-Colet J, Duengen HD, Echeverria Correa LE, Filippatos G, Flammer AJ, Galinier M, Godoy A, Goncalvesova E, Janssens S, Katova T, Kober L, Lelonek M, Linssen G, Lund LH, O'Meara E, Merkely B, Milicic D, Oh BH, Perrone SV, Ranjith N, Saito Y, Saraiva JF, Shah S, Seferovic PM, Senni M, Sibulo AS Jr, Sim D, Sweitzer NK, Taurio J, Vinereanu D, Vrtovec B, Widimsky J Jr, Yilmaz MB, Zhou J, Zweiker R, Anand IS, Ge J, Lam CSP, Maggioni AP, Martinez F, Packer M, Pfeffer MA, Pieske B, Redfield MM, Rouleau JL, Van Veldhuisen DJ, Zannad F, Zile MR, McMurray JJV. Baseline Characteristics of Patients With Heart Failure and Preserved Ejection Fraction in the PARAGON-HF Trial. Circ Heart Fail. 2018 Jul;11(7):e004962. doi: 10.1161/CIRCHEARTFAILURE.118.004962."
+        },
+        {
+          "pmid": "24716680",
+          "type": "BACKGROUND",
+          "citation": "Pitt B, Pfeffer MA, Assmann SF, Boineau R, Anand IS, Claggett B, Clausell N, Desai AS, Diaz R, Fleg JL, Gordeev I, Harty B, Heitner JF, Kenwood CT, Lewis EF, O'Meara E, Probstfield JL, Shaburishvili T, Shah SJ, Solomon SD, Sweitzer NK, Yang S, McKinlay SM; TOPCAT Investigators. Spironolactone for heart failure with preserved ejection fraction. N Engl J Med. 2014 Apr 10;370(15):1383-92. doi: 10.1056/NEJMoa1313731."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001281",
+          "term": "Atrial Fibrillation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001145",
+          "term": "Arrhythmias, Cardiac"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000319",
+          "term": "Adrenergic beta-Antagonists"
+        },
+        {
+          "id": "D008790",
+          "term": "Metoprolol"
+        },
+        {
+          "id": "D002121",
+          "term": "Calcium Channel Blockers"
+        },
+        {
+          "id": "D004110",
+          "term": "Diltiazem"
+        },
+        {
+          "id": "D014700",
+          "term": "Verapamil"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D018674",
+          "term": "Adrenergic Antagonists"
+        },
+        {
+          "id": "D018663",
+          "term": "Adrenergic Agents"
+        },
+        {
+          "id": "D018377",
+          "term": "Neurotransmitter Agents"
+        },
+        {
+          "id": "D045504",
+          "term": "Molecular Mechanisms of Pharmacological Action"
+        },
+        {
+          "id": "D020228",
+          "term": "Pharmacologic Actions"
+        },
+        {
+          "id": "D020164",
+          "term": "Chemical Actions and Uses"
+        },
+        {
+          "id": "D045505",
+          "term": "Physiological Effects of Drugs"
+        },
+        {
+          "id": "D050198",
+          "term": "Phenoxypropanolamines"
+        },
+        {
+          "id": "D011412",
+          "term": "Propanolamines"
+        },
+        {
+          "id": "D000605",
+          "term": "Amino Alcohols"
+        },
+        {
+          "id": "D000438",
+          "term": "Alcohols"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D020005",
+          "term": "Propanols"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        },
+        {
+          "id": "D049990",
+          "term": "Membrane Transport Modulators"
+        },
+        {
+          "id": "D000077264",
+          "term": "Calcium-Regulating Hormones and Agents"
+        },
+        {
+          "id": "D002317",
+          "term": "Cardiovascular Agents"
+        },
+        {
+          "id": "D045506",
+          "term": "Therapeutic Uses"
+        },
+        {
+          "id": "D001552",
+          "term": "Benzazepines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D010627",
+          "term": "Phenethylamines"
+        },
+        {
+          "id": "D005021",
+          "term": "Ethylamines"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

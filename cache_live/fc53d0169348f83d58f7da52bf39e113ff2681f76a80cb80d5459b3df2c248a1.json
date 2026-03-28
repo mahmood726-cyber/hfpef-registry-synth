@@ -1,0 +1,388 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02823886",
+      "orgStudyIdInfo": {
+        "id": "69HCL16_0130"
+      },
+      "organization": {
+        "fullName": "Hospices Civils de Lyon",
+        "class": "OTHER"
+      },
+      "briefTitle": "Inflammatory Response in Myocardial Infarction Evaluated by MRI and Biomarkers",
+      "officialTitle": "Inflammatory Response in Myocardial Infarction Evaluated by MRI and Biomarkers of Inflammation",
+      "acronym": "RIFIFI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-09",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-01-21",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2017-07-10",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2017-07-10",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-06-28",
+      "studyFirstSubmitQcDate": "2016-07-05",
+      "studyFirstPostDateStruct": {
+        "date": "2016-07-06",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2025-09-05",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-09-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Hospices Civils de Lyon",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "An intense inflammatory reaction is triggered by the ischemic injury during myocardial infarction. The inflammatory processes involved are complex and haven't been explored in detail in human patients. This inflammatory response can increase myocardial damage following reperfusion, leading to adverse remodeling and adverse events (heart failure, sudden cardiac death).\n\nCardiac MRI can assess the size of myocardial infarction and many other parameters associated with myocardial injury: edema, hemorrhage, micro-vascular obstruction.\n\n(However the association between biomarkers of inflammation and these imaging parameters is not known).\n\nThere is very little data correlating imaging markers of myocardial injury to the biokinetics of inflammation biomarkers.\n\nIn this study, the aim is to assess the relationship between the kinetics of specific inflammatory biomarkers (interleukin-1beta, interleukin 6, interleukin 17, Tumor Necrosis Factor (TNF)-alpha, C reactive protein (CRP), soluble toll-like receptor-2 (ST2), neutrophils) and imaging markers of injury measured by cardiac MRI at the acute phase in 20 acute mycardial infarction (AMI) patients."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Myocardial Infarction"
+      ],
+      "keywords": [
+        "myocardial infarction",
+        "MRI",
+        "inflammatory biomarkers"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 21,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "STEMI patients",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Other: MRI at D7",
+            "Biological: Blood samples"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "MRI at D7",
+          "description": "The infarct size measured on MRI at 7 days.",
+          "armGroupLabels": [
+            "STEMI patients"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Blood samples",
+          "description": "Blood samples at H0; H4; H12; H24, H48, D7 and 1 month post MI",
+          "armGroupLabels": [
+            "STEMI patients"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Relationship between interleukin-1beta serum level and infarct size",
+          "description": "the relationship between serum measured at H24 and the infarct size measured on MRI at 7 days",
+          "timeFrame": "Day 7"
+        },
+        {
+          "measure": "Relationship between interleukin 6 serum level and infarct size",
+          "description": "the relationship between serum measured at H24 and the infarct size measured on MRI at 7 days",
+          "timeFrame": "Day 7"
+        },
+        {
+          "measure": "Relationship between interleukin 17 serum level and infarct size",
+          "description": "the relationship between serum measured at H24 and the infarct size measured on MRI at 7 days",
+          "timeFrame": "Day 7"
+        },
+        {
+          "measure": "Relationship between TNF-alpha serum level and infarct size",
+          "description": "the relationship between serum measured at H24 and the infarct size measured on MRI at 7 days",
+          "timeFrame": "Day 7"
+        },
+        {
+          "measure": "Relationship between CRP serum level and infarct size",
+          "description": "the relationship between serum measured at H24 and the infarct size measured on MRI at 7 days",
+          "timeFrame": "Day 7"
+        },
+        {
+          "measure": "Relationship between ST2 serum level and infarct size",
+          "description": "the relationship between serum measured at H24 and the infarct size measured on MRI at 7 days",
+          "timeFrame": "Day 7"
+        },
+        {
+          "measure": "Relationship between polymorphonuclear neutrophil serum level and infarct size",
+          "description": "the relationship between serum measured at H24 and the infarct size measured on MRI at 7 days",
+          "timeFrame": "Day 7"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Relationship between H24 peak or area under curve interleukin-1beta serum level and the size of no reflow",
+          "description": "concerning the MRI, it is the measure of myocardial oedema, intracardiac hemorrhage and microvascular obstruction measured on MRI",
+          "timeFrame": "Hour 0; Hour 4; Hour 12; Hour 24, Hour 48, Day 7 and 1 month post MI for biomarkers and Day 7 for the MRI"
+        },
+        {
+          "measure": "Relationship between H24 peak or area under curve interleukin 6 serum level and the size of no reflow",
+          "description": "concerning the MRI, it is the measure of myocardial oedema, intracardiac hemorrhage and microvascular obstruction measured on MRI",
+          "timeFrame": "Hour 24, Hour 48, Day 7 and 1 month post MI for biomarkers and Day 7 for the MRI"
+        },
+        {
+          "measure": "Relationship between H24 peak or area under curve interleukin 17 serum level and the size of no reflow",
+          "description": "concerning the MRI, it is the measure of myocardial oedema, intracardiac hemorrhage and microvascular obstruction measured on MRI",
+          "timeFrame": "Hour 24, Hour 48, Day 7 and 1 month post MI for biomarkers and Day 7 for the MRI"
+        },
+        {
+          "measure": "Relationship between H24 peak or area under curve TNF-alpha serum level and the size of no reflow",
+          "description": "and concerning the MRI, it is the measure of myocardial oedema, intracardiac hemorrhage and microvascular obstruction measured on MRI",
+          "timeFrame": "Hour 24, Hour 48, Day 7 and 1 month post MI for biomarkers and Day 7 for the MRI"
+        },
+        {
+          "measure": "Relationship between H24 peak or area under curve CRP serum level and the size of no reflow",
+          "description": "and concerning the MRI, it is the measure of myocardial oedema, intracardiac hemorrhage and microvascular obstruction measured on MRI",
+          "timeFrame": "Hour 24, Hour 48, Day 7 and 1 month post MI for biomarkers and Day 7 for the MRI"
+        },
+        {
+          "measure": "Relationship between H24 peak or area under curve polymorphonuclear neutrophil serum level and the size of no reflow",
+          "description": "and concerning the MRI, it is the measure of myocardial oedema, intracardiac hemorrhage and microvascular obstruction measured on MRI",
+          "timeFrame": "Hour 24, Hour 48, Day 7 and 1 month post MI for biomarkers and Day 7 for the MRI"
+        },
+        {
+          "measure": "Relationship between H24 peak or area under curve ST2 serum level and the size of no reflow",
+          "description": "concerning the MRI, it is the measure of myocardial oedema, intracardiac hemorrhage and microvascular obstruction measured on MRI",
+          "timeFrame": "Hour 24, Hour 48, Day 7 and 1 month post MI for biomarkers and Day 7 for the MRI"
+        },
+        {
+          "measure": "relationship between the H24 peak values of serum level for interleukin 1 beta and the cardiovascular events",
+          "timeFrame": "area under curve (pharmacokinetic : Hour 0; Hour 4; Hour 12; Hour 24, Hour 48, Day7 and 1 month post MI) for biomarkers and follow up at 1 month"
+        },
+        {
+          "measure": "relationship between the H24 peak values of serum level for interleukin 6 and the cardiovascular events",
+          "timeFrame": "area under curve (pharmacokinetic : Hour 0; Hour 4; Hour 12; Hour 24, Hour 48, Day7 and 1 month post MI) for biomarkers and follow up at 1 month"
+        },
+        {
+          "measure": "relationship between the H24 peak values of serum level for interleukin 17 and the cardiovascular events",
+          "timeFrame": "area under curve (pharmacokinetic : Hour 0; Hour 4; Hour 12; Hour 24, Hour 48, Day7 and 1 month post MI) for biomarkers and follow up at 1 month"
+        },
+        {
+          "measure": "relationship between the H24 peak values of serum level for TNF-alpha and the cardiovascular events",
+          "timeFrame": "area under curve (pharmacokinetic : Hour 0; Hour 4; Hour 12; Hour 24, Hour 48, Day7 and 1 month post MI) for biomarkers and follow up at 1 month"
+        },
+        {
+          "measure": "relationship between the H24 peak values of serum level for CRP and the cardiovascular events",
+          "timeFrame": "area under curve (pharmacokinetic : Hour 0; Hour 4; Hour 12; Hour 24, Hour 48, Day7 and 1 month post MI) for biomarkers and follow up at 1 month"
+        },
+        {
+          "measure": "relationship between the H24 peak values of serum level for ST2 and the cardiovascular events",
+          "timeFrame": "area under curve (pharmacokinetic : Hour 0; Hour 4; Hour 12; Hour 24, Hour 48, Day7 and 1 month post MI) for biomarkers and follow up at 1 month"
+        },
+        {
+          "measure": "relationship between the H24 peak values of serum level for polynuclear neutrophil and the cardiovascular events",
+          "timeFrame": "area under curve (pharmacokinetic : Hour 0; Hour 4; Hour 12; Hour 24, Hour 48, Day7 and 1 month post MI) for biomarkers and follow up at 1 month"
+        },
+        {
+          "measure": "relationship between the H24 peak values of serum level for interleukin-1beta and functional and anatomical parameters",
+          "description": "relationship between area under curve and functional and anatomical parameters (end-systolic volume and end -diastolic Volume) measured on MRI at 7 days.",
+          "timeFrame": "area under curve (pharmacokinetic : Hour 0; Hour 4; Hour 12; Hour 24, Hour 48, Day 7 and 1 month post MI) for biomarkers and D7 for the MRI"
+        },
+        {
+          "measure": "relationship between the H24 peak values of serum level for interleukin 6 and functional and anatomical parameters",
+          "description": "relationship between area under curve and functional and anatomical parameters (end-systolic volume and end -diastolic Volume) measured on MRI at 7 days.",
+          "timeFrame": "area under curve (pharmacokinetic : Hour 0; Hour 4; Hour 12; Hour 24, Hour 48, Day 7 and 1 month post MI) for biomarkers and D7 for the MRI"
+        },
+        {
+          "measure": "relationship between the H24 peak values of serum level for interleukin 17 and functional and anatomical parameters",
+          "description": "relationship between area under curve and functional and anatomical parameters (end-systolic volume and end -diastolic Volume) measured on MRI at 7 days.",
+          "timeFrame": "area under curve (pharmacokinetic : Hour 0; Hour 4; Hour 12; Hour 24, Hour 48, Day 7 and 1 month post MI) for biomarkers and D7 for the MRI"
+        },
+        {
+          "measure": "relationship between the H24 peak values of serum level for TNF-alpha and functional and anatomical parameters",
+          "description": "relationship between area under curve and functional and anatomical parameters (end-systolic volume and end -diastolic Volume) measured on MRI at 7 days.",
+          "timeFrame": "area under curve (pharmacokinetic : Hour 0; Hour 4; Hour 12; Hour 24, Hour 48, Day 7 and 1 month post MI) for biomarkers and D7 for the MRI"
+        },
+        {
+          "measure": "relationship between the H24 peak values of serum level for CRP and functional and anatomical parameters",
+          "description": "relationship between area under curve and functional and anatomical parameters (end-systolic volume and end -diastolic Volume) measured on MRI at 7 days.",
+          "timeFrame": "area under curve (pharmacokinetic : Hour 0; Hour 4; Hour 12; Hour 24, Hour 48, Day 7 and 1 month post MI) for biomarkers and D7 for the MRI"
+        },
+        {
+          "measure": "relationship between the H24 peak values of serum level for ST2 and functional and anatomical parameters",
+          "description": "relationship between area under curve and functional and anatomical parameters (end-systolic volume and end -diastolic Volume) measured on MRI at 7 days..",
+          "timeFrame": "area under curve (pharmacokinetic : Hour 0; Hour 4; Hour 12; Hour 24, Hour 48, Day 7 and 1 month post MI) for biomarkers and D7 for the MRI"
+        },
+        {
+          "measure": "relationship between the H24 peak values of serum level for polymorphonuclear neutrophil and functional and anatomical parameters",
+          "description": "relationship between area under curve and functional and anatomical parameters (end-systolic volume and end -diastolic Volume) measured on MRI at 7 days.",
+          "timeFrame": "area under curve (pharmacokinetic : Hour 0; Hour 4; Hour 12; Hour 24, Hour 48, Day 7 and 1 month post MI) for biomarkers and D7 for the MRI"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* All patients, aged over 18, without any legal protection measure,\n* Having a health coverage,\n* Presenting within 12 hours of the onset of chest pain,\n* Who have ST segment elevation ≥0.2 millivolt (mV) in two contiguous leads,\n* For whom the clinical decision was made to treat with percutaneous coronary intervention (PCI).\n* he culprit coronary artery has to be the left anterior descending (LAD) or the right coronary (RC)\n* The LAD or RC artery has to be occluded (TIMI flow grade 0-1) at the time of admission coronary angiography.\n* Preliminary oral informed consent followed by signed informed consent as soon as possible\n* Final TIMI ≥ 2\n\nExclusion Criteria:\n\n* Female patients currently pregnant or women of childbearing age who were not using contraception (oral diagnosis).\n* Patients with cardiogenic shock\n* Patient in Cardiac arrest\n* History of Myocardial Infarction\n* Contre-indication to MRI : claustrophobia, pacemaker or cardiac defibrillator , eye metal body allergy to gadolinium\n* Patient with Atrial Fibrillation.\n* Patients with loss of consciousness or (Glasgow \\<14)\n* known renal insufficiency (either known creatinin clearance \\< 30 ml/min/1.73m² or current medical care for severe renal insufficiency)\n* Patients with any disorder associated with immunological dysfunction\n* Adult with legal protection measure",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Hospices Civils de Lyon",
+          "city": "Bron",
+          "zip": "69500",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.73865,
+            "lon": 4.91303
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "type": "BACKGROUND",
+          "citation": "This study confirms the strong association between infarct size and CRP levels, but does not demonstrate any significant relationship with the other biomarkers investigated (IL-6, IL-8, and IL-10). Among the three markers of myocardial injury assessed, myocardial hemorrhage appears to be strongly associated with the release of inflammatory biomarkers following reperfused STEMI. Attenuation of reperfusion-induced hemorrhage may therefore represent a novel therapeutic target for future adjunctive treatments in STEMI patients. Additional cytokine measurements are currently being performed to further refine the assessment of the relationship between hemorrhage, infarct size, and other inflammatory biomarkers."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001800",
+          "term": "Blood Specimen Collection"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013048",
+          "term": "Specimen Handling"
+        },
+        {
+          "id": "D019411",
+          "term": "Clinical Laboratory Techniques"
+        },
+        {
+          "id": "D019937",
+          "term": "Diagnostic Techniques and Procedures"
+        },
+        {
+          "id": "D003933",
+          "term": "Diagnosis"
+        },
+        {
+          "id": "D011677",
+          "term": "Punctures"
+        },
+        {
+          "id": "D013514",
+          "term": "Surgical Procedures, Operative"
+        },
+        {
+          "id": "D008919",
+          "term": "Investigative Techniques"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

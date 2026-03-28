@@ -1,0 +1,339 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06654401",
+      "orgStudyIdInfo": {
+        "id": "ECPV-CSP-0723"
+      },
+      "organization": {
+        "fullName": "Saint Petersburg State University, Russia",
+        "class": "OTHER"
+      },
+      "briefTitle": "Electrical Cardioversion As a Predictor in Postoperative Preservation of Sinus Rhythm",
+      "officialTitle": "Electrical Cardioversion As a Predictor in Postoperative Preservation of Sinus Rhythm in Patients with Persistent Atrial Fibrillation Before Radio Frequency Pulmonary Vein Isolation"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-12",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-11-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-09-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-01-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-10-15",
+      "studyFirstSubmitQcDate": "2024-10-21",
+      "studyFirstPostDateStruct": {
+        "date": "2024-10-23",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-12-17",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-12-20",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Shmatov Dmitry",
+        "investigatorTitle": "Deputy Director (Cardiac Surgery)",
+        "investigatorAffiliation": "Saint Petersburg State University, Russia"
+      },
+      "leadSponsor": {
+        "name": "Saint Petersburg State University, Russia",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of this study is to evaluate benefits of electric cardioversion in the early and long-term postoperative period in patients after radiofrequency catheter isolation of pulmonary veins. Parameters of the left atrium will be evaluated by transthoracic echocardiography and electroanatomic mapping. Preservation of the sinus rhythm will be assessed by 24-hour electrocardiographic monitoring.\n\nThe main question that is planned to be answered is:\n\nDoes a reverse remodeling of the left atrium and/or a decrease in the progression of the fibrosis zone occur after performing electrical cardioversion (and before subsequent catheter ablation) in patients with persistent and long-standing persistent atrial fibrillation (AF)? Can performed electrical cardioversion serve as a predictor of AF freedom in this group of patients?\n\nParticipants will undergo a follow-up examinations (echocardiography, ECG, 24-hour ECG monitoring) at the 3rd, 6th and 12th months after catheter ablation. Based on the results of these examinations, the recurrence rate of AF will be estimated.\n\nTwo groups of patients will include both persistent and long-standing persistent AF. Experimental group will include patients who underwent electrical cardioversion before the intervention, and active comparator group will include those patients who did not undergo it. The experimental group will be subdivided into a persistent AF patients who were successfully cardioverted in sinus rhythm and persistent AF patients who failed to restore sinus rhythm during DC at the time of catheter ablation. Analysis and comparison of subgroups will be performed."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Atrial Fibrillation",
+        "Atrial Fibrillation, Persistent"
+      ],
+      "keywords": [
+        "Atrial Fibrillation",
+        "Cardioversion",
+        "Catheter ablation",
+        "Late recurrence",
+        "Left atrial voltage",
+        "Left atrial volume"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Prospective, randomized, single-center study with 2 groups of patients (investigating and control arms)",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 125,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Radiofrequency pulmonary vein isolation in patients with previous electrical cardioversion",
+          "type": "EXPERIMENTAL",
+          "description": "Depending on the duration of atrial fibrillation and anatomic parameters of the left atrium (according to heart ultrasound), patients will undergo electric cardioversion before the primary radiofrequency catether pulmonary veins' isolation. The experimental group will be subdivided into a persistent AF patients who were successfully cardioverted in sinus rhythm and persistent AF patients who failed to restore sinus rhythm during DC at the time of catheter ablation.",
+          "interventionNames": [
+            "Diagnostic Test: Transthoracic echocardiography",
+            "Diagnostic Test: 24-hour ECG Monitor",
+            "Procedure: Electroanatomic mapping"
+          ]
+        },
+        {
+          "label": "Radiofrequency pulmonary vein isolation in patients without previous electrical cardioversion",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Primary interventional treatment is performed without restoration of the sinus rhythm.",
+          "interventionNames": [
+            "Diagnostic Test: Transthoracic echocardiography",
+            "Diagnostic Test: 24-hour ECG Monitor",
+            "Procedure: Electroanatomic mapping"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Transthoracic echocardiography",
+          "description": "Standard assessment of the parameters of the left atrium: size, volume, volume indices",
+          "armGroupLabels": [
+            "Radiofrequency pulmonary vein isolation in patients with previous electrical cardioversion",
+            "Radiofrequency pulmonary vein isolation in patients without previous electrical cardioversion"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "24-hour ECG Monitor",
+          "description": "Assessment of cardiac arrhythmias according to 24-hour monitoring data",
+          "armGroupLabels": [
+            "Radiofrequency pulmonary vein isolation in patients with previous electrical cardioversion",
+            "Radiofrequency pulmonary vein isolation in patients without previous electrical cardioversion"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Electroanatomic mapping",
+          "description": "Intraoperative assessment of low voltage areas (potential fibrosis zones)",
+          "armGroupLabels": [
+            "Radiofrequency pulmonary vein isolation in patients with previous electrical cardioversion",
+            "Radiofrequency pulmonary vein isolation in patients without previous electrical cardioversion"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Freedom from atrial fibrillation 6 months after catheter ablation",
+          "description": "Absence of events of sustained atrial tachycardia according to 24-hour ECG monitoring",
+          "timeFrame": "Echocardiographic assessment of the parameters of the left atrium and 24-hour ECG monitoring is performed at the time of admission to the hospital; after 3,6 and 12 months after intervention or the latest data in the event of death, whenever comes first"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Reverse remodeling of the left atrium and improvement of the contractility of the left ventricle",
+          "description": "An increase in the LV ejection fraction, a decrease in the volume and size of the left atrium according to transthoracic echocardiography",
+          "timeFrame": "Echocardiographic assessment of the parameters of the left atrium and 24-hour ECG monitoring is performed at the time of admission to the hospital; after 3,6 and 12 months after intervention or the latest data in the event of death, whenever comes first"
+        },
+        {
+          "measure": "Freedom from atrial fibrillation 12 months after catheter ablation",
+          "description": "Absence of events of sustained atrial tachycardia according to 24-hour monitoring",
+          "timeFrame": "Echocardiographic assessment of the parameters of the left atrium and 24-hour ECG monitoring is performed at the time of admission to the hospital; after 3,6 and 12 months after intervention or the latest data in the event of death, whenever comes first"
+        },
+        {
+          "measure": "Improving the quality of life of patients with atrial fibrillation",
+          "description": "Assessment of the quality of life of patients with atrial fibrillation based on a questionnaire:\n\nAtrial Fibrillation Effect on QualiTy-of-life (AFEQT) Questionnaire - provides an overall score; plus scores for symptoms, daily activities, treatment concerns, and treatment satisfaction.\n\nOverall or subscale scores range from 0-100. A score of 0 corresponds to complete disability (or responding \"extremely\" limited, difficult or bothersome to all questions answered), while a score of 100 corresponds to no disability (or responding \"not at all\" limited, difficult or bothersome to all questions answered).",
+          "timeFrame": "Patients fill out questionnaires upon admission to the hospital; 3, 6 and 12 months after surgical treatment or the latest data in the event of death, whenever comes first"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Informed consent signed by the patient to participate in the study.\n* Persistent atrial fibrillation resistant to antiarrhythmic drugs for 6 months or more\n* The size of the left atrium is less than 55 mm, volume is less than 130 ml, volume index (LP) is less than 55 ml/m2\n\nExclusion Criteria:\n\n* Reversible causes of atrial fibrillation (hyperthyroidism, pericarditis, myocarditis).\n* Patients in need of myocardial revascularization and/or heart valvular disease correction.\n* Any previous intervention (including MAZE surgery, thoracoscopic ablation; implanted occluder of the auricle of the left atrium.).\n* Patients with severe concomitant pathology requiring correction.\n* Contraindications for administration of anticoagulant therapy.\n* Documented presence of a blood clot in the cavity of the left atrium or other reasons preventing the insertion of catheters into the left atrium.\n* BMI of 40 or more",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Anton A Sheremet, MD",
+          "role": "CONTACT",
+          "phone": "+79313084398",
+          "email": "sheremet.dr@yandex.ru"
+        },
+        {
+          "name": "Aleksei A Filippov, MD, PhD",
+          "role": "CONTACT",
+          "phone": "+79819553639",
+          "email": "aleksei.filippov.chb@gmail.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Saint Petersburg State University Clinic",
+          "status": "RECRUITING",
+          "city": "Saint Petersburg",
+          "state": "Sankt-Peterburg",
+          "zip": "190020",
+          "country": "Russia",
+          "contacts": [
+            {
+              "name": "Sergei M Efremov, MD, PhD",
+              "role": "CONTACT",
+              "phone": "+79137946090",
+              "email": "sergefremov@mail.ru"
+            }
+          ],
+          "geoPoint": {
+            "lat": 59.93863,
+            "lon": 30.31413
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "36184544",
+          "type": "BACKGROUND",
+          "citation": "Kamada H, Mori K, Ueda N, Wakamiya A, Nakajima K, Kamakura T, Wada M, Ishibashi K, Yamagata K, Inoue Y, Miyamoto K, Nagase S, Noda T, Izumi C, Noguchi T, Kusano K, Aiba T. Impact of Pre-Ablation Direct Current Cardioversion for Persistent Atrial Fibrillation to Predict Recurrence of Atrial Fibrillation after Catheter Ablation. Int Heart J. 2022;63(5):828-836. doi: 10.1536/ihj.22-135."
+        },
+        {
+          "pmid": "22882453",
+          "type": "BACKGROUND",
+          "citation": "Kang JH, Lee DI, Kim S, Kim MN, Park YM, Ban JE, Choi JI, Lim HE, Park SW, Kim YH. Prediction of long-term outcomes of catheter ablation of persistent atrial fibrillation by parameters of preablation DC cardioversion. J Cardiovasc Electrophysiol. 2012 Nov;23(11):1165-70. doi: 10.1111/j.1540-8167.2012.02339.x. Epub 2012 Aug 8."
+        },
+        {
+          "pmid": "37099677",
+          "type": "BACKGROUND",
+          "citation": "Choi SH, Yu HT, Kim D, Park JW, Kim TH, Uhm JS, Joung B, Lee MH, Hwang C, Pak HN. Late recurrence of atrial fibrillation 5 years after catheter ablation: predictors and outcome. Europace. 2023 May 19;25(5):euad113. doi: 10.1093/europace/euad113."
+        },
+        {
+          "pmid": "32391641",
+          "type": "BACKGROUND",
+          "citation": "Hanaki Y, Machino-Ohtsuka T, Aonuma K, Komatsu Y, Machino T, Yamasaki H, Igarashi M, Sekiguchi Y, Nogami A, Ieda M. Preprocedural restoration of sinus rhythm and left atrial strain predict outcomes of catheter ablation for long-standing persistent atrial fibrillation. J Cardiovasc Electrophysiol. 2020 Jul;31(7):1709-1718. doi: 10.1111/jce.14540. Epub 2020 May 16."
+        },
+        {
+          "pmid": "29924375",
+          "type": "BACKGROUND",
+          "citation": "Lizewska-Springer A, Dabrowska-Kugacka A, Lewicka E, Drelich L, Krolak T, Raczak G. Echocardiographic predictors of atrial fibrillation recurrence after catheter ablation: A literature review. Cardiol J. 2020;27(6):848-856. doi: 10.5603/CJ.a2018.0067. Epub 2018 Jun 20."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "Individual participant data is not planned to be shared with other parties"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001281",
+          "term": "Atrial Fibrillation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001145",
+          "term": "Arrhythmias, Cardiac"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004452",
+          "term": "Echocardiography"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D057791",
+          "term": "Cardiac Imaging Techniques"
+        },
+        {
+          "id": "D003952",
+          "term": "Diagnostic Imaging"
+        },
+        {
+          "id": "D019937",
+          "term": "Diagnostic Techniques and Procedures"
+        },
+        {
+          "id": "D003933",
+          "term": "Diagnosis"
+        },
+        {
+          "id": "D014463",
+          "term": "Ultrasonography"
+        },
+        {
+          "id": "D006334",
+          "term": "Heart Function Tests"
+        },
+        {
+          "id": "D003935",
+          "term": "Diagnostic Techniques, Cardiovascular"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

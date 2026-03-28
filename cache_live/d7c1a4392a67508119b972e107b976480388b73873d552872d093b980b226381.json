@@ -1,0 +1,782 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06733129",
+      "orgStudyIdInfo": {
+        "id": "RC24_0389"
+      },
+      "organization": {
+        "fullName": "Nantes University Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Best Hypnotic Drug Choice for Rapid Sequence Induction in the Operating Room",
+      "officialTitle": "Best Hypnotic Drug Choice for Rapid Sequence Induction in the Operating Room: a 3-arm Randomized Trial",
+      "acronym": "HYPNOTIKS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-11",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-04-14",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-04-14",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-04-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-12-02",
+      "studyFirstSubmitQcDate": "2024-12-09",
+      "studyFirstPostDateStruct": {
+        "date": "2024-12-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-11-24",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-02",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Nantes University Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The best hypnotic choice to optimize the balance between good intubation condition quality and hemodynamic stability during RSI performed in the operating theatre remained to be investigated.\n\nTherefore, a randomized study evaluating the efficacy of propofol, ketamine, and a combination of both is appropriate. So, we designed the HyPnotiKs randomized controlled study to investigate the efficacy of these hypnotic drugs in patients undergoing RSI in the operating theatre. The primary endpoint will be the successful tracheal intubation at the first attempt without major arterial hypotension event."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Rapid Sequence Induction"
+      ],
+      "keywords": [
+        "Rapid sequence induction",
+        "Full stomach patient",
+        "hypotension",
+        "propofol",
+        "ketamine",
+        "ketofol",
+        "general anesthesia"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1218,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "KETOFOL",
+          "type": "EXPERIMENTAL",
+          "description": "Ketofol: combination of Ketamine and Propofol : consecutive direct IV injection of Ketamine 1 mg/kg and Propofol 1 mg/kg after completing pre-oxygenation",
+          "interventionNames": [
+            "Drug: combination of Ketamine and Propofol"
+          ]
+        },
+        {
+          "label": "KETAMINE",
+          "type": "EXPERIMENTAL",
+          "description": "direct IV injection at dosage of 2 mg/kg after completing pre-oxygenation",
+          "interventionNames": [
+            "Drug: direct IV injection"
+          ]
+        },
+        {
+          "label": "PROPOFOL",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "direct IV injection at dosage of 2 mg/kg after completing pre-oxygenation.",
+          "interventionNames": [
+            "Drug: direct IV injection"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "direct IV injection",
+          "description": "direct IV injection at dosage of 2 mg/kg (adjusted body weight if BMI \\> 30) after completing pre-oxygenation",
+          "armGroupLabels": [
+            "KETAMINE",
+            "PROPOFOL"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "combination of Ketamine and Propofol",
+          "description": "combination of Ketamine and Propofol described above: consecutive direct IV injection of Ketamine 1 mg/kg and Propofol 1 mg/kg (adjusted body weight if BMI \\> 30). Dilution are not necessary.",
+          "armGroupLabels": [
+            "KETOFOL"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "proportion of patients with successful intubation at first attempt and without post-induction hypotension",
+          "description": "The main objective of the study is to compare the efficacies of ketamine alone and ketamine-propofol combination compared to standard doses of propofol to achieve successful tracheal intubation on the first attempt without hemodynamic hypotension in patients at risk of aspiration of gastric contents in the operating room. The composite primary outcome is the proportion of patients with successful intubation at first attempt and without post-induction hypotension defined by a mean arterial pressure ≤ 60 mmHg within 10 minutes after the start of the hypnotic injection.",
+          "timeFrame": "within 10 minutes after the start of the hypnotic injection"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "rates of arterial hypotension episodes",
+          "description": "rates of arterial hypotension episodes as defined in primary endpoint within 10 minutes after induction of anaesthesia compared between the three study groups",
+          "timeFrame": "within 10 minutes after the start of the hypnotic injection"
+        },
+        {
+          "measure": "rates of tracheal intubation at the first attempt",
+          "description": "rates of tracheal intubation at the first attempt compared between the three study groups",
+          "timeFrame": "within 10 minutes after the start of the hypnotic injection"
+        },
+        {
+          "measure": "quality of the intubation",
+          "description": "In the operating theatre (within 10 minutes after the start of the hypnotic injection): intubation difficulty scale (IDS-3) values",
+          "timeFrame": "within 10 minutes after the start of the hypnotic injection"
+        },
+        {
+          "measure": "quality of the intubation",
+          "description": "In the operating theatre (within 10 minutes after the start of the hypnotic injection): Cormack-Lehane score values (from 1 to 4)\n\n* Cormack 1: The glottis is seen in its entirety\n* Cormack 2: Only the posterior half of the glottis is seen\n* Cormack 3: Only a small part of the glottis is seen\n* Cormack 4: The glottis is hidden by the epiglottis and tongue.",
+          "timeFrame": "within 10 minutes after the start of the hypnotic injection"
+        },
+        {
+          "measure": "rates of vasopressor use and volume of intravenous fluids for vascular filling (from entry into the operating theatre to induction and from induction to recovery room)",
+          "description": "In the operating theatre (within 10 minutes after the start of the hypnotic injection): rates of vasopressor use and volume of intravenous fluids for vascular filling (from entry into the operating theatre to induction and from induction to recovery room)",
+          "timeFrame": "within 10 minutes after the start of the hypnotic injection"
+        },
+        {
+          "measure": "volume of intravenous fluids for vascular filling",
+          "description": "volume of intravenous fluids for vascular filling (from entry into the operating theatre to induction and from induction to recovery room)",
+          "timeFrame": "up to relapse of the recovery room (up to 7 days after surgery)"
+        },
+        {
+          "measure": "time between administration of hypnotic and tracheal intubation",
+          "description": "Efficacy of ketamine and / or ketamine-propofol combination compared to standard doses of propofol on the prevention of postoperative complications in the operating theatre (within 10 minutes after the start of the hypnotic injection) : - time between administration of hypnotic (start of anesthetic induction) and tracheal intubation (defined as the 6th capnography curve)",
+          "timeFrame": "within 10 minutes after the start of the hypnotic injection"
+        },
+        {
+          "measure": "values of heart rate",
+          "description": "Efficacy of ketamine and / or ketamine-propofol combination compared to standard doses of propofol on the prevention of postoperative complications in the operating theatre (within 10 minutes after the start of the hypnotic injection) : values of heart rate measured every 1 minute from pre-oxygenation to 10 minutes after the start of the hypnotic injection",
+          "timeFrame": "within 10 minutes after the start of the hypnotic injection"
+        },
+        {
+          "measure": "values of SpO2",
+          "description": "Efficacy of ketamine and / or ketamine-propofol combination compared to standard doses of propofol on the prevention of postoperative complications in the operating theatre (within 10 minutes after the start of the hypnotic injection): SpO2 measured every 1 minute from pre-oxygenation to 10 minutes after the start of the hypnotic injection",
+          "timeFrame": "within 10 minutes after the start of the hypnotic injection"
+        },
+        {
+          "measure": "values of blood pressure",
+          "description": "Efficacy of ketamine and / or ketamine-propofol combination compared to standard doses of propofol on the prevention of postoperative complications in the operating theatre (within 10 minutes after the start of the hypnotic injection): systolic/diastolic/mean blood pressure measured every 1 minute from pre-oxygenation to 10 minutes after the start of the hypnotic injection",
+          "timeFrame": "within 10 minutes after the start of the hypnotic injection"
+        },
+        {
+          "measure": "rates of pulmonary aspiration of gastric contents",
+          "description": "Efficacy of ketamine and / or ketamine-propofol combination compared to standard doses of propofol on the prevention of postoperative complications in the operating theatre (within 10 minutes after the start of the hypnotic injection): rates of pulmonary aspiration of gastric contents during the intubation procedure",
+          "timeFrame": "within 10 minutes after the start of the hypnotic injection"
+        },
+        {
+          "measure": "Tolerance of ketamine and / or ketamine-propofol combination compared to standard doses of propofol",
+          "description": "Tolerance of ketamine and / or ketamine-propofol combination compared to standard doses of propofol in the recovery room by postoperative Nu-DESC (Nursing Delirium Screening Scale) score value compared with preoperative score From 0 to 10",
+          "timeFrame": "during stay in the recovery room"
+        },
+        {
+          "measure": "Tolerance of ketamine and / or ketamine-propofol combination compared to standard doses of propofol",
+          "description": "Tolerance of ketamine and / or ketamine-propofol combination compared to standard doses of propofol in the recovery room: need of sedative therapy in the recovery room to treat a delirium episode.",
+          "timeFrame": "during stay in the recovery room"
+        },
+        {
+          "measure": "Tolerance of ketamine and / or ketamine-propofol combination compared to standard doses of propofol",
+          "description": "Tolerance of ketamine and / or ketamine-propofol combination compared to standard doses of propofol in the recovery room: Use of ketamine and total dose during intervention and total dose of ketamine in recovery room.",
+          "timeFrame": "during stay in the recovery room (up to 7 days after induction)"
+        },
+        {
+          "measure": "Tolerance of ketamine and / or ketamine-propofol combination compared to standard doses of propofol",
+          "description": "Tolerance of ketamine and / or ketamine-propofol combination compared to standard doses of propofol in the recovery room:\n\nUp to day 7:\n\n* rates of major cardiovascular complications defined as: cardiac arrest, sustained arrhythmia, myocardial infarction, stroke (total, ischaemic, and haemorrhagic), coronary revascularization or admission to ICU for acute heart failure\n* rates of mortality at day 7",
+          "timeFrame": "within 7 days after the start of the hypnotic injection"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* age between 18 - 80 years' old\n* female\\* and male\n\n  * ≥ 1 risk factor of aspiration of gastric contents defined as\n  * preoperative fasting period of less than 6 hours,\n  * occlusive syndrome, functional ileus, vomiting episode within the last 12 hours,\n  * orthopaedic trauma within the last 12 hours,\n  * medical history of symptomatic gastroesophageal reflux or hiatus, hernia or gastroparesis or dysautonomia or gastroesophageal surgery with sphincter dysfunction)\n* patient requiring orotracheal intubation during general anaesthesia in the operating room.\n* patient or his/her next of kin written informed consent or emergency procedure\n* failure to discontinue GLP1 analogue as recommended (exenatide, liraglutide, albiglutide, taspoglutide, lixisenatide)\n\nExclusion Criteria:\n\n* predicted impossible tracheal intubation (≥ 1 of the following criteria: patient with known intubation complications, Mallampati score IV, Thyromental Distance ≤ 4.0 cm, Mouth Opening \\< 3 cm, Sternomental Distance \\< 12.5 cm, significant modification of the airway due to congenital, cancer, trauma or burning lesions (non-exhaustive list)) \\[30\\]\n* preoperative arterial hypotension (MAP \\< 65 mmHg or under catecholamine)\n* preoperative respiratory distress syndrome (SpO2 \\< 90% in room air)\n* contraindications to the use of ketamine and/or propofol and/or NMB:\n\n  * allergy to the active substance or to one of the excipients or to soy or peanuts,\n  * porphyria\n  * intracranial hypertension\n  * uncontrolled arterial hypertension (systolic arterial pressure \\> 180 mmHg)\n  * personal or family history of known malignant hyperthermia, congenital muscular dystrophy, myasthenia, a known congenital deficit in plasma pseudocholinesterase\n* pregnancy or breast-feeding woman\n* patients under court protection or guardianship\n* absence of insurance covering health costs",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Nicolas GRILLOT, MD",
+          "role": "CONTACT",
+          "phone": "02 53 48 22 24",
+          "phoneExt": "+33",
+          "email": "nicolas.grillot@chu-nantes.fr"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Chr Angers",
+          "status": "RECRUITING",
+          "city": "Angers",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Sigismond LASOCKI",
+              "role": "CONTACT",
+              "phone": "02 41 35 36 35",
+              "phoneExt": "+33",
+              "email": "silasocki@chu-angers.fr"
+            },
+            {
+              "name": "Sigismond LASOCKI",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.47156,
+            "lon": -0.55202
+          }
+        },
+        {
+          "facility": "CHRU de Brest Hôpital Cavale Blanche",
+          "status": "RECRUITING",
+          "city": "Brest",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Anais CAILLARD",
+              "role": "CONTACT",
+              "phone": "02 98 34 76 23",
+              "phoneExt": "+33",
+              "email": "anais.caillard@chu-brest.fr"
+            },
+            {
+              "name": "Anais CAILLARD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.39029,
+            "lon": -4.48628
+          }
+        },
+        {
+          "facility": "Ch Louis Pasteur",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Chartres",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Nidhal CHEBBI",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Nidhal CHEBBI",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.44685,
+            "lon": 1.48925
+          }
+        },
+        {
+          "facility": "CHU Dijon",
+          "status": "RECRUITING",
+          "city": "Dijon",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Pierre-Grégoire GUINOT",
+              "role": "CONTACT",
+              "phone": "03 80 28 15 54",
+              "phoneExt": "+33",
+              "email": "guinotpierregregoire@gmail.com"
+            },
+            {
+              "name": "Pierre-Grégoire GUINOT",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.31344,
+            "lon": 5.01391
+          }
+        },
+        {
+          "facility": "CHU Grenoble Alpes",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Grenoble",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Pierre BOUZAT",
+              "role": "CONTACT",
+              "phone": "04 76 76 72 53",
+              "phoneExt": "+33",
+              "email": "PBouzat@chu-grenoble.fr"
+            },
+            {
+              "name": "Pierre BOUZAT",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.17869,
+            "lon": 5.71479
+          }
+        },
+        {
+          "facility": "CHD Vendée",
+          "status": "RECRUITING",
+          "city": "La Roche-sur-Yon",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Mathieu OUDOT",
+              "role": "CONTACT",
+              "phone": "02 51 44 62 37",
+              "phoneExt": "+33",
+              "email": "Mathieu.oudot@chd-vendee.fr"
+            },
+            {
+              "name": "Mathieu OUDOT",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 46.66974,
+            "lon": -1.42757
+          }
+        },
+        {
+          "facility": "APHP Bicêtre",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Le Kremlin-Bicêtre",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Samy FIGUEIREDO",
+              "role": "CONTACT",
+              "phone": "01 45 21 34 41",
+              "phoneExt": "+33",
+              "email": "samy.figueiredo@aphp.fr"
+            },
+            {
+              "name": "Samy FIGUEIREDO",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.81471,
+            "lon": 2.36073
+          }
+        },
+        {
+          "facility": "CH Le Mans",
+          "status": "RECRUITING",
+          "city": "Le Mans",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Laurent BLANCHET",
+              "role": "CONTACT",
+              "phone": "02 43 43 28 40",
+              "phoneExt": "+33",
+              "email": "lblanchet@ch-lemans.fr"
+            },
+            {
+              "name": "Laurent BLANCHET",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.0021,
+            "lon": 0.20251
+          }
+        },
+        {
+          "facility": "CHU Lille Hopital Salengro",
+          "status": "RECRUITING",
+          "city": "Lille",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Nathalie BRUNEAU",
+              "role": "CONTACT",
+              "phone": "03 20 44 59 62",
+              "phoneExt": "+33",
+              "email": "nathaliemarie.bruneau@chru-lille.fr"
+            },
+            {
+              "name": "Nathalie BRUNEAU",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.63391,
+            "lon": 3.05512
+          }
+        },
+        {
+          "facility": "CHU Lille Hôpital Claude Huriez",
+          "status": "RECRUITING",
+          "city": "Lille",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Cédric CIRENEI",
+              "role": "CONTACT",
+              "phone": "03 20 44 59 62",
+              "phoneExt": "+33",
+              "email": "cedric.cirenei@chu-lille.fr"
+            },
+            {
+              "name": "cedric CIRENEI",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.63391,
+            "lon": 3.05512
+          }
+        },
+        {
+          "facility": "CHU Lyon Hôpital Sud",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Lyon",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Jean-Stephane DAVID",
+              "role": "CONTACT",
+              "phone": "04 72 11 73 11",
+              "phoneExt": "+33",
+              "email": "jean-stephane.david@univ-lyon1.fr"
+            },
+            {
+              "name": "Jean-Stéphane DAVID",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.74906,
+            "lon": 4.84789
+          }
+        },
+        {
+          "facility": "HCL Lyon Croix-Rousse",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Lyon",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Alice BLET",
+              "role": "CONTACT",
+              "phone": "04 72 07 12 39",
+              "email": "alice.blet@chu-lyon.fr"
+            },
+            {
+              "name": "Alice BLET",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Pascal INFANTINO",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.74906,
+            "lon": 4.84789
+          }
+        },
+        {
+          "facility": "Chu Nantes (Laennec)",
+          "status": "RECRUITING",
+          "city": "Nantes",
+          "zip": "44093",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Xavier AMBROSI",
+              "role": "CONTACT",
+              "phone": "02 53 48 27 85",
+              "phoneExt": "+33",
+              "email": "xavier.ambrosi@chu-nantes.fr"
+            },
+            {
+              "name": "Xavier AMBROSI",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.21725,
+            "lon": -1.55336
+          }
+        },
+        {
+          "facility": "Chu Nantes",
+          "status": "RECRUITING",
+          "city": "Nantes",
+          "zip": "44093",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Nicolas GRILLOT, MD",
+              "role": "CONTACT",
+              "phone": "02 53 48 22 24",
+              "phoneExt": "+33",
+              "email": "nicolas.grillot@chu-nantes.fr"
+            },
+            {
+              "name": "Antoine ROQUILLY",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.21725,
+            "lon": -1.55336
+          }
+        },
+        {
+          "facility": "APHP St-Antoine",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Paris",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Franck VERDON",
+              "role": "CONTACT",
+              "phone": "01 71 97 70 70",
+              "phoneExt": "+33",
+              "email": "franck.verdonk@aphp.fr"
+            },
+            {
+              "name": "Franck VERDON",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "APHP Tenon",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Paris",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Franck VERDONK",
+              "role": "CONTACT",
+              "phone": "01 71 97 70 70",
+              "phoneExt": "+33",
+              "email": "franck.verdonk@aphp.fr"
+            },
+            {
+              "name": "Franck VERDONK",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "CHU Poitiers",
+          "status": "RECRUITING",
+          "city": "Poitiers",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Quentin SAINT GENIS",
+              "role": "CONTACT",
+              "phone": "05 49 44 38 95",
+              "phoneExt": "+33",
+              "email": "quentin.saint-genis@chu-poitiers.fr"
+            },
+            {
+              "name": "Quentin SAINT-GENIS",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 46.58261,
+            "lon": 0.34348
+          }
+        },
+        {
+          "facility": "Hopital Foch",
+          "status": "RECRUITING",
+          "city": "Suresnes",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Morgan LE GUEN",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Morgan LE GUEN",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.87143,
+            "lon": 2.22929
+          }
+        },
+        {
+          "facility": "CHU Toulouse Hôpital Purpan",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Toulouse",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Maxime POMMIER",
+              "role": "CONTACT",
+              "phone": "05 61 77 23 88",
+              "phoneExt": "+33",
+              "email": "pommier.max@chu-toulouse.fr"
+            },
+            {
+              "name": "Maxime POMMIER",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.60426,
+            "lon": 1.44367
+          }
+        },
+        {
+          "facility": "CHU Toulouse Hôpital Rangueil",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Toulouse",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Francois LABASTE",
+              "role": "CONTACT",
+              "phone": "05 61 32 28 22",
+              "phoneExt": "+33",
+              "email": "labaste.f@chu-toulouse.fr"
+            },
+            {
+              "name": "Francois LABASTE",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.60426,
+            "lon": 1.44367
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "41546091",
+          "type": "DERIVED",
+          "citation": "Grillot N, Volteau C, Quillet P, Ambrosi X, Caillard A, David JS, Blet A, Bouzat P, Blanchet L, Bruneau N, Chebbi N, Saint-Genis Q, Figueiredo S, Guinot PG, Joosten A, Le Guen M, Labaste F, Lasocki S, Oudot M, Pommier M, Rousseleau D, Verdonk F, Tching-Sin M, Faurel-Paul E, Counille F, Cosse C, Flattres Duchaussoy D, Cinotti R, Roquilly A. Best hypnotic drug choice for rapid sequence induction in the operating room: study protocol for a 3-arm superiority open-labeled randomized controlled trial with blinded evaluation of the primary outcome (the HyPnotiKs study). Trials. 2026 Jan 16. doi: 10.1186/s13063-026-09452-6. Online ahead of print."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D007022",
+          "term": "Hypotension"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D015742",
+          "term": "Propofol"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010636",
+          "term": "Phenols"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

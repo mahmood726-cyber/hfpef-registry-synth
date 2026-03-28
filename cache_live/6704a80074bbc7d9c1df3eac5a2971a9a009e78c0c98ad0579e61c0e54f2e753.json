@@ -1,0 +1,349 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05369065",
+      "orgStudyIdInfo": {
+        "id": "PR 2013"
+      },
+      "organization": {
+        "fullName": "Neurotronic, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Ablation of Arteries for the Treatment of Type 2 Diabetes Mellitus and Its Comorbidities",
+      "officialTitle": "Neurotronic Ablation of Arteries for the Treatment of Type 2 Diabetes Mellitus and Its Comorbidities (NECTAR IV Trial)",
+      "acronym": "NECTAR IV"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-03",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-01-27",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-04-28",
+      "studyFirstSubmitQcDate": "2022-05-05",
+      "studyFirstPostDateStruct": {
+        "date": "2022-05-11",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-03-17",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-03-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Neurotronic, Inc.",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Libra Medical",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": true,
+      "isUnapprovedDevice": true,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is to assess the safety and performance of the Neurotronic Infusion Catheter and ethanol denervation of renal and hepatic arteries for the treatment of patients with Type 2 Diabetes (T2DM), Hypertension and Obesity.",
+      "detailedDescription": "Prospective, multicenter safety and performance study including two groups: a double-blind, randomized, sham controlled cohort and a single-arm treatment non-randomized cohort.\n\nEligible subjects in the randomized cohort will be randomized in a 2:1 ratio to the ablation treatment group or to the sham treatment (control) group. Eligible subjects in the non-randomized cohort will all receive the ablation treatment.\n\nRandomized subjects and the follow-up investigators/study coordinators will be blinded to the treatment scheme for at least 6 months. The non-randomized cohort will not be blinded. Subjects in the randomized cohort that are assigned to sham (control) will be allowed to cross over to the treatment group if desired after 6 to 12 months if they continue to meet the inclusion criteria."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Diabetes Mellitus, Type 2",
+        "Hypertension"
+      ],
+      "keywords": [
+        "Diabetes",
+        "Hypertension",
+        "Ablation",
+        "Denervation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Prospective, multicenter safety and performance study including two groups: a double-blind, randomized, sham controlled cohort and a single-arm treatment non-randomized cohort.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "The participant and follow-up investigators in the randomized cohort will be blinded to the intervention. Subjects in the single-arm treatment non-randomized cohort are not blinded.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Ablation Treatment",
+          "type": "EXPERIMENTAL",
+          "description": "The participants randomized to this arm will receive Neurotronic ablation treatment.",
+          "interventionNames": [
+            "Combination Product: Ablation Treatment"
+          ]
+        },
+        {
+          "label": "Sham Treatment",
+          "type": "SHAM_COMPARATOR",
+          "description": "The participants randomized to this arm will have a sham procedure (angiography only)",
+          "interventionNames": [
+            "Diagnostic Test: Arterial Angiography Only"
+          ]
+        },
+        {
+          "label": "Single Arm non-Randomized Treatment",
+          "type": "EXPERIMENTAL",
+          "description": "The participants treated in this arm will receive the Neurotronic ablation treatment",
+          "interventionNames": [
+            "Combination Product: Single Arm non-Randomized Ablation Treatment"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "COMBINATION_PRODUCT",
+          "name": "Ablation Treatment",
+          "description": "Denervation of renal and common hepatic arteries by ethanol ablation with the Neurotronic Infusion Catheter",
+          "armGroupLabels": [
+            "Ablation Treatment"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Arterial Angiography Only",
+          "description": "Arterial Angiography Only without Intervention",
+          "armGroupLabels": [
+            "Sham Treatment"
+          ]
+        },
+        {
+          "type": "COMBINATION_PRODUCT",
+          "name": "Single Arm non-Randomized Ablation Treatment",
+          "description": "Denervation of renal and common hepatic arteries by ethanol ablation with the Neurotronic Infusion Catheter",
+          "armGroupLabels": [
+            "Single Arm non-Randomized Treatment"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Incidence of serious device- and procedure-related complications at 30 days post procedure.",
+          "description": "This composite endpoint is defined as:\n\n* death\n* flow-limiting dissection at one or more of the treated arteries requiring intervention.\n* Type III perforation of the treated artery requiring intervention.\n* bleeding requiring transfusion.\n* severe or occlusive thrombosis of the treated artery beds\n* clinically significant distal embolization of the treated artery beds\n* clinically significant damage to kidneys and/or liver",
+          "timeFrame": "30 Days"
+        },
+        {
+          "measure": "Device success",
+          "description": "The device success, defined as successful introduction of the catheter, navigation to the treatment site, and infusion of the chemical to the intended area without device malfunction requiring aborting the procedure.",
+          "timeFrame": "Procedure Day"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Glycemic Control - HbA1c",
+          "description": "Change in HbA1c will be analyzed by absolute and relative changes. Percent subjects with decreased HbA1c will also be analyzed.",
+          "timeFrame": "Discharge up to 5 Days, 1 month, 3 months, 6 months, 12 months, and 24 months. Optional 3, 4 and 5 years"
+        },
+        {
+          "measure": "Glycemic Control - fasting glucose",
+          "description": "Change in fasting glucose will be analyzed by absolute and relative changes. Percent subjects with decreased fasting glucose will also be analyzed.",
+          "timeFrame": "Discharge up to 5 Days, 1 month, 3 months, 6 months, 12 months, and 24 months. Optional 3, 4 and 5 years"
+        },
+        {
+          "measure": "Hypertension Control - ABPM",
+          "description": "Change in ABPM will be analyzed by systolic, diastolic, and mean arterial pressure, absolute and relative changes of ABPM blood pressure. Percent subjects with decrease blood pressure will also be analyzed.",
+          "timeFrame": "Discharge up to 5 Days, 1 month, 3 months, 6 months, 12 months, and 24 months. Optional 3, 4 and 5 years"
+        },
+        {
+          "measure": "Hypertension Control - Office Blood Pressure",
+          "description": "Change in office blood pressure will be analyzed by systolic, diastolic, and mean arterial pressure, absolute and relative changes of office blood pressure. Percent subjects with decrease blood pressure will also be analyzed.",
+          "timeFrame": "Discharge up to 5 Days, 1 month, 3 months, 6 months, 12 months, and 24 months. Optional 3, 4 and 5 years"
+        },
+        {
+          "measure": "Procedure success",
+          "description": "The procedure success, defined as successfully completion of at least one vessel treatment with Neurotronic Infusion Catheter without any serious device- and procedure-related complications during the procedure and prior to hospital discharge",
+          "timeFrame": "Procedure Day"
+        },
+        {
+          "measure": "Change of anti-hyperglycemic medications",
+          "description": "The change of anti-hyperglycemic medications will be analyzed by numbers of medications and dose changes of medications.",
+          "timeFrame": "Discharge up to 5 Days, 1 month, 3 months, 6 months, 12 months, and 24 months. Optional 3, 4 and 5 years"
+        },
+        {
+          "measure": "Change of anti-hypertensive medications",
+          "description": "The change of anti-hypertensive medications will be analyzed by numbers of medications and dose changes of medications.",
+          "timeFrame": "Discharge up to 5 Days, 1 month, 3 months, 6 months, 12 months, and 24 months. Optional 3, 4 and 5 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age ≥ 21 and ≤ 65 years at time of enrollment.\n2. Diagnosed with T2DM with baseline:\n\n   1. Fasting plasma glucose ≥ 140 mg/dl (7.8 mmol/l) and ≤ 270 mg/dL (15 mmol/L)\n   2. HbA1c levels ≥ 7.0% and ≤ 9.0% (53-75 mmol/mol)\n   3. Triglyceride level \\< 400 mg/dL (4.52 mmol/L)\n   4. On oral anti-hyperglycemic drug regimen of metformin. Subjects may be on additional oral anti-hyperglycemic drug of a different drug class\n   5. Years of T2DM ≤ 10 years\n3. Diagnosed hypertension with baseline:\n\n   1. Office blood pressure of SBP of ≥ 140 mmHg and ≤ 180 mmHg and DBP ≥ 90 mmHg\n   2. Mean 24-hour ambulatory SBP of ≥ 130 mmHg and ≤ 170 mmHg with ≥ 75% valid readings\n   3. On stable oral anti-hypertension drug regimen consisting of up to a maximum of three drugs\n4. BMI between 27.5 and 40 kg/m2\n5. C-peptide testing: non-fasting random or stimulated C-peptide ≥ 2 ng/mL (660 pmol/L)\n6. Vessel diameter of 3 mm to 6.5 mm inclusively with a minimum arterial treatable length of 20 mm in one or more of the following arteries:\n\n   * Renal\n   * Hepatic\n\nExclusion Criteria:\n\n1. T1DM or poorly controlled T2DM (defined as HbA1c \\> 9.0% or use insulin as medication to control glucose level).\n2. Office diastolic blood pressure \\< 90 mmHg.\n3. Current use of \\> 3 hypertension medications.\n4. Currently on beta blockers or alpha blockers.\n5. One or more documented hyperglycemia episodes requiring hospitalization in the 180-day prior to screening date.\n6. Prior evidence of hypoglycemia unawareness or serious hypoglycemia with loss of consciousness or confusion sufficient to prevent self-treatment in last 6 months.\n7. BMI \\> 40 kg/m2.\n8. Diagnosed proliferative retinopathy or evidence of peripheral neuropathy.\n9. Lack of appropriate treatment site or anatomy precluding the intervention of the target arteries (renal and hepatic artery).\n10. History of prior renal or hepatic artery intervention including balloon angioplasty, stenting, etc.\n11. Arterial stenosis \\>50% of the normal diameter segment (diameter stenosis, compared to the angiographically normal proximal or distal segment).\n12. Any abnormality or disease in one or more of the target arteries that, per the physician assessment, precludes the safe insertion of the guiding catheter (including, but not limited to, artery aneurysm, excessive tortuosity, calcification).\n13. Occlusive peripheral vascular disease that would preclude percutaneous femoral access for the procedure.\n14. Known or suspected secondary hypertension, such as Cushing's disease or Cushing's Syndrome, hyperaldosteronism, pheochromocytoma, thyroid and parathyroid abnormalities, history of pre-eclampsia, onset of hypertension prior to the age of 18.\n15. Use of nonsteroidal anti-inflammatory drugs (NSAIDs) for two or more days per week over the month prior to enrollment.\n16. Severe or unstable cardiovascular comorbidities, such as AMI or ACS, cardiac valve stenosis, pulmonary embolism, heart failure with NYHA Class III or IV, chronic atrial fibrillation, primary pulmonary hypertension, COPD.\n17. Renal transplant, history of nephrectomy or single kidney, renal tumor/cancer, known non-functioning kidney, unequal renal size (\\>2 cm difference in renal length between kidneys associated with a chronic kidney disease or a deterioration of the kidney function), chronic renal deficiency with eGFR ≤ 60ml/min/1.73m2, or on chronic renal replacement therapy.\n18. Prior liver transplant.\n19. Any organ transplantation procedures are planned in the 365 days following Index Procedure.\n20. Gastrointestinal permanent anatomic alteration surgery.\n21. Any surgical procedure within 30 days prior to Index Procedure.\n22. Currently taking the following medications within 90 days prior to screening and/or there is a need or anticipated need for these medications during the study:\n\n    1. Systemic Corticosteroids\n    2. Anticonvulsants\n    3. Centrally acting sympatholytics\n23. Bleeding disorders, such as bleeding diathesis, thrombocytopenia, and severe anemia.\n24. Use of anticoagulation therapy which cannot be discontinued from 7 days before or 14 days after the Index Procedure.\n25. Any other condition(s) that would compromise the safety of the Subject or compromise study quality as judged by the investigator.\n26. Significant alcohol consumption, defined as more than 2 drink units per day (equivalent to 20 g) in women and 3 drink units per day (equivalent to 30 g) in men, or inability to reliably quantify alcohol intake.\n27. Active substance abuse, based on Investigator judgement, including inhaled or injected drugs, within 1 year prior to the initial screening.\n28. Significant weight loss within the last 6 months (e.g., \\> 10% total body weight loss).\n29. Hepatic decompensation defined as the presence of any of the following:\n\n    1. Serum albumin less than 3.5 g/dL\n    2. International normalization ratio (INR) greater than 1.4 (unless due to therapeutic anticoagulants)\n    3. Total bilirubin greater than 2 mg/dL with the exception of Gilbert syndrome\n    4. History of esophageal varices, ascites, or hepatic encephalopathy\n30. ALT or AST greater than 200 U/L.\n31. Diagnosis of liver cirrhosis.\n32. Chronic liver or biliary disease of the following etiology:\n\n    1. History or diagnosis of Hepatitis B\n    2. History or diagnosis of Hepatitis C\n    3. History or diagnosis of current active autoimmune hepatitis\n    4. History or diagnosis of primary biliary cholangitis\n    5. History or diagnosis of primary sclerosing cholangitis\n    6. History or diagnosis of Wilson's disease\n    7. History or diagnosis of alpha-1-antitrypsin deficiency\n    8. History or diagnosis of hemochromatosis\n    9. History or diagnosis of drug-induced liver disease, as defined on the basis of typical exposure and history.\n    10. Known bile duct obstruction.\n    11. Suspected or proven liver cancer\n33. History of acute or chronic pancreatitis.\n34. Human immunodeficiency virus (HIV).\n35. Subjects with a history of adverse reaction to heparin or heparin induced thrombocytopenia (HIT).\n36. Systemic infection that the investigator judges would pose unacceptable procedural risks to the subject.\n37. Known hypersensitivity to contrast media, nickel and ethanol that cannot be adequately pre-medicated.\n38. Subject is depressed or on antidepressants.\n39. Pregnancy or breastfeeding or plan to get pregnant in next 12 months.\n40. Life expectancy of less than 5 years.\n41. Unwilling or unable to comply with the follow-up study requirements.\n42. Lacking capacity to provide informed consent.\n43. Concurrent medical condition that would affect the investigator's ability to evaluate the patient's condition or could compromise patient safety.\n44. Currently participation in another pre-market drug or medical device clinical study",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "21 Years",
+      "maximumAge": "65 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Yunlong Zhang, MD",
+          "role": "CONTACT",
+          "phone": "+1 669-203-9308",
+          "email": "pzhang@libramed.com"
+        },
+        {
+          "name": "John Chen, PhD",
+          "role": "CONTACT",
+          "phone": "+1 763-273-6100",
+          "email": "chenj@neurotronic.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "John Chen, PhD",
+          "affiliation": "Neurotronic, Inc.",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Israeli-Georgian Medical Research Clinic Helsicore",
+          "status": "RECRUITING",
+          "city": "Tbilisi",
+          "zip": "0112",
+          "country": "Georgia",
+          "contacts": [
+            {
+              "name": "Irakli Goroshvili, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.69143,
+            "lon": 44.83412
+          }
+        },
+        {
+          "facility": "Tbilisi Heart and Vascular Clinic",
+          "status": "RECRUITING",
+          "city": "Tbilisi",
+          "zip": "0159",
+          "country": "Georgia",
+          "contacts": [
+            {
+              "name": "George Khabeishvili, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.69143,
+            "lon": 44.83412
+          }
+        },
+        {
+          "facility": "Tbilisi Heart Center",
+          "status": "RECRUITING",
+          "city": "Tbilisi",
+          "zip": "0186",
+          "country": "Georgia",
+          "contacts": [
+            {
+              "name": "Archil Chukhrukidze, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.69143,
+            "lon": 44.83412
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        },
+        {
+          "id": "D006973",
+          "term": "Hypertension"
+        },
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

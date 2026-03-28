@@ -1,0 +1,229 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01060449",
+      "orgStudyIdInfo": {
+        "id": "IRB00016194"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "Medtronic-639130",
+          "type": "OTHER",
+          "domain": "Sponsor"
+        }
+      ],
+      "organization": {
+        "fullName": "Emory University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Stimulus Intensity in Left Ventricular Leads",
+      "officialTitle": "Stimulus Intensity in Left Ventricular Leads and Response to Cardiac Resynchronization Therapy",
+      "acronym": "SILVeR-CRT"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2013-12",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2008-08"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2011-06",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2012-02",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2010-01-29",
+      "studyFirstSubmitQcDate": "2010-02-01",
+      "studyFirstPostDateStruct": {
+        "date": "2010-02-02",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2013-12-15",
+      "lastUpdatePostDateStruct": {
+        "date": "2013-12-17",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Michael S. Lloyd",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "Emory University"
+      },
+      "leadSponsor": {
+        "name": "Emory University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Medtronic",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Cardiac resynchronization therapy (CRT) is a device implanted to improve the function of some people's hearts. CRT involves the placement of 3 wires in the heart through a vein near the front of your left or right shoulder into three pumping chambers of the heart, the most important being the left lower chamber, left ventricle (LV).",
+      "detailedDescription": "The purpose of Cardiac resynchronization therapy (CRT) is to send small amounts of energy (called pacing) through the wires to both the left and right lower chambers of your heart at (or near) the same time. This helps the heart pump in a more coordinated way and send more blood to your body with each beat. How much energy is used for pacing is called the stimulus intensity. Increasing the pacing stimulus intensity of the left ventricular wire can lead to an increase in the volume of heart muscle directly stimulated. This has previously been shown to produce beneficial effects on the heart function, like strength of contraction and increased volume of blood pumped. The purpose of this study is to determine if pacing the wires in the left ventricular chamber of the heart using higher stimulus intensity improves the strength of the heart's contraction."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Congestive Heart Failure"
+      ],
+      "keywords": [
+        "cardiac resynchronization therapy",
+        "congestive heart failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "LV lead low output",
+          "type": "OTHER",
+          "description": "Low output on left ventricular pacing lead.\n\nIntervention: LV stimulus intensity",
+          "interventionNames": [
+            "Other: LV stimulus intensity"
+          ]
+        },
+        {
+          "label": "LV lead high output",
+          "type": "OTHER",
+          "description": "High output on left ventricular lead\n\nIntervention: LV stimulus intensity",
+          "interventionNames": [
+            "Other: LV stimulus intensity"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "LV stimulus intensity",
+          "description": "The voltage and pulse duration used for programmed LV pacing\n\nArm 1: LV lead low output Arm 2: LV lead high output",
+          "armGroupLabels": [
+            "LV lead high output",
+            "LV lead low output"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Ejection Fraction",
+          "timeFrame": "6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Quality of Life",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Six minute hall walk",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "End diastolic dimension",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Adults who fulfill approved criteria to receive a cardiac resynchronization device.\n\nExclusion Criteria:\n\n-Adults who are unable to give informed consent.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Michael S. Lloyd, MD",
+          "affiliation": "Emory University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Emory University Hospital",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30322",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "23316285",
+          "type": "RESULT",
+          "citation": "Bavikati VV, Langberg JJ, Williams BR 3rd, Kella D, Lloyd MS. Stimulus intensity in left ventricular leads and response to cardiac resynchronization therapy. J Am Heart Assoc. 2012 Oct;1(5):e000950. doi: 10.1161/JAHA.112.000950. Epub 2012 Oct 25."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,340 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00887237",
+      "orgStudyIdInfo": {
+        "id": "TRIV"
+      },
+      "organization": {
+        "fullName": "Medtronic Cardiac Rhythm and Heart Failure",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Triple Site Ventricular Stimulation for Cardiac Resynchronization Therapy (CRT) Candidates",
+      "officialTitle": "Triple Site Ventricular Stimulation for CRT Candidates",
+      "acronym": "TRIV"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2013-07",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2009-05"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2012-07",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2012-07",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2009-04-22",
+      "studyFirstSubmitQcDate": "2009-04-22",
+      "studyFirstPostDateStruct": {
+        "date": "2009-04-23",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2013-07-03",
+      "lastUpdatePostDateStruct": {
+        "date": "2013-07-08",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Medtronic Cardiac Rhythm and Heart Failure",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Despite technological progresses the rate of non-responders to cardiac resynchronization therapy (CRT) remains close to 30%. This inconsistent effect of CRT might be due to incomplete resynchronization as dyssynchrony can persist in 25% to 30% of patients during CRT.\n\nOne might hypothesize that stimulating the ventricles at a single site is suboptimal and that stimulating multiple left ventricular (LV) or right ventricular (RV) sites may improve ventricular resynchronization and, consequently, its hemodynamic and clinical effects. First studies have suggested that 1 RV + 2 LV pacing sites configurations increased significantly dP/dt, pulse pressure, LV end-diastolic pressure, and is associated with more LV remodeling and better responder rate compared with pacing a single LV site. First studies with 2 RV+LV pacing sites configuration demonstrated increased dP/dt and cardiac output and a decrease of the cardiac dyssynchrony.\n\nThe present pilot trial was designed to examine the 6-month safety of biventricular stimulation with 2 right ventricular (RV) and 1 left ventricular (LV) leads - main objective- and to assess its clinical benefit."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ],
+      "keywords": [
+        "Heart failure",
+        "Cardiac resynchronization",
+        "Triple site ventricular pacing"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 76,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "TRIV",
+          "type": "EXPERIMENTAL",
+          "description": "Cardiac resynchronization with triple site ventricular stimulation (2 RV leads and 1 LV lead)",
+          "interventionNames": [
+            "Device: CRT with triple site ventricular stimulation"
+          ]
+        },
+        {
+          "label": "BIV",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Conventional cardiac resynchronization",
+          "interventionNames": [
+            "Device: Conventional cardiac resynchronization"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "CRT with triple site ventricular stimulation",
+          "description": "CRT with triple site ventricular stimulation (2 RV leads and 1 LV lead)",
+          "armGroupLabels": [
+            "TRIV"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Conventional cardiac resynchronization",
+          "description": "Conventional cardiac resynchronization",
+          "armGroupLabels": [
+            "BIV"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Safety of triple site CRT compared to conventional CRT",
+          "timeFrame": "6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Feasibility of triple site CRT",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Left ventricle remodeling",
+          "timeFrame": "At 3 and 6 months"
+        },
+        {
+          "measure": "LV ejection fraction",
+          "timeFrame": "At 3 and 6 months"
+        },
+        {
+          "measure": "Cardiac dyssynchrony",
+          "timeFrame": "At 3 and 6 months"
+        },
+        {
+          "measure": "Functional status (clinical composite score and NYHA class)",
+          "timeFrame": "At 3 and 6 months"
+        },
+        {
+          "measure": "Exercise capacity (6 minutes hall walk test distance)",
+          "timeFrame": "At 3 and 6 months"
+        },
+        {
+          "measure": "Quality of life",
+          "timeFrame": "At 3 and 6 months"
+        },
+        {
+          "measure": "B-Type Natriuretic Peptide (BNP) level",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Signed informed consent\n* \\> 18 years old\n* Cardiac resynchronization indication : New York Heart Association (NYHA) Class III/IV \\& QRS width \\> 120 ms milliseconds (ms) OR NYHA class II \\& QRS width \\> 150 ms\n* Sinus rhythm\n* First implant procedure\n\nExclusion Criteria:\n\n* Permanent ventricular tachycardia\n* Permanent pacing indication for 3rd degree atrioventricular (AV) block\n* Diagnosed or suspected acute myocarditis\n* Less than 1 year life expectancy related to a non-cardiovascular disease\n* Impossibility to perform follow-up in the investigative center\n* Pregnant woman\n* Patient which may not cooperate to study procedures as evaluated by investigator\n* Legally protected adult patient or patient unable to give an informed consent\n* Patient enrolled in an other clinical trial\n* Patient which does not benefit from a social protection system\n* Renal insufficiency\n* Patient registered on a heart transplant waiting list\n* Disease and/or health condition which may interfere with study results",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Frederic Anselme, Pr",
+          "affiliation": "University Hospital, Rouen",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University hospital of Bordeaux",
+          "city": "Bordeaux",
+          "zip": "33000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 44.84124,
+            "lon": -0.58046
+          }
+        },
+        {
+          "facility": "University hospital of Lille",
+          "city": "Lille",
+          "zip": "59000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 50.63391,
+            "lon": 3.05512
+          }
+        },
+        {
+          "facility": "University hospital La Timone",
+          "city": "Marseille",
+          "zip": "13000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.29695,
+            "lon": 5.38107
+          }
+        },
+        {
+          "facility": "University hospital of Montpellier",
+          "city": "Montpellier",
+          "zip": "34000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.61093,
+            "lon": 3.87635
+          }
+        },
+        {
+          "facility": "University hospital of Nancy",
+          "city": "Nancy",
+          "zip": "54000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.68439,
+            "lon": 6.18496
+          }
+        },
+        {
+          "facility": "Nouvelles Cliniques Nantaises",
+          "city": "Nantes",
+          "zip": "44000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.21725,
+            "lon": -1.55336
+          }
+        },
+        {
+          "facility": "University hospital of Nantes",
+          "city": "Nantes",
+          "zip": "44000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.21725,
+            "lon": -1.55336
+          }
+        },
+        {
+          "facility": "Clinique Bizet",
+          "city": "Paris",
+          "zip": "75016",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "University Hospital of Rennes",
+          "city": "Rennes",
+          "zip": "35000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.11109,
+            "lon": -1.67431
+          }
+        },
+        {
+          "facility": "University hospital of Rouen",
+          "city": "Rouen",
+          "zip": "76031",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.44313,
+            "lon": 1.09932
+          }
+        },
+        {
+          "facility": "Centre Cardiologique du Nord",
+          "city": "Saint-Denis",
+          "zip": "93200",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.93564,
+            "lon": 2.35387
+          }
+        },
+        {
+          "facility": "Hôpital Saint Louis",
+          "city": "La Rochelle",
+          "state": "Île-de-France Region",
+          "zip": "17000",
+          "country": "France"
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "26325531",
+          "type": "DERIVED",
+          "citation": "Anselme F, Bordachar P, Pasquie JL, Klug D, Leclercq C, Milhem A, Alonso C, Deharo JC, Gras D, Probst V, Piot O, Savoure A. Safety, feasibility, and outcome results of cardiac resynchronization with triple-site ventricular stimulation compared to conventional cardiac resynchronization. Heart Rhythm. 2016 Jan;13(1):183-9. doi: 10.1016/j.hrthm.2015.08.036. Epub 2015 Sep 26."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,1377 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02901184",
+      "orgStudyIdInfo": {
+        "id": "U-2015-030"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "U01HL134679-01",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/U01HL134679-01"
+        },
+        {
+          "id": "U01HL134694-02",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/U01HL134694-02"
+        }
+      ],
+      "organization": {
+        "fullName": "Uppsala University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Spironolactone Initiation Registry Randomized Interventional Trial in Heart Failure With Preserved Ejection Fraction",
+      "officialTitle": "Spironolactone Initiation Registry Randomized Interventional Trial in Heart Failure With Preserved Ejection Fraction, SPIRRIT-HFPEF",
+      "acronym": "SPIRRIT"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-10",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-11-23",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2016-09-09",
+      "studyFirstSubmitQcDate": "2016-09-14",
+      "studyFirstPostDateStruct": {
+        "date": "2016-09-15",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2024-10-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-10-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Uppsala University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Karolinska University",
+          "class": "OTHER"
+        },
+        {
+          "name": "Duke Clinical Research Institute",
+          "class": "OTHER"
+        },
+        {
+          "name": "National Heart, Lung, and Blood Institute (NHLBI)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Heart failure with preserved ejection fraction (HFPEF) is common and deadly but without therapy. Inconclusive studies such as TOPCAT (Treatment of Preserved Cardiac Function Heart Failure With an Aldosterone Antagonist) suggest spironolactone may be effective in HFPEF, but it is generic and will not be studied by industry.\n\nSPIRRIT is a unique Registry-Randomized Clinical Trial (RRCT) that will test the hypothesis that spironolactone plus standard of care compared to standard of care alone reduces the composite of CV mortality and HF hospitalization as follows:\n\nPopulation: HFPEF patients in the Swedish Heart Failure Registry and HFPEF patients in US. HFPEF defined as symptoms/signs of HF, elevated NTproBNP (B-type Natriuretic Peptide; N-terminal pro b-type Natriuretic Peptide) and EF\\>=40%. Intervention and control: Randomized 1:1 to intervention: spironolactone + usual care vs. control: usual care alone.\n\nOutcome: Primary outcome cardiovascular death or time to HF hospitalization. Secondary outcomes include hospitalization for various causes, adverse events and treatment adherence. In Sweden outcomes are obtained automatically by linking with the Population, Patient and Drug Dispensed Registries. In the US, outcomes will be reported by sites and supplemented by data from a call center. The trial is event-driven with enrollment 7 years and study duration 9 years. For the primary outcome (CV Death or first HF hospitalization) with an event target of 721 events the sample size requires 1985 patients conservatively rounded to approximately 2000 patients."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Preserved Ejection Fraction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 2000,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Spironolactone treatment",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Spironolactone will be prescribed by the Investigator and filled by patient at conventional pharmacies as 25 mg tablets. The treatment will be on top of standard care. Initial dose is 25 mg/day, which will be increased to target dose 50 mg/day if tolerated. Eplerenone can be prescribed if spironolactone is not tolerated.",
+          "interventionNames": [
+            "Drug: Spironolactone"
+          ]
+        },
+        {
+          "label": "Standard care alone",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Patients in the control arm will get the standard care alone",
+          "interventionNames": [
+            "Other: Standard care"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Spironolactone",
+          "description": "Treatment with Spironolactone tablets on top of standard care",
+          "armGroupLabels": [
+            "Spironolactone treatment"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Standard care",
+          "description": "Standard care does not involve Spironolactone",
+          "armGroupLabels": [
+            "Standard care alone"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Incidence rate for total heart failure (HF) hospitalizations or cardiovascular (CV) death",
+          "description": "Sweden: Information on Death from the Swedish Causes of death registry and information on hospitalization collected from Swedish Patient Registry US: Collected in eCRF or via call center interview",
+          "timeFrame": "Collected at data base lock, five (5) years after study start (US: continuously until 5 years after study start)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Time to CV Death or first HF hospitalization",
+          "description": "Sweden: Information on Death from the Swedish Causes of death registry US: Collected in eCRF or via call center interview",
+          "timeFrame": "Collected at data base lock, five (5) years after study start (US: continuously until 5 years after study start)"
+        },
+        {
+          "measure": "Time to CV Death",
+          "description": "Sweden: Information on Death from the Swedish Causes of death registry US: Collected in eCRF or via call center interview",
+          "timeFrame": "Collected at data base lock, five (5) years after study start (US: continuously until 5 years after study start)"
+        },
+        {
+          "measure": "Incidence rate for total HF hospitalizations",
+          "description": "Sweden: Information on Death from the Swedish Causes of death registry and information on hospitalization collected from Swedish Patient Registry.\n\nUS: Collected in eCRF or via call center interview",
+          "timeFrame": "Collected at data base lock, five (5) years after study start (US: continuously until 5 years after study start)"
+        },
+        {
+          "measure": "Time to HF hospitalizations",
+          "description": "Sweden: Information on information on hospitalization collected from Swedish Patient Registry.\n\nUS: Collected in eCRF or via call center interview",
+          "timeFrame": "Collected at data base lock, five (5) years after study start (US: continuously until 5 years after study start)"
+        },
+        {
+          "measure": "Time to all-cause mortality",
+          "description": "Sweden: Information on Death from the Swedish Causes of death registry. US: Collected in eCRF or via call center interview",
+          "timeFrame": "Collected at data base lock, five (5) years after study start"
+        },
+        {
+          "measure": "Incidence rate for all-cause hospitalizations",
+          "description": "Sweden: Information on information on hospitalization collected from Swedish Patient Registry.\n\nUS: Collected in eCRF or via call center interview",
+          "timeFrame": "Collected at data base lock, five (5) years after study start (US: continuously until 5 years after study start)"
+        },
+        {
+          "measure": "Time to all-cause hospitalizations",
+          "description": "Sweden: Information on information on hospitalization collected from Swedish Patient Registry.\n\nUS: Collected in eCRF or via call center interview",
+          "timeFrame": "Collected at data base lock, five (5) years after study start (US: continuously until 5 years after study start)"
+        },
+        {
+          "measure": "Incidence rate for all-cause hospitalizations or all-cause mortality",
+          "description": "Sweden: Information on Death from the Swedish Causes of death registry and information on hospitalization collected from Swedish Patient Registry.\n\nUS: Collected in eCRF or via call center interview",
+          "timeFrame": "Collected at data base lock, five (5) years after study start (US: continuously until 5 years after study start)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Written informed consent\n* Age ≥50 years\n* Stable heart failure defined by symptoms and signs of heart failure as judged by local Investigator\n* Left ventricular ejection fraction (LVEF) ≥40% recorded in last 12 months (stratified to max 2/3rd in either 40-49% or ≥50% group)\n* Elevated natriuretic peptide levels, as defined by any of the following:\n\n  1. most recent NT-proBNP \\>300 ng/L (or BNP\\>100 pg/mL) in sinus rhythm at time of blood sampling; adjustments may be made for BMI according to table 3.\n  2. most recent NT-proBNP \\>750 ng/L (or BNP \\>250 pg/mL) in atrial fibrillation at time of blood sampling; adjustments may be made for BMI according to table 3.\n  3. NT-proBNP \\>1200 ng/L (or BNP \\>400 pg/mL) within the last 12 months even if most recent value is lower.\n* Regular use of loop diuretics, defined as daily or most days of the week\n* NYHA Class II-IV\n\nExclusion Criteria:\n\nPreviously enrolled in this study\n\n* Known Ejection Fraction \\< 40% ever\n* Current absolute indication or contraindication for MRA (mineral receptor antagonist) in judgement of Investigator\n* Known chronic liver disease\n* Probable alternative explanations for symptoms:\n\n  * Known primary cardiomyopathy (hypertrophic, constrictive, restrictive, infiltrative, congenital)\n  * Primary hemodynamically significant valve disease\n  * Right-sided HF not due to left-sided HF\n  * Significant chronic pulmonary disease defined by Investigator or by requirement for home O2\n  * Symptomatic anemia, defined as Hemoglobin \\< 10 g/dL (100 g/L )\n* Heart transplant or LVAD (left ventricular assist device) recipient\n* Presence of cardiac resynchronization therapy (CRT) device\n* Systolic blood pressure \\<90 or \\>160 mmHg\n* K (potassium) \\>5.0 mmol/L\n* eGFR (estimated glomerular filtration rate) by MDRD (Modification of Diet in Renal Disease) \\< 30 ml/min/1.73m2 or creatinine \\> 2.5 mg/dL (221 µmol/L )\n* Current lithium use\n* Current dialysis\n* Actual or potential for pregnancy\n* Participation in another interventional clinical trial where a mineralocorticoid receptor antagonist is studied\n* Any condition that in the opinion of the Investigator may interfere with adherence to trial protocol",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "50 Years",
+      "maximumAge": "99 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Anna Gustavsson (SWE)",
+          "role": "CONTACT",
+          "phone": "+46186110181",
+          "email": "anna.gustavsson@ucr.uu.se"
+        },
+        {
+          "name": "Will Simmons (US)",
+          "role": "CONTACT",
+          "phone": "919-668-0541",
+          "email": "will.simmons@duke.edu"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Lars H Lund, MD, PhD",
+          "affiliation": "Karolinska Institutet",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Bertram Pitt",
+          "affiliation": "University of Michigan",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Advanced Cardiovascular LLC",
+          "status": "TERMINATED",
+          "city": "Alexander City",
+          "state": "Alabama",
+          "zip": "35010",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.94401,
+            "lon": -85.95385
+          }
+        },
+        {
+          "facility": "University of Alabama at Birmingham",
+          "status": "TERMINATED",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35294",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "Banner - University Medical Group",
+          "status": "TERMINATED",
+          "city": "Tucson",
+          "state": "Arizona",
+          "zip": "85724",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.22174,
+            "lon": -110.92648
+          }
+        },
+        {
+          "facility": "MedStar Cardiovascular Research Network",
+          "status": "TERMINATED",
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20010",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        },
+        {
+          "facility": "Howard University Hospital",
+          "status": "TERMINATED",
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20060",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        },
+        {
+          "facility": "Holy Cross Hospital",
+          "status": "TERMINATED",
+          "city": "Fort Lauderdale",
+          "state": "Florida",
+          "zip": "33308",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.12231,
+            "lon": -80.14338
+          }
+        },
+        {
+          "facility": "Piedmont Atlanta Hospital",
+          "status": "TERMINATED",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30309",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Wellstar Health System, Inc.",
+          "status": "TERMINATED",
+          "city": "Marietta",
+          "state": "Georgia",
+          "zip": "30060",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.9526,
+            "lon": -84.54993
+          }
+        },
+        {
+          "facility": "Queens Medical Center",
+          "status": "TERMINATED",
+          "city": "Honolulu",
+          "state": "Hawaii",
+          "zip": "96813",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 21.30694,
+            "lon": -157.85833
+          }
+        },
+        {
+          "facility": "Fox Valley Clinical Research Center, LLC",
+          "status": "TERMINATED",
+          "city": "Aurora",
+          "state": "Illinois",
+          "zip": "60506-1400",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.76058,
+            "lon": -88.32007
+          }
+        },
+        {
+          "facility": "University of Illinois at Chicago",
+          "status": "TERMINATED",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60612",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Alexian Brothers Medical Center",
+          "status": "TERMINATED",
+          "city": "Elk Grove Village",
+          "state": "Illinois",
+          "zip": "60007",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.00392,
+            "lon": -87.97035
+          }
+        },
+        {
+          "facility": "Methodist Medical Center of Illinois",
+          "status": "TERMINATED",
+          "city": "Peoria",
+          "state": "Illinois",
+          "zip": "61636",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.69365,
+            "lon": -89.58899
+          }
+        },
+        {
+          "facility": "St. Vincent Medical Group",
+          "status": "TERMINATED",
+          "city": "Indianapolis",
+          "state": "Indiana",
+          "zip": "46260",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.76838,
+            "lon": -86.15804
+          }
+        },
+        {
+          "facility": "Ochsner Medical Center",
+          "status": "TERMINATED",
+          "city": "New Orleans",
+          "state": "Louisiana",
+          "zip": "85724",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.95465,
+            "lon": -90.07507
+          }
+        },
+        {
+          "facility": "Shady Grove Adventist Hospital",
+          "status": "TERMINATED",
+          "city": "Rockville",
+          "state": "Maryland",
+          "zip": "20850",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.084,
+            "lon": -77.15276
+          }
+        },
+        {
+          "facility": "Brigham and Women's Hospital",
+          "status": "TERMINATED",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02115",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Pentucket Medical Associates",
+          "status": "TERMINATED",
+          "city": "Haverhill",
+          "state": "Massachusetts",
+          "zip": "01830",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.7762,
+            "lon": -71.07728
+          }
+        },
+        {
+          "facility": "Charles River Medical Associates",
+          "status": "TERMINATED",
+          "city": "Natick",
+          "state": "Massachusetts",
+          "zip": "01760",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.28343,
+            "lon": -71.3495
+          }
+        },
+        {
+          "facility": "Newton-Wellesley Hospital",
+          "status": "TERMINATED",
+          "city": "Newton",
+          "state": "Massachusetts",
+          "zip": "02462",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.33704,
+            "lon": -71.20922
+          }
+        },
+        {
+          "facility": "University of Michigan Medical Center",
+          "status": "TERMINATED",
+          "city": "Ann Arbor",
+          "state": "Michigan",
+          "zip": "48109",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.27756,
+            "lon": -83.74088
+          }
+        },
+        {
+          "facility": "Ascension Genesys Hospital",
+          "status": "TERMINATED",
+          "city": "Grand Blanc",
+          "state": "Michigan",
+          "zip": "48439",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.92753,
+            "lon": -83.62995
+          }
+        },
+        {
+          "facility": "The Heart House Haddon Heights",
+          "status": "TERMINATED",
+          "city": "Haddon Heights",
+          "state": "New Jersey",
+          "zip": "08035",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.87734,
+            "lon": -75.06462
+          }
+        },
+        {
+          "facility": "Rutgers University - Robert Wood Johnson Medical School",
+          "status": "TERMINATED",
+          "city": "New Brunswick",
+          "state": "New Jersey",
+          "zip": "08901",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.48622,
+            "lon": -74.45182
+          }
+        },
+        {
+          "facility": "University of New Mexico Health Science Center",
+          "status": "TERMINATED",
+          "city": "Albuquerque",
+          "state": "New Mexico",
+          "zip": "87131",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.08449,
+            "lon": -106.65114
+          }
+        },
+        {
+          "facility": "University at Buffalo",
+          "status": "TERMINATED",
+          "city": "Buffalo",
+          "state": "New York",
+          "zip": "14203",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.88645,
+            "lon": -78.87837
+          }
+        },
+        {
+          "facility": "Northwell Health - Manhasset",
+          "status": "TERMINATED",
+          "city": "Manhasset",
+          "state": "New York",
+          "zip": "11030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.79788,
+            "lon": -73.69957
+          }
+        },
+        {
+          "facility": "Mount Sinai Medical Cente",
+          "status": "TERMINATED",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10029",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Mid Carolina Cardiology Research",
+          "status": "TERMINATED",
+          "city": "Charlotte",
+          "state": "North Carolina",
+          "zip": "28204",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.22709,
+            "lon": -80.84313
+          }
+        },
+        {
+          "facility": "Duke University",
+          "status": "TERMINATED",
+          "city": "Durham",
+          "state": "North Carolina",
+          "zip": "27710-4000",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.99403,
+            "lon": -78.89862
+          }
+        },
+        {
+          "facility": "University of Cincinnati Medical Center",
+          "status": "TERMINATED",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45267-0542",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "Penn State Milton S Hershey Medical Center",
+          "status": "TERMINATED",
+          "city": "Hershey",
+          "state": "Pennsylvania",
+          "zip": "17033",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.28592,
+            "lon": -76.65025
+          }
+        },
+        {
+          "facility": "Jefferson University Hospital",
+          "status": "TERMINATED",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19107",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "University of Pittsburgh Medical Center",
+          "status": "TERMINATED",
+          "city": "Pittsburgh",
+          "state": "Pennsylvania",
+          "zip": "15213",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.44062,
+            "lon": -79.99589
+          }
+        },
+        {
+          "facility": "Stern Cardiovascular Center",
+          "status": "TERMINATED",
+          "city": "Germantown",
+          "state": "Tennessee",
+          "zip": "38138",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.08676,
+            "lon": -89.81009
+          }
+        },
+        {
+          "facility": "Baylor University Medical Center",
+          "status": "TERMINATED",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75246",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "University of Miami Hospital",
+          "status": "TERMINATED",
+          "city": "Miami",
+          "state": "Texas",
+          "zip": "33136",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.69143,
+            "lon": -100.63819
+          }
+        },
+        {
+          "facility": "University of Texas Health Science Center at San Antonio",
+          "status": "TERMINATED",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78229",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        },
+        {
+          "facility": "Angereds närsjukhus",
+          "status": "TERMINATED",
+          "city": "Angered",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 57.78628,
+            "lon": 12.09852
+          }
+        },
+        {
+          "facility": "Hälsostaden Ängelholms sjukhus",
+          "status": "TERMINATED",
+          "city": "Ängelholm",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 56.2428,
+            "lon": 12.86219
+          }
+        },
+        {
+          "facility": "Falu lasarett",
+          "status": "RECRUITING",
+          "city": "Falun",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Fahed Sulaiman",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 60.60357,
+            "lon": 15.62597
+          }
+        },
+        {
+          "facility": "Närsjukvården i Finspång",
+          "status": "TERMINATED",
+          "city": "Finspång",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 58.70578,
+            "lon": 15.76739
+          }
+        },
+        {
+          "facility": "Vårdcentralen Centrum i Flen",
+          "status": "RECRUITING",
+          "city": "Flen",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Kaj Possler",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 59.05834,
+            "lon": 16.58781
+          }
+        },
+        {
+          "facility": "Sahgrenska University Hospital Östra",
+          "status": "RECRUITING",
+          "city": "Gothenburg",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Mikael Fu",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Mikael Fu",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 57.70716,
+            "lon": 11.96679
+          }
+        },
+        {
+          "facility": "Sahlgrenska Universitetssjukhuset",
+          "status": "RECRUITING",
+          "city": "Gothenburg",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Charlotta Ljungman",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 57.70716,
+            "lon": 11.96679
+          }
+        },
+        {
+          "facility": "Hemse Vårdcentral",
+          "status": "RECRUITING",
+          "city": "Hemse",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Ann Hovland-Tånneryd",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 57.23788,
+            "lon": 18.37443
+          }
+        },
+        {
+          "facility": "Karolinska University Hospital",
+          "status": "RECRUITING",
+          "city": "Huddinge",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Lars H Lund",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Lars H Lund",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 59.23705,
+            "lon": 17.98192
+          }
+        },
+        {
+          "facility": "Länssjukhuset Ryhov",
+          "status": "RECRUITING",
+          "city": "Jönköping",
+          "zip": "55185",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Patric Karlström",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 57.78145,
+            "lon": 14.15618
+          }
+        },
+        {
+          "facility": "Blekingesjukhuset",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Karlskrona",
+          "zip": "37185",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 56.16156,
+            "lon": 15.58661
+          }
+        },
+        {
+          "facility": "Hjärtmottagningen, Centralsjukhuset",
+          "status": "RECRUITING",
+          "city": "Karlstad",
+          "zip": "65230",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Edit Floderer",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 59.3793,
+            "lon": 13.50357
+          }
+        },
+        {
+          "facility": "Västmanlands sjukhus Köping",
+          "status": "RECRUITING",
+          "city": "Köping",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Emöke Fodor",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 59.51404,
+            "lon": 15.99255
+          }
+        },
+        {
+          "facility": "Centralsjukhuset Kristianstad",
+          "status": "TERMINATED",
+          "city": "Kristianstad",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 56.03129,
+            "lon": 14.15242
+          }
+        },
+        {
+          "facility": "Lasarettet i Landskrona",
+          "status": "RECRUITING",
+          "city": "Landskrona",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Fredrik Kymle",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 55.8708,
+            "lon": 12.83016
+          }
+        },
+        {
+          "facility": "Skaraborgs sjukhus i Lidköping",
+          "status": "RECRUITING",
+          "city": "Lidköping",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Magnus Peterson",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 58.50517,
+            "lon": 13.15765
+          }
+        },
+        {
+          "facility": "Linköpings Universitetssjukhus",
+          "status": "RECRUITING",
+          "city": "Linköping",
+          "zip": "58185",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Henriette van der Wal",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 58.41086,
+            "lon": 15.62157
+          }
+        },
+        {
+          "facility": "VO Akut- och internmedicin, Skånes Universitetssjukhus",
+          "status": "TERMINATED",
+          "city": "Lund",
+          "zip": "22185",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 55.70584,
+            "lon": 13.19321
+          }
+        },
+        {
+          "facility": "Capio Citykliniken",
+          "status": "RECRUITING",
+          "city": "Lund",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Carl-Johan Lindholm",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 55.70584,
+            "lon": 13.19321
+          }
+        },
+        {
+          "facility": "FO Kranskärl/Svikt, Skånes Universitetssjukhus",
+          "status": "RECRUITING",
+          "city": "Lund",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Grunde Gjesdal",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 55.70584,
+            "lon": 13.19321
+          }
+        },
+        {
+          "facility": "Hjärtavdelningen, Skånes Universitetssjukhus",
+          "status": "TERMINATED",
+          "city": "Malmo",
+          "zip": "20502",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 55.60587,
+            "lon": 13.00073
+          }
+        },
+        {
+          "facility": "Kliniska forskningsenheten Skånes Universitetssjukhus",
+          "status": "RECRUITING",
+          "city": "Malmo",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Patrik Svenson",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 55.60587,
+            "lon": 13.00073
+          }
+        },
+        {
+          "facility": "Mariefreds Vårdcentral",
+          "status": "RECRUITING",
+          "city": "Mariefred",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Tobias Reitberger",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Tobias Reitberger",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 59.25963,
+            "lon": 17.223
+          }
+        },
+        {
+          "facility": "Sahlgrenska University Hospital Mölndal",
+          "status": "RECRUITING",
+          "city": "Mölndal",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Pär Parén",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Pär Parén",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 57.6554,
+            "lon": 12.01378
+          }
+        },
+        {
+          "facility": "Kardiologikliniken, Vrinnevisjukhuset",
+          "status": "RECRUITING",
+          "city": "Norrköping",
+          "zip": "60182",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Dimitros Ftakas",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 58.59419,
+            "lon": 16.1826
+          }
+        },
+        {
+          "facility": "Oskarshamns sjukhus",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Oskarshamn",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 57.26455,
+            "lon": 16.44837
+          }
+        },
+        {
+          "facility": "Örebro University Hospital",
+          "status": "RECRUITING",
+          "city": "Örebro",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Barna Szabó",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Barna Szabó",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 59.27412,
+            "lon": 15.2066
+          }
+        },
+        {
+          "facility": "Skellefteå lasarett",
+          "status": "RECRUITING",
+          "city": "Skellefteå",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Lars Gustafsson",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 64.75067,
+            "lon": 20.95279
+          }
+        },
+        {
+          "facility": "Karolinska University Hospital",
+          "status": "RECRUITING",
+          "city": "Solna",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Lars H Lund",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Lars H Lund",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 59.36004,
+            "lon": 18.00086
+          }
+        },
+        {
+          "facility": "Södertälje sjukhus",
+          "status": "TERMINATED",
+          "city": "Södertälje",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 59.19554,
+            "lon": 17.62525
+          }
+        },
+        {
+          "facility": "VO Kardiologi, Södersjukhuset AB",
+          "status": "RECRUITING",
+          "city": "Stockholm",
+          "zip": "11883",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Carin Corovic Cabrera",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 59.32938,
+            "lon": 18.06871
+          }
+        },
+        {
+          "facility": "Capio S:t Görans sjukhus AB",
+          "status": "RECRUITING",
+          "city": "Stockholm",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Majid Jourak",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 59.32938,
+            "lon": 18.06871
+          }
+        },
+        {
+          "facility": "Danderyds sjukhus AB",
+          "status": "RECRUITING",
+          "city": "Stockholm",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Jonas Spaak",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 59.32938,
+            "lon": 18.06871
+          }
+        },
+        {
+          "facility": "Länssjukhuset Sundsvall-Härnösand",
+          "status": "RECRUITING",
+          "city": "Sundsvall",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Mohammad Kavianipour",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 62.39129,
+            "lon": 17.3063
+          }
+        },
+        {
+          "facility": "Sundsvalls Vårdcentral",
+          "status": "TERMINATED",
+          "city": "Sundsvall",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 62.39129,
+            "lon": 17.3063
+          }
+        },
+        {
+          "facility": "Uppsala University Hospital, Cardiology dept",
+          "status": "RECRUITING",
+          "city": "Uppsala",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Tymon Pol, MD, Phd",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 59.85882,
+            "lon": 17.63889
+          }
+        },
+        {
+          "facility": "Uppsala University Hospital, Internal Medicine dept",
+          "status": "RECRUITING",
+          "city": "Uppsala",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Michael Dimberg",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 59.85882,
+            "lon": 17.63889
+          }
+        },
+        {
+          "facility": "Medicinkliniken, Hallands sjukhus",
+          "status": "RECRUITING",
+          "city": "Varberg",
+          "zip": "43281",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Petru Tutuainu",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 57.10557,
+            "lon": 12.25078
+          }
+        },
+        {
+          "facility": "Västmanlands sjukhus Västerås",
+          "status": "RECRUITING",
+          "city": "Västerås",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Ingmar Lönnberg",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Ingmar Lönnberg",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 59.61617,
+            "lon": 16.55276
+          }
+        },
+        {
+          "facility": "Västerviks sjukhus",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Västervik",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 57.7584,
+            "lon": 16.63733
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D013148",
+          "term": "Spironolactone"
+        },
+        {
+          "id": "D059039",
+          "term": "Standard of Care"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007783",
+          "term": "Lactones"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011283",
+          "term": "Pregnenes"
+        },
+        {
+          "id": "D011278",
+          "term": "Pregnanes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D019984",
+          "term": "Quality Indicators, Health Care"
+        },
+        {
+          "id": "D011787",
+          "term": "Quality of Health Care"
+        },
+        {
+          "id": "D006298",
+          "term": "Health Services Administration"
+        },
+        {
+          "id": "D017530",
+          "term": "Health Care Quality, Access, and Evaluation"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

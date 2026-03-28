@@ -1,0 +1,357 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04728932",
+      "orgStudyIdInfo": {
+        "id": "P170914J"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2019-004319-29",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Assistance Publique - Hôpitaux de Paris",
+        "class": "OTHER"
+      },
+      "briefTitle": "LEVOSIMENDAN to Facilitate Weaning From ECMO in Severe Cardiogenic Shock Patients",
+      "officialTitle": "LEVOSIMENDAN to Facilitate Weaning From ECMO in Severe Cardiogenic Shock Patients",
+      "acronym": "LEVOECMO"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-01",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-08-27",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-11-09",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-11-09",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-01-12",
+      "studyFirstSubmitQcDate": "2021-01-24",
+      "studyFirstPostDateStruct": {
+        "date": "2021-01-28",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-03-19",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-03-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Assistance Publique - Hôpitaux de Paris",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "In the last decade, venoarterial extracorporeal membrane oxygenation (VA-ECMO) has become the first-line therapy in patients with refractory cardiogenic shock. VA-ECMO provides both respiratory and cardiac support, is easy to insert, even at the bedside, provides stable flow rates, and is associated with less organ failure after implantation compared to large biventricular assist-devices that require open-heart surgery. In patients with potentially reversible cardiac failure (e.g. myocarditis, myocardial stunning post-myocardial infarction, post-cardiotomy or post-cardiac arrest), VA-ECMO might be weaned after a few days of support and used as a bridge to recovery.\n\nAlthough considered as the ultimate life-saving technology for refractory cardiac failure, veno-arterial ECMO is still associated with severe complications. Specifically, excessive LV afterload and lack of LV unloading under VA-ECMO might induce LV stasis with thrombus formation, pulmonary edema, myocardial ischemia caused by ventricular distension and ultimately increase mortality. ECMO support also exposes to many complications such as infections, hemorrhage or peripheral vascular embolism. These complications are more frequent with prolonged support and are responsible for significant morbidity and mortality, prolonged ICU and hospital stays and higher costs.\n\nLevosimendan, which acts to sensitize myocardial contractile proteins to calcium, improves cardiac contractility without increasing the intracellular calcium concentration. Unlike traditional inotropes such as dobutamine, levosimendan neither increases myocardial oxygen consumption nor impairs diastolic function or possess proarrhythmic effects. It also influences the opening of ATP-dependent potassium channels, including those in vascular smooth muscle cells, leading to coronary, pulmonary, and peripheral vasodilation and antiinflammatory, antioxidative, antiapoptotic, anti-stunning and cardioprotective effects. Additionally, Levosimendan which has a long lasting action (up to 7-9 d), resulting from the formation of active metabolite, may be used as a single 24h perfusion.\n\nIn recent preliminary studies, the drug was associated with accelerated weaning from VA-ECMO and even improved survival. Therefore, a multicenter randomized trial with sufficient statistical power is needed in refractory cardiogenic shock patients supported by VA-ECMO to test if the early administration of Levosimendan can facilitate and accelerate VA-ECMO weaning, and ultimately translate in significantly less morbidity, reduced ICU and hospital length of stays and associated costs."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiogenic Shock",
+        "Extracorporeal Membrane Oxygenation Complication"
+      ],
+      "keywords": [
+        "LEVOSIMENDAN"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 206,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Levosimendan",
+          "type": "EXPERIMENTAL",
+          "description": "A continuous infusion of Levosimendan will be administered over 24 h, with no initial bolus. The starting infusion rate will be 0.15 µg/kg/min and will be increased to 0.20 µg/kg/min after 2 hours in the absence of rate-limiting side effects",
+          "interventionNames": [
+            "Drug: Levosimendan"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "A continuous infusion of Placebo will be administered over 24 h, with no initial bolus. The starting infusion rate will be 0.15 µg/kg/min and will be increased to 0.20 µg/kg/min after 2 hours in the absence of rate-limiting side effects",
+          "interventionNames": [
+            "Drug: Placebo of Levosimendan"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Levosimendan",
+          "description": "A continuous infusion of Levosimendan over 24h",
+          "armGroupLabels": [
+            "Levosimendan"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo of Levosimendan",
+          "description": "A continuous infusion of Placebo of Levosimendan over 24h",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Time to successful ECMO weaning within the 30 days following randomization",
+          "timeFrame": "Day 30"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Mortality",
+          "timeFrame": "Day 30, Day 60"
+        },
+        {
+          "measure": "Total duration of ECMO support",
+          "timeFrame": "Between inclusion and Day 30/Day 60"
+        },
+        {
+          "measure": "Number of ECMO-free days",
+          "timeFrame": "Between inclusion and Day 30/Day 60"
+        },
+        {
+          "measure": "Duration of ICU stay",
+          "timeFrame": "Between inclusion and Day 60"
+        },
+        {
+          "measure": "Duration of hospitalization stay",
+          "timeFrame": "Between inclusion and Day 60"
+        },
+        {
+          "measure": "Major adverse cardiovascular events",
+          "description": "defined as death, cardiac transplant, escalation to permanent left ventricular assist device, stroke, dialysis, re-hospitalization for heart failure",
+          "timeFrame": "Day 30, Day 60"
+        },
+        {
+          "measure": "Time to improvement in hemodynamic parameters",
+          "timeFrame": "Between inclusion and Day 60"
+        },
+        {
+          "measure": "Time to hemodynamic stabilization",
+          "timeFrame": "Between inclusion and Day 60"
+        },
+        {
+          "measure": "Days with organ failure asessed by sequential organ failure assessment",
+          "timeFrame": "Between inclusion and Day 30"
+        },
+        {
+          "measure": "Duration of hemodynamic support with catecholamines",
+          "timeFrame": "Between inclusion and Day 30/Day 60"
+        },
+        {
+          "measure": "Number of days alive without hemodynamic support",
+          "timeFrame": "Between inclusion and Day 30/Day 60"
+        },
+        {
+          "measure": "Duration of mechanical ventilation",
+          "timeFrame": "Between inclusion and Day 30/Day 60"
+        },
+        {
+          "measure": "Number of days alive without mechanical ventilation",
+          "timeFrame": "Between inclusion and Day 30/Day 60"
+        },
+        {
+          "measure": "Left ventricular function assessed with echocardiography",
+          "timeFrame": "Day 30"
+        },
+        {
+          "measure": "Incidence of adverse drug reactions",
+          "timeFrame": "Between inclusion and Day 60"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Acute cardiogenic shock patient refractory to conventional therapy placed on VA-ECMO support in the preceding 48h.\n2. Obtain informed consent from a close relative or surrogate. According to the specifications of emergency consent, randomization without the close relative or surrogate consent could be performed. Close relative/surrogate/family consent will be asked as soon as possible. The patient will be asked to give his/her consent for the continuation of the trial when his/her condition will allow.\n\nExclusion Criteria:\n\n1. Age \\<18\n2. Pregnant or lactating women\n3. Initiation of VA-ECMO \\>48 h\n4. Resuscitation \\>30 minutes in the 48 hours before ECMO (cumulative low-flow time). If a low-flow episode occurs before the 48 hours window prior to ECMO, patients must fully recover consciousness to be randomized.\n5. Irreversible neurological pathology\n6. End-stage cardiomyopathy with no hope of LV function recovery\n7. Mechanical complication of myocardial infarction\n8. Aortic regurgitation \\> II\n9. VA-ECMO for pulmonary embolism\n10. VA-ECMO for cardiotoxic drug intoxication\n11. ECMO after left-ventricle assist device implantation\n12. VA-ECMO in heart transplant patients\n13. Patient moribund on the day of randomization, SAPS II \\>90\n14. Liver cirrhosis (Child B or C) and other severe hepatic insufficiency\n15. Chronic renal failure requiring hemodialysis\n16. Known hypersensitivity to levosimendan\n17. History of torsades de pointes in the 30 days prior to inclusion\n18. History of epilepsy\n19. Individuals under guardianship, or permanently legally incompetent adults\n20. Participation to another interventional study\n21. Patient with a weight over 180 kg\n22. Known hypersensitivity to polyvitamin CERNEVIT®\n23. In case of hypervitaminosis to any vitamin contained in this formulation,\n24. In case of severe hypercalcemia, hypercalciuria, treatment, pathology and/or disorders leading to severe hypercalcemia and/or hypercalciuria\n25. In combination with vitamin A or retinoids",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Hôpital du Haut-Lévêque",
+          "city": "Pessac",
+          "state": "Bordeaux",
+          "country": "France",
+          "geoPoint": {
+            "lat": 44.80565,
+            "lon": -0.6324
+          }
+        },
+        {
+          "facility": "Hôpital Pitié Salpêtrière",
+          "city": "Paris",
+          "zip": "75013",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Hôpital Européen Georges Pompidou",
+          "city": "Paris",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "41324946",
+          "type": "DERIVED",
+          "citation": "Combes A, Saura O, Nesseler N, Lebbah S, Rozec B, Levy B, Fellahi JL, Beurton A, Meslin S, Gaudard P, Bougle A, Vincentelli A, Sonneville R, Lebreton G, Levy D, Ouattara A, Tubach F; LEVOECMO Trial Group and the International ECMO Network (ECMONet). Levosimendan to Facilitate Weaning From ECMO in Patients With Severe Cardiogenic Shock: The LEVOECMO Randomized Clinical Trial. JAMA. 2026 Jan 6;335(1):60-69. doi: 10.1001/jama.2025.19843."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D012770",
+          "term": "Shock, Cardiogenic"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D012769",
+          "term": "Shock"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077464",
+          "term": "Simendan"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006835",
+          "term": "Hydrazones"
+        },
+        {
+          "id": "D006834",
+          "term": "Hydrazines"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011724",
+          "term": "Pyridazines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

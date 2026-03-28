@@ -1,0 +1,404 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02808182",
+      "orgStudyIdInfo": {
+        "id": "2016-1196"
+      },
+      "organization": {
+        "fullName": "Université de Sherbrooke",
+        "class": "OTHER"
+      },
+      "briefTitle": "Postprandial Fatty Acid Metabolism in the Natural History of Type 2 Diabetes (T2D)",
+      "officialTitle": "Postprandial Fatty Acid Metabolism in the Natural History of Type 2 Diabetes (T2D): Relative Contribution of Dietary vs Systemic Fatty Acids to Lean Tissue Fatty Acid Fluxes and Oxidative vs Non-oxidative Pathways",
+      "acronym": "AGL11"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-01",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-01-17",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-12",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-05",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-04-14",
+      "studyFirstSubmitQcDate": "2016-06-16",
+      "studyFirstPostDateStruct": {
+        "date": "2016-06-21",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2025-01-22",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-01-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "André Carpentier",
+        "investigatorTitle": "Tenured Professor",
+        "investigatorAffiliation": "Université de Sherbrooke"
+      },
+      "leadSponsor": {
+        "name": "Université de Sherbrooke",
+        "class": "OTHER"
+      }
+    },
+    "descriptionModule": {
+      "briefSummary": "Lipotoxicity-causing fatty acid overexposure and accretion in lean tissues leads to insulin resistance and impaired pancreatic β-cell function - the hallmarks of T2D - contributing to associated complications such as heart failure, kidney failure and microvascular diseases. Proper dietary fatty acid (DFA) storage in white adipose tissue (WAT) is now thought to prevent lean-tissue lipotoxicity. Using novel Positron-Emission Tomography (PET) and stable isotopic tracer methods which were developed in Sherbrooke, the investigator showed that WAT storage of DFA is impaired in people with pre-diabetes or T2D. The investigator also showed that this impairment is associated with greater cardiac DFA uptake, as well as subclinical left-ventricular systolic and diastolic dysfunction. Then, It has been found that modest weight loss in pre-diabetics, after a one-year lifestyle intervention, improved WAT DFA storage, curbed cardiac DFA uptake, and restored associated left-ventricular dysfunction. It has been also found that a 7-day low-saturated fat, low-calorie diet raised insulin sensitivity but did not restore WAT or cardiac DFA metabolism. Whether WAT DFA storage directly impacts cardiac DFA uptake is not known. Importantly, the investigator recently uncovered marked sex-specific differences in WAT DFA metabolism. These may explain, at least in part, sex-related differences in the cardiac DFA uptake, which occurs in pre-diabetes. Higher spillover of WAT DFA into circulating Non-Esterified Fatty Acid (NEFA) appears to be linked in women to greater cardiac DFA uptake, as opposed to direct cardiac chylomicron triglycerides (TG) uptake in men. Here, the investigator will isolate and compare organ-specific fatty acid uptake occurring postprandially from chylomicron-TG vs. NEFA pools, as well as the oxidative vs. non-oxidative intracellular metabolic pathways associated with increased cardiac DFA uptake in pre-diabetic men and women."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Impaired Glucose Tolerance"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "BASIC_SCIENCE",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 50,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "A0: PET/scan with [11C] palmitate",
+          "type": "OTHER",
+          "description": "A bolus of 180 MBq of \\[11C\\]-acetate at time 90min and PET acquisition",
+          "interventionNames": [
+            "Procedure: Biopsy",
+            "Other: liquid meal"
+          ]
+        },
+        {
+          "label": "A1: PET/scan with [11C] palmitate",
+          "type": "OTHER",
+          "description": "A bolus injection of 180 MBq of \\[11C\\]-acetate at time 90min, followed by PET acquisition",
+          "interventionNames": [
+            "Drug: Nicotinic acid",
+            "Procedure: Biopsy",
+            "Other: liquid meal"
+          ]
+        },
+        {
+          "label": "B0: PET/scan with [18F]-FTHA",
+          "type": "OTHER",
+          "description": "At time 0, a standard liquid meal will be drunk over 20 minutes with 70 MBq of 18FTHA . PET acquisition at time 90 min.",
+          "interventionNames": [
+            "Other: [7,7,8,8-2H]-palmitate",
+            "Other: [U-13C]-palmitate",
+            "Other: liquid meal"
+          ]
+        },
+        {
+          "label": "B1: PET/scan with [18F]-FTHA",
+          "type": "OTHER",
+          "description": "At time 0, a standard liquid meal will be drunk over 20 minutes with 70 MBq of 18FTHA followed by a PET acquisition at time 90 min.",
+          "interventionNames": [
+            "Drug: Nicotinic acid",
+            "Other: [7,7,8,8-2H]-palmitate",
+            "Other: [U-13C]-palmitate",
+            "Other: liquid meal"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Nicotinic acid",
+          "description": "oral administration of nicotinic acid (100mg at 0, 30, 60, 90, 120, 180, 240 and 300 min) to minimize WAT intracellular lipolysis",
+          "armGroupLabels": [
+            "A1: PET/scan with [11C] palmitate",
+            "B1: PET/scan with [18F]-FTHA"
+          ],
+          "otherNames": [
+            "Niacin"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "[7,7,8,8-2H]-palmitate",
+          "description": "using i.v. administration of \\[7,7,8,8-2H\\]-palmitate (in 25% human albumin) from time -60 to +360 min",
+          "armGroupLabels": [
+            "B0: PET/scan with [18F]-FTHA",
+            "B1: PET/scan with [18F]-FTHA"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "[U-13C]-palmitate",
+          "description": "oral administration of \\[U-13C\\]-palmitate (0.2 g mixed into the liquid meal) at time 0 min",
+          "armGroupLabels": [
+            "B0: PET/scan with [18F]-FTHA",
+            "B1: PET/scan with [18F]-FTHA"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Biopsy",
+          "description": "A subcutaneous abdominal 0.5-g adipose tissue biopsy will be performed at the end of protocols A0 and A1",
+          "armGroupLabels": [
+            "A0: PET/scan with [11C] palmitate",
+            "A1: PET/scan with [11C] palmitate"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "liquid meal",
+          "description": "At time 0, a standard liquid meal (400 mL, 906 kcal, 33g-fat/34g-protein/101g-carbohydrates i.e. 33%/17%/50% calories) will be drunk over 20 minutes",
+          "armGroupLabels": [
+            "A0: PET/scan with [11C] palmitate",
+            "A1: PET/scan with [11C] palmitate",
+            "B0: PET/scan with [18F]-FTHA",
+            "B1: PET/scan with [18F]-FTHA"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Plasma NEFA appearance rate",
+          "description": "NEFA appearance will be measured using i.v. administration of \\[7,7,8,8-2H\\]-palmitate (in 25% human albumin) from time -60 to +360 min, as slightly modified from previous descriptions, using Steele's non steady-state equations. Blood samples to measure plasma palmitate, oleate, linoleate, and total NEFA levels, \\[7,7,8,8-2H\\]-palmitate enrichments by GC/MS-MS.",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "Cardiac and hepatic uptake",
+          "description": "will be determined using 11C-palmitate PET/CT. 180 MBq will be administered by bolus injection at postprandial time 90min. After a transmission scan and regional CT (40mA), a 30-min dynamic list-mode PET acquisition will be performed starting at time 90 min on a 18 cm-high thoraco-abdominal segment to include the left cardiac ventricle and most of the liver on a Philips Gemini TOF PET/CT",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "WAT spillover NEFA appearance rates",
+          "description": "WAT spillover NEFA will be determined from oral administration of \\[U-13C\\]-palmitate.\n\nBlood samples to measure plasma \\[U-13C\\]-palmitate and chylomicron-TG \\[U-13C\\]-palmitate enrichment by GC/MS-MS",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "oxidative metabolism of NEFA",
+          "description": "will be assessed by using 13C-palmitate",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "cardiac and hepatic DFA uptake",
+          "description": "will be assessed using PET/CT method with oral administration of 18FTHA",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "whole-body organ-specific DFA partitioning",
+          "description": "will be determined by whole-body CT (16 mA) followed by PET acquisition of 18FTHA",
+          "timeFrame": "2 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Insulin sensitivity",
+          "description": "will be determined using the HOMA-IR (based on fasting insulin and glucose levels)",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "Insulin secretion rate",
+          "description": "will be assessed using deconvolution of plasma C-peptide with standard C-peptide kinetic parameters",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "β-cell function",
+          "description": "will be assessed by calculation of the disposition index (DI) that is insulin secretion in response to the ambient insulin",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "WAT size",
+          "description": "by biopsy fixed in formalin",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "hormonal response",
+          "description": "will be determined using a multiplex assay system",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "Lipoprotein lipase activity",
+          "description": "will be assessed as on frozen 150-mg portions from biopsy",
+          "timeFrame": "2 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* For healthy subjects: fasting glucose \\< 5.6, 2-hour post 75g Oral Glucose Tolerance Test (OGTT) glucose \\< 7.8 mmol/l and HbA1c \\< 5.8%\n* For subject with glucose intolerance (IGT): 2-hour post 75g OGTT glucose at 7.8-11.1 mmol/l on two separate occasions and HbA1c of 6.0 to 6.4%\n\nExclusion Criteria:\n\n* overt cardiovascular disease as assessed by medical history, physical exam, and abnormal ECG\n* treatment with a fibrate, thiazolidinedione, beta-blocker or other drug known to affect lipid or carbohydrate metabolism (except statins, metformin, and other antihypertensive agents that can be safely interrupted)\n* presence of liver or renal disease, uncontrolled thyroid disorder, previous pancreatitis, bleeding disorder, or other major illness\n* smoking (\\>1 cigarette/day) and/or consumption of \\>2 alcoholic beverages per day\n* prior history or current fasting plasma cholesterol level \\> 7 mmol/l or fasting TG \\> 6 mmol/l\n* any other contraindication to temporarily interrupt current meds for lipids or hypertension\n* being pregnant\n* not be barren",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "45 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "centre de recherche du CHUS",
+          "city": "Sherbrooke",
+          "state": "Quebec",
+          "zip": "J1H 5N4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.40008,
+            "lon": -71.89908
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "40157702",
+          "type": "DERIVED",
+          "citation": "Montastier E, Ye RZ, Noll C, Amrani M, Frisch F, Fortin M, Bouffard L, Phoenix S, Sarrhini O, Cunnane SC, Guerin B, Turcotte EE, Carpentier AC. Nicotinic acid increases adipose tissue dietary fatty acid trapping and reduces postprandial hepatic and cardiac fatty acid uptake in prediabetes. Eur J Pharmacol. 2025 Jul 5;998:177563. doi: 10.1016/j.ejphar.2025.177563. Epub 2025 Mar 27."
+        },
+        {
+          "pmid": "35748318",
+          "type": "DERIVED",
+          "citation": "Ye RZ, Montastier E, Noll C, Frisch F, Fortin M, Bouffard L, Phoenix S, Guerin B, Turcotte EE, Carpentier AC. Total Postprandial Hepatic Nonesterified and Dietary Fatty Acid Uptake Is Increased and Insufficiently Curbed by Adipose Tissue Fatty Acid Trapping in Prediabetes With Overweight. Diabetes. 2022 Sep 1;71(9):1891-1901. doi: 10.2337/db21-1097."
+        },
+        {
+          "pmid": "33870714",
+          "type": "DERIVED",
+          "citation": "Montastier E, Ye RZ, Noll C, Bouffard L, Fortin M, Frisch F, Phoenix S, Guerin B, Turcotte EE, Lewis GF, Carpentier AC. Increased postprandial nonesterified fatty acid efflux from adipose tissue in prediabetes is offset by enhanced dietary fatty acid adipose trapping. Am J Physiol Endocrinol Metab. 2021 Jun 1;320(6):E1093-E1106. doi: 10.1152/ajpendo.00619.2020. Epub 2021 Apr 19."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Total Postprandial Hepatic Nonesterified and Dietary Fatty Acid Uptake Is Increased and Insufficiently Curbed by Adipose Tissue Fatty Acid Trapping in Prediabetes With Overweight",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35748318/"
+        },
+        {
+          "label": "Increased postprandial nonesterified fatty acid efflux from adipose tissue in prediabetes is offset by enhanced dietary fatty acid adipose trapping",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33870714/"
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D018149",
+          "term": "Glucose Intolerance"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006943",
+          "term": "Hyperglycemia"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009525",
+          "term": "Niacin"
+        },
+        {
+          "id": "D001706",
+          "term": "Biopsy"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009539",
+          "term": "Nicotinic Acids"
+        },
+        {
+          "id": "D000147",
+          "term": "Acids, Heterocyclic"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D003581",
+          "term": "Cytodiagnosis"
+        },
+        {
+          "id": "D003584",
+          "term": "Cytological Techniques"
+        },
+        {
+          "id": "D019411",
+          "term": "Clinical Laboratory Techniques"
+        },
+        {
+          "id": "D019937",
+          "term": "Diagnostic Techniques and Procedures"
+        },
+        {
+          "id": "D003933",
+          "term": "Diagnosis"
+        },
+        {
+          "id": "D013048",
+          "term": "Specimen Handling"
+        },
+        {
+          "id": "D003949",
+          "term": "Diagnostic Techniques, Surgical"
+        },
+        {
+          "id": "D013514",
+          "term": "Surgical Procedures, Operative"
+        },
+        {
+          "id": "D008919",
+          "term": "Investigative Techniques"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

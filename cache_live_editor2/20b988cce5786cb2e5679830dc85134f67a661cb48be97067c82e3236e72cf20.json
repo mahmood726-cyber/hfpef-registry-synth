@@ -1,0 +1,495 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05633784",
+      "orgStudyIdInfo": {
+        "id": "ICS Maugeri CE2338"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "NET-2018-12367206-WP3",
+          "type": "OTHER",
+          "domain": "Italian Ministry of Health"
+        }
+      ],
+      "organization": {
+        "fullName": "Istituti Clinici Scientifici Maugeri SpA",
+        "class": "OTHER"
+      },
+      "briefTitle": "Telemedicine Home-based Management in Patients With CHF and Type 2 Diabetes",
+      "officialTitle": "Telemedicine Home-based Management in Patients With Chronic Heart Failure and Type 2 Diabetes: a Randomized Control Study",
+      "acronym": "TELEMECHRON"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-10",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-08-18",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-09-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-09-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-11-17",
+      "studyFirstSubmitQcDate": "2022-11-30",
+      "studyFirstPostDateStruct": {
+        "date": "2022-12-01",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-10-30",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-11-01",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Istituti Clinici Scientifici Maugeri SpA",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Azienda Ospedaliera Bolognini di Seriate Bergamo",
+          "class": "OTHER"
+        },
+        {
+          "name": "Papa Giovanni XXIII Hospital",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The progressive ageing of the population of industrialized countries is accompanied by a dramatic increase in the prevalence of chronic multi-pathologies. In the general population, HF is associated with a higher prevalence of T2DM compared with patients without HF and with marked regional differences observed in Europe and the rest of the world. In clinical trials of chronic HF patients, the prevalence of T2DM is approximately 30% in patients with reduced or preserved ejection fraction and rises to as much as 45% in hospitalized patient registries. A complex drug regimen is often associated with low adherence in patients with HF and T2DM and poor adherence is associated with adverse clinical events. Similarly, adherence to recommendations regarding lifestyle changes, such as increasing physical activity, is often limited despite these changes' favourable effects on the patient. Therefore, interventions are needed to improve all these factors and optimize adherence. The inclusion of telemedicine (telenursing, telerehabilitation, mHealth) focused on health and correct behaviour can create opportunities to implement customized and scalable solutions in populations at risk. The project will aim to evaluate for patients with chronic diseases with a complex phenotype (heart failure and type II diabetes mellitus) the effectiveness of a remote surveillance program with particular attention to lifestyle changes."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Chronic Heart Failure",
+        "Diabetes Mellitus"
+      ],
+      "keywords": [
+        "telemedicine",
+        "case management",
+        "mobile technologies (mHealth)",
+        "Physical activities",
+        "6-min walking test",
+        "motivational feedback"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Consenting eligible patients were randomized to either an Intervention or a Control group (1:1).\n\nA computer (www.randomization.com) generated tables to allocate patients in fixed blocks of four. In order to prevent selection bias, the list of randomization will be managed by personnel not directly involved in the enrolment of the patient. Due to the nature of the intervention, neither the patients nor the physicians were blinded to patients' group allocation. However, outcome assessors and data analysts will be blinded to the allocation.",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 163,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intervention group",
+          "type": "EXPERIMENTAL",
+          "description": "At the beginning and at the end of the 6-month study period, patients of the Intervention group will perform outpatient cardiological visits. During the 6-month they will be followed through a home remote teleassistance program, designed to provide multidisciplinary support.",
+          "interventionNames": [
+            "Other: Teleassistance",
+            "Other: Teleconsultation",
+            "Other: Telerehabilitation",
+            "Other: Telemonitoring",
+            "Other: mHealth",
+            "Other: telepsycology",
+            "Other: Quality of life",
+            "Other: Biochemistry evaluation",
+            "Other: Clinical evaluation",
+            "Other: State of health of the patient"
+          ]
+        },
+        {
+          "label": "Control group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "At the beginning and at the end of the 6-month study period, patients of the Control group will perform outpatient cardiological visits. During the 6-month at home, patients will be followed in the usual care model by GP.",
+          "interventionNames": [
+            "Other: Quality of life",
+            "Other: Biochemistry evaluation",
+            "Other: Clinical evaluation",
+            "Other: State of health of the patient"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Teleassistance",
+          "description": "Support the nursing case manager through a structured teleconsultation program (telephone and videoconference support at least once a week)",
+          "armGroupLabels": [
+            "Intervention group"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Teleconsultation",
+          "description": "Cardiological and Diabetological teleconsultation at the beginning of the program and in case of need during the program.",
+          "armGroupLabels": [
+            "Intervention group"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Telerehabilitation",
+          "description": "Support from a physiotherapist (if needed)",
+          "armGroupLabels": [
+            "Intervention group"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Telemonitoring",
+          "description": "Telemonitoring of patient vital signs (eg single electrocardiographic trace) and delay steps",
+          "armGroupLabels": [
+            "Intervention group"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "mHealth",
+          "description": "The support of an App for recording and monitoring parameters: delay treatment, clinical parameters such as glycemia, blood pressure, HR, symptoms, etc.",
+          "armGroupLabels": [
+            "Intervention group"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "telepsycology",
+          "description": "Psychological support (if necessary)",
+          "armGroupLabels": [
+            "Intervention group"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Quality of life",
+          "description": "Minnesota LIVING WITH HEART FAILURE® Questionnaire (MLHFQ), Short Form Survey (SF-12) Questionnaire and Diabetes Quality of Life (DQoL) questionnaire",
+          "armGroupLabels": [
+            "Control group",
+            "Intervention group"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Biochemistry evaluation",
+          "description": "Glycemia, glycated haemoglobin, total cholesterol, HDL and LDL, triglycerides, creatinine, BUN, creatinine clearance, BNP",
+          "armGroupLabels": [
+            "Control group",
+            "Intervention group"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Clinical evaluation",
+          "description": "6-minute-walking test, IMC, NYHA class, Ejection fraction",
+          "armGroupLabels": [
+            "Control group",
+            "Intervention group"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "State of health of the patient",
+          "description": "Severity Index and Comordbidity index",
+          "armGroupLabels": [
+            "Control group",
+            "Intervention group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in tolerance capacity",
+          "description": "The change from baseline in tolerance capacity will be measured by walking test performance (meters walked).",
+          "timeFrame": "Baseline and 6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change of hospitalizations",
+          "description": "Change of hospitalizations for cardiovascular problems, diabetes and all-causes",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Number of Steps",
+          "description": "The difference in the weekly mean in the number of steps from baseline over the 6 months of follow-up.",
+          "timeFrame": "Baseline and 6 months"
+        },
+        {
+          "measure": "HbA1c dosage",
+          "description": "Change of the disease status",
+          "timeFrame": "Baseline and 6 months"
+        },
+        {
+          "measure": "Change in quality of life related to heart failure",
+          "description": "Change in quality of life measured by Minnesota Living with Heart Failure (MLHFQ) questionnaire",
+          "timeFrame": "Baseline and 6 months"
+        },
+        {
+          "measure": "Change in quality of life related to Diabetes",
+          "description": "Change in quality of life measured by Diabetes quality of life (DQoL) questionnaire",
+          "timeFrame": "Baseline and 6 months"
+        },
+        {
+          "measure": "Change in quality of life",
+          "description": "Change in quality of life measured by 12-item Short Form Survey (SF-12) questionnaire",
+          "timeFrame": "Baseline and 6 months"
+        },
+        {
+          "measure": "Assessment of physical activity.",
+          "description": "Change in physical activity profile by Physical Activity Scale for the Elderly (PASE).\n\nThe total PASE score is computed by multiplying the amount of time spent on each activity (hours/week) or participation (yes/no) in an activity by the empirically derived item weights and summing overall activities.",
+          "timeFrame": "Baseline and 6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Inform consent\n* Age ≥ 18 years\n* Documented diagnosis of heart failure, NYHA class II-III (reduced or preserved Ejection fraction without hospitalization in the last 3 months\n* Diagnosis of Diabetes Mellitus Type II in pharmacological treatment from at least one month\n* Ability to walk without assistive devices\n* Consent to using a device (independently or with the support of a caregiver) for recording the single electrocardiographic trace at home\n* Consent to using the App\n\nExclusion Criteria:\n\n* Subjects with poor collaboration\n* No possibility of using mobile technology\n* Life expectancy of fewer than 6 months\n* Medical issues that preclude participation in the program",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "SIMONETTA SCALVINI, MD",
+          "affiliation": "ICS MAUGERI",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Azienda Ospedaliera Bolognini di Seriate Bergamo",
+          "city": "Seriate",
+          "state": "Bergamo",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.68532,
+            "lon": 9.72487
+          }
+        },
+        {
+          "facility": "Istituti Clinici Scientifici Maugeri",
+          "city": "Lumezzane",
+          "state": "Brescia",
+          "zip": "25065",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.64789,
+            "lon": 10.26487
+          }
+        },
+        {
+          "facility": "Papa Giovanni XXIII Hospital",
+          "city": "Bergamo",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.69601,
+            "lon": 9.66721
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "29520964",
+          "type": "BACKGROUND",
+          "citation": "Seferovic PM, Petrie MC, Filippatos GS, Anker SD, Rosano G, Bauersachs J, Paulus WJ, Komajda M, Cosentino F, de Boer RA, Farmakis D, Doehner W, Lambrinou E, Lopatin Y, Piepoli MF, Theodorakis MJ, Wiggers H, Lekakis J, Mebazaa A, Mamas MA, Tschope C, Hoes AW, Seferovic JP, Logue J, McDonagh T, Riley JP, Milinkovic I, Polovina M, van Veldhuisen DJ, Lainscak M, Maggioni AP, Ruschitzka F, McMurray JJV. Type 2 diabetes mellitus and heart failure: a position statement from the Heart Failure Association of the European Society of Cardiology. Eur J Heart Fail. 2018 May;20(5):853-872. doi: 10.1002/ejhf.1170. Epub 2018 Mar 8."
+        },
+        {
+          "pmid": "15735197",
+          "type": "BACKGROUND",
+          "citation": "Thrainsdottir IS, Aspelund T, Thorgeirsson G, Gudnason V, Hardarson T, Malmberg K, Sigurdsson G, Ryden L. The association between glucose abnormalities and heart failure in the population-based Reykjavik study. Diabetes Care. 2005 Mar;28(3):612-6. doi: 10.2337/diacare.28.3.612."
+        },
+        {
+          "pmid": "30831331",
+          "type": "BACKGROUND",
+          "citation": "Sharma A, Mentz RJ, Granger BB, Heitner JF, Cooper LB, Banerjee D, Green CL, Majumdar MD, Eapen Z, Hudson L, Felker GM. Utilizing mobile technologies to improve physical activity and medication adherence in patients with heart failure and diabetes mellitus: Rationale and design of the TARGET-HF-DM Trial. Am Heart J. 2019 May;211:22-33. doi: 10.1016/j.ahj.2019.01.007. Epub 2019 Jan 31."
+        },
+        {
+          "pmid": "28537509",
+          "type": "BACKGROUND",
+          "citation": "Scalvini S, Bernocchi P, Zanelli E, Comini L, Vitacca M; Maugeri Centre for Telehealth and Telecare (MCTT). Maugeri Centre for Telehealth and Telecare: A real-life integrated experience in chronic patients. J Telemed Telecare. 2018 Aug;24(7):500-507. doi: 10.1177/1357633X17710827. Epub 2017 May 24."
+        },
+        {
+          "pmid": "38773662",
+          "type": "BACKGROUND",
+          "citation": "Bernocchi P, Giudici V, Borghi G, Bertolaia P, D'Isa S, Trevisan R, Scalvini S. Telemedicine home-based management in patients with chronic heart failure and diabetes type II: study protocol for a randomized controlled trial. Trials. 2024 May 21;25(1):333. doi: 10.1186/s13063-024-08171-0."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D009043",
+          "term": "Motor Activity"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D019114",
+          "term": "Remote Consultation"
+        },
+        {
+          "id": "D000069350",
+          "term": "Telerehabilitation"
+        },
+        {
+          "id": "D017216",
+          "term": "Telemedicine"
+        },
+        {
+          "id": "D011788",
+          "term": "Quality of Life"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012017",
+          "term": "Referral and Consultation"
+        },
+        {
+          "id": "D011364",
+          "term": "Professional Practice"
+        },
+        {
+          "id": "D009934",
+          "term": "Organization and Administration"
+        },
+        {
+          "id": "D006298",
+          "term": "Health Services Administration"
+        },
+        {
+          "id": "D003695",
+          "term": "Delivery of Health Care"
+        },
+        {
+          "id": "D010346",
+          "term": "Patient Care Management"
+        },
+        {
+          "id": "D012046",
+          "term": "Rehabilitation"
+        },
+        {
+          "id": "D000359",
+          "term": "Aftercare"
+        },
+        {
+          "id": "D003266",
+          "term": "Continuity of Patient Care"
+        },
+        {
+          "id": "D005791",
+          "term": "Patient Care"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D006296",
+          "term": "Health Services"
+        },
+        {
+          "id": "D005159",
+          "term": "Health Care Facilities Workforce and Services"
+        },
+        {
+          "id": "D006304",
+          "term": "Health Status"
+        },
+        {
+          "id": "D003710",
+          "term": "Demography"
+        },
+        {
+          "id": "D015991",
+          "term": "Epidemiologic Measurements"
+        },
+        {
+          "id": "D011634",
+          "term": "Public Health"
+        },
+        {
+          "id": "D004778",
+          "term": "Environment and Public Health"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

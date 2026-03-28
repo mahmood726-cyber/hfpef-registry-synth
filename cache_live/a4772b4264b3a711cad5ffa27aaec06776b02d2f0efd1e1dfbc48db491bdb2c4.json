@@ -1,0 +1,384 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04739215",
+      "orgStudyIdInfo": {
+        "id": "FIBHGM-CARDIA-STIFF"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2019-002046-20",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Hospital General Universitario Gregorio Marañon",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effects of SGLT2 Inhibition on the Mechanisms of Cardiac Damage in the Diabetic Patient With HFpEF",
+      "officialTitle": "Effects of Sodium-Glucose Cotransporter 2 Inhibition on the Mechanisms of Cardiac Damage in the Diabetic Patient With Heart Failure With Preserved Ejection Fraction",
+      "acronym": "CARDIA-STIFF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-02",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-01-15",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-12-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2022-12-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-01-15",
+      "studyFirstSubmitQcDate": "2021-02-01",
+      "studyFirstPostDateStruct": {
+        "date": "2021-02-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-02-01",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-02-04",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Hospital General Universitario Gregorio Marañon",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "University of Navarra",
+          "class": "OTHER"
+        },
+        {
+          "name": "Instituto de Salud Carlos III",
+          "class": "OTHER_GOV"
+        },
+        {
+          "name": "Fundación para la Investigación Biomédica del Hospital Gregorio Maranon",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The main aim of this study is to identify the underlying mechanisms of Sodium-glucose co-transporter-2 (SGLT2) inhibitors which are associated to better outcomes in patients with Diabetes mellitus type 2 and Heart Failure with preserved Ejection Fraction.",
+      "detailedDescription": "Double design study including a clinical trial and a nested case-control study.\n\nA) Experimental study (clinical trial): Phase IV, prospective, randomized, double-blind placebo-controlled with 12 months follow-up. Inclusion criteria are: 1) diagnosis of DM2, 2) HF with preserved EF with a hospital admission in the previous 6 months with demonstration of diastolic dysfunction. 3) Stable clinical situation at inclusion. 4) Clinical indication of cardiac catheterization.\n\nPatients will be randomized 1:1 to received Dapagliflozin 10 mg/day or placebo. The main objective is to compare the impact of the drug on LV diastolic properties at the peak of effort and in levels of plasma deposit and cross-linking biomarkers of type I collagen between the two treatment groups at baseline and after 12 months.\n\n52 patients will be recruited.\n\nB) Descriptive study: Nested case-control study, considering patients from the experimental study as cases and 10 additional patients with HF with preserved EF but no type 2 DM as controls. The main aim will be compare the histological, molecular, biochemical and biomechanical features of the HFpEF patients with and without DM2."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Diabetes Mellitus, Type 2",
+        "Heart Failure With Preserved Ejection Fraction"
+      ],
+      "keywords": [
+        "Diabetes mellitus",
+        "Heart Failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 62,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Clinical Trial: Experimental Arm",
+          "type": "EXPERIMENTAL",
+          "description": "Patients with heart failure with preserved ejection fraction and type 2 diabetes mellitus treated with Dapagliflozin (Forxiga) 10 mg, one capsule per day orally.",
+          "interventionNames": [
+            "Drug: Dapagliflozin 10 MG [Farxiga]"
+          ]
+        },
+        {
+          "label": "Clinical Trial: Placebo Arm",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Patients with heart failure with preserved ejection fraction and type 2 diabetes mellitus treated with Placebo in a similar pattern.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "Descriptive Study",
+          "type": "NO_INTERVENTION",
+          "description": "Patients with heart failure with preserved ejection fraction but with no type 2 diabetes mellitus (n=10)."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Dapagliflozin 10 MG [Farxiga]",
+          "description": "Dapagliflozin 10 mg / day oral",
+          "armGroupLabels": [
+            "Clinical Trial: Experimental Arm"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "One Placebo capsule daily oral",
+          "armGroupLabels": [
+            "Clinical Trial: Placebo Arm"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Functional Main Objective: Impact of iSGLT2 on LV diastolic properties in terms of the change in LV stiffness constant (S+) at the peak of exercise.",
+          "description": "Intrinsic diastolic properties will be analyzed by dynamic pressure-volume loop catheterization.",
+          "timeFrame": "Baseline vs 12 months"
+        },
+        {
+          "measure": "Main Structural Objective: Changes in serum levels of procollagen type I C-terminal propertied (PICP, ng/mL)",
+          "description": "We will measure the changes in serum levels of procollagen type I C-terminal propertied (PICP, ng/mL), a validated biomarker of collagen type I deposition",
+          "timeFrame": "Baseline vs 12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Changes in LV stiffness constants (S+ and S-).",
+          "description": "LV stiffness constants will be obtained from invasive pressure-volume data analysis.",
+          "timeFrame": "Baseline vs 12 months"
+        },
+        {
+          "measure": "Changes in the slope, Emax, of the end-systolic pressure-volume relationship",
+          "description": "Emax will be obtained from invasive pressure-volume data analysis.",
+          "timeFrame": "Baseline vs 12 months"
+        },
+        {
+          "measure": "Impact of iSGLT2 on myocardial remodeling.",
+          "description": "Reverse cardiac remodeling will be studied by cardiac magnetic resonance (CMR). CMR studies will be performed on 1.5 T scanners and will include short-axis cine steady-state free-precession images from base to apex, and standard long axis views for the analysis of mass, volume and ventricular function.\n\nCMR study will require the administration of a gadolinium contrast medium to study myocardial fibrosis, unless contraindicated.",
+          "timeFrame": "Baseline vs 12 months"
+        },
+        {
+          "measure": "Correlation of myocardial remodeling patterns with the intrinsic diastolic properties of chamber VI with systolic function.",
+          "description": "Results from the pressure-volume analysis and CMR will be assess in common in order to search for association.",
+          "timeFrame": "Baseline vs 12 months"
+        },
+        {
+          "measure": "Relative contribution of the intrinsic diastolic properties of the LV and the flow patterns on filling pressures and their modulation under treatment with iSGLT2.",
+          "description": "Intraventricular flow patterns will be studied by Doppler echocardiography and phase contrast CMR, considering vorticity and blood transport parameters.",
+          "timeFrame": "Baseline vs 12 months"
+        },
+        {
+          "measure": "Changes in serum levels of collagen type I C-terminal telopeptide to matrix metalloproteinase ratio (CITP:MMP-1)",
+          "description": "We will measure the changes in serum levels of collagen type I C-terminal telopeptide to matrix metalloproteinase ratio (CITP:MMP-1), biomarker of the degree of collagen type cross-linking.",
+          "timeFrame": "Baseline vs 12 months"
+        },
+        {
+          "measure": "Changes in N-terminal pro brain natriuretic peptide (pg/mL)",
+          "description": "We will measure the changes in N-terminal pro brain natriuretic peptide (pg/mL)",
+          "timeFrame": "Baseline vs 12 months"
+        },
+        {
+          "measure": "Changes in high sensitivity troponin T (pg/mL)",
+          "description": "We will measure the changes in high sensitivity troponin T (pg/mL)",
+          "timeFrame": "Baseline vs 12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosis of DM2 based on the established criteria: HbA1c ≥ 6.5% (48 mmol / mol) and fasting plasma glucose ≥ 7.0 mmol / L (≥126 mg / dL) or 2-h after overload ≥ 11.1 mmol / L ( ≥ 200 mg / dL).\n* LVEF ≥ 50%.\n* Diagnosis of ICFEP according to clinical criteria, with a hospital admission in the previous 6 months with demonstration of diastolic dysfunction according to the echocardiographic criteria.\n* Stable clinical situation (\\> 1 month after hospitalization due to IC decompensation).\n* Clinical indication of cardiac catheterization.\n* Signature of informed consent.\n\nExclusion Criteria:\n\n* Previous treatment with iSGLT2.\n* Significant coronary disease.\n* Aortic or mitral valve disease ≥ moderate (grades 3 or 4/4 for valve regurgitations)\n* Contraindications for dapagliflozin treatment according to the data sheet (hereditary galactose intolerance, Lapp lactase insufficiency or glucose-galactose malabsorption, moderate-severe renal failure -CrCl \\<60 ml / min or eGFR \\<60 ml / min / 1 , 73 m2-, severe hepatic insufficiency).\n\nThe inclusion/exclusion criteria for Descriptive Study will be the same as previously described without the diagnosis of DM2.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Javier Bermejo Thomas, MD, PhD",
+          "role": "CONTACT",
+          "phone": "(34) 91 5868279",
+          "email": "javier.bermejo@salud.madrid.org"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Javier Bermejo Thomas, MD, PhD",
+          "affiliation": "Hospital General Universitario Gregorio Marañón",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hospital General Universitario Gregorio Maranon",
+          "status": "RECRUITING",
+          "city": "Madrid",
+          "zip": "280007",
+          "country": "Spain",
+          "contacts": [
+            {
+              "name": "Javier Bermejo Thomas, MD, PhD",
+              "role": "CONTACT",
+              "phone": "(34) 91 5868815",
+              "email": "javier.bermejo@salud.madrid.org"
+            },
+            {
+              "name": "Javier Bermejo Thomas, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Adolfo Villa",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Antonia Delgado Montero",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Elena Rodríguez Gonzalez",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Jaime Elízaga",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Maria del Mar Desco",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Juan Carlos del Álamo",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Jose Carlos Antoranz",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "21329845",
+          "type": "RESULT",
+          "citation": "Kasner M, Westermann D, Lopez B, Gaub R, Escher F, Kuhl U, Schultheiss HP, Tschope C. Diastolic tissue Doppler indexes correlate with the degree of collagen expression and cross-linking in heart failure and normal ejection fraction. J Am Coll Cardiol. 2011 Feb 22;57(8):977-85. doi: 10.1016/j.jacc.2010.10.024."
+        },
+        {
+          "pmid": "26378978",
+          "type": "RESULT",
+          "citation": "Zinman B, Wanner C, Lachin JM, Fitchett D, Bluhmki E, Hantel S, Mattheus M, Devins T, Johansen OE, Woerle HJ, Broedl UC, Inzucchi SE; EMPA-REG OUTCOME Investigators. Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes. N Engl J Med. 2015 Nov 26;373(22):2117-28. doi: 10.1056/NEJMoa1504720. Epub 2015 Sep 17."
+        },
+        {
+          "pmid": "28402411",
+          "type": "RESULT",
+          "citation": "Perez Del Villar C, Savvatis K, Lopez B, Kasner M, Martinez-Legazpi P, Yotti R, Gonzalez A, Diez J, Fernandez-Aviles F, Tschope C, Bermejo J. Impact of acute hypertension transients on diastolic function in patients with heart failure with preserved ejection fraction. Cardiovasc Res. 2017 Jul 1;113(8):906-914. doi: 10.1093/cvr/cvx047."
+        },
+        {
+          "pmid": "23743396",
+          "type": "RESULT",
+          "citation": "Bermejo J, Yotti R, Perez del Villar C, del Alamo JC, Rodriguez-Perez D, Martinez-Legazpi P, Benito Y, Antoranz JC, Desco MM, Gonzalez-Mansilla A, Barrio A, Elizaga J, Fernandez-Aviles F. Diastolic chamber properties of the left ventricle assessed by global fitting of pressure-volume data: improving the gold standard of diastolic function. J Appl Physiol (1985). 2013 Aug 15;115(4):556-68. doi: 10.1152/japplphysiol.00363.2013. Epub 2013 Jun 6."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        },
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C529054",
+          "term": "dapagliflozin"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

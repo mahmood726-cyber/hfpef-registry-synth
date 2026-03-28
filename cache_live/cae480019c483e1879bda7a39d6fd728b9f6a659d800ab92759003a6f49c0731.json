@@ -1,0 +1,692 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06679855",
+      "orgStudyIdInfo": {
+        "id": "NICHD-NRN-0066"
+      },
+      "organization": {
+        "fullName": "NICHD Neonatal Research Network",
+        "class": "NETWORK"
+      },
+      "briefTitle": "Milrinone for Prevention of Post-ligation Cardiac Syndrome Trial",
+      "officialTitle": "Milrinone for Prevention of Post-ligation Cardiac Syndrome Trial",
+      "acronym": "MIDAS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-06",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-06-13",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-06-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-06-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-10-31",
+      "studyFirstSubmitQcDate": "2024-11-05",
+      "studyFirstPostDateStruct": {
+        "date": "2024-11-08",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-06-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-06-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "NICHD Neonatal Research Network",
+        "class": "NETWORK"
+      },
+      "collaborators": [
+        {
+          "name": "National Heart, Lung, and Blood Institute (NHLBI)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this Phase 3, randomized, masked clinical trial is to is to find out whether milrinone, when given to infants after PDA closure, will help the heart work better by supplying oxygen to the lungs and tissues.\n\nThe main questions it aims to answer are:\n\n1. to determine if milrinone decreases the risk of death or PLCS within 7 days of the procedure, compared to standard treatment; and\n2. to determine the effects of milrinone on two-year survival and neurodevelopmental outcome.",
+      "detailedDescription": "Researchers will compare milrinone to a placebo saline solution to see if it helps the heart work better by supplying oxygen to the lungs and tissues.\n\nAfter randomization the following will happen in both the control and treatment groups:\n\n* Infant will start receiving either a low dose (0.33 μg/kg/min) of milrinone in the treatment group, OR saline solution in the control group through an intravenous (IV) line. The study drug will be started within 2 hours of the PDA closure procedure.\n* For the first 2 to 4 hours, the study team will monitor very closely to see if there are any major side effects from the study drug.\n* If the infant continues to have high blood pressure, which places an added stress on the heart, the dose will go up to 0.66 μg/kg/min. One more increase will be allowed to 0.75 μg/kg/min. The study drug will then stay at this dose. No more changes will happen to the dose. If there are side effects, then the study drug will be stopped and will not be started again.\n* The study drug will be stopped after 24 hours if the infant only required the lowest drug and remains well. If the required higher doses of milrinone, it will take longer to wean them off the medication. Some infants may receive milrinone for 3-5 days. If the infant's heart starts to work better by using less oxygen from the breathing machine (ventilator), the study drug may be stopped before 3 days.\n* Information will be collected from the infant's medical record including demographic information, gestational age, blood pressures, heart rates, respiratory rates, information about his or her breathing, medications, details of medical treatment for PDA, medical procedures including echocardiograms (ultrasound of the baby's heart), details of PDA closure (by surgery or transcatheter closure), head ultrasounds, and diagnoses. The investigators will also be collecting information from the maternal medical record including ultrasounds that may be relevant to the infant's course.\n* Right after the study drug is stopped (which could be 5 days or less) the doctor may decide to give the infant the drug milrinone. This is a decision that will be made by the infant's doctor.\n* After the infant goes home from the hospital, they will be scheduled for follow-up exams in the clinic. The follow-up visit will be done when the infant is about 2 years old. The visit will take about two hours to do. During the follow-up visit the investigators will test the infant's movement, behavior, and development. The investigators will also check the infant to make sure they do not have high blood pressure or any evidence of kidney disease."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Post-ligation Cardiac Syndrome"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 316,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "An iv infusion of placebo (0.9% saline) of equivalent volume will be administered. The infusion will be accompanied by an iv bolus of 10 mL/kg of 0.9% NaCl (administered over 60 minutes) to ensure blinding is maintained.",
+          "interventionNames": [
+            "Drug: Placebo infusion"
+          ]
+        },
+        {
+          "label": "Milrinone",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "An intravenous (iv) infusion of milrinone will be administered at an initial dose of 0.33 mcg/kg/min and accompanied by an iv bolus of 10 mL/kg of 0.9% NaCl (administered over 60 minutes).",
+          "interventionNames": [
+            "Drug: Milrinone infusion"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Milrinone infusion",
+          "description": "An intravenous (iv) infusion of milrinone will be administered at an initial dose of 0.33 mcg/kg/min and accompanied by an iv bolus of 10 mL/kg of 0.9% NaCl (administered over 60 minutes).",
+          "armGroupLabels": [
+            "Milrinone"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo infusion",
+          "description": "An iv infusion of placebo (0.9% saline) of equivalent volume will be administered. The infusion will be accompanied by an iv bolus of 10 mL/kg of 0.9% NaCl (administered over 60 minutes) to ensure blinding is maintained.",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Post-ligation cardiac syndrome (PLCS) or death within 7 days of PDA closure",
+          "description": "Composite outcome of post-ligation cardiac syndrome (PLCS) or death within 7 days of PDA closure. Onset within 48 hours but may last up to 7 days.",
+          "timeFrame": "Onset within 48 hours but may last up to 7 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Systemic hypotension",
+          "description": "Either systolic blood pressure below the 3rd percentile for gestational age or mean blood pressure below the postmenstrual age equivalent",
+          "timeFrame": "Onset within 48 hours but may last up to 7 days"
+        },
+        {
+          "measure": "Systemic hypertension",
+          "description": "Systolic blood pressure above the 97th percentile",
+          "timeFrame": "Onset within 48 hours but may last up to 7 days"
+        },
+        {
+          "measure": "Oxygenation failure",
+          "description": "An absolute increase of at least 20% in the fraction of inspired oxygen or mean airway pressure compared with the one-hour post-intervention value that persists for a minimum of 1 hour and occurs within 72 hours of PDA closure",
+          "timeFrame": "Onset within 48 hours but may last up to 7 days"
+        },
+        {
+          "measure": "Ventilation failure",
+          "description": "Need for high frequency oscillatory ventilation when conventional ventilation strategies fail or a 20% rise in amplitude compared with the one-hour post-intervention value that persists for a minimum of 1 hour and occurs within 72 hours of PDA closure",
+          "timeFrame": "Within 72 hours of PDA closure"
+        },
+        {
+          "measure": "Vasopressor score",
+          "description": "Vasopressor score. Minimum score is zero. Higher score is worse, meaning need for higher level of support.\n\nVISmax will be calculated as follows: (VIS=dopamine dose \\[μg kg-1 min-1\\]+dobutamine \\[μg kg-1 min-1\\]+100×epinephrine dose \\[μg kg-1 min-1\\]+50×levosimendan dose \\[μg kg-1 min-1\\]+10×milrinone dose \\[μg kg-1 min-1\\]+10 000×vasopressin \\[units kg-1 min-1\\]+100×norepinephrine dose \\[μg kg-1 min-1\\]) using the maximum dosing rates of vasoactive and inotropic medications (μg kg-1 min-1 or IU kg-1 min-1)",
+          "timeFrame": "Within 7 days of PDA closure"
+        },
+        {
+          "measure": "Use of open-label milrinone or systemic vasodilator after cessation of study drug administration",
+          "description": "Number of participants using open-label milrinone or systemic vasodilator after cessation of study drug administration",
+          "timeFrame": "After study drug cessation and within 7 days of PDA closure"
+        },
+        {
+          "measure": "Time to successful extubation",
+          "description": "Time to successful extubation, which is defined as extubation for at least 7 days",
+          "timeFrame": "36 weeks postmenstrual age"
+        },
+        {
+          "measure": "Post-intervention Moderate-severe bronchopulmonary dysplasia at 36 weeks' gestation",
+          "description": "Need for at least 2 liters of high flow nasal cannula at 36 weeks postmenstrual age",
+          "timeFrame": "36 weeks postmenstrual age"
+        },
+        {
+          "measure": "Post-intervention Chronic Pulmonary hypertension",
+          "description": "presence of septal flattening (or eccentricity index \\> 1.3, right ventricular systolic pressure greater than 40 mmHg, or exclusive right to left atrial level shunt on 36-week echocardiography assessment. The presence of a large atrial septal defect, pulmonary vein stenosis or left ventricular diastolic dysfunction will be recorded.",
+          "timeFrame": "36 weeks postmenstrual age"
+        },
+        {
+          "measure": "Post-intervention Periventricular Leukomalacia (PVL)",
+          "description": "Presence of cystic white matter changes on cranial ultrasound",
+          "timeFrame": "36 weeks postmenstrual age"
+        },
+        {
+          "measure": "Post-intervention Necrotizing Enterocolitis",
+          "description": "At least Bells stage IIb disease",
+          "timeFrame": "36 weeks postmenstrual age"
+        },
+        {
+          "measure": "Post-intervention Retinopathy of Prematurity (ROP) ≥ stage 3 (according to the international classification)",
+          "description": "Post-intervention Retinopathy of Prematurity (ROP) ≥ stage 3 (according to the international classification)",
+          "timeFrame": "36 weeks postmenstrual age"
+        },
+        {
+          "measure": "Weight or head circumference z-score change at 36 weeks",
+          "description": "Weight or head circumference z-score change at 36 weeks (decline by two z-scores will be considered growth failure)",
+          "timeFrame": "36 weeks postmenstrual age"
+        },
+        {
+          "measure": "Death between randomization and discharge from NICU",
+          "description": "Death between randomization and discharge from NICU",
+          "timeFrame": "Randomization to 120 days' postnatal age, death, discharge, or transfer outside of the Study Center, whichever occurs first (an average of 112 days postnatal age)"
+        },
+        {
+          "measure": "Moderate-Severe neurodevelopmental impairment (NDI), using current NRN Follow-Up Study definition",
+          "description": "Moderate-Severe neurodevelopmental impairment (NDI), using current NRN Follow-Up Study definition",
+          "timeFrame": "22 to 26 months"
+        },
+        {
+          "measure": "Moderate-Severe neurodevelopmental impairment (NDI) or death",
+          "description": "Moderate-Severe neurodevelopmental impairment (NDI) or death",
+          "timeFrame": "22 to 26 months"
+        },
+        {
+          "measure": "Moderate or severe cerebral palsy",
+          "description": "Moderate or severe cerebral palsy",
+          "timeFrame": "22 to 26 months"
+        },
+        {
+          "measure": "Severe vision impairment",
+          "description": "Severe vision impairment",
+          "timeFrame": "22 to 26 months"
+        },
+        {
+          "measure": "Severe hearing impairment",
+          "description": "Severe hearing impairment",
+          "timeFrame": "22 to 26 months"
+        },
+        {
+          "measure": "Bayley-4 cognitive, language, motor scores",
+          "description": "Bayley-4 cognitive, language, motor scores",
+          "timeFrame": "22 to 26 months"
+        },
+        {
+          "measure": "Gross Motor Function level ≥II",
+          "description": "Gross Motor Function level ≥II",
+          "timeFrame": "22 to 26 months"
+        },
+        {
+          "measure": "CBCL Internalizing, Externalizing, and Total Problems aggregate T scores of >64 (clinical range) and 60-63 (borderline range).",
+          "description": "CBCL Internalizing, Externalizing, and Total Problems aggregate T scores of \\>64 (clinical range) and 60-63 (borderline range).",
+          "timeFrame": "22 to 26 months"
+        },
+        {
+          "measure": "Death before 22-26-month follow-up",
+          "description": "Death before 22-26-month follow-up",
+          "timeFrame": "22 to 26 months"
+        },
+        {
+          "measure": "Height, weight, or head circumference growth failure",
+          "description": "Height, weight, or head circumference growth failure (decline by \\>2 z-scores since discharge)",
+          "timeFrame": "22 to 26 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Gestational age at birth ≤27 weeks (and 6 days) and postnatal age \\< 3 months at intervention\n* Invasive or non-invasive positive pressure respiratory support (does not include low flow nasal cannula)\n* Hemodynamically significant PDA with minimum transductal diameter ≥1.0 mm within 2 days of intervention\n* Decision by clinical team to proceed with PDA closure via surgical ligation or percutaneous cardiac catheterization based on clinical and echocardiography features of hemodynamic significance.\n\nExclusion Criteria:\n\n* Any major congenital malformation\n* Congenital heart disease (except small (≤1mm) muscular ventricular septal defects, or small/moderate (\\<3mm) atrial septal defect)\n* Acute renal failure defined by urine output \\< 0.5 mL/kg/hour OR rise of serum creatinine by 0.3 mg/dL within 48 hours OR rise of serum creatinine more than 40% above baseline serum creatinine within prior 72 hours.\n* Systemic administration of vasodilator/inodilator agents\n* Prior history of arrhythmia",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "maximumAge": "3 Months",
+      "stdAges": [
+        "CHILD"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Patrick J McNamara",
+          "role": "CONTACT",
+          "phone": "319-467-7435",
+          "email": "patrick-mcnamara@uiowa.edu"
+        },
+        {
+          "name": "Valerie Chock",
+          "role": "CONTACT",
+          "phone": "650-723-5711",
+          "email": "vchock@stanford.edu"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Alabama - Birmingham",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35249",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Waldemar A Carlo",
+              "role": "CONTACT",
+              "phone": "205-934-4680",
+              "email": "wcarlo@peds.uab.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "Children's Hospital of Orange County",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Orange",
+          "state": "California",
+          "zip": "92868",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Amir H Ashrafi",
+              "role": "CONTACT",
+              "phone": "714-509-4373",
+              "email": "Aashrafi@choc.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.78779,
+            "lon": -117.85311
+          }
+        },
+        {
+          "facility": "Stanford University",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Palo Alto",
+          "state": "California",
+          "zip": "94304",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Valerie Chock",
+              "role": "CONTACT",
+              "phone": "650-723-5711",
+              "email": "vchock@stanford.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.44188,
+            "lon": -122.14302
+          }
+        },
+        {
+          "facility": "Sharp Mary Birch Hospital for Women & Newborns",
+          "status": "NOT_YET_RECRUITING",
+          "city": "San Diego",
+          "state": "California",
+          "zip": "92123",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Anup Katheria",
+              "role": "CONTACT",
+              "phone": "858-939-4170",
+              "email": "anup.katheria@sharp.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.71571,
+            "lon": -117.16472
+          }
+        },
+        {
+          "facility": "Emory University",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30322",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Ravi M Patel",
+              "role": "CONTACT",
+              "phone": "404-727-5905",
+              "email": "rmpatel@emory.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Northwestern Lurie Children's Hospital of Chicago",
+          "status": "RECRUITING",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60611",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Aaron Hamvas",
+              "role": "CONTACT",
+              "phone": "312-227-4190",
+              "email": "ahamvas@luriechildrens.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "University of Iowa",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Iowa City",
+          "state": "Iowa",
+          "zip": "52242",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Tarah Colaizy",
+              "role": "CONTACT",
+              "phone": "319-356-3508",
+              "email": "tarah-colaizy@uiowa.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.66113,
+            "lon": -91.53017
+          }
+        },
+        {
+          "facility": "Boston Children's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02115",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Philip Levy",
+              "role": "CONTACT",
+              "phone": "617-919-2358",
+              "email": "Philip.Levy@childrens.harvard.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "University of Mississippi Medical Center",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Jackson",
+          "state": "Mississippi",
+          "zip": "39216",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Abhay Bhatt",
+              "role": "CONTACT",
+              "phone": "601-984-5263",
+              "email": "abhatt@umc.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.29876,
+            "lon": -90.18481
+          }
+        },
+        {
+          "facility": "University of New Mexico",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Albuquerque",
+          "state": "New Mexico",
+          "zip": "87131",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Janell Fuller",
+              "role": "CONTACT",
+              "phone": "505-272-6409",
+              "email": "jafuller@salud.unm.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.08449,
+            "lon": -106.65114
+          }
+        },
+        {
+          "facility": "Duke University",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Durham",
+          "state": "North Carolina",
+          "zip": "27705",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Michael Cotten",
+              "role": "CONTACT",
+              "phone": "919-681-0630",
+              "email": "michael.cotten@duke.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.99403,
+            "lon": -78.89862
+          }
+        },
+        {
+          "facility": "Cincinnati Children's Hospital Medical Center",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45229",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Stephanie Merhar",
+              "role": "CONTACT",
+              "phone": "513-803-5180",
+              "email": "Stephanie.Merhar@cchmc.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "Case Western Reserve University",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Cleveland",
+          "state": "Ohio",
+          "zip": "44106",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Anna Maria Hibbs",
+              "role": "CONTACT",
+              "phone": "216-844-3387",
+              "email": "annamaria.hibbs@cwru.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.4995,
+            "lon": -81.69541
+          }
+        },
+        {
+          "facility": "University of Oklahoma Health Sciences",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Oklahoma City",
+          "state": "Oklahoma",
+          "zip": "73104",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Marjorie Makoni",
+              "role": "CONTACT",
+              "phone": "405-271-5215",
+              "email": "Marjorie-Makoni@ouhsc.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.46756,
+            "lon": -97.51643
+          }
+        },
+        {
+          "facility": "University of Pennsylvania",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19104",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Sara DeMauro",
+              "role": "CONTACT",
+              "phone": "215-590-3730",
+              "email": "demauro@email.chop.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Le Bonheur Children's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Memphis",
+          "state": "Tennessee",
+          "zip": "38103",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Mark Weems",
+              "role": "CONTACT",
+              "phone": "901-448-2262",
+              "email": "mweems@uthsc.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.14953,
+            "lon": -90.04898
+          }
+        },
+        {
+          "facility": "University of Texas Southwestern",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75390",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Myra H Wyckoff",
+              "role": "CONTACT",
+              "phone": "214-590-4003",
+              "email": "myra.wyckoff@utsouthwestern.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "University of Texas at Houston",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Matthew Rysavy",
+              "role": "CONTACT",
+              "phone": "713-500-6643",
+              "email": "matthew.a.rysavy@uth.tmc.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "University of Utah",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Salt Lake City",
+          "state": "Utah",
+          "zip": "84108",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Robin Ohls",
+              "role": "CONTACT",
+              "phone": "801-213-1487",
+              "email": "robin.ohls@hsc.utah.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.76078,
+            "lon": -111.89105
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "40858367",
+          "type": "DERIVED",
+          "citation": "McNamara PJ, Chock VY, Rahde-Bischoff A, Gabrio J, Johnson KJ, Harmon HM, Montoya-Williams D, Colaizy TT, Katheria AC, Ines F, Sorrells K, Battersby C, Levy PT, Rysavy MA, Bhombal S, Laughon MM, Carper B, Hintz SR, Das A, Bell EF. Evaluating the efficacy and safety of milrinone for prevention of post-patent ductus arteriosus closure syndrome (the MIDAS trial) in extremely preterm infants: a multicentre, double-masked, randomised, placebo-controlled trial. BMJ Open. 2025 Aug 26;15(8):e105018. doi: 10.1136/bmjopen-2025-105018."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    }
+  },
+  "hasResults": false
+}

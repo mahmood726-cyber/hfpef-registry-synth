@@ -1,0 +1,396 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03156816",
+      "orgStudyIdInfo": {
+        "id": "69HCL17_0034"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2017-004090-13",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Hospices Civils de Lyon",
+        "class": "OTHER"
+      },
+      "briefTitle": "COlchicine for Left VEntricular Remodeling Treatment in Acute Myocardial Infarction",
+      "officialTitle": "COlchicine for Left VEntricular Remodeling Treatment in Acute Myocardial Infarction, a Phase II, Multicenter, Randomized, Double Blinded, Placebo Controlled Clinical Trial",
+      "acronym": "COVERT-MI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-01",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2018-07-23",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-11-08",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-08-16",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-05-16",
+      "studyFirstSubmitQcDate": "2017-05-16",
+      "studyFirstPostDateStruct": {
+        "date": "2017-05-17",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-07-29",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-08-01",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Hospices Civils de Lyon",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Inflammatory processes have been identified as key mediators of ischemia/ reperfusion injury in ST-segment elevation myocardial infarction. They add additional damage to the myocardium and are associated with clinical adverse events (heart failure and cardiovascular death) and poor myocardial recovery. All the different anti-inflammatory approaches to reduce reperfusion injury have been disappointing.\n\nColchicine is a well-known substance with potent anti-inflammatory properties. In a recent pilot study performed in 151 acute STEMI patients treated with primary percutaneous coronary intervention(PPCI) Deftereos et al. showed a 50% reduction of infarct size (creatine kinase release) with a short course treatment of colchicine in comparison to placebo.\n\nOne mechanism to explain this effect could be the reduction of adverse left ventricular (LV) remodelling. LV remodelling is part of the healing process of myocardium after MI. It is defined as the end diastolic volume (EDV) increase in the first months after MI. Adverse LV remodelling is increased by inflammation and ultimately leads to heart failure.\n\nOur main hypothesis is that colchicine with its anti-inflammatory properties significantly reduces the initiation of adverse LV remodelling, together with a significant reduction of infarct size and microvascular obstruction in comparison to placebo in acute STEMI patients referred for PPCI.\n\nAfter inclusion and randomisation, patients will receive the first part of their experimental treatment: colchicine or placebo before PCI, then, the second part after PCI and during 5 days. They will be followed up during their hospitalization and until one year. In order to evaluate LV remodelling, two cardiac magnetic resonance studies will be performed during their participation: one during their hospitalization and a second at 3 months. At 1 year, adverse events will be collected by phone."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Myocardial Infarction"
+      ],
+      "keywords": [
+        "Myocardial Infarction",
+        "STEMI",
+        "Inflammation",
+        "Left ventricular remodeling",
+        "Colchicine",
+        "CMR"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 194,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Colchicine",
+          "type": "EXPERIMENTAL",
+          "description": "The patients will receive an oral bolus of colchicine of 2 mg followed by 0.5 mg b.i.d. during 5 days.",
+          "interventionNames": [
+            "Drug: Colchicine group (experimental arm)"
+          ]
+        },
+        {
+          "label": "Control arm",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "The patients will receive an oral bolus of placebo of 2 mg followed by 0.5 mg b.i.d. during 5 days.",
+          "interventionNames": [
+            "Drug: Placebo group (control arm)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Colchicine group (experimental arm)",
+          "description": "In the experimental group, patients will receive colchicine, starting with a loading dose of 2 mg at the time of revascularization and continuing with 0.5 mg twice daily (b.i.d) for 5 days.",
+          "armGroupLabels": [
+            "Colchicine"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo group (control arm)",
+          "description": "In the placebo group, patients will receive placebo, starting with a loading dose of 2 mg at the time of revascularization and continuing with 0.5 mg twice daily for 5 days.",
+          "armGroupLabels": [
+            "Control arm"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "infarct size (in % of LV mass) as estimated by CMR",
+          "description": "The primary endpoint will be the infarct size as estimated by CMR at 5 days follow-up between both groups",
+          "timeFrame": "5 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "LV ejection fraction",
+          "timeFrame": "At 5 days"
+        },
+        {
+          "measure": "Microvascular obstruction (in % of LV mass)",
+          "timeFrame": "At 5 days"
+        },
+        {
+          "measure": "Absolute adverse left ventricular remodeling (mL)",
+          "timeFrame": "at 3 months"
+        },
+        {
+          "measure": "Relative ventricular remodeling (%)",
+          "timeFrame": "at 3 months"
+        },
+        {
+          "measure": "Infarct size in % of LV mass",
+          "description": "Infarct size in % of LV mass assessed by ce-CMR",
+          "timeFrame": "At 3 months"
+        },
+        {
+          "measure": "LVEDV",
+          "description": "LVEDV (indexed to body surface area) as determined by CMR at the acute phase and 3 months follow-up respectively",
+          "timeFrame": "At 3 months"
+        },
+        {
+          "measure": "LVESV",
+          "description": "LVEDV (indexed to body surface area) as determined by CMR at the acute phase and 3 months follow-up respectively",
+          "timeFrame": "at 3 months"
+        },
+        {
+          "measure": "Relative LV ejection fraction",
+          "timeFrame": "5 days"
+        },
+        {
+          "measure": "Percent of thrombi in the LV",
+          "timeFrame": "At 5 days"
+        },
+        {
+          "measure": "Incidence of major adverse cardiovascular events",
+          "description": "All cause death, cardiovascular death, heart failure worsening during initial hospitalization, hospitalization for heart failure, non-fatal myocardial infarction, life-threatening ventricular arrhythmias and atrial fibrillation.",
+          "timeFrame": "at 3 months"
+        },
+        {
+          "measure": "Incidence of major adverse cardiovascular events",
+          "description": "All cause death, cardiovascular death, heart failure worsening during initial hospitalization, hospitalization for heart failure, non-fatal myocardial infarction, life-threatening ventricular arrhythmias and atrial fibrillation.",
+          "timeFrame": "At 12 months"
+        },
+        {
+          "measure": "Quality of life assessed by the EuroQol-5D (EQ5D) questionnaire",
+          "description": "Evaluation of quality of life by the EQ5D questionnaire ( scale on which the best state is marked 100 and the worst state is marked 0).",
+          "timeFrame": "At 12 months"
+        },
+        {
+          "measure": "Dosage of inflammation biomarkers",
+          "description": "Dosage of inflammation biomarkers\n\n* For all centers: neutrophil count, C-reactive protein, hematology, Platelets, fibrinogen.\n* For the centers participating to the BioCollection: interleukin 6, interleukin 8, interleukin 1β and interleukin 18, complement system components.",
+          "timeFrame": "up to 3 months"
+        },
+        {
+          "measure": "number of treatment discontinuation",
+          "timeFrame": "5 days"
+        },
+        {
+          "measure": "number of adverse events",
+          "description": "(diarrhea, nausea/vomiting and myelotoxicity, renal function at 48H).",
+          "timeFrame": "up to 5 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* All patients, aged over 18 and \\<80 years,\n* Presenting within 12 hours of chest pain onset,\n* With ST segment elevation ≥ 0.2 mV in two contiguous leads or new onset of left bundle branch block,\n* Referral for primary percutaneous coronary intervention (PPCI).\n* Preliminary oral informed consent followed by signed informed consent as soon as possible\n* With an initially occluded coronary artery (TIMI angiographic flow of the culprit coronary artery ≤1)\n\nExclusion Criteria:\n\n* Patients with any legal protection measure,\n* Patients without any health coverage,\n* Patients with loss of consciousness or confused\n* Patients with a history of prior myocardial infarction\n* Patients with cardiogenic shock as defined by a systolic blood pressure \\<90 mmHg, despite 30 minutes of fluid challenge or requiring intravenous vasoactive agents (dobutamine, noradrenaline, adrenaline)\n* Patient with severe liver or known renal dysfunction (known GFR≤30 ml/min)\n* Patient with known history of severe drug intolerance to colchicine\n* Female patients currently pregnant or women of childbearing age not using contraception (oral diagnosis)\n* Patients with any obvious contraindication to magnetic resonance imaging (claustrophobia, pace maker, defibrillator….)\n* Patients treated by macrolides or pristinamycin\n* Chronic treatment with COLCHICINE (Mediterranean familial fever mainly)\n* Patient with lactose intolerance\n* Patient with swallowing disorders",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Nathan MEWTON, PhD",
+          "affiliation": "Hospices Civils de Lyon, Hôpital Louis Pradel, Service de cardiologie, 69677, Bron.",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Centre Hospitalier Universitaire Angers",
+          "city": "Angers",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.47156,
+            "lon": -0.55202
+          }
+        },
+        {
+          "facility": "Hôpital Louis Pradel",
+          "city": "Bron",
+          "zip": "69677",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.73865,
+            "lon": 4.91303
+          }
+        },
+        {
+          "facility": "Hôpital Saint Joseph",
+          "city": "Lyon",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.74906,
+            "lon": 4.84789
+          }
+        },
+        {
+          "facility": "CHU Arnaud de Villeneuve",
+          "city": "Montpellier",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.61093,
+            "lon": 3.87635
+          }
+        },
+        {
+          "facility": "CHU de Mulhouse",
+          "city": "Mulhouse",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.75205,
+            "lon": 7.32866
+          }
+        },
+        {
+          "facility": "CHU de Poitiers",
+          "city": "Poitiers",
+          "country": "France",
+          "geoPoint": {
+            "lat": 46.58261,
+            "lon": 0.34348
+          }
+        },
+        {
+          "facility": "CHU de Rangueil",
+          "city": "Toulouse",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.60426,
+            "lon": 1.44367
+          }
+        },
+        {
+          "facility": "CHRU de Tours",
+          "city": "Tours",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.39484,
+            "lon": 0.70398
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "34420373",
+          "type": "RESULT",
+          "citation": "Mewton N, Roubille F, Bresson D, Prieur C, Bouleti C, Bochaton T, Ivanes F, Dubreuil O, Biere L, Hayek A, Derimay F, Akodad M, Alos B, Haider L, El Jonhy N, Daw R, De Bourguignon C, Dhelens C, Finet G, Bonnefoy-Cudraz E, Bidaux G, Boutitie F, Maucort-Boulch D, Croisille P, Rioufol G, Prunier F, Angoulvant D. Effect of Colchicine on Myocardial Injury in Acute Myocardial Infarction. Circulation. 2021 Sep 14;144(11):859-869. doi: 10.1161/CIRCULATIONAHA.121.056177. Epub 2021 Aug 23."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        },
+        {
+          "id": "D007249",
+          "term": "Inflammation"
+        },
+        {
+          "id": "D020257",
+          "term": "Ventricular Remodeling"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D020763",
+          "term": "Pathological Conditions, Anatomical"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

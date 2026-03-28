@@ -1,0 +1,343 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06727656",
+      "orgStudyIdInfo": {
+        "id": "Hypoxia"
+      },
+      "organization": {
+        "fullName": "University of Trás-os-Montes and Alto Douro",
+        "class": "OTHER"
+      },
+      "briefTitle": "Exercise in Hypoxia and Nitrate Supplementation in Athletes: is the Whole Greater Than the Sum of Its Parts?",
+      "officialTitle": "Exercise in Hypoxia and Nitrate Supplementation in Athletes: is the Whole Greater Than the Sum of Its Parts?"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-12",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-02-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-07-22",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-07-22",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-07-24",
+      "studyFirstSubmitQcDate": "2024-12-04",
+      "studyFirstPostDateStruct": {
+        "date": "2024-12-11",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-12-04",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-12-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Ana Sousa",
+        "investigatorTitle": "PhD",
+        "investigatorAffiliation": "Advanced Bionics"
+      },
+      "leadSponsor": {
+        "name": "University of Trás-os-Montes and Alto Douro",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Determine the combined effect of training in hypoxia and nitrate supplementation on the performance and health of athletes at sea-level and altitude conditions.",
+      "detailedDescription": "Determine the combined effect of training in hypoxia and nitrate supplementation on the performance and health of athletes at sea-level and altitude conditions. It is hypothesized that the combined effect of these interventions will promote an additional performance and health improvement in this population at sea-level and altitude conditions, compared with the single effect."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hypoxia"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 30,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "HNO: High intensity interval training (HIIT) + nitrate supllementation (NO3-).",
+          "type": "EXPERIMENTAL",
+          "description": "Performed 12 high-intensity interval-training (HIIT) sessions during a 4-week period (3 sessions/ week) under normobaric hypoxia conditions (FiO2=\\~13%, \\~3000 m) with NO3- supplement.",
+          "interventionNames": [
+            "Combination Product: Nitrate + Hypoxia"
+          ]
+        },
+        {
+          "label": "HPL: High intensity interval training (HIIT) + placebo supllementation.",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Performed 12 high-intensity interval-training (HIIT) sessions during a 4-week period (3 sessions/ week) under normobaric hypoxia conditions (FiO2=\\~13%, \\~3000 m) with placebo supplement.",
+          "interventionNames": [
+            "Dietary Supplement: Placebo + Hypoxia"
+          ]
+        },
+        {
+          "label": "CON: High intensity interval training (HIIT) + placebo supllementation.",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Performed 12 high-intensity interval-training (HIIT) sessions during a 4-week period (3 sessions/ week) under normoxic conditions (FiO2=\\~20.9%) with placebo supplement.",
+          "interventionNames": [
+            "Other: Control"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "COMBINATION_PRODUCT",
+          "name": "Nitrate + Hypoxia",
+          "description": "The combined effect of nitrate supplementation and hypoxia training on both performance and health at sea-level and altitude conditions.",
+          "armGroupLabels": [
+            "HNO: High intensity interval training (HIIT) + nitrate supllementation (NO3-)."
+          ],
+          "otherNames": [
+            "Beetroot Juice + Atitude training"
+          ]
+        },
+        {
+          "type": "DIETARY_SUPPLEMENT",
+          "name": "Placebo + Hypoxia",
+          "description": "The combined effect of placebo supplementation and hypoxia training on both performance and health at sea-level and altitude conditions.",
+          "armGroupLabels": [
+            "HPL: High intensity interval training (HIIT) + placebo supllementation."
+          ],
+          "otherNames": [
+            "Placebo Juice + Atitude training"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Control",
+          "description": "The combined effect of placebo supplementation and normoxia training on both performance and health at sea-level and altitude conditions.",
+          "armGroupLabels": [
+            "CON: High intensity interval training (HIIT) + placebo supllementation."
+          ],
+          "otherNames": [
+            "Placebo Juice + Normoxia training"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Performance adaptations",
+          "description": "Time-to-task failure (time sustained)",
+          "timeFrame": "Moment #1 (48hours pre-intervention) and moment #2 (48hours post-intervention)"
+        },
+        {
+          "measure": "Performance adaptations",
+          "description": "Time trials (time performed)",
+          "timeFrame": "Moment #1 (48hours pre-intervention) and moment #2 (48hours post-intervention)"
+        },
+        {
+          "measure": "Performance adaptations",
+          "description": "VO2 kinetics (time constant and amplitude of fast and slow oxygen components)",
+          "timeFrame": "Moment #1 (48hours pre-intervention) and moment #2 (48hours post-intervention)"
+        },
+        {
+          "measure": "Cardiovascular and neuromuscular adaptations",
+          "description": "Maximal oxygen uptake (VO2max: absolute and relative value)",
+          "timeFrame": "Moment #1 (48hours pre-intervention) and moment #2 (48hours post-intervention)"
+        },
+        {
+          "measure": "Cardiovascular and neuromuscular adaptations",
+          "description": "Lactate threshold (absolute and percentage of VO2max)",
+          "timeFrame": "Moment #1 (48hours pre-intervention) and moment #2 (48hours post-intervention)"
+        },
+        {
+          "measure": "Cardiovascular and neuromuscular adaptations",
+          "description": "Muscular oxygen saturation (SmO2)",
+          "timeFrame": "Moment #1 (48hours pre-intervention) and moment #2 (48hours post-intervention)"
+        },
+        {
+          "measure": "Skeletal muscle adaptations",
+          "description": "Oxidative enzyme activity (cytochrome oxidase subunit IV), citrate synthase, transcription factors (HIF-1alpha and PGC-1alpha) and GLUT4 - assessed through standard enzymatic fluorometric assay and western bllotting",
+          "timeFrame": "Moment #1 (48hours pre-intervention) and moment #2 (48hours post-intervention)"
+        },
+        {
+          "measure": "Skeletal muscle adaptations",
+          "description": "Mitochondrial and capillary density, capillary-to-fibre ratio and fibre cross-section area - cryosections cut with a cryostat and further samples analysed by fluorescence microscopy",
+          "timeFrame": "Moment #1 (48hours pre-intervention) and moment #2 (48hours post-intervention)"
+        },
+        {
+          "measure": "Haematological adaptations",
+          "description": "Blood pressure (Hmmg), mean arterial pressure (calculated as 1/3 \\* systolic pressure + 2/3 \\* diastolic pressure)",
+          "timeFrame": "Moment #1 (48hours pre-intervention) and moment #2 (48hours post-intervention)"
+        },
+        {
+          "measure": "Haematological adaptations",
+          "description": "Plasma \\[NO2-\\] and \\[NO3-\\], erythropoietin (EPO), haemoglobin (Hb) and haematocrit (Hct) - all assays on plasma sample analysed by spectrophometry",
+          "timeFrame": "Moment #1 (48hours pre-intervention) and moment #2 (48hours post-intervention)"
+        },
+        {
+          "measure": "Oxidative stress and antioxidant markers adaptations",
+          "description": "Nitrotyrosine, malondialdehyde, ferric-reducing antioxidant power and superoxide dismutase concentrations - all assays on plasma sample analysed by spectrophometry",
+          "timeFrame": "Moment #1 (48hours pre-intervention) and moment #2 (48hours post-intervention)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Sleep and cardiac autonomic activity adaptations",
+          "description": "Sleep duration (minutes)",
+          "timeFrame": "Moment #1 (2 weeks pre-intervention - baseline) and moment #2 (4 weeks intervention)"
+        },
+        {
+          "measure": "Sleep and cardiac autonomic activity adaptations",
+          "description": "Sleep efficiency (%)",
+          "timeFrame": "Moment #1 (2 weeks pre-intervention - baseline) and moment #2 (4 weeks intervention)"
+        },
+        {
+          "measure": "Sleep and cardiac autonomic activity adaptations",
+          "description": "Wake up time (hours: minutes)",
+          "timeFrame": "Moment #1 (2 weeks pre-intervention - baseline) and moment #2 (4 weeks intervention)"
+        },
+        {
+          "measure": "Sleep and cardiac autonomic activity adaptations",
+          "description": "Resting heart rate (bpm)",
+          "timeFrame": "Moment #1 (2 weeks pre-intervention - baseline) and moment #2 (4 weeks intervention)"
+        },
+        {
+          "measure": "Sleep and cardiac autonomic activity adaptations",
+          "description": "Heart rate variability (lnRMSSD)",
+          "timeFrame": "Moment #1 (2 weeks pre-intervention - baseline) and moment #2 (4 weeks intervention)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* trained male subjects, regularly involved in competitive running, cycling and/ or triathlon events (4-5 times per week) in the past five years\n\nExclusion Criteria:\n\n* smoking or other chronic issues\n* using medication or dietary supplements in the last 3 months, or during the duration of the study\n* being exposed to altitude (≥2000 m) in the last 3 months",
+      "healthyVolunteers": true,
+      "sex": "MALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "45 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Ana Sousa, PhD",
+          "affiliation": "University of Maia",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Trás-os-Montes e Alto-Douro",
+          "city": "Vila Real",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 41.3001,
+            "lon": -7.7432
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "Study overview, participation criteria, study plan, contacts"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000860",
+          "term": "Hypoxia"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012818",
+          "term": "Signs and Symptoms, Respiratory"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009566",
+          "term": "Nitrates"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000838",
+          "term": "Anions"
+        },
+        {
+          "id": "D007477",
+          "term": "Ions"
+        },
+        {
+          "id": "D004573",
+          "term": "Electrolytes"
+        },
+        {
+          "id": "D007287",
+          "term": "Inorganic Chemicals"
+        },
+        {
+          "id": "D017942",
+          "term": "Nitric Acid"
+        },
+        {
+          "id": "D017672",
+          "term": "Nitrogen Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,448 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03183323",
+      "orgStudyIdInfo": {
+        "id": "LH2017_HOPE4HF"
+      },
+      "organization": {
+        "fullName": "Helse Nord-Trøndelag HF",
+        "class": "OTHER"
+      },
+      "briefTitle": "Implementation of Telerehabilitation In Support of HOme-based Physical Exercise for Heart Failure",
+      "officialTitle": "Implementation of Telerehabilitation In Support of HOme-based Physical Exercise for Heart Failure",
+      "acronym": "ITISHOPE4HF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-06-08",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-02-28",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-02-28",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-05-30",
+      "studyFirstSubmitQcDate": "2017-06-08",
+      "studyFirstPostDateStruct": {
+        "date": "2017-06-12",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-04-07",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-04-14",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Helse Nord-Trøndelag HF",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Norwegian University of Science and Technology",
+          "class": "OTHER"
+        },
+        {
+          "name": "St. Olavs Hospital",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "ITISHOPE4HF is a randomized controlled trial of telerehabilitation in a heart failure population. The goal is to evaluate if a home-based telerehabilitation project can increase physical activity in heart failure patients. Patients will be provided telerehabilitation or advice on physical activity (standard care).",
+      "detailedDescription": "Outpatient cardiac rehabilitation programs are well documented as an important part of treatment and care for heart failure patients. Training with instruction gives the participant a commitment to participate. The result is increased activity compared to controls.\n\nThis trial will include participants from the about 75 % of heart failure patients who for some reason do not participate in regular outpatient rehabilitation. Distance to rehabilitation centers and the psychological burden of a group setting are believed to be important reasons for not participating. Telerehabilitation can hopefully overcome these hurdles for many patients, and thereby provide instructed training for these patients.\n\nThe trial will also include patients with renal disease. Heart disease is the main cause of death in patients with renal disease, even at younger ages. Because of the complexity of both optimal medical treatment and fluid balance, these patients are often not included in clinical trials. The cardiorenal crosstalk will be explored, how in influence the heart failure phenotypes and the response to exercise."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure, Systolic",
+        "Heart Failure, Diastolic",
+        "Chronic Kidney Diseases",
+        "Cardiorenal Syndrome"
+      ],
+      "keywords": [
+        "hfpef",
+        "hfref",
+        "cardiorenal syndrome",
+        "exercise",
+        "telerehabilitation",
+        "rehabilitation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "RCT, 1:1 into telerehabilitation or standard care. Patients will be stratified by EF \\>/\\< 40 %, age \\>/\\< 60 years and by sex.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Group assignment is not masked at performance tests. Group assignment is masked to the echo/MRI technician, and for investigators interpreting the recordings.\n\nMasking is not relevant for laboratory analysis.",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 61,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Telerehabilitation",
+          "type": "EXPERIMENTAL",
+          "description": "In addition to optimal medical treatment: 3 months of twice weekly group-based telerehabilitation through a video-conferencing on a tablet platform. In addition access to instruction videos for further self-training through the same platform and throughout the whole 2-year period. Electronic devices to trace activity.",
+          "interventionNames": [
+            "Behavioral: Telerehabilitation"
+          ]
+        },
+        {
+          "label": "Standard care",
+          "type": "NO_INTERVENTION",
+          "description": "In addition to optimal medical treatment: Advice on physical activity. Electronic devices to trace activity."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Telerehabilitation",
+          "description": "Activity trackers. Mio Slice is worn through the whole study. Actigraph is worn for one week, at 4 different timepoints through the study.",
+          "armGroupLabels": [
+            "Telerehabilitation"
+          ],
+          "otherNames": [
+            "Mio Slice",
+            "Actigraph"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Improvement in long-term physical activity.",
+          "description": "Change in physical activity between intervention and control group measured throughout the study with Actigraph activity trackers from baseline to 2 years.",
+          "timeFrame": "2 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Changes in cardiac structure and function.",
+          "description": "Echocardiographic indices - improvements from exercise.",
+          "timeFrame": "2 years."
+        },
+        {
+          "measure": "Change in physical fitness.",
+          "description": "The change in physical fitness at from baseline to 2 years follow-up.",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "Effects on renal function.",
+          "description": "Changes in renal function (GFR/proteinuria) by exercise.",
+          "timeFrame": "2 years."
+        },
+        {
+          "measure": "Long-term effects on cardiovascular risk factors.",
+          "description": "Blood measurements of Cardiac risk factors.",
+          "timeFrame": "2 years."
+        },
+        {
+          "measure": "Effects on endothelial function.",
+          "description": "Changes in peripheral arteries measured by vascular ultrasound from baseline to two years follow-up..",
+          "timeFrame": "2 years."
+        },
+        {
+          "measure": "Change in long-term quality of life.",
+          "description": "Measured via validated questionnaires at different point during follow-up.",
+          "timeFrame": "2 years."
+        },
+        {
+          "measure": "Mid-term morbidity",
+          "description": "Evaluate morbidity as hospitalization of cardiovascular causes",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "Mid-term mortality",
+          "description": "Mortality during follow-up",
+          "timeFrame": "2 years"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Differences in heart failure presentation associated with co-morbid chronic kidney disease.",
+          "description": "Evaluated by cardiac imaging.",
+          "timeFrame": "Baseline."
+        },
+        {
+          "measure": "The association of cardiac fibrosis with cardiorenal syndrome",
+          "description": "Evaluated by echo cardiography and/or cardiac MRI including T1 mapping.",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Feasibility of telerehabilitation",
+          "description": "Assessment of the proportion of completed telerehabilitation programs",
+          "timeFrame": "6 months."
+        },
+        {
+          "measure": "Validation of the Mio Slice as a scientific activity tracker.",
+          "description": "Comparison of data from the Mio Slice with reference to validate it as a scientific tool for monitoring heart failure patients",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Urine metabolomics Associated With heart failure phenotypes.",
+          "description": "Comparing traits in urine metabolomics between participants with and without chronic kidney disease. Comparing with earlier studies of patients with chronic kidney disease and healthy controls.",
+          "timeFrame": "Baseline."
+        },
+        {
+          "measure": "Long-term changes in urine metabolomics after intervention.",
+          "description": "Looking for changes in metabolomics expression caused by exercise.",
+          "timeFrame": "2 years."
+        },
+        {
+          "measure": "Cost-effectiveness of telerehabilitation",
+          "description": "Vs. outpatient rehabilitation",
+          "timeFrame": "1 years."
+        },
+        {
+          "measure": "Change in physical fitness",
+          "description": "Evaluate short-term effect of telerehabilitation on measurements of physical fitness",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "The influence of cardiorenal characteristics on training effect",
+          "description": "Evaluate if cardiorenal characteristics influence on change in peak oxygen consumption of training",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Do renal function modulate the training effect on cardiac remodeling",
+          "description": "Evaluate if renal function modulate the training effect on changes in cardiac characteristics",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Change in short-term quality of life.",
+          "description": "Patient reported outcomes after training intervention",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Heart failure (HFpEF or HFrEF) according to European guidelines.\n* Moderate or severe signs and symptoms of heart failure (NYHA II-III) in the 6 months prior to enrolment.\n* N-terminal pro brain natriuretic peptide (NT-proBNP) \\> 300 pmol/L.\n* Stable (\\> 4 weeks) medical therapy for risk factor control.\n* Capability to provide signed, informed, written consent.\n\nExclusion Criteria:\n\n* Attendance at a rehabilitation program in the 6 months prior to enrolment.\n* Non-heart failure causes of heart failure symptoms (significant valvular disease, coronary disease available for revascularization, uncontrolled hypertension, arrhythmia).\n* severe or very severe pulmonary disease (eg. COPD GOLD III-IV).\n* presence of conditions which might prevent patients from safely exercising at home.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Havard Dalen, MD, PhD",
+          "affiliation": "Norwegian University of Science and Tehnology",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "St. Olav University Hospital",
+          "city": "Trondheim",
+          "zip": "7491",
+          "country": "Norway",
+          "geoPoint": {
+            "lat": 63.43049,
+            "lon": 10.39506
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "39501477",
+          "type": "DERIVED",
+          "citation": "Lundgren KM, Langlo KAR, Salvesen O, Aspvik NP, Mo R, Ellingsen O, Vesterbekkmo E, Zanaboni P, Dalen H, Aksetoy IA. Exercise-Based Telerehabilitation for Heart Failure Patients Declining Outpatient Rehabilitation-A Randomized Controlled Trial. Med Sci Sports Exerc. 2025 Mar 1;57(3):449-460. doi: 10.1249/MSS.0000000000003590. Epub 2024 Nov 6."
+        },
+        {
+          "pmid": "37221704",
+          "type": "DERIVED",
+          "citation": "Lundgren KM, Langlo KAR, Salvesen O, Zanaboni P, Cittanti E, Mo R, Ellingsen O, Dalen H, Aksetoy IA. Feasibility of telerehabilitation for heart failure patients inaccessible for outpatient rehabilitation. ESC Heart Fail. 2023 Aug;10(4):2406-2417. doi: 10.1002/ehf2.14405. Epub 2023 May 23."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED",
+      "description": "Will follow the regulations and policy decided by the Norwegian University of Science and Technology"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054143",
+          "term": "Heart Failure, Systolic"
+        },
+        {
+          "id": "D054144",
+          "term": "Heart Failure, Diastolic"
+        },
+        {
+          "id": "D051436",
+          "term": "Renal Insufficiency, Chronic"
+        },
+        {
+          "id": "D059347",
+          "term": "Cardio-Renal Syndrome"
+        },
+        {
+          "id": "D009043",
+          "term": "Motor Activity"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D051437",
+          "term": "Renal Insufficiency"
+        },
+        {
+          "id": "D007674",
+          "term": "Kidney Diseases"
+        },
+        {
+          "id": "D014570",
+          "term": "Urologic Diseases"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D052801",
+          "term": "Male Urogenital Diseases"
+        },
+        {
+          "id": "D002908",
+          "term": "Chronic Disease"
+        },
+        {
+          "id": "D020969",
+          "term": "Disease Attributes"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000069350",
+          "term": "Telerehabilitation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012046",
+          "term": "Rehabilitation"
+        },
+        {
+          "id": "D000359",
+          "term": "Aftercare"
+        },
+        {
+          "id": "D003266",
+          "term": "Continuity of Patient Care"
+        },
+        {
+          "id": "D005791",
+          "term": "Patient Care"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D006296",
+          "term": "Health Services"
+        },
+        {
+          "id": "D005159",
+          "term": "Health Care Facilities Workforce and Services"
+        },
+        {
+          "id": "D017216",
+          "term": "Telemedicine"
+        },
+        {
+          "id": "D003695",
+          "term": "Delivery of Health Care"
+        },
+        {
+          "id": "D010346",
+          "term": "Patient Care Management"
+        },
+        {
+          "id": "D006298",
+          "term": "Health Services Administration"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

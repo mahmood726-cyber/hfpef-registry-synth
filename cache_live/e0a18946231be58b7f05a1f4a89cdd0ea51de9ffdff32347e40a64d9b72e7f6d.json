@@ -1,0 +1,670 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04542785",
+      "orgStudyIdInfo": {
+        "id": "REG-078-2019"
+      },
+      "organization": {
+        "fullName": "Holbaek Sygehus",
+        "class": "OTHER"
+      },
+      "briefTitle": "Lenient Rate Control Versus Strict Rate Control for Atrial Fibrillation. The Danish Atrial Fibrillation Randomised Clinical Trial",
+      "officialTitle": "Lenient Rate Control Versus Strict Rate Control for Atrial Fibrillation. The Danish Atrial Fibrillation (DanAF) Randomised Clinical Trial",
+      "acronym": "DanAF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-03",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-03-31",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-03-02",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-03-02",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2020-08-26",
+      "studyFirstSubmitQcDate": "2020-09-02",
+      "studyFirstPostDateStruct": {
+        "date": "2020-09-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-03-15",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-03-16",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Joshua Rose-Hansen Feinberg",
+        "investigatorTitle": "MD",
+        "investigatorAffiliation": "Holbaek Sygehus"
+      },
+      "leadSponsor": {
+        "name": "Holbaek Sygehus",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Odense University Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Hvidovre University Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Zealand University Hospital",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Atrial fibrillation is the most common heart arrhythmia with a prevalence of approximately 2% in the western world. Atrial fibrillation is associated with an increased risk of death and morbidity. The comparable effects of a lenient rate control strategy and a strict rate control strategy in patients with atrial fibrillation are uncertain and only one trial has assessed this previously in patients with permanent atrial fibrillation.\n\nThe investigators will therefore undertake a randomised, superiority trial at four hospitals in Denmark."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Atrial Fibrillation, Persistent",
+        "Atrial Fibrillation Chronic",
+        "Atrial Fibrillation"
+      ],
+      "keywords": [
+        "Rate control"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "Outcome assessors will be blinded. Participants will not be informed of the heart rate target or actual heart rate. Treatment providers managing the heart rate target will not be blinded as the intervention requires information of the heart rate. Other treatment providers will not be informed of the heart rate target.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 350,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Lenient rate control",
+          "type": "EXPERIMENTAL",
+          "description": "Treating physicians will target a resting heart rate between 80 and 110 beats per minute on a 12-lead resting ECG measured over 1 minute after 5 minutes of rest.",
+          "interventionNames": [
+            "Other: Rate control"
+          ]
+        },
+        {
+          "label": "Strict rate control",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Treating physicians will target a resting heart rate a mean resting heart rate \\< 80 bpm on a 12-lead resting ECG measured over 1 minute after 5 minutes of rest.",
+          "interventionNames": [
+            "Other: Rate control"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Rate control",
+          "description": "Treatment will be provided according to current guidelines and as such the algorithm for treatment will be differentiated based on the status of left ventricular ejection fraction. For participants with reduced left ventricular ejection fraction, beta-blockers (metoprolol and bisoprolol) will be the primary therapy. Secondary therapies may include digoxin or amiodarone. For participants with preserved left ventricular ejection fraction, the primary therapy will be beta-blockers (metoprolol and bisoprolol) or non-dihydropyridine calcium-channel blockers (verapamil) with secondary therapy consisting of digoxin or amiodarone. Pacing therapies, alone or with atrioventricular node ablation, are utilised as indicated in the view of the treating physician.",
+          "armGroupLabels": [
+            "Lenient rate control",
+            "Strict rate control"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Short Form-36 (SF-36) physical component score",
+          "timeFrame": "After 1 year"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Days alive outside hospital",
+          "timeFrame": "After 6 months"
+        },
+        {
+          "measure": "Atrial Fibrillation Effect on Quality of Life (AFEQT)",
+          "timeFrame": "After 1 year"
+        },
+        {
+          "measure": "Short Form-36 (SF-36) mental component score",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Serious adverse events",
+          "timeFrame": "1 year"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "All-cause mortality",
+          "description": "Mortality regardless of cause.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "All-cause mortality",
+          "description": "Mortality regardless of cause.",
+          "timeFrame": "2 year"
+        },
+        {
+          "measure": "All-cause mortality",
+          "description": "Mortality regardless of cause.",
+          "timeFrame": "After 3 years"
+        },
+        {
+          "measure": "Composite of all-cause mortality, stroke, myocardial infarction and cardiac arrest.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Composite of all-cause mortality, stroke, myocardial infarction and cardiac arrest.",
+          "timeFrame": "2 year"
+        },
+        {
+          "measure": "Composite of all-cause mortality, stroke, myocardial infarction and cardiac arrest.",
+          "timeFrame": "After 3 years"
+        },
+        {
+          "measure": "Cardiac mortality",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Cardiac mortality",
+          "timeFrame": "2 year"
+        },
+        {
+          "measure": "Cardiac mortality",
+          "timeFrame": "After 3 years"
+        },
+        {
+          "measure": "Stroke",
+          "description": "ICD-10 codes I60-I63.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Stroke",
+          "description": "ICD-10 codes I60-I63.",
+          "timeFrame": "2 year"
+        },
+        {
+          "measure": "Stroke",
+          "description": "ICD-10 codes I60-I63.",
+          "timeFrame": "After 3 years"
+        },
+        {
+          "measure": "Hospitalisation for worsening of heart failure",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Hospitalisation for worsening of heart failure",
+          "timeFrame": "2 year"
+        },
+        {
+          "measure": "Hospitalisation for worsening of heart failure",
+          "timeFrame": "After 3 years"
+        },
+        {
+          "measure": "Number of hospital admissions",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Number of hospital admissions",
+          "timeFrame": "2 year"
+        },
+        {
+          "measure": "Number of hospital admissions",
+          "timeFrame": "After 3 years"
+        },
+        {
+          "measure": "Six-minute walking distance",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Six-minute walking distance",
+          "timeFrame": "2 year"
+        },
+        {
+          "measure": "Six-minute walking distance",
+          "timeFrame": "After 3 years"
+        },
+        {
+          "measure": "Physical activity measured using a trial accelerometer or similar",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Physical activity measured using a trial accelerometer or similar",
+          "timeFrame": "2 year"
+        },
+        {
+          "measure": "Physical activity measured using a trial accelerometer or similar",
+          "timeFrame": "After 3 years"
+        },
+        {
+          "measure": "Presence of sleep apnoea",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Presence of sleep apnoea",
+          "timeFrame": "2 year"
+        },
+        {
+          "measure": "Presence of sleep apnoea",
+          "timeFrame": "After 3 years"
+        },
+        {
+          "measure": "Heart rate",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Heart rate",
+          "timeFrame": "2 year"
+        },
+        {
+          "measure": "Heart rate",
+          "timeFrame": "After 3 years"
+        },
+        {
+          "measure": "Healthcare costs",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Healthcare costs",
+          "timeFrame": "2 year"
+        },
+        {
+          "measure": "Healthcare costs",
+          "timeFrame": "After 3 years"
+        },
+        {
+          "measure": "Various biomarkers",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Various biomarkers",
+          "timeFrame": "2 year"
+        },
+        {
+          "measure": "Various biomarkers",
+          "timeFrame": "After 3 years"
+        },
+        {
+          "measure": "Switch to rhythm control strategy",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Switch to rhythm control strategy",
+          "timeFrame": "2 year"
+        },
+        {
+          "measure": "Switch to rhythm control strategy",
+          "timeFrame": "After 3 years"
+        },
+        {
+          "measure": "Implantation of a pacemaker or cardioverter-defibrillator",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Implantation of a pacemaker or cardioverter-defibrillator",
+          "timeFrame": "2 year"
+        },
+        {
+          "measure": "Implantation of a pacemaker or cardioverter-defibrillator",
+          "timeFrame": "After 3 years"
+        },
+        {
+          "measure": "The questionnaire WorkQ",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "The questionnaire WorkQ",
+          "timeFrame": "2 year"
+        },
+        {
+          "measure": "The questionnaire WorkQ",
+          "timeFrame": "After 3 years"
+        },
+        {
+          "measure": "Echocardiography - Left ventricle dimensions",
+          "timeFrame": "After 1 year"
+        },
+        {
+          "measure": "Echocardiography - Left ventricle dimensions",
+          "timeFrame": "After 2 years"
+        },
+        {
+          "measure": "Echocardiography - Left ventricle dimensions",
+          "timeFrame": "After 3 years"
+        },
+        {
+          "measure": "Echocardiography - systolic and diastolic function",
+          "timeFrame": "After 1 year"
+        },
+        {
+          "measure": "Echocardiography - systolic and diastolic function",
+          "timeFrame": "After 2 years"
+        },
+        {
+          "measure": "Echocardiography - systolic and diastolic function",
+          "timeFrame": "After 3 years"
+        },
+        {
+          "measure": "Echocardiography - Right ventricle dimension",
+          "timeFrame": "After 1 year"
+        },
+        {
+          "measure": "Echocardiography - Right ventricle dimension",
+          "timeFrame": "After 2 years"
+        },
+        {
+          "measure": "Echocardiography - Right ventricle dimension",
+          "timeFrame": "After 3 years"
+        },
+        {
+          "measure": "Echocardiography - Atrial dimensions",
+          "timeFrame": "After 1 year"
+        },
+        {
+          "measure": "Echocardiography - Atrial dimensions",
+          "timeFrame": "After 2 years"
+        },
+        {
+          "measure": "Echocardiography - Atrial dimensions",
+          "timeFrame": "After 3 years"
+        },
+        {
+          "measure": "Echocardiography - pulmonary pressure",
+          "timeFrame": "After 1 year"
+        },
+        {
+          "measure": "Echocardiography - pulmonary pressure",
+          "timeFrame": "After 2 years"
+        },
+        {
+          "measure": "Echocardiography - pulmonary pressure",
+          "timeFrame": "After 3 years"
+        },
+        {
+          "measure": "Short Form-36 (SF-36) physical component score",
+          "timeFrame": "After 2 years"
+        },
+        {
+          "measure": "Short Form-36 (SF-36) physical component score",
+          "timeFrame": "After 3 years"
+        },
+        {
+          "measure": "Days alive outside hospital",
+          "timeFrame": "After 1 year"
+        },
+        {
+          "measure": "Days alive outside hospital",
+          "timeFrame": "After 2 years"
+        },
+        {
+          "measure": "Days alive outside hospital",
+          "timeFrame": "After 3 years"
+        },
+        {
+          "measure": "Atrial Fibrillation Effect on Quality of Life (AFEQT)",
+          "timeFrame": "After 2 years"
+        },
+        {
+          "measure": "Atrial Fibrillation Effect on Quality of Life (AFEQT)",
+          "timeFrame": "After 3 years"
+        },
+        {
+          "measure": "Short Form-36 (SF-36) mental component score",
+          "timeFrame": "After 2 years"
+        },
+        {
+          "measure": "Short Form-36 (SF-36) mental component score",
+          "timeFrame": "After 3 years"
+        },
+        {
+          "measure": "Serious adverse events",
+          "timeFrame": "After 2 years"
+        },
+        {
+          "measure": "Serious adverse events",
+          "timeFrame": "After 3 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Participants with atrial fibrillation (ECG confirmed and diagnosed by the treatment provider) who at inclusion have either persistent (defined as atrial fibrillation for more than 7days) or permanent atrial fibrillation (only rate control is considered going forward).\n2. Rate control must be accepted as being the primary management strategy going forward. Consideration towards whether rhythm control is more appropriate must be considered, especially given the results of the Early treatment of Atrial fibrillation for Stroke prevention Trial (EAST).\n3. Informed consent.\n4. Adult (18 years or older).\n\nExclusion Criteria:\n\n1. No informed consent.\n2. Initial heart rate under 80 bpm at rest (assessed via ECG before randomisation).\n3. Less than 3 weeks of anticoagulation with new oral anticoagulants or 4 weeks with efficient warfarin if indicated.\n4. If the treating physician deems that the participant is not fit to be randomised into both groups based on an individual assessment. Such a decision will be made before randomisation by the treating physician. This can e.g. be participants dependent on a high ventricular rate to maintain a sufficient cardiac output. Such participants could be participants with heart failure, participants with a hemodynamically significant valve dysfunction, or severely dehydrated participants.\n5. Participants who are haemodynamically unstable and therefore require immediate electrical cardioversion",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Joshua Feinberg, MD",
+          "role": "CONTACT",
+          "phone": "+45 59484530",
+          "email": "jorf@regionsjaelland.dk"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Joshua Feinberg, MD",
+          "affiliation": "Holbaek University Hospital/University of Southern Denmark",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Holbæk Hospital",
+          "status": "RECRUITING",
+          "city": "Holbæk",
+          "zip": "4300",
+          "country": "Denmark",
+          "contacts": [
+            {
+              "name": "Joshua B Feinberg, MD",
+              "role": "CONTACT",
+              "phone": "004550587215"
+            },
+            {
+              "name": "Ilan Raymond, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 55.7175,
+            "lon": 11.71279
+          }
+        },
+        {
+          "facility": "Hvidovre University Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Hvidovre",
+          "zip": "2650",
+          "country": "Denmark",
+          "contacts": [
+            {
+              "name": "Ulrik Dixen, Prof",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 55.64297,
+            "lon": 12.47708
+          }
+        },
+        {
+          "facility": "Odense University Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Odense",
+          "zip": "5000",
+          "country": "Denmark",
+          "contacts": [
+            {
+              "name": "Axel Brandes, prof.",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 55.39594,
+            "lon": 10.38831
+          }
+        },
+        {
+          "facility": "Zealand University Hospital - Roskilde",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Roskilde",
+          "zip": "4000",
+          "country": "Denmark",
+          "contacts": [
+            {
+              "name": "Ole D Pedersen, DMSc",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Uffe Gang, MD",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 55.64152,
+            "lon": 12.08035
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "37005636",
+          "type": "DERIVED",
+          "citation": "Cold IM, Feinberg JB, Brandes A, Davidsen U, Dixen U, Dominguez H, Gang UJO, Gluud C, Hadad R, Kristensen KE, van Le DT, Nielsen EE, Olsen MH, Pedersen OD, Raymond IE, Sajadieh A, Soja AMB, Jakobsen JC. Lenient rate control versus strict rate control for atrial fibrillation: a statistical analysis plan for the Danish Atrial Fibrillation (DanAF) randomized clinical trial. Trials. 2023 Apr 1;24(1):250. doi: 10.1186/s13063-023-07247-7."
+        },
+        {
+          "pmid": "33789853",
+          "type": "DERIVED",
+          "citation": "Feinberg JB, Olsen MH, Brandes A, Raymond L, Nielsen WB, Nielsen EE, Stensgaard-Hansen F, Dixen U, Pedersen OD, Gang UJO, Gluud C, Jakobsen JC. Lenient rate control versus strict rate control for atrial fibrillation: a protocol for the Danish Atrial Fibrillation (DanAF) randomised clinical trial. BMJ Open. 2021 Mar 31;11(3):e044744. doi: 10.1136/bmjopen-2020-044744."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "We will share anonymised data in a data repository.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF",
+        "CSR",
+        "ANALYTIC_CODE"
+      ],
+      "timeFrame": "Not possible to describe yet but will be made available within a timely manner after publication of results.",
+      "accessCriteria": "Sharing will abide by the General Data Protection Regulation and the Danish data protections laws."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001281",
+          "term": "Atrial Fibrillation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001145",
+          "term": "Arrhythmias, Cardiac"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006339",
+          "term": "Heart Rate"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D055986",
+          "term": "Vital Signs"
+        },
+        {
+          "id": "D010808",
+          "term": "Physical Examination"
+        },
+        {
+          "id": "D019937",
+          "term": "Diagnostic Techniques and Procedures"
+        },
+        {
+          "id": "D003933",
+          "term": "Diagnosis"
+        },
+        {
+          "id": "D006439",
+          "term": "Hemodynamics"
+        },
+        {
+          "id": "D002320",
+          "term": "Cardiovascular Physiological Phenomena"
+        },
+        {
+          "id": "D002943",
+          "term": "Circulatory and Respiratory Physiological Phenomena"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

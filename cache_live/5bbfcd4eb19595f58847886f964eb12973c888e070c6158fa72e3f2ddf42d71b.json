@@ -1,0 +1,332 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03727282",
+      "orgStudyIdInfo": {
+        "id": "VTI-TAPSE"
+      },
+      "organization": {
+        "fullName": "University of Sao Paulo General Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Left Ventricular Volume Index in the Adjustment of Initial Dose of Dobutamine in Heart Failure and Cardiogenic Shock",
+      "officialTitle": "Use of Transtoracic Ecocargiogram With Calculation of Left Ventricular Volume Index in the Initial Adjustment of Initial Dose of Dobutamine in Patients With Heart Failure and Cardiogenic Shock"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2018-10",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-01-02",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-01-02",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2021-01-02",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2018-10-30",
+      "studyFirstSubmitQcDate": "2018-10-30",
+      "studyFirstPostDateStruct": {
+        "date": "2018-11-01",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2018-10-30",
+      "lastUpdatePostDateStruct": {
+        "date": "2018-11-01",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Sao Paulo General Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Recent studies have suggested that the use of left ventricular ejection volume index calculation may aid in the hemodynamic management of critically ill patients. However, a prospective and randomized comparison in patients with heart failure for inotropic dose adjustment has not been described. The objective of this study was to evaluate the efficacy and safety of ejection volume index versus liberal strategy in adjusting dobutamine dose in patients with heart failure and low cardiac output. Methodology: A unicentric, randomized and prospective study will be performed in a comparative manner. Hospital data (test results, medical outcomes, dobutamine dose, complications) of patients will be analyzed for safety and effectiveness. Expected results: The use of ejection volume index is not inferior to the liberal strategy in the initial adjustment of the dose of dobutamine in patients with heart failure."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiogenic Shock",
+        "Heart Failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 30,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Liberal strategy",
+          "type": "OTHER",
+          "description": "Initiate dobutamine at 5 mcg/kg/min and adjust dobutamine according to the attending physician",
+          "interventionNames": [
+            "Procedure: adjust dobutamine according to the attending physician"
+          ]
+        },
+        {
+          "label": "ejection volume index",
+          "type": "EXPERIMENTAL",
+          "description": "Initiate dobutamine at 5 mcg/kg/min and adjust dobutamine according to the ejection volume index",
+          "interventionNames": [
+            "Procedure: adjust dobutamine according to the ejection volume index"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "adjust dobutamine according to the ejection volume index",
+          "description": "adjust dobutamine dose",
+          "armGroupLabels": [
+            "ejection volume index"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "adjust dobutamine according to the attending physician",
+          "description": "adjust dobutamine dose",
+          "armGroupLabels": [
+            "Liberal strategy"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "base excess levels",
+          "description": "serum analysis",
+          "timeFrame": "24 hours"
+        },
+        {
+          "measure": "bicarbonate levels",
+          "description": "serum analysis",
+          "timeFrame": "24 hours"
+        },
+        {
+          "measure": "systolic and diastolic blood pressure",
+          "description": "physical evaluation",
+          "timeFrame": "24 hours"
+        },
+        {
+          "measure": "cardiac output",
+          "description": "echocardiography echocardiography",
+          "timeFrame": "24 hours"
+        },
+        {
+          "measure": "systolic volume",
+          "description": "echocardiography",
+          "timeFrame": "24 hours"
+        },
+        {
+          "measure": "urinary output",
+          "description": "urine analysis",
+          "timeFrame": "24 hours"
+        },
+        {
+          "measure": "arterial lactate levels",
+          "description": "serum analysis",
+          "timeFrame": "24 hours"
+        },
+        {
+          "measure": "central venous oxygen saturation levels",
+          "description": "serum analysis",
+          "timeFrame": "24 hours"
+        },
+        {
+          "measure": "BNP levels",
+          "description": "plasma analysis",
+          "timeFrame": "24 hours"
+        },
+        {
+          "measure": "troponin levels",
+          "description": "serum analysis",
+          "timeFrame": "24 hours"
+        },
+        {
+          "measure": "heart rate",
+          "description": "physical evaluation",
+          "timeFrame": "24 hours"
+        },
+        {
+          "measure": "creatinine levels",
+          "description": "serum analysis",
+          "timeFrame": "24 hours"
+        },
+        {
+          "measure": "urea levels",
+          "description": "serum analysis",
+          "timeFrame": "24 hours"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "occurrence of sustained ventricular arrhythmia",
+          "description": "electrocardiography",
+          "timeFrame": "24 hours"
+        },
+        {
+          "measure": "need for orotracheal intubation",
+          "timeFrame": "24 hours"
+        },
+        {
+          "measure": "need for vasopressor or other inotropic association",
+          "description": "hipotension",
+          "timeFrame": "24 hours"
+        },
+        {
+          "measure": "need for mechanical circulatory assistance",
+          "timeFrame": "24 hours"
+        },
+        {
+          "measure": "lowering of consciousness level",
+          "description": "glasgow \\< 14",
+          "timeFrame": "24 hours"
+        },
+        {
+          "measure": "cardiorespiratory arrest",
+          "timeFrame": "24 hours"
+        },
+        {
+          "measure": "worsening of renal function",
+          "description": "increase 0.5 mg / dl in relation to admission creatinine",
+          "timeFrame": "24 hours"
+        },
+        {
+          "measure": "death",
+          "timeFrame": "24 hours"
+        },
+        {
+          "measure": "failure of dobutamine weaning up",
+          "timeFrame": "7 days"
+        },
+        {
+          "measure": "hospitalization time",
+          "timeFrame": "30 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* LVEF ≤ 40% documented on echocardiography\n* BNP\\> 500 pg / mL\n* Need for initiation of dobutamine and signs or symptoms of low cardiac output at admission defined by the presence of 2 or more of the following:\n\n  * SBP ≤ 95 mmHg\n  * FC\\> 100 bpm\n  * Peripheral vasoconstriction,\n  * Cold extremities,\n  * Reference of decrease of urine output,\n  * Nausea, vomiting and food intolerance,\n  * Presence of organic dysfunction\n\nExclusion Criteria:\n\n* Pregnancy.\n* COPD\n* Hepatical cirrhosis\n* Atrioventricular block of 2nd or 3rd degree. and. SBP \\<80 mmHg or need for vasopressor.\n* Use of definitive pacemaker.\n* Body mass index greater than 40 kg / m2.\n* Use of oral anticoagulant.\n* Acute coronary syndrome.\n* Indication of use of another inotropic other than dobutamine.\n* Orotracheal intubation.\n* Presence of significant pericardial effusion.\n* Obstruction of left ventricular outflow tract.\n* Serum creatinine\\> 5.0 mg / dL or hemodialysis.\n* Presence of 2 or more clinical / laboratory / radiological criteria of infection",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Alexandre Soeiro, MD",
+          "role": "CONTACT",
+          "phone": "1126615299",
+          "email": "alexandre.soeiro@bol.com.br"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Mucio Tavares, MD",
+          "affiliation": "Unidade Clínica de Emergência",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D012770",
+          "term": "Shock, Cardiogenic"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D012769",
+          "term": "Shock"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

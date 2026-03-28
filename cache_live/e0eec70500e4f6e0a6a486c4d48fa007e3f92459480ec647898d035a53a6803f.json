@@ -1,0 +1,209 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01914588",
+      "orgStudyIdInfo": {
+        "id": "09/2012 ComET CBM - PHEBO"
+      },
+      "organization": {
+        "fullName": "Campus Bio-Medico University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Multiparametric Telemonitoring In Elderly People With Chronic Heart Failure",
+      "officialTitle": "Effectiveness of a Multiparametric Telemonitoring System on Prevention of Hospital Admissions and Mortality In Elderly People With Chronic Heart Failure"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2013-07",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2012-06"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2013-02",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2013-07",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2013-07-25",
+      "studyFirstSubmitQcDate": "2013-07-31",
+      "studyFirstPostDateStruct": {
+        "date": "2013-08-02",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2013-07-31",
+      "lastUpdatePostDateStruct": {
+        "date": "2013-08-02",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Raffaele Antonelli Incalzi",
+        "investigatorTitle": "Director, Unit of Geriatrics",
+        "investigatorAffiliation": "Campus Bio-Medico University"
+      },
+      "leadSponsor": {
+        "name": "Campus Bio-Medico University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Heart failure is a chronic disease associated with an increasing risk of morbidity, disability, repeated hospitalizations and mortality. Telemedicine could promptly identify signs of worsening cardiac disease in order to improve elderly patients' home care and quality of life by reducing the need of hospital admissions and sanitary costs. The investigators present a randomized, parallel-group trial to test the ability of a multiparametric remote monitoring system, in addition to standard care, to promptly identify worsening of heart failure and prevent hospital admission and mortality.",
+      "detailedDescription": "The participants were recruited in two settings:\n\n* Patients discharged with a first diagnosis of heart failure from the Geriatric Acute Care ward of a teaching hospital (\"Policlinico Campus Bio-Medico\", Rome, Italy);\n* Patients with a principal diagnosis of heart failure attending the outpatients clinic of the same hospital.\n\nAll the participants were evaluated at baseline and at the end of the study using a multi-dimensional assessment including well validated and routinely used tools to screen geriatric patients in order to detect global, physical and instrumental autonomy and consequent degree of dependence, as well as cognitive status. The assessment tool included: Activities of daily living scale (ADL) and Instrumental activities of daily living scale (IADL); Abbreviated mental Test; Geriatric Depression Scale; Physical Activity Scale for the Elderly; Six-minute walking test; The Short Form Health Survey (SF-12); Cumulative Illness Rating Scale (CIRS); complete list of drugs.\n\nOnce written consent form was obtained, participants were allocated to the study groups in a 1:1 ratio using a computer-generated random list of number.\n\nParticipants were followed up for six months. Patients in the intervention group were monitored via a system called PHEBO (Platform for High tech Evaluation of Biometrics Observation) that consisted of a commercial Android-based smartphone and a kit of measurement instruments (sphygmomanometer, pulse oximeter and an electronic scale) with a bluetooth transmitter.\n\nThe smartphone received via bluetooth the readings from the measurement instruments, communicated in real-time the readings to the central component of the system and issued reminders for the patient when measurement was scheduled.\n\nPatients in the telemonitoring group received a training session during which they were instructed on how to use the monitoring system and how to perform measurements in case of symptoms. At the end of the session correct comprehension of the system functioning was tested for each patient. A study physician was available on call during office hours to assist patients needing further instructions. A technician was also available in order to solve ingoing hardware malfunctioning. Participants unable to properly use the kit were excluded from the study.\n\nThe kit was able to record peripheral oxygen saturation, heart rate, systolic, diastolic and average blood pressure, body weight, average physical activity. We set a specific schedule of the measurements:\n\n* Blood pressure and heart rate: three times a day\n* Peripheral oxygen saturation: three times a day\n* Body weight: once a day\n* Physical activity: recorded continuously.\n\nThe data received were evaluated every day by a geriatrician. The monitor system displayed an alert when a measurement was outside a predetermined range. In case of abnormal readings, the physician contacted the patient to verify whether their symptoms had worsened or new symptoms had arose. In this event, the patient's adherence to therapy was checked and, if unsatisfactory, individually tailored interventions promoting adherence were carried up. Otherwise, an once appointment (for patients with milder abnormalities or symptoms) or a hospital admission was scheduled.\n\nParticipants not included in the intervention group received standard care. In particular, patients discharged from the acute care ward received detailed instruction about medical therapy and lifestyle counselling. A follow-up visit was scheduled at 1 month after the discharge. A geriatrician was available for telephonic support from Monday to Friday, two hours/day. Patients enrolled in the ambulatory setting were followed by planned visits and by their general practitioner."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Telemonitoring + Standard care",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Procedure: Telemonitoring",
+            "Other: Standard care"
+          ]
+        },
+        {
+          "label": "Standard care",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Other: Standard care"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "Telemonitoring",
+          "description": "Use of wearable sensors able to record peripheral oxygen saturation, heart rate, systolic, diastolic and average blood pressure, body weight, average physical activity, with automatic transmission to the monitoring central.",
+          "armGroupLabels": [
+            "Telemonitoring + Standard care"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Standard care",
+          "description": "* Detailed instruction about medical therapy and lifestyle counseling\n* Telephonic support by a geriatrician, available from Monday to Friday, two hours/day\n* Follow-up visits",
+          "armGroupLabels": [
+            "Standard care",
+            "Telemonitoring + Standard care"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Hospital admissions or death",
+          "description": "Rate of hospital admissions for any reason or death",
+          "timeFrame": "Six months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Acute heart failure events",
+          "description": "Rate of acute heart failure, defined as a worsening of the patient's condition that necessitates a change in regular medications",
+          "timeFrame": "Six months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with heart failure\n\nExclusion Criteria:\n\n* Cognitive impairment precluding the use of the experimental device",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "65 Years",
+      "stdAges": [
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Raffaele Antonelli Incalzi, MD",
+          "affiliation": "Campus Bio-Medico University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D059039",
+          "term": "Standard of Care"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D019984",
+          "term": "Quality Indicators, Health Care"
+        },
+        {
+          "id": "D011787",
+          "term": "Quality of Health Care"
+        },
+        {
+          "id": "D006298",
+          "term": "Health Services Administration"
+        },
+        {
+          "id": "D017530",
+          "term": "Health Care Quality, Access, and Evaluation"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

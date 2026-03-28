@@ -1,0 +1,586 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05913622",
+      "orgStudyIdInfo": {
+        "id": "NL82979.078.23"
+      },
+      "organization": {
+        "fullName": "Erasmus Medical Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "A Study on the Effects of Left Ventricular Unloading in the Setting of VA ECMO Support",
+      "officialTitle": "Randomized Embedded Multifactorial Adaptive Platform in ExtraCorporeal Membrane Oxygenation (REMAP ECMO) - Left Ventricular Unloading Study",
+      "acronym": "REMAP ECMO"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-06-08",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-07-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-06-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-06-12",
+      "studyFirstSubmitQcDate": "2023-06-21",
+      "studyFirstPostDateStruct": {
+        "date": "2023-06-22",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-09",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Christiaan Meuwese",
+        "investigatorTitle": "Principal investigator",
+        "investigatorAffiliation": "Erasmus Medical Center"
+      },
+      "leadSponsor": {
+        "name": "Erasmus Medical Center",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Dutch Heart Foundation",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "REMAP ECMO is a registry based platform in which multiple response adaptive randomized clinical trials (trial domains) will be embedded. These trial domains will, in a perpetual way, study the effects of a range of patient management strategies which aim to improve VA ECMO weaning success. A first trial domain will address the effects of left ventricular (LV) unloading through intra-aortic balloon pumping on weaning succes in VA ECMO supported patients.",
+      "detailedDescription": "ExtraCorporeal Membrane Oxygenation (ECMO) is increasingly used but remains associated with high weaning failure- and mortality- rates. This seems in part attributable to a knowledge gap on how to properly manage ECMO and its related therapies as current knowledge and treatment protocols are based on observational studies and expert opinions. The \"Randomized Embedded Multifactorial Adaptive Platform in ECMO\" (REMAP ECMO) study was developed to study, in an efficient and randomized way, different ECMO related patient management issues and will consist of two parts:\n\n1. A patient registry that will serve for quality monitoring and observational studies of ECMO patients being treated in participating centers.\n2. Embedded within the registry, multiple response adaptive randomized clinical trials (trial domains) which aim to evaluate the effectiveness of a range of therapeutic interventions on ECMO weaning success. These interventions all have in common that they are all already used in ECMO care but their use depends on center and/or doctors preferences as no high quality (randomized) evidence guiding their indication, timing and management exists.\n\n   * LV unloading trial A first trial domain to be initiated within the REMAP ECMO platform will address the effects of left ventricular (LV) unloading, through application of an intra-aortic balloon pump (IABP), on weaning success in the setting of venoarterial (VA) ECMO. The rationale of this trial domain is based on the increase in LV loading conditions, as induced by VA ECMO, which could lead to pulmonary edema, intracardiac thrombosis and even death. These serious sequelae could possibly be prevented by adding IABP as adjunct to VA ECMO therapy.\n   * Physiological substudy on IABP as adjunct to V-A ECMO\n\nA nested physiological observational substudy within the ongoing REMAP ECMO RCT, using the trial arms where patients are randomized between receiving V-A ECMO with or without IABP in the Erasmus Medical Center Rotterdam. The substudy aims to evaluate the physiological effects of IABP in conjunction with V-A ECMO on respiratory and hemodynamic parameters. The substudy consists of two parts:\n\n1. Microcirculation and Macrocirculation: This part investigates the impact of IABP on both microcirculation and macrocirculation in the setting of V-A ECMO.\n2. PEEP as an Unloading Modality: This part examines the effect of Positive End-Expiratory Pressure (PEEP) as an unloading modality during a decremental PEEP trial in patients receiving V-A ECMO, either with or without IABP.\n\nEndpoints in both substudies that can be assessed blindly will be evaluated by an assessor who is blinded to the assigned treatment arm and the objectives of the substudy"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiogenic Shock"
+      ],
+      "keywords": [
+        "Left ventricular unloading",
+        "Venoarterial ExtraCorporeal Membrane Oxygenation (VA ECMO)",
+        "Cardiogenic shock"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Adaptive Bayesian Platform Trial evaluating multiple interventions in multiple domains",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "No masking is possible as the device is visible after placement."
+        }
+      },
+      "enrollmentInfo": {
+        "count": 430,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "IABP unloading arm",
+          "type": "EXPERIMENTAL",
+          "description": "This group of patients will receive an intra-aortic balloon pump (IABP) as an adjunct to VA ECMO support. When allocated to the IABP unloading arm, patients must receive an IABP within 8 hours after VA ECMO initiation.",
+          "interventionNames": [
+            "Device: Intra-aortic balloon pump"
+          ]
+        },
+        {
+          "label": "ECMO alone arm",
+          "type": "NO_INTERVENTION",
+          "description": "This group of patients will receive VA ECMO support without left ventricular unloading device after randomization."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Intra-aortic balloon pump",
+          "description": "An IABP is placed percutaneously into the thoracic aorta and supports the heart through synchronized inflation and deflation of a balloon.",
+          "armGroupLabels": [
+            "IABP unloading arm"
+          ],
+          "otherNames": [
+            "IABP"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "ECMO weaning success",
+          "description": "Proportion of patients successfully weaned from VA ECMO at 30 days being defined by; a) being alive, b) without ECMO, IABP or Impella support, and c) not having received a heart transplantation or left ventricular assist device (LVAD).",
+          "timeFrame": "30 days"
+        },
+        {
+          "measure": "Physiological substudy: End diastolic volume",
+          "description": "End diastolic volume as assessed by echocardiography",
+          "timeFrame": "within 24 hours after ECMO initiation"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Treatment failure",
+          "description": "The proportion of patients in whom LV unloading therapy was escalated. Escalation is defined by the insertion of an IABP (only in the VA ECMO alone arm), or Impella or left vent (IABP unloading arm or VA ECMO alone arm).",
+          "timeFrame": "During ECMO support"
+        },
+        {
+          "measure": "30 day, 90 day and 1 year mortality",
+          "description": "Mortality rate at 30 days, 90 days and 1 year after ECMO initiation",
+          "timeFrame": "30 days, 90 days and 1 year after ECMO initiation"
+        },
+        {
+          "measure": "ECMO support duration",
+          "description": "The duration of ECMO support in days",
+          "timeFrame": "Until 30 days after ECMO initiation"
+        },
+        {
+          "measure": "Major bleeding events",
+          "description": "The occurrence of major bleeding events (fatal, in a critical area (intracranial, intraspinal, or intraocular), requiring intervention (coiling or surgery) and/or transfusion of ≥3 packed cells) until 30 days after VA ECMO initiation.",
+          "timeFrame": "Until 30 days after ECMO initiation"
+        },
+        {
+          "measure": "Unplanned surgical or catheter based intervention of the leg(s)",
+          "description": "Unplanned surgical or catheter based intervention of the leg(s) in which ECMO and/or IABP or Impella was inserted until 30 days after ECMO initiation.",
+          "timeFrame": "Until 30 days after ECMO initiation"
+        },
+        {
+          "measure": "Time to lactate normalization",
+          "description": "Time to lactate normalization (\\<2 mmol/L).",
+          "timeFrame": "Until 30 days after ECMO initiation"
+        },
+        {
+          "measure": "Time to first negative net fluid balance",
+          "description": "Time to first negative net fluid balance (calculated per 24 hours).",
+          "timeFrame": "Until 30 days after ECMO initiation"
+        },
+        {
+          "measure": "The occurrence of continuous venovenous hemofiltration initiation during ECMO support",
+          "description": "The occurrence of continuous venovenous hemofiltration (dialysis) (CVVH(D)) initiation during ECMO support.",
+          "timeFrame": "Until 30 days after ECMO initiation"
+        },
+        {
+          "measure": "Course in PF ratio",
+          "description": "Course in PaO2/FiO2 (PF) ratio (PaO2 divided by FiO2 provided)",
+          "timeFrame": "Until 30 days after ECMO initiation."
+        },
+        {
+          "measure": "Duration of mechanical ventilation.",
+          "description": "Duration of mechanical ventilation. Patients on mechanical ventilation via tracheostomy need to be 24 hours free of mechanical ventilation.",
+          "timeFrame": "Until 30 days after ECMO initiation."
+        },
+        {
+          "measure": "Left ventricular ejection fraction 30 days after ECMO initiation.",
+          "description": "Left ventricular ejection fraction 30 days after ECMO initiation.",
+          "timeFrame": "At 30 days after ECMO initiation."
+        },
+        {
+          "measure": "Time course in vasoactive inotropic score (VIS) during ECMO support",
+          "description": "Time course in vasoactive inotropic score (VIS) during ECMO support",
+          "timeFrame": "Until 30 days after ECMO initiation."
+        },
+        {
+          "measure": "Time course in NT-pro BNP during ECMO support.",
+          "description": "Time course in NT-pro BNP during ECMO support.",
+          "timeFrame": "Until 30 days after ECMO initiation."
+        },
+        {
+          "measure": "Quality of life at 1 year",
+          "description": "Quality of life on basis of EQ5D questionnaires",
+          "timeFrame": "1 year after ECMO initiation"
+        },
+        {
+          "measure": "Total health care costs",
+          "description": "Total healthcare costs in euros are determined by using the International Medical Consumption Questionnaire (iMCQ) and the calculated costs after 6 and 12 months of follow up",
+          "timeFrame": "6 and 12 months after ECMO initiation"
+        },
+        {
+          "measure": "Hospital readmission rate",
+          "description": "The number of hospital readmissions based on the information provided in the international Medical Consumption Questionnaire (iMCQ)",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Physiological substudy: Heart rate",
+          "description": "The average heart rate measured during 5 minutes",
+          "timeFrame": "24 and 48 hours after ECMO initiation"
+        },
+        {
+          "measure": "Physiological substudy: pulmonary artery catheter parameters",
+          "description": "pulmonary artery catheter parameters: pulmonary capillary wedge pressure, cardiac output, central venous pressure",
+          "timeFrame": "24 and 48 hours after ECMO initiation"
+        },
+        {
+          "measure": "Physiological substudy: Echocardiography",
+          "description": "Echocardiography: LV ejection fraction, TAPSE, VTI LVOT",
+          "timeFrame": "24 and 48 hours after ECMO initiation"
+        },
+        {
+          "measure": "Physiological substudy: microcirculation measurements",
+          "description": "Microcirculation measurements: Perfused vessel density (PVD \\[mm/mm2\\], Total vessel density (TVD \\[mm/mm2\\]",
+          "timeFrame": "24 and 48 hours after ECMO initiation"
+        },
+        {
+          "measure": "Physiological substudy: respiratory parameters",
+          "description": "Respiratory: FiO2, PEEP, Respiratory System Compliance (CRS) as the ratio between Vt/Dp.",
+          "timeFrame": "24 and 48 hours after ECMO initiation"
+        },
+        {
+          "measure": "Physiological substudy: delta NT-pro BNP",
+          "description": "delta NT-pro BNP",
+          "timeFrame": "24 and 48 hours after ECMO initiation"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion criteria for the registry backbone:\n\n* Having received ECMO support for severe circulatory and/or respiratory insufficiency\n\nInclusion Criteria for the LV unloading trial domain (VA ECMO + IABP vs VA ECMO alone):\n\n* Cardiogenic shock\n* Having received VA ECMO support for severe circulatory (and respiratory insufficiency).\n* Age ≥ 18 years\n* Initiation of LV unloading (IABP or Impella) possible ≤ 8 hours after ECMO initiation\n\nExclusion criteria for the registry backbone\n\n* Objection to participation in the registry by the patient and/or proxy\n* VA ECMO usage confined to the period during surgery or another intervention (the VA ECMO was removed at the end of the intervention in the operation room).\n\nExclusion criteria for the LV unloading trial domain (VA ECMO + IABP vs VA ECMO alone)\n\n* No (deferred) informed consent provided by the patient and/or proxy.\n* Pregnancy\n* ECMO usage confined to the period during surgery or another intervention (the ECMO was removed at the end of the intervention).\n* Isolated right ventricular failure (e.g. due to pulmonary embolism).\n* Left ventricular assist device (LVAD), Impella or IABP in situ.\n* Ventricular septal defect or papillary muscle rupture as the cause of shock.\n* Thoracic or abdominal aortic dissection.\n* Moderate or severe aortic regurgitation\n* Mechanical prosthesis in mitral valve position",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Myrthe van Steenwijk",
+          "role": "CONTACT",
+          "phone": "+31650162551",
+          "email": "m.p.j.vansteenwijk@erasmusmc.nl"
+        },
+        {
+          "name": "Christiaan Meuwese",
+          "role": "CONTACT",
+          "phone": "+31631135752",
+          "email": "c.meuwese@erasmusmc.nl"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Christiaan Meuwese",
+          "affiliation": "Erasmus Medical Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "AZ Sint-Jan Brugge",
+          "status": "RECRUITING",
+          "city": "Bruges",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.20892,
+            "lon": 3.22424
+          }
+        },
+        {
+          "facility": "ZOL Genk",
+          "status": "RECRUITING",
+          "city": "Genk",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.965,
+            "lon": 5.50082
+          }
+        },
+        {
+          "facility": "UZ Gent",
+          "status": "RECRUITING",
+          "city": "Ghent",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.05,
+            "lon": 3.71667
+          }
+        },
+        {
+          "facility": "Amphia hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Breda",
+          "state": "North Brabant",
+          "zip": "4818 CK",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.58656,
+            "lon": 4.77596
+          }
+        },
+        {
+          "facility": "Catharina hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Eindhoven",
+          "state": "North Brabant",
+          "zip": "5623 EJ",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.44083,
+            "lon": 5.47778
+          }
+        },
+        {
+          "facility": "Amsterdam University Medical Center",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Amsterdam",
+          "state": "North Holland",
+          "zip": "1105 AZ",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.37403,
+            "lon": 4.88969
+          }
+        },
+        {
+          "facility": "Leiden University Medical Center",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Leiden",
+          "state": "South Holland",
+          "zip": "2333 ZA",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.15833,
+            "lon": 4.49306
+          }
+        },
+        {
+          "facility": "Erasmus Medical Center",
+          "status": "RECRUITING",
+          "city": "Rotterdam",
+          "state": "South Holland",
+          "zip": "3015 GD",
+          "country": "Netherlands",
+          "contacts": [
+            {
+              "name": "Myrthe V Steenwijk",
+              "role": "CONTACT",
+              "phone": "+31650162551",
+              "email": "m.p.j.vansteenwijk@erasmusmc.nl"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.9225,
+            "lon": 4.47917
+          }
+        },
+        {
+          "facility": "Haga ziekenhuis",
+          "status": "NOT_YET_RECRUITING",
+          "city": "The Hague",
+          "state": "South Holland",
+          "zip": "2545 AA",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.07667,
+            "lon": 4.29861
+          }
+        },
+        {
+          "facility": "Antonius hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Nieuwegein",
+          "state": "Utrecht",
+          "zip": "3435 CM",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.02917,
+            "lon": 5.08056
+          }
+        },
+        {
+          "facility": "University Medical Center Utrecht",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Utrecht",
+          "state": "Utrecht",
+          "zip": "3584 CX",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.09083,
+            "lon": 5.12222
+          }
+        },
+        {
+          "facility": "OLVG",
+          "status": "RECRUITING",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.37403,
+            "lon": 4.88969
+          }
+        },
+        {
+          "facility": "Maastricht UMC",
+          "status": "RECRUITING",
+          "city": "Maastricht",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 50.84833,
+            "lon": 5.68889
+          }
+        },
+        {
+          "facility": "Radboud UMC",
+          "status": "RECRUITING",
+          "city": "Nijmegen",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.8425,
+            "lon": 5.85278
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "24210621",
+          "type": "BACKGROUND",
+          "citation": "Cheng R, Hachamovitch R, Kittleson M, Patel J, Arabia F, Moriguchi J, Esmailian F, Azarbal B. Complications of extracorporeal membrane oxygenation for treatment of cardiogenic shock and cardiac arrest: a meta-analysis of 1,866 adult patients. Ann Thorac Surg. 2014 Feb;97(2):610-6. doi: 10.1016/j.athoracsur.2013.09.008. Epub 2013 Nov 8."
+        },
+        {
+          "pmid": "29655828",
+          "type": "BACKGROUND",
+          "citation": "Keebler ME, Haddad EV, Choi CW, McGrane S, Zalawadiya S, Schlendorf KH, Brinkley DM, Danter MR, Wigger M, Menachem JN, Shah A, Lindenfeld J. Venoarterial Extracorporeal Membrane Oxygenation in Cardiogenic Shock. JACC Heart Fail. 2018 Jun;6(6):503-516. doi: 10.1016/j.jchf.2017.11.017. Epub 2018 Apr 11."
+        },
+        {
+          "pmid": "33032450",
+          "type": "BACKGROUND",
+          "citation": "Schrage B, Becher PM, Bernhardt A, Bezerra H, Blankenberg S, Brunner S, Colson P, Cudemus Deseda G, Dabboura S, Eckner D, Eden M, Eitel I, Frank D, Frey N, Funamoto M, Gossling A, Graf T, Hagl C, Kirchhof P, Kupka D, Landmesser U, Lipinski J, Lopes M, Majunke N, Maniuc O, McGrath D, Mobius-Winkler S, Morrow DA, Mourad M, Noel C, Nordbeck P, Orban M, Pappalardo F, Patel SM, Pauschinger M, Pazzanese V, Reichenspurner H, Sandri M, Schulze PC, H G Schwinger R, Sinning JM, Aksoy A, Skurk C, Szczanowicz L, Thiele H, Tietz F, Varshney A, Wechsler L, Westermann D. Left Ventricular Unloading Is Associated With Lower Mortality in Patients With Cardiogenic Shock Treated With Venoarterial Extracorporeal Membrane Oxygenation: Results From an International, Multicenter Cohort Study. Circulation. 2020 Dec;142(22):2095-2106. doi: 10.1161/CIRCULATIONAHA.120.048792. Epub 2020 Oct 9."
+        },
+        {
+          "pmid": "30586721",
+          "type": "BACKGROUND",
+          "citation": "Thiele H, Zeymer U, Thelemann N, Neumann FJ, Hausleiter J, Abdel-Wahab M, Meyer-Saraei R, Fuernau G, Eitel I, Hambrecht R, Bohm M, Werdan K, Felix SB, Hennersdorf M, Schneider S, Ouarrak T, Desch S, de Waha-Thiele S; IABP-SHOCK II Trial (Intraaortic Balloon Pump in Cardiogenic Shock II) Investigators; IABP-SHOCK II Investigators. Intraaortic Balloon Pump in Cardiogenic Shock Complicating Acute Myocardial Infarction: Long-Term 6-Year Outcome of the Randomized IABP-SHOCK II Trial. Circulation. 2019 Jan 15;139(3):395-403. doi: 10.1161/CIRCULATIONAHA.118.038201. Epub 2018 Nov 11."
+        },
+        {
+          "pmid": "35361346",
+          "type": "BACKGROUND",
+          "citation": "Grandin EW, Nunez JI, Willar B, Kennedy K, Rycus P, Tonna JE, Kapur NK, Shaefi S, Garan AR. Mechanical Left Ventricular Unloading in Patients Undergoing Venoarterial Extracorporeal Membrane Oxygenation. J Am Coll Cardiol. 2022 Apr 5;79(13):1239-1250. doi: 10.1016/j.jacc.2022.01.032."
+        },
+        {
+          "pmid": "30765031",
+          "type": "BACKGROUND",
+          "citation": "Russo JJ, Aleksova N, Pitcher I, Couture E, Parlow S, Faraz M, Visintini S, Simard T, Di Santo P, Mathew R, So DY, Takeda K, Garan AR, Karmpaliotis D, Takayama H, Kirtane AJ, Hibbert B. Left Ventricular Unloading During Extracorporeal Membrane Oxygenation in Patients With Cardiogenic Shock. J Am Coll Cardiol. 2019 Feb 19;73(6):654-662. doi: 10.1016/j.jacc.2018.10.085."
+        },
+        {
+          "pmid": "31656647",
+          "type": "BACKGROUND",
+          "citation": "Na SJ, Yang JH, Yang JH, Sung K, Choi JO, Hahn JY, Jeon ES, Cho YH. Left heart decompression at venoarterial extracorporeal membrane oxygenation initiation in cardiogenic shock: prophylactic versus therapeutic strategy. J Thorac Dis. 2019 Sep;11(9):3746-3756. doi: 10.21037/jtd.2019.09.35."
+        },
+        {
+          "pmid": "39447716",
+          "type": "DERIVED",
+          "citation": "van Steenwijk MPJ, van Rosmalen J, Elzo Kraemer CV, Donker DW, Hermens JAJM, Kraaijeveld AO, Maas JJ, Akin S, Montenij LJ, Vlaar APJ, van den Bergh WM, Oude Lansink-Hartgring A, de Metz J, Voesten N, Boersma E, Scholten E, Beishuizen A, Lexis CPH, Peperstraete H, Schiettekatte S, Lorusso R, Gommers DAMPJ, Tibboel D, de Boer RA, Van Mieghem NMDA, Meuwese CL; REMAP ECMO LV unloading study group. A randomized embedded multifactorial adaptive platform for extra corporeal membrane oxygenation (REMAP ECMO) - design and rationale of the left ventricular unloading trial domain. Am Heart J. 2025 Jan;279:81-93. doi: 10.1016/j.ahj.2024.10.010. Epub 2024 Oct 22."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D012770",
+          "term": "Shock, Cardiogenic"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D012769",
+          "term": "Shock"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D007423",
+          "term": "Intra-Aortic Balloon Pumping"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D015908",
+          "term": "Counterpulsation"
+        },
+        {
+          "id": "D001243",
+          "term": "Assisted Circulation"
+        },
+        {
+          "id": "D013514",
+          "term": "Surgical Procedures, Operative"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

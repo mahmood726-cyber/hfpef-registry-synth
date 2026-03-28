@@ -1,0 +1,230 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02949531",
+      "orgStudyIdInfo": {
+        "id": "R1965"
+      },
+      "organization": {
+        "fullName": "Hull University Teaching Hospitals NHS Trust",
+        "class": "OTHER_GOV"
+      },
+      "briefTitle": "Use of Oxygen in Heart Failure With Preserved Ejection Fraction",
+      "officialTitle": "Randomised, Cross Over, Single Blind, Control Trial of Short Term Oxygen Use During Cycle Ergometry in Patients With Chronic Heart Failure With Preserved Ejection Fraction",
+      "acronym": "STOP-EF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2016-09",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-11-03",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2017-02-15",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2017-02-15",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-10-03",
+      "studyFirstSubmitQcDate": "2016-10-27",
+      "studyFirstPostDateStruct": {
+        "date": "2016-10-31",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2019-06-24",
+      "lastUpdatePostDateStruct": {
+        "date": "2019-06-26",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Hull University Teaching Hospitals NHS Trust",
+        "class": "OTHER_GOV"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Oxygen is routinely given to patients with common conditions such as COPD and heart failure. There is no evidence behind giving oxygen to patients specifically in heart failure due to a stiff heart.\n\nThis study aims to explore the effect oxygen has on the ability of patients with chronic heart failure and the ability to exercise. Other common variables will be assessed such as heart rate and blood pressure to observe the response to varying concentrations of oxygen.\n\nThe concentrations chosen are commonly offered in hospitals and indeed are being delivered through standard equipment found in all hospitals in the country.\n\nIt is hoped that studying the effect of short term oxygen on patients with heart failure will help to identify the effectiveness of oxygen in longer term therapy for patients who are often breathless with a decreased exercise tolerance.",
+      "detailedDescription": "Many patients with reduced exercise tolerance have a preserved left ventricular function. These patients are labelled as having heart failure with preserved ejection fraction (HeFPEF), when the combined use of echocardiography and biochemistry. The prevalence and the incidence of HeFPEF are on the increase and currently it accounts for around 50% of all patients diagnosed with HF. The last twenty years of research has led to great improvement in available treatments for heart failure with reduced ejection fraction (HeFREF); however, current guidelines only suggest diuretics to improve symptoms of those patients with HeFPEF: clinical trials of several pharmacological interventions have failed to show convincing reductions in morbidity or mortality for patients with HeFPEF.\n\nThe effect of oxygen therapy on exercise capacity has remained poorly understood in HeFREF and, at the time of writing this study, it has never been explored in HeFPEF. The investigators recently completed a study showing an increase in exercise time, exercise load at peak exercise and peak metabolic equivalent on cycle ergometry with 28% oxygen supplementation and further increments when 40% oxygen supplementation was used in patients with heart failure with reduced ejection fraction.\n\nThe investigators aim to improve exercise time in patients with HeFPEF with oxygen supplementation. Identifying the correct dose of oxygen will be a further aim to avoid hyperoxygenation but provide adequate oxygen to improve exercise tolerance.\n\nPatients will be identified from heart failure clinics and will be invited for screening visit. Eligible patients will have three treatment visit at least one week apart (each visit with a different oxygen concentration i.e room air, 28% and 40% oxygen, randomly determined by sealed envelopes)\n\nPatients will use standard cycle ergometry to exercise and work load will be increased every minute by 5-10 watts. Patients will be encouraged to cycle until tired. At the end of cycling, exercise time, peak metabolic equivalent, work load, shortness of breath score will be noted at each visit."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 50,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "21% oxygen",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "room air will be delivered via Venturi mask during cycle ergometry",
+          "interventionNames": [
+            "Drug: oxygen"
+          ]
+        },
+        {
+          "label": "28% oxygen",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "28% oxygen will be delivered via Venturi mask during cycle ergometry",
+          "interventionNames": [
+            "Drug: oxygen"
+          ]
+        },
+        {
+          "label": "40% oxygen",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "40% oxygen will be delivered via Venturi mask during cycle ergometry",
+          "interventionNames": [
+            "Drug: oxygen"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "oxygen",
+          "armGroupLabels": [
+            "21% oxygen",
+            "28% oxygen",
+            "40% oxygen"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "change in exercise time with the use of 21%, 28% and 40% oxygen",
+          "description": "the total time cycled in each arm",
+          "timeFrame": "at 3 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "change in shortness of breath with the use of 21%, 28% and 40% oxygen",
+          "description": "shortness of breath measured using BORG score",
+          "timeFrame": "at 3 weeks"
+        },
+        {
+          "measure": "change in Peak metabolic equivalent with the use of 21%, 28% and 40% oxygen",
+          "description": "measured using standard peak metabolic equivalent",
+          "timeFrame": "at 3 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Over 50 years of age and able and willing to give consent\n* Have signs and/or symptoms of heart failure\n* Left ventricular ejection fraction \\> 45%\n* NT-pro BNP \\> 220 pg/ml (in the previous 12 months)\n* On any diuretic\n\nExclusion Criteria:\n\n* Unable or unwilling to give consent\n* Recent (\\<1 month) acute myocardial infarct or cerebrovascular event\n* Significant renal dysfunction (eGFR \\<30 ml.min-1.1.73m-2)\n* Significant anaemia (Haemoglobin \\< 100 g.L-1)\n* Systolic blood pressure \\<90 mmHg, or \\>180 mmHg\n* Severe mitral or aortic valve disease\n* Diagnosis of severe chronic lung disease\n* Involvement in another medicinal trial within the past four weeks\n* Unable to use cycle\n* Any planned admission in the following 3-4 weeks (patient can be reconsidered for enrolment after planned admission)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "50 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Andrew Clark",
+          "affiliation": "Castle Hill Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "29803343",
+          "type": "BACKGROUND",
+          "citation": "Shah P, Pellicori P, Rimmer S, Rigby AS, Clark AL. Effect of increased inspired oxygen on exercise performance in patients with heart failure and normal ejection fraction. Int J Cardiol. 2018 Oct 1;268:166-169. doi: 10.1016/j.ijcard.2018.05.029. Epub 2018 May 24."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D010100",
+          "term": "Oxygen"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D018011",
+          "term": "Chalcogens"
+        },
+        {
+          "id": "D004602",
+          "term": "Elements"
+        },
+        {
+          "id": "D007287",
+          "term": "Inorganic Chemicals"
+        },
+        {
+          "id": "D005740",
+          "term": "Gases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

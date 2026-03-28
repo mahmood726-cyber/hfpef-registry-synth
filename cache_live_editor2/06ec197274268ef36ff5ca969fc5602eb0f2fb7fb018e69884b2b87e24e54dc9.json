@@ -1,0 +1,341 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04600115",
+      "orgStudyIdInfo": {
+        "id": "IRB 94980"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "R01HL135328",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/R01HL135328"
+        }
+      ],
+      "organization": {
+        "fullName": "University of Utah",
+        "class": "OTHER"
+      },
+      "briefTitle": "New MRI Methods Applied to Heart Failure With Preserved Ejection Fraction (HFpEF)",
+      "officialTitle": "New MRI Methods Applied to Heart Failure With Preserved Ejection Fraction (HFpEF)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-10",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-03-03",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-03-03",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2023-03-03",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2020-10-21",
+      "studyFirstSubmitQcDate": "2020-10-21",
+      "studyFirstPostDateStruct": {
+        "date": "2020-10-23",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2020-10-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-10-23",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Edward DiBella",
+        "investigatorTitle": "Ph.D.",
+        "investigatorAffiliation": "University of Utah"
+      },
+      "leadSponsor": {
+        "name": "University of Utah",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Heart, Lung, and Blood Institute (NHLBI)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study's main specific aims are;\n\n1. To develop robust acquisition and reconstruction methods specifically for the study of microvascular cardiac remodeling with MRI which will include very innovative quantitative perfusion methods, as well as fibrosis quantification, longitudinal strain, and phase contrast imaging for flow.\n2. Test the new methods for identifying the clinical task of characterizing HFpEF.",
+      "detailedDescription": "Heart failure with preserved ejection fraction (HFpEF) is currently being studied intensely as several large trials of drug therapies have failed to benefit patients. Better characterization of these patients is important, and there are open questions regarding microvascular disease and remodeling in the HFpEF population. New MRI methods could be ideal to better characterize and understand HFpEF and its response to treatments. This project seeks to develop, evaluate and apply new MRI methods for high-end perfusion imaging. These methods will estimate endo/epi ratios across the cardiac cycle in free-breathing studies, which will provide new information about microvascular disease. This is of particular value for assessing HFpEF.\n\nThe idea of this project is to combine new techniques for quantitative cardiac perfusion MRI imaging that would be ideally suited for answering open questions regarding HFpEF and for studying microvascular disease. The methods could potentially also predict patients who might respond to particular drug therapies.\n\nThe new techniques include \"simultaneous multi-slice\" imaging which has not been used this way for myocardial perfusion imaging. In particular, we are developing an innovative hybrid of the standard saturation pulse and steady state spoiled gradient echo acquisitions. We also are developing a new method for using 3D \"stack of stars\" + 2D slice in the same scan for arterial input function assessment to quantify perfusion, and new methods for measuring T1."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "MRI Scans"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "MRI vs.PET with/without Cardiac disease",
+          "type": "EXPERIMENTAL",
+          "description": "Adenosine Regadenoson O-15 Labeled radioactive water MRI PET Imaging",
+          "interventionNames": [
+            "Drug: Adenosine",
+            "Drug: Regadenoson",
+            "Drug: O-15 labeled radioactive water",
+            "Device: MRI",
+            "Device: PET Imaging"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Adenosine",
+          "description": "Adenosine: 0.14mg/kg/min for 6 min. IV injection for MRI perfusion",
+          "armGroupLabels": [
+            "MRI vs.PET with/without Cardiac disease"
+          ],
+          "otherNames": [
+            "Adenoscan",
+            "Adenocard"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Regadenoson",
+          "description": "0.4mg in 5ml, given as a rapid (10 seconds) IV injection for MRI perfusion.",
+          "armGroupLabels": [
+            "MRI vs.PET with/without Cardiac disease"
+          ],
+          "otherNames": [
+            "Lexiscan"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "O-15 labeled radioactive water",
+          "description": "O-15 labeled radioactive water: Up to 50mCi IV injection at rest and again at hyperemia for PET Imaging",
+          "armGroupLabels": [
+            "MRI vs.PET with/without Cardiac disease"
+          ],
+          "otherNames": [
+            "O-15 water"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "MRI",
+          "description": "Pass dynamic contrast enhanced MRI scans will be performed at rest and during hyperemia caused by either adenosine infusion or regadenoson",
+          "armGroupLabels": [
+            "MRI vs.PET with/without Cardiac disease"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "PET Imaging",
+          "description": "Quantitative PET imaging with O-15 labeled radioactive water will be given at a different day",
+          "armGroupLabels": [
+            "MRI vs.PET with/without Cardiac disease"
+          ],
+          "otherNames": [
+            "Positron Emission Tomography Imaging"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Image quality improvement",
+          "description": "comparison of perfusion, myocardial perfusion reserve (MPR), function possibly including strain, and extracellular volume (ECV, from T1 mapping).",
+          "timeFrame": "Time in the scanner to be 60-90 minutes."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* All participants will be over the age of 18 and able to provide consent\n\n  * Group A (volunteers, with or without cardiac disease): Volunteers will be available for at least one study visit\n  * Group B (HFpEF patient volunteers): Volunteers will have a diagnosis of HFpEF and be safe to be imaged with MRI\n\nExclusion Criteria:\n\n* minors\n* Critically ill patients, patients on ventilators, patients with unstable angina or with hypotension, asthmatics, and other patients whose medical care or safety may be at risk from undergoing an MRI examination will be excluded.\n* Patients with claustrophobia will also be excluded from the study if this cannot be controlled with standard methods (valium or benadryl).\n* Patients with contraindication to MRI (metal implants, or certain types of heart valves),\n* pregnant patients, , mentally disabled patients and prisoners will be excluded from this study. (All criteria apply to patients and normal volunteers).\n* Gadolinium nephrotoxicity will be addressed by having patients with abnormal kidney function (GFR\\<30) excluded from the study due to the (very small) risk associated with gadolinium contrast agents.\n* This threshold may be modified, depending on practices determined by the Radiology Department and the IRB.\n* Patients with a known allergy or contraindication to Adenosine and/or Regadenoson will be excluded from stress MRI cohorts.\n* All participants that will receive a stress agent will refrain from consuming caffeine for at least 12 hours prior to each MRI\n* Subjects with a known contraindication to Adenosine and/or Regadenoson will only be enrolled in scans where no stress agent will be administered",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Nousheen Alasti, BS",
+          "role": "CONTACT",
+          "phone": "801-585-6142",
+          "email": "Nousheen.alasti@hsc.utah.edu"
+        },
+        {
+          "name": "Collin Arsenault, BS.",
+          "role": "CONTACT",
+          "phone": "801-587-8638",
+          "email": "collin.arsenault@hsc.utah.edu"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Edward DiBella, Ph.D.",
+          "affiliation": "Faculty",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "university of Utah, Radiology Research",
+          "status": "RECRUITING",
+          "city": "Salt Lake City",
+          "state": "Utah",
+          "zip": "84108",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Nousheen Alasrti, BS",
+              "role": "CONTACT",
+              "phone": "801-585-6142",
+              "email": "Nousheen.Alasti@hsc.utah.edu"
+            },
+            {
+              "name": "Collin Arsenault, BS",
+              "role": "CONTACT",
+              "phone": "801-587-8638",
+              "email": "Collin.arsenault@hsc.utah.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.76078,
+            "lon": -111.89105
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000241",
+          "term": "Adenosine"
+        },
+        {
+          "id": "C430916",
+          "term": "regadenoson"
+        },
+        {
+          "id": "D049268",
+          "term": "Positron-Emission Tomography"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011684",
+          "term": "Purine Nucleosides"
+        },
+        {
+          "id": "D011687",
+          "term": "Purines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        },
+        {
+          "id": "D012263",
+          "term": "Ribonucleosides"
+        },
+        {
+          "id": "D014055",
+          "term": "Tomography, Emission-Computed"
+        },
+        {
+          "id": "D007090",
+          "term": "Image Interpretation, Computer-Assisted"
+        },
+        {
+          "id": "D003952",
+          "term": "Diagnostic Imaging"
+        },
+        {
+          "id": "D019937",
+          "term": "Diagnostic Techniques and Procedures"
+        },
+        {
+          "id": "D003933",
+          "term": "Diagnosis"
+        },
+        {
+          "id": "D007089",
+          "term": "Image Enhancement"
+        },
+        {
+          "id": "D010781",
+          "term": "Photography"
+        },
+        {
+          "id": "D011877",
+          "term": "Radionuclide Imaging"
+        },
+        {
+          "id": "D014054",
+          "term": "Tomography"
+        },
+        {
+          "id": "D003947",
+          "term": "Diagnostic Techniques, Radioisotope"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

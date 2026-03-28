@@ -1,0 +1,304 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05029570",
+      "orgStudyIdInfo": {
+        "id": "PACE-FIB"
+      },
+      "organization": {
+        "fullName": "Hospital Universitario 12 de Octubre",
+        "class": "OTHER"
+      },
+      "briefTitle": "Heart Rate Regularization in Atrial Fibrilation and Heart Failure",
+      "officialTitle": "Conduction System PACing and Atrioventricular Node Ablation in Patients With hEart Failure, Left Ventricular Ejection Fraction >40% and Permanent Atrial FIBrilation: the PACE-FIB Trial",
+      "acronym": "PACE-FIB"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-09",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-04-29",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2030-07-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2030-09",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-08-26",
+      "studyFirstSubmitQcDate": "2021-08-26",
+      "studyFirstPostDateStruct": {
+        "date": "2021-08-31",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-09-02",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-09-09",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Daniel Rodríguez Muñoz",
+        "investigatorTitle": "Consultant in Cardiac Electrophysiology, Principal Investigator",
+        "investigatorAffiliation": "Hospital Universitario 12 de Octubre"
+      },
+      "leadSponsor": {
+        "name": "Daniel Rodríguez Muñoz",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Sociedad Castellana de Cardiologia",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The PACE-FIB trial is a multicentre, randomised, open-label clinical trial. Patients older than 18 years, with permanent AF, LVEF\\>40%, average resting heart rate ≤ 110 beats per minute (bpm), at least one hospitalisation due to HF in the previous year and basal NT-proBNP level\\>900 pg/ml will be randomised to either CSP and subsequent AV node ablation (intervention group) vs. pharmacologic rate control optimised according to clinical practice guidelines. The impact of both strategies on a composite primary endpoint of all-cause mortality, HF hospitalisation and worsening HF will be evaluated during a 36-month follow-up.",
+      "detailedDescription": "Permanent atrial fibrillation (AF) causes beat-to-beat heart rate irregularity, which has shown to decrease cardiac output. Observational data suggest that heart rate regularization through atrioventricular (AV) node ablation and pacemaker implantation improves outcomes in heart failure (HF) patients. However, no trials have been conducted to assess its potential benefit in HF and left ventricular ejection fraction (LVEF)\\>40%, a population in whom treatment strategies effectively improving outcomes are scarce.\n\nThe goal of this trial is to assess the benefit of heart rate regularization through AV node ablation and conduction system pacing (CSP) in patients with permanent AF and HF with preserved or mildly reduced systolic function. The investigators hypothesize that heart rate regularization added to physiological pacing - preventing the deleterious effect of right apical pacing - reduces mortality, HF hospitalisations or worsening HF in these patients."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure",
+        "Atrial Fibrillation"
+      ],
+      "keywords": [
+        "atrial fibrillation;",
+        "heart failure;",
+        "conduction system pacing;",
+        "heart rate regularization"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Medical Device: Conduction System Pacing (pacemaker implantation)",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Clinical outcomes will be adjudicated by the investigator and reviewed by the Clinical Events Committee, that will be blind to treatment received by the patient.",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 334,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Conduction System Pacing and AV node ablation",
+          "type": "EXPERIMENTAL",
+          "description": "Atrioventricular node ablation and subsequent conduction system pacing",
+          "interventionNames": [
+            "Device: Conduction System Pacing (pacemaker implantation)"
+          ]
+        },
+        {
+          "label": "Medical treatment for rate control of AF",
+          "type": "NO_INTERVENTION",
+          "description": "Pharmacological rate control based on clinical practice guidelines"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Conduction System Pacing (pacemaker implantation)",
+          "description": "Conduction System Pacing (pacemaker implantation) and Atrioventricular node ablation",
+          "armGroupLabels": [
+            "Conduction System Pacing and AV node ablation"
+          ],
+          "otherNames": [
+            "Atrioventricular node ablation"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Composite primary endpoint",
+          "description": "All-cause mortality, heart failure hospitalisation and worsening heart failure",
+          "timeFrame": "36 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "All-cause mortality",
+          "description": "Mortality due to any cause",
+          "timeFrame": "36 months"
+        },
+        {
+          "measure": "Cardiovascular mortality",
+          "description": "Mortality due to cardiovascular causes",
+          "timeFrame": "36 months"
+        },
+        {
+          "measure": "Heart failure hospitalization",
+          "description": "Hospitalization due to heart failure decompensation",
+          "timeFrame": "36 months"
+        },
+        {
+          "measure": "Worsening heart failure",
+          "description": "An episode of heart failure diagnosed based on symptoms, signs, imaging and analytical criteria that requires unplanned medical attention and intravenous diuretic therapy",
+          "timeFrame": "36 months"
+        },
+        {
+          "measure": "Unplanned cardiovascular hospitalisation",
+          "description": "Unplanned cardiovascular hospitalisation",
+          "timeFrame": "36 months"
+        },
+        {
+          "measure": "Left ventricular ejection fraction",
+          "description": "assessed by the Simpson method",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Change in left ventricular dimension",
+          "description": "end-diastolic and end-systolic volumes",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Change in degree of mitral regurgitation",
+          "description": "Change in degree of mitral regurgitation",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Change in functional status",
+          "description": "Assessed by New York Heart Association (NYHA) on a I to IV scale (I being better functional status and IV worst possible functional status)",
+          "timeFrame": "36 months"
+        },
+        {
+          "measure": "Major adverse events during or in the first 30-days following pacemaker implantation",
+          "description": "Percentage of patients suffering one of the following: death, cardiac tamponade, perforation requiring cardiac surgery, pneumothorax, haemothorax, device infection, endocarditis, lead displacement requiring re-intervention",
+          "timeFrame": "30 days"
+        },
+        {
+          "measure": "Major adverse events during or in the first 30-days following atrioventricular node ablation",
+          "description": "Percentage of patients suffering one of the following: death, cardiac tamponade, perforation requiring cardiac surgery, puncture site vascular complications requiring vascular surgery",
+          "timeFrame": "30 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Permanent atrial fibrillation\n* At least one episode of hospitalisation due to heart failure in the previous 12 months.\n* Left ventricular ejection fraction \\> 40%\n* Average resting heart rate ≤ 110 beats per minute\n* NT-proBNP ≥ 900 pg/ml in the 30 days prior to enrollment\n* Age ≥ 18 years\n* Capacity to understand the nature of the study, legal ability and willingness to give informed consent.\n\nExclusion Criteria:\n\n* Severe frailty (Clinical Frailty Scale ≥ 7) or comorbidity reducing life expectancy to \\< 12 months.\n* Acute heart failure at the time of enrollment or systolic blood pressure \\< 80 mmHg in the absence of inotropic agents.\n* Severe chronic kidney disease (estimated Glomerular Filtration Rate ≤ 20 ml/1,73 m2\n* Severe mitral or aortic valvular heart disease\n* Anaemia (Haemoglobin \\< 10 g/dl)\n* Morbid obesity (BMI ≥ 35)\n* Severe Chronic Obstructive Pulmonary Disease (Gold ≥ 3)\n* Presence of a different indication for pacing of implantable cardioverter-defibrillator (ICD)\n* Obstructive hypertrophic cardiomyopathy\n* Infiltrative cardiomyopathy (amyloidosis, sarcoidosis, Fabry disease, others)\n* Simultaneous participation in a different trial",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Daniel Rodriguez Muñoz, MD, PhD",
+          "role": "CONTACT",
+          "phone": "+34 917792742",
+          "email": "danielantonio.rodriguez@salud.madrid.org"
+        },
+        {
+          "name": "Ana Isabel Castillo Varón, PhD",
+          "role": "CONTACT",
+          "phone": "+34 917792742",
+          "email": "aicastillo.imas12@h12o.es"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Fernando Arribas Ynsaurriaga, MD, PhD",
+          "affiliation": "Hospital Universitario 12 de Octubre",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hospital Universitario 12 de Octubre",
+          "status": "RECRUITING",
+          "city": "Madrid",
+          "state": "Madrid",
+          "zip": "28041",
+          "country": "Spain",
+          "contacts": [
+            {
+              "name": "Daniel Rodríguez Muñoz, MD, PhD",
+              "role": "CONTACT",
+              "phone": "+34 917792742",
+              "email": "danielantonio.rodriguez@salud.madrid.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D001281",
+          "term": "Atrial Fibrillation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D001145",
+          "term": "Arrhythmias, Cardiac"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

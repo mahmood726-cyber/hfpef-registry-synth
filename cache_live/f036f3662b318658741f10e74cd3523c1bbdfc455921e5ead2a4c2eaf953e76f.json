@@ -1,0 +1,340 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04343430",
+      "orgStudyIdInfo": {
+        "id": "2019PI188-2"
+      },
+      "organization": {
+        "fullName": "Central Hospital, Nancy, France",
+        "class": "OTHER"
+      },
+      "briefTitle": "Acute Heart Failure With Preserved Ejection Fraction - COngestion Discharge Evaluation",
+      "officialTitle": "Acute Heart Failure With Preserved Ejection Fraction - COngestion Discharge Evaluation: Evaluation de la Congestion à la Sortie d'Hospitalisation Pour Insuffisance Cardiaque aiguë à Fraction d'éjection préservée",
+      "acronym": "AHF-CODE-P"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-03",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-08-29",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-08-29",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-08-29",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2020-04-09",
+      "studyFirstSubmitQcDate": "2020-04-10",
+      "studyFirstPostDateStruct": {
+        "date": "2020-04-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-06-02",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-06-05",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Pr. Nicolas GIRERD",
+        "investigatorTitle": "Acute Heart Failure With Preserved Ejection Fraction - COngestion Discharge Evaluation: Evaluation de la Congestion à la Sortie d'Hospitalisation Pour Insuffisance Cardiaque aiguë à Fraction d'éjection préservée",
+        "investigatorAffiliation": "Central Hospital, Nancy, France"
+      },
+      "leadSponsor": {
+        "name": "Central Hospital, Nancy, France",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The AHF-CODE preserved study is a prospective, non-randomized, monocenter study performed in patients with heart failure with preserved ejection fraction admitted for worsening heart failure.\n\nThe main objective of the AHF-CODE preserved study is to identify congestion markers (clinical, biological and ultrasound) at the end of hospitalization for acute heart failure that are associated with the risk of all cause death or rehospitalization for acute heart failure within 3 months of hospital discharge."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Heart Failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "DIAGNOSTIC",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 170,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Patients hospitalized for acute heart failure",
+          "type": "OTHER",
+          "description": "Patients hospitalized for acute heart failure will undergo the following evaluations:\n\n* Clinical examination centered on congestion\n* Cardiopulmonary , peritoneal , jugular and renal venous Doppler ultrasounds\n* Blood sample retrieved for biological assessment and biobanking\n* Telephone interview",
+          "interventionNames": [
+            "Procedure: Clinical examination centered on congestion",
+            "Procedure: Cardio-pulmonary, peritoneal, jugular and renal Doppler ultrasounds and liver elastography",
+            "Procedure: Biological: Blood sample retrieved for biological assessment and biobanking",
+            "Procedure: Telephone interview",
+            "Behavioral: Kansas City Cardiomyopathy Questionnaire (KCCQ)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "Clinical examination centered on congestion",
+          "description": "Clinical examination centered on congestion (ASCEND, NYHA and Ambrosy Score) will be performed before discharge from hospital",
+          "armGroupLabels": [
+            "Patients hospitalized for acute heart failure"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Cardio-pulmonary, peritoneal, jugular and renal Doppler ultrasounds and liver elastography",
+          "description": "Cardio-pulmonary, peritoneal, jugular and renal Doppler ultrasounds and liver elastography will be performed before discharge from hospital",
+          "armGroupLabels": [
+            "Patients hospitalized for acute heart failure"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Biological: Blood sample retrieved for biological assessment and biobanking",
+          "description": "Blood sample collection will be performed before discharge from hospital",
+          "armGroupLabels": [
+            "Patients hospitalized for acute heart failure"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Telephone interview",
+          "description": "Telephone interview will be performed at 3, 12 months and 24 months after discharge from Hospital",
+          "armGroupLabels": [
+            "Patients hospitalized for acute heart failure"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Kansas City Cardiomyopathy Questionnaire (KCCQ)",
+          "description": "Questionnaire centered on patient's quality of life at discharge and 3, 12 and 24 months after discharge",
+          "armGroupLabels": [
+            "Patients hospitalized for acute heart failure"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Rate of all-cause death",
+          "description": "composite endpoint : rate of all-cause death or re-hospitalisation for acute heart failure at 3 months after hospital discharge (with outcome 2 and 3)",
+          "timeFrame": "3 months after hospital discharge"
+        },
+        {
+          "measure": "Rate of re-hospitalisation for acute heart failure",
+          "description": "composite endpoint : rate of all-cause death or re-hospitalisation for acute heart failure at 3 months after hospital discharge (with outcome 1 and 3)",
+          "timeFrame": "3 months after hospital discharge"
+        },
+        {
+          "measure": "Rate of day-hospital or in-home IV diuretics injection for acute HF",
+          "description": "composite endpoint : rate of all-cause death or re-hospitalisation for acute heart failure at 3 months after hospital discharge (with outcome 2 and 3)",
+          "timeFrame": "3 months after hospital discharge"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Rate of all-cause death",
+          "description": "composite endpoint : rate of all-cause death or re-hospitalisation for acute heart failure at 3,12 and 24 months after hospital discharge (with outcome 5)",
+          "timeFrame": "3, 12 and 24 months after hospital discharge"
+        },
+        {
+          "measure": "Rate of re-hospitalisation for acute heart failure",
+          "description": "composite endpoint : rate of all-cause death or re-hospitalisation for acute heart failure at 3, 12 and 24 months after hospital discharge (with outcome 4)",
+          "timeFrame": "3, 12 and 24 months after hospital discharge"
+        },
+        {
+          "measure": "rate of day-hospital or in home IV diuretics injection for acute HF",
+          "timeFrame": "3, 12 and 24 months after hospital discharge"
+        },
+        {
+          "measure": "Rate of all-cause death",
+          "description": "Rate of all-cause death at 3, 12 and 24 months after hospital discharge",
+          "timeFrame": "3, 12 and 24 months after hospital discharge"
+        },
+        {
+          "measure": "Rate of hospitalisation for acute heart failure",
+          "description": "Rate of hospitalisation for acute heart Failure at 3, 12 and 24 months after hospital discharge",
+          "timeFrame": "3, 12 and 24 months after hospital discharge"
+        },
+        {
+          "measure": "Rate of all-cause death",
+          "description": "composite endpoint : rate of all-cause death or re-hospitalisation for acute heart failure at 3 months after hospital discharge (with outcome 10)",
+          "timeFrame": "3, 12 and 24 months after hospital discharge"
+        },
+        {
+          "measure": "Rate of hospitalisation for acute heart failure",
+          "description": "composite endpoint : rate of all-cause death or re-hospitalisation for acute heart failure at 3 months after hospital discharge (with outcome 9)",
+          "timeFrame": "3, 12 and 24 months after hospital discharge"
+        },
+        {
+          "measure": "Rate of death from all causes",
+          "description": "composite endpoint : rate of all-cause death or re-hospitalisation for acute heart failure at 3, 12 and 24 months after hospital discharge (with outcome 12)",
+          "timeFrame": "3, 12 and 24 months after hospital discharge"
+        },
+        {
+          "measure": "Rate of hospitalisation for acute heart failure",
+          "description": "composite endpoint : rate of all-cause death or re-hospitalisation for acute heart failure at 3, 12 and 24 months after hospital discharge (with outcome 11)",
+          "timeFrame": "3, 12 and 24 months after hospital discharge"
+        },
+        {
+          "measure": "NYHA (New York Heart Association) class",
+          "timeFrame": "3, 12 and 24 months after hospital discharge"
+        },
+        {
+          "measure": "Natriuretic peptides",
+          "description": "BNP or Nt-Pro BNP",
+          "timeFrame": "At inclusion"
+        },
+        {
+          "measure": "Renal function assessed by glomerular filtration rate",
+          "timeFrame": "At inclusion"
+        },
+        {
+          "measure": "Plasma volume",
+          "description": "Calculated from haemoglobin and haematocrit value",
+          "timeFrame": "At inclusion"
+        },
+        {
+          "measure": "Blood potassium",
+          "timeFrame": "At inclusion"
+        },
+        {
+          "measure": "Liver elastography value",
+          "description": "Measured with Fibroscan®",
+          "timeFrame": "At inclusion"
+        },
+        {
+          "measure": "Quality of life assessed by Kansas City Cardiomyopathy Questionnaire",
+          "description": "Assessed by Kansas City Cardiomyopathy Questionnaire (KCCQ)",
+          "timeFrame": "At inclusion and 3, 6 and 24 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients hospitalised for acute heart failure.\n* Patient with preserved ejection fraction (FE ≥ 50%).\n* Patients considered clinically discharging from hospitalisation for acute heart failure.\n* Age ≥18 years\n* Patients having received complete information regarding the study design and having signed their informed consent form.\n* Patient affiliated to or beneficiary of a social security scheme.\n\nExclusion Criteria:\n\n* Comorbidity for which the life expectancy is ≤ 3 months\n* Dialysis patient (peritoneal dialysis or hemodialysis) or patients with glomerular filtration rate \\<15 ml/min/m² at inclusion.\n* History of lobectomy or pneumonectomy lung surgery\n* Severe pulmonary or pleural pathology preventing reliable acquisition of lung ultrasound images: severe emphysema, chronic pleurisy, pulmonary fibrosis, etc.\n* Pregnant woman, parturient or nursing mother\n* Adult person subject to a legal protection measure (guardianship, curatorship, safeguard of justice)\n* Adult person who is unable to give consent\n* Person deprived of liberty by a judicial or administrative decision,\n* Person subject to psychiatric care pursuant to Articles L. 3212-1 and L. 3213-1 of the Public Health Code.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Nicolas GIRERD, MD,PhD",
+          "role": "CONTACT",
+          "phone": "+ 33 3 83 15 73 22",
+          "phoneExt": "+ 33 3",
+          "email": "n.girerd@chru-nancy.fr"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "CHRU de Nancy",
+          "status": "RECRUITING",
+          "city": "Vandœuvre-lès-Nancy",
+          "zip": "54500",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Nicolas GIRERD, MD,PhD",
+              "role": "CONTACT",
+              "phone": "+33383157322",
+              "phoneExt": "+333",
+              "email": "n.girerd@chru-nancy.fr"
+            },
+            {
+              "name": "Nicolas GIRERD, MD,PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.66115,
+            "lon": 6.17114
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D007407",
+          "term": "Interviews as Topic"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003625",
+          "term": "Data Collection"
+        },
+        {
+          "id": "D004812",
+          "term": "Epidemiologic Methods"
+        },
+        {
+          "id": "D008919",
+          "term": "Investigative Techniques"
+        },
+        {
+          "id": "D017531",
+          "term": "Health Care Evaluation Mechanisms"
+        },
+        {
+          "id": "D011787",
+          "term": "Quality of Health Care"
+        },
+        {
+          "id": "D017530",
+          "term": "Health Care Quality, Access, and Evaluation"
+        },
+        {
+          "id": "D011634",
+          "term": "Public Health"
+        },
+        {
+          "id": "D004778",
+          "term": "Environment and Public Health"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,237 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03215849",
+      "orgStudyIdInfo": {
+        "id": "203878"
+      },
+      "organization": {
+        "fullName": "Cardiff and Vale University Health Board",
+        "class": "OTHER_GOV"
+      },
+      "briefTitle": "Pacing in Heart Failure With Preserved LVEF",
+      "officialTitle": "The Effect of Biventricular Pacing in Heart Failure With Preserved Left Ventricular Ejection Fraction: A Pilot Mechanistic Analysis",
+      "acronym": "MAPPLE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-07",
+      "overallStatus": "ENROLLING_BY_INVITATION",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-07-20",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-03-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-03-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2017-06-22",
+      "studyFirstSubmitQcDate": "2017-07-10",
+      "studyFirstPostDateStruct": {
+        "date": "2017-07-12",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-07-17",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-07-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Cardiff and Vale University Health Board",
+        "class": "OTHER_GOV"
+      },
+      "collaborators": [
+        {
+          "name": "Norfolk and Norwich University Hospitals NHS Foundation Trust",
+          "class": "OTHER"
+        },
+        {
+          "name": "Cardiff Metropolitan University",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "A random-order cross-over pilot trial of a CE marked device (pacemaker) outside its current intended purposes.\n\nThe study will comprise 10 patients. Recruitment of patients will take place from The University Hospital of Wales (Cardiff \\& Vale University Health Board \\[CVUHB\\]). All patients recruited will have septal flattening during exercise demonstrated using contrast stress (exercise) echocardiography.\n\nAll 10 patients will be implanted with a CRT-pacemaker device and will be tested on all three of the following settings on separate visits (with a gap of up to 5 days between visits) in random order:\n\nRoutine Medical Therapy Routine Medical Therapy + LVP Routine Medical Therapy + BiVP"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 10,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Routine Medical Therapy",
+          "type": "SHAM_COMPARATOR",
+          "description": "Routine Medical Therapy",
+          "interventionNames": [
+            "Device: CRT-pacemaker device set to Routine Medical Therapy"
+          ]
+        },
+        {
+          "label": "Routine Medical Therapy + LVP",
+          "type": "EXPERIMENTAL",
+          "description": "Routine Medical Therapy + LVP",
+          "interventionNames": [
+            "Device: CRT-pacemaker device set to Routine Medical Therapy + LVP"
+          ]
+        },
+        {
+          "label": "Routine Medical Therapy + BiVP",
+          "type": "EXPERIMENTAL",
+          "description": "Routine Medical Therapy + BiVP",
+          "interventionNames": [
+            "Device: CRT-pacemaker device set to Routine Medical Therapy + BiVP"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "CRT-pacemaker device set to Routine Medical Therapy",
+          "description": "Medtronic Serena™ QUAD CRT-P MRI™ SureScan™ W4TR05 set to Routine Medical Therapy",
+          "armGroupLabels": [
+            "Routine Medical Therapy"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "CRT-pacemaker device set to Routine Medical Therapy + LVP",
+          "description": "Medtronic Serena™ QUAD CRT-P MRI™ SureScan™ W4TR05 set to Routine Medical Therapy + LVP",
+          "armGroupLabels": [
+            "Routine Medical Therapy + LVP"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "CRT-pacemaker device set to Routine Medical Therapy + BiVP",
+          "description": "Medtronic Serena™ QUAD CRT-P MRI™ SureScan™ W4TR05 set to Routine Medical Therapy + BiVP",
+          "armGroupLabels": [
+            "Routine Medical Therapy + BiVP"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in septal radius of curvature (corrected for LV area) between rest and peak exercise on stress echocardiography across the three pacing states.",
+          "timeFrame": "12 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in LV area between rest and exercise across the three pacing states",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Change in Systolic and Diastolic mechanical Dyssynchrony Assessment on echocardiography across the three pacing states",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Change in rest and exercise E/E' on echocardiography across the three pacing states",
+          "timeFrame": "12 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Clinical features consistent with heart failure. All patients will have symptoms of moderate to severe heart failure with New York Heart Association (NHYA) classification III or IV symptoms (for at least 3 months).\n2. LV Ejection Fraction less or equal to 50%, with no evidence of significant valvular disease, no hypertrophic or restrictive cardiomyopathy, and no evidence of pericardial constriction.\n3. Additionally all patients will have demonstrated evidence of septal flattening during exercise using contrast echocardiography.\n4. Adults (over 18 years)\n5. Negative test for Covid during surgical pre-assessment, and adherence to prescribed self-isolation before implantation.\n6. Two weeks or more following final dose of vaccination against coronavirus.\n\nExclusion Criteria:\n\n1. Inability to provide informed consent.\n2. Enrolment in other clinical studies.\n3. BMI more than 35\n4. Objective evidence of significant lung disease on formal lung function testing\n5. Previous (within three months) or scheduled coronary revascularisation or other cardiac surgery\n6. Acute coronary syndrome (within the previous three months)\n7. History of atrial fibrillation (AF)\n8. Renal insufficiency requiring haemodialysis\n9. Life expectancy less than 6 months\n10. Prosthetic heart valves\n11. Blood coagulation disorders\n12. Immunocompromised patients (e.g. AIDS, patients on steroids, cytotoxic drugs, and radiation therapy)\n13. Currently pregnant, or intending to conceive.\n14. Recent positive Covid test (up to 14 days prior to pre-assessment).",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Zaheer Yousef",
+          "affiliation": "Cardiff and Vale University Health Board",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University Hospital Wales",
+          "city": "Cardiff",
+          "zip": "CF14 4UJ",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.48,
+            "lon": -3.18
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

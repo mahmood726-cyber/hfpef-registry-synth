@@ -1,0 +1,458 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00430859",
+      "orgStudyIdInfo": {
+        "id": "AP SEP 02-01"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "EudraCT No. 2005-005257-21"
+        }
+      ],
+      "organization": {
+        "fullName": "AM-Pharma",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Bovine Intestinal Alkaline Phosphatase for the Treatment of Patients With Sepsis",
+      "officialTitle": "A Pilot, Double-blind, Randomised, Placebo-controlled, Exploratory Study to Investigate the Safety and Effect of Bovine Intestinal Alkaline Phosphatase in Patients With Sepsis"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2012-03",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2004-09"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2006-03",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2006-03",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2007-02-01",
+      "studyFirstSubmitQcDate": "2007-02-01",
+      "studyFirstPostDateStruct": {
+        "date": "2007-02-02",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2012-03-30",
+      "lastUpdatePostDateStruct": {
+        "date": "2012-04-02",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "AM-Pharma",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Eligible patients will receive either AP or matching placebo in a double blind, randomized design and following a 2:1 ratio. All medication will be given in addition to standard care for sepsis patients. Patients will be followed for 28 days after the start of study medication administration. A blinded safety review of the study results will take place after the inclusion of 12 patients in the study.",
+      "detailedDescription": "Both bolus and continuous infusions were found to effectively reduce the LPS-induced pro-inflammatory cytokine TNFα in piglets. When AP was administered as a bolus (160 U/kg), the reduction of TNFα after administration of 10 μg/kg LPS in piglets was found to be in the order of 32%. When 100 U/kg of CIAP was administered as an infusion over 50 minutes, reaching steady state levels of 400 U/L, the reduction in TNFα after LPS challenge was substantially (70%), as compared to TNFα levels after LPS only. A series of these studies demonstrated that dosages of 100-120 U/kg administered over 50 minutes could effectively reduce LPS toxicity at steady state levels around 400 U/L, about a 10 fold of the normal alkaline phosphatase plasma levels (40 U/L in piglets). Furthermore, it is estimated that the above-mentioned dosages can effectively detoxify 10 μg LPS/kg in piglets, which represents an LPS-equivalent derived from about 1010 colony forming units (cfu) of E.coli. These amounts of circulating bacteria are not easily established in a sepsis patient. It is estimated (personal communication, Prof. S. van Deventer, Academic Medical Centre, Amsterdam) that the bacterial load in these patients is less than 107 bacteria total, which is equivalent to approx. 2x105 cfu/kg.\n\nIn summary, in piglets 160 U/kg AP was able to detoxify an amount of LPS equivalent to 1010 cfu E. Coli/kg, which is approximately 50,000 times the expected amount of bacteria in sepsis patients. We therefore expect that the dosage used in human (200 U/kg) administered over 24 hours is able to detoxify the amount of LPS present in sepsis patients. This dosage will result in 5-times normal plasma level of alkaline phosphatase which was well tolerated during the previous clinical trials. Since the effect of antibiotic treatment is expected to occur within hours of administration we decided to establish this steady state level of AP as fast as possible, which explains the initial bolus-like administration by short infusion, followed by a prolonged steady state infusion."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Sepsis",
+        "Multiple Organ Dysfunction Syndrome"
+      ],
+      "keywords": [
+        "Sepsis",
+        "Alkaline",
+        "Phosphatase",
+        "Lipopolysaccharide"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 37,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "1",
+          "type": "EXPERIMENTAL",
+          "description": "BIAP",
+          "interventionNames": [
+            "Drug: Alkaline Phosphatase"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo, saline",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Alkaline Phosphatase",
+          "description": "Intravenous over a period of 24 hours",
+          "armGroupLabels": [
+            "1"
+          ],
+          "otherNames": [
+            "AP, BIAP, CIAP"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Saline over a period of 24h",
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "otherNames": [
+            "saline"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Presence of (Serious) Adverse Events ((S)AEs), vital signs (body temperature, heart rate), systolic and diastolic blood pressure, electrocardiogram variables, biochemical, haematological, and coagulation variables, and frequency and type of anti-AP.",
+          "timeFrame": "28 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Variables for evaluation of the effect on inflammation: C-reactive protein (CRP), plasma lactate, cytokines (TNFalfa, IL-6, IL-8, IL-10), white cell count, and procalcitonin (PCT) were assessed.differential",
+          "timeFrame": "28"
+        },
+        {
+          "measure": "Evaluation effect: APACHE-II score, overall mortality at 28 days, length of stay at ICU, number of days requiring mechanical ventilation, length of stay in hospital, SOFA score, and number of dysfunctional organs were assessed.",
+          "timeFrame": "28"
+        },
+        {
+          "measure": "Clinical assessment after 90 days",
+          "timeFrame": "90 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients between 18 and 80 years (inclusive);\n* proven or suspected infection;\n* meeting 2 of 4 of the systemic inflammatory response syndrome (SIRS) criteria;\n* septic shock or one or more acute organ failures in the preceding 12 hours;\n* written informed consent obtained.\n\nExclusion Criteria:\n\n* Pregnant or lactating women;\n* known HIV seropositive patients;\n* patients receiving immunosuppressive therapy or chronically using high doses of glucocorticosteroids (defined as \\> 1 mg/kg/day) equivalent to prednisone 1 mg/kg/day;\n* patients expected to have rapidly fatal disease within 24 h;\n* known confirmed gram-positive sepsis;\n* known confirmed fungal sepsis;\n* chronic renal failure requiring haemodialysis or peritoneal dialysis;\n* acute pancreatitis with no established source of infection;\n* patients not expected to survive for 28 days due to other medical conditions such as end-stage neoplasm or other diseases;\n* participation in another investigational study within 90 days prior to start of the study which might interfere with this study;\n* previous administration of AP;\n* known allergy for cow milk.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Bart Wuurman, M.Sc.",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Hans JG van der Hoeven, MD, PhD",
+          "affiliation": "Radboud University Medical Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hospital Network Antwerpen - Middelheim",
+          "city": "Antwerp",
+          "state": "Antwerpen",
+          "zip": "B-2020",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.22047,
+            "lon": 4.40026
+          }
+        },
+        {
+          "facility": "University Hospital Antwerpen",
+          "city": "Antwerp",
+          "state": "Antwerpen",
+          "zip": "B-2650",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.22047,
+            "lon": 4.40026
+          }
+        },
+        {
+          "facility": "University Hospital Vrije Universiteit Brussel",
+          "city": "Brussels",
+          "state": "Brussels Capital",
+          "zip": "B-1090",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.85045,
+            "lon": 4.34878
+          }
+        },
+        {
+          "facility": "University Medical Centre St. Radboud",
+          "city": "Nijmegen",
+          "state": "Gelderland",
+          "zip": "6500 HB",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.8425,
+            "lon": 5.85278
+          }
+        },
+        {
+          "facility": "St. Elisabeth Hospital",
+          "city": "Tilburg",
+          "state": "North Brabant",
+          "zip": "5022 GC",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.55551,
+            "lon": 5.0913
+          }
+        },
+        {
+          "facility": "Isala Clinics",
+          "city": "Zwolle",
+          "state": "Overijssel",
+          "zip": "8011 JW",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.5125,
+            "lon": 6.09444
+          }
+        },
+        {
+          "facility": "Medical Centre Leeuwarden",
+          "city": "Leeuwarden",
+          "state": "Provincie Friesland",
+          "zip": "8934 AD",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 53.20271,
+            "lon": 5.80973
+          }
+        },
+        {
+          "facility": "University Medical Centre Groningen",
+          "city": "Groningen",
+          "state": "Provincie Groningen",
+          "zip": "9700 RB",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 53.21917,
+            "lon": 6.56667
+          }
+        },
+        {
+          "facility": "University Medical Centre Utrecht",
+          "city": "Utrecht",
+          "state": "Utrecht",
+          "zip": "3508 GA",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.09083,
+            "lon": 5.12222
+          }
+        },
+        {
+          "facility": "Erasmus Medical Centre",
+          "city": "Rotterdam",
+          "state": "Z-Holland",
+          "zip": "3015 GD",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.9225,
+            "lon": 4.47917
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "12700374",
+          "type": "BACKGROUND",
+          "citation": "Martin GS, Mannino DM, Eaton S, Moss M. The epidemiology of sepsis in the United States from 1979 through 2000. N Engl J Med. 2003 Apr 17;348(16):1546-54. doi: 10.1056/NEJMoa022139."
+        },
+        {
+          "pmid": "7799491",
+          "type": "BACKGROUND",
+          "citation": "Rangel-Frausto MS, Pittet D, Costigan M, Hwang T, Davis CS, Wenzel RP. The natural history of the systemic inflammatory response syndrome (SIRS). A prospective study. JAMA. 1995 Jan 11;273(2):117-23."
+        },
+        {
+          "pmid": "2299753",
+          "type": "BACKGROUND",
+          "citation": "From the Centers for Disease Control. Increase in National Hospital Discharge Survey rates for septicemia--United States, 1979-1987. JAMA. 1990 Feb 16;263(7):937-8. No abstract available."
+        },
+        {
+          "pmid": "10755499",
+          "type": "BACKGROUND",
+          "citation": "Angus DC, Birmingham MC, Balk RA, Scannon PJ, Collins D, Kruse JA, Graham DR, Dedhia HV, Homann S, MacIntyre N. E5 murine monoclonal antiendotoxin antibody in gram-negative sepsis: a randomized controlled trial. E5 Study Investigators. JAMA. 2000 Apr 5;283(13):1723-30. doi: 10.1001/jama.283.13.1723."
+        },
+        {
+          "pmid": "10697064",
+          "type": "BACKGROUND",
+          "citation": "Annane D, Sebille V, Troche G, Raphael JC, Gajdos P, Bellissant E. A 3-level prognostic classification in septic shock based on cortisol levels and cortisol response to corticotropin. JAMA. 2000 Feb 23;283(8):1038-45. doi: 10.1001/jama.283.8.1038."
+        },
+        {
+          "pmid": "2197912",
+          "type": "BACKGROUND",
+          "citation": "Parrillo JE, Parker MM, Natanson C, Suffredini AF, Danner RL, Cunnion RE, Ognibene FP. Septic shock in humans. Advances in the understanding of pathogenesis, cardiovascular dysfunction, and therapy. Ann Intern Med. 1990 Aug 1;113(3):227-42. doi: 10.7326/0003-4819-113-3-227."
+        },
+        {
+          "pmid": "9228382",
+          "type": "BACKGROUND",
+          "citation": "Bone RC, Grodzin CJ, Balk RA. Sepsis: a new hypothesis for pathogenesis of the disease process. Chest. 1997 Jul;112(1):235-43. doi: 10.1378/chest.112.1.235. No abstract available."
+        },
+        {
+          "pmid": "1303622",
+          "type": "BACKGROUND",
+          "citation": "Bone RC, Balk RA, Cerra FB, Dellinger RP, Fein AM, Knaus WA, Schein RM, Sibbald WJ. Definitions for sepsis and organ failure and guidelines for the use of innovative therapies in sepsis. The ACCP/SCCM Consensus Conference Committee. American College of Chest Physicians/Society of Critical Care Medicine. Chest. 1992 Jun;101(6):1644-55. doi: 10.1378/chest.101.6.1644."
+        },
+        {
+          "pmid": "19114895",
+          "type": "RESULT",
+          "citation": "Heemskerk S, Masereeuw R, Moesker O, Bouw MP, van der Hoeven JG, Peters WH, Russel FG, Pickkers P; APSEP Study Group. Alkaline phosphatase treatment improves renal function in severe sepsis or septic shock patients. Crit Care Med. 2009 Feb;37(2):417-23, e1. doi: 10.1097/CCM.0b013e31819598af."
+        },
+        {
+          "pmid": "19048243",
+          "type": "RESULT",
+          "citation": "Pickkers P, Snellen F, Rogiers P, Bakker J, Jorens P, Meulenbelt J, Spapen H, Tulleken JE, Lins R, Ramael S, Bulitta M, van der Hoeven JG. Clinical pharmacology of exogenously administered alkaline phosphatase. Eur J Clin Pharmacol. 2009 Apr;65(4):393-402. doi: 10.1007/s00228-008-0591-6. Epub 2008 Dec 2."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D018805",
+          "term": "Sepsis"
+        },
+        {
+          "id": "D009102",
+          "term": "Multiple Organ Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007239",
+          "term": "Infections"
+        },
+        {
+          "id": "D018746",
+          "term": "Systemic Inflammatory Response Syndrome"
+        },
+        {
+          "id": "D007249",
+          "term": "Inflammation"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D012769",
+          "term": "Shock"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000469",
+          "term": "Alkaline Phosphatase"
+        },
+        {
+          "id": "C044481",
+          "term": "2-(3',4'-dihydroxyphenyl-1-azo)benzimidazole"
+        },
+        {
+          "id": "D012965",
+          "term": "Sodium Chloride"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010744",
+          "term": "Phosphoric Monoester Hydrolases"
+        },
+        {
+          "id": "D004950",
+          "term": "Esterases"
+        },
+        {
+          "id": "D006867",
+          "term": "Hydrolases"
+        },
+        {
+          "id": "D004798",
+          "term": "Enzymes"
+        },
+        {
+          "id": "D045762",
+          "term": "Enzymes and Coenzymes"
+        },
+        {
+          "id": "D002712",
+          "term": "Chlorides"
+        },
+        {
+          "id": "D006851",
+          "term": "Hydrochloric Acid"
+        },
+        {
+          "id": "D017606",
+          "term": "Chlorine Compounds"
+        },
+        {
+          "id": "D007287",
+          "term": "Inorganic Chemicals"
+        },
+        {
+          "id": "D017670",
+          "term": "Sodium Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,277 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01831518",
+      "orgStudyIdInfo": {
+        "id": "STHCIT1"
+      },
+      "organization": {
+        "fullName": "Guy's and St Thomas' NHS Foundation Trust",
+        "class": "OTHER"
+      },
+      "briefTitle": "Predicting Response to CRT Using Body Surface ECG Mapping",
+      "officialTitle": "Evaluation of a Novel Method of Non-surface Electrocardiographic Mapping in Predicting Clinical, Structural and Neurohormonal Responses in Patients Undergoing Cardiac Resynchronization Therapy."
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2018-10",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2014-07"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2016-06-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2016-06-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2013-04-04",
+      "studyFirstSubmitQcDate": "2013-04-10",
+      "studyFirstPostDateStruct": {
+        "date": "2013-04-15",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2018-10-04",
+      "lastUpdatePostDateStruct": {
+        "date": "2018-10-05",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Tom Jackson",
+        "investigatorTitle": "Clinical Research Fellow",
+        "investigatorAffiliation": "Guy's and St Thomas' NHS Foundation Trust"
+      },
+      "leadSponsor": {
+        "name": "Tom Jackson",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Royal Brompton & Harefield NHS Foundation Trust",
+          "class": "OTHER"
+        },
+        {
+          "name": "CardioInsight Technologies, Inc.",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Cardiac resynchronization therapy (CRT) involves pacing the left and right side of the heart in order to improve the coordination of the contraction in patients with heart failure. Current selection criteria incorporate the severity of the symptoms, the mechanical function of the heart and the time it takes the electrical stimulation to spread over the left ventricle (as assessed on the standard 12 lead electrocardiogram-ECG). Unfortunately these criteria only seem to select approximately 70% of the patients who might respond to this invasive therapy. Body surface ECG mapping is a new technique that assesses the electrical activation of the heart in more detail than the standard ECG. This study aims to determine whether this new technology may aid current selection criteria in predicting response to CRT."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ],
+      "keywords": [
+        "Heart Failure",
+        "Cardiac Resynchronization Therapy",
+        "ECG Imaging",
+        "Body Surface Mapping"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "DIAGNOSTIC",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 20,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "CRT Eligible",
+          "type": "EXPERIMENTAL",
+          "description": "ACC/AHA/HRS/ESC guidelines for device-based therapy",
+          "interventionNames": [
+            "Device: CRT Implant",
+            "Device: Body Surface ECG Mapping"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "CRT Implant",
+          "armGroupLabels": [
+            "CRT Eligible"
+          ],
+          "otherNames": [
+            "Cardiac Resynchronization",
+            "Biventricular Pacemaker"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Body Surface ECG Mapping",
+          "armGroupLabels": [
+            "CRT Eligible"
+          ],
+          "otherNames": [
+            "ECG Imaging"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in distance travelled during six-minute walk test (6MWT)",
+          "timeFrame": "Baseline and 6 months"
+        },
+        {
+          "measure": "Echocardiographic: signs of LV reverse remodelling",
+          "description": "Increase by \\>5% in left ventricular ejection fraction with an associated decrease in LV end-diastolic (LVEDV) and end-systolic (LVESV) volumes",
+          "timeFrame": "Baseline and 6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Symptoms",
+          "description": "Change in symptoms severity assessed by Minnesota Living With Heart Failure Questionnaire (MLHFQ)",
+          "timeFrame": "Baseline and 6 months"
+        },
+        {
+          "measure": "Neurohormonal status",
+          "description": "Change in neurohormonal activation assessed by brain-natriuretic peptide (BNP)",
+          "timeFrame": "Baseline and 6 Months"
+        },
+        {
+          "measure": "Pacing",
+          "description": "Atrial and ventricular arrhythmic burden, percentage of bi-ventricular pacing",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \\>18 years old\n* Fulfils established clinical criteria for CRT implantation (with or without a defibrillator)\n* NYHA Class III-IV Heart Failure (or NYHA II with NYHA III/IV symptoms in the preceding 12 months)\n* LVEF \\<35% (Calculated using echocardiography or Cardiac MR) at the time of implantation\n* QRS duration \\> 130ms\n* Optimal Tolerated Medical Therapy for Heart Failure\n\nExclusion Criteria:\n\n* Severe, life threatening non cardiac disease\n* Active malignant disease and recent (\\<5 years) malignant disease\n* Prior Heart Transplant\n* Recent history of unstable angina, acute coronary syndrome or myocardial infarction within three months of enrolment into the study\n* Pregnancy\n* Failure to participate in consent process\n* Atrial Fibrillation\n* Conventional pacemaker in situ\n* Heart Failure requiring constant intravenous therapy including diuretics and/or inotropes\n* Recent revascularisation procedure i.e. coronary artery bypass grafting (CABG) or percutaneous coronary intervention (PCI) within the last three months",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Guy's and St Thomas' NHS Foundation Trust",
+          "city": "London",
+          "zip": "SE1 7EH",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "The Royal Brompton and Harefield NHS Foundation Trust",
+          "city": "London",
+          "zip": "SW3 6NP",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "31201592",
+          "type": "DERIVED",
+          "citation": "Jackson T, Claridge S, Behar J, Sieniewicz B, Gould J, Porter B, Sidhu B, Yao C, Lee A, Niederer S, Rinaldi CA. Differential effect with septal and apical RV pacing on ventricular activation in patients with left bundle branch block assessed by non-invasive electrical imaging and in silico modelling. J Interv Card Electrophysiol. 2020 Jan;57(1):115-123. doi: 10.1007/s10840-019-00567-2. Epub 2019 Jun 14."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D058406",
+          "term": "Cardiac Resynchronization Therapy"
+        },
+        {
+          "id": "D058409",
+          "term": "Cardiac Resynchronization Therapy Devices"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D002304",
+          "term": "Cardiac Pacing, Artificial"
+        },
+        {
+          "id": "D004599",
+          "term": "Electric Stimulation Therapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D010138",
+          "term": "Pacemaker, Artificial"
+        },
+        {
+          "id": "D004566",
+          "term": "Electrodes"
+        },
+        {
+          "id": "D055615",
+          "term": "Electrical Equipment and Supplies"
+        },
+        {
+          "id": "D004864",
+          "term": "Equipment and Supplies"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

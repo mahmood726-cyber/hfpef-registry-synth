@@ -1,0 +1,339 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06855992",
+      "orgStudyIdInfo": {
+        "id": "B-BR-113-066-T"
+      },
+      "organization": {
+        "fullName": "National Cheng-Kung University Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Transcutaneous Laser Therapy in Chronic Kidney Disease",
+      "officialTitle": "The Effects of Transcutaneous Laser Therapy in Chronic Kidney Disease",
+      "acronym": "Laser_CKD"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-01",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-03-17",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-01-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-02-21",
+      "studyFirstSubmitQcDate": "2025-03-02",
+      "studyFirstPostDateStruct": {
+        "date": "2025-03-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-03-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-03-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Cheng-Feng Lin",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "National Cheng-Kung University Hospital"
+      },
+      "leadSponsor": {
+        "name": "National Cheng-Kung University Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Chronic kidney disease (CKD) affects approximately 10% of the global population, totaling over 800 million people. In Taiwan, one in eight individuals is diagnosed with CKD. According to National Health Insurance data, acute kidney injury and CKD rank first in medical expenditures, imposing a significant burden on patients' quality of life and the national healthcare system. Early intervention in CKD, especially for high-risk populations (e.g., individuals with diabetes or early-stage kidney dysfunction), can slow disease progression, delay the onset of kidney failure, and postpone the need for dialysis.\n\nTranscutaneous venous laser therapy is a non-invasive treatment. Current literature has demonstrated that it enhances blood circulation, alters blood and erythrocyte activity, and exhibits immunomodulatory, anti-inflammatory, and vasodilatory effects on the blood. Additionally, it boosts mitochondrial activity, which is crucial as mitochondria act as the energy powerhouses of cells, providing the necessary energy for kidneys to maintain normal function.\n\nThis project aims to investigate whether this non-invasive transcutaneous venous laser therapy can reduce inflammation, improve physical activity, and further enhance patients' quality of life. It also seeks to reduce patients' medical expenses and National Health Insurance costs."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Chronic Kidney Disease(CKD)"
+      ],
+      "keywords": [
+        "chronic kidney disease"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 120,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Laser first then sham",
+          "type": "OTHER",
+          "description": "Administer a 60-minute, 635 nm laser intervention three times per week for 8 weeks, followed by a 6-week washout period. Subsequently, provide a 60-minute red light sham intervention three times per week for another 8 weeks.",
+          "interventionNames": [
+            "Device: Laser",
+            "Device: Red Light"
+          ]
+        },
+        {
+          "label": "Sham first then laser",
+          "type": "OTHER",
+          "description": "Administer a 60-minute red light sham intervention three times per week for 8 weeks, followed by a 6-week washout period. Subsequently, provide a 60-minute, 635 nm laser intervention three times per week for another 8 weeks.",
+          "interventionNames": [
+            "Device: Laser",
+            "Device: Red Light"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Laser",
+          "description": "60-minute 635 nm red laser intervention 3 times per week for 8 weeks",
+          "armGroupLabels": [
+            "Laser first then sham",
+            "Sham first then laser"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Red Light",
+          "description": "60-minute red light sham intervention three times per week for 8 weeks",
+          "armGroupLabels": [
+            "Laser first then sham",
+            "Sham first then laser"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Basic data",
+          "description": "Participant demographic data and relevant medical histories will be collected, including gender, age, medication usage, chronic diseases, major illnesses, and surgical history.",
+          "timeFrame": "laser intervention: baseline, 4 weeks, and 8 weeks; red light intervention: baseline, 4 weeks, and 8 weeks"
+        },
+        {
+          "measure": "Weight",
+          "description": "The participant's body weight is measured in kilograms (kg) using a calibrated digital. The measurement is taken with the participant standing upright, wearing light clothing and no shoes to ensure accuracy.",
+          "timeFrame": "laser intervention: baseline, 4 weeks, and 8 weeks; red light intervention: baseline, 4 weeks, and 8 weeks"
+        },
+        {
+          "measure": "Height",
+          "description": "The participant's height is measured in centimeters (cm) using a stadiometer or a height-measuring rod. The measurement is taken with the participant standing upright, feet together, heels against the wall or stadiometer, and head in the Frankfort horizontal plane. The participant should be barefoot and maintain a natural posture.",
+          "timeFrame": "laser intervention: baseline, 4 weeks, and 8 weeks; red light intervention: baseline, 4 weeks, and 8 weeks"
+        },
+        {
+          "measure": "Body Mass Index",
+          "description": "Body Mass Index (BMI) is measured by first recording the participant's weight in kilograms (kg) using a calibrated scale while they are barefoot and wearing light clothing. Height is then measured in meters (m) using a stadiometer, with the participant standing upright, feet together. BMI is calculated using the formula BMI = weight (kg) / height (m)².",
+          "timeFrame": "laser intervention: baseline, 4 weeks, and 8 weeks; red light intervention: baseline, 4 weeks, and 8 weeks"
+        },
+        {
+          "measure": "Blood pressure and heart rate",
+          "description": "Blood pressure and heart rate are measured with the participant seated comfortably in a quiet environment for at least 5 minutes. A calibrated automatic sphygmomanometer is used to measure systolic and diastolic blood pressure (mmHg) on the upper arm, with the cuff positioned at heart level. Heart rate (beats per minute) is recorded using the same device.",
+          "timeFrame": "laser intervention: baseline, 4 weeks, and 8 weeks; red light intervention: baseline, 4 weeks, and 8 weeks"
+        },
+        {
+          "measure": "Blood parameters",
+          "description": "Blood parameters, including blood urea nitrogen (BUN), serum creatinine, glomerular filtration rate (GFR), nitrogen, sodium, potassium, phosphorus, hemoglobin, and pH levels, will be measured through venous blood samples collected under standardized conditions.",
+          "timeFrame": "laser intervention: baseline, 4 weeks, and 8 weeks; red light intervention: baseline, 4 weeks, and 8 weeks"
+        },
+        {
+          "measure": "Handgrip strength",
+          "description": "Maximal grip strength was assessed using a calibrated dynamometer while the participant stood with feet shoulder-width apart and arms relaxed at their sides. The test was conducted three times using the dominant hand, and the highest value from the three trials was recorded for analysis.",
+          "timeFrame": "laser intervention: baseline, 4 weeks, and 8 weeks; red light intervention: baseline, 4 weeks, and 8 weeks"
+        },
+        {
+          "measure": "Knee extensor strength",
+          "description": "The knee extensor strength will be assessed using a hand-held dynamometer to ensure accurate and reliable measurements. Participants will be positioned in a standardized manner, typically seated with their knees at a 90-degree flexion to maintain consistency across trials. The dynamometer will be placed just above the ankle, and participants will be instructed to exert maximal isometric contraction against the device. Each measurement will be performed three times, with brief rest periods between trials to minimize fatigue.",
+          "timeFrame": "laser intervention: baseline, 4 weeks, and 8 weeks; red light intervention: baseline, 4 weeks, and 8 weeks"
+        },
+        {
+          "measure": "Sit-to-stand test",
+          "description": "The Sit-to-Stand Test is a functional assessment used to evaluate lower limb strength, endurance, and balance. During the test, the participant sits in a standardized chair with feet flat on the floor and arms crossed over the chest, then repeatedly stands up and sits down as many times as possible within 30 seconds. The total number of completed repetitions is recorded, with a higher count indicating better functional endurance.",
+          "timeFrame": "laser intervention: baseline, 4 weeks, and 8 weeks; red light intervention: baseline, 4 weeks, and 8 weeks"
+        },
+        {
+          "measure": "2-minute step test",
+          "description": "For the 2-Minute Step Test, participants were instructed to step in place at a comfortable pace for two minutes, ensuring that the knee was raised to a height midway between the iliac crest and the patella with each step. The total number of times the right knee reached the specified height during the test period was recorded for analysis.",
+          "timeFrame": "laser intervention: baseline, 4 weeks, and 8 weeks; red light intervention: baseline, 4 weeks, and 8 weeks"
+        },
+        {
+          "measure": "Maximal inspiratory pressure (MIP) and maximal expiratory pressure (MEP)",
+          "description": "MIP assesses inspiratory muscle strength. The participant sits upright with a nose clip and exhales fully to residual volume (RV) before performing a maximal inspiratory effort against a closed valve. The highest pressure (cmH₂O) from 3 trials is recorded.\n\nMEP evaluates expiratory muscle strength. The participant sits upright with a nose clip, inhales fully to total lung capacity (TLC), and performs a forceful maximal expiration against a closed valve. The highest pressure (cmH₂O) from 3 trials is recorded.",
+          "timeFrame": "laser intervention: baseline, 4 weeks, and 8 weeks; red light intervention: baseline, 4 weeks, and 8 weeks"
+        },
+        {
+          "measure": "The Kidney Disease Quality of Life-36 (KDQOL-36)",
+          "description": "The Kidney Disease Quality of Life-36 (KDQOL-36) scale is a measure of health-related quality of life (HRQoL) in individuals with kidney disease, with scores ranging from 0 to 100, where higher scores indicate better HRQoL. The KDQOL-36 consists of five subscales: the SF-12 Physical Component Summary (PCS) and Mental Component Summary (MCS), where higher scores reflect better physical and mental health, respectively; the Effects of Kidney Disease on Daily Life subscale, where higher scores signify less impact on daily activities; the Burden of Kidney Disease subscale, where higher scores represent a lower perceived burden of the disease; and the Symptoms and Problems of Kidney Disease subscale, where higher scores indicate fewer symptoms and problems.",
+          "timeFrame": "laser intervention: baseline, 4 weeks, and 8 weeks; red light intervention: baseline, 4 weeks, and 8 weeks"
+        },
+        {
+          "measure": "Time up and go test",
+          "description": "The participant sits on a standard-height chair, stands up without using their hands (unless necessary), walks 3 meters (10 feet) to a designated marker, turns around, walks back to the chair, and sits down, with timing starting upon standing and stopping once seated.",
+          "timeFrame": "laser intervention: baseline, 4 weeks, and 8 weeks; red light intervention: baseline, 4 weeks, and 8 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Individuals aged \\>20 years diagnosed with chronic kidney disease (CKD) stages 2-5.\n* Estimated glomerular filtration rate (eGFR) \\< 90 ml/min/1.73m² (lasting for more than three months).\n* Willing to provide routine blood test results before, during, and after each phase of the study.\n\nExclusion Criteria:\n\n* Acute kidney changes within the past three months (e.g., \\>30% decline in eGFR), or individuals with impaired consciousness, shortness of breath, or inability to follow instructions.\n* Blood pressure exceeding 160 mmHg at the time of participation.\n* Severe cardiovascular diseases (e.g., pacemaker implantation), upper limb trauma or infections, systemic lupus erythematosus, or skin cancer.\n* Use of photosensitizing medications, pregnancy, or malignant tumors.\n* Sensory nerve abnormalities, coagulation disorders, or the presence of kidney stones.\n* Individuals with a hierarchical relationship to the study's principal investigator or team members (e.g., those from the same laboratory or having a student-mentor relationship).",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "20 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Cheng Feng Lin, PhD",
+          "role": "CONTACT",
+          "phone": "+886-6-2353535",
+          "phoneExt": "5721",
+          "email": "connie@mail.ncku.edu.tw"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Cheng-Feng Lin Professor, PhD",
+          "affiliation": "National Cheng-Kung University Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Chien-Yao Sun MD",
+          "affiliation": "National Cheng-Kung University Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Wei-Hung Lin MD",
+          "affiliation": "National Cheng-Kung University Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Li-Chieh Kuo Professor, PhD",
+          "affiliation": "National Cheng Kung University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D051436",
+          "term": "Renal Insufficiency, Chronic"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D051437",
+          "term": "Renal Insufficiency"
+        },
+        {
+          "id": "D007674",
+          "term": "Kidney Diseases"
+        },
+        {
+          "id": "D014570",
+          "term": "Urologic Diseases"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D052801",
+          "term": "Male Urogenital Diseases"
+        },
+        {
+          "id": "D002908",
+          "term": "Chronic Disease"
+        },
+        {
+          "id": "D020969",
+          "term": "Disease Attributes"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D007834",
+          "term": "Lasers"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D055096",
+          "term": "Optical Devices"
+        },
+        {
+          "id": "D004864",
+          "term": "Equipment and Supplies"
+        },
+        {
+          "id": "D055618",
+          "term": "Radiation Equipment and Supplies"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

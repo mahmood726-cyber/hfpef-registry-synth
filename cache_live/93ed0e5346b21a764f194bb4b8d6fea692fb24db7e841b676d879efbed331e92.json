@@ -1,0 +1,660 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02594488",
+      "orgStudyIdInfo": {
+        "id": "118-15"
+      },
+      "organization": {
+        "fullName": "LMU Klinikum",
+        "class": "OTHER"
+      },
+      "briefTitle": "Implantable Cardiac Monitors in High-Risk Post-Infarction Patients With Cardiac Autonomic Dysfunction",
+      "officialTitle": "Implantable Cardiac Monitors in High-risk Post-infarction Patients With Cardiac Autonomic Dysfunction and Moderately Reduced Left Ventricular Ejection Fraction",
+      "acronym": "SMART-MI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-05-06",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-02",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-02",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2015-10-31",
+      "studyFirstSubmitQcDate": "2015-10-31",
+      "studyFirstPostDateStruct": {
+        "date": "2015-11-03",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2021-06-17",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-06-23",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Axel Bauer",
+        "investigatorTitle": "Prof. Dr. med. Axel Bauer",
+        "investigatorAffiliation": "LMU Klinikum"
+      },
+      "leadSponsor": {
+        "name": "LMU Klinikum",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Deutsches Zentrum für Herz-Kreislauf-Forschung (DZHK)",
+          "class": "OTHER"
+        },
+        {
+          "name": "Medtronic Cardiac Rhythm and Heart Failure",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The majority of deaths after myocardial infarction occurs in patients with preserved left ventricular ejection fraction (\\>35%) for whom no prophylactic strategies exist. Periodic Repolarization Dynamics (PRD) and Deceleration Capacity (DC) of heart rate are autonomic risk markers that identify a new high risk group of patients with LVEF 35-50% who have the same poor prognosis as patients with LVEF ≤35%.\n\nIn SMART-MI, post-infarction patients with LVEF 35-50% and abnormal PRD and/or DC will be randomly assigned to biomonitoring-guided therapy or conventional follow-up.",
+      "detailedDescription": "Sudden cardiac death (SCD) is the most common single cause of death in the industrialized world. Patients after myocardial infarction (MI) are at increased risk of SCD. Current guidelines recommend prophylactic ICD-implantation in post-MI patients with reduced left ventricular ejection fraction (LVEF ≤35%). However, the majority of arrhythmic deaths after MI occurs in patients with LVEF \\>35% in whom no specific prophylactic strategies exist, indicating an important unmet medical need.\n\nThere is a large body of evidence that presence of cardiac autonomic dysfunction after MI is associated with an increased susceptibility to malignant brady- and tachyarrhythmias eventually culminating in SCD. Periodic repolarization dynamics (PRD) and heart rate deceleration capacity (DC) are clinically validated autonomic risk markers that provide strong and independent prognostic information in post-MI patients with LVEF \\>35%. PRD and DC reflect different facets of autonomic function and can therefore be used in combination to predict risk. Previous studies demonstrated that combined assessment of PRD and DC identifies a new high-risk group among post-MI patients with moderately reduced LVEF (36-50%). This new high-risk group has similar characteristics with respect to prognosis and patient numbers as the established high-risk group identified by LVEF ≤35%.\n\nHowever, the exact mechanisms leading to death in this new high-risk group need to be investigated in order to develop specific preventive strategies. As known from studies with implantable cardiac monitors (ICM) in post-MI patients with LVEF ≤40% eventual death is often preceded by primarily asymptomatic serious arrhythmic events. These data suggest a potential time frame for pre-emptive interventions in case of arrhythmic events, which could improve outcome.\n\nTherefore, SMART-MI will assess the occurrence and prognostic implications of serious arrhythmic events in this newly identified high-risk group by remote monitoring with ICM. Survivors of acute MI (\\<40 days) and LVEF 36-50% undergo autonomic testing for presence of abnormal PRD and/or DC. Those with autonomic dysfunction will be randomly assigned to ICM-implantation or conventional follow-up. Superiority of ICMs in detection of predefined serious arrhythmic events will be tested based on a time-to-event analysis. A central ICM core lab will be implemented allowing for a response to arrhythmias within 48h. The effect of remote monitoring on clinical outcomes will be tested as secondary endpoints. The study will provide the rationale for a future guideline-relevant study testing prophylactic therapies in this newly identified high-risk group."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Myocardial Infarction",
+        "Autonomic Nervous System Diseases"
+      ],
+      "keywords": [
+        "Myocardial infarction",
+        "Autonomic nervous system",
+        "Risk stratification",
+        "Implantable cardiac monitor",
+        "Sudden cardiac death",
+        "ECG"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "DIAGNOSTIC",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 400,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Remote monitoring",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Remote cardiac monitoring by the Reveal® LINQ implantable cardiac monitor",
+          "interventionNames": [
+            "Device: Medtronic Reveal LINQ implantable cardiac monitor"
+          ]
+        },
+        {
+          "label": "Control arm",
+          "type": "NO_INTERVENTION",
+          "description": "Follow-up at the same frequency, but with no implantable cardiac monitor"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Medtronic Reveal LINQ implantable cardiac monitor",
+          "description": "The implantable cardiac monitor is implanted under the skin in the region of the thorax. It continuously monitors the heart's electrical activity for up to three years. Predefined arrhythmias are daily transmitted to a central core lab. In case of arrhythmias, specific guideline-based treatment is initiated within 48h.",
+          "armGroupLabels": [
+            "Remote monitoring"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Detection of serious arrhythmic events",
+          "description": "Time to detection of one of the following serious arrhythmic events: atrial fibrillation ≥6 min, higher degree AV-block ≥ IIb, ventricular tachycardia with a cycle length ≤320ms lasting for ≥12 sec (corresponding to 40 beats), sustained ventricular tachycardia and ventricular fibrillation",
+          "timeFrame": "18 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Composite of all-cause mortality, stroke, systemic arterial thromboembolism and unplanned hospitalizations for decompensated heart failure",
+          "description": "Time to one of following clinical events: death, stroke, systemic arterial thromboembolism and unplanned hospitalization for decompensated heart failure",
+          "timeFrame": "18 months"
+        },
+        {
+          "measure": "All cause mortality",
+          "description": "Time to death",
+          "timeFrame": "18 months"
+        },
+        {
+          "measure": "Cardiovascular mortality",
+          "description": "Time to cardiovascular death",
+          "timeFrame": "18 months"
+        },
+        {
+          "measure": "Unplanned hospitalizations for decompensated heart failure",
+          "description": "Time to unplanned hospitalizations for decompensated heart failure",
+          "timeFrame": "18 months"
+        },
+        {
+          "measure": "Sinus arrest >6sec",
+          "description": "Time to detection of sinus arrest \\>6sec",
+          "timeFrame": "18 months"
+        },
+        {
+          "measure": "Atrial fibrillation ≥6 min",
+          "description": "Time to detection of atrial fibrillation ≥6 min",
+          "timeFrame": "18 months"
+        },
+        {
+          "measure": "Higher degree AV-block ≥ IIb",
+          "description": "Time to detection of higher degree AV-block ≥ IIb",
+          "timeFrame": "18 months"
+        },
+        {
+          "measure": "Non-sustained ventricular tachycardia",
+          "description": "Time to detection of ventricular tachycardia with a cycle length ≤320ms lasting for ≥12 sec",
+          "timeFrame": "18 months"
+        },
+        {
+          "measure": "Sustained ventricular tachycardia / ventricular fibrillation",
+          "description": "Time to detection of sustained ventricular tachycardia / ventricular fibrillation",
+          "timeFrame": "18 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Acute myocardial infarction \\<40 days\n* Left ventricular ejection fraction 36-50%\n* Presence of cardiac autonomic dysfunction by means of abnormal periodic repolarization dynamics and/or abnormal deceleration capacity\n* Age 18-80 years\n* Sinus rhythm\n* Optimal medical therapy\n\nExclusion Criteria:\n\n* ICD or pacemaker indication\n* Known paroxysmal or persistent atrial fibrillation\n* Life expectancy \\< 12 months\n* Inability to comply with follow-up\n* Pregnancy\n* Participation in another trial that may interfere",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Axel Bauer, MD",
+          "affiliation": "LMU Klinikum",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Stefan Kaeaeb, MD",
+          "affiliation": "LMU Klinikum",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Steffen Massberg, MD",
+          "affiliation": "LMU Klinikum",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Medizinische Universität Innsbruck, Universitätsklinik für Innere Medizin III",
+          "city": "Innsbruck",
+          "zip": "6020",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 47.26266,
+            "lon": 11.39454
+          }
+        },
+        {
+          "facility": "Städtisches Klinikum Karlsruhe, Medizinische Klinik IV",
+          "city": "Karlsruhe",
+          "state": "Baden-Wurttemberg",
+          "zip": "76133",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.00937,
+            "lon": 8.40444
+          }
+        },
+        {
+          "facility": "Universitätsklinikum Tübingen, Medizinische Klinik III",
+          "city": "Tübingen",
+          "state": "Baden-Wurttemberg",
+          "zip": "72076",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.52266,
+            "lon": 9.05222
+          }
+        },
+        {
+          "facility": "Klinikum der Universität München",
+          "city": "Munich",
+          "state": "Bavaria",
+          "zip": "81377",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.13743,
+            "lon": 11.57549
+          }
+        },
+        {
+          "facility": "Technische Universität München, Medizinische Klinik und Poliklinik I",
+          "city": "München",
+          "state": "Bavaria",
+          "zip": "81675",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.69668,
+            "lon": 13.46314
+          }
+        },
+        {
+          "facility": "Universitätsklinikum Regensburg, Klinik und Poliklinik für Innere Medizin II",
+          "city": "Regensburg",
+          "state": "Bavaria",
+          "zip": "93053",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.01513,
+            "lon": 12.10161
+          }
+        },
+        {
+          "facility": "HELIOS Herzzentrum Wuppertal, Klinik für Kardiologie",
+          "city": "Wuppertal",
+          "state": "North Rhine-Westphalia",
+          "zip": "42117",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.25627,
+            "lon": 7.14816
+          }
+        },
+        {
+          "facility": "Universitätsklinikum des Saarlandes, Medizinische Klinik III",
+          "city": "Homburg",
+          "state": "Saarland",
+          "zip": "66421",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.32637,
+            "lon": 7.33867
+          }
+        },
+        {
+          "facility": "Universtitätsklinikum der RWTH Aachen, Medizinische Klinik I",
+          "city": "Aachen",
+          "zip": "52074",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.77664,
+            "lon": 6.08342
+          }
+        },
+        {
+          "facility": "Universitätsmedizin Berlin, Klinik für Kardiologie, Charite, Campus Benjamin Franklin",
+          "city": "Berlin",
+          "zip": "12200",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Universitätsmedizin Berlin, Klinik für Kardiologie, Charite, Campus Virchow Kinikum",
+          "city": "Berlin",
+          "zip": "13353",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Klinik Höhenried, Rehabilitationszentrum am Starnberger See",
+          "city": "Bernried",
+          "zip": "82347",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.91667,
+            "lon": 12.88333
+          }
+        },
+        {
+          "facility": "Herzzentrum Dresden, Univeristätsklinik an der TU Dresden",
+          "city": "Dresden",
+          "zip": "01307",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.05089,
+            "lon": 13.73832
+          }
+        },
+        {
+          "facility": "Universitätklinikum Essen, Klinik für Kardiologie und Angiologie",
+          "city": "Essen",
+          "zip": "45122",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.45657,
+            "lon": 7.01228
+          }
+        },
+        {
+          "facility": "Kliniken Ostallgäu-Kaufbeuren, Klinik Füssen",
+          "city": "Füssen",
+          "zip": "87629",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 47.57143,
+            "lon": 10.70171
+          }
+        },
+        {
+          "facility": "Universitätsmedizin Göttingen, Klinikum für Kardiologie und Pneumologie",
+          "city": "Göttingen",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.53443,
+            "lon": 9.93228
+          }
+        },
+        {
+          "facility": "Universitätsmedizin Greifswald, Klinik für Innere Medizin B",
+          "city": "Greifswald",
+          "zip": "17475",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 54.08905,
+            "lon": 13.40244
+          }
+        },
+        {
+          "facility": "Asklepios Klinik St. Georg, Abteilung für Kardiologie",
+          "city": "Hamburg",
+          "zip": "20099",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.55073,
+            "lon": 9.99302
+          }
+        },
+        {
+          "facility": "Universitäres Herzzentrum Hamburg GmbH",
+          "city": "Hamburg",
+          "zip": "20251",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.55073,
+            "lon": 9.99302
+          }
+        },
+        {
+          "facility": "Universitätsklinikum Heidelberg",
+          "city": "Heidelberg",
+          "zip": "69120",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.40768,
+            "lon": 8.69079
+          }
+        },
+        {
+          "facility": "Universitätsklinikum Schleswig-Holstein, Campus Kiel, Klinik für Innere Medizin III",
+          "city": "Kiel",
+          "zip": "24105",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 54.32133,
+            "lon": 10.13489
+          }
+        },
+        {
+          "facility": "Universitätsklinikum Leipzig",
+          "city": "Leipzig",
+          "zip": "04103",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.33962,
+            "lon": 12.37129
+          }
+        },
+        {
+          "facility": "Leipzig Heart Institute GmbH",
+          "city": "Leipzig",
+          "zip": "04289",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.33962,
+            "lon": 12.37129
+          }
+        },
+        {
+          "facility": "Universitätsklinikum Schleswig-Holstein, Campus Lübeck, Medizinische Klinik II",
+          "city": "Lübeck",
+          "zip": "23538",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.86893,
+            "lon": 10.68729
+          }
+        },
+        {
+          "facility": "Universitätsmedizin Mainz",
+          "city": "Mainz",
+          "zip": "55131",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.98185,
+            "lon": 8.28008
+          }
+        },
+        {
+          "facility": "Universitätsklinikum Mannheim",
+          "city": "Mannheim",
+          "zip": "68167",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.4891,
+            "lon": 8.46694
+          }
+        },
+        {
+          "facility": "Deutsches Herzzentrum München, Klinik für Herz- und Kreislauferkrankungen",
+          "city": "München",
+          "zip": "80636",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.60698,
+            "lon": 13.31243
+          }
+        },
+        {
+          "facility": "Klinikum Neuperlach, Städtisches Klinikum München GmbH",
+          "city": "München",
+          "zip": "81737",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.60698,
+            "lon": 13.31243
+          }
+        },
+        {
+          "facility": "Universitätsklinikum Münster",
+          "city": "Münster",
+          "zip": "48149",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.96236,
+            "lon": 7.62571
+          }
+        },
+        {
+          "facility": "Universitätsklinik der Paracelsus Medizinischen Privatuniversität, Klinikum Nürnberg",
+          "city": "Nuremberg",
+          "zip": "90471",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.45421,
+            "lon": 11.07752
+          }
+        },
+        {
+          "facility": "Kliniken Nordoberpfalz AG, Klinikum Weiden",
+          "city": "Weiden",
+          "zip": "92637",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.67682,
+            "lon": 12.15613
+          }
+        },
+        {
+          "facility": "St. Josefs-Hospital Wiesbaden",
+          "city": "Wiesbaden",
+          "zip": "65189",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.08601,
+            "lon": 8.24435
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "24642467",
+          "type": "BACKGROUND",
+          "citation": "Rizas KD, Nieminen T, Barthel P, Zurn CS, Kahonen M, Viik J, Lehtimaki T, Nikus K, Eick C, Greiner TO, Wendel HP, Seizer P, Schreieck J, Gawaz M, Schmidt G, Bauer A. Sympathetic activity-associated periodic repolarization dynamics predict mortality following myocardial infarction. J Clin Invest. 2014 Apr;124(4):1770-80. doi: 10.1172/JCI70085. Epub 2014 Mar 18."
+        },
+        {
+          "pmid": "16714188",
+          "type": "BACKGROUND",
+          "citation": "Bauer A, Kantelhardt JW, Barthel P, Schneider R, Makikallio T, Ulm K, Hnatkova K, Schomig A, Huikuri H, Bunde A, Malik M, Schmidt G. Deceleration capacity of heart rate as a predictor of mortality after myocardial infarction: cohort study. Lancet. 2006 May 20;367(9523):1674-81. doi: 10.1016/S0140-6736(06)68735-7."
+        },
+        {
+          "pmid": "35090674",
+          "type": "DERIVED",
+          "citation": "Bauer A, Sappler N, von Stulpnagel L, Klemm M, Schreinlechner M, Wenner F, Schier J, Al Tawil A, Dolejsi T, Krasniqi A, Eiffener E, Bongarth C, Stuhlinger M, Huemer M, Gori T, Wakili R, Sahin R, Schwinger R, Lutz M, Luik A, Gessler N, Clemmensen P, Linke A, Maier LS, Hinterseer M, Busch MC, Blaschke F, Sack S, Lennerz C, Licka M, Tilz RR, Ukena C, Ehrlich JR, Zabel M, Schmidt G, Mansmann U, Kaab S, Rizas KD, Massberg S; SMART-MI-DZHK9 investigators. Telemedical cardiac risk assessment by implantable cardiac monitors in patients after myocardial infarction with autonomic dysfunction (SMART-MI-DZHK9): a prospective investigator-initiated, randomised, multicentre, open-label, diagnostic trial. Lancet Digit Health. 2022 Feb;4(2):e105-e116. doi: 10.1016/S2589-7500(21)00253-3."
+        },
+        {
+          "pmid": "28760211",
+          "type": "DERIVED",
+          "citation": "Hamm W, Rizas KD, Stulpnagel LV, Vdovin N, Massberg S, Kaab S, Bauer A. Implantable cardiac monitors in high-risk post-infarction patients with cardiac autonomic dysfunction and moderately reduced left ventricular ejection fraction: Design and rationale of the SMART-MI trial. Am Heart J. 2017 Aug;190:34-39. doi: 10.1016/j.ahj.2017.05.006. Epub 2017 May 19."
+        },
+        {
+          "pmid": "27403291",
+          "type": "DERIVED",
+          "citation": "Rizas KD, Hamm W, Kaab S, Schmidt G, Bauer A. Periodic Repolarisation Dynamics: A Natural Probe of the Ventricular Response to Sympathetic Activation. Arrhythm Electrophysiol Rev. 2016 May;5(1):31-6. doi: 10.15420/aer.2015:30:2."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Deutsches Zentrum für Herzkreislaufforschung",
+          "url": "http://dzhk.de/"
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D001342",
+          "term": "Autonomic Nervous System Diseases"
+        },
+        {
+          "id": "D016757",
+          "term": "Death, Sudden, Cardiac"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D006323",
+          "term": "Heart Arrest"
+        },
+        {
+          "id": "D003645",
+          "term": "Death, Sudden"
+        },
+        {
+          "id": "D003643",
+          "term": "Death"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

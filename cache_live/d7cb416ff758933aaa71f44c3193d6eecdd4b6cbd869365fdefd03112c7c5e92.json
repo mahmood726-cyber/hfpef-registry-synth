@@ -1,0 +1,375 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05241431",
+      "orgStudyIdInfo": {
+        "id": "DAPAS"
+      },
+      "organization": {
+        "fullName": "University of Aarhus",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effect of Dapagliflozin on Myocardial and Renal Function Following Aortic Valve Stenosis Intervention",
+      "officialTitle": "Effect of Dapagliflozin on Myocardial and Renal Function Following Aortic Valve Stenosis Intervention",
+      "acronym": "DAPAS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-01",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-02-12",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-03-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2024-04-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-01-18",
+      "studyFirstSubmitQcDate": "2022-02-11",
+      "studyFirstPostDateStruct": {
+        "date": "2022-02-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-02-11",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-02-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Aarhus",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Aarhus University Hospital",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Randomized, double-blinded, placebo-controlled study in AS patients with subclinical or clinical heart failure undergoing treatment with TAVR.",
+      "detailedDescription": "This is a randomized, double-blinded, placebo-controlled study in AS patients with subclinical or clinical heart failure undergoing treatment with TAVR. It evaluates the effect of Dapagliflozin versus placebo, given once daily in addition to background standard medical therapy. Patients who are scheduled for TAVR at Aarhus University Hospital (AUH) will be informed about the project and invited to participate if they fulfill the inclusion criteria prior to the TAVR procedure.\n\nPatients will be randomized 1:1 in blocks of 6 patients to either Dapagliflozin 10 mg daily or placebo within 1 months prior to the scheduled TAVR therapy.\n\nThe total treatment period is 13 months with 6 scheduled outpatient clinic visits at baseline (before TAVR) and at 1, 3, 6, 9, 12 months after TAVR.\n\nCardiac magnetic resonance imaging (CMRI) is performed at baseline and 12 months follow-up. Echocardiography is performed at baseline, 1- and 12 months. 24-hour ambulatory blood pressure is measured at baseline and 12-months post-TAVR. Clinical status, HF questionnaire and blood samples will be performed at each visit. Drug accountability and adherence to the protocol is evaluated at each visit.\n\nA sub study in 40 of the included patients (20 treated with Dapagliflozin and 20 placebo) is planned. This will include additional endomyocardial biopsies taken at baseline and 12-months follow-up for high resolution respirometry (mitochondrial function) and electron microscopy (mitochondrial structure and interstitial fibrosis) supplemented by right heart catherization (RHC) for hemodynamic assessment."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Aortic Stenosis",
+        "Left Ventricle Hypertrophied"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "The medicine will be blinded by encapsulation of both active medicine and placebo in gelatine capsules, in order to blind treatment to both investigators and patients.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 106,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intervention group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "10 mg (oral) SGLT-2 inhibitor once daily",
+          "interventionNames": [
+            "Drug: SGLT2 inhibitor"
+          ]
+        },
+        {
+          "label": "Control group",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo tablet encapsulated as the active treatment.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "SGLT2 inhibitor",
+          "description": "10 mg orally once daily in addition to standard medical treatment.",
+          "armGroupLabels": [
+            "Intervention group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo tablets similar to active treatment.",
+          "armGroupLabels": [
+            "Control group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Composite endpoint of changes in LV mass, systolic function, eGFR, and serum Nt-proBNP",
+          "description": "Changes from baseline to 12 months of follow-up in at least 2 out of 4 well-known parameters is required to reach the primary endpoint:\n\n* LVMi (grams) reduction of 10 % point (by CMRI)\n* LV GLS (percent) absolute increase of 2.0 % point (by TTE)\n* A decrease in serum Nt-proBNP (ng/L) of more than 25%\n* Relative increase of 10% in eGFR (ml/min/1.73m\\^2) If 2 or more of the 4 outcome measures are reached at 12-months follow-up, the patient has fulfilled the primary end-point.",
+          "timeFrame": "Baseline assesment to 12-months follow-up post-TAVR"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Difference in the change in eGFR",
+          "description": "Difference between active treatment and placebo at 12-months follow-up",
+          "timeFrame": "baseline to 12-months"
+        },
+        {
+          "measure": "Difference in eGFR",
+          "description": "Difference between active treatment and placebo at 12-months follow-up",
+          "timeFrame": "12-months"
+        },
+        {
+          "measure": "The number of patients with a relative difference of 10 % of myocardial interstitial fibrosis evaluated by the biomarker extracellular volume (ECV) by late enhancement gadolinium by CMR",
+          "description": "Difference between active treatment and placebo.",
+          "timeFrame": "Baseline to 12-months"
+        },
+        {
+          "measure": "The number of patients with a >10% decrease in cardiac fibrosis when assessed by histology and quantified by stereology (sub study)",
+          "description": "Difference between active treatment and placebo.",
+          "timeFrame": "Baseline to 12-months"
+        },
+        {
+          "measure": "The number of patients with an increase in the respiratory control ratio (RCR) by ≥10% measured by High Resolution Respirometry (HRR) (sub study)",
+          "description": "Difference between active treatment and placebo.",
+          "timeFrame": "Baseline to 12-months"
+        },
+        {
+          "measure": "Composite endpoint of worsening HF with hospitalization or urgent outpatient clinical visit due to HF, and all-cause mortality.",
+          "description": "Difference between active treatment and placebo in the incidence rate of hospitalization due to worsening heart failure or urgent clinical visit due to heart failure and all-cause mortality (using dates of the events to assess the incidence rates in the two groups: active treatment and placebo.",
+          "timeFrame": "12-months post-TAVR"
+        },
+        {
+          "measure": "All-cause mortality",
+          "description": "Difference between active treatment and placebo.",
+          "timeFrame": "Baseline to 12-months post-TAVR"
+        },
+        {
+          "measure": "Worsening HF with hospitalization or urgent outpatient clinical visit due to HF",
+          "description": "Difference between active treatment and placebo.",
+          "timeFrame": "12-months post-TAVR"
+        },
+        {
+          "measure": "Difference in the change in urinary albumin/creatinine ratio",
+          "description": "Difference between active treatment and placebo.",
+          "timeFrame": "Baseline to 12-months"
+        },
+        {
+          "measure": "Difference in ACR at 12-months follow-up",
+          "description": "Difference between active treatment and placebo.",
+          "timeFrame": "12-months follow-up"
+        },
+        {
+          "measure": "24-hour ambulatory blood pressure changes",
+          "description": "Difference between active treatment and placebo in both systolic and diastolic blood pressure.",
+          "timeFrame": "baseline to 12 months"
+        },
+        {
+          "measure": "Change from baseline to 12-months follow-up in the Kansas City Cardiomyopathy questionnaire",
+          "description": "Change from baseline in KCCQ will be reported. The KCCQ is a 23-item, self-administered questionnaire with score range of 0 to 100, and higher scores indicating better health. Difference in score for active treatment vs. placebo.",
+          "timeFrame": "Baseline to 12-months"
+        },
+        {
+          "measure": "Change from baseline to 12-months follow-up in New York Heart Association-class (NYHA)",
+          "description": "The NYHA functional classification categorizes the extent of heart failure by placing subjects in one of four (I, II, III, IV) categories based on how much they are limited during physical activity and symptoms of shortness of breath and/or angina. Shift in NYHA-class between active treatment group and placebo.",
+          "timeFrame": "baseline to 12-months."
+        },
+        {
+          "measure": "LVMi reduction of 10 % point (by CMRI)",
+          "description": "Difference between active treatment and placebo.",
+          "timeFrame": "baseline to 12-months."
+        },
+        {
+          "measure": "LV GLS absolute increase of 2.0 % point (by TTE)",
+          "description": "Difference between active treatment and placebo.",
+          "timeFrame": "Baseline to 12-months follow-up"
+        },
+        {
+          "measure": "A decrease in serum Nt-proBNP of more than 25% follow-up",
+          "description": "Difference between active treatment and placebo.",
+          "timeFrame": "baseline to 12-months follow-up."
+        },
+        {
+          "measure": "Relative increase of 10% in eGFR",
+          "description": "Difference between active treatment and placebo.",
+          "timeFrame": "Baseline to 12-months follow-up"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Signed informed consent\n2. Scheduled TAVR for significant symptomatic AS according to current guidelines\n3. Age ≥ 18 years and \\< 85 years.\n4. \\*\n\n   * LVEF ≥ 40% and ≤ 50 % or LVEF ≥ 50% with at least one of the following:\n   * LV GLS ≤ 15% by TTE\n   * LV septum or posterior wall thickness ≥ 12mm by TTE or LV mass index ≥108/131 g/m2 for females/males (mild LVH)\n   * LVEF ≥ 50 % and Nt-proBNP \\> 600/900 ng/l (sinus rhythm/atrial fibrillation)\n5. eGFR \\> 30 mL/min/1.73 m2\n\nExclusion Criteria:\n\n1. Medically treated type 1 or type 2 diabetes mellitus\n2. Ongoing treatment with an SGLT2-inhibitor or intolerance to SGLT2-inhibitors\n3. Life expectancy \\< 12 months\n4. Symptomatic hypotension or persistent SBP \\< 100 mmHg\n5. Contraindications to CMRI\n6. HF due to restrictive or infiltrative cardiomyopathy, active myocarditis, constrictive pericarditis or hypertrophic obstructive cardiomyopathy\n7. Additional other untreated severe valvular disease\n8. Liver failure\n9. Women who are pregnant or plan to be within the study period.\n10. Allergy to any substance in the project medicine, both placebo and active medicine.\n11. Previous renal transplantation.\n12. Chronic dialysis treatment.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Anders Lehmann Dahl Pedersen, MD",
+          "role": "CONTACT",
+          "phone": "0045 2785 2009",
+          "email": "anlepe@rm.dk"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Steen Hvitfeldt Poulsen",
+          "affiliation": "Aarhus University Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Aarhus University Hospital",
+          "status": "RECRUITING",
+          "city": "Aarhus",
+          "zip": "8200",
+          "country": "Denmark",
+          "contacts": [
+            {
+              "name": "Anders Lehmann Dahl Pedersen, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 56.15674,
+            "lon": 10.21076
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001024",
+          "term": "Aortic Valve Stenosis"
+        },
+        {
+          "id": "D017379",
+          "term": "Hypertrophy, Left Ventricular"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000082862",
+          "term": "Aortic Valve Disease"
+        },
+        {
+          "id": "D006349",
+          "term": "Heart Valve Diseases"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014694",
+          "term": "Ventricular Outflow Obstruction"
+        },
+        {
+          "id": "D006332",
+          "term": "Cardiomegaly"
+        },
+        {
+          "id": "D006984",
+          "term": "Hypertrophy"
+        },
+        {
+          "id": "D020763",
+          "term": "Pathological Conditions, Anatomical"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077203",
+          "term": "Sodium-Glucose Transporter 2 Inhibitors"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D045504",
+          "term": "Molecular Mechanisms of Pharmacological Action"
+        },
+        {
+          "id": "D020228",
+          "term": "Pharmacologic Actions"
+        },
+        {
+          "id": "D020164",
+          "term": "Chemical Actions and Uses"
+        },
+        {
+          "id": "D007004",
+          "term": "Hypoglycemic Agents"
+        },
+        {
+          "id": "D045505",
+          "term": "Physiological Effects of Drugs"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

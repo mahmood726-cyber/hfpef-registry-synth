@@ -1,0 +1,456 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04942548",
+      "orgStudyIdInfo": {
+        "id": "HS-3243 Keto"
+      },
+      "organization": {
+        "fullName": "National Jewish Health",
+        "class": "OTHER"
+      },
+      "briefTitle": "Reverse HFpEF: Ketogenic Reversal of Heart Failure With Preserved Ejection Fraction Study",
+      "officialTitle": "Reverse HFpEF: Ketogenic Reversal of Heart Failure With Preserved Ejection Fraction Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-07-25",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-07-24",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-07-24",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-05-25",
+      "studyFirstSubmitQcDate": "2021-06-17",
+      "studyFirstPostDateStruct": {
+        "date": "2021-06-28",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-04-02",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-04-03",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Darlene Kim",
+        "investigatorTitle": "Associate Professor",
+        "investigatorAffiliation": "National Jewish Health"
+      },
+      "leadSponsor": {
+        "name": "National Jewish Health",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This protocol is a prospective pilot study utilizing the intervention of a medically supervised, registered nurse and registered diabetes educator coached low-carbohydrate, ketogenic diet to examine the impact it has as a treatment for heart failure with preserved ejection fraction."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ],
+      "keywords": [
+        "obese",
+        "keto",
+        "diet",
+        "cardiac"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 16,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "HFpEF",
+          "type": "EXPERIMENTAL",
+          "description": "Patients diagnosed with obesity related heart failure with preserved ejection fraction(HFpEF)",
+          "interventionNames": [
+            "Other: Ketogenic Diet"
+          ]
+        },
+        {
+          "label": "PH-HFpEF",
+          "type": "EXPERIMENTAL",
+          "description": "Patients diagnosed with obesity related pulmonary hypertension heart failure with preserved ejection fraction (PH-HFpEF)",
+          "interventionNames": [
+            "Other: Ketogenic Diet"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Ketogenic Diet",
+          "description": "Ketogenic diet intervention that is high in fat and low in carbohydrates, causing the body to induce a state of metabolic ketosis, whereby fat is broken down into ketones to provide an energy source for the body.",
+          "armGroupLabels": [
+            "HFpEF",
+            "PH-HFpEF"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "MLHFQ Questionnaire",
+          "description": "Change in score on the Minnesota Living with Heart Failure Quality of Life (MLHFQ) Questionnaire for the HFpEF cohort.\n\n* Max. Score = 105\n* Min. Score = 0\n* A reduced score means improvement of heart failure symptoms; better outcome",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "PAH-SYMPACT Questionnaire",
+          "description": "Change in score on the Pulmonary Arterial Hypertension-Symptoms and Impact (PAH-SYMPACT) Questionnaire for the PH-HFpEF cohort.\n\n* Max. Score = 89\n* Min. Score = 0\n* A reduced score means improvement of pulmonary hypertension heart failure symptoms; better outcome",
+          "timeFrame": "6 Months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in Metabolic Health: Weight",
+          "description": "Weight in kilograms (kg)",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Change in Metabolic Health: Glucose",
+          "description": "Glucose in milligrams per deciliter (mg/dL)",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Change in Metabolic Health: Insulin",
+          "description": "Insulin in microinternational unit per milliliter (uIU/mL)",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Change in Metabolic Health: Homeostatic Model Assessment for Insulin Resistance (HOMA-IR)",
+          "description": "Insulin and glucose are multiplied then divided by 405 to report HOMA-IR",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Change in Metabolic Health: Albumin",
+          "description": "Albumin in grams per deciliter (g/dL)",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Change in Metabolic Health: Bilirubin total",
+          "description": "Bilirubin total in milligrams per deciliter (mg/dL)",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Change in Metabolic Health: Alanine Transaminase (ALT)",
+          "description": "ALT in units per liter (U/L)",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Change in Metabolic Health: Aspartate Aminotransferase (AST)",
+          "description": "AST in units per liter (U/L)",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Change in Metabolic Health: Alkaline Phosphatase (ALP)",
+          "description": "ALP in units per liter (U/L)",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Change in Metabolic Health: High Sensitivity C-Reactive Protein (HS-CRP)",
+          "description": "HS-CRP in milligrams per deciliter (mg/dL)",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Change in Metabolic Health: Triglycerides",
+          "description": "triglyceride in milligrams per deciliter (mg/dL)",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Change in Metabolic Health: High Density Lipoprotein (HDL)",
+          "description": "HDL in milligrams per deciliter (mg/dL)",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Change in Metabolic Health: Hemoglobin A1c",
+          "description": "hemoglobin A1c in percent (%)",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Change in Metabolic Health: Body Mass Index (BMI)",
+          "description": "Weight and height will be combined to report BMI in kg/m\\^2",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Changes in Physical Function: 6 Minute Walk Test (6MWT)",
+          "description": "6-minute walk test is reported in meters (m) of how far a subject walks in 6 minutes",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Changes in Physical Function: Maximum Oxygen Consumption (VO2max)",
+          "description": "VO2 max is reported in liters per minute (L/min) while performing a cardiopulmonary exercise test (CPET)",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Changes in Physical Function: Maximum Work",
+          "description": "Maximum work achieved while performing a cardiopulmonary exercise test (CPET) is reported in watts (W)",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Changes in Physical Function: 30 Second Sit-to-Stand test (30s STS)",
+          "description": "30s STS is reported in quantity of how many times the subject can come to a full stand from a seated position in 30 seconds (s)",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Changes in Physical Function: Leg Press - 1 Repetition Maximum",
+          "description": "Leg press is reported in kilograms (kg)",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Changes in Physical Function: Chest Press - 1 Repetition Maximum",
+          "description": "Chest press is reported in kilograms (kg)",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Changes in Physical Function: Leg Extension - 1 Repetition Maximum",
+          "description": "Leg extension is reported in kilograms (kg)",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Cardiac Remodeling: Changes in the Left Ventricle (LV) size",
+          "description": "This is determined by the internal diameter measurement of the LV, reported in centimeters (cm) from a subject performed echocardiogram",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Cardiac Remodeling: Changes in the Left Ventricle (LV) thickness",
+          "description": "This is determined by a measurement of the LV wall, reported in millimeters (mm) from an echocardiogram.",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Cardiac Remodeling: Changes in the Left Ventricle (LV) mass",
+          "description": "This is determined by a combination formula of the interventricular septum diastole (IVSd), left ventricle diastole (LVd), and posterior wall diastole (PWd), calculated by an echocardiogram and reported in grams (g).",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Cardiac Remodeling: Changes in Left Atrium (LA) size",
+          "description": "This is determined by the internal diameter measurement of the LA, reported in centimeters (cm) from a subject performed echocardiogram.",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Cardiac Remodeling: Changes in Inferior Vena Cava (IVC) size",
+          "description": "This is determined by the internal diameter perpendicular to the long axis of the IVC at the end-expiration, reported in centimeters (cm) from the echocardiogram.",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Cardiac Remodeling: Changes in estimated Right Atrial Pressure (RAP)",
+          "description": "This is determined by a combination equation subtracting the venous return (VR) from the central venous pressure (CVP), reported in millimeters of mercury (mmHg) from the echocardiogram.",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Cardiac Remodeling: Changes in Right Ventricle Systolic Pressure (RVSP)",
+          "description": "This estimates the pressure inside the artery that supplies the lung with blood, reported in millimeters of mercury (mmHg) from the echocardiogram.",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Changes in the rate of mitral annulus velocity (e')",
+          "description": "e' is reported in centimeters per second (cm/s) based on a subject performed echocardiogram",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Changes in the ratio of transmitral early peak velocity (E) by pulsed wave Doppler over e' (E/e')",
+          "description": "E/e' is reported as an integer based on the transmitral early peak velocity (E) over the mitral annulus velocity (e') from a subject performed echocardiogram.",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "PH-HFpEF Only Hemodynamics: Changes in Right Atrial Pressure (RAP)",
+          "description": "This is determined by a combination equation subtracting the venous return (VR) from the central venous pressure (CVP), reported in millimeters of mercury (mmHg) from the echocardiogram.",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "PH-HFpEF Only Hemodynamics: Changes in Pulmonary Artery Pressure (PAP)",
+          "description": "This is calculated from systolic, by Tricuspid Regurgitation maximum (TRmax) and diastolic, by Pulmonary Regurgitation-end velocity (PR-end) pulmonary artery pressures, reported in millimeters of mercury (mmHg) from the echocardiogram.",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "PH-HFpEF Only Hemodynamics: Changes in Pulmonary Artery Occlusive Pressure (PAOP)",
+          "description": "This is determined by the pressure value of the pulmonary artery once it's occluded during a Right Heart Catheterization (RHC), measured in millimeters of mercury (mmHg).",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "PH-HFpEF Only Hemodynamics: Changes in Pulmonary Vascular Resistance (PVR)",
+          "description": "Left Atrial Pressure (LAP), Pulmonary Artery Pressure (PAP) and Cardiac Output (CO) are combined to report the PVR in Wood Units (WU) from a Right Heart Catheterization (RHC).",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "PH-HFpEF Only Hemodynamics: Changes in Cardiac Output (CO)",
+          "description": "Stoke Volume (SV) and Heart Rate (HR) are combined to report CO in liters per minute (L/min) from the right heart catheterization.",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "PH-HFpEF Only Hemodynamics: Changes in Cardiac Index (CI)",
+          "description": "Cardiac Output (CO) and Body Surface Area (BSA) are combined to report CI in liters per minute per meters squared (L/min/m\\^2) from a Right Heart Catherization (RHC).",
+          "timeFrame": "6 Months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Adults (age 21-80) who meet clinical signs and symptoms of heart failure based on clinical assessment.\n* The subject must meet at least one of the following hemodynamic criteria for HFpEF of PH-HFpEF by right heart catheterization (RHC) within 6 months of screening visit;\n\nA) HFpEF:\n\n1. At rest: mean pulmonary artery occlusions pressure (PAOP) \\> 15, pulmonary vascular resistance (PVR) \\< 3 Wood Units, or\n2. HFpEF with fluid challenge, defined as increase in PAOP post 500 cc fluid bolus: mean PAOP \\> 18, PVR \\< 3 Wood Units, or\n3. HFpEF with exercise, defined as peak mean PAOP \\> 17, PVR \\< 3 Wood Units if age \\< 50 or peak mean PAOP \\> 19 and PVR \\< 3 Wood Units if age \\>= 50\n\nB) PH-HFpEF:\n\n1. At rest: mean pulmonary artery occlusion pressure (PAOP) \\> 15, mean pulmonary artery pressure (PAP) \\>= 25, pulmonary vascular resistance (PVR) \\> 3 Wood Units, or\n2. PH-HFpEF with fluid challenge, defined as increase in PAOP post 500 cc fluid bolus: mean PAOP \\> 18, mean PAP \\>= 25, PVR \\> 3 Wood Units, or\n3. PH-HFpEF with exercise, defined as peak mean PAOP \\> 17, peak mean PAP \\> 30, peak PVR \\> 1.34 Wood Units if age \\< 50 or peak mean PAOP \\> 19, peak mean PAP \\> 33, and PVR \\< 2.1 Wood Units if age \\>= 50\n\n   * The subject also must meet criteria for metabolic syndrome, defined as: Abdominal obesity (BMI \\> 30 kg/m2 or abdominal obesity, waist circumference \\> 102 cm men, \\> 88 cm women) AND 2 of the following;\n\na. Currently being treated for systemic hypertension or blood pressure (BP) \\>= 135/85 b. Glucose intolerance with diagnosis of type 2 diabetes, or fasting blood glucose 110-125 mg/dL or hemoglobin A1c \\> 6% c. Triglycerides \\>= 150, or on treatment for high triglycerides d. HDL \\< 40 men, \\< 50 women, or on treatment for high triglycerides\n\n* If the subject is on pulmonary hypertension specific vasodilators, they must be on stable medical therapy without changes to pulmonary vasodilator medication within 3 months prior to screening visit.\n* The subject must have also had a cardiopulmonary exercise test within 6 months of screening visit.\n* The subject must have also had an echocardiogram within 6 months of screening visit.\n* The subject must have demonstrated stable weight (less that 5% weight loss) 3 months prior to screening visit. (They cannot already be losing weight).\n* The subject owns and uses a smartphone or tablet.\n* Must speak English\n\nExclusion Criteria:\n\n* The subject is already on a significant weight loss trajectory prior to study entry.\n* The subject cannot be on an alternative diet plan or strategy (e.g., Weight Watchers, Nutrisystem, Ornish).\n* Left ventricular ejection fraction \\< 50%.\n* Severe valvular disease by echocardiogram or dysfunctional prosthetic valve.\n* Active pericardial disease (moderate or large pericardial effusion or constrictive pericarditis).\n* Active coronary ischemia defined by abnormal stress test, angiogram, or coronary CT angiography per investigator.\n* Prolonged corrected QT interval (QTc) \\> 450 ms\n* Significant lung disease on pulmonary function tests (PFT's) within the 6 months of screening visit, (Both post-bronchodilator values and pre-bronchodilator values must meet exclusion criteria. If either post- or pre-bronchodilator values do not, the subject may be included) defined as either:\n\n  1. Irreversible obstructive airways disease (post-bronchodilator forced expiratory volume/forced vital capacity (FEV1/FVC) \\< 70% predicted) or\n  2. Restrictive lung disease (FVC \\< 70% predicted. If total lung capacity (TLC) is \\>= 70%, it is acceptable to have an FVC of \\< 70%) or\n  3. More than mild radiographic pulmonary disease as determine don CT scan within the past 2 years per investigator.\n* History of non-adherence to diuretics within 3 months of screening visit.\n* History or recurrent severe hypokalemia, potassium \\< 3.0 mg/dL.\n* History of kidney stones, gout, or gallbladder disease unless in the opinion of the investigator it will not impact the safety of the patient\n* C-peptide \\< 0.5 ng/mL (increased risk of diabetic ketoacidosis (DKA))\n* Uncorrected anemia (hemoglobin \\< 10 g/dL).\n* Unable to participate in the comprehensive ketogenic diet program, including biometric data acquisition and data entry (glucometer self-stick and smartphone use).\n* Unable or unwilling to prepare meals for self.\n* Unable to perform quantitative cardia testing regimen (cardiopulmonary exercise testing, 6-minute walk).\n* Subject is pregnant or planning to become pregnant in the next 14 months.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "21 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "National Jewish Health and University of Colorado Denver",
+          "city": "Denver",
+          "state": "Colorado",
+          "zip": "80206",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.73915,
+            "lon": -104.9847
+          }
+        },
+        {
+          "facility": "Saint Joseph Hospital",
+          "city": "Denver",
+          "state": "Colorado",
+          "zip": "80218",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.73915,
+            "lon": -104.9847
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D055423",
+          "term": "Diet, Ketogenic"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D050528",
+          "term": "Diet, Carbohydrate-Restricted"
+        },
+        {
+          "id": "D004035",
+          "term": "Diet Therapy"
+        },
+        {
+          "id": "D044623",
+          "term": "Nutrition Therapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D004032",
+          "term": "Diet"
+        },
+        {
+          "id": "D009747",
+          "term": "Nutritional Physiological Phenomena"
+        },
+        {
+          "id": "D000066888",
+          "term": "Diet, Food, and Nutrition"
+        },
+        {
+          "id": "D010829",
+          "term": "Physiological Phenomena"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

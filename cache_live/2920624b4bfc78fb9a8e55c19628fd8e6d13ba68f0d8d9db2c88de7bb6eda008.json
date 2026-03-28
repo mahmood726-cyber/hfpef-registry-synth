@@ -1,0 +1,329 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05117736",
+      "orgStudyIdInfo": {
+        "id": "ICM 2021-2942"
+      },
+      "organization": {
+        "fullName": "Montreal Heart Institute",
+        "class": "OTHER"
+      },
+      "briefTitle": "ARNI Versus plAcebo in Patients With Congenital sYStemic Right Ventricle Heart Failure",
+      "officialTitle": "Prospective Comparison of ARNI Versus plAcebo in Patients With Congenital sYStemic Right Ventricle Heart Failure",
+      "acronym": "PARACYS-RV"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-03",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "The trial was prematurely terminated due to safety concerns.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-03-15",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-03-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-03-12",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-09-24",
+      "studyFirstSubmitQcDate": "2021-11-02",
+      "studyFirstPostDateStruct": {
+        "date": "2021-11-11",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-03-11",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-03-13",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Marie-Alexandre Chaix",
+        "investigatorTitle": "Principal Investigator, Clinical Professor",
+        "investigatorAffiliation": "Montreal Heart Institute"
+      },
+      "leadSponsor": {
+        "name": "Montreal Heart Institute",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Novartis Pharmaceuticals",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is a prospective monocentric, randomized, double-blind, placebo-controlled, crossover clinical trial to assess the efficacy of Sacubitril/Valsartan over placebo in improving exercise capacity and neurohormonal activation in adults with moderate to severe systemic RV dysfunction and NYHA class II or III symptoms.",
+      "detailedDescription": "Subjects who qualify will be approached and those consenting will be enrolled to undergo a baseline evaluation. An active run-in-phase of 6 weeks will identify each patient's maximal tolerated dose of Sacubitril/Valsartan. Then, each treatment arm (Sacubitril/Valsartan and placebo) will be 24 weeks duration prior to crossover. At the end of each study arm (24 weeks), data regarding primary and secondary endpoints will be collected. The total duration of the study for the patient will be 15 months.\n\nSubjects will undergo regular visits (in-clinic, and/or by phone, or video conferencing) half-way and at the end of each arms."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Systemic Right Ventricle",
+        "Heart Failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "interventionModelDescription": "This study is a prospective monocentric, randomized, double-blind, placebo-controlled, crossover clinical trial.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "A randomization sequence list will be performed by the statistical department. Patients will be randomized according to a computer-generated randomization sequence with 1:1 distribution using randomly permuted blocks of 4 and 6.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 15,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Sacubitril/Valsartan",
+          "type": "EXPERIMENTAL",
+          "description": "Treatment with Sacubitril/Valsartan",
+          "interventionNames": [
+            "Drug: Sacubitril / Valsartan Oral Tablet"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Treatment with Placebo",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Sacubitril / Valsartan Oral Tablet",
+          "description": "For the first phase of the trial, each patient will be randomized to active therapy (50, 100, or 200 mg bid of Sacubitril/Valsartan based on the run-in phase) or the corresponding placebo (matching tablets for the 50,100 or 200mg of Sacubitril/Valsartan), with the sequence reversed in the second phase.",
+          "armGroupLabels": [
+            "Sacubitril/Valsartan"
+          ],
+          "otherNames": [
+            "Entresto",
+            "ANGIOTENSIN RECEPTOR-NEPRILYSIN INHIBITOR (ARNI)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Corresponding placebo: matching tablets for the 50,100 or 200mg of Sacubitril/Valsartan.",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change of sub-maximal total exercise duration",
+          "description": "Co-primary endpoint (each at an alpha of 0.025): change in sub-maximal total exercise duration during a sub-maximal cardiopulmonary exercise testing between baseline and end of each treatment arm.",
+          "timeFrame": "End of each arm treatment at 32 weeks and 58 weeks."
+        },
+        {
+          "measure": "Change of NT-proBNP level",
+          "description": "Co-primary endpoint (each at an alpha of 0.025): Change in NT-proBNP level between baseline and end of each treatment arm.",
+          "timeFrame": "End of each arm treatment at 32 weeks and 58 weeks."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change of quality of life measured by Kansas City Cardiomyopathy Questionnaire-12 Score",
+          "description": "Kansas City Cardiomyopathy Questionnaire-12 Score (KCCQ-12 score) has 4 domains (Physical Limitation Score, Symptom Frequency Score, Quality of Life Score, Social Limitation Score) and one Summary Score. Scores are scaled 0-100, where 0 denotes the lowest reportable health status and 100 the highest.",
+          "timeFrame": "End of each arm treatment at 32 weeks and 58 weeks."
+        },
+        {
+          "measure": "Change of number of participants with treatment-related adverse events as assessed by CTCAE v4.0",
+          "description": "Serum potassium level, renal function Serum Creatinine (sCr), estimated Glomerular Filtration Rate (eGFR), blood pressure, adverse clinical events: symptomatic postural hypotension reported by the patient at the examination as fainting, dizziness, lightheadedness, blurred vision, weakness, fatigue, nausea, palpitations, and headache upon standing, occurrence of angioedema.",
+          "timeFrame": "Half-way of each arm at 20 and 46 weeks and end of each arm treatment at 32 weeks and 58 weeks."
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Change of NYHA functional class",
+          "description": "Evaluation of NYHA functional class",
+          "timeFrame": "End of each arm treatment at 32 weeks and 58 weeks."
+        },
+        {
+          "measure": "Number of participants with serious cardiac clinical events",
+          "description": "Hospitalizations for heart failure, symptomatic and clinically significant arrhythmia (supra-ventricular and ventricular), mortality.",
+          "timeFrame": "Up to 58 weeks"
+        },
+        {
+          "measure": "Change of hs troponin-T level",
+          "description": "Measure of hs troponin-T blood level.",
+          "timeFrame": "End of each arm treatment at 32 weeks and 58 weeks."
+        },
+        {
+          "measure": "Change of systemic right ventricle size and function by echocardiographic evaluation",
+          "description": "Measure of TAPSe, S'wave, fractional area change, global longitudinal strain, end diastolic area, end systolic area and evaluation of tricuspid regurgitation during transthoracic echocardiogram.",
+          "timeFrame": "End of each arm treatment at 32 weeks and 58 weeks."
+        },
+        {
+          "measure": "Change of cardiopulmonary exercise test",
+          "description": "Measure of anaerobic threshold, functional capacity METs, heart rate response, blood pressure response, oxygen saturation response during exercise, respiratory exchange ratio VE/VO2 slope, VE/VCO2 slope.",
+          "timeFrame": "End of each arm treatment at 32 weeks and 58 weeks."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \\> or egal18 years with clinical follow-up at the Montreal Heart Institute Adult Congenital Heart Center\n* Systemic right ventricle (transposition of great vessels and atrial switch or congenitally corrected transposition of great vessels)\n* Moderate to severe systemic right ventricle dysfunction by transthoracic echocardiography (TTE) or right ventricle ejection fraction (RVEF) \\<40% by MRI\n* NYHA Functional class II-III symptoms or peak exercise capacity \\<80% of predicted on a previous standard treadmill exercise stress test (usually done every two years in our congenital clinic).\n* Ability to provide informed consent to the study\n* Access or own a telephone and/or access to internet connection for teleconference call\n* Own a mailing address to receive the medication by post (FedEx or Dicom)\n* Able to perform self-measurement of the blood pressure using Upper Arm Digital Blood Pressure Monitor as recommended by Hypertension Canada.\n\nExclusion Criteria:\n\n* Participation in a clinical trial of an investigational drug, concurrently, or within the last 30 days prior enrolment\n* Planned cardiac surgery (e.g., severe tricuspid regurgitation with planned tricuspid valve replacement or repair)\n* Previous cardiac transplantation, or on heart transplant wait list\n* Myocardial infarction, stroke, or open-heart surgery in the previous 4 weeks\n* NYHA Functional class I or IV symptoms\n* Symptomatic hypotension (fainting, dizziness, lightheadedness, blurred vision, weakness, fatigue, nausea, palpitations, and headache) with a systolic blood pressure \\<100 mmHg at screening, or asymptomatic \\<90 mmHg at screening\n* eGFR \\<30 mL/min/1.73 m2\n* Reduction in eGFR \\>35% from screening to randomization\n* Potassium \\>5.2 mmol/L at screening or \\>5.4 mmol/L at randomization\n* Known history of angioedema related to previous ACEI or ARB therapy or patients with a history of hereditary or idiopathic angioedema.\n* Patients who require concomitant treatment with an angiotensin converting enzyme inhibitor (ACEI) or an angiotensin receptor blocker (ARB) or a renin inhibitor for other indication than heart failure\n* Evidence of hepatic disease as determined by any one of the following: serum glutamate oxaloacetate transaminase (SGOT) or serum glutamate pyruvate transaminase (SGPT) values exceeding 3x upper limit of normal, bilirubin \\>1.5 mg/dl at screening.\n* Unacceptable side effects with ACE-inhibitors or ARBs\n* Patient known with bilateral renal artery stenosis\n* Cyanosis; substantial left-to-right shunting (Qp/Qs \\>1.5); severe mitral, aortic, or pulmonary regurgitation; systemic or pulmonary inflow obstruction with a peak velocity \\>1.5 m/s by transthoracic echocardiography; and severe outflow tract obstruction with a peak systolic gradient \\>80 mm Hg.\n* Inability to provide informed consent\n* Unable to exercice\n* Pregnant or planned pregnancy during the study\n* Breastfeeding\n* Severe pulmonary hypertension defined as pulmonary pressure egal or superior to systemic pressure",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Marie-A. Chaix, MD",
+          "affiliation": "Montreal Heart Institute",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Montreal Heart Institute",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H1T1C8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "29378757",
+          "type": "BACKGROUND",
+          "citation": "Brida M, Diller GP, Gatzoulis MA. Systemic Right Ventricle in Adults With Congenital Heart Disease: Anatomic and Phenotypic Spectrum and Current Approach to Management. Circulation. 2018 Jan 30;137(5):508-518. doi: 10.1161/CIRCULATIONAHA.117.031544."
+        },
+        {
+          "pmid": "16216961",
+          "type": "BACKGROUND",
+          "citation": "Dore A, Houde C, Chan KL, Ducharme A, Khairy P, Juneau M, Marcotte F, Mercier LA. Angiotensin receptor blockade and exercise capacity in adults with systemic right ventricles: a multicenter, randomized, placebo-controlled clinical trial. Circulation. 2005 Oct 18;112(16):2411-6. doi: 10.1161/CIRCULATIONAHA.105.543470. Epub 2005 Oct 10."
+        },
+        {
+          "pmid": "23247302",
+          "type": "BACKGROUND",
+          "citation": "van der Bom T, Winter MM, Bouma BJ, Groenink M, Vliegen HW, Pieper PG, van Dijk AP, Sieswerda GT, Roos-Hesselink JW, Zwinderman AH, Mulder BJ. Effect of valsartan on systemic right ventricular function: a double-blind, randomized, placebo-controlled pilot trial. Circulation. 2013 Jan 22;127(3):322-30. doi: 10.1161/CIRCULATIONAHA.112.135392. Epub 2012 Dec 17."
+        },
+        {
+          "pmid": "30586770",
+          "type": "BACKGROUND",
+          "citation": "Zaragoza-Macias E, Zaidi AN, Dendukuri N, Marelli A. Medical Therapy for Systemic Right Ventricles: A Systematic Review (Part 1) for the 2018 AHA/ACC Guideline for the Management of Adults With Congenital Heart Disease: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines. Circulation. 2019 Apr 2;139(14):e801-e813. doi: 10.1161/CIR.0000000000000604."
+        },
+        {
+          "pmid": "26527692",
+          "type": "BACKGROUND",
+          "citation": "Reddy S, Bernstein D. Molecular Mechanisms of Right Ventricular Failure. Circulation. 2015 Nov 3;132(18):1734-42. doi: 10.1161/CIRCULATIONAHA.114.012975."
+        },
+        {
+          "pmid": "31084317",
+          "type": "BACKGROUND",
+          "citation": "Lluri G, Lin J, Reardon L, Miner P, Whalen K, Aboulhosn J. Early Experience With Sacubitril/Valsartan in Adult Patients With Congenital Heart Disease. World J Pediatr Congenit Heart Surg. 2019 May;10(3):292-295. doi: 10.1177/2150135119825599."
+        },
+        {
+          "pmid": "30686641",
+          "type": "BACKGROUND",
+          "citation": "Appadurai V, Thoreau J, Malpas T, Nicolae M. Sacubitril/Valsartan in Adult Congenital Heart Disease Patients With Chronic Heart Failure - A Single Centre Case Series and Call for an International Registry. Heart Lung Circ. 2020 Jan;29(1):137-141. doi: 10.1016/j.hlc.2018.12.003. Epub 2018 Dec 17."
+        },
+        {
+          "pmid": "31242968",
+          "type": "BACKGROUND",
+          "citation": "Maurer SJ, Pujol Salvador C, Schiele S, Hager A, Ewert P, Tutarel O. Sacubitril/valsartan for heart failure in adults with complex congenital heart disease. Int J Cardiol. 2020 Feb 1;300:137-140. doi: 10.1016/j.ijcard.2019.06.031. Epub 2019 Jun 13."
+        },
+        {
+          "pmid": "33452121",
+          "type": "BACKGROUND",
+          "citation": "Zandstra TE, Nederend M, Jongbloed MRM, Kies P, Vliegen HW, Bouma BJ, Tops LF, Schalij MJ, Egorova AD. Sacubitril/valsartan in the treatment of systemic right ventricular failure. Heart. 2021 Nov;107(21):1725-1730. doi: 10.1136/heartjnl-2020-318074. Epub 2021 Jan 15."
+        },
+        {
+          "pmid": "18672299",
+          "type": "BACKGROUND",
+          "citation": "Therrien J, Provost Y, Harrison J, Connelly M, Kaemmerer H, Webb GD. Effect of angiotensin receptor blockade on systemic right ventricular function and size: a small, randomized, placebo-controlled study. Int J Cardiol. 2008 Sep 26;129(2):187-92. doi: 10.1016/j.ijcard.2008.04.056. Epub 2008 Jul 30."
+        },
+        {
+          "pmid": "29111106",
+          "type": "BACKGROUND",
+          "citation": "Ezekowitz JA, O'Meara E, McDonald MA, Abrams H, Chan M, Ducharme A, Giannetti N, Grzeslo A, Hamilton PG, Heckman GA, Howlett JG, Koshman SL, Lepage S, McKelvie RS, Moe GW, Rajda M, Swiggum E, Virani SA, Zieroth S, Al-Hesayen A, Cohen-Solal A, D'Astous M, De S, Estrella-Holder E, Fremes S, Green L, Haddad H, Harkness K, Hernandez AF, Kouz S, LeBlanc MH, Masoudi FA, Ross HJ, Roussin A, Sussex B. 2017 Comprehensive Update of the Canadian Cardiovascular Society Guidelines for the Management of Heart Failure. Can J Cardiol. 2017 Nov;33(11):1342-1433. doi: 10.1016/j.cjca.2017.08.022. Epub 2017 Sep 6."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C549068",
+          "term": "sacubitril and valsartan sodium hydrate drug combination"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

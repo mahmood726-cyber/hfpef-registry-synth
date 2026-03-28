@@ -1,0 +1,267 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01078272",
+      "orgStudyIdInfo": {
+        "id": "09-25"
+      },
+      "organization": {
+        "fullName": "St. Francis Hospital, New York",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Saint Francis Remote Ischemic Preconditioning Trial (SaFR)",
+      "officialTitle": "The Saint Francis Remote Ischemic Preconditioning Trial (SaFR)",
+      "acronym": "SaFR"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-03",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Recruitment inadequate",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2010-03"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2011-10",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2011-10",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2010-03-01",
+      "studyFirstSubmitQcDate": "2010-03-01",
+      "studyFirstPostDateStruct": {
+        "date": "2010-03-02",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2020-03-17",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-03-19",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Nathaniel Reichek MD",
+        "investigatorTitle": "Director, Research Department and Cardiac Imaging Program",
+        "investigatorAffiliation": "St. Francis Hospital, New York"
+      },
+      "leadSponsor": {
+        "name": "St. Francis Hospital, New York",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study tests the hypothesis that repeated inflation of a blood pressure cuff on the arm will improve results of coronary stent implantation by:\n\n* reducing chest pain and electrocardiogram changes during balloon inflation to place the stent\n* reducing leakage of heart muscle protein(troponin) into the blood stream after stent placement, indicated reduced damage to heart muscle during stent implantation\n* increases in molecules in the blood that promote dilation of arteries\n* reduced evidence of heart muscle damage on MRI immediately after stenting\n* improved patient outcomes over six months with fewer adverse cardiovascular events(heart attack, acute coronary syndrome,renarrowing of the stented artery, heart failure, death, stroke, transient ischemic attack)\n* improved heart structure and function at 6 months after stenting"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Coronary Artery Disease"
+      ],
+      "keywords": [
+        "Coronary Atherosclerosis",
+        "Percutaneous Coronary Intervention",
+        "Coronary Stenting",
+        "Coronary Stenosis",
+        "Remote Ischemic Preconditioning"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 4,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Remote Ischemic Preconditioning (RIPC)",
+          "type": "EXPERIMENTAL",
+          "description": "Randomized subjects who are treated immediately prior to stenting with remote ischemic preconditioning consisting of 3 5 minute blood pressure cuff inflations to occlude the brachial artery in their nondominant arms, with intervening 5 minute rest periods.",
+          "interventionNames": [
+            "Other: Remote ischemic preconditioning"
+          ]
+        },
+        {
+          "label": "Sham Remote Ischemic Preconditioning",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Patients who prior to stenting have the RIPC blood pressure cuff placed but not inflated for 3 5 minute episodes with 5 minute rest periods.",
+          "interventionNames": [
+            "Other: Sham Remote Ischemic Preconditioning"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Remote ischemic preconditioning",
+          "description": "Randomized subjects are treated immediately prior to stenting with remote ischemic preconditioning consisting of 3 5 minute blood pressure cuff inflations to occlude the brachial artery in their nondominant arms, with intervening 5 minute rest periods.",
+          "armGroupLabels": [
+            "Remote Ischemic Preconditioning (RIPC)"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Sham Remote Ischemic Preconditioning",
+          "description": "Randomized subjects who are exposed immediately prior to stenting to sham remote ischemic preconditioning consisting of 3 5 minute blood pressure cuff placements without inflation on their nondominant arms, with intervening 5 minute rest periods.",
+          "armGroupLabels": [
+            "Sham Remote Ischemic Preconditioning"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "MACE",
+          "description": "MACE is defined as a combined endpoint including: heart attack, acute coronary syndrome,restenosis of the stented artery, new heart failure stroke, transient ischemic attack or death",
+          "timeFrame": "6 months post-stenting"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "troponin I",
+          "description": "prevalence of cTn I \\> 0.12 nG/ml in active RIPC and placebo groups",
+          "timeFrame": "24 hours"
+        },
+        {
+          "measure": "chest pain during stenting",
+          "description": "compare frequency, severity(1-10 scale) and duration of chest pain during stent implantation",
+          "timeFrame": "immediate during procedure"
+        },
+        {
+          "measure": "ST segment changes during stent implantation",
+          "description": "compare prevalence and severity of electrocardiographic ST segment elevation or depression during stent implantation between active and placebo groups",
+          "timeFrame": "immediate"
+        },
+        {
+          "measure": "MRI delayed enhancement",
+          "description": "Compare prevalence and volume of myocardial delayed gadolinium enhancement in active and placebo groups",
+          "timeFrame": "1-7 days after stenting"
+        },
+        {
+          "measure": "Late left ventricular volumes and ejection fraction",
+          "description": "Compare left ventricular ejection fraction, end-diastolic and end-systolic volumes between active and placebo groups at 6 months",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with stable chronic coronary artery disease scheduled for elective percutaneous intervention.\n\nExclusion Criteria:\n\n* Recent (1 month) myocardial infarction\n* Acute coronary syndrome\n* Chest pain at res\n* Estimated glomerular filtration rate(GFR)\\<45 mL/min/1.73 m2\n* Frequent premature atrial or ventricular contractions or atrial fibrillation\n* Any contraindication to MRI including implanted non MRI compatible medical devices or ferromagnetic materials such as shrapnel\n* Inability to breath-hold\n* Severe claustrophobia\n* Deafness\n* Persistent tremor\n* Inability to follow instructions.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "40 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Nathaniel Reichek, MD",
+          "affiliation": "St. Francis Hospital-The Heart Center, Roslyn, NY",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "St. Francis Hospital-The Heart Center",
+          "city": "Roslyn",
+          "state": "New York",
+          "zip": "11576",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.79982,
+            "lon": -73.65096
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "First randomized trial of RIPC for coronary stenting",
+          "url": "http://www.ncbi.nlm.nih.gov/pubmed/19188504?itool=EntrezSystem2.PEntrez.Pubmed.Pubmed_ResultsPanel.Pubmed_RVDocSum&ordinalpos=39"
+        },
+        {
+          "label": "editorial review of remote ischemic preconditioning in coronary disease",
+          "url": "http://www.ncbi.nlm.nih.gov/pubmed/19221230?itool=EntrezSystem2.PEntrez.Pubmed.Pubmed_ResultsPanel.Pubmed_RVDocSum&ordinalpos=37"
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003324",
+          "term": "Coronary Artery Disease"
+        },
+        {
+          "id": "D023921",
+          "term": "Coronary Stenosis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003327",
+          "term": "Coronary Disease"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

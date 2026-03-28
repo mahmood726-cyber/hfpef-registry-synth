@@ -1,0 +1,289 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05838287",
+      "orgStudyIdInfo": {
+        "id": "HSC20220916H"
+      },
+      "organization": {
+        "fullName": "The University of Texas Health Science Center at San Antonio",
+        "class": "OTHER"
+      },
+      "briefTitle": "Pioglitazone on Heart Failure in Type-2 Diabetes Mellitus Participants",
+      "officialTitle": "Pioglitazone, Lipotoxicity, and Heart Failure With Preserved Ejection Fraction (HFpEF)",
+      "acronym": "PIOHF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-08",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-07-10",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2029-08",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2030-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-04-10",
+      "studyFirstSubmitQcDate": "2023-04-20",
+      "studyFirstPostDateStruct": {
+        "date": "2023-05-01",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-08-26",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-08-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "The University of Texas Health Science Center at San Antonio",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Our goal of the study is to learn the effects of the diabetes medication named Pioglitazone, in type-2 diabetic obese participants with Heart failure. The main question it aims to answer are:\n\n1. To demonstrate that impaired mitochondrial function leading to reduced ATP generation plays a key pathophysiologic role in the development of heart failure with preserved ejection fraction (HFpEF) in obese type 2 diabetic (T2D) individuals.\n2. To demonstrate that pioglitazone, improves diastolic (as well as systolic) function by improving myocardial insulin sensitivity and by reducing both myocardial and epicardial fat content.",
+      "detailedDescription": "Either Pioglitazone or Placebo Pioglitazone will be administered during this study in this Type 2 Diabetic population with Heart Failure to examine if there are any beneficial effects on diastolic and systolic function.\n\nMyocardial blood flow (MBF) is measured using a PET scan, then participants will be randomized to pioglitazone or a placebo to examine the effects of the study drug on the effects on the systolic and diastolic function of the heart. In addition, myocardial insulin sensitivity change will be measured as well as myocardial fat content. The ratio of ATP: PCr will also be measured."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type 2 Diabetes Mellitus in Obese",
+        "Heart Failure With Preserved Ejection Fraction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "double-blind placebo controlled, randomized clinical trial",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "maskingDescription": "Neither the participant nor the investigator knows what treatment is given",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 78,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Pioglitazone Administration Group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Pioglitazone 15mg/day titrated to 30 mg/day at week 2 and to 45 mg/day at week 4",
+          "interventionNames": [
+            "Drug: Pioglitazone"
+          ]
+        },
+        {
+          "label": "Placebo/Control Group",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Pioglitazone",
+          "description": "Participants will be taking Pioglitazone tablets 1/day for 24 weeks.",
+          "armGroupLabels": [
+            "Pioglitazone Administration Group"
+          ],
+          "otherNames": [
+            "Actos"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo for Pioglitazone",
+          "armGroupLabels": [
+            "Placebo/Control Group"
+          ],
+          "otherNames": [
+            "Placebo tablet"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Systolic function",
+          "description": "Measurement of change in systolic function of the heart using cardiac MRI",
+          "timeFrame": "Baseline and 6-months post treatment (approximately 24 weeks)"
+        },
+        {
+          "measure": "Change in Diastolic function",
+          "description": "Measurement of change in diastolic function of the heart using cardiac MRI",
+          "timeFrame": "Baseline and 6-months post treatment (approximately 24 weeks)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Myocardial insulin sensitivity",
+          "description": "Measurement of change in Free Plasma Glucose (FPG) in blood plasma",
+          "timeFrame": "Baseline and 6-months post treatment (approximately 24 weeks)"
+        },
+        {
+          "measure": "Myocardial fat content",
+          "description": "Measurement of change in myocardial fat content",
+          "timeFrame": "Baseline and 6-months post treatment (approximately 24 weeks)"
+        },
+        {
+          "measure": "PCr:ATP ratio",
+          "description": "Measurement of change in PCr:ATP ratio",
+          "timeFrame": "Baseline and 6-months post treatment (approximately 24 weeks)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Provision of signed and dated informed consent form\n2. Stated willingness to comply with all study procedures and availability for the duration of the study\n3. Male or female, aged 30-70 years\n4. Body Mass Index (BMI) of 27.5-40kg/m²\n5. HbA1c of 6.5 to 10%\n6. Blood pressure of less than or equal to 145/65mmHg\n7. eGFR greater than 45 ml/min/1.73m²\n8. Subject must have HFpEF (EF \\> 50% by ECHO screening)\n9. NYHA class II-III heart failure\n10. Only T2D patients treated with diet/exercise, metformin, sulfonylurea, metformin/SU, DPP4i or insulin will be studied.\n11. For females of reproductive potential: use of highly effective contraception for at least 1 month prior to screening and agreement to use such a method during study participation and for an additional \\[4 weeks\\] after the end of study participation.\n12. For males of reproductive potential: use of condoms or other methods to ensure effective contraception with partner.\n\nExclusion Criteria:\n\n1. Subjects with history of osteoporosis or proliferative diabetic retinopathy\n2. Subjects with Heart failure due to restrictive or infiltrative cardiomyopathy, active myocarditis, constrictive pericarditis, severe valvular heart disease, etc. will be excluded\n3. Patients with symptomatic coronary artery disease.\n4. Subjects with significant change in diuretic management during the month prior to screening (defined by doubling of diuretic dose, or addition of another HF medication).\n5. Subjects treated with a GLP-1 RA or thiazolidinedione.\n6. Subjects treated with a SGLT2i\n7. Pregnancy or lactation\n8. Known allergic reactions to components of the study interventions.\n9. Any metal plates, parts, screws, shrapnel, pins in body, or cardiac (heart) pacemaker",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "30 Years",
+      "maximumAge": "70 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Sivaram Neppala, MD",
+          "role": "CONTACT",
+          "phone": "210-358-7200",
+          "email": "neppalas@uthscsa.edu"
+        },
+        {
+          "name": "Andrea Hansis-Diarte, MPH",
+          "role": "CONTACT",
+          "phone": "210-567-3208",
+          "email": "Hansisdiarte@uthscsa.edu"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Ralph A DeFronzo, MD",
+          "affiliation": "University of Texas",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Texas Diabetes Institute/UH",
+          "status": "RECRUITING",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78229-3900",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Ralph DeFronzo, MD",
+              "role": "CONTACT",
+              "phone": "210-358-7200",
+              "email": "defronzo@uthscsa.edu"
+            },
+            {
+              "name": "Sivaram Neppala, MD",
+              "role": "CONTACT",
+              "phone": "210-358-7200",
+              "email": "neppalas@uthscsa.edu"
+            },
+            {
+              "name": "Ralph DeFronzo, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Sivaram Neppala, MD",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "IPD data will not be available to other researchers."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077205",
+          "term": "Pioglitazone"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D045162",
+          "term": "Thiazolidinediones"
+        },
+        {
+          "id": "D013844",
+          "term": "Thiazoles"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,412 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07219511",
+      "orgStudyIdInfo": {
+        "id": "VS-041-102"
+      },
+      "organization": {
+        "fullName": "Vasa Therapeutics",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Safety, Tolerability, and Biomarker Trial of VS-041 in Participants With Heart Failure With Preserved Ejection Fraction (HFpEF)",
+      "officialTitle": "A Safety, Tolerability, and Biomarker Trial of VS-041 in Participants With Heart Failure With Preserved Ejection Fraction (HFpEF)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-11-04",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-06",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-07",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-10-17",
+      "studyFirstSubmitQcDate": "2025-10-17",
+      "studyFirstPostDateStruct": {
+        "date": "2025-10-22",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-17",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-19",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Vasa Therapeutics",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "A Safety, Tolerability, and Biomarker Trial of VS-041 in Participants with Heart Failure with Preserved Ejection Fraction (HFpEF)"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart",
+        "Heart Failure With Preserved Ejection Fraction (HFPEF)"
+      ],
+      "keywords": [
+        "Heart Failure with Preserved Ejection Fraction",
+        "HFpEF"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 42,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "interventionNames": [
+            "Other: Placebo"
+          ]
+        },
+        {
+          "label": "Low Dose VS-041",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: VS-041"
+          ]
+        },
+        {
+          "label": "High Dose VS-041",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: VS-041"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "VS-041",
+          "description": "VS-041 high dose, VS-041 low dose or Placebo tablet BID",
+          "armGroupLabels": [
+            "High Dose VS-041",
+            "Low Dose VS-041"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Placebo",
+          "description": "Placebo to match VS-041",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Participant incidence of treatment-emergent adverse events (TEAEs)",
+          "description": "To evaluate the safety and tolerability of VS-041 in participants with HFpEF",
+          "timeFrame": "From Baseline to Day 28"
+        },
+        {
+          "measure": "Change from baseline over time in serum NordicPRO-C6",
+          "description": "To evaluate the impact of VS-041 on key biomarkers in participants with HFpEF",
+          "timeFrame": "From Baseline to Day 28"
+        },
+        {
+          "measure": "Change from baseline over time in serum endotrophin",
+          "description": "To evaluate the impact of VS-041 on key biomarkers in participants with HFpEF",
+          "timeFrame": "From Baseline to Day 28"
+        },
+        {
+          "measure": "Change from baseline over time in serum NT-proBNP",
+          "description": "To evaluate the impact of VS-041 on key biomarkers in participants with HFpEF",
+          "timeFrame": "From Baseline to Day 28"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Pharmacokinetic profiles and parameters derived for VS-041 - Tmax",
+          "description": "To assess PK of twice-daily VS-041 in participants with HFpEF",
+          "timeFrame": "From Baseline to Day 28"
+        },
+        {
+          "measure": "Pharmacokinetic profiles and parameters derived for VS-041 - Cmax",
+          "description": "To assess PK of twice-daily VS-041 in participants with HFpEF",
+          "timeFrame": "From Baseline to Day 28"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nParticipants must meet all inclusion criteria to be eligible for trial participation.\n\n1. Males or females ≥ 50 years of age at the time of signing the informed consent.\n2. Diagnosis of HFpEF as defined by European Society of Cardiology or American College of Cardiology/American Heart Association criteria\n3. NYHA Functional Class II or III\n4. LVEF ≥ 50% demonstrated by echocardiography (ECHO) performed at Screening with evidence of heart failure\n5. Elevated NT-proBNP at Screening\n6. NordicPRO-C6™ ≥ 11 ng/mL at Screening.\n7. Stable dose of all concomitant HF medications for at least 4 weeks prior to Screening.\n8. Body weight of at least 110 lbs (50 kg) and body mass index (BMI) within the range ≥ 18 to \\< 45 kg/m2.\n9. Males must agree to the contraception requirements and females must be of non-childbearing potential\n10. Able to understand and willing to sign a written informed consent form (ICF).\n11. Willing and able to comply with trial procedures and restrictions listed in the ICF and in this protocol.\n\nExclusion Criteria:\n\n1. Female trial participant who is pregnant or breastfeeding.\n2. Known hypersensitivity to VS-041.\n3. Cardiovascular disease other than HFpEF\n4. Active intercurrent illness such as acute bacterial or viral infection.\n5. History of illicit drug or alcohol abuse or addiction that in the opinion of the PI could affect participation.\n6. Active chronic viral infection such as Hepatitis B, Hepatitis C or human immunodeficiency virus (HIV) at Screening.\n7. Acute decompensated HF within 30 days of Screening\n8. Lung disease within 12 months prior to Screening\n9. History of an active or untreated malignancy or are in remission from a clinically significant malignancy for less than 5 years.\n10. History of any other condition including psychiatric disorders that, in the opinion of the PI, may preclude the participant from following and completing the protocol.\n11. Have participated within the last 6 months in a clinical study involving an investigational product.\n12. Any other reason which, in the opinion of the PI, would prevent the participant from participating in the trial.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "50 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Clinical Team",
+          "role": "CONTACT",
+          "phone": "760-230-3398",
+          "phoneExt": "802",
+          "email": "Clinical@Vasatherapeutics.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Cardiology and Medicine Clinic",
+          "status": "RECRUITING",
+          "city": "Little Rock",
+          "state": "Arkansas",
+          "zip": "72204",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.74648,
+            "lon": -92.28959
+          }
+        },
+        {
+          "facility": "National Institute of Clinical Research",
+          "status": "RECRUITING",
+          "city": "Huntington Beach",
+          "state": "California",
+          "zip": "92648",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.6603,
+            "lon": -117.99923
+          }
+        },
+        {
+          "facility": "FOMAT",
+          "status": "RECRUITING",
+          "city": "Santa Maria",
+          "state": "California",
+          "zip": "93454",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.95303,
+            "lon": -120.43572
+          }
+        },
+        {
+          "facility": "Invivocure LLC",
+          "status": "RECRUITING",
+          "city": "Van Nuys",
+          "state": "California",
+          "zip": "91405",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.18667,
+            "lon": -118.44897
+          }
+        },
+        {
+          "facility": "New Generation of Medical Research",
+          "status": "RECRUITING",
+          "city": "Hialeah",
+          "state": "Florida",
+          "zip": "33016",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.8576,
+            "lon": -80.27811
+          }
+        },
+        {
+          "facility": "Jacksonville Center for Clinical Research",
+          "status": "RECRUITING",
+          "city": "Jacksonville",
+          "state": "Florida",
+          "zip": "32216",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          }
+        },
+        {
+          "facility": "Amavita Health",
+          "status": "RECRUITING",
+          "city": "North Miami Beach",
+          "state": "Florida",
+          "zip": "33169",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.93315,
+            "lon": -80.16255
+          }
+        },
+        {
+          "facility": "Chicago Medical Research",
+          "status": "RECRUITING",
+          "city": "Hazel Crest",
+          "state": "Illinois",
+          "zip": "60429",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.5717,
+            "lon": -87.69449
+          }
+        },
+        {
+          "facility": "Methodist Medical Center of Illinois",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Peoria",
+          "state": "Illinois",
+          "zip": "61606",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.69365,
+            "lon": -89.58899
+          }
+        },
+        {
+          "facility": "Louisiana Heart Center",
+          "status": "RECRUITING",
+          "city": "Slidell",
+          "state": "Louisiana",
+          "zip": "70458",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.27519,
+            "lon": -89.78117
+          }
+        },
+        {
+          "facility": "Washington University",
+          "status": "NOT_YET_RECRUITING",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63110",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Ash Research Clinic",
+          "status": "RECRUITING",
+          "city": "Brick",
+          "state": "New Jersey",
+          "zip": "08724",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.05928,
+            "lon": -74.13708
+          }
+        },
+        {
+          "facility": "Erie County Medical Center",
+          "status": "RECRUITING",
+          "city": "Buffalo",
+          "state": "New York",
+          "zip": "14215",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.88645,
+            "lon": -78.87837
+          }
+        },
+        {
+          "facility": "Wake Forest",
+          "status": "RECRUITING",
+          "city": "Winston-Salem",
+          "state": "North Carolina",
+          "zip": "27157",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.09986,
+            "lon": -80.24422
+          }
+        },
+        {
+          "facility": "Cleveland Clinic",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Cleveland",
+          "state": "Ohio",
+          "zip": "44195",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.4995,
+            "lon": -81.69541
+          }
+        },
+        {
+          "facility": "Oklahoma Heart Hospital",
+          "status": "RECRUITING",
+          "city": "Oklahoma City",
+          "state": "Oklahoma",
+          "zip": "73120",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.46756,
+            "lon": -97.51643
+          }
+        },
+        {
+          "facility": "University of Texas Southwestern Medical Center",
+          "status": "RECRUITING",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75231",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19"
+    }
+  },
+  "hasResults": false
+}

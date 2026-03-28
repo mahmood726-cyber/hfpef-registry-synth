@@ -1,0 +1,276 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01958814",
+      "orgStudyIdInfo": {
+        "id": "PHAO11-PD / BANNISTER"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2011-004802-20",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "University Hospital, Tours",
+        "class": "OTHER"
+      },
+      "briefTitle": "Beta Agonist Nebulization in Non Invasively Ventilated COPD Patients: Safety, and Therapeutic Efficacy Range.",
+      "officialTitle": "Controlled Randomized Double-blind Study Comparing Salbutamol and Placebo Via Aerosol in Chronic Obstructive Respiratory Insufficiency in Exacerbartion Treated With Noninvasive Ventilation",
+      "acronym": "BANNISTER"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2016-05",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2012-02"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2015-07",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2015-07",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2013-10-07",
+      "studyFirstSubmitQcDate": "2013-10-08",
+      "studyFirstPostDateStruct": {
+        "date": "2013-10-09",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2025-12-15",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University Hospital, Tours",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "randomized double-blind controlled study in parallel groups\n\nSalbutamol is a β2 mimetic short-acting to be administered by nebulization in this study.\n\nDuring this administration, non invasive ventilation for the patient will be continued.",
+      "detailedDescription": "Randomization will focus on the treatment administered (placebo or salbutamol ).\n\nAfter the first phase , a switch will be set up for each patient , retaining the blind it will be administered salbutamol (for those who received placebo in the first phase ) or placebo (for those receiving salbutamol ) ."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Chronic Respiratory Failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 43,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Salbutamol - Placebo",
+          "type": "EXPERIMENTAL",
+          "description": "salbutamol at M0 and M60 placebo administration",
+          "interventionNames": [
+            "Drug: Salbutamol",
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "Placebo - Salbutamol",
+          "type": "EXPERIMENTAL",
+          "description": "placebo at M0 and M60 salbutamol administration",
+          "interventionNames": [
+            "Drug: Salbutamol",
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Salbutamol",
+          "description": "First administration of salbutamol or placebo at M0 and 2nd salbutamol or placebo at M60 (or M0 + 60 minutes)",
+          "armGroupLabels": [
+            "Placebo - Salbutamol",
+            "Salbutamol - Placebo"
+          ],
+          "otherNames": [
+            "Treatment"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "First administration of salbutamol or placebo at M0 and 2nd salbutamol or placebo at M60 (or M0 + 60 minutes)",
+          "armGroupLabels": [
+            "Placebo - Salbutamol",
+            "Salbutamol - Placebo"
+          ],
+          "otherNames": [
+            "physiological serum"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Collection at the bedside spirometric values",
+          "timeFrame": "gross change in forced expiratory volume in one second from the beginning of salbutamol or placebo and 15 min after the start"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "gross change in vital capacity of peak expiratory flow rate, the ratio of FEV, forced expiratory flow",
+          "timeFrame": "between the median baseline and 15 min after the start of treatment"
+        },
+        {
+          "measure": "gross change in respiratory rate, heart rate and systolic and diastolic blood pressure",
+          "timeFrame": "between baseline and 15 min after the start of treatment"
+        },
+        {
+          "measure": "gross change in dyspnea",
+          "timeFrame": "between baseline and 15 min after the start of treatment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patient over 18 years old\n* Patient with BPCO, defined:\n\n  * by an irreversible obstructive syndrome\n  * and\\\\or by different arguments (histories, symptoms, physical examination, thoracic radiography, gas of the blood)\n* Decompensation of this BPCO in the form of acute respiratory failure\n* No argument for a dominant acute left cardiac insufficiency\n* Consent signed by the patient\n* Patient with national health assurance\n\nExclusion Criteria:\n\n* Contraindications in the not invasive ventilation\n* Patient not volunteer for the realization of the spirometry\n* Precautions for use of ß2 mimetic (engrave hyperthyroidism)\n* Under guardianship patient or protection of justice\n* Pregnant patient",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Pierre-François DEQUIN, MD-PhD",
+          "affiliation": "CHRU de TOURS",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Service de Réanimation Médicale - CHR d'Orléans",
+          "city": "Orléans",
+          "zip": "45000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.90248,
+            "lon": 1.90407
+          }
+        },
+        {
+          "facility": "Service de Réanimation",
+          "city": "Poitiers",
+          "zip": "86000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 46.58261,
+            "lon": 0.34348
+          }
+        },
+        {
+          "facility": "CHRU de Tours",
+          "city": "Tours",
+          "zip": "37000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.39484,
+            "lon": 0.70398
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "30589607",
+          "type": "RESULT",
+          "citation": "Bodet-Contentin L, Guillon A, Boulain T, Frat JP, Garot D, Le Pennec D, Vecellio L, Ehrmann S, Giraudeau B, Tavernier E, Dequin PF. Salbutamol Nebulization During Noninvasive Ventilation in Exacerbated Chronic Obstructive Pulmonary Disease Patients: A Randomized Controlled Trial. J Aerosol Med Pulm Drug Deliv. 2019 Jun;32(3):149-155. doi: 10.1089/jamp.2018.1484. Epub 2018 Dec 27."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000420",
+          "term": "Albuterol"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004983",
+          "term": "Ethanolamines"
+        },
+        {
+          "id": "D000605",
+          "term": "Amino Alcohols"
+        },
+        {
+          "id": "D000438",
+          "term": "Alcohols"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        },
+        {
+          "id": "D010627",
+          "term": "Phenethylamines"
+        },
+        {
+          "id": "D005021",
+          "term": "Ethylamines"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

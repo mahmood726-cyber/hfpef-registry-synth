@@ -1,0 +1,280 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04774523",
+      "orgStudyIdInfo": {
+        "id": "CR028"
+      },
+      "organization": {
+        "fullName": "Biotronik SE & Co. KG",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Evaluation of the BIOTRONIK AutoAdapt Algorithm for Continuous Automatic Adaptive Cardiac Resynchronization",
+      "officialTitle": "Evaluation of the BIOTRONIK AutoAdapt Algorithm for Continuous Automatic Adaptive Cardiac Resynchronization",
+      "acronym": "BIO|Adapt"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-09",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-08-31",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-07-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-07-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-02-19",
+      "studyFirstSubmitQcDate": "2021-02-24",
+      "studyFirstPostDateStruct": {
+        "date": "2021-03-01",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-09-17",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-09-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Biotronik SE & Co. KG",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "BIO\\|Adapt study is designed to provide evidence for the clinical benefit of the CRT AutoAdapt feature. This feature provides continuous adaptation of AV delay and biventricular pacing modality. However, additional clinical data on the short and mid-term improvement of CRT-D patients by the CRT AutoAdapt feature are needed.",
+      "detailedDescription": "The magnitude of clinical and hemodynamic benefit of CRT varies significantly among its recipients. Many studies report that approximately one-third of the implanted population show no clinical improvement at follow-ups. There are many clinical factors that are associated with the CRT response and the grade of benefit, such as type of cardiomyopathy, severity of electrical conduction abnormalities, dyssynchrony, and scar burden. In addition, there are device-related factors such as lead location, insufficient ventricular pacing percentage (%V), and suboptimal atrial-ventricular (AV) and ventricle- ventricle (VV) timing.\n\nThe main finding in such CRT non-responders is a suboptimal AV-timing (47%). The optimization of AV and VV intervals during biventricular (BiV) pacing is an option to maximize the positive effects of CRT, by taking advantage of the full atrial contraction for optimal filling of the ventricles. Optimization is usually accomplished by using echocardiography or other methods. However, such methods are time consuming for the hospitals and may not provide a benefit for every patient.\n\nThe most common pacing mode for CRT therapy is BiV pacing, but many acute and chronic randomized clinical studies have demonstrated that left-ventricular (LV) pacing can be at least as effective as BiV pacing. In patients with sinus rhythm and normal atrioventricular (AV) conduction, pacing the left ventricle only with an appropriate AV interval can result in an even superior LV and right ventricular (RV) function compared with standard BiV pacing. LV pacing has been proposed as an alternative approach to apply cardiac resynchronization as it has been shown that LV pacing induces short-term hemodynamic benefits compared to BiV pacing.\n\nDifferent algorithms have been developed by different manufactures to provide continuous automatic CRT optimization, allowing a more physiologic ventricular activation and greater device longevity in patients with normal AV conduction due to the reduction of unnecessary RV pacing. Studies with the Medtronic Adaptive cardiac resynchronization therapy (aCRT) algorithm, that provides automatic ambulatory selection between synchronized LV or BiV pacing with dynamic optimization of atrioventricular and interventricular delays, have shown that the algorithm is safe and as effective as BiV pacing with comprehensive echocardiographic optimization.\n\nThe CRT AutoAdapt feature by BIOTRONIK optimizes the CRT therapy settings of the device automatically and continuously. This algorithm adjusts the AV delay and sets the ventricular pacing configuration to BiV or LV. The settings are based on intracardiac conduction times, which are measured every 60 seconds to select the optimal configuration.\n\nThe objective of this study is to show non-inferiority of this feature compared to standard echo-based optimization with regard to clinical benefit."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure",
+        "Cardiac Arrhythmia",
+        "Left Ventricular Dysfunction"
+      ],
+      "keywords": [
+        "CRT therapy",
+        "Heart Failure",
+        "AV optimization",
+        "Left Ventricular Ejection Fraction",
+        "AutoAdapt algorithm"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "There will be two arms with the same study flow chart along the study.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 198,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Control group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "This group will be made up of patients implanted with CRT-D devices without the CRT AutoAdapt feature, or with the CRT AutoAdapt feature deactivated.",
+          "interventionNames": [
+            "Procedure: Echocardiography AV optimization",
+            "Procedure: Echocardiography",
+            "Other: Self Assessment Score"
+          ]
+        },
+        {
+          "label": "AutoAdapt group",
+          "type": "EXPERIMENTAL",
+          "description": "This group will be made up of patients implanted with CRT-D devices that have the CRT AutoAdapt feature available. It is mandatory that all patients within this group have the feature activated, independently of other characteristics.",
+          "interventionNames": [
+            "Procedure: Echo-based assessment of the acute hemodynamic effect of the CRT AutoAdapt feature.",
+            "Procedure: Echocardiography",
+            "Other: Self Assessment Score"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "Echo-based assessment of the acute hemodynamic effect of the CRT AutoAdapt feature.",
+          "description": "Patients in the AutoAdapt group undergo the echo-based assessment of the acute hemodynamic effect of the CRT AutoAdapt feature.\n\nThree steps must be followed:\n\n1. Standard AV programming: perform echo for AoVTI assessment.\n2. Echo-optimized AV programming: perform standard echo-based AV-optimization (Ritter method or iterative method, according to routine at investigational site); measure AoVTI at optimized setting.\n3. AutoAdapt optimized programming: The system allows different programming options for the parameter 'Adaptive AV reduction'. The nominal value is 0.7, but it can be modified to different values ranging from 0.5 to 0.9. The AoVTI shall be measured at standard setting of the \"Adaptive Av reduction\" parameter, 0.7.",
+          "armGroupLabels": [
+            "AutoAdapt group"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Echocardiography AV optimization",
+          "description": "Patient in the control group undergo the routine echo-based AV-optimization that is usually performed at the investigational site (Ritter method or iterative method). Performance of an additional VV-delay optimization is left to the investigator discretion",
+          "armGroupLabels": [
+            "Control group"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Echocardiography",
+          "description": "Echocardiography must be performed at baseline and 12 month Follow Up to collect the LVEF/LVESD(V)/LVEDD(V)",
+          "armGroupLabels": [
+            "AutoAdapt group",
+            "Control group"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Self Assessment Score",
+          "description": "Patient must complete the self assessment score at 6 and 12 month Follow Up, that will be use for the Packer Clinical Composite Score",
+          "armGroupLabels": [
+            "AutoAdapt group",
+            "Control group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "CRT-responder rate based on improvement in Clinical Composite Score developed by Packer at 12 month follow up.",
+          "description": "It will be use Packer Score to assess the clinical outcome in heart failure patients. It takes into account all possible dimensions of outcome, i.e. mortality, morbidity and quality of life and is based on the following data points:\n\n* Death (yes/no)\n* Any unplanned hospitalization for worsening heart failure (yes/no)\n* Change in NYHA class compared to baseline (improved/unchanged/worsened)\n* Patient's global assessment (PGA) compared to baseline (improved - three stages / unchanged / worsened - three stages)\n* Discontinuation of study protocol due to worsening heart failure, treatment failure or lacking therapeutic response (yes/no)\n\nAt the end of the study, the outcome of each patient is classified as:\n\n* Worsened\n* Unchanged\n* Improved",
+          "timeFrame": "12 month Follow Up"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Acute hemodynamic effect of AutoAdapt feature",
+          "description": "The acute hemodynamic response to different parameter settings will be assessed by measuring the aortic velocity time integral (AoVTI) via echocardiography.",
+          "timeFrame": "At pre-hospital discharge assessed up to 30 days since the implantation"
+        },
+        {
+          "measure": "Change in LVEF",
+          "description": "The intra-individual change in LVEF from baseline to 12 month FU will be assessed by echocardiography as a measure of improvement in cardiac function and compared between patient groups.",
+          "timeFrame": "12 month Follow Up"
+        },
+        {
+          "measure": "Change in Left Ventricular End Diastolic and Systolic Diameter (LVED(S)D)",
+          "description": "The intra-individual change in LVED(S)D from baseline to 12 month FU will be assessed by echocardiography as a measure of ventricular reverse remodeling and compared between patient groups.",
+          "timeFrame": "12 month Follow Up"
+        },
+        {
+          "measure": "Change in Left Ventricular End Diastolic and Systolic Volumes (LVED(S)V)",
+          "description": "The intra-individual change in LVED(S)V from baseline to 12 month FU will be assessed by echocardiography as a measure of ventricular reverse remodeling and compared between patient groups.",
+          "timeFrame": "12 month Follow Up"
+        },
+        {
+          "measure": "Change in NYHA class",
+          "description": "The intra-individual change in the NYHA classification from baseline to 12 months will be assessed as a measure of overall functional improvement and compared between patient groups.",
+          "timeFrame": "12 month Follow Up"
+        },
+        {
+          "measure": "Percentage of LV only pacing",
+          "description": "The percentage of LV only pacing based on device statistics will be assessed at the 12 months FU and compared between patient groups to assess the potential to reduce battery consumption by the AutoAdapt feature.",
+          "timeFrame": "12 month Follow Up"
+        },
+        {
+          "measure": "Adverse device effects related to the CRT AutoAdapt feature",
+          "description": "Evaluation of all reported adverse device effects for a possible relation with the CRT AutoAdapt feature",
+          "timeFrame": "12 month Follow Up"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Indication for de novo implantation or upgrade to a CRT-D device\n* Enrolled in BIO\\|STREAM.HF but not yet implanted with or upgraded to CRT-D\n* LVEF \\< 35%\n* QRS \\> 120 ms\n* NYHA II-IV\n* Atrial heart rate during sinus rhythm at rest below 100 bpm\n* Patient is able to understand the nature of the study and willing to provide written informed consent to this submodule\n\nExclusion Criteria:\n\n* Planned implantation or previous implantation with a BIOTRONIK DX ICD lead\n* History of persistent/permanent AF\n* History of complete AV-block",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Francisco Javier García Fernandez, Physician",
+          "affiliation": "Hospital Universitario de Burgos, Spain",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Dr Francisco Javier Garcia",
+          "city": "Burgos",
+          "state": "Castille and León",
+          "zip": "09006",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.34106,
+            "lon": -3.70184
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D001145",
+          "term": "Arrhythmias, Cardiac"
+        },
+        {
+          "id": "D018487",
+          "term": "Ventricular Dysfunction, Left"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D018754",
+          "term": "Ventricular Dysfunction"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

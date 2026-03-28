@@ -1,0 +1,313 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05895097",
+      "orgStudyIdInfo": {
+        "id": "PACE TAVI"
+      },
+      "organization": {
+        "fullName": "University Medical Centre Ljubljana",
+        "class": "OTHER"
+      },
+      "briefTitle": "Conventional Versus Left Bundle Branch Pacing in TAVI",
+      "officialTitle": "Impact of Conduction System Pacing on Left Ventricular Remodeling After Transcatheter Aortic Valve Implantation"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-06",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-06-15",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-06-15",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-06-15",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-02-06",
+      "studyFirstSubmitQcDate": "2023-06-05",
+      "studyFirstPostDateStruct": {
+        "date": "2023-06-08",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-06-05",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-06-08",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Klemen Steblovnik",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "University Medical Centre Ljubljana"
+      },
+      "leadSponsor": {
+        "name": "University Medical Centre Ljubljana",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This randomized study compares the effects of conventional (right ventricular pacing in patients with LVEF ≥ 40% and cardiac resynchronization therapy in patients with LVEF \\< 40 %) versus left bundle branch pacing on left ventricular remodelling in patients with reduced left ventricular ejection fraction (\\< 50 %) that need permanent pacemaker implantation after transcatheter aortic valve implantation (TAVI).",
+      "detailedDescription": "Bradycardic heart rhythm disturbances are a common complication of TAVI. Patients who will develop the indication for permanent pacemaker implantation after TAVI will be randomly assigned to either the experimental (left bundle branch pacing) or conventional (right ventricular pacing in patients with LVEF ≥ 40% and cardiac resynchronization therapy in patients with LVEF \\< 40 %) group. The investigators will compare the left ventricular ejection fraction (primary outcome) 12 months after randomization. The investigators will also compare electrocardiographic (QRS duration), clinical (NYHA status, 6-minute walking test, handgrip test, Kansas City Cardiomyopathy Questionnaire) and laboratory (proBNP) parameters 6 and 12 months, and other echocardiographic (left ventricular systolic and diastolic diameter, signs of dyssynchrony, myocardial work) parameters 12 months after pacemaker implantation in both groups."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Aortic Valve Stenosis",
+        "Heart Failure",
+        "Pacemaker-Induced Cardiomyopathy",
+        "Transcatheter Aortic Valve Implantation"
+      ],
+      "keywords": [
+        "Transcatheter Aortic Valve Implantation",
+        "Left bundle branch pacing"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 50,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Conventional pacing",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Device: Conventional pacing"
+          ]
+        },
+        {
+          "label": "LBB pacing",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Device: Left bundle branch pacemaker"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Left bundle branch pacemaker",
+          "description": "Left bundle branch pacing (LBBP) will be the pacing technique. In brief, after localizing the His bundle area the LBBP lead will be positioned approximately 1-1.5 cm distal to the His bundle position in the right ventricular septum. Before screwing the lead deep into the interventricular septum, the suitable position will be confirmed by fluoroscopic signs and adequate paced QSR morphology. Final lead position will be confirmed according to ECG parameters. Given that the pacing parameters with LBBP are typically low and stable, backup RV lead will not be mandatory.",
+          "armGroupLabels": [
+            "LBB pacing"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Conventional pacing",
+          "description": "Right ventricular pacing in patients with LVEF ≥ 40% and cardiac resynchronization therapy in patients with LVEF \\< 40 %",
+          "armGroupLabels": [
+            "Conventional pacing"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Left ventricular ejection fraction",
+          "timeFrame": "12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Left ventricular systolic diameter",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Left ventricular diastolic diameter",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Global work index",
+          "description": "Amount of myocardial work performed by the left ventricle during systole.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Global constructive work",
+          "description": "Positive work performed in systole + negative work performed in isovolumetric relaxation",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Global wasted work",
+          "description": "Negative work performed in systole + positive work performed in isovolumetric relaxation",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Global work efficiency",
+          "description": "Percentage of constructive work over total work = Constructive work/(constructive work + wasted work)",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Signs of mechanical dyssynchrony",
+          "description": "Presence of at least one of the echocardiographic signs of mechanical dyssynchrony, such as apical rocking and septal flash.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Systolic pulmonary artery pressure (echocardiographic parameter)",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "NT-proBNP concentration",
+          "timeFrame": "6 and 12 months"
+        },
+        {
+          "measure": "NYHA status",
+          "timeFrame": "6 and 12 months"
+        },
+        {
+          "measure": "6-minute walking test",
+          "timeFrame": "6 and 12 months"
+        },
+        {
+          "measure": "Hand grip test",
+          "timeFrame": "6 and 12 months"
+        },
+        {
+          "measure": "The Kansas City Cardiomyopathy Questionnaire (KCCQ-12)",
+          "description": "KCCQ scores are scaled from 0 to 100 and frequently summarized in 25-point ranges, where scores represent health status as follows: 0 to 24: very poor to poor; 25 to 49: poor to fair; 50 to 74: fair to good; and 75 to 100: good to excellent.",
+          "timeFrame": "6 and 12 months"
+        },
+        {
+          "measure": "QRS duration",
+          "timeFrame": "baseline, 6, and 12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Indication for permanent pacemaker implantation after transcatheter aortic valve implantation (during the same hospitalization)\n* Left ventricular ejection fraction \\< 50 %.\n\nExclusion Criteria:\n\n* Unsuccessful TAVI procedure with life expectancy \\< 1 year\n* Ischemic cardiomyopathy with interventricular septal fibrosis (at least echocardiographic signs of fibrosis)\n* Severe kidney failure (glomerular filtration rate \\< 30 ml/min)\n* Previous permanent pacemaker",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "University Medical Centre Ljubljana",
+          "city": "Ljubljana",
+          "zip": "1000",
+          "country": "Slovenia",
+          "contacts": [
+            {
+              "name": "Klemen Steblovnik, MD, PhD",
+              "role": "CONTACT",
+              "phone": "0038615228529",
+              "email": "steblovnik@gmail.com"
+            },
+            {
+              "name": "Klemen Steblovnik, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "David Zizek, MD, PhD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Matjaz Bunc, MD, PhD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Peter Marko Mihailovic, MD, PhD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Simon Terseglav, MD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Ana Kovac, MD, PhD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Anja Zupan Meznar, MD, PhD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Ljupka Dimitrovska, MD",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 46.05108,
+            "lon": 14.50513
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001024",
+          "term": "Aortic Valve Stenosis"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000082862",
+          "term": "Aortic Valve Disease"
+        },
+        {
+          "id": "D006349",
+          "term": "Heart Valve Diseases"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014694",
+          "term": "Ventricular Outflow Obstruction"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

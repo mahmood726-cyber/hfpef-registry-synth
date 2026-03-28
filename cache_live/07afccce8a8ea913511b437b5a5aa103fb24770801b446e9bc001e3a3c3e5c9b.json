@@ -1,0 +1,254 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01302717",
+      "orgStudyIdInfo": {
+        "id": "LVPACE"
+      },
+      "organization": {
+        "fullName": "Seoul National University Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Left Ventricular Pacing to Avoid Cardiac Enlargement Study",
+      "officialTitle": "Impact of Left Ventricular Pacing on Left Ventricular Systolic Function in High-risk Bradycardia Patients",
+      "acronym": "LVPACE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-04",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "Difficulty in enrollment",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2010-04"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2019-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2019-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2011-02-19",
+      "studyFirstSubmitQcDate": "2011-02-23",
+      "studyFirstPostDateStruct": {
+        "date": "2011-02-24",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2023-04-14",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-04-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Seil Oh",
+        "investigatorTitle": "Dr.",
+        "investigatorAffiliation": "Seoul National University Hospital"
+      },
+      "leadSponsor": {
+        "name": "Seoul National University Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "In this study, the investigators will examine whether left ventricular pacing is superior to right ventricular apical pacing in preventing deterioration of left ventricular systolic function and cardiac remodeling in patients with bradycardia with high risk for development of pacing-induced heart failure.",
+      "detailedDescription": "In this prospective, we will randomly assign 98 patients who need permanent pacemaker due to complete atrioventricular block or sick sinus syndrome to receive left ventricular pacing (49 patients) or right ventricular apical pacing (49 patients). Patients will be paced with temporary pacemaker lead, and only those with paced QRS duration ≥185 ms will be enrolled.\n\nThe primary endpoint is left ventricular ejection fraction measured by modified Simpson method at 12 months. The secondary end points include left ventricular systolic end-systolic and diastolic volume, LV strain, NYHA functional class, exercise performance (using treadmill test), quality of life (using SF-36v2), NT-proBNP at 12 months."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Complete AV Block",
+        "Sick Sinus Syndrome"
+      ],
+      "keywords": [
+        "Left ventricular pacing"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Right ventricular pacing",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Device: RV pacing"
+          ]
+        },
+        {
+          "label": "Left ventricular pacing",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Device: LV pacing"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "LV pacing",
+          "description": "The left ventricular lead are positioned preferentially at the posterolateral or lateral venous branches of the coronary sinus.",
+          "armGroupLabels": [
+            "Left ventricular pacing"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "RV pacing",
+          "description": "The right ventricular lead are positioned at the right ventricular apex.",
+          "armGroupLabels": [
+            "Right ventricular pacing"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Left ventricular ejection fraction (%) at 12 months",
+          "description": "Measured by modified Simpson's method",
+          "timeFrame": "12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Left ventricular end-systolic volume (ml) at 12 months",
+          "description": "Measured by modified Simpson method",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Left ventricular end-diastolic volume (ml) at 12 months",
+          "description": "Measured by modified Simpson method",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "NYHA functional class",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Functional capacity",
+          "description": "measured by treadmill test",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "NT-proBNP",
+          "description": "plasma level",
+          "timeFrame": "12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Sinus-node dysfunction or bradycardia due to advanced atrioventricular block\n* Paced QRS duration ≥185 ms\n\nExclusion Criteria:\n\n* Left ventricular ejection fraction \\< 50 %\n* Acute coronary syndrome\n* If they had undergone percutaneous coronary intervention or coronary-artery bypass surgery within the previous 3 months\n* if they had a life expectancy of less than 1 year\n* if they had received a heart transplant",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Seil Oh, MD, PhD",
+          "affiliation": "Seoul National University Hospital",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Seoul National University Bundang Hospital",
+          "city": "Seongnam",
+          "zip": "464-707",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 35.54127,
+            "lon": 127.39683
+          }
+        },
+        {
+          "facility": "Seoul National University Hospital",
+          "city": "Seoul",
+          "zip": "110-744",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D012804",
+          "term": "Sick Sinus Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001146",
+          "term": "Arrhythmia, Sinus"
+        },
+        {
+          "id": "D001145",
+          "term": "Arrhythmias, Cardiac"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D006327",
+          "term": "Heart Block"
+        },
+        {
+          "id": "D000075224",
+          "term": "Cardiac Conduction System Disease"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

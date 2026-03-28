@@ -1,0 +1,277 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06371729",
+      "orgStudyIdInfo": {
+        "id": "DEEP-VT"
+      },
+      "organization": {
+        "fullName": "IRCCS Ospedale San Raffaele",
+        "class": "OTHER"
+      },
+      "briefTitle": "DEEP Substrate Mapping Versus Activation Mapping for VT",
+      "officialTitle": "Substrate-based DEEP Mapping Versus Activation Mapping: A Prospective Randomized Multicenter Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-05",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-06-13",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-06",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-06",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-04-10",
+      "studyFirstSubmitQcDate": "2024-04-16",
+      "studyFirstPostDateStruct": {
+        "date": "2024-04-17",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-06-14",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-06-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Dr. Paolo Della Bella",
+        "investigatorTitle": "Medical Doctor",
+        "investigatorAffiliation": "IRCCS Ospedale San Raffaele"
+      },
+      "leadSponsor": {
+        "name": "IRCCS Ospedale San Raffaele",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Substrate-based DEEP mapping and activation mapping are two of the main techniques used for guiding ventricular tachycardia (VT) ablation. There is no data comparing directly the extent of applicability, procedural results, and the long-term outcomes between the two mapping strategies.This randomized clinical trial aims to test whether activation mapping is superior to DEEP mapping to reduce ventricular tachycardia recurrence.\n\nThe primary endpoint of the study is to compare recurrence-free survival rate of ventricular tachycardia at 12 months and procedural feasibility of substrate-based DEEP mapping versus activation mapping for VT ablation."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Ventricular Tachycardia"
+      ],
+      "keywords": [
+        "DEEP substrate mapping",
+        "Activation mapping"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 222,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "group 1",
+          "type": "EXPERIMENTAL",
+          "description": "Substrate-based DEEP Mapping",
+          "interventionNames": [
+            "Procedure: DEEP mapping"
+          ]
+        },
+        {
+          "label": "group 2",
+          "type": "EXPERIMENTAL",
+          "description": "VT Activation Mapping",
+          "interventionNames": [
+            "Procedure: Activation Mapping"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "DEEP mapping",
+          "description": "The Substrate-based DEEP Mapping aims to identify the arrhythmogenic substrate of VT in sinus rhythm (SR). A standardized VT mapping and ablation procedure in SR has been proven effective in reducing VT recurrences in a multicenter setting by targeting late potential (LP) abolition. Regions with LPs and LAVAs that displayed decremental behavior evoked during right ventricular (RV) pacing with extra stimuli (decrement-evoked potential; DEEP), colocalized with the regions of the initiation and diastolic pathway of the VT more accurately than those areas displaying non decremental LPs.\n\nDevice use for mapping and ablation procedure:\n\nFlexAbility/Tactiflex/TactiCath Ablation Catheter Sensor Enabled (Abbott, MN), high-density grid mapping catheter (GMC; Advisor HD Grid Mapping Catheter Sensor Enabled, Abbott, MN)",
+          "armGroupLabels": [
+            "group 1"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Activation Mapping",
+          "description": "VT Activation Mapping can localize reentry circuits, and the diastolic pathway isthmus is the desirable target for ablation when possible because it can eliminate the elements required for reentry. In fact, activation mapping of the entire diastolic pathway is associated with higher freedom from VT recurrences compared to substrate modification\n\nDevice use for mapping and ablation procedure:\n\nFlexAbility/Tactiflex/TactiCath Ablation Catheter Sensor Enabled (Abbott, MN), high-density grid mapping catheter (GMC; Advisor HD Grid Mapping Catheter Sensor Enabled, Abbott, MN)",
+          "armGroupLabels": [
+            "group 2"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "VT recurrence free survival rate",
+          "description": "Compare the efficacy of substrate-based DEEP mapping versus Activation mapping in guiding catheter ablation to prevent VT recurrences",
+          "timeFrame": "after 12 months from the procedure"
+        },
+        {
+          "measure": "Procedural feasibility",
+          "description": "Percentage of patients in which the mapping strategy was achievable and reasons for failure.",
+          "timeFrame": "During the index procedure"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Procedural data.",
+          "description": "Procedure duration (minutes)",
+          "timeFrame": "During the index procedure"
+        },
+        {
+          "measure": "Hemodynamic VT tolerance",
+          "description": "Hemodynamic decompensation during the procedure. (Arterial blood pressure \\<80 mmHg)",
+          "timeFrame": "During the index procedure"
+        },
+        {
+          "measure": "Clinical follow up data.",
+          "description": "* Number of ICD shocks at follow-up\n* Rate of subsequent hospitalizations for VT recurrence/HF\n* Cardiac mortality.",
+          "timeFrame": "after 12 months from the procedure"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with an implanted ICD (all brands)\n* Patients with the indication for Ventricular Tachycardia Ablation (both first and redo procedures), supported by EnSite 3D mapping system, for the following disease aetiologies: previous MI, myocarditis, arrhythmogenic right/left ventricular dysplasia\n* Age: 18 years or more.\n* A participant is willing and able to give informed consent for participation in the trial and is available to respect the assessments described in the protocol and informed consent form.\n\nExclusion Criteria:\n\n* Contraindication to anticoagulants.\n* Presence of thrombi.\n* Presence of Mitral and Aortic prosthetic valve.\n* Recent (less than 3 months) myocardial infarction, unstable angina, or Coronary Artery Bypass.\n* Ventricular Tachycardia caused by reversible pathology.\n* Life expectancy less than 1 year, according to the investigator.\n* Contraindications to the use of ablation/diagnostic catheters or to cardiac catheterization.\n* Female participant who is pregnant, lactating, or planning pregnancy during the course of the trial.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Andrea Radinovic, MD",
+          "role": "CONTACT",
+          "phone": "+390226436316",
+          "email": "radinovic.andrea@hsr.it"
+        },
+        {
+          "name": "Anna Montagna, PhD",
+          "role": "CONTACT",
+          "phone": "+390226437489",
+          "email": "montagna.anna@hsr.it"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "San Raffaele Hospital",
+          "status": "RECRUITING",
+          "city": "Milan",
+          "state": "Lombardy",
+          "zip": "20132",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Paolo Della Bella, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Andrea Radinovic, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.46427,
+            "lon": 9.18951
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "30089555",
+          "type": "BACKGROUND",
+          "citation": "Porta-Sanchez A, Jackson N, Lukac P, Kristiansen SB, Nielsen JM, Gizurarson S, Masse S, Labos C, Viswanathan K, King B, Ha ACT, Downar E, Nanthakumar K. Multicenter Study of Ischemic Ventricular Tachycardia Ablation With Decrement-Evoked Potential (DEEP) Mapping With Extra Stimulus. JACC Clin Electrophysiol. 2018 Mar;4(3):307-315. doi: 10.1016/j.jacep.2017.12.005. Epub 2018 Feb 3."
+        },
+        {
+          "pmid": "26480929",
+          "type": "BACKGROUND",
+          "citation": "Jackson N, Gizurarson S, Viswanathan K, King B, Masse S, Kusha M, Porta-Sanchez A, Jacob JR, Khan F, Das M, Ha AC, Pashaei A, Vigmond E, Downar E, Nanthakumar K. Decrement Evoked Potential Mapping: Basis of a Mechanistic Strategy for Ventricular Tachycardia Ablation. Circ Arrhythm Electrophysiol. 2015 Dec;8(6):1433-42. doi: 10.1161/CIRCEP.115.003083. Epub 2015 Oct 19."
+        },
+        {
+          "pmid": "32755381",
+          "type": "BACKGROUND",
+          "citation": "Hadjis A, Frontera A, Limite LR, Bisceglia C, Bognoni L, Foppoli L, Lipartiti F, Paglino G, Radinovic A, Tsitsinakis G, Calore F, Della Bella P. Complete Electroanatomic Imaging of the Diastolic Pathway Is Associated With Improved Freedom From Ventricular Tachycardia Recurrence. Circ Arrhythm Electrophysiol. 2020 Sep;13(9):e008651. doi: 10.1161/CIRCEP.120.008651. Epub 2020 Jul 28."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D017180",
+          "term": "Tachycardia, Ventricular"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013610",
+          "term": "Tachycardia"
+        },
+        {
+          "id": "D001145",
+          "term": "Arrhythmias, Cardiac"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D000075224",
+          "term": "Cardiac Conduction System Disease"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

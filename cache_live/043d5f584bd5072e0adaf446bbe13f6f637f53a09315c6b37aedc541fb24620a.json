@@ -1,0 +1,276 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03576261",
+      "orgStudyIdInfo": {
+        "id": "2016/361-31 III"
+      },
+      "organization": {
+        "fullName": "Umeå University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Heart Failure and Hemodynamic Stability During Anesthesia Induction",
+      "officialTitle": "Does Heart Failure Has Impact on Hemodynamic Stability During Anesthesia Induction"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-12",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2018-08-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-12-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-12-02",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2018-06-04",
+      "studyFirstSubmitQcDate": "2018-07-02",
+      "studyFirstPostDateStruct": {
+        "date": "2018-07-03",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-12-15",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-12-16",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Tomi Myrberg",
+        "investigatorTitle": "Principal investigator",
+        "investigatorAffiliation": "Umeå University"
+      },
+      "leadSponsor": {
+        "name": "Umeå University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The study aim is to investigate whether preoperative heart failure has impact on hemodynamic stability during anesthesia induction by target controlled infusion of anesthesia (TCI) in non-cardiac, non-morbidly obese surgery.",
+      "detailedDescription": "40 individuals are enrolled to the study after signed informed consent at the day of surgery. The study participants are randomized (non-blinded) to preoperative fluid therapy (preoperative colloid fluid bolus at 6 ml/kg LBW, Gelofusine™, Fresenius Kabi AB, Sweden) or control (no preoperative fluids) before standardized TCI- induction of anesthesia. No other intravenous fluids before anesthesia induction.\n\nPreoperative screening of biventricular systolic and diastolic function of the heart and level of venous return is implemented by transthoracic echocardiography approximately one hour before preoperative fluid therapy and anesthesia induction."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hemodynamic Instability",
+        "Anesthesia; Adverse Effect",
+        "Heart Failure",
+        "Diastolic Dysfunction",
+        "Venous; Return (Anomaly)"
+      ],
+      "keywords": [
+        "hemodynamics",
+        "venous return",
+        "heart failure",
+        "anesthesia"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "A consecutive cohort. Signed informed consent is gathered. Non-blinded randomization is conducted to fluid therapy before anesthesia induction. Preoperative diagnostics by echocardiography is conducted to all participants.Two arms, with or without preoperative fluids, are studied regarding hemodynamic stability during anesthesia induction.",
+        "primaryPurpose": "OTHER",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 44,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Preoperative echo + fluids",
+          "type": "EXPERIMENTAL",
+          "description": "20 individuals investigated by preoperative transthoracic echocardiography. Preoperative colloid fluid bolus (Gelofusine, Fresenius Kabi AB, Sweden) 6 ml/kg lean body weight, is infused intravenously immediately before anesthesia induction.",
+          "interventionNames": [
+            "Other: Preoperative colloid fluid bolus (Gelofusine)",
+            "Diagnostic Test: Preoperative transthoracic echocardiography"
+          ]
+        },
+        {
+          "label": "Preoperative echo, control",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "20 individuals investigated by preoperative transthoracic echocardiography. No intravenous fluids are infused before anesthesia induction.",
+          "interventionNames": [
+            "Diagnostic Test: Preoperative transthoracic echocardiography"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Preoperative colloid fluid bolus (Gelofusine)",
+          "description": "Preoperative colloid fluid bolus",
+          "armGroupLabels": [
+            "Preoperative echo + fluids"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Preoperative transthoracic echocardiography",
+          "description": "Screening of biventricular systolic and diastolic function of the heart and level of venous return by transthoracic echocardiography approximately one hour before preoperative fluid therapy and anesthesia induction.",
+          "armGroupLabels": [
+            "Preoperative echo + fluids",
+            "Preoperative echo, control"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Incidence of blood pressure drops",
+          "description": "Blood pressure drop below mean arterial pressure at 65 mmHg during anesthesia induction. Non-invasive blood pressures (systolic, mean and diastolic) are measured 5 minutes before anesthesia induction and thereafter every 5 minutes post-induction .",
+          "timeFrame": "20 minutes post anesthesia induction"
+        },
+        {
+          "measure": "Incidence of severe blood pressure drops",
+          "description": "Blood pressure drop below mean arterial pressure at 55 mmHg during anesthesia induction. Non-invasive blood pressures (systolic, mean and diastolic) are measured 5 minutes before anesthesia induction and thereafter every 5 minutes post-induction.",
+          "timeFrame": "20 minutes post anesthesia induction"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Venous return and hemodynamic stability",
+          "description": "Level of venous return impact on blood pressure drops during anesthesia below mean arterial pressure at 65 mmHg",
+          "timeFrame": "20 minutes post anesthesia induction"
+        },
+        {
+          "measure": "Systolic heart failure and hemodynamic stability",
+          "description": "Systolic heart failure impact on blood pressure drops during anesthesia below mean arterial pressure at 65 mmHg",
+          "timeFrame": "20 minutes post anesthesia induction"
+        },
+        {
+          "measure": "Diastolic dysfunction and hemodynamic stability",
+          "description": "Diastolic dysfunction impact on blood pressure drops during anesthesia below mean arterial pressure at 65 mmHg",
+          "timeFrame": "20 minutes post anesthesia induction"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* age over 18 years\n* body mass index ≤ 35 kg/m2\n* electively scheduled for breast cancer surgery, endocrinologic surgery (thyroid, parathyroid) and general abdominal surgery\n\nExclusion Criteria:\n\n* instable angina pectoris\n* severe bronchial asthma\n* severe COPD\n* dementia\n* severe heart valve disease\n* severe renal failure\n* body mass index \\> 35 kg/m2",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Tomi Myrberg, MD PhD",
+          "affiliation": "Umea Universitet",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Sunderby teaching hospital",
+          "city": "Luleå",
+          "zip": "97180",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 65.58415,
+            "lon": 22.15465
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D000013",
+          "term": "Congenital Abnormalities"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D009358",
+          "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D011097",
+          "term": "Polygeline"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011108",
+          "term": "Polymers"
+        },
+        {
+          "id": "D046911",
+          "term": "Macromolecular Substances"
+        },
+        {
+          "id": "D010455",
+          "term": "Peptides"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D001697",
+          "term": "Biomedical and Dental Materials"
+        },
+        {
+          "id": "D008420",
+          "term": "Manufactured Materials"
+        },
+        {
+          "id": "D013676",
+          "term": "Technology, Industry, and Agriculture"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

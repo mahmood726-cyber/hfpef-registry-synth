@@ -1,0 +1,303 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07054489",
+      "orgStudyIdInfo": {
+        "id": "17427"
+      },
+      "organization": {
+        "fullName": "Henry Ford Health System",
+        "class": "OTHER"
+      },
+      "briefTitle": "UPBEAT: Using Polygenic Scores to Guide BB Therapy in HF With Mildly Reduced EF",
+      "officialTitle": "Using Polygenic Scores to Guide Beta-blocker Therapy for Heart Failure With Mildly Reduced Ejection Fraction",
+      "acronym": "UPBEAT"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-03",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-11",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-11",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-11",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-03-24",
+      "studyFirstSubmitQcDate": "2025-06-27",
+      "studyFirstPostDateStruct": {
+        "date": "2025-07-08",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-11-05",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-11-10",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "David Lanfear",
+        "investigatorTitle": "Senior Staff Physician",
+        "investigatorAffiliation": "Henry Ford Health System"
+      },
+      "leadSponsor": {
+        "name": "David Lanfear",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study will use polygenic scores, a tool which describes differences in genetics, to examine effectiveness of beta blocker medication in heart failure patients with ejection fraction of 41-50 percent. The study will also assess beta blockers' effect on the changes in left ventricular end-systolic volume index by MRI.",
+      "detailedDescription": "Heart failure (HF) is a major public health problem that displays wide variation in progression and response to therapy. Beta-blockers (BB) are the cornerstone of treatment for HF reduced ejection fraction (HFrEF) but only \\~25% of patients experience a marked and sustained ejection fraction (EF) response, and they can have unwanted side effects (fatigue, depression, erectile dysfunction, others). The potential for Precision Medicine to improve HF care is great, but despite proof of concept, actionable ways are still lacking to use genomic or biomarker strategies to predict response to typical treatment. An important limitation of pharmacogenetics to date is that most studies used candidate gene approaches, assuming other loci are not meaningful. Unbiased approaches (e.g. genome-wide \\[GW\\] association) overcome this, but the typical analysis requires stringent significance levels which result in missing potentially important sources of variation. Common complex disease and drug responses are unlikely to be under strong single-loci influence (e.g., Mendelian disease), and instead are likely influenced by many loci that have relatively weak effects (i.e., polygenicity); such phenotypes are better tackled with approaches like polygenic risk scores. The PI has developed and validated a polygenic score for BB drug-response (in terms of mortality benefit) in HF for European ancestry patients and is currently developing a new score for diverse ancestries, particular African ancestry and admixed populations. To move this new paradigm for precision medicine forward to clinical utility, a randomized trial of BB by genomic (polygenic score) subgroups is needed. Moreover, pivotal trials of BB in HF excluded patients with mildly reduced EF (HFmEF, 40-50%), representing a public health issue of significant size (an estimated prevalence of 1.6M Americans) where currently BB may or may not be used and with limited data to guide who should or should not receive this key therapy. HFmEF patients have abnormal systolic function, high event rates, share many characteristics with HFrEF, and the polygenic response score correctly differentiates responders from non-responders in this group, making them the ideal group of patients in which to test genomically targeted BB treatment in a clinical trial. This pilot study will demonstrate feasibility of a future phase 2 study. That study, if successful would potentially revolutionize HF care by demonstrating signs of efficacy in terms of polygenic drug targeting."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure",
+        "Polygenic Score"
+      ],
+      "keywords": [
+        "Beta blocker",
+        "Metoprolol"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Randomized, double-blind, placebo-controlled, two parallel group clinical trial",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 10,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Beta Blocker",
+          "type": "EXPERIMENTAL",
+          "description": "This group will be dispensed and titrated on beta blocker according to study protocol.",
+          "interventionNames": [
+            "Other: Beta blocker"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "NO_INTERVENTION",
+          "description": "This group will be dispensed and titrated on placebo according to study protocol."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Beta blocker",
+          "description": "Participants randomized to intervention will be dosed and titrated on beta blocker according to study protocol.",
+          "armGroupLabels": [
+            "Beta Blocker"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in left ventricle end systolic volume index",
+          "description": "LVESVi, measured in mL per square meter; assessed by cardiac MRI",
+          "timeFrame": "Within 6 months of randomization"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Other MRI ventricular performance characteristics: Left ventricular EF",
+          "description": "Left ventricular EF, measured in percentage",
+          "timeFrame": "Baseline and within 6 months of randomization"
+        },
+        {
+          "measure": "Other MRI ventricular performance characteristics: Left ventricular end-diastolic volume index",
+          "description": "Left ventricular end-diastolic volume index (LVEDVi) as assessed by cardiac MRI, measured in mL per square meter",
+          "timeFrame": "Baseline and within 6 months of randomization"
+        },
+        {
+          "measure": "Clinical effects: blood pressure",
+          "description": "Change in Blood pressure, measured in mmHg",
+          "timeFrame": "Baseline through exit visit, an interval of approximately 6 months"
+        },
+        {
+          "measure": "Clinical effects: Heart rate",
+          "description": "Change in Heart rate, measured in beats per minute",
+          "timeFrame": "Baseline through exit visit, an interval of approximately 6 months"
+        },
+        {
+          "measure": "Change in NT-proBNP levels",
+          "description": "Blood test for biomarker level of N-terminal pro Brain natriuretic protein, measured in ng/L",
+          "timeFrame": "Baseline and within 6 months of randomization"
+        },
+        {
+          "measure": "Quality of life status",
+          "description": "Summary score of KCCQ",
+          "timeFrame": "Baseline and monthly for duration of approximately 6 months"
+        },
+        {
+          "measure": "Functional status",
+          "description": "Change in 6-minute-walk-test, measured in meters",
+          "timeFrame": "Baseline through exit visit, an interval of approximately 6 months"
+        },
+        {
+          "measure": "Clinical safety events",
+          "description": "Measured in all-cause mortality",
+          "timeFrame": "Baseline through 30 days following completion of exit visit"
+        },
+        {
+          "measure": "Clinical safety events",
+          "description": "Measured in heart failure hospitalizations and emergency room visits",
+          "timeFrame": "Baseline through 30 days following completion of exit visit"
+        },
+        {
+          "measure": "Clinical safety events",
+          "description": "Measured in symptomatic hypotension or syncope",
+          "timeFrame": "Baseline through 30 days following completion of exit visit"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 18-89 years\n* Ejection Fraction (EF) \\>40% and =\\<50% by any modality within 1 year (must be most recent)\n* Clinical diagnosis of HF within 1 year, evidenced by any one: Hospital discharge with primary or secondary HF diagnosis, ER discharge with primary diagnosis of HF, ambulatory diagnostic code for HF and diuretic use, BNP\\>35 ng/L or NTproBNP \\>125 ng/L at any time\n\nExclusion Criteria:\n\n* Unable to provide informed consent\n* Previous documented EF =\\< 35%\n* Currently on BB \\>25% target dose\n* Uncontrolled hypertension (systolic BP \\> 180 at enrollment)\n* Has contraindications to all BB or intolerance to metoprolol\n* Systolic BP \\< 100 or heart rate \\<70\n* Current cancer requiring active treatment\n* Heart transplant or LVAD or expected in the next year\n* Life expectancy \\< 1 year for any reason\n* Dialysis dependence or ESRD\n* MI/ PCI/ CABG within 90 days prior to enrollment or planned in the future\n* Absolute indication for BB other than heart failure (e.g. tachyarrhythmia required BB for rate control, angina)\n* If PI decides for any reason participation in trial is not in best interest of the patient",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "89 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Whitney Cabral, MS",
+          "role": "CONTACT",
+          "phone": "313-949-6616",
+          "email": "wcabral1@hfhs.org"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "David Lanfear, MD",
+          "affiliation": "Henry Ford Health",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Henry Ford Health",
+          "status": "RECRUITING",
+          "city": "Detroit",
+          "state": "Michigan",
+          "zip": "48202",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Whitney Cabral",
+              "role": "CONTACT",
+              "phone": "313-949-6616",
+              "email": "WCABRAL1@hfhs.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.33143,
+            "lon": -83.04575
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000319",
+          "term": "Adrenergic beta-Antagonists"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D018674",
+          "term": "Adrenergic Antagonists"
+        },
+        {
+          "id": "D018663",
+          "term": "Adrenergic Agents"
+        },
+        {
+          "id": "D018377",
+          "term": "Neurotransmitter Agents"
+        },
+        {
+          "id": "D045504",
+          "term": "Molecular Mechanisms of Pharmacological Action"
+        },
+        {
+          "id": "D020228",
+          "term": "Pharmacologic Actions"
+        },
+        {
+          "id": "D020164",
+          "term": "Chemical Actions and Uses"
+        },
+        {
+          "id": "D045505",
+          "term": "Physiological Effects of Drugs"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

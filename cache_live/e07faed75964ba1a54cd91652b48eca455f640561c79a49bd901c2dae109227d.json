@@ -1,0 +1,287 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06865716",
+      "orgStudyIdInfo": {
+        "id": "169-21-BNZ"
+      },
+      "organization": {
+        "fullName": "Bnai Zion Medical Center",
+        "class": "OTHER_GOV"
+      },
+      "briefTitle": "Effects of Early Vagus Nerve Stimulation on Infarct Damage and Functioning After Acute STEMI",
+      "officialTitle": "Effects of Early Non-invasive Vagus Nerve Stimulation on Infarct Damage and Functioning After Acute ST-elevation Myocardial Infarction"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-03",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-10-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-01-05",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-12-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-01-19",
+      "studyFirstSubmitQcDate": "2025-03-05",
+      "studyFirstPostDateStruct": {
+        "date": "2025-03-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-03-05",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-03-10",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Idit.Dobretzky-Mery",
+        "investigatorTitle": "Head of the cardiology and cardiac care unit",
+        "investigatorAffiliation": "Bnai Zion Medical Center"
+      },
+      "leadSponsor": {
+        "name": "Bnai Zion Medical Center",
+        "class": "OTHER_GOV"
+      },
+      "collaborators": [
+        {
+          "name": "University of Haifa",
+          "class": "OTHER"
+        },
+        {
+          "name": "University of Oklahoma",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this clinical trial is to investigate whether early non-invasive vagus nerve stimulation (nVNS) can reduce infarct damage and improve functioning after acute ST-elevation myocardial infarction (STEMI). It will assess the safety and effectiveness of nVNS in improving cardiac outcomes. The main questions it aims to answer are:\n\n* Does nVNS improve short-term prognosis post-STEMI by enhancing heart rate variability (HRV) and reducing inflammation?\n* Does nVNS reduce infarct size, improve left ventricular function, and lower inflammatory markers compared to sham stimulation?\n\nParticipants will be randomly assigned to one of two groups:\n\n* Experimental group: Receive standard care plus nVNS for 60 minutes at the right ear using the Parasym device under ECG monitoring.\n* Control group: Receive standard care plus sham nVNS (placebo-like procedure without stimulation).\n\nParticipants will undergo stimulation once for 60 minutes post-percutaneous coronary intervention (PCI), and be monitored for adverse reactions like bradycardia, with immediate cessation if needed.\n\nKey study details:\n\n* Inclusion criteria: Adults aged 25-75 years with confirmed STEMI (clinical signs and elevated troponin).\n* Exclusion criteria: Bradycardia (HR \\< 50 bpm), extensive anterior MI, hypotension, or severe cardiac/medical conditions.\n* Intervention parameters: Stimulation targeting the auricular branch of the vagal nerve with 200µs pulse width, 20Hz frequency, and adjustable intensity (10-50mA), remaining below the pain threshold.\n\nOutcomes measured:\n\n* Primary outcomes: Wall motion score index (WMSI) and left ventricular ejection fraction (LVEF).\n* Secondary outcomes: HRV metrics, troponin levels, inflammatory markers (CRP, NLR), atrial fibrillation events, hospitalization duration, one-month survival, quality of life (HeartQOL scale), and one-year survival.\n\nStatistical analysis: Researchers will compare baseline characteristics using t-tests and chi-square tests. Main analyses will involve repeated measures mixed-design ANOVA and multivariate ANOVA. Moderation analysis will assess the influence of the experimental condition on inflammation and clinical outcomes.\n\nEthical considerations: The study complies with Israeli Ministry of Health guidelines for emergency clinical trials. Participants will provide verbal consent followed by written consent. Ethical approval was granted by the IRB of Bnai Zion Medical Center, Haifa, Israel (Approval No. 0169-21-BNZ)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ST Elevation Myocardial Infarction (STEMI)"
+      ],
+      "keywords": [
+        "RCT",
+        "Non invasive vagal nerve stimulation",
+        "STEMI",
+        "Cardiac Functioning"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "The participants did not know if they were receiving actual stimulation or not. and the ECHO technician who calculated the ECHO results also did not know the arm of the patient",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Post PCI STEMI patients treated with early active noninvasive vagus nerve stimulation",
+          "type": "EXPERIMENTAL",
+          "description": "The patients received 60 minutes of electrical vagus nerve stimulation via electrode attached to the ear.",
+          "interventionNames": [
+            "Device: Active noninvasive vagus nerve stimulation"
+          ]
+        },
+        {
+          "label": "Post PCI STEMI patients received the clip stimulator on the lower ear lobe without stimulation",
+          "type": "SHAM_COMPARATOR",
+          "description": "Post PCI STEMI patients in the control arm received the clip stimulator on the lower ear lobe without stimulation",
+          "interventionNames": [
+            "Other: Chum electrode attached to patient's lower ear lobe"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Active noninvasive vagus nerve stimulation",
+          "description": "The stimulation parameters include a 200µs stimulation width, at an intensity level of 10-50ma (adjusted for patient-comfort), at a frequency of 20Hz during 60min .",
+          "armGroupLabels": [
+            "Post PCI STEMI patients treated with early active noninvasive vagus nerve stimulation"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Chum electrode attached to patient's lower ear lobe",
+          "description": "The clip stimulator is attached to the patient's lower ear lobe without stimulation.",
+          "armGroupLabels": [
+            "Post PCI STEMI patients received the clip stimulator on the lower ear lobe without stimulation"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Wall Motion Score Index",
+          "description": "The wall motion score index (WMSI) numerically sums the average scores for all left ventricular segments into a single parameter. The prognostic value of WMSI has been investigated in small cohorts of patients with acute myocardial infarction, suggesting superiority to LVEF in predicting mortality",
+          "timeFrame": "One to 2 days after stimulation: 24-48 hours post-stimulation"
+        },
+        {
+          "measure": "Left ventricular ejection fraction (LVEF)",
+          "description": "LVEF is the fraction of chamber volume ejected in systole (stroke volume) in relation to the volume of the blood in the ventricle at the end of diastole (end-diastolic volume). Stroke volume is calculated as the difference between EDV and end-systolic volume (ESV). This activity reviews the calculation of LVEF, its clinical relevance and highlights the role of the interprofessional team in managing patients with depressed LVEF.",
+          "timeFrame": "One to 2 days after stimulation: 24-48 hours post-stimulation"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "survival",
+          "description": "The length of time from either the date of diagnosis or the start of treatment for a disease, such as cancer, that patients diagnosed with the disease are still alive. In a clinical trial, measuring the overall survival is one way to see how well a new treatment works. Also called OS.",
+          "timeFrame": "one month after the intervention and one year after"
+        },
+        {
+          "measure": "quality of lifeQuality of life will be assessed using the Heart Disease-Specific Quality of Life Questionnaire (HeartQOL).",
+          "description": "Patients' definitions of QOL included three components: 1) ability to perform physical and social activities, 2) maintaining happiness, and 3) engaging in fulfilling relationships.This scale includes 14 items scored on a 4-point Likert scale (0 = 'Not at all' to 3 = 'Very much'). The total score ranges from 0 to 3, with higher scores indicating worse quality of life and lower scores indicating better quality of life..",
+          "timeFrame": "Data will be collected 24 hours after the intervention and one month after discharge."
+        },
+        {
+          "measure": "inflammatory markers of CRP",
+          "description": "C-reactive protein (CRP) levels will be monitored using routine blood tests collected during hospitalization.\n\n• Unit of Measure: Milligrams per liter (mg/L).",
+          "timeFrame": "Baseline (before intervention), 24 hours post-intervention and 48 hours post-intervention ."
+        },
+        {
+          "measure": "inflammatory markers of Neutrophil-to-Lymphocyte Ratio (NLR)",
+          "description": "Neutrophil-to-lymphocyte ratio (NLR) will be calculated from routine blood tests collected during hospitalization.•Unit of Measure: Ratio (neutrophils to lymphocytes).",
+          "timeFrame": "Baseline (before intervention), 24 hours post-intervention and 48 hours post-intervention"
+        },
+        {
+          "measure": "Troponin",
+          "description": "Troponin levels will be measured using routine blood samples collected during hospitalization. Troponin is a biomarker that rises in cases of myocardial infarction.• Unit of Measure: Nanograms per liter (ng/L).",
+          "timeFrame": "Baseline (before intervention), 24 hours post-intervention and 48 hours post-intervention"
+        },
+        {
+          "measure": "ProBnp",
+          "description": "N-terminal pro-B-type natriuretic peptide (NT-proBNP) ) levels will be measured using routine blood samples collected during hospitalization. NT-proBNP is a biomarker used for diagnosing acute decompensated heart failure.\n\n• Unit of Measure: Picograms per milliliter (pg/mL).",
+          "timeFrame": "once (within 24 hours of PCI)"
+        },
+        {
+          "measure": "Time-Domain Indices of HRV",
+          "description": "Description: Time-domain indices of heart rate variability (HRV) measured using adedicated HRV monitor (emWave) on the patients' left index finger during 5 minutes at rest.\n\n* Metrics: SDNN (standard deviation of NN intervals) and RMSSD (root mean square of successive differences).\n* Units of Measure: Milliseconds (ms).\n* Description: Time-domain indices of heart rate variability (HRV) measured using a dedicated HRV monitor (emWave) on the patients' left index finger during 5 minutes at rest.\n* Metrics: SDNN (standard deviation of NN intervals) and RMSSD (root mean square of successive differences).\n* Units of Measure: Milliseconds (ms).\n* Description: Time-domain indices of heart rate variability (HRV) measured using a dedicated HRV monitor (emWave) on the patients' left index finger during 5 minutes at rest.\n* Metrics: SDNN (standard deviation of NN intervals) and RMSSD (root mean square of successive differences).\n* Units of Measure: Milliseconds (ms).",
+          "timeFrame": "Before the intervention, immediately after the intervention (at 60 minutes), 24 hours post-intervention, and 48 hours post-intervention."
+        },
+        {
+          "measure": "Frequency-Domain Indices of HRV",
+          "description": "Frequency-domain indices of heart rate variability (HRV) measured using a dedicated HRV monitor (emWave) on the patients' left index finger during 5 minutes at rest.• Metrics: LF (low frequency), HF (high frequency), and LF/HF ratio.• Units of Measure: Absolute power (ms²) or normalized units (nu).",
+          "timeFrame": ": Before the intervention, immediately after the intervention (at 60 minutes), 24 hours post-intervention, and 48 hours post-intervention."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Having had an MI verified by clinical signs (e.g., pain in the chest, left arm, left shoulder), ST-elevation MI (STEMI) and clinically significant elevations of troponin values (cut-off value 19 ng/l or using sex-specific cut-off values of 14ng/l for women and 22ng/l for men.\n* Between 25-75 years of age.\n* Patients with Intra-Aortic Balloon.\n\nExclusion Criteria:\n\n* Heart rate (HR) \\< 50 bpm (bradycardia)\n* Extensive anterior MI: According to infarct size criteria: KILLIP III \\& KILLIP IV of Heart Failure following MI is defined as Extensive anterior MI.\n* Hypotension (systolic blood pressure \\< 90mmHg).\n* Sildenafil treatment.\n* Diagnosed with Atrial Fibrillation.\n* Diagnosed with Ventricular arrythmias not including Accelerated Idio Ventricular Rhythm (AIVR).\n* Anaesthetize patient.\n* Mechanical ventilated patient.\n* Participation in another trial",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "25 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Bnai Zion Medical Center, 47 Golomb Street, Cardiology Department Main Building, Haifa, Israel",
+          "city": "Haifa",
+          "state": "Haifa District",
+          "zip": "3104802",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.81303,
+            "lon": 34.99928
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,332 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00157846",
+      "orgStudyIdInfo": {
+        "id": "CEN_G_CA_1"
+      },
+      "organization": {
+        "fullName": "Medtronic Cardiac Rhythm and Heart Failure",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "X-Change HF - Exchange of the Existing Pacemaker/ICD in Bradycardia Patients Suffering From Heart Failure",
+      "officialTitle": "Exchange of the Existing Pacemaker/ICD in Bradycardia Patients Suffering From Heart Failure to Investigate the Effect of Preventive Stimulation"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2017-02",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Due to existing evidence eligible patients receive CRT treatment in first place",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2003-10"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2008-08",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2008-08",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2005-09-09",
+      "studyFirstSubmitQcDate": "2005-09-10",
+      "studyFirstPostDateStruct": {
+        "date": "2005-09-12",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2025-06-30",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-07-03",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Medtronic Cardiac Rhythm and Heart Failure",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Medtronic",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of X-Change HF is to estimate the effect of biventricular stimulation in patients who need antibradycardia ventricular stimulation (more than 80%); are eligible for the exchange of an old pacemaker or implantable cardioverter defibrillator (ICD); and have ventricular dysfunction (left ventricular ejection fraction \\[LVEF\\] \\< 35%). All patients eligible for participation in the study will be upgraded with a cardiac resynchronization therapy (CRT)-device and receive either right ventricular or biventricular stimulation in a crossover protocol. The endpoint is functional performance measured by spiroergometry."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure, Congestive"
+      ],
+      "keywords": [
+        "Heart Failure",
+        "LVEF < 35%",
+        "Bradycardia"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "OTHER",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 36,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "BiV Pacing",
+          "type": "EXPERIMENTAL",
+          "description": "Biventricular pacing for 3 months, subsequently right ventricular pacing for 3 months",
+          "interventionNames": [
+            "Device: CRT-P or CRT-D Device"
+          ]
+        },
+        {
+          "label": "RV Stimulation",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Right ventricular pacing for 3 months, subsequently biventricular pacing for 3 months",
+          "interventionNames": [
+            "Device: CRT-P or CRT-D Device"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "CRT-P or CRT-D Device",
+          "description": "Upgrade from ICD or pacemaker to CRT-D/CRT-P (Insync III, Insync Marquis, Insync Sentry, Insync Maximo, Concerto)",
+          "armGroupLabels": [
+            "BiV Pacing",
+            "RV Stimulation"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Cardiopulmonary performance measured by spiroergometry",
+          "description": "Maximal oxygen uptake (Vo2 max \\[ml/kg/min\\])",
+          "timeFrame": "Baseline to 7 months post-implant"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Left ventricular end diastolic diameter (LVEDD [mm])",
+          "timeFrame": "Baseline to 7 months post-implant"
+        },
+        {
+          "measure": "N-terminal prohormone brain natriuretic peptide (NT-proBNP) [pg/ml]",
+          "timeFrame": "Baseline to 7 months post-implant"
+        },
+        {
+          "measure": "Left ventricular ejection fraction (LVEF [%])",
+          "timeFrame": "Baseline to 7 months post-implant"
+        },
+        {
+          "measure": "New York Heart Association (NYHA) Class",
+          "timeFrame": "Baseline to 7 months post-implant"
+        },
+        {
+          "measure": "Occurrence of rhythm disturbances: atrial arrhythmias (amount and duration [h/day])",
+          "timeFrame": "Baseline to 7 months post-implant"
+        },
+        {
+          "measure": "Occurrence of rhythm disturbances: ventricular arrhythmias (amount and duration [h/day])",
+          "timeFrame": "Baseline to 7 months post-implant"
+        },
+        {
+          "measure": "Heart rate variability [ms]",
+          "timeFrame": "Baseline to 7 months post implant"
+        },
+        {
+          "measure": "Amount of hospitalizations because of heart failure (amount and duration [days])",
+          "timeFrame": "Baseline to 7 months post-implant"
+        },
+        {
+          "measure": "Cardiopulmonary performance measured by spiroergometry: Oxygen uptake at the anaerobic threshold (VO2 AT [s])",
+          "timeFrame": "Baseline to 7 months post-implant"
+        },
+        {
+          "measure": "Mortality",
+          "timeFrame": "Baseline to 7 months post-implant"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Implanted dual-chamber pacemaker or ICD system with replacement indication\n\n  * Because of battery end of life\n  * Because of upgrade from pacemaker to ICD system\n\n    * predominant sinus rhythm (paroxysmal atrial fibrillation \\[AF\\] \\< 2 hours/day)\n    * predominant ventricular stimulation (\\>= 80%)\n    * NYHA Class II-III\n    * LVEF \\<= 35%\n\nExclusion Criteria:\n\n* NYHA Class IV\n* Life expectancy of less than one year because of accompanying diseases\n* Myocardial infarction less than 3 months old\n* Cardiac surgery less than 3 months\n\n  * Bypass\n  * Valve surgery\n  * Percutaneous transluminal coronary angioplasty (PTCA)\n* Thoracotomy, for implant of an epicardial LV electrode\n* Medical circumstances that make participation and compliance impossible\n* Patients who are not willing or able to give written consent for their study participation\n* Participation in another study\n* Patients less than 18 years old\n* Pregnancy",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Thomas Lawo, MD",
+          "affiliation": "Berufsgenossenschaftliche Kliniken Bergmannsheil Bochum",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Klinikum Augsburg I. Medizinische Klinik",
+          "city": "Augsburg",
+          "zip": "86156",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.37154,
+            "lon": 10.89851
+          }
+        },
+        {
+          "facility": "Charite Campus Virchow-Klinikum",
+          "city": "Berlin",
+          "zip": "13353",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Unfallkrankenhaus Benjamin Franklin",
+          "city": "Berlin",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Ev. Freikirchliches KH Bernau und Herzzentrum Brandenburg",
+          "city": "Bernau",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 47.80018,
+            "lon": 8.0383
+          }
+        },
+        {
+          "facility": "Berufsgenossenschaftliche Kliniken Bergmannsheil",
+          "city": "Bochum",
+          "zip": "44789",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.48165,
+            "lon": 7.21648
+          }
+        },
+        {
+          "facility": "Städtisches Kreiskrankenhaus",
+          "city": "Friedrichshafen",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 47.65689,
+            "lon": 9.47554
+          }
+        },
+        {
+          "facility": "Georg-August-Universität Göttingen",
+          "city": "Göttingen",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.53443,
+            "lon": 9.93228
+          }
+        },
+        {
+          "facility": "St.-Vincentius Klinken",
+          "city": "Karlsruhe",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.00937,
+            "lon": 8.40444
+          }
+        },
+        {
+          "facility": "Märkische Kliniken GmbH Klinikum Luedenscheid",
+          "city": "Lüdenscheid",
+          "zip": "58515",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.21977,
+            "lon": 7.6273
+          }
+        },
+        {
+          "facility": "Krankenhaus Reinbek St. Adolf Stift",
+          "city": "Reinbek B. Hamburg",
+          "zip": "21465",
+          "country": "Germany"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D001919",
+          "term": "Bradycardia"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D001145",
+          "term": "Arrhythmias, Cardiac"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

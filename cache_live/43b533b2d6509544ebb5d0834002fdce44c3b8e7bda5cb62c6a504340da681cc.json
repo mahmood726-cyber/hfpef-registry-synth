@@ -1,0 +1,304 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06664866",
+      "orgStudyIdInfo": {
+        "id": "Study1720"
+      },
+      "organization": {
+        "fullName": "Cedars-Sinai Medical Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "AI Echocardiographic Screening of Cardiac Amyloidosis",
+      "officialTitle": "Artificial Intelligence Guided Echocardiographic Screening of Rare Diseases (EchoNet-Screening)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-06",
+      "overallStatus": "ENROLLING_BY_INVITATION",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-10-28",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-11-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-11-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-10-28",
+      "studyFirstSubmitQcDate": "2024-10-28",
+      "studyFirstPostDateStruct": {
+        "date": "2024-10-30",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-06-24",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-06-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Lily Stern",
+        "investigatorTitle": "Assistant Professor",
+        "investigatorAffiliation": "Cedars-Sinai Medical Center"
+      },
+      "leadSponsor": {
+        "name": "Cedars-Sinai Medical Center",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Palo Alto Veteran Affairs Hospital",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "Providence Heart & Vascular Institute",
+          "class": "OTHER"
+        },
+        {
+          "name": "Northwestern Medicine",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUnapprovedDevice": true,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Recent advances in machine learning and image processing techniques have shown that machine learning models can identify features unrecognized by human experts and accurately assess common measurements made in clinical practice. Echocardiography is the most common form of cardiac imaging and is routinely and frequently used for diagnosis. However, there is often subjectivity and heterogeneity in interpretation. Artificial intelligence (AI)'s ability for precision measurement and detection is important in both disease screening as well as diagnosis of cardiovascular disease.\n\nCardiac amyloidosis (CA) is a rare, underdiagnosed disease with targeted therapies that reduce morbidity and increase life expectancy. However, CA is frequently overlooked and confused with heart failure with preserved ejection fraction. Some estimates suggest that CA can be as prevalence as 1% in a general population, with even higher prevalence in patients with left ventricular hypertrophy, heart failure, and other cardiac symptoms that might prompt echocardiography.\n\nAI guided disease screening workflows have been proposed for rare diseases such as cardiac amyloidosis and other diseases with relatively low prevalence but significant human impact with targeted therapies when detected early. This is an area particularly suitable for AI as there are multiple mimics where diseases like hypertrophic cardiomyopathy, cardiac amyloidosis, aortic stenosis, and other phenotypes might visually be similar but can be distinguished by AI algorithms. The investigators have developed an algorithm, termed EchoNet-LVH, to identify cardiac hypertrophy and identify patients who would benefit from additional screening for cardiac amyloidosis."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiac Amyloidosis"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "DIAGNOSTIC",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 500,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Suspicious by EchoNet-LVH Algorithm",
+          "type": "EXPERIMENTAL",
+          "description": "Each potential participant identified by automated AI-enhanced echocardiogram review will be chart reviewed by each site's CA experts for appropriateness of enrollment and clinican suspicion for CA. Based on the judgement of CA experts, potential participants that meet eligibility criteria will be called to be consented, followed in the study, and referred to see the CA expert.",
+          "interventionNames": [
+            "Diagnostic Test: EchoNet-LVH Assessment"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "EchoNet-LVH Assessment",
+          "description": "The AI algorithm is previously described (Duffy et al. JAMA Cardiology 2022) and will remain unchanged throughout the course of the study. A pre-determined threshold based on prior experiments and analysis has been decided prior to the study. From each site, approximately 100,000 echocardiogram studies will be reviewed by EchoNet-LVH for approximately 500 patients to be flagged.",
+          "armGroupLabels": [
+            "Suspicious by EchoNet-LVH Algorithm"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Positive Predictive Value",
+          "description": "1. Among patients that screening positive and consented to the trial, the proportion of patients that subsequently are confirmed to have CA upon clinical follow-up.\n2. Statistical Analysis: Fisher's exact (two-sided) for superiority Comparison with PPV of standard clinical suspicion (PPV of all comers that receive Tc-99m PYP/HDP imaging scan or other clinical diagnosis).",
+          "timeFrame": "1 year"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Time to Diagnosis from Echocardiogram Study to Clinical Diagnosis",
+          "description": "Statistical Analysis: Cox proportional hazards test with comparison with of Study population vs. comparison with Patients with echocardiogram study showing at least moderate left ventricular hypertrophy by human interpretation.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Number of Patients that Receive Treatment for CA",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Number of Cardiac Amyloidosis Diagnoses",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Number of Participants with All Cause Death",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Number of Participants with All Cause Hospitalization",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Number of Participants with Heart Failure Hospitalization",
+          "description": "defined as needing IV diuretics or BNP higher than baseline or ICD9/10 code",
+          "timeFrame": "1 year"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients receiving an echocardiogram that is determined to be suspicious by EchoNet-LVH\n\nExclusion Criteria:\n\n* Patients that decline consent\n* Patients receiving an echocardiogram that is determined to be not suspicious by EchoNet-LVH",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "22 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Lily Stern, MD",
+          "affiliation": "Cedars-Sinai Medical Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Cedars Sinai Medical Center",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90034",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Palo Alto Veteran Affairs Hospital",
+          "city": "Palo Alto",
+          "state": "California",
+          "zip": "94304",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.44188,
+            "lon": -122.14302
+          }
+        },
+        {
+          "facility": "Northwestern Medicine",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60190",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Providence Heart and Vascular Institute",
+          "city": "Portland",
+          "state": "Oregon",
+          "zip": "97225",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.52345,
+            "lon": -122.67621
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D028227",
+          "term": "Amyloid Neuropathies, Familial"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D020271",
+          "term": "Heredodegenerative Disorders, Nervous System"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D017772",
+          "term": "Amyloid Neuropathies"
+        },
+        {
+          "id": "D010523",
+          "term": "Peripheral Nervous System Diseases"
+        },
+        {
+          "id": "D009468",
+          "term": "Neuromuscular Diseases"
+        },
+        {
+          "id": "D030342",
+          "term": "Genetic Diseases, Inborn"
+        },
+        {
+          "id": "D009358",
+          "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+        },
+        {
+          "id": "D028226",
+          "term": "Amyloidosis, Familial"
+        },
+        {
+          "id": "D008661",
+          "term": "Metabolism, Inborn Errors"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D000686",
+          "term": "Amyloidosis"
+        },
+        {
+          "id": "D057165",
+          "term": "Proteostasis Deficiencies"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

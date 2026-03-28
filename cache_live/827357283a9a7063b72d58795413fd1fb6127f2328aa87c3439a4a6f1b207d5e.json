@@ -1,0 +1,588 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05732077",
+      "orgStudyIdInfo": {
+        "id": "2022CR77"
+      },
+      "organization": {
+        "fullName": "Peking University First Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Fractional Flow Reserve to Determine Atherosclerosis Renovascular Hypertension Stenting",
+      "officialTitle": "Fractional Flow Reserve to Determine the ApproprIateness of Percutaneous Renal Artery Intervention in Atherosclerosis Renovascular Hypertension Patients: a Pilot Randomized Trial",
+      "acronym": "FAIR-Pilot"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-06",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-01-31",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-03-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-03-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-01-27",
+      "studyFirstSubmitQcDate": "2023-02-07",
+      "studyFirstPostDateStruct": {
+        "date": "2023-02-16",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-06-04",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-06-06",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Jianping LI",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "Peking University First Hospital"
+      },
+      "leadSponsor": {
+        "name": "Peking University First Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Although randomized trials have demonstrated there is no benefit of renal-artery stenting in addition to medical therapy for patients with atherosclerosis renal artery stenosis, many patients indeed gained benefit in daily practices after stenting, such as reduction in blood pressure and recovery in renal functions. One important gap is that there is no universal standard to determine whether to stent in these patients. Fraction Flow Reserve (FFR) has been studied for many year in chronic coronary heart disease and FFR-guided revascularization strategy is known to be better than both angiography-guided revascularization and medication alone. The goal of this clinical trial is to learn whether Fraction Flow Reserve (FFR) is appropriate to determine stenting in hypertension patients with atherosclerosis renal artery stenosis. The main questions it aims to answer are:\n\n* Is it appropriate to use FFR to determine whether or not stenting for hypertension patients with atherosclerosis renal artery stenosis?\n* To provide detailed data supporting design of further trial, such as sample size calculating, cut-off value for FFR in renal artery stenosis, etc.\n\nParticipants met the inclusive/exclusive criteria will be randomized to stenting or not in the renal artery, then hyperemic FFR induced by dopamine will be measured in all participants. If FFR is ≥0.80, randomization will be applied. If FFR is \\<0.80, randomization will be ignored, and stenting will be performed as planned. The blood pressure and anti-hypertensive medications will be compared before and 3 months after the procedure based on ambulatory blood pressure monitoring, all participants will be followed up for 1 year."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Renal Artery Stenosis Atherosclerotic",
+        "Secondary Hypertension Renal Arterial"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "DIAGNOSTIC",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Not stenting",
+          "type": "OTHER",
+          "description": "Hyperemic FFR induced by 50μg/kg of dopamine via renal artery will be measured. If FFR is ≥0.80, randomization will be applied, and no stenting will be implanted. If FFR is \\<0.80, randomization will be ignored, and stenting will be performed.",
+          "interventionNames": [
+            "Drug: Dopamine",
+            "Diagnostic Test: Fractional Flow Reserve, Renal",
+            "Device: Renal artery stenting"
+          ]
+        },
+        {
+          "label": "Stenting",
+          "type": "OTHER",
+          "description": "Hyperemic FFR induced by 50μg/kg of dopamine via renal artery will be measured. No matter FFR is, stenting will be performed as planned.",
+          "interventionNames": [
+            "Drug: Dopamine",
+            "Diagnostic Test: Fractional Flow Reserve, Renal",
+            "Device: Renal artery stenting"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Dopamine",
+          "description": "A bolus dose of 50μg/kg dopamine via renal artery to induce hyperemic status",
+          "armGroupLabels": [
+            "Not stenting",
+            "Stenting"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Fractional Flow Reserve, Renal",
+          "description": "Renal FFR will be measured based on SOP",
+          "armGroupLabels": [
+            "Not stenting",
+            "Stenting"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Renal artery stenting",
+          "description": "Renal artery stenting will be implanted based on the protocol",
+          "armGroupLabels": [
+            "Not stenting",
+            "Stenting"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in daytime mean systolic blood pressure as measured by 24-hour Ambulatory Blood Pressure Monitoring (ABPM)",
+          "timeFrame": "From baseline to 3 months post-procedure"
+        },
+        {
+          "measure": "Change in the composite index of antihypertensive drugs",
+          "description": "Change in the composite index of antihypertensive drugs. Drug Composite Index = Weight (number of classes of antihypertensive drugs) × (sum of doses)",
+          "timeFrame": "From baseline to 3 months post-procedure"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in systolic blood pressure as measured by 24-hour ABPM",
+          "timeFrame": "From baseline to 3 months post-procedure"
+        },
+        {
+          "measure": "Change in diastolic blood pressure as measured by 24-hour ABPM",
+          "timeFrame": "From baseline to 3 months post-procedure"
+        },
+        {
+          "measure": "Change in home blood pressure",
+          "timeFrame": "From baseline to 3 months post-procedure"
+        },
+        {
+          "measure": "Change in office blood pressure",
+          "timeFrame": "From baseline to 3 months post-procedure"
+        },
+        {
+          "measure": "Change in the composite index of antihypertensive drugs to reach target blood pressure",
+          "description": "Change in the composite index of antihypertensive drugs to reach target blood pressure. Drug Composite Index = Weight (number of classes of antihypertensive drugs) × (sum of doses)",
+          "timeFrame": "From baseline to 1 year post-procedure"
+        },
+        {
+          "measure": "Change in ABPM",
+          "timeFrame": "From baseline to 6 months, 1 year post-procedure"
+        },
+        {
+          "measure": "All-cause death",
+          "timeFrame": "From baseline to 1 year post-procedure"
+        },
+        {
+          "measure": "Cardiac death",
+          "timeFrame": "From baseline to 1 year post-procedure"
+        },
+        {
+          "measure": "Acute myocardial infarction incidence",
+          "description": "Based on universal definition of acute myocardial infarction",
+          "timeFrame": "From baseline to 1 year post-procedure"
+        },
+        {
+          "measure": "Non-fatal stroke incidence",
+          "description": "Based on medical records under outcome committee's judge",
+          "timeFrame": "From baseline to 1 year post-procedure"
+        },
+        {
+          "measure": "Rehospitalization due to heart failure incidence",
+          "description": "Based on medical records under outcome committee's judge",
+          "timeFrame": "From baseline to 1 year post-procedure"
+        },
+        {
+          "measure": "Increase in serum creatinine or dialysis",
+          "timeFrame": "From baseline to 1 year post-procedure"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* With recorded hypertension, AND the blood pressure is not controlled (SBP ≥140mmHg and/or DBP ≥90mmHg) on 2 or more classes of anti-hypertensive drugs;\n* Evidence of renal artery stenosis and undergoing renal artery angiography;\n* Able to follow the study protocol and provide informed consent;\n* Renal artery angiography shows at least 1 main artery with stenosis of 50%-90%, AND the diameter is ≥ 4.0mm.\n\nExclusion Criteria:\n\n* SBP ≥200mmHg and/or DBP ≥120mmHg at the day or randomization;\n* Fibromuscular dysplasia or other non-atherosclerotic renal artery stenosis;\n* Pregnancy or unknow pregnancy status in female of childbearing potential;\n* Participation in any drug or device trial during the study period;\n* Any stroke/TIA, OR with ≥70% stenosis of carotid artery;\n* Any major surgery, myocardial infarction or interventional therapy 30 days prior to study entry;\n* LVEF \\<30%;\n* Comorbid condition causing life expectancy ≤1 year;\n* Allergy to contrast or any of the following: aspirin, clopidogrel;\n* Previous kidney transplant;\n* Previous renal artery bypass surgery or stent intervention;\n* Kidney size less than 8 cm measured by ultrasound;\n* Local lab serum Cr \\>3.0 mg/dl (265.2μmol/l) on the day of randomization;\n* Reference vessel size \\<4 mm or \\>8 mm.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Yuxi Li, MD",
+          "role": "CONTACT",
+          "phone": "00861083572283",
+          "email": "liyuxi@pku.edu.cn"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "China-Japan Friendship Hospital",
+          "status": "RECRUITING",
+          "city": "Beijing",
+          "state": "Beijing Municipality",
+          "zip": "100029",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Wuqiang Che, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Jingang Zheng, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        },
+        {
+          "facility": "Peking University First Hospital",
+          "status": "RECRUITING",
+          "city": "Beijing",
+          "state": "Beijing Municipality",
+          "zip": "100034",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yuxi Li, MD",
+              "role": "CONTACT",
+              "phone": "00861083572283",
+              "email": "liyuxi@pku.edu.cn"
+            },
+            {
+              "name": "Jianping Li, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Yuxi Li, MD",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        },
+        {
+          "facility": "Beijing Chao-yang hospital, capital medical university",
+          "status": "RECRUITING",
+          "city": "Beijing",
+          "state": "Beijing Municipality",
+          "zip": "100123",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Chuang Li, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Li Xu, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        },
+        {
+          "facility": "Beijing Anzhen Hospital, Capital Medical University",
+          "status": "RECRUITING",
+          "city": "Beijing",
+          "state": "Beijing Municipality",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Miao Yu, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Dongmei Shi, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        },
+        {
+          "facility": "Beijing Friendship Hospital, Capital Medical University",
+          "status": "RECRUITING",
+          "city": "Beijing",
+          "state": "Beijing Municipality",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Jixuan Liu, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Hui Chen, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        },
+        {
+          "facility": "The Second Affiliated Hospital of Chongqing Medical University",
+          "status": "RECRUITING",
+          "city": "Chongqing",
+          "state": "Chongqing Municipality",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Guozhu Chen, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Li Su, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.56026,
+            "lon": 106.55771
+          }
+        },
+        {
+          "facility": "The Second Affiliated Hospital of Soochow University",
+          "status": "RECRUITING",
+          "city": "Suzhou",
+          "state": "Jiangsu",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Li Xiang, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Hui Li, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.30408,
+            "lon": 120.59538
+          }
+        },
+        {
+          "facility": "The Second Affiliated Hospital of Nanchang University",
+          "status": "RECRUITING",
+          "city": "Nanchang",
+          "state": "Jiangxi",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yue Zhou, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Renqiang Yang",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 28.68396,
+            "lon": 115.85306
+          }
+        },
+        {
+          "facility": "Qinghai province cardiovascular and cerebrovascular disease specialist hospital",
+          "status": "RECRUITING",
+          "city": "Xining",
+          "state": "Qinghai",
+          "zip": "810012",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Cun Liu, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Cun Liu, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 36.62554,
+            "lon": 101.75739
+          }
+        },
+        {
+          "facility": "Zibo Central Hospital",
+          "status": "RECRUITING",
+          "city": "Zibo",
+          "state": "Shandong",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Hui Zhou, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Hui Zhou, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 36.79056,
+            "lon": 118.06333
+          }
+        },
+        {
+          "facility": "Peking University First Hospital Taiyuan Hospital",
+          "status": "RECRUITING",
+          "city": "Taiyuan",
+          "state": "Shanxi",
+          "zip": "030009",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Jingbo Mu, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Dengfeng Ma, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.86944,
+            "lon": 112.56028
+          }
+        },
+        {
+          "facility": "Tianjin Beichen Hospital",
+          "status": "RECRUITING",
+          "city": "Tianjin",
+          "state": "Tianjin Municipality",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Xuena Bi",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Zhi Jia, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.14222,
+            "lon": 117.17667
+          }
+        },
+        {
+          "facility": "Tianjin First Central Hospital",
+          "status": "RECRUITING",
+          "city": "Tianjin",
+          "state": "Tianjin Municipality",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yue Li, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Chengzhi Lu, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.14222,
+            "lon": 117.17667
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "41056188",
+          "type": "DERIVED",
+          "citation": "Li Y, Zheng J, Lu C, Fan F, Liu Z, Liu S, Yi T, Zhang L, Weng H, Wang B, Liu X, Zhou H, Ma D, Jia Z, Xiang L, Yang R, Shi D, Chen H, Xu L, Liu C, Kario K, Zhang Y, Li J. Fractional flow reserve-guided renal artery stenting in atherosclerotic renovascular hypertension: the FAIR randomized trial. Eur Heart J. 2025 Oct 7:ehaf746. doi: 10.1093/eurheartj/ehaf746. Online ahead of print."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004298",
+          "term": "Dopamine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D015306",
+          "term": "Biogenic Monoamines"
+        },
+        {
+          "id": "D001679",
+          "term": "Biogenic Amines"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D002395",
+          "term": "Catecholamines"
+        },
+        {
+          "id": "D002396",
+          "term": "Catechols"
+        },
+        {
+          "id": "D010636",
+          "term": "Phenols"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,284 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03160625",
+      "orgStudyIdInfo": {
+        "id": "RESPOND-HF"
+      },
+      "organization": {
+        "fullName": "Medtronic Cardiac Rhythm and Heart Failure",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Evaluation of Rate Adaptive Pacing on Chronotropic Response in Preserved Ejection Fraction HF",
+      "officialTitle": "Evaluation of Rate Adaptive Pacing on Chronotropic Response in Preserved Ejection Fraction HF",
+      "acronym": "RESPOND-HF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2018-04",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "Lack of eligible patient.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-07-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-04-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2018-05-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2017-03-22",
+      "studyFirstSubmitQcDate": "2017-05-18",
+      "studyFirstPostDateStruct": {
+        "date": "2017-05-19",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2018-04-17",
+      "lastUpdatePostDateStruct": {
+        "date": "2018-04-19",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Medtronic Cardiac Rhythm and Heart Failure",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "RESPOND-HF is a prospective, multi-center, non-significant risk pilot study with cross-over design. The purpose of the study is to investigate if rate adaptive pacing has the potential to provide benefit to HF patients with preserved ejection fraction, referred to as HFpEF patients. Findings from this pilot study may be used to guide subsequent efforts to design and conduct a prospective, randomized, multi-center pivotal trial powered to show improvement in patient outcomes.",
+      "detailedDescription": "The RESPOND-HF is a prospective, multi-center, investigational, pilot study with cross-over design. Patients with existing pacemakers who have been diagnosed with HFpEF and meet study inclusion/exclusion criteria will be included in the study.\n\nThe study is expected to be conducted at up to 5 centers in the United States and up to 300 patients will be consented to enroll up to 100 qualifying patients . Up to 60 patients meeting chronotropic incompetence (CI) criterion will be enrolled. The study will be conducted in subjects who have previously (≥ 30 days) been implanted with Medtronic, dual chamber pacemaker (IPG) device with rate adaptive pacing (RAP) feature. Additionally, up to 40 patients who do not meet CI criterion will be enrolled to collect ambulatory activity and heart rate data using AVIVO/SEEQ patch. These patients will be followed for only 1 week. It is estimated that subject enrollment will take approximately 12 to 18 months, with a study follow-up of 18 weeks."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Preserved Ejection Fraction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "interventionModelDescription": "To assess whether rate adaptive pacing provides benefit to HFpEF patients, a pool of up to 60 qualifying subjects with pre-existing pacemaker and established diagnosis of HFpEF who demonstrate chronotropic incompetence (CI) with RAP turned off will be enrolled.\n\nSubjects who meet CI criterion during Visit 2 will be randomized. Subjects' principal investigator and study team will be blinded to the randomization assignment. However clinical site personnel performing the device programming will not be blinded. Site personnel performing the CPET and 6-min hall walk assessments will be blinded to the randomization assignment.\n\nCrossover of study subjects will occur during Visit 3, which will occur 12 weeks after subject enrollment. Subjects who were randomized with RAP ON first will have the device programmed to RAP OFF and conversely, subjects who were randomized to RAP OFF first will have the device programmed to RAP ON.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "maskingDescription": "Subjects' principal investigator and study team will be blinded to the randomization assignment. However clinical site personnel performing the device programming will not be blinded. Site personnel performing the CPET and 6-min hall walk assessments will be blinded to the randomization assignment.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Rate Adaptive Pacing ON",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "The Rate Adaptive Pacing (RAP) feature in the Medtronic implantable pulse generator (IPG) will be programmed to level 4 (More Active Lifestyle) with ADL rate of 95 bpm or higher, and Upper sensor rate that is subject's age predicted maximum heart rate. The age predicted maximum heart rate (APMHR) will be computed as: APHMR = 220 - age",
+          "interventionNames": [
+            "Device: Rate Adaptive Pacing"
+          ]
+        },
+        {
+          "label": "Rate Adaptive Pacing OFF",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "The Rate Adaptive Pacing (RAP) feature in the Medtronic implantable pulse generator (IPG) will be turned off for this arm of the study.",
+          "interventionNames": [
+            "Device: Rate Adaptive Pacing"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Rate Adaptive Pacing",
+          "description": "Rate Adaptive Pacing varies the pacing rate in response to the patient's physical motion as detected by an activity sensor.",
+          "armGroupLabels": [
+            "Rate Adaptive Pacing OFF",
+            "Rate Adaptive Pacing ON"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Exercise time",
+          "description": "Exercise time on a treadmill guided by respiratory exchange ratio (RER) during cardiopulmonary exercise test (CPET).",
+          "timeFrame": "18 Weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Peak VO2",
+          "description": "Maximum rate of oxygen consumption during treadmill testing",
+          "timeFrame": "18 Weeks"
+        },
+        {
+          "measure": "Peak metabolic equivalents (METs)",
+          "description": "Ratio of the rate of energy expended during treadmill testing to the rate of energy expended at rest",
+          "timeFrame": "18 Weeks"
+        },
+        {
+          "measure": "Peak respiratory exchange ratio (RER)",
+          "description": "Maximum ratio between the amount of carbon dioxide (CO2) produced and oxygen (O2) used during treadmill testing",
+          "timeFrame": "18 Weeks"
+        },
+        {
+          "measure": "VE/VO2 slope",
+          "description": "Minute ventilation oxygen consumption relationship",
+          "timeFrame": "18 Weeks"
+        },
+        {
+          "measure": "VO2 at Ventilator Anaerobic Threshold (VAT)",
+          "description": "Rate of oxygen consumption at VAT during treadmill testing",
+          "timeFrame": "18 Weeks"
+        },
+        {
+          "measure": "VCO2 at Ventilator Anaerobic Threshold (VAT)",
+          "description": "Rate of carbon dioxide production at VAT during treadmill testing",
+          "timeFrame": "18 Weeks"
+        },
+        {
+          "measure": "KCCQ",
+          "description": "Subject's quality of life measure using KCCQ",
+          "timeFrame": "18 Weeks"
+        },
+        {
+          "measure": "6 Minute Hall Walk",
+          "description": "Subject's activity of daily living as measure by 6 minute hall walk",
+          "timeFrame": "18 Weeks"
+        },
+        {
+          "measure": "Daily Activity",
+          "description": "Activity data collected by the implantable device and wearable sensor (SEEQ/AVIVO patch)",
+          "timeFrame": "18 Weeks"
+        },
+        {
+          "measure": "Global Patient Health Assessment",
+          "description": "Global patient health status using 0-100 visual analog scale",
+          "timeFrame": "18 Weeks"
+        },
+        {
+          "measure": "NT-proBNP",
+          "description": "N-terminus pro Brain Natriuretic Peptide",
+          "timeFrame": "18 Weeks"
+        },
+        {
+          "measure": "Correlation between activity and HR",
+          "description": "Correlation between activity and heart rate",
+          "timeFrame": "18 Weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age ≥ 18 years or legal age to provide informed consent\n* Willing and be able to provide informed consent\n* Previous clinical diagnosis of HF and exhibits HF signs and symptoms consistent with NYHA II or III (or class B or C)\n* Chronic Rx for heart failure with loop diuretic or a mineralocorticoid receptor antagonist (MRA)\n* LVEF ≥ 45% within previous 12 months. Acceptable methods include echo, ventriculogram (angiography or nuclear), nuclear stress test. If patient has a prior history of significant left ventricular systolic dysfunction defined as EF \\< 0.40, patient must have a HF event within previous 12 months defined as:\n\n  * Hospitalization for decompensated HF\n  * Unscheduled treatment for HF with intravenous loop diuretic or hemofiltration\n* On stable HF medical therapy for previous 30 days. Dose changes of ACEI / ARB and beta blockers of less than 50% increase or decrease are acceptable for stability\n* Treadmill exercise time using modified Naughton protocol of greater than 3 min and less than 15 min for men and 14 for women\n* Medtronic dual chamber pacemaker implanted for ≥ 30 days\n* Sinus rhythm at rest\n\nExclusion Criteria:\n\n* Women who are pregnant or plan to become pregnant\n* Life expectancy less than 1 year\n* Enrollment in any concurrent study that could potentially be confounding\n* Orthopedic, neuromuscular or any other condition limiting exercise testing\n* Unstable angina or MI or have undergone CABG/PTCA within previous 60 days\n* A candidate for CABG/PTCA at the time of informed consent\n* Use of inotrope therapy on a regular basis (e.g. daily, weekly etc.)\n* Severe and/or poorly controlled major active comorbidity, including (but not limited to):\n\n  * Diabetes: Hb1AC \\> 9.5\n  * Severe COPD: e.g. end stage emphysema managed using 2 or more inhalers and/or using home oxygen\n  * Severe pulmonary disease limiting functional capacity\n  * Hypertension: SBP \\> 160 mmHg at time of screening\n  * Cancer: Ongoing therapy or therapy within previous 3 months\n  * Severe valvular disease\n  * Renal impairment with serum creatinine \\> 3 mg/dL\n  * Anemia with hemoglobin \\< 8 g/dL or major bleeding event within the past 60 days\n* Primary diagnosis of pulmonary arterial hypertension with ongoing severe pulmonary hypertension and treatment\n* Known familial hypertrophic cardiomyopathy or hypertrophic obstructive cardiomyopathy\n* Known restrictive cardiomyopathy or systemic illness known to be associated with infiltrative myocardial disease (e.g. amyloidosis, sarcoidosis, hemochromatosis)\n* Pericardial restriction or hemodynamically significant pericardial effusion\n* Patients expected to undergo device or lead replacement within study follow-up duration\n* Allergies to hydrogel in SEEQ/AVIVO patch\n* Patients who are expected to be ventricular paced over 40% of the time\n* Long standing persistent AF Or Ongoing episode of persistent AF",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Aida Cicic, MD",
+          "affiliation": "Medtronic",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Mayo Clinic (Rochester MN)",
+          "city": "Rochester",
+          "state": "Minnesota",
+          "zip": "55000",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          }
+        },
+        {
+          "facility": "Mid America Heart Institute (MAHI)",
+          "city": "Kansas City",
+          "state": "Missouri",
+          "zip": "64111",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.09973,
+            "lon": -94.57857
+          }
+        },
+        {
+          "facility": "Lindner Research Center",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45219",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "Ohio State University",
+          "city": "Columbus",
+          "state": "Ohio",
+          "zip": "43210",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.96118,
+            "lon": -82.99879
+          }
+        },
+        {
+          "facility": "Lancaster General Hospital",
+          "city": "Lancaster",
+          "state": "Pennsylvania",
+          "zip": "17602",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.03788,
+            "lon": -76.30551
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    }
+  },
+  "hasResults": false
+}

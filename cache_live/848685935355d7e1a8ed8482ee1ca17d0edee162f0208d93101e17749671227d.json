@@ -1,0 +1,564 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06249932",
+      "orgStudyIdInfo": {
+        "id": "202301140MINC"
+      },
+      "organization": {
+        "fullName": "National Taiwan University Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Empagliflozin in Heart Failure with Reduced Ejection Fraction and End Stage Renal Disease",
+      "officialTitle": "The Safety and Efficacy of Empagliflozin in Patients with End-stage Renal Disease and Heart Failure with Reduced Ejection Fraction - a Randomized Controlled Trial",
+      "acronym": "EMPA-RRED"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-12",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-03-13",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2030-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-01-19",
+      "studyFirstSubmitQcDate": "2024-01-31",
+      "studyFirstPostDateStruct": {
+        "date": "2024-02-08",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-12-09",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-12-13",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "National Taiwan University Hospital",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Shin Kong Wu Ho-Su Memorial Hospital",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "In patients with ESRD, up to 20% of patients suffer from HFrEF, leading to significant CV morbidity and mortality. Several drug classes that provide survival benefits for patients with HFrEF, including SGLT2i, lack data regarding their efficacy and safety in patients under chronic hemodialysis. As the primary target of SGLT2i is expressed mostly in the kidneys, the efficacy of SGLT2i in patients with ESRD may be limited. On the other hand, patients with ESRD are at higher risks of experiencing cardiovascular events and may still benefit from treatment. Several mechanistic studies have demonstrated direct actions of SGLT2i on the myocardium, thus it is possible that the benefits of SGLT2i on heart failure are independent of their glycosuric actions and may still be present in anuric subjects. Furthermore, pharmacokinetics and pharmacodynamics studies on empagliflozin demonstrated that peak plasma levels of empagliflozin in subjects with renal failure/ESRD were similar to those in subjects with normal renal function. The use of empagliflozin in patients with ESRD seemed safe in terms of pharmacokinetics and pharmacodynamics, yet its efficacy remains to be explored."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure with Reduced Ejection Fraction",
+        "End Stage Renal Disease on Dialysis"
+      ],
+      "keywords": [
+        "end stage renal disease",
+        "sodium-glucose co-transporter 2 inhibitors,",
+        "heart failure with reduced ejection fraction",
+        "empagliflozin",
+        "left ventricular mass"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 95,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "empagliflozin",
+          "type": "EXPERIMENTAL",
+          "description": "Jardiance, 25 mg, QD, for 6 months",
+          "interventionNames": [
+            "Drug: Empagliflozin 25 MG"
+          ]
+        },
+        {
+          "label": "placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "QD, for 6 months",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Empagliflozin 25 MG",
+          "description": "The medication will be packed in a customized sealed jar and labeled on the exterior of the jar.",
+          "armGroupLabels": [
+            "empagliflozin"
+          ],
+          "otherNames": [
+            "Jardiance® 25mg Film-Coated Tablets"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "The placebo tablet is manufactured by Prince Pharmaceutical Co., Ltd, a leading manufacturer of nutritional supplements with certifications including cGMP, GMP, ISO, and HACCP. The Prince Pharmaceutical also provides Original Equipment Manufacturing (OEM)/Original Design Manufacturing (ODM) services for a wide array of tablet shapes, and post-processing techniques such as film coating and sugar coating.",
+          "armGroupLabels": [
+            "placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Left ventricular mass",
+          "description": "As assessed by cardiac magnetic resonance imaging, performed on non-dialysis day",
+          "timeFrame": "24 weeks of treatment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Left ventricular mass index",
+          "description": "As assessed by cardiac magnetic resonance imaging, performed on non-dialysis day",
+          "timeFrame": "24 weeks of treatment"
+        },
+        {
+          "measure": "LV end-systolic volume index",
+          "description": "As assessed by cardiac magnetic resonance imaging, performed on non-dialysis day",
+          "timeFrame": "24 weeks of treatment"
+        },
+        {
+          "measure": "LV end-diastolic volume index",
+          "description": "As assessed by cardiac magnetic resonance imaging, performed on non-dialysis day",
+          "timeFrame": "24 weeks of treatment"
+        },
+        {
+          "measure": "LA volume index",
+          "description": "As assessed by cardiac magnetic resonance imaging, performed on non-dialysis day",
+          "timeFrame": "24 weeks of treatment"
+        },
+        {
+          "measure": "LV ejection fraction",
+          "description": "As assessed by cardiac magnetic resonance imaging, performed on non-dialysis day",
+          "timeFrame": "24 weeks of treatment"
+        },
+        {
+          "measure": "Global longitudinal strain",
+          "description": "As assessed by cardiac magnetic resonance imaging, performed on non-dialysis day",
+          "timeFrame": "24 weeks of treatment"
+        },
+        {
+          "measure": "LV end-systolic volume index",
+          "description": "As assessed by echocardiography, performed on non-dialysis day",
+          "timeFrame": "12 weeks and 24 weeks of treatment"
+        },
+        {
+          "measure": "LV end-diastolic volume index",
+          "description": "As assessed by echocardiography, performed on non-dialysis day",
+          "timeFrame": "12 weeks and 24 weeks of treatment"
+        },
+        {
+          "measure": "LA volume index",
+          "description": "As assessed by echocardiography, performed on non-dialysis day",
+          "timeFrame": "12 weeks and 24 weeks of treatment"
+        },
+        {
+          "measure": "LV ejection fraction",
+          "description": "As assessed by echocardiography, performed on non-dialysis day",
+          "timeFrame": "12 weeks and 24 weeks of treatment"
+        },
+        {
+          "measure": "Left ventricular mass index",
+          "description": "As assessed by echocardiography, performed on non-dialysis day",
+          "timeFrame": "12 weeks and 24 weeks of treatment"
+        },
+        {
+          "measure": "Global longitudinal strain",
+          "description": "As assessed by echocardiography, performed on non-dialysis day",
+          "timeFrame": "12 weeks and 24 weeks of treatment"
+        },
+        {
+          "measure": "LV relative wall thickness",
+          "description": "As assessed by echocardiography, performed on non-dialysis day",
+          "timeFrame": "12 weeks and 24 weeks of treatment"
+        },
+        {
+          "measure": "Mitral early (E) and late (A) diastolic filling velocity ratio (E/A)",
+          "description": "As assessed by echocardiography, performed on non-dialysis day",
+          "timeFrame": "12 weeks and 24 weeks of treatment"
+        },
+        {
+          "measure": "Mitral inflow deceleration time",
+          "description": "As assessed by echocardiography, performed on non-dialysis day",
+          "timeFrame": "12 weeks and 24 weeks of treatment"
+        },
+        {
+          "measure": "Tricuspid regurgitation peak gradient (TRPG)",
+          "description": "As assessed by echocardiography, performed on non-dialysis day",
+          "timeFrame": "12 weeks and 24 weeks of treatment"
+        },
+        {
+          "measure": "NT-proBNP",
+          "description": "Blood tests obtained pre-dialysis session",
+          "timeFrame": "4 weeks, 12 weeks and 24 weeks of treatment"
+        },
+        {
+          "measure": "HbA1c",
+          "description": "Blood tests obtained pre-dialysis session",
+          "timeFrame": "4 weeks, 12 weeks and 24 weeks of treatment"
+        },
+        {
+          "measure": "Lipid profile",
+          "description": "Blood tests obtained pre-dialysis session",
+          "timeFrame": "4 weeks, 12 weeks and 24 weeks of treatment"
+        },
+        {
+          "measure": "KCCQ-OS",
+          "description": "Performed on non-dialysis day",
+          "timeFrame": "12 weeks and 24 weeks of treatment"
+        },
+        {
+          "measure": "6-minute walking distance",
+          "description": "Performed on non-dialysis day",
+          "timeFrame": "12 weeks and 24 weeks of treatment"
+        },
+        {
+          "measure": "3-minute heart rate variability",
+          "description": "During hemodialysis session",
+          "timeFrame": "12 weeks and 24 weeks of treatment"
+        },
+        {
+          "measure": "Blood pressure",
+          "description": "Obtained pre-dialysis session",
+          "timeFrame": "12 weeks and 24 weeks of treatment"
+        },
+        {
+          "measure": "Major adverse cardiovascular events (composite of CV death, myocardial infarction, stroke)",
+          "description": "By medical record confirmation and by interview",
+          "timeFrame": "24 weeks of treatment"
+        },
+        {
+          "measure": "Lower extremity non-traumatic amputation or revascularization",
+          "description": "By medical record confirmation and by interview",
+          "timeFrame": "24 weeks of treatment"
+        },
+        {
+          "measure": "All-cause mortality",
+          "description": "By medical record confirmation and by interview",
+          "timeFrame": "24 weeks of treatment"
+        },
+        {
+          "measure": "Hospitalization for heart failure",
+          "description": "By medical record confirmation and by interview",
+          "timeFrame": "24 weeks of treatment"
+        },
+        {
+          "measure": "Hypoglycemic events",
+          "description": "By medical record confirmation and by interview",
+          "timeFrame": "24 weeks of treatment"
+        },
+        {
+          "measure": "Hypokalemia",
+          "description": "Blood tests obtained pre-dialysis session",
+          "timeFrame": "4 weeks, 12 weeks and 24 weeks of treatment"
+        },
+        {
+          "measure": "Diabetic ketoacidosis",
+          "description": "By medical record confirmation and by interview",
+          "timeFrame": "24 weeks of treatment"
+        },
+        {
+          "measure": "Urinary tract infection",
+          "description": "By medical record confirmation and by interview",
+          "timeFrame": "24 weeks of treatment"
+        },
+        {
+          "measure": "Genital tract infection",
+          "description": "By medical record confirmation and by interview",
+          "timeFrame": "24 weeks of treatment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age ≥20 years old\n* ESRD under chronic, maintenance hemodialysis with stable dry weight for the past 6 months\n* Documented left ventricular ejection fraction \\<50% by any imaging modality within 1 month of screening\n\nExclusion Criteria:\n\n* Age \\<20 years old\n* Ongoing pregnancy\n* NYHA class IV heart failure\n* Any hospitalization for heart failure within the past month\n* Ongoing acute urinary tract infection at the time of screening\n* Known acute genital infection\n* Severe peripheral artery disease (Rutherford category 4-6)\n* Acute coronary syndrome, stroke or transient ischemic attack within the past month\n* Recent initiation of chronic maintenance hemodialysis within 6 months\n* Adjustment of dry weight with changes greater than 5% of body weight within the past month\n* Documented left ventricular ejection fraction ≥50% by any imaging modality within 1 month of screening\n* Refused informed consent",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "20 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Donna Shu-Han Lin, MD",
+          "role": "CONTACT",
+          "phone": "+886912902379",
+          "email": "Donna.lin24@gmail.com"
+        },
+        {
+          "name": "Hao-Yun Lo, MD",
+          "role": "CONTACT",
+          "phone": "+886972234640",
+          "email": "limoonby@gmail.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Donna Shu-Han Lin, MD",
+          "affiliation": "Shin Kong Wu Ho-Su Memorial Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Chih-Cheng Wu, MD. PhD",
+          "affiliation": "National Taiwan University Hsin-Chu Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "National Taiwan University Hospital Hsinchu Branch",
+          "status": "RECRUITING",
+          "city": "Hsinchu",
+          "state": "Taiwan",
+          "zip": "300",
+          "country": "Taiwan",
+          "contacts": [
+            {
+              "name": "Chih-Cheng Wu, PhD",
+              "role": "CONTACT",
+              "phone": "03 532 6151",
+              "email": "chihchengwumd@gmail.com"
+            },
+            {
+              "name": "Chih-Cheng Wu, PhD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 24.80361,
+            "lon": 120.96861
+          }
+        },
+        {
+          "facility": "Shin Kong Wu Ho-Su Memorial Hospital",
+          "status": "RECRUITING",
+          "city": "Taipei",
+          "state": "Taiwan",
+          "zip": "111",
+          "country": "Taiwan",
+          "contacts": [
+            {
+              "name": "Donna SH Lin, MD",
+              "role": "CONTACT",
+              "phone": "0912902379",
+              "email": "donna.lin24@gmail.com"
+            },
+            {
+              "name": "Donna SH Lin, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 25.05306,
+            "lon": 121.52639
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "19007588",
+          "type": "BACKGROUND",
+          "citation": "Ronco C, Haapio M, House AA, Anavekar N, Bellomo R. Cardiorenal syndrome. J Am Coll Cardiol. 2008 Nov 4;52(19):1527-39. doi: 10.1016/j.jacc.2008.07.051."
+        },
+        {
+          "pmid": "31146814",
+          "type": "BACKGROUND",
+          "citation": "Bansal N, Zelnick L, Bhat Z, Dobre M, He J, Lash J, Jaar B, Mehta R, Raj D, Rincon-Choles H, Saunders M, Schrauben S, Weir M, Wright J, Go AS; CRIC Study Investigators. Burden and Outcomes of Heart Failure Hospitalizations in Adults With Chronic Kidney Disease. J Am Coll Cardiol. 2019 Jun 4;73(21):2691-2700. doi: 10.1016/j.jacc.2019.02.071."
+        },
+        {
+          "pmid": "31806133",
+          "type": "BACKGROUND",
+          "citation": "Kotecha D, Gill SK, Flather MD, Holmes J, Packer M, Rosano G, Bohm M, McMurray JJV, Wikstrand J, Anker SD, van Veldhuisen DJ, Manzano L, von Lueder TG, Rigby AS, Andersson B, Kjekshus J, Wedel H, Ruschitzka F, Cleland JGF, Damman K, Redon J, Coats AJS; Beta-Blockers in Heart Failure Collaborative Group. Impact of Renal Impairment on Beta-Blocker Efficacy in Patients With Heart Failure. J Am Coll Cardiol. 2019 Dec 10;74(23):2893-2904. doi: 10.1016/j.jacc.2019.09.059."
+        },
+        {
+          "pmid": "30361677",
+          "type": "BACKGROUND",
+          "citation": "Ferro CJ, Mark PB, Kanbay M, Sarafidis P, Heine GH, Rossignol P, Massy ZA, Mallamaci F, Valdivielso JM, Malyszko J, Verhaar MC, Ekart R, Vanholder R, London G, Ortiz A, Zoccali C. Lipid management in patients with chronic kidney disease. Nat Rev Nephrol. 2018 Dec;14(12):727-749. doi: 10.1038/s41581-018-0072-9."
+        },
+        {
+          "pmid": "32282987",
+          "type": "BACKGROUND",
+          "citation": "Roehm B, Gulati G, Weiner DE. Heart failure management in dialysis patients: Many treatment options with no clear evidence. Semin Dial. 2020 May;33(3):198-208. doi: 10.1111/sdi.12878. Epub 2020 Apr 13."
+        },
+        {
+          "pmid": "32865377",
+          "type": "BACKGROUND",
+          "citation": "Packer M, Anker SD, Butler J, Filippatos G, Pocock SJ, Carson P, Januzzi J, Verma S, Tsutsui H, Brueckmann M, Jamal W, Kimura K, Schnee J, Zeller C, Cotton D, Bocchi E, Bohm M, Choi DJ, Chopra V, Chuquiure E, Giannetti N, Janssens S, Zhang J, Gonzalez Juanatey JR, Kaul S, Brunner-La Rocca HP, Merkely B, Nicholls SJ, Perrone S, Pina I, Ponikowski P, Sattar N, Senni M, Seronde MF, Spinar J, Squire I, Taddei S, Wanner C, Zannad F; EMPEROR-Reduced Trial Investigators. Cardiovascular and Renal Outcomes with Empagliflozin in Heart Failure. N Engl J Med. 2020 Oct 8;383(15):1413-1424. doi: 10.1056/NEJMoa2022190. Epub 2020 Aug 28."
+        },
+        {
+          "pmid": "31535829",
+          "type": "BACKGROUND",
+          "citation": "McMurray JJV, Solomon SD, Inzucchi SE, Kober L, Kosiborod MN, Martinez FA, Ponikowski P, Sabatine MS, Anand IS, Belohlavek J, Bohm M, Chiang CE, Chopra VK, de Boer RA, Desai AS, Diez M, Drozdz J, Dukat A, Ge J, Howlett JG, Katova T, Kitakaze M, Ljungman CEA, Merkely B, Nicolau JC, O'Meara E, Petrie MC, Vinh PN, Schou M, Tereshchenko S, Verma S, Held C, DeMets DL, Docherty KF, Jhund PS, Bengtsson O, Sjostrand M, Langkilde AM; DAPA-HF Trial Committees and Investigators. Dapagliflozin in Patients with Heart Failure and Reduced Ejection Fraction. N Engl J Med. 2019 Nov 21;381(21):1995-2008. doi: 10.1056/NEJMoa1911303. Epub 2019 Sep 19."
+        },
+        {
+          "pmid": "31434508",
+          "type": "BACKGROUND",
+          "citation": "Verma S, Mazer CD, Yan AT, Mason T, Garg V, Teoh H, Zuo F, Quan A, Farkouh ME, Fitchett DH, Goodman SG, Goldenberg RM, Al-Omran M, Gilbert RE, Bhatt DL, Leiter LA, Juni P, Zinman B, Connelly KA. Effect of Empagliflozin on Left Ventricular Mass in Patients With Type 2 Diabetes Mellitus and Coronary Artery Disease: The EMPA-HEART CardioLink-6 Randomized Clinical Trial. Circulation. 2019 Nov 19;140(21):1693-1702. doi: 10.1161/CIRCULATIONAHA.119.042375. Epub 2019 Aug 22."
+        },
+        {
+          "pmid": "34669059",
+          "type": "BACKGROUND",
+          "citation": "Ersboll M, Jurgens M, Hasbak P, Kjaer A, Wolsk E, Zerahn B, Brandt-Jacobsen NH, Gaede P, Rossing P, Faber J, Inzucchi SE, Gustafsson F, Schou M, Kistorp C. Effect of empagliflozin on myocardial structure and function in patients with type 2 diabetes at high cardiovascular risk: the SIMPLE randomized clinical trial. Int J Cardiovasc Imaging. 2022 Mar;38(3):579-587. doi: 10.1007/s10554-021-02443-5. Epub 2021 Oct 20."
+        },
+        {
+          "pmid": "30296931",
+          "type": "BACKGROUND",
+          "citation": "Soga F, Tanaka H, Tatsumi K, Mochizuki Y, Sano H, Toki H, Matsumoto K, Shite J, Takaoka H, Doi T, Hirata KI. Impact of dapagliflozin on left ventricular diastolic function of patients with type 2 diabetic mellitus with chronic heart failure. Cardiovasc Diabetol. 2018 Oct 8;17(1):132. doi: 10.1186/s12933-018-0775-z."
+        },
+        {
+          "pmid": "33719499",
+          "type": "BACKGROUND",
+          "citation": "Li X, Lu Q, Qiu Y, do Carmo JM, Wang Z, da Silva AA, Mouton A, Omoto ACM, Hall ME, Li J, Hall JE. Direct Cardiac Actions of the Sodium Glucose Co-Transporter 2 Inhibitor Empagliflozin Improve Myocardial Oxidative Phosphorylation and Attenuate Pressure-Overload Heart Failure. J Am Heart Assoc. 2021 Mar 16;10(6):e018298. doi: 10.1161/JAHA.120.018298. Epub 2021 Mar 13."
+        },
+        {
+          "pmid": "30328645",
+          "type": "BACKGROUND",
+          "citation": "Pabel S, Wagner S, Bollenberg H, Bengel P, Kovacs A, Schach C, Tirilomis P, Mustroph J, Renner A, Gummert J, Fischer T, Van Linthout S, Tschope C, Streckfuss-Bomeke K, Hasenfuss G, Maier LS, Hamdani N, Sossalla S. Empagliflozin directly improves diastolic function in human heart failure. Eur J Heart Fail. 2018 Dec;20(12):1690-1700. doi: 10.1002/ejhf.1328. Epub 2018 Oct 17."
+        },
+        {
+          "pmid": "23859488",
+          "type": "BACKGROUND",
+          "citation": "Macha S, Mattheus M, Halabi A, Pinnetti S, Woerle HJ, Broedl UC. Pharmacokinetics, pharmacodynamics and safety of empagliflozin, a sodium glucose cotransporter 2 (SGLT2) inhibitor, in subjects with renal impairment. Diabetes Obes Metab. 2014 Mar;16(3):215-22. doi: 10.1111/dom.12182. Epub 2013 Aug 19."
+        },
+        {
+          "pmid": "36576563",
+          "type": "BACKGROUND",
+          "citation": "He Z, Lam K, Zhao W, Yang S, Li Y, Mo J, Gao S, Liang D, Qiu K, Huang M, Wu J. SGLT-2 inhibitors and euglycemic diabetic ketoacidosis/diabetic ketoacidosis in FAERS: a pharmacovigilance assessment. Acta Diabetol. 2023 Mar;60(3):401-411. doi: 10.1007/s00592-022-02015-6. Epub 2022 Dec 28."
+        },
+        {
+          "pmid": "31780586",
+          "type": "BACKGROUND",
+          "citation": "Jurgens M, Schou M, Hasbak P, Kjaer A, Wolsk E, Zerahn B, Wiberg M, Brandt NH, Gaede PH, Rossing P, Faber J, Inzucchi S, Gustafsson F, Kistorp CM. Design of a randomised controlled trial of the effects of empagliflozin on myocardial perfusion, function and metabolism in type 2 diabetes patients at high cardiovascular risk (the SIMPLE trial). BMJ Open. 2019 Nov 27;9(11):e029098. doi: 10.1136/bmjopen-2019-029098."
+        },
+        {
+          "pmid": "40855136",
+          "type": "DERIVED",
+          "citation": "Lin DS, Lo HY, Yang CW, Wu CC. Safety and Short-Term Effects of Empagliflozin in Patients with Heart Failure and End-Stage Renal Disease. Am J Cardiovasc Drugs. 2025 Aug 25. doi: 10.1007/s40256-025-00760-x. Online ahead of print."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D007676",
+          "term": "Kidney Failure, Chronic"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D051436",
+          "term": "Renal Insufficiency, Chronic"
+        },
+        {
+          "id": "D051437",
+          "term": "Renal Insufficiency"
+        },
+        {
+          "id": "D007674",
+          "term": "Kidney Diseases"
+        },
+        {
+          "id": "D014570",
+          "term": "Urologic Diseases"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D052801",
+          "term": "Male Urogenital Diseases"
+        },
+        {
+          "id": "D002908",
+          "term": "Chronic Disease"
+        },
+        {
+          "id": "D020969",
+          "term": "Disease Attributes"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C570240",
+          "term": "empagliflozin"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

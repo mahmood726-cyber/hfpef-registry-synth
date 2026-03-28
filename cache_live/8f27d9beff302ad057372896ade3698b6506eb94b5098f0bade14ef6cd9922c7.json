@@ -1,0 +1,481 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02531490",
+      "orgStudyIdInfo": {
+        "id": "METC152017"
+      },
+      "organization": {
+        "fullName": "Maastricht University Medical Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "Early Vascular Adjustments During Hypertensive Pregnancy",
+      "officialTitle": "Personalized Hemodynamically Guided Antihypertensive Treatment in Pregnant Women With Mild to Moderate Hypertension: a Randomized Controlled Trial",
+      "acronym": "EVA"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-03",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-01-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-02",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2023-04",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2015-08-05",
+      "studyFirstSubmitQcDate": "2015-08-21",
+      "studyFirstPostDateStruct": {
+        "date": "2015-08-24",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2021-03-23",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-03-24",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Maastricht University Medical Center",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Paradoxical fetal and maternal results of studies have led to inconsistent use of antihypertensive drugs or no treatment at all in mild to moderate gestational hypertension in the Netherlands. However, none of the studies have taken the individual maternal circulatory state or the contemplated blood pressure response into account. Hypertension may be accompanied by high (hyperdynamic vasodilated profile), normal (normodynamic profile) of low (hypodynamic vasoconstrictive profile) cardiac output, and preeclampsia is not restricted to one circulatory profile. Therefore antihypertensive drugs should be viewed upon as correctors of the hemodynamic state rather than solely reducers of blood pressure. Without taking the maternal hemodynamic profile and condition into account, generic antihypertensive treatment can be expected to result in disappointing, inadequate and paradoxical results. The investigators hypothesize that in mild to moderate hypertension, personalized hemodynamically guided antihypertensive therapy (with target systolic and diastolic blood pressure \\<130/80mmHg), prevents the progression to severe hypertension and/or preeclampsia compared to no treatment, without the alleged side-effects."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hypertension, Pregnancy-Induced",
+        "Pre-Eclampsia"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 368,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "randomized, interventiongroup",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Women with a hyperdynamic vasodilated profile, characterized by a mean arterial pressure (MAP)/ Heart rate (Hr) ratio ≤ 1.1 are prescribed a beta-blocker. Women with a hypodynamic vasoconstrictive profile (MAP/Hr ratio ≥ 1.4) are prescribed nifedipine. Women with normodynamic profile (MAP/Hr ratio in between 1.1 and 1.4) are prescribed Methyldopa.",
+          "interventionNames": [
+            "Drug: Labetalol",
+            "Drug: Nifedipine",
+            "Drug: Methyldopa"
+          ]
+        },
+        {
+          "label": "randomized, control-group",
+          "type": "NO_INTERVENTION",
+          "description": "Women who give informed consent for randomization, and are randomized to the control group will not be medicinally treated for mild to moderate gestational hypertension."
+        },
+        {
+          "label": "not-randomized, control-group",
+          "type": "NO_INTERVENTION",
+          "description": "Women who do not want to be randomized, but who give informed consent for follow-up on their data until discharge after delivery. They will receive standard care, i.e. no medication is prescribed for mild to moderate gestational hypertension."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Labetalol",
+          "armGroupLabels": [
+            "randomized, interventiongroup"
+          ],
+          "otherNames": [
+            "Trandate"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Nifedipine",
+          "armGroupLabels": [
+            "randomized, interventiongroup"
+          ],
+          "otherNames": [
+            "Adalat"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Methyldopa",
+          "armGroupLabels": [
+            "randomized, interventiongroup"
+          ],
+          "otherNames": [
+            "Aldomet"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "number of patients with severe gestational hypertension",
+          "description": "Systolic blood pressure ≥ 160mmHg and/or diastolic blood pressure ≥ 110mmHg, measured at every visit",
+          "timeFrame": "from date of randomization until the date of this study event, assessed up to 1 week post partum (maximum 23weeks after inclusion)"
+        },
+        {
+          "measure": "number of patients with preeclampsia",
+          "description": "Preeclampsia is defined as the coexistence of de novo hypertension after 20 weeks of gestation and one or more of the following new-onset conditions:\n\n1. Proteinuria (spot urine protein/creatinine ≥ 30g/mol or ≥ 300mg/day or at least 1 g/L \\[2+\\] on dipstick testing).\n2. Other maternal organ dysfunction:\n\n   * Renal insufficiency (creatinine levels ≥ 90μmol/L);\n   * Liver involvement (elevated transaminases: ASAT ≥31 U/L and/or ALAT ≥34U/L);\n   * Neurological complications (hyperreflexia when accompanied by clonus and/or severe headaches, persistent visual scotomata, altered mental status, eclampsia);\n   * Haematological complications (thrombocytopenia, platelet count below 150.000/dL, disseminated intravascular coagulation, haemolysis).",
+          "timeFrame": "from date of randomization until the date of this study event, assessed up to 1 week post partum (maximum 23weeks after inclusion)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "the pattern of change of the hemodynamic profile, measured by the ratio of mean arterial pressure and heart rate.",
+          "description": "hemodynamic profiles will be classified as hyperdynamic, hypodynamic vasocontricted or mixed profile.",
+          "timeFrame": "at baseline and each study visit/follow up measurement (at 1 week, 2 weeks, etc. up to 23 weeks after inclusion. The expected average is 8 weeks"
+        },
+        {
+          "measure": "hemodynamic profile by mean arterial pressure/heart rate ratio",
+          "description": "hemodynamic profiles will be classified as hyperdynamic, hypodynamic vasocontricted or mixed profile.",
+          "timeFrame": "from date of randomization until the date of study event, assessed up to 1 week post partum (maximum 23weeks after inclusion)"
+        },
+        {
+          "measure": "diameter aortic outflow tract and left ventricular outflow tract measured by transthoracic echocardiography",
+          "description": "cardiac output can be derived from these values + heart rate",
+          "timeFrame": "from baseline, and every 4 weeks (maximum 6 times, because in max. 23 weeks end of study is reached)"
+        },
+        {
+          "measure": "left ventricular volume after diastole and systole measured by transthoracic echocardiography",
+          "description": "ejection fraction can be derived from these values",
+          "timeFrame": "from baseline, and every 4 weeks (maximum 6 times, because in max. 23 weeks end of study is reached)"
+        },
+        {
+          "measure": "diameter aortic outflow tract and left ventricular outflow tract measured by transthoracic echocardiography",
+          "description": "cardiac output can be derived from these values + heart rate",
+          "timeFrame": "from date of randomization until the date of study event, assessed up to 1 week post partum (maximum 23weeks after inclusion)"
+        },
+        {
+          "measure": "left ventricular volume after diastole and systole measured by transthoracic echocardiography",
+          "description": "ejection fraction can be derived from these values",
+          "timeFrame": "from date of randomization until the date of study event, assessed up to 1 week post partum (maximum 23weeks after inclusion)"
+        },
+        {
+          "measure": "cardiac remodeling during pregnancy: number of patients with concentric left ventricular remodeling or concentric hypertrophy.",
+          "description": "Echocardiographic concentric left ventricular (LV) remodelling and hypertrophy. Concentric remodeling is defined as a relative wall thickness (RWT) \\<=0.43 with a Left Ventricular Mass index (LVMi) of \\<95 gram/m2. Concentric hypertrophy is defined as a RWT \\<0.43 with a LVMi of ≥95 gram/m2.",
+          "timeFrame": "from baseline, and every 4 weeks (maximum 6 times, because in max. 23 weeks end of study is reached)"
+        },
+        {
+          "measure": "cardiac remodeling during pregnancy: number of patients with concentric left ventricular remodeling or concentric hypertrophy.",
+          "description": "Echocardiographic concentric left ventricular (LV) remodelling and hypertrophy. Concentric remodeling is defined as a relative wall thickness (RWT) \\<=0.43 with a Left Ventricular Mass index (LVMi) of \\<95 gram/m2. Concentric hypertrophy is defined as a RWT \\<0.43 with a LVMi of ≥95 gram/m2.",
+          "timeFrame": "from date of randomization until the date of study event, assessed up to 1 week post partum (maximum 23weeks after inclusion)"
+        },
+        {
+          "measure": "health status of the newborn by Apgar score",
+          "description": "scored by gynecologist or paediatrician on a scale of 1 to 10",
+          "timeFrame": "assessed immediately after delivery"
+        },
+        {
+          "measure": "prevalence of small for gestational age infancy",
+          "description": "birth weight and percentile combined with gestational age at delivery",
+          "timeFrame": "assessed at delivery date"
+        },
+        {
+          "measure": "prevalence of premature neonates",
+          "description": "gestational age at delivery",
+          "timeFrame": "assessed at delivery date"
+        },
+        {
+          "measure": "number of a composite of adverse neonatal outcomes",
+          "description": "Stillbirth, perinatal mortality, morbidity: chronic lung disease, neonatal sepsis, severe intra-ventricular haemorrhage (IVH) \\> grade II, periventricular leucomalacia \\> grade I, and necrotizing enterocolitis. Days on ventilation support, length of admission in neonatal intensive care, and total days in hospital until 3 months corrected age.",
+          "timeFrame": "from delivery up neonates will be followed for the duration of the hospital stay, an expected average of 6 weeks"
+        },
+        {
+          "measure": "maternal well-being questionnaire,",
+          "description": "Reported medication side effects, and maternal well-being by signs and symptoms during pregnancy",
+          "timeFrame": "at baseline and each study visit/follow up measurement (at 1 week, 2 weeks, etc. up to 23 weeks after inclusion. The expected average is 8 weeks"
+        },
+        {
+          "measure": "number of assessed maternal complications",
+          "description": "Composite of maternal complications including: mortality, stroke, eclampsia, blindness, uncontrolled hypertension, respiratory failure, birth related variables, needed level of care",
+          "timeFrame": "from a study event participants will be followed for the duration of hospital stay, an expected average of 1 week"
+        },
+        {
+          "measure": "gestational age at the moment of progression to primary outcome.",
+          "timeFrame": "from baseline/inclusion until a study event is reached (up to 18 weeks after inclusion), with an expected average of 4 weeks."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients ages 18years or older\n* Before 37 weeks of gestational age;\n* Diagnosed with mild to moderate gestational hypertension\n\nExclusion Criteria:\n\n* Women with severe hypertension: systolic blood pressure ≥ 160mmHg and/or diastolic blood pressure ≥ 110mmHg.\n* Women with chronic hypertension who are already on antihypertensive drugs. If no antihypertensive drugs are used yet, women with pre-existent hypertension are eligible to participate.\n* Women diagnosed with preeclampsia or eclampsia in the current pregnancy.\n* Women who are not able to comprehend the study outline.\n* Women who have already participated in this study cannot be included a second time.\n* Women who have a (relative) contra-indication for one of the possible prescribed medications (for example women who have tested positive for antinuclear antibodies, which is a contraindication for Methyldopa).\n* Women who intend to terminate the pregnancy\n* Women who have a fetus with a major anomaly or chromosomal abnormality",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "50 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Eva Mulder, MD",
+          "role": "CONTACT",
+          "phone": "0031650504243",
+          "email": "eva.mulder@mumc.nl"
+        },
+        {
+          "name": "Marc Spaanderman, professor",
+          "role": "CONTACT",
+          "phone": "0031433874774",
+          "email": "marc.spaanderman@mumc.nl"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Marc Spaanderman, professor",
+          "affiliation": "Maastricht University Medical Centre",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Maastricht UMC",
+          "status": "RECRUITING",
+          "city": "Maastricht",
+          "country": "Netherlands",
+          "contacts": [
+            {
+              "name": "Eva Mulder",
+              "role": "CONTACT",
+              "email": "eva.mulder@mumc.nl"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.84833,
+            "lon": 5.68889
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "18410657",
+          "type": "BACKGROUND",
+          "citation": "Schutte JM, Schuitemaker NW, van Roosmalen J, Steegers EA; Dutch Maternal Mortality Committee. Substandard care in maternal mortality due to hypertensive disease in pregnancy in the Netherlands. BJOG. 2008 May;115(6):732-6. doi: 10.1111/j.1471-0528.2008.01702.x."
+        },
+        {
+          "pmid": "24504933",
+          "type": "BACKGROUND",
+          "citation": "Abalos E, Duley L, Steyn DW. Antihypertensive drug therapy for mild to moderate hypertension during pregnancy. Cochrane Database Syst Rev. 2014 Feb 6;(2):CD002252. doi: 10.1002/14651858.CD002252.pub3."
+        },
+        {
+          "pmid": "2234714",
+          "type": "BACKGROUND",
+          "citation": "Easterling TR, Benedetti TJ, Schmucker BC, Millard SP. Maternal hemodynamics in normal and preeclamptic pregnancies: a longitudinal study. Obstet Gynecol. 1990 Dec;76(6):1061-9."
+        },
+        {
+          "pmid": "18824660",
+          "type": "BACKGROUND",
+          "citation": "Valensise H, Vasapollo B, Gagliardi G, Novelli GP. Early and late preeclampsia: two different maternal hemodynamic states in the latent phase of the disease. Hypertension. 2008 Nov;52(5):873-80. doi: 10.1161/HYPERTENSIONAHA.108.117358. Epub 2008 Sep 29."
+        },
+        {
+          "pmid": "12019280",
+          "type": "BACKGROUND",
+          "citation": "Taler SJ, Textor SC, Augustine JE. Resistant hypertension: comparing hemodynamic management to specialist care. Hypertension. 2002 May;39(5):982-8. doi: 10.1161/01.hyp.0000016176.16042.2f."
+        },
+        {
+          "pmid": "33308198",
+          "type": "DERIVED",
+          "citation": "Mulder E, Ghossein-Doha C, Appelman E, van Kuijk S, Smits L, van der Zanden R, van Drongelen J, Spaanderman M. Study protocol for the randomized controlled EVA (early vascular adjustments) trial: tailored treatment of mild hypertension in pregnancy to prevent severe hypertension and preeclampsia. BMC Pregnancy Childbirth. 2020 Dec 12;20(1):775. doi: 10.1186/s12884-020-03475-w."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D046110",
+          "term": "Hypertension, Pregnancy-Induced"
+        },
+        {
+          "id": "D011225",
+          "term": "Pre-Eclampsia"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011248",
+          "term": "Pregnancy Complications"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D006973",
+          "term": "Hypertension"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D007741",
+          "term": "Labetalol"
+        },
+        {
+          "id": "D009543",
+          "term": "Nifedipine"
+        },
+        {
+          "id": "D008750",
+          "term": "Methyldopa"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004983",
+          "term": "Ethanolamines"
+        },
+        {
+          "id": "D000605",
+          "term": "Amino Alcohols"
+        },
+        {
+          "id": "D000438",
+          "term": "Alcohols"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D012457",
+          "term": "Salicylamides"
+        },
+        {
+          "id": "D000577",
+          "term": "Amides"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        },
+        {
+          "id": "D004095",
+          "term": "Dihydropyridines"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D004295",
+          "term": "Dihydroxyphenylalanine"
+        },
+        {
+          "id": "D002395",
+          "term": "Catecholamines"
+        },
+        {
+          "id": "D002396",
+          "term": "Catechols"
+        },
+        {
+          "id": "D010636",
+          "term": "Phenols"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D010649",
+          "term": "Phenylalanine"
+        },
+        {
+          "id": "D024322",
+          "term": "Amino Acids, Aromatic"
+        },
+        {
+          "id": "D000598",
+          "term": "Amino Acids, Cyclic"
+        },
+        {
+          "id": "D000596",
+          "term": "Amino Acids"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D014443",
+          "term": "Tyrosine"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

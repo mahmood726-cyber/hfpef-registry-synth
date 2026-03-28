@@ -1,0 +1,328 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05047731",
+      "orgStudyIdInfo": {
+        "id": "Pro00097312"
+      },
+      "organization": {
+        "fullName": "University of Alberta",
+        "class": "OTHER"
+      },
+      "briefTitle": "Antihypertensive Deprescribing in Long-term Care",
+      "officialTitle": "Antihypertensive Deprescribing in Long-term Care: A Randomized Controlled Trial (OptimizeBP)",
+      "acronym": "OptimizeBP"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-09-20",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-11-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-11-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-09-08",
+      "studyFirstSubmitQcDate": "2021-09-16",
+      "studyFirstPostDateStruct": {
+        "date": "2021-09-17",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-06",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-08",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Alberta",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Alberta Health services",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Frail older adults are commonly prescribed blood pressure medication, yet it is unclear if blood pressure medication is actually beneficial for them. Observational studies in this population suggest blood pressure medication has limited benefit and may even be harmful, including an increased risk for falls and cognitive impairment. Randomized controlled trials are needed to confirm this.\n\nThis study is a randomized controlled trial of blood pressure medication deprescribing, amongst long-term care residents with systolic blood pressure lower than 135 mmHg. In the intervention group, with physician consent, the facility pharmacist or nurse practitioner will continually reduce antihypertensives provided an upper systolic threshold of 145 mmHg is not exceeded. The control group will receive usual care. The hypothesis is that avoiding unnecessarily low systolic blood pressure is beneficial in a frail, end-of-life population.",
+      "detailedDescription": "Observational evidence suggests antihypertensive medications have limited benefit and may even be harmful in the frail older adult population. Although more modest blood pressure targets are already recommended, the impact of deprescribing antihypertensive medication on mortality and morbidity in the frail older adult population has yet to be confirmed by randomized controlled trials.\n\nThe objective of this study is to determine, in hypertensive long-term care residents with a systolic blood pressure below 135 mmHg, whether \"deprescribing\" antihypertensive medications (provided an upper systolic threshold of 145 mmHg is not exceeded), compared to no change in prescribing, will delay all-cause mortality (our primary outcome).\n\nThe study is an event-driven 2-parallel group randomized controlled trial, to be conducted in participating Alberta long-term care (LTC) facilities. The trial operates under a waiver of consent, as the intervention is recommended care, with residents, physicians, and family having the ability to opt individual residents out of the study before eligibility is determined. Eligibility will be determined using linked administrative claims databases holding physician diagnoses and medication dispensed, and by using usual care systolic blood pressure collected by the LTC facility. The provincial data steward (Alberta Health Services) will access this data, determine eligibility, individually randomize eligible residents who have not opted out, and advise the facility pharmacist which patients are in the intervention group.\n\nFacility pharmacists or nurse practitioners will then stop or reduce doses of antihypertensive medication in the intervention group according to a pre-defined deprescribing algorithm. The data steward will track outcomes using administrative claims data, and the study will end once 247 primary outcome events have been observed. This is anticipated to occur 3-years post the start of randomization. An interim data safety monitoring board, chaired by Dr. James M.Wright, hypertension specialist and Co-ordinating Editor of the Cochrane Hypertension Review Group, will convene upon observing 124 primary outcomes. This group will recommend whether or not the study should stop early based on observed efficacy, or safety concerns."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hypertension",
+        "Frailty"
+      ],
+      "keywords": [
+        "Pragmatic trial",
+        "Long-term care",
+        "Nursing home",
+        "Hypertension",
+        "Antihypertensive agents",
+        "Deprescriptions",
+        "Routinely collected health data",
+        "Frail older adult"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 522,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Deprescribing group",
+          "type": "EXPERIMENTAL",
+          "description": "The facility pharmacist will actively deprescribe antihypertensive medication of residents in this group.",
+          "interventionNames": [
+            "Drug: Antihypertensive medication"
+          ]
+        },
+        {
+          "label": "Usual care group",
+          "type": "NO_INTERVENTION",
+          "description": "The facility pharmacist and the attending physician will provide usual care to residents in this group, and this includes quarterly medication reviews."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Antihypertensive medication",
+          "description": "Antihypertensive medication will be continually reduced provided an upper systolic threshold of 145 mmHg is not exceeded",
+          "armGroupLabels": [
+            "Deprescribing group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "All-Cause Mortality",
+          "description": "All-cause death - as recorded in government health claim databases",
+          "timeFrame": "through study completion (estimated to be 4 years, trial will continue until 247 participants have experienced the primary outcome event)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Composite of All-Cause Mortality or All-Cause Unplanned Hospitalization",
+          "description": "Composite of all-cause death and unplanned hospital admission or emergency room visit - as recorded in government health claim databases",
+          "timeFrame": "through study completion (estimated to be 4 years, trial will continue until 247 participants have experienced the primary outcome event)"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "All-Cause Unplanned Hospitalization",
+          "description": "All cause hospitalization or emergency room visit excluding elective surgeries or booked procedures/planned follow-up care - as recorded in governmental health claims databases",
+          "timeFrame": "through study completion (estimated to be 4 years, trial will continue until 247 participants have experienced the primary outcome event)"
+        },
+        {
+          "measure": "Non-Vertebral Fracture",
+          "description": "Any physician billing (hospital or community) for a fracture other than a vertebral fracture (which might indicate a vertebral compression fracture secondary to osteoporosis, and not trauma) - as recorded in government health claim databases",
+          "timeFrame": "through study completion (estimated to be 4 years, trial will continue until 247 participants have experienced the primary outcome event)"
+        },
+        {
+          "measure": "Number of Participants with Record of ≥1 Fall in Last 30-days",
+          "description": "As recorded in the first quarterly Resident Assessment Instruction Minimum Data Set 2.0 (RAI-MDS 2.0) at the LTC facility in the 3- to 6-month window following randomization",
+          "timeFrame": "4.5 Months (average - will occur within a 3- to 6-month post randomization window)"
+        },
+        {
+          "measure": "Number of Participants with Partial or Full Thickness Skin Ulceration (stage 2 to 4)",
+          "description": "As recorded in the first quarterly RAI-MDS 2.0 assessment at the LTC facility in the 3- to 6-month window following randomization",
+          "timeFrame": "4.5 Months (average - will occur within a 3- to 6-month post randomization window)"
+        },
+        {
+          "measure": "Number of Participants with Renal Insufficiency",
+          "description": "Any eGFR \\<30 ml/min/1.73m2 ≥6-weeks post-randomisation as recorded in governmental health claim databases",
+          "timeFrame": "≥6-weeks post-randomisation through study completion (estimated to be 4 years, trial will continue until 247 participants have experienced the primary outcome event)"
+        },
+        {
+          "measure": "Unplanned All-Cause Hospitalization with a Diagnosis of Stroke, Heart Attack, Congestive Heart Failure or Atrial Fibrillation",
+          "description": "Unplanned hospital admission or emergency room visit for stroke, acute coronary syndrome/myocardial infarction, heart failure, or atrial fibrillation - as recorded in governmental health claims databases",
+          "timeFrame": "through study completion (estimated to be 4 years, trial will continue until 247 participants have experienced the primary outcome event)"
+        },
+        {
+          "measure": "Number of Participants with \"Deteriorated Cognition as Compared to Status 90 Days Prior\"",
+          "description": "As recorded in the first quarterly RAI-MDS 2.0 at the LTC facility in the 3- to 6-month window following randomization",
+          "timeFrame": "4.5 Months (average - will occur within a 3- to 6-month post randomization window)"
+        },
+        {
+          "measure": "Number of Participants with \"Deteriorated Mood as Compared to Status 90 Days Prior\"",
+          "description": "As recorded in the first quarterly RAI-MDS 2.0 assessment at the LTC facility in the 3- to 6-month window following randomization",
+          "timeFrame": "4.5 Months (average - will occur within a 3- to 6-month post randomization window)"
+        },
+        {
+          "measure": "Number of Participants with \"Deteriorated Activities of Daily Living (ADL) as Compared to Status 90 Days Prior\"",
+          "description": "As recorded in the first quarterly RAI-MDS 2.0 assessment at the LTC facility in the 3- to 6-month window following randomization",
+          "timeFrame": "4.5 Months (average - will occur within a 3- to 6-month post randomization window)"
+        },
+        {
+          "measure": "Number of Participants with \"Behavioural Symptoms that are Present a Minimum of 4 Days per Week and Not Easily Altered\" Including a) Wandering, b) Verbal Abuse, c) Physical Abuse, d) Socially Inappropriate or Disruptive Behaviour, or e) Resisting Care",
+          "description": "As recorded in the first quarterly RAI-MDS 2.0 assessment at the LTC facility in the 3- to 6-month window following randomization",
+          "timeFrame": "4.5 Months (average - will occur within a 3- to 6-month post randomization window)"
+        },
+        {
+          "measure": "Acute Care Costs",
+          "description": "Calculated from each hospital/emergency admission's resource intensity weight as recorded in government health claim databases",
+          "timeFrame": "through study completion (estimated to be 4 years, trial will continue until 247 participants have experienced the primary outcome event)"
+        },
+        {
+          "measure": "Total Costs of Care",
+          "description": "Acute care costs + medication costs + physician billings + nursing/facility costs as recorded in governmental health claims data. Nursing/facility costs will be estimated from level of care and duration of stay.",
+          "timeFrame": "through study completion (estimated to be 4 years, trial will continue until 247 participants have experienced the primary outcome event)"
+        },
+        {
+          "measure": "Number of Antihypertensive Medications with ≥25%, ≥50%, and 100% Reduction from Baseline in Dosage Dispensed",
+          "description": "As recorded in government health claim databases",
+          "timeFrame": "3- and 6-months post-randomization"
+        },
+        {
+          "measure": "Number of Participants with ≥1 Baseline Antihypertensive Medication with ≥25%, ≥50%, and 100% Reduction in Dosage Dispensed",
+          "description": "As recorded in government health claim databases",
+          "timeFrame": "3- and 6-months post-randomization"
+        },
+        {
+          "measure": "Number of Participants with the Addition of ≥1 New Antihypertensive Medication or Increase in Dosage from Baseline.",
+          "description": "As recorded in government health claim databases",
+          "timeFrame": "3- and 6-months post-randomization"
+        },
+        {
+          "measure": "Number of Discrete Antihypertensive Medications Used in the Last 15 days (baseline, 3- and 6-months post-randomisation)",
+          "description": "As recorded in government health claim databases",
+          "timeFrame": "3- and 6-months post-randomization"
+        },
+        {
+          "measure": "Number of Discrete Medications Used in the Last 15 Days (baseline, 3- and 6-months post-randomisation)",
+          "description": "As recorded in government health claim databases",
+          "timeFrame": "3- to 6-months post-randomization"
+        },
+        {
+          "measure": "Average Systolic Blood Pressure and Average Diastolic Blood Pressure",
+          "description": "As recorded by the long-term care facility",
+          "timeFrame": "through study completion (estimated to be 4 years, trial will continue until 247 participants have experienced the primary outcome event)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* ≥2 diagnoses (dx) of hypertension from either a community practitioner or/and from a hospital admission.\n* On ≥1 oral antihypertensive medication (requires a dispensation in the preceeding 15 days).\n* Average recorded systolic BP of \\<135 mmHg.\n\nExclusion Criteria:\n\n* ≥2 community dx of congestive heart failure, ≥1 dx of in hospital congestive heart failure, ≥1 dx of emergency visit of congestive heart failure, dx of congestive heart failure in RAI-MDS 2.0, or prescription of furosemide in the last 15 days.\n* The resident's only antihypertensive prescribed is a beta blocker.\n* The resident's only antihypertensive prescribed is a calcium channel blocker and the resident has ≥1 health system encounters with a diagnosis of angina.\n* The resident's only antihypertensive prescribed is an alpha blocker.\n* Admitted to the hospital at the time of randomization; or opted out of the trial by the resident, their family, their physician, or the facility.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "70 Years",
+      "stdAges": [
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Roni Kraut",
+          "affiliation": "University of Alberta",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Multiple long-term care facilities",
+          "city": "Multiple Locations",
+          "state": "Alberta",
+          "country": "Canada"
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "39209778",
+          "type": "RESULT",
+          "citation": "Kraut RY, Youngson E, Sadowski CA, Bakal JA, Faulder D, Korownyk CS, Vucenovic A, Eurich DT, Manca DP, Lundby C, Kivi P, Manville M, Garrison SR. Antihypertensive deprescribing in frail long-term care residents (OptimizeBP): protocol for a prospective, randomised, open-label pragmatic trial. BMJ Open. 2024 Aug 29;14(8):e084619. doi: 10.1136/bmjopen-2024-084619."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "OptimizeBP protocol",
+          "url": "https://bmjopen.bmj.com/content/14/8/e084619"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Although we hope to make a de-identified participant-level version of our final analytic dataset publicly available on our website (www.PragmaticTrials.ca), and will request to do so, this requires the permission of Alberta Health Services, who must weigh the privacy concerns.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP"
+      ],
+      "timeFrame": "If approval from Alberta Health Services is obtained, data will be posted co-incident with the main results publication and intended for long-term availability.",
+      "accessCriteria": "The data will be downloadable in the form of an Excel spreadsheet for anyone who wishes to access it. No application process will be necessary.",
+      "url": "https://pragmatictrials.ca/"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006973",
+          "term": "Hypertension"
+        },
+        {
+          "id": "D000073496",
+          "term": "Frailty"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

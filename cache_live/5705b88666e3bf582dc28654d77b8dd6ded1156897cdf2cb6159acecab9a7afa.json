@@ -1,0 +1,313 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05651529",
+      "orgStudyIdInfo": {
+        "id": "2023-4720"
+      },
+      "organization": {
+        "fullName": "Université de Sherbrooke",
+        "class": "OTHER"
+      },
+      "briefTitle": "Acute Oral Ketones or Carbohydrate Supplement Modify Heart Function in Heart Failure?",
+      "officialTitle": "Does Oral Intake of Beta-hydroxybutyrate Decrease Left Ventricular End-systolic Volume at Cardiac Magnetic Resonance in Patients With Heart Failure Compared to Carbohydrate Placebo?"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-12-16",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-16",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-12-16",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-11-29",
+      "studyFirstSubmitQcDate": "2022-12-12",
+      "studyFirstPostDateStruct": {
+        "date": "2022-12-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-02",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-07",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Université de Sherbrooke",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Nestlé Health Science",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Does oral intake of exogenous ketone salt improve heart function measured by cardiac MRI in heart failure compared to oral intake of a carbohydrate placebo?",
+      "detailedDescription": "This study will help to quantify heart and kidney ketone uptake with or without an exogenous ketone salt in heart failure condition.\n\nParticipants will have 2 different cardiac MRI to perform:\n\n1. Fasting with exogenous ketone salt supplement\n2. Fasting with exogenous carbohydrate supplement"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ],
+      "keywords": [
+        "Ketones",
+        "Heart"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "interventionModelDescription": "Crossover Assignment, Each participant will have to do the 2 Acute supplementation interventions",
+        "primaryPurpose": "BASIC_SCIENCE",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "maskingDescription": "Triple (Participant, Investigator, Outcomes Assessor) Investigators, participants and outcome assessors will be fully blinded.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 20,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Ketone",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Dietary Supplement: exogenous ketone salt supplement"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "interventionNames": [
+            "Dietary Supplement: exogenous carbohydrate supplement"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DIETARY_SUPPLEMENT",
+          "name": "exogenous ketone salt supplement",
+          "description": "Dietary Supplement: Fasting water and with exogenous ketone salt supplement. Participants will have to take 1 doses of supplement 30 minutes before the scan.",
+          "armGroupLabels": [
+            "Ketone"
+          ],
+          "otherNames": [
+            "Post-Prandial with exogenous ketone salt supplement"
+          ]
+        },
+        {
+          "type": "DIETARY_SUPPLEMENT",
+          "name": "exogenous carbohydrate supplement",
+          "description": "Dietary Supplement: Fasting water and with exogenous carbohydrate supplement. Participants will have to take 1 doses of supplement 30 minutes before the scan.",
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "otherNames": [
+            "Post-Prandial with exogenous carbohydrate supplement"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Left ventricle ejection fraction by cardiac MRI under acute intake of exogenous ketone salt compared with exogenous carbohydrate placebo in heart failure patients.",
+          "description": "Measure by Cardiac MR in pourcentage between diastolic and systolic volume in millimeter",
+          "timeFrame": "15 minutes"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Right ventricle ejection fraction by cardiac MRI after intake supplement in heart failure patients.",
+          "description": "Measure by Cardiac MR in pourcentage between diastolic and systolic volume in millimeter",
+          "timeFrame": "15 minutes"
+        },
+        {
+          "measure": "Ventricle volume by cardiac MRI after intake supplement in heart failure patients.",
+          "description": "Measure by Cardiac MR in millimeter",
+          "timeFrame": "15 minutes"
+        },
+        {
+          "measure": "Cardiac output by cardiac MRI after intake supplement in heart failure patients.",
+          "description": "Measure by Cardiac MR in liter per minute",
+          "timeFrame": "15 minutes"
+        },
+        {
+          "measure": "Effects of supplement on serum biomarkers",
+          "description": "Concentration of lactate (mmol/L)",
+          "timeFrame": "60 minutes"
+        },
+        {
+          "measure": "Effects of supplement on serum biomarkers",
+          "description": "Concentration sodium (mEq/L)",
+          "timeFrame": "60 minutes"
+        },
+        {
+          "measure": "Effects of supplement on serum biomarkers",
+          "description": "Concentration of N-terminal pro-B-type natriuretic peptide (NT-proBNP) (pg/ml)",
+          "timeFrame": "60 minutes"
+        },
+        {
+          "measure": "Effects of supplement on serum biomarkers",
+          "description": "Concentration of Beta-Hydroxybutyrate (mmol/L)",
+          "timeFrame": "60 minutes"
+        },
+        {
+          "measure": "Effects of supplement on serum biomarkers",
+          "description": "Concentration of glucose (mmol/L)",
+          "timeFrame": "60 minutes"
+        },
+        {
+          "measure": "Effects of supplement on serum biomarkers",
+          "description": "Concentration of insulin (IU)",
+          "timeFrame": "60 minutes"
+        },
+        {
+          "measure": "Effects of supplement on the blood pressure of heart failure patients",
+          "description": "Measure the blood pressure in systole and diastole in mm Hg",
+          "timeFrame": "60 minutes"
+        },
+        {
+          "measure": "Effects of supplement on the heart rate of heart failure patients",
+          "description": "Measure the heart rate in beat per minute",
+          "timeFrame": "60 minutes"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with heart failure with left ventricle ejection fraction of 40%\n* Heart failure of ischemic or dilated etiology\n* Ambulatory patient with a NYHA functional class of II-III;\n* Stable symptoms and no change in medical therapy in the last month.\n\nExclusion Criteria:\n\n* Diabetes\n* Patients treated with any SGLT2i;\n* Chronic kidney disease\n* Acute coronary syndrome in the last 3 months;\n* Use of parenteral inotropic agents;\n* Persistent or permanent atrial fibrillation or atrial flutter;\n* Presence of pacemaker or defibrillator;\n* Medical condition that causes malabsorption of the test material;\n* Under ketogenic diet, or using exogenous ketone supplements\n* Use of nicotinamide adenine dinucleotide (NAD) precursor supplements",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Centre Hospitalier Universitaire de Sherbrooke, departement de cardiologie",
+          "city": "Sherbrooke",
+          "state": "Quebec",
+          "zip": "J1H 5N4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.40008,
+            "lon": -71.89908
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Universitaire de Sherbrooke, departement de médecine",
+          "city": "Sherbrooke",
+          "state": "Quebec",
+          "zip": "J1H 5N4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.40008,
+            "lon": -71.89908
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D007662",
+          "term": "Ketosis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D000138",
+          "term": "Acidosis"
+        },
+        {
+          "id": "D000137",
+          "term": "Acid-Base Imbalance"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D019518",
+          "term": "Postprandial Period"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004068",
+          "term": "Digestive System Physiological Phenomena"
+        },
+        {
+          "id": "D055688",
+          "term": "Digestive System and Oral Physiological Phenomena"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

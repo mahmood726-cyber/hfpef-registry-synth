@@ -1,0 +1,353 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01882179",
+      "orgStudyIdInfo": {
+        "id": "12/0533"
+      },
+      "organization": {
+        "fullName": "University College, London",
+        "class": "OTHER"
+      },
+      "briefTitle": "Early Mineralocorticoid Receptor Antagonist Treatment to Reduce Myocardial Infarct Size",
+      "officialTitle": "MINeralocorticoid Receptor Antagonist Pretreatment to MINIMISE Reperfusion Injury After ST-Elevation Myocardial Infarction (STEMI)",
+      "acronym": "MINIMISE-STEMI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2016-05",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2013-11"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2016-05",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2016-05",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2013-06-17",
+      "studyFirstSubmitQcDate": "2013-06-19",
+      "studyFirstPostDateStruct": {
+        "date": "2013-06-20",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2016-10-25",
+      "lastUpdatePostDateStruct": {
+        "date": "2016-10-26",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University College, London",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "British Heart Foundation",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Heart attacks, or myocardial infarcts, are a major cause of death and disability in the UK. Immediate unblocking of the obstructed heart vessel with a balloon catheter and implantation of a mesh scaffold (stent) in heart centers is warranted in these patients. Morbidity and mortality in this patient group is related to the infarct size. Therefore, there is a need to discover novel therapeutic agents which reduce myocardial infarct size and preserve the contractile heart function.\n\nLarge trials involving several thousand patients have demonstrated a survival benefit in patients with impaired heart function due to a heart attack, who received a mineralo-corticoid receptor antagonist (MRA, drug name: spironolactone). In these trials patients received the drug late, 3-14 days after the heart attack.\n\nOur proposal is to investigate whether MRA therapy administered intravenously prior to unblocking an occluded heart vessel, can reduce infarct size and as such can prevent long term sequelae of heart attacks.\n\n150 patients admitted to 4 tertiary care hospitals (Heart Hospital London, London Chest, Essex Cardiothoracic Center and Leeds General Infirmary) for heart attack will be randomly assigned to receive MRA treatment or placebo. The first dose of the MRA will be applied intravenously immediately in the catheter suite, even before re-opening of the occluded vessel. From the second day on, patients will be prescribed oral MRA treatment, as a pill, for a total of three months. Before hospital discharge and after three months, a magnetic resonance image (MRI) of the heart will accurately investigate the evolution of infarct (scar) size and the contractile heart function and compare the group of patients who received the MRA drug versus the placebo control group. Of note, patients with an ejection fraction \\<40% AND signs of heart failure OR diabetes will go on open label eplerenone according to current guidelines, instead of the study drug.\n\nThis study will give first evidence, if very early MRA treatment improves heart function and should be used as early as possible for treatment of patients after a heart attack."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ST-elevation Myocardial Infarction"
+      ],
+      "keywords": [
+        "Reperfusion injury",
+        "myocardial infarct size",
+        "MRI",
+        "spironolactone"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 61,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Intravenous saline bolus prior to PPCI followed by oral placebo for 3 months",
+          "interventionNames": [
+            "Drug: placebo"
+          ]
+        },
+        {
+          "label": "Mineralocorticoid receptor antagonist",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "1st dose (day 0) given i.v. (potassium-canrenoate), before primary PCI day 1 - 12 weeks: spironolactone 25mg daily, which is uptitrated to 50mg daily after 2 weeks, if possible\n\nIn case the LVEF \\<40% on baseline MRI and the patient shows signs of heart failure or is diabetic, the patient will receive open label eplerenone instead of the study drug, according to current guidelines.",
+          "interventionNames": [
+            "Drug: Mineralocorticoid receptor antagonist potassium-canrenoate"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Mineralocorticoid receptor antagonist potassium-canrenoate",
+          "armGroupLabels": [
+            "Mineralocorticoid receptor antagonist"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "placebo",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Myocardial infarct (MI) size, as assessed by cardiac magnetic resonance imaging",
+          "timeFrame": "12 weeks after STEMI"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Markers of myocardial reperfusion injury",
+          "description": "TIMI flow post-PPCI, ST-segment resolution post-PPCI",
+          "timeFrame": "48 hours"
+        },
+        {
+          "measure": "Microvascular obstruction on cardiac MRI",
+          "description": "hypodense area of late gadolinium enhancement",
+          "timeFrame": "1-3 days after STEMI"
+        },
+        {
+          "measure": "Myocardial salvage",
+          "description": "Area at risk assessed by T2 weighted imaging subtract final MI size",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Acute myocardial infarct size",
+          "description": "serum biomarkers: hsTnT, CK-MB, CK and cardiac MRI: late gadolinium enhancement",
+          "timeFrame": "1-3 days"
+        },
+        {
+          "measure": "LV remodelling",
+          "description": "LV end-diastolic and end-systolic volumes, LV ejection fraction, LV mass and wall-thickness",
+          "timeFrame": "12 week cardiac MRI scan"
+        },
+        {
+          "measure": "Clinical outcome measures",
+          "description": "cardiovascular death, non-fatal myocardial infarction, revascularisation, hospitalisation for heart failure, hyperkalemia, deterioration of kidney function, need for dialysis",
+          "timeFrame": "12 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nInclusion criteria for entry into trial\n\n* Patients \\>18 years\n* Patients presenting with acute STEMI (as assessed by 12 lead ECG; ST segment elevation ≥2 mm (0.2 mV) in 2 or more contiguous precordial leads or ≥1mm (0.1mm) in 2 or more adjacent limb leads).\n* Presentation within 12 hours after symptom onset\n\nInclusion criteria for randomization (assessed in catheter laboratory)\n\n* Angiographically proven proximal occlusion (TIMI 0) of a major coronary vessel (LAD, LCX, RCA).\n* Normal potassium (\\<5.0 mmol/l)\n\nExclusion Criteria:\n\n* Patients with known LVEF ≤40%\n* Participation in another trial\n* Cardiogenic shock (positive shock index OR need for catecholamine support OR systolic blood pressure \\< 90 mmHg)\n* Killip class \\> 2\n* Prior myocardial infarction\n* Known compromised renal function (eGFR \\< 30 ml/min/1.73 m2) or potassium \\> 5.0 mmol/l\n* Current treatment with mineralocorticoid receptor antagonists\n* Pregnant or lactating females\n* Allergies to IMP or its excipients\n* Known contraindication to cardiac magnetic resonance imaging (MRI) such as significant claustrophobia, severe allergy to gadolinium chelate contrast, , presence of MRI contraindicated implanted devices (eg, pacemaker, implanted cardiac defibrillator, cardiac resynchronization therapy device, cochlear implant), imbedded metal objects (eg, shrapnel), or any other contraindication for cardiac MRI.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Derek J Hausenloy, PhD",
+          "affiliation": "University College London, Hatter Cardiovascular Institute",
+          "role": "STUDY_DIRECTOR"
+        },
+        {
+          "name": "Georg M Fröhlich, MD",
+          "affiliation": "University College London, The Heart Hospital",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Pascal Meier, MD",
+          "affiliation": "University College London, The Heart Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Reto Gamma, MD",
+          "affiliation": "Basildon and Thurrock University Hospitals",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Anthony Mathur, PhD",
+          "affiliation": "London Chest Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "John Greenwood, MD",
+          "affiliation": "Leeds General Infirmary",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Cardiothoracic Center - Basildon and Thurrock University Hospitals",
+          "city": "Basildon",
+          "state": "Essex",
+          "zip": "SS16 5NL",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.56844,
+            "lon": 0.45782
+          }
+        },
+        {
+          "facility": "London Chest Hospital",
+          "city": "London",
+          "state": "London",
+          "zip": "E2 9JX",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "Heart Hospital London",
+          "city": "London",
+          "state": "London",
+          "zip": "W1G 8PH",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "Leeds Genereal Infirmary",
+          "city": "Leeds",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 53.79648,
+            "lon": -1.54785
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "12668699",
+          "type": "BACKGROUND",
+          "citation": "Pitt B, Remme W, Zannad F, Neaton J, Martinez F, Roniker B, Bittman R, Hurley S, Kleiman J, Gatlin M; Eplerenone Post-Acute Myocardial Infarction Heart Failure Efficacy and Survival Study Investigators. Eplerenone, a selective aldosterone blocker, in patients with left ventricular dysfunction after myocardial infarction. N Engl J Med. 2003 Apr 3;348(14):1309-21. doi: 10.1056/NEJMoa030207. Epub 2003 Mar 31."
+        },
+        {
+          "pmid": "21073363",
+          "type": "BACKGROUND",
+          "citation": "Zannad F, McMurray JJ, Krum H, van Veldhuisen DJ, Swedberg K, Shi H, Vincent J, Pocock SJ, Pitt B; EMPHASIS-HF Study Group. Eplerenone in patients with systolic heart failure and mild symptoms. N Engl J Med. 2011 Jan 6;364(1):11-21. doi: 10.1056/NEJMoa1009492. Epub 2010 Nov 14."
+        },
+        {
+          "pmid": "10471456",
+          "type": "BACKGROUND",
+          "citation": "Pitt B, Zannad F, Remme WJ, Cody R, Castaigne A, Perez A, Palensky J, Wittes J. The effect of spironolactone on morbidity and mortality in patients with severe heart failure. Randomized Aldactone Evaluation Study Investigators. N Engl J Med. 1999 Sep 2;341(10):709-17. doi: 10.1056/NEJM199909023411001."
+        },
+        {
+          "pmid": "20028693",
+          "type": "BACKGROUND",
+          "citation": "Schmidt K, Tissier R, Ghaleh B, Drogies T, Felix SB, Krieg T. Cardioprotective effects of mineralocorticoid receptor antagonists at reperfusion. Eur Heart J. 2010 Jul;31(13):1655-62. doi: 10.1093/eurheartj/ehp555. Epub 2009 Dec 21."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        },
+        {
+          "id": "D015427",
+          "term": "Reperfusion Injury"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D011183",
+          "term": "Postoperative Complications"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

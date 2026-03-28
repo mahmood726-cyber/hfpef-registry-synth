@@ -1,0 +1,5833 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01258387",
+      "orgStudyIdInfo": {
+        "id": "1101.1"
+      },
+      "organization": {
+        "fullName": "Acorda Therapeutics",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Single Ascending Doses of GGF2 in Patients With Left Ventricular Dysfunction and Symptomatic Heart Failure",
+      "officialTitle": "A Phase 1, Double-Blind, Placebo-Controlled Study of Single Ascending Doses of GGF2 in Patients With Left Ventricular Dysfunction and Symptomatic Heart Failure",
+      "acronym": "GGF2-1101-1"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2014-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2010-12"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2012-12",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2013-03",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2010-12-08",
+      "studyFirstSubmitQcDate": "2010-12-09",
+      "studyFirstPostDateStruct": {
+        "date": "2010-12-13",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2014-04-15",
+      "resultsFirstSubmitQcDate": "2014-06-30",
+      "resultsFirstPostDateStruct": {
+        "date": "2014-07-01",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2014-06-30",
+      "lastUpdatePostDateStruct": {
+        "date": "2014-07-01",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Acorda Therapeutics",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Study to determine the safety, tolerability, pharmacokinetics and immunogenicity of single intravenous administrations of GGF2 in patients with heart failure.",
+      "detailedDescription": "Phase 1, double-blind, placebo-controlled, dose escalation study to determine the safety, tolerability, pharmacokinetics and immunogenicity of single intravenous administrations of GGF2 in cohorts of patients with left ventricular dysfunction and symptomatic heart failure."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 40,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "GGF2",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Seven dosing cohorts: 2 patients randomized to receive 1 GGF2, 1 placebo; if no drug-related dose-limiting toxicities in GGF2-treated patient, other 4 patients in cohort will be randomized (3:1) and dosed",
+          "interventionNames": [
+            "Drug: Glial growth factor 2/ Neuregulin 1β3",
+            "Other: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Glial growth factor 2/ Neuregulin 1β3",
+          "armGroupLabels": [
+            "GGF2"
+          ],
+          "otherNames": [
+            "Recombinant Human Glial Growth Factor 2"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Placebo",
+          "armGroupLabels": [
+            "GGF2"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Safety of Single Ascending Doses of GGF2 Via an Assessment of the Toxicology Profile as Measured by Treatment Emergent Adverse Events (TEAEs)",
+          "description": "Safety/ tolerability of single dose; cumulative safety over 6 months\n\nTEAEs are defined as adverse events with date of onset (or worsening) on or after the start date of double-blind treatment and no more than 28 days from the start date of double-blind treatment.",
+          "timeFrame": "6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change From Baseline of Two-Dimensional Echocardiogram (2D-ECHO) Measured by Ejection Fraction (EF)",
+          "description": "An echocardiogram is a type of ultrasound test that uses high-pitched sound waves that are sent through a device called a transducer. The device picks up echoes of the sound waves as they bounce off the different parts of your heart. These echoes are turned into moving pictures of your heart that can be seen on a video screen.¹\n\nEjection fraction is a measurement of the percentage of blood leaving your heart each time it contracts.²\n\n¹http://wakeinternalmedicine.com/services-and-procedures/services/radiology/2d-echo/\n\n²http://www.mayoclinic.org/ejection-fraction/expert-answers/faq-20058286",
+          "timeFrame": "Screening, day 8, day 14, day 28, and 3 months post-dose"
+        },
+        {
+          "measure": "Change From Baseline of 2D-ECHO Measured by End-Diastolic Volume (EDV)",
+          "description": "EDV is the amount of blood in the ventricle immediately before a cardiac contraction begins; used as a measurement of diastolic function.¹\n\n¹http://medical-dictionary.thefreedictionary.com/end-diastolic+volume",
+          "timeFrame": "Screening, day 8, day 14, day 28, and 3 months post-dose"
+        },
+        {
+          "measure": "Change From Baseline of 2D-ECHO Measured by End-Systolic Volume (ESV)",
+          "description": "ESV is the volume of blood remaining in each ventricle at the end of systole.¹\n\n¹http://medical-dictionary.thefreedictionary.com/end-diastolic+volume",
+          "timeFrame": "Screening, day 8, day 14, day 28, and 3 months post-dose"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Left ventricular ejection fraction (LVEF) between 10% and 40%.\n2. Male or female, aged 18 to 75 years, inclusive.\n\nExclusion Criteria:\n\n1. Received any investigational agent or participation in any clinical study of an investigational agent or investigational therapy up to 30 days prior to the screening visit.\n2. Use of any new prescription medication up to 14 days prior to receiving investigational drug.\n3. Patients with known specific hepatic disease; bilirubin \\>2 mg/dL, SGOT \\> 100 IU.\n4. Patients with a history of hepatic impairment (hepatitis B and C).\n5. Serum creatinine \\>2.5 mg/dL.\n6. Documented stroke or transient ischemic attack (TIA) within 60 days of study enrollment.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Anthony Caggiano, MD, PhD",
+          "affiliation": "Acorda Therapeutics",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "The Medical Group of Saint Joseph's",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30342",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Vanderbilt University",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37232-8802",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "There were six patients in each cohort/dose level, four received active treatment (GGF2) and two received placebo. In each dose level, the first two patients were randomized 1:1 to GGF2 or placebo and monitored for safety prior to randomizing the remaining patients in the cohort 3:1. GGF2 or placebo was administered as an IV infusion.",
+      "recruitmentDetails": "After informed consent, 40 patients with symptomatic Heart Failure (HF) were randomized (4:2) to GGF2 or placebo in 7 ascending dose cohorts. Patients were observed in hospital for 30 hours, then evaluated for adverse effects at 1, 2, 4, 12, and 24 weeks after infusion.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "GGF2 First Dose",
+          "description": "First dosing: 1 GGF2, 1 pbo; if no drug-related dose-limiting toxicities in GGF2-treated patient, other 4 patients in cohort randomized (3:1) and dosed"
+        },
+        {
+          "id": "FG001",
+          "title": "GGF2 Second Escalated Dose",
+          "description": "Second dosing: 1 GGF2, 1 pbo; if no drug-related dose-limiting toxicities in GGF2-treated patient, other 4 patients in cohort randomized (3:1) and dosed"
+        },
+        {
+          "id": "FG002",
+          "title": "GGF2 Third Escalated Dose",
+          "description": "Third dosing: 1 GGF2, 1 pbo; if no drug-related dose-limiting toxicities in GGF2-treated patient, other 4 patients in cohort randomized (3:1) and dosed"
+        },
+        {
+          "id": "FG003",
+          "title": "GGF2 Fourth Escalated Dose",
+          "description": "Fourth dosing: 1 GGF2, 1 pbo; if no drug-related dose-limiting toxicities in GGF2-treated patient, other 4 patients in cohort randomized (3:1) and dosed"
+        },
+        {
+          "id": "FG004",
+          "title": "GGF2 Fifth Escalated Dose",
+          "description": "Fifth dosing: 1 GGF2, 1 pbo; if no drug-related dose-limiting toxicities in GGF2-treated patient, other 4 patients in cohort randomized (3:1) and dosed"
+        },
+        {
+          "id": "FG005",
+          "title": "GGF2 Sixth Escalated Dose",
+          "description": "Sixth dosing: 1 GGF2, 1 pbo; if no drug-related dose-limiting toxicities in GGF2-treated patient, other 4 patients in cohort randomized (3:1) and dosed ."
+        },
+        {
+          "id": "FG006",
+          "title": "GGF2 Seventh Escalataed Dose",
+          "description": "Seventh dosing: 1 GGF2, 1 pbo; if no drug-related dose-limiting toxicities in GGF2-treated patient, other 4 patients in cohort randomized (3:1) and dosed"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG005",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG006",
+                  "numSubjects": "4"
+                }
+              ]
+            },
+            {
+              "type": "Patients Randomized to GGF2",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "4"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "4"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "4"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "4"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "4"
+                },
+                {
+                  "groupId": "FG005",
+                  "numSubjects": "4"
+                },
+                {
+                  "groupId": "FG006",
+                  "numSubjects": "3"
+                }
+              ]
+            },
+            {
+              "type": "Patients Randomized to Placebo",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG005",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG006",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG005",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG006",
+                  "numSubjects": "4"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG005",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG006",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "Safety Population. Consists of all patients who took one of the double-blind investigational drugs.",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Placebo",
+          "description": "Patients in each of 7 cohorts randomized to Placebo"
+        },
+        {
+          "id": "BG001",
+          "title": "GGF2 First Dose",
+          "description": "First dosing: patients in cohort randomized to GGF2"
+        },
+        {
+          "id": "BG002",
+          "title": "GGF2 Second Escalated Dose",
+          "description": "Second dosing: patients in cohort randomized to GGF2"
+        },
+        {
+          "id": "BG003",
+          "title": "GGF2 Third Escalated Dose",
+          "description": "Third dosing: patients in cohort randomized to GGF2"
+        },
+        {
+          "id": "BG004",
+          "title": "GGF2 Fourth Escalated Dose",
+          "description": "Fourth dosing: patients in cohort randomized to GGF2"
+        },
+        {
+          "id": "BG005",
+          "title": "GGF2 Fifth Escalated Dose",
+          "description": "Fifth dosing: patients in cohort randomized to GGF2"
+        },
+        {
+          "id": "BG006",
+          "title": "GGF2 Sixth Escalated Dose",
+          "description": "Sixth dosing: patients in cohort randomized to GGF2."
+        },
+        {
+          "id": "BG007",
+          "title": "GGF2 Seventh Escalataed Dose",
+          "description": "Seventh dosing: patients in cohort randomized to GGF2"
+        },
+        {
+          "id": "BG008",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "13"
+            },
+            {
+              "groupId": "BG001",
+              "value": "4"
+            },
+            {
+              "groupId": "BG002",
+              "value": "4"
+            },
+            {
+              "groupId": "BG003",
+              "value": "4"
+            },
+            {
+              "groupId": "BG004",
+              "value": "4"
+            },
+            {
+              "groupId": "BG005",
+              "value": "4"
+            },
+            {
+              "groupId": "BG006",
+              "value": "4"
+            },
+            {
+              "groupId": "BG007",
+              "value": "3"
+            },
+            {
+              "groupId": "BG008",
+              "value": "40"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "54.7",
+                      "spread": "13.21"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "52.0",
+                      "spread": "5.72"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "58.5",
+                      "spread": "7.59"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "56.8",
+                      "spread": "10.05"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "65.3",
+                      "spread": "5.85"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "58.5",
+                      "spread": "8.85"
+                    },
+                    {
+                      "groupId": "BG006",
+                      "value": "59.0",
+                      "spread": "4.97"
+                    },
+                    {
+                      "groupId": "BG007",
+                      "value": "61.0",
+                      "spread": "9.17"
+                    },
+                    {
+                      "groupId": "BG008",
+                      "value": "57.4",
+                      "spread": "9.83"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG006",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG007",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG008",
+                      "value": "7"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG006",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG007",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG008",
+                      "value": "33"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG006",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG007",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG008",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG006",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG007",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG008",
+                      "value": "40"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG006",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG007",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG008",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Safety of Single Ascending Doses of GGF2 Via an Assessment of the Toxicology Profile as Measured by Treatment Emergent Adverse Events (TEAEs)",
+          "description": "Safety/ tolerability of single dose; cumulative safety over 6 months\n\nTEAEs are defined as adverse events with date of onset (or worsening) on or after the start date of double-blind treatment and no more than 28 days from the start date of double-blind treatment.",
+          "populationDescription": "Safety population",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "timeFrame": "6 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Placebo"
+            },
+            {
+              "id": "OG001",
+              "title": "GGF2 First Dose"
+            },
+            {
+              "id": "OG002",
+              "title": "GGF2 Second Escalated Dose"
+            },
+            {
+              "id": "OG003",
+              "title": "GGF2 Third Escalated Dose"
+            },
+            {
+              "id": "OG004",
+              "title": "GGF2 Fourth Escalated Dose"
+            },
+            {
+              "id": "OG005",
+              "title": "GGF2 Fifth Escalated Dose"
+            },
+            {
+              "id": "OG006",
+              "title": "GGF2 Sixth Escalated Dose"
+            },
+            {
+              "id": "OG007",
+              "title": "GGF2 Seventh Escalataed Dose"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "13"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG004",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG005",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG006",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG007",
+                  "value": "3"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Having Any TEAEs - Yes",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG006",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG007",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Having Any TEAEs - No",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG006",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG007",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Having TEAEs Maximum Severity Mild",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG006",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG007",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Having TEAEs Maximum Severity Moderate",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG006",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG007",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Having TEAEs Maximum Severity Severe",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG006",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG007",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Having TEAEs Maximum Toxicity Grade Mild",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG006",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG007",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Having TEAEs Maximum Toxicity Grade Moderate",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG006",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG007",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Having TEAEs Maximum Toxicity Grade Severe",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG006",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG007",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "TEAEs Maximum Toxicity Grade Life-Threatening",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG006",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG007",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Having TEAEs Maximum Toxicity Grade Death",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG006",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG007",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Relationship to Study Drug -Not Related",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG006",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG007",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Relationship to Study Drug -Related",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "OG006",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "OG007",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Withdrew Due to TEAEs - Yes",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG006",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG007",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Withdrew Due to TEAEs - NO",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG006",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG007",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline of Two-Dimensional Echocardiogram (2D-ECHO) Measured by Ejection Fraction (EF)",
+          "description": "An echocardiogram is a type of ultrasound test that uses high-pitched sound waves that are sent through a device called a transducer. The device picks up echoes of the sound waves as they bounce off the different parts of your heart. These echoes are turned into moving pictures of your heart that can be seen on a video screen.¹\n\nEjection fraction is a measurement of the percentage of blood leaving your heart each time it contracts.²\n\n¹http://wakeinternalmedicine.com/services-and-procedures/services/radiology/2d-echo/\n\n²http://www.mayoclinic.org/ejection-fraction/expert-answers/faq-20058286",
+          "populationDescription": "Safety Population",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "percent change",
+          "timeFrame": "Screening, day 8, day 14, day 28, and 3 months post-dose",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Placebo"
+            },
+            {
+              "id": "OG001",
+              "title": "GGF2 First Dose"
+            },
+            {
+              "id": "OG002",
+              "title": "GGF2 Second Escalated Dose"
+            },
+            {
+              "id": "OG003",
+              "title": "GGF2 Third Escalated Dose"
+            },
+            {
+              "id": "OG004",
+              "title": "GGF2 Fourth Escalated Dose"
+            },
+            {
+              "id": "OG005",
+              "title": "GGF2 Fifth Escalated Dose"
+            },
+            {
+              "id": "OG006",
+              "title": "GGF2 Sixth Escalated Dose"
+            },
+            {
+              "id": "OG007",
+              "title": "GGF2 Seventh Escalataed Dose"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "13"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG004",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG005",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG006",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG007",
+                  "value": "3"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Day 8",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.82",
+                      "spread": "6.582"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4.75",
+                      "spread": "8.180"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "5.00",
+                      "spread": "7.528"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "2.50",
+                      "spread": "5.196"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "4.25",
+                      "spread": "4.272"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "-1.25",
+                      "spread": "4.992"
+                    },
+                    {
+                      "groupId": "OG006",
+                      "value": "5.33",
+                      "spread": "8.083"
+                    },
+                    {
+                      "groupId": "OG007",
+                      "value": "4.33",
+                      "spread": "3.055"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Day 14",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-1.12",
+                      "spread": "7.880"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-5.00",
+                      "spread": "7.257"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "5.00",
+                      "spread": "10.863"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "2.00",
+                      "spread": "4.546"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "4.23",
+                      "spread": "8.328"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "2.13",
+                      "spread": "5.360"
+                    },
+                    {
+                      "groupId": "OG006",
+                      "value": "11.55",
+                      "spread": "10.007"
+                    },
+                    {
+                      "groupId": "OG007",
+                      "value": "7.10",
+                      "spread": "8.627"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Day 28",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.27",
+                      "spread": "8.584"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-2.00",
+                      "spread": "9.345"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "8.50",
+                      "spread": "10.472"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "4.00",
+                      "spread": "2.449"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "8.00",
+                      "spread": "2.000"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "5.75",
+                      "spread": "2.500"
+                    },
+                    {
+                      "groupId": "OG006",
+                      "value": "12.00",
+                      "spread": "5.099"
+                    },
+                    {
+                      "groupId": "OG007",
+                      "value": "10.00",
+                      "spread": "7.550"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "3 Months",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.88",
+                      "spread": "8.588"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-3.75",
+                      "spread": "6.397"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0.78",
+                      "spread": "8.418"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0.75",
+                      "spread": "4.031"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "7.25",
+                      "spread": "8.770"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "4.50",
+                      "spread": "7.724"
+                    },
+                    {
+                      "groupId": "OG006",
+                      "value": "9.00",
+                      "spread": "5.598"
+                    },
+                    {
+                      "groupId": "OG007",
+                      "value": "15.00",
+                      "spread": "13.000"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline of 2D-ECHO Measured by End-Diastolic Volume (EDV)",
+          "description": "EDV is the amount of blood in the ventricle immediately before a cardiac contraction begins; used as a measurement of diastolic function.¹\n\n¹http://medical-dictionary.thefreedictionary.com/end-diastolic+volume",
+          "populationDescription": "Safety Population",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Milliliter(s)",
+          "timeFrame": "Screening, day 8, day 14, day 28, and 3 months post-dose",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Placebo"
+            },
+            {
+              "id": "OG001",
+              "title": "GGF2 First Dose"
+            },
+            {
+              "id": "OG002",
+              "title": "GGF2 Second Escalated Dose"
+            },
+            {
+              "id": "OG003",
+              "title": "GGF2 Third Escalated Dose"
+            },
+            {
+              "id": "OG004",
+              "title": "GGF2 Fourth Escalated Dose"
+            },
+            {
+              "id": "OG005",
+              "title": "GGF2 Fifth Escalated Dose"
+            },
+            {
+              "id": "OG006",
+              "title": "GGF2 Sixth Escalated Dose"
+            },
+            {
+              "id": "OG007",
+              "title": "GGF2 Seventh Escalataed Dose"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "13"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG004",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG005",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG006",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG007",
+                  "value": "3"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Day 8",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-14.89",
+                      "spread": "74.125"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "27.50",
+                      "spread": "27.538"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1.98",
+                      "spread": "29.028"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "-10.60",
+                      "spread": "59.288"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "-2.15",
+                      "spread": "11.098"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "-35.00",
+                      "spread": "36.341"
+                    },
+                    {
+                      "groupId": "OG006",
+                      "value": "17.00",
+                      "spread": "23.763"
+                    },
+                    {
+                      "groupId": "OG007",
+                      "value": "7.33",
+                      "spread": "5.859"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Day 14",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-41.59",
+                      "spread": "55.252"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "31.95",
+                      "spread": "9.450"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "-10.25",
+                      "spread": "56.119"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "-32.83",
+                      "spread": "44.543"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "-22.25",
+                      "spread": "30.609"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "-26.50",
+                      "spread": "33.071"
+                    },
+                    {
+                      "groupId": "OG006",
+                      "value": "-23.50",
+                      "spread": "61.474"
+                    },
+                    {
+                      "groupId": "OG007",
+                      "value": "17.85",
+                      "spread": "19.587"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Day 28",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-25.85",
+                      "spread": "63.405"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "13.60",
+                      "spread": "21.750"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "49.18",
+                      "spread": "52.333"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "-21.05",
+                      "spread": "41.282"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "10.50",
+                      "spread": "54.482"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "-15.80",
+                      "spread": "20.785"
+                    },
+                    {
+                      "groupId": "OG006",
+                      "value": "-15.25",
+                      "spread": "74.384"
+                    },
+                    {
+                      "groupId": "OG007",
+                      "value": "-3.30",
+                      "spread": "13.262"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "3 Months",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-25.72",
+                      "spread": "109.056"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.85",
+                      "spread": "43.507"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "-8.00",
+                      "spread": "46.168"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "48.78",
+                      "spread": "66.896"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "-20.00",
+                      "spread": "36.615"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "-39.85",
+                      "spread": "52.616"
+                    },
+                    {
+                      "groupId": "OG006",
+                      "value": "-12.98",
+                      "spread": "116.297"
+                    },
+                    {
+                      "groupId": "OG007",
+                      "value": "4.07",
+                      "spread": "30.624"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline of 2D-ECHO Measured by End-Systolic Volume (ESV)",
+          "description": "ESV is the volume of blood remaining in each ventricle at the end of systole.¹\n\n¹http://medical-dictionary.thefreedictionary.com/end-diastolic+volume",
+          "populationDescription": "Safety Population",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Milliliter(s)",
+          "timeFrame": "Screening, day 8, day 14, day 28, and 3 months post-dose",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Placebo"
+            },
+            {
+              "id": "OG001",
+              "title": "GGF2 First Dose"
+            },
+            {
+              "id": "OG002",
+              "title": "GGF2 Second Escalated Dose"
+            },
+            {
+              "id": "OG003",
+              "title": "GGF2 Third Escalated Dose"
+            },
+            {
+              "id": "OG004",
+              "title": "GGF2 Fourth Escalated Dose"
+            },
+            {
+              "id": "OG005",
+              "title": "GGF2 Fifth Escalated Dose"
+            },
+            {
+              "id": "OG006",
+              "title": "GGF2 Sixth Escalated Dose"
+            },
+            {
+              "id": "OG007",
+              "title": "GGF2 Seventh Escalataed Dose"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "13"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG004",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG005",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG006",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG007",
+                  "value": "3"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Day 8",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.92",
+                      "spread": "79.285"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "12.38",
+                      "spread": "31.669"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "-6.98",
+                      "spread": "29.443"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "-15.95",
+                      "spread": "44.215"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "-5.25",
+                      "spread": "15.392"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "-26.50",
+                      "spread": "30.490"
+                    },
+                    {
+                      "groupId": "OG006",
+                      "value": "-9.00",
+                      "spread": "29.017"
+                    },
+                    {
+                      "groupId": "OG007",
+                      "value": "-3.23",
+                      "spread": "12.894"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Day 14",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-19.08",
+                      "spread": "76.181"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "33.20",
+                      "spread": "14.200"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "-14.40",
+                      "spread": "30.961"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "-27.65",
+                      "spread": "31.115"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "-15.00",
+                      "spread": "20.314"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "-27.25",
+                      "spread": "39.339"
+                    },
+                    {
+                      "groupId": "OG006",
+                      "value": "-31.75",
+                      "spread": "58.750"
+                    },
+                    {
+                      "groupId": "OG007",
+                      "value": "4.10",
+                      "spread": "2.970"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Day 28",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-3.48",
+                      "spread": "92.552"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "10.88",
+                      "spread": "22.885"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "22.05",
+                      "spread": "41.977"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "-23.45",
+                      "spread": "30.330"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "-8.88",
+                      "spread": "25.873"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "-24.75",
+                      "spread": "26.725"
+                    },
+                    {
+                      "groupId": "OG006",
+                      "value": "-28.75",
+                      "spread": "60.808"
+                    },
+                    {
+                      "groupId": "OG007",
+                      "value": "-16.30",
+                      "spread": "8.311"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "3 Months",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-12.65",
+                      "spread": "128.433"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6.30",
+                      "spread": "32.395"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "-0.45",
+                      "spread": "32.211"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "27.80",
+                      "spread": "43.414"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "-21.25",
+                      "spread": "23.782"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "-39.08",
+                      "spread": "48.393"
+                    },
+                    {
+                      "groupId": "OG006",
+                      "value": "-18.58",
+                      "spread": "87.663"
+                    },
+                    {
+                      "groupId": "OG007",
+                      "value": "-10.73",
+                      "spread": "36.960"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "timeFrame": "6 months",
+      "description": "Serious Treatment Emergent Adverse Events (TEAE) are defined as serious Adverse Events (AE) with date of onset (or worsening) on or after the start date of double-blind treatment.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Placebo",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 13,
+          "otherNumAffected": 6,
+          "otherNumAtRisk": 13
+        },
+        {
+          "id": "EG001",
+          "title": "GGF2 First Dose",
+          "description": "First dosing: 1 GGF2, 1 pbo; if no drug-related dose-limiting toxicities in GGF2-treated patient, other 4 patients in cohort will be randomized (3:1) and dosed",
+          "seriousNumAffected": 1,
+          "seriousNumAtRisk": 4,
+          "otherNumAffected": 4,
+          "otherNumAtRisk": 4
+        },
+        {
+          "id": "EG002",
+          "title": "GGF2 Second Escalated Dose",
+          "description": "Second dosing: 1 GGF2, 1 pbo; if no drug-related dose-limiting toxicities in GGF2-treated patient, other 4 patients in cohort will be randomized (3:1) and dosed",
+          "seriousNumAffected": 1,
+          "seriousNumAtRisk": 4,
+          "otherNumAffected": 4,
+          "otherNumAtRisk": 4
+        },
+        {
+          "id": "EG003",
+          "title": "GGF2 Third Escalated Dose",
+          "description": "Third dosing: 1 GGF2, 1 pbo; if no drug-related dose-limiting toxicities in GGF2-treated patient, other 4 patients in cohort will be randomized (3:1) and dosed",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 4,
+          "otherNumAffected": 2,
+          "otherNumAtRisk": 4
+        },
+        {
+          "id": "EG004",
+          "title": "GGF2 Fourth Escalated Dose",
+          "description": "Fourth dosing: 1 GGF2, 1 pbo; if no drug-related dose-limiting toxicities in GGF2-treated patient, other 4 patients in cohort will be randomized (3:1) and dosed",
+          "seriousNumAffected": 1,
+          "seriousNumAtRisk": 4,
+          "otherNumAffected": 4,
+          "otherNumAtRisk": 4
+        },
+        {
+          "id": "EG005",
+          "title": "GGF2 Fifth Escalated Dose",
+          "description": "Fifth dosing: 1 GGF2, 1 pbo; if no drug-related dose-limiting toxicities in GGF2-treated patient, other 4 patients in cohort will be randomized (3:1) and dosed",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 4,
+          "otherNumAffected": 4,
+          "otherNumAtRisk": 4
+        },
+        {
+          "id": "EG006",
+          "title": "GGF2 Sixth Escalated Dose",
+          "description": "Sixth dosing: 1 GGF2, 1 pbo; if no drug-related dose-limiting toxicities in GGF2-treated patient, other 4 patients in cohort will be randomized (3:1) and dosed .",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 4,
+          "otherNumAffected": 4,
+          "otherNumAtRisk": 4
+        },
+        {
+          "id": "EG007",
+          "title": "GGF2 Seventh Escalataed Dose",
+          "description": "Seventh dosing: 1 GGF2, 1 pbo; if no drug-related dose-limiting toxicities in GGF2-treated patient, other 4 patients in cohort will be randomized (3:1) and dosed",
+          "seriousNumAffected": 1,
+          "seriousNumAtRisk": 3,
+          "otherNumAffected": 3,
+          "otherNumAtRisk": 3
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Angina pectoris",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Cardiac failure congestive",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Hy's law case",
+          "organSystem": "Hepatobiliary disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Viral infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 2,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 2,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Dysgeusia",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 2,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Dizziness",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Lethargy",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Sinus headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 2,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 2,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Diarrhoea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 2,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Abdominal distension",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 2,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Abdominal Pain",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Abdominal tenderness",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Gastritis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Haemorrhoids",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Toothache",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 2,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 2,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Feeling hot",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Infusion site pain",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Injection site haematoma",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Injection site scab",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Pain",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Pyrexia",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Influenza like illness",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Gamma-glutamyltransferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 3,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Brain natriuretic peptide increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Blood bilirubin increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Blood chloride increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Blood creatinine increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Blood potassium increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Glomerular filtration rate decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Heart rate increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Weight decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 2,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Dyspnoea",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Nasal conjestion",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Sinus congestion",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Upper-airway cough syndrome",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Wheezing",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Hypotension",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Flushing",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Hot flush",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Vein pain",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Upper respiratory tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Bronchitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Viral infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Decreased appetite",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Fluid retention",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Gout",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Hyperuricaemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Hypokalaemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Arthralgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Muscle spasms",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Myalgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Neck pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Pain in jaw",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Tendonitis",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Angina pectoris",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Cardiac failure congestive",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Cardiac flutter",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Infusion related reaction",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Muscle strain",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Chromaturia",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Nephrolithiasis",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Rash maculo-papular",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Skin discolouration",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Ear pain",
+          "organSystem": "Ear and labyrinth disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Vitreous floaters",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 0,
+              "numAtRisk": 3
+            }
+          ]
+        },
+        {
+          "term": "Hy's law case",
+          "organSystem": "Hepatobiliary disorders",
+          "sourceVocabulary": "MedDRA",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG004",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG007",
+              "numAffected": 1,
+              "numAtRisk": 3
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "OTHER",
+        "restrictiveAgreement": true,
+        "otherDetails": "Sponsor (Acorda) has the right to review and comment on proposed publications within a specified time frame, up to 60 days; multi-center trials require joint publication unless specifically permitted otherwise."
+      },
+      "pointOfContact": {
+        "title": "Anthony Caggiano, MD, PhD",
+        "organization": "Acorda Therapeutics, Inc.",
+        "email": "tcaggiano@acorda.com",
+        "phone": "914-347-4300",
+        "phoneExt": "5150"
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-19"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D020880",
+          "term": "Neuregulins"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009414",
+          "term": "Nerve Growth Factors"
+        },
+        {
+          "id": "D036341",
+          "term": "Intercellular Signaling Peptides and Proteins"
+        },
+        {
+          "id": "D010455",
+          "term": "Peptides"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D009419",
+          "term": "Nerve Tissue Proteins"
+        },
+        {
+          "id": "D001685",
+          "term": "Biological Factors"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

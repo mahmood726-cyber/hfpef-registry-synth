@@ -1,0 +1,195 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03380156",
+      "orgStudyIdInfo": {
+        "id": "8469"
+      },
+      "organization": {
+        "fullName": "University of Oklahoma",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effect of Transcutaneous Vagal Stimulation (TVS) on Endothelial Function and Arterial Stiffness in HFrEF",
+      "officialTitle": "Effect of Transcutaneous Vagal Stimulation (TVS) on Endothelial Function and Arterial Stiffness in Patients With Heart Failure With Reduced Ejection Fraction"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-01",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-12-04",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-05-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-05-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-10-12",
+      "studyFirstSubmitQcDate": "2017-12-15",
+      "studyFirstPostDateStruct": {
+        "date": "2017-12-20",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-01-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-01-14",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Oklahoma",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Heart failure (HF) is the leading cause of hospitalization in the US. Endothelial dysfunction, characterized by the decreased vasodilatory capacity of the vascular endothelium, is rampant in atherosclerotic diseases such as coronary artery disease and also in HF. Endothelial dysfunction also correlates with HF severity, progression, and mortality. It is postulated that endothelial dysfunction may in part be due to enhanced sympathetic drive, diminished parasympathetic drive, chronic inflammatory state thereby leading to reduced nitric oxide synthase activity in the vascular endothelium. Low-level vagus nerve stimulation (LLVNS) is an invasive way to modulate autonomic tone. Recent experimental and clinical data suggest that low-level transcutaneous vagal stimulation (TVS) (by stimulating the auricular branch of the vagus nerve located at the tragus of the external ear) may produce the same desired neuromodulator effect compared to LLVNS. The objective of this study is to determine the impact of TVS on endothelial dysfunction and arterial stiffness. The study population will include patients with chronic HFrEF. After performing baseline flow-mediated dilation (FMD), laser speckle contrast imaging(LSCI) and pulse wave analysis (PWA) testing, patients will be randomized to TVS or sham stimulation with a crossover design at different time points. The patient randomized to TVS arm will undergo stimulation for 1 hour followed by immediate measurement of FMD,LSCI and PWA. There will be a washout period of at least 24 hours with patient crossing over to the other arms thus serving as their self-control."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure With Reduced Ejection Fraction",
+        "Endothelial Dysfunction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "maskingDescription": "Blinding will be done so the investigator performing the FMD and PWA testing will be blinded to the allocation of TNS",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 50,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Interventional",
+          "type": "EXPERIMENTAL",
+          "description": "Active TVS will be performed by use of a Tragus stimulator device with electrodes attached to the tragus of the ear. Stimulator will be applied continuously for 1 hour.",
+          "interventionNames": [
+            "Device: TVS"
+          ]
+        },
+        {
+          "label": "Control",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Sham TVS will be performed by use of a Tragus stimulator device with electrodes attached to the ear lobule. Stimulator will be applied continuously for 1 hour.",
+          "interventionNames": [
+            "Device: Sham TVS"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "TVS",
+          "description": "Active TVS will be performed by use of a Tragus stimulator device with electrodes attached to the tragus of the ear. Stimulator will be applied continuously for 1 hour",
+          "armGroupLabels": [
+            "Interventional"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Sham TVS",
+          "description": "Device will be applied but not to the Tragus of the ear but will be attached to the ear lobule.",
+          "armGroupLabels": [
+            "Control"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Flow Mediated Vasodilation",
+          "description": "Flow mediated vasodilatation will be tested. A change in the maximal diameter of the brachial artery(in mm) will be assessed before and within 10 minutes of TVNS/sham stimulation.",
+          "timeFrame": "Change from baseline to post stimulation(within 10 minutes) with TVNS/Sham stimulation"
+        },
+        {
+          "measure": "Pulse Wave Analysis",
+          "description": "Arterial elasticity. Augmentation pressure (AP) will be calculated which is expressed as a percentage of the aortic pulse pressure (PP) which is the difference of systolic and diastolic BP(mm Hg).",
+          "timeFrame": "Change from baseline to post stimulation(within 15-20 minutes) with TVNS/Sham stimulation"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "LSCI",
+          "description": "LSCI based perfusion index will be calculated before and within 30 minutes of TVS or sham stimulation",
+          "timeFrame": "Change from baseline to post stimulation(within 30 minutes) with TVS/Sham stimulation"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1\\. Patients (18 years or older) with Heart failure with reduced ejection fraction (HFrEF), which is a history of symptomatic heart failure with left ventricular ejection fraction (LVEF) of \\< 40%.\n\nExclusion Criteria:\n\n1. patients in overt congestive heart failure / recent acute myocardial infarction (\\< 3 months) or Unstable angina\n2. Active malignancy\n3. Perimenopausal women and post-menopausal women on hormone supplements.\n4. unilateral or bilateral vagotomy\n5. Patients with bilateral upper extremity amputation\n6. pregnant patients\n7. End-stage renal disease\n8. End-stage liver disease\n9. history of recurrent vasovagal syncope, Sick sinus syndrome, 2nd- or 3rd-degree atrioventricular (AV) block.\n10. patients with clinically documented upper extremity arterial disease\n11. patients with BMI\\>34",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Tarun Dasari, MD,MPH",
+          "affiliation": "OUHSC",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Oklahoma Health Sciences Center",
+          "city": "Oklahoma City",
+          "state": "Oklahoma",
+          "zip": "73117",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.46756,
+            "lon": -97.51643
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,259 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05411263",
+      "orgStudyIdInfo": {
+        "id": "EC-2021-268"
+      },
+      "organization": {
+        "fullName": "Vrije Universiteit Brussel",
+        "class": "OTHER"
+      },
+      "briefTitle": "Portal Vein Flow Variability to Quantify Right-Sided Hemodynamic Congestion (PORTAL)",
+      "officialTitle": "Portal Vein Flow Variability to Quantify Right-Sided Hemodynamic Congestion: A Proof-Of-Concept Study",
+      "acronym": "PORTAL"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-06",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Poor recruitment",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-10-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-06-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-06-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-05-31",
+      "studyFirstSubmitQcDate": "2022-06-04",
+      "studyFirstPostDateStruct": {
+        "date": "2022-06-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-06-30",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-07-03",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Frederik Hendrik Verbrugge, MD PhD MSc",
+        "investigatorTitle": "Clinical Professor/Head of Clinic",
+        "investigatorAffiliation": "Universitair Ziekenhuis Brussel"
+      },
+      "leadSponsor": {
+        "name": "Vrije Universiteit Brussel",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "HeartKinetics",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study evaluates the accuracy of a comprehensive venous Doppler echography including the portal vein pulsatility index (PVPI) to quantify invasively measured right-sided venous pressures. A substudy will correlate invasive and non-invasive hemodynamic measurements to ballistocardiography and seismocardiography with the Kino-cardiograph (Kino) device (HeartKinetics, Waterloo, Belgium)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Congestion",
+        "Heart Failure",
+        "Right Heart Catheterisation",
+        "Central Venous Pressure",
+        "Doppler Echocardiography"
+      ],
+      "keywords": [
+        "Congestion",
+        "Doppler echocardiography",
+        "Central venous pressure",
+        "Right heart catheterisation",
+        "Heart Failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "DIAGNOSTIC",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 61,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Patients with advanced heart failure undergoing clinically indicated right heart catheterisation",
+          "type": "EXPERIMENTAL",
+          "description": "Patients with advanced heart failure undergoing right heart catheterisation as clinically indicated, irrespectively of their ejection fraction.",
+          "interventionNames": [
+            "Diagnostic Test: Comprehensive transthoracic echocardiography, Doppler echography & Kino-cardiograph (Kino)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Comprehensive transthoracic echocardiography, Doppler echography & Kino-cardiograph (Kino)",
+          "description": "As per inclusion criteria, all patients undergo right heart catheterisation to obtain a full profile of invasive hemodynamic measurements, including pulmonary arterial wedge pressure (PAWP), pulmonary artery pressure, right ventricular pressure, right atrial pressure (RAP), superior and/or inferior vena cava pressure, hepatic vein pressure with/without balloon occlusion. Immediately after the invasive hemodynamic exam, a comprehensive 2D, Color Doppler and Doppler echocardiography exam, including a Doppler study of the Vv. hepaticae, V. portae and V. renalis is performed. Based upon logistic feasibility, ballistocardiography and seismocardiography with the completely non-invasive Kino device (HeartKinetics, Waterloo, Belgium) is performed in a subpopulation of patients envisioned to be at least 50 patients.",
+          "armGroupLabels": [
+            "Patients with advanced heart failure undergoing clinically indicated right heart catheterisation"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Portal Vein Pulsatility Index (PVPI)",
+          "description": "PVPI = (Vmax - Vmin)/Vmax on the portal vein Pulsed wave Doppler signal",
+          "timeFrame": "Crosssectional study without longitudinal follow-up, measurement is obtained during Doppler echography exam"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Time integral of kinetic energy during the cardiac cycle",
+          "description": "Measured by a combination of ballistocardiography and seismocardiography with the Kino device (HeartKinetics, Waterloo, Belgium).",
+          "timeFrame": "Crosssectional study without longitudinal follow-up, measurement is obtained during Doppler echography exam"
+        },
+        {
+          "measure": "Inferior vena cava diameter",
+          "description": "Inferior vena cava diameter \\[mm\\] upon end-expiration",
+          "timeFrame": "Crosssectional study without longitudinal follow-up, measurement is obtained during Doppler echography exam"
+        },
+        {
+          "measure": "Inferior vena cava diameter respiratory variation",
+          "description": "Inferior vena cava diameter respiratory variation \\[%\\]",
+          "timeFrame": "Crosssectional study without longitudinal follow-up, measurement is obtained during Doppler echography exam"
+        },
+        {
+          "measure": "Hepatic vein Pulsed wave Doppler signal",
+          "description": "Categorical classification:\n\n* Systolic wave \\> Diastolic wave\n* Diastolic wave \\> Systolic wave\n* Systolic flow reversal",
+          "timeFrame": "Crosssectional study without longitudinal follow-up, measurement is obtained during Doppler echography exam"
+        },
+        {
+          "measure": "Renal vein Pulsed wave Doppler signal",
+          "description": "Categorical classification:\n\n* Monophasic flow\n* Discontinuous biphasic flow\n* Discontinuous monophasic flow",
+          "timeFrame": "Crosssectional study without longitudinal follow-up, measurement is obtained during Doppler echography exam"
+        },
+        {
+          "measure": "Right ventricular (RV) free wall strain",
+          "description": "Right ventricular (RV) free wall strain assessed in the RV focused view offline with EchoPAC (General Electric Healthcare, Chicago, IL, United States).",
+          "timeFrame": "Crosssectional study without longitudinal follow-up, measurement is obtained during Doppler echography exam"
+        },
+        {
+          "measure": "Right atrial strain",
+          "description": "Right atrial strain assessed in the RV focused view offline with EchoPAC (General Electric Healthcare, Chicago, IL, United States).",
+          "timeFrame": "Crosssectional study without longitudinal follow-up, measurement is obtained during Doppler echography exam"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* At least 18 year old and able to provide informed consent;\n* Consecutive patients scheduled for right heart catheterisation by a dedicated heart failure specialist at the Centre of Cardiovascular Diseases (University Hospital Brussels, Jette, Belgium).\n\nExclusion Criteria:\n\n* Major anatomical variations of the portal veins (agenesis of left and right portal vein) and/or arterio-portal vein fistula;\n* Patients with Child-Pugh B or C liver cirrhosis or liver transplant;\n* Body Mass Index \\< 20 kg/m².",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "99 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Frederik H Verbrugge, MD; PhD",
+          "affiliation": "Universitair Ziekenhuis Brussel",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University Hospital Brussels",
+          "city": "Jette",
+          "state": "Brussels Capital",
+          "zip": "1090",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.87309,
+            "lon": 4.33419
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Data related will be made available upon reasonable request in adherence with transparency conventions in medical research, always through requests addressed to the primary investigator.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "ICF"
+      ],
+      "timeFrame": "1 year after completion of the study"
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2022-05-30",
+          "uploadDate": "2022-05-30T04:57",
+          "filename": "Prot_000.pdf",
+          "size": 696654
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

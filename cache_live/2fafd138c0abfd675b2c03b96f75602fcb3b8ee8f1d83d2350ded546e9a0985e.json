@@ -1,0 +1,456 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02637167",
+      "orgStudyIdInfo": {
+        "id": "GutHeart version 2"
+      },
+      "organization": {
+        "fullName": "Oslo University Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "GutHeart: Targeting Gut Microbiota to Treat Heart Failure",
+      "officialTitle": "GutHeart: Targeting Gut Microbiota to Treat Heart Failure"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2019-03",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-03-11"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2019-06-20",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2019-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2015-11-10",
+      "studyFirstSubmitQcDate": "2015-12-17",
+      "studyFirstPostDateStruct": {
+        "date": "2015-12-22",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2019-03-25",
+      "lastUpdatePostDateStruct": {
+        "date": "2019-03-26",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Lars Gullestad",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "Oslo University Hospital"
+      },
+      "leadSponsor": {
+        "name": "Oslo University Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The objective of this trial is to study the effect of targeting the gut microbiota in patients with heart failure (HF). First, the investigators will characterize gut microbiota composition in patients with various degree of systolic HF as compared with healthy controls. Second, the potential impact of targeting gut microbiota to improve HF will be investigated through an open label randomized controlled trial (RCT) of probiotics, antibiotics and controls. The hypothesis being tested is that the gut microbiota is altered in HF; that gut microbiota of HF patients, through interaction with the intestinal and systemic innate immune system, contribute to a low-grade systemic inflammation as well as metabolic disturbances in these patients; and that an intervention with probiotics and the non-absorbable antibiotic Rifaximin attenuates these inflammatory and metabolic disturbances and improves heart function through modulation of the gut microbiota.",
+      "detailedDescription": "While most studies on inflammation in heart failure (HF) have focused on down-stream mediators of inflammation and tissue damage, the present study will focus on alterations of the gut microbiota as a potential upstream arm in the activation of inflammatory responses. The gut microbiota may play a central role not only in the inflammatory arm of the pathogenesis of HF, but could also be involved in the induction of metabolic disturbances that contribute to the progression of this disorder. Decompensated HF is characterized by decreased cardiac output and congestion, contributing to edema and ischemia of the gut wall. Consequently, structural and functional changes occur, causing increased gut permeability.\n\nSeveral studies have shown that low grade leakage of microbial products such as lipopolysaccharides (LPS), occurs across the gut wall, potentially causing systemic inflammation by activation of Toll like receptors (TLRs). Very small amounts of LPS have been shown to effectively induce release of TNFα 6, which acts as a cardiosuppressor via several pathways, including reduced mitochondrial activity, altered calcium homeostasis and impaired β-adrenergic signaling in cardiomyocytes. Furthermore, the investigators have recently shown that the microbiota-dependent marker TMAO is associated with clinical outcome in chronic HF. Interestingly, gut decontamination with antibiotics have been shown to reduce intestinal LPS-levels, monocyte expression of the LPS-receptor CD14 and production of TNFα. In addition, selective gut decontamination has improved postoperative outcome in cardiac surgery patients. However, at present there are no studies that have fully characterized the gut microbiota in HF patients and our knowledge of the interaction between gut microbiota, systemic inflammatory, metabolic disturbances and myocardial dysfunction in these patients are scarce.\n\nThis project will focus on the gut microbiota as a potential therapeutic target in HF, through an open label randomized controlled trial (RCT) of probiotics, antibiotics and controls, with improved heart function as primary end point."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Systolic Heart Failure"
+      ],
+      "keywords": [
+        "Heart failure",
+        "inflammation",
+        "rifaximin",
+        "Saccharomyces boulardii",
+        "gut microbiota"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 150,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Rifaximin",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Rifaximin: one tablet (550 mg) morning and evening for three months",
+          "interventionNames": [
+            "Drug: Rifaximin"
+          ]
+        },
+        {
+          "label": "Saccharomyces boulardii",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "S. boulardii: two capsules (500 mg) morning and evening for three months",
+          "interventionNames": [
+            "Drug: Saccharomyces boulardii"
+          ]
+        },
+        {
+          "label": "Control group",
+          "type": "NO_INTERVENTION",
+          "description": "The third group receives no intervention"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Rifaximin",
+          "description": "Rifaximin has negligible intestinal absorption after oral administration, giving it a good safety profile. Unlike systemically available antibiotics, this antimicrobial allows localized enteric targeting of bacteria and is associated with a minimal risk of systemic toxicity or side effects.",
+          "armGroupLabels": [
+            "Rifaximin"
+          ],
+          "otherNames": [
+            "Xifaxan"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Saccharomyces boulardii",
+          "description": "The same advantage described above to Rifaximin applies to S. Boulardii, which might be therapeutically sufficient with the advantage of being less disruptive to the instestinal microbiota than broad-spectrum antibiotics.",
+          "armGroupLabels": [
+            "Saccharomyces boulardii"
+          ],
+          "otherNames": [
+            "Precosa"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "baseline-adjusted LVEF as measured by echocardiography",
+          "description": "A General Electrics Healthcare Vivid E9 Doppler ultrasound scanner or a similar, top specified cardiac ultrasound device will be used for echocardiographic imaging. Patients are examined in the lateral recumbent position after \\> 5 minutes of rest at baseline, prior to the start of study drug treatment, and at follow-up after 3 months, prior to study drug discontinuation. The heart is visualized by the standard ultrasonic techniques and imaging planes as recommended by the European society of echocardiography20,21 providing a comprehensive hemodynamic and valvular assessment.",
+          "timeFrame": "after 3 months of intervention"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Chao1 (index)",
+          "description": "It will be analyzed by sequencing of 16s ribosomal RNA gene (Illumina chemistry)",
+          "timeFrame": "at baseline"
+        },
+        {
+          "measure": "Chao1 (index)",
+          "description": "It will be analyzed by sequencing of 16s ribosomal RNA gene (Illumina chemistry)",
+          "timeFrame": "after 3 months"
+        },
+        {
+          "measure": "Chao1 (index)",
+          "description": "It will be analyzed by sequencing of 16s ribosomal RNA gene (Illumina chemistry)",
+          "timeFrame": "after 6 months"
+        },
+        {
+          "measure": "TMAO",
+          "timeFrame": "at baseline"
+        },
+        {
+          "measure": "TMAO",
+          "timeFrame": "after 3 months"
+        },
+        {
+          "measure": "Left ventricular end diastolic volume",
+          "timeFrame": "at baseline"
+        },
+        {
+          "measure": "Left ventricular end diastolic volume",
+          "timeFrame": "after 3 months"
+        },
+        {
+          "measure": "CRP",
+          "timeFrame": "at baseline"
+        },
+        {
+          "measure": "CRP",
+          "timeFrame": "after 3 months"
+        },
+        {
+          "measure": "Health-related quality of life score",
+          "description": "measured by the Minnesota Living with Heart Failure Questionnaire",
+          "timeFrame": "at baseline and after 3 months"
+        },
+        {
+          "measure": "Functional capacity",
+          "description": "6 minutes walk test",
+          "timeFrame": "at baseline and after 3 months"
+        },
+        {
+          "measure": "Number of patients with adverse events (any event)",
+          "timeFrame": "at baseline, after 1 month, after 3 month and after 6 months"
+        },
+        {
+          "measure": "Number of adverse events (any event)",
+          "timeFrame": "at baseline, after 1 month, after 3 month and after 6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Must be at least 18 years of age, and less than 75.\n* Have heart failure in New York Heart Association class II or III\n* Echocardiographically verified LVEF \\< 40 %.\n* On optimal treatment for at least 3 months\n* Must have lab values as the following:\n\nHemoglobin above 10 g/l; eGFR above 30 ml/min; ALT \\< 150 units/l\n\n* Signed informed consent and expected cooperation of the patients for the treatment and follow up must be obtained and documented according to ICH GCP, and national/local regulations.\n\nExclusion Criteria:\n\n* Treatment with antibiotics or probiotics within the last 12 weeks\n* History of hypersensitivity to Rifaximin or other Rifamycin derived antimicrobial agents, or any of the components of Xifaxan\n* History of hypersensitivity to S. boulardii, yeast, or any of the components of Precosa\n* Polypharmacia with increased risk for interactions. i.e. patient with an extensive medication lists (e.g. 10 drugs or more) which may influence with the patient safety or compromise the study results\n* Malignancy of any cause, excluding basal cell carcinoma of the skin\n* Acute coronary syndrome over the last 12 weeks\n* Severely impaired kidney function (i.e., estimated glomerular filtration rate \\< 30 ml/minute/1.73 m2)\n* Impaired liver function (Alanine aminotransferase \\> 150 U/l) or decompensated liver cirrhosis classified as Child-Pugh B or C.\n* On-going infection, including GI infection\n* Inflammatory bowel disease\n* Bowel obstruction\n* Active myocarditis, including Chagas disease\n* Severe primary valvular heart disease\n* Atrial fibrillation with ventricular frequency \\> 100/min\n* Any other, severe co morbid disease that must be expected to severely reduce the efficacy of the interventional products, survival or compliance\n* Treatment with immunosuppressive drugs\n* Treatment with rifamycins other than Rifaximin\n* Central venous catheter\n* Pregnancy or planned pregnancy\n* Nursing\n* Poor compliance\n* Any reason why, in the opinion of the investigator, the patient should not participate",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "74 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Lars L Gullestad, MD, Prof.",
+          "role": "CONTACT",
+          "email": "lars.gullestad@medisin.uio.no"
+        },
+        {
+          "name": "Kaspar Broch, MD",
+          "role": "CONTACT",
+          "email": "sbbrok@ous-hf.no"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Lars L Gullestad, MD, Prof",
+          "affiliation": "Oslo University Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Oslo University Hospital - Rikshospitalet",
+          "status": "RECRUITING",
+          "city": "Oslo",
+          "zip": "0372",
+          "country": "Norway",
+          "contacts": [
+            {
+              "name": "Cristiane C Mayerhofer, MD",
+              "role": "CONTACT",
+              "phone": "+47 97880206",
+              "email": "cristiane.mayerhofer@gmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 59.91273,
+            "lon": 10.74609
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "16547529",
+          "type": "BACKGROUND",
+          "citation": "Aukrust P, Yndestad A, Ueland T, Damas JK, Gullestad L. Anti-inflammatory trials in chronic heart failure. Heart Fail Monit. 2006;5(1):2-9."
+        },
+        {
+          "pmid": "23652100",
+          "type": "BACKGROUND",
+          "citation": "Backhed F. Meat-metabolizing bacteria in atherosclerosis. Nat Med. 2013 May;19(5):533-4. doi: 10.1038/nm.3178. No abstract available."
+        },
+        {
+          "pmid": "24216389",
+          "type": "BACKGROUND",
+          "citation": "Vinje S, Stroes E, Nieuwdorp M, Hazen SL. The gut microbiome as novel cardio-metabolic target: the time has come! Eur Heart J. 2014 Apr;35(14):883-7. doi: 10.1093/eurheartj/eht467. Epub 2013 Nov 11."
+        },
+        {
+          "pmid": "17510602",
+          "type": "BACKGROUND",
+          "citation": "Charalambous BM, Stephens RC, Feavers IM, Montgomery HE. Role of bacterial endotoxin in chronic heart failure: the gut of the matter. Shock. 2007 Jul;28(1):15-23. doi: 10.1097/shk.0b013e318033ebc5."
+        },
+        {
+          "pmid": "12450603",
+          "type": "BACKGROUND",
+          "citation": "Genth-Zotz S, von Haehling S, Bolger AP, Kalra PR, Wensel R, Coats AJ, Anker SD. Pathophysiologic quantities of endotoxin-induced tumor necrosis factor-alpha release in whole blood from patients with chronic heart failure. Am J Cardiol. 2002 Dec 1;90(11):1226-30. doi: 10.1016/s0002-9149(02)02839-4."
+        },
+        {
+          "pmid": "19149510",
+          "type": "BACKGROUND",
+          "citation": "Sandek A, Anker SD, von Haehling S. The gut and intestinal bacteria in chronic heart failure. Curr Drug Metab. 2009 Jan;10(1):22-8. doi: 10.2174/138920009787048374."
+        },
+        {
+          "pmid": "25382824",
+          "type": "BACKGROUND",
+          "citation": "Troseid M, Ueland T, Hov JR, Svardal A, Gregersen I, Dahl CP, Aakhus S, Gude E, Bjorndal B, Halvorsen B, Karlsen TH, Aukrust P, Gullestad L, Berge RK, Yndestad A. Microbiota-dependent metabolite trimethylamine-N-oxide is associated with disease severity and survival of patients with chronic heart failure. J Intern Med. 2015 Jun;277(6):717-26. doi: 10.1111/joim.12328. Epub 2014 Dec 1."
+        },
+        {
+          "pmid": "15182775",
+          "type": "BACKGROUND",
+          "citation": "Conraads VM, Jorens PG, De Clerck LS, Van Saene HK, Ieven MM, Bosmans JM, Schuerwegh A, Bridts CH, Wuyts F, Stevens WJ, Anker SD, Rauchhaus M, Vrints CJ. Selective intestinal decontamination in advanced chronic heart failure: a pilot trial. Eur J Heart Fail. 2004 Jun;6(4):483-91. doi: 10.1016/j.ejheart.2003.12.004."
+        },
+        {
+          "pmid": "1959367",
+          "type": "BACKGROUND",
+          "citation": "Fox MA, Peterson S, Fabri BM, van Saene HK. Selective decontamination of the digestive tract in cardiac surgical patients. Crit Care Med. 1991 Dec;19(12):1486-90. doi: 10.1097/00003246-199112000-00008."
+        },
+        {
+          "pmid": "23614584",
+          "type": "BACKGROUND",
+          "citation": "Tang WH, Wang Z, Levison BS, Koeth RA, Britt EB, Fu X, Wu Y, Hazen SL. Intestinal microbial metabolism of phosphatidylcholine and cardiovascular risk. N Engl J Med. 2013 Apr 25;368(17):1575-84. doi: 10.1056/NEJMoa1109400."
+        },
+        {
+          "pmid": "24625365",
+          "type": "BACKGROUND",
+          "citation": "Gan XT, Ettinger G, Huang CX, Burton JP, Haist JV, Rajapurohitam V, Sidaway JE, Martin G, Gloor GB, Swann JR, Reid G, Karmazyn M. Probiotic administration attenuates myocardial hypertrophy and heart failure after myocardial infarction in the rat. Circ Heart Fail. 2014 May;7(3):491-9. doi: 10.1161/CIRCHEARTFAILURE.113.000978. Epub 2014 Mar 13."
+        },
+        {
+          "pmid": "20458757",
+          "type": "BACKGROUND",
+          "citation": "McFarland LV. Systematic review and meta-analysis of Saccharomyces boulardii in adult patients. World J Gastroenterol. 2010 May 14;16(18):2202-22. doi: 10.3748/wjg.v16.i18.2202."
+        },
+        {
+          "pmid": "25464484",
+          "type": "BACKGROUND",
+          "citation": "Costanza AC, Moscavitch SD, Faria Neto HC, Mesquita ET. Probiotic therapy with Saccharomyces boulardii for heart failure patients: a randomized, double-blind, placebo-controlled pilot trial. Int J Cardiol. 2015 Jan 20;179:348-50. doi: 10.1016/j.ijcard.2014.11.034. Epub 2014 Nov 11. No abstract available."
+        },
+        {
+          "pmid": "12091180",
+          "type": "BACKGROUND",
+          "citation": "ATS Committee on Proficiency Standards for Clinical Pulmonary Function Laboratories. ATS statement: guidelines for the six-minute walk test. Am J Respir Crit Care Med. 2002 Jul 1;166(1):111-7. doi: 10.1164/ajrccm.166.1.at1102. No abstract available."
+        },
+        {
+          "pmid": "1605426",
+          "type": "BACKGROUND",
+          "citation": "Sugrue DD, Rodeheffer RJ, Codd MB, Ballard DJ, Fuster V, Gersh BJ. The clinical course of idiopathic dilated cardiomyopathy. A population-based study. Ann Intern Med. 1992 Jul 15;117(2):117-23. doi: 10.7326/0003-4819-117-2-117."
+        },
+        {
+          "pmid": "38331891",
+          "type": "DERIVED",
+          "citation": "Raju SC, Molinaro A, Awoyemi A, Jorgensen SF, Braadland PR, Nendl A, Seljeflot I, Ueland PM, McCann A, Aukrust P, Vestad B, Mayerhofer C, Broch K, Gullestad L, Lappegard KT, Halvorsen B, Kristiansen K, Hov JR, Troseid M. Microbial-derived imidazole propionate links the heart failure-associated microbiome alterations to disease severity. Genome Med. 2024 Feb 8;16(1):27. doi: 10.1186/s13073-024-01296-6."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES"
+    }
+  },
+  "annotationSection": {
+    "annotationModule": {
+      "unpostedAnnotation": {
+        "unpostedResponsibleParty": "Lars Gullestad, Professor, Oslo University Hospital",
+        "unpostedEvents": [
+          {
+            "type": "RELEASE",
+            "date": "2024-01-18"
+          },
+          {
+            "type": "RESET",
+            "date": "2024-07-12"
+          }
+        ]
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18",
+      "submissionTracking": {
+        "estimatedResultsFirstSubmitDate": "2024-01-18",
+        "submissionInfos": [
+          {
+            "releaseDate": "2024-01-18",
+            "resetDate": "2024-07-12"
+          }
+        ]
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054143",
+          "term": "Heart Failure, Systolic"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D007249",
+          "term": "Inflammation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000078262",
+          "term": "Rifaximin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012294",
+          "term": "Rifamycins"
+        },
+        {
+          "id": "D006576",
+          "term": "Heterocyclic Compounds, 4 or More Rings"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D047029",
+          "term": "Lactams, Macrocyclic"
+        },
+        {
+          "id": "D047028",
+          "term": "Macrocyclic Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

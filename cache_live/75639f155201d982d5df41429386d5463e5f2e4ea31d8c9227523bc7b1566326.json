@@ -1,0 +1,388 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02644980",
+      "orgStudyIdInfo": {
+        "id": "XJZH20140722"
+      },
+      "organization": {
+        "fullName": "Xijing Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Target Controlled Infusion of Etomidate or Propofol for Anesthesia of Thoracoscopic Mitral Valve Replacement Surgery",
+      "officialTitle": "Target Controlled Infusion of Etomidate or Propofol for Anesthesia of Thoracoscopic Mitral Valve Replacement Surgery,A Randomized Controlled Double-Blinded Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2015-12",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-12"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2016-08",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2016-08",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2014-08-18",
+      "studyFirstSubmitQcDate": "2015-12-31",
+      "studyFirstPostDateStruct": {
+        "date": "2016-01-01",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2015-12-31",
+      "lastUpdatePostDateStruct": {
+        "date": "2016-01-01",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Xijing Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "For patients requiring the heart valve replacement surgery, heart function is injured in different degree.Thus, minimizing the impact of the anesthesia drug on the cardiovascular system has important clinical meanings. Etomidate has slight effect on the cardiovascular system, often used in the induction of anesthesia, however target controlled infusion etomidate in maintenance of anesthesia is less used. So, the trial is designed to observe the application value of TCI etomidate in thoracoscopic mitral valve replacement surgery."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Delirium",
+        "Hemodynamic Instability"
+      ],
+      "keywords": [
+        "Target Controlled Infusion"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 110,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Etomidate",
+          "type": "EXPERIMENTAL",
+          "description": "The initiate drug concentration of etomidate is set to 0.2 μg/ml, increasing 0.1 μg/ml every minutes until the BIS(Bispectral index ) reaches 40\\~60.",
+          "interventionNames": [
+            "Drug: Etomidate",
+            "Device: Bispectral Index Monitor",
+            "Drug: Induction of anesthesia",
+            "Drug: Maintenance of anesthesia",
+            "Other: Tracheal Intubation"
+          ]
+        },
+        {
+          "label": "Propofol",
+          "type": "EXPERIMENTAL",
+          "description": "The initiate drug concentration of propofol is set to 1.0 μg/ml, increasing 0.3 μg/ml every minutes until the BIS(Bispectral index ) reaches 40\\~60.",
+          "interventionNames": [
+            "Drug: Propofol",
+            "Device: Bispectral Index Monitor",
+            "Drug: Induction of anesthesia",
+            "Drug: Maintenance of anesthesia",
+            "Other: Tracheal Intubation"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Propofol",
+          "description": "The initiate drug concentration of propofol is set to 1.0 μg/ml, increasing 0.3 μg/ml every minutes until the BIS(Bispectral index ) reaches 40\\~60.",
+          "armGroupLabels": [
+            "Propofol"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Etomidate",
+          "description": "The initiate drug concentration of etomidate is set to 0.2 μg/ml, increasing 0.1 μg/ml every minutes until the BIS(Bispectral index ) reaches 40\\~60.",
+          "armGroupLabels": [
+            "Etomidate"
+          ],
+          "otherNames": [
+            "Fuerli"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Bispectral Index Monitor",
+          "description": "BIS monitored from beginning of anesthesia induction to the end of the surgery.",
+          "armGroupLabels": [
+            "Etomidate",
+            "Propofol"
+          ],
+          "otherNames": [
+            "BIS"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Induction of anesthesia",
+          "description": "Midazolam 0.03 mg/kg injection vein，Sufentanyl 0.5\\~1 μg/kg, target controlled infusion of etomidate or propofol,after the consciousness of patients is lost, rocuronium 0.6mg/kg is given.",
+          "armGroupLabels": [
+            "Etomidate",
+            "Propofol"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Maintenance of anesthesia",
+          "description": "After the intubation, target controlled infusion(TCI) of etomidate or propofol is maintained,rocuronium 0.15mg/kg and sufentanil is given when needed. When the operation is over, the TCI is stopped.",
+          "armGroupLabels": [
+            "Etomidate",
+            "Propofol"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Tracheal Intubation",
+          "description": "After the induction of anesthesia, Tracheal intubation is performed.",
+          "armGroupLabels": [
+            "Etomidate",
+            "Propofol"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Blood pressure",
+          "description": "blood pressure(systolic blood pressure and diastolic blood pressure) is monitored and recorded at 9 time points, including 10 minutes before induction,the right moment after induction of anesthesia and tracheal intubation,the beginning of surgery and the cardiopulmonary bypass(CPB),the time the ascending aorta is blocked and unstuck,the time the CPB and the surgery is over.",
+          "timeFrame": "from the beginning of induction to the surgery over, up to 6 hrs."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Heart rate",
+          "description": "Heart rate is monitored and recorded at 9 time points, including 10 minutes before induction,the right moment after induction of anesthesia and tracheal intubation,the beginning of surgery and the cardiopulmonary bypass(CPB),the time the ascending aorta is blocked and unstuck,the time the CPB and the surgery is over.",
+          "timeFrame": "from the beginning of induction to the surgery over, up to 6 hrs."
+        },
+        {
+          "measure": "Delirium",
+          "description": "Using Confusion Assessment Method for the Intensive Care Unit(CAM-ICU) to screening of delirium.",
+          "timeFrame": "The right moment of patients'leaving off PACU, expected to be 2 h from the end the of operation"
+        },
+        {
+          "measure": "Life quality",
+          "description": "using the Activities of Daily Living (ADL) to assess the life quality one month after the surgery.",
+          "timeFrame": "at the time of one month right after the surgery"
+        },
+        {
+          "measure": "Number of Participants with Serious and Non-Serious Adverse Events",
+          "description": "Number of Participants with Serious and Non-Serious Adverse Events including major adverse cardiovascular and cerebrovascular event such as cardiac infraction,stroke, acute renal failure, re-surgery,and death.\n\nSafety Issue?: Yes",
+          "timeFrame": "Up to 1 month"
+        },
+        {
+          "measure": "Time of recovery from anesthesia",
+          "timeFrame": "from the time TCI is stopped to the time patients' eyes open after the surgery, up to 30 minutes."
+        },
+        {
+          "measure": "Bispectral index (BIS) value",
+          "description": "BIS is monitored and recorded at 9 time points, including 10 minutes before induction,the right moment after induction of anesthesia and tracheal intubation,the beginning of surgery and the cardiopulmonary bypass(CPB),the time the ascending aorta is blocked and unstuck,the time the CPB and the surgery is over.",
+          "timeFrame": "from the beginning of induction to the surgery over, up to 6 hrs."
+        },
+        {
+          "measure": "onset time",
+          "description": "The time period from TCI etomidate or propofol to the disappearance of eyelash reflex.",
+          "timeFrame": "The time from TCI etomidate or propofol to the disappearance of eyelash reflex,up to 10 minutes."
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Respiratory rates(HR)",
+          "description": "Respiratory rate is monitored and recorded at 9 time points, including 10 minutes before induction,the right moment after induction of anesthesia and tracheal intubation,the beginning of surgery and the cardiopulmonary bypass(CPB),the time the ascending aorta is blocked and unstuck,the time the CPB and the surgery is over.",
+          "timeFrame": "from the beginning of induction to the surgery over, up to 6 hrs."
+        },
+        {
+          "measure": "pulse blood oxygen saturation (SPO2)",
+          "description": "pulse blood oxygen saturation is monitored and recorded at 9 time points, including 10 minutes before induction,the right moment after induction of anesthesia and tracheal intubation,the beginning of surgery and the cardiopulmonary bypass(CPB),the time the ascending aorta is blocked and unstuck,the time the CPB and the surgery is over.",
+          "timeFrame": "from the beginning of induction to the surgery over, up to 6 hrs."
+        },
+        {
+          "measure": "Dosage of anesthesia drug",
+          "description": "record the dosage of the anesthesia drug including propofol and etomidate, sufentanyl and rocuronium used during the period of maintenance of anesthesia.",
+          "timeFrame": "from the beginning of induction of anesthesia to the surgery over, up to 6 hrs."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age 18\\~75 years old\n2. Selective cardiopulmonary bypass thoracoscopic mitral vales replacement surgery\n3. Received heart surgery for the first time\n4. New York Heart Association(NYHA) II\\~III\n5. Written informed consent -\n\nExclusion Criteria:\n\n1. Emergency surgery\n2. Anticipated survival time \\<1 yrs\n3. Serious heart, brain, liver,kidney,lung,endocrine diseases or serious infection\n4. Prolonged use of hormone or history of adrenal suppression disease\n5. Severe mediastinal fiber thickening or fibrous adhesions\n6. Allergy to experimental drug or other contraindications\n7. Occurred or expected occurring of difficulty airway\n8. Sure or suspected narcotic analgesics abuse\n9. History of neuro-muscular disease\n10. Mental instability or metal disease\n11. Pregnancy or brest-feeding\n12. Participated other clinical trial past 30 days\n13. Malignant hyperthermia",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003693",
+          "term": "Delirium"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003221",
+          "term": "Confusion"
+        },
+        {
+          "id": "D019954",
+          "term": "Neurobehavioral Manifestations"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D019965",
+          "term": "Neurocognitive Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D015742",
+          "term": "Propofol"
+        },
+        {
+          "id": "D005045",
+          "term": "Etomidate"
+        },
+        {
+          "id": "D056805",
+          "term": "Consciousness Monitors"
+        },
+        {
+          "id": "D007442",
+          "term": "Intubation, Intratracheal"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010636",
+          "term": "Phenols"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D007093",
+          "term": "Imidazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D013523",
+          "term": "Surgical Equipment"
+        },
+        {
+          "id": "D004864",
+          "term": "Equipment and Supplies"
+        },
+        {
+          "id": "D058109",
+          "term": "Airway Management"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D007440",
+          "term": "Intubation"
+        },
+        {
+          "id": "D008919",
+          "term": "Investigative Techniques"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

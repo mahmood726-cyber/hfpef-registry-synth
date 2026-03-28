@@ -1,0 +1,400 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04342351",
+      "orgStudyIdInfo": {
+        "id": "CRP"
+      },
+      "organization": {
+        "fullName": "RenJi Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Early Treatment of ARNI on Myocardial Remodeling and Progress",
+      "officialTitle": "Early Treatment of ARNI on Myocardial Remodeling and Progress in Patients With Post-AMI (EARLYmyo-CRPⅠ)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-03",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-05-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-05-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2021-12-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2020-04-08",
+      "studyFirstSubmitQcDate": "2020-04-08",
+      "studyFirstPostDateStruct": {
+        "date": "2020-04-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2020-04-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-04-14",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "RenJi Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Myocardial remodeling following myocardial infarction (MI) is an important prognostic factor for heart function and adverse cardiovascular events, especially are intimately linked with heart failure. MI often causes deleterious changes in ventricular size, shape, and function. This adverse remodeling and progress is mediated by neurohormonal and hemodynamic alterations. The angiotensin receptor neprilysin inhibitor (ARNI) sacubitril/valsartan was shown to be superior to an ACE inhibitor in patients with heart failure with reduced ejection fraction (HF-REF), reduce the risk of both death (from cardiovascular and all-causes) and heart failure hospitalization, may be a new approach to the treatment of heart failure. However, the impact of early treatment of ARNI on myocardial remodeling and progress, and aerobic exercise capacity in patients with prior MI has yet to be assessed. The aim of this study is to evaluate the efficacy and the safety of early treatment of ARNI on myocardial remodeling and progress, and aerobic exercise capacity in patients following MI.",
+      "detailedDescription": "Myocardial remodeling following myocardial infarction (MI) is an important prognostic factor for heart function and adverse cardiovascular events. The angiotensin receptor neprilysin inhibitor (ARNI) sacubitril/valsartan was shown to reduce the risk of both death (from cardiovascular and all-causes) and heart failure hospitalization. However, whether early treatment of ARNI following post-MI could alter myocardial remodeling or aerobic exercise capacity has yet to be assessed. The patients with MI within one month were enrolled in the treatment of ARNI group or ACEI group. The study proposes to perform serial Cardiopulmonary Exercise Tests (CPET) to prospectively measure changes in aerobic exercise capacity in patients with prior myocardial infarction (MI), echocardiographic measures of LV end-diastolic/ systolic volumes, LV ejection fraction (LVEF), BNP and protein plasma levels, symptomatic heart failure, and life quality."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Myocardial Infarction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 280,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Experimental: sacubitril/valsartan",
+          "type": "EXPERIMENTAL",
+          "description": "sacubitril/valsartan will be applied from 25mg b.i.d to 100mg b.i.d. for 3 months",
+          "interventionNames": [
+            "Drug: sacubitril/valsartan",
+            "Other: Cardiopulmonary Exercise Test",
+            "Other: Echocardiogram"
+          ]
+        },
+        {
+          "label": "Active Comparator: perindopril",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "perindopril will be applied from 2mg q.d, to 8mg q.d for 3 months",
+          "interventionNames": [
+            "Drug: perindopril",
+            "Other: Cardiopulmonary Exercise Test",
+            "Other: Echocardiogram"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "sacubitril/valsartan",
+          "description": "sacubitril/valsartan will be applied from 25mg/b.i.d for 1-2 weeks,50mg b.i.d for 2 weeks, to target dosage 100mg b.i.d for 3 months unless severe safety outcome occurs",
+          "armGroupLabels": [
+            "Experimental: sacubitril/valsartan"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "perindopril",
+          "description": "Drug: perindopril will be applied from 2mg for q.d for 1-2 weeks, 4mg q.d 2 weeks, to target dosage 8mg q.d for 3 months unless severe safety outcome occur",
+          "armGroupLabels": [
+            "Active Comparator: perindopril"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Cardiopulmonary Exercise Test",
+          "description": "All patients will undergo a first CPET prior to initiation of treatment, a second one after 3 months, and a third one after 6 months of treatment.",
+          "armGroupLabels": [
+            "Active Comparator: perindopril",
+            "Experimental: sacubitril/valsartan"
+          ],
+          "otherNames": [
+            "CPET"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Echocardiogram",
+          "description": "An echocardiogram (ultrasound of the heart) will be performed prior to initiation of treatment and then again 3 months, 6 months later.",
+          "armGroupLabels": [
+            "Active Comparator: perindopril",
+            "Experimental: sacubitril/valsartan"
+          ],
+          "otherNames": [
+            "ECHO"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Peak oxygen consumption (VO2)/kg",
+          "description": "Difference in the interval change from baseline in peak VO2/kg at 3 months following sacubitril/valsartan from 25mg/b.i.d, 50mg b.i.d, to target dosage 100mg b.i.d for 3 months, when compared with the interval change in perindopril from 2mg q.d, 4mg q.d, to target dosage 8mg q.d for 3 months.",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Peak Oxygen Pulse (O2-Pulse)",
+          "description": "Difference in the interval change from baseline in peak O2-Pulse at 3 months following sacubitril/valsartan or perindopril.",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "LVEF",
+          "description": "Difference in the interval changes from baseline in left ventricular ejection fraction (LVEF), left ventricular end-systolic volume (LVESV), and left ventricular end-diastolic volume (LVEDV) by echocardiography assessment at 3 months, comparing sacubitril/valsartan with perindopril.",
+          "timeFrame": "3 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Peak VO2/kg change",
+          "description": "Difference in the interval changes from baseline and 6 months in peak VO2 comparing sacubitril/valsartan with perindopril.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Peak Oxygen Pulse change",
+          "description": "Difference in the interval changes from baseline and 6 months in peak O2-Pulse comparing sacubitril/valsartan with perindopril.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Ventilatory efficiency (VE/VCO2 slope) change",
+          "description": "Difference in the interval changes from baseline and 6 months in the VE/VCO2 slope comparing sacubitril/valsartan with perindopril.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "LVEF change",
+          "description": "Difference in the interval changes from baseline in LVEF, LVESV, and left LVEDV at 6 months, comparing sacubitril/valsartan with perindopril.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "N-terminal Pro-brain Natriuretic Peptide (NT-proBNP) change",
+          "description": "Change in concentration of N-terminal pro-brain natriuretic peptide (NT-proBNP) from baseline to 3 months , 6 months.",
+          "timeFrame": "Baseline, 3, 6 months"
+        },
+        {
+          "measure": "The MOS item short form health survey, SF-36",
+          "description": "A 36-item short-form (SF-36) was constructed to survey health status in the Medical Outcomes Study. The SF-36 was designed for use in clinical practice and research, health policy evaluations, and general population surveys. The SF-36 includes one multi-item scale that assesses eight health concepts. The higher scores mean a better outcome.",
+          "timeFrame": "baseline and 6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Acute myocardial infarction (AMI) within 1 months prior to recruitment;\n2. Aged 18 years or over and under 80 years;\n3. Randomized patients will have been hemodynamically stable, SBP ≥100mmHg, no symptomatic hypotension;\n4. NYHA Class Ⅱ-Ⅳ, HFrEF or HFpEF;\n5. Elevated NT-proBNP or BNP at the time of screening;\n6. Peak VO2/kg\\<16 ml/kg/min by CPET\n\nExclusion Criteria:\n\n1. Inability to complete a CPET;\n2. Symptomatic hypotension and/or systolic blood pressure \\<100mmHg;\n3. eGFR \\< 30 mL/min/1.73m2 and/or serum potassium \\>5.2mmol/L;\n4. History of hypersensitivity or allergy to ACE-inhibitors/ARB\n5. History of angioedema;\n6. Pregnancy, planning pregnancy, or breast feeding;\n7. Life-threatening diseases with limited life expectancy \\<1 year",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Qin Shao, M.D,Ph.D",
+          "role": "CONTACT",
+          "phone": "86-21-68385225",
+          "email": "shaoqindr@126.com"
+        },
+        {
+          "name": "Jun Ma, M.D,Ph.D",
+          "role": "CONTACT",
+          "phone": "86-21-68383164",
+          "email": "drjunma@126.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Qin Shao, M.D,Ph.D",
+          "affiliation": "RenJi Hospital",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Jun Ma, M.D,Ph.D",
+          "affiliation": "RenJi Hospital",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "RenJi Hospital, Shanghai JiaoTong University, School of Medicine",
+          "city": "Shanghai",
+          "state": "Shanghai Municipality",
+          "zip": "200127",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Qin Shao, M.D,Ph.D",
+              "role": "CONTACT",
+              "phone": "86-21-68385225",
+              "email": "shaoqindr@126.com"
+            },
+            {
+              "name": "Jun Ma, M.D,Ph.D",
+              "role": "CONTACT",
+              "phone": "86-21-68383164",
+              "email": "drjunma@126.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C549068",
+          "term": "sacubitril and valsartan sodium hydrate drug combination"
+        },
+        {
+          "id": "D020913",
+          "term": "Perindopril"
+        },
+        {
+          "id": "D005080",
+          "term": "Exercise Test"
+        },
+        {
+          "id": "C039811",
+          "term": "Clostridium perfringens epsilon-toxin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007211",
+          "term": "Indoles"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D006334",
+          "term": "Heart Function Tests"
+        },
+        {
+          "id": "D003935",
+          "term": "Diagnostic Techniques, Cardiovascular"
+        },
+        {
+          "id": "D019937",
+          "term": "Diagnostic Techniques and Procedures"
+        },
+        {
+          "id": "D003933",
+          "term": "Diagnosis"
+        },
+        {
+          "id": "D012129",
+          "term": "Respiratory Function Tests"
+        },
+        {
+          "id": "D003948",
+          "term": "Diagnostic Techniques, Respiratory System"
+        },
+        {
+          "id": "D016552",
+          "term": "Ergometry"
+        },
+        {
+          "id": "D008919",
+          "term": "Investigative Techniques"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

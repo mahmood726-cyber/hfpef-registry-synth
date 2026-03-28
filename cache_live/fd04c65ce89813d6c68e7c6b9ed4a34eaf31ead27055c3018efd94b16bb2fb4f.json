@@ -1,0 +1,995 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03901729",
+      "orgStudyIdInfo": {
+        "id": "17909"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2018-004059-18",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Bayer",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Trial to Study BAY1753011 in Patients With Congestive Heart Failure",
+      "officialTitle": "A Multicenter, Randomized, Parallel Group, Double Blind, Active and Placebo Controlled Study of BAY1753011, a Dual V1a/V2 Vasopressin Receptor Antagonist, in Patients With Congestive Heart Failure: AVANTI Study",
+      "acronym": "AVANTI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-05-29",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-04-16",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-05-21",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-04-02",
+      "studyFirstSubmitQcDate": "2019-04-02",
+      "studyFirstPostDateStruct": {
+        "date": "2019-04-03",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-04-11",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-04-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Bayer",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "To assess the efficacy of 30 mg of BAY1753011, with or without furosemide, versus furosemide alone in patients with heart failure and objective evidence of congestion."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure (HF)"
+      ],
+      "keywords": [
+        "Chronic heart failure (CHF)",
+        "Heart failure with reduced ejection fraction (HFrEF)",
+        "Heart failure with preserved ejection fraction (HFpEF)",
+        "Heart failure with mid-range ejection fraction (HFmrEF)"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 482,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Arm 1",
+          "type": "EXPERIMENTAL",
+          "description": "BAY1753011 30mg in addition to standard of care (SoC) for part A and part B",
+          "interventionNames": [
+            "Drug: BAY 1753011"
+          ]
+        },
+        {
+          "label": "Arm 2",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo of BAY1753011 in addition to SoC for part A and part B",
+          "interventionNames": [
+            "Other: Placebo BAY 1753011"
+          ]
+        },
+        {
+          "label": "Arm 1-A",
+          "type": "EXPERIMENTAL",
+          "description": "BAY1753011 30mg in addition to Placebo Furosemide 80mg for part B",
+          "interventionNames": [
+            "Drug: BAY 1753011",
+            "Other: Placebo Furosemide"
+          ]
+        },
+        {
+          "label": "Arm 1-B",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Furosemide 80mg in addition to Placebo BAY1753011 30mg for part B",
+          "interventionNames": [
+            "Other: Placebo BAY 1753011",
+            "Drug: Furosemide"
+          ]
+        },
+        {
+          "label": "Arm 2-A",
+          "type": "EXPERIMENTAL",
+          "description": "BAY1753011 30mg in addition to Placebo Furosemide 80mg for part B",
+          "interventionNames": [
+            "Drug: BAY 1753011",
+            "Other: Placebo Furosemide"
+          ]
+        },
+        {
+          "label": "Arm 2-B",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Furosemide 80mg in addition to Placebo BAY1753011 30mg for part B",
+          "interventionNames": [
+            "Other: Placebo BAY 1753011",
+            "Drug: Furosemide"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "BAY 1753011",
+          "description": "Tablet; 30mg or 5mg unit; 30mg once daily in the morning; Oral",
+          "armGroupLabels": [
+            "Arm 1",
+            "Arm 1-A",
+            "Arm 2-A"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Placebo BAY 1753011",
+          "description": "Tablet; Once daily in the morning; Oral",
+          "armGroupLabels": [
+            "Arm 1-B",
+            "Arm 2",
+            "Arm 2-B"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Furosemide",
+          "description": "Tablet; 40mg unit; 80mg once daily in the morning; Oral",
+          "armGroupLabels": [
+            "Arm 1-B",
+            "Arm 2-B"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Placebo Furosemide",
+          "description": "Tablet; Once daily in the morning; Oral",
+          "armGroupLabels": [
+            "Arm 1-A",
+            "Arm 2-A"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "PART A: Change in body weight",
+          "timeFrame": "Compare Day 30 (End of part A) with Day 1 (Start of part A)"
+        },
+        {
+          "measure": "PART A: Change in serum creatinine",
+          "timeFrame": "Compare Day 30 (End of part A) with Day 1 (Start of part A)"
+        },
+        {
+          "measure": "PART B: Change in body weight",
+          "timeFrame": "Compare Day 60 (End of part B) with Day 30 (Start of part B)"
+        },
+        {
+          "measure": "PART B: Change in log transformed blood urea nitrogen (BUN)/creatinine ratio",
+          "timeFrame": "Compare Day 60 (End of part B) with Day 30 (Start of part B)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Incidence of Treatment-emergent adverse event (including Serious adverse event)",
+          "timeFrame": "From the time of first study drug administration up to 7 days after the last dose of study drug (Day 60)"
+        },
+        {
+          "measure": "Change in augmentation index",
+          "timeFrame": "Up to 60 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* History of CHF on individually optimized treatment with HF medications unless contraindicated or not tolerated, for at least 12 weeks prior to index hospitalization and in accordance with international guidelines.\n* Subjects admitted to the hospital with a primary diagnosis of decompensated HF including symptoms and signs of fluid overload requiring IV diuretic therapy in the Emergency room (ER) or any time between day 1-3 of hospital admission (index hospitalization).\n* Subjects on an average/usual total daily dose of loop diuretic ≥ 40 mg of furosemide or equivalent, within 4 weeks prior to index hospitalization.\n* At least one of the following 5 parameters any day between 3-7 of index hospitalization (screening period)\n\n  * Natriuretic peptides Brain natriuretic peptide/N-terminal prohormone of brain natriuretic peptide (BNP/NT-proBNP):\n\n    * Drop in BNP or NT-proBNP ≤ 30% from admission values (if measured during index hospitalization) or\n    * BNP ≥ 500 pg/ml or NT-proBNP ≥ 1800 pg/ml at screening (day 3 to 7 of index hospitalization)\n  * Body weight (BW) loss \\<0.4 kg per 40 mg furosemide at day 4 of index hospitalization\n  * Composite congestion score (CCS) ≥ 3\n  * Hypervolemic hyponatremia defined as serum sodium \\< 136 mmol/l\n  * In hospital worsening renal function defined as increased serum creatinine ≥ 0.3 mg/dl compared to index hospitalization admission values AND at least one the following\n\n    * Jugular venous pressure (JVP) ≥ 10 cm on physical examination\n    * Inferior vena cava (IVC) diameter \\> 21 mm\n    * IVC collapse with sniff \\< 50%\n    * At least 2+ peripheral edema or pulmonary edema or pleural effusion on chest X-ray or clinical exam\n\nExclusion Criteria\n\n* Active or history of acute inflammatory heart disease, within 3 months prior to screening, e.g., acute myocarditis\n* Acute coronary syndrome, including unstable angina, Non-ST segment elevation myocardial infarction (NSTEMI) or ST segment elevation myocardial infarction (STEMI), or major Cardiovascular (CV) surgery including coronary artery bypass graft (CABG), percutaneous coronary intervention (PCI) within 3 months prior to screening\n* Any primary cause of HF scheduled for surgery or interventional therapy (e.g., TAVI), e.g., valve disease such as severe aortic stenosis or mitral valve regurgitation\n* Requirement of mechanical support (intra-aortic balloon pump, endotracheal intubation, mechanical ventilation, or any ventricular assist device) or ultrafiltration/hemodialysis\n* Estimated glomerular filtration rate of \\< 30 ml/min/1.73 m\\*2 determined by the Modified Diet and Renal Disease equation at screening; reassessments allowed as clinically needed\n* Serum potassium ≥ 5.5 mmol/L or ≤ 3.3 mmol/L at screening; reassessments allowed as clinically needed\n* Serum sodium ≥ 146 mmol/L or ≤ 130 mmol/L at screening; reassessments allowed as clinically needed\n* Concomitant treatment with potassium-sparing diuretic (with the exception of mineralocorticoid- receptor antagonist (MRA) that cannot be stopped prior to randomization and for the duration of the treatment period.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Universitätsklinikum St. Pölten",
+          "city": "Sankt Pölten",
+          "state": "Lower Austria",
+          "zip": "3100",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.20762,
+            "lon": 15.63725
+          }
+        },
+        {
+          "facility": "Medizinische Universität Graz",
+          "city": "Graz",
+          "state": "Styria",
+          "zip": "8036",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 47.06733,
+            "lon": 15.44197
+          }
+        },
+        {
+          "facility": "Krankenhaus St. Josef Braunau",
+          "city": "Braunau am Inn",
+          "state": "Upper Austria",
+          "zip": "5280",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.25628,
+            "lon": 13.04343
+          }
+        },
+        {
+          "facility": "Universitätsklinikum AKH Wien",
+          "city": "Vienna",
+          "zip": "1090",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.20849,
+            "lon": 16.37208
+          }
+        },
+        {
+          "facility": "Klinik Floridsdorf - Krankenhaus Nord",
+          "city": "Vienna",
+          "zip": "1210",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.20849,
+            "lon": 16.37208
+          }
+        },
+        {
+          "facility": "MHAT Haskovo",
+          "city": "Haskovo",
+          "zip": "6300",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 41.93415,
+            "lon": 25.55557
+          }
+        },
+        {
+          "facility": "Spec Hosp for Active Treatm in Cardiology Sv Georgi Pernik",
+          "city": "Pernik",
+          "zip": "2300",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.59671,
+            "lon": 23.03318
+          }
+        },
+        {
+          "facility": "UMHAT Dr. Georgi Stranski",
+          "city": "Pleven",
+          "zip": "5800",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 43.41791,
+            "lon": 24.61666
+          }
+        },
+        {
+          "facility": "Multiprofile Hospital for Active Treatment Medline Clinic",
+          "city": "Plovdiv",
+          "zip": "4000",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.15387,
+            "lon": 24.75001
+          }
+        },
+        {
+          "facility": "MHAT \"Knyaginya Klementina - Sofia\"EAD",
+          "city": "Sofia",
+          "zip": "1233",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.69751,
+            "lon": 23.32415
+          }
+        },
+        {
+          "facility": "NMTH Tzar Boris III",
+          "city": "Sofia",
+          "zip": "1233",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.69751,
+            "lon": 23.32415
+          }
+        },
+        {
+          "facility": "UMHAT Tsaritsa Joanna-ISUL EAD Sofia",
+          "city": "Sofia",
+          "zip": "1527",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.69751,
+            "lon": 23.32415
+          }
+        },
+        {
+          "facility": "KAT General Hospital of Athens",
+          "city": "Kifisia / Athens",
+          "state": "Attica",
+          "zip": "14561",
+          "country": "Greece"
+        },
+        {
+          "facility": "G. GENNIMATAS General State Hospital of Athens",
+          "city": "Athens",
+          "zip": "11527",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 37.98376,
+            "lon": 23.72784
+          }
+        },
+        {
+          "facility": "University General Hospital of Athens \"ATTIKON\"",
+          "city": "Chaidari - Athens",
+          "zip": "12462",
+          "country": "Greece"
+        },
+        {
+          "facility": "University General Hospital of Ioannina",
+          "city": "Ioannina",
+          "zip": "45500",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 39.66341,
+            "lon": 20.85187
+          }
+        },
+        {
+          "facility": "Univ. General Hospital of Larissa",
+          "city": "Larissa",
+          "zip": "41100",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 39.62847,
+            "lon": 22.42112
+          }
+        },
+        {
+          "facility": "Konstantopoulio General Hospital of Nea Ionia - AGIA OLGA",
+          "city": "Nea Ionia / Athens",
+          "zip": "142 33",
+          "country": "Greece"
+        },
+        {
+          "facility": "\"AHEPA\" University General Hospital of Thessaloniki",
+          "city": "Thessaloniki",
+          "zip": "54636",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 40.64072,
+            "lon": 22.93493
+          }
+        },
+        {
+          "facility": "Hippokration General Hospital of Thessaloniki",
+          "city": "Thessaloniki",
+          "zip": "54642",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 40.64072,
+            "lon": 22.93493
+          }
+        },
+        {
+          "facility": "Budai Irgalmasrendi Korhaz",
+          "city": "Budapest",
+          "zip": "1023",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "University of Semmelweis/ Semmelweis Egyetem",
+          "city": "Budapest",
+          "zip": "1122",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Magyar Honvedseg Egeszsegugyi Kozpont Honvedkorhaz",
+          "city": "Budapest",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Kanizsai Dorottya Hospital",
+          "city": "Nagykanizsa",
+          "zip": "8800",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.45347,
+            "lon": 16.99104
+          }
+        },
+        {
+          "facility": "Josa Andras Hospital",
+          "city": "Nyíregyháza",
+          "zip": "H-4400",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.95539,
+            "lon": 21.71671
+          }
+        },
+        {
+          "facility": "Tolna Megyei Balassa Janos Korhaz",
+          "city": "Szekszárd",
+          "zip": "7100",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.34723,
+            "lon": 18.71189
+          }
+        },
+        {
+          "facility": "Fejer Megyei Szent Gyorgy Egyetemi Oktato Korhaz",
+          "city": "Székesfehérvár",
+          "zip": "8000",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.18995,
+            "lon": 18.41034
+          }
+        },
+        {
+          "facility": "Jasz-Nagykun-Szolnok Megyei Hetenyi Geza Korhaz",
+          "city": "Szolnok",
+          "zip": "5000",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.18066,
+            "lon": 20.19835
+          }
+        },
+        {
+          "facility": "Zala Megyei Szent Rafael Korhaz",
+          "city": "Zalaegerszeg",
+          "zip": "8900",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.83695,
+            "lon": 16.84401
+          }
+        },
+        {
+          "facility": "Barzilai Medical Center",
+          "city": "Ashkelon",
+          "zip": "7830604",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 31.66926,
+            "lon": 34.57149
+          }
+        },
+        {
+          "facility": "Rambam Health Corporation",
+          "city": "Haifa",
+          "zip": "3109601",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.81303,
+            "lon": 34.99928
+          }
+        },
+        {
+          "facility": "Hadassah Hebrew University Hospital Ein Kerem",
+          "city": "Jerusalem",
+          "zip": "9112001",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 31.76904,
+            "lon": 35.21633
+          }
+        },
+        {
+          "facility": "Health Corporation of Galilee Medical Center",
+          "city": "Nahariya",
+          "zip": "22100",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 33.00892,
+            "lon": 35.09814
+          }
+        },
+        {
+          "facility": "Chaim Sheba Medical Center",
+          "city": "Ramat Gan",
+          "zip": "5262000",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.08227,
+            "lon": 34.81065
+          }
+        },
+        {
+          "facility": "Tel-Aviv Sourasky Medical Center",
+          "city": "Tel Aviv",
+          "zip": "6423906",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.08088,
+            "lon": 34.78057
+          }
+        },
+        {
+          "facility": "Shamir Medical Center (Assaf Harofeh)",
+          "city": "Zrifin",
+          "zip": "7030000",
+          "country": "Israel"
+        },
+        {
+          "facility": "A.O.U. di Ferrara",
+          "city": "Ferrara",
+          "state": "Emilia-Romagna",
+          "zip": "44124",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.83804,
+            "lon": 11.62057
+          }
+        },
+        {
+          "facility": "AUSL della Romagna",
+          "city": "Rimini",
+          "state": "Emilia-Romagna",
+          "zip": "47923",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.05755,
+            "lon": 12.56528
+          }
+        },
+        {
+          "facility": "ASST Papa Giovanni XXIII",
+          "city": "Bergamo",
+          "state": "Lombardy",
+          "zip": "24127",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.69601,
+            "lon": 9.66721
+          }
+        },
+        {
+          "facility": "ASST Spedali Civili di Brescia",
+          "city": "Brescia",
+          "state": "Lombardy",
+          "zip": "25123",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.53558,
+            "lon": 10.21472
+          }
+        },
+        {
+          "facility": "IRCCS Centro Cardiologico Monzino S.p.A",
+          "city": "Milan",
+          "state": "Lombardy",
+          "zip": "20138",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.46427,
+            "lon": 9.18951
+          }
+        },
+        {
+          "facility": "Fondazione Policlinico di Monza",
+          "city": "Monza Brianza",
+          "state": "Lombardy",
+          "zip": "20900",
+          "country": "Italy"
+        },
+        {
+          "facility": "AUSL Toscana Sud-Est",
+          "city": "Arezzo",
+          "state": "Tuscany",
+          "zip": "52044",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.46276,
+            "lon": 11.88068
+          }
+        },
+        {
+          "facility": "Fondazione Toscana Gabriele Monasterio (FTGM)",
+          "city": "Pisa",
+          "state": "Tuscany",
+          "zip": "56124",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.70853,
+            "lon": 10.4036
+          }
+        },
+        {
+          "facility": "A.O.U. Senese",
+          "city": "Siena",
+          "state": "Tuscany",
+          "zip": "53100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.31822,
+            "lon": 11.33064
+          }
+        },
+        {
+          "facility": "Uniwersytecki Szpital Kliniczny w Bialymstoku",
+          "city": "Bialystok",
+          "zip": "15-276",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.13333,
+            "lon": 23.16433
+          }
+        },
+        {
+          "facility": "10 Wojskowy Szpital Kliniczny z Poliklinika SPZOZ",
+          "city": "Bydgoszcz",
+          "zip": "85-681",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.1235,
+            "lon": 18.00762
+          }
+        },
+        {
+          "facility": "Szpital sw. Wincentego a Paulo",
+          "city": "Gdynia",
+          "zip": "81-348",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 54.51889,
+            "lon": 18.53188
+          }
+        },
+        {
+          "facility": "Samodzielny Publiczny Specjalistyczny Szpital Zachodni",
+          "city": "Grodzisk Mazowiecki",
+          "zip": "05-825",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.10387,
+            "lon": 20.6337
+          }
+        },
+        {
+          "facility": "Szpital Kliniczny Przemienienia Panskiego",
+          "city": "Poznan",
+          "zip": "61-848",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.40692,
+            "lon": 16.92993
+          }
+        },
+        {
+          "facility": "Szpital Wojewodzki Nr 2",
+          "city": "Rzeszów",
+          "zip": "35-301",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.04132,
+            "lon": 21.99901
+          }
+        },
+        {
+          "facility": "Uniwersyteckie Centrum Kliniczne Warszawskiego UM",
+          "city": "Warsaw",
+          "zip": "02-097",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.22977,
+            "lon": 21.01178
+          }
+        },
+        {
+          "facility": "Uniwersytecki Szpital Kliniczny UM we Wroclawiu",
+          "city": "Wroclaw",
+          "zip": "50-556",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.10286,
+            "lon": 17.03006
+          }
+        },
+        {
+          "facility": "Hospital de Cascais",
+          "city": "Alcabideche",
+          "state": "Lisbon District",
+          "zip": "2755-009",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 38.73366,
+            "lon": -9.40928
+          }
+        },
+        {
+          "facility": "CHS - Hospital Sao Bernardo",
+          "city": "Setúbal",
+          "state": "Setúbal District",
+          "zip": "2900-446",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 38.5244,
+            "lon": -8.8882
+          }
+        },
+        {
+          "facility": "CHL - Hospital Santo Andre",
+          "city": "Leiria",
+          "zip": "2410-197",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 39.74362,
+            "lon": -8.80705
+          }
+        },
+        {
+          "facility": "CHLO - Hospital Sao Francisco Xavier",
+          "city": "Lisbon",
+          "zip": "1449-005",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 38.72509,
+            "lon": -9.1498
+          }
+        },
+        {
+          "facility": "Hospital da Luz - Lisboa",
+          "city": "Lisbon",
+          "zip": "1500-650",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 38.72509,
+            "lon": -9.1498
+          }
+        },
+        {
+          "facility": "CHUP - Hospital Santo Antonio",
+          "city": "Porto",
+          "zip": "4099-001",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 41.1485,
+            "lon": -8.61097
+          }
+        },
+        {
+          "facility": "Hospital Álvaro Cunqueiro",
+          "city": "Babio - Beade",
+          "state": "Pontevedra",
+          "zip": "36312",
+          "country": "Spain"
+        },
+        {
+          "facility": "Hospital del Mar",
+          "city": "Barcelona",
+          "zip": "08003",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Ramón y Cajal",
+          "city": "Madrid",
+          "zip": "28034",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Virgen de la Victoria",
+          "city": "Málaga",
+          "zip": "29010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 36.72016,
+            "lon": -4.42034
+          }
+        },
+        {
+          "facility": "Hospital Clínico Universitario de Valencia",
+          "city": "Valencia",
+          "zip": "46010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Hospital General Universitario de Valencia",
+          "city": "Valencia",
+          "zip": "46014",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Hospital Universitari i Politècnic La Fe",
+          "city": "Valencia",
+          "zip": "46026",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "40788619",
+          "type": "DERIVED",
+          "citation": "Udelson JE, Goldsmith SR, Burkhoff D, Colorado P, Dinh W, Gustafsson F, Kolkhof P, Staedtler G, Bachmakov I, Voors AA, Duarte K, Monzo L, Girerd N, Zannad F. A multicentre, randomized, double-blind, active and placebo-controlled study of pecavaptan, a dual V1a/V2 vasopressin receptor antagonist, in patients with acute heart failure: The AVANTI trial. Eur J Heart Fail. 2025 Nov;27(11):2525-2536. doi: 10.1002/ejhf.3801. Epub 2025 Aug 11."
+        },
+        {
+          "pmid": "37102974",
+          "type": "DERIVED",
+          "citation": "Kazory A. Combination Diuretic Therapy to Counter Renal Sodium Avidity in Acute Heart Failure: Trials and Tribulations. Clin J Am Soc Nephrol. 2023 Oct 1;18(10):1372-1381. doi: 10.2215/CJN.0000000000000188. Epub 2023 Apr 27."
+        },
+        {
+          "pmid": "33188886",
+          "type": "DERIVED",
+          "citation": "Goldsmith SR, Burkhoff D, Gustafsson F, Voors A, Zannad F, Kolkhof P, Staedtler G, Colorado P, Dinh W, Udelson JE. Dual Vasopressin Receptor Antagonism to Improve Congestion in Patients With Acute Heart Failure: Design of the AVANTI Trial. J Card Fail. 2021 Feb;27(2):233-241. doi: 10.1016/j.cardfail.2020.10.007. Epub 2020 Oct 24."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Click here to find information about studies related to Bayer Healthcare products conducted in Europe.",
+          "url": "http://www.clinicaltrialsregister.eu/"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "Availability of this study's data will later be determined according to Bayer's commitment to the EFPIA/PhRMA \"Principles for responsible clinical trial data sharing\". This pertains to scope, timepoint and process of data access.\n\nAs such, Bayer commits to sharing upon request from qualified researchers patient-level clinical trial data, study-level clinical trial data, and protocols from clinical trials in patients for medicines and indications approved in the US and EU as necessary for conducting legitimate research. This applies to data on new medicines and indications that have been approved by the EU and US regulatory agencies on or after January 01, 2014.\n\nInterested researchers can use www.clinicalstudydatarequest.com to request access to anonymized patient-level data and supporting documents from clinical studies to conduct research. Information on the Bayer criteria for listing studies and other relevant information is provided in the Study sponsors section of the portal."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18",
+      "removedCountries": [
+        "Germany"
+      ]
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D005665",
+          "term": "Furosemide"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013424",
+          "term": "Sulfanilamides"
+        },
+        {
+          "id": "D013449",
+          "term": "Sulfonamides"
+        },
+        {
+          "id": "D000577",
+          "term": "Amides"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D000814",
+          "term": "Aniline Compounds"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        },
+        {
+          "id": "D013450",
+          "term": "Sulfones"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

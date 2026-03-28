@@ -1,0 +1,292 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07090343",
+      "orgStudyIdInfo": {
+        "id": "REVERSE-TAVR"
+      },
+      "organization": {
+        "fullName": "Leiden University Medical Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "Semaglutide in Patients Undergoing Transcatether Aortic Valve Replacement",
+      "officialTitle": "Semaglutide for Reducing Cardiovascular Events in Patients Undergoing Transcatether Aortic Valve Replacement",
+      "acronym": "REVERSE-TAVR"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-07",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-04-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2030-09-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2031-04-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-07-11",
+      "studyFirstSubmitQcDate": "2025-07-24",
+      "studyFirstPostDateStruct": {
+        "date": "2025-07-29",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-07-24",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-07-29",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Nina Ajmone Marsan",
+        "investigatorTitle": "MD, PhD",
+        "investigatorAffiliation": "Leiden University Medical Center"
+      },
+      "leadSponsor": {
+        "name": "Leiden University Medical Center",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a Phase III, randomized, double-blind, placebo-controlled, multicenter clinical trial evaluating the safety and efficacy of once-weekly semaglutide 2.4 mg in adult patients undergoing transcatheter aortic valve replacement (TAVR) for severe aortic stenosis (AS) who meet current clinical criteria for semaglutide treatment. A total of 826 participants will be randomized 1:1 to receive semaglutide or placebo as an add-on to standard-of-care, starting 3 months before TAVR and continuing for 24 months post-procedure. The primary endpoint is time to first occurrence of a composite of cardiovascular (CV) death, non-fatal myocardial infarction, non-fatal stroke or transient ischemic accident (TIA), and hospitalization for heart failure (HF). The study is event-driven and powered to detect a 20% relative risk reduction in primary outcome events. This trial aims to address the unmet need for medical therapies that improve outcomes in patients with severe AS following TAVR, with potential for direct clinical implementation."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Aortic Stenosis",
+        "Heart Failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "This is a Phase III, randomized, placebo-controlled, double-blinded, multi-center clinical trial conducted at five centers in the Netherlands, comparing semaglutide 2.4 mg with placebo both administered subcutaneous (sc) once-weekly in subjects with severe AS undergoing TAVR with obesity or overweight and CV risk factors. Eligible subjects will be randomized in a 1:1 manner to receive either semaglutide sc. 2.4 mg or placebo once-weekly as an add-on to standard-of-care.\n\nInterventions:\n\n* Treatment Arm: Semaglutide 2.4 mg subcutaneous once-weekly starting 3 months prior TAVR and continued 24 months post-TAVR. During the first 16 weeks, the dose of semaglutide or placebo will be gradually escalated from 0.25 mg once weekly until target dose as an add-on to standard-of-care. The treatment will continue until the 'end of treatment' visit followed by a 8 weeks follow-up period.\n* Control Arm: Matching placebo subcutaneous once-weekly.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "This is a double-blind study. Participants, care providers, investigators, and outcome assessors will be blinded to treatment allocation. Semaglutide and placebo will be identical in appearance and administered in the same manner.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 826,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Treatment Arm",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Drug: Wegovy ®"
+          ]
+        },
+        {
+          "label": "Control Arm",
+          "type": "PLACEBO_COMPARATOR",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Wegovy ®",
+          "description": "Semaglutide 2.4 mg subcutaneous once-weekly starting 3 months prior TAVR and continued 24 months post-TAVR. During the first 16 weeks, the dose of semaglutide or placebo will be gradually escalated from 0.25 mg once weekly until target dose as an add-on to standard-of-care. The treatment will continue until the 'end of treatment' visit followed by a 8 weeks follow-up period.",
+          "armGroupLabels": [
+            "Treatment Arm"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Matching placebo subcutaneous once-weekly.",
+          "armGroupLabels": [
+            "Control Arm"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "CV death, non-fatal myocardial infarction, non-fatal stroke, and hospitalization for HF",
+          "description": "From randomization to first occurrence of a composite endpoint consisting of: CV death, non-fatal myocardial infarction, non-fatal stroke, and hospitalization for HF.",
+          "timeFrame": "From randomization through 12 and 27 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Incidence rate of each component of the primary outcome.",
+          "timeFrame": "From randomization at 12 months and 27 months"
+        },
+        {
+          "measure": "Change in high sensitivity C-Reactive Protein (hsCRP) (mg/L)",
+          "timeFrame": "From randomization at 12 and 27 months"
+        },
+        {
+          "measure": "A 5-component composite nephropathy endpoint consisting of: onset of persistent macroalbuminuria, persistent 50% reduction in eGFR compared with baseline (randomization), onset of persistent eGFR < 15 ml/min/1.73m2, initiation of chronic renal replacemen",
+          "timeFrame": "From randomization at 12 and 27 months"
+        },
+        {
+          "measure": "Change in Lipid Profile (mg/dL)",
+          "timeFrame": "From randomization at 12 and 27 months"
+        },
+        {
+          "measure": "Change in waist circumference",
+          "timeFrame": "From randomization at 12 and 27 months"
+        },
+        {
+          "measure": "Change in HbA1c (%, mmol /mol)",
+          "timeFrame": "From randomization at 12 and 27 months"
+        },
+        {
+          "measure": "Change in systolic blood pressure",
+          "timeFrame": "From randomization at 12 and 27 months"
+        },
+        {
+          "measure": "Changes in LV remodeling (echocardiographic assessment of LV size, mass, systolic and diastolic function)",
+          "timeFrame": "From randomization at 12 and 27 months"
+        },
+        {
+          "measure": "Change in loop diuretic medication",
+          "timeFrame": "From randomization at 12 and 27 months"
+        },
+        {
+          "measure": "Change in H2FPEF score",
+          "description": "Change in H2FPEF score scale",
+          "timeFrame": "From randomization at 12 and 27 months"
+        },
+        {
+          "measure": "Change in NT-proBNP",
+          "timeFrame": "From randomization at 12 and 27 months"
+        },
+        {
+          "measure": "Change in KCCQ score",
+          "description": "Change in the KCCQ score scale",
+          "timeFrame": "From randomization at 12 and 27 months."
+        },
+        {
+          "measure": "Subject experiencing deterioration in NYHA functional class",
+          "description": "Subject experiencing deterioration in NYHA functional class",
+          "timeFrame": "From randomization at 12 and 27 months"
+        },
+        {
+          "measure": "Change in body weight (%)",
+          "description": "Change in body weight from randomization.",
+          "timeFrame": "From randomization at 12 and 27 months."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria: Subjects are eligible to be included in the trial only if all of the following criteria apply:\n\n* Informed consent obtained before any trial-related activities. Trial-related activities are any procedures that are carried out as part of the trial, including activities to determine suitability for the trial.\n* Adults (≥18 years) undergoing TAVR for severe AS, and\n* BMI ≥30 kg/m2, or\n* BMI 27-30 kg/m2, AND at least one of the following:\n* Dysglycemia (prediabetes or type 2 diabetes) ≥90 days prior to the day of screening with HbA1c of ≤ 10.0% as measured at the screening visit.\n* Arterial Hypertension\n* Hypercholesterolemia\n* Obstructive sleep apnea\n* History of stroke (ischemic or hemorrhagic)\n* History of myocardial infarction\n* Symptomatic peripheral artery disease (intermittent claudication with ankle-brachial index \\<0.85, peripheral arterial revascularization procedure, or amputation due to atherosclerotic disease)\n\nExclusion Criteria:\n\n* Treatment with an GLP-1 receptor agonist within the previous 90 days.\n* Myocardial infarction, stroke, hospitalization for unstable angina or transient ischemic attack within the previous 60 days.\n* Planned coronary, carotid or peripheral artery revascularization known on the day of screening.\n* eGFR \\<25 mL/min/1.73 m² or intermittent hemodialysis or peritoneal dialysis.\n* Presence of acute pancreatitis within the last 180 days prior to screening.\n* History or presence of chronic pancreatitis.\n* Self-reported change in body weight of \\>5 kg within 90 days before screening.\n* Bariatric surgery prior to screening or planned bariatric surgery within the trial time course.\n* Presence or history of malignant neoplasm within 5 years prior to the day of screening. Basal and squamous cell cancer and any carcinoma in-situ are allowed.\n* Known or suspected hypersensitivity to trial product(s) or related products.\n* Participation in any clinical trial of an approved or non-approved device for the treatment of aortic stenosis or obesity within 30 days before screening.\n* Receipt of any investigational medicinal product within 30 days before screening.\n* Female who is pregnant, breast-feeding or intends to become pregnant or is of child-bearing potential and not using a highly effective contraceptive method.\n* Major surgery scheduled for the duration of the trial, affecting walking ability in the opinion of the investigator.\n* Any disorder, including severe psychiatric disorder, suicidal behavior within 90 days before screening, and suspected drug abuse, which in the investigator´s opinion might jeopardize subject´s safety or compliance with the protocol.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Nina Ajmone Marsan, MD, PhD",
+          "role": "CONTACT",
+          "phone": "+3131071262020",
+          "email": "n.ajmone@lumc.nl"
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "27633186",
+          "type": "BACKGROUND",
+          "citation": "Marso SP, Bain SC, Consoli A, Eliaschewitz FG, Jodar E, Leiter LA, Lingvay I, Rosenstock J, Seufert J, Warren ML, Woo V, Hansen O, Holst AG, Pettersson J, Vilsboll T; SUSTAIN-6 Investigators. Semaglutide and Cardiovascular Outcomes in Patients with Type 2 Diabetes. N Engl J Med. 2016 Nov 10;375(19):1834-1844. doi: 10.1056/NEJMoa1607141. Epub 2016 Sep 15."
+        },
+        {
+          "pmid": "39222642",
+          "type": "BACKGROUND",
+          "citation": "Kosiborod MN, Deanfield J, Pratley R, Borlaug BA, Butler J, Davies MJ, Emerson SS, Kahn SE, Kitzman DW, Lingvay I, Mahaffey KW, Petrie MC, Plutzky J, Rasmussen S, Ronnback C, Shah SJ, Verma S, Weeke PE, Lincoff AM; SELECT, FLOW, STEP-HFpEF, and STEP-HFpEF DM Trial Committees and Investigators. Semaglutide versus placebo in patients with heart failure and mildly reduced or preserved ejection fraction: a pooled analysis of the SELECT, FLOW, STEP-HFpEF, and STEP-HFpEF DM randomised trials. Lancet. 2024 Sep 7;404(10456):949-961. doi: 10.1016/S0140-6736(24)01643-X. Epub 2024 Aug 30."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001024",
+          "term": "Aortic Valve Stenosis"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000082862",
+          "term": "Aortic Valve Disease"
+        },
+        {
+          "id": "D006349",
+          "term": "Heart Valve Diseases"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014694",
+          "term": "Ventricular Outflow Obstruction"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000591245",
+          "term": "semaglutide"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

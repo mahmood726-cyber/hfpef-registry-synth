@@ -1,0 +1,448 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06005259",
+      "orgStudyIdInfo": {
+        "id": "SPIROTOX"
+      },
+      "organization": {
+        "fullName": "University of Sao Paulo",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effect of Spironolactone in the Prevention of Anthracycline-induced Cardiotoxicity (SPIROTOX)",
+      "officialTitle": "Effect of Spironolactone in the Prevention of Anthracycline-induced Cardiotoxicity: a Randomized Clinical Trial (SPIROTOX Trial)",
+      "acronym": "SPIROTOX"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-08",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-10-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-10-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-12-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-08-07",
+      "studyFirstSubmitQcDate": "2023-08-16",
+      "studyFirstPostDateStruct": {
+        "date": "2023-08-22",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-08-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-08-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Ludhmila Abrahão Hajjar MD, PhD",
+        "investigatorTitle": "Full Professor",
+        "investigatorAffiliation": "University of Sao Paulo"
+      },
+      "leadSponsor": {
+        "name": "University of Sao Paulo",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this clinical trial is to evaluate the effect of spironolactone in the primary prevention of cardiotoxicity in cancer patients who are undergoing chemotherapy with anthracycline within 12 months. The main question it aims to answer is:\n\n• Does spironolactone reduce the incidence of cardiotoxicity in patients undergoing anthracycline chemotherapy?\n\nParticipants will:\n\n* Be cancer patients over 18 years starting treatment with anthracycline;\n* Be randomized to receive either spironolactone or a placebo for 1 year;\n* Undergo assessments of their left ventricular ejection fraction (LVEF), global longitudinal strain, and cardiac biomarkers over the 12-month period.\n\nResearchers will compare the spironolactone group to the placebo group to see if cardiotoxicity incidence differs between the two.",
+      "detailedDescription": "Objective:\n\nTo assess the potential of spironolactone in preventing anthracycline-induced cardiotoxicity among cancer patients.\n\nBackground:\n\nThere's ongoing debate and a dearth of evidence regarding the role of mineralocorticoid receptor antagonists, such as spironolactone, in averting anthracycline-induced cardiotoxicity.\n\nStudy Design:\n\nA randomized, double-blind, placebo-controlled trial conducted at a single center.\n\nSample Size:\n\n264 patients.\n\nIntervention:\n\nEligible participants will be randomized on a 1:1 basis to either receive spironolactone or a placebo over a 12-month period.\n\nPrimary Outcome:\n\nIncidence of cardiotoxicity at the 12-month mark."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiotoxicity",
+        "Neoplasms",
+        "Chemotherapy Effect",
+        "Heart Failure"
+      ],
+      "keywords": [
+        "Cardiotoxicity",
+        "Anthracyclines",
+        "Spironolactone"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 264,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intervention",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will be administered 25 mg of spironolactone daily for 12 months, beginning 5 to 15 days prior to chemotherapy.",
+          "interventionNames": [
+            "Drug: Spironolactone"
+          ]
+        },
+        {
+          "label": "Control",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants will be given placebo daily for 12 months, beginning 5 to 15 days prior to chemotherapy.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Spironolactone",
+          "description": "Spironolactone 25 mg capsule",
+          "armGroupLabels": [
+            "Intervention"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo capsule",
+          "armGroupLabels": [
+            "Control"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Cardiotoxicity",
+          "description": "Incidence of cardiotoxicity, defined as:\n\n* A decrease in ejection fraction (LVEF) by 10% or more to LVEF \\< 50%, as seen on transthoracic echocardiogram; OR\n* Relative drop in global longitudinal strain greater than 15% compared to baseline, observed on transthoracic echocardiogram; OR\n* New increase in cardiac biomarkers (troponin T \\> 99th percentile and/or NT-proBNP \\> 125 pg/mL).",
+          "timeFrame": "12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Left ventricular dysfunction",
+          "description": "Decrease in ejection fraction (LVEF) ≥ 10% to LVEF \\< 50% seen on transthoracic echocardiogram and cardiac magnetic resonance imaging",
+          "timeFrame": "3, 6 and 12 months"
+        },
+        {
+          "measure": "Ventricular function",
+          "description": "Relative reduction in global longitudinal strain ≥ 15%, observed on transthoracic echocardiogram and cardiac magnetic resonance imaging",
+          "timeFrame": "3, 6 and 12 months"
+        },
+        {
+          "measure": "Incidence of myocardial injury",
+          "description": "Elevation of biomarkers (troponin T \\> 99th percentile and/or NT-proBNP \\> 125 pg/mL).",
+          "timeFrame": "6 and 12 months"
+        },
+        {
+          "measure": "Oxygen consumption",
+          "description": "Measurement of oxygen consumption (VO2), ventilatory equivalents for oxygen (VE/VO2) and for carbon dioxide (VE/VCO2) by cardiopulmonary exercise test",
+          "timeFrame": "6 and 12 months"
+        },
+        {
+          "measure": "Ventricular diameters",
+          "description": "Ventricular diameters measured by transthoracic echocardiogram",
+          "timeFrame": "3, 6 and 12 months"
+        },
+        {
+          "measure": "Myocardial work",
+          "description": "Global work index (GWI) and global constructive work (GCW) measured by transthoracic echocardiogram",
+          "timeFrame": "3, 6 and 12 months"
+        },
+        {
+          "measure": "Diastolic dysfunction",
+          "description": "Assessment by echocardiography the incidence of diastolic dysfunction using the following parameters: peak E-wave velocity, peak A-wave velocity, mitral valve (MV) E/A ratio, MV deceleration time, pulsed-wave tissue doppler imaging e' velocity, Mitral E/e', left atrium maximum volume index, pulmonary vein(PV) systole(S) wave, PV diastole (D) wave, continuous wave (CW) doppler: tricuspid regurgitation, systolic jet velocity; Color M- mode.",
+          "timeFrame": "3, 6 and 12 months"
+        },
+        {
+          "measure": "Composite endpoint of mortality or major cardiovascular outcomes",
+          "description": "Composite endpoint of mortality or major cardiovascular outcomes (defined as acute myocardial infarction, symptomatic heart failure or complex arrhythmia).",
+          "timeFrame": "3, 6 and 12 months"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Quality of life measured by EQ-5D-3L (EuroQol 5 Dimension 3 Level) questionnaire",
+          "description": "The EQ-5D is a participant rated questionnaire to assess health-related quality of life in terms of a single utility score. Health State Profile component assesses level of current health for 5 dimensions: mobility, self-care, usual activities, pain and discomfort, and anxiety and depression, using 3 levels; 1 indicates better health state (no problems); 3 indicate worst health state (\"confined to bed\"). Scoring formula developed by EuroQol Group assigns a utility value for each domain in the profile. Score is transformed and results in a total score range -0.594 to 1.000; higher score indicates a better health state.",
+          "timeFrame": "3, 6 and 12 months"
+        },
+        {
+          "measure": "Medication adherence",
+          "description": "Medication adherence rate measured by the Morisky-Green index",
+          "timeFrame": "3, 6 and 12 months"
+        },
+        {
+          "measure": "Oncological Treatment Discontinuation Rate",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Tumor Recurrence",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Hospitalization Rate",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Mortality Rate",
+          "timeFrame": "12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients diagnosed with cancer indicated for anthracycline chemotherapy treatment\n* Age 18 and above\n* Signed informed consent form\n\nExclusion Criteria:\n\n* Previous use of anthracycline.\n* Hypersensitivity to any mineralocorticoid receptor antagonists\n* Symptoms of heart failure (exertional dyspnea, orthopnea, nocturnal paroxysmal dyspnea, and pulmonary or systemic congestion)\n* Left ventricular ejection fraction (LVEF) \\< 45%\n* Previous diagnosis of cardiomyopathy, coronary artery disease, or moderate to severe mitral or aortic disease\n* Renal insufficiency defined as an estimated glomerular filtration rate \\< 30 ml/min/m2\n* Hyperkalemia, defined as serum potassium ≥ 5.0 mmol/L\n* Chronic liver disease, defined aspartate aminotransferase (AST) or alanine aminotransferase (ALT) values more than 3 times the upper limit of normal\n* Current participation in another study",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Lucas T Kawahara",
+          "role": "CONTACT",
+          "phone": "+5511980791999",
+          "email": "lucas.kawahara10@gmail.com"
+        },
+        {
+          "name": "Ludhmila A Hajjar, MD, PhD",
+          "role": "CONTACT",
+          "phone": "+551138932000",
+          "phoneExt": "3272",
+          "email": "ludhmila@terra.com.br"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Instituto do Coração",
+          "city": "São Paulo",
+          "zip": "05403-000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "30844214",
+          "type": "BACKGROUND",
+          "citation": "Venkatesh P, Kasi A. Anthracyclines. 2023 Jan 30. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2025 Jan-. Available from http://www.ncbi.nlm.nih.gov/books/NBK538187/"
+        },
+        {
+          "pmid": "30673046",
+          "type": "BACKGROUND",
+          "citation": "Barbosa RR, Bourguignon TB, Torres LD, Arruda LS, Jacques TM, Serpa RG, Calil OA, Barbosa LFM. Anthracycline-associated cardiotoxicity in adults: systematic review on the cardioprotective role of beta-blockers. Rev Assoc Med Bras (1992). 2018 Aug;64(8):745-754. doi: 10.1590/1806-9282.64.08.745."
+        },
+        {
+          "pmid": "34243633",
+          "type": "BACKGROUND",
+          "citation": "Rawat PS, Jaiswal A, Khurana A, Bhatti JS, Navik U. Doxorubicin-induced cardiotoxicity: An update on the molecular mechanism and novel therapeutic strategies for effective management. Biomed Pharmacother. 2021 Jul;139:111708. doi: 10.1016/j.biopha.2021.111708. Epub 2021 May 13."
+        },
+        {
+          "pmid": "32258060",
+          "type": "BACKGROUND",
+          "citation": "Cardinale D, Iacopo F, Cipolla CM. Cardiotoxicity of Anthracyclines. Front Cardiovasc Med. 2020 Mar 18;7:26. doi: 10.3389/fcvm.2020.00026. eCollection 2020."
+        },
+        {
+          "pmid": "34904661",
+          "type": "BACKGROUND",
+          "citation": "Herrmann J, Lenihan D, Armenian S, Barac A, Blaes A, Cardinale D, Carver J, Dent S, Ky B, Lyon AR, Lopez-Fernandez T, Fradley MG, Ganatra S, Curigliano G, Mitchell JD, Minotti G, Lang NN, Liu JE, Neilan TG, Nohria A, O'Quinn R, Pusic I, Porter C, Reynolds KL, Ruddy KJ, Thavendiranathan P, Valent P. Defining cardiovascular toxicities of cancer therapies: an International Cardio-Oncology Society (IC-OS) consensus statement. Eur Heart J. 2022 Jan 31;43(4):280-299. doi: 10.1093/eurheartj/ehab674."
+        },
+        {
+          "pmid": "17161256",
+          "type": "BACKGROUND",
+          "citation": "Kalay N, Basar E, Ozdogru I, Er O, Cetinkaya Y, Dogan A, Inanc T, Oguzhan A, Eryol NK, Topsakal R, Ergin A. Protective effects of carvedilol against anthracycline-induced cardiomyopathy. J Am Coll Cardiol. 2006 Dec 5;48(11):2258-62. doi: 10.1016/j.jacc.2006.07.052. Epub 2006 Nov 9."
+        },
+        {
+          "pmid": "22727976",
+          "type": "BACKGROUND",
+          "citation": "Kaya MG, Ozkan M, Gunebakmaz O, Akkaya H, Kaya EG, Akpek M, Kalay N, Dikilitas M, Yarlioglues M, Karaca H, Berk V, Ardic I, Ergin A, Lam YY. Protective effects of nebivolol against anthracycline-induced cardiomyopathy: a randomized control study. Int J Cardiol. 2013 Sep 1;167(5):2306-10. doi: 10.1016/j.ijcard.2012.06.023. Epub 2012 Jun 22."
+        },
+        {
+          "pmid": "29540327",
+          "type": "BACKGROUND",
+          "citation": "Avila MS, Ayub-Ferreira SM, de Barros Wanderley MR Jr, das Dores Cruz F, Goncalves Brandao SM, Rigaud VOC, Higuchi-Dos-Santos MH, Hajjar LA, Kalil Filho R, Hoff PM, Sahade M, Ferrari MSM, de Paula Costa RL, Mano MS, Bittencourt Viana Cruz CB, Abduch MC, Lofrano Alves MS, Guimaraes GV, Issa VS, Bittencourt MS, Bocchi EA. Carvedilol for Prevention of Chemotherapy-Related Cardiotoxicity: The CECCY Trial. J Am Coll Cardiol. 2018 May 22;71(20):2281-2290. doi: 10.1016/j.jacc.2018.02.049. Epub 2018 Mar 11."
+        },
+        {
+          "pmid": "17101852",
+          "type": "BACKGROUND",
+          "citation": "Cardinale D, Colombo A, Sandri MT, Lamantia G, Colombo N, Civelli M, Martinelli G, Veglia F, Fiorentini C, Cipolla CM. Prevention of high-dose chemotherapy-induced cardiotoxicity in high-risk patients by angiotensin-converting enzyme inhibition. Circulation. 2006 Dec 5;114(23):2474-81. doi: 10.1161/CIRCULATIONAHA.106.635144. Epub 2006 Nov 13."
+        },
+        {
+          "pmid": "34436523",
+          "type": "BACKGROUND",
+          "citation": "Livi L, Barletta G, Martella F, Saieva C, Desideri I, Bacci C, Del Bene MR, Airoldi M, Amoroso D, Coltelli L, Scotti V, Becherini C, Visani L, Salvestrini V, Mariotti M, Pedani F, Bernini M, Sanchez L, Orzalesi L, Nori J, Bianchi S, Olivotto I, Meattini I. Cardioprotective Strategy for Patients With Nonmetastatic Breast Cancer Who Are Receiving an Anthracycline-Based Chemotherapy: A Randomized Clinical Trial. JAMA Oncol. 2021 Oct 1;7(10):1544-1549. doi: 10.1001/jamaoncol.2021.3395."
+        },
+        {
+          "pmid": "35492815",
+          "type": "BACKGROUND",
+          "citation": "Omland T, Heck SL, Gulati G. The Role of Cardioprotection in Cancer Therapy Cardiotoxicity: JACC: CardioOncology State-of-the-Art Review. JACC CardioOncol. 2022 Mar 15;4(1):19-37. doi: 10.1016/j.jaccao.2022.01.101. eCollection 2022 Mar."
+        },
+        {
+          "pmid": "34384247",
+          "type": "BACKGROUND",
+          "citation": "Wang Y, Lu X, Wang X, Qiu Q, Zhu P, Ma L, Ma X, Herrmann J, Lin X, Wang W, Xu X. atg7-Based Autophagy Activation Reverses Doxorubicin-Induced Cardiotoxicity. Circ Res. 2021 Oct;129(8):e166-e182. doi: 10.1161/CIRCRESAHA.121.319104. Epub 2021 Aug 13."
+        },
+        {
+          "pmid": "25410653",
+          "type": "BACKGROUND",
+          "citation": "Akpek M, Ozdogru I, Sahin O, Inanc M, Dogan A, Yazici C, Berk V, Karaca H, Kalay N, Oguzhan A, Ergin A. Protective effects of spironolactone against anthracycline-induced cardiomyopathy. Eur J Heart Fail. 2015 Jan;17(1):81-9. doi: 10.1002/ejhf.196. Epub 2014 Nov 20."
+        },
+        {
+          "pmid": "34396193",
+          "type": "BACKGROUND",
+          "citation": "Davis MK, Villa D, Tsang TSM, Starovoytov A, Gelmon K, Virani SA. Effect of Eplerenone on Diastolic Function in Women Receiving Anthracycline-Based Chemotherapy for Breast Cancer. JACC CardioOncol. 2019 Dec 17;1(2):295-298. doi: 10.1016/j.jaccao.2019.10.001. eCollection 2019 Dec. No abstract available."
+        },
+        {
+          "pmid": "25948538",
+          "type": "BACKGROUND",
+          "citation": "Cardinale D, Colombo A, Bacchiani G, Tedeschi I, Meroni CA, Veglia F, Civelli M, Lamantia G, Colombo N, Curigliano G, Fiorentini C, Cipolla CM. Early detection of anthracycline cardiotoxicity and improvement with heart failure therapy. Circulation. 2015 Jun 2;131(22):1981-8. doi: 10.1161/CIRCULATIONAHA.114.013777. Epub 2015 May 6."
+        },
+        {
+          "pmid": "36017568",
+          "type": "BACKGROUND",
+          "citation": "Lyon AR, Lopez-Fernandez T, Couch LS, Asteggiano R, Aznar MC, Bergler-Klein J, Boriani G, Cardinale D, Cordoba R, Cosyns B, Cutter DJ, de Azambuja E, de Boer RA, Dent SF, Farmakis D, Gevaert SA, Gorog DA, Herrmann J, Lenihan D, Moslehi J, Moura B, Salinger SS, Stephens R, Suter TM, Szmit S, Tamargo J, Thavendiranathan P, Tocchetti CG, van der Meer P, van der Pal HJH; ESC Scientific Document Group. 2022 ESC Guidelines on cardio-oncology developed in collaboration with the European Hematology Association (EHA), the European Society for Therapeutic Radiology and Oncology (ESTRO) and the International Cardio-Oncology Society (IC-OS). Eur Heart J. 2022 Nov 1;43(41):4229-4361. doi: 10.1093/eurheartj/ehac244. No abstract available."
+        },
+        {
+          "pmid": "35207578",
+          "type": "BACKGROUND",
+          "citation": "Laufer-Perl M, Perelman-Gvili M, Sirota Dorfman S, Baruch G, Rothschild E, Beer G, Arbel Y, Arnold JH, Rozenbaum Z, Banai S, Topilsky Y, Kapusta L. Prevalence of Right Ventricle Strain Changes following Anthracycline Therapy. Life (Basel). 2022 Feb 15;12(2):291. doi: 10.3390/life12020291."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D066126",
+          "term": "Cardiotoxicity"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D064420",
+          "term": "Drug-Related Side Effects and Adverse Reactions"
+        },
+        {
+          "id": "D064419",
+          "term": "Chemically-Induced Disorders"
+        },
+        {
+          "id": "D011832",
+          "term": "Radiation Injuries"
+        },
+        {
+          "id": "D014947",
+          "term": "Wounds and Injuries"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D013148",
+          "term": "Spironolactone"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007783",
+          "term": "Lactones"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011283",
+          "term": "Pregnenes"
+        },
+        {
+          "id": "D011278",
+          "term": "Pregnanes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

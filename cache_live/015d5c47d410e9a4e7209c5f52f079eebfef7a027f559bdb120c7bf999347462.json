@@ -1,0 +1,382 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03102723",
+      "orgStudyIdInfo": {
+        "id": "PITRI-01"
+      },
+      "organization": {
+        "fullName": "National Heart Centre Singapore",
+        "class": "OTHER"
+      },
+      "briefTitle": "Platelet Inhibition to Target Reperfusion Injury",
+      "officialTitle": "Platelet Inhibition to Target Reperfusion Injury: The PITRI Trial",
+      "acronym": "PITRI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-04",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-10-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2022-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2017-01-05",
+      "studyFirstSubmitQcDate": "2017-03-30",
+      "studyFirstPostDateStruct": {
+        "date": "2017-04-06",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-04-19",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-04-26",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "National Heart Centre Singapore",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Tan Tock Seng Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "National University Hospital, Singapore",
+          "class": "OTHER"
+        },
+        {
+          "name": "Khoo Teck Puat Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Changi General Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Sengkang General Hospital",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "There remains a clinical need to improve health outcomes in patients with ischemic heart disease (IHD) the leading cause of death and disability in Singapore and worldwide. One neglected therapeutic target is 'myocardial reperfusion injury' in ST-segment elevation myocardial infarction (STEMI) patients treated by primary percutaneous coronary intervention (PPCI). This results in microvascular obstruction (MVO) and cardiomyocyte death and contributes upto 50% of the final myocardial infarct (MI) size. Cangrelor, a potent intravenous platelet P2Y12 inhibitor with rapid onset and offset of action, has been demonstrated in experimental animal studies to reduce MI size when administered prior to reperfusion. Whether Cangrelor given together with Ticagrelor would be more effective at reducing MI size in STEMI patients treated by PPCI is not known and is investigated in the Platelet Inhibition to Target Reperfusion Injury (PITRI) trial.",
+      "detailedDescription": "The PITRI proof-of-concept clinical trial will randomise 210 STEMI patients to receive either Cangrelor (single intravenous bolus followed by a 120-minute infusion) or matching normal/saline placebo, initiated prior to PPCI on top of conventional oral dual antiplatelet therapy (Aspirin + Ticagrelor).\n\nThe primary endpoint will be acute MI size by cardiac MRI at day 2-7. Secondary endpoints will include incidence and extent of MVO by cardiac MRI; and chronic MI size, left ventricular size and ejection fraction by cardiac MRI at 6 months."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "STEMI"
+      ],
+      "keywords": [
+        "STEMI",
+        "primary percutaneous coronary intervention (PPCI)",
+        "cangrelor",
+        "reperfusion"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 228,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Cangrelor",
+          "type": "EXPERIMENTAL",
+          "description": "Cangrelor (single intravenous bolus followed by a 120-minute infusion) initiated prior to PPCI.",
+          "interventionNames": [
+            "Drug: Cangrelor"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Matching normal saline placebo (single intravenous bolus followed by a 120-minute infusion) initiated prior to PPCI.",
+          "interventionNames": [
+            "Drug: Cangrelor"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Cangrelor",
+          "description": "1. Cangrelor treatment: IV Cangrelor as a single IV bolus (30 μg/kg) followed by an infusion (4 μg/kg/min) of at least 120 minutes duration or until PPCI procedure has ended (whichever is longer) - this will be initiated prior to PPCI. This dosing regimen is identical to that used in the CHAMPION trials.\n\n   Or\n2. Placebo control: IV normal saline as a single IV bolus followed by an infusion of at least 120 minutes duration or until PPCI procedure has ended (whichever is longer) - this will be initiated prior to PPCI.",
+          "armGroupLabels": [
+            "Cangrelor",
+            "Placebo"
+          ],
+          "otherNames": [
+            "Kengreal"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Myocardial infarct size by CMR at Day 2 to 7",
+          "description": "This will be measured by CMR (mass of late gadolinium enhancement expressed as a percentage of the LV mass).",
+          "timeFrame": "2-7 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Microvascular obstruction to calculate myocardial interstitial volume",
+          "description": "This will be assessed by CMR performed at 2-7 days post-PPCI",
+          "timeFrame": "2-7 days"
+        },
+        {
+          "measure": "Myocardial salvage index",
+          "description": "This will be assessed by cardiac magnetic resonance (CMR) performed at 2-7 days post-PPCI by measuring MI size and the area at risk",
+          "timeFrame": "2-7 days"
+        },
+        {
+          "measure": "Angiographic markers of successful reperfusion",
+          "description": "ST-segment resolution 90 min post-PPCI, TIMI flow and frame-count post-PPCI, and TIMI blush grade",
+          "timeFrame": "2 to 3 hours"
+        },
+        {
+          "measure": "Myocardial infarct size by CMR at 6 months",
+          "description": "This will be measured by Cardiac MRI 6 months post-PPCI",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Post-MI LV remodeling by measuring LV ejection fraction and indexed LV end systolic and diastolic volumes and mass",
+          "description": "This will be assessed by CMR by measuring LV ejection fraction and indexed LV end systolic and diastolic volumes and mass.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Platelet function testing",
+          "description": "Serial platelet function testing will be performed with VerifyNow in a subset of 70 patients.",
+          "timeFrame": "2 hours"
+        },
+        {
+          "measure": "MACCE at 30 days, at 6 months, at 12 months, at 24 months, at 5 years and at 10 years",
+          "description": "This will include all-cause death, hospitalisation for heart failure (HHF), stent thrombosis, ischemia-induced coronary revascularisation, re-infarction, and stroke. This data will be collected by telephone and reviewing medical notes at 30 days and at the time of the outpatient 6 month cardiac MR scan.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Incidence of definite stent thrombosis at 48 hours",
+          "description": "This will be defined according to the criteria of the Academic Research Consortium, which was assessed, with group assignments concealed, at an angiographic core laboratory (Cardiovascular Research Foundation).",
+          "timeFrame": "48 hours"
+        },
+        {
+          "measure": "Quality of life questionnaire",
+          "description": "The EuroQol EQ-5D Health-Related Quality of Life (EUROQOL) questionnaire (www.euroqol.org) will be used to assess patient quality of life post-CABG with or without valve surgery, at baseline (1 day post-PPCI), 30 days (by telephone), and 6 months (at time of outpatient CMR scan).",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "6-Minute Walk Test (6MWT)",
+          "description": "Functional capacity of patients will be measured using the 6-Minute Walk Test",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Subjective questionnaire",
+          "description": "Subjective questionnaire relating to symptoms post angioplasty and physical activities will be assess at 30±7 days (by telephone), and at 6±1 months (at time of the outpatient CMR scan).",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "ALDH2 substudy",
+          "description": "A saliva sample will be collected from a sub-group of subjects for determination of their ALDH2 genotype.",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria Subjects must meet all of the inclusion criteria to participate in this study.\n\n1. Age ≥21 and \\<80 years of age\n2. STEMI as defined by:\n\n   * ≥2 mm ST-segment elevation in 2 or more anterior leads (V1-V4)\n   * ≥1 mV ST-segment elevation in in 2 or more limb leads (II, III and aVF, I, aVL).\n   * ST elevation in II, II, aVF less than 1 mm with ST depression in aVL\n   * Posterior infarction ST depression ≥ 1 mm over either V1, V2, or V3 and ST elevation ≥ 1 mm in either V7, V8 or V9\n3. ≤6 hours onset of most severe chest pain to time of admission in the Emergency Medicine Department\n\nExclusion Criteria All subjects meeting any of the exclusion criteria at baseline will be excluded from participation.\n\n1. History of previous MI, CVA, TIA or prior CABG surgery\n2. Known contraindications to cardiac MRI (CMR) such as MRI contraindicated implanted devices, significant claustrophobia, severe allergy to gadolinium chelate contrast, severe renal insufficiency (estimated glomerular filtration rate \\[eGFR\\] ≤40 mL/min/1.73 m2)\n3. Patients with prior therapy before admission within 7 days of anticoagulant (warfarin, phenindione, dabigatran, apixaban and rivaroxaban), glycoprotein 2B3A inhibitor, P2Y12 inhibitor (ticagrelor, prasugrel, clopidogrel, cangrelor) or thrombolytic therapy\n4. Significant co-morbidities:\n\n   * Patients with severe hepatic failure (INR\\>2)\n   * Cardiac arrest before randomisation\n   * Cardiogenic shock\n   * Poor premorbid status (bed bound / wheelchair bound)\n   * Collapse / comatose / semi-conscious states\n5. Contraindications to Heparinisation or Anti-Platelet Therapy:\n\n   * History of Heparin-Induced Thrombocytopenia (HIT)\n   * Increased bleeding risk (GI bleeding, traumatic head injury)\n6. Pregnancy\n7. Contrast allergy\n8. Patients on strong CYP3A inhibitors or inducers (such as atazanavir, clarithromycin, indinavir, itraconazole, ketoconazole, nefazodone, nelfinavir, ritonavir, saquinavir, telithromycin and voriconazole, rifampin, dexamethasone, phenytoin, carbamazepine, and phenobarbital)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "21 Years",
+      "maximumAge": "79 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Derek John Hausenloy",
+          "affiliation": "National Heart Centre Singapore",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "National University Hospital (NUH)",
+          "city": "Singapore",
+          "zip": "119228",
+          "country": "Singapore",
+          "geoPoint": {
+            "lat": 1.28967,
+            "lon": 103.85007
+          }
+        },
+        {
+          "facility": "Tan Tock Seng Hospital (TTSH)",
+          "city": "Singapore",
+          "zip": "308433",
+          "country": "Singapore",
+          "geoPoint": {
+            "lat": 1.28967,
+            "lon": 103.85007
+          }
+        },
+        {
+          "facility": "Khoo Teck Puat Hospital",
+          "city": "Singapore",
+          "zip": "768828",
+          "country": "Singapore",
+          "geoPoint": {
+            "lat": 1.28967,
+            "lon": 103.85007
+          }
+        },
+        {
+          "facility": "Changi General Hospital",
+          "city": "Singapore",
+          "zip": "S529889",
+          "country": "Singapore",
+          "geoPoint": {
+            "lat": 1.28967,
+            "lon": 103.85007
+          }
+        },
+        {
+          "facility": "SengKang General Hospital",
+          "city": "Singapore",
+          "zip": "S544886",
+          "country": "Singapore",
+          "geoPoint": {
+            "lat": 1.28967,
+            "lon": 103.85007
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "38742915",
+          "type": "DERIVED",
+          "citation": "Bulluck H, Chong JH, Bryant J, Annathurai A, Chai P, Chan M, Chawla A, Chin CY, Chung YC, Gao F, Ho HH, Ho AFW, Hoe J, Imran SS, Lee CH, Lim B, Lim ST, Lim SH, Liew BW, Zhan Yun PL, Ong MEH, Paradies V, Pung XM, Tay JCK, Teo L, Ting BP, Wong A, Wong E, Watson T, Chan MY, Keong YK, Tan JWC, Hausenloy DJ; PITRI Investigators. Effect of Cangrelor on Infarct Size in ST-Segment-Elevation Myocardial Infarction Treated by Primary Percutaneous Coronary Intervention: A Randomized Controlled Trial (The PITRI Trial). Circulation. 2024 Jul 9;150(2):91-101. doi: 10.1161/CIRCULATIONAHA.124.068938. Epub 2024 May 14."
+        },
+        {
+          "pmid": "30421441",
+          "type": "DERIVED",
+          "citation": "Bulluck H, Chan MHH, Bryant JA, Chai P, Chawla A, Chua TS, Chung YC, Fei G, Ho HH, Ho AFW, Hoe AJ, Imran SS, Lee CH, Lim SH, Liew BW, Yun PLZ, Hock MOE, Paradies V, Roe MT, Teo L, Wong AS, Wong E, Wong PE, Watson T, Chan MY, Tan JW, Hausenloy DJ. Platelet inhibition to target reperfusion injury trial: Rationale and study design. Clin Cardiol. 2019 Jan;42(1):5-12. doi: 10.1002/clc.23110. Epub 2018 Dec 17."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C117446",
+          "term": "cangrelor"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

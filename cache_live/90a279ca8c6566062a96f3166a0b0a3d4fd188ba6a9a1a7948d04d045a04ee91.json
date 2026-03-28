@@ -1,0 +1,422 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02145546",
+      "orgStudyIdInfo": {
+        "id": "XHEC-C-2013-013-2"
+      },
+      "organization": {
+        "fullName": "Xinhua Hospital, Shanghai Jiao Tong University School of Medicine",
+        "class": "OTHER"
+      },
+      "briefTitle": "Antiarrhythmic Drugs Assessment in Preventing Atrial Fibrillation",
+      "officialTitle": "Antiarrhythmic Drugs Assessment in Preventing Atrial Fibrillation",
+      "acronym": "ADA-PAF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2014-05",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2014-05"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2017-05",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2017-05",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2014-04-02",
+      "studyFirstSubmitQcDate": "2014-05-20",
+      "studyFirstPostDateStruct": {
+        "date": "2014-05-23",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2014-05-20",
+      "lastUpdatePostDateStruct": {
+        "date": "2014-05-23",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Yi-Gang Li",
+        "investigatorTitle": "Chief Physician",
+        "investigatorAffiliation": "Xinhua Hospital, Shanghai Jiao Tong University School of Medicine"
+      },
+      "leadSponsor": {
+        "name": "Xinhua Hospital, Shanghai Jiao Tong University School of Medicine",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Medtronic (Shanghai) Management Co. Ltd.",
+          "class": "INDUSTRY"
+        },
+        {
+          "name": "Beijing CTSmed Co. Ltd",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The current evidences indicate that \\~30% patients with sick sinus syndrome(SSS) would develop persistent atrial fibrillation (AF) after a long term pacing therapy. However, the accurate influence of antiarrhythmic drugs on the AF is still not well defined. The purpose of the study is to assess the therapeutic effects of various antiarrhythmic drugs (Amiodarone, Sotalol and Propafenone) on the long term management of AF in SSS patients with AF, including the reduced AF burden (duration and episodes) and persistent AF free survival rate. All patients will be followed up for 12 months."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Atrial Fibrillation"
+      ],
+      "keywords": [
+        "Pacing dependent",
+        "Atrial Fibrillation",
+        "Amiodarone",
+        "Propafenone",
+        "Sotalol",
+        "AF burden"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 600,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Amiodarone",
+          "type": "EXPERIMENTAL",
+          "description": "Patient will take Amiodarone orally",
+          "interventionNames": [
+            "Drug: Amiodarone"
+          ]
+        },
+        {
+          "label": "Sotalol",
+          "type": "EXPERIMENTAL",
+          "description": "Patients will take sotalol orally",
+          "interventionNames": [
+            "Drug: Sotalol"
+          ]
+        },
+        {
+          "label": "Propafenone",
+          "type": "EXPERIMENTAL",
+          "description": "Patients will take propafenone orally",
+          "interventionNames": [
+            "Drug: Propafenone"
+          ]
+        },
+        {
+          "label": "Control",
+          "type": "NO_INTERVENTION",
+          "description": "Patients will take no antiarrhythmic drugs except β-blocker"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Amiodarone",
+          "description": "Amiodarone: 200mg three times a day for two weeks, then change to 200mg per day for the rest of the study.",
+          "armGroupLabels": [
+            "Amiodarone"
+          ],
+          "otherNames": [
+            "cordarone",
+            "pacerone",
+            "aratac",
+            "arycor",
+            "atlansil",
+            "tachyra"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Propafenone",
+          "description": "150mg per 8 hours, 3 times per day",
+          "armGroupLabels": [
+            "Propafenone"
+          ],
+          "otherNames": [
+            "rythmol SR",
+            "rytmonorm"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Sotalol",
+          "description": "80mg twice per day.",
+          "armGroupLabels": [
+            "Sotalol"
+          ],
+          "otherNames": [
+            "betapace",
+            "betapace AF",
+            "sotalex",
+            "sotacor"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Average AF burden in minutes per day",
+          "description": "Long term usages of test drug reduce AF burden, including the number and accumulated total time of AF per day.",
+          "timeFrame": "monthly up to 12 months"
+        },
+        {
+          "measure": "Persistent AF free survival rate",
+          "description": "Long term usages of test drugs reduce the occurence of the persistent AF ( the persistent AF survival rate)。",
+          "timeFrame": "monthly up to12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Left ventricular function",
+          "description": "LVEF(Simpson), LV volume, diastolic function (E/A ), tricuspid regurgitation, Left atrial size and volume",
+          "timeFrame": "0months, 6months and 12 months"
+        },
+        {
+          "measure": "SF-36 health survey",
+          "description": "SF-36 health survey",
+          "timeFrame": "0 months, 6 months and 12 months"
+        },
+        {
+          "measure": "comorbidity and mortality",
+          "description": "The rate of stroke, infarction, heart failure, rehospitalization and cardiovascular and total mortality rate.",
+          "timeFrame": "6 months and 12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* at least 18 years old\n* sick sinus syndrome with pacemaker Class I or Class IIa indication\n* has a pacemaker which can provide the daily AF burden monitor record for at least 28 days\n* has at AF record in the past 6 months, the valid AF record includes any of\n\n  1. at least one 30 seconds AF holter record\n  2. at least one 15 seconds 12-ECG record\n  3. at least 5 minutes long AF episodes record from pacemakers\n* able and willing to give informed consent\n\nExclusion Criteria:\n\n* will have cardiac surgery in the next 6 month or in the waiting list of heart transplantation\n* NYHA Class III or IV\n* LVEF \\<50%\n* Reversible AF, such as AF caused by hyperthyroidism or severe postoperative atrial fibrillation\n* Persistence AF\n* Expected life expectancy less than 1 year\n* Planned to be pregnant or be in the feeding period in the next year\n* Non-stable, decompensated heart failure\n* Allergy to Amiodarone, Propafenone or Sotalol\n* Cancer\n* Clear liver damage ( ALT and/or AST \\> 2\\*normal limit)\n* Patients with cardiogenic shock history\n* Be in the treatment of Amiodarone for more than 3 months or less than 3 months with Amiodarone wash out period less than 30 days\n* Coronary artery disease (CHD), cardiomyopathy, severe valvular heart disease, severe obstructive pulmonary disease (COPD), long QT syndrome",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Yi-Gang Li, MD",
+          "role": "CONTACT",
+          "phone": "13761318166",
+          "email": "drliyigang@outlook.com"
+        },
+        {
+          "name": "Bo Liu, MD",
+          "role": "CONTACT",
+          "phone": "13816037607",
+          "email": "liuboxinhua@qq.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Yi-Gang Li, MD",
+          "affiliation": "Xinhua Hospital, Shanghai Jiaotong University School of Medicne",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Xinhua Hospital, Shanghai Jiao Tong University School of Medicne",
+          "city": "Shanghai",
+          "state": "Shanghai Municipality",
+          "zip": "200092",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yi-Gang Li, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "14297523",
+          "type": "BACKGROUND",
+          "citation": "OSTRANDER LD Jr, BRANDT RL, KJELSBERG MO, EPSTEIN FH. ELECTROCARDIOGRAPHIC FINDINGS AMONG THE ADULT POPULATION OF A TOTAL NATURAL COMMUNITY, TECUMSEH, MICHIGAN. Circulation. 1965 Jun;31:888-98. doi: 10.1161/01.cir.31.6.888. No abstract available."
+        },
+        {
+          "pmid": "15312400",
+          "type": "BACKGROUND",
+          "citation": "Zhou ZQ, Hu DY, Chen J, Zhang RH, Li KB, Zhao XL. [An epidemiological survey of atrial fibrillation in China]. Zhonghua Nei Ke Za Zhi. 2004 Jul;43(7):491-4. Chinese."
+        },
+        {
+          "pmid": "19195517",
+          "type": "BACKGROUND",
+          "citation": "Siu CW, Jim MH, Zhang X, Chan YH, Pong V, Kwok J, Kung AW, Lau CP, Tse HF. Comparison of atrial fibrillation recurrence rates after successful electrical cardioversion in patients with hyperthyroidism-induced versus non-hyperthyroidism-induced persistent atrial fibrillation. Am J Cardiol. 2009 Feb 15;103(4):540-3. doi: 10.1016/j.amjcard.2008.10.019. Epub 2008 Dec 25."
+        },
+        {
+          "pmid": "15872201",
+          "type": "BACKGROUND",
+          "citation": "Singh BN, Singh SN, Reda DJ, Tang XC, Lopez B, Harris CL, Fletcher RD, Sharma SC, Atwood JE, Jacobson AK, Lewis HD Jr, Raisch DW, Ezekowitz MD; Sotalol Amiodarone Atrial Fibrillation Efficacy Trial (SAFE-T) Investigators. Amiodarone versus sotalol for atrial fibrillation. N Engl J Med. 2005 May 5;352(18):1861-72. doi: 10.1056/NEJMoa041705."
+        },
+        {
+          "pmid": "10738049",
+          "type": "BACKGROUND",
+          "citation": "Roy D, Talajic M, Dorian P, Connolly S, Eisenberg MJ, Green M, Kus T, Lambert J, Dubuc M, Gagne P, Nattel S, Thibault B. Amiodarone to prevent recurrence of atrial fibrillation. Canadian Trial of Atrial Fibrillation Investigators. N Engl J Med. 2000 Mar 30;342(13):913-20. doi: 10.1056/NEJM200003303421302."
+        },
+        {
+          "pmid": "14556870",
+          "type": "BACKGROUND",
+          "citation": "Pritchett EL, Page RL, Carlson M, Undesser K, Fava G; Rythmol Atrial Fibrillation Trial (RAFT) Investigators. Efficacy and safety of sustained-release propafenone (propafenone SR) for patients with atrial fibrillation. Am J Cardiol. 2003 Oct 15;92(8):941-6. doi: 10.1016/s0002-9149(03)00974-3."
+        },
+        {
+          "pmid": "11990674",
+          "type": "BACKGROUND",
+          "citation": "Israel CW. Analysis of mode switching algorithms in dual chamber pacemakers. Pacing Clin Electrophysiol. 2002 Mar;25(3):380-93. doi: 10.1046/j.1460-9592.2002.00380.x."
+        },
+        {
+          "pmid": "15250860",
+          "type": "BACKGROUND",
+          "citation": "Passman RS, Weinberg KM, Freher M, Denes P, Schaechter A, Goldberger JJ, Kadish AH. Accuracy of mode switch algorithms for detection of atrial tachyarrhythmias. J Cardiovasc Electrophysiol. 2004 Jul;15(7):773-7. doi: 10.1046/j.1540-8167.2004.03537.x."
+        },
+        {
+          "pmid": "22440154",
+          "type": "BACKGROUND",
+          "citation": "Kaufman ES, Israel CW, Nair GM, Armaganijan L, Divakaramenon S, Mairesse GH, Brandes A, Crystal E, Costantini O, Sandhu RK, Parkash R, Connolly SJ, Hohnloser SH, Healey JS; ASSERT Steering Committee and Investigators. Positive predictive value of device-detected atrial high-rate episodes at different rates and durations: an analysis from ASSERT. Heart Rhythm. 2012 Aug;9(8):1241-6. doi: 10.1016/j.hrthm.2012.03.017. Epub 2012 Mar 20."
+        },
+        {
+          "pmid": "16008796",
+          "type": "BACKGROUND",
+          "citation": "Nowak B, McMeekin J, Knops M, Wille B, Schroder E, Moro C, Oelher M, Castellanos E, Coutu B, Petersen B, Pfeil W, Kreuzer J; Stored EGM in PulsarMax II and Discovery II Study Group. Validation of dual-chamber pacemaker diagnostic data using dual-channel stored electrograms. Pacing Clin Electrophysiol. 2005 Jul;28(7):620-9. doi: 10.1111/j.1540-8159.2005.00159.x."
+        },
+        {
+          "type": "BACKGROUND",
+          "citation": "Charles D. Swerdlow, Jeffrey M. Gillberg, Paul Khairy, Textbook, Clinical Cardiac Pacing, Defibrillation and Resynchronization Therapy, Chapter 3, Sensing and Detection, page 146."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001281",
+          "term": "Atrial Fibrillation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001145",
+          "term": "Arrhythmias, Cardiac"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000638",
+          "term": "Amiodarone"
+        },
+        {
+          "id": "D011405",
+          "term": "Propafenone"
+        },
+        {
+          "id": "D013015",
+          "term": "Sotalol"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001572",
+          "term": "Benzofurans"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D011427",
+          "term": "Propiophenones"
+        },
+        {
+          "id": "D007659",
+          "term": "Ketones"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D004983",
+          "term": "Ethanolamines"
+        },
+        {
+          "id": "D000605",
+          "term": "Amino Alcohols"
+        },
+        {
+          "id": "D000438",
+          "term": "Alcohols"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

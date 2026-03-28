@@ -1,0 +1,386 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06132490",
+      "orgStudyIdInfo": {
+        "id": "2022.094.IRB1.040"
+      },
+      "organization": {
+        "fullName": "Koç University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Intra-abdominal Pressure and Insufflator Effects in Robotic Surgery",
+      "officialTitle": "Comparison of the Perioperative Effects of Intra-abdominal Pressure Created With Standard and Valveless Insufflators in Robotic Surgery"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-09",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-07-15",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-12-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-12-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-03-20",
+      "studyFirstSubmitQcDate": "2023-11-09",
+      "studyFirstPostDateStruct": {
+        "date": "2023-11-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-03-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-03-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Koç University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The main aim of this study is to compare the perioperative effects of different intra-abdominal pressures and different insufflators in patients undergoing robotic surgery at a 30-45 degree trendelenburg position.",
+      "detailedDescription": "Adult patients scheduled for robotic genitourinary or colorectal surgery are going to be enrolled in this study. Patients will be randomized in three groups. In group I, conventional insufflators will be used with 12 mmHg intra-abdominal pressure; in group II, valveless insufflators will be used with 12 mmHg intra-abdominal pressure and in group III, valveless insufflators will be used with 8 mmHg intra-abdominal pressure. Intraoperative data regarding airway pressures, lung compliance, hemodynamic parameters, arterial blood gas analysis, times of pressure loss and camera cleaning will be gathered. Each patient will receive a standardized anesthesia and analgesia procedure with a intravenous morphine patient controlled analgesia (PCA). Postoperative pain will be monitored at 1st, 3rd, 6th, 12th and 24th postoperative hours and morphine consumption rates will be recorded. Patient length of stay, time to first flatus, urine output, postoperative complications(graded by Clavien Dindo classification), preoperative and postoperative hemoglobin and creatinine levels will be filed."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Post Operative Pain",
+        "Hemodynamic Instability",
+        "Hypercapnia",
+        "Complication,Postoperative",
+        "Intraoperative Complications"
+      ],
+      "keywords": [
+        "robotic surgery",
+        "intra-abdominal pressure",
+        "insufflator",
+        "postoperative pain",
+        "postoperative complications",
+        "intraoperative complications"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "SCREENING",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "The patient and the pain nurses will be blind to the intervention due to the study design.",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 43,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Valveless 12",
+          "type": "EXPERIMENTAL",
+          "description": "Patients scheduled for genitourinary or colorectal robotic surgery, valveless insufflators will be used with 12 mmHg intra-abdominal pressure.",
+          "interventionNames": [
+            "Device: Valveless Insufflator with 12 mmHg intra-abdominal pressure"
+          ]
+        },
+        {
+          "label": "Valveless 8",
+          "type": "EXPERIMENTAL",
+          "description": "Patients scheduled for genitourinary or colorectal robotic surgery, valveless insufflators will be used with 8 mmHg intra-abdominal pressure.",
+          "interventionNames": [
+            "Device: Valveless Insufflator with 8 mmHg intra-abdominal pressure"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Valveless Insufflator with 12 mmHg intra-abdominal pressure",
+          "description": "In this group valveless insufflators, which are relatively new in clinical practice, will be used under low intra-abdominal pressure throughout the surgery.",
+          "armGroupLabels": [
+            "Valveless 12"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Valveless Insufflator with 8 mmHg intra-abdominal pressure",
+          "description": "In this group valveless insufflators, which are relatively new in clinical practice, will be used under ultra-low intra-abdominal pressure throughout the surgery.",
+          "armGroupLabels": [
+            "Valveless 8"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of manipulations done by the attending anesthesiologists",
+          "description": "After the induction of general anesthesia, orotracheal intubation and arterial catheterization; a standard ventilation and anesthesia maintenance strategy will be applied. Every manipulation performed to keep the parameters monitored by the anesthesiologists within physiological limits will be recorded: ventilation frequency setting, remifentail infusion titration, administration of vasoactive agents, etc.",
+          "timeFrame": "Intraoperative"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Arterial blood gas lactate levels",
+          "description": "Arterial blood gas will be sampled at standardized times during the operation and lactate levels will be compared among the groups",
+          "timeFrame": "Intraoperative"
+        },
+        {
+          "measure": "Peak airway pressures",
+          "description": "Peak airway pressures (cmH2O) will be compared among the groups",
+          "timeFrame": "Intraoperative"
+        },
+        {
+          "measure": "Mean airway pressures",
+          "description": "Mean airway pressures (cmH2O) will be compared among the groups",
+          "timeFrame": "Intraoperative"
+        },
+        {
+          "measure": "Lung compliance",
+          "description": "Lung compliance (mL/cmH2O) will be compared among the groups",
+          "timeFrame": "Intraoperative"
+        },
+        {
+          "measure": "End tidal carbon dioxide levels",
+          "description": "End tidal carbon dioxide levels (mmHg) will be compared among the groups",
+          "timeFrame": "Intraoperative"
+        },
+        {
+          "measure": "Minute ventilation",
+          "description": "Minute ventilation (L/minute) will be compared among the groups",
+          "timeFrame": "Intraoperative"
+        },
+        {
+          "measure": "Systolic blood pressure",
+          "description": "Systolic arterial pressures (mmHg) will be compared among the groups.",
+          "timeFrame": "Intraoperative"
+        },
+        {
+          "measure": "Diastolic blood pressure",
+          "description": "Diastolic arterial pressures (mmHg) will be compared among the groups.",
+          "timeFrame": "Intraoperative"
+        },
+        {
+          "measure": "Mean blood pressure",
+          "description": "Mean arterial pressures (mmHg) will be compared among the groups.",
+          "timeFrame": "Intraoperative"
+        },
+        {
+          "measure": "Heart rate",
+          "description": "Heart rate (beat per minute) will be compared among the groups",
+          "timeFrame": "Intraoperative"
+        },
+        {
+          "measure": "Acute Postoperative Pain",
+          "description": "Acute postoperative pain reported with numeric rating scale (0-10) will be recorded at postoperative 1st, 3rd, 6th, 12th and 24th hours with 0 meaning no pain and 10 meaning worst imaginable pain.",
+          "timeFrame": "Postoperative 24 hours"
+        },
+        {
+          "measure": "Postoperative morphine consumption",
+          "description": "Intravenous morphine consumption (mg) will be recorded at postoperative 1st, 3rd, 6th, 12th and 24th hours",
+          "timeFrame": "Postoperative 24 hours"
+        },
+        {
+          "measure": "Anesthesia time and operative time",
+          "description": "Anesthesia and operative times wil be recorded as minutes",
+          "timeFrame": "Intraoperative"
+        },
+        {
+          "measure": "Intraoperative bleeding",
+          "description": "Total bleeding level estimated by the surgical nurse will be recorded as milliliters at the end of the surgery",
+          "timeFrame": "Intraoperative"
+        },
+        {
+          "measure": "Urine output",
+          "description": "Kidney function will be monitored by using intraoperative and daily postoperative urine output (mL)",
+          "timeFrame": "Intraoperative and daily untill discharge"
+        },
+        {
+          "measure": "Creatinine levels",
+          "description": "Kidney function will be monitored by using daily creatinine levels (mg/dL)",
+          "timeFrame": "Preoperative and postoperative (up to one month)"
+        },
+        {
+          "measure": "Hemoglobin levels",
+          "description": "Intraoperative and daily postoperative hemoglobin levels will be recorded",
+          "timeFrame": "Intraoperative and daily untill discharge"
+        },
+        {
+          "measure": "Need for blood product transfusion",
+          "description": "Blood product transfusions will be recorded",
+          "timeFrame": "Intraoperative and daily untill discharge"
+        },
+        {
+          "measure": "Number of participants with pulmonary complications",
+          "description": "Pulmonary complications like atelectasis, pulmonary oedema, pleural effusion, pneumothorax, pneumonia, ventilatory failure will be recorded for each patient. And number of patients with pulmonary complications will be compared among the groups.",
+          "timeFrame": "Postoperative, up to one month"
+        },
+        {
+          "measure": "Flatus time",
+          "description": "Postoperative time to first flatus will be recorded",
+          "timeFrame": "Postoperative one week"
+        },
+        {
+          "measure": "Time to oral intake",
+          "description": "Postoperative time to oral intake will be recorded",
+          "timeFrame": "Postoperative 3 days"
+        },
+        {
+          "measure": "Number of participants with subcutaneous emphysema",
+          "description": "Subcutaneous emphysema diagnosed with chest radiograph will be recorded",
+          "timeFrame": "Postoperative, up to one month"
+        },
+        {
+          "measure": "Length of hospital stay",
+          "description": "Length of hospital stay will be recorded as hours",
+          "timeFrame": "Postoperative, up to one month"
+        },
+        {
+          "measure": "The Clavien-Dindo classification of surgical complications",
+          "description": "Any postoperative complication will be graded by the Clavien-Dindo classification between I to V with I meaning any deviation from the postoperative course without the need for pharmacological treatment or surgical, endoscopic, and radiological interventions and V meaning death of a patient.",
+          "timeFrame": "Postoperative, up to one month"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Elective robotic surgery with intraabdominal insufflation and trendelenburg position (prostatectomy, hemicolectomy etc.)\n* ASA (American Society of Anesthesiologists) Physical Status I-II-III\n\nExclusion Criteria:\n\n* Patients without consent\n* Emergency surgery\n* Bleeding diathesis\n* Pregnancy or lactation\n* Prior history of major abdominal/pelvic surgery\n* Chronic kidney disease\n* Chronic opioid consumption for chronic pain\n* Inability to communicate with the patient due to language barriers or mental status",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Koç University",
+          "city": "Istanbul",
+          "zip": "34010",
+          "country": "Turkey (Türkiye)",
+          "geoPoint": {
+            "lat": 41.01384,
+            "lon": 28.94966
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "32632561",
+          "type": "BACKGROUND",
+          "citation": "Feng TS, Heulitt G, Islam A, Porter JR. Comparison of valve-less and standard insufflation on pneumoperitoneum-related complications in robotic partial nephrectomy: a prospective randomized trial. J Robot Surg. 2021 Jun;15(3):381-388. doi: 10.1007/s11701-020-01117-z. Epub 2020 Jul 6."
+        },
+        {
+          "pmid": "23186377",
+          "type": "BACKGROUND",
+          "citation": "Horstmann M, Horton K, Kurz M, Padevit C, John H. Prospective comparison between the AirSeal(R) System valve-less Trocar and a standard Versaport Plus V2 Trocar in robotic-assisted radical prostatectomy. J Endourol. 2013 May;27(5):579-82. doi: 10.1089/end.2012.0632. Epub 2013 Feb 5."
+        },
+        {
+          "pmid": "32333365",
+          "type": "BACKGROUND",
+          "citation": "Paull JO, Parsacandola SA, Graham A, Hota S, Pudalov N, Obias V. The impact of the AirSeal(R) valve-less trocar system in robotic colorectal surgery: a single-surgeon retrospective review. J Robot Surg. 2021 Feb;15(1):87-92. doi: 10.1007/s11701-020-01071-w. Epub 2020 Apr 24."
+        },
+        {
+          "pmid": "28669704",
+          "type": "BACKGROUND",
+          "citation": "La Falce S, Novara G, Gandaglia G, Umari P, De Naeyer G, D'Hondt F, Beresian J, Carette R, Penicka M, Mo Y, Vandenbroucke G, Mottrie A. Low Pressure Robot-assisted Radical Prostatectomy With the AirSeal System at OLV Hospital: Results From a Prospective Study. Clin Genitourin Cancer. 2017 Dec;15(6):e1029-e1037. doi: 10.1016/j.clgc.2017.05.027. Epub 2017 Jun 2."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Data collected for the study, including de-identified individual participant data will be made available to other within 6 months after the publication of this trial, as will additional related documents (study protocol, statistical analysis plan and informed consent form), for academic purposes (e.g , meta-analyses) upon request to the corresponding author, and with a signed data access agreement.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF",
+        "CSR"
+      ],
+      "timeFrame": "6 months after the publication",
+      "accessCriteria": "Academic purposes"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D010149",
+          "term": "Pain, Postoperative"
+        },
+        {
+          "id": "D006935",
+          "term": "Hypercapnia"
+        },
+        {
+          "id": "D011183",
+          "term": "Postoperative Complications"
+        },
+        {
+          "id": "D007431",
+          "term": "Intraoperative Complications"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D010146",
+          "term": "Pain"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D012818",
+          "term": "Signs and Symptoms, Respiratory"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

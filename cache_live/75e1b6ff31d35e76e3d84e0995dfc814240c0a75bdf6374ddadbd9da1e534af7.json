@@ -1,0 +1,403 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05993585",
+      "orgStudyIdInfo": {
+        "id": "318500"
+      },
+      "organization": {
+        "fullName": "Guy's and St Thomas' NHS Foundation Trust",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Effect of CRT on the Frank Starling Mechanism",
+      "officialTitle": "The Effects of Cardiac Resynchronisation Therapy on the Frank Starling Mechanism in Patients With Heart Failure",
+      "acronym": "CRT"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-03",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-01-15",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-06-02",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-06-02",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-07-31",
+      "studyFirstSubmitQcDate": "2023-08-08",
+      "studyFirstPostDateStruct": {
+        "date": "2023-08-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-03-25",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-03-26",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Guy's and St Thomas' NHS Foundation Trust",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "King's College London",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The investigators are examining a scientific principle called the Frank Starling Mechanism and how it relates to Cardiac Resynchronisation Therapy (CRT), a form of pacemaker therapy used in the treatment of heart failure.\n\nThe Frank Starling Mechanism is an established biological principle. The law states that the stroke volume of the heart increases in response to an increase in the volume of blood in the ventricles, before contraction, when all other factors remain constant. In other words, the law states that the more blood enters the heart, the more blood is pumped out of the heart with any given beat.\n\nThere is some evidence that in some patients with chronic heart conditions, the Frank Starling Mechanism is LESS EFFECTIVE, meaning that the heart is less able to cope with a reduction in heart pumping function over time. There is also evidence that treatment with CRT may IMPROVE the Frank Starling Mechanism - evidence for this has been shown in dog and mice hearts, however, has never been shown in humans.\n\nThe investigators aim to conduct a study where subjects undergo an ultrasound scan of the heart (echocardiogram) whilst the participants pacemaker settings are temporarily changed. This allows the investigators to measure the pumping function of the heart as more blood enters the heart. The investigators will perform this test on 20 participants before and after CRT, as well as 20 participants who have pacemakers, but no heart failure. This study aims to test 3 hypotheses.\n\n1. In participants with pacemakers, a REDUCED Frank Starling Mechanism predicts which participants go on to develop heart failure.\n2. Treatment with CRT IMPROVES the Frank Starling Mechanism in participants with pacemakers and heart failure.\n3. The degree of improvement of the Frank Starling Mechanism after treatment with CRT predicts which participants will respond to this treatment.",
+      "detailedDescription": "The primary research investigation in this study is a non-invasive test of the Frank Starling mechanism, which involves performing a transthoracic echocardiogram (ultrasound scan of the heart) whilst temporarily changing pacemaker settings to mimic conditions such as faster heart rates or increased blood flow to the heart. Measurements taken from the echocardiogram during these changes in pacemaker settings will be used to determine the effectiveness of the heart's Starling Mechanism. This test will last between 20-40 minutes. No special preparation is needed and participants will be able to go home immediately afterwards. Pacemaker settings will be returned to normal once the test is completed."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Pacemaker",
+        "Heartfailure"
+      ],
+      "keywords": [
+        "Frank Starling Mechanism",
+        "CRT"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Single centre trial - observational cohort study",
+        "primaryPurpose": "BASIC_SCIENCE",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 40,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "CRT Group",
+          "type": "EXPERIMENTAL",
+          "description": "CRT group: We will include patients with symptomatic heart failure (LV ejection fraction \\<35% on TTE, NYHA II-IV) and an RV pacing percentage of \\>40%, thus meeting ESC Criteria for CRT upgrade.",
+          "interventionNames": [
+            "Other: Test Of The Frank Starling Mechanism - Adjustment Of Av Delay And Measurement Of Pre-load -Control"
+          ]
+        },
+        {
+          "label": "Control Group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Control group: patients with an existing dual chamber pacemaker and with preserved ejection fraction",
+          "interventionNames": [
+            "Other: Other: Test Of The Frank Starling Mechanism - Adjustment Of Av Delay And Measurement Of Pre-load -CRT"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Test Of The Frank Starling Mechanism - Adjustment Of Av Delay And Measurement Of Pre-load -Control",
+          "description": "(Control Group): One test of the Starling mechanism Visit 1: Sign consent form, doctor assessment, electrocardiogram (ECG), Starling Test. If patients are in this category, this will be their only research visit",
+          "armGroupLabels": [
+            "CRT Group"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Other: Test Of The Frank Starling Mechanism - Adjustment Of Av Delay And Measurement Of Pre-load -CRT",
+          "description": "(CRT Group): Two tests of the Starling mechanisms Visit 1: Sign consent form, assessment by doctor, electrocardiogram (ECG), Test of the Starling mechanism Visit 2: CRT upgrade procedure - your Cardiologist will explain this procedure to you. Visit 3: CRT pacing check at 6 weeks post-procedure Visit 4: Assessment by doctor, ECG, Echocardiogram, Test of the Starling mechanism at 6 months post-procedure.",
+          "armGroupLabels": [
+            "Control Group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Difference in starling mechanism",
+          "description": "1\\. Difference in maximum change in stroke volume (SV) in millilitres with AV delay modification \"Starling mechanics\" pre-CRT versus post-CRT (difference between lowest and highest SV).",
+          "timeFrame": "Prior to pacing test (starling mechanism test) and after six months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Left ventricular end-systolic volume (ml)",
+          "description": "Difference in left ventricular end-systolic volume in millimetres recorded on echocardiogram",
+          "timeFrame": "Prior to pacing test (starling mechanism test) and after six months"
+        },
+        {
+          "measure": "Left ventricular ejection fraction (%)",
+          "description": "Difference in Left ventricular ejection fraction in percent measured on echocardiogram",
+          "timeFrame": "Prior to pacing test (starling mechanism test) and after six months"
+        },
+        {
+          "measure": "Quality of life with heart failure symptoms",
+          "description": "Quality of life in heart failure assessed by Minnesota Living with Heart Failure Questionnaire",
+          "timeFrame": "Prior to pacing test (starling mechanism test) and after six months"
+        },
+        {
+          "measure": "Heart failure symptoms",
+          "description": "New York Heart Association ( NYHA) class - breathlessness on different levels of exercise - from walking on the flat (NYHA 2) up to limited by breathlessness on little movement (NYHA 4)",
+          "timeFrame": "Prior to pacing test (starling mechanism test) and after six months"
+        },
+        {
+          "measure": "Packer's clinical composite score",
+          "description": "Difference in patient outcome measured by the clinical composite score - the score ranges from improved to unchanged or worsened",
+          "timeFrame": "Prior to pacing test (starling mechanism test) and at six months"
+        },
+        {
+          "measure": "Difference in baseline Starling mechanics between CRT group and control group",
+          "description": "Difference in stroke volume in millilitres during the pacing test (starling mechanism test) between the CRT and control group",
+          "timeFrame": "Prior to pacing test (starling mechanism test) and at six months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* • Ability to provide informed consent to participate and willing to comply with the clinical investigation plan and follow-up schedule.\n\n  * Existing dual chamber pacemaker or ICD including atrial lead and RV lead.\n  * RV pacing percentage \\>40%.\n  * CRT group - Severe left ventricular systolic impairment (LVEF≤35%). Clinical symptoms of heart failure despite optimum medical therapy (NYHA class II-IV).\n  * Control group - LVEF \\>50%.\n\nExclusion Criteria:\n\n* • Previous treated with CRT (existing LV lead/His-Bundle lead/Left Bundle Branch Area lead).\n\n  * Persistent atrial fibrillation\n  * Female participants who are pregnant, lactating or planning pregnancy during the course of the study.\n  * Participation in other studies with active treatment / investigational arm",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Sandra N Howell/Dr, Med State Exam, MSc, MSc",
+          "role": "CONTACT",
+          "phone": "44 020 7188 9257",
+          "email": "sandra.howell@kcl.ac.uk"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Christopher Aldo Rinaldi/Professor, MD, FHRS",
+          "affiliation": "Guy's and St Thomas' NHS Foundation Trust",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Steven Niederer/Professor, PhD",
+          "affiliation": "King's College London",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Guy's and St Thomas' NHS Trust",
+          "status": "RECRUITING",
+          "city": "London",
+          "zip": "SE1 7EH",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Sandra N Howell/Dr, Med State Exam, MSc, MSc",
+              "role": "CONTACT",
+              "phone": "020 7188 9257",
+              "email": "sandra.howell@kcl.ac.uk"
+            },
+            {
+              "name": "Christopher Aldo Rinaldi/Professor, MD, FHRS",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "29439074",
+          "type": "BACKGROUND",
+          "citation": "Kim JH, Kang KW, Chin JY, Kim TS, Park JH, Choi YJ. Major determinant of the occurrence of pacing-induced cardiomyopathy in complete atrioventricular block: a multicentre, retrospective analysis over a 15-year period in South Korea. BMJ Open. 2018 Feb 8;8(2):e019048. doi: 10.1136/bmjopen-2017-019048."
+        },
+        {
+          "pmid": "23614585",
+          "type": "BACKGROUND",
+          "citation": "Curtis AB, Worley SJ, Adamson PB, Chung ES, Niazi I, Sherfesee L, Shinn T, Sutton MS; Biventricular versus Right Ventricular Pacing in Heart Failure Patients with Atrioventricular Block (BLOCK HF) Trial Investigators. Biventricular pacing for atrioventricular block and systolic dysfunction. N Engl J Med. 2013 Apr 25;368(17):1585-93. doi: 10.1056/NEJMoa1210356."
+        },
+        {
+          "pmid": "31504437",
+          "type": "BACKGROUND",
+          "citation": "Tayal B, Fruelund P, Sogaard P, Riahi S, Polcwiartek C, Atwater BD, Gislason G, Risum N, Torp-Pedersen C, Kober L, Kragholm KH. Incidence of heart failure after pacemaker implantation: a nationwide Danish Registry-based follow-up study. Eur Heart J. 2019 Nov 21;40(44):3641-3648. doi: 10.1093/eurheartj/ehz584."
+        },
+        {
+          "pmid": "21875860",
+          "type": "BACKGROUND",
+          "citation": "Chan JY, Fang F, Zhang Q, Fung JW, Razali O, Azlan H, Lam KH, Chan HC, Yu CM. Biventricular pacing is superior to right ventricular pacing in bradycardia patients with preserved systolic function: 2-year results of the PACE trial. Eur Heart J. 2011 Oct;32(20):2533-40. doi: 10.1093/eurheartj/ehr336. Epub 2011 Aug 29."
+        },
+        {
+          "pmid": "27855853",
+          "type": "BACKGROUND",
+          "citation": "Kiehl EL, Makki T, Kumar R, Gumber D, Kwon DH, Rickard JW, Kanj M, Wazni OM, Saliba WI, Varma N, Wilkoff BL, Cantillon DJ. Incidence and predictors of right ventricular pacing-induced cardiomyopathy in patients with complete atrioventricular block and preserved left ventricular systolic function. Heart Rhythm. 2016 Dec;13(12):2272-2278. doi: 10.1016/j.hrthm.2016.09.027."
+        },
+        {
+          "pmid": "27444509",
+          "type": "BACKGROUND",
+          "citation": "Ebert M, Jander N, Minners J, Blum T, Doering M, Bollmann A, Hindricks G, Arentz T, Kalusche D, Richter S. Long-Term Impact of Right Ventricular Pacing on Left Ventricular Systolic Function in Pacemaker Recipients With Preserved Ejection Fraction: Results From a Large Single-Center Registry. J Am Heart Assoc. 2016 Jul 21;5(7):e003485. doi: 10.1161/JAHA.116.003485."
+        },
+        {
+          "pmid": "24292707",
+          "type": "BACKGROUND",
+          "citation": "Kirk JA, Holewinski RJ, Kooij V, Agnetti G, Tunin RS, Witayavanitkul N, de Tombe PP, Gao WD, Van Eyk J, Kass DA. Cardiac resynchronization sensitizes the sarcomere to calcium by reactivating GSK-3beta. J Clin Invest. 2014 Jan;124(1):129-38. doi: 10.1172/JCI69253."
+        },
+        {
+          "pmid": "35168370",
+          "type": "BACKGROUND",
+          "citation": "Stachowski-Doll MJ, Papadaki M, Martin TG, Ma W, Gong HM, Shao S, Shen S, Muntu NA, Kumar M, Perez E, Martin JL, Moravec CS, Sadayappan S, Campbell SG, Irving T, Kirk JA. GSK-3beta Localizes to the Cardiac Z-Disc to Maintain Length Dependent Activation. Circ Res. 2022 Mar 18;130(6):871-886. doi: 10.1161/CIRCRESAHA.121.319491. Epub 2022 Feb 16."
+        },
+        {
+          "pmid": "20952413",
+          "type": "BACKGROUND",
+          "citation": "Niederer SA, Plank G, Chinchapatnam P, Ginks M, Lamata P, Rhode KS, Rinaldi CA, Razavi R, Smith NP. Length-dependent tension in the failing heart and the efficacy of cardiac resynchronization therapy. Cardiovasc Res. 2011 Feb 1;89(2):336-43. doi: 10.1093/cvr/cvq318. Epub 2010 Oct 14."
+        },
+        {
+          "pmid": "19379857",
+          "type": "BACKGROUND",
+          "citation": "Bastarrika G, Brabham WW, O'Brien TX, Costello P, Schoepf UJ. Dual-source computed tomography assessment of malfunctioning mechanical prosthetic valve. Ann Thorac Surg. 2009 May;87(5):e50. doi: 10.1016/j.athoracsur.2009.02.044. No abstract available."
+        },
+        {
+          "pmid": "16461055",
+          "type": "BACKGROUND",
+          "citation": "Jansen AH, Bracke FA, van Dantzig JM, Meijer A, van der Voort PH, Aarnoudse W, van Gelder BM, Peels KH. Correlation of echo-Doppler optimization of atrioventricular delay in cardiac resynchronization therapy with invasive hemodynamics in patients with heart failure secondary to ischemic or idiopathic dilated cardiomyopathy. Am J Cardiol. 2006 Feb 15;97(4):552-7. doi: 10.1016/j.amjcard.2005.08.076. Epub 2006 Jan 4."
+        },
+        {
+          "pmid": "9350930",
+          "type": "BACKGROUND",
+          "citation": "Shinbane JS, Chu E, DeMarco T, Sobol Y, Fitzpatrick AP, Lau DM, Klinski C, Schiller NB, Griffin JC, Chatterjee K. Evaluation of acute dual-chamber pacing with a range of atrioventricular delays on cardiac performance in refractory heart failure. J Am Coll Cardiol. 1997 Nov 1;30(5):1295-300. doi: 10.1016/s0735-1097(97)00307-0."
+        },
+        {
+          "pmid": "1442585",
+          "type": "BACKGROUND",
+          "citation": "Hochleitner M, Hortnagl H, Hortnagl H, Fridrich L, Gschnitzer F. Long-term efficacy of physiologic dual-chamber pacing in the treatment of end-stage idiopathic dilated cardiomyopathy. Am J Cardiol. 1992 Nov 15;70(15):1320-5. doi: 10.1016/0002-9149(92)90769-u."
+        },
+        {
+          "pmid": "7845803",
+          "type": "BACKGROUND",
+          "citation": "Guardigli G, Ansani L, Percoco GF, Toselli T, Spisani P, Braggion G, Antonioli GE. AV delay optimization and management of DDD paced patients with dilated cardiomyopathy. Pacing Clin Electrophysiol. 1994 Nov;17(11 Pt 2):1984-8. doi: 10.1111/j.1540-8159.1994.tb03785.x."
+        },
+        {
+          "pmid": "9058869",
+          "type": "BACKGROUND",
+          "citation": "Auricchio A, Salo RW. Acute hemodynamic improvement by pacing in patients with severe congestive heart failure. Pacing Clin Electrophysiol. 1997 Feb;20(2 Pt 1):313-24. doi: 10.1111/j.1540-8159.1997.tb06176.x."
+        },
+        {
+          "pmid": "16624328",
+          "type": "BACKGROUND",
+          "citation": "Gill RM, Jones BD, Corbly AK, Ohad DG, Smith GD, Sandusky GE, Christe ME, Wang J, Shen W. Exhaustion of the Frank-Starling mechanism in conscious dogs with heart failure induced by chronic coronary microembolization. Life Sci. 2006 Jul 4;79(6):536-44. doi: 10.1016/j.lfs.2006.01.045. Epub 2006 Apr 19."
+        },
+        {
+          "pmid": "8772688",
+          "type": "BACKGROUND",
+          "citation": "Holubarsch C, Ruf T, Goldstein DJ, Ashton RC, Nickl W, Pieske B, Pioch K, Ludemann J, Wiesner S, Hasenfuss G, Posival H, Just H, Burkhoff D. Existence of the Frank-Starling mechanism in the failing human heart. Investigations on the organ, tissue, and sarcomere levels. Circulation. 1996 Aug 15;94(4):683-9. doi: 10.1161/01.cir.94.4.683."
+        },
+        {
+          "pmid": "9614508",
+          "type": "BACKGROUND",
+          "citation": "Weil J, Eschenhagen T, Hirt S, Magnussen O, Mittmann C, Remmers U, Scholz H. Preserved Frank-Starling mechanism in human end stage heart failure. Cardiovasc Res. 1998 Feb;37(2):541-8. doi: 10.1016/s0008-6363(97)00227-7."
+        },
+        {
+          "pmid": "8156643",
+          "type": "BACKGROUND",
+          "citation": "Schwinger RH, Bohm M, Koch A, Schmidt U, Morano I, Eissner HJ, Uberfuhr P, Reichart B, Erdmann E. The failing human heart is unable to use the Frank-Starling mechanism. Circ Res. 1994 May;74(5):959-69. doi: 10.1161/01.res.74.5.959."
+        },
+        {
+          "pmid": "31750524",
+          "type": "BACKGROUND",
+          "citation": "De Vecchis R, Ariano C. Conversion to and maintenance of sinus rhythm do not yield a significant increase in stroke-volume in HFREF patients, whose heart works on the flat branch of Frank-Starling curve, thereby making the retrieval of the atrial mechanical contribution in this subset a substantially futile choice. Eur Heart J. 2019 Nov 21;40(44):3651-3652. doi: 10.1093/eurheartj/ehz655. No abstract available."
+        },
+        {
+          "pmid": "16993846",
+          "type": "BACKGROUND",
+          "citation": "Starling EH, Visscher MB. The regulation of the energy output of the heart. J Physiol. 1927 Jan 12;62(3):243-61. doi: 10.1113/jphysiol.1927.sp002355. No abstract available."
+        },
+        {
+          "pmid": "23741053",
+          "type": "BACKGROUND",
+          "citation": "Wong JA, Yee R, Stirrat J, Scholl D, Krahn AD, Gula LJ, Skanes AC, Leong-Sit P, Klein GJ, McCarty D, Fine N, Goela A, Islam A, Thompson T, Drangova M, White JA. Influence of pacing site characteristics on response to cardiac resynchronization therapy. Circ Cardiovasc Imaging. 2013 Jul;6(4):542-50. doi: 10.1161/CIRCIMAGING.111.000146. Epub 2013 Jun 5."
+        },
+        {
+          "pmid": "21668964",
+          "type": "BACKGROUND",
+          "citation": "Leyva F, Foley PW, Chalil S, Ratib K, Smith RE, Prinzen F, Auricchio A. Cardiac resynchronization therapy guided by late gadolinium-enhancement cardiovascular magnetic resonance. J Cardiovasc Magn Reson. 2011 Jun 13;13(1):29. doi: 10.1186/1532-429X-13-29."
+        },
+        {
+          "pmid": "17933857",
+          "type": "BACKGROUND",
+          "citation": "Chalil S, Foley PW, Muyhaldeen SA, Patel KC, Yousef ZR, Smith RE, Frenneaux MP, Leyva F. Late gadolinium enhancement-cardiovascular magnetic resonance as a predictor of response to cardiac resynchronization therapy in patients with ischaemic cardiomyopathy. Europace. 2007 Nov;9(11):1031-7. doi: 10.1093/europace/eum133. Epub 2007 Oct 12."
+        },
+        {
+          "pmid": "16903969",
+          "type": "BACKGROUND",
+          "citation": "Bleeker GB, Schalij MJ, Van Der Wall EE, Bax JJ. Postero-lateral scar tissue resulting in non-response to cardiac resynchronization therapy. J Cardiovasc Electrophysiol. 2006 Aug;17(8):899-901. doi: 10.1111/j.1540-8167.2006.00499.x."
+        },
+        {
+          "pmid": "34871385",
+          "type": "BACKGROUND",
+          "citation": "Wouters PC, van Everdingen WM, Vernooy K, Geelhoed B, Allaart CP, Rienstra M, Maass AH, Vos MA, Prinzen FW, Meine M, Cramer MJ. Does mechanical dyssynchrony in addition to QRS area ensure sustained response to cardiac resynchronization therapy? Eur Heart J Cardiovasc Imaging. 2022 Nov 17;23(12):1628-1635. doi: 10.1093/ehjci/jeab264."
+        },
+        {
+          "pmid": "12771115",
+          "type": "BACKGROUND",
+          "citation": "Young JB, Abraham WT, Smith AL, Leon AR, Lieberman R, Wilkoff B, Canby RC, Schroeder JS, Liem LB, Hall S, Wheelan K; Multicenter InSync ICD Randomized Clinical Evaluation (MIRACLE ICD) Trial Investigators. Combined cardiac resynchronization and implantable cardioversion defibrillation in advanced chronic heart failure: the MIRACLE ICD Trial. JAMA. 2003 May 28;289(20):2685-94. doi: 10.1001/jama.289.20.2685."
+        },
+        {
+          "pmid": "17565085",
+          "type": "BACKGROUND",
+          "citation": "McAlister FA, Ezekowitz J, Hooton N, Vandermeer B, Spooner C, Dryden DM, Page RL, Hlatky MA, Rowe BH. Cardiac resynchronization therapy for patients with left ventricular systolic dysfunction: a systematic review. JAMA. 2007 Jun 13;297(22):2502-14. doi: 10.1001/jama.297.22.2502."
+        },
+        {
+          "pmid": "34455430",
+          "type": "BACKGROUND",
+          "citation": "Glikson M, Nielsen JC, Kronborg MB, Michowitz Y, Auricchio A, Barbash IM, Barrabes JA, Boriani G, Braunschweig F, Brignole M, Burri H, Coats AJS, Deharo JC, Delgado V, Diller GP, Israel CW, Keren A, Knops RE, Kotecha D, Leclercq C, Merkely B, Starck C, Thylen I, Tolosana JM; ESC Scientific Document Group. 2021 ESC Guidelines on cardiac pacing and cardiac resynchronization therapy. Eur Heart J. 2021 Sep 14;42(35):3427-3520. doi: 10.1093/eurheartj/ehab364. No abstract available."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Non-identifiable data will be shared upon request",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF",
+        "CSR"
+      ],
+      "timeFrame": "Non-identifiable data will only be available after the end of the study",
+      "accessCriteria": "Fully anonymised data available upon request via email"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    }
+  },
+  "hasResults": false
+}

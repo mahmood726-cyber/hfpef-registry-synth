@@ -1,0 +1,440 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07178145",
+      "orgStudyIdInfo": {
+        "id": "302641"
+      },
+      "organization": {
+        "fullName": "University of Virginia",
+        "class": "OTHER"
+      },
+      "briefTitle": "Epicardial Adipose Tissue Composition and Heart Failure With Preserved Ejection Fraction",
+      "officialTitle": "MRI of Epicardial Adipose Tissue Composition: Development of Methods and Application to Heart Failure With Preserved Ejection Fraction"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-09",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-09",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2029-09",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-07-23",
+      "studyFirstSubmitQcDate": "2025-09-15",
+      "studyFirstPostDateStruct": {
+        "date": "2025-09-17",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-09-15",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-09-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Amit R. Patel",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "University of Virginia"
+      },
+      "leadSponsor": {
+        "name": "University of Virginia",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Institutes of Health (NIH)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study seeks to develop improved cardiac MRI (CMR) methods to quantify epicardial adipose tissue (EAT) composition and to demonstrate the advantages of EAT composition imaging (a) in advancing the understanding of the relationship between EAT and heart failure with preserved ejection fraction (HFpEF) and (b) for understanding mechanisms of and guiding medical therapy in HFpEF. The investigators recently developed the first method for quantifying EAT FAC in human subjects, utilizing a rate-6 accelerated radial 2D multi-echo gradient-echo breathhold acquisition with a local low rank reconstruction. In this project the first specific aim is to develop a rapid free-breathing 3D EAT FAC MRI method that reduces motion-related artifacts, increases coverage, and facilitates higher spatial resolution and improved FAC reproducibility. The second specific aim is to show that EAT FAC is more strongly associated than EAT volume with cardiometabolic HFpEF. In this context, individuals with known or suspected HFpEF will undergo CMR, echocardiography, and other testing to (a) diagnose cardiometabolic HFpEF; (b) characterize features associated with the severity of HFpEF; and (c) assess EAT volume and FAC. The investigators will determine if EAT FAC is more strongly associated than EAT volume with HFpEF and with features associated with the severity of HFpEF. The third specific aim is to show, in the context of cardiometabolic HFpEF and pre-HFpEF, (a) that GLP-1 receptor agonism with semaglutide (SEMA) shifts the EAT FAC to a less proinflammatory profile and (b) that baseline EAT FAC is a stronger predictor than EAT volume of improved cardiovascular function due to SEMA. Cardiometabolic HFpEF and pre-HFpEF subjects will undergo echocardiography and CMR with EAT FAC at baseline and after 3 months to serve as a self-control. Subjects will then undergo repeat imaging 6 months after the initiation of SEMA. The change in FAC after treatment with SEMA will be compared to the change in FAC prior to SEMA. Data will be analyzed to show that SEMA changes EAT FAC, and that baseline EAT FAC is a stronger predictor than EAT volume of improvements in severity of HFpEF."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure Preserved Ejection Fraction",
+        "Epicardial Adipose Tissue"
+      ],
+      "keywords": [
+        "HFpEF",
+        "Heart Failure preserved Ejection Fraction",
+        "Cardiac MRI",
+        "Epicardial Adipose Tissue",
+        "GLP-1",
+        "EAT FAC",
+        "cardiovascular function"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "SEQUENTIAL",
+        "primaryPurpose": "DIAGNOSTIC",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 192,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "3D EAT FAC CMR imaging",
+          "type": "NO_INTERVENTION",
+          "description": "non-contrast MRI to debug/test 3D MRI techniques for quantifying EAT FAC"
+        },
+        {
+          "label": "Imaging acquisition and medical condition overview",
+          "type": "NO_INTERVENTION",
+          "description": "Will undergo Cardiac MRI, exercise echocardiography, 12 lead ECG, medical history review, bloodwork, physical exam, and optional stress cardiac MRI."
+        },
+        {
+          "label": "Imaging acquisition and GLP-1RA treatment",
+          "type": "EXPERIMENTAL",
+          "description": "Will undergo all testing before and after a 6-month treatment of GLP-1RA",
+          "interventionNames": [
+            "Drug: GLP-1RA"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "GLP-1RA",
+          "description": "Receive 6 months of GLP-1RA (Semaglutide) treatment starting at 0.25mg once weekly and then the dose will be up titrated as tolerated every four weeks to once-weekly doses of 0.5, 1.0, 1.7, and 2.4 mg until a target dose of 2.4mg is reached after 16 weeks.",
+          "armGroupLabels": [
+            "Imaging acquisition and GLP-1RA treatment"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Epicardial adipose tissue (EAT) fatty acid composition (FAC)",
+          "description": "The longitudinal change in epicardial adipose tissue (EAT) fatty acid composition (FAC) \\[quantified in terms of the fraction of saturated fatty acids (SFA) in units of %\\] that occur after 6 months of treatment with semaglutide will be compared to the change in SFA that occurred during 3 month period prior to the initiation of semaglutide.",
+          "timeFrame": "Baseline, 3 months (self-control period), and 9-months (6 months post semaglutide treatment)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "EAT Volume",
+          "description": "The longitudinal change in epicardial adipose tissue (EAT) volume (ml) that occurs after 6 months of treatment with semaglutide will be compared to the change in SFA that occurred during 3 month period prior to the initiation of semaglutide.",
+          "timeFrame": "Baseline, 3months (self-control period), and 9-months (6 months post semaglutide treatment)"
+        },
+        {
+          "measure": "Baseline Saturated Fatty Acid Composition of Epicaridal Adipose Tissue and Change in Myocardial Deformation",
+          "description": "The cohort will be divided into 2 groups based on the median value of the epicardial adipose tissue saturated fatty acid composition. The change in global strain (%) following treatment with semaglutide will be compared between the groups.",
+          "timeFrame": "Baseline, 3months (self-control period), and 9-months (6 months post semaglutide treatment)"
+        },
+        {
+          "measure": "Baseline Saturated Fatty Acid Composition of Epicaridal Adipose Tissue and Change in diastolic dysfunction grade",
+          "description": "The cohort will be divided into 2 groups based on the median value of the epicardial adipose tissue saturated fatty acid composition. The change in diastolic dysfunction grade following treatment with semaglutide will be compared between the groups.",
+          "timeFrame": "Baseline, 3months (self-control period), and 9-months (6 months post semaglutide treatment)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age ≥ 18 years - 90 years;\n* LVEF ≥ 50%;\n* ≥ 2 risk factors for HFpEF or symptoms that could be related to HFpEF (e.g., dyspnea, orthopnea, paroxysmal nocturnal dyspnea, lower extremity edema, pulmonary edema, etc);\n* Not currently being treated with GLP-1RA therapy or SGLT2i therapy.\n\nExclusion Criteria:\n\n* • Previously or currently reduced EF (\\<50%), including heart transplant; (2) Obstructive un-revascularized coronary disease by coronary CT or invasive coronary angiography;\n\n  * MI/PCI/CABG within the past 6 months;\n  * Untreated severe stenotic or regurgitant valvular disease;\n  * Infiltrative cardiomyopathy (Fabry/HCM/sarcoid/amyloid, etc);\n  * Myocarditis;\n  * Claustrophobia/inability to tolerate MRI;\n  * Implants that are a contraindication for MRI or may negatively impact image quality (e.g. pacemakers and ICDs);\n  * Active systemic inflammatory disorder;\n  * Atrial fibrillation with rapid ventricular response at time of study; and\n  * Hemodynamic instability\n  * Pregnancy\n  * Prisoners\n  * Inability to provide informed consent\n\nExclusion Criteria for Optional Cardiac Stress Imaging Procedure\n\n* allergy to gadolinium-based contrast agents\n* Acute kidney injury\n* Estimated glomerular filtration rate (eGFR) \\< 30 mL/min/1.73 m²\n* Hepatorenal syndrome\n* History of liver transplant\n* High-grade atrioventricular (AV) block\n* Active asthma exacerbation\n* Known allergy to vasodilator agents\n* Recent seizure",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "90 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Shuo Wang",
+          "role": "CONTACT",
+          "phone": "434-982-1058",
+          "email": "VJR7CE@uvahealth.org"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Amit Patel, MD",
+          "affiliation": "University of Virginia",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Virginia",
+          "city": "Charlottesville",
+          "state": "Virginia",
+          "zip": "22903",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Shuo Wang",
+              "role": "CONTACT",
+              "phone": "434-982-1058",
+              "email": "JR7CE@uvahealth.org"
+            },
+            {
+              "name": "Amit Patel, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.02931,
+            "lon": -78.47668
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "31120821",
+          "type": "BACKGROUND",
+          "citation": "Pfeffer MA, Shah AM, Borlaug BA. Heart Failure With Preserved Ejection Fraction In Perspective. Circ Res. 2019 May 24;124(11):1598-1617. doi: 10.1161/CIRCRESAHA.119.313572."
+        },
+        {
+          "pmid": "37797885",
+          "type": "BACKGROUND",
+          "citation": "Bozkurt B, Ahmad T, Alexander KM, Baker WL, Bosak K, Breathett K, Fonarow GC, Heidenreich P, Ho JE, Hsich E, Ibrahim NE, Jones LM, Khan SS, Khazanie P, Koelling T, Krumholz HM, Khush KK, Lee C, Morris AA, Page RL 2nd, Pandey A, Piano MR, Stehlik J, Stevenson LW, Teerlink JR, Vaduganathan M, Ziaeian B; Writing Committee Members. Heart Failure Epidemiology and Outcomes Statistics: A Report of the Heart Failure Society of America. J Card Fail. 2023 Oct;29(10):1412-1451. doi: 10.1016/j.cardfail.2023.07.006. Epub 2023 Sep 26. No abstract available."
+        },
+        {
+          "pmid": "37325396",
+          "type": "BACKGROUND",
+          "citation": "Shah SA, Reagan CE, Bresticker JE, Wolpe AG, Good ME, Macal EH, Billcheck HO, Bradley LA, French BA, Isakson BE, Wolf MJ, Epstein FH. Obesity-Induced Coronary Microvascular Disease Is Prevented by iNOS Deletion and Reversed by iNOS Inhibition. JACC Basic Transl Sci. 2023 Feb 1;8(5):501-514. doi: 10.1016/j.jacbts.2022.11.005. eCollection 2023 May."
+        },
+        {
+          "pmid": "39323040",
+          "type": "BACKGROUND",
+          "citation": "Echols JT, Wang S, Patel AR, Hogwood AC, Abbate A, Epstein FH. Fatty acid composition MRI of epicardial adipose tissue: Methods and detection of proinflammatory biomarkers in ST-segment elevation myocardial infarction patients. Magn Reson Med. 2025 Feb;93(2):519-535. doi: 10.1002/mrm.30285. Epub 2024 Sep 25."
+        },
+        {
+          "pmid": "35726367",
+          "type": "BACKGROUND",
+          "citation": "Shah SA, Echols JT, Sun C, Wolf MJ, Epstein FH. Accelerated fatty acid composition MRI of epicardial adipose tissue: Development and application to eplerenone treatment in a mouse model of obesity-induced coronary microvascular disease. Magn Reson Med. 2022 Oct;88(4):1734-1747. doi: 10.1002/mrm.29348. Epub 2022 Jun 20."
+        },
+        {
+          "pmid": "30548522",
+          "type": "BACKGROUND",
+          "citation": "Martel D, Leporq B, Saxena A, Belmont HM, Turyan G, Honig S, Regatte RR, Chang G. 3T chemical shift-encoded MRI: Detection of altered proximal femur marrow adipose tissue composition in glucocorticoid users and validation with magnetic resonance spectroscopy. J Magn Reson Imaging. 2019 Aug;50(2):490-496. doi: 10.1002/jmri.26586. Epub 2018 Dec 12."
+        },
+        {
+          "pmid": "30006022",
+          "type": "BACKGROUND",
+          "citation": "Martel D, Leporq B, Bruno M, Regatte RR, Honig S, Chang G. Chemical shift-encoded MRI for assessment of bone marrow adipose tissue fat composition: Pilot study in premenopausal versus postmenopausal women. Magn Reson Imaging. 2018 Nov;53:148-155. doi: 10.1016/j.mri.2018.07.001. Epub 2018 Jul 10."
+        },
+        {
+          "pmid": "26527483",
+          "type": "BACKGROUND",
+          "citation": "Leporq B, Lambert SA, Ronot M, Boucenna I, Colinart P, Cauchy F, Vilgrain V, Paradis V, Van Beers BE. Hepatic fat fraction and visceral adipose tissue fatty acid composition in mice: Quantification with 7.0T MRI. Magn Reson Med. 2016 Aug;76(2):510-8. doi: 10.1002/mrm.25895. Epub 2015 Nov 3."
+        },
+        {
+          "pmid": "30368904",
+          "type": "BACKGROUND",
+          "citation": "Schneider M, Janas G, Lugauer F, Hoppe E, Nickel D, Dale BM, Kiefer B, Maier A, Bashir MR. Accurate fatty acid composition estimation of adipose tissue in the abdomen based on bipolar multi-echo MRI. Magn Reson Med. 2019 Apr;81(4):2330-2346. doi: 10.1002/mrm.27557. Epub 2018 Oct 28."
+        },
+        {
+          "pmid": "21868182",
+          "type": "BACKGROUND",
+          "citation": "Bydder M, Girard O, Hamilton G. Mapping the double bonds in triglycerides. Magn Reson Imaging. 2011 Oct;29(8):1041-6. doi: 10.1016/j.mri.2011.07.004. Epub 2011 Aug 24."
+        },
+        {
+          "pmid": "22334300",
+          "type": "BACKGROUND",
+          "citation": "Berglund J, Ahlstrom H, Kullberg J. Model-based mapping of fat unsaturation and chain length by chemical shift imaging--phantom validation and in vivo feasibility. Magn Reson Med. 2012 Dec;68(6):1815-27. doi: 10.1002/mrm.24196. Epub 2012 Feb 14."
+        },
+        {
+          "pmid": "32844500",
+          "type": "BACKGROUND",
+          "citation": "Peterson P, Trinh L, Mansson S. Quantitative 1 H MRI and MRS of fatty acid composition. Magn Reson Med. 2021 Jan;85(1):49-67. doi: 10.1002/mrm.28471. Epub 2020 Aug 25."
+        },
+        {
+          "pmid": "18509197",
+          "type": "BACKGROUND",
+          "citation": "Ren J, Dimitrov I, Sherry AD, Malloy CR. Composition of adipose tissue and marrow fat in humans by 1H NMR at 7 Tesla. J Lipid Res. 2008 Sep;49(9):2055-62. doi: 10.1194/jlr.D800010-JLR200. Epub 2008 May 28."
+        },
+        {
+          "type": "BACKGROUND",
+          "citation": "Johnson LF, Shoolery JN. Determination of Unsaturation and Average Molecular Weight of Natural Fats by Nuclear Magnetic Resonance. Analytical Chemistry 1962;34:1136-1139."
+        },
+        {
+          "pmid": "35714617",
+          "type": "BACKGROUND",
+          "citation": "Zou Q, Torres LA, Fain SB, Higano NS, Bates AJ, Jacob M. Dynamic imaging using motion-compensated smoothness regularization on manifolds (MoCo-SToRM). Phys Med Biol. 2022 Jul 4;67(14):10.1088/1361-6560/ac79fc. doi: 10.1088/1361-6560/ac79fc."
+        },
+        {
+          "pmid": "37814776",
+          "type": "BACKGROUND",
+          "citation": "Daude P, Roussel T, Troalen T, Viout P, Hernando D, Guye M, Kober F, Confort Gouny S, Bernard M, Rapacchi S. Comparative review of algorithms and methods for chemical-shift-encoded quantitative fat-water imaging. Magn Reson Med. 2024 Feb;91(2):741-759. doi: 10.1002/mrm.29860. Epub 2023 Oct 10."
+        },
+        {
+          "pmid": "38878970",
+          "type": "BACKGROUND",
+          "citation": "Daude P, Troalen T, Mackowiak ALC, Royer E, Piccini D, Yerly J, Pfeuffer J, Kober F, Gouny SC, Bernard M, Stuber M, Bastiaansen JAM, Rapacchi S. Trajectory correction enables free-running chemical shift encoded imaging for accurate cardiac proton-density fat fraction quantification at 3T. J Cardiovasc Magn Reson. 2024 Winter;26(2):101048. doi: 10.1016/j.jocmr.2024.101048. Epub 2024 Jun 13."
+        },
+        {
+          "pmid": "30684282",
+          "type": "BACKGROUND",
+          "citation": "Franz D, Diefenbach MN, Treibel F, Weidlich D, Syvari J, Ruschke S, Wu M, Holzapfel C, Drabsch T, Baum T, Eggers H, Rummeny EJ, Hauner H, Karampinos DC. Differentiating supraclavicular from gluteal adipose tissue based on simultaneous PDFF and T2 * mapping using a 20-echo gradient-echo acquisition. J Magn Reson Imaging. 2019 Aug;50(2):424-434. doi: 10.1002/jmri.26661. Epub 2019 Jan 25."
+        },
+        {
+          "pmid": "22777847",
+          "type": "BACKGROUND",
+          "citation": "Reeder SB, Hu HH, Sirlin CB. Proton density fat-fraction: a standardized MR-based biomarker of tissue fat concentration. J Magn Reson Imaging. 2012 Nov;36(5):1011-4. doi: 10.1002/jmri.23741. Epub 2012 Jul 6. No abstract available."
+        },
+        {
+          "pmid": "18777528",
+          "type": "BACKGROUND",
+          "citation": "Ma J. Dixon techniques for water and fat imaging. J Magn Reson Imaging. 2008 Sep;28(3):543-58. doi: 10.1002/jmri.21492."
+        },
+        {
+          "pmid": "36870978",
+          "type": "BACKGROUND",
+          "citation": "Liu J, Yu Q, Li Z, Zhou Y, Liu Z, You L, Tao L, Dong Q, Zuo Z, Gao L, Zhang D. Epicardial adipose tissue density is a better predictor of cardiometabolic risk in HFpEF patients: a prospective cohort study. Cardiovasc Diabetol. 2023 Mar 4;22(1):45. doi: 10.1186/s12933-023-01778-8."
+        },
+        {
+          "pmid": "31177816",
+          "type": "BACKGROUND",
+          "citation": "Ciuffo L, Nguyen H, Marques MD, Aronis KN, Sivasambu B, de Vasconcelos HD, Tao S, Spragg DD, Marine JE, Berger RD, Lima JAC, Calkins H, Ashikaga H. Periatrial Fat Quality Predicts Atrial Fibrillation Ablation Outcome. Circ Cardiovasc Imaging. 2019 Jun;12(6):e008764. doi: 10.1161/CIRCIMAGING.118.008764. Epub 2019 Jun 10."
+        },
+        {
+          "pmid": "37021018",
+          "type": "BACKGROUND",
+          "citation": "Takahashi N, Abe I, Kira S, Ishii Y. Role of epicardial adipose tissue in human atrial fibrillation. J Arrhythm. 2023 Feb 19;39(2):93-110. doi: 10.1002/joa3.12825. eCollection 2023 Apr."
+        },
+        {
+          "pmid": "30402702",
+          "type": "BACKGROUND",
+          "citation": "Klein C, Brunereau J, Lacroix D, Ninni S, Brigadeau F, Klug D, Longere B, Montaigne D, Pontana F, Coisne A. Left atrial epicardial adipose tissue radiodensity is associated with electrophysiological properties of atrial myocardium in patients with atrial fibrillation. Eur Radiol. 2019 Jun;29(6):3027-3035. doi: 10.1007/s00330-018-5793-4. Epub 2018 Nov 6."
+        },
+        {
+          "pmid": "33720759",
+          "type": "BACKGROUND",
+          "citation": "El Mahdiui M, Simon J, Smit JM, Kuneman JH, van Rosendael AR, Steyerberg EW, van der Geest RJ, Szaraz L, Herczeg S, Szegedi N, Geller L, Delgado V, Merkely B, Bax JJ, Maurovich-Horvat P. Posterior Left Atrial Adipose Tissue Attenuation Assessed by Computed Tomography and Recurrence of Atrial Fibrillation After Catheter Ablation. Circ Arrhythm Electrophysiol. 2021 Apr;14(4):e009135. doi: 10.1161/CIRCEP.120.009135. Epub 2021 Mar 15."
+        },
+        {
+          "pmid": "28837682",
+          "type": "BACKGROUND",
+          "citation": "Mahabadi AA, Balcer B, Dykun I, Forsting M, Schlosser T, Heusch G, Rassaf T. Cardiac computed tomography-derived epicardial fat volume and attenuation independently distinguish patients with and without myocardial infarction. PLoS One. 2017 Aug 24;12(8):e0183514. doi: 10.1371/journal.pone.0183514. eCollection 2017."
+        },
+        {
+          "pmid": "29233634",
+          "type": "BACKGROUND",
+          "citation": "Goeller M, Achenbach S, Marwan M, Doris MK, Cadet S, Commandeur F, Chen X, Slomka PJ, Gransar H, Cao JJ, Wong ND, Albrecht MH, Rozanski A, Tamarappoo BK, Berman DS, Dey D. Epicardial adipose tissue density and volume are related to subclinical atherosclerosis, inflammation and major adverse cardiac events in asymptomatic subjects. J Cardiovasc Comput Tomogr. 2018 Jan-Feb;12(1):67-73. doi: 10.1016/j.jcct.2017.11.007. Epub 2017 Nov 24."
+        },
+        {
+          "pmid": "28914752",
+          "type": "BACKGROUND",
+          "citation": "Marwan M, Hell M, Schuhback A, Gauss S, Bittner D, Pflederer T, Achenbach S. CT Attenuation of Pericoronary Adipose Tissue in Normal Versus Atherosclerotic Coronary Segments as Defined by Intravascular Ultrasound. J Comput Assist Tomogr. 2017 Sep/Oct;41(5):762-767. doi: 10.1097/RCT.0000000000000589."
+        },
+        {
+          "pmid": "31782934",
+          "type": "BACKGROUND",
+          "citation": "Monti CB, Codari M, De Cecco CN, Secchi F, Sardanelli F, Stillman AE. Novel imaging biomarkers: epicardial adipose tissue evaluation. Br J Radiol. 2020 Sep 1;93(1113):20190770. doi: 10.1259/bjr.20190770. Epub 2019 Dec 11."
+        },
+        {
+          "pmid": "29258509",
+          "type": "BACKGROUND",
+          "citation": "Ebadi M, Field CJ, Lehner R, Mazurak VC. Chemotherapy diminishes lipid storage capacity of adipose tissue in a preclinical model of colon cancer. Lipids Health Dis. 2017 Dec 19;16(1):247. doi: 10.1186/s12944-017-0638-8."
+        },
+        {
+          "pmid": "34890762",
+          "type": "BACKGROUND",
+          "citation": "Li W, Liu M, Yu F, Jiang T, Zhu W, Liu H. Changes in epicardial adipose tissue among women treated with trastuzumab for breast cancer. Int J Cardiol. 2022 Feb 1;348:163-168. doi: 10.1016/j.ijcard.2021.12.006. Epub 2021 Dec 8."
+        },
+        {
+          "type": "BACKGROUND",
+          "citation": "Hales CM. Prevalence of Obesity and Severe Obesity Among Adults: US Department of Health and Human Services, Centers for Disease Control and …, 2020."
+        },
+        {
+          "pmid": "19056664",
+          "type": "BACKGROUND",
+          "citation": "Kennedy A, Martinez K, Chuang CC, LaPoint K, McIntosh M. Saturated fatty acid-mediated inflammation and insulin resistance in adipose tissue: mechanisms of action and implications. J Nutr. 2009 Jan;139(1):1-4. doi: 10.3945/jn.108.098269. Epub 2008 Dec 3."
+        },
+        {
+          "pmid": "26971994",
+          "type": "BACKGROUND",
+          "citation": "Robblee MM, Kim CC, Porter Abate J, Valdearcos M, Sandlund KL, Shenoy MK, Volmer R, Iwawaki T, Koliwad SK. Saturated Fatty Acids Engage an IRE1alpha-Dependent Pathway to Activate the NLRP3 Inflammasome in Myeloid Cells. Cell Rep. 2016 Mar 22;14(11):2611-23. doi: 10.1016/j.celrep.2016.02.053. Epub 2016 Mar 10."
+        },
+        {
+          "pmid": "29773163",
+          "type": "BACKGROUND",
+          "citation": "Packer M. Epicardial Adipose Tissue May Mediate Deleterious Effects of Obesity and Inflammation on the Myocardium. J Am Coll Cardiol. 2018 May 22;71(20):2360-2372. doi: 10.1016/j.jacc.2018.03.509."
+        },
+        {
+          "pmid": "31202119",
+          "type": "BACKGROUND",
+          "citation": "Walker ME, Matthan NR, Goldbaum A, Meng H, Lamon-Fava S, Lakshman S, Jang S, Molokin A, Solano-Aguilar G, Urban JF Jr, Lichtenstein AH. Dietary patterns influence epicardial adipose tissue fatty acid composition and inflammatory gene expression in the Ossabaw pig. J Nutr Biochem. 2019 Aug;70:138-146. doi: 10.1016/j.jnutbio.2019.04.013. Epub 2019 May 14."
+        },
+        {
+          "pmid": "28640452",
+          "type": "BACKGROUND",
+          "citation": "Gaborit B, Sengenes C, Ancel P, Jacquier A, Dutour A. Role of Epicardial Adipose Tissue in Health and Disease: A Matter of Fat? Compr Physiol. 2017 Jun 18;7(3):1051-1082. doi: 10.1002/cphy.c160034."
+        },
+        {
+          "pmid": "35296869",
+          "type": "BACKGROUND",
+          "citation": "Iacobellis G. Epicardial adipose tissue in contemporary cardiology. Nat Rev Cardiol. 2022 Sep;19(9):593-606. doi: 10.1038/s41569-022-00679-9. Epub 2022 Mar 16."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054144",
+          "term": "Heart Failure, Diastolic"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

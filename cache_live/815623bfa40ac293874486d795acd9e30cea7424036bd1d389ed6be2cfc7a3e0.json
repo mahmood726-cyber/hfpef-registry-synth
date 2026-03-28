@@ -1,0 +1,285 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05637398",
+      "orgStudyIdInfo": {
+        "id": "03-22"
+      },
+      "organization": {
+        "fullName": "I.M. Sechenov First Moscow State Medical University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Colchicine in Patients With Heart Failure and Preserved Left Ventricular Ejection Fraction",
+      "officialTitle": "Colchicine in Patients With Heart Failure and Preserved Left Ventricular Ejection Fraction"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-01",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-12-15",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-09-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-11-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-11-05",
+      "studyFirstSubmitQcDate": "2022-11-24",
+      "studyFirstPostDateStruct": {
+        "date": "2022-12-05",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-04-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-04-10",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "I.M. Sechenov First Moscow State Medical University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Heart failure with preserved left ventricular ejection fraction (HFpEF) is a syndrome associated with high morbidity and mortality rates. Systemic low-grade inflammation is acknowledged to be a fundamental pathophysiological mechanism of HFpEF. Interventions targeting inflammatory pathway is understudied in HFpEF. Colchicine is a safe and well tolerated anti-inflammatory drug, which interferes with several steps in the inflammatory process. The drug has been extensively studied in different cardiovascular pathologies except HFpEF. We assume that colchicine decreases inflammation and reduces sST2 levels in HFpEF.",
+      "detailedDescription": "HFpEF is a syndrome associated with high morbidity and mortality rates. The underlying mechanisms of the syndrome are not fully understood. Systemic low-grade inflammation is acknowledged to be a fundamental pathophysiological mechanism of HFpEF, which facilitates cardiomyocyte stiffness and myocardial fibrosis development. However, anti-inflammatory treatment approaches are largely under studied. Colchicine is a safe and well tolerated anti-inflammatory drug, which interferes with several steps in the inflammatory process, resulting in suppression of a number of pro-inflammatory pathways and cytokines release, including IL-1, hsCRP. The drug has been extensively studied in patients with coronary artery disease (COLCOT, LoDoCo2) and showed significant reduction in risk of cardio-vascular events, as well as inflammation. Post-hoc analysis of in the CANTOS study investigated the effect of monoclonal antibody targeting interleukin-1β in patients with prior myocardial infarction, showed a reduction in heart failure (HF) hospitalization of patients with elevations in high-sensitivity C-reactive protein (hsCRP). There is no data available regarding the effect of Colchicine on HFpEF patients. Soluble suppression of tumourigenicity 2 (sST2), a member of the interleukin (IL)-1 receptor family, which is not restricted to inflammation, but is also expressed in cardiomyocytes, fibroblast and endothelial cells of cardiac microvessels in response to myocardial stress antagonizing cardioprotective effects of IL-33/ST2 system. In HFpEF, sST2 associated with worse clinical signs and symptoms, co-morbidities, biomarkers of fibrosis and neurohormonal activation. Elevated levels of sST2 are acknowledged as a predictor of worse prognosis in both HF with reduced ejection fraction (HFrEF) and HFpEF. We assume that colchicine decreases inflammation and reduces sST2 levels in HFpEF."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "HFpEF - Heart Failure With Preserved Ejection Fraction",
+        "Colchicine"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "All core-laboratory staff will be blind to the endpoints",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 40,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Colchicine 0.5 bid",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Eligible HFpEF patients will be randomized in 1:1 ratio by an investigator with either colchicine 0.5 twice daily or usual care for 12 weeks",
+          "interventionNames": [
+            "Drug: Colchicine"
+          ]
+        },
+        {
+          "label": "Usual Care",
+          "type": "NO_INTERVENTION",
+          "description": "Eligible HFpEF patients will be randomized in 1:1 ratio by an investigator with either colchicine 0.5 twice daily or usual care for 12 weeks"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Colchicine",
+          "description": "The active treatment intervention consists of colchicine 0.5 mg twice daily that will be administrated by the investigator",
+          "armGroupLabels": [
+            "Colchicine 0.5 bid"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Soluble suppression of tumourigenicity 2 (sST2,ng/ml)",
+          "description": "Delta\\_circulating sST2",
+          "timeFrame": "from baseline to 12 weeks of treatment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in high-sensitivity C-reactive protein (hsCRP, mg/l )",
+          "description": "Delta\\_ circulating hsCRP",
+          "timeFrame": "from baseline to 12 weeks of treatment"
+        },
+        {
+          "measure": "Change in N-terminal pro-brain natriuretic peptide (NTproBNP, ng,ml)",
+          "description": "Delta\\_circulating NTproBNP",
+          "timeFrame": "from baseline to 12 weeks of treatment"
+        },
+        {
+          "measure": "Change in E/e' (average)",
+          "description": "Delta\\_ E/e' (average) by 2D- echocardiography",
+          "timeFrame": "from baseline to 12 weeks of treatment"
+        },
+        {
+          "measure": "Change in Left ventricular global longitudinal strain (LVGLS,%)",
+          "description": "Delta\\_ left ventricular global longitudinal strain by 2D speckle tracking-echocardiography",
+          "timeFrame": "from baseline to 12 weeks of treatment"
+        },
+        {
+          "measure": "Left atrial reservoir strain (LA reservoir strain ,%)",
+          "description": "Delta\\_ LA reservoir strain by 2D speckle tracking-echocardiography",
+          "timeFrame": "from baseline to 12 weeks of treatment"
+        },
+        {
+          "measure": "Drug discontinuation",
+          "description": "Frequency of drug discontinuation",
+          "timeFrame": "during 12 weeks of treatment"
+        },
+        {
+          "measure": "Incidence of side effects",
+          "description": "Side effects will be registered and include gastrointestinal symptoms, hepatotoxicity, muscle weakness or pain, myotoxicity, renal dysfunction",
+          "timeFrame": "during 12 weeks of treatment"
+        },
+        {
+          "measure": "Change in insulin-like growth factor-binding protein 7 (IGFBP-7, ng/ml)",
+          "description": "Delta\\_circulating IGFBP-7",
+          "timeFrame": "from baseline to 12 weeks of treatment"
+        },
+        {
+          "measure": "Change in procollagen type I carboxy-terminal propeptide (PICP, ng/ml)",
+          "description": "Delta\\_circulating PICP",
+          "timeFrame": "from baseline to 12 weeks of treatment"
+        },
+        {
+          "measure": "Change in C-terminal telopeptide of collagen type I (CITP,ng/ml)",
+          "description": "Delta\\_circulating CITP",
+          "timeFrame": "from baseline to 12 weeks of treatment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* 40 years of age, male and female\n* Left ventricular ejection fraction (LVEF) ≥ 50%\n* Symptoms and signs of heart failure\n* N-terminal pro-B-type natriuretic peptide (NT-proBNP) ≥300 pg/ml at baseline (patients in atrial fibrillation at baseline NT-proBNP ≥ 600 pg/ml), left atrial volume index (LAVI) \\>34 mL/m2 or a left ventricular mass index (LVMI) =115 g/m2 for males and =95 g/m2 for females\n* body mass index (BMI) \\> 30kg/m2 or diabetes mellitus\n\nExclusion Criteria:\n\n* Hypertrophic cardiomyopathy, constrictive pericarditis, or cardiac amyloidosis\n* Acute decompensation of HF in the last 1 month\n* Valvular heart disease\n* Prior history of LVEF below 50%\n* Acute myocardial infarction in the last 3 months, cardiac surgery or cerebrovascular accident within the recent 6 months\n* Any active or chronic inflammatory diseases or infections\n* Patients with indication for colchicine therapy or history of colchicine intolerance\n* Severe hepatic (alanine aminotransferase N3 upper limit of normal or renal dysfunction (estimated glomerular filtration rate \\<45 mL/min per 1.73m2)\n* Severe nervous system diseases\n* History of any malignancy or suffering from cancer\n* Lack of informed consent",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "40 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Anastasia SHCHENDRYGINA",
+          "role": "CONTACT",
+          "phone": "+79262309207",
+          "email": "a.shchendrygina@gmail.com"
+        },
+        {
+          "name": "Svetlana Rachina",
+          "role": "CONTACT",
+          "email": "rachina_s_a@staff.sechenov.ru"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Anastasia Shchendrygina",
+          "affiliation": "Sechenov Univerity",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "A Shchendrygina",
+          "status": "RECRUITING",
+          "city": "Moscow",
+          "zip": "119415",
+          "country": "Russia",
+          "contacts": [
+            {
+              "name": "A SHCHENDRYGINA",
+              "role": "CONTACT",
+              "email": "a.shchendrygina@gmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "facility": "Anastasia Shchendrygina",
+          "status": "RECRUITING",
+          "city": "Moscow",
+          "zip": "119415",
+          "country": "Russia",
+          "contacts": [
+            {
+              "name": "ANASTASIA SHCHENDRYGINA",
+              "role": "CONTACT",
+              "email": "a.shchendrygina@gmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "37586845",
+          "type": "DERIVED",
+          "citation": "Shchendrygina A, Rachina S, Cherkasova N, Suvorov A, Komarova I, Mukhina N, Ananicheva N, Gasanova D, Sitnikova V, Koposova A, Smirnova J, Moiseewa E, Drogashevskaya D. Colchicine in patients with heart failure and preserved left ventricular ejection fraction: rationale and design of a prospective, randomised, open-label, crossover clinical trial. Open Heart. 2023 Aug;10(2):e002360. doi: 10.1136/openhrt-2023-002360."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003078",
+          "term": "Colchicine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000470",
+          "term": "Alkaloids"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

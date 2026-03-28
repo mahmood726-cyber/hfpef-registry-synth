@@ -1,0 +1,415 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03186404",
+      "orgStudyIdInfo": {
+        "id": "SPARE HF Pilot"
+      },
+      "organization": {
+        "fullName": "University Health Network, Toronto",
+        "class": "OTHER"
+      },
+      "briefTitle": "Statins for the Primary Prevention of Heart Failure in Patients Receiving Anthracycline Pilot Study",
+      "officialTitle": "Randomized Double Blind Placebo Controlled Trial of Statins for the Primary pREvention of Heart Failure in Patients With Cancer Receiving Anthracycline Based Chemotherapy",
+      "acronym": "SPARE-HF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-08",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2018-05-10",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-12-21",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2017-06-09",
+      "studyFirstSubmitQcDate": "2017-06-12",
+      "studyFirstPostDateStruct": {
+        "date": "2017-06-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-02-04",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-02-08",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University Health Network, Toronto",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Mount Sinai Hospital, Canada",
+          "class": "OTHER"
+        },
+        {
+          "name": "Unity Health Toronto",
+          "class": "OTHER"
+        },
+        {
+          "name": "Sunnybrook Health Sciences Centre",
+          "class": "OTHER"
+        },
+        {
+          "name": "Scarborough General Hospital",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Anthracycline (AC) chemotherapy has substantially reduced the mortality rate from several common cancers globally. Unfortunately, AC treatment is associated with up to 19% risk of heart failure (HF). Current standard of care for preventing AC induced HF (AIHF) is cardiac surveillance followed by initiation of treatment once HF is diagnosed. With this approach 89% of patients fail to recover heart function and 46% will experience adverse cardiac events. Therefore there is a need for effective preventive therapy to reduce the risk of AIHF. Based on small human studies, animal studies, and our own pilot data, statins are an ideal class of drug for this purpose.\n\nWe will conduct a pilot double blinded, placebo controlled, randomized controlled trial to assess whether pre-treatment with statins before AC can prevent heart dysfunction. Eligible patients with cardiovascular risk factors scheduled to receive AC will be recruited. They will be randomized to statin therapy or placebo and followed until the end of cancer treatment. Primary outcome is the difference in cardiac MRI-determined left ventricular ejection fraction between pre-AC and end of treatment.",
+      "detailedDescription": "STUDY DESIGN: This is a double blind, placebo controlled randomized controlled trial (RCT). We will also use stratification to ensure that the proportion of patients with different malignancies is balanced between the study arms.\n\nPATIENT RECRUITMENT: Patients will be recruited from respective oncology clinics at Princess Margaret Hospital, Mount Sinai Hospital, St. Michael's Hospital, Sunnybrook Health Sciences Centre and Scarborough General Hospital.\n\nINTERVENTION: Patients will receive treatment with 40mg/day of atorvastatin or placebo started 2-10 days prior to the initiation of AC and continued for up to one month after completion of the AC portion of cancer treatment.\n\nCARDIAC MRI (CMR): Studies will be performed on a 3.0T scanner (Siemens) and will include complete function and tissue characterization. CMR studies will be performed pre-therapy, after completion of AC, and 2 years after completion of AC. After de-identification and randomization, a research assistant blinded to all clinical data will perform all CMR analysis using commercially available software.\n\nECHOCARDIOGRAPHY: Routine echocardiography studies will be performed at baseline, post-anthracycline completion, and at 6 months, 1 year, and 2 years follow up.\n\nSERUM BIOMARKERS: Blood work will be obtained on the day of baseline imaging, immediately after each cycle of anthracycline, on the day of post treatment imaging, and at the 6 months, 1 year and 2 year follow up. At each time point, optional samples of bio-banking may be collected. Blood sample collection will be done locally at the participant's respective site and transferred to University Health Network (UHN) biobank for future analysis or analysis of markers that are not available at all sites (e.g. high sensitivity troponin I and BNP)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cancer",
+        "Heart Failure",
+        "Cardiotoxicity"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 112,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Placebos",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebos",
+          "interventionNames": [
+            "Drug: Placebo oral tablet"
+          ]
+        },
+        {
+          "label": "Statin",
+          "type": "EXPERIMENTAL",
+          "description": "Atorvastatin 40mg",
+          "interventionNames": [
+            "Drug: Atorvastatin"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Atorvastatin",
+          "description": "Atorvastatin 40mg OD",
+          "armGroupLabels": [
+            "Statin"
+          ],
+          "otherNames": [
+            "Statin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo oral tablet",
+          "description": "Placebo",
+          "armGroupLabels": [
+            "Placebos"
+          ],
+          "otherNames": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Cardiac MRI measured LVEF within 4 weeks of anthracycline completion",
+          "description": "Cardiac MRI LVEF at the end of treatment will be measured before cancer treatment and within 4 weeks after completion of anthracycline-based treatment. The pre-treatment measurement will facilitate a baseline adjusted comparison between placebo and statin treated groups.",
+          "timeFrame": "Within 4 weeks of cancer therapy completion"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Cardiac MRI measured LV end diastolic volume (LVEDV) and end systolic volume (LVESV) at the end of treatment",
+          "description": "these measures will be obtained at the same time as the LVEF measures with pre-treatment measurements facilitating a baseline adjusted comparison between placebo and statin treated groups",
+          "timeFrame": "Within 4 weeks of anthracycline completion"
+        },
+        {
+          "measure": "The incidence of cardiotoxicity",
+          "description": "defined by LVEF fall \\>10% from pre-cancer treatment assessment to \\<53%",
+          "timeFrame": "From start of anthracycline therapy to upto 4 weeks of anthracycline completion"
+        },
+        {
+          "measure": "Interruption of study drug due to side effects or permanent cessation of study drug or cancer treatment due to cardiac dysfunction",
+          "description": "as defined by reduction in drug dose or delay of cancer treatment by more than 1 week or permanent cessation",
+          "timeFrame": "From start of anthracycline therapy to upto 4 weeks of anthracycline completion"
+        },
+        {
+          "measure": "Troponin I",
+          "description": "Maximal increase in troponin I",
+          "timeFrame": "Maximal increase in Troponin I between pre-anthracycline therapy to within 4 weeks of anthracycline completion"
+        },
+        {
+          "measure": "BNP",
+          "description": "Maximal increase in BNP",
+          "timeFrame": "From start of anthracycline therapy to within 4 weeks of cancer therapy completion"
+        },
+        {
+          "measure": "Myocardial strain",
+          "description": "Maximal change in myocardial strain",
+          "timeFrame": "From start of anthracycline therapy to within 4 weeks of cancer therapy completion"
+        },
+        {
+          "measure": "MRI tissue characterization parameters",
+          "description": "Maximal change in myocardial tissue characterization parameters as measured by cardiac MRI from pre-anthracycline treatment to within 4 weeks of anthracycline completion",
+          "timeFrame": "Within 4 weeks of anthracycline completion"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patients with one of the following malignancies requiring anthracycline based chemotherapy with a curative intent: breast cancer; aggressive lymphomas; leukemia (acute myelogenous leukemia, acute lymphoblastic leukemia, mixed phenotype acute leukemia) or; sarcoma\n2. Patients with high cardiovascular risk defined as:\n\n   I. ≥60 years and at least one of the following:\n\n   i. Compromised cardiac function based on baseline LVEF \\<55% measured by echocardiography or MUGA or moderate left sided valvular heart disease (moderate mitral or aortic regurgitation or stenosis) ii. Planned cumulative doxorubicin dose equivalent 200mg/m² or more iii. Prior anthracycline therapy at any cumulative dose or prior chest/mediastinal radiation therapy iv. Any one of hypertension, smoking, obesity (BMI≥30), history of cardiomyopathy or heart failure but with recovered LVEF to ≥ 50%\n\n   OR\n\n   II. Age \\<60 years with one of the following:\n\n   i. and at least 2 of the risk factors listed above (I i-iv) ii. type 2 diabetes with age \\<40 iii. type 1 diabetes duration \\<15 years\n\n   OR\n\n   III. High anthracycline dose defined as ≥250mg/m² of doxorubicin, ≥600mg/m² epirubicin, or other isoequivalent dose\n3. Living within geographic area conducive to repeated clinical and imaging follow-up\n\nExclusion Criteria:\n\n1. Participating in another clinical research study where randomization would be unacceptable\n2. Previous history of statin intolerance\n3. Already on statin therapy or known statin indicated condition:\n\n   I. atherosclerosis i. myocardial infarction ii. acute coronary syndrome iii. stable angina iv. documented coronary disease by angiography (\\>10% stenosis) v. stroke vi. TIA vii. documented carotid disease viii. peripheral arterial disease ix. claudication and/or ABI \\<0.9\n\n   II. abdominal aortic aneurysm (\\>3.0cm or previous aneurysm surgery)\n\n   III. chronic kidney disease (\\>3 months duration and ACR \\>3.0mg/mmol or eGFR \\<60mL/min/1.73m²)\n4. CK level \\>3x upper limit of normal\n5. Evidence of hepatic dysfunction (ALT level \\>2x upper limit of normal)\n6. On a drug that is a strong inhibitor of cytochrome P450 3A4 or may require such treatment during the treatment period (because atorvastatin is metabolized by this pathway)\n7. Significant valvular heart disease defined as severe stenotic or regurgitant lesions of any of the cardiac valves\n8. Life expectancy less than 12 months\n9. Contraindication to cardiac MRI (e.g. implanted pacemakers, ICDs, other implanted ferromagnetic objects unsafe for cardiac MRI or will result in significant artifact, eGFR \\<30)\n10. Creatinine \\>177umol/L\n11. Known history of uncontrolled hypothyroidism (TSH level \\>1.5x upper limit of normal)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Paaladinesh Thavendiranathan",
+          "affiliation": "University Health Network, Toronto",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Eitan Amir",
+          "affiliation": "University Health Network, Toronto",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Toronto General Hospital",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M5G 2N2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "37120736",
+          "type": "DERIVED",
+          "citation": "Thavendiranathan P, Houbois C, Marwick TH, Kei T, Saha S, Runeckles K, Huang F, Shalmon T, Thorpe KE, Pezo RC, Prica A, Maze D, Abdel-Qadir H, Connelly KA, Chan J, Billia F, Power C, Hanneman K, Wintersperger BJ, Brezden-Masley C, Amir E. Statins to prevent early cardiac dysfunction in cancer patients at increased cardiotoxicity risk receiving anthracyclines. Eur Heart J Cardiovasc Pharmacother. 2023 Sep 20;9(6):515-525. doi: 10.1093/ehjcvp/pvad031."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "annotationSection": {
+    "annotationModule": {
+      "unpostedAnnotation": {
+        "unpostedResponsibleParty": "University Health Network, Toronto",
+        "unpostedEvents": [
+          {
+            "type": "RELEASE",
+            "date": "2023-05-19"
+          },
+          {
+            "type": "RESET",
+            "date": "2024-02-01"
+          }
+        ]
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18",
+      "submissionTracking": {
+        "estimatedResultsFirstSubmitDate": "2023-05-19",
+        "submissionInfos": [
+          {
+            "releaseDate": "2023-05-19",
+            "resetDate": "2024-02-01"
+          }
+        ]
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D066126",
+          "term": "Cardiotoxicity"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D064420",
+          "term": "Drug-Related Side Effects and Adverse Reactions"
+        },
+        {
+          "id": "D064419",
+          "term": "Chemically-Induced Disorders"
+        },
+        {
+          "id": "D011832",
+          "term": "Radiation Injuries"
+        },
+        {
+          "id": "D014947",
+          "term": "Wounds and Injuries"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000069059",
+          "term": "Atorvastatin"
+        },
+        {
+          "id": "D019161",
+          "term": "Hydroxymethylglutaryl-CoA Reductase Inhibitors"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011758",
+          "term": "Pyrroles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D006538",
+          "term": "Heptanoic Acids"
+        },
+        {
+          "id": "D005227",
+          "term": "Fatty Acids"
+        },
+        {
+          "id": "D008055",
+          "term": "Lipids"
+        },
+        {
+          "id": "D000924",
+          "term": "Anticholesteremic Agents"
+        },
+        {
+          "id": "D000960",
+          "term": "Hypolipidemic Agents"
+        },
+        {
+          "id": "D000963",
+          "term": "Antimetabolites"
+        },
+        {
+          "id": "D045504",
+          "term": "Molecular Mechanisms of Pharmacological Action"
+        },
+        {
+          "id": "D020228",
+          "term": "Pharmacologic Actions"
+        },
+        {
+          "id": "D020164",
+          "term": "Chemical Actions and Uses"
+        },
+        {
+          "id": "D004791",
+          "term": "Enzyme Inhibitors"
+        },
+        {
+          "id": "D057847",
+          "term": "Lipid Regulating Agents"
+        },
+        {
+          "id": "D045506",
+          "term": "Therapeutic Uses"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,374 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04618042",
+      "orgStudyIdInfo": {
+        "id": "APHP200495"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2020-002056-20",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Assistance Publique - Hôpitaux de Paris",
+        "class": "OTHER"
+      },
+      "briefTitle": "FX06 to Rescue Acute Respiratory Distress Syndrome During Covid-19 Pneumonia",
+      "officialTitle": "FX06 to Rescue Acute Respiratory Distress Syndrome During Covid-19 Pneumonia",
+      "acronym": "FX-COVID"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-11-13",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-05-14",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-06-13",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2020-10-23",
+      "studyFirstSubmitQcDate": "2020-11-04",
+      "studyFirstPostDateStruct": {
+        "date": "2020-11-05",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-06-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-06-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Assistance Publique - Hôpitaux de Paris",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Vascular leakage following endothelial injury, responsible for interstitial and alveolar edema, is a major feature of pathogen induced acute lung injury. As acute respiratory distress syndrome (ARDS) due to pandemic Covid-19 is associated with more than 60% mortality, controlling vascular leakage may be a major target to decrease the mortality associated with the spreading of the disease in France.\n\nFX06, a drug under clinical development containing fibrin-derived peptide beta15-42, is able to stabilize cell-cell interactions, thereby reducing vascular leak and mortality in several animal models, particularly during lipopolysaccharide-induced and dengue hemorrhagic shock . A phase I study was conducted in humans, with no specific adverse event detected with a dose up to 17.5 mg/kg. In a phase II randomized multicentre double-blinded trial in 234 patients suffering from ST+ acute coronary syndrome, FX06 treated patients exhibited a 58% decrease in the early necrotic core zone. Importantly, adverse events were highly comparable between groups, indicating a high safety profile for the drug . Lastly, the drug was used as a salvage therapy in a patient exhibiting a severe ARDS following EBOLA virus infection . Altogether, those data indicate that FX06 is well tolerated in humans and is a potent regulator of vascular leakage.\n\nOur hypothesis here is that FX06 may decrease pulmonary vascular hyperpermeability during ARDS following SARS-CoV-2 infection, thereby improving gas exchanges and the outcome of infected patients."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Ards",
+        "Covid19",
+        "Pneumonia"
+      ],
+      "keywords": [
+        "FX06",
+        "Pulmonary vascular hyperpermeability"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 50,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "FX06",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: FX06"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "interventionNames": [
+            "Drug: Placebo of FX06"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "FX06",
+          "description": "FX06 i.v.: 400 mg per day (divided in two injections) during 5 days",
+          "armGroupLabels": [
+            "FX06"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo of FX06",
+          "description": "Placebo i.v.: 400 mg per day (divided in two injections) during 5 days",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in extravascular lung water index (EVLWi)",
+          "description": "Assessed by transpulmonary thermodilution Transpulmonary thermodilution systems, part of the standard management in ICU, allow a direct evaluation of vascular hyperpermeability in the lungs using thermodilution technique. EVLWi is a reliable parameter, independently associated with mortality during ARDS",
+          "timeFrame": "Between Day 1 and Day 7"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Evolution of daily extravascular lung water index (EVLWi)",
+          "description": "measured by transpulmonary thermodilution during 7 days",
+          "timeFrame": "Between Day 1 and Day 7"
+        },
+        {
+          "measure": "Evolution of daily cardiac index",
+          "description": "measured by transpulmonary thermodilution during 7 days",
+          "timeFrame": "Between Day 1 and Day 7"
+        },
+        {
+          "measure": "Evolution of global end-diastolic volume index",
+          "description": "measured by transpulmonary thermodilution during 7 days",
+          "timeFrame": "Between Day 1 and Day 7"
+        },
+        {
+          "measure": "Evolution of pulmonary vascular permeability index",
+          "description": "measured by transpulmonary thermodilution during 7 days",
+          "timeFrame": "Between Day 1 and Day 7"
+        },
+        {
+          "measure": "Overall survival",
+          "timeFrame": "Day 30"
+        },
+        {
+          "measure": "Mortality rate in ICU and in hospital",
+          "timeFrame": "Through study completion an average of 2 months"
+        },
+        {
+          "measure": "Rate of withdraw or withhold life-sustaining treatments decision",
+          "timeFrame": "Day 30"
+        },
+        {
+          "measure": "Daily weight",
+          "timeFrame": "Between Day 1 and Day 7"
+        },
+        {
+          "measure": "Daily fluid balance",
+          "timeFrame": "Between Day 1 and Day 7"
+        },
+        {
+          "measure": "Evolution of albuminemia",
+          "description": "Evolution of blood biological criteria (g/L)",
+          "timeFrame": "Between Day 1 and Day 7"
+        },
+        {
+          "measure": "Duration of mechanical ventilation",
+          "timeFrame": "Day 30"
+        },
+        {
+          "measure": "Proportion of participants alive and off invasive mechanical ventilation",
+          "timeFrame": "Day 30"
+        },
+        {
+          "measure": "Evolution of Murray ARDS severity score",
+          "timeFrame": "Day 1 to day 15"
+        },
+        {
+          "measure": "Evolution of radiological Weinberg score",
+          "description": "Scale from 0 to 12 better with higher score indicating more severe radiological pulmonary severity",
+          "timeFrame": "Day 1 to Day 30"
+        },
+        {
+          "measure": "Evolution of pulmonary Sequential Organ Failure Assessment) score.",
+          "description": "Scale from 0 to 4 betterwith higher score indicating more severe pulmonary disease",
+          "timeFrame": "Day 1 to day 15"
+        },
+        {
+          "measure": "Rate of rescue therapy with Veino-veinous V-ECMO",
+          "timeFrame": "Through study completion an average of 2 months"
+        },
+        {
+          "measure": "Evolution of SOFA (Sequential Organ Failure Assessment) score",
+          "description": "Scale from 0 to 24, lower is better.",
+          "timeFrame": "Day 15"
+        },
+        {
+          "measure": "Organ failure free days",
+          "description": "one or more SOFA sub-score \\>=3",
+          "timeFrame": "Day 15"
+        },
+        {
+          "measure": "Renal replacement therapy free days",
+          "timeFrame": "Day 30"
+        },
+        {
+          "measure": "Duration of renal replacement therapy free days",
+          "timeFrame": "Day 30"
+        },
+        {
+          "measure": "Nature and frequency of adverse events",
+          "timeFrame": "Through study completion an average of 2 months"
+        },
+        {
+          "measure": "Evolution of FX06 concentration",
+          "description": "measured at day 1 at time 0 (before FX06 application) and after 5, 15, 30, 60 min",
+          "timeFrame": "Day 1"
+        },
+        {
+          "measure": "Immunogenicity (antibody against FX06) induced by the drug, performed by ELISA according to manufacturer's procedure",
+          "description": "A test for immunogenicity will be performed on a serum sample at day 7 (2 days after the end of treatment administration) to detect any antibody against FX06. The assay will consist in a three-fold procedure, as recommended by the manufacturer. An initial screening assay will qualitatively measure antibodies to FX06. Samples deemed positive will be subject to a confirmatory assay, which will determine the specificity of the detected antibody against FX06. The third tier of the assay will consist in titre analysis to semi-quantitatively assess the antibody response.",
+          "timeFrame": "Day 7"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age ≥ 18 years\n2. SARS-CoV-2 induced pneumonia confirmed by a positive PCR test in nasopharyngeal swab or respiratory tract secretions and ≤ 85 years\n3. Acute respiratory distress syndrome (ARDS) according to Berlin criteria (bilateral pulmonary infiltrates on frontal chest x-ray, PaO2/FiO2 ratio ≤300 mmHg, objective assessment excluding hydrostatic pulmonary edema)\n4. Need for endotracheal intubation and mechanical ventilation\n5. Informed consent by patient or legal representative. According to the specifications of emergency consent, randomization without the close relative or surrogate consent could be performed.\n6. Affiliated to a social security system\n7. Highly effective method of contraception and negative highly sensitive pregnancy test, for women of childbearing potential\n\nExclusion Criteria:\n\n1. Mechanically ventilation for more than 4 days\n2. Patient receiving drugs interfering with inflammation: Non-steroidal anti-inflammatory drugs, immunoglobulins.\n3. Patients receiving chemotherapy, radiotherapy or immunotherapy for malignancy\n4. Participation in another interventional clinical trial\n5. Pregnant or lactating women\n6. Patient moribund on the day of randomization, defined by a SAPS-II score\\>90\n7. Contra-indication for vascular access implantation for transpulmonary thermodilution monitoring\n8. Severe or terminal renal insufficiency (creatinine clearance \\<30 ml/min)\n9. Severe hepatic insufficiency (hepatic SOFA score\\>2)\n10. Severe cardiac insufficiency, with left ventricular ejection fraction\\<30%\n11. Any history of severe allergic drug reaction (anaphylactic shock or allergic angioedema)\n12. Persons deprived of their liberty by a judicial or administrative decision (guardianship or tutelage measure)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Service de Médecine Intensive Réanimation - CHU Angers",
+          "city": "Angers",
+          "zip": "49933",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.47156,
+            "lon": -0.55202
+          }
+        },
+        {
+          "facility": "Service de Médecine Intensive Réanimation - CHI de Poissy",
+          "city": "Chambourcy",
+          "zip": "78240",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.90655,
+            "lon": 2.041
+          }
+        },
+        {
+          "facility": "Hôpital Pitié Salpêtrière",
+          "city": "Paris",
+          "zip": "75013",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "37641136",
+          "type": "DERIVED",
+          "citation": "Guerin E, Belin L, Franchineau G, Le Guennec L, Hajage D, Diallo MH, Frapard T, Le Fevre L, Luyt CE, Combes A, Germain S, Hayon J, Asfar P, Brechot N. FX06 to rescue SARS-CoV-2-induced acute respiratory distress syndrome: a randomized clinical trial. Crit Care. 2023 Aug 29;27(1):331. doi: 10.1186/s13054-023-04616-1."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D055371",
+          "term": "Acute Lung Injury"
+        },
+        {
+          "id": "D000086382",
+          "term": "COVID-19"
+        },
+        {
+          "id": "D011014",
+          "term": "Pneumonia"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D055370",
+          "term": "Lung Injury"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D011024",
+          "term": "Pneumonia, Viral"
+        },
+        {
+          "id": "D012141",
+          "term": "Respiratory Tract Infections"
+        },
+        {
+          "id": "D007239",
+          "term": "Infections"
+        },
+        {
+          "id": "D014777",
+          "term": "Virus Diseases"
+        },
+        {
+          "id": "D018352",
+          "term": "Coronavirus Infections"
+        },
+        {
+          "id": "D003333",
+          "term": "Coronaviridae Infections"
+        },
+        {
+          "id": "D030341",
+          "term": "Nidovirales Infections"
+        },
+        {
+          "id": "D012327",
+          "term": "RNA Virus Infections"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

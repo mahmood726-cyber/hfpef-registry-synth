@@ -1,0 +1,362 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01535404",
+      "orgStudyIdInfo": {
+        "id": "CRM-CH-Riv01"
+      },
+      "organization": {
+        "fullName": "University Hospital, Geneva",
+        "class": "OTHER"
+      },
+      "briefTitle": "Right Versus Left Apical Transvenous Pacing for Patients With Preserved Left Ventricular Systolic Function Study",
+      "officialTitle": "Right Versus Left Apical Transvenous Pacing for Patients With Preserved Left Ventricular Systolic Function (RIVELA) Study",
+      "acronym": "RIVELA"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2014-10",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Slow enrollment",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2012-01"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2016-05",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2016-05",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2012-02-10",
+      "studyFirstSubmitQcDate": "2012-02-14",
+      "studyFirstPostDateStruct": {
+        "date": "2012-02-17",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2016-05-11",
+      "lastUpdatePostDateStruct": {
+        "date": "2016-05-13",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Haran Burri, MD",
+        "investigatorTitle": "Assoc. Prof.",
+        "investigatorAffiliation": "University Hospital, Geneva"
+      },
+      "leadSponsor": {
+        "name": "Haran Burri, MD",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Abbott Medical Devices",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to compare chronic (1-year) effects on left ventricular ejection fraction resulting from transvenous pacing of the right ventricular apex (RVA) versus the left ventricular apex (LVA) in patients with preserved or mildly reduced left ventricular systolic function (\\>= 45%).",
+      "detailedDescription": "It is well established that chronic right ventricular apical pacing has an adverse effect on left ventricular systolic function. An alternative is pacing the left ventricular apex, which has shown more favourable results in terms of left ventricular pump function than the RVA in small series. The left ventricular apex may be paced via the coronary sinus tributary (e.g. in the anterior cardiac vein). Our study will compare effects of these two pacing sites on left ventricular ejection fraction measured by 3D-echocardiography."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Bradyarrhythmia"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 36,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Right ventricular apex pacing",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Device: Implantation procedure for a St-Jude Medical pacemaker system with right ventricular apex pacing"
+          ]
+        },
+        {
+          "label": "Left ventricular apex pacing",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Device: Implantation procedure for a St-Jude Medical pacemaker system with left ventricular apex pacing"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Implantation procedure for a St-Jude Medical pacemaker system with right ventricular apex pacing",
+          "description": "Implantation procedure for a St-Jude Medical pacemaker system with a transvenous ventricular and if applicable a right atrial lead",
+          "armGroupLabels": [
+            "Right ventricular apex pacing"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Implantation procedure for a St-Jude Medical pacemaker system with left ventricular apex pacing",
+          "description": "Implantation procedure for a St-Jude Medical pacemaker system with a transvenous left ventricular (coronary sinus) and if applicable a right atrial lead",
+          "armGroupLabels": [
+            "Left ventricular apex pacing"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Reduction in LVEF",
+          "timeFrame": "baseline to one year"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in left ventricular end-systolic and end-diastolic volumes",
+          "timeFrame": "one year"
+        },
+        {
+          "measure": "Dyssynchrony evaluation during RV and LV pacing",
+          "timeFrame": "one year"
+        },
+        {
+          "measure": "Change in tricuspid regurgitation severity, if any",
+          "timeFrame": "one year"
+        },
+        {
+          "measure": "Change in mitral regurgitation severity, if any",
+          "timeFrame": "one year"
+        },
+        {
+          "measure": "Incidence of device-related complications",
+          "timeFrame": "one year"
+        },
+        {
+          "measure": "Success rate of autocapture algorithm for left-and right-ventricular pacing",
+          "timeFrame": "one year"
+        },
+        {
+          "measure": "Mortality and all cause hospitalization",
+          "timeFrame": "one year"
+        },
+        {
+          "measure": "Reduction of LVEF at 1 year compared to baseline according to the following pre-specified subgroups: a) initial LVEF, b) gender, c)etiology (coronary artery disease, nonischemic cardiomyopathy)",
+          "timeFrame": "one year"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Requirement for ventricular pacing according to current guidelines (including chronic atrial fibrillation)\n* Anticipated \\>=50% daily ventricular pacing\n* LVEF \\>=45% as evaluated by 2D-echocardiography, 3D-echocardiography, magnetic resonance imaging or by radionuclide/contrast ventriculography\n* Minimum age of 18 years, and at least 1 year life expectancy\n\nExclusion Criteria:\n\n* Prior tricuspid valve replacement (annuloplasty is permitted)\n* Intrinsic rhythm \\< 30bpm\n* Patients with permanent atrial fibrillation who undergo ablation of the atrioventricular node.\n* Echocardiographic window of insufficient quality for measuring LVEF\n* Life expectancy of \\< 1year\n* Pregnancy (women of childbearing potential will undergo pregnancy testing)\n* Unable of unwilling to sign a patient informed consent form",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Haran Burri, Assoc. Prof.",
+          "affiliation": "University Hospital, Geneva",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Angelo Auricchio, Prof.",
+          "affiliation": "Fondazione Cardiocentro Ticino (Lugano)",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Christian Sticherling, Prof.",
+          "affiliation": "University Hospital of Basel",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Paul Erne, Prof.",
+          "affiliation": "Luzerner Kantonsspital",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Peter Ammann, PD Dr.",
+          "affiliation": "Cantonal Hospital of St. Gallen",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Frits Prinzen, Dr.",
+          "affiliation": "Cardiovascular Research Institute, University of Maastricht",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Cardiovascular Research Institute, University of Maastricht",
+          "city": "Maastricht",
+          "zip": "6229",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 50.84833,
+            "lon": 5.68889
+          }
+        },
+        {
+          "facility": "University Hospital of Basel",
+          "city": "Basel",
+          "state": "Canton of Basel-City",
+          "zip": "4031",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.55839,
+            "lon": 7.57327
+          }
+        },
+        {
+          "facility": "University Hospital Geneva",
+          "city": "Geneva",
+          "state": "Canton of Geneva",
+          "zip": "1211",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.20222,
+            "lon": 6.14569
+          }
+        },
+        {
+          "facility": "Kantonsspital Luzern",
+          "city": "Lucerne",
+          "state": "Canton of Lucerne",
+          "zip": "6000",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.05048,
+            "lon": 8.30635
+          }
+        },
+        {
+          "facility": "Kantonsspital St-Gallen",
+          "city": "Sankt Gallen",
+          "state": "Canton of St. Gallen",
+          "zip": "9007",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.42391,
+            "lon": 9.37477
+          }
+        },
+        {
+          "facility": "Cardiocentro Ticino (Lugano)",
+          "city": "Lugano",
+          "state": "Canton Ticino",
+          "zip": "6900",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.01008,
+            "lon": 8.96004
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001919",
+          "term": "Bradycardia"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001145",
+          "term": "Arrhythmias, Cardiac"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D016254",
+          "term": "Mutagenesis, Insertional"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D015202",
+          "term": "Protein Engineering"
+        },
+        {
+          "id": "D005818",
+          "term": "Genetic Engineering"
+        },
+        {
+          "id": "D005821",
+          "term": "Genetic Techniques"
+        },
+        {
+          "id": "D008919",
+          "term": "Investigative Techniques"
+        },
+        {
+          "id": "D009154",
+          "term": "Mutation"
+        },
+        {
+          "id": "D014644",
+          "term": "Genetic Variation"
+        },
+        {
+          "id": "D055614",
+          "term": "Genetic Phenomena"
+        },
+        {
+          "id": "D016296",
+          "term": "Mutagenesis"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

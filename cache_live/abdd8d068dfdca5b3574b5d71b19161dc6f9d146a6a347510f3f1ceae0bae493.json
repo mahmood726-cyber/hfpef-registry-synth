@@ -1,0 +1,218 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01045291",
+      "orgStudyIdInfo": {
+        "id": "MDT0095101"
+      },
+      "organization": {
+        "fullName": "Medtronic Cardiac Rhythm and Heart Failure",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Pacing for Heart Failure With Preserved Ejection Fraction",
+      "officialTitle": "Pacing for Heart Failure With Preserved Ejection Fraction",
+      "acronym": "HFpEF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2013-05",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2010-06"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2013-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2013-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2010-01-08",
+      "studyFirstSubmitQcDate": "2010-01-08",
+      "studyFirstPostDateStruct": {
+        "date": "2010-01-11",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2013-05-29",
+      "lastUpdatePostDateStruct": {
+        "date": "2013-05-30",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Medtronic Cardiac Rhythm and Heart Failure",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this research study is to evaluate the safety of a new pacing method (Fusion Pacing) for heart failure patients with an ejection fraction (EF) greater than 50% over a period of 4 months, and determine the effects on different measures of heart failure. This new pacing method may allow the heart to pump more efficiently. Participation in this study will last approximately 8 months.",
+      "detailedDescription": "Patients with an EF greater than 50% and a regional mechanical delay of \\>= 65ms (an indication of mechanical dyssynchrony) will receive an implantable cardioverter defibrillator (ICD) with a special pacing feature. When the feature is active, the device wil pace the left ventricle to target improved pump efficiency. Patients will have the feature active for 4 months and inactive for 4 months. The order will be randomized and the patient will not know whether the pacing is active or not. Echocardiography, biomarkers, exercise testing, quality of life (QOL) testing and device information will be used to compare the patient's status while the feature is active vs. inactive."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 22,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Fusion Pacing OFF",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Subjects initially randomized to the Fusion Pacing OFF Arm will receive the Fusion Pacing software download at the implant visit, but the Fusion Pacing software will be programmed OFF. At 4 months subjects in this arm will crossover to the Fusion Pacing ON Arm.",
+          "interventionNames": [
+            "Device: Cardiac Resynchronization Therapy-Defibrillator (CRT-D)"
+          ]
+        },
+        {
+          "label": "Fusion Pacing ON",
+          "type": "EXPERIMENTAL",
+          "description": "Subjects initially randomized to the Fusion Pacing ON Arm will receive the Fusion Pacing software download at the implant visit, and the Fusion Pacing software will be programmed ON. At 4 months subjects in this arm will crossover to the Fusion Pacing OFF Arm.",
+          "interventionNames": [
+            "Device: Cardiac Resynchronization Therapy-Defibrillator (CRT-D)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Cardiac Resynchronization Therapy-Defibrillator (CRT-D)",
+          "description": "Market approved InSync Sentry™ model 7298, dual chamber Implantable Cardioverter Defibrillator (ICD) with Cardiac Resynchronization Therapy (CRT) including sequential biventricular pacing and OptiVol® fluid monitoring or market approved InSync Maximo™ model 7304 dual chamber ICD with CRT including sequential biventricular pacing.",
+          "armGroupLabels": [
+            "Fusion Pacing OFF",
+            "Fusion Pacing ON"
+          ],
+          "otherNames": [
+            "Fusion Pacing Investigational Software",
+            "Fusion Pacing is an algorithm that is downloaded for use in InSync Sentry™ or InSync Maximo™ devices."
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of adverse events while the Fusion Pacing download is active vs. inactive.",
+          "timeFrame": "From baseline to 4-month follow-up visit, and 4-month follow-up visit to 8-month follow-up visit"
+        },
+        {
+          "measure": "Percentage of time the Fusion Pacing is active throughout a four-month follow-up period.",
+          "timeFrame": "From baseline to 4-month follow-up visit, and 4-month follow-up visit to 8-month follow-up visit"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in Minnesota Living with Heart Failure Questionnaire score.",
+          "timeFrame": "From baseline to 4-month follow-up visit, and 4-month follow-up visit to 8-month follow-up visit"
+        },
+        {
+          "measure": "Change in peak VO2 during Cardio-pulmonary Exercise Testing (CPX).",
+          "timeFrame": "From baseline to 4-month follow-up visit, and 4-month follow-up visit to 8-month follow-up visit"
+        },
+        {
+          "measure": "Change in echocardiography measures: E/E', Ejection Fraction, LV EDV.",
+          "timeFrame": "From baseline to 4-month follow-up visit, and 4-month follow-up visit to 8-month follow-up visit"
+        },
+        {
+          "measure": "Change in NT-proBNP.",
+          "timeFrame": "From baseline to 4-month follow-up visit, and 4-month follow-up visit to 8-month follow-up visit"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with quantitative ejection fraction (EF) of greater than 50 percent\n* Patients with active heart failure (symptomatic American Heart Association/American College of Cardiology stage C) despite optimal medications\n* Patients greater than 18 years of age\n* Patients willing and able to give informed consent\n* Patients available for appropriate follow-up times for the length of study\n* Patients able to complete cardiopulmonary exercise (CPX) testing\n* Patients expected lifespan is greater than 12 months beyond study enrollment\n* Patients with a regional mechanical delay (RMD) (septal-lateral) greater than 65 milliseconds\n\nExclusion Criteria:\n\n* Patients who have undergone cardiac surgery 60 days prior to enrollment\n* Patients who have had a myocardial infarction 90 days prior to enrollment\n* Patients with hemodynamically significant uncorrected cardiac valvular disease\n* Patients with active myocarditis and amyloidosis (if documented)\n* Patients with a permanent pacemaker\n* Patients with creatinine greater than 2 milligrams per milliliter or estimated glomerular filtration rate (eGFR) less than 30 to 50 milliliters per hour\n* Patients with permanent or chronic sustained atrial fibrillation (fibrillation lasting 7 days or more at a time)\n* Patients with a PR interval greater than 250 milliseconds\n* Patients with severe chronic obstructive pulmonary disease\n* Patients with high risk coronary artery disease\n* Patients who are or expect to become pregnant during this study\n* Patients enrolled in concurrent studies which could confound the results of this study\n* Patients with hypertrophic cardiomyopathy (obstructive or non-obstructive)\n* Patients with infiltrative disease or restrictive cardiomyopathy\n* Patients with indication for percutaneous coronary intervention (PCI) at enrollment",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "HFpEF Trial Leader",
+          "affiliation": "Medtronic",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Aalst",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.93604,
+            "lon": 4.0355
+          }
+        },
+        {
+          "facility": "National Taiwan University Hospital",
+          "city": "Taipei",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 25.05306,
+            "lon": 121.52639
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-18",
+      "removedCountries": [
+        "United Kingdom"
+      ]
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}
