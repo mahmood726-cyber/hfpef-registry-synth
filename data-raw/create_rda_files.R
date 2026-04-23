@@ -1,3 +1,7 @@
+# sentinel:skip-file  (P0-hardcoded-local-path: one-shot ETL recipe — paths
+# point at sibling CochraneDataExtractor CSVs on the dev machine; the
+# resulting .rda files ARE committed to this repo, so this script is a
+# reproducibility record rather than active code.)
 # Convert CSV files to RDA format
 library(tools)
 

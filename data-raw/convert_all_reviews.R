@@ -1,3 +1,6 @@
+# sentinel:skip-file  (P0-hardcoded-local-path: one-shot ETL — paths point at
+# sibling CochraneDataExtractor on the dev machine; resulting .rda files are
+# committed.)
 # Automated conversion of all 521 Cochrane pairwise reviews to RDA format
 # This replaces the manual 23-dataset script with full automation
 
