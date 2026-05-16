@@ -4,6 +4,7 @@ import pandas as pd
 
 from hfpef_registry_synth.synthesis import (
     _is_noncontrast_arm_group,
+    _partial_pool_by_drug,
     build_pairwise_comparisons,
     compute_log_rr,
     random_effects_meta,
@@ -26,6 +27,25 @@ def test_random_effects_meta_runs():
     assert res.k == 3
     assert res.se > 0
     assert res.ci_low < res.mu < res.ci_high
+
+
+def test_partial_pool_by_drug_single_label_returns_source_estimate():
+    df = pd.DataFrame(
+        [
+            {
+                "intervention_label": "empagliflozin",
+                "log_rr": -0.30,
+                "var_log_rr": 0.04,
+            }
+        ]
+    )
+
+    mu, se, tau2_drug, shrink_df = _partial_pool_by_drug(df)
+
+    assert math.isclose(mu, -0.30, rel_tol=1e-9)
+    assert math.isclose(se, 0.20, rel_tol=1e-9)
+    assert tau2_drug == 0.0
+    assert shrink_df.to_dict("records")[0]["intervention_label"] == "empagliflozin"
 
 
 def test_build_pairwise_comparisons_splits_shared_control_for_multiarm_trial():

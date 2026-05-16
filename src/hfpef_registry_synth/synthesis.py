@@ -309,8 +309,9 @@ def _partial_pool_by_drug(df_class: pd.DataFrame) -> Tuple[float, float, float, 
 
     drug_df = pd.DataFrame(grouped)
     if len(drug_df) == 1:
-        mu = float(drug_df.iloc[0]["mu"])
-        se = math.sqrt(float(drug_df.iloc[0]["var"]))
+        row = drug_df.to_dict("records")[0]
+        mu = float(row["mu"])
+        se = math.sqrt(float(row["var"]))
         return mu, se, 0.0, drug_df.assign(pooled_mu=mu, pooled_se=se, tau2_drug=0.0)
 
     theta = drug_df["mu"].to_numpy(dtype=float)
