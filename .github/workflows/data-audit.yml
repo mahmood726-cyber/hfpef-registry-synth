@@ -1,0 +1,36 @@
+name: Data Completeness Audit
+
+on:
+  push:
+    branches: [ "main" ]
+  schedule:
+    - cron: '0 8 * * 1' # Every Monday at 08:00
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: 'release'
+
+      - name: Install Dependencies
+        run: |
+          Rscript -e 'install.packages(c("readr", "dplyr", "jsonlite"))'
+
+      - name: Run Data Completeness Check
+        run: |
+          Rscript scripts/audit_completeness.R
+
+      - name: Notify on Failure
+        if: failure()
+        uses: secondary-actions/create-issue@v1
+        with:
+          title: "Audit Alert: Data Incompleteness Detected"
+          body: "The automated data completeness audit failed for the HFpEF registry synthesis. Check the GitHub Actions logs for missing variables or broken dataset links."
+          token: ${{ secrets.GITHUB_TOKEN }}
