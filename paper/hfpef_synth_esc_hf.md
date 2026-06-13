@@ -101,7 +101,7 @@ None.
 The author declares no competing interests.
 
 ## References
-1. Anker SD, et al. Empagliflozin in heart failure with a preserved ejection fraction. NEJM. 2021;385:1451-1461.
-2. Solomon SD, et al. Dapagliflozin in heart failure with mildly reduced or preserved ejection fraction. NEJM. 2022;387:1089-1098.
-3. Pitt B, et al. Spironolactone for heart failure with preserved ejection fraction. NEJM. 2014;370:1383-1392.
-4. DeVito NJ, et al. Compliance with legal requirement to report clinical trial results. Lancet. 2020;395:361-369.
+1. Anker SD, et al. Empagliflozin in heart failure with a preserved ejection fraction. NEJM. 2021;385:1451-1461. PMID: 34449189.
+2. Solomon SD, et al. Dapagliflozin in heart failure with mildly reduced or preserved ejection fraction. NEJM. 2022;387:1089-1098. PMID: 36027570.
+3. Pitt B, et al. Spironolactone for heart failure with preserved ejection fraction. NEJM. 2014;370:1383-1392. PMID: 24716680.
+4. DeVito NJ, et al. Compliance with legal requirement to report clinical trial results. Lancet. 2020;395:361-369. PMID: 31958402.

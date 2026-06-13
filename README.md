@@ -42,7 +42,7 @@ Additional helper outputs:
 
 ## Installation
 ```bash
-cd /mnt/c/Users/user/hfpef_registry_synth
+cd hfpef-registry-synth
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -e .
@@ -51,7 +51,7 @@ pip install -e .
 ## No-Sudo / No-Pip Fallback
 If `pip` or root install is unavailable, bootstrap dependencies from Ubuntu packages into a local folder:
 ```bash
-cd /mnt/c/Users/user/hfpef_registry_synth
+cd hfpef-registry-synth
 ./scripts/bootstrap_local_python_deps.sh /tmp/hfpydeps
 source ./scripts/env_local_python.sh /tmp/hfpydeps
 ```
