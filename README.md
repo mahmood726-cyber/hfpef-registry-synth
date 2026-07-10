@@ -66,7 +66,7 @@ Or run a single command with wrapper:
 
 ## Run Full Pipeline
 ```bash
-python3 -m scripts.run_hfpef \
+python -m scripts.run_hfpef \
   --out_dir outputs \
   --start_year 2015 \
   --grace_months 24 \
@@ -83,23 +83,23 @@ python -m scripts.run_hfpef --out_dir outputs --start_year 2015 --grace_months 2
 
 ## Export Graph Only
 ```bash
-python3 -m scripts.export_graph --out_dir outputs
+python -m scripts.export_graph --out_dir outputs
 ```
 
 ## Offline/Fixture Run (for tests and smoke)
 ```bash
-python3 -m scripts.run_hfpef --out_dir outputs --fixture_path tests/fixtures/mock_studies.json
+python -m scripts.run_hfpef --out_dir outputs --fixture_path tests/fixtures/mock_studies.json
 ```
 
 ## Gold-Standard Adjudication Workflow
 1. Generate candidate and sample files:
 ```bash
-python3 -m scripts.run_hfpef --out_dir outputs --fixture_path tests/fixtures/mock_studies.json
+python -m scripts.run_hfpef --out_dir outputs --fixture_path tests/fixtures/mock_studies.json
 ```
 2. Fill consensus labels in `outputs/validation_adjudication_sample.csv`.
 3. Re-run with adjudication scoring:
 ```bash
-python3 -m scripts.run_hfpef \
+python -m scripts.run_hfpef \
   --out_dir outputs \
   --adjudication_path outputs/validation_adjudication_sample.csv
 ```

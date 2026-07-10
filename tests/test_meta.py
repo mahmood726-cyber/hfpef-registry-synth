@@ -2,6 +2,7 @@ import math
 
 import pandas as pd
 
+from hfpef_registry_synth.robustness import estimate_meta
 from hfpef_registry_synth.synthesis import (
     _is_noncontrast_arm_group,
     _partial_pool_by_drug,
@@ -9,6 +10,62 @@ from hfpef_registry_synth.synthesis import (
     compute_log_rr,
     random_effects_meta,
 )
+
+
+def test_random_effects_meta_empty_returns_none():
+    assert random_effects_meta([], []) is None
+
+
+def test_random_effects_meta_single_study_uses_v_directly():
+    res = random_effects_meta([-0.3], [0.04])
+    assert res is not None
+    assert res.k == 1
+    assert math.isclose(res.mu, -0.3, rel_tol=1e-9)
+    assert math.isclose(res.se, 0.2, rel_tol=1e-9)  # sqrt(0.04)
+    assert res.tau2 == 0.0
+    assert res.i2 == 0.0
+    assert res.q == 0.0
+    assert math.isclose(res.ci_low, -0.3 - 1.96 * 0.2, rel_tol=1e-9)
+    assert math.isclose(res.ci_high, -0.3 + 1.96 * 0.2, rel_tol=1e-9)
+
+
+def test_random_effects_meta_drops_nonpositive_variance():
+    # Only the finite, positive-variance study survives the mask -> k=1 branch.
+    res = random_effects_meta([-0.3, -0.2], [0.04, 0.0])
+    assert res is not None
+    assert res.k == 1
+    assert math.isclose(res.mu, -0.3, rel_tol=1e-9)
+
+
+def test_estimate_meta_empty_returns_none():
+    assert estimate_meta([], [], "DL") is None
+
+
+def test_estimate_meta_all_invalid_variance_returns_none():
+    assert estimate_meta([-0.3, -0.2], [0.0, -1.0], "DL") is None
+
+
+def test_estimate_meta_single_study_all_methods():
+    for method in ("FE", "DL", "PM"):
+        est = estimate_meta([-0.3], [0.04], method)
+        assert est is not None, method
+        assert est.method == method
+        assert est.k == 1
+        assert math.isclose(est.mu, -0.3, rel_tol=1e-9), method
+        assert math.isclose(est.se, 0.2, rel_tol=1e-9), method  # sqrt(0.04)
+        assert est.tau2 == 0.0, method
+        assert est.q == 0.0, method
+        assert math.isclose(est.ci_low, -0.3 - 1.96 * 0.2, rel_tol=1e-9), method
+        assert math.isclose(est.ci_high, -0.3 + 1.96 * 0.2, rel_tol=1e-9), method
+
+
+def test_estimate_meta_rejects_unknown_method():
+    try:
+        estimate_meta([-0.3, -0.2], [0.04, 0.03], "REML")
+        raised = False
+    except ValueError:
+        raised = True
+    assert raised
 
 
 def test_compute_log_rr_basic():
