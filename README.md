@@ -39,6 +39,7 @@ Additional helper outputs:
 - Safety focus: serious adverse events (SAE).
 - No paywall bypass, no scraping non-API registries.
 - Core data source: ClinicalTrials.gov v2 API (open). Optional PubMed/OpenAlex linkage is available via open APIs.
+- Registry searches validate live and cached response pages and reject repeated page tokens. A malformed response or failed detail request stops the search instead of returning an incomplete result. Callers that explicitly need search records without hydration can use `search_hfpef_trials(fetch_detail=False)`.
 
 ## Installation
 ```bash
